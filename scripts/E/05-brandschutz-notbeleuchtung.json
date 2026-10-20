@@ -60,6 +60,11 @@
      "en": "At the end you will find a glossary and a short quiz."
     },
     {
+     "de": "Wir arbeiten mit einfachen Beispielen und erklären die Fachwörter Schritt für Schritt.",
+     "ar": "سنعمل بأمثلة بسيطة ونشرح المصطلحات خطوة بخطوة.",
+     "en": "We use simple examples and explain the technical terms step by step."
+    },
+    {
      "de": "Heute bekommen Sie einen Überblick, kein Detailwissen.",
      "ar": "اليوم ستحصلون على نظرة عامة لا على تفاصيل دقيقة.",
      "en": "Today you get an overview, not detailed knowledge."
@@ -192,6 +197,11 @@
      "de": "Von oben nach unten wird alles konkreter.",
      "ar": "وكلما نزلنا من الأعلى إلى الأسفل أصبح كل شيء أكثر تحديدًا.",
      "en": "From top to bottom everything becomes more concrete."
+    },
+    {
+     "de": "Jede Ebene hat ihre eigene Aufgabe.",
+     "ar": "لكل مستوى مهمته الخاصة.",
+     "en": "Each level has its own task."
     },
     {
      "de": "Ihre Aufgabe: Alle vier Ebenen zusammenbringen.",
@@ -343,6 +353,11 @@
      "en": "The exact rules depend on the type of building and state law."
     },
     {
+     "de": "Gerade dort geht es um Menschenleben.",
+     "ar": "ففي هذه الأماكن تتعلق المسألة بحياة الناس.",
+     "en": "It is precisely there that human lives are at stake."
+    },
+    {
      "de": "Planen Sie diese Wege deshalb früh mit dem Brandschutz ab.",
      "ar": "لذلك نسّقوا هذه المسارات مبكرًا مع جهة الحماية من الحريق.",
      "en": "So coordinate these routes early with the fire protection planner."
@@ -413,6 +428,11 @@
      "en": "Read the version that applies in the project state, not only the model version."
     },
     {
+     "de": "Zu jedem Thema gibt es dort eigene Abschnitte.",
+     "ar": "لكل موضوع هناك أقسام خاصة به.",
+     "en": "For each topic there are separate sections there."
+    },
+    {
      "de": "Verbindlich wird sie erst durch die Einführung im jeweiligen Bundesland.",
      "ar": "لا تصبح ملزمة إلا بإدخالها في الولاية المعنية.",
      "en": "It becomes binding only when the respective state introduces it."
@@ -471,9 +491,9 @@
      "en": "This sounds bureaucratic, but it is very important in practice."
     },
     {
-     "de": "Ein Projekt in Bayern kann andere Anforderungen haben als eines in Hessen.",
-     "ar": "قد تختلف متطلبات مشروع في بافاريا عن مشروع في هيسن.",
-     "en": "A project in Bavaria can have different requirements than one in Hesse."
+     "de": "Ein Projekt in einem Land kann andere Anforderungen haben als ein Projekt in einem anderen Land.",
+     "ar": "قد تختلف متطلبات مشروع في ولاية عن متطلبات مشروع في ولاية أخرى.",
+     "en": "A project in one state can have different requirements than a project in another state."
     },
     {
      "de": "Prüfen Sie immer die Fassung im Land Ihres Projekts.",
@@ -544,6 +564,11 @@
      "en": "If the cable fails, the function fails too."
     },
     {
+     "de": "Ohne diesen Nachweis ist die Funktion im Brandfall nicht gesichert.",
+     "ar": "بدون هذا الإثبات لا تكون الوظيفة مضمونة عند الحريق.",
+     "en": "Without this proof, the function in a fire is not assured."
+    },
+    {
      "de": "Der Nachweis gilt aber nur für das geprüfte Gesamtsystem.",
      "ar": "لكن الإثبات يسري فقط على المنظومة الكاملة التي جرى اختبارها.",
      "en": "But the proof only applies to the tested complete system."
@@ -604,6 +629,11 @@
      "en": "The installer must follow the installation instructions exactly."
     },
     {
+     "de": "Bewahren Sie die Nachweise sorgfältig auf.",
+     "ar": "احتفظوا بالإثباتات بعناية.",
+     "en": "Keep the proofs carefully."
+    },
+    {
      "de": "Das hilft später bei Abnahme und Prüfung.",
      "ar": "وهذا يفيد لاحقًا عند الاستلام والفحص.",
      "en": "That helps later with acceptance and inspection."
@@ -662,14 +692,19 @@
      "en": "Standby power supply is excluded from it."
     },
     {
-     "de": "Typische Quellen sind Batterieanlagen oder Generatoren, je nach Konzept.",
-     "ar": "من المصادر المعتادة أنظمة البطاريات أو المولدات بحسب المفهوم.",
-     "en": "Typical sources are battery systems or generators, depending on the concept."
+     "de": "Welche Quelle gewählt wird, hängt vom Konzept des Gebäudes ab.",
+     "ar": "أي مصدر يُختار يعتمد على مفهوم المبنى.",
+     "en": "Which source is chosen depends on the concept of the building."
     },
     {
      "de": "Die Planung dieser Quellen gehört in die enge Abstimmung mit dem Brandschutz.",
      "ar": "يجب أن يتم تخطيط هذه المصادر بتنسيق وثيق مع الحماية من الحريق.",
      "en": "Planning these sources needs close coordination with fire protection."
+    },
+    {
+     "de": "Fragen Sie im Projekt, wer die Verantwortung für diese Anlage trägt.",
+     "ar": "اسألوا في المشروع من يتحمل المسؤولية عن هذه المنظومة.",
+     "en": "In the project, ask who is responsible for this system."
     },
     {
      "de": "Umschaltzeiten und Betriebsdauer prüfen Sie in der aktuellen Ausgabe.",
@@ -742,6 +777,11 @@
      "de": "Auch die Wartung muss später möglich sein.",
      "ar": "ويجب أن تكون الصيانة ممكنة لاحقًا أيضًا.",
      "en": "Maintenance must also be possible later."
+    },
+    {
+     "de": "Die Anforderungen an Lichtstärke und Dauer entnehmen Sie den aktuellen Normen.",
+     "ar": "متطلبات شدة الإضاءة والمدة تأخذونها من المعايير الحالية.",
+     "en": "You take the requirements for light level and duration from the current standards."
     },
     {
      "de": "Wo sie nötig ist, bestimmen Bauordnung und Brandschutzkonzept.",
@@ -889,6 +929,11 @@
      "en": "The specialist firm installs and commissions the system."
     },
     {
+     "de": "Die Auswahl der Melder richtet sich nach Nutzung und Raum.",
+     "ar": "يعتمد اختيار الكواشف على الاستخدام والمكان.",
+     "en": "The choice of detectors depends on use and room."
+    },
+    {
      "de": "Fragen Sie früh bei der zuständigen Feuerwehr nach.",
      "ar": "اسألوا مبكرًا الإطفاء المختصة.",
      "en": "Ask the responsible fire brigade early."
@@ -1029,6 +1074,11 @@
      "en": "So everyone involved checks the matrix together."
     },
     {
+     "de": "Planen Sie die Schnittstellen schon in der Entwurfsphase.",
+     "ar": "خططوا للواجهات البينية منذ مرحلة التصميم.",
+     "en": "Plan the interfaces already in the design phase."
+    },
+    {
      "de": "Hier arbeiten Elektro, Lüftung, Aufzug und Brandschutz zusammen.",
      "ar": "هنا تتعاون الكهرباء والتهوية والمصاعد والحماية من الحريق.",
      "en": "Here electrical, ventilation, lift and fire protection work together."
@@ -1099,6 +1149,11 @@
      "de": "Das Prüfprotokoll gehört danach in die Anlagendokumentation.",
      "ar": "ويُحفظ محضر الفحص بعد ذلك ضمن وثائق المنشأة.",
      "en": "The inspection report is then filed in the installation documentation."
+    },
+    {
+     "de": "Nach Änderungen an der Anlage können neue Prüfungen nötig werden.",
+     "ar": "بعد تعديل المنظومة قد تلزم فحوص جديدة.",
+     "en": "After changes to the system new inspections may become necessary."
     },
     {
      "de": "Intervalle finden Sie in den aktuellen Regeln, nicht in diesem Video.",
@@ -1221,6 +1276,16 @@
      "en": "Examples of good preparation are clear documentation and a release procedure."
     },
     {
+     "de": "Fassen Sie Absprachen immer schriftlich zusammen.",
+     "ar": "دوّنوا الاتفاقات دائمًا كتابةً.",
+     "en": "Always put agreements in writing."
+    },
+    {
+     "de": "So bleibt später nachvollziehbar, wer was entschieden hat.",
+     "ar": "وهكذا يبقى واضحًا لاحقًا من قرر ماذا.",
+     "en": "That way it stays clear later who decided what."
+    },
+    {
      "de": "Gute Abstimmung spart später Zeit und Kosten.",
      "ar": "التنسيق الجيد يوفر لاحقًا الوقت والتكاليف.",
      "en": "Good coordination saves time and costs later."
@@ -1266,6 +1331,11 @@
      "de": "Sicherheitsbeleuchtung und Brandmeldeanlage folgen dem Brandschutzkonzept.",
      "ar": "تتبع إضاءة الأمان ونظام إنذار الحريق مفهوم الحماية من الحريق.",
      "en": "Safety lighting and the fire alarm system follow the fire protection concept."
+    },
+    {
+     "de": "Dann können Sie das Wissen im Alltag anwenden.",
+     "ar": "عندها يمكنكم تطبيق المعرفة في العمل اليومي.",
+     "en": "Then you can apply the knowledge in daily work."
     },
     {
      "de": "Anerkannte Sachverständige prüfen, je nach Landesrecht.",

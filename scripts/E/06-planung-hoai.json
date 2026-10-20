@@ -40,6 +40,21 @@
      "en": "You will also see who you work with and which documents are created."
     },
     {
+     "de": "Das Video ist für Ingenieure gedacht, die in Deutschland arbeiten möchten.",
+     "ar": "الفيديو موجّه للمهندسين الذين يرغبون بالعمل في ألمانيا.",
+     "en": "The video is meant for engineers who want to work in Germany."
+    },
+    {
+     "de": "Wir erklären die Wörter einfach und Schritt für Schritt.",
+     "ar": "نشرح المصطلحات ببساطة وخطوة بخطوة.",
+     "en": "We explain the words simply and step by step."
+    },
+    {
+     "de": "Am Ende gibt es ein Glossar und ein kurzes Quiz.",
+     "ar": "وفي النهاية يوجد مسرد واختبار قصير.",
+     "en": "At the end there is a glossary and a short quiz."
+    },
+    {
      "de": "Diese Begriffe brauchen Sie jeden Tag im Planungsbüro.",
      "ar": "هذه المصطلحات ستحتاجونها كل يوم في مكتب التخطيط.",
      "en": "You will need these terms every day in a planning office."
@@ -102,7 +117,18 @@
     {
      "de": "Seit der Fassung 2021 wird das Honorar grundsätzlich frei vereinbart.",
      "ar": "ومنذ نسخة 2021 تُتفق الأتعاب عمومًا بحرية.",
-     "en": "Since the 2021 version, fees are generally agreed freely."
+     "en": "Since the 2021 version, fees are generally agreed freely.",
+     "tts": "Seit der Fassung zweitausendeinundzwanzig wird das Honorar grundsätzlich frei vereinbart."
+    },
+    {
+     "de": "Ein Beispiel: Zwei Büros planen dasselbe Gebäude, aber mit verschiedenen Verträgen.",
+     "ar": "مثال: مكتبان يخططان المبنى نفسه، لكن بعقدين مختلفين.",
+     "en": "An example: two offices plan the same building, but with different contracts."
+    },
+    {
+     "de": "Dann ist der Umfang der Arbeit trotzdem klar beschrieben, wenn der Vertrag die Phasen nennt.",
+     "ar": "يبقى نطاق العمل واضحًا إذا ذكر العقد المراحل.",
+     "en": "The scope of work is still clearly described if the contract names the phases."
     },
     {
      "de": "Die Phasen der HOAI sind trotzdem die gemeinsame Sprache im Projekt.",
@@ -169,8 +195,23 @@
      "en": "Water, heating, ventilation and other systems are added."
     },
     {
+     "de": "Wichtig ist das Wort Anlagengruppe, denn es steht oft im Vertrag.",
+     "ar": "كلمة مجموعة المنشآت مهمة لأنها ترد كثيرًا في العقد.",
+     "en": "The word Anlagengruppe is important because it often appears in the contract."
+    },
+    {
+     "de": "So wissen alle: Wer plant was?",
+     "ar": "وهكذا يعرف الجميع: من يخطط ماذا؟",
+     "en": "So everyone knows who plans what."
+    },
+    {
+     "de": "Die Zuordnung hilft auch bei der Frage, wer mit wem sprechen muss.",
+     "ar": "ويساعد التصنيف أيضًا على معرفة من يجب أن يتحدث مع من.",
+     "en": "The grouping also helps to see who has to talk to whom."
+    },
+    {
      "de": "In vielen Büros heißt das Ganze kurz TGA.",
-     "ar": "وفي مكاتب كثيرة يُختصر كل ذلك إلى TGA.",
+     "ar": "وفي مكاتب كثيرة يُختصر كل ذلك إلى TGA في الكلام اليومي.",
      "en": "In many offices the whole field is simply called TGA.",
      "tts": "In vielen Büros heißt das Ganze kurz Te-Ge-A."
     }
@@ -228,6 +269,16 @@
      "tts": "Auch Notstrom, U-Es-Fau-Anlagen und Sicherheitsbeleuchtung sind typische Aufgaben."
     },
     {
+     "de": "Das Beispiel zeigt: Die Aufgabe ist größer als nur Steckdosen und Lampen.",
+     "ar": "المثال يبيّن أن المهمة أكبر من مجرد مقابس ومصابيح.",
+     "en": "The example shows: the task is bigger than just sockets and lamps."
+    },
+    {
+     "de": "Viele Bereiche hängen zusammen und müssen zusammen gedacht werden.",
+     "ar": "كثير من المجالات مترابطة ويجب التفكير فيها معًا.",
+     "en": "Many areas are connected and must be thought through together."
+    },
+    {
      "de": "Ihre Arbeit beginnt also schon beim Netzanschluss des Gebäudes.",
      "ar": "أي أن عملكم يبدأ من التوصيل بالشبكة للمبنى.",
      "en": "So your work already starts at the building's grid connection."
@@ -267,7 +318,7 @@
     },
     {
      "de": "Die Einzelheiten stehen in Anlage fünfzehn der HOAI.",
-     "ar": "وتفاصيلها في الملحق الخامس عشر من HOAI.",
+     "ar": "وتفاصيلها مذكورة في الملحق الخامس عشر من لائحة الأتعاب (HOAI) نفسها.",
      "en": "The details are in Annex fifteen of the HOAI.",
      "tts": "Die Einzelheiten stehen in Anlage fünfzehn der Ho-A-I."
     },
@@ -290,6 +341,21 @@
      "de": "Phase acht ist die Objektüberwachung mit Dokumentation.",
      "ar": "المرحلة الثامنة هي الإشراف على المنشأ مع التوثيق.",
      "en": "Phase eight is construction supervision with documentation."
+    },
+    {
+     "de": "Jede Phase baut auf der vorherigen auf.",
+     "ar": "كل مرحلة تبني على التي قبلها.",
+     "en": "Each phase builds on the previous one."
+    },
+    {
+     "de": "Fehler aus früheren Phasen ziehen sich durch das ganze Projekt.",
+     "ar": "أخطاء المراحل المبكرة تمتد عبر المشروع كله.",
+     "en": "Errors from earlier phases run through the whole project."
+    },
+    {
+     "de": "Im Projekt sagen Kollegen einfach: Wir sind in Phase fünf.",
+     "ar": "في المشروع يقول الزملاء ببساطة: نحن في المرحلة الخامسة.",
+     "en": "In a project, colleagues simply say: we are in phase five."
     },
     {
      "de": "Phase neun ist die Objektbetreuung.",
@@ -354,6 +420,21 @@
      "en": "Here a supply concept with variants is created."
     },
     {
+     "de": "Eine gute Bedarfsermittlung spart später Kosten und Ärger.",
+     "ar": "تحديد الاحتياج الجيد يوفر التكاليف والمتاعب لاحقًا.",
+     "en": "A good demand analysis saves costs and trouble later."
+    },
+    {
+     "de": "Fragen Sie zum Beispiel nach Aufzügen, Küchen und Ladepunkten.",
+     "ar": "اسألوا مثلًا عن المصاعد والمطابخ ونقاط الشحن.",
+     "en": "Ask, for example, about lifts, kitchens and charging points."
+    },
+    {
+     "de": "Diese Angaben bestimmen die Größe von Verteilungen und Leitungen.",
+     "ar": "هذه البيانات تحدد حجم لوحات التوزيع والكابلات.",
+     "en": "This information determines the size of distributions and cables."
+    },
+    {
      "de": "Der Auftraggeber entscheidet dann, welche Variante weiterverfolgt wird.",
      "ar": "ثم يقرر صاحب المشروع أي بديل يُتابَع.",
      "en": "The client then decides which variant is pursued."
@@ -411,6 +492,21 @@
      "en": "Then you check whether your systems clash with other trades."
     },
     {
+     "de": "Ein Plan mit Ihren Kabeltrassen geht an die anderen Planer.",
+     "ar": "مخطط مسارات الكابلات الخاص بكم يُرسل إلى المخططين الآخرين.",
+     "en": "A plan with your cable routes goes to the other planners."
+    },
+    {
+     "de": "Sie bekommen deren Pläne zurück und vergleichen sie.",
+     "ar": "وتستلمون مخططاتهم وتقارنونها بمخططاتكم.",
+     "en": "You receive their plans and compare them."
+    },
+    {
+     "de": "So entstehen Änderungslisten, die jeder lesen kann.",
+     "ar": "وهكذا تنشأ قوائم تعديلات يستطيع الجميع قراءتها.",
+     "en": "This creates change lists that everyone can read."
+    },
+    {
      "de": "Alle Fachplaner arbeiten jetzt eng zusammen.",
      "ar": "كل المخططين المتخصصين يعملون الآن معًا بشكل وثيق.",
      "en": "All specialist planners now work closely together."
@@ -454,6 +550,21 @@
      "de": "Welche Unterlagen nötig sind, hängt vom Projekt ab.",
      "ar": "أي الوثائق مطلوبة يتوقف على المشروع.",
      "en": "Which documents are needed depends on the project."
+    },
+    {
+     "de": "Planen Sie dafür genug Zeit ein, denn Rückfragen sind normal.",
+     "ar": "خصصوا لذلك وقتًا كافيًا، فالاستفسارات أمر طبيعي.",
+     "en": "Allow enough time for this, because follow-up questions are normal."
+    },
+    {
+     "de": "Hier lernen Sie, wie wichtig klare Pläne und klare Schreiben sind.",
+     "ar": "هنا تتعلمون أهمية المخططات الواضحة والمراسلات الواضحة.",
+     "en": "Here you learn how important clear plans and clear letters are."
+    },
+    {
+     "de": "Das Ergebnis ist eine saubere Grundlage für die nächste Phase.",
+     "ar": "والنتيجة أساس سليم للمرحلة التالية.",
+     "en": "The result is a clean basis for the next phase."
     },
     {
      "de": "Die Unterlagen müssen vollständig und widerspruchsfrei sein.",
@@ -518,6 +629,21 @@
      "en": "You also check the installation and workshop drawings of the executing companies."
     },
     {
+     "de": "Zu jedem Schaltplan gehören Beschriftung, Bezeichnung und Revisionsstand.",
+     "ar": "لكل مخطط دارات ترقيم وتسمية وحالة مراجعة.",
+     "en": "Every circuit diagram has labeling, designation and revision status."
+    },
+    {
+     "de": "Die ausführende Firma baut später genau nach diesen Plänen.",
+     "ar": "الشركة المنفذة ستبني لاحقًا وفق هذه المخططات تحديدًا.",
+     "en": "The executing company later builds exactly according to these plans."
+    },
+    {
+     "de": "Auch Änderungen müssen sauber nachgeführt werden.",
+     "ar": "ويجب أيضًا تحديث التعديلات بشكل منظم.",
+     "en": "Changes also have to be tracked cleanly."
+    },
+    {
      "de": "Fehler in dieser Phase werden später auf der Baustelle teuer.",
      "ar": "أخطاء هذه المرحلة تصبح مكلفة لاحقًا في الموقع.",
      "en": "Mistakes in this phase become expensive later on site."
@@ -574,6 +700,21 @@
      "de": "Für Wände und Decken benötigen Sie Schlitze und Durchbrüche.",
      "ar": "وفي الجدران والأسقف تحتاجون إلى مجارٍ وفتحات.",
      "en": "In walls and ceilings you need slots and openings."
+    },
+    {
+     "de": "Eine einfache Regel hilft: Erst abstimmen, dann zeichnen.",
+     "ar": "قاعدة بسيطة تفيد: نسّق أولًا ثم ارسم.",
+     "en": "A simple rule helps: coordinate first, then draw."
+    },
+    {
+     "de": "Zeigen Sie Ihre Wünsche mit klaren Maßen und Lagen.",
+     "ar": "أظهروا طلباتكم بأبعاد ومواقع واضحة.",
+     "en": "Show your requests with clear dimensions and positions."
+    },
+    {
+     "de": "Dann kann die Architektur zügig antworten.",
+     "ar": "عندها تستطيع العمارة الرد بسرعة.",
+     "en": "Then architecture can answer quickly."
     },
     {
      "de": "Ändert die Architektur den Grundriss, ändert sich Ihre Planung mit.",
@@ -634,6 +775,21 @@
      "en": "Fire protection regulates how cables run through fire compartments and escape routes."
     },
     {
+     "de": "Bei Pumpen und Lüftung trennen Sie Verantwortung klar: Wer liefert die Leistung, wer die Steuerung?",
+     "ar": "عند المضخات والتهوية افصلوا المسؤوليات بوضوح: من يوفر القدرة ومن يوفر التحكم؟",
+     "en": "For pumps and ventilation, separate responsibility clearly: who supplies the power, who the controls?"
+    },
+    {
+     "de": "Solche Schnittstellen gehören in eine Liste mit Namen und Datum.",
+     "ar": "يجب تدوين نقاط التماس هذه في قائمة بالأسماء والتواريخ.",
+     "en": "Such interfaces belong on a list with names and dates."
+    },
+    {
+     "de": "Dann weiß jeder, wer eine Entscheidung treffen muss.",
+     "ar": "عندها يعرف كل شخص من يجب أن يتخذ القرار.",
+     "en": "Then everyone knows who has to make a decision."
+    },
+    {
      "de": "Melden Sie Konflikte früh, nicht erst auf der Baustelle.",
      "ar": "أبلغوا عن التعارضات مبكرًا، لا في الموقع فقط.",
      "en": "Report conflicts early, not only on site."
@@ -655,7 +811,7 @@
    "lines": [
     {
      "de": "Ein wichtiges Wort ist die MLAR.",
-     "ar": "كلمة مهمة هي MLAR.",
+     "ar": "كلمة مهمة هنا هي MLAR في الحماية من الحريق.",
      "en": "An important word is the MLAR.",
      "tts": "Ein wichtiges Wort ist die Em-El-A-Er."
     },
@@ -683,6 +839,21 @@
      "de": "Die Bundesländer führen die Richtlinie getrennt ein.",
      "ar": "تعتمد الولايات هذا التوجيه كلٌّ على حدة.",
      "en": "The federal states introduce the guideline separately."
+    },
+    {
+     "de": "Das gilt vor allem für Treppenräume und Flure.",
+     "ar": "وهذا ينطبق خصوصًا على بيوت الدرج والممرات.",
+     "en": "This applies above all to stairwells and corridors."
+    },
+    {
+     "de": "Wir nennen hier keine Zeiten und keine Zahlen.",
+     "ar": "لا نذكر هنا أزمنة ولا أرقامًا.",
+     "en": "We do not name times or numbers here."
+    },
+    {
+     "de": "Diese stehen in der gültigen Fassung und im Konzept des Projekts.",
+     "ar": "فهي مذكورة في النسخة السارية وفي مفهوم المشروع.",
+     "en": "These are in the valid version and in the project concept."
     },
     {
      "de": "Fragen Sie deshalb nach der gültigen Fassung und dem Brandschutzkonzept.",
@@ -748,6 +919,21 @@
      "en": "The client makes decisions and approves planning stages."
     },
     {
+     "de": "Wer die Schnittstellen kennt, plant ruhiger.",
+     "ar": "من يعرف نقاط التماس يخطط بهدوء أكبر.",
+     "en": "Anyone who knows the interfaces plans more calmly."
+    },
+    {
+     "de": "Wer sie nicht kennt, findet die Probleme erst am Bau.",
+     "ar": "ومن لا يعرفها يكتشف المشكلات في البناء فقط.",
+     "en": "Anyone who does not know them finds the problems only on site."
+    },
+    {
+     "de": "Eine Schnittstellenliste ist deshalb Pflicht im Alltag.",
+     "ar": "لذلك فإن قائمة نقاط التماس ضرورية في العمل اليومي.",
+     "en": "An interface list is therefore a must in everyday work."
+    },
+    {
      "de": "Schriftliche Abstimmungen schützen alle Beteiligten.",
      "ar": "التنسيق الكتابي يحمي جميع المشاركين.",
      "en": "Written coordination protects everyone involved."
@@ -811,6 +997,21 @@
      "en": "You check the bids and compare them technically."
     },
     {
+     "de": "Gute Ausschreibungen sind klar, vollständig und vergleichbar.",
+     "ar": "المناقصات الجيدة واضحة وكاملة وقابلة للمقارنة.",
+     "en": "Good tenders are clear, complete and comparable."
+    },
+    {
+     "de": "Dann sind die Preise der Firmen wirklich vergleichbar.",
+     "ar": "عندها تكون أسعار الشركات قابلة للمقارنة فعلًا.",
+     "en": "Then the companies' prices are really comparable."
+    },
+    {
+     "de": "Unklare Texte führen später zu Streit über Nachträge.",
+     "ar": "النصوص الغامضة تؤدي لاحقًا إلى خلاف حول الأعمال الإضافية.",
+     "en": "Unclear texts later lead to disputes about additional claims."
+    },
+    {
      "de": "Der Auftraggeber vergibt den Auftrag, nicht der Planer.",
      "ar": "صاحب المشروع هو من يُرسي العقد، لا المخطط.",
      "en": "The client awards the contract, not the planner."
@@ -866,6 +1067,21 @@
      "de": "Sie erfassen Mängel und verfolgen ihre Beseitigung.",
      "ar": "تسجّلون العيوب وتتابعون إصلاحها.",
      "en": "You record defects and follow up on their removal."
+    },
+    {
+     "de": "Dazu besuchen Sie die Baustelle regelmäßig.",
+     "ar": "لذلك تزورون الموقع بانتظام.",
+     "en": "For this you visit the site regularly."
+    },
+    {
+     "de": "Sie schreiben Berichte und halten Fotos und Notizen fest.",
+     "ar": "تكتبون تقارير وتحتفظون بصور وملاحظات.",
+     "en": "You write reports and keep photos and notes."
+    },
+    {
+     "de": "Diese Unterlagen helfen später bei der Übergabe.",
+     "ar": "هذه الوثائق تفيد لاحقًا عند التسليم.",
+     "en": "These documents help later at the handover."
     },
     {
      "de": "Am Ende sammeln Sie die Dokumentation: Pläne im Ist-Zustand und Prüfprotokolle.",
@@ -926,8 +1142,18 @@
      "en": "All five rules apply in this order; the safety video explains them in detail."
     },
     {
+     "de": "Das gilt auch für Sie als Planer auf der Baustelle.",
+     "ar": "وهذا ينطبق عليكم أيضًا كمخططين في الموقع.",
+     "en": "This also applies to you as a planner on site."
+    },
+    {
+     "de": "Betreten Sie keine Anlage, wenn Sie den Zustand nicht kennen.",
+     "ar": "لا تدخلوا أي منشأة إن كنتم لا تعرفون حالتها.",
+     "en": "Do not enter any installation if you do not know its condition."
+    },
+    {
      "de": "Prüfen und Messen darf nur eine Elektrofachkraft.",
-     "ar": "الفحص والقياس لا يقوم بهما إلا الكهربائي المؤهَّل (Elektrofachkraft).",
+     "ar": "الفحص والقياس لا يقوم بهما إلا الكهربائي المؤهَّل (Elektrofachkraft) فقط.",
      "en": "Testing and measuring may only be done by a qualified electrician."
     }
    ]
@@ -976,6 +1202,16 @@
      "de": "Die Firmen müssen sie dann beseitigen.",
      "ar": "ثم يجب على الشركات إصلاحها.",
      "en": "The companies must then remedy them."
+    },
+    {
+     "de": "Auch hier gilt: Fragen Sie im Zweifel die verantwortliche Person.",
+     "ar": "وهنا أيضًا: في حال الشك اسألوا الشخص المسؤول.",
+     "en": "Here too: if in doubt, ask the responsible person."
+    },
+    {
+     "de": "Eine gute Übergabe erleichtert dem Betreiber den Alltag.",
+     "ar": "التسليم الجيد يسهّل على المشغّل عمله اليومي.",
+     "en": "A good handover makes life easier for the operator."
     },
     {
      "de": "Der Betreiber braucht Pläne, Prüfprotokolle und Bedienungsanleitungen.",
@@ -1029,6 +1265,17 @@
      "en": "Phase eight delivers test reports and as-built drawings."
     },
     {
+     "de": "Diese Tabelle können Sie als Checkliste im Projekt nutzen.",
+     "ar": "يمكنكم استخدام هذا الجدول كقائمة تحقق في المشروع.",
+     "en": "You can use this table as a checklist in a project."
+    },
+    {
+     "de": "Die genauen Inhalte stehen im Vertrag und in der HOAI.",
+     "ar": "المحتوى الدقيق مذكور في العقد وفي HOAI.",
+     "en": "The exact contents are in the contract and in the HOAI.",
+     "tts": "Die genauen Inhalte stehen im Vertrag und in der Ho-A-I."
+    },
+    {
      "de": "Gute Dokumente sparen Ihnen später viel Zeit.",
      "ar": "الوثائق الجيدة توفر عليكم الكثير من الوقت لاحقًا.",
      "en": "Good documents save you a lot of time later."
@@ -1055,7 +1302,7 @@
     },
     {
      "de": "Die HOAI regelt das Honorar, sie ist kein Bauvertrag.",
-     "ar": "HOAI تنظّم الأتعاب وليست عقد بناء.",
+     "ar": "لائحة HOAI تنظّم الأتعاب وليست عقد بناء.",
      "en": "The HOAI regulates fees; it is not a construction contract.",
      "tts": "Die Ho-A-I regelt das Honorar, sie ist kein Bauvertrag."
     },
@@ -1074,6 +1321,16 @@
      "ar": "نسّقوا مبكرًا مع العمارة وHLS والهيكل الإنشائي والحماية من الحريق.",
      "en": "Coordinate early with architecture, HLS, structure and fire protection.",
      "tts": "Stimmen Sie sich früh mit Architektur, Ha-El-Es, Tragwerk und Brandschutz ab."
+    },
+    {
+     "de": "Wir haben Phasen, Dokumente und Partner gesehen.",
+     "ar": "رأينا المراحل والوثائق والشركاء.",
+     "en": "We have seen phases, documents and partners."
+    },
+    {
+     "de": "Wenn Sie diese Struktur kennen, verstehen Sie jedes Projektgespräch besser.",
+     "ar": "إذا عرفتم هذه البنية فستفهمون كل حديث في المشروع بشكل أفضل.",
+     "en": "If you know this structure, you will understand every project conversation better."
     },
     {
      "de": "Dokumentieren Sie Ihre Entscheidungen schriftlich.",
@@ -1107,7 +1364,7 @@
     },
     {
      "de": "Auch über eine Änderung der HOAI wird diskutiert.",
-     "ar": "وهناك أيضًا نقاش حول تعديل HOAI.",
+     "ar": "وهناك أيضًا نقاش حول تعديل لائحة HOAI نفسها.",
      "en": "A revision of the HOAI is also being discussed.",
      "tts": "Auch über eine Änderung der Ho-A-I wird diskutiert."
     },
@@ -1127,8 +1384,18 @@
      "en": "It does not replace legal or engineering advice."
     },
     {
+     "de": "Fragen Sie im Zweifel eine Fachperson oder eine Rechtsberatung.",
+     "ar": "في حال الشك اسألوا مختصًا أو استشارة قانونية.",
+     "en": "If in doubt, ask a specialist or a legal adviser."
+    },
+    {
+     "de": "Vielen Dank fürs Zuschauen.",
+     "ar": "شكرًا لكم على المشاهدة.",
+     "en": "Thank you for watching."
+    },
+    {
      "de": "Im nächsten Video geht es um Automatisierung und SPS.",
-     "ar": "في الفيديو القادم نتناول الأتمتة ووحدات التحكم المبرمجة (SPS).",
+     "ar": "في الفيديو القادم نتناول الأتمتة ووحدات التحكم المبرمجة (SPS) بالتفصيل.",
      "en": "The next video is about automation and PLCs.",
      "tts": "Im nächsten Video geht es um Automatisierung und Es-Pe-Es."
     }
