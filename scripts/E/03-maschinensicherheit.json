@@ -136,6 +136,11 @@
      "en": "Mechanical engineering provides frames, drives and guards."
     },
     {
+     "de": "Ein Projekt braucht klare Zuständigkeiten.",
+     "ar": "يحتاج المشروع إلى مسؤوليات واضحة.",
+     "en": "A project needs clear responsibilities."
+    },
+    {
      "de": "Die Elektrotechnik liefert Energie, Schaltschrank und Steuerung.",
      "ar": "وتقدّم الهندسة الكهربائية الطاقة وخزانة التوزيع والتحكم والتحكم الآلي.",
      "en": "Electrical engineering provides power, control cabinet and controls."
@@ -281,6 +286,11 @@
      "de": "Maschinen, die vorher in Verkehr kommen, werden noch nach der Richtlinie bewertet.",
      "ar": "الآلات التي تُطرح في السوق قبل ذلك تُقيَّم بعدُ وفق التوجيه.",
      "en": "Machines placed on the market earlier are still assessed under the directive."
+    },
+    {
+     "de": "Notieren Sie den Stichtag im Projektplan.",
+     "ar": "دوّنوا تاريخ السريان في خطة المشروع.",
+     "en": "Note the key date in the project plan."
     }
    ]
   },
@@ -343,9 +353,9 @@
      "tts": "Die Ze-E-Kennzeichnung ist eine Herstellererklärung und keine Prüfplakette."
     },
     {
-     "de": "Die Konformitätserklärung liegt der Maschine bei.",
-     "ar": "يُرفق إعلان المطابقة مع الآلة.",
-     "en": "The declaration of conformity accompanies the machine."
+     "de": "Diese Schritte gehören zusammen.",
+     "ar": "هذه الخطوات مترابطة.",
+     "en": "These steps belong together."
     },
     {
      "de": "Fehlt eine vorgeschriebene CE-Kennzeichnung, darf das Produkt nicht bereitgestellt werden.",
@@ -390,6 +400,11 @@
      "ar": "المعيار الأساسي لذلك هو EN ISO 12100 المعروف.",
      "en": "The basic standard for it is EN ISO 12100.",
      "tts": "Die Grundnorm dafür ist die E-En I-So eins zwei eins null null."
+    },
+    {
+     "de": "Gefährdungen erkennen heißt: Was kann an der Maschine wem passieren?",
+     "ar": "تحديد الأخطار يعني: ما الذي قد يحدث في الآلة ولمن؟",
+     "en": "Identifying hazards means: what can happen at the machine, and to whom?"
     },
     {
      "de": "Sie legt Begriffe, Leitsätze und eine Methode fest.",
@@ -443,14 +458,14 @@
      "en": "Risk reduction follows three steps."
     },
     {
-     "de": "Schutzmaßnahmen haben also eine klare Rangfolge.",
-     "ar": "أي أن لإجراءات الحماية ترتيب أولويات واضحًا.",
-     "en": "So protective measures have a clear order of priority."
-    },
-    {
      "de": "Zuerst versucht man, die Gefahr durch die Konstruktion selbst zu beseitigen.",
      "ar": "أولًا يُحاوَل إزالة الخطر بالتصميم نفسه.",
      "en": "First, one tries to remove the hazard through design itself."
+    },
+    {
+     "de": "Schutzmaßnahmen haben also eine klare Rangfolge.",
+     "ar": "أي أن لإجراءات الحماية ترتيب أولويات واضحًا.",
+     "en": "So protective measures have a clear order of priority."
     },
     {
      "de": "Dann folgen technische Schutzmaßnahmen, zum Beispiel Schutzzäune oder Lichtvorhänge.",
@@ -471,6 +486,11 @@
      "de": "Hier arbeiten Elektrik und Mechanik besonders eng zusammen.",
      "ar": "هنا يتعاون الجانب الكهربائي والميكانيكي بشكل وثيق جدًا.",
      "en": "Here electrics and mechanics work especially closely together."
+    },
+    {
+     "de": "Warnschilder allein ersetzen also keine sichere Konstruktion.",
+     "ar": "فاللافتات التحذيرية وحدها لا تغني عن التصميم الآمن.",
+     "en": "So warning signs alone do not replace a safe design."
     }
    ]
   },
@@ -534,6 +554,16 @@
      "de": "Prüfen Sie, welche Ausgabe für Ihr Projekt gilt.",
      "ar": "تحققوا من النسخة السارية على مشروعكم.",
      "en": "Check which edition applies to your project."
+    },
+    {
+     "de": "Den Normtext erhalten Sie beim Normenverlag, wir zitieren ihn hier nicht.",
+     "ar": "نص المعيار تحصلون عليه من دار نشر المعايير، ولا نقتبسه هنا.",
+     "en": "You get the standard text from the standards publisher; we do not quote it here."
+    },
+    {
+     "de": "Für Sie als Elektroingenieur ist sie ein zentrales Werkzeug.",
+     "ar": "وهو أداة أساسية لكم كمهندسي كهرباء.",
+     "en": "For you as an electrical engineer, it is a central tool."
     }
    ]
   },
@@ -633,6 +663,11 @@
      "tts": "Für die Gestaltung des Not-Halts gibt es die E-En I-So eins drei acht fünf null."
     },
     {
+     "de": "Der Not-Halt ist das bekannteste Bedienelement an Maschinen.",
+     "ar": "إيقاف الطوارئ هو أشهر عنصر تشغيل في الآلات.",
+     "en": "The Not-Halt is the best-known control on machines."
+    },
+    {
      "de": "Das Befehlsgerät ist rot. Ein vorhandener Hintergrund ist gelb.",
      "ar": "الزر أحمر، والخلفية إن وُجدت صفراء.",
      "en": "The control device is red. Any background is yellow."
@@ -688,6 +723,11 @@
      "ar": "يصف EN 60204-1 أيضًا فئات التوقف.",
      "en": "EN 60204-1 also describes stop categories.",
      "tts": "Die E-En sechs null zwei null vier Strich eins beschreibt auch Stopp-Kategorien."
+    },
+    {
+     "de": "Beim Stoppen kommt es auf die Art der Abschaltung an.",
+     "ar": "في الإيقاف تهم طريقة الفصل.",
+     "en": "When stopping, the type of shutdown matters."
     },
     {
      "de": "Kategorie null: Die Energie wird sofort getrennt, die Bewegung endet ungesteuert.",
@@ -767,14 +807,14 @@
      "en": "Fixed separating guards are, for example, guard fences, covers and grilles."
     },
     {
-     "de": "Gitter, Abdeckungen und Verkleidungen schützen vor mechanischen Gefährdungen.",
-     "ar": "الشبكات والأغطية والهياكل الواقية تحمي من المخاطر الميكانيكية.",
-     "en": "Grilles, covers and casings protect against mechanical hazards."
-    },
-    {
      "de": "Es gibt feste und bewegliche Ausführungen.",
      "ar": "وهناك أنواع ثابتة وأخرى متحركة.",
      "en": "There are fixed and movable versions."
+    },
+    {
+     "de": "Gitter, Abdeckungen und Verkleidungen schützen vor mechanischen Gefährdungen.",
+     "ar": "الشبكات والأغطية والهياكل الواقية تحمي من المخاطر الميكانيكية.",
+     "en": "Grilles, covers and casings protect against mechanical hazards."
     },
     {
      "de": "Berührungslos wirkende Schutzeinrichtungen erkennen Personen, zum Beispiel mit Lichtvorhängen.",
@@ -797,6 +837,11 @@
      "ar": "وللأجهزة دون تلامس هناك سلسلة IEC 61496 الخاصة بها.",
      "en": "For contactless devices there is the series IEC 61496.",
      "tts": "Für berührungslos wirkende Geräte gibt es die Reihe I-E-Ze sechs eins vier neun sechs."
+    },
+    {
+     "de": "Beide Arten schützen Personen vor Gefahrstellen.",
+     "ar": "كلا النوعين يحمي الأشخاص من مواضع الخطر.",
+     "en": "Both types protect people from danger zones."
     }
    ]
   },
@@ -818,6 +863,11 @@
      "de": "Vergleichen wir beide Lösungen.",
      "ar": "لنقارن بين الحلّين.",
      "en": "Let us compare both solutions."
+    },
+    {
+     "de": "Beide Lösungen haben Stärken und Grenzen.",
+     "ar": "لكل من الحلّين نقاط قوة وحدود.",
+     "en": "Both solutions have strengths and limits."
     },
     {
      "de": "Ein Schutzzaun trennt den Menschen von der Gefahrstelle.",
@@ -993,14 +1043,19 @@
      "tts": "Hilfe bietet ein Interpretationspapier des Bundesarbeitsministeriums von zweitausendfünfzehn."
     },
     {
+     "de": "Prüfen Sie, ob es zur neuen Verordnung angepasst wurde.",
+     "ar": "وتحققوا من تعديله بما يوافق اللائحة الجديدة.",
+     "en": "Check whether it was adapted to the new regulation."
+    },
+    {
      "de": "Die Behörde sagt selbst, dass sich keine starren Kriterien nennen lassen.",
      "ar": "وتقول الجهة نفسها إنه لا يمكن وضع معايير جامدة.",
      "en": "The authority itself says that no rigid criteria can be given."
     },
     {
-     "de": "Prüfen Sie, ob es zur neuen Verordnung angepasst wurde.",
-     "ar": "وتحققوا من تعديله بما يوافق اللائحة الجديدة.",
-     "en": "Check whether it was adapted to the new regulation."
+     "de": "Planen Sie Umbauten deshalb früh mit dem Maschinenbau.",
+     "ar": "لذلك خطّطوا للتعديلات مبكرًا مع الهندسة الميكانيكية.",
+     "en": "So plan modifications early with mechanical engineering."
     }
    ]
   },
@@ -1035,14 +1090,14 @@
      "en": "Not every part is a complete machine."
     },
     {
-     "de": "Wichtig ist die Frage: Funktioniert das Teil allein?",
-     "ar": "السؤال المهم: هل يعمل الجزء وحده؟",
-     "en": "The key question: does the part work alone?"
-    },
-    {
      "de": "Eine unvollständige Maschine kann allein keine bestimmte Funktion erfüllen.",
      "ar": "الآلة غير المكتملة لا تؤدي وحدها وظيفة محددة.",
      "en": "An incomplete machine cannot fulfil a specific function alone."
+    },
+    {
+     "de": "Wichtig ist die Frage: Funktioniert das Teil allein?",
+     "ar": "السؤال المهم: هل يعمل الجزء وحده؟",
+     "en": "The key question: does the part work alone?"
     },
     {
      "de": "Sie ist zum Einbau in andere Maschinen bestimmt, zum Beispiel ein Antriebssystem.",
@@ -1068,6 +1123,11 @@
      "de": "Die Verordnung ändert hier einiges, prüfen Sie die neuen Regeln für Ihr Projekt.",
      "ar": "اللائحة تغيّر هنا أمورًا، فتحققوا من القواعد الجديدة لمشروعكم.",
      "en": "The regulation changes some things here, so check the new rules for your project."
+    },
+    {
+     "de": "Diese Unterscheidung bestimmt, welche Erklärung nötig ist.",
+     "ar": "وهذا التمييز يحدد أي إعلان يلزم.",
+     "en": "This distinction determines which declaration is needed."
     }
    ]
   },
@@ -1185,14 +1245,14 @@
      "en": "Standards help to implement the requirements."
     },
     {
-     "de": "Normen sind keine Rechtsnormen, sondern technische Regeln.",
-     "ar": "المعايير ليست قواعد قانونية بل قواعد تقنية.",
-     "en": "Standards are not legal norms but technical rules."
-    },
-    {
      "de": "Wird eine harmonisierte Norm angewendet, vermutet man die Erfüllung der davon erfassten Anforderungen.",
      "ar": "عند تطبيق معيار منسَّق يُفترض استيفاء المتطلبات التي يغطيها.",
      "en": "If a harmonised standard is applied, fulfilment of the requirements it covers is presumed."
+    },
+    {
+     "de": "Normen sind keine Rechtsnormen, sondern technische Regeln.",
+     "ar": "المعايير ليست قواعد قانونية بل قواعد تقنية.",
+     "en": "Standards are not legal norms but technical rules."
     },
     {
      "de": "Die Liste der harmonisierten Normen ändert sich laufend.",
@@ -1209,6 +1269,11 @@
      "de": "Die Anwendung einer Norm ersetzt die Risikobeurteilung nicht.",
      "ar": "تطبيق معيار لا يغني عن تقييم المخاطر.",
      "en": "Applying a standard does not replace the risk assessment."
+    },
+    {
+     "de": "Sprechen Sie im Projekt früh ab, welche Normen Sie anwenden.",
+     "ar": "اتفقوا في المشروع مبكرًا على المعايير التي ستطبّقونها.",
+     "en": "Agree early in the project which standards you apply."
     }
    ]
   },
@@ -1256,6 +1321,21 @@
      "de": "Prüfen Sie Stichtag, Normen und Dokumente immer aktuell.",
      "ar": "تحققوا دائمًا من تاريخ السريان والمعايير والوثائق بصيغتها الحالية.",
      "en": "Always check the key date, standards and documents for currency."
+    },
+    {
+     "de": "Stopp-Kategorien und Schutzeinrichtungen ergeben sich aus der Risikobeurteilung.",
+     "ar": "فئات التوقف ووسائل الحماية تنتج عن تقييم المخاطر.",
+     "en": "Stop categories and protective devices follow from the risk assessment."
+    },
+    {
+     "de": "Bei Umbauten prüfen Sie, ob die Veränderung wesentlich ist.",
+     "ar": "عند التعديلات تحققوا من كون التغيير جوهريًا.",
+     "en": "For modifications, check whether the change is substantial."
+    },
+    {
+     "de": "Betriebsanleitung und technische Unterlagen sind verschiedene Dokumente.",
+     "ar": "دليل التشغيل والوثائق الفنية مستندان مختلفان.",
+     "en": "Operating instructions and technical documentation are different documents."
     }
    ]
   },
@@ -1281,6 +1361,11 @@
      "de": "Prüfen Sie immer die aktuellen Fassungen.",
      "ar": "تحققوا دائمًا من النسخ الحالية.",
      "en": "Always check the current versions."
+    },
+    {
+     "de": "Fragen Sie im Zweifel die Fachleute im Unternehmen.",
+     "ar": "في حال الشك اسألوا المختصين في الشركة.",
+     "en": "When in doubt, ask the experts in your company."
     },
     {
      "de": "Dieses Video ist eine allgemeine Information und keine Rechts- oder Ingenieurberatung.",

@@ -108,6 +108,11 @@
      "en": "The five safety rules from the video on electrical safety always apply."
     },
     {
+     "de": "Im Zweifel fragen Sie die verantwortliche Elektrofachkraft in Ihrem Betrieb.",
+     "ar": "وعند الشك اسألوا الكهربائي المؤهَّل (Elektrofachkraft) المسؤول في شركتكم.",
+     "en": "If in doubt, ask the responsible qualified electrician in your company."
+    },
+    {
      "de": "Wir nennen sie später noch einmal vollständig.",
      "ar": "وسنذكرها لاحقًا مرة أخرى كاملة.",
      "en": "We will state them in full again later."
@@ -450,6 +455,11 @@
      "en": "Equipment here means devices and fixed installations."
     },
     {
+     "de": "Beide Texte bilden den rechtlichen Rahmen für Hersteller und Betreiber.",
+     "ar": "ويشكل النصان معًا الإطار القانوني للشركات المصنِّعة والمشغِّلين.",
+     "en": "Both texts form the legal framework for manufacturers and operators."
+    },
+    {
      "de": "Die Bundesnetzagentur führt das Gesetz aus und überwacht den Markt.",
      "ar": "وتنفذ الوكالة الاتحادية للشبكات (Bundesnetzagentur) القانون وتراقب السوق.",
      "en": "The Federal Network Agency enforces the act and monitors the market."
@@ -580,6 +590,11 @@
      "de": "Die Norm richtet sich an Planer, Errichter und Betreiber.",
      "ar": "يتوجه هذا المعيار إلى المصممين والمنفذين والمشغّلين.",
      "en": "The standard addresses planners, installers and operators."
+    },
+    {
+     "de": "Planer dokumentieren, welche Regeln sie angewendet haben.",
+     "ar": "ويوثّق المصممون القواعد التي طبّقوها.",
+     "en": "Planners document which rules they have applied."
     },
     {
      "de": "Ausgabejahre ändern sich, prüfen Sie immer die gültige Ausgabe.",
@@ -766,6 +781,11 @@
      "en": "So the manufacturer's and the design's specifications apply."
     },
     {
+     "de": "Ein Schirm ohne gute Verbindung wirkt kaum.",
+     "ar": "والدرع بلا توصيل جيد لا يكاد يؤدي مفعولًا.",
+     "en": "A shield without a good connection hardly works."
+    },
+    {
      "de": "Ein guter Potentialausgleich unterstützt jeden Schirm.",
      "ar": "والربط المتساوي الجهد الجيد يدعم كل درع.",
      "en": "Good equipotential bonding supports every shield."
@@ -837,6 +857,11 @@
      "tts": "Bei Neuinstallationen mit Informationstechnik nennen Fachquellen das Fünf-Leiter-System Te-En-Es."
     },
     {
+     "de": "Bei Potentialunterschieden vor Ort gilt: erst klären, dann montieren.",
+     "ar": "وعند وجود فروق جهد في الموقع يُقال: أولًا التوضيح ثم التركيب.",
+     "en": "With potential differences on site: clarify first, then install."
+    },
+    {
      "de": "Änderungen am Schutzleitersystem gehören in die Hand einer Elektrofachkraft.",
      "ar": "التغييرات في منظومة موصل الحماية يتولاها الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إشرافه.",
      "en": "Changes to the protective conductor system are for a qualified electrician or someone under their supervision."
@@ -896,6 +921,11 @@
      "de": "Das ist die Reihenfolge, und Sie kürzen sie nie ab.",
      "ar": "هذا هو الترتيب، ولا تختصروه أبدًا.",
      "en": "That is the order, and you never shorten it."
+    },
+    {
+     "de": "Ein Ingenieurabschluss allein macht noch keine Elektrofachkraft.",
+     "ar": "الشهادة الهندسية وحدها لا تجعل الشخص كهربائيًا مؤهَّلًا (Elektrofachkraft) تلقائيًا.",
+     "en": "An engineering degree alone does not make someone a qualified electrician."
     },
     {
      "de": "Messen unter Spannung ist ein Sonderfall und folgt den Vorgaben des Betriebs.",
@@ -960,6 +990,11 @@
      "en": "Each instrument has a clear purpose."
     },
     {
+     "de": "Lesen Sie bei jedem Gerät zuerst die Bedienungsanleitung.",
+     "ar": "اقرأوا في كل جهاز دليل التشغيل أولًا.",
+     "en": "With every instrument, first read the operating instructions."
+    },
+    {
      "de": "Ein Gerät ersetzt das andere nicht.",
      "ar": "وجهاز لا يحل محل آخر.",
      "en": "One instrument does not replace another."
@@ -1021,6 +1056,12 @@
      "de": "Sie stehen im Datenblatt.",
      "ar": "فهي مذكورة في ورقة البيانات.",
      "en": "They are in the datasheet."
+    },
+    {
+     "de": "Als Faustregel nennen Fachquellen mindestens CAT III am Verteiler und CAT IV am Hausanschluss.",
+     "ar": "وكقاعدة عامة تذكر المراجع على الأقل CAT III عند لوحة التوزيع وCAT IV عند نقطة الدخول إلى المبنى.",
+     "en": "As a rule of thumb, technical sources name at least CAT III at the distribution board and CAT IV at the service entry.",
+     "tts": "Als Faustregel nennen Fachquellen mindestens Kat drei am Verteiler und Kat vier am Hausanschluss."
     },
     {
      "de": "Ein Multimeter ersetzt kein Isolationsmessgerät.",
@@ -1090,6 +1131,11 @@
      "en": "The bandwidth of probe and oscilloscope must suit the signal."
     },
     {
+     "de": "Prüfen Sie den Abgleich des Tastkopfes regelmäßig.",
+     "ar": "تحققوا بانتظام من ضبط مجس القياس.",
+     "en": "Check the probe adjustment regularly."
+    },
+    {
      "de": "An Netzspannung gelten die Herstellerangaben und die fünf Sicherheitsregeln.",
      "ar": "وعند جهد الشبكة تسري تعليمات الشركة المصنِّعة وقواعد السلامة الخمس.",
      "en": "On mains voltage, the manufacturer's instructions and the five safety rules apply."
@@ -1153,9 +1199,14 @@
      "en": "There is no fixed value for all installations."
     },
     {
-     "de": "Diese Messung läuft bei eingeschalteter Anlage und gehört in Fachhand.",
-     "ar": "ويجري هذا القياس والمنشأة تحت الجهد، ويتولاه المختصون.",
-     "en": "This measurement runs on a live installation and belongs in expert hands."
+     "de": "Alle Ergebnisse gehören danach ins Prüfprotokoll.",
+     "ar": "وتدخل كل النتائج بعد ذلك في محضر الفحص.",
+     "en": "All results then belong in the test report."
+    },
+    {
+     "de": "Diese Messung läuft bei eingeschalteter Anlage: Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+     "ar": "يجري هذا القياس والمنشأة تحت الجهد: الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إشرافه وتوجيهه.",
+     "en": "This measurement runs on a live installation: a qualified electrician or someone under their direction and supervision."
     }
    ]
   },
@@ -1231,6 +1282,12 @@
      "en": "A calibration certificate from an accredited laboratory typically contains the measurement uncertainty."
     },
     {
+     "de": "Bei gesetzlichen Vorgaben empfehlen Anbieter eine akkreditierte DAkkS-Kalibrierung.",
+     "ar": "وعند وجود متطلبات قانونية ينصح مقدمو الخدمة بمعايرة معتمدة لدى هيئة الاعتماد DAkkS الألمانية.",
+     "en": "Where legal requirements exist, providers recommend an accredited DAkkS calibration.",
+     "tts": "Bei gesetzlichen Vorgaben empfehlen Anbieter eine akkreditierte De-A-Ka-Ka-Es-Kalibrierung."
+    },
+    {
      "de": "Das ist wichtig, wenn ein Wert nahe an einer Anforderung liegt.",
      "ar": "وهذا مهم عندما تكون القيمة قريبة من متطلب ما.",
      "en": "That matters when a value is close to a requirement."
@@ -1293,6 +1350,11 @@
      "en": "Without measured values a report is hard to evaluate."
     },
     {
+     "de": "Auch das Messgerät gehört ins Protokoll, damit das Ergebnis nachvollziehbar bleibt.",
+     "ar": "وجهاز القياس أيضًا يُدوَّن في المحضر لتبقى النتيجة قابلة للتتبع.",
+     "en": "The instrument also belongs in the report so the result stays traceable."
+    },
+    {
      "de": "Vorlagen sind nützlich, aber Ihr Betrieb legt den Inhalt fest.",
      "ar": "القوالب مفيدة، لكن منشأتكم هي التي تحدد المحتوى.",
      "en": "Templates are useful, but your company sets the content."
@@ -1343,6 +1405,11 @@
      "de": "Alles gehört in ein sauberes Messprotokoll.",
      "ar": "وكل ذلك يُدوَّن في محضر قياس منظم.",
      "en": "Everything belongs in a clean measurement report."
+    },
+    {
+     "de": "Merken Sie sich: erst verstehen, dann messen, dann dokumentieren.",
+     "ar": "تذكروا: افهموا أولًا، ثم قيسوا، ثم وثّقوا.",
+     "en": "Remember: first understand, then measure, then document."
     },
     {
      "de": "Arbeiten an Anlagen: Elektrofachkraft oder unter deren Leitung und Aufsicht, mit den fünf Sicherheitsregeln.",
@@ -1604,17 +1671,17 @@
      "en": "Anyone with a multimeter"
     },
     {
-     "de": "Elektrofachkraft oder unter ihrer Leitung und Aufsicht",
-     "ar": "الكهربائي المؤهَّل أو من يعمل تحت إشرافه وتوجيهه",
-     "en": "A qualified electrician or someone under their direction and supervision"
-    },
-    {
      "de": "Nur wer es eilig hat",
      "ar": "فقط من هو مستعجل",
      "en": "Only someone in a hurry"
+    },
+    {
+     "de": "Elektrofachkraft oder unter ihrer Leitung und Aufsicht",
+     "ar": "الكهربائي المؤهَّل أو من يعمل تحت إشرافه وتوجيهه",
+     "en": "A qualified electrician or someone under their direction and supervision"
     }
    ],
-   "answer": 1
+   "answer": 2
   }
  ],
  "next": {

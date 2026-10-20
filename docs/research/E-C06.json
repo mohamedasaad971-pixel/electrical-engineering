@@ -44,8 +44,8 @@
    "note": ""
   },
   {
-   "claim": "Hersteller dürfen ein Gerät erst nach durchgeführter Konformitätsbewertung in Verkehr bringen; EU-Konformitätserklärung und technische Unterlagen sind zehn Jahre bereitzuhalten; die CE-Kennzeichnung zeigt die Konformität an.",
-   "source_url": "https://www.gesetze-im-internet.de/emvg_2016/BJNR287910016.html",
+   "claim": "Hersteller dürfen ein Gerät erst nach durchgeführter Konformitätsbewertung in Verkehr bringen; EU-Konformitätserklärung und technische Unterlagen sind zehn Jahre bereitzuhalten; die CE-Kennzeichnung zeigt die Konformität an. Die Bundesnetzagentur nennt fehlende Konformitätserklärungen und fehlende CE-Kennzeichnung unter den häufigen Mängeln (Statistik Marktüberwachung).",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Technik/Marktueberwachung/artikel.html",
    "source_name": "gesetze-im-internet.de, EMVG; Bundesnetzagentur Marktüberwachung",
    "confidence": "medium",
    "note": "Im Video ohne Zahl zehn."
@@ -107,7 +107,7 @@
    "note": "Nur als Konzept; keine Prüfpegel."
   },
   {
-   "claim": "Messkategorien (CAT II, III, IV nach IEC 61010-1) beschreiben die Eignung eines Messgeräts für Messorte mit unterschiedlich energiereichen Transienten; Gerät und Messleitungen müssen zur Messaufgabe passen.",
+   "claim": "Messkategorien (CAT II, III, IV nach IEC 61010-1) beschreiben die Eignung eines Messgeräts für Messorte mit unterschiedlich energiereichen Transienten; Gerät und Messleitungen müssen zur Messaufgabe passen. Als Faustregel nennen Fachquellen mindestens CAT III am Verteiler und CAT IV am Hausanschluss.",
    "source_url": "https://www.gossenmetrawatt.de/en/knowledge/measuring-and-test-technology/measuring-categories-per-iec-61010-1/",
    "source_name": "Gossen Metrawatt; BGHM Hilfsmittel Multimeter",
    "confidence": "medium",
