@@ -2,14 +2,14 @@
  "id": "E-F05",
  "title": {
   "de": "Elektrische Sicherheit: Fünf Regeln, DGUV Vorschrift 3, Prüfungen",
-  "ar": "السلامة الكهربائية والقواعد الخمس، اللائحة الثالثة، الفحوص الدورية",
+  "ar": "السلامة الكهربائية والقواعد الخمس، لائحة الوقاية من الحوادث رقم ٣ (DGUV V3)، الفحوص الدورية",
   "en": "Electrical Safety: Five Rules, DGUV Regulation 3, Inspections"
  },
  "scenes": [
   {
    "slide": {
     "layout": "title",
-    "kicker": "Grundlagen · Folge 5",
+    "kicker": "E-F05 · Grundlagen",
     "heading": "Elektrische Sicherheit",
     "items": [
      "Fünf Sicherheitsregeln",
@@ -18,9 +18,9 @@
    },
    "lines": [
     {
-     "de": "Willkommen zur fünften Grundlagenfolge.",
-     "ar": "مرحبًا بكم في الحلقة الخامسة من الأساسيات.",
-     "en": "Welcome to the fifth foundation episode."
+     "de": "Willkommen zum fünften Grundlagenvideo.",
+     "ar": "مرحبًا بكم في الفيديو الخامس من الأساسيات.",
+     "en": "Welcome to the fifth foundation video."
     },
     {
      "de": "Heute geht es um elektrische Sicherheit.",
@@ -34,7 +34,7 @@
     },
     {
      "de": "Als Ingenieur in Deutschland arbeiten Sie oft mit Elektrofachkräften zusammen.",
-     "ar": "كمهندس في ألمانيا ستعملون كثيرًا مع Elektrofachkraft.",
+     "ar": "كمهندس في ألمانيا ستتعاونون كثيرًا مع الكهربائيين المؤهَّلين (Elektrofachkräfte) في العمل.",
      "en": "As an engineer in Germany, you often work together with qualified electricians."
     },
     {
@@ -70,8 +70,8 @@
     "terms": [
      {
       "de": "Unterweisung",
-      "ar": "التوجيه والتعليم المهني",
-      "en": "instruction"
+      "ar": "التوجيه والتعليمات (Unterweisung)",
+      "en": "instruction (safety briefing)"
      }
     ]
    },
@@ -93,7 +93,7 @@
     },
     {
      "de": "Sie brauchen außerdem eine Unterweisung im Betrieb.",
-     "ar": "كما تحتاجون إلى توجيه داخل الشركة.",
+     "ar": "كما تحتاجون إلى التوجيه والتعليمات (Unterweisung) داخل الشركة.",
      "en": "You also need instruction at your company."
     },
     {
@@ -115,11 +115,6 @@
      "de": "Fragen Sie im Zweifel immer die verantwortliche Person.",
      "ar": "في حال الشك اسألوا دائمًا الشخص المسؤول.",
      "en": "If in doubt, always ask the responsible person."
-    },
-    {
-     "de": "Das Video ersetzt keine Schulung.",
-     "ar": "الفيديو لا يغني عن التدريب.",
-     "en": "This video does not replace training."
     }
    ]
   },
@@ -144,7 +139,7 @@
      {
       "de": "Störlichtbogen",
       "ar": "القوس الكهربائي العرضي",
-      "en": "arc fault"
+      "en": "fault arc (arc flash)"
      }
     ]
    },
@@ -180,6 +175,11 @@
      "en": "There are also burns where the current enters and leaves."
     },
     {
+     "de": "Ein Störlichtbogen kann ebenfalls schwere Verbrennungen verursachen.",
+     "ar": "كما يمكن للقوس الكهربائي العرضي أن يسبب حروقًا شديدة.",
+     "en": "A fault arc (arc flash) can also cause severe burns."
+    },
+    {
      "de": "Man sieht diese Folgen nicht immer sofort.",
      "ar": "لا تظهر هذه العواقب دائمًا فورًا.",
      "en": "These effects are not always visible straight away."
@@ -198,11 +198,6 @@
      "de": "Das Ziel jeder Regel ist, dass es gar nicht erst zu einem Stromfluss durch den Körper kommt.",
      "ar": "هدف كل قاعدة ألا يمر تيار عبر الجسم أصلًا.",
      "en": "The goal of every rule is that no current flows through the body in the first place."
-    },
-    {
-     "de": "Ein Störlichtbogen kann ebenfalls schwere Verbrennungen verursachen.",
-     "ar": "كما يمكن للقوس الكهربائي العرضي أن يسبب حروقًا شديدة.",
-     "en": "An arc fault can also cause severe burns."
     }
    ]
   },
@@ -240,11 +235,6 @@
      "en": "The duration and the path through the body matter just as much."
     },
     {
-     "de": "Das Gleiche gilt für Anlagen mit höherer Spannung.",
-     "ar": "وينطبق الأمر نفسه على المنشآت ذات الجهد الأعلى.",
-     "en": "The same applies to installations with higher voltage."
-    },
-    {
      "de": "Sie sehen: Es gibt keinen Strom, der immer harmlos ist.",
      "ar": "ترون أنه لا يوجد تيار آمن دائمًا.",
      "en": "You see: there is no current that is always harmless."
@@ -275,7 +265,7 @@
      "ArbSchG: Gefährdungsbeurteilung",
      "BetrSichV: Arbeitsmittel",
      "DGUV Vorschrift 3: Elektrische Anlagen",
-     "VDE 0105-100: Betrieb von Anlagen"
+     "DIN VDE 0105-100: Betrieb von Anlagen"
     ]
    },
    "lines": [
@@ -297,9 +287,9 @@
     },
     {
      "de": "Die DGUV Vorschrift 3 betrifft elektrische Anlagen und Betriebsmittel.",
-     "ar": "اللائحة الثالثة للتأمين الاجتماعي ضد الحوادث تخص المنشآت والمعدات الكهربائية.",
+     "ar": "لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) تخص المنشآت والمعدات الكهربائية.",
      "en": "DGUV Regulation 3 covers electrical installations and equipment.",
-     "tts": "De-Ge-U-Fau Vorschrift drei betrifft elektrische Anlagen und Betriebsmittel."
+     "tts": "Die De-Ge-U-Fau Vorschrift drei betrifft elektrische Anlagen und Betriebsmittel."
     },
     {
      "de": "Diese Texte hängen eng zusammen.",
@@ -308,7 +298,7 @@
     },
     {
      "de": "Das Gesetz gibt den Rahmen, die Vorschrift und die Norm füllen die Details.",
-     "ar": "القانون يضع الإطار، واللائحة والمعيار يملآن التفاصيل.",
+     "ar": "القانون يضع الإطار، واللائحة والمعايير تملأ التفاصيل.",
      "en": "The law gives the framework, the regulation and the standard fill in the details."
     },
     {
@@ -327,10 +317,10 @@
      "en": "But you should know where to look."
     },
     {
-     "de": "Die Norm VDE 0105-100 beschreibt den Betrieb von Anlagen.",
-     "ar": "معيار الاتحاد الألماني للكهرباء المذكور يصف تشغيل المنشآت.",
-     "en": "The VDE standard 0105-100 describes operating installations.",
-     "tts": "Die Norm Fau-De-E null eins null fünf Strich eins null null beschreibt den Betrieb von Anlagen."
+     "de": "Die Norm DIN VDE 0105-100 beschreibt den Betrieb von Anlagen.",
+     "ar": "معيار DIN VDE 0105-100 يصف تشغيل المنشآت.",
+     "en": "The standard DIN VDE 0105-100 describes operating installations.",
+     "tts": "Die Norm Din Fau-De-E null-einhundertfünf, Teil einhundert, beschreibt den Betrieb von Anlagen."
     }
    ]
   },
@@ -367,7 +357,7 @@
     {
      "de": "Daraus leitet er die nötigen Schutzmaßnahmen ab.",
      "ar": "ومن ذلك يستخلص إجراءات الحماية اللازمة.",
-     "en": "From that he derives the necessary protective measures."
+     "en": "From that the employer derives the necessary protective measures."
     },
     {
      "de": "Das gilt auch, bevor Arbeitsmittel benutzt werden.",
@@ -378,7 +368,7 @@
      "de": "Ein CE-Kennzeichen ersetzt diese Beurteilung nicht.",
      "ar": "علامة المطابقة الأوروبية لا تغني عن هذا التقييم.",
      "en": "A CE marking does not replace this assessment.",
-     "tts": "Ein Ce-E-Kennzeichen ersetzt diese Beurteilung nicht."
+     "tts": "Ein Ze-E-Kennzeichen ersetzt diese Beurteilung nicht."
     },
     {
      "de": "Ein Beispiel: Ein neues Gerät soll in einer Werkstatt benutzt werden.",
@@ -387,7 +377,7 @@
     },
     {
      "de": "Dann fragt man zuerst, welche Gefahren dabei entstehen können.",
-     "ar": "عندئذٍ يُسأل أولًا عن الأخطار التي قد تنشأ.",
+     "ar": "عندئذٍ نسأل أولًا عن المخاطر التي قد تنشأ.",
      "en": "Then you first ask which hazards can arise."
     },
     {
@@ -415,7 +405,7 @@
     "items": [
      "1  Freischalten",
      "2  Gegen Wiedereinschalten sichern",
-     "3  Spannungsfreiheit feststellen",
+     "3  Spannungsfreiheit allpolig feststellen",
      "4  Erden und Kurzschließen",
      "5  Benachbarte Teile abdecken oder abschranken"
     ]
@@ -427,15 +417,15 @@
      "en": "Now come the five safety rules."
     },
     {
-     "de": "Sie stehen in der Norm VDE 0105-100, Abschnitt 6.2.",
-     "ar": "وهي مذكورة في المعيار المذكور، في البند السادس فاصلة اثنان.",
-     "en": "They are in the standard VDE 0105-100, section 6.2.",
-     "tts": "Sie stehen in der Norm Fau-De-E null eins null fünf Strich eins null null, Abschnitt sechs Punkt zwei."
+     "de": "Sie stehen in der Norm DIN VDE 0105-100, Ausgabe 2015, Abschnitt 6.2; prüfen Sie vor der Anwendung die aktuelle Fassung.",
+     "ar": "وهي مذكورة في معيار DIN VDE 0105-100، إصدار 2015، البند 6.2؛ وتحققوا من الصيغة الحالية قبل التطبيق.",
+     "en": "They are in the standard DIN VDE 0105-100, 2015 edition, section 6.2; check the current version before applying it.",
+     "tts": "Sie stehen in der Norm Din Fau-De-E null-einhundertfünf, Teil einhundert, Ausgabe zweitausendfünfzehn, Abschnitt sechs Punkt zwei; prüfen Sie vor der Anwendung die aktuelle Fassung."
     },
     {
-     "de": "Sie gelten für Arbeiten an spannungsfrei gemachten Anlagen.",
-     "ar": "وتنطبق على الأعمال في المنشآت التي فُصل عنها الجهد.",
-     "en": "They apply to work on installations that have been de-energised."
+     "de": "Sie gelten für Arbeiten an Anlagen, die spannungsfrei gemacht werden.",
+     "ar": "وتنطبق على الأعمال في المنشآت التي يُراد فصل الجهد عنها.",
+     "en": "They apply to work on installations that are to be de-energised."
     },
     {
      "de": "Die Reihenfolge ist wichtig: von eins bis fünf.",
@@ -453,9 +443,9 @@
      "en": "Now we look at each rule more closely."
     },
     {
-     "de": "Prägen Sie sich die Reihenfolge gut ein.",
-     "ar": "احفظوا الترتيب جيدًا.",
-     "en": "Learn the order well."
+     "de": "Die fünf Regeln: freischalten, sichern, Spannungsfreiheit allpolig feststellen, erden und kurzschließen, benachbarte Teile abdecken oder abschranken.",
+     "ar": "القواعد الخمس: فصل الجهد، ومنع إعادة التشغيل، والتحقق من انعدام الجهد في جميع الأقطاب، والتأريض والتقصير، وتغطية الأجزاء المجاورة أو إحاطتها بحواجز.",
+     "en": "The five rules: isolate, secure, verify absence of voltage on all poles, earth and short-circuit, cover or fence off neighbouring parts."
     },
     {
      "de": "Sie ist die Grundlage für alles Weitere in diesem Video.",
@@ -476,9 +466,9 @@
     "heading": "Freischalten und sichern",
     "items": [
      "Anlage allseitig abschalten",
-     "z. B. Schutzschalter ausschalten",
+     "z. B. Leitungsschutzschalter aus",
      "Sicherungen entfernen",
-     "Verbotsschild anbringen"
+     "Verbotsschild allein genügt nicht"
     ],
     "terms": [
      {
@@ -500,18 +490,18 @@
      "en": "Rule one: isolate."
     },
     {
-     "de": "Die Anlage wird abgeschaltet, zum Beispiel am Leitungsschutzschalter.",
-     "ar": "تُفصل المنشأة، مثلًا عند قاطع حماية الخطوط.",
-     "en": "The installation is switched off, for example at the circuit breaker."
+     "de": "Die Anlage wird allseitig abgeschaltet, zum Beispiel am Leitungsschutzschalter.",
+     "ar": "تُفصل المنشأة من جميع الجوانب، مثلًا عند القاطع الآلي.",
+     "en": "The installation is isolated on all sides, for example at the circuit breaker."
     },
     {
      "de": "Manchmal werden auch Schmelzsicherungen entfernt.",
-     "ar": "وأحيانًا تُزال المصهرات أيضًا.",
+     "ar": "وأحيانًا تُزال المنصهرات أيضًا.",
      "en": "Sometimes fuses are removed as well."
     },
     {
      "de": "Regel zwei heißt: Gegen Wiedereinschalten sichern.",
-     "ar": "القاعدة الثانية: التأمين ضد إعادة التشغيل.",
+     "ar": "القاعدة الثانية: تأمين المنشأة ضد إعادة التشغيل.",
      "en": "Rule two: secure against re-energising."
     },
     {
@@ -540,9 +530,9 @@
      "en": "Both steps are simple, but they must be done carefully."
     },
     {
-     "de": "Dazu hilft zum Beispiel ein Verbotsschild.",
-     "ar": "ويساعد في ذلك مثلًا لافتة منع.",
-     "en": "A prohibition sign helps here, for example."
+     "de": "Ein Verbotsschild gehört dazu, genügt aber allein nicht.",
+     "ar": "لافتة المنع جزء من ذلك، لكنها وحدها لا تكفي.",
+     "en": "A prohibition sign is part of it, but it is not enough on its own."
     }
    ]
   },
@@ -550,12 +540,12 @@
    "slide": {
     "layout": "bullets",
     "kicker": "Regel 3",
-    "heading": "Spannungsfreiheit feststellen",
+    "heading": "Spannungsfreiheit allpolig feststellen",
     "items": [
-     "Erst messen, dann arbeiten",
+     "Erst feststellen, dann arbeiten",
      "Nie nur auf das Schalten vertrauen",
-     "Mit geeignetem Prüfgerät",
-     "Nur durch qualifizierte Personen"
+     "Mit geeignetem Spannungsprüfer",
+     "Nur durch ausgebildete Personen"
     ],
     "terms": [
      {
@@ -567,9 +557,9 @@
    },
    "lines": [
     {
-     "de": "Regel drei heißt: Spannungsfreiheit feststellen.",
-     "ar": "القاعدة الثالثة: التحقق من انعدام الجهد.",
-     "en": "Rule three: verify that there is no voltage."
+     "de": "Regel drei heißt: Spannungsfreiheit allpolig feststellen.",
+     "ar": "القاعدة الثالثة: التحقق من انعدام الجهد في جميع الأقطاب.",
+     "en": "Rule three: verify the absence of voltage on all poles."
     },
     {
      "de": "Abschalten allein reicht nicht.",
@@ -577,14 +567,14 @@
      "en": "Switching off alone is not enough."
     },
     {
-     "de": "Man muss prüfen, dass wirklich keine Spannung anliegt.",
-     "ar": "يجب التأكد من أنه لا يوجد جهد فعلًا.",
-     "en": "You must check that there really is no voltage."
+     "de": "Man muss allpolig prüfen, dass wirklich keine Spannung anliegt.",
+     "ar": "يجب التحقق في جميع الأقطاب من أنه لا يوجد جهد فعلًا.",
+     "en": "You must check all poles to confirm that there really is no voltage."
     },
     {
-     "de": "Das macht eine qualifizierte Person mit einem geeigneten Gerät.",
-     "ar": "ويقوم بذلك شخص مؤهل بجهاز مناسب.",
-     "en": "A qualified person does this with a suitable device."
+     "de": "Das macht eine dafür ausgebildete Person mit einem geeigneten Spannungsprüfer.",
+     "ar": "ويقوم بذلك شخص مدرَّب على ذلك بجهاز اختبار جهد مناسب.",
+     "en": "A person trained for this does it with a suitable voltage tester."
     },
     {
      "de": "Ein Gedanke dazu: Vertrauen Sie nie nur auf ein Schild oder einen Schalter.",
@@ -592,9 +582,9 @@
      "en": "One thought: never rely only on a sign or a switch."
     },
     {
-     "de": "Die Messung gibt Ihnen die Sicherheit.",
-     "ar": "القياس هو ما يمنحكم الأمان.",
-     "en": "The measurement gives you certainty."
+     "de": "Die Prüfung gibt Ihnen die Sicherheit.",
+     "ar": "الفحص هو ما يمنحكم الأمان.",
+     "en": "The check gives you certainty."
     },
     {
      "de": "Erst danach gilt die Anlage als spannungsfrei.",
@@ -654,9 +644,9 @@
      "en": "These two rules are the last ones before work begins."
     },
     {
-     "de": "Danach kann die verantwortliche Person die Arbeitsstelle freigeben.",
-     "ar": "بعد ذلك يستطيع الشخص المسؤول أن يعتمد موقع العمل.",
-     "en": "After that the responsible person can release the workplace."
+     "de": "Danach kann die Arbeitsstelle freigegeben werden.",
+     "ar": "بعد ذلك يمكن اعتماد موقع العمل.",
+     "en": "After that the workplace can be released."
     },
     {
      "de": "Wie genau das gemacht wird, hängt von der Anlage ab.",
@@ -673,7 +663,7 @@
     "items": [
      "Arbeitsstelle erst nach Regel 1 bis 5 frei",
      "Wiedereinschalten in umgekehrter Reihenfolge",
-     "Aufsicht gibt die Stelle frei"
+     "Vorher prüfen: niemand arbeitet mehr"
     ]
    },
    "lines": [
@@ -722,7 +712,7 @@
     "items": [
      "Auftrag und Gefahren klären",
      "Regeln 1 bis 5 der Reihe nach",
-     "Arbeitsstelle durch Aufsicht freigeben",
+     "Arbeitsstelle freigeben",
      "Arbeit ausführen",
      "Rückwärts wieder einschalten"
     ]
@@ -744,9 +734,9 @@
      "en": "Then come the five rules, one after the other."
     },
     {
-     "de": "Erst danach gibt die verantwortliche Person die Arbeitsstelle frei.",
-     "ar": "وبعدها فقط يعتمد الشخص المسؤول موقع العمل.",
-     "en": "Only then does the responsible person release the workplace."
+     "de": "Erst danach wird die Arbeitsstelle freigegeben.",
+     "ar": "وبعدها فقط يُعتمد موقع العمل.",
+     "en": "Only then is the workplace released."
     },
     {
      "de": "Jetzt kann die eigentliche Arbeit beginnen.",
@@ -755,7 +745,7 @@
     },
     {
      "de": "Am Ende wird in umgekehrter Reihenfolge wieder eingeschaltet.",
-     "ar": "وفي النهاية تُعاد التشغيل بترتيب معكوس.",
+     "ar": "وفي النهاية يُعاد التشغيل بترتيب معكوس.",
      "en": "At the end, power is restored in reverse order."
     },
     {
@@ -774,13 +764,13 @@
      "Elektrofachkraft: Ausbildung und Erfahrung",
      "Arbeit nur im Rahmen der Befugnis",
      "Arbeitgeber legt Aufgaben fest",
-     "Unterweisung regelmäßig erneuern"
+     "Unterweisung im Betrieb"
     ],
     "terms": [
      {
       "de": "Elektrofachkraft",
-      "ar": "فني كهرباء مؤهل",
-      "en": "qualified electrician (EFK)"
+      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "en": "qualified electrician (Elektrofachkraft)"
      }
     ]
    },
@@ -792,18 +782,18 @@
     },
     {
      "de": "Prüfungen führt eine Elektrofachkraft oder jemand unter ihrer Leitung durch.",
-     "ar": "الفحوص تنفذها Elektrofachkraft أو شخص تحت إشرافها.",
+     "ar": "الفحوص ينفذها الكهربائي المؤهَّل أو شخص تحت إشرافه.",
      "en": "Inspections are carried out by a qualified electrician or someone under their direction."
     },
     {
      "de": "Das steht in der DGUV Vorschrift 3.",
-     "ar": "وهذا مذكور في اللائحة الثالثة للتأمين ضد الحوادث.",
+     "ar": "وهذا مذكور في لائحة الوقاية من الحوادث رقم ٣ (DGUV V3).",
      "en": "This is stated in DGUV Regulation 3.",
      "tts": "Das steht in der De-Ge-U-Fau Vorschrift drei."
     },
     {
      "de": "Ein Ingenieurabschluss allein macht noch keine Elektrofachkraft.",
-     "ar": "الشهادة الهندسية وحدها لا تجعل الشخص Elektrofachkraft.",
+     "ar": "الشهادة الهندسية وحدها لا تجعل الشخص كهربائيًا مؤهَّلًا (Elektrofachkraft) تلقائيًا.",
      "en": "An engineering degree alone does not make someone a qualified electrician."
     },
     {
@@ -812,9 +802,9 @@
      "en": "Ask at your company which tasks you may take on."
     },
     {
-     "de": "Mehr zur Elektrofachkraft hören Sie in einer eigenen Folge.",
-     "ar": "ستسمعون المزيد عن Elektrofachkraft في حلقة مستقلة.",
-     "en": "You will hear more about the qualified electrician in a separate episode."
+     "de": "Mehr zur Elektrofachkraft haben Sie im vorigen Video gehört.",
+     "ar": "سمعتم المزيد عن الكهربائي المؤهَّل (Elektrofachkraft) في الفيديو السابق.",
+     "en": "You heard more about the qualified electrician in the previous video."
     }
    ]
   },
@@ -840,20 +830,20 @@
    },
    "lines": [
     {
-     "de": "Arbeiten unter Spannung ist nur eine Ausnahme.",
+     "de": "Arbeiten unter Spannung sind nur eine Ausnahme.",
      "ar": "العمل تحت الجهد استثناء فقط.",
      "en": "Live working is only an exception."
     },
     {
      "de": "Man kürzt sie oft mit AuS ab.",
-     "ar": "ويُختصر غالبًا بالحرفين المذكورين.",
+     "ar": "ويُختصر غالبًا بالرمز AuS في الألمانية.",
      "en": "It is often abbreviated as AuS.",
      "tts": "Man kürzt sie oft mit A-U-S ab."
     },
     {
-     "de": "Sie ist erlaubt, wenn keine Gefährdung auftreten kann.",
-     "ar": "وهو مسموح إذا لم يكن هناك خطر.",
-     "en": "It is allowed if no hazard can arise."
+     "de": "Sie sind erlaubt, wenn keine Gefährdung auftreten kann.",
+     "ar": "وهي مسموحة إذا لم يكن هناك خطر.",
+     "en": "They are allowed if no hazard can arise."
     },
     {
      "de": "Oder wenn der spannungsfreie Zustand aus zwingenden Gründen nicht möglich ist.",
@@ -871,9 +861,10 @@
      "en": "They may only use approved work procedures."
     },
     {
-     "de": "In der Praxis ist das selten und gut vorbereitet.",
-     "ar": "وفي الواقع هو نادر ومُعدّ جيدًا.",
-     "en": "In practice it is rare and well prepared."
+     "de": "Die Regeln dafür gelten bis 1 kV Wechselspannung.",
+     "ar": "وتسري القواعد الخاصة بذلك حتى 1 كيلوفولت تيار متناوب.",
+     "en": "The rules for this apply up to 1 kV AC.",
+     "tts": "Die Regeln dafür gelten bis ein Kilovolt Wechselspannung."
     },
     {
      "de": "Der Arbeitgeber prüft die Befähigung regelmäßig.",
@@ -887,7 +878,7 @@
     },
     {
      "de": "Die Regeln dazu stehen unter anderem in der DGUV Regel 103-011.",
-     "ar": "والقواعد المتعلقة بذلك مذكورة ضمن أمور أخرى في القاعدة المذكورة رقم مئة وثلاثة.",
+     "ar": "والقواعد المتعلقة بذلك مذكورة ضمن أمور أخرى في قاعدة DGUV رقم 103-011 للتأمين ضد الحوادث.",
      "en": "The rules are set out in DGUV Rule 103-011, among others.",
      "tts": "Die Regeln dazu stehen unter anderem in der De-Ge-U-Fau Regel hundertdrei Strich null elf."
     }
@@ -920,14 +911,14 @@
    "lines": [
     {
      "de": "Die DGUV Vorschrift 3 verlangt Prüfungen.",
-     "ar": "اللائحة الثالثة تشترط إجراء فحوص.",
+     "ar": "لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) تشترط إجراء فحوص.",
      "en": "DGUV Regulation 3 requires inspections.",
-     "tts": "De-Ge-U-Fau Vorschrift drei verlangt Prüfungen."
+     "tts": "Die De-Ge-U-Fau Vorschrift drei verlangt Prüfungen."
     },
     {
      "de": "Der Unternehmer muss Anlagen und Betriebsmittel prüfen lassen.",
      "ar": "على صاحب المنشأة أن يجعل المنشآت والمعدات تُفحص.",
-     "en": "The operator must have installations and equipment inspected."
+     "en": "The employer must have installations and equipment inspected."
     },
     {
      "de": "Das gilt vor der ersten Inbetriebnahme und nach einer Änderung.",
@@ -947,7 +938,7 @@
     {
      "de": "So sinkt das Risiko für Unfälle.",
      "ar": "وبذلك ينخفض خطر الحوادث.",
-     "en": "This lowers the risk of accidents and fires."
+     "en": "This lowers the risk of accidents."
     },
     {
      "de": "Prüfungen sind kein Papierkram, sondern ein Teil der Unfallverhütung.",
@@ -961,7 +952,7 @@
     },
     {
      "de": "Eine Elektrofachkraft führt sie durch, oder jemand unter ihrer Leitung.",
-     "ar": "وينفذها Elektrofachkraft أو شخص تحت إشرافها.",
+     "ar": "وينفذها الكهربائي المؤهَّل أو شخص تحت إشرافه.",
      "en": "A qualified electrician carries them out, or someone under their direction."
     }
    ]
@@ -1012,7 +1003,7 @@
      "en": "There are guideline values from the accident insurance bodies."
     },
     {
-     "de": "Eine Werkstatt braucht daher andere Fristen als ein Büro.",
+     "de": "Eine Werkstatt kann daher andere Fristen brauchen als ein Büro.",
      "ar": "لذلك قد تحتاج الورشة إلى مدد مختلفة عن المكتب.",
      "en": "So a workshop may need different intervals than an office."
     },
@@ -1055,14 +1046,14 @@
    "lines": [
     {
      "de": "Persönliche Schutzausrüstung nennt man kurz PSA.",
-     "ar": "معدات الوقاية الشخصية تُسمى اختصارًا بهذا الاسم.",
+     "ar": "تُسمى معدات الوقاية الشخصية اختصارًا PSA في اللغة الألمانية.",
      "en": "Personal protective equipment is called PSA for short.",
      "tts": "Persönliche Schutzausrüstung nennt man kurz Pe-Es-A."
     },
     {
      "de": "Sie schützt zum Beispiel vor einem Störlichtbogen.",
      "ar": "وهي تحمي مثلًا من القوس الكهربائي العرضي.",
-     "en": "It protects, for example, against an arc fault."
+     "en": "It protects, for example, against a fault arc."
     },
     {
      "de": "Dazu gehören Schutzkleidung, Kopf- und Gesichtsschutz und Handschutz.",
@@ -1070,10 +1061,10 @@
      "en": "This includes protective clothing, head and face protection, and hand protection."
     },
     {
-     "de": "Die richtige Auswahl hilft die DGUV Information 203-077.",
-     "ar": "ويساعد في الاختيار الصحيح منشور التأمين المذكور رقم مئتين وثلاثة.",
-     "en": "The DGUV Information 203-077 helps with choosing correctly.",
-     "tts": "Die richtige Auswahl hilft die De-Ge-U-Fau Information zweihundertdrei Strich null sieben sieben."
+     "de": "Bei der richtigen Auswahl hilft die DGUV Information 203-077.",
+     "ar": "ويساعد في الاختيار الصحيح منشور DGUV Information رقم 203-077 الصادر عن التأمين ضد الحوادث.",
+     "en": "The DGUV Information 203-077 helps with making the right choice.",
+     "tts": "Bei der richtigen Auswahl hilft die De-Ge-U-Fau Information zweihundertdrei Strich null sieben sieben."
     },
     {
      "de": "Prüfen Sie die Ausrüstung vor jedem Einsatz.",
@@ -1094,7 +1085,7 @@
      "de": "PSA ersetzt aber nie die fünf Sicherheitsregeln.",
      "ar": "لكن معدات الوقاية لا تغني أبدًا عن قواعد السلامة الخمس.",
      "en": "But PSA never replaces the five safety rules.",
-     "tts": "Aber Pe-Es-A ersetzt nie die fünf Sicherheitsregeln."
+     "tts": "Pe-Es-A ersetzt aber nie die fünf Sicherheitsregeln."
     }
    ]
   },
@@ -1106,7 +1097,7 @@
     "items": [
      "Eigenschutz zuerst",
      "Strom unterbrechen",
-     "Hochspannung: nur Fachkraft schaltet ab",
+     "Hochspannung: Abstand, Fachkraft schaltet ab",
      "Notruf 112: Stromunfall melden",
      "Wiederbelebung und Defibrillator"
     ],
@@ -1146,9 +1137,9 @@
      "tts": "Bei Niederspannung bis eintausend Volt schalten Sie ab oder ziehen den Stecker."
     },
     {
-     "de": "Bei Hochspannung darf nur eine autorisierte Elektrofachkraft abschalten.",
-     "ar": "في الجهد العالي لا يفصل التيار إلا Elektrofachkraft مخوّلة.",
-     "en": "With high voltage, only an authorised qualified electrician may switch off."
+     "de": "Bei Hochspannung halten Sie Abstand; abschalten darf nur eine autorisierte Elektrofachkraft.",
+     "ar": "في الجهد العالي ابتعدوا؛ ولا يفصل التيار إلا الكهربائي المؤهَّل (Elektrofachkraft) المخوَّل.",
+     "en": "With high voltage, keep your distance; only an authorised qualified electrician may switch off."
     },
     {
      "de": "Rufen Sie die 112 an und sagen Sie zuerst: Stromunfall.",
@@ -1163,7 +1154,7 @@
     },
     {
      "de": "Holen Sie, wenn möglich, einen Defibrillator.",
-     "ar": "وأحضروا جهاز الصدمات الكهربائية إن أمكن.",
+     "ar": "وأحضروا جهاز إزالة الرجفان (الصادم الكهربائي) إن أمكن.",
      "en": "Fetch a defibrillator if possible."
     },
     {
@@ -1175,11 +1166,6 @@
      "de": "Erste-Hilfe-Kurse im Betrieb üben genau das.",
      "ar": "دورات الإسعافات الأولية في الشركة تتدرب على ذلك بالضبط.",
      "en": "First-aid courses at work practise exactly this."
-    },
-    {
-     "de": "Üben Sie diesen Ablauf in einem Erste-Hilfe-Kurs.",
-     "ar": "تدربوا على هذا التسلسل في دورة إسعاف أولي.",
-     "en": "Practise this sequence in a first-aid course."
     },
     {
      "de": "Jede betroffene Person sollte ärztlich untersucht werden, denn Folgen können verzögert auftreten.",
@@ -1210,7 +1196,7 @@
    "lines": [
     {
      "de": "Die BG ETEM ist ein Träger der gesetzlichen Unfallversicherung.",
-     "ar": "هذه الهيئة جهة تأمين قانوني ضد حوادث العمل.",
+     "ar": "هيئة BG ETEM هي جهة تأمين قانوني ضد حوادث العمل.",
      "en": "The BG ETEM is a statutory accident insurance body.",
      "tts": "Die Be-Ge E-Te-E-M ist ein Träger der gesetzlichen Unfallversicherung."
     },
@@ -1235,9 +1221,9 @@
      "en": "Questions about your company you clear with your safety officer."
     },
     {
-     "de": "Für Sie als Zuwanderer ist das ein wichtiger Ansprechpartner im System.",
-     "ar": "وبالنسبة لكم كوافدين هي جهة مهمة في هذا النظام.",
-     "en": "For you as a newcomer, it is an important contact in the system."
+     "de": "Welche Berufsgenossenschaft zuständig ist, hängt von der Branche des Betriebs ab.",
+     "ar": "وتختلف هيئة التأمين المختصة بحسب قطاع المنشأة.",
+     "en": "Which statutory accident insurer is responsible depends on the company's sector."
     },
     {
      "de": "Nach einem Arbeitsunfall zahlt sie Behandlung und Rehabilitation.",
@@ -1260,7 +1246,7 @@
     "terms": [
      {
       "de": "Schaltplan",
-      "ar": "مخطط التوصيل",
+      "ar": "مخطط الدارات",
       "en": "circuit diagram"
      }
     ]
@@ -1272,9 +1258,9 @@
      "en": "Good safety starts with good documents."
     },
     {
-     "de": "Aktuelle Schaltpläne sollten vorhanden sein, oder die Stromkreise sind gekennzeichnet.",
-     "ar": "يجب توفر مخططات حديثة، أو تكون الدارات موسومة.",
-     "en": "Current circuit diagrams should be available, or the circuits are labelled."
+     "de": "Aktuelle Schaltpläne sollten vorhanden und die Stromkreise eindeutig gekennzeichnet sein.",
+     "ar": "ينبغي توفر مخططات الدارات الحديثة وأن تكون الدارات الكهربائية معلَّمة بوضوح.",
+     "en": "Current circuit diagrams should be available and the circuits clearly labelled."
     },
     {
      "de": "Auch Sicherheitszeichen gehören dazu.",
@@ -1333,7 +1319,7 @@
     },
     {
      "de": "Stellen Sie diese Fragen lieber einmal zu oft als einmal zu wenig.",
-     "ar": "اطرحوا هذه الأسئلة مرة زائدة أفضل من مرة ناقصة.",
+     "ar": "من الأفضل أن تطرحوا هذه الأسئلة مرة زائدة على أن تطرحوها مرة أقل من اللازم.",
      "en": "Better ask these questions once too often than once too few."
     }
    ]
@@ -1364,7 +1350,7 @@
     },
     {
      "de": "Anlagen werden nach der DGUV Vorschrift 3 geprüft.",
-     "ar": "تُفحص المنشآت وفق اللائحة الثالثة.",
+     "ar": "تُفحص المنشآت وفق لائحة الوقاية من الحوادث رقم ٣ (DGUV V3).",
      "en": "Installations are inspected under DGUV Regulation 3.",
      "tts": "Anlagen werden nach der De-Ge-U-Fau Vorschrift drei geprüft."
     },
@@ -1385,7 +1371,7 @@
     },
     {
      "de": "Echte Arbeit braucht Ausbildung, Unterweisung und die aktuellen Regeln.",
-     "ar": "العمل الحقيقي يتطلب تأهيلًا وتوجيهًا والقواعد الحالية.",
+     "ar": "العمل الحقيقي يتطلب التأهيل، والتوجيه والتعليمات (Unterweisung)، والقواعد الحالية.",
      "en": "Real work needs training, instruction and the current rules."
     }
    ]
@@ -1393,67 +1379,67 @@
  ],
  "glossary": [
   {
-   "de": "Freischalten",
+   "de": "das Freischalten",
    "ar": "فصل الجهد",
    "en": "isolating"
   },
   {
-   "de": "Spannungsfreiheit",
+   "de": "die Spannungsfreiheit",
    "ar": "انعدام الجهد",
    "en": "absence of voltage"
   },
   {
-   "de": "Erden",
+   "de": "das Erden",
    "ar": "التأريض",
    "en": "earthing"
   },
   {
-   "de": "Kurzschließen",
+   "de": "das Kurzschließen",
    "ar": "التقصير",
    "en": "short-circuiting"
   },
   {
-   "de": "Abschranken",
+   "de": "das Abschranken",
    "ar": "وضع حواجز",
    "en": "fencing off"
   },
   {
-   "de": "Gefährdungsbeurteilung",
+   "de": "die Gefährdungsbeurteilung",
    "ar": "تقييم المخاطر",
    "en": "risk assessment"
   },
   {
-   "de": "Elektrofachkraft",
-   "ar": "فني كهرباء مؤهل",
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
    "en": "qualified electrician"
   },
   {
-   "de": "Arbeiten unter Spannung",
+   "de": "das Arbeiten unter Spannung (AuS)",
    "ar": "العمل تحت الجهد",
    "en": "live working"
   },
   {
-   "de": "Betriebsmittel",
+   "de": "das Betriebsmittel",
    "ar": "معدات كهربائية",
    "en": "electrical equipment"
   },
   {
-   "de": "Prüffrist",
+   "de": "die Prüffrist",
    "ar": "مدة الفحص الدوري",
    "en": "inspection interval"
   },
   {
-   "de": "Persönliche Schutzausrüstung",
+   "de": "die Persönliche Schutzausrüstung (PSA)",
    "ar": "معدات الوقاية الشخصية",
    "en": "personal protective equipment"
   },
   {
-   "de": "Störlichtbogen",
+   "de": "der Störlichtbogen",
    "ar": "القوس الكهربائي العرضي",
-   "en": "arc fault"
+   "en": "fault arc (arc flash)"
   },
   {
-   "de": "Berufsgenossenschaft",
+   "de": "die Berufsgenossenschaft",
    "ar": "هيئة التأمين ضد إصابات العمل",
    "en": "statutory accident insurer"
   }
@@ -1467,14 +1453,14 @@
    },
    "options": [
     {
-     "de": "Freischalten",
-     "ar": "فصل الجهد",
-     "en": "Isolate"
-    },
-    {
      "de": "Erden und Kurzschließen",
      "ar": "التأريض والتقصير",
      "en": "Earth and short-circuit"
+    },
+    {
+     "de": "Freischalten",
+     "ar": "فصل الجهد",
+     "en": "Isolate"
     },
     {
      "de": "Abdecken",
@@ -1482,7 +1468,7 @@
      "en": "Cover"
     }
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "q": {
@@ -1497,17 +1483,17 @@
      "en": "Same order"
     },
     {
-     "de": "Umgekehrte Reihenfolge",
-     "ar": "ترتيب معكوس",
-     "en": "Reverse order"
-    },
-    {
      "de": "Keine Reihenfolge",
      "ar": "لا ترتيب",
      "en": "No order"
+    },
+    {
+     "de": "Umgekehrte Reihenfolge",
+     "ar": "ترتيب معكوس",
+     "en": "Reverse order"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
@@ -1567,9 +1553,9 @@
    },
    "options": [
     {
-     "de": "112",
-     "ar": "مئة واثنا عشر",
-     "en": "112"
+     "de": "Keine",
+     "ar": "لا شيء",
+     "en": "None"
     },
     {
      "de": "110",
@@ -1577,18 +1563,18 @@
      "en": "110"
     },
     {
-     "de": "Keine",
-     "ar": "لا شيء",
-     "en": "None"
+     "de": "112",
+     "ar": "مئة واثنا عشر",
+     "en": "112"
     }
    ],
-   "answer": 0
+   "answer": 2
   }
  ],
  "next": {
-  "de": "Weiter mit Folge 6: Schaltpläne und Zeichnungen.",
-  "ar": "نكمل في الحلقة السادسة: المخططات والرسومات.",
-  "en": "Next, episode 6: circuit diagrams and drawings."
+  "de": "Im nächsten Video geht es um Schaltpläne, Symbole und Kennzeichnung.",
+  "ar": "في الفيديو القادم نتناول مخططات الدارات والرموز والتمييز.",
+  "en": "The next video covers circuit diagrams, symbols and labelling."
  },
- "stand": "2026-10-20; prüfen: aktueller Wortlaut VDE 0105-100, Überarbeitung DGUV Vorschrift 3/4, Prüffristen-Richtwerte (nicht im Video genannt), DGUV Regel 103-011"
+ "stand": "2026-10-20; prüfen: aktueller Wortlaut und Ausgabe DIN VDE 0105-100 (Abschnitt 6.2 nur sekundär belegt; Entwurf neuer Ausgabe laut Audit, nicht verifiziert), Überarbeitung DGUV Vorschrift 3/4, Prüffristen-Richtwerte (nicht im Video genannt), DGUV Regel 103-011 (AuS bis 1 kV AC), Formulierung Regel 3 (allpolig, Spannungsprüfer) und Hochspannungs-Hinweis gegen Primärquelle"
 }

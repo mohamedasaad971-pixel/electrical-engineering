@@ -185,6 +185,12 @@
   "Unfallstatistik BG ETEM (3.500-4.000 bzw. 4.796 Meldungen): Quellen widersprüchlich.",
   "Verhältnis 30:2 bei Wiederbelebung: nur Nebenquelle, im Skript nicht genannt.",
   "Wortlaut der VDE 0105-100 selbst (Normtext nicht frei zugänglich).",
-  "Wechselstrom sei 4-5 mal gefährlicher als Gleichstrom: widersprüchlich/Sekundärquelle."
+  "Wechselstrom sei 4-5 mal gefährlicher als Gleichstrom: widersprüchlich/Sekundärquelle.",
+  "Entwurf E-DIN VDE 0105-100:2026-10 (Einspruchsfrist 04.11.2026): Audit-Hinweis, nicht in der Recherche belegt; im Skript nur als Aufforderung, die aktuelle Fassung zu prüfen.",
+  "Zweipoliger Spannungsprüfer nach DIN EN 61243-3 (Multimeter/Phasenprüfer ungeeignet): Audit-Hinweis (Electrosuisse), nicht verifiziert; im Skript nur \"geeigneter Spannungsprüfer\".",
+  "Wer die Arbeitsstelle freigibt (\"Aufsicht\" bzw. \"verantwortliche Person\"): nicht belegt; im Skript nur \"Arbeitsstelle wird freigegeben\".",
+  "\"Anlagen mit höherer Spannung: gleiche Faktoren\" und \"AuS ist in der Praxis selten und gut vorbereitet\": unbelegt, gestrichen.",
+  "\"Unterweisung regelmäßig erneuern\": unbelegt, ersetzt durch \"Unterweisung im Betrieb\".",
+  "Zuständigkeit der BG ETEM \"für Sie\" allgemein: Zuständigkeit hängt von der Branche ab (Unfallkassen im öffentlichen Dienst); Aussage entfernt."
  ]
 }

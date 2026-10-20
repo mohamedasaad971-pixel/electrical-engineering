@@ -1,30 +1,154 @@
-{"video":"E-F07","facts":[
-{"claim":"Leitungsschutzschalter (LS-Schalter) wird auch Sicherungsautomat genannt; umgangssprachlich auch nur 'Automat'","source_url":"https://www.baunetzwissen.de/glossar/l/leitungsschutzschalter-48851","source_name":"BauNetz Wissen Glossar; Hager/zaehlerschrank24 Ratgeber","confidence":"high","note":"Genus (maskulin) nicht aus Duden belegt, aber Standardgrammatik."},
-{"claim":"Leitungsschutzschalter trennt den Stromkreis bei Überlast oder Kurzschluss (Überstromschutzeinrichtung)","source_url":"https://www.baunetzwissen.de/glossar/l/leitungsschutzschalter-48851","source_name":"BauNetz Wissen Glossar","confidence":"high","note":""},
-{"claim":"Fehlerstrom-Schutzeinrichtungen sind umgangssprachlich 'FI-Schutz'; die genormte Abkürzung ist RCD (residual current device)","source_url":"https://www.baunetzwissen.de/elektro/fachwissen/schutz/fehlerstrom-schutzeinrichtungen-rcds-oder-fi-schutz-153024","source_name":"BauNetz Wissen","confidence":"high","note":""},
-{"claim":"FI-Schutzschalter (älter), Fehlerstrom-Schutzschalter und RCD bezeichnen dasselbe Bauteil","source_url":"https://bau.de/presse/thema-rcd","source_name":"bau.de","confidence":"medium","note":"Sekundärquelle; im Skript nur 'FI-Schalter ist die umgangssprachliche Form'."},
-{"claim":"RCD misst Differenz zwischen zu- und abfließendem Strom und löst bei Grenzwert aus","source_url":"https://www.baunetzwissen.de/elektro/fachwissen/schutz/fehlerstrom-schutzeinrichtungen-rcds-oder-fi-schutz-153024","source_name":"BauNetz Wissen","confidence":"high","note":"30 mA nicht im Skript genannt (Anwendungsfall-abhängig)."},
-{"claim":"Differenzstromschutzschalter wird umgangssprachlich auch FI-Automat genannt","source_url":"https://bau.de/presse/thema-fi","source_name":"bau.de","confidence":"medium","note":"Nicht im Skript verwendet."},
-{"claim":"Schütz: elektromagnetisch betätigter Schalter für hohe Leistungen; Plural 'Schütze'","source_url":"https://www.sanier.de/elektroinstallation/das-schuetz","source_name":"sanier.de; RS Online (Plural im Gebrauch)","confidence":"medium","note":"Artikel 'das' und Plural aus Gebrauch, kein Wörterbucheintrag erreichbar."},
-{"claim":"Leistungsschütz schaltet den Hauptstromkreis; Hilfsschütz dient der Steuerung","source_url":"https://www.sanier.de/elektroinstallation/das-schuetz","source_name":"sanier.de / VDE-Verlag Leseprobe","confidence":"medium","note":"Quellen uneinheitlich; im Skript nur Leistungsschütz."},
-{"claim":"Außenleiter (L): Leiter, der Stromquelle und Verbraucher verbindet, nicht vom Mittel-/Sternpunkt ausgeht; immer aktiv und stromführend","source_url":"https://www.vde-verlag.de/buecher/leseprobe/9783800720507_PROBE_01.pdf","source_name":"VDE Verlag Leseprobe (zu DIN VDE 0100)","confidence":"high","note":""},
-{"claim":"Neutralleiter (N): mit Mittel-/Sternpunkt des Netzes verbunden, stromführend, aktives Teil","source_url":"https://www.vde-verlag.de/buecher/leseprobe/9783800720507_PROBE_01.pdf","source_name":"VDE Verlag Leseprobe","confidence":"high","note":""},
-{"claim":"Schutzleiter (PE): verbindet Körper der Betriebsmittel, niederohmige Verbindung zu Erder oder PEN-Leiter","source_url":"https://www.vde-verlag.de/buecher/leseprobe/9783800756339_PROBE_01.pdf","source_name":"VDE Verlag Leseprobe (DIN VDE 0100-540)","confidence":"high","note":""},
-{"claim":"Umgangssprachlich 'Phase' für Außenleiter","source_url":"https://www.vde-verlag.de/buecher/leseprobe/9783800720507_PROBE_01.pdf","source_name":"VDE Verlag Leseprobe (Fachbegriff Außenleiter)","confidence":"medium","note":"Fachbegriff Außenleiter belegt; 'Phase' als Alltagswort aus Sprachgebrauch. Skript: 'im Alltag hört man auch Phase'."},
-{"claim":"Lastenheft beschreibt Anforderungen aus Auftraggebersicht (Was); Pflichtenheft die Umsetzung aus Auftragnehmersicht (Wie); VDI 2519 Blatt 1","source_url":"https://www.lexware.de/wissen/unternehmerlexikon/pflichtenheft/","source_name":"Lexware; gruender.de","confidence":"high","note":""},
-{"claim":"Stückliste: vollständige Übersicht über Teile/Baugruppen mit Mengen","source_url":"https://www.lexware.de/wissen/unternehmerlexikon/stueckliste/","source_name":"Lexware; welt-der-bwl.de","confidence":"high","note":""},
-{"claim":"Lieferschein begleitet die Ware, dokumentiert was geliefert wurde, dient der Kontrolle beim Wareneingang; keine Zahlungsfunktion","source_url":"https://freefinance.at/fakturierung/lieferschein.html","source_name":"freefinance.at; bexio","confidence":"high","note":"Pflichtangaben nicht im Skript."},
-{"claim":"Leitwert ist Kehrwert des elektrischen Widerstands (Duden, Plural Leitwerte)","source_url":"https://www.duden.de/rechtschreibung/Leitwert","source_name":"Duden","confidence":"high","note":"Nur als Hintergrund; nicht im Skript."},
-{"claim":"Kabel leitet den Strom (Beispielsatz, 'leiten')","source_url":"https://de.wiktionary.org/wiki/leiten","source_name":"Wiktionary","confidence":"medium","note":""},
-{"claim":"Artikel/Plural: der Leiter, die Leiter; die Leitung, -en; das Kabel, die Kabel; die Sicherung, -en; die Klemme, -n; der Verteiler, die Verteiler; der Schaltschrank, die Schaltschränke","source_url":"https://www.duden.de/suchen/dudenonline/schalttafel","source_name":"Duden (Schaltschrank maskulin) + Fachgebrauch","confidence":"medium","note":"duden.de/dwds.de direkt nicht abrufbar (Netzwerk). Standard-Grammatik; vor Build gegen Duden prüfen."},
-{"claim":"Artikel/Plural: die Spannung, -en; der Widerstand, die Widerstände; die Leistung, -en; die Erdung, -en; der Strom (meist Singular); das Prüfprotokoll, -e; die Abnahme, -n","source_url":"https://www.duden.de/rechtschreibung/Leitwert","source_name":"Duden (verwandter Eintrag Leitwert/Widerstand)","confidence":"medium","note":"Standard-Grammatik; vor Build gegen Duden prüfen."}
-],
-"dropped":[
-"Prüfprotokoll nach DIN VDE 0100-600: Inhalt/Pflichtangaben nicht belegt (Suche ohne Treffer) – im Skript nur allgemein 'Dokument über Prüfergebnisse'",
-"Abnahme: rechtliche Bedeutung (BGB/VOB) nicht recherchiert – nur umgangssprachliche Erklärung 'Kunde nimmt die Arbeit offiziell an'",
-"Nulleiter als alter Begriff für PEN (nur Forumsquelle, low)",
-"Konkrete Dialekt-Aussagen (z. B. regionale Wörter für Sicherung) – nicht belegt; im Skript nur allgemeiner Hinweis, dass Dialekte existieren",
-"Fünf Sicherheitsregeln (Freischalten usw.) im Wortlaut nicht in dieser Session belegt – nur freie Werkstatt-Phrasen",
-"30 mA Auslösewert und Normnummern (DIN VDE 0100-410) – nicht im Skript",
-"Duden/DWDS direkt (Netzwerk blockiert): Genus/Plural bleiben 'medium'"
-]}
+{
+ "video": "E-F07",
+ "facts": [
+  {
+   "claim": "Leitungsschutzschalter (LS-Schalter) wird auch Sicherungsautomat genannt; umgangssprachlich auch nur 'Automat'",
+   "source_url": "https://www.baunetzwissen.de/glossar/l/leitungsschutzschalter-48851",
+   "source_name": "BauNetz Wissen Glossar; Hager/zaehlerschrank24 Ratgeber",
+   "confidence": "high",
+   "note": "Genus (maskulin) nicht aus Duden belegt, aber Standardgrammatik."
+  },
+  {
+   "claim": "Leitungsschutzschalter trennt den Stromkreis bei Überlast oder Kurzschluss (Überstromschutzeinrichtung)",
+   "source_url": "https://www.baunetzwissen.de/glossar/l/leitungsschutzschalter-48851",
+   "source_name": "BauNetz Wissen Glossar",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Fehlerstrom-Schutzeinrichtungen sind umgangssprachlich 'FI-Schutz'; die genormte Abkürzung ist RCD (residual current device)",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/schutz/fehlerstrom-schutzeinrichtungen-rcds-oder-fi-schutz-153024",
+   "source_name": "BauNetz Wissen",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "FI-Schutzschalter (älter), Fehlerstrom-Schutzschalter und RCD bezeichnen dasselbe Bauteil",
+   "source_url": "https://bau.de/presse/thema-rcd",
+   "source_name": "bau.de",
+   "confidence": "medium",
+   "note": "Sekundärquelle; im Skript nur 'FI-Schalter ist die umgangssprachliche Form'."
+  },
+  {
+   "claim": "RCD misst Differenz zwischen zu- und abfließendem Strom und löst bei Grenzwert aus",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/schutz/fehlerstrom-schutzeinrichtungen-rcds-oder-fi-schutz-153024",
+   "source_name": "BauNetz Wissen",
+   "confidence": "high",
+   "note": "30 mA nicht im Skript genannt (Anwendungsfall-abhängig)."
+  },
+  {
+   "claim": "Differenzstromschutzschalter wird umgangssprachlich auch FI-Automat genannt",
+   "source_url": "https://bau.de/presse/thema-fi",
+   "source_name": "bau.de",
+   "confidence": "medium",
+   "note": "Nicht im Skript verwendet."
+  },
+  {
+   "claim": "Schütz: elektromagnetisch betätigter Schalter für hohe Leistungen; Plural 'Schütze'",
+   "source_url": "https://www.sanier.de/elektroinstallation/das-schuetz",
+   "source_name": "sanier.de; RS Online (Plural im Gebrauch)",
+   "confidence": "medium",
+   "note": "Artikel 'das' und Plural aus Gebrauch, kein Wörterbucheintrag erreichbar."
+  },
+  {
+   "claim": "Leistungsschütz schaltet den Hauptstromkreis; Hilfsschütz dient der Steuerung",
+   "source_url": "https://www.sanier.de/elektroinstallation/das-schuetz",
+   "source_name": "sanier.de / VDE-Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Quellen uneinheitlich; im Skript nur Leistungsschütz."
+  },
+  {
+   "claim": "Außenleiter (L): Leiter, der Stromquelle und Verbraucher verbindet, nicht vom Mittel-/Sternpunkt ausgeht; immer aktiv und stromführend",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800720507_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe (zu DIN VDE 0100)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Neutralleiter (N): mit Mittel-/Sternpunkt des Netzes verbunden, stromführend, aktives Teil",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800720507_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Schutzleiter (PE): verbindet Körper der Betriebsmittel, niederohmige Verbindung zu Erder oder PEN-Leiter",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800756339_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe (DIN VDE 0100-540)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Umgangssprachlich 'Phase' für Außenleiter",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800720507_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe (Fachbegriff Außenleiter)",
+   "confidence": "medium",
+   "note": "Fachbegriff Außenleiter belegt; 'Phase' als Alltagswort aus Sprachgebrauch. Skript: 'im Alltag hört man auch Phase'."
+  },
+  {
+   "claim": "Lastenheft beschreibt Anforderungen aus Auftraggebersicht (Was); Pflichtenheft die Umsetzung aus Auftragnehmersicht (Wie); VDI 2519 Blatt 1",
+   "source_url": "https://www.lexware.de/wissen/unternehmerlexikon/pflichtenheft/",
+   "source_name": "Lexware; gruender.de",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Stückliste: vollständige Übersicht über Teile/Baugruppen mit Mengen",
+   "source_url": "https://www.lexware.de/wissen/unternehmerlexikon/stueckliste/",
+   "source_name": "Lexware; welt-der-bwl.de",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Lieferschein begleitet die Ware, dokumentiert was geliefert wurde, dient der Kontrolle beim Wareneingang; keine Zahlungsfunktion",
+   "source_url": "https://freefinance.at/fakturierung/lieferschein.html",
+   "source_name": "freefinance.at; bexio",
+   "confidence": "high",
+   "note": "Pflichtangaben nicht im Skript."
+  },
+  {
+   "claim": "Leitwert ist Kehrwert des elektrischen Widerstands (Duden, Plural Leitwerte)",
+   "source_url": "https://www.duden.de/rechtschreibung/Leitwert",
+   "source_name": "Duden",
+   "confidence": "high",
+   "note": "Nur als Hintergrund; nicht im Skript."
+  },
+  {
+   "claim": "Kabel leitet den Strom (Beispielsatz, 'leiten')",
+   "source_url": "https://de.wiktionary.org/wiki/leiten",
+   "source_name": "Wiktionary",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Artikel/Plural: der Leiter, die Leiter; die Leitung, -en; das Kabel, die Kabel; die Sicherung, -en; die Klemme, -n; der Verteiler, die Verteiler; der Schaltschrank, die Schaltschränke",
+   "source_url": "https://www.duden.de/suchen/dudenonline/schalttafel",
+   "source_name": "Duden (Schaltschrank maskulin) + Fachgebrauch",
+   "confidence": "medium",
+   "note": "duden.de/dwds.de direkt nicht abrufbar (Netzwerk). Standard-Grammatik; vor Build gegen Duden prüfen."
+  },
+  {
+   "claim": "Artikel/Plural: die Spannung, -en; der Widerstand, die Widerstände; die Leistung, -en; die Erdung, -en; der Strom (meist Singular); das Prüfprotokoll, -e; die Abnahme, -n",
+   "source_url": "https://www.duden.de/rechtschreibung/Leitwert",
+   "source_name": "Duden (verwandter Eintrag Leitwert/Widerstand)",
+   "confidence": "medium",
+   "note": "Standard-Grammatik; vor Build gegen Duden prüfen."
+  }
+ ],
+ "dropped": [
+  "Prüfprotokoll nach DIN VDE 0100-600: Inhalt/Pflichtangaben nicht belegt (Suche ohne Treffer) – im Skript nur allgemein 'Dokument über Prüfergebnisse'",
+  "Abnahme: rechtliche Bedeutung (BGB/VOB) nicht recherchiert – nur umgangssprachliche Erklärung 'Kunde nimmt die Arbeit offiziell an'",
+  "Nulleiter als alter Begriff für PEN (nur Forumsquelle, low)",
+  "Konkrete Dialekt-Aussagen (z. B. regionale Wörter für Sicherung) – nicht belegt; im Skript nur allgemeiner Hinweis, dass Dialekte existieren",
+  "Fünf Sicherheitsregeln (Freischalten usw.) im Wortlaut nicht in dieser Session belegt – nur freie Werkstatt-Phrasen",
+  "30 mA Auslösewert und Normnummern (DIN VDE 0100-410) – nicht im Skript",
+  "Duden/DWDS direkt (Netzwerk blockiert): Genus/Plural bleiben 'medium'",
+  "Konkrete Aussage, dass Wörter in Süddeutschland/Österreich anders sind, und absolute Aussage 'Fachwörter bleiben gleich' – nicht belegt; im Skript nur 'meist einheitlicher'",
+  "'Kabel ist eine isolierte Leitung' – nicht belegt (nur: Kabel leitet den Strom); aus dem Skript entfernt",
+  "'Schutzleiter muss immer angeschlossen sein' und 'Schutzleiter schützt Personen' – absolut/nicht belegt; im Skript nur 'verbindet Gehäuse mit Erde' bzw. 'ist angeschlossen'",
+  "Formale Sicherheitsverantwortung als Interview-Modellsatz ('Ich war für die Sicherheit verantwortlich') – Falschangabe-Risiko; ersetzt durch 'auf die Sicherheit geachtet'",
+  "'Sie sagen zu Kollegen oft Sie, bis man Ihnen das Du anbietet' – verallgemeinert; ersetzt durch Beobachtungshinweis",
+  "Lastenheft/Pflichtenheft absolut dem Kunden bzw. Auftragnehmer zugeordnet – im Skript 'meist'",
+  "Gleichsetzung 'Strom aus = freischalten' – im Skript getrennt; Freischalten nur als Verweis auf die Sicherheitsregeln"
+ ]
+}
