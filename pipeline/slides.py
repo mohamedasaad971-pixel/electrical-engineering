@@ -44,7 +44,7 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:var(--bg);font-fa
   text-transform:uppercase;color:var(--brand)}}
 .kicker::after{{content:"";display:block;width:90px;height:6px;background:var(--accent);margin-top:12px;border-radius:3px}}
 .content{{position:absolute;left:96px;top:150px;width:1728px;height:{SAFE_BOTTOM-150}px;overflow:hidden}}
-h1{{font-size:62px;line-height:1.15;font-weight:800;color:var(--ink);max-height:150px;overflow:hidden;width:1560px}}
+h1{{font-size:62px;line-height:1.32;font-weight:800;color:var(--ink);max-height:170px;overflow:hidden;width:1560px}}
 ul.b{{list-style:none;margin-top:26px;width:1560px}}
 ul.b li{{position:relative;font-size:42px;line-height:1.28;padding:10px 0 10px 56px;font-weight:500}}
 ul.b li::before{{content:"";position:absolute;left:8px;top:25px;width:20px;height:20px;border-radius:5px;background:var(--accent)}}
@@ -60,7 +60,7 @@ td.k{{width:36%;font-weight:800;color:var(--brand);border-left:2px solid var(--l
 td.v{{border-right:2px solid var(--line);border-radius:0 16px 16px 0}}
 td.only{{border-left:2px solid var(--line);border-right:2px solid var(--line);border-radius:16px}}
 .title-wrap{{position:absolute;left:96px;top:250px;width:1500px}}
-.title-wrap h1{{font-size:88px;line-height:1.1;max-height:300px;width:1500px}}
+.title-wrap h1{{font-size:88px;line-height:1.25;max-height:330px;width:1500px}}
 .title-wrap .sub{{font-size:38px;color:var(--muted);margin-top:30px}}
 .quote{{margin-top:20px;border-left:10px solid var(--accent);padding:10px 40px;font-size:54px;line-height:1.3;font-style:italic;width:1500px}}
 .quote small{{display:block;font-size:34px;font-style:normal;color:var(--muted);margin-top:18px}}
