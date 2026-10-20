@@ -1,0 +1,194 @@
+{
+ "video": "E-B01",
+ "facts": [
+  {
+   "claim": "Die Normenreihe DIN VDE 0100 trägt den Reihentitel 'Errichten von Niederspannungsanlagen' und behandelt Planung, Errichtung und Prüfung von Niederspannungsanlagen.",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7198869&type=dke%7Cdokument",
+   "source_name": "DKE (Dokumentseite E DIN VDE 0100-100:2024-04)",
+   "confidence": "high",
+   "note": "Aussage zum Zweck stützt sich auf die Beschreibung des Entwurfs von Teil 100."
+  },
+  {
+   "claim": "Die Reihe DIN VDE 0100 entspricht in Struktur und großen Teilen im Inhalt der internationalen Reihe IEC 60364; die Teile sind Übernahmen europäischer Harmonisierungsdokumente HD 60364.",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7089969&type=dke%7Cdokument",
+   "source_name": "DKE / VDE VERLAG (DIN VDE 0100-600:2017-06)",
+   "confidence": "high",
+   "note": "Beispiel: DIN VDE 0100-600:2017-06 = IEC 60364-6:2016, Deutsche Übernahme HD 60364-6:2016 + A11:2017."
+  },
+  {
+   "claim": "Die Reihe ist in Gruppen gegliedert: 100 Grundsätze, 200 Begriffe, 400 Schutzmaßnahmen, 500 Auswahl und Errichtung elektrischer Betriebsmittel, 600 Prüfungen, 700 Betriebsstätten, Räume und Anlagen besonderer Art.",
+   "source_url": "https://www.dke.de/de/arbeitsfelder/core-safety/din-vde-0100-normenreihe-sicherheit-schutz-elektroinstallation",
+   "source_name": "DKE (Arbeitsfeld Core Safety) und Übersichtsseiten (licht.de, baunetzwissen)",
+   "confidence": "medium",
+   "note": "Übersichten stimmen im Grundaufbau überein; Einzeltitel weichen teils ab."
+  },
+  {
+   "claim": "Teil 100 trägt den Titel 'Teil 1: Grundsätze, Bestimmungen allgemeiner Merkmale, Begriffe' (DIN VDE 0100-100:2009-06, deutsche Umsetzung HD 60364-1:2008); ein Entwurf E DIN VDE 0100-100:2024-04 liegt vor.",
+   "source_url": "https://www.dinmedia.de/en/standard/din-vde-0100-100/117175635",
+   "source_name": "DIN Media / VDE VERLAG",
+   "confidence": "high",
+   "note": "Ausgabe und Entwurfsstatus vor Veröffentlichung prüfen."
+  },
+  {
+   "claim": "Die frühere Gruppe 300 (allgemeine Merkmale) wird in neueren Übersichten nicht mehr als eigene Gruppe geführt; ihr Inhalt ist laut mehreren Quellen in Teil 100 aufgegangen.",
+   "source_url": "https://www.baunetzwissen.de/glossar/d/din-vde-0100-10214014",
+   "source_name": "Baunetzwissen / DGWZ / Übersicht-PDF",
+   "confidence": "medium",
+   "note": "Quellen widersprechen sich teils; im Skript vorsichtig formuliert."
+  },
+  {
+   "claim": "Teil 410 trägt den Titel 'Teil 4-41: Schutzmaßnahmen – Schutz gegen elektrischen Schlag'; die aktuelle Ausgabe ist 2018-10 (setzt HD 60364-4-41:2017 + A11:2017 um); die Ausgabe 2007-06 ist ersetzt.",
+   "source_url": "https://www.vde-verlag.de/standards/0100481/din-vde-0100-410-vde-0100-410-2018-10.html",
+   "source_name": "VDE VERLAG",
+   "confidence": "medium",
+   "note": "Aus Recherche E-F02 übernommen und durch DKE-Hinweise gestützt."
+  },
+  {
+   "claim": "Gruppe 400 umfasst weitere Schutzmaßnahmen, z. B. Teil 430 (Schutz bei Überstrom) und Teil 443 (Schutz bei Überspannungen infolge atmosphärischer Einflüsse oder von Schaltvorgängen).",
+   "source_url": "https://www.dgwz.de/normen/din-vde-0100-errichten-von-niederspannungsanlagen",
+   "source_name": "DGWZ / Baunetzwissen / Übersichtsseiten",
+   "confidence": "medium",
+   "note": "Einzeltitel der Teile 442/444 widersprüchlich, daher nicht genannt."
+  },
+  {
+   "claim": "Gruppe 500 behandelt Auswahl und Errichtung elektrischer Betriebsmittel, z. B. Teil 520 (Kabel- und Leitungsanlagen) und Teil 540 (Erdungsanlagen, Schutzleiter, Schutzpotentialausgleichsleiter).",
+   "source_url": "https://www.dgwz.de/normen/din-vde-0100-errichten-von-niederspannungsanlagen",
+   "source_name": "DGWZ / Übersichtsseiten",
+   "confidence": "medium",
+   "note": "Titel von 534 widersprüchlich, nicht genannt."
+  },
+  {
+   "claim": "Teil 600 trägt den Titel 'Teil 6: Prüfungen'; die Ausgabe 2017-06 gilt (IEC 60364-6:2016, HD 60364-6:2016 + A11:2017). Ein Entwurf E DIN VDE 0100-600:2025-12 existiert laut VDE VERLAG.",
+   "source_url": "https://www.vde-verlag.de/p/normen/din-vde-0100-600-vde-0100-600-2017-06/0100382-DE-PR",
+   "source_name": "VDE VERLAG",
+   "confidence": "high",
+   "note": "Entwurfsstatus ändert sich; im Skript nur als Hinweis 'Entwürfe prüfen'."
+  },
+  {
+   "claim": "Die Normen der Gruppe 700 gelten zusätzlich zu den Gruppen 100 bis 600 für Betriebsstätten, Räume und Anlagen besonderer Art; die allgemeinen Anforderungen gelten weiterhin.",
+   "source_url": "https://www.vde-verlag.de/books/406643/der-rote-faden-durch-die-gruppe-700-der-din-vde-0100.html",
+   "source_name": "VDE VERLAG (Fachbuch Gruppe 700) und Übersichtsseiten",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Beispiele der Gruppe 700: Teil 701 (Räume mit Badewanne oder Dusche), 704 (Baustellen), 712 (Photovoltaik-Stromversorgungssysteme).",
+   "source_url": "https://www.dinmedia.de/en/standard/din-vde-0100-712/257820912",
+   "source_name": "DIN Media (712) und Übersichtsseiten (701, 704)",
+   "confidence": "medium",
+   "note": "712 mit Titel bestätigt (Ausgabe 2016-10); 701/704 nur in Übersichten."
+  },
+  {
+   "claim": "Es gibt zusätzlich eine Gruppe 800 zur Energieeffizienz (DIN VDE 0100-801:2020-10, Übernahme HD 60364-8-1:2019).",
+   "source_url": "https://www.dinmedia.de/en/standard/din-vde-0100-801/325814652",
+   "source_name": "DIN Media",
+   "confidence": "medium",
+   "note": "Nur beiläufig im Skript erwähnt."
+  },
+  {
+   "claim": "Die Teilnummer folgt dem Muster: Zahl hinter 0100 = Gruppe und Teil, z. B. 0100-410 liegt in der Gruppe 400, 0100-600 in der Gruppe 600.",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7089969&type=dke%7Cdokument",
+   "source_name": "DKE (Dokumentseiten 0100-410/0100-600)",
+   "confidence": "medium",
+   "note": "Eigene Ableitung aus bestätigten Teilnummern 410, 600, 712."
+  },
+  {
+   "claim": "Teil 410 behandelt zwei Ebenen: Basisschutz (früher Schutz gegen direktes Berühren) und Fehlerschutz (früher Schutz bei indirektem Berühren).",
+   "source_url": "https://www.weka.de/elektrosicherheit/din-vde-0100-410-schutz-gegen-elektrischen-schlag/",
+   "source_name": "WEKA / DKE-Erläuterungen / VDE VERLAG",
+   "confidence": "medium",
+   "note": "Sekundärquellen; Normtext nicht zitiert."
+  },
+  {
+   "claim": "Basisschutz verhindert das Berühren aktiver Teile (z. B. durch Isolierung oder Gehäuse); Fehlerschutz verhindert, dass im Fehlerfall eine gefährliche Berührungsspannung an leitfähigen Teilen auftritt oder bestehen bleibt.",
+   "source_url": "https://www.dke.de/konzept-0100-410",
+   "source_name": "DKE (Hinweise zum Konzept von DIN VDE 0100-410)",
+   "confidence": "medium",
+   "note": "Nur auf Konzeptebene formuliert."
+  },
+  {
+   "claim": "Schutz kann durch eine Kombination zweier unabhängiger Vorkehrungen (Basisschutz plus Fehlerschutz) oder durch eine verstärkte Maßnahme erreicht werden, die beides leistet.",
+   "source_url": "https://www.dke.de/resource/blob/1955610/ed72cdf854504c9e9a9e4c263e59d594/konzept-din-vde-0100-410-pdf-data.pdf",
+   "source_name": "DKE (Erläuterungen zum Konzept 0100-410:2018-10)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Zu den Schutzmaßnahmen zählen die automatische Abschaltung der Stromversorgung, doppelte oder verstärkte Isolierung, Schutztrennung (für ein einzelnes Betriebsmittel) und Schutz durch Kleinspannung (SELV/PELV).",
+   "source_url": "https://www.dke.de/resource/blob/1955610/ed72cdf854504c9e9a9e4c263e59d594/konzept-din-vde-0100-410-pdf-data.pdf",
+   "source_name": "DKE (Konzept 0100-410:2018-10) / Forum Verlag",
+   "confidence": "medium",
+   "note": "Grenzwerte und Abschaltzeiten bewusst nicht genannt."
+  },
+  {
+   "claim": "Die Erstprüfung ist für neu errichtete, erweiterte oder geänderte Anlagen vor der Inbetriebnahme vorgesehen; DIN VDE 0100-600:2017-06 beschreibt Besichtigen, Erproben und Messen sowie den Bericht.",
+   "source_url": "https://www.weka.de/elektrosicherheit/erstpruefung-nach-din-vde-0100-600/",
+   "source_name": "WEKA / VDE VERLAG / elektrofachkraft.de",
+   "confidence": "medium",
+   "note": "Prüfreihenfolge und Messwerte nicht im Skript."
+  },
+  {
+   "claim": "Der Prüfbericht wird von den für Planung, Errichtung und Prüfung verantwortlichen Personen dem Auftraggeber übergeben und von einer Elektrofachkraft erstellt oder bestätigt.",
+   "source_url": "https://www.weka.de/elektrosicherheit/erstpruefung-nach-din-vde-0100-600/",
+   "source_name": "WEKA / Elektropraktiker (Abschnitt 6.4.4 sekundär)",
+   "confidence": "medium",
+   "note": "Nur sinngemäß; Abschnittsnummern nicht im Skript."
+  },
+  {
+   "claim": "Eine Elektrofachkraft ist nach DGUV Vorschrift 3 (§ 2 Abs. 3) eine Person, die durch Ausbildung, Kenntnisse, Erfahrung und Kenntnis der Bestimmungen übertragene Arbeiten beurteilen und Gefahren erkennen kann.",
+   "source_url": "https://publikationen.dguv.de/widgets/pdf/download/article/1280",
+   "source_name": "DGUV (aus Recherche E-F04)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Errichten, Ändern und Instandhalten elektrischer Anlagen muss nach DGUV Vorschrift 3 von einer Elektrofachkraft oder unter deren Leitung und Aufsicht erfolgen.",
+   "source_url": "https://www.tuev-nord.de/de/unternehmen/bildung/wissen-kompakt/elektrotechnik/aufgaben-und-rollen-in-der-elektrotechnik",
+   "source_name": "TÜV NORD (aus Recherche E-F04)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Nach § 13 Abs. 2 NAV führt der Netzbetreiber ein Installateurverzeichnis; Arbeiten am Anschluss an das Niederspannungsnetz führt außer dem Netzbetreiber nur ein eingetragenes Installationsunternehmen aus.",
+   "source_url": "https://bdew.de/media/documents/Grundsätze_BDEW_ZVEH_2025.pdf",
+   "source_name": "BDEW/ZVEH Grundsätze, Netzbetreiber-Seiten (SachsenNetze)",
+   "confidence": "high",
+   "note": "Im Skript ohne Paragrafen-Details über Absatz 2 hinaus."
+  },
+  {
+   "claim": "Voraussetzungen der Eintragung nennen die BDEW/ZVEH-Grundsätze: Handwerksrolle (Elektrotechniker-Handwerk), mindestens eine Verantwortliche Elektrofachkraft mit Sachkundenachweis, Werkstattausrüstung; Details regelt der jeweilige Netzbetreiber.",
+   "source_url": "https://bdew.de/media/documents/Grundsätze_BDEW_ZVEH_2025.pdf",
+   "source_name": "BDEW/ZVEH Grundsätze",
+   "confidence": "medium",
+   "note": "Im Skript allgemein gehalten; Einzelheiten beim Netzbetreiber prüfen."
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln (Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken) stehen in DIN VDE 0105-100 und gelten in dieser Reihenfolge.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung / TÜV Akademie (aus Recherche E-F05)",
+   "confidence": "medium",
+   "note": "Normwortlaut nicht geprüft; nur paraphrasiert."
+  },
+  {
+   "claim": "DIN VDE 0105-100 betrifft den Betrieb elektrischer Anlagen; DIN VDE 0100 betrifft Errichtung (inklusive Planung und Erstprüfung). Zuordnung nach Fachberatern.",
+   "source_url": "https://www.weka.de/elektrosicherheit/erstpruefung-nach-din-vde-0100-600/",
+   "source_name": "WEKA / Beratungsseite (sekundär)",
+   "confidence": "medium",
+   "note": "Im Skript nur als grobe Abgrenzung 'Errichten gegenüber Betreiben'."
+  }
+ ],
+ "dropped": [
+  "Anwendungsbereich in Volt (bis 1000 V AC / 1500 V DC): Grenzwert, bewusst nicht im Skript (Vorgabe: keine Grenzwerte).",
+  "RCD-Bemessungsdifferenzstrom, Abschaltzeiten, Kleinspannungsgrenzen: nur Sekundärquellen, Grenzwerte, nicht im Skript.",
+  "Änderungen der Ausgabe 2018-10 (z. B. RCD bei Beleuchtungsstromkreisen in Wohnräumen): Einzelquelle, nicht aufgenommen.",
+  "Genaue Titel und Inhalte der Teile 440, 442, 444, 534: Quellen widersprechen sich.",
+  "Übergangsfristen alter Ausgaben (z. B. 410: 2020, 600: 2020): Datumsangaben nur sekundär, nicht aufgenommen.",
+  "Prüffristen für Anlagen (z. B. ein Jahr nach DGUV V3 in Verbindung mit Gruppe 700): Aussage eines Protokoll-Anbieters, nicht belegt.",
+  "Behauptung, dass der Unternehmer über BetrSichV für die Erstprüfung verantwortlich ist: Einzelquelle (WEKA), rechtliche Einordnung, nicht aufgenommen.",
+  "Übergabefrist 3-5 Werktage vor Unterspannungsetzung: betriebsspezifische Vorgabe eines Unternehmens.",
+  "Konkrete Reihenfolge der Messungen nach Teil 600 und Zahl der Besichtigungsanforderungen: Detail, keine Installationsanleitung.",
+  "Ob E DIN VDE 0100-410 oder E DIN VDE 0100-100 inzwischen als Weißdruck erschienen ist: nicht verifizierbar, daher nur 'Entwürfe und neue Ausgaben prüfen'.",
+  "Status der Gruppe 300 im Detail: Quellen uneinheitlich, nur vorsichtig als 'früher eigene Gruppe' erwähnt.",
+  "Rolle der DKE in CENELEC/IEC: Fakt aus E-F02 ausreichend, hier nicht erneut aufgenommen."
+ ]
+}

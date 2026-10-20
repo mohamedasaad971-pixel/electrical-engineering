@@ -1,0 +1,189 @@
+{
+ "video": "E-B02",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Das Kurzzeichen der Netzsysteme besteht aus Buchstaben: Der erste beschreibt die Erdungsverhältnisse an der Spannungsquelle, der zweite die Erdung der Körper (Gehäuse) der Betriebsmittel.",
+   "source_url": "https://www.forum-verlag.com/fachwissen/elektrosicherheit-und-elektrotechnik/tn-tt-it-netz/",
+   "source_name": "Forum Verlag, Fachwissen TN/TT/IT",
+   "confidence": "medium",
+   "note": "Mehrere Fachseiten übereinstimmend; Normtext (DIN VDE 0100-300) nicht geprüft."
+  },
+  {
+   "claim": "T steht für direkte Erdung (von französisch terre); I für isolierten oder hochohmig geerdeten Sternpunkt; N für Verbindung der Gehäuse mit dem geerdeten Sternpunkt über Neutral-/Schutzleiter.",
+   "source_url": "https://planmypanel.com/de/learn/earthing-systems",
+   "source_name": "PlanMyPanel / Forum Verlag",
+   "confidence": "medium",
+   "note": "Buchstaben stammen aus dem Französischen; Herleitung von N uneinheitlich (neutre/Neutralleiter). Im Video nur 'T = Erde, I = isoliert, N = Neutralleiter-Verbindung'."
+  },
+  {
+   "claim": "S bedeutet: Neutralleiter und Schutzleiter sind getrennt geführt; C bedeutet: beide sind zu einem gemeinsamen PEN-Leiter kombiniert.",
+   "source_url": "https://planmypanel.com/de/learn/earthing-systems",
+   "source_name": "PlanMyPanel",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "TN-S: PE und N sind durchgehend getrennt.",
+   "source_url": "https://mechatronik-automatisierung.com/sicherheit/elektrische-sicherheit/netzsysteme-tn-tt-it-2/",
+   "source_name": "mechatronik-automatisierung.com",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "TN-C-S: Im Verteilnetz wird ein PEN-Leiter geführt, in der Verbraucheranlage sind PE und N getrennt; in Mitteleuropa ist dies die verbreitete Form.",
+   "source_url": "https://planmypanel.com/de/learn/earthing-systems",
+   "source_name": "PlanMyPanel / Wikipedia TN-System",
+   "confidence": "medium",
+   "note": "Formulierung 'häufig' statt Prozentzahlen."
+  },
+  {
+   "claim": "Nach der Aufteilung des PEN in PE und N dürfen beide nicht wieder zusammengeführt werden (DIN VDE 0100-540, Abschnitt 543.4.3 laut Wikipedia; Ausgabejahr uneinheitlich).",
+   "source_url": "https://de.wikipedia.org/wiki/TN-System",
+   "source_name": "Wikipedia TN-System / PEN-Leiter",
+   "confidence": "medium",
+   "note": "Normfundstelle im Video nicht genannt, nur das Prinzip. Ausgabe prüfen."
+  },
+  {
+   "claim": "Hinter einem RCD ist ein PEN-Leiter nicht zulässig.",
+   "source_url": "https://www.forum-verlag.com/fachwissen/elektrosicherheit-und-elektrotechnik/tn-tt-it-netz/",
+   "source_name": "Forum Verlag",
+   "confidence": "medium",
+   "note": "Prinzipaussage; im Video nur als 'PE und N müssen hinter der Aufteilung getrennt bleiben'."
+  },
+  {
+   "claim": "TT: Quelle und Verbrauchergehäuse haben jeweils eigene Erder; der Schutzleiter der Anlage ist mit einem eigenen Anlagenerder verbunden, nicht mit der Erdung des Verteilnetzes.",
+   "source_url": "https://www.elektropraktiker.de/fachartikel/detail/schutzerder-fuer-die-schutzmassnahme-tt-system",
+   "source_name": "Elektropraktiker / Wikipedia TT-System",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Im TT-System werden als Fehlerschutz in der Regel Fehlerstrom-Schutzeinrichtungen (RCD) verwendet, weil keine ausreichend niederohmige Verbindung zum Betriebserder erreichbar ist.",
+   "source_url": "https://de.wikipedia.org/wiki/TT-System",
+   "source_name": "Wikipedia TT-System / HTW Dresden",
+   "confidence": "medium",
+   "note": "Formel RA <= 50 V / IΔn und Beispielwerte (30 mA, 300 mA, Ohm) bewusst gedroppt."
+  },
+  {
+   "claim": "IT: Sternpunkt isoliert oder hochohmig geerdet; Körper der Betriebsmittel haben eigenen Erder.",
+   "source_url": "https://planmypanel.com/de/learn/earthing-systems",
+   "source_name": "PlanMyPanel / Forum Verlag",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Bei einem ersten Isolationsfehler im IT-System kann die Anlage weiterlaufen; der Fehler soll so schnell wie möglich beseitigt werden (DIN VDE 0100-410, 411.6.3.1 laut Bender), die Frist liegt im Ermessen des Betreibers.",
+   "source_url": "https://www.bender.de/fachwissen/technologie/it-system/",
+   "source_name": "Bender (Hersteller Isolationsüberwachung)",
+   "confidence": "medium",
+   "note": "Herstellerquelle. Keine Frist genannt; Abschnittsnummer nicht im Video."
+  },
+  {
+   "claim": "Für den Betrieb eines IT-Systems schreibt die Norm ein Isolationsüberwachungsgerät vor, das den Isolationswiderstand dauernd misst und bei Unterschreiten eines Grenzwerts meldet, ohne die Stromversorgung zu unterbrechen.",
+   "source_url": "https://www.ksv-koblenz.de/blog/was-ist-ein-it-netz-im-krankenhaus-und-warum-ist-es-vorgeschrieben/",
+   "source_name": "KSV Koblenz / Bender",
+   "confidence": "medium",
+   "note": "Grenzwerte gedroppt."
+  },
+  {
+   "claim": "In medizinisch genutzten Räumen der Gruppe 2 (OP, Intensivstation) ist ein IT-Netz üblich bzw. verpflichtend (DIN VDE 0100-710).",
+   "source_url": "https://www.ksv-koblenz.de/blog/was-ist-ein-it-netz-im-krankenhaus-und-warum-ist-es-vorgeschrieben/",
+   "source_name": "KSV Koblenz",
+   "confidence": "medium",
+   "note": "Im Video als 'typisches Beispiel Krankenhaus'; Norm prüfen."
+  },
+  {
+   "claim": "Der Schutzpotentialausgleich (früher Hauptpotentialausgleich) bringt möglichst alle berührbaren leitfähigen Teile im Gebäude auf gleiches Potential an der Haupterdungsschiene, damit gefährliche Fehlerspannungen ausgeschlossen werden.",
+   "source_url": "https://www.elektropraktiker.de/fachartikel/detail/hauptpotentialausgleich-in-elektrischen-anlagen",
+   "source_name": "Elektropraktiker / Baunetzwissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DIN VDE 0100-410 fordert den Schutzpotentialausgleich; DIN VDE 0100-540 regelt Ausführung und Mindestquerschnitte der Erdungs- und Potentialausgleichsleiter.",
+   "source_url": "https://www.dke.de/resource/blob/1955610/b837e9e658e5469b891a03bdcc36b3df/konzept-din-vde-0100-410-pdf-data.pdf",
+   "source_name": "DKE, Erläuterungen zum Konzept DIN VDE 0100-410:2018-10",
+   "confidence": "medium",
+   "note": "Querschnittswerte gedroppt (Quellen uneinheitlich)."
+  },
+  {
+   "claim": "Zum Schutzpotentialausgleich gehören u. a. Schutzleiter, Erdungsleiter und metallene Versorgungs- bzw. Gebäudesysteme.",
+   "source_url": "https://www.dke.de/resource/blob/1955610/b837e9e658e5469b891a03bdcc36b3df/konzept-din-vde-0100-410-pdf-data.pdf",
+   "source_name": "DKE / Baunetzwissen",
+   "confidence": "medium",
+   "note": "Aufzählung im Video nur beispielhaft."
+  },
+  {
+   "claim": "Der zusätzliche (örtliche) Potentialausgleich ist eine ergänzende Maßnahme für Räume mit erhöhtem Risiko, z. B. Bäder.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/grundinstallationen/potentialausgleich-153006",
+   "source_name": "Baunetzwissen",
+   "confidence": "medium",
+   "note": "Wann er gefordert ist: nicht behauptet."
+  },
+  {
+   "claim": "RCD-Prinzip: Ein Summenstromwandler umfasst alle Leiter des Stromkreises einschließlich Neutralleiter; im fehlerfreien Fall heben sich die Magnetfelder auf, bei Fehlerstrom gegen Erde entsteht ein Differenzstrom, der den Auslöser betätigt.",
+   "source_url": "https://www.dguv.de/medien/ifa/de/pub/bai/pdf/info0199.pdf",
+   "source_name": "DGUV/IFA BIA-Info 01/99, ABB Anwendungshandbuch",
+   "confidence": "high",
+   "note": "Mehrere unabhängige Quellen übereinstimmend."
+  },
+  {
+   "claim": "Überstromschutzeinrichtungen (Sicherung, Leitungsschutzschalter) schützen Leitung und Anlage; ein RCD erfasst Fehlerströme gegen Erde. Ein Kurzschluss zwischen Außen- und Neutralleiter erzeugt keinen Differenzstrom, so dass ein RCD allein dort nicht schützt.",
+   "source_url": "https://www.dguv.de/medien/ifa/de/pub/bai/pdf/info0199.pdf",
+   "source_name": "DGUV/IFA BIA-Info 01/99; Hager Handbuch",
+   "confidence": "medium",
+   "note": "L-N-Aussage ist physikalische Folgerung des Suchergebnisses, nicht wörtlich belegt."
+  },
+  {
+   "claim": "RCBO kombiniert Fehlerstrom- und Leitungsschutzschalter-Funktion (Überlast- und Kurzschlussschutz).",
+   "source_url": "https://library.e.abb.com/public/94b77c66ef504b97b6a9a568baff7ab3/2CDC420027B0101_Rev_E_FI_DE_Anwendungshandbuch_082022_72dpi.pdf",
+   "source_name": "ABB Anwendungshandbuch RCD",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Typ AC erfasst nur sinusförmige Wechselfehlerströme; Typ A zusätzlich pulsierende Gleichfehlerströme; Typ F ist u. a. für einphasige Frequenzumrichter mit Mischfrequenzen gedacht; Typ B ist allstromsensitiv und erfasst auch glatte Gleichfehlerströme.",
+   "source_url": "https://www.ics-schneider.de/rcd-typ-a-f-b-und-ev-pruefen-installationstester-richtig-einsetzen/",
+   "source_name": "ICS Schneider Messtechnik / ABB / Cotronic",
+   "confidence": "medium",
+   "note": "Konzeptebene; Grenzwerte (6 mA, 10 mA, 1 kHz) gedroppt. Zulässigkeit von Typ AC in Neuanlagen nur Sekundärquellen -> gedroppt."
+  },
+  {
+   "claim": "Glatte Gleichfehlerströme können einen Typ-A-RCD wirkungslos machen (Sättigung des Wandlers); Typ B arbeitet deshalb mit zusätzlicher Elektronik.",
+   "source_url": "https://www.ics-schneider.de/rcd-typ-a-f-b-und-ev-pruefen-installationstester-richtig-einsetzen/",
+   "source_name": "ICS Schneider / Cotronic",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Prüftaste prüft nur die interne Auslösemechanik mit einem geräteintern erzeugten Prüfstrom; sie ersetzt keine Messung durch eine Elektrofachkraft. Hersteller geben das Prüfintervall an.",
+   "source_url": "https://www.dguv.de/medien/fb-etem/documents/rcd_1.pdf",
+   "source_name": "DGUV FB ETEM, Manuelle Funktionsprüfung von RCD; ABB FAQ",
+   "confidence": "medium",
+   "note": "Konkretes Intervall (halbjährlich) bewusst gedroppt: Herstellerangaben abweichend."
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln (E-F05): Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken. Reihenfolge 1 bis 5.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung (aus docs/research/E-F05.json)",
+   "confidence": "medium",
+   "note": "Sinngemäß; Normwortlaut (DIN VDE 0105-100) nicht geprüft."
+  }
+ ],
+ "dropped": [
+  "RCD-Auslösestrom- und Zeitwerte (30 mA, 300 mA) - nicht verifiziert/Primärnorm nötig",
+  "Schleifenbedingung TT: RA <= 50 V / IΔn und Beispielwerte - Formel nicht primär geprüft",
+  "Zulässigkeit Typ AC in Neuanlagen - nur Sekundärquellen",
+  "Mindestquerschnitte Potentialausgleichsleiter - Quellen widersprüchlich",
+  "Konkretes Prüftasten-Intervall (halbjährlich/monatlich) - Herstellerangaben abweichend",
+  "Ort der PEN-Aufteilung (Hausanschlusskasten/Hauptverteilung) - Quellen uneinheitlich",
+  "Konkrete Pflicht-Aussage 'TN-C für Neubau verboten' - nur Sekundärquellen",
+  "Anteil/Verbreitung der Netzformen in Prozent - nicht belegt",
+  "Isolationswächter-Grenzwerte und Frist zur Fehlerbeseitigung im IT-System - nicht belegt",
+  "Pflicht von RCD im Haushalt (Zusatzschutz 30 mA, Bereiche) - Primärnorm nötig",
+  "TN-C: durchgehender PEN-Leiter; laut Fachquellen für Neuerrichtung nicht mehr zugelassen,  (low confidence)",
+  "Die Aufteilung des PEN erfolgt in der Kundenanlage, nicht beim Netzbetreiber; der Netzbetr (low confidence)",
+  "Welche Netzform an einem Standort vorliegt, gibt der Netzbetreiber an. (low confidence)"
+ ]
+}

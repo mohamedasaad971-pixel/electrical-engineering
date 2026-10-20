@@ -1,0 +1,180 @@
+{
+ "video": "E-B04",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Die Normenreihe DIN EN 62305 (VDE 0185-305) besteht aus vier Teilen: Teil 1 Allgemeine Grundsätze, Teil 2 Risiko-Management, Teil 3 Schutz von baulichen Anlagen und Personen, Teil 4 Elektrische und elektronische Systeme in baulichen Anlagen.",
+   "source_url": "https://www.vde.com/de/blitzschutzsystem",
+   "source_name": "VDE (Suchtreffer) und DIN Media",
+   "confidence": "high",
+   "note": "Bezeichnungen aus DIN-Media-Titeln und VDE-Seite"
+  },
+  {
+   "claim": "Teil 3 ist als DIN EN IEC 62305-3:2025-10 (VDE 0185-305-3) gelistet, beruht auf IEC 62305-3:2024 und ersetzt die Ausgabe 2011-10.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-iec-62305-3/392516238",
+   "source_name": "DIN Media",
+   "confidence": "medium",
+   "note": "Nur Suchzusammenfassung; im Video nur: neue Ausgaben erscheinen, aktuelle Fassung prüfen"
+  },
+  {
+   "claim": "Teil 4 ist als DIN EN IEC 62305-4:2026-02 (VDE 0185-305-4) gelistet, deutsche Fassung von IEC 62305-4:2024.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-iec-62305-4/396017898",
+   "source_name": "DIN Media / VDE Verlag",
+   "confidence": "medium",
+   "note": "Status nicht beim Herausgeber bestätigt; Ausgabedaten nicht im Video"
+  },
+  {
+   "claim": "Ein Blitzschutzsystem nach Teil 3 besteht aus äußerem und innerem Blitzschutz.",
+   "source_url": "https://www.vde.com/de/blitzschutz/infos/blitzschutzsystem",
+   "source_name": "VDE",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Der äußere Blitzschutz besteht aus Fangeinrichtung, Ableitungseinrichtung und Erdungsanlage.",
+   "source_url": "https://www.vde.com/de/blitzschutz/infos/begriffe",
+   "source_name": "VDE Begriffe",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die Erdungsanlage leitet den Blitzstrom sicher in das Erdreich ab; Metallteile wie Bewehrungsstahl können als natürliche Ableitung dienen.",
+   "source_url": "https://www.vde.com/de/blitzschutz/infos/begriffe",
+   "source_name": "VDE Begriffe",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Der innere Blitzschutz soll verhindern, dass elektromagnetische Blitzimpulse und Überspannungen Menschen, Tiere und elektrische oder elektronische Systeme im Gebäude gefährden; wichtige Bestandteile sind Blitzschutz-Potentialausgleich und Überspannungsschutzgeräte.",
+   "source_url": "https://www.vde.com/de/blitzschutz/infos/ueberspannungsschutz-und-innerer-blitzschutz",
+   "source_name": "VDE",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Beim Potentialausgleich wird das Blitzschutzsystem mit metallenen Installationen und elektrischen/elektronischen Systemen verbunden; wo direkte Verbindung nicht zulässig ist, kommen Überspannungsschutzgeräte oder Trennfunkenstrecken zum Einsatz.",
+   "source_url": "https://www.dehn-international.com/en/lightning-protection-zone-concept",
+   "source_name": "DEHN (Hersteller)",
+   "confidence": "medium",
+   "note": "Herstellerquelle, Sinn deckt sich mit VDE"
+  },
+  {
+   "claim": "Beim Blitzschutzzonenkonzept wird ein Gebäude in Zonen unterschiedlicher Gefährdung eingeteilt; daraus folgen die nötigen Schutzmaßnahmen.",
+   "source_url": "https://www.dehn-international.com/en/lightning-protection-zone-concept",
+   "source_name": "DEHN (Hersteller)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Zone 0 (außen): LPZ 0A ist durch direkte Einschläge und das ungedämpfte Blitzfeld gefährdet; LPZ 0B ist gegen direkte Einschläge geschützt, aber dem ungedämpften Feld ausgesetzt. In LPZ 1 und höheren Zonen werden Stoßströme und Felder stufenweise weiter verringert.",
+   "source_url": "https://www.dehn-international.com/en/lightning-protection-zone-concept",
+   "source_name": "DEHN (Hersteller)",
+   "confidence": "medium",
+   "note": "Zonenbeschreibung aus Herstellerunterlage, nicht aus der Norm"
+  },
+  {
+   "claim": "Teil 4 baut auf dem Blitzschutzzonenkonzept auf; das Schutzsystem kombiniert Erdung und Potentialausgleich, Schirmung, Leitungsführung, koordinierte Überspannungsschutzgeräte und Trennschnittstellen. Einzelmaßnahmen allein gelten nicht als wirksam.",
+   "source_url": "https://www.vde.com/blitzschutz-unterschied-teil3-teil4",
+   "source_name": "VDE / VDE Verlag (Suchtreffer)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Teil 4 ersetzt nicht den äußeren und inneren Blitzschutz nach Teil 3; ein System nach Teil 4 setzt ein Blitzschutzsystem nach Teil 3 voraus, wo ein solches nötig ist.",
+   "source_url": "https://www.vde.com/blitzschutz-unterschied-teil3-teil4",
+   "source_name": "VDE",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Überspannungsschutzgeräte werden in Typ 1 (Blitzstromableiter, Hauptstromversorgung, möglichst vor dem Zähler), Typ 2 (Überspannungsableiter, Unterverteilung) und Typ 3 (Geräteschutz nahe am Endgerät) eingeteilt.",
+   "source_url": "https://www.vde.com/de/blitzschutz/infos/ueberspannungsschutz",
+   "source_name": "VDE / Phoenix Contact / Hager",
+   "confidence": "medium",
+   "note": "Mehrere Quellen übereinstimmend; Prüfklassen und Meterwerte bewusst nicht verwendet"
+  },
+  {
+   "claim": "Kombiableiter (Typ 1+2) vereinen die Anforderungen beider Typen.",
+   "source_url": "https://www.phoenixcontact.com/de-lu/produkte/ueberspannungsschutz/ueberspannungsschutz-fuer-stromversorgung/ueberspannungsschutz-typ-1?p=3",
+   "source_name": "Phoenix Contact (Hersteller)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Typ 1 und Typ 2 müssen aufeinander abgestimmt (koordiniert) sein; eine funktionierende Erdung ist Voraussetzung.",
+   "source_url": "https://www.dehn.de/sites/default/files/media/files/FAQ-DIN-VDE-0100-443-534-DS273-DE_1.pdf",
+   "source_name": "DEHN FAQ zu DIN VDE 0100-443/-534",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DIN VDE 0100-443 regelt Schutz bei transienten Überspannungen; in Deutschland wird dafür risikobasiert vorgegangen. In bestimmten Fällen (z. B. Sicherheitseinrichtungen, medizinische Geräte) sind Schutzgeräte ohne Berechnung erforderlich. Für neue Wohngebäude verlangt die Ausgabe 2016-10 den Schutz der Stromversorgungsleitungen.",
+   "source_url": "https://www.dehn.de/sites/default/files/media/files/2018-07/ds294-wissen-kompakt.pdf",
+   "source_name": "DEHN Wissen kompakt (Hersteller)",
+   "confidence": "medium",
+   "note": "Im Video nur allgemein: Norm DIN VDE 0100-443, Ausgabe prüfen; Jahr nicht genannt"
+  },
+  {
+   "claim": "Die Landesbauordnungen verlangen sinngemäß Blitzschutzanlagen bei baulichen Anlagen, die besonders blitzgefährdet sind oder bei denen ein Blitzschlag schwere Folgen haben kann; genannt werden oft Versammlungsstätten und Krankenhäuser.",
+   "source_url": "https://www.zollernalbkreis.de/site/LRA-ZAK-2017/get/documents_E-68662391/lra_zak/LRA-ZAK-2018-Objekte/Amt/Brand-%20und%20Katastrophenschutz/Merkblatt_Blitzschutzanlagen.pdf",
+   "source_name": "Landratsamt Zollernalbkreis Merkblatt (BW) u. a.",
+   "confidence": "medium",
+   "note": "Länderspezifisch; im Video nur allgemein, ohne Paragrafen"
+  },
+  {
+   "claim": "Bei Unklarheit kann eine Risikoanalyse nach DIN EN 62305-2 zur Entscheidung herangezogen werden.",
+   "source_url": "https://bkcdn.ekhn.de/data/5577-dezernat3-bauundliegenschaften/002_PDF/Pruefung_von_Blitzschutzanlagen_EKHN.pdf",
+   "source_name": "EKHN Dokument zur Prüfung von Blitzschutzanlagen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Blitzschutzfachkraft ist in der Regel eine Elektrofachkraft mit mehrjähriger Berufserfahrung und zeitnaher Tätigkeit im Blitzschutz; sie plant, installiert, prüft und wartet.",
+   "source_url": "https://www.tuvsud.com/de-de/store/akademie/seminare-technik/elektrotechnik/elektrische-anlagen-fachliche-fortbildung/3614028",
+   "source_name": "TÜV SÜD Seminarbeschreibung",
+   "confidence": "medium",
+   "note": "Keine Jahreszahlen im Video"
+  },
+  {
+   "claim": "Ein Fundamenterder besteht aus nicht isolierten Leitern im Gebäudefundament, ist als geschlossener Ring ausgeführt und wird mit der Hauptpotentialausgleichsschiene verbunden; für den Blitzschutz sind weitere Anschlussfahnen vorgesehen. Er richtet sich nach DIN 18014.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/grundinstallationen/fundamenterder-153004",
+   "source_name": "Baunetzwissen / DEHN DS251",
+   "confidence": "medium",
+   "note": "Maße (Anschlussfahne, Betondeckung) nicht im Video"
+  },
+  {
+   "claim": "Bei neuen Gebäuden ist laut VDE-AR-N 4100 ein Fundamenterder nach DIN 18014 zu errichten.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/grundinstallationen/fundamenterder-153004",
+   "source_name": "Suchzusammenfassung zu VDE-AR-N 4100:2019",
+   "confidence": "low",
+   "note": "Nur Suchzusammenfassung; nicht im Video, nur 'Netzbetreiber-Vorgaben beachten'"
+  },
+  {
+   "claim": "Prüfung: Die Erstprüfung erfolgt bei Fertigstellung; bei Mängeln muss der Betreiber bzw. Eigentümer die Beseitigung veranlassen. Details zu Fristen stehen in Beiblatt 3 der Reihe.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800736539_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Fristen nicht im Video"
+  },
+  {
+   "claim": "Die Sicherheitsregeln (fünf Regeln) gelten für Arbeiten an elektrischen Anlagen; Reihenfolge: Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen, erden und kurzschließen, benachbarte unter Spannung stehende Teile abdecken oder abschranken.",
+   "source_url": "docs/research/E-F05.json",
+   "source_name": "Eigene Forschungsdatei E-F05 (Hessische Bildungsverwaltung, TÜV Akademie)",
+   "confidence": "medium",
+   "note": "Wortlaut gegen DIN VDE 0105-100 prüfen; im Video sinngemäß, nie verkürzt"
+  }
+ ],
+ "dropped": [
+  "Konkrete Blitzschutzklassen (I bis IV), Schutzwinkel, Rollkugelradien, Maschenweiten, Mindestquerschnitte: nicht verifiziert aus Primärquelle",
+  "Prüffristen für Blitzschutzanlagen (Jahre; Quelle von 1998 veraltet, Versicherer-Angaben länderspezifisch)",
+  "Leitungslängen für zusätzliche SPDs (10 m, 5 m) und Prüfklassen/Anforderungsklassen B, C, D: Herstellerquellen, widersprüchlich",
+  "Stoßstromwerte, Wellenformen (10/350, 8/20), Schutzpegel, Überspannungskategorien: nur Hersteller",
+  "Genaue Paragrafen der Landesbauordnungen und Versammlungsstättenverordnungen (je Bundesland verschieden)",
+  "Genaue Ausgabedaten der Normen 62305-1/-2/-4 und DIN 18014 (im Wandel; Teil 1 2026-02 nur indirekt belegt)",
+  "Aussage, dass Typ 1 in jedem Fall vorgeschrieben ist: widersprüchliche Quellen",
+  "Maße des Fundamenterders (Betondeckung, Anschlussfahne, Stahlquerschnitt)",
+  "Erder Typ A/Typ B nach DIN 18014: Bezeichnung nicht belegt",
+  "Verhalten bei Gewitter / Arbeitsverbote bei Gewitter: keine verifizierte Quelle",
+  "Kosten, Versicherungs- und Haftungsfragen"
+ ]
+}

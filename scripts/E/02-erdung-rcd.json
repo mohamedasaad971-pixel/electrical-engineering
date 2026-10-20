@@ -1,0 +1,1305 @@
+{
+ "id": "E-B02",
+ "title": {
+  "de": "Erdung, Netzsysteme und RCD: TN, TT, IT und Fehlerstromschutz",
+  "ar": "أنظمة التأريض والحماية من الصعق (TN وTT وIT) وجهاز RCD",
+  "en": "Earthing, Network Systems and RCD: TN, TT, IT and Residual Current Protection"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-B02 · Installationen",
+    "heading": "Erdung, Netzsysteme und RCD",
+    "items": [
+     "TN, TT und IT",
+     "Schutzpotentialausgleich",
+     "RCD und seine Typen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum zweiten Video über Gebäudeinstallationen.",
+     "ar": "مرحبًا بكم في الفيديو الثاني عن التركيبات الكهربائية في المباني.",
+     "en": "Welcome to the second video on building installations."
+    },
+    {
+     "de": "Heute geht es um Netzsysteme und um den Fehlerstromschutz.",
+     "ar": "موضوعنا اليوم هو أنظمة الشبكة والحماية من تيار العطل.",
+     "en": "Today we cover network systems and residual current protection."
+    },
+    {
+     "de": "Sie sehen, was TN, TT und IT bedeuten.",
+     "ar": "سترون ما معنى TN وTT وIT.",
+     "en": "You will see what TN, TT and IT mean.",
+     "tts": "Sie sehen, was Te-En, Te-Te und I-Te bedeuten."
+    },
+    {
+     "de": "Danach folgen der Schutzpotentialausgleich und der RCD.",
+     "ar": "بعد ذلك نتناول الربط الوقائي المتساوي الجهد وجهاز الحماية من تيار العطل (RCD) ثم أنواعه.",
+     "en": "Then come protective equipotential bonding and the RCD.",
+     "tts": "Danach folgen der Schutzpotentialausgleich und der Er-Ze-De."
+    },
+    {
+     "de": "Wir bleiben bei den Konzepten, nicht bei Zahlenwerten.",
+     "ar": "سنبقى عند المفاهيم لا عند القيم العددية.",
+     "en": "We stay with concepts, not with numerical values."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Kein Ersatz für Ausbildung",
+     "Keine Anleitung zum Installieren",
+     "Aktuelle Normen prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video erklärt nur Begriffe und Prinzipien.",
+     "ar": "هذا الفيديو يشرح المصطلحات والمبادئ فقط.",
+     "en": "This video only explains terms and principles."
+    },
+    {
+     "de": "Es ist keine Anleitung zum Installieren oder Prüfen.",
+     "ar": "وهو ليس دليلًا للتركيب أو الفحص.",
+     "en": "It is not a guide to installing or testing."
+    },
+    {
+     "de": "Arbeiten an Anlagen machen nur Elektrofachkräfte.",
+     "ar": "الأعمال على المنشآت يقوم بها الكهربائيون المؤهَّلون (Elektrofachkräfte) فقط.",
+     "en": "Only qualified electricians work on installations."
+    },
+    {
+     "de": "Normen ändern sich; prüfen Sie immer die aktuelle Fassung.",
+     "ar": "المعايير تتغير؛ تحققوا دائمًا من الصيغة الحالية.",
+     "en": "Standards change; always check the current version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum Erdung?",
+    "heading": "Schutz bei einem Isolationsfehler",
+    "items": [
+     "Gehäuse kann Spannung führen",
+     "Fehlerstrom soll abfließen",
+     "Schutzeinrichtung soll abschalten",
+     "Berührungsspannung soll klein bleiben"
+    ],
+    "terms": [
+     {
+      "de": "Schutzleiter",
+      "ar": "موصل الحماية",
+      "en": "protective conductor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit der Grundfrage: Warum erdet man überhaupt?",
+     "ar": "نبدأ بالسؤال الأساسي: لماذا نُؤرِّض أصلًا؟",
+     "en": "Let us start with the basic question: why do we earth at all?"
+    },
+    {
+     "de": "Stellen Sie sich einen Isolationsfehler vor.",
+     "ar": "تخيلوا وجود عطل في العزل.",
+     "en": "Imagine an insulation fault."
+    },
+    {
+     "de": "Ein Metallgehäuse kann dann plötzlich Spannung führen.",
+     "ar": "عندها قد يحمل الغلاف المعدني جهدًا فجأة.",
+     "en": "A metal housing can suddenly carry voltage."
+    },
+    {
+     "de": "Wer es berührt, ist in Gefahr.",
+     "ar": "ومن يلمسه يتعرض للخطر.",
+     "en": "Whoever touches it is in danger."
+    },
+    {
+     "de": "Darum verbindet man Gehäuse mit dem Schutzleiter.",
+     "ar": "لذلك تُوصَل الأغلفة بموصل الحماية.",
+     "en": "That is why housings are connected to the protective conductor."
+    },
+    {
+     "de": "Im Fehlerfall soll ein Strom fließen, und eine Schutzeinrichtung soll abschalten.",
+     "ar": "وعند العطل يجب أن يمر تيار وأن يفصل جهاز الحماية الدارة.",
+     "en": "In a fault, a current should flow and a protective device should switch off."
+    },
+    {
+     "de": "Wie das genau geschieht, hängt vom Netzsystem ab.",
+     "ar": "وكيفية ذلك تعتمد على نظام الشبكة.",
+     "en": "How exactly this happens depends on the network system."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Netzsysteme",
+    "heading": "Die Buchstaben im Kurzzeichen",
+    "items": [
+     "Erster Buchstabe | Erdung an der Quelle",
+     "Zweiter Buchstabe | Erdung der Gehäuse",
+     "T | direkt geerdet (terre, Erde)",
+     "I | isoliert oder hochohmig",
+     "N | Gehäuse am geerdeten Sternpunkt"
+    ],
+    "terms": [
+     {
+      "de": "Sternpunkt",
+      "ar": "نقطة النجمة",
+      "en": "star point"
+     },
+     {
+      "de": "Impedanz",
+      "ar": "المعاوقة",
+      "en": "impedance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Netzsysteme haben kurze Namen aus Buchstaben.",
+     "ar": "لأنظمة الشبكة أسماء قصيرة من حروف.",
+     "en": "Network systems have short names made of letters."
+    },
+    {
+     "de": "Der erste Buchstabe beschreibt die Erdung an der Quelle, also am Transformator.",
+     "ar": "يصف الحرف الأول التأريض عند المصدر، أي عند المحوّل.",
+     "en": "The first letter describes earthing at the source, the transformer."
+    },
+    {
+     "de": "Der zweite Buchstabe beschreibt, wie die Gehäuse der Geräte geerdet sind.",
+     "ar": "ويصف الحرف الثاني كيف تُؤرَّض أغلفة الأجهزة.",
+     "en": "The second letter describes how device housings are earthed."
+    },
+    {
+     "de": "T kommt aus dem Französischen und meint Erde: direkt geerdet.",
+     "ar": "الحرف T من الفرنسية ويعني الأرض: تأريض مباشر.",
+     "en": "T comes from French and means earth: directly earthed."
+    },
+    {
+     "de": "I steht für isoliert oder hochohmig mit der Erde verbunden.",
+     "ar": "والحرف I يعني معزولًا أو موصولًا بالأرض بمعاوقة عالية.",
+     "en": "I stands for isolated or connected to earth through a high impedance."
+    },
+    {
+     "de": "N bedeutet: Die Gehäuse hängen am geerdeten Sternpunkt der Quelle.",
+     "ar": "والحرف N يعني أن الأغلفة موصولة بنقطة النجمة المؤرَّضة للمصدر.",
+     "en": "N means: the housings are connected to the earthed star point of the source."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Zusatzbuchstaben",
+    "heading": "S und C: Zwei Leiter oder einer",
+    "items": [
+     "S: getrennt geführt",
+     "C: kombiniert",
+     "PE: Schutzleiter",
+     "PEN: Schutz und Neutral in einem"
+    ],
+    "terms": [
+     {
+      "de": "Neutralleiter",
+      "ar": "موصل التعادل",
+      "en": "neutral conductor"
+     },
+     {
+      "de": "PEN-Leiter",
+      "ar": "موصل PEN (حماية وتعادل معًا)",
+      "en": "PEN conductor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hinter dem N folgen oft weitere Buchstaben.",
+     "ar": "بعد الحرف N تأتي غالبًا حروف أخرى.",
+     "en": "After the N, further letters often follow."
+    },
+    {
+     "de": "S heißt: separat. Neutralleiter und Schutzleiter sind getrennt.",
+     "ar": "S تعني منفصل: موصل التعادل وموصل الحماية منفصلان.",
+     "en": "S means separate: neutral and protective conductor are separate."
+    },
+    {
+     "de": "C heißt: combined. Beide Aufgaben liegen in einem Leiter.",
+     "ar": "وC تعني مدمج: المهمتان في موصل واحد.",
+     "en": "C means combined: both tasks are in one conductor."
+    },
+    {
+     "de": "Diesen gemeinsamen Leiter nennt man PEN-Leiter.",
+     "ar": "ويُسمى هذا الموصل المشترك موصل PEN.",
+     "en": "This common conductor is called the PEN conductor.",
+     "tts": "Diesen gemeinsamen Leiter nennt man Pe-E-En-Leiter."
+    },
+    {
+     "de": "PE ist der Schutzleiter, N der Neutralleiter.",
+     "ar": "PE هو موصل الحماية وN هو موصل التعادل.",
+     "en": "PE is the protective conductor, N the neutral conductor.",
+     "tts": "Pe-E ist der Schutzleiter, N der Neutralleiter."
+    },
+    {
+     "de": "Merken Sie sich: PEN bedeutet Schutz und Neutral in einem.",
+     "ar": "تذكروا: PEN يعني الحماية والتعادل في موصل واحد.",
+     "en": "Remember: PEN means protection and neutral in one.",
+     "tts": "Merken Sie sich: Pe-E-En bedeutet Schutz und Neutral in einem."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "TN-System",
+    "heading": "TN-S, TN-C und TN-C-S",
+    "items": [
+     "TN-S: PE und N getrennt",
+     "TN-C: ein PEN-Leiter",
+     "TN-C-S: erst PEN, dann getrennt",
+     "Alle: Gehäuse am Sternpunkt"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im TN-System sind die Gehäuse über einen Leiter mit dem geerdeten Sternpunkt verbunden.",
+     "ar": "في نظام TN تُوصَل الأغلفة عبر موصل بنقطة النجمة المؤرَّضة.",
+     "en": "In the TN system, housings are connected to the earthed star point by a conductor.",
+     "tts": "Im Te-En-System sind die Gehäuse über einen Leiter mit dem geerdeten Sternpunkt verbunden."
+    },
+    {
+     "de": "Beim TN-S laufen PE und N durchgehend getrennt.",
+     "ar": "في TN-S يسير موصلا PE وN منفصلين على طول المسار.",
+     "en": "In TN-S, PE and N run separately throughout.",
+     "tts": "Beim Te-En-Es laufen Pe-E und N durchgehend getrennt."
+    },
+    {
+     "de": "Beim TN-C gibt es durchgehend einen PEN-Leiter.",
+     "ar": "وفي TN-C يوجد موصل PEN واحد على طول المسار.",
+     "en": "In TN-C there is one PEN conductor throughout.",
+     "tts": "Beim Te-En-Ze gibt es durchgehend einen Pe-E-En-Leiter."
+    },
+    {
+     "de": "Beim TN-C-S beginnt das Netz mit einem PEN-Leiter.",
+     "ar": "وفي TN-C-S تبدأ الشبكة بموصل PEN.",
+     "en": "In TN-C-S the network starts with a PEN conductor.",
+     "tts": "Beim Te-En-Ze-Es beginnt das Netz mit einem Pe-E-En-Leiter."
+    },
+    {
+     "de": "In der Verbraucheranlage wird er in PE und N getrennt.",
+     "ar": "وفي منشأة المستهلك يُفصل إلى PE وN.",
+     "en": "In the consumer installation it is split into PE and N.",
+     "tts": "In der Verbraucheranlage wird er in Pe-E und N getrennt."
+    },
+    {
+     "de": "In Mitteleuropa ist das TN-C-S sehr verbreitet.",
+     "ar": "وهذا النظام TN-C-S منتشر كثيرًا في وسط أوروبا.",
+     "en": "In Central Europe, TN-C-S is very common.",
+     "tts": "In Mitteleuropa ist das Te-En-Ze-Es sehr verbreitet."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "PEN-Leiter",
+    "heading": "Das Konzept des PEN-Leiters",
+    "items": [
+     "Ein Leiter, zwei Aufgaben",
+     "Danach in PE und N aufgeteilt",
+     "Nicht wieder zusammenführen",
+     "Hinter einem RCD kein PEN"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Schauen wir uns den PEN-Leiter genauer an.",
+     "ar": "لننظر إلى موصل PEN عن قرب.",
+     "en": "Let us look at the PEN conductor more closely.",
+     "tts": "Schauen wir uns den Pe-E-En-Leiter genauer an."
+    },
+    {
+     "de": "Er spart einen Leiter, hat aber zwei Aufgaben.",
+     "ar": "إنه يوفر موصلًا لكنه يؤدي مهمتين.",
+     "en": "It saves a conductor but has two tasks."
+    },
+    {
+     "de": "Er führt Betriebsstrom und dient zugleich als Schutzleiter.",
+     "ar": "فهو يحمل تيار التشغيل ويعمل أيضًا موصل حماية.",
+     "en": "It carries operating current and also serves as protective conductor."
+    },
+    {
+     "de": "Darum ist seine Unversehrtheit besonders wichtig.",
+     "ar": "لذلك فإن سلامته مهمة جدًا.",
+     "en": "So its integrity is especially important."
+    },
+    {
+     "de": "Nach der Aufteilung in PE und N bleiben beide getrennt.",
+     "ar": "بعد الفصل إلى PE وN يبقيان منفصلين.",
+     "en": "After the split into PE and N, both stay separate.",
+     "tts": "Nach der Aufteilung in Pe-E und N bleiben beide getrennt."
+    },
+    {
+     "de": "Man führt sie nicht wieder zusammen.",
+     "ar": "ولا يُعاد دمجهما.",
+     "en": "They are not joined again."
+    },
+    {
+     "de": "Hinter einem RCD ist ein PEN-Leiter nicht zulässig.",
+     "ar": "وخلف جهاز RCD لا يُسمح بموصل PEN.",
+     "en": "Behind an RCD, a PEN conductor is not permitted.",
+     "tts": "Hinter einem Er-Ze-De ist ein Pe-E-En-Leiter nicht zulässig."
+    },
+    {
+     "de": "Wo und wie getrennt wird, entscheidet die Elektrofachkraft nach den Anschlussbedingungen.",
+     "ar": "أما مكان الفصل وكيفيته فيقررهما الكهربائي المؤهَّل وفق شروط التوصيل.",
+     "en": "Where and how it is split is decided by the qualified electrician according to the connection conditions."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "TT-System",
+    "heading": "Eigener Erder für die Anlage",
+    "items": [
+     "Quelle hat einen Erder",
+     "Anlage hat eigenen Erder",
+     "Gehäuse am Anlagenerder",
+     "RCD als üblicher Fehlerschutz"
+    ],
+    "terms": [
+     {
+      "de": "Erder",
+      "ar": "المؤرِّض (قطب التأريض)",
+      "en": "earth electrode"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zum TT-System.",
+     "ar": "والآن إلى نظام TT.",
+     "en": "Now to the TT system.",
+     "tts": "Nun zum Te-Te-System."
+    },
+    {
+     "de": "Hier ist die Quelle direkt geerdet.",
+     "ar": "هنا يكون المصدر مؤرَّضًا مباشرة.",
+     "en": "Here the source is directly earthed."
+    },
+    {
+     "de": "Auch die Anlage hat ihren eigenen Erder, den Anlagenerder.",
+     "ar": "وللمنشأة أيضًا مؤرِّضها الخاص، أي مؤرِّض المنشأة.",
+     "en": "The installation also has its own earth electrode."
+    },
+    {
+     "de": "Die Gehäuse hängen am Anlagenerder, nicht am Sternpunkt.",
+     "ar": "تُوصَل الأغلفة بمؤرِّض المنشأة لا بنقطة النجمة.",
+     "en": "The housings are connected to the installation earth, not to the star point."
+    },
+    {
+     "de": "Der Weg zurück zur Quelle führt dann über das Erdreich.",
+     "ar": "والطريق إلى المصدر يمر هنا عبر التربة.",
+     "en": "The way back to the source then leads through the ground."
+    },
+    {
+     "de": "Dieser Weg hat oft einen hohen Widerstand.",
+     "ar": "وهذا المسار غالبًا مقاومته عالية.",
+     "en": "This path often has a high resistance."
+    },
+    {
+     "de": "Deshalb nutzt man im TT-System üblicherweise einen RCD als Fehlerschutz.",
+     "ar": "لذلك يُستخدم في نظام TT عادةً جهاز RCD للحماية من العطل.",
+     "en": "That is why a TT system usually uses an RCD as fault protection.",
+     "tts": "Deshalb nutzt man im Te-Te-System üblicherweise einen Er-Ze-De als Fehlerschutz."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "IT-System",
+    "heading": "Isoliert oder hochohmig",
+    "items": [
+     "Quelle isoliert oder hochohmig",
+     "Gehäuse mit eigenem Erder",
+     "Erster Fehler: Betrieb möglich",
+     "Isolationsüberwachung ist nötig"
+    ],
+    "terms": [
+     {
+      "de": "Isolationsfehler",
+      "ar": "عطل العزل",
+      "en": "insulation fault"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das IT-System ist ein Sonderfall.",
+     "ar": "نظام IT حالة خاصة.",
+     "en": "The IT system is a special case.",
+     "tts": "Das I-Te-System ist ein Sonderfall."
+    },
+    {
+     "de": "Die Quelle ist nicht direkt geerdet.",
+     "ar": "المصدر غير مؤرَّض مباشرة.",
+     "en": "The source is not directly earthed."
+    },
+    {
+     "de": "Sie ist isoliert oder nur hochohmig mit der Erde verbunden.",
+     "ar": "إنه معزول أو موصول بالأرض بمعاوقة عالية فقط.",
+     "en": "It is isolated or only connected to earth through a high impedance."
+    },
+    {
+     "de": "Die Gehäuse haben einen eigenen Erder.",
+     "ar": "وللأغلفة مؤرِّضها الخاص.",
+     "en": "The housings have their own earth electrode."
+    },
+    {
+     "de": "Bei einem ersten Isolationsfehler kann die Anlage weiterlaufen.",
+     "ar": "عند أول عطل في العزل يمكن للمنشأة أن تواصل العمل.",
+     "en": "With a first insulation fault, the installation can keep running."
+    },
+    {
+     "de": "Der Fehler soll aber schnell beseitigt werden.",
+     "ar": "لكن يجب إصلاح العطل بسرعة.",
+     "en": "But the fault should be eliminated quickly."
+    },
+    {
+     "de": "Darum überwacht ein Isolationsüberwachungsgerät ständig den Isolationswiderstand.",
+     "ar": "لذلك يراقب جهاز مراقبة العزل مقاومة العزل باستمرار.",
+     "en": "So an insulation monitoring device constantly watches the insulation resistance."
+    },
+    {
+     "de": "Es meldet einen Fehler, ohne die Versorgung zu unterbrechen.",
+     "ar": "وهو يُبلغ عن العطل دون قطع التغذية.",
+     "en": "It reports a fault without interrupting the supply."
+    },
+    {
+     "de": "Ein typisches Beispiel sind Operationsräume im Krankenhaus.",
+     "ar": "ومثال نموذجي على ذلك غرف العمليات في المستشفى.",
+     "en": "A typical example is operating rooms in hospitals."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Vergleich",
+    "heading": "Netzsysteme im Überblick",
+    "items": [
+     "TN | Gehäuse am Sternpunkt, über PE oder PEN",
+     "TT | Quelle und Anlage mit eigenen Erdern",
+     "IT | Quelle isoliert, erster Fehler meldet",
+     "TN-C-S | PEN im Netz, PE und N in der Anlage",
+     "RCD | im TT üblich, im TN oft ergänzend"
+    ],
+    "terms": [
+     {
+      "de": "Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "network operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir die Netzsysteme zusammen.",
+     "ar": "لنُلخِّص أنظمة الشبكة.",
+     "en": "Let us summarize the network systems."
+    },
+    {
+     "de": "Beim TN hängen die Gehäuse am Sternpunkt der Quelle.",
+     "ar": "في TN تتصل الأغلفة بنقطة النجمة للمصدر.",
+     "en": "In TN, housings connect to the source star point.",
+     "tts": "Beim Te-En hängen die Gehäuse am Sternpunkt der Quelle."
+    },
+    {
+     "de": "Beim TT haben Quelle und Anlage jeweils eigene Erder.",
+     "ar": "في TT يكون للمصدر وللمنشأة مؤرِّضان منفصلان.",
+     "en": "In TT, source and installation each have their own earth electrodes.",
+     "tts": "Beim Te-Te haben Quelle und Anlage jeweils eigene Erder."
+    },
+    {
+     "de": "Beim IT ist die Quelle isoliert, und ein Überwachungsgerät meldet den ersten Fehler.",
+     "ar": "في IT يكون المصدر معزولًا ويُبلغ جهاز المراقبة عن أول عطل.",
+     "en": "In IT, the source is isolated and a monitoring device reports the first fault.",
+     "tts": "Beim I-Te ist die Quelle isoliert, und ein Überwachungsgerät meldet den ersten Fehler."
+    },
+    {
+     "de": "Der RCD ist im TT-System üblich und ergänzt oft den Schutz im TN-System.",
+     "ar": "جهاز RCD شائع في TT وغالبًا ما يكمل الحماية في TN.",
+     "en": "The RCD is common in TT and often supplements protection in TN.",
+     "tts": "Der Er-Ze-De ist im Te-Te-System üblich und ergänzt oft den Schutz im Te-En-System."
+    },
+    {
+     "de": "Dieses Bild hilft in Gesprächen mit Netzbetreibern und Elektrofachkräften.",
+     "ar": "تساعدكم هذه الصورة في الحوار مع مشغّلي الشبكات والكهربائيين المؤهَّلين.",
+     "en": "This picture helps in talks with network operators and qualified electricians."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Praxis",
+    "heading": "Die Netzform vor Ort klären",
+    "items": [
+     "Netzform nie raten",
+     "Netzbetreiber fragen",
+     "Elektrofachkraft einbeziehen",
+     "Anschlussbedingungen beachten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Welche Netzform liegt an einem Standort vor?",
+     "ar": "ما شكل الشبكة الموجود في موقع معين؟",
+     "en": "Which network type applies at a given site?"
+    },
+    {
+     "de": "Das dürfen Sie nicht raten.",
+     "ar": "لا يجوز أن تخمّنوا ذلك.",
+     "en": "You must not guess."
+    },
+    {
+     "de": "Fragen Sie den Netzbetreiber und die Elektrofachkraft.",
+     "ar": "اسألوا مشغّل الشبكة والكهربائي المؤهَّل.",
+     "en": "Ask the network operator and the qualified electrician."
+    },
+    {
+     "de": "Beachten Sie die Anschlussbedingungen des Netzbetreibers.",
+     "ar": "وراعوا شروط التوصيل لدى مشغّل الشبكة.",
+     "en": "Observe the connection conditions of the network operator."
+    },
+    {
+     "de": "Die Netzform bestimmt, welche Schutzeinrichtungen sinnvoll sind.",
+     "ar": "فشكل الشبكة يحدد أجهزة الحماية المناسبة.",
+     "en": "The network type determines which protective devices make sense."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Potentialausgleich",
+    "heading": "Der Schutzpotentialausgleich",
+    "items": [
+     "Berührbare leitfähige Teile verbinden",
+     "Gleiches Potential anstreben",
+     "Verbindung an der Haupterdungsschiene",
+     "Teil von DIN VDE 0100"
+    ],
+    "terms": [
+     {
+      "de": "Schutzpotentialausgleich",
+      "ar": "الربط الوقائي المتساوي الجهد",
+      "en": "protective equipotential bonding"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun kommen wir zum Schutzpotentialausgleich.",
+     "ar": "والآن إلى الربط الوقائي المتساوي الجهد.",
+     "en": "Now we come to protective equipotential bonding."
+    },
+    {
+     "de": "Früher sagte man dazu Hauptpotentialausgleich.",
+     "ar": "كان يُسمى سابقًا الربط الرئيسي المتساوي الجهد.",
+     "en": "It used to be called main equipotential bonding."
+    },
+    {
+     "de": "Sein Ziel: leitfähige Teile im Gebäude auf gleiches Potential bringen.",
+     "ar": "هدفه: جعل الأجزاء الموصلة في المبنى عند جهد متساوٍ.",
+     "en": "Its aim: bring conductive parts in the building to the same potential."
+    },
+    {
+     "de": "So treten keine gefährlichen Spannungen zwischen berührbaren Teilen auf.",
+     "ar": "وبذلك لا تظهر جهود خطرة بين الأجزاء التي يمكن لمسها.",
+     "en": "This prevents dangerous voltages between touchable parts."
+    },
+    {
+     "de": "Man verbindet die Teile an der Haupterdungsschiene.",
+     "ar": "تُوصَل الأجزاء عند قضيب التأريض الرئيسي.",
+     "en": "The parts are connected at the main earthing bar."
+    },
+    {
+     "de": "Dazu zählen Schutzleiter, Erdungsleiter und metallene Versorgungssysteme.",
+     "ar": "ومنها موصلات الحماية وموصل التأريض وأنظمة التغذية المعدنية.",
+     "en": "These include protective conductors, earthing conductors and metallic supply systems."
+    },
+    {
+     "de": "Die Anforderungen stehen in der Normenreihe DIN VDE 0100.",
+     "ar": "المتطلبات واردة في سلسلة المعايير DIN VDE 0100.",
+     "en": "The requirements are in the standard series DIN VDE 0100.",
+     "tts": "Die Anforderungen stehen in der Normenreihe Din Fau-De-E null eins null null."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Abgrenzung",
+    "heading": "Erdung oder Potentialausgleich?",
+    "items": [
+     "Erdung: Verbindung mit der Erde",
+     "Potentialausgleich: Teile untereinander",
+     "Zusätzlich: örtlicher Ausgleich",
+     "Beispiel: Räume mit erhöhtem Risiko"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Erdung und Potentialausgleich sind nicht dasselbe.",
+     "ar": "التأريض والربط المتساوي الجهد ليسا الشيء نفسه.",
+     "en": "Earthing and equipotential bonding are not the same."
+    },
+    {
+     "de": "Erdung verbindet Anlagenteile mit der Erde.",
+     "ar": "التأريض يصل أجزاء المنشأة بالأرض.",
+     "en": "Earthing connects parts of the installation to the ground."
+    },
+    {
+     "de": "Potentialausgleich verbindet leitfähige Teile untereinander.",
+     "ar": "والربط المتساوي الجهد يصل الأجزاء الموصلة ببعضها.",
+     "en": "Equipotential bonding connects conductive parts to each other."
+    },
+    {
+     "de": "Beides ergänzt sich und erhöht die Sicherheit.",
+     "ar": "وكلاهما يكمل الآخر ويرفع مستوى السلامة.",
+     "en": "Both complement each other and increase safety."
+    },
+    {
+     "de": "Es gibt außerdem den zusätzlichen, örtlichen Potentialausgleich.",
+     "ar": "وهناك أيضًا الربط الإضافي الموضعي.",
+     "en": "There is also supplementary local equipotential bonding."
+    },
+    {
+     "de": "Er ist eine ergänzende Maßnahme, zum Beispiel für Bäder.",
+     "ar": "وهو إجراء مكمِّل، مثلًا في الحمامات.",
+     "en": "It is a supplementary measure, for example for bathrooms."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "RCD",
+    "heading": "So arbeitet ein RCD",
+    "items": [
+     "Summenstromwandler umfasst alle Leiter",
+     "Hin- und Rückstrom heben sich auf",
+     "Fehlerstrom gegen Erde: Differenz",
+     "Auslöser schaltet ab"
+    ],
+    "terms": [
+     {
+      "de": "Fehlerstrom-Schutzeinrichtung",
+      "ar": "جهاز الحماية من تيار العطل (RCD)",
+      "en": "residual current device"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zum RCD, auf Deutsch Fehlerstrom-Schutzeinrichtung.",
+     "ar": "والآن إلى الجهاز المسمى RCD، وبالألمانية Fehlerstrom-Schutzeinrichtung، أي جهاز الحماية من تيار العطل.",
+     "en": "Now to the RCD, in German Fehlerstrom-Schutzeinrichtung.",
+     "tts": "Jetzt zum Er-Ze-De, auf Deutsch Fehlerstrom-Schutzeinrichtung."
+    },
+    {
+     "de": "Man sagt auch FI-Schalter.",
+     "ar": "ويُقال له أيضًا مفتاح FI.",
+     "en": "It is also called an FI switch.",
+     "tts": "Man sagt auch Eff-I-Schalter."
+    },
+    {
+     "de": "Sein Herz ist der Summenstromwandler.",
+     "ar": "قلبه هو محوّل التيار المجمِّع.",
+     "en": "Its heart is the summation current transformer."
+    },
+    {
+     "de": "Er umfasst alle Leiter des Stromkreises, auch den Neutralleiter.",
+     "ar": "يحيط بجميع موصلات الدارة، ومنها موصل التعادل.",
+     "en": "It encloses all conductors of the circuit, including the neutral."
+    },
+    {
+     "de": "Ohne Fehler fließt gleich viel Strom hin und zurück.",
+     "ar": "دون عطل يسري التيار نفسه ذهابًا وإيابًا.",
+     "en": "Without a fault, the same current flows out and back."
+    },
+    {
+     "de": "Die Magnetfelder heben sich auf.",
+     "ar": "فتلغي المجالات المغناطيسية بعضها.",
+     "en": "The magnetic fields cancel each other."
+    },
+    {
+     "de": "Fließt ein Teil des Stroms gegen Erde ab, entsteht eine Differenz.",
+     "ar": "وإذا مرّ جزء من التيار إلى الأرض نشأ فرق.",
+     "en": "If part of the current flows to earth, a difference arises."
+    },
+    {
+     "de": "Diese Differenz betätigt den Auslöser, und der RCD schaltet ab.",
+     "ar": "هذا الفرق يشغّل المُطلِق فيفصل RCD الدارة.",
+     "en": "This difference actuates the release and the RCD switches off.",
+     "tts": "Diese Differenz betätigt den Auslöser, und der Er-Ze-De schaltet ab."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Grenzen",
+    "heading": "RCD, Leitungsschutzschalter, RCBO",
+    "items": [
+     "RCD: Fehlerstrom gegen Erde",
+     "Leitungsschutzschalter: Überstrom",
+     "RCBO: beides in einem Gerät",
+     "Kurzschluss L–N: kein Differenzstrom"
+    ],
+    "terms": [
+     {
+      "de": "Leitungsschutzschalter",
+      "ar": "القاطع الآلي",
+      "en": "circuit breaker"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein RCD ersetzt keinen Leitungsschutzschalter.",
+     "ar": "جهاز RCD لا يحل محل القاطع الآلي.",
+     "en": "An RCD does not replace a circuit breaker.",
+     "tts": "Ein Er-Ze-De ersetzt keinen Leitungsschutzschalter."
+    },
+    {
+     "de": "Der Leitungsschutzschalter schützt vor Überlast und Kurzschluss.",
+     "ar": "القاطع الآلي يحمي من الحمل الزائد والدائرة القصيرة.",
+     "en": "The circuit breaker protects against overload and short circuit."
+    },
+    {
+     "de": "Der RCD erfasst Fehlerströme gegen Erde.",
+     "ar": "أما RCD فيكشف تيارات العطل نحو الأرض.",
+     "en": "The RCD detects fault currents to earth.",
+     "tts": "Der Er-Ze-De erfasst Fehlerströme gegen Erde."
+    },
+    {
+     "de": "Bei einem Kurzschluss zwischen Außenleiter und Neutralleiter fließt derselbe Strom hin und zurück.",
+     "ar": "في الدائرة القصيرة بين الموصل الخارجي وموصل التعادل يسري التيار نفسه ذهابًا وإيابًا.",
+     "en": "In a short circuit between line and neutral, the same current flows out and back."
+    },
+    {
+     "de": "Der Wandler sieht dann keine Differenz.",
+     "ar": "فلا يرى المحوّل فرقًا حينها.",
+     "en": "The transformer then sees no difference."
+    },
+    {
+     "de": "Ein RCBO verbindet beide Funktionen in einem Gerät.",
+     "ar": "أما RCBO فيجمع الوظيفتين في جهاز واحد.",
+     "en": "An RCBO combines both functions in one device.",
+     "tts": "Ein Er-Ze-Be-O verbindet beide Funktionen in einem Gerät."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "RCD-Typen",
+    "heading": "Typ AC, A, F und B",
+    "items": [
+     "AC | nur sinusförmiger Wechselfehlerstrom",
+     "A | zusätzlich pulsierender Gleichfehlerstrom",
+     "F | für einphasige Frequenzumrichter",
+     "B | allstromsensitiv, auch glatter Gleichstrom",
+     "Wahl | nach Last und aktueller Norm"
+    ],
+    "terms": [
+     {
+      "de": "Frequenzumrichter",
+      "ar": "محوّل التردد",
+      "en": "frequency converter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "RCDs gibt es in verschiedenen Typen.",
+     "ar": "توجد أجهزة RCD بأنواع مختلفة.",
+     "en": "RCDs come in different types.",
+     "tts": "RCDs gibt es in verschiedenen Typen."
+    },
+    {
+     "de": "Typ AC erfasst nur sinusförmige Wechselfehlerströme.",
+     "ar": "النوع AC لا يكشف إلا تيارات العطل المتناوبة الجيبية.",
+     "en": "Type AC only detects sinusoidal alternating fault currents.",
+     "tts": "Typ A-Ze erfasst nur sinusförmige Wechselfehlerströme."
+    },
+    {
+     "de": "Typ A erfasst zusätzlich pulsierende Gleichfehlerströme.",
+     "ar": "النوع A يكشف أيضًا تيارات العطل المستمرة النبضية.",
+     "en": "Type A also detects pulsating direct fault currents."
+    },
+    {
+     "de": "Typ F ist unter anderem für einphasige Frequenzumrichter gedacht.",
+     "ar": "النوع F مخصص من بين ما يخصص له لمحوّلات التردد أحادية الطور.",
+     "en": "Type F is intended, among other things, for single-phase frequency converters."
+    },
+    {
+     "de": "Typ B ist allstromsensitiv und erfasst auch glatte Gleichfehlerströme.",
+     "ar": "النوع B حساس لجميع أنواع التيار ويكشف أيضًا تيارات العطل المستمرة الملساء.",
+     "en": "Type B is all-current sensitive and also detects smooth direct fault currents."
+    },
+    {
+     "de": "Glatter Gleichstrom kann einen Typ A sogar blockieren.",
+     "ar": "والتيار المستمر الأملس قد يعطّل النوع A.",
+     "en": "Smooth direct current can even block a type A."
+    },
+    {
+     "de": "Welcher Typ passt, hängt von den Geräten und der aktuellen Norm ab.",
+     "ar": "يعتمد النوع المناسب على الأجهزة وعلى المعيار الحالي.",
+     "en": "Which type fits depends on the equipment and the current standard."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Prüftaste",
+    "heading": "Was die Prüftaste kann",
+    "items": [
+     "Prüft die Auslösemechanik",
+     "Erzeugt einen internen Prüfstrom",
+     "Ersetzt keine Messung",
+     "Herstellerangaben beachten"
+    ],
+    "terms": [
+     {
+      "de": "Prüftaste",
+      "ar": "زر الاختبار",
+      "en": "test button"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jeder RCD hat eine Prüftaste.",
+     "ar": "كل جهاز RCD له زر اختبار.",
+     "en": "Every RCD has a test button.",
+     "tts": "Jeder Er-Ze-De hat eine Prüftaste."
+    },
+    {
+     "de": "Sie löst einen kleinen Prüfstrom im Gerät aus.",
+     "ar": "يولّد هذا الزر تيار اختبار صغيرًا داخل الجهاز.",
+     "en": "It creates a small test current inside the device."
+    },
+    {
+     "de": "So zeigt sie, ob die Auslösemechanik arbeitet.",
+     "ar": "وهكذا يُظهر هل تعمل آلية الفصل.",
+     "en": "So it shows whether the tripping mechanism works."
+    },
+    {
+     "de": "Sie ersetzt aber keine Messung durch eine Elektrofachkraft.",
+     "ar": "لكنه لا يغني عن القياس الذي يجريه الكهربائي المؤهَّل.",
+     "en": "But it does not replace a measurement by a qualified electrician."
+    },
+    {
+     "de": "Wie oft man sie drückt, steht in den Angaben des Herstellers.",
+     "ar": "ويُذكر في بيانات الشركة المصنِّعة عدد مرات الضغط عليه.",
+     "en": "How often you press it is stated in the manufacturer's instructions."
+    },
+    {
+     "de": "Löst der RCD nicht aus, informieren Sie eine Elektrofachkraft.",
+     "ar": "إذا لم يفصل RCD فأبلغوا كهربائيًا مؤهَّلًا.",
+     "en": "If the RCD does not trip, inform a qualified electrician.",
+     "tts": "Löst der Er-Ze-De nicht aus, informieren Sie eine Elektrofachkraft."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Sicherheit",
+    "heading": "Die fünf Sicherheitsregeln aus E-F05",
+    "items": [
+     "1  Freischalten",
+     "2  Gegen Wiedereinschalten sichern",
+     "3  Spannungsfreiheit allpolig feststellen",
+     "4  Erden und Kurzschließen",
+     "5  Benachbarte Teile abdecken oder abschranken"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Arbeiten an Erdung oder RCD sind Arbeiten an elektrischen Anlagen.",
+     "ar": "الأعمال على التأريض أو RCD أعمال على منشآت كهربائية.",
+     "en": "Work on earthing or an RCD is work on electrical installations.",
+     "tts": "Arbeiten an Erdung oder Er-Ze-De sind Arbeiten an elektrischen Anlagen."
+    },
+    {
+     "de": "Dafür gelten immer die fünf Sicherheitsregeln aus dem Video E-F05, in fester Reihenfolge.",
+     "ar": "وتسري عليها دائمًا قواعد السلامة الخمس الواردة في الفيديو E-F05 بترتيب ثابت.",
+     "en": "The five safety rules from video E-F05 always apply, in fixed order.",
+     "tts": "Dafür gelten immer die fünf Sicherheitsregeln aus dem Video E-Eff-null-fünf, in fester Reihenfolge."
+    },
+    {
+     "de": "Erstens: freischalten. Zweitens: gegen Wiedereinschalten sichern.",
+     "ar": "أولًا: فصل الجهد. ثانيًا: التأمين ضد إعادة التشغيل.",
+     "en": "First: isolate. Second: secure against re-energising."
+    },
+    {
+     "de": "Drittens: Spannungsfreiheit allpolig feststellen.",
+     "ar": "ثالثًا: التحقق من انعدام الجهد في جميع الأقطاب.",
+     "en": "Third: verify absence of voltage on all poles."
+    },
+    {
+     "de": "Viertens: erden und kurzschließen.",
+     "ar": "رابعًا: التأريض والتقصير.",
+     "en": "Fourth: earth and short-circuit."
+    },
+    {
+     "de": "Fünftens: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "خامسًا: تغطية الأجزاء المجاورة التي تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Fifth: cover or fence off neighboring live parts."
+    },
+    {
+     "de": "Das Freischalten allein ist nur der erste Schritt.",
+     "ar": "فصل الجهد وحده هو الخطوة الأولى فقط.",
+     "en": "Isolating alone is only the first step."
+    },
+    {
+     "de": "Diese Arbeiten gehören in die Hand von Elektrofachkräften.",
+     "ar": "هذه الأعمال من اختصاص الكهربائيين المؤهَّلين (Elektrofachkräfte).",
+     "en": "This work belongs in the hands of qualified electricians."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "T, I, N: Erdung an Quelle und Gehäuse",
+     "S oder C: getrennt oder PEN",
+     "Schutzpotentialausgleich im Gebäude",
+     "RCD: Differenzstrom, Typ wählen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنُلخِّص.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "Die Buchstaben T, I und N beschreiben die Erdung an Quelle und Gehäuse.",
+     "ar": "الحروف T وI وN تصف التأريض عند المصدر وعند الأغلفة.",
+     "en": "The letters T, I and N describe earthing at the source and housings."
+    },
+    {
+     "de": "S heißt getrennte Leiter, C heißt gemeinsamer PEN-Leiter.",
+     "ar": "S تعني موصلين منفصلين وC تعني موصل PEN مشتركًا.",
+     "en": "S means separate conductors, C means a common PEN conductor.",
+     "tts": "S heißt getrennte Leiter, C heißt gemeinsamer Pe-E-En-Leiter."
+    },
+    {
+     "de": "Der Schutzpotentialausgleich verbindet leitfähige Teile im Gebäude.",
+     "ar": "الربط الوقائي المتساوي الجهد يصل الأجزاء الموصلة في المبنى.",
+     "en": "Protective equipotential bonding connects conductive parts in the building."
+    },
+    {
+     "de": "Der RCD erkennt einen Differenzstrom und schaltet ab.",
+     "ar": "جهاز RCD يكشف تيار الفرق ويفصل الدارة.",
+     "en": "The RCD detects a differential current and switches off.",
+     "tts": "Der Er-Ze-De erkennt einen Differenzstrom und schaltet ab."
+    },
+    {
+     "de": "Es gibt verschiedene Typen, und die Prüftaste prüft nur die Mechanik.",
+     "ar": "وله أنواع مختلفة، وزر الاختبار يفحص الآلية فقط.",
+     "en": "There are different types, and the test button only checks the mechanism."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Abschluss",
+    "heading": "Normen ändern sich",
+    "items": [
+     "Aktuelle Fassung prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss: Normen und Gesetze ändern sich.",
+     "ar": "وأخيرًا: المعايير والقوانين تتغير.",
+     "en": "Finally: standards and laws change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung der Normenreihe DIN VDE 0100 und die Anschlussbedingungen.",
+     "ar": "تحققوا دائمًا من الصيغة الحالية لسلسلة المعايير DIN VDE 0100 ومن شروط التوصيل لدى مشغّل الشبكة.",
+     "en": "Always check the current version of DIN VDE 0100 and the connection conditions.",
+     "tts": "Prüfen Sie immer die aktuelle Fassung der Normenreihe Din Fau-De-E null eins null null und die Anschlussbedingungen."
+    },
+    {
+     "de": "Dieses Video ist allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is not legal advice and not engineering advice."
+    },
+    {
+     "de": "Im nächsten Video berechnen wir Leitungen.",
+     "ar": "في الفيديو القادم نحسب الكابلات.",
+     "en": "In the next video we calculate cables."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "das Netzsystem",
+   "ar": "نظام الشبكة",
+   "en": "network system"
+  },
+  {
+   "de": "der Sternpunkt",
+   "ar": "نقطة النجمة",
+   "en": "star point"
+  },
+  {
+   "de": "der Schutzleiter",
+   "ar": "موصل الحماية",
+   "en": "protective conductor"
+  },
+  {
+   "de": "der Neutralleiter",
+   "ar": "موصل التعادل",
+   "en": "neutral conductor"
+  },
+  {
+   "de": "der PEN-Leiter",
+   "ar": "موصل PEN (حماية وتعادل معًا)",
+   "en": "PEN conductor"
+  },
+  {
+   "de": "der Erder",
+   "ar": "المؤرِّض (قطب التأريض)",
+   "en": "earth electrode"
+  },
+  {
+   "de": "der Anlagenerder",
+   "ar": "مؤرِّض المنشأة",
+   "en": "installation earth electrode"
+  },
+  {
+   "de": "der Isolationsfehler",
+   "ar": "عطل العزل",
+   "en": "insulation fault"
+  },
+  {
+   "de": "das Isolationsüberwachungsgerät",
+   "ar": "جهاز مراقبة العزل",
+   "en": "insulation monitoring device"
+  },
+  {
+   "de": "der Schutzpotentialausgleich",
+   "ar": "الربط الوقائي المتساوي الجهد",
+   "en": "protective equipotential bonding"
+  },
+  {
+   "de": "die Haupterdungsschiene",
+   "ar": "قضيب التأريض الرئيسي",
+   "en": "main earthing bar"
+  },
+  {
+   "de": "die Fehlerstrom-Schutzeinrichtung (RCD)",
+   "ar": "جهاز الحماية من تيار العطل (RCD)",
+   "en": "residual current device"
+  },
+  {
+   "de": "der Summenstromwandler",
+   "ar": "محوّل التيار المجمِّع",
+   "en": "summation current transformer"
+  },
+  {
+   "de": "der Differenzstrom",
+   "ar": "تيار الفرق",
+   "en": "differential (residual) current"
+  },
+  {
+   "de": "der Leitungsschutzschalter",
+   "ar": "القاطع الآلي",
+   "en": "circuit breaker"
+  },
+  {
+   "de": "die Prüftaste",
+   "ar": "زر الاختبار",
+   "en": "test button"
+  },
+  {
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "en": "qualified electrician"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was beschreibt der erste Buchstabe im Kurzzeichen TN?",
+    "ar": "ماذا يصف الحرف الأول في الرمز TN؟",
+    "en": "What does the first letter in the code TN describe?"
+   },
+   "options": [
+    {
+     "de": "Die Art des Verbrauchers",
+     "ar": "نوع المستهلك",
+     "en": "The type of load"
+    },
+    {
+     "de": "Die Erdung an der Quelle",
+     "ar": "التأريض عند المصدر",
+     "en": "Earthing at the source"
+    },
+    {
+     "de": "Die Leitungslänge",
+     "ar": "طول الكابل",
+     "en": "Cable length"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was bedeutet das C in TN-C?",
+    "ar": "ماذا يعني الحرف C في TN-C؟",
+    "en": "What does the C in TN-C mean?"
+   },
+   "options": [
+    {
+     "de": "Ein gemeinsamer PEN-Leiter",
+     "ar": "موصل PEN مشترك",
+     "en": "A common PEN conductor"
+    },
+    {
+     "de": "Ein getrennter Schutzleiter",
+     "ar": "موصل حماية منفصل",
+     "en": "A separate protective conductor"
+    },
+    {
+     "de": "Ein isolierter Sternpunkt",
+     "ar": "نقطة نجمة معزولة",
+     "en": "An isolated star point"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was ist im IT-System beim ersten Isolationsfehler typisch?",
+    "ar": "ما النموذجي في نظام IT عند أول عطل في العزل؟",
+    "en": "What is typical in an IT system with a first insulation fault?"
+   },
+   "options": [
+    {
+     "de": "Sofortige Abschaltung der Anlage",
+     "ar": "فصل المنشأة فورًا",
+     "en": "Immediate shutdown of the installation"
+    },
+    {
+     "de": "Der Schutzleiter wird entfernt",
+     "ar": "إزالة موصل الحماية",
+     "en": "The protective conductor is removed"
+    },
+    {
+     "de": "Weiterbetrieb mit Meldung durch Überwachung",
+     "ar": "استمرار التشغيل مع إنذار من المراقبة",
+     "en": "Continued operation with a warning from monitoring"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wie erkennt ein RCD einen Fehlerstrom?",
+    "ar": "كيف يكشف RCD تيار العطل؟",
+    "en": "How does an RCD detect a fault current?"
+   },
+   "options": [
+    {
+     "de": "Durch Temperaturmessung",
+     "ar": "بقياس الحرارة",
+     "en": "By measuring temperature"
+    },
+    {
+     "de": "Durch einen Differenzstrom im Summenstromwandler",
+     "ar": "بتيار فرق في محوّل التيار المجمِّع",
+     "en": "By a differential current in the summation current transformer"
+    },
+    {
+     "de": "Durch die Leitungslänge",
+     "ar": "بطول الكابل",
+     "en": "By cable length"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was gilt für die Prüftaste am RCD?",
+    "ar": "ما الذي ينطبق على زر الاختبار في RCD؟",
+    "en": "What applies to the test button on an RCD?"
+   },
+   "options": [
+    {
+     "de": "Sie ersetzt die Messung der Elektrofachkraft",
+     "ar": "تغني عن قياس الكهربائي المؤهَّل",
+     "en": "It replaces the electrician's measurement"
+    },
+    {
+     "de": "Sie schützt vor Kurzschluss",
+     "ar": "تحمي من الدائرة القصيرة",
+     "en": "It protects against short circuit"
+    },
+    {
+     "de": "Sie prüft nur die Auslösemechanik",
+     "ar": "تفحص آلية الفصل فقط",
+     "en": "It only checks the tripping mechanism"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um die Leitungsberechnung.",
+  "ar": "في الفيديو القادم نتناول حساب الكابلات (Leitungsberechnung).",
+  "en": "The next video covers cable sizing."
+ },
+ "stand": "2026-10-20; prüfen: aktuelle Fassung DIN VDE 0100-410/-540/-300 und DIN VDE 0664 / DIN EN 61008 (Typen AC/A/F/B, Zulässigkeit von Typ AC), Aussagen zu PEN hinter RCD und Nicht-Wiedervereinigung PE/N, Prüftasten-Intervalle (Herstellerangaben), IT-System-Anforderungen (DIN VDE 0100-710), Fünf Sicherheitsregeln gegen DIN VDE 0105-100 (E-F05)"
+}

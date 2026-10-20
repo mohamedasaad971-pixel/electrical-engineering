@@ -1,0 +1,171 @@
+{
+ "video": "E-B05",
+ "facts": [
+  {
+   "claim": "Die Muster-Leitungsanlagen-Richtlinie (MLAR) liegt in der Fassung vom 10.02.2015, zuletzt geändert durch Beschluss der Fachkommission Bauaufsicht vom 03.09.2020, vor; das DIBt hat sie in den Mitteilungen 3/2021 veröffentlicht.",
+   "source_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2022/Mai/ZVEI_VdS_MLAR_Kommentar/MLAR_Kommentar_ZVEI_VdS_2022.pdf",
+   "source_name": "ZVEI/VdS MLAR-Kommentar 2022 (Redaktionsstand 03.09.2020) und umwelt-online",
+   "confidence": "medium",
+   "note": "Im Video nur 'Muster-Leitungsanlagen-Richtlinie' nennen, kein Datum; Stand-Hinweis."
+  },
+  {
+   "claim": "Die MLAR behandelt Leitungsanlagen in notwendigen Treppenräumen und Fluren, die Führung von Leitungen durch raumabschließende Bauteile und den Funktionserhalt elektrischer Leitungsanlagen im Brandfall.",
+   "source_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2022/Mai/ZVEI_VdS_MLAR_Kommentar/MLAR_Kommentar_ZVEI_VdS_2022.pdf",
+   "source_name": "ZVEI/VdS MLAR-Kommentar 2022",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Eine Muster-Richtlinie gilt in einem Land nur, wenn sie dort über die Technischen Baubestimmungen eingeführt ist; ältere MLAR-Fassungen können in einzelnen Ländern noch maßgeblich sein.",
+   "source_url": "https://www.umwelt-online.de/recht/bau/dibt/mlar16.htm",
+   "source_name": "umwelt-online (MLAR)",
+   "confidence": "medium",
+   "note": "Einführung je Bundesland prüfen."
+  },
+  {
+   "claim": "Die Technischen Baubestimmungen werden in den Ländern per Verwaltungsvorschrift bekannt gemacht (Grundlage: Muster-Verwaltungsvorschrift Technische Baubestimmungen, MVV TB); die Landesbauordnungen ermächtigen dazu.",
+   "source_url": "https://www.baunetzwissen.de/brandschutz/fachwissen/regelwerke/grundlegende-richtlinien-und-normen-3138933",
+   "source_name": "BauNetz Wissen; AKBW-Skript Technische Baubestimmungen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Beispiel für Länderumsetzung: Hessen hat die MVV TB Ausgabe 2024/1 mit Einführungserlass vom 17.02.2025 umgesetzt; Rheinland-Pfalz hat eine VV TB vom 27.07.2023 mit landesspezifischen Anpassungen.",
+   "source_url": "https://wirtschaft.hessen.de/sites/wirtschaft.hessen.de/files/2025-04/h-vv_tb_2024_1_index_2.pdf",
+   "source_name": "Hessisches Wirtschaftsministerium; Ministerium der Finanzen RLP",
+   "confidence": "medium",
+   "note": "Nur als allgemeine Aussage 'Länder setzen unterschiedlich um' verwendet."
+  },
+  {
+   "claim": "Funktionserhalt bedeutet, dass der Stromfluss einer Leitungsanlage im Brand nicht unterbrochen wird; so laufen z. B. Sicherheitsbeleuchtung und Brandmeldeanlagen weiter. Prüfgrundlage für Kabelanlagen ist DIN 4102-12; die geforderte Dauer hängt von den Bauvorschriften ab.",
+   "source_url": "https://www.baulinks.de/webplugin/2025/1030.php4",
+   "source_name": "Baulinks (Herstellerinformation) und Herstellerunterlagen",
+   "confidence": "medium",
+   "note": "Keine Klassen und keine Minutenwerte im Video."
+  },
+  {
+   "claim": "Der Funktionserhalt gilt für das geprüfte Gesamtsystem aus Kabel und Tragsystem; Anlagen mit Funktionserhalt sind zu dokumentieren und zu kennzeichnen.",
+   "source_url": "https://www.astra.admin.ch/dam/astra/fr/dokumente/abteilung_strassennetzeallgemein/fachtagung-2020/fuchs-eisenlohr-richtlinie13022.pdf.download.pdf/E.%20Fuchs%20&%20M.%20Eisenlohr%20-%20Richtlinie%2013022%20Kabelanlagen%20der%20Nationalstrassen.pdf",
+   "source_name": "ASTRA (CH) Präsentation, sekundär",
+   "confidence": "medium",
+   "note": "Schweizer Quelle zur deutschen Norm; im Video allgemein formuliert, Herstellernachweis/Zulassung prüfen."
+  },
+  {
+   "claim": "Auch Abzweig- und Verbindungsdosen mit Funktionserhalt werden als geprüfte Bauteile angeboten.",
+   "source_url": "https://exhibitorsearch.messefrankfurt.com/images/original/mics/10000016202401/0010368530/1629276068607_VK20851_WKE_Verbinden_Abzweigen_Verteilen.pdf",
+   "source_name": "Herstellerunterlage (WKE)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DIN EN 1838 legt die lichttechnischen Anforderungen der Notbeleuchtung fest (u. a. Sicherheitsbeleuchtung für Rettungswege, Antipanikbeleuchtung, Sicherheitszeichen); DIN EN 50172 (VDE 0108-100) ist die Norm für Sicherheitsbeleuchtungsanlagen.",
+   "source_url": "https://www.dke.de/resource/blob/2405780/84d77a3751a13f270d1403bf96c0d2aa/normenwerk-zur-sicherheitsbeleuchtung---download-data.pdf",
+   "source_name": "DKE Normenwerk Sicherheitsbeleuchtung; Zumtobel; baunetzwissen",
+   "confidence": "medium",
+   "note": "Ausgaben laut DKE-Liste: EN 1838 2025-03, EN 50172 2024-10 (nicht im Video genannt; Stand prüfen)."
+  },
+  {
+   "claim": "DIN VDE V 0108-100-1 ist eine Vornorm mit ergänzenden Festlegungen; die baurechtliche Einführung über die MVV TB kann länderspezifisch abweichen.",
+   "source_url": "https://www.zumtobel.com/PDB/teaser/de/ONL_Normen_DE.pdf",
+   "source_name": "Zumtobel/Zajadacz Normenübersicht, sekundär",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Für Arbeitsstätten regelt die ASR A2.3 u. a. die Sicherheitsbeleuchtung für Flucht- und Rettungswege; die frühere ASR A3.4/7 wurde aufgehoben; optische Sicherheitsleitsysteme ergänzen die Sicherheitsbeleuchtung.",
+   "source_url": "https://publikationen.dguv.de/widgets/pdf/download/article/4718",
+   "source_name": "DGUV Fachbereich / licht.de",
+   "confidence": "medium",
+   "note": "Nummerierungen wechseln je Fassung; aktuelle ASR prüfen."
+  },
+  {
+   "claim": "Die ArbStättV verlangt, Sicherheitseinrichtungen wie Sicherheitsbeleuchtung und Brandmeldeanlagen regelmäßig auf Funktion prüfen zu lassen; Intervalle richten sich nach Herstellerangaben und anerkannten Regeln der Technik.",
+   "source_url": "https://www.roedl.com/insights/pruefung-sicherheitstechnischer-anlagen-einrichtungen/",
+   "source_name": "Rödl & Partner",
+   "confidence": "medium",
+   "note": "Keine Fristen im Video."
+  },
+  {
+   "claim": "DIN VDE 0833-2 (Gefahrenmeldeanlagen für Brand, Einbruch und Überfall, Teil 2: Brandmeldeanlagen) wurde zum 1. Juni 2022 neu gefasst.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-vde-0833-2/271609638",
+   "source_name": "DIN Media; Forum Verlag",
+   "confidence": "medium",
+   "note": "Ausgabe prüfen."
+  },
+  {
+   "claim": "DIN 14675 besteht aus zwei Teilen; Teil 2 legt Anforderungen an Fachfirmen für Planung, Projektierung, Montage, Inbetriebnahme, Abnahme und Instandhaltung von Brandmeldeanlagen fest.",
+   "source_url": "https://www.baunetzwissen.de/brandschutz/fachwissen/regelwerke/wichtige-normen-zu-bma-3181897",
+   "source_name": "BauNetz Wissen; Forum Verlag",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DIN VDE 0100-560 (Ausgabe 2022-10) behandelt Einrichtungen für Sicherheitszwecke und deren Stromquellen sowie Leitungsanlagen, u. a. für Sicherheitsbeleuchtung und Brandschutzeinrichtungen; Ersatzstromversorgung ist ausgenommen.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-vde-0100-560/357190502",
+   "source_name": "DIN Media / VDE Verlag",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Brandfallsteuerung (BMA steuert z. B. Rauch- und Wärmeabzug, Aufzüge, Lüftung, Feststellanlagen) wird in einer Brandfallsteuermatrix erfasst; die Art der Steuerung ist im Brandschutzkonzept festzulegen.",
+   "source_url": "https://monheim.de/fileadmin/user_upload/Media/Dokumente_NEU/61_Stadtplanung/02_Bauaufsicht/Brandfallsteuermatrix.pdf",
+   "source_name": "Stadt Monheim Bauaufsicht; Berliner Feuerwehr Merkblatt Brandfallsteuerung",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Aufschaltung einer Brandmeldeanlage auf die Feuerwehr folgt regional unterschiedlichen technischen Anschlussbedingungen.",
+   "source_url": "https://www.braunschweig.de/leben/gesundheit/feuerwehr/berufsfeuerwehr/medien-pdf-dokumente/planende-gefahrenabwehr/2024-01-01-AB-BMA-Stadt-Braunschweig-002.pdf",
+   "source_name": "Feuerwehr Braunschweig; Landkreis Göttingen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Nach der Musterbauordnung (§ 66) ist der Brandschutznachweis Teil der Bauvorlagen; für Sonderbauten ist er meist als Brandschutzkonzept gefordert und wird je nach Landesrecht von der Bauaufsicht geprüft oder durch einen Prüfsachverständigen bescheinigt.",
+   "source_url": "https://www.baunetzwissen.de/brandschutz/fachwissen/grundlagen/brandschutznachweis-3179143",
+   "source_name": "BauNetz Wissen",
+   "confidence": "medium",
+   "note": "Begriffe werden in den Ländern uneinheitlich verwendet."
+  },
+  {
+   "claim": "Brandschutz und Bauordnungsrecht sind Landesrecht; die Landesbauordnungen weichen voneinander ab (Beispiele: unterschiedliche Prüfpflichten für Wohngebäude bestimmter Gebäudeklassen in Hessen und Thüringen).",
+   "source_url": "https://www.baunetzwissen.de/brandschutz/fachwissen/grundlagen/brandschutznachweis-3179143",
+   "source_name": "BauNetz Wissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Prüfpflichten für sicherheitstechnische Anlagen (z. B. Sicherheitsbeleuchtung, Sicherheitsstromversorgung, Brandmeldeanlagen) ergeben sich je nach Land aus Prüfverordnungen (Muster: MPrüfVO) und Sonderbauverordnungen; Umfang und Voraussetzungen unterscheiden sich.",
+   "source_url": "https://www.roedl.com/insights/pruefung-sicherheitstechnischer-anlagen-einrichtungen/",
+   "source_name": "Rödl & Partner; Bayerisches Bauministerium; Bremen Entwurf",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Prüfsachverständige für technische Anlagen werden nach Landesrecht anerkannt (z. B. Bayern § 22 PrüfVBau: u. a. Ingenieurstudium, Fachgutachten, mehrjährige Praxis).",
+   "source_url": "https://www.gesetze-bayern.de/Content/Rtf/BayPruefVBau-22?all=False",
+   "source_name": "Bayerisches Landesrecht online",
+   "confidence": "medium",
+   "note": "Nur als Beispiel; Anerkennung je Land."
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln (E-F05): 1 Freischalten; 2 gegen Wiedereinschalten sichern; 3 Spannungsfreiheit allpolig feststellen; 4 Erden und Kurzschließen; 5 benachbarte, unter Spannung stehende Teile abdecken oder abschranken. Reihenfolge eins bis fünf; Wiedereinschalten umgekehrt.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung; Forschungsdatei docs/research/E-F05.json",
+   "confidence": "medium",
+   "note": "Wortlaut wie in scripts/E/05-sicherheit.json; DIN VDE 0105-100 nicht zitiert."
+  }
+ ],
+ "dropped": [
+  "Zeitangaben für Funktionserhalt (Minutenwerte, Klassenbezeichnungen) und Kabelabstände: je Quelle nur Hersteller, nicht verifiziert",
+  "Umschaltzeiten und Betriebsdauer der Sicherheitsstromversorgung/Sicherheitsbeleuchtung (5 s, 15 s, 60 min, Klassen): nur ältere/österreichische Quellen",
+  "Beleuchtungsstärken, Abstände und Höhen für Rettungszeichen und Leitsysteme: nicht aus Primärquelle belegt",
+  "Datum der aktuellen Muster-Prüfverordnung und der Muster-Prüfgrundsätze (Bremer Entwurf nennt 11.04.2025 bzw. 2026): nur Entwurfsunterlage, schnell veränderlich",
+  "Aktuelle Fassung der Musterbauordnung (Datum letzter Änderung): Quellen widersprüchlich",
+  "Welche Länder welche MLAR-Fassung eingeführt haben: nicht verifiziert",
+  "Prüfintervalle für wiederkehrende Prüfungen von Sicherheitsbeleuchtung und BMA: landesabhängig, nicht verifiziert",
+  "VdS 2095 / VdS 2540 als maßgebliche Richtlinien: nur Sekundärquelle",
+  "VDI 6017 / DIN EN 81-73 für Aufzugs-Brandfallsteuerung: nur Merkblatt Berliner Feuerwehr, nicht verifiziert",
+  "Konkrete Ausgaben von DIN EN 1838 (2025-03) und DIN EN 50172 (2024-10) aus der DKE-Liste: nicht im Video, da schnell veränderlich"
+ ]
+}

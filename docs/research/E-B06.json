@@ -1,0 +1,169 @@
+{
+ "video": "E-B06",
+ "facts": [
+  {
+   "claim": "HOAI steht für Honorarordnung für Architekten und Ingenieure und ist eine Verordnung des Bundes.",
+   "source_url": "https://www.gesetze-im-internet.de/hoai_2013/BJNR227600013.html",
+   "source_name": "gesetze-im-internet.de (HOAI)",
+   "confidence": "high",
+   "note": "Titel der Verordnung; Zählung der Fassung im Netz teils unter hoai_2013."
+  },
+  {
+   "claim": "Die geltende Fassung ist die HOAI 2021 (Erste Verordnung zur Änderung der HOAI vom 2. Dezember 2020), in Kraft seit dem 1. Januar 2021.",
+   "source_url": "https://dejure.org/gesetze/HOAI/1.html",
+   "source_name": "dejure.org § 1 HOAI",
+   "confidence": "medium",
+   "note": "Im Video nur 'HOAI in der Fassung 2021' und Hinweis, die aktuelle Fassung zu prüfen."
+  },
+  {
+   "claim": "Seit 2021 enthält die HOAI grundsätzlich keine verbindlichen Mindest- und Höchstsätze mehr; Folge des EuGH-Urteils vom 4. Juli 2019 (C-377/17). Das Honorar wird grundsätzlich frei vereinbart.",
+   "source_url": "https://www.goerg.de/de/aktuelles/veroeffentlichungen/02-03-2021/die-neue-hoai-2021-trat-am-1-januar-2021-in-kraft-preisorientierung-statt-zwingendem-preisrecht",
+   "source_name": "GÖRG Rechtsanwälte; ak-berlin / BAK Kommentierung",
+   "confidence": "medium",
+   "note": "Keine Honorarzahlen im Video; nur die allgemeine Aussage 'grundsätzlich frei vereinbart'. Rechtsfragen nicht vertiefen."
+  },
+  {
+   "claim": "Die HOAI regelt das Honorar. Welche Leistungen geschuldet sind, ergibt sich aus dem Vertrag und dem Werkvertragsrecht (§§ 650p ff. BGB).",
+   "source_url": "https://www.hoai.de/gesetze-recht/bgb/bgb-ab-2018/",
+   "source_name": "hoai.de (BGB ab 2018) / fleming-akademie.de",
+   "confidence": "medium",
+   "note": "Kern der Aussage 'HOAI ist Preisrecht, kein Bauvertrag'. Allgemeine Information, keine Rechtsberatung."
+  },
+  {
+   "claim": "Das Leistungsbild Technische Ausrüstung umfasst nach § 53 HOAI acht Anlagengruppen.",
+   "source_url": "https://dejure.org/gesetze/HOAI/53.html",
+   "source_name": "dejure.org § 53 HOAI",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Anlagengruppe 4 der Technischen Ausrüstung sind die Starkstromanlagen.",
+   "source_url": "https://dejure.org/gesetze/HOAI/53.html",
+   "source_name": "dejure.org § 53 HOAI; IBR-BPS Anlagengruppe 4",
+   "confidence": "high",
+   "note": "Weitere: 5 Fernmelde- und informationstechnische Anlagen, 8 Gebäudeautomation und Automation von Ingenieurbauwerken."
+  },
+  {
+   "claim": "Anlagengruppe 5 sind Fernmelde- und informationstechnische Anlagen; Anlagengruppe 8 ist Gebäudeautomation und Automation von Ingenieurbauwerken.",
+   "source_url": "https://dejure.org/gesetze/HOAI/53.html",
+   "source_name": "dejure.org § 53 HOAI",
+   "confidence": "high",
+   "note": "Grundlage für den Hinweis auf Schnittstelle zu Automation (nächstes Video E-C01)."
+  },
+  {
+   "claim": "§ 55 HOAI fasst die Grundleistungen der Technischen Ausrüstung in neun Leistungsphasen zusammen; Anlage 15 Nr. 15.1 beschreibt die Grundleistungen und Beispiele für Besondere Leistungen.",
+   "source_url": "https://dejure.org/gesetze/HOAI/55.html",
+   "source_name": "dejure.org § 55 HOAI",
+   "confidence": "high",
+   "note": "Anlage-Nummer 15 bestätigt durch mehrere Treffer (dejure, lxgesetze, buzer)."
+  },
+  {
+   "claim": "Die neun Leistungsphasen heißen: Grundlagenermittlung, Vorplanung, Entwurfsplanung, Genehmigungsplanung, Ausführungsplanung, Vorbereitung der Vergabe, Mitwirkung bei der Vergabe, Objektüberwachung (Bauüberwachung) und Dokumentation, Objektbetreuung.",
+   "source_url": "https://dejure.org/gesetze/HOAI/55.html",
+   "source_name": "dejure.org § 55 HOAI",
+   "confidence": "high",
+   "note": "Die Bezeichnung von Phase 8 variiert je nach Quelle/Fassung; im Video 'Objektüberwachung und Dokumentation'. Kein Prozentwert verwendet."
+  },
+  {
+   "claim": "In Phase 5 gehören unter anderem das Anfertigen von Schlitz- und Durchbruchsplänen und das Prüfen der Montage- und Werkstattpläne der ausführenden Firmen zu den Grundleistungen; werden sie nicht beauftragt, wird die Phase abgemindert.",
+   "source_url": "https://dejure.org/gesetze/HOAI/55.html",
+   "source_name": "dejure.org § 55 Abs. 2 HOAI; lxgesetze.de Anlage 15",
+   "confidence": "high",
+   "note": "Abschlag-Prozentzahl bewusst nicht genannt."
+  },
+  {
+   "claim": "Phase 6 und 7 betreffen die Vorbereitung und Mitwirkung bei der Vergabe (Leistungsverzeichnis, Angebote prüfen).",
+   "source_url": "https://dejure.org/gesetze/HOAI/Anlage_15.html",
+   "source_name": "dejure.org Anlage 15 HOAI; weka.de",
+   "confidence": "medium",
+   "note": "Detailtext der Anlage 15 nicht vollständig abgerufen; im Video nur allgemein."
+  },
+  {
+   "claim": "Phase 8 umfasst die Objektüberwachung mit Dokumentation; zu den Grundleistungen zählen unter anderem Funktionsprüfungen, Leistungsmessungen und Werksabnahmen.",
+   "source_url": "https://www.kka-werra-meissner.de/pdf/bauwesen/Anlage_15_HOAI.pdf",
+   "source_name": "Anlage 15 HOAI (Textausgabe)",
+   "confidence": "medium",
+   "note": "Textauszüge teils unvollständig; amtliche Fassung prüfen."
+  },
+  {
+   "claim": "Phase 9 heißt Objektbetreuung; typisch ist die Begehung vor Ablauf der Gewährleistungsfristen zur Mängelfeststellung.",
+   "source_url": "https://gesetze-in-app.de/HOAI/Anlage%2015",
+   "source_name": "gesetze-in-app.de Anlage 15; konsistent mit Kurs Bau (B-01)",
+   "confidence": "medium",
+   "note": "Wortlaut 'Objektbegehung' nicht eindeutig bestätigt; Formulierung allgemein halten."
+  },
+  {
+   "claim": "Die Objektliste in Anlage 15 ordnet zur Anlagengruppe 4 Niederspannungsanlagen einschließlich Beleuchtung, Erdungsanlagen, Mittelspannungsanlagen und Transformatorenstationen sowie Eigenstromversorgungen zu.",
+   "source_url": "https://www.gesetze-im-internet.de/hoai_2013/anlage_15.html",
+   "source_name": "gesetze-im-internet.de Anlage 15; hoai.de",
+   "confidence": "medium",
+   "note": "Honorarzonen nicht genannt."
+  },
+  {
+   "claim": "Praxisbeispiele für Starkstromplanung: Transformatorenstationen, Netzersatzanlagen, USV-Anlagen, Sicherheitsbeleuchtung, Blitzschutz-, Erdungs- und Potentialausgleichsanlagen.",
+   "source_url": "https://www.ibr-bps.de/anlagengruppe-nach-hoai/anlagengruppe-4/",
+   "source_name": "IBR-BPS Dresden",
+   "confidence": "medium",
+   "note": "Planerseite, Beispielcharakter."
+  },
+  {
+   "claim": "Elektroplanung beginnt mit Bedarfsermittlung (Anschlussleistungen, Gleichzeitigkeit) und früher Abstimmung mit dem Netzbetreiber; Schachtführungen und Technikflächen werden früh mit der Architektur abgestimmt.",
+   "source_url": "https://www.novusplan-gmbh.com/elektroplanung",
+   "source_name": "Novusplan; Bayernwerk Netz TAB Mittelspannung",
+   "confidence": "medium",
+   "note": "Im Video als typische Praxis, nicht als Norm."
+  },
+  {
+   "claim": "In Planungsleistungen für Transformatorenstationen gehören in der Entwurfsphase Transformatordimensionierung sowie Kurzschluss- und Selektivitätsberechnung.",
+   "source_url": "https://tendigo.de/ausschreibung/planungsleistung-trafostation-8bef30fad3",
+   "source_name": "tendigo.de Ausschreibungsbeispiel",
+   "confidence": "low",
+   "note": "Einzelne Quelle, deshalb nur als 'Berechnungen, zum Beispiel Kurzschluss und Selektivität' ohne Zahlen."
+  },
+  {
+   "claim": "Die Muster-Leitungsanlagen-Richtlinie (MLAR) beschreibt brandschutztechnische Anforderungen an Leitungsanlagen, unter anderem in Rettungswegen und zum Funktionserhalt.",
+   "source_url": "https://de.wikipedia.org/wiki/Muster-Leitungsanlagen-Richtlinie",
+   "source_name": "Wikipedia; ZVEI/VdS Kommentar 2022; Promat PDF",
+   "confidence": "medium",
+   "note": "Länder führen sie getrennt ein; gültige Fassung bei der Bauaufsicht prüfen. Minutenwerte nicht genannt."
+  },
+  {
+   "claim": "Die Elektroplanung wird früh mit dem Brandschutzkonzept abgeglichen.",
+   "source_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2022/Mai/ZVEI_VdS_MLAR_Kommentar/MLAR_Kommentar_ZVEI_VdS_2022.pdf",
+   "source_name": "ZVEI/VdS MLAR-Kommentar",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Tragwerksplanung und Technische Ausrüstung sind eigene Leistungsbilder der HOAI; die Fachplaner arbeiten zusammen.",
+   "source_url": "https://www.hoai.de/hoai/volltext/hoai-2021/",
+   "source_name": "hoai.de Volltext HOAI 2021",
+   "confidence": "medium",
+   "note": "Leistungsbild Brandschutz ist kein HOAI-Leistungsbild in gleicher Weise; im Video 'Brandschutzplaner' ohne HOAI-Zuordnung."
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln (Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken) gelten bei Arbeiten an Anlagen; Quelle siehe E-F05.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung; Forschungsdatei E-F05",
+   "confidence": "medium",
+   "note": "Paraphrase, nicht Normwortlaut; Reihenfolge wie in E-F05."
+  },
+  {
+   "claim": "Eine Novellierung der HOAI wird diskutiert; nach Stand August 2026 lag kein Referentenentwurf vor, die Fassung 2021 gilt weiter.",
+   "source_url": "https://quostra.com/de-de/blog/hoai-leistungsphasen/hoai-novellierung-stand",
+   "source_name": "Quostra Blog; VBI; galk.de",
+   "confidence": "low",
+   "note": "Schnell veränderlich: nur allgemeiner Hinweis 'aktuelle Fassung prüfen'."
+  }
+ ],
+ "dropped": [
+  "Prozentuale Honoraranteile der Leistungsphasen (kein Honorarwert im Video)",
+  "Honorarzonen, Basishonorarsatz-Zahlen, Tafelwerte und die Frage der Durchsetzbarkeit alter Mindestsätze (Rechtsfragen, schnell veränderlich)",
+  "Zuordnung Anlagengruppe 4 zu DIN 276 Kostengruppe 440 (Ausgabe der DIN 276 nicht verifiziert)",
+  "Konkrete Funktionserhaltszeiten der MLAR (zum Beispiel 30 Minuten; abhängig von Landesfassung)",
+  "GAEB-Austauschformat für Leistungsverzeichnisse (nicht in dieser Recherche belegt)",
+  "Genaue Inhalte jeder Grundleistung der Anlage 15 je Phase (Volltext nicht vollständig abgerufen)",
+  "Konkreter Zeitplan der HOAI-Novelle",
+  "Gesetzliche Verjährungsfristen für Mängelansprüche (Rechtsfrage)"
+ ]
+}

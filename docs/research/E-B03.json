@@ -1,0 +1,155 @@
+{
+ "video": "E-B03",
+ "facts": [
+  {
+   "claim": "Die Strombelastbarkeit von Kabeln und Leitungen hängt von Material, Verlegeart, Umgebungstemperatur und Häufung ab.",
+   "source_url": "https://content.voltimum.com/de/137631/201108022505.pdf",
+   "source_name": "Voltimum-Fachdokument",
+   "confidence": "medium",
+   "note": "Herstellerneutrale Fachunterlage; deckt sich mit ABB."
+  },
+  {
+   "claim": "Als Grundlage für die Strombelastbarkeit in und an Gebäuden wird üblicherweise DIN VDE 0298-4 genannt; die Basistabellen gelten für Bezugsbedingungen (Luft 30 °C, Erde 20 °C).",
+   "source_url": "https://library.e.abb.com/public/6983e9b09999403e8fc73a64422e87cd/9AKK107991A7511_Rev_C_16_Kabel_und_Leitungsdimensionierung_DE_ElektroSpicker_032021.pdf",
+   "source_name": "ABB ElektroSpicker Kabel- und Leitungsdimensionierung (2021)",
+   "confidence": "medium",
+   "note": "Bezugstemperaturen im Skript nicht genannt, nur 'Bezugsbedingungen'."
+  },
+  {
+   "claim": "Weichen Umgebungstemperatur oder Verlegung von den Bezugsbedingungen ab, wird der Tabellenwert mit Umrechnungs-/Reduktionsfaktoren multipliziert; auch bei Häufung.",
+   "source_url": "https://library.e.abb.com/public/714bfe9053af53dac1257611002bd14d/2CDC401002D0104.pdf",
+   "source_name": "ABB Technische Unterlage",
+   "confidence": "medium",
+   "note": "Faktorwerte nicht übernommen."
+  },
+  {
+   "claim": "Tabellenwerte gelten nur für die im Tabellenkopf genannten Bedingungen, z. B. einzelne, nicht gehäuft verlegte Leitungen.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783810106438_H-PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Leseprobe, sekundär."
+  },
+  {
+   "claim": "DIN VDE 0298-4:2013-06 ist laut DIN-Shop zurückgezogen; Nachfolgeausgabe in der Recherche nicht ermittelt.",
+   "source_url": "https://www.dinmedia.de/en/standard/din-vde-0298-4/180878163",
+   "source_name": "DIN Media",
+   "confidence": "medium",
+   "note": "Im Skript nur: 'aktuelle Ausgabe prüfen'."
+  },
+  {
+   "claim": "DIN VDE 0100-520:2023-06 ist die aktuelle Ausgabe (deutsche Umsetzung von HD 60364-5-52:2011 + A12:2022); die Ausgabe 2013-06 ist zurückgezogen.",
+   "source_url": "https://vde-verlag.de/standards/0100652/din-vde-0100-520-vde-0100-520-2023-06.html",
+   "source_name": "VDE Verlag Normenkatalog",
+   "confidence": "high",
+   "note": "Stand der Recherche 2026-10-20."
+  },
+  {
+   "claim": "DIN VDE 0100-520 behandelt Auswahl und Errichtung von Kabel- und Leitungssystemen; Strombelastbarkeit und Spannungsfall sind dort geregelt (Abschnitte 523 bzw. 525 in der IEC-Struktur).",
+   "source_url": "https://www.din.de/en/getting-involved/standards-committees/dke/publications/wdc-beuth:din21:180513945",
+   "source_name": "DKE/DIN Beschreibung",
+   "confidence": "medium",
+   "note": "Abschnittsnummern im Skript nicht genannt."
+  },
+  {
+   "claim": "DIN VDE 0100-520 Beiblatt 2:2023-10 ist gültig (2010-10 zurückgezogen); es enthält u. a. Zuordnung von Leitungsschutzschaltern und gG-Sicherungen zum Überlastschutz, Spannungsfall-Angaben und Gleichungen zur maximalen Leitungslänge bei Einhaltung von Spannungsfall und Abschaltbedingung.",
+   "source_url": "https://vde-verlag.de/standards/0100757/din-vde-0100-520-vde-0100-520-beiblatt-2-2023-10.html",
+   "source_name": "VDE Verlag Normenkatalog",
+   "confidence": "high",
+   "note": "Inhalt laut Verlagsbeschreibung; Beiblatt ist Anwendungshilfe, keine eigene Anforderungsnorm."
+  },
+  {
+   "claim": "DIN VDE 0100-430:2010-10 'Schutz bei Überstrom' (HD 60364-4-43:2010) regelt den Schutz von Leitern und Kabeln gegen Überlast und Kurzschluss durch selbsttätige Abschalteinrichtungen.",
+   "source_url": "https://www.dinmedia.de/en/standard/din-vde-0100-430/133288435",
+   "source_name": "DIN Media",
+   "confidence": "high",
+   "note": "Ein Entwurf einer Neufassung existiert; Status nicht bestätigt."
+  },
+  {
+   "claim": "Überlastschutz: Betriebsstrom Ib ≤ Nennstrom der Schutzeinrichtung In ≤ Strombelastbarkeit Iz; zusätzlich darf der große Prüfstrom der Schutzeinrichtung einen Grenzwert im Verhältnis zu Iz nicht überschreiten.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783810104755_H-PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe / Herstellerunterlagen",
+   "confidence": "medium",
+   "note": "Faktor 1,45 nur sekundär; im Skript nicht genannt."
+  },
+  {
+   "claim": "Im Kurzschlussfall darf die Leitertemperatur die vom Material und der Isolierung abhängige Grenze nicht überschreiten.",
+   "source_url": "https://content.voltimum.com/de/136186/2005011125511186E0298-4.pdf",
+   "source_name": "VDE-Auszug (Voltimum)",
+   "confidence": "medium",
+   "note": "Grundprinzip der Kurzschlussfestigkeit."
+  },
+  {
+   "claim": "Kurzschlussschutz: Der Durchlasswert I²t der Schutzeinrichtung muss unter k²·S² der Leitung bleiben (k Materialwert, S Querschnitt); k-Werte stehen in DIN VDE 0100-430.",
+   "source_url": "https://www.mikrocontroller.net/attachment/292960/2CDC400002D0104_1_.pdf",
+   "source_name": "ABB Technische Unterlage",
+   "confidence": "medium",
+   "note": "k-Werte nicht übernommen."
+  },
+  {
+   "claim": "Liegt der kleinste Kurzschlussstrom am Leitungsende unter dem Auslösestrom des Schutzgeräts, schaltet es nicht rechtzeitig ab; er muss daher bestimmt werden.",
+   "source_url": "https://forum.electronicwerkstatt.de/phpBB/Elektroinstallation/kurzschlussschutz-t105294f17_bs0.html",
+   "source_name": "Fachforum / Herstellerunterlagen",
+   "confidence": "low",
+   "note": "Nur als Konzept; Aussage deckt sich mit ABB-Unterlage."
+  },
+  {
+   "claim": "Abschaltzeiten für den Schutz gegen elektrischen Schlag stehen in DIN VDE 0100-410 (Tabelle 41.1) und hängen von Netzsystem und Spannung ab; neben Zeiten gibt es Grenzen für die Fehlerschleifenimpedanz.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800741946_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Zeitwerte bewusst nicht genannt (Ausgabeabhängig, 2018-10 geändert)."
+  },
+  {
+   "claim": "Die Erstprüfung nach DIN VDE 0100-600 umfasst u. a. den Nachweis der Abschaltung (Schleifenimpedanz- oder Kurzschlussstrommessung) und den Nachweis des Spannungsfalls durch Messung oder Berechnung.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800752614_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Sekundär; Normtext nicht geprüft."
+  },
+  {
+   "claim": "Spannungsfall einphasig: ΔU = 2·L·I·cosφ/(γ·A); bei Drehstrom ersetzt √3 den Faktor 2; L ist die einfache Länge; γ ≈ 56 m/(Ω·mm²) für Kupfer.",
+   "source_url": "https://www.sanier.de/elektroinstallation/leitungslaenge-und-leiterquerschnitt-berechnen",
+   "source_name": "Fachportal sanier.de und weitere",
+   "confidence": "medium",
+   "note": "Textbuchformel, Näherung ohne Blindwiderstand; mehrere Quellen gleich."
+  },
+  {
+   "claim": "Die Formel mit cosφ vernachlässigt den Blindwiderstand; höhere Betriebstemperatur senkt die Leitfähigkeit und erhöht den Spannungsfall.",
+   "source_url": "https://www.omnicalculator.com/de/physik/drahtgroesse",
+   "source_name": "Omni Calculator / Fachquellen",
+   "confidence": "medium",
+   "note": "Fachlich gängig."
+  },
+  {
+   "claim": "Typischer Ablauf einer Leitungsberechnung: Betriebsstrom Ib, Verlegeart und Reduktionsfaktoren, erforderliche Strombelastbarkeit, Leitungstyp und Querschnitt, Zuordnung der Schutzeinrichtung, zuletzt maximale Länge je Abschnitt.",
+   "source_url": "https://library.e.abb.com/public/6983e9b09999403e8fc73a64422e87cd/9AKK107991A7511_Rev_C_16_Kabel_und_Leitungsdimensionierung_DE_ElektroSpicker_032021.pdf",
+   "source_name": "ABB ElektroSpicker (2021)",
+   "confidence": "medium",
+   "note": "Der Spannungsfall- und Kurzschlussnachweis folgen danach."
+  },
+  {
+   "claim": "Ziel der Dimensionierung ist der Schutz gegen thermische Überbeanspruchung sowohl im Überlast- als auch im Kurzschlussfall.",
+   "source_url": "https://library.e.abb.com/public/6983e9b09999403e8fc73a64422e87cd/9AKK107991A7511_Rev_C_16_Kabel_und_Leitungsdimensionierung_DE_ElektroSpicker_032021.pdf",
+   "source_name": "ABB ElektroSpicker (2021)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Fachquellen verweisen auf unterschiedliche Ausgaben (2003, 2013, 2023); verbindliche Werte nur aus der aktuellen Norm.",
+   "source_url": "https://content.voltimum.com/de/137631/201108022505.pdf",
+   "source_name": "Voltimum / Recherchevergleich",
+   "confidence": "medium",
+   "note": "Begründung für den Hinweis 'aktuelle Ausgabe prüfen'."
+  }
+ ],
+ "dropped": [
+  "Zulässige Spannungsfall-Prozentwerte (Quellen widersprüchlich: 3 %, 4 %, 5 %; abhängig von Ausgabe, DIN 18015-1, Projektvorgabe): nicht genannt.",
+  "Tabellenwerte der Strombelastbarkeit und konkrete Reduktionsfaktoren (Temperatur, Häufung): nicht genannt, Normtabellen nicht frei.",
+  "k-Werte für Leiter/Isolierung (z. B. Kupfer PVC) und k2/k3-Faktoren für gG-Sicherungen: nur Sekundärquellen.",
+  "Faktor 1,45 für den großen Prüfstrom: nur Herstellerquellen, nicht im Skript.",
+  "Konkrete Abschaltzeiten aus DIN VDE 0100-410 Tabelle 41.1: ausgabeabhängig, nur Lehrbuchwiedergabe.",
+  "Nachfolgeausgabe von DIN VDE 0298-4 und Status des Entwurfs zu DIN VDE 0100-430: nicht verifiziert.",
+  "Status von DIN VDE 0100-520 Beiblatt 1:2016-10: nicht ermittelt.",
+  "Bezugstemperaturen 30 °C/20 °C und 25 °C-Hinweis (ABB, 2013): widersprüchlich, nicht im Skript."
+ ]
+}

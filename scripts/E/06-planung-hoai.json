@@ -1,0 +1,1358 @@
+{
+ "id": "E-B06",
+ "title": {
+  "de": "Elektroplanung im Gebäude nach HOAI",
+  "ar": "التخطيط الكهربائي في المبنى ضمن HOAI: مراحل الخدمة والتنسيق مع الاختصاصات",
+  "en": "Electrical planning in buildings under the HOAI: service phases and coordination"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-B06 · Gebäude",
+    "heading": "Elektroplanung nach HOAI",
+    "items": [
+     "Neun Leistungsphasen",
+     "Koordination der Fachplaner",
+     "Dokumente und Schnittstellen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum sechsten Video im Bereich Gebäude.",
+     "ar": "مرحبًا بكم في الفيديو السادس من قسم المباني.",
+     "en": "Welcome to the sixth video in the building section."
+    },
+    {
+     "de": "Heute geht es um die Elektroplanung im Gebäude.",
+     "ar": "موضوعنا اليوم هو التخطيط الكهربائي في المبنى.",
+     "en": "Today we look at electrical planning in a building."
+    },
+    {
+     "de": "Sie lernen, wie die HOAI diese Arbeit in Phasen gliedert.",
+     "ar": "ستتعلمون كيف تقسّم لائحة الأتعاب (HOAI) هذا العمل إلى مراحل.",
+     "en": "You will learn how the HOAI divides this work into phases.",
+     "tts": "Sie lernen, wie die Ho-A-I diese Arbeit in Phasen gliedert."
+    },
+    {
+     "de": "Außerdem sehen Sie, mit wem Sie zusammenarbeiten und welche Dokumente entstehen.",
+     "ar": "وسترون أيضًا مع من تتعاونون وما الوثائق التي تنتج.",
+     "en": "You will also see who you work with and which documents are created."
+    },
+    {
+     "de": "Diese Begriffe brauchen Sie jeden Tag im Planungsbüro.",
+     "ar": "هذه المصطلحات ستحتاجونها كل يوم في مكتب التخطيط.",
+     "en": "You will need these terms every day in a planning office."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Grundlage",
+    "heading": "HOAI: Honorar, nicht Bauvertrag",
+    "items": [
+     "Rechtsform | Verordnung des Bundes",
+     "Regelt | das Honorar der Planer",
+     "Regelt nicht | den Vertrag über die Leistung",
+     "Honorar | grundsätzlich frei vereinbart",
+     "Fassung | 2021, bitte aktuell prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Honorarordnung",
+      "ar": "لائحة الأتعاب",
+      "en": "fee schedule"
+     },
+     {
+      "de": "Planungsvertrag",
+      "ar": "عقد التخطيط",
+      "en": "planning contract"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "HOAI bedeutet: Honorarordnung für Architekten und Ingenieure.",
+     "ar": "تعني HOAI لائحة أتعاب المعماريين والمهندسين.",
+     "en": "HOAI stands for the fee schedule for architects and engineers.",
+     "tts": "Ho-A-I bedeutet: Honorarordnung für Architekten und Ingenieure."
+    },
+    {
+     "de": "Sie ist eine Verordnung des Bundes.",
+     "ar": "وهي لائحة اتحادية.",
+     "en": "It is a federal ordinance."
+    },
+    {
+     "de": "Wichtig: Die HOAI ist kein Bauvertrag.",
+     "ar": "المهم: HOAI ليست عقد بناء.",
+     "en": "Important: the HOAI is not a construction contract.",
+     "tts": "Wichtig: Die Ho-A-I ist kein Bauvertrag."
+    },
+    {
+     "de": "Sie regelt das Honorar der Planer.",
+     "ar": "إنها تنظّم أتعاب المخططين.",
+     "en": "It regulates the fees of planners."
+    },
+    {
+     "de": "Welche Leistungen geschuldet sind, steht im Planungsvertrag.",
+     "ar": "أما الأعمال المطلوبة فتُذكر في عقد التخطيط.",
+     "en": "Which services are owed is set out in the planning contract."
+    },
+    {
+     "de": "Seit der Fassung 2021 wird das Honorar grundsätzlich frei vereinbart.",
+     "ar": "ومنذ نسخة 2021 تُتفق الأتعاب عمومًا بحرية.",
+     "en": "Since the 2021 version, fees are generally agreed freely."
+    },
+    {
+     "de": "Die Phasen der HOAI sind trotzdem die gemeinsame Sprache im Projekt.",
+     "ar": "ومع ذلك تبقى مراحل HOAI هي اللغة المشتركة في المشروع.",
+     "en": "The HOAI phases are still the shared language in a project.",
+     "tts": "Die Phasen der Ho-A-I sind trotzdem die gemeinsame Sprache im Projekt."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Technische Ausrüstung",
+    "heading": "Anlagengruppen der HOAI",
+    "items": [
+     "Gruppe vier | Starkstromanlagen",
+     "Gruppe fünf | Fernmelde- und IT-Anlagen",
+     "Gruppe acht | Gebäudeautomation",
+     "Weitere | Wasser, Wärme, Lüftung, Aufzüge"
+    ],
+    "terms": [
+     {
+      "de": "Starkstromanlage",
+      "ar": "منشأة التيار القوي",
+      "en": "power installation"
+     },
+     {
+      "de": "Gebäudeautomation",
+      "ar": "أتمتة المباني",
+      "en": "building automation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Für Haustechnik hat die HOAI das Leistungsbild Technische Ausrüstung.",
+     "ar": "للتجهيزات التقنية في المبنى لدى HOAI نموذج خدمة اسمه التجهيزات التقنية.",
+     "en": "For building services the HOAI has the service profile Technische Ausrüstung.",
+     "tts": "Für Haustechnik hat die Ho-A-I das Leistungsbild Technische Ausrüstung."
+    },
+    {
+     "de": "Es umfasst acht Anlagengruppen.",
+     "ar": "وهو يشمل ثماني مجموعات من المنشآت.",
+     "en": "It covers eight plant groups."
+    },
+    {
+     "de": "Die Elektrotechnik steht in Gruppe vier: Starkstromanlagen.",
+     "ar": "الهندسة الكهربائية في المجموعة الرابعة: منشآت التيار القوي.",
+     "en": "Electrical engineering is in group four: power installations."
+    },
+    {
+     "de": "Gruppe fünf sind Fernmelde- und informationstechnische Anlagen.",
+     "ar": "المجموعة الخامسة هي منشآت الاتصالات وتقنية المعلومات.",
+     "en": "Group five covers telecommunications and information technology installations."
+    },
+    {
+     "de": "Gruppe acht ist die Gebäudeautomation.",
+     "ar": "المجموعة الثامنة هي أتمتة المباني.",
+     "en": "Group eight is building automation."
+    },
+    {
+     "de": "Dazu kommen Wasser, Wärme, Lüftung und weitere Anlagen.",
+     "ar": "وتضاف إليها المياه والتدفئة والتهوية ومنشآت أخرى.",
+     "en": "Water, heating, ventilation and other systems are added."
+    },
+    {
+     "de": "In vielen Büros heißt das Ganze kurz TGA.",
+     "ar": "وفي مكاتب كثيرة يُختصر كل ذلك إلى TGA.",
+     "en": "In many offices the whole field is simply called TGA.",
+     "tts": "In vielen Büros heißt das Ganze kurz Te-Ge-A."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Gruppe vier",
+    "heading": "Was zu Starkstrom gehört",
+    "items": [
+     "Verteilung: Niederspannung und Beleuchtung",
+     "Schutz: Erdung und Blitzschutz",
+     "Energie: Trafostation und Mittelspannung",
+     "Reserve: Notstrom und Eigenversorgung"
+    ],
+    "terms": [
+     {
+      "de": "Niederspannung",
+      "ar": "الجهد المنخفض",
+      "en": "low voltage"
+     },
+     {
+      "de": "Netzanschluss",
+      "ar": "التوصيل بالشبكة",
+      "en": "grid connection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was plant der Elektroplaner in Gruppe vier?",
+     "ar": "ماذا يخطط مهندس الكهرباء في المجموعة الرابعة؟",
+     "en": "What does the electrical planner design in group four?"
+    },
+    {
+     "de": "Zuerst die Niederspannung mit Verteilungen, Leitungen und Beleuchtung.",
+     "ar": "أولًا الجهد المنخفض مع لوحات التوزيع والكابلات والإنارة.",
+     "en": "First low voltage with distribution boards, cables and lighting."
+    },
+    {
+     "de": "Dazu kommen Erdungs- und Blitzschutzanlagen.",
+     "ar": "ثم منشآت التأريض والحماية من الصواعق.",
+     "en": "Then earthing and lightning protection systems."
+    },
+    {
+     "de": "Bei großen Gebäuden gehören auch Trafostationen und Mittelspannung dazu.",
+     "ar": "وفي المباني الكبيرة تدخل محطات المحوّلات والجهد المتوسط.",
+     "en": "In large buildings, transformer stations and medium voltage are included."
+    },
+    {
+     "de": "Auch Notstrom, USV-Anlagen und Sicherheitsbeleuchtung sind typische Aufgaben.",
+     "ar": "كما أن الطاقة الاحتياطية ومنظومات التغذية غير المنقطعة (USV) وإنارة الطوارئ مهام نموذجية.",
+     "en": "Emergency power, UPS systems and safety lighting are also typical tasks.",
+     "tts": "Auch Notstrom, U-Es-Fau-Anlagen und Sicherheitsbeleuchtung sind typische Aufgaben."
+    },
+    {
+     "de": "Ihre Arbeit beginnt also schon beim Netzanschluss des Gebäudes.",
+     "ar": "أي أن عملكم يبدأ من التوصيل بالشبكة للمبنى.",
+     "en": "So your work already starts at the building's grid connection."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Überblick",
+    "heading": "Die neun Leistungsphasen",
+    "items": [
+     "Eins bis vier | Planen und genehmigen",
+     "Fünf | Ausführung planen",
+     "Sechs und sieben | Ausschreiben und vergeben",
+     "Acht | Bauen überwachen, dokumentieren",
+     "Neun | Nach der Übergabe betreuen"
+    ],
+    "terms": [
+     {
+      "de": "Leistungsphase",
+      "ar": "مرحلة الأداء",
+      "en": "service phase"
+     },
+     {
+      "de": "Ausführungsplanung",
+      "ar": "تخطيط التنفيذ",
+      "en": "execution planning"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Leistungsbild hat neun Leistungsphasen.",
+     "ar": "لنموذج الخدمة تسع مراحل أداء.",
+     "en": "The service profile has nine service phases."
+    },
+    {
+     "de": "Die Einzelheiten stehen in Anlage fünfzehn der HOAI.",
+     "ar": "وتفاصيلها في الملحق الخامس عشر من HOAI.",
+     "en": "The details are in Annex fifteen of the HOAI.",
+     "tts": "Die Einzelheiten stehen in Anlage fünfzehn der Ho-A-I."
+    },
+    {
+     "de": "Phasen eins bis vier: Aufgabe klären, Konzept entwerfen, Unterlagen für Genehmigungen.",
+     "ar": "المراحل من الأولى إلى الرابعة: توضيح المهمة، وتصميم المفهوم، وإعداد وثائق الترخيص.",
+     "en": "Phases one to four: clarify the task, develop the concept, prepare permit documents."
+    },
+    {
+     "de": "Phase fünf ist die Ausführungsplanung.",
+     "ar": "المرحلة الخامسة هي تخطيط التنفيذ.",
+     "en": "Phase five is detailed execution planning."
+    },
+    {
+     "de": "Phasen sechs und sieben bereiten die Vergabe vor und begleiten sie.",
+     "ar": "المرحلتان السادسة والسابعة تُحضّران للإسناد وترافقانه.",
+     "en": "Phases six and seven prepare and support the award."
+    },
+    {
+     "de": "Phase acht ist die Objektüberwachung mit Dokumentation.",
+     "ar": "المرحلة الثامنة هي الإشراف على المنشأ مع التوثيق.",
+     "en": "Phase eight is construction supervision with documentation."
+    },
+    {
+     "de": "Phase neun ist die Objektbetreuung.",
+     "ar": "المرحلة التاسعة هي متابعة المنشأ.",
+     "en": "Phase nine is post-completion support."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Phasen eins und zwei",
+    "heading": "Bedarf und Konzept",
+    "items": [
+     "Phase eins: Aufgabe und Rahmen klären",
+     "Phase zwei: Konzept und Varianten",
+     "Bedarf: Anschlussleistung, Gleichzeitigkeit",
+     "Früh: Netzbetreiber ansprechen"
+    ],
+    "terms": [
+     {
+      "de": "Grundlagenermittlung",
+      "ar": "تحديد الأسس",
+      "en": "establishing the basis"
+     },
+     {
+      "de": "Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "grid operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase eins heißt Grundlagenermittlung.",
+     "ar": "المرحلة الأولى تسمى تحديد الأسس.",
+     "en": "Phase one is called Grundlagenermittlung, establishing the basis."
+    },
+    {
+     "de": "Sie klären: Wofür wird das Gebäude genutzt?",
+     "ar": "توضحون: لأي غرض سيُستخدم المبنى؟",
+     "en": "You clarify: what will the building be used for?"
+    },
+    {
+     "de": "Danach ermitteln Sie den Bedarf: Anschlussleistung und Gleichzeitigkeit.",
+     "ar": "بعد ذلك تحددون الاحتياج: القدرة المتصلة وعامل التزامن.",
+     "en": "Then you determine demand: connected load and simultaneity."
+    },
+    {
+     "de": "Schon jetzt sprechen Sie früh mit dem Netzbetreiber.",
+     "ar": "وفي هذه المرحلة تتحدثون مبكرًا مع مشغّل الشبكة.",
+     "en": "Already now you talk early with the grid operator."
+    },
+    {
+     "de": "Phase zwei heißt Vorplanung.",
+     "ar": "المرحلة الثانية تسمى التخطيط الأولي.",
+     "en": "Phase two is called Vorplanung, preliminary design."
+    },
+    {
+     "de": "Hier entsteht ein Versorgungskonzept mit Varianten.",
+     "ar": "هنا ينشأ مفهوم للتغذية مع بدائل.",
+     "en": "Here a supply concept with variants is created."
+    },
+    {
+     "de": "Der Auftraggeber entscheidet dann, welche Variante weiterverfolgt wird.",
+     "ar": "ثم يقرر صاحب المشروع أي بديل يُتابَع.",
+     "en": "The client then decides which variant is pursued."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Phase drei",
+    "heading": "Entwurfsplanung: Berechnen und abstimmen",
+    "items": [
+     "Anlagen berechnen und bemessen",
+     "Schemata für Verteilungen",
+     "Kollisionen mit anderen Gewerken prüfen",
+     "Kosten gemeinsam abgleichen"
+    ],
+    "terms": [
+     {
+      "de": "Stromkreis",
+      "ar": "دارة كهربائية",
+      "en": "circuit"
+     },
+     {
+      "de": "Fachplaner",
+      "ar": "المخطط المتخصص",
+      "en": "specialist planner"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase drei heißt Entwurfsplanung.",
+     "ar": "المرحلة الثالثة تسمى التصميم.",
+     "en": "Phase three is called Entwurfsplanung, design development."
+    },
+    {
+     "de": "Jetzt werden die Anlagen berechnet und bemessen.",
+     "ar": "الآن تُحسب المنشآت وتُحدَّد أبعادها.",
+     "en": "Now the systems are calculated and sized."
+    },
+    {
+     "de": "Typische Berechnungen sind zum Beispiel Kurzschluss und Selektivität.",
+     "ar": "من الحسابات النموذجية مثلًا القصر الكهربائي والانتقائية.",
+     "en": "Typical calculations are, for example, short circuit and selectivity."
+    },
+    {
+     "de": "Sie zeichnen Schemata für Verteilungen und Stromkreise.",
+     "ar": "ترسمون مخططات للتوزيع والدارات الكهربائية.",
+     "en": "You draw schematics for distributions and circuits."
+    },
+    {
+     "de": "Dann prüfen Sie, ob Ihre Anlagen mit anderen Gewerken kollidieren.",
+     "ar": "ثم تتحققون من عدم تعارض منشآتكم مع الاختصاصات الأخرى.",
+     "en": "Then you check whether your systems clash with other trades."
+    },
+    {
+     "de": "Alle Fachplaner arbeiten jetzt eng zusammen.",
+     "ar": "كل المخططين المتخصصين يعملون الآن معًا بشكل وثيق.",
+     "en": "All specialist planners now work closely together."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Phase vier",
+    "heading": "Genehmigungsplanung",
+    "items": [
+     "Unterlagen für Genehmigungen",
+     "Abstimmung mit dem Brandschutz",
+     "Abstimmung mit dem Netzbetreiber",
+     "Vollständig und widerspruchsfrei"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase vier heißt Genehmigungsplanung.",
+     "ar": "المرحلة الرابعة تسمى تخطيط الترخيص.",
+     "en": "Phase four is called Genehmigungsplanung, permit planning."
+    },
+    {
+     "de": "Hier entstehen Unterlagen, die Behörden und andere Stellen prüfen.",
+     "ar": "هنا تُعدّ وثائق تفحصها الجهات الرسمية وجهات أخرى.",
+     "en": "Here documents are prepared that authorities and other bodies review."
+    },
+    {
+     "de": "Für die Elektrotechnik heißt das oft: Abstimmung mit dem Brandschutz.",
+     "ar": "وفي الهندسة الكهربائية يعني ذلك غالبًا التنسيق مع الحماية من الحريق.",
+     "en": "For electrical engineering this often means coordination with fire protection."
+    },
+    {
+     "de": "Auch der Netzbetreiber braucht Angaben zum Netzanschluss.",
+     "ar": "كما يحتاج مشغّل الشبكة إلى بيانات عن التوصيل بالشبكة.",
+     "en": "The grid operator also needs details about the grid connection."
+    },
+    {
+     "de": "Welche Unterlagen nötig sind, hängt vom Projekt ab.",
+     "ar": "أي الوثائق مطلوبة يتوقف على المشروع.",
+     "en": "Which documents are needed depends on the project."
+    },
+    {
+     "de": "Die Unterlagen müssen vollständig und widerspruchsfrei sein.",
+     "ar": "يجب أن تكون الوثائق كاملة وخالية من التناقضات.",
+     "en": "The documents must be complete and free of contradictions."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Phase fünf",
+    "heading": "Ausführungsplanung: Pläne zum Bauen",
+    "items": [
+     "Schaltpläne und Stromlaufpläne",
+     "Verteilerpläne und Kabelwege",
+     "Schlitz- und Durchbruchspläne",
+     "Montage- und Werkstattpläne prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Schaltplan",
+      "ar": "مخطط الدارات",
+      "en": "circuit diagram"
+     },
+     {
+      "de": "Schaltschrank",
+      "ar": "خزانة التوزيع والتحكم",
+      "en": "switchgear cabinet"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase fünf ist die Ausführungsplanung.",
+     "ar": "المرحلة الخامسة هي تخطيط التنفيذ.",
+     "en": "Phase five is the execution planning."
+    },
+    {
+     "de": "Jetzt entstehen die Pläne, nach denen wirklich gebaut wird.",
+     "ar": "الآن تنشأ المخططات التي سيُنفَّذ البناء بموجبها فعلًا.",
+     "en": "Now the drawings are created that the building will really be built from."
+    },
+    {
+     "de": "Dazu gehören Schaltpläne und Verteilerpläne für jeden Schaltschrank.",
+     "ar": "ومنها مخططات الدارات ومخططات التوزيع لكل خزانة توزيع وتحكم.",
+     "en": "These include circuit diagrams and distribution plans for every switchgear cabinet."
+    },
+    {
+     "de": "Dazu kommen Kabelwege und Leitungstrassen.",
+     "ar": "وتضاف مسارات الكابلات والحوامل.",
+     "en": "Cable routes and trays are added."
+    },
+    {
+     "de": "Wichtig sind auch Schlitz- und Durchbruchspläne.",
+     "ar": "وتهمّنا أيضًا مخططات الفتحات والمجاري.",
+     "en": "Slot and opening plans are also important."
+    },
+    {
+     "de": "Außerdem prüfen Sie Montage- und Werkstattpläne der ausführenden Firmen.",
+     "ar": "كما تراجعون مخططات التركيب والورشة للشركات المنفذة.",
+     "en": "You also check the installation and workshop drawings of the executing companies."
+    },
+    {
+     "de": "Fehler in dieser Phase werden später auf der Baustelle teuer.",
+     "ar": "أخطاء هذه المرحلة تصبح مكلفة لاحقًا في الموقع.",
+     "en": "Mistakes in this phase become expensive later on site."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Koordination",
+    "heading": "Mit der Architektur abstimmen",
+    "items": [
+     "Technikräume | Fläche und Lage",
+     "Schächte | Steigleitungen, Platz",
+     "Decken | Leuchten, Kabeltrassen",
+     "Wände | Schlitze und Durchbrüche",
+     "Ergebnis | Stand im Koordinationsmodell"
+    ],
+    "terms": [
+     {
+      "de": "Steigleitung",
+      "ar": "خط التغذية الرأسي",
+      "en": "riser"
+     },
+     {
+      "de": "Durchbruch",
+      "ar": "فتحة في الجدار أو السقف",
+      "en": "opening"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Architektur ist Ihr wichtigster Partner.",
+     "ar": "العمارة هي شريككم الأهم.",
+     "en": "Architecture is your most important partner."
+    },
+    {
+     "de": "Sie brauchen Platz für Technikräume und Schaltschränke.",
+     "ar": "تحتاجون إلى مساحة لغرف التقنية وخزائن التوزيع.",
+     "en": "You need space for technical rooms and switchgear cabinets."
+    },
+    {
+     "de": "Auch Schächte für Steigleitungen müssen früh geplant werden.",
+     "ar": "كما يجب تخطيط المناور لخطوط التغذية الرأسية مبكرًا.",
+     "en": "Shafts for risers must also be planned early."
+    },
+    {
+     "de": "In den Decken konkurrieren Leuchten, Kabeltrassen und Lüftung um den Platz.",
+     "ar": "في الأسقف تتنافس الإنارة ومسارات الكابلات والتهوية على المكان.",
+     "en": "In ceilings, luminaires, cable trays and ventilation compete for space."
+    },
+    {
+     "de": "Für Wände und Decken benötigen Sie Schlitze und Durchbrüche.",
+     "ar": "وفي الجدران والأسقف تحتاجون إلى مجارٍ وفتحات.",
+     "en": "In walls and ceilings you need slots and openings."
+    },
+    {
+     "de": "Ändert die Architektur den Grundriss, ändert sich Ihre Planung mit.",
+     "ar": "إذا غيّرت العمارة المسقط الأفقي، تتغير خطتكم أيضًا.",
+     "en": "If architecture changes the floor plan, your planning changes too."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Koordination",
+    "heading": "HLS, Tragwerk und Brandschutz",
+    "items": [
+     "HLS: Strom für Pumpen und Lüftung",
+     "Tragwerk: Durchbrüche freigeben",
+     "Brandschutz: Leitungen in Rettungswegen",
+     "Alle: Konflikte früh melden"
+    ],
+    "terms": [
+     {
+      "de": "Tragwerk",
+      "ar": "الهيكل الإنشائي",
+      "en": "structure"
+     },
+     {
+      "de": "Brandschutz",
+      "ar": "الحماية من الحريق",
+      "en": "fire protection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Mit der HLS stimmen Sie die elektrische Versorgung ab.",
+     "ar": "مع قسم التدفئة والتهوية والتبريد (HLS) تنسقون التغذية الكهربائية.",
+     "en": "With the HVAC discipline (HLS) you coordinate the electrical supply.",
+     "tts": "Mit der Ha-El-Es stimmen Sie die elektrische Versorgung ab."
+    },
+    {
+     "de": "Pumpen, Lüftung und Kälte brauchen Anschlüsse und Steuerung.",
+     "ar": "المضخات والتهوية والتبريد تحتاج إلى توصيلات وتحكم.",
+     "en": "Pumps, ventilation and cooling need connections and controls."
+    },
+    {
+     "de": "Mit dem Tragwerk klären Sie große Durchbrüche.",
+     "ar": "ومع الهيكل الإنشائي توضّحون الفتحات الكبيرة.",
+     "en": "With the structure you clarify large openings."
+    },
+    {
+     "de": "Nicht jede Öffnung in einer tragenden Wand ist erlaubt.",
+     "ar": "ليست كل فتحة في جدار حامل مسموحة.",
+     "en": "Not every opening in a load-bearing wall is allowed."
+    },
+    {
+     "de": "Der Brandschutz regelt, wie Leitungen durch Brandabschnitte und Rettungswege geführt werden.",
+     "ar": "الحماية من الحريق تنظم كيفية تمرير الكابلات عبر أقسام الحريق ومسارات الإخلاء.",
+     "en": "Fire protection regulates how cables run through fire compartments and escape routes."
+    },
+    {
+     "de": "Melden Sie Konflikte früh, nicht erst auf der Baustelle.",
+     "ar": "أبلغوا عن التعارضات مبكرًا، لا في الموقع فقط.",
+     "en": "Report conflicts early, not only on site."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Brandschutz",
+    "heading": "Leitungsanlagen und die MLAR",
+    "items": [
+     "Muster-Leitungsanlagen-Richtlinie",
+     "Rettungswege und Funktionserhalt",
+     "Länder führen sie getrennt ein",
+     "Brandschutzkonzept prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein wichtiges Wort ist die MLAR.",
+     "ar": "كلمة مهمة هي MLAR.",
+     "en": "An important word is the MLAR.",
+     "tts": "Ein wichtiges Wort ist die Em-El-A-Er."
+    },
+    {
+     "de": "Sie ist die Muster-Leitungsanlagen-Richtlinie.",
+     "ar": "وهي التوجيه النموذجي لمنشآت الكابلات.",
+     "en": "It is the model guideline for cable installations."
+    },
+    {
+     "de": "Sie beschreibt Brandschutzanforderungen an Leitungsanlagen.",
+     "ar": "تصف متطلبات الحماية من الحريق لمنشآت الكابلات.",
+     "en": "It describes fire protection requirements for cable installations."
+    },
+    {
+     "de": "Dabei geht es zum Beispiel um Rettungswege und um den Funktionserhalt.",
+     "ar": "ويدور الأمر مثلًا حول مسارات الإخلاء والحفاظ على وظيفة الكابلات.",
+     "en": "This concerns, for example, escape routes and functional integrity."
+    },
+    {
+     "de": "Funktionserhalt ist wichtig für Sicherheitsbeleuchtung und andere Sicherheitsanlagen.",
+     "ar": "الحفاظ على الوظيفة مهم لإنارة الطوارئ ومنظومات الأمان الأخرى.",
+     "en": "Functional integrity matters for safety lighting and other safety systems."
+    },
+    {
+     "de": "Die Bundesländer führen die Richtlinie getrennt ein.",
+     "ar": "تعتمد الولايات هذا التوجيه كلٌّ على حدة.",
+     "en": "The federal states introduce the guideline separately."
+    },
+    {
+     "de": "Fragen Sie deshalb nach der gültigen Fassung und dem Brandschutzkonzept.",
+     "ar": "لذلك اسألوا عن النسخة السارية وعن مفهوم الحماية من الحريق.",
+     "en": "So ask for the valid version and the fire protection concept."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Schnittstellen",
+    "heading": "Wo Ihre Grenzen liegen",
+    "items": [
+     "Netzbetreiber: Netzanschluss, Messung",
+     "Gruppe fünf: Daten- und Meldetechnik",
+     "Gruppe acht: Gebäudeautomation",
+     "Auftraggeber: Entscheidungen, Freigaben"
+    ],
+    "terms": [
+     {
+      "de": "Regelung",
+      "ar": "التنظيم/الضبط",
+      "en": "regulation (control)"
+     },
+     {
+      "de": "Auftraggeber",
+      "ar": "صاحب المشروع",
+      "en": "client"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jede Planung hat Schnittstellen.",
+     "ar": "لكل تخطيط نقاط تماس.",
+     "en": "Every planning task has interfaces."
+    },
+    {
+     "de": "Zum Netzbetreiber gehören der Netzanschluss und die Messung.",
+     "ar": "مع مشغّل الشبكة: التوصيل بالشبكة والقياس.",
+     "en": "With the grid operator: the grid connection and metering."
+    },
+    {
+     "de": "Zu Gruppe fünf gehören Daten- und Meldetechnik.",
+     "ar": "ومع المجموعة الخامسة: تقنيات البيانات والإنذار.",
+     "en": "With group five: data and signalling technology."
+    },
+    {
+     "de": "Zu Gruppe acht gehört die Gebäudeautomation mit Steuerung und Regelung.",
+     "ar": "ومع المجموعة الثامنة: أتمتة المباني مع التحكم والتنظيم.",
+     "en": "With group eight: building automation with control and regulation."
+    },
+    {
+     "de": "Im nächsten Video sehen wir die SPS genauer.",
+     "ar": "في الفيديو القادم سنرى وحدة التحكم المبرمجة (SPS) عن قرب.",
+     "en": "In the next video we look at the PLC in more detail.",
+     "tts": "Im nächsten Video sehen wir die Es-Pe-Es genauer."
+    },
+    {
+     "de": "Der Auftraggeber trifft die Entscheidungen und gibt Planungsstände frei.",
+     "ar": "صاحب المشروع يتخذ القرارات ويعتمد مراحل التخطيط.",
+     "en": "The client makes decisions and approves planning stages."
+    },
+    {
+     "de": "Schriftliche Abstimmungen schützen alle Beteiligten.",
+     "ar": "التنسيق الكتابي يحمي جميع المشاركين.",
+     "en": "Written coordination protects everyone involved."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Phasen sechs und sieben",
+    "heading": "Ausschreibung und Vergabe",
+    "items": [
+     "Leistungsverzeichnis erstellen",
+     "Mengen aus den Plänen ermitteln",
+     "Angebote prüfen und vergleichen",
+     "Auftraggeber vergibt den Auftrag"
+    ],
+    "terms": [
+     {
+      "de": "Leistungsverzeichnis",
+      "ar": "جدول البنود والمواصفات",
+      "en": "bill of quantities"
+     },
+     {
+      "de": "Auftragnehmer",
+      "ar": "المقاول",
+      "en": "contractor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase sechs ist die Vorbereitung der Vergabe.",
+     "ar": "المرحلة السادسة هي التحضير للإسناد.",
+     "en": "Phase six is the preparation of the award."
+    },
+    {
+     "de": "Hier schreiben Sie die Arbeiten aus.",
+     "ar": "هنا تطرحون الأعمال للمناقصة.",
+     "en": "Here you put the work out to tender."
+    },
+    {
+     "de": "Sie ermitteln Mengen aus den Plänen und schreiben das Leistungsverzeichnis.",
+     "ar": "تحصرون الكميات من المخططات وتكتبون جدول البنود والمواصفات.",
+     "en": "You determine quantities from the drawings and write the bill of quantities."
+    },
+    {
+     "de": "Das Leistungsverzeichnis, kurz LV, beschreibt jede Leistung genau.",
+     "ar": "جدول البنود والمواصفات (LV) يصف كل بند بدقة.",
+     "en": "The bill of quantities, short LV, describes each item exactly.",
+     "tts": "Das Leistungsverzeichnis, kurz El-Fau, beschreibt jede Leistung genau."
+    },
+    {
+     "de": "In Phase sieben kommen die Angebote der Firmen.",
+     "ar": "في المرحلة السابعة تصل عروض الشركات.",
+     "en": "In phase seven the companies' bids arrive."
+    },
+    {
+     "de": "Sie prüfen die Angebote und vergleichen sie fachlich.",
+     "ar": "تفحصون العروض وتقارنون بينها فنيًا.",
+     "en": "You check the bids and compare them technically."
+    },
+    {
+     "de": "Der Auftraggeber vergibt den Auftrag, nicht der Planer.",
+     "ar": "صاحب المشروع هو من يُرسي العقد، لا المخطط.",
+     "en": "The client awards the contract, not the planner."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Phase acht",
+    "heading": "Objektüberwachung und Dokumentation",
+    "items": [
+     "Kontrolle: Ausführung nach Plan",
+     "Funktionsprüfungen und Messungen",
+     "Mängel erfassen und verfolgen",
+     "Dokumentation sammeln und prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Prüfprotokoll",
+      "ar": "محضر الفحص",
+      "en": "test report"
+     },
+     {
+      "de": "Inbetriebnahme",
+      "ar": "التشغيل الأولي",
+      "en": "commissioning"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase acht ist die Objektüberwachung mit Dokumentation.",
+     "ar": "المرحلة الثامنة هي الإشراف على المنشأ مع التوثيق.",
+     "en": "Phase eight is construction supervision with documentation."
+    },
+    {
+     "de": "Sie kontrollieren, ob der Auftragnehmer nach Plan und Vertrag arbeitet.",
+     "ar": "تراقبون هل يعمل المقاول وفق المخطط والعقد.",
+     "en": "You check whether the contractor works according to plan and contract."
+    },
+    {
+     "de": "Dazu gehören Funktionsprüfungen und Messungen vor der Inbetriebnahme.",
+     "ar": "ومن ذلك اختبارات الوظائف والقياسات قبل التشغيل.",
+     "en": "This includes function tests and measurements before commissioning."
+    },
+    {
+     "de": "Die Ergebnisse stehen im Prüfprotokoll.",
+     "ar": "وتُدوَّن النتائج في محضر الفحص.",
+     "en": "The results are recorded in the test report."
+    },
+    {
+     "de": "Sie erfassen Mängel und verfolgen ihre Beseitigung.",
+     "ar": "تسجّلون العيوب وتتابعون إصلاحها.",
+     "en": "You record defects and follow up on their removal."
+    },
+    {
+     "de": "Am Ende sammeln Sie die Dokumentation: Pläne im Ist-Zustand und Prüfprotokolle.",
+     "ar": "وفي النهاية تجمعون التوثيق: المخططات بحالتها الفعلية ومحاضر الفحص.",
+     "en": "In the end you collect the documentation: as-built drawings and test reports."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Sicherheit",
+    "heading": "Fünf Sicherheitsregeln",
+    "items": [
+     "Freischalten",
+     "Gegen Wiedereinschalten sichern",
+     "Spannungsfreiheit allpolig feststellen",
+     "Erden und Kurzschließen",
+     "Benachbarte Teile abdecken oder abschranken"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auf der Baustelle kommt Sicherheit zuerst.",
+     "ar": "في الموقع تأتي السلامة أولًا.",
+     "en": "On site, safety comes first."
+    },
+    {
+     "de": "Bei Arbeiten an elektrischen Anlagen gelten die fünf Sicherheitsregeln.",
+     "ar": "عند العمل على المنشآت الكهربائية تسري قواعد السلامة الخمس.",
+     "en": "When working on electrical installations, the five safety rules apply."
+    },
+    {
+     "de": "Eins: freischalten. Zwei: gegen Wiedereinschalten sichern.",
+     "ar": "واحد: فصل الجهد. اثنان: التأمين ضد إعادة التشغيل.",
+     "en": "One: isolate. Two: secure against reconnection."
+    },
+    {
+     "de": "Drei: Spannungsfreiheit allpolig feststellen. Vier: erden und kurzschließen.",
+     "ar": "ثلاثة: التحقق من انعدام الجهد على جميع الأقطاب. أربعة: التأريض والتقصير.",
+     "en": "Three: verify absence of voltage on all poles. Four: earth and short-circuit."
+    },
+    {
+     "de": "Fünf: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "خمسة: تغطية الأجزاء المجاورة التي تحت الجهد أو وضع حواجز حولها.",
+     "en": "Five: cover or fence off neighbouring live parts."
+    },
+    {
+     "de": "Alle fünf Regeln gelten in dieser Reihenfolge, das Video zur Sicherheit erklärt sie genau.",
+     "ar": "كل القواعد الخمس تسري بهذا الترتيب، وفيديو السلامة يشرحها بالتفصيل.",
+     "en": "All five rules apply in this order; the safety video explains them in detail."
+    },
+    {
+     "de": "Prüfen und Messen darf nur eine Elektrofachkraft.",
+     "ar": "الفحص والقياس لا يقوم بهما إلا الكهربائي المؤهَّل (Elektrofachkraft).",
+     "en": "Testing and measuring may only be done by a qualified electrician."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Phase neun",
+    "heading": "Objektbetreuung",
+    "items": [
+     "Nach der Übergabe nicht vorbei",
+     "Begehung vor Ende der Gewährleistung",
+     "Mängel festhalten, Beseitigung verfolgen",
+     "Unterlagen für den Betrieb bereit"
+    ],
+    "terms": [
+     {
+      "de": "Gewährleistung",
+      "ar": "الضمان",
+      "en": "warranty"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Phase neun heißt Objektbetreuung.",
+     "ar": "المرحلة التاسعة تسمى متابعة المنشأ.",
+     "en": "Phase nine is called Objektbetreuung, post-completion support."
+    },
+    {
+     "de": "Das Gebäude ist übergeben, aber Ihre Arbeit endet noch nicht.",
+     "ar": "المبنى سُلِّم، لكن عملكم لم ينتهِ بعد.",
+     "en": "The building is handed over, but your work is not over yet."
+    },
+    {
+     "de": "Vor Ablauf der Gewährleistungsfrist begeht man die Anlagen.",
+     "ar": "قبل انتهاء مدة الضمان يجري تفقّد المنشآت.",
+     "en": "Before the warranty period ends, the installations are inspected."
+    },
+    {
+     "de": "Gefundene Mängel werden festgehalten.",
+     "ar": "تُسجَّل العيوب التي يُعثر عليها.",
+     "en": "Defects that are found are recorded."
+    },
+    {
+     "de": "Die Firmen müssen sie dann beseitigen.",
+     "ar": "ثم يجب على الشركات إصلاحها.",
+     "en": "The companies must then remedy them."
+    },
+    {
+     "de": "Der Betreiber braucht Pläne, Prüfprotokolle und Bedienungsanleitungen.",
+     "ar": "يحتاج المشغّل إلى المخططات ومحاضر الفحص وأدلة التشغيل.",
+     "en": "The operator needs drawings, test reports and operating manuals."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Dokumente",
+    "heading": "Wer liefert welches Dokument?",
+    "items": [
+     "Phase zwei | Konzept, Variantenvergleich",
+     "Phase drei | Berechnungen, Schemata",
+     "Phase fünf | Schaltpläne, Schlitzpläne",
+     "Phase sechs | Leistungsverzeichnis",
+     "Phase acht | Prüfprotokolle, Ist-Pläne"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Merken Sie sich die wichtigsten Dokumente.",
+     "ar": "احفظوا أهم الوثائق.",
+     "en": "Remember the most important documents."
+    },
+    {
+     "de": "Phase zwei liefert das Konzept und den Variantenvergleich.",
+     "ar": "المرحلة الثانية تقدم المفهوم ومقارنة البدائل.",
+     "en": "Phase two delivers the concept and the comparison of variants."
+    },
+    {
+     "de": "Phase drei liefert Berechnungen und Schemata.",
+     "ar": "المرحلة الثالثة تقدم الحسابات والمخططات المبدئية.",
+     "en": "Phase three delivers calculations and schematics."
+    },
+    {
+     "de": "Phase fünf liefert Schaltpläne und Schlitzpläne.",
+     "ar": "المرحلة الخامسة تقدم مخططات الدارات ومخططات المجاري.",
+     "en": "Phase five delivers circuit diagrams and slot plans."
+    },
+    {
+     "de": "Phase sechs liefert das Leistungsverzeichnis.",
+     "ar": "المرحلة السادسة تقدم جدول البنود والمواصفات.",
+     "en": "Phase six delivers the bill of quantities."
+    },
+    {
+     "de": "Phase acht liefert Prüfprotokolle und Pläne im Ist-Zustand.",
+     "ar": "المرحلة الثامنة تقدم محاضر الفحص والمخططات بحالتها الفعلية.",
+     "en": "Phase eight delivers test reports and as-built drawings."
+    },
+    {
+     "de": "Gute Dokumente sparen Ihnen später viel Zeit.",
+     "ar": "الوثائق الجيدة توفر عليكم الكثير من الوقت لاحقًا.",
+     "en": "Good documents save you a lot of time later."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das nehmen Sie mit",
+    "items": [
+     "HOAI regelt Honorar, nicht Leistung",
+     "Starkstrom ist Gruppe vier",
+     "Neun Phasen, Phase fünf ist Plan",
+     "Früh mit allen Gewerken abstimmen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "Die HOAI regelt das Honorar, sie ist kein Bauvertrag.",
+     "ar": "HOAI تنظّم الأتعاب وليست عقد بناء.",
+     "en": "The HOAI regulates fees; it is not a construction contract.",
+     "tts": "Die Ho-A-I regelt das Honorar, sie ist kein Bauvertrag."
+    },
+    {
+     "de": "Elektrotechnik im Gebäude gehört zur Technischen Ausrüstung, Gruppe vier.",
+     "ar": "الهندسة الكهربائية في المبنى تنتمي إلى التجهيزات التقنية، المجموعة الرابعة.",
+     "en": "Electrical engineering in buildings belongs to technical equipment, group four."
+    },
+    {
+     "de": "Neun Phasen führen vom Bedarf bis zur Betreuung.",
+     "ar": "تسع مراحل تقود من الاحتياج إلى المتابعة.",
+     "en": "Nine phases lead from demand to follow-up."
+    },
+    {
+     "de": "Stimmen Sie sich früh mit Architektur, HLS, Tragwerk und Brandschutz ab.",
+     "ar": "نسّقوا مبكرًا مع العمارة وHLS والهيكل الإنشائي والحماية من الحريق.",
+     "en": "Coordinate early with architecture, HLS, structure and fire protection.",
+     "tts": "Stimmen Sie sich früh mit Architektur, Ha-El-Es, Tragwerk und Brandschutz ab."
+    },
+    {
+     "de": "Dokumentieren Sie Ihre Entscheidungen schriftlich.",
+     "ar": "وثّقوا قراراتكم كتابيًا.",
+     "en": "Document your decisions in writing."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Hinweis",
+    "heading": "Aktuelle Fassung prüfen",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Aktuelle HOAI-Fassung prüfen",
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وأخيرًا ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Gesetze, Verordnungen und Normen ändern sich.",
+     "ar": "القوانين واللوائح والمعايير تتغير.",
+     "en": "Laws, ordinances and standards change."
+    },
+    {
+     "de": "Auch über eine Änderung der HOAI wird diskutiert.",
+     "ar": "وهناك أيضًا نقاش حول تعديل HOAI.",
+     "en": "A revision of the HOAI is also being discussed.",
+     "tts": "Auch über eine Änderung der Ho-A-I wird diskutiert."
+    },
+    {
+     "de": "Prüfen Sie deshalb immer die aktuelle Fassung.",
+     "ar": "لذلك تحققوا دائمًا من النسخة الحالية.",
+     "en": "So always check the current version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ersetzt keine Rechtsberatung und keine Fachberatung.",
+     "ar": "وهو لا يحل محل الاستشارة القانونية ولا الاستشارة الهندسية.",
+     "en": "It does not replace legal or engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um Automatisierung und SPS.",
+     "ar": "في الفيديو القادم نتناول الأتمتة ووحدات التحكم المبرمجة (SPS).",
+     "en": "The next video is about automation and PLCs.",
+     "tts": "Im nächsten Video geht es um Automatisierung und Es-Pe-Es."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Honorarordnung",
+   "ar": "لائحة الأتعاب",
+   "en": "fee schedule"
+  },
+  {
+   "de": "die Leistungsphase",
+   "ar": "مرحلة الأداء",
+   "en": "service phase"
+  },
+  {
+   "de": "die Technische Ausrüstung",
+   "ar": "التجهيزات التقنية",
+   "en": "building services (technical equipment)"
+  },
+  {
+   "de": "die Starkstromanlage",
+   "ar": "منشأة التيار القوي",
+   "en": "power installation"
+  },
+  {
+   "de": "die Grundlagenermittlung",
+   "ar": "تحديد الأسس",
+   "en": "establishing the basis"
+  },
+  {
+   "de": "die Vorplanung",
+   "ar": "التخطيط الأولي",
+   "en": "preliminary design"
+  },
+  {
+   "de": "die Entwurfsplanung",
+   "ar": "التصميم",
+   "en": "design development"
+  },
+  {
+   "de": "die Genehmigungsplanung",
+   "ar": "تخطيط الترخيص",
+   "en": "permit planning"
+  },
+  {
+   "de": "die Ausführungsplanung",
+   "ar": "تخطيط التنفيذ",
+   "en": "execution planning"
+  },
+  {
+   "de": "das Leistungsverzeichnis",
+   "ar": "جدول البنود والمواصفات",
+   "en": "bill of quantities"
+  },
+  {
+   "de": "die Objektüberwachung",
+   "ar": "الإشراف على المنشأ",
+   "en": "construction supervision"
+  },
+  {
+   "de": "die Objektbetreuung",
+   "ar": "متابعة المنشأ",
+   "en": "post-completion support"
+  },
+  {
+   "de": "der Schaltplan",
+   "ar": "مخطط الدارات",
+   "en": "circuit diagram"
+  },
+  {
+   "de": "der Auftraggeber",
+   "ar": "صاحب المشروع",
+   "en": "client"
+  },
+  {
+   "de": "der Auftragnehmer",
+   "ar": "المقاول",
+   "en": "contractor"
+  },
+  {
+   "de": "der Netzbetreiber",
+   "ar": "مشغّل الشبكة",
+   "en": "grid operator"
+  },
+  {
+   "de": "das Prüfprotokoll",
+   "ar": "محضر الفحص",
+   "en": "test report"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was regelt die HOAI?",
+    "ar": "ماذا تنظّم HOAI؟",
+    "en": "What does the HOAI regulate?"
+   },
+   "options": [
+    {
+     "de": "Den Bauvertrag",
+     "ar": "عقد البناء",
+     "en": "The construction contract"
+    },
+    {
+     "de": "Das Honorar der Planer",
+     "ar": "أتعاب المخططين",
+     "en": "The fees of planners"
+    },
+    {
+     "de": "Die Netzanschlussregeln",
+     "ar": "قواعد التوصيل بالشبكة",
+     "en": "The grid connection rules"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welche Anlagengruppe umfasst Starkstromanlagen?",
+    "ar": "أي مجموعة منشآت تشمل منشآت التيار القوي؟",
+    "en": "Which plant group covers power installations?"
+   },
+   "options": [
+    {
+     "de": "Gruppe eins",
+     "ar": "المجموعة الأولى",
+     "en": "Group one"
+    },
+    {
+     "de": "Gruppe zwei",
+     "ar": "المجموعة الثانية",
+     "en": "Group two"
+    },
+    {
+     "de": "Gruppe vier",
+     "ar": "المجموعة الرابعة",
+     "en": "Group four"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Welche Phase ist die Ausführungsplanung?",
+    "ar": "أي مرحلة هي تخطيط التنفيذ؟",
+    "en": "Which phase is execution planning?"
+   },
+   "options": [
+    {
+     "de": "Phase drei",
+     "ar": "المرحلة الثالثة",
+     "en": "Phase three"
+    },
+    {
+     "de": "Phase fünf",
+     "ar": "المرحلة الخامسة",
+     "en": "Phase five"
+    },
+    {
+     "de": "Phase acht",
+     "ar": "المرحلة الثامنة",
+     "en": "Phase eight"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wer vergibt den Auftrag an die Firma?",
+    "ar": "من يُرسي العقد على الشركة؟",
+    "en": "Who awards the contract to the company?"
+   },
+   "options": [
+    {
+     "de": "Der Auftraggeber",
+     "ar": "صاحب المشروع",
+     "en": "The client"
+    },
+    {
+     "de": "Der Netzbetreiber",
+     "ar": "مشغّل الشبكة",
+     "en": "The grid operator"
+    },
+    {
+     "de": "Der Brandschutzplaner",
+     "ar": "مخطط الحماية من الحريق",
+     "en": "The fire protection planner"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was brauchen Sie für Wände und Decken von der Architektur?",
+    "ar": "ماذا تحتاجون من العمارة للجدران والأسقف؟",
+    "en": "What do you need from architecture for walls and ceilings?"
+   },
+   "options": [
+    {
+     "de": "Nur das Honorar",
+     "ar": "الأتعاب فقط",
+     "en": "Only the fee"
+    },
+    {
+     "de": "Keine Abstimmung",
+     "ar": "لا تنسيق",
+     "en": "No coordination"
+    },
+    {
+     "de": "Abstimmung zu Schlitzen und Durchbrüchen",
+     "ar": "التنسيق بشأن المجاري والفتحات",
+     "en": "Coordination on slots and openings"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "E-C01: Automatisierung und SPS",
+  "ar": "E-C01: الأتمتة ووحدات التحكم المبرمجة (SPS)",
+  "en": "E-C01: Automation and PLCs"
+ },
+ "stand": "2026-10-20; erneut prüfen: aktuelle HOAI-Fassung und mögliche Novelle, Anlagen- und Paragrafennummern (§ 53, § 55, Anlage 15), Wortlaut Phase 8 und 9, MLAR-Fassung nach Landesrecht, fünf Sicherheitsregeln (E-F05)"
+}
