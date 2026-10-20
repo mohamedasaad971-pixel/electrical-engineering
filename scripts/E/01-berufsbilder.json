@@ -26,9 +26,9 @@
      "en": "We show who does what in this field."
     },
     {
-     "de": "So finden Sie Ihren Platz im deutschen Arbeitsmarkt.",
-     "ar": "وهكذا تجدون مكانكم في سوق العمل الألماني.",
-     "en": "This helps you find your place in the German job market."
+     "de": "So bekommen Sie eine erste Orientierung.",
+     "ar": "وهكذا تحصلون على نظرة أولى عامة.",
+     "en": "This gives you a first orientation."
     },
     {
      "de": "Dieses Video richtet sich an Ingenieurinnen und Ingenieure, die aus dem Ausland nach Deutschland kommen möchten.",
@@ -44,6 +44,11 @@
      "de": "Danach lernen Sie die wichtigsten Begriffe, die in Stellenanzeigen vorkommen.",
      "ar": "بعد ذلك تتعلمون أهم المصطلحات التي ترد في إعلانات الوظائف.",
      "en": "Then you learn the most important terms that appear in job ads."
+    },
+    {
+     "de": "Am Ende können Sie die vier Tätigkeitsfelder nennen und den Begriff Elektrofachkraft erklären.",
+     "ar": "وفي النهاية ستتمكنون من ذكر مجالات العمل الأربعة وشرح مصطلح الكهربائي المؤهَّل (Elektrofachkraft).",
+     "en": "At the end you can name the four fields of work and explain the term Elektrofachkraft."
     },
     {
      "de": "Wir bleiben dabei bewusst allgemein, denn jede Firma gestaltet ihre Stellen etwas anders.",
@@ -67,7 +72,7 @@
      {
       "de": "Fachgebiet",
       "ar": "مجال التخصص",
-      "en": "field of specialization"
+      "en": "field of specialisation"
      }
     ]
    },
@@ -90,7 +95,7 @@
     {
      "de": "Viele Ingenieure spezialisieren sich nach dem Studium auf ein Teilgebiet.",
      "ar": "يتخصص كثير من المهندسين بعد الدراسة في مجال فرعي واحد.",
-     "en": "Many engineers specialize in one sub-field after their studies."
+     "en": "Many engineers specialise in one sub-field after their studies."
     },
     {
      "de": "Diese Vielfalt ist eine Chance für Ihre Karriere.",
@@ -105,12 +110,12 @@
     {
      "de": "Hochschulen bieten diese Richtungen oft als Vertiefung im Studium an.",
      "ar": "تقدّم الجامعات هذه الاتجاهات غالبًا كتخصصات فرعية خلال الدراسة.",
-     "en": "Universities often offer these directions as specializations within the degree."
+     "en": "Universities often offer these directions as specialisations within the degree."
     },
     {
      "de": "Zum Beispiel gibt es Vertiefungen für Automatisierung, erneuerbare Energien und Kommunikationstechnik.",
      "ar": "فمثلًا توجد تخصصات فرعية في الأتمتة والطاقات المتجددة وهندسة الاتصالات.",
-     "en": "For example, there are specializations in automation, renewable energy and communications engineering."
+     "en": "For example, there are specialisations in automation, renewable energy and communications engineering."
     }
    ]
   },
@@ -159,9 +164,71 @@
      "en": "Remember these four words, because we will come back to them again and again."
     },
     {
-     "de": "Ein Ingenieur kann in einem Feld arbeiten oder zwischen mehreren wechseln.",
-     "ar": "يمكن للمهندس أن يعمل في مجال واحد أو ينتقل بين عدة مجالات.",
+     "de": "Eine Ingenieurin oder ein Ingenieur kann in einem Feld arbeiten oder zwischen mehreren wechseln.",
+     "ar": "يمكن للمهندسة أو المهندس أن يعمل في مجال واحد أو ينتقل بين عدة مجالات.",
      "en": "An engineer can work in one field or move between several."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Der Weg des Stroms",
+    "heading": "Vom Kraftwerk zur Steckdose",
+    "items": [
+     "Erzeugung",
+     "Übertragung",
+     "Verteilung",
+     "Nutzung"
+    ],
+    "terms": [
+     {
+      "de": "Erzeugung",
+      "ar": "التوليد",
+      "en": "generation"
+     },
+     {
+      "de": "Nutzung",
+      "ar": "الاستخدام",
+      "en": "use"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Stellen Sie sich den Weg des Stroms vor.",
+     "ar": "تخيّلوا مسار الكهرباء.",
+     "en": "Imagine the path of electricity."
+    },
+    {
+     "de": "Zuerst wird elektrische Energie erzeugt.",
+     "ar": "أولًا تُولَّد الطاقة الكهربائية.",
+     "en": "First, electrical energy is generated."
+    },
+    {
+     "de": "Dann wird sie über große Entfernungen übertragen.",
+     "ar": "ثم تُنقل لمسافات طويلة.",
+     "en": "Then it is transmitted over long distances."
+    },
+    {
+     "de": "Danach wird sie in der Region verteilt.",
+     "ar": "بعد ذلك تُوزَّع داخل المنطقة.",
+     "en": "After that it is distributed in the region."
+    },
+    {
+     "de": "Am Ende wird sie in Gebäuden und Anlagen genutzt.",
+     "ar": "وفي النهاية تُستخدم في المباني والمنشآت.",
+     "en": "In the end it is used in buildings and systems."
+    },
+    {
+     "de": "In der Energietechnik geht es um alle diese Schritte.",
+     "ar": "وتتناول هندسة الطاقة كل هذه الخطوات.",
+     "en": "Power engineering covers all of these steps."
+    },
+    {
+     "de": "Jeder Schritt braucht Ingenieure mit anderen Schwerpunkten.",
+     "ar": "كل خطوة تحتاج إلى مهندسين بتركيز مختلف.",
+     "en": "Each step needs engineers with different focuses."
     }
    ]
   },
@@ -212,9 +279,9 @@
      "en": "Each of them is responsible for one control area."
     },
     {
-     "de": "Zusammen sorgen sie für den Betrieb des Höchstspannungsnetzes.",
-     "ar": "وهم معًا يتولون تشغيل شبكة الجهد الفائق.",
-     "en": "Together they operate the extra-high-voltage grid."
+     "de": "Zusammen betreiben sie das Übertragungsnetz.",
+     "ar": "وهم معًا يشغّلون شبكة النقل.",
+     "en": "Together they operate the transmission grid."
     },
     {
      "de": "Hier arbeiten Ingenieure an Planung, Betrieb und Ausbau der großen Leitungen.",
@@ -232,8 +299,8 @@
      "en": "You should know the names of these companies if you want to work in the energy sector."
     },
     {
-     "de": "Für Sie als Ingenieur heißt das: Hier geht es um große Anlagen und viel Verantwortung.",
-     "ar": "وهذا يعني لكم كمهندسين أن الأمر هنا يتعلق بمنشآت كبيرة ومسؤولية كبيرة.",
+     "de": "Für Sie als Ingenieurin oder Ingenieur heißt das: Hier geht es um große Anlagen und viel Verantwortung.",
+     "ar": "وهذا يعني لكم كمهندسات ومهندسين أن الأمر هنا يتعلق بمنشآت كبيرة ومسؤولية كبيرة.",
      "en": "For you as an engineer this means: here it is about large systems and a lot of responsibility."
     }
    ]
@@ -245,9 +312,9 @@
     "heading": "Verteilnetz und Netzbetreiber",
     "items": [
      "Viele regionale Betreiber",
-     "Sicherer Betrieb",
-     "Zuverlässiger Betrieb",
-     "Bedarfsgerechter Ausbau"
+     "Sicher und zuverlässig betreiben",
+     "Netz warten",
+     "Bedarfsgerecht ausbauen"
     ],
     "terms": [
      {
@@ -270,7 +337,7 @@
     },
     {
      "de": "Das Energiewirtschaftsgesetz verpflichtet Netzbetreiber, ihr Netz sicher und zuverlässig zu betreiben.",
-     "ar": "يُلزم قانون اقتصاد الطاقة مشغّلي الشبكات بتشغيل شبكتهم بأمان وموثوقية.",
+     "ar": "يُلزم قانون الطاقة الألماني مشغّلي الشبكات بتشغيل شبكتهم بأمان وموثوقية.",
      "en": "The Energy Industry Act obliges grid operators to run their grid safely and reliably."
     },
     {
@@ -284,19 +351,14 @@
      "en": "This applies as far as it is economically reasonable."
     },
     {
-     "de": "Regionale Betreiber können deshalb für Berufseinsteiger interessante Arbeitgeber sein.",
-     "ar": "لذلك قد يكون المشغّلون الإقليميون جهات توظيف مهمة للمبتدئين.",
-     "en": "Regional operators can therefore be interesting employers for people starting out."
+     "de": "Regionale Betreiber sind ebenfalls mögliche Arbeitgeber.",
+     "ar": "المشغّلون الإقليميون هم أيضًا جهات توظيف محتملة.",
+     "en": "Regional operators are also possible employers."
     },
     {
      "de": "Dort planen und betreiben Ingenieure Netze für Städte, Gemeinden und Industriegebiete.",
      "ar": "هناك يخطط المهندسون شبكات للمدن والبلديات والمناطق الصناعية ويشغّلونها.",
      "en": "There engineers plan and operate grids for cities, municipalities and industrial areas."
-    },
-    {
-     "de": "Die Arbeit ist oft näher an den Kunden als im Übertragungsnetz.",
-     "ar": "والعمل غالبًا أقرب إلى الزبائن منه في شبكة النقل.",
-     "en": "The work is often closer to customers than in the transmission grid."
     }
    ]
   },
@@ -309,7 +371,7 @@
      "Netzplanung",
      "Netzbetrieb",
      "Netzausbau",
-     "Abstimmung mit anderen Betreibern"
+     "Unterlagen zur Netzentwicklung"
     ],
     "terms": []
    },
@@ -328,16 +390,6 @@
      "de": "Die vier Übertragungsnetzbetreiber legen der Bundesnetzagentur gemeinsame Unterlagen zur Netzentwicklung vor.",
      "ar": "يقدّم مشغّلو شبكة النقل الأربعة وثائق مشتركة عن تطوير الشبكة إلى الوكالة الاتحادية للشبكات.",
      "en": "The four transmission operators submit joint documents on grid development to the Federal Network Agency."
-    },
-    {
-     "de": "Netzbetreiber stimmen sich ab, wenn Maßnahmen das Netz eines anderen Betreibers berühren.",
-     "ar": "ينسّق المشغّلون فيما بينهم عندما تمسّ الإجراءات شبكة مشغّل آخر.",
-     "en": "Grid operators coordinate when measures affect another operator's grid."
-    },
-    {
-     "de": "Das zeigt: Netzarbeit braucht Abstimmung über Firmengrenzen hinweg.",
-     "ar": "وهذا يبيّن أن العمل في الشبكات يتطلب تنسيقًا يتجاوز حدود الشركات.",
-     "en": "This shows that grid work needs coordination across company boundaries."
     }
    ]
   },
@@ -355,7 +407,7 @@
     "terms": [
      {
       "de": "Betriebsmittel",
-      "ar": "وسائل التشغيل الكهربائية",
+      "ar": "معدات كهربائية",
       "en": "electrical equipment"
      }
     ]
@@ -367,9 +419,9 @@
      "en": "The second field is electrical systems and installations."
     },
     {
-     "de": "Dazu gehören Gebäude, Fabriken und andere Anlagen.",
-     "ar": "ويشمل ذلك المباني والمصانع ومنشآت أخرى.",
-     "en": "This includes buildings, factories and other systems."
+     "de": "Dazu gehören Gebäude und Fabriken mit ihren elektrischen Betriebsmitteln.",
+     "ar": "ويشمل ذلك المباني والمصانع بمعداتها الكهربائية.",
+     "en": "This includes buildings and factories with their electrical equipment."
     },
     {
      "de": "Ingenieure planen diese Anlagen und prüfen die Auslegung.",
@@ -377,7 +429,7 @@
      "en": "Engineers plan these systems and check the design."
     },
     {
-     "de": "Die Errichtung und Instandhaltung machen oft Fachbetriebe.",
+     "de": "Errichtung und Instandhaltung übernehmen oft Fachbetriebe.",
      "ar": "أما التنفيذ والصيانة فتقوم بهما غالبًا شركات متخصصة.",
      "en": "Installation and maintenance are often done by specialist companies."
     },
@@ -388,7 +440,7 @@
     },
     {
      "de": "Wir sehen gleich, welche Rolle die Elektrofachkraft dabei spielt.",
-     "ar": "سنرى بعد قليل الدور الذي يؤديه الفني الكهربائي المؤهل في ذلك.",
+     "ar": "سنرى بعد قليل الدور الذي يؤديه الكهربائي المؤهَّل (Elektrofachkraft) في ذلك.",
      "en": "We will see shortly what role the Elektrofachkraft plays here."
     },
     {
@@ -412,25 +464,25 @@
     "terms": [
      {
       "de": "Elektrofachkraft",
-      "ar": "فني كهرباء مؤهل",
-      "en": "qualified electrician (Elektrofachkraft)"
+      "ar": "الكهربائي المؤهَّل",
+      "en": "Elektrofachkraft (qualified electrical person)"
      }
     ]
    },
    "lines": [
     {
      "de": "Ein zentraler Begriff ist die Elektrofachkraft.",
-     "ar": "هناك مصطلح محوري هو الفني الكهربائي المؤهل، أي Elektrofachkraft.",
+     "ar": "هناك مصطلح محوري هو الكهربائي المؤهَّل (Elektrofachkraft).",
      "en": "A central term is the Elektrofachkraft, the qualified electrical person."
     },
     {
      "de": "Sie kann aufgrund von Ausbildung, Kenntnissen, Erfahrung und Bestimmungen ihre Arbeiten beurteilen und Gefahren erkennen.",
      "ar": "يستطيع هذا الشخص بفضل التأهيل والمعرفة والخبرة والأحكام ذات الصلة تقييم أعماله وإدراك المخاطر.",
-     "en": "Based on training, knowledge, experience and regulations, she or he can judge the work and recognize hazards."
+     "en": "Based on training, knowledge, experience and regulations, she or he can judge the work and recognise hazards."
     },
     {
      "de": "Als Nachweis gilt im Regelfall eine Ausbildung, zum Beispiel als Elektroingenieur oder Elektromeister.",
-     "ar": "وتُثبت الصفة عادةً بتأهيل مهني، مثل مهندس كهرباء أو أستاذ حرفة كهربائية.",
+     "ar": "وتُثبت الصفة عادةً بتأهيل مهني، مثل مهندس كهرباء أو معلّم حرفة كهربائية (مايستر).",
      "en": "Usually this is proven by training, for example as an electrical engineer or master electrician."
     },
     {
@@ -449,19 +501,15 @@
      "en": "It appears in many job ads and conversations."
     },
     {
-     "de": "Die Formulierung steht so ähnlich in den Unfallverhütungsvorschriften der Berufsgenossenschaften.",
-     "ar": "وتوجد هذه الصياغة بشكل مشابه في لوائح الوقاية من الحوادث الصادرة عن هيئات التأمين.",
-     "en": "Similar wording appears in the accident prevention regulations of the statutory accident insurers."
+     "de": "Die Formulierung steht so ähnlich in der Unfallverhütungsvorschrift DGUV Vorschrift 3.",
+     "ar": "وتوجد هذه الصياغة بشكل مشابه في لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) الصادرة عن هيئات التأمين ضد إصابات العمل.",
+     "en": "Similar wording appears in the accident prevention regulation DGUV Regulation 3.",
+     "tts": "Die Formulierung steht so ähnlich in der Unfallverhütungsvorschrift De-Ge-U-Fau Vorschrift drei."
     },
     {
-     "de": "Es gibt außerdem eine eingeschränkte Form, die Elektrofachkraft für festgelegte Tätigkeiten.",
-     "ar": "وتوجد أيضًا صيغة محدودة هي الفني المؤهل لأعمال محددة.",
-     "en": "There is also a limited form, the Elektrofachkraft for defined tasks."
-    },
-    {
-     "de": "Sie darf nur gleichartige, wiederholende Arbeiten nach einer Arbeitsanweisung ausführen.",
-     "ar": "ولا يجوز له إلا تنفيذ أعمال متشابهة ومتكررة وفق تعليمات عمل.",
-     "en": "She or he may only carry out similar, repetitive work according to a work instruction."
+     "de": "Davon zu unterscheiden ist die Elektrofachkraft für festgelegte Tätigkeiten; mehr dazu in einem späteren Video.",
+     "ar": "ويختلف عن ذلك الكهربائي المؤهَّل لأعمال محددة؛ وسنتناول ذلك في فيديو لاحق.",
+     "en": "To be distinguished from this is the Elektrofachkraft for defined tasks; more on this in a later video."
     }
    ]
   },
@@ -480,9 +528,9 @@
    },
    "lines": [
     {
-     "de": "Elektrische Anlagen dürfen nur von einer Elektrofachkraft errichtet werden.",
-     "ar": "لا يجوز أن تُنشأ المنشآت الكهربائية إلا بواسطة فني كهربائي مؤهل.",
-     "en": "Electrical systems may only be erected by an Elektrofachkraft."
+     "de": "Nach der Unfallverhütungsvorschrift müssen elektrische Anlagen von einer Elektrofachkraft errichtet werden.",
+     "ar": "وفق لائحة الوقاية من الحوادث يجب أن تُنشأ المنشآت الكهربائية بواسطة الكهربائي المؤهَّل.",
+     "en": "Under the accident prevention regulation, electrical systems must be erected by an Elektrofachkraft."
     },
     {
      "de": "Alternativ geschieht das unter ihrer Leitung und Aufsicht.",
@@ -495,13 +543,14 @@
      "en": "This also applies to modifying and maintaining."
     },
     {
-     "de": "Die Regel steht in der Unfallverhütungsvorschrift der Berufsgenossenschaften.",
-     "ar": "وهذه القاعدة واردة في لائحة الوقاية من الحوادث الصادرة عن هيئات التأمين ضد الحوادث.",
-     "en": "The rule is in the accident prevention regulation of the statutory accident insurers."
+     "de": "Die Regel steht in der DGUV Vorschrift 3, einer Unfallverhütungsvorschrift.",
+     "ar": "وهذه القاعدة واردة في لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) الصادرة عن هيئات التأمين ضد إصابات العمل.",
+     "en": "The rule is in DGUV Regulation 3, an accident prevention regulation.",
+     "tts": "Die Regel steht in der De-Ge-U-Fau Vorschrift drei, einer Unfallverhütungsvorschrift."
     },
     {
-     "de": "Für Sie als Ingenieur heißt das: Sie müssen klären, wer im Projekt diese Rolle erfüllt.",
-     "ar": "وهذا يعني لكم كمهندسين أن عليكم توضيح من يتولى هذا الدور في المشروع.",
+     "de": "Für Sie als Ingenieurin oder Ingenieur heißt das: Sie müssen klären, wer im Projekt diese Rolle erfüllt.",
+     "ar": "وهذا يعني لكم كمهندسات ومهندسين أن عليكم توضيح من يتولى هذا الدور في المشروع.",
      "en": "For you as an engineer this means: you must clarify who fills this role in the project."
     },
     {
@@ -538,23 +587,23 @@
     },
     {
      "de": "Das Elektrotechniker-Handwerk ist zulassungspflichtig.",
-     "ar": "حرفة الفني الكهربائي من الحرف التي تتطلب ترخيصًا.",
-     "en": "The electrical trade requires a license."
+     "ar": "الحرفة الكهروتقنية من الحرف التي تتطلب ترخيصًا.",
+     "en": "The electrical trade requires a licence."
     },
     {
      "de": "Wer sich selbstständig macht, braucht grundsätzlich eine Meisterqualifikation und einen Eintrag in die Handwerksrolle.",
-     "ar": "ومن يعمل لحسابه يحتاج مبدئيًا إلى تأهيل أستاذ حرفة وإلى قيد في سجل الحرف.",
+     "ar": "ومن يعمل لحسابه يحتاج مبدئيًا إلى تأهيل معلّم حرفة (مايستر) وإلى قيد في سجل الحرف.",
      "en": "Anyone who starts a business in principle needs a master qualification and an entry in the trade register."
     },
     {
-     "de": "Dafür gibt es Ausnahmen, zum Beispiel die Altgesellenregelung.",
-     "ar": "وتوجد استثناءات لذلك، مثل نظام العامل القديم المؤهل.",
-     "en": "There are exceptions, for example the Altgesellenregelung."
+     "de": "Dafür gibt es Ausnahmen, zum Beispiel für erfahrene Gesellen: die Altgesellenregelung.",
+     "ar": "وتوجد استثناءات لذلك، مثل مسار الحِرَفيين ذوي الخبرة، المعروف بنظام «Altgesellenregelung» في الألمانية.",
+     "en": "There are exceptions, for example for experienced journeymen: the Altgesellenregelung."
     },
     {
-     "de": "Für Anschlussarbeiten am Niederspannungsnetz ist außerdem ein Eintrag beim Netzbetreiber nötig.",
-     "ar": "وللأعمال المتعلقة بالاتصال بشبكة الجهد المنخفض يلزم أيضًا قيد لدى مشغّل الشبكة.",
-     "en": "For connection work on the low-voltage grid an entry with the grid operator is also required."
+     "de": "Für Anschlussarbeiten am Niederspannungsnetz muss das ausführende Installationsunternehmen im Installateurverzeichnis des Netzbetreibers eingetragen sein.",
+     "ar": "وللأعمال المتعلقة بالتوصيل بشبكة الجهد المنخفض يجب أن تكون شركة التركيب المنفِّذة مسجَّلة في سجل المُركِّبين لدى مشغّل الشبكة.",
+     "en": "For connection work on the low-voltage grid, the executing installation company must be entered in the grid operator's installer register."
     },
     {
      "de": "Das Handwerk führt die Arbeiten aus, der Ingenieur plant und prüft oft auf anderer Ebene.",
@@ -567,8 +616,8 @@
      "en": "The rules can differ in detail depending on the grid operator."
     },
     {
-     "de": "Auch als Ingenieur sollten Sie diese Unterscheidung kennen, wenn Sie mit Handwerksbetrieben arbeiten.",
-     "ar": "يجب أن تعرفوا هذا التمييز كمهندسين أيضًا عندما تتعاملون مع شركات الحرف.",
+     "de": "Auch als Ingenieurin oder Ingenieur sollten Sie diese Unterscheidung kennen, wenn Sie mit Handwerksbetrieben arbeiten.",
+     "ar": "يجب أن تعرفوا هذا التمييز كمهندسات ومهندسين أيضًا عندما تتعاملون مع شركات الحرف.",
      "en": "As an engineer too, you should know this distinction when you work with trade companies."
     }
    ]
@@ -646,13 +695,13 @@
    },
    "lines": [
     {
-     "de": "Stellenanzeigen nennen hier oft Planung bis Inbetriebnahme.",
+     "de": "Stellenanzeigen nennen hier oft die Arbeit von der Planung bis zur Inbetriebnahme.",
      "ar": "تذكر إعلانات الوظائف هنا غالبًا العمل من التخطيط حتى التشغيل الأولي.",
      "en": "Job ads here often mention work from planning to commissioning."
     },
     {
      "de": "Die gemeinsame Fachgesellschaft von VDI und VDE für Mess- und Automatisierungstechnik heißt GMA.",
-     "ar": "الجمعية المتخصصة المشتركة بين فاو دي آي وفاو دي إي لتقنية القياس والأتمتة تسمى جي إم إيه.",
+     "ar": "الجمعية المتخصصة المشتركة بين في دي آي وفدي لتقنية القياس والأتمتة تسمى جي إم إيه.",
      "en": "The joint technical society of VDI and VDE for measurement and automation is called GMA.",
      "tts": "Die gemeinsame Fachgesellschaft von Fau-De-I und Fau-De-E für Mess- und Automatisierungstechnik heißt Ge-Em-A."
     },
@@ -770,10 +819,9 @@
      "en": "These include industry, planning offices, public institutions and science."
     },
     {
-     "de": "Aktuelle Themen sind erneuerbare Energien und Industrie 4.0.",
-     "ar": "ومن المواضيع الحالية الطاقات المتجددة والصناعة الرابعة.",
-     "en": "Current topics are renewable energies and Industry 4.0.",
-     "tts": "Aktuelle Themen sind erneuerbare Energien und Industrie vier Punkt null."
+     "de": "Ein aktuelles Thema sind erneuerbare Energien.",
+     "ar": "ومن المواضيع الحالية الطاقات المتجددة.",
+     "en": "One current topic is renewable energy."
     },
     {
      "de": "Industrie und Planungsbüros bieten oft unterschiedliche Arbeitsweisen.",
@@ -794,68 +842,6 @@
      "de": "Die Aufgaben unterscheiden sich stark, je nachdem, wo Sie arbeiten.",
      "ar": "تختلف المهام كثيرًا بحسب مكان عملكم.",
      "en": "The tasks differ greatly depending on where you work."
-    }
-   ]
-  },
-  {
-   "slide": {
-    "layout": "bullets",
-    "kicker": "Der Weg des Stroms",
-    "heading": "Vom Kraftwerk zur Steckdose",
-    "items": [
-     "Erzeugung",
-     "Übertragung",
-     "Verteilung",
-     "Nutzung"
-    ],
-    "terms": [
-     {
-      "de": "Erzeugung",
-      "ar": "التوليد",
-      "en": "generation"
-     },
-     {
-      "de": "Nutzung",
-      "ar": "الاستخدام",
-      "en": "use"
-     }
-    ]
-   },
-   "lines": [
-    {
-     "de": "Stellen Sie sich den Weg des Stroms vor.",
-     "ar": "تخيّلوا مسار الكهرباء.",
-     "en": "Imagine the path of electricity."
-    },
-    {
-     "de": "Zuerst wird elektrische Energie erzeugt.",
-     "ar": "أولًا تُولَّد الطاقة الكهربائية.",
-     "en": "First, electrical energy is generated."
-    },
-    {
-     "de": "Dann wird sie über große Entfernungen übertragen.",
-     "ar": "ثم تُنقل لمسافات طويلة.",
-     "en": "Then it is transmitted over long distances."
-    },
-    {
-     "de": "Danach wird sie in der Region verteilt.",
-     "ar": "بعد ذلك تُوزَّع داخل المنطقة.",
-     "en": "After that it is distributed in the region."
-    },
-    {
-     "de": "Am Ende wird sie in Gebäuden und Anlagen genutzt.",
-     "ar": "وفي النهاية تُستخدم في المباني والمنشآت.",
-     "en": "In the end it is used in buildings and systems."
-    },
-    {
-     "de": "In der Energietechnik geht es um alle diese Schritte.",
-     "ar": "وتتناول هندسة الطاقة كل هذه الخطوات.",
-     "en": "Power engineering covers all of these steps."
-    },
-    {
-     "de": "Jeder Schritt braucht Ingenieure mit anderen Schwerpunkten.",
-     "ar": "كل خطوة تحتاج إلى مهندسين بتركيز مختلف.",
-     "en": "Each step needs engineers with different focuses."
     }
    ]
   },
@@ -889,9 +875,9 @@
      "en": "Developers deliver the components and devices."
     },
     {
-     "de": "Die Anlage braucht einen Anschluss an das Netz.",
-     "ar": "تحتاج المنشأة إلى اتصال بالشبكة.",
-     "en": "The plant needs a connection to the grid."
+     "de": "Die Netzseite sorgt für den Anschluss der Anlage an das Netz.",
+     "ar": "ويتولى مجال الشبكات توصيل المنشأة بالشبكة.",
+     "en": "The grid side takes care of connecting the plant to the grid."
     },
     {
      "de": "Planer legen die elektrische Installation aus.",
@@ -899,8 +885,8 @@
      "en": "Planners design the electrical installation."
     },
     {
-     "de": "Automatisierer sorgen dafür, dass alles gesteuert läuft.",
-     "ar": "ويحرص مهندسو الأتمتة على أن يعمل كل شيء بشكل متحكَّم به.",
+     "de": "Automatisierungsingenieure sorgen dafür, dass alles gesteuert läuft.",
+     "ar": "ويحرص مهندسو الأتمتة على أن يعمل كل شيء تحت تحكم دقيق.",
      "en": "Automation engineers make sure everything runs under control."
     },
     {
@@ -921,10 +907,10 @@
     "kicker": "Ihr Start",
     "heading": "Welches Feld passt zu Ihnen?",
     "items": [
-     "Arbeiten Sie gern draußen?",
-     "Mögen Sie Software?",
-     "Lieben Sie Details?",
-     "Reden Sie gern mit Kunden?"
+     "Große Anlagen und Netze?",
+     "Programmieren und Steuern?",
+     "Neue Geräte entwickeln?",
+     "Genauigkeit und Details?"
     ],
     "terms": []
    },
@@ -950,14 +936,14 @@
      "en": "Or you would rather develop new devices and electronics."
     },
     {
-     "de": "Es gibt keine einzig richtige Antwort.",
+     "de": "Es gibt nicht die eine richtige Antwort.",
      "ar": "لا توجد إجابة صحيحة واحدة فقط.",
-     "en": "There is no single right answer."
+     "en": "There is not just one right answer."
     },
     {
-     "de": "Viele Ingenieure wechseln im Laufe ihres Berufslebens das Feld.",
-     "ar": "ويغيّر كثير من المهندسين مجالهم خلال حياتهم المهنية.",
-     "en": "Many engineers change field during their working life."
+     "de": "Es ist möglich, im Laufe des Berufslebens das Feld zu wechseln.",
+     "ar": "يمكن تغيير المجال خلال الحياة المهنية.",
+     "en": "It is possible to change field during one's working life."
     },
     {
      "de": "Sammeln Sie zuerst Eindrücke und entscheiden Sie dann in Ruhe.",
@@ -991,9 +977,9 @@
    },
    "lines": [
     {
-     "de": "In allen Feldern arbeiten Sie mit gefährlicher Energie.",
-     "ar": "في كل المجالات تتعاملون مع طاقة قد تكون خطرة.",
-     "en": "In all fields you work with potentially dangerous energy."
+     "de": "In vielen Feldern arbeiten Sie mit Energie, die gefährlich sein kann.",
+     "ar": "في كثير من المجالات تتعاملون مع طاقة قد تكون خطرة.",
+     "en": "In many fields you work with energy that can be dangerous."
     },
     {
      "de": "Darum tragen Sie Verantwortung für Menschen und Anlagen.",
@@ -1039,7 +1025,7 @@
     {
      "de": "Fassen wir die vier Felder in einer Tabelle zusammen.",
      "ar": "لنلخّص المجالات الأربعة في جدول.",
-     "en": "Let us summarize the four fields in a table."
+     "en": "Let us summarise the four fields in a table."
     },
     {
      "de": "In den Netzen planen und betreiben Sie die Anlagen der Energieversorgung.",
@@ -1089,9 +1075,14 @@
      "en": "The professional title Ingenieur is legally protected in Germany."
     },
     {
-     "de": "Sie ist in Ländergesetzen geregelt, die sich leicht unterscheiden.",
+     "de": "Sie ist in Landesgesetzen geregelt, die sich leicht unterscheiden.",
      "ar": "وهو منظّم في قوانين الولايات التي تختلف قليلًا فيما بينها.",
      "en": "It is regulated in state laws that differ slightly."
+    },
+    {
+     "de": "Die genauen Voraussetzungen regelt das jeweilige Bundesland.",
+     "ar": "الشروط الدقيقة تنظّمها كل ولاية.",
+     "en": "The exact requirements are set by each federal state."
     },
     {
      "de": "Wie Ihr Abschluss eingeordnet wird, behandeln wir hier nicht.",
@@ -1107,11 +1098,6 @@
      "de": "Das ist ein eigenes Thema, das Sie getrennt klären sollten.",
      "ar": "وهذا موضوع مستقل ينبغي أن توضحوه على حدة.",
      "en": "This is a separate topic that you should clarify on its own."
-    },
-    {
-     "de": "Er gilt für Personen mit einem technischen Studium, aber die Einzelheiten regelt das jeweilige Land.",
-     "ar": "ينطبق على من أنهى دراسة تقنية، لكن التفاصيل تنظّمها كل ولاية.",
-     "en": "It applies to people with a technical degree, but the details are set by each state."
     }
    ]
   },
@@ -1177,8 +1163,13 @@
     },
     {
      "de": "Bei Anlagen ist die Elektrofachkraft der zentrale Begriff.",
-     "ar": "وفي المنشآت فإن الفني الكهربائي المؤهل هو المصطلح المحوري.",
+     "ar": "وفي المنشآت فإن الكهربائي المؤهَّل هو المصطلح المحوري.",
      "en": "For systems the Elektrofachkraft is the central term."
+    },
+    {
+     "de": "In der Automatisierung steuern Sie Prozesse, in der Entwicklung entstehen neue Produkte. Der Titel Ingenieur ist durch Landesgesetze geschützt.",
+     "ar": "في الأتمتة تتحكمون بالعمليات، وفي التطوير تُبتكر منتجات جديدة. ولقب مهندس محمي بقوانين الولايات.",
+     "en": "In automation you control processes, in development new products are created. The title Ingenieur is protected by state laws."
     },
     {
      "de": "Im nächsten Video geht es um das System der Normen.",
@@ -1187,80 +1178,75 @@
     },
     {
      "de": "Notieren Sie sich die Begriffe aus dem Glossar und beantworten Sie das Quiz.",
-     "ar": "دوّنوا مصطلحات القاموس وأجيبوا عن الاختبار.",
+     "ar": "دوّنوا مصطلحات المسرد وأجيبوا عن الاختبار.",
      "en": "Note the terms from the glossary and answer the quiz."
-    },
-    {
-     "de": "Im nächsten Schritt lernen Sie, wie das Normensystem aufgebaut ist.",
-     "ar": "وفي الخطوة التالية ستتعلمون كيف تُبنى منظومة المعايير.",
-     "en": "In the next step you learn how the system of standards is built."
     }
    ]
   }
  ],
  "glossary": [
   {
-   "de": "Elektrofachkraft",
-   "ar": "فني كهرباء مؤهل",
-   "en": "qualified electrician"
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل",
+   "en": "Elektrofachkraft (qualified electrical person)"
   },
   {
-   "de": "Übertragungsnetzbetreiber",
+   "de": "der Übertragungsnetzbetreiber",
    "ar": "مشغّل شبكة النقل",
    "en": "transmission system operator"
   },
   {
-   "de": "Verteilnetzbetreiber",
+   "de": "der Verteilnetzbetreiber",
    "ar": "مشغّل شبكة التوزيع",
    "en": "distribution system operator"
   },
   {
-   "de": "Regelzone",
+   "de": "die Regelzone",
    "ar": "منطقة التحكم",
    "en": "control area"
   },
   {
-   "de": "Netzentwicklung",
+   "de": "die Netzentwicklung",
    "ar": "تطوير الشبكة",
    "en": "grid development"
   },
   {
-   "de": "Handwerksrolle",
+   "de": "die Handwerksrolle",
    "ar": "سجل الحرف",
    "en": "trade register"
   },
   {
-   "de": "Installateurverzeichnis",
+   "de": "das Installateurverzeichnis",
    "ar": "سجل المُركِّبين لدى مشغّل الشبكة",
    "en": "installer register"
   },
   {
-   "de": "Automatisierungstechnik",
+   "de": "die Automatisierungstechnik",
    "ar": "هندسة الأتمتة",
    "en": "automation engineering"
   },
   {
-   "de": "Steuerung",
+   "de": "die Steuerung",
    "ar": "نظام تحكم",
    "en": "control system"
   },
   {
-   "de": "Inbetriebnahme",
+   "de": "die Inbetriebnahme",
    "ar": "التشغيل الأولي",
    "en": "commissioning"
   },
   {
-   "de": "Bauelement",
+   "de": "das Bauelement",
    "ar": "مكوّن إلكتروني",
    "en": "component"
   },
   {
-   "de": "Ingenieurgesetz",
+   "de": "das Ingenieurgesetz",
    "ar": "قانون المهندسين",
    "en": "engineers' act"
   },
   {
-   "de": "Instandhaltung",
+   "de": "die Instandhaltung",
    "ar": "الصيانة",
    "en": "maintenance"
   }
@@ -1279,17 +1265,17 @@
      "en": "Two"
     },
     {
-     "de": "Vier",
-     "ar": "أربعة",
-     "en": "Four"
-    },
-    {
      "de": "Acht",
      "ar": "ثمانية",
      "en": "Eight"
+    },
+    {
+     "de": "Vier",
+     "ar": "أربعة",
+     "en": "Four"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
@@ -1299,14 +1285,14 @@
    },
    "options": [
     {
+     "de": "Eine Elektrofachkraft oder jemand unter ihrer Aufsicht",
+     "ar": "الكهربائي المؤهَّل أو من يعمل تحت إشرافه",
+     "en": "An Elektrofachkraft, or someone working under her or his supervision"
+    },
+    {
      "de": "Jeder nach einem Kurs",
      "ar": "أي شخص بعد دورة",
      "en": "Anyone after a course"
-    },
-    {
-     "de": "Eine Elektrofachkraft oder unter ihrer Aufsicht",
-     "ar": "فني كهربائي مؤهل أو تحت إشرافه",
-     "en": "An Elektrofachkraft or under her or his supervision"
     },
     {
      "de": "Nur der Netzbetreiber",
@@ -1314,12 +1300,12 @@
      "en": "Only the grid operator"
     }
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "q": {
     "de": "Reicht mehrjährige Tätigkeit allein für die Elektrofachkraft?",
-    "ar": "هل يكفي العمل لسنوات وحده للصفة؟",
+    "ar": "هل يكفي العمل لسنوات طويلة وحده للحصول على صفة الكهربائي المؤهَّل؟",
     "en": "Are several years of work alone enough to be an Elektrofachkraft?"
    },
    "options": [
@@ -1334,9 +1320,9 @@
      "en": "No"
     },
     {
-     "de": "Nur im Ausland",
-     "ar": "فقط في الخارج",
-     "en": "Only abroad"
+     "de": "Ja, wenn der Arbeitgeber zustimmt",
+     "ar": "نعم، إذا وافق صاحب العمل",
+     "en": "Yes, if the employer agrees"
     }
    ],
    "answer": 1
@@ -1349,11 +1335,6 @@
    },
    "options": [
     {
-     "de": "Steuerungen und Prozesse",
-     "ar": "أنظمة التحكم والعمليات",
-     "en": "Control systems and processes"
-    },
-    {
      "de": "Nur Hochspannungsmasten",
      "ar": "أبراج الجهد العالي فقط",
      "en": "Only high-voltage pylons"
@@ -1362,9 +1343,14 @@
      "de": "Nur Gebäudereinigung",
      "ar": "تنظيف المباني فقط",
      "en": "Only building cleaning"
+    },
+    {
+     "de": "Steuerungen und Prozesse",
+     "ar": "أنظمة التحكم والعمليات",
+     "en": "Control systems and processes"
     }
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "q": {
@@ -1380,7 +1366,7 @@
     },
     {
      "de": "In keinem Gesetz",
-     "ar": "في أي قانون لا",
+     "ar": "ليس في أي قانون",
      "en": "In no law"
     },
     {
@@ -1393,9 +1379,9 @@
   }
  ],
  "next": {
-  "de": "E-F02: Das System der Normen",
-  "ar": "E-F02: منظومة المعايير",
-  "en": "E-F02: The system of standards"
+  "de": "Nächstes Video: Das System der Normen",
+  "ar": "الفيديو القادم: منظومة المعايير",
+  "en": "Next video: The system of standards"
  },
- "stand": "2026-10-20; vor Veröffentlichung prüfen: Energiewirtschaftsgesetz (§ 11), Niederspannungsanschlussverordnung (§ 13), Handwerksordnung/Meisterprüfungsverordnung, Landesingenieurgesetze, DGUV-Vorschrift zu elektrischen Anlagen, Zahl der Netzbetreiber."
+ "stand": "2026-10-20; Aussagen zu Spannungsebene, Industrie 4.0, Arbeitsmarkt, Netzbetreiber-Abstimmung, Studienvoraussetzung des Titels und EFKffT-Details wurden entfernt bzw. allgemein formuliert. Vor Veröffentlichung prüfen: Energiewirtschaftsgesetz (§ 11), Niederspannungsanschlussverordnung (§ 13; Verzeichnis gilt für Installationsunternehmen), Handwerksordnung/Meisterprüfungsverordnung, Landesingenieurgesetze, DGUV Vorschrift 3 (gewerblich) bzw. 4 (öffentliche Hand) und ihre Nummerierung/Wortlaut, Zahl der Netzbetreiber."
 }

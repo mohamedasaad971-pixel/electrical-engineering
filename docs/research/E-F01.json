@@ -1,22 +1,158 @@
-{"video":"E-F01","researched":"2026-10-20","method":"WebSearch result excerpts; direct page fetch was unavailable in this environment, so confidence is capped at medium for single-excerpt facts.","facts":[
-{"claim":"Elektrotechnik ist ein breites Ingenieurfach: von Informations- und Kommunikationstechnik über Energietechnik bis zu Mess- und Automatisierungstechnik und Mikroelektronik.","source_url":"https://www.vde.com/de/sbg/veroeffentlichungen/erhaltung-der-berufsbezeichnung-ingenieur","source_name":"VDE (Search-Zusammenfassung)","confidence":"medium","note":"Seite nicht direkt abrufbar; durch Hochschulquellen gestützt."},
-{"claim":"Viele Elektroingenieure spezialisieren sich auf ein Teilgebiet, etwa Energietechnik, Automatisierungstechnik, Mikroelektronik oder Informationstechnik.","source_url":"https://studieren-studium.com/berufe/elektroingenieur","source_name":"studieren-studium.com / azubitage.de Berufsprofil","confidence":"medium","note":"Sekundärquelle."},
-{"claim":"Hochschulen bieten Vertiefungen wie Automatisierungstechnik, Erneuerbare Energien und Informations- und Kommunikationstechnik an.","source_url":"https://www.frankfurt-university.de/eit","source_name":"Frankfurt University of Applied Sciences","confidence":"high","note":"Beispiel einer Hochschule, nicht repräsentativ für alle."},
-{"claim":"Absolventen arbeiten laut Hochschulangaben in Industrie, Planungsbüros, öffentlichen Einrichtungen und Wissenschaft.","source_url":"https://www.frankfurt-university.de/de/studium/bachelor-studiengange/elektro-und-informationstechnik-beng/fuer-studieninteressierte/","source_name":"Frankfurt University of Applied Sciences","confidence":"high","note":""},
-{"claim":"Typische Aufgaben von Elektroingenieuren: neue Bauelemente, Maschinen und Anlagen berechnen, konstruieren und erproben; Fertigung begleiten.","source_url":"https://studieren-studium.com/berufe/elektroingenieur","source_name":"studieren-studium.com","confidence":"medium","note":"Sekundärquelle."},
-{"claim":"Automatisierungstechnik umfasst Hard- und Software für mikroprozessorbasierte Steuerungen, z. B. in Prozess- und Fertigungstechnik, Robotik und Antriebstechnik.","source_url":"https://studieren.de/elektrotechnik-und-informationstechnik-th-deggendorf.studienprofil.t-0.a-108.c-1157.html","source_name":"TH Deggendorf Studienprofil","confidence":"medium","note":""},
-{"claim":"Energietechnik umfasst Erzeugung, Übertragung und Nutzung elektrischer Energie sowie die Steuerung von Anlagen.","source_url":"https://studieren.de/elektrotechnik-und-informationstechnik-th-deggendorf.studienprofil.t-0.a-108.c-1157.html","source_name":"TH Deggendorf Studienprofil","confidence":"medium","note":""},
-{"claim":"Technische Elektronik: Entwicklung und Produktion serienreifer Komponenten.","source_url":"https://studieren.de/elektrotechnik-und-informationstechnik-th-deggendorf.studienprofil.t-0.a-108.c-1157.html","source_name":"TH Deggendorf Studienprofil","confidence":"medium","note":""},
-{"claim":"Deutschland hat vier Übertragungsnetzbetreiber: 50Hertz, Amprion, TenneT und TransnetBW; jeder verantwortet eine Regelzone.","source_url":"https://www.smard.de/page/en/wiki-article/5884/205528/transmission-system-operators","source_name":"SMARD (Bundesnetzagentur)","confidence":"high","note":""},
-{"claim":"Es gibt deutlich mehr Verteilnetzbetreiber (Größenordnung mehrere Hundert); die genaue Zahl schwankt je nach Quelle und Stichtag.","source_url":"https://de.statista.com/themen/2446/stromnetzbetreiber-in-deutschland","source_name":"Statista (Daten BNetzA/BKartA)","confidence":"medium","note":"Nur 'mehrere hundert' im Skript, keine Zahl."},
-{"claim":"Nach § 11 EnWG müssen Netzbetreiber ihr Netz sicher, zuverlässig und leistungsfähig betreiben, warten und bedarfsgerecht ausbauen, soweit wirtschaftlich zumutbar, diskriminierungsfrei.","source_url":"https://lexetius.com/EnWG/11/betrieb-von-energieversorgungsnetzen-verordnungsermachtigung","source_name":"EnWG § 11 (Gesetzestext-Wiedergabe)","confidence":"high","note":"Stand der Fassung vor Verwendung prüfen."},
-{"claim":"Die Übertragungsnetzbetreiber legen der Bundesnetzagentur gemeinsame Unterlagen zum Netzentwicklungsplan vor.","source_url":"https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/NEP/DL_Szenariorahmen/2027/SR_Entwurf2027Strom.pdf","source_name":"Bundesnetzagentur","confidence":"high","note":"Allgemeine Aussage, kein Datum nennen."},
-{"claim":"Nach § 13 NAV führt der Netzbetreiber ein Installateurverzeichnis; Arbeiten zum Anschluss an das Niederspannungsnetz dürfen außer vom Netzbetreiber nur von eingetragenen Installationsunternehmen ausgeführt werden.","source_url":"https://www.bdew.de/media/documents/Grundsätze_BDEW_ZVEH_2025.pdf","source_name":"BDEW/ZVEH Grundsätze","confidence":"medium","note":"NAV-Wortlaut über BDEW wiedergegeben; Details je Netzbetreiber verschieden."},
-{"claim":"Das Elektrotechniker-Handwerk ist zulassungspflichtig (Anlage A HwO); selbstständige Ausübung erfordert grundsätzlich Meisterqualifikation und Eintragung in die Handwerksrolle, mit Ausnahmen (z. B. Altgesellenregelung).","source_url":"https://hwk-aurich.de/_Resources/Persistent/f/9/7/a/f97a0cc5567bc556e56f6e2bba962d5afdc7511e/Meisterpruefung_im_Elektrotechnikerhandwerk.pdf","source_name":"Handwerkskammer-Material (Aurich)","confidence":"medium","note":"Im Skript nur allgemein."},
-{"claim":"Elektrofachkraft ist, wer aufgrund fachlicher Ausbildung, Kenntnissen und Erfahrungen sowie Kenntnis der einschlägigen Bestimmungen übertragene Arbeiten beurteilen und Gefahren erkennen kann.","source_url":"https://publikationen.dguv.de/widgets/pdf/download/article/1457","source_name":"DGUV Vorschrift 4 / DGUV-Publikationen","confidence":"high","note":"Sinngemäß wiedergeben, nicht wörtlich zitieren."},
-{"claim":"Die Qualifikation wird im Regelfall durch eine Ausbildung nachgewiesen, z. B. als Elektroingenieur, Elektrotechniker, Elektromeister oder Elektrogeselle; bloße mehrjährige Tätigkeit genügt nicht.","source_url":"https://publikationen.dguv.de/widgets/pdf/download/article/683","source_name":"DGUV Information 203-034","confidence":"medium","note":""},
-{"claim":"Elektrische Anlagen und Betriebsmittel dürfen nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft errichtet, geändert und instand gehalten werden.","source_url":"https://publikationen.dguv.de/widgets/pdf/download/article/1457","source_name":"DGUV Vorschrift 4 / DGUV-Publikationen","confidence":"high","note":""},
-{"claim":"Die Berufsbezeichnung 'Ingenieur' ist gesetzlich geschützt; geregelt in Landesingenieurgesetzen, die je Bundesland leicht unterschiedlich sind.","source_url":"https://recht.nrw.de/lrgv/gesetz/22092021-gesetz-zum-schutze-der-berufsbezeichnung-ingenieuringenieurin-ingenieurgesetz/","source_name":"Ingenieurgesetz NRW (Beispiel)","confidence":"high","note":"Genaue Voraussetzungen nicht nennen; Anerkennung ausländischer Abschlüsse außerhalb des Umfangs."},
-{"claim":"Die VDI/VDE-Gesellschaft Mess- und Automatisierungstechnik (GMA) ist eine gemeinsame Fachgesellschaft von VDI und VDE für Mess-, Sensor-, Prozess- und Fertigungsautomatisierung.","source_url":"https://www.vdi.de/netzwerke-community/vdi-fachgesellschaften/vdi-gesellschaft-mess-und-automatisierungstechnik","source_name":"VDI","confidence":"high","note":""}
-],
-"dropped":["Genaue Zahl der Verteilnetzbetreiber (Quellen uneinheitlich)","Gehälter und Arbeitsmarktlage","Ob Bachelor oder Master für den Titel 'Elektroingenieur' nötig ist (Quellen widersprüchlich; Landesrecht)","Definition von SPS/Prozessleittechnik durch Primärquelle","Genaue Spannungsgrenzen Hoch-/Mittel-/Niederspannung","Aktuelle Fassung der Meisterprüfungsverordnung","Anerkennung ausländischer Abschlüsse (außerhalb des Umfangs)"]}
+{
+ "video": "E-F01",
+ "researched": "2026-10-20",
+ "method": "WebSearch result excerpts; direct page fetch was unavailable in this environment, so confidence is capped at medium for single-excerpt facts.",
+ "facts": [
+  {
+   "claim": "Elektrotechnik ist ein breites Ingenieurfach: von Informations- und Kommunikationstechnik über Energietechnik bis zu Mess- und Automatisierungstechnik und Mikroelektronik.",
+   "source_url": "https://www.vde.com/de/sbg/veroeffentlichungen/erhaltung-der-berufsbezeichnung-ingenieur",
+   "source_name": "VDE (Search-Zusammenfassung)",
+   "confidence": "medium",
+   "note": "Seite nicht direkt abrufbar; durch Hochschulquellen gestützt."
+  },
+  {
+   "claim": "Viele Elektroingenieure spezialisieren sich auf ein Teilgebiet, etwa Energietechnik, Automatisierungstechnik, Mikroelektronik oder Informationstechnik.",
+   "source_url": "https://studieren-studium.com/berufe/elektroingenieur",
+   "source_name": "studieren-studium.com / azubitage.de Berufsprofil",
+   "confidence": "medium",
+   "note": "Sekundärquelle."
+  },
+  {
+   "claim": "Hochschulen bieten Vertiefungen wie Automatisierungstechnik, Erneuerbare Energien und Informations- und Kommunikationstechnik an.",
+   "source_url": "https://www.frankfurt-university.de/eit",
+   "source_name": "Frankfurt University of Applied Sciences",
+   "confidence": "high",
+   "note": "Beispiel einer Hochschule, nicht repräsentativ für alle."
+  },
+  {
+   "claim": "Absolventen arbeiten laut Hochschulangaben in Industrie, Planungsbüros, öffentlichen Einrichtungen und Wissenschaft.",
+   "source_url": "https://www.frankfurt-university.de/de/studium/bachelor-studiengange/elektro-und-informationstechnik-beng/fuer-studieninteressierte/",
+   "source_name": "Frankfurt University of Applied Sciences",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Typische Aufgaben von Elektroingenieuren: neue Bauelemente, Maschinen und Anlagen berechnen, konstruieren und erproben; Fertigung begleiten.",
+   "source_url": "https://studieren-studium.com/berufe/elektroingenieur",
+   "source_name": "studieren-studium.com",
+   "confidence": "medium",
+   "note": "Sekundärquelle."
+  },
+  {
+   "claim": "Automatisierungstechnik umfasst Hard- und Software für mikroprozessorbasierte Steuerungen, z. B. in Prozess- und Fertigungstechnik, Robotik und Antriebstechnik.",
+   "source_url": "https://studieren.de/elektrotechnik-und-informationstechnik-th-deggendorf.studienprofil.t-0.a-108.c-1157.html",
+   "source_name": "TH Deggendorf Studienprofil",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Energietechnik umfasst Erzeugung, Übertragung und Nutzung elektrischer Energie sowie die Steuerung von Anlagen.",
+   "source_url": "https://studieren.de/elektrotechnik-und-informationstechnik-th-deggendorf.studienprofil.t-0.a-108.c-1157.html",
+   "source_name": "TH Deggendorf Studienprofil",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Technische Elektronik: Entwicklung und Produktion serienreifer Komponenten.",
+   "source_url": "https://studieren.de/elektrotechnik-und-informationstechnik-th-deggendorf.studienprofil.t-0.a-108.c-1157.html",
+   "source_name": "TH Deggendorf Studienprofil",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Deutschland hat vier Übertragungsnetzbetreiber: 50Hertz, Amprion, TenneT und TransnetBW; jeder verantwortet eine Regelzone.",
+   "source_url": "https://www.smard.de/page/en/wiki-article/5884/205528/transmission-system-operators",
+   "source_name": "SMARD (Bundesnetzagentur)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Es gibt deutlich mehr Verteilnetzbetreiber (Größenordnung mehrere Hundert); die genaue Zahl schwankt je nach Quelle und Stichtag.",
+   "source_url": "https://de.statista.com/themen/2446/stromnetzbetreiber-in-deutschland",
+   "source_name": "Statista (Daten BNetzA/BKartA)",
+   "confidence": "medium",
+   "note": "Nur 'mehrere hundert' im Skript, keine Zahl."
+  },
+  {
+   "claim": "Nach § 11 EnWG müssen Netzbetreiber ihr Netz sicher, zuverlässig und leistungsfähig betreiben, warten und bedarfsgerecht ausbauen, soweit wirtschaftlich zumutbar, diskriminierungsfrei.",
+   "source_url": "https://lexetius.com/EnWG/11/betrieb-von-energieversorgungsnetzen-verordnungsermachtigung",
+   "source_name": "EnWG § 11 (Gesetzestext-Wiedergabe)",
+   "confidence": "high",
+   "note": "Stand der Fassung vor Verwendung prüfen."
+  },
+  {
+   "claim": "Die Übertragungsnetzbetreiber legen der Bundesnetzagentur gemeinsame Unterlagen zum Netzentwicklungsplan vor.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/NEP/DL_Szenariorahmen/2027/SR_Entwurf2027Strom.pdf",
+   "source_name": "Bundesnetzagentur",
+   "confidence": "high",
+   "note": "Allgemeine Aussage, kein Datum nennen."
+  },
+  {
+   "claim": "Nach § 13 NAV führt der Netzbetreiber ein Installateurverzeichnis; Arbeiten zum Anschluss an das Niederspannungsnetz dürfen außer vom Netzbetreiber nur von eingetragenen Installationsunternehmen ausgeführt werden.",
+   "source_url": "https://www.bdew.de/media/documents/Grundsätze_BDEW_ZVEH_2025.pdf",
+   "source_name": "BDEW/ZVEH Grundsätze",
+   "confidence": "medium",
+   "note": "NAV-Wortlaut über BDEW wiedergegeben; Details je Netzbetreiber verschieden."
+  },
+  {
+   "claim": "Das Elektrotechniker-Handwerk ist zulassungspflichtig (Anlage A HwO); selbstständige Ausübung erfordert grundsätzlich Meisterqualifikation und Eintragung in die Handwerksrolle, mit Ausnahmen (z. B. Altgesellenregelung).",
+   "source_url": "https://hwk-aurich.de/_Resources/Persistent/f/9/7/a/f97a0cc5567bc556e56f6e2bba962d5afdc7511e/Meisterpruefung_im_Elektrotechnikerhandwerk.pdf",
+   "source_name": "Handwerkskammer-Material (Aurich)",
+   "confidence": "medium",
+   "note": "Im Skript nur allgemein."
+  },
+  {
+   "claim": "Elektrofachkraft ist, wer aufgrund fachlicher Ausbildung, Kenntnissen und Erfahrungen sowie Kenntnis der einschlägigen Bestimmungen übertragene Arbeiten beurteilen und Gefahren erkennen kann.",
+   "source_url": "https://publikationen.dguv.de/widgets/pdf/download/article/1457",
+   "source_name": "DGUV Vorschrift 4 / DGUV-Publikationen",
+   "confidence": "high",
+   "note": "Sinngemäß wiedergeben, nicht wörtlich zitieren."
+  },
+  {
+   "claim": "Die Qualifikation wird im Regelfall durch eine Ausbildung nachgewiesen, z. B. als Elektroingenieur, Elektrotechniker, Elektromeister oder Elektrogeselle; bloße mehrjährige Tätigkeit genügt nicht.",
+   "source_url": "https://publikationen.dguv.de/widgets/pdf/download/article/683",
+   "source_name": "DGUV Information 203-034",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Elektrische Anlagen und Betriebsmittel dürfen nur von einer Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft errichtet, geändert und instand gehalten werden.",
+   "source_url": "https://publikationen.dguv.de/widgets/pdf/download/article/1457",
+   "source_name": "DGUV Vorschrift 4 / DGUV-Publikationen",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die Berufsbezeichnung 'Ingenieur' ist gesetzlich geschützt; geregelt in Landesingenieurgesetzen, die je Bundesland leicht unterschiedlich sind.",
+   "source_url": "https://recht.nrw.de/lrgv/gesetz/22092021-gesetz-zum-schutze-der-berufsbezeichnung-ingenieuringenieurin-ingenieurgesetz/",
+   "source_name": "Ingenieurgesetz NRW (Beispiel)",
+   "confidence": "high",
+   "note": "Genaue Voraussetzungen nicht nennen; Anerkennung ausländischer Abschlüsse außerhalb des Umfangs."
+  },
+  {
+   "claim": "Die VDI/VDE-Gesellschaft Mess- und Automatisierungstechnik (GMA) ist eine gemeinsame Fachgesellschaft von VDI und VDE für Mess-, Sensor-, Prozess- und Fertigungsautomatisierung.",
+   "source_url": "https://www.vdi.de/netzwerke-community/vdi-fachgesellschaften/vdi-gesellschaft-mess-und-automatisierungstechnik",
+   "source_name": "VDI",
+   "confidence": "high",
+   "note": ""
+  }
+ ],
+ "dropped": [
+  "Genaue Zahl der Verteilnetzbetreiber (Quellen uneinheitlich)",
+  "Gehälter und Arbeitsmarktlage",
+  "Ob Bachelor oder Master für den Titel 'Elektroingenieur' nötig ist (Quellen widersprüchlich; Landesrecht)",
+  "Definition von SPS/Prozessleittechnik durch Primärquelle",
+  "Genaue Spannungsgrenzen Hoch-/Mittel-/Niederspannung",
+  "Aktuelle Fassung der Meisterprüfungsverordnung",
+  "Anerkennung ausländischer Abschlüsse (außerhalb des Umfangs)",
+  "Betrieb des Höchstspannungsnetzes (Spannungsebene)",
+  "Industrie 4.0 als aktuelles Thema",
+  "Arbeitsmarkt-/Berufseinsteiger-/Kundennähe-Aussagen zu Verteilnetzbetreibern",
+  "Abstimmung zwischen Netzbetreibern bei Maßnahmen im Netz eines anderen Betreibers",
+  "Titel Ingenieur gelte für Personen mit technischem Studium",
+  "Elektrofachkraft für festgelegte Tätigkeiten: Einschränkung auf gleichartige, wiederkehrende Arbeiten nach Arbeitsanweisung (Verweis auf späteres Video)",
+  "Mehrjährige Tätigkeit plus Schulung/Dokumentation als Nachweis (nicht belegt)",
+  "Installateurverzeichnis-Pflicht für Arbeiten hinter der Hausanschlusssicherung (nicht belegt)",
+  "Häufiger Feldwechsel von Ingenieuren"
+ ]
+}

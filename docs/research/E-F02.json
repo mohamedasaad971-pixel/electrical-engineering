@@ -1,34 +1,174 @@
-{"video":"E-F02","researched":"2026-10-20","facts":[
-{"claim":"Die DKE (Deutsche Kommission Elektrotechnik Elektronik Informationstechnik im DIN und VDE) ist die nationale Organisation für elektrotechnische Normung; sie wird vom VDE getragen und ist im DIN und VDE verankert.","source_url":"https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf","source_name":"VDE/DKE Pressemitteilung Weltnormentag 2026-10-13","confidence":"high","note":""},
-{"claim":"In der DKE arbeiten rund 10.000 Expertinnen und Experten aus Wirtschaft, Wissenschaft und öffentlicher Hand an Normen und Sicherheitsregeln (Angabe 2026).","source_url":"https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf","source_name":"VDE/DKE Pressemitteilung 2026","confidence":"medium","note":"Zahl nur als 'rund' und datiert verwenden; im Skript weggelassen."},
-{"claim":"Die DKE vertritt deutsche Interessen in CENELEC (europäisch) und in der IEC (international).","source_url":"https://www.vde.com/resource/blob/2476036/842be7f1959fd816067afbdc75862fc4/2026-06-01-finke-neuer-gf-dke-pm-pdf-data.pdf","source_name":"VDE/DKE Pressemitteilung 2026-06-01","confidence":"high","note":""},
-{"claim":"Europäische Normen (EN) müssen von allen CENELEC-Mitgliedern als identische nationale Normen übernommen werden; in Deutschland geschieht das durch die DKE als DIN-EN-Normen.","source_url":"https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf","source_name":"VDE/DKE Pressematerial","confidence":"high","note":""},
-{"claim":"Entgegenstehende nationale Normen werden bei der Übernahme einer EN zurückgezogen (Verfahren in CENELEC Guide 12).","source_url":"https://boss.cenelec.eu/media/Guides/CLC/12_cenelecguide12.pdf","source_name":"CENELEC Guide 12","confidence":"medium","note":"Fristen nicht verwenden."},
-{"claim":"Der Großteil der elektrotechnischen Normen basiert auf internationalen (IEC) oder europäischen Standards; die DKE nannte 2026 etwa 85 Prozent.","source_url":"https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf","source_name":"VDE/DKE Pressematerial 2026","confidence":"medium","note":"Im Skript nur 'der größte Teil', keine Prozentzahl."},
-{"claim":"CENELEC und IEC arbeiten nach einer Vereinbarung zusammen (Frankfurter Vereinbarung, 17.10.2016, Nachfolgerin des Dresdner Abkommens): neue Arbeit wird zuerst der IEC angeboten, parallele Abstimmung, IEC-Normen werden als EN übernommen.","source_url":"https://cencenelec.eu/about-cenelec/cenelec-and-iec-cooperation","source_name":"CEN-CENELEC: CENELEC and IEC cooperation","confidence":"medium","note":"Daten nicht im Skript; nur Prinzip 'IEC zuerst, parallele Abstimmung'."},
-{"claim":"Das DIN ist ein eingetragener Verein und gemäß Normenvertrag vom 5. Juni 1975 von der Bundesrepublik als nationale Normungsorganisation anerkannt; es erhielt keine hoheitlichen Befugnisse. DIN ist Mitglied von CEN, CENELEC und ISO.","source_url":"https://dserver.bundestag.de/btd/14/084/1408454.pdf","source_name":"Bundestag Drucksache 14/8454","confidence":"high","note":"Vertrag wurde 2025 als 50 Jahre gefeiert: bundeswirtschaftsministerium.de Pressemitteilung 2025-11-05."},
-{"claim":"DIN VDE 0100-410 hat die Ausgabe 2018-10 (VDE 0100-410:2018-10); sie setzt HD 60364-4-41:2017 + A11:2017 um. Frühere Ausgabe 2007-06 ist zurückgezogen. Zuständig: DKE UK 221.1 'Schutz gegen elektrischen Schlag'.","source_url":"https://www.vde-verlag.de/standards/0100481/din-vde-0100-410-vde-0100-410-2018-10.html","source_name":"VDE VERLAG / DIN Media","confidence":"medium","note":"Stand der Recherche 2026-10-20; Ausgabe muss vor Nutzung geprüft werden. Im Skript nur als Beispiel mit Warnhinweis."},
-{"claim":"Eine VDE-Norm ist zugleich eine VDE-Bestimmung im Sinne von VDE 0022 und wird nach einem vom VDE-Präsidium beschlossenen Genehmigungsverfahren unter ihrer Nummer in das VDE-Vorschriftenwerk aufgenommen.","source_url":"https://www.dinmedia.de/de/norm/din-vde-0100-410/98297356","source_name":"DIN Media (Ausgabe 2007 der Norm)","confidence":"medium","note":"Formulierung aus der Norm nicht zitiert, nur sinngemäß."},
-{"claim":"Im Namen 'DIN EN IEC 81346-1:2024-07' zeigt das Präfix 'DIN EN IEC' eine übernommene europäische bzw. internationale Norm; die Zahl 81346-1 ist die Zählnummer (Teil 1); das Datum nach dem Doppelpunkt ist das DIN-Ausgabedatum (Jahr-Monat); die Jahreszahl im Titel (EN IEC 81346-1:2022) bezeichnet die zugrunde liegende EN/IEC-Ausgabe.","source_url":"https://www.dinmedia.de/de/norm/din-en-iec-81346-1/371543012","source_name":"DIN Media","confidence":"high","note":""},
-{"claim":"Manche Normen tragen zusätzlich eine VDE-Nummer, z. B. DIN EN 61355-1 mit VDE 0040-3.","source_url":"https://www.dinmedia.de/de/norm/din-en-61355-1/115272436","source_name":"DIN Media","confidence":"high","note":""},
-{"claim":"Norm-Entwürfe werden der Öffentlichkeit zur Stellungnahme vorgelegt; sie liegen im DIN-Entwurfsportal (din.de/go/entwuerfe), Registrierung kostenfrei. Die Einspruchsfrist steht auf dem jeweiligen Entwurf (Quellen nennen unterschiedliche Dauer).","source_url":"https://www.deutsche-handwerks-zeitung.de/was-genau-ist-eine-din-norm-und-wie-kann-man-sie-nutzen-154321/","source_name":"Deutsche Handwerks Zeitung","confidence":"medium","note":"Frist nicht nennen; nur 'Enddatum steht auf dem Entwurf'."},
-{"claim":"DIN-Normen sind grundsätzlich freiwillig anzuwenden; rechtlich bindend werden sie durch Verweis in Gesetzen, Verordnungen oder Verträgen.","source_url":"https://www.kan.de/fileadmin/Redaktion/Dokumente/Fachbeitraege/de/dguv_forum_1-2_2018_normung_und_rechtsprechung.pdf","source_name":"DGUV Forum / KAN: Normung und Rechtsprechung","confidence":"high","note":""},
-{"claim":"Gerichte behandeln DIN-Normen oft als anerkannte Regeln der Technik (Anscheinsbeweis/Vermutung), die Normen sind aber nicht mit den anerkannten Regeln der Technik identisch; eine veraltete Norm muss nicht maßgeblich sein.","source_url":"https://bundestag.de/resource/blob/677848/f35cfe3e47845c4c9ae2b6839a9e6a2c/WD-7-198-19-pdf-data.pdf","source_name":"Wissenschaftliche Dienste des Bundestags WD 7-198/19","confidence":"medium","note":"Nur als Orientierung, keine Rechtsberatung."},
-{"claim":"DIN-VDE-Normen mit Sicherheitsbezug gelten allgemein als anerkannte Regeln der Technik; ihre rechtliche Wirkung ergibt sich aus Verweisen in Rechtsvorschriften (Grundlage u. a. VDE 0022 und Normenvertrag).","source_url":"https://www.vde-verlag.de/normen/dguv.pdf","source_name":"VDE VERLAG Vorwort DGUV","confidence":"medium","note":"Formulierung vorsichtig: 'gelten in der Regel als'."},
-{"claim":"Das VDE-Prüfzeichen ist ein freiwilliges, privates Prüfzeichen des VDE Instituts für elektrotechnische Produkte; nicht gesetzlich vorgeschrieben.","source_url":"https://www.vde.com/tic-de/zeichen-und-zertifikate","source_name":"VDE Prüf- und Zertifizierungsinstitut","confidence":"high","note":""},
-{"claim":"Das VDE Institut vergibt Prüfzeichen nach Prüfung des Produkts, Besichtigung der Fertigungsstätte und mit regelmäßiger Fertigungsüberwachung.","source_url":"https://www.vde.com/tic-de/zeichen-und-zertifikate/pruefzeichen-und-bescheinigungen","source_name":"VDE Prüf- und Zertifizierungsinstitut","confidence":"high","note":""},
-{"claim":"Das VDE-Prüfzeichen ist nicht dasselbe wie die CE-Kennzeichnung, die Konformität mit EU-Vorschriften dokumentiert.","source_url":"https://www.vde.com/product-safety-de","source_name":"VDE Product Safety","confidence":"medium","note":""},
-{"claim":"In Deutschland gibt es rund 90 Normen-Infopoints, oft an Hochschulbibliotheken; dort kann das Deutsche Normenwerk kostenfrei, meist elektronisch, eingesehen werden. Öffnungszeiten/Zugang vorher prüfen.","source_url":"https://www.uni-muenster.de/MediBib/aktuelles/wiki/din-normen","source_name":"Uni Münster: DIN-Normen in Bibliotheken","confidence":"medium","note":"Anzahl nicht im Skript."},
-{"claim":"Beuth Verlag (DIN Media) bietet Online-Recherche nach Normen; Inhaltsverzeichnisse frei, Volltexte kostenpflichtig.","source_url":"https://www.uni-muenster.de/MediBib/aktuelles/wiki/din-normen","source_name":"Uni Münster: DIN-Normen in Bibliotheken","confidence":"medium","note":""},
-{"claim":"VDE VERLAG vertreibt das VDE-Vorschriftenwerk gedruckt, auf DVD oder als Online-Abo, auch in Auswahlen; die VDE NormenBibliothek erlaubt Lesen online, aber keinen Download aus lizenzrechtlichen Gründen.","source_url":"https://www.vde-verlag.de/service-en/company-overview.html","source_name":"VDE VERLAG Company overview; UB TUM","confidence":"medium","note":"Beuth/VDE-Verlag-Kooperation nicht belegt."}
-],
-"dropped":[
-"Kennzeichnung von Entwürfen mit vorangestelltem 'E' (E DIN VDE ...) - nicht aus Quelle belegt; im Skript nur 'Entwurf' ohne Buchstabenregel.",
-"Konkrete Dauer der Einspruchsfrist (2, 4 oder 6 Monate) - Quellen widersprüchlich.",
-"Prozentzahl IEC-Anteil (70-85 Prozent) - schwankende Angaben; nur 'der größte Teil'.",
-"Preise des VDE-Vorschriftenwerks (Forum-Angaben) - nicht amtlich.",
-"Exklusivvertrieb/Kooperation zwischen Beuth und VDE VERLAG - nicht belegt.",
-"Details zum Schlichtungsverfahren nach Einspruch (Forum-Quelle, DIN 820-4) - nicht amtlich.",
-"Urheberrechtsbeschränkung der DKE-Entwürfe - nur österreichische Quelle; stattdessen allgemeine Regel 'Normen nicht kopieren'.",
-"Konkrete Fristen der Rücknahme nationaler Normen (6 Monate/3 Jahre) - CEN-Quelle, nicht CENELEC-Elektro."
-]}
+{
+ "video": "E-F02",
+ "researched": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Die DKE (Deutsche Kommission Elektrotechnik Elektronik Informationstechnik im DIN und VDE) ist die nationale Organisation für elektrotechnische Normung; sie wird vom VDE getragen und ist im DIN und VDE verankert.",
+   "source_url": "https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf",
+   "source_name": "VDE/DKE Pressemitteilung Weltnormentag 2026-10-13",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "In der DKE arbeiten rund 10.000 Expertinnen und Experten aus Wirtschaft, Wissenschaft und öffentlicher Hand an Normen und Sicherheitsregeln (Angabe 2026).",
+   "source_url": "https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf",
+   "source_name": "VDE/DKE Pressemitteilung 2026",
+   "confidence": "medium",
+   "note": "Zahl nur als 'rund' und datiert verwenden; im Skript weggelassen."
+  },
+  {
+   "claim": "Die DKE vertritt deutsche Interessen in CENELEC (europäisch) und in der IEC (international).",
+   "source_url": "https://www.vde.com/resource/blob/2476036/842be7f1959fd816067afbdc75862fc4/2026-06-01-finke-neuer-gf-dke-pm-pdf-data.pdf",
+   "source_name": "VDE/DKE Pressemitteilung 2026-06-01",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Europäische Normen (EN) müssen von allen CENELEC-Mitgliedern als identische nationale Normen übernommen werden; in Deutschland geschieht das durch die DKE als DIN-EN-Normen.",
+   "source_url": "https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf",
+   "source_name": "VDE/DKE Pressematerial",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Entgegenstehende nationale Normen werden bei der Übernahme einer EN zurückgezogen (Verfahren in CENELEC Guide 12).",
+   "source_url": "https://boss.cenelec.eu/media/Guides/CLC/12_cenelecguide12.pdf",
+   "source_name": "CENELEC Guide 12",
+   "confidence": "medium",
+   "note": "Fristen nicht verwenden."
+  },
+  {
+   "claim": "Der Großteil der elektrotechnischen Normen basiert auf internationalen (IEC) oder europäischen Standards; die DKE nannte 2026 etwa 85 Prozent.",
+   "source_url": "https://www.vde.com/resource/blob/2498840/c5c642a5ec964962a62473b89d37c79c/2026-10-13-weltnormentag-pm-pdf-data.pdf",
+   "source_name": "VDE/DKE Pressematerial 2026",
+   "confidence": "medium",
+   "note": "Im Skript nur 'der größte Teil', keine Prozentzahl."
+  },
+  {
+   "claim": "CENELEC und IEC arbeiten nach einer Vereinbarung zusammen (Frankfurter Vereinbarung, 17.10.2016, Nachfolgerin des Dresdner Abkommens): neue Arbeit wird zuerst der IEC angeboten, parallele Abstimmung, IEC-Normen werden als EN übernommen.",
+   "source_url": "https://cencenelec.eu/about-cenelec/cenelec-and-iec-cooperation",
+   "source_name": "CEN-CENELEC: CENELEC and IEC cooperation",
+   "confidence": "medium",
+   "note": "Daten nicht im Skript; nur Prinzip 'IEC zuerst, parallele Abstimmung'."
+  },
+  {
+   "claim": "Das DIN ist ein eingetragener Verein und gemäß Normenvertrag vom 5. Juni 1975 von der Bundesrepublik als nationale Normungsorganisation anerkannt; es erhielt keine hoheitlichen Befugnisse. DIN ist Mitglied von CEN, CENELEC und ISO.",
+   "source_url": "https://dserver.bundestag.de/btd/14/084/1408454.pdf",
+   "source_name": "Bundestag Drucksache 14/8454",
+   "confidence": "high",
+   "note": "Vertrag wurde 2025 als 50 Jahre gefeiert: bundeswirtschaftsministerium.de Pressemitteilung 2025-11-05."
+  },
+  {
+   "claim": "DIN VDE 0100-410 hat die Ausgabe 2018-10 (VDE 0100-410:2018-10); sie setzt HD 60364-4-41:2017 + A11:2017 um. Frühere Ausgabe 2007-06 ist zurückgezogen. Zuständig: DKE UK 221.1 'Schutz gegen elektrischen Schlag'.",
+   "source_url": "https://www.vde-verlag.de/standards/0100481/din-vde-0100-410-vde-0100-410-2018-10.html",
+   "source_name": "VDE VERLAG / DIN Media",
+   "confidence": "medium",
+   "note": "Stand der Recherche 2026-10-20; Ausgabe muss vor Nutzung geprüft werden. Im Skript nur als Beispiel mit Warnhinweis."
+  },
+  {
+   "claim": "Eine VDE-Norm ist zugleich eine VDE-Bestimmung im Sinne von VDE 0022 und wird nach einem vom VDE-Präsidium beschlossenen Genehmigungsverfahren unter ihrer Nummer in das VDE-Vorschriftenwerk aufgenommen.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-vde-0100-410/98297356",
+   "source_name": "DIN Media (Ausgabe 2007 der Norm)",
+   "confidence": "medium",
+   "note": "Formulierung aus der Norm nicht zitiert, nur sinngemäß."
+  },
+  {
+   "claim": "Im Namen 'DIN EN IEC 81346-1:2024-07' zeigt das Präfix 'DIN EN IEC' eine übernommene europäische bzw. internationale Norm; die Zahl 81346-1 ist die Zählnummer (Teil 1); das Datum nach dem Doppelpunkt ist das DIN-Ausgabedatum (Jahr-Monat); die Jahreszahl im Titel (EN IEC 81346-1:2022) bezeichnet die zugrunde liegende EN/IEC-Ausgabe.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-iec-81346-1/371543012",
+   "source_name": "DIN Media",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Norm-Entwürfe werden der Öffentlichkeit zur Stellungnahme vorgelegt; sie liegen im DIN-Entwurfsportal (din.de/go/entwuerfe), Registrierung kostenfrei. Die Einspruchsfrist steht auf dem jeweiligen Entwurf (Quellen nennen unterschiedliche Dauer).",
+   "source_url": "https://www.deutsche-handwerks-zeitung.de/was-genau-ist-eine-din-norm-und-wie-kann-man-sie-nutzen-154321/",
+   "source_name": "Deutsche Handwerks Zeitung",
+   "confidence": "medium",
+   "note": "Frist nicht nennen; nur 'Enddatum steht auf dem Entwurf'."
+  },
+  {
+   "claim": "DIN-Normen sind grundsätzlich freiwillig anzuwenden; rechtlich bindend werden sie durch Verweis in Gesetzen, Verordnungen oder Verträgen.",
+   "source_url": "https://www.kan.de/fileadmin/Redaktion/Dokumente/Fachbeitraege/de/dguv_forum_1-2_2018_normung_und_rechtsprechung.pdf",
+   "source_name": "DGUV Forum / KAN: Normung und Rechtsprechung",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Gerichte behandeln DIN-Normen oft als anerkannte Regeln der Technik (Anscheinsbeweis/Vermutung), die Normen sind aber nicht mit den anerkannten Regeln der Technik identisch; eine veraltete Norm muss nicht maßgeblich sein.",
+   "source_url": "https://bundestag.de/resource/blob/677848/f35cfe3e47845c4c9ae2b6839a9e6a2c/WD-7-198-19-pdf-data.pdf",
+   "source_name": "Wissenschaftliche Dienste des Bundestags WD 7-198/19",
+   "confidence": "medium",
+   "note": "Nur als Orientierung, keine Rechtsberatung."
+  },
+  {
+   "claim": "DIN-VDE-Normen mit Sicherheitsbezug gelten allgemein als anerkannte Regeln der Technik; ihre rechtliche Wirkung ergibt sich aus Verweisen in Rechtsvorschriften (Grundlage u. a. VDE 0022 und Normenvertrag).",
+   "source_url": "https://www.vde-verlag.de/normen/dguv.pdf",
+   "source_name": "VDE VERLAG Vorwort DGUV",
+   "confidence": "medium",
+   "note": "Formulierung vorsichtig: 'gelten in der Regel als'."
+  },
+  {
+   "claim": "Das VDE-Prüfzeichen ist ein freiwilliges, privates Prüfzeichen des VDE Instituts für elektrotechnische Produkte; nicht gesetzlich vorgeschrieben.",
+   "source_url": "https://www.vde.com/tic-de/zeichen-und-zertifikate",
+   "source_name": "VDE Prüf- und Zertifizierungsinstitut",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Das VDE Institut vergibt Prüfzeichen nach Prüfung des Produkts, Besichtigung der Fertigungsstätte und mit regelmäßiger Fertigungsüberwachung.",
+   "source_url": "https://www.vde.com/tic-de/zeichen-und-zertifikate/pruefzeichen-und-bescheinigungen",
+   "source_name": "VDE Prüf- und Zertifizierungsinstitut",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Das VDE-Prüfzeichen ist nicht dasselbe wie die CE-Kennzeichnung, die Konformität mit EU-Vorschriften dokumentiert.",
+   "source_url": "https://www.vde.com/product-safety-de",
+   "source_name": "VDE Product Safety",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "In Deutschland gibt es rund 90 Normen-Infopoints, oft an Hochschulbibliotheken; dort kann das Deutsche Normenwerk kostenfrei, meist elektronisch, eingesehen werden. Öffnungszeiten/Zugang vorher prüfen.",
+   "source_url": "https://www.uni-muenster.de/MediBib/aktuelles/wiki/din-normen",
+   "source_name": "Uni Münster: DIN-Normen in Bibliotheken",
+   "confidence": "medium",
+   "note": "Anzahl nicht im Skript."
+  },
+  {
+   "claim": "Beuth Verlag (DIN Media) bietet Online-Recherche nach Normen; Inhaltsverzeichnisse frei, Volltexte kostenpflichtig.",
+   "source_url": "https://www.uni-muenster.de/MediBib/aktuelles/wiki/din-normen",
+   "source_name": "Uni Münster: DIN-Normen in Bibliotheken",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "VDE VERLAG vertreibt das VDE-Vorschriftenwerk gedruckt, auf DVD oder als Online-Abo, auch in Auswahlen; die VDE NormenBibliothek erlaubt Lesen online, aber keinen Download aus lizenzrechtlichen Gründen.",
+   "source_url": "https://www.vde-verlag.de/service-en/company-overview.html",
+   "source_name": "VDE VERLAG Company overview; UB TUM",
+   "confidence": "medium",
+   "note": "Beuth/VDE-Verlag-Kooperation nicht belegt."
+  }
+ ],
+ "dropped": [
+  "Kennzeichnung von Entwürfen mit vorangestelltem 'E' (E DIN VDE ...) - nicht aus Quelle belegt; im Skript nur 'Entwurf' ohne Buchstabenregel.",
+  "Konkrete Dauer der Einspruchsfrist (2, 4 oder 6 Monate) - Quellen widersprüchlich.",
+  "Prozentzahl IEC-Anteil (70-85 Prozent) - schwankende Angaben; nur 'der größte Teil'.",
+  "Preise des VDE-Vorschriftenwerks (Forum-Angaben) - nicht amtlich.",
+  "Exklusivvertrieb/Kooperation zwischen Beuth und VDE VERLAG - nicht belegt.",
+  "Details zum Schlichtungsverfahren nach Einspruch (Forum-Quelle, DIN 820-4) - nicht amtlich.",
+  "Urheberrechtsbeschränkung der DKE-Entwürfe - nur österreichische Quelle; stattdessen allgemeine Regel 'Normen nicht kopieren'.",
+  "Konkrete Fristen der Rücknahme nationaler Normen (6 Monate/3 Jahre) - CEN-Quelle, nicht CENELEC-Elektro.",
+  "Beispiel DIN EN 61355-1 mit VDE 0040-3 - IEC 61355-1 ist durch IEC 81355-1:2024 abgelöst (siehe E-F06); im Skript ersetzt durch DIN VDE 0100-410.",
+  "Aussage 'DIN vertritt Deutschland in CENELEC' - Quellen widersprüchlich (DKE vertritt Deutschland in CENELEC und IEC); im Skript nur 'DIN ist Mitglied in CEN und ISO'.",
+  "Konsens-Arbeitsweise von DIN und 'Staat hat DIN nur als Organisation anerkannt' - nicht belegt.",
+  "Mitarbeit von Ingenieuren in Fachgremien / Hochschulen und Behörden in Fachgremien - nur teilweise belegt.",
+  "Online-Datenbank des VDE Instituts - nicht belegt.",
+  "Das VDE-Prüfzeichen stehe für Sicherheit bei elektrischen, mechanischen und weiteren Gefährdungen - Qualitätsversprechen, nicht belegt.",
+  "Definition der 'anerkannten Regeln der Technik' (was Fachleute als richtig und bewährt ansehen) - Rechtsbegriff, nicht belegt; Skript sagt nur, dass es ein Rechtsbegriff ist und vom Einzelfall abhängt.",
+  "Rechtliche Aussagen zu Verträgen ('rechtlich sicher nur mit klaren Absprachen', 'Norm mit Ausgabedatum in den Vertrag schreiben') - Rechtsberatung, nicht belegt.",
+  "Urheberrechtliche Einordnung von Normen ('geschützte Werke', Foto/Screenshot ist Kopieren) - nicht belegt; nur Regel 'Normtexte nicht kopieren'.",
+  "'Behörden, Firmen und Versicherungen achten auf Normen' und 'Viele Firmen haben schon Zugang zu Normen' - nicht belegt.",
+  "CENELEC-Leitfaden zur Übernahme von IEC-Normen - belegt ist nur CENELEC Guide 12 zur Rücknahme entgegenstehender Normen."
+ ]
+}
