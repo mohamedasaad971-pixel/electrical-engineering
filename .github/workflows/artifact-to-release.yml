@@ -1,0 +1,36 @@
+name: artifact-to-release
+
+# Copies an already-built artifact into a DRAFT release (private to collaborators).
+# No rebuild and no text-to-speech: it only moves existing files.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "build-video run id that produced the artifact"
+        required: true
+      artifact:
+        description: "artifact name, e.g. E-F01-rev1"
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact }}
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: files
+      - name: Draft release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ls -la files
+          tag="media-${{ inputs.artifact }}"
+          gh release create "$tag" --draft --title "$tag" --notes "Built media (private draft). Not published." -R "$GITHUB_REPOSITORY" || true
+          gh release upload "$tag" files/* --clobber -R "$GITHUB_REPOSITORY"
