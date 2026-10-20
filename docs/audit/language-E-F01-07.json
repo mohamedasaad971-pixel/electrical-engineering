@@ -1,0 +1,2738 @@
+[
+ {
+  "video": "E-F01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "[next] Arabic NEXT line starts with the Latin id 'E-F02' (edge rule). NEXT format also differs from the other six videos (F02 and F05 use full sentences, F01 uses 'id: title').",
+  "suggested_fix": "DE: Nächstes Video: Das System der Normen || AR: الفيديو القادم: منظومة المعايير || EN: Next video: The system of standards"
+ },
+ {
+  "video": "E-F01",
+  "scene": 0,
+  "line": 5,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q5 option 2] Arabic 'في أي قانون لا' is garbled/ungrammatical (negation misplaced).",
+  "suggested_fix": "AR: ليس في أي قانون"
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with a Latin word (Elektrofachkraft), violating the edge rule; the German term is also left untranslated here while glossary/quiz use other Arabic renderings.",
+  "suggested_fix": "هناك مصطلح محوري هو «الشخص المؤهَّل كهربائيًا»، ويُسمى بالألمانية إليكتروفاخكرافت."
+ },
+ {
+  "video": "E-F01",
+  "scene": 20,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong pronoun/referent: 'Er' has no antecedent (the subject of the scene is 'die Berufsbezeichnung', feminine, and the line comes after 'das ist ein eigenes Thema'). Also the logical order is off: the line describing who the title applies to should follow line 2.",
+  "suggested_fix": "DE: Sie gilt für Personen mit einem technischen Studium, aber die Einzelheiten regelt das jeweilige Land. (Move this line to position 3, directly after line 2.) || AR: ينطبق هذا اللقب على من أنهى دراسة تقنية، لكن التفاصيل تنظّمها كل ولاية. || EN: It applies to people with a technical degree, but the details are set by each state."
+ },
+ {
+  "video": "E-F02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "[next] NEXT field points to the wrong topic (see S22.7).",
+  "suggested_fix": "DE: Nächstes Video: Der rechtliche Rahmen || AR: الفيديو القادم: الإطار القانوني || EN: Next video: The legal framework"
+ },
+ {
+  "video": "E-F02",
+  "scene": 3,
+  "line": 1,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Counting error: 'vier Namen' but five bodies are named (DIN, DKE, VDE, IEC, CENELEC); slide heading 'Vier Namen, vier Rollen' repeats it. Also TTS: C is read 'Ze' (as in 'Ze-E' for CE in S16), CEN/CENELEC start with a 'Z' sound; initial 'S' would be voiced.",
+  "suggested_fix": "DE: Am Anfang stehen drei deutsche Namen: DIN, DKE und VDE. Dazu kommen die Organisationen IEC und CENELEC. (slide heading: Die Organisationen im Überblick) || TTS: Am Anfang stehen drei deutsche Namen: Din, De-Ka-E und Fau-De-E. Dazu kommen die Organisationen I-E-Ze und Zenelek. || AR: في البداية ثلاثة أسماء ألمانية: دين ودكه وفدي، ويضاف إليها منظمتا آي إي سي وسينيليك. || EN: At the start there are three German names: DIN, DKE and VDE. Added to them are the bodies IEC and CENELEC."
+ },
+ {
+  "video": "E-F02",
+  "scene": 6,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement error: 'وهي التي تحتضن دكه' refers to VDE (masculine, 'فدي هو' in S3.4); also 'Er trägt die DKE' means VDE co-sponsors the DKE.",
+  "suggested_fix": "وهو يحتضن دكه."
+ },
+ {
+  "video": "E-F02",
+  "scene": 7,
+  "line": 4,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS misreads the number: 'eins-und-sechzig-dreihundertfünfundfünfzig' is not 61355. Also the Arabic line ends with digits and DIN EN 61355-1 is shown as a current example although F06 S17 says IEC 61355-1 was replaced by IEC 81355-1 (2024). Use a still-valid example consistent with F06 (DIN EN 61082-1, VDE 0040-1).",
+  "suggested_fix": "DE: Ein Beispiel ist DIN EN 61082-1 mit der VDE-Nummer 0040-1. || TTS: Ein Beispiel ist Din E-En einundsechzig-null-zweiundachtzig, Teil eins, mit der Fau-De-E-Nummer null-null-vierzig, Teil eins. || AR: ومن الأمثلة دين إي إن 61082-1، وهو يحمل أيضًا رقم فدي 0040-1 ضمن المجموعة. || EN: One example is DIN EN 61082-1 with the VDE number 0040-1."
+ },
+ {
+  "video": "E-F02",
+  "scene": 11,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "المثال هو دين إي إن آي إي سي 81346-1، وتاريخ إصداره 2024-07 أي يوليو."
+ },
+ {
+  "video": "E-F02",
+  "scene": 13,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "المعيار دين فدي 0100-410 مثال معروف على ذلك."
+ },
+ {
+  "video": "E-F02",
+  "scene": 13,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with the digits '2026' (edge rule). 'unserer Recherche' is also an odd on-air phrase for learners; state the date as a status.",
+  "suggested_fix": "DE: Das ist der Stand im Oktober 2026. || TTS: Das ist der Stand im Oktober zweitausendsechsundzwanzig. || AR: هذا هو الوضع في أكتوبر 2026 ميلادية. || EN: This is the status as of October 2026."
+ },
+ {
+  "video": "E-F02",
+  "scene": 22,
+  "line": 7,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong next-video pointer: the next video (E-F03) is the legal framework (EnWG, product safety, liability), not 'apply this knowledge in daily work'. Same wrong text in the NEXT field.",
+  "suggested_fix": "DE: Im nächsten Video geht es um den rechtlichen Rahmen: Energiewirtschaftsgesetz, Produktsicherheit und Haftung. || AR: في الفيديو القادم نتناول الإطار القانوني: قانون الطاقة وسلامة المنتجات والمسؤولية. || EN: In the next video we look at the legal framework: Energy Industry Act, product safety and liability."
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 5,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q5 option 1] Same collision: 'صاحب العمل' for Auftraggeber while Q4 answer 'صاحب العمل' is the Unternehmer.",
+  "suggested_fix": "AR: تجاه الجهة المتعاقدة فقط"
+ },
+ {
+  "video": "E-F03",
+  "scene": 3,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Mistranslation: 'Haftung' (liability) is rendered 'الضمان', which is the term for Gewährleistung in S20 (warranty). Verantwortung and Haftung are also both 'المسؤولية' elsewhere (S19.1, S19.8).",
+  "suggested_fix": "ثالثًا: التوصيل بالشبكة. رابعًا: المسؤولية والمساءلة القانونية."
+ },
+ {
+  "video": "E-F03",
+  "scene": 5,
+  "line": 2,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Line is 24 words (limit 20), hard to speak as one TTS breath.",
+  "suggested_fix": "DE: Bei Anlagen für Strom gilt eine Vermutung. Halten Sie die technischen Regeln des VDE ein, dann gelten die anerkannten Regeln der Technik als erfüllt. || TTS: Bei Anlagen für Strom gilt eine Vermutung. Halten Sie die technischen Regeln des Fau-De-E ein, dann gelten die anerkannten Regeln der Technik als erfüllt. || AR: في منشآت الكهرباء تُطبَّق قرينة: إذا التزمتم بالقواعد التقنية لرابطة فدي، فتُعدّ القواعد المعترف بها للتقنية متحققة. || EN: For electricity installations a presumption applies: if you follow the technical rules of the VDE, the recognised rules of technology count as met."
+ },
+ {
+  "video": "E-F03",
+  "scene": 5,
+  "line": 3,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "DVGW is spelled wrongly: 'De-Fau-G-Fau-Fau-E' has six letters; the abbreviation is D-V-G-W.",
+  "suggested_fix": "Für Gas und Wasserstoff gilt das Regelwerk des De-Fau-Ge-We."
+ },
+ {
+  "video": "E-F03",
+  "scene": 10,
+  "line": 2,
+  "severity": "error",
+  "lang": "de",
+  "issue": "'Maschinenregelung' is not the legal term; slide and S14 say Maschinenverordnung. AR 'تنظيم الآلات' is misleading.",
+  "suggested_fix": "DE: Die Niederspannungsrichtlinie, die EMV-Richtlinie und die Maschinenverordnung. || TTS: Die Niederspannungsrichtlinie, die E-M-Fau-Richtlinie und die Maschinenverordnung. || AR: توجيه الجهد المنخفض، وتوجيه التوافق الكهرومغناطيسي، ولائحة الآلات. || EN: The Low Voltage Directive, the EMC Directive and the Machinery Regulation."
+ },
+ {
+  "video": "E-F03",
+  "scene": 11,
+  "line": 1,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS does not match the German line: it adds 'zweitausendvierzehn Schrägstrich fünfunddreißig E-U' which is not in 'de' (tts must equal de).",
+  "suggested_fix": "Die Niederspannungsrichtlinie gilt für elektrische Betriebsmittel in einem bestimmten Spannungsbereich."
+ },
+ {
+  "video": "E-F03",
+  "scene": 17,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Mistranslation: 'Hausanschlusssicherung' is the house connection fuse, 'فاصم' means circuit breaker; F05/F06 use 'مصهر/منصهر'.",
+  "suggested_fix": "والمقصود المنشأة الكهربائية بعد المصهر الرئيسي للتوصيل المنزلي."
+ },
+ {
+  "video": "E-F03",
+  "scene": 18,
+  "line": 7,
+  "severity": "error",
+  "lang": "en",
+  "issue": "English softens the DE obligation: 'müssen dokumentiert werden' (must) vs 'should be documented'.",
+  "suggested_fix": "Inspections must be documented so that they can be proven later."
+ },
+ {
+  "video": "E-F03",
+  "scene": 20,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic collision: 'Auftraggeber' (client) and 'Unternehmer' (employer, S18, Q4) are both 'صاحب العمل'; makes Q4/Q5 ambiguous. Use 'الجهة المتعاقدة' for Auftraggeber.",
+  "suggested_fix": "الضمان يتعلق بالعيوب تجاه الجهة المتعاقدة بناءً على العقد."
+ },
+ {
+  "video": "E-F03",
+  "scene": 20,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Same Auftraggeber/Unternehmer collision.",
+  "suggested_fix": "تذكروا: العقد يعني الجهة المتعاقدة، وتأمين مصادر الخطر يعني الغير."
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 2,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q2] Arabic question ends with Latin 'EFKffT' (edge rule); 'للـ' + Latin is awkward.",
+  "suggested_fix": "AR: ماذا يحق لـ EFKffT فعله؟"
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 4,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q4 option 1] Arabic option ends with Latin 'ppa'.",
+  "suggested_fix": "AR: مع إضافة ppa قبل الاسم"
+ },
+ {
+  "video": "E-F04",
+  "scene": 4,
+  "line": 9,
+  "severity": "error",
+  "lang": "de",
+  "issue": "DE says 'Das Gesetz' but the source is DGUV Vorschrift 3 (an Unfallverhütungsvorschrift, S3.1); AR/EN already say 'rule'.",
+  "suggested_fix": "Die Vorschrift spricht von Beurteilen und Gefahren erkennen."
+ },
+ {
+  "video": "E-F04",
+  "scene": 5,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic 'شهادة ماستر' reads as a Master's degree, not Meister; the DE sentence is also not parallel ('durch Ausbildung, Meister, Techniker oder Ingenieurabschluss').",
+  "suggested_fix": "DE: Üblich ist ein Nachweis durch Berufsausbildung, Meisterbrief, Technikerabschluss oder Ingenieurabschluss. || AR: المعتاد إثباتها بتدريب مهني أو شهادة معلّم حرفة (مايستر) أو شهادة فنّي أو شهادة مهندس. || EN: Proof is usually a vocational qualification, a master craftsman's certificate, a technician's qualification or an engineering degree."
+ },
+ {
+  "video": "E-F04",
+  "scene": 5,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Mistranslation: Schaltanlagen (switchgear) is rendered 'لوحات التوزيع' (= Verteiler, used in F05/F07); word order is also awkward.",
+  "suggested_fix": "ومع ذلك يحتاج إلى خبرة في هذا المجال بالذات عند التعامل مع منظومات القطع والتوزيع."
+ },
+ {
+  "video": "E-F04",
+  "scene": 6,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with a Latin acronym (edge rule).",
+  "suggested_fix": "ولذلك يمكن للمنشأة تأهيله بصيغة EFKffT هذه."
+ },
+ {
+  "video": "E-F04",
+  "scene": 12,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with a Latin acronym (edge rule).",
+  "suggested_fix": "يمكن لصاحب العمل تفويض واجبات إلى VEFK، أي المسؤول الكهربائي المؤهَّل."
+ },
+ {
+  "video": "E-F04",
+  "scene": 14,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'HwO' (edge rule).",
+  "suggested_fix": "حرفة فني الكهرباء مدرجة في الملحق A من قانون الحِرَف (HwO) الألماني."
+ },
+ {
+  "video": "E-F04",
+  "scene": 14,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with '7b' (edge rule); 'العمال القدامى' is a calque of Altgesellen (F01 uses another rendering).",
+  "suggested_fix": "توجد طرق بدون شهادة المايستر، مثل مسار الحِرَفيين ذوي الخبرة وفق المادة 7b من القانون ذاته."
+ },
+ {
+  "video": "E-F04",
+  "scene": 14,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with the digit 8 (edge rule).",
+  "suggested_fix": "كما يمكن في حالات معينة الحصول على استثناء وفق المادة 8 من القانون ذاته."
+ },
+ {
+  "video": "E-F04",
+  "scene": 15,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "HwO is spelled 'Ha-Fau-O'; W is 'We' in German spelling.",
+  "suggested_fix": "Nach Paragraf sieben Absatz zwei Ha-We-O zählt ein Hochschulabschluss in der passenden Fachrichtung."
+ },
+ {
+  "video": "E-F04",
+  "scene": 18,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'ppa' (edge rule).",
+  "suggested_fix": "ويوقّع مع إضافة ppa قبل اسمه."
+ },
+ {
+  "video": "E-F04",
+  "scene": 19,
+  "line": 2,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Word order makes the sentence ambiguous ('Wer technisch freigibt, regelt die Firma intern').",
+  "suggested_fix": "DE: Die Firma regelt intern, wer technisch freigibt. || AR: تحدد الشركة داخليًا من يعتمد فنيًا. || EN: The company regulates internally who gives technical approval."
+ },
+ {
+  "video": "E-F05",
+  "scene": 1,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with a Latin word (edge rule); term left untranslated.",
+  "suggested_fix": "كمهندس في ألمانيا ستعملون كثيرًا مع أشخاص مؤهَّلين كهربائيًا، أي مع Elektrofachkräfte، في عملكم اليومي."
+ },
+ {
+  "video": "E-F05",
+  "scene": 2,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "[slide term] 'Unterweisung' is rendered 'التوجيه والتعليم المهني' (= vocational education) — wrong meaning. Unify with F04 EUP terminology (Unterweisung = إرشاد).",
+  "suggested_fix": "AR: الإرشاد والتدريب داخل المنشأة || EN: instruction (safety briefing)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 5,
+  "line": 4,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS drops the word 'Die' that is in the German line (same in S15.1).",
+  "suggested_fix": "Die De-Ge-U-Fau Vorschrift drei betrifft elektrische Anlagen und Betriebsmittel."
+ },
+ {
+  "video": "E-F05",
+  "scene": 5,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Mistranslation: 'DGUV Vorschrift 3' rendered 'اللائحة الثالثة' (the third regulation) — loses the proper name and conflicts with F03 'لائحة DGUV رقم 3'. Same in title, S13.3, S15.1, S22.3.",
+  "suggested_fix": "لائحة DGUV رقم 3 للتأمين ضد الحوادث تخص المنشآت والمعدات الكهربائية."
+ },
+ {
+  "video": "E-F05",
+  "scene": 5,
+  "line": 10,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic 'المعيار ... المذكور' refers to nothing: this is the first mention of VDE 0105-100. Several lines hide identifiers behind 'المذكور' (S7.2, S14.2, S14.10, S17.4).",
+  "suggested_fix": "معيار VDE 0105-100 يصف تشغيل المنشآت."
+ },
+ {
+  "video": "E-F05",
+  "scene": 7,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'المعيار المذكور' with no antecedent; '6.2' read as 'السادس فاصلة اثنان'.",
+  "suggested_fix": "وهي مذكورة في معيار VDE 0105-100، في البند 6.2 من المعيار."
+ },
+ {
+  "video": "E-F05",
+  "scene": 7,
+  "line": 3,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Logic error: the five rules are what MAKES an installation spannungsfrei; 'spannungsfrei gemachten' says it has already been done.",
+  "suggested_fix": "DE: Sie gelten für Arbeiten an Anlagen, die spannungsfrei gemacht werden. || AR: وتنطبق على الأعمال في المنشآت التي يُراد فصل الجهد عنها. || EN: They apply to work on installations that are to be made safe by de-energising."
+ },
+ {
+  "video": "E-F05",
+  "scene": 12,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Grammar error: 'تُعاد التشغيل' (feminine verb with masculine noun; 'أعاد' needs the passive 'يُعاد').",
+  "suggested_fix": "وفي النهاية يُعاد التشغيل بترتيب معكوس."
+ },
+ {
+  "video": "E-F05",
+  "scene": 13,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with a Latin word (edge rule).",
+  "suggested_fix": "الشهادة الهندسية وحدها لا تجعل الشخص شخصًا مؤهَّلًا كهربائيًا."
+ },
+ {
+  "video": "E-F05",
+  "scene": 13,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong video order: F04 (Elektrofachkraft) comes BEFORE this video, but the line promises it for 'a separate episode' later.",
+  "suggested_fix": "DE: Mehr zur Elektrofachkraft haben Sie im vorigen Video gehört. || AR: سمعتم المزيد عن الشخص المؤهَّل كهربائيًا في الفيديو السابق. || EN: You heard more about the Elektrofachkraft in the previous video."
+ },
+ {
+  "video": "E-F05",
+  "scene": 14,
+  "line": 1,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Number agreement: 'Arbeiten unter Spannung ist ... Sie ist erlaubt' mixes singular/plural; use plural consistently.",
+  "suggested_fix": "Arbeiten unter Spannung sind nur eine Ausnahme. (S14.3: Sie sind erlaubt, wenn keine Gefährdung auftreten kann.)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 14,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'بالحرفين المذكورين' with no antecedent (AuS never shown in Arabic).",
+  "suggested_fix": "ويُختصر غالبًا بالرمز AuS في الألمانية."
+ },
+ {
+  "video": "E-F05",
+  "scene": 14,
+  "line": 10,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'القاعدة المذكورة رقم مئة وثلاثة' hides the identifier (DGUV Regel 103-011) and is incomplete.",
+  "suggested_fix": "وترد القواعد المتعلقة بذلك، ضمن أمور أخرى، في قاعدة DGUV رقم 103-011 للتأمين ضد الحوادث."
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 1,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS drops 'Die'.",
+  "suggested_fix": "Die De-Ge-U-Fau Vorschrift drei verlangt Prüfungen."
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Inconsistent role: Unternehmer is 'صاحب العمل' everywhere else (F03 S18, F04), here 'صاحب المنشأة'; EN says 'operator' instead of 'employer'.",
+  "suggested_fix": "AR: على صاحب العمل أن يجعل المنشآت والمعدات تُفحص. || EN: The employer must have installations and equipment inspected."
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 6,
+  "severity": "error",
+  "lang": "en",
+  "issue": "English adds 'and fires' which is not in the German/Arabic.",
+  "suggested_fix": "This lowers the risk of accidents."
+ },
+ {
+  "video": "E-F05",
+  "scene": 17,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'تُسمى ... اختصارًا بهذا الاسم' never states the abbreviation (PSA).",
+  "suggested_fix": "تُسمى معدات الوقاية الشخصية اختصارًا PSA في اللغة الألمانية."
+ },
+ {
+  "video": "E-F05",
+  "scene": 17,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Ungrammatical: 'hilft' takes the dative, so 'Die richtige Auswahl hilft die DGUV Information' is wrong.",
+  "suggested_fix": "DE: Bei der richtigen Auswahl hilft die DGUV Information 203-077. || TTS: Bei der richtigen Auswahl hilft die De-Ge-U-Fau Information zweihundertdrei Strich null sieben sieben. || AR: ويساعد في الاختيار الصحيح منشور DGUV Information رقم 203-077 الصادر عن التأمين ضد الحوادث. || EN: The DGUV Information 203-077 helps with making the right choice."
+ },
+ {
+  "video": "E-F05",
+  "scene": 17,
+  "line": 8,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS reorders the sentence and does not match 'de' ('PSA ersetzt aber nie ...').",
+  "suggested_fix": "Pe-Es-A ersetzt aber nie die fünf Sicherheitsregeln."
+ },
+ {
+  "video": "E-F05",
+  "scene": 19,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'هذه الهيئة' has no antecedent; BG ETEM is not named in Arabic.",
+  "suggested_fix": "هيئة BG ETEM هي جهة تأمين قانوني ضد حوادث العمل."
+ },
+ {
+  "video": "E-F05",
+  "scene": 20,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "[slide term] 'مخطط التوصيل' for Schaltplan conflicts with F06, where 'مخططات التوصيل' = Anschlusspläne and Schaltplan = 'مخطط كهربائي'.",
+  "suggested_fix": "مخطط كهربائي"
+ },
+ {
+  "video": "E-F05",
+  "scene": 20,
+  "line": 2,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Logic error: 'sollten vorhanden sein, oder ... sind gekennzeichnet' makes the two requirements alternatives, but the slide lists both.",
+  "suggested_fix": "DE: Aktuelle Schaltpläne sollten vorhanden und die Stromkreise eindeutig gekennzeichnet sein. || AR: يجب توفر مخططات حديثة وأن تكون الدارات معلَّمة بوضوح. || EN: Current circuit diagrams should be available and the circuits clearly labelled."
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "All five quiz questions have answer index 0 — learners can pass by always choosing the first option. Re-order options (and AR/EN in step) and set answers to [2,1,2,1,0].",
+  "suggested_fix": "Q1 options: [Klemmenplan, Installationsplan, Übersichtsschaltplan] answer 2; Q2: [Sicherung, Motor, Relais] answer 1; Q3: [13 und 14, 21 und 22, A1 und A2] answer 2; Q4: [Aus dem Gedächtnis, Aus der IEC-60617-Datenbank, Vom Hersteller allein] answer 1; Q5 unchanged answer 0."
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 3,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q3 options] Arabic options start/end with Latin or digits.",
+  "suggested_fix": "AR: الطرفان A1 وA2 معًا / الرقمان 13 و14 معًا / الرقمان 21 و22 معًا"
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 4,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q4 option 1] Arabic option ends with digits.",
+  "suggested_fix": "AR: من قاعدة بيانات المعيار IEC 60617 الرسمية"
+ },
+ {
+  "video": "E-F06",
+  "scene": 2,
+  "line": 5,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Overstatement: 'Ein Plan ist auch ein Vertrag' is legally wrong; AR/EN soften it ('بمثابة', 'a kind of') so DE and translations diverge.",
+  "suggested_fix": "DE: Ein Plan ist auch ein Nachweis. Er zeigt, was geliefert und gebaut wurde. || AR: والمخطط هو أيضًا وثيقة إثبات، فهو يبيّن ما تم توريده وبناؤه. || EN: A diagram is also a record. It shows what was delivered and built."
+ },
+ {
+  "video": "E-F06",
+  "scene": 5,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "[slide term] 'allpolig' rendered 'متعدد الأقطاب' (multipole) — misleading; pair with 'أحادي الخط' as 'متعدد الخطوط'. Also S5.2.",
+  "suggested_fix": "AR: متعدد الخطوط || EN: multi-line (all-pole)"
+ },
+ {
+  "video": "E-F06",
+  "scene": 5,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "See slide term fix.",
+  "suggested_fix": "وهو متعدد الخطوط، أي أن كل الموصلات والعناصر ظاهرة."
+ },
+ {
+  "video": "E-F06",
+  "scene": 5,
+  "line": 5,
+  "severity": "error",
+  "lang": "de",
+  "issue": "DE says the current 'fließt' vertically, AR/EN correctly say the paths are drawn so.",
+  "suggested_fix": "Oft sind die Strompfade senkrecht gezeichnet, von oben nach unten."
+ },
+ {
+  "video": "E-F06",
+  "scene": 6,
+  "line": 0,
+  "severity": "error",
+  "lang": "en",
+  "issue": "[slide term] EN 'exploded representation' conflicts with the line EN 'split presentation'; use one term.",
+  "suggested_fix": "split representation"
+ },
+ {
+  "video": "E-F06",
+  "scene": 6,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: 'تقع الملف' (الملف is masculine). DE also says 'im Steuerstrom' (a circuit is meant).",
+  "suggested_fix": "DE: Bei einem Schütz liegt die Spule im Steuerstromkreis, die Kontakte liegen im Laststromkreis. || AR: في الكونتاكتور يقع الملف في دارة التحكم وتقع الملامسات في دارة الحمل."
+ },
+ {
+  "video": "E-F06",
+  "scene": 9,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "المعيار الخاص بها هو IEC 60617، ونسخته الألمانية هي DIN EN 60617 تحديدًا."
+ },
+ {
+  "video": "E-F06",
+  "scene": 9,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "60617 is read 'sechzig-siebzehn' (= 60 17); should be 'sechzig-sechshundertsiebzehn'. Both occurrences in this tts.",
+  "suggested_fix": "Die Norm dafür heißt I-E-Ze sechzig-sechshundertsiebzehn, in Deutschland Din E-En sechzig-sechshundertsiebzehn."
+ },
+ {
+  "video": "E-F06",
+  "scene": 10,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "طريقة بناء المخطط تنظمها سلسلة المعايير IEC 61082 الدولية."
+ },
+ {
+  "video": "E-F06",
+  "scene": 10,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "النسخة الألمانية تسمى DIN EN 61082-1 وهي صادرة في عام 2015 ميلادية."
+ },
+ {
+  "video": "E-F06",
+  "scene": 11,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "هذا الترميز يسمى الترميز المرجعي، وأساسه معيار IEC 81346 الدولي."
+ },
+ {
+  "video": "E-F06",
+  "scene": 13,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with 'M1' (edge rule); 'المنصهر' differs from 'المصهر' (F05).",
+  "suggested_fix": "ويُرمز في مثالنا للمصهر بالرمز F1 وللكونتاكتور بالرمز Q1 وللمرحل بالرمز K1 وللمحرك بالرمز M1 على التوالي."
+ },
+ {
+  "video": "E-F06",
+  "scene": 14,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with 'Q1.' (edge rule).",
+  "suggested_fix": "وتحمل كل الأجزاء الترميز نفسه، كما في Q1 مثلًا."
+ },
+ {
+  "video": "E-F06",
+  "scene": 15,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with 'A2.' (edge rule).",
+  "suggested_fix": "عند كثير من الشركات المصنعة تسمى أطراف ملف الكونتاكتور A1 وA2 عادةً."
+ },
+ {
+  "video": "E-F06",
+  "scene": 15,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "الملامس المساعد المفتوح عادةً يحمل في الغالب الرقمين 13 و14، والمغلق عادةً الرقمين 21 و22 كذلك."
+ },
+ {
+  "video": "E-F06",
+  "scene": 15,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits/Latin (edge rule).",
+  "suggested_fix": "وقواعد ترميز الأطراف موجودة في المعيار DIN EN IEC 60445 المخصص لذلك."
+ },
+ {
+  "video": "E-F06",
+  "scene": 16,
+  "line": 3,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Spoken text says 'DIN EN 81346-2' but slide and S18 say 'DIN EN IEC 81346-2'; AR line also ends with digits.",
+  "suggested_fix": "DE: Zum Beispiel wurde die Norm DIN 6779-2 zurückgezogen. Empfohlen wird DIN EN IEC 81346-2. || TTS: Zum Beispiel wurde die Norm Din sechstausendsiebenhundertneunundsiebzig, Teil zwei, zurückgezogen. Empfohlen wird Din E-En I-E-Ze einundachtzig-dreihundertsechsundvierzig, Teil zwei. || AR: فمثلًا سُحب المعيار DIN 6779-2، ويُوصى بالمعيار DIN EN IEC 81346-2 بدلًا منه. || EN: For example, the standard DIN 6779-2 was withdrawn. DIN EN IEC 81346-2 is recommended."
+ },
+ {
+  "video": "E-F06",
+  "scene": 17,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule). Note: F02 S7.4 presents IEC/EN 61355-1 as a current example although this scene says it was replaced.",
+  "suggested_fix": "كان يُستخدم لذلك المعيار IEC 61355-1، وقد حلّ محله IEC 81355-1 الصادر عام 2024 ميلادية."
+ },
+ {
+  "video": "E-F06",
+  "scene": 19,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with digits (edge rule).",
+  "suggested_fix": "الرموز من قاعدة بيانات IEC والترميز من سلسلة IEC 81346 الدولية."
+ },
+ {
+  "video": "E-F06",
+  "scene": 19,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with 'M1.' (edge rule).",
+  "suggested_fix": "الترميز يتكون من حرف ورقم، كما في Q1 أو M1 مثلًا."
+ },
+ {
+  "video": "E-F07",
+  "scene": 0,
+  "line": 2,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "[Quiz Q2–Q5 options] Arabic options are copies of the German strings, so they start with Latin letters (edge rule) and give no Arabic help. Use Arabic meanings.",
+  "suggested_fix": "AR: Q2: الكونتاكتور / قاطع حماية الخط / طرف التوصيل || Q3: موصل التعادل / موصل الحماية / الموصل الخارجي (الطور) || Q4: ماذا؟ أسرع! / هل يمكنكم إعادة ذلك من فضلكم؟ / هذا خطأ. || Q5: محضر الفحص / قائمة القطع / الاستلام"
+ },
+ {
+  "video": "E-F07",
+  "scene": 3,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with a Latin word (edge rule).",
+  "suggested_fix": "لا تقولوا Kabel فقط، بل قولوا: das Kabel مع أداة التعريف."
+ },
+ {
+  "video": "E-F07",
+  "scene": 3,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "وتعلّموا الجمع مباشرة، مثل die Leitung، die Leitungen، أي الخط والخطوط."
+ },
+ {
+  "video": "E-F07",
+  "scene": 3,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Grammar content wrong: verbs do not agree with the article/gender of a noun; adjectives and pronouns do.",
+  "suggested_fix": "DE: Weil Adjektive und Pronomen sich danach richten. || AR: لأن الصفات والضمائر تتبعها. || EN: Because adjectives and pronouns follow it."
+ },
+ {
+  "video": "E-F07",
+  "scene": 5,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "اختصارًا يُقال LS-Schalter. وفي العامية يُقال أيضًا: Sicherungsautomat، أي القاطع الآلي."
+ },
+ {
+  "video": "E-F07",
+  "scene": 5,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Inconsistent colloquial form: S5.4 says 'FI-Schutz', the slide heading says 'FI-Schalter', S10.3 says 'FI'. AR line also ends with Latin.",
+  "suggested_fix": "DE: Die Fehlerstrom-Schutzeinrichtung heißt international RCD. Umgangssprachlich: FI-Schalter. || TTS: Die Fehlerstrom-Schutzeinrichtung heißt international Er-Ze-De. Umgangssprachlich: Ef-I-Schalter. || AR: تُسمى die Fehlerstrom-Schutzeinrichtung دوليًا RCD، وفي العامية FI-Schalter، وهو الاسم المتداول. || EN: The Fehlerstrom-Schutzeinrichtung is called RCD internationally. Colloquially: FI-Schalter."
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "استمعوا مرة أخرى إلى: das Schütz، die Schütze، أي الكونتاكتور والكونتاكتورات."
+ },
+ {
+  "video": "E-F07",
+  "scene": 7,
+  "line": 10,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "كرروا هذه الكلمات: Spannung، Strom، Widerstand، Leistung، واحدة بعد الأخرى."
+ },
+ {
+  "video": "E-F07",
+  "scene": 8,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS adds 'Das Kürzel ist: El.' which is not in the German line (tts must equal de). The slide lists (L) so the DE line should mention it; AR line also ends with Latin 'Phase.'",
+  "suggested_fix": "DE: Der Außenleiter führt Spannung. Im Alltag hört man auch: Phase. Kürzel: L. || TTS: Der Außenleiter führt Spannung. Im Alltag hört man auch: Phase. Kürzel: El. || AR: نقول: der Außenleiter يحمل الجهد، وفي الحياة اليومية يُقال أيضًا: Phase، ويُرمز إليه بالحرف L في المخططات. || EN: The Außenleiter carries voltage. In everyday talk you also hear: Phase. Symbol: L."
+ },
+ {
+  "video": "E-F07",
+  "scene": 8,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'N.' (edge rule).",
+  "suggested_fix": "نقول: der Neutralleiter متصل بنقطة النجمة في الشبكة، ويُرمز إليه بالحرف N في المخططات."
+ },
+ {
+  "video": "E-F07",
+  "scene": 8,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Technically incomplete/ambiguous: the Schutzleiter connects the housings to earth (AR 'يصل هياكل الأجهزة ببعضها' says 'to each other'); AR ends with Latin 'PE.'",
+  "suggested_fix": "DE: Der Schutzleiter verbindet die Gehäuse der Geräte mit der Erde. Kürzel: PE. || AR: نقول: der Schutzleiter يصل هياكل الأجهزة بالأرض، ويُرمز إليه بالرمز PE في المخططات. || EN: The Schutzleiter connects the housings of the devices to earth. Symbol: PE."
+ },
+ {
+  "video": "E-F07",
+  "scene": 9,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "[slide] Item 4 teaches the wrong Fugen-s example.",
+  "suggested_fix": "items[3]: \"Fugen-s: Leitung + s + Schutz\""
+ },
+ {
+  "video": "E-F07",
+  "scene": 9,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong word-formation example: 'Schalten plus der Schrank' — the first element is 'Schalt', as on the slide and in AR/EN. AR ends with Latin.",
+  "suggested_fix": "DE: Schalt plus Schrank ergibt: der Schaltschrank. || AR: نقول: Schalt مع Schrank تعطي كلمة der Schaltschrank الكاملة. || EN: Schalt plus Schrank gives: der Schaltschrank."
+ },
+ {
+  "video": "E-F07",
+  "scene": 9,
+  "line": 5,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong grammar example: 'Prüfprotokoll' has NO Fugen-s (Prüf + Protokoll); the slide repeats the error ('Fugen-s: Prüf + Protokoll'). AR line ends with Latin.",
+  "suggested_fix": "DE: Manchmal steht ein s in der Mitte. Zum Beispiel: Leitungsschutz, Verbindungsleitung. || AR: أحيانًا يوجد حرف s في الوسط، مثل Leitungsschutz وVerbindungsleitung في الألمانية. || EN: Sometimes there is an s in the middle, for example in Leitungsschutz and Verbindungsleitung."
+ },
+ {
+  "video": "E-F07",
+  "scene": 10,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule); S10 uses 'FI' whereas S5 uses another form.",
+  "suggested_fix": "DE: Sie sagen FI-Schalter. In Dokumenten steht: Fehlerstrom-Schutzeinrichtung. || TTS: Sie sagen Ef-I-Schalter. In Dokumenten steht: Fehlerstrom-Schutzeinrichtung. || AR: يقولون FI-Schalter، وفي الوثائق يُكتب Fehlerstrom-Schutzeinrichtung بالكامل."
+ },
+ {
+  "video": "E-F07",
+  "scene": 11,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "[slide] Slide item 4 'Nicht einschalten! Ich arbeite hier.' differs from the spoken 'Es wird gearbeitet.'",
+  "suggested_fix": "items[3]: \"Nicht einschalten! Es wird gearbeitet.\""
+ },
+ {
+  "video": "E-F07",
+  "scene": 11,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'Du.'; the German 'Sie sagen zu Kollegen oft Sie' is awkward.",
+  "suggested_fix": "DE: Sie siezen Kollegen zuerst, bis man Ihnen das Du anbietet. || AR: تخاطبون الزملاء أولًا بصيغة Sie الرسمية حتى يعرضوا عليكم صيغة Du الودّية. || EN: You address colleagues with Sie at first, until they offer you Du."
+ },
+ {
+  "video": "E-F07",
+  "scene": 12,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Agreement error: 'هل يمكنكم أن تُريني' (second person singular verb with plural addressee).",
+  "suggested_fix": "مثال آخر: هل يمكنكم أن تُروني ذلك من فضلكم؟"
+ },
+ {
+  "video": "E-F07",
+  "scene": 13,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'Elektro Nord'.",
+  "suggested_fix": "نهاركم سعيد، معكم أحمد سمير من شركة إلكترو نورد."
+ },
+ {
+  "video": "E-F07",
+  "scene": 14,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "ابدؤوا هكذا: Sehr geehrte Frau Weber، أو: Sehr geehrter Herr Becker، بحسب المرسل إليه."
+ },
+ {
+  "video": "E-F07",
+  "scene": 14,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'Nord.'.",
+  "suggested_fix": "مثلًا: استفسار عن قائمة القطع لمشروع نورد."
+ },
+ {
+  "video": "E-F07",
+  "scene": 15,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with 'B1.' (edge rule).",
+  "suggested_fix": "أتعلم الألمانية كل يوم، ومستواي الحالي B1 بحسب الإطار الأوروبي."
+ },
+ {
+  "video": "E-F07",
+  "scene": 16,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "[slide] Slide items are in the Präsens ('Ich plane...'); the spoken model answers are in the Perfekt (interview about past tasks).",
+  "suggested_fix": "items: [\"Ich habe Stromkreise und Verteiler geplant.\", \"Ich habe Anlagen geprüft und dokumentiert.\", \"Ich war für die Sicherheit verantwortlich.\", \"Ich habe im Team gearbeitet.\"]"
+ },
+ {
+  "video": "E-F07",
+  "scene": 16,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Ungrammatical Arabic 'يُسألكم'.",
+  "suggested_fix": "سيسألونكم: ما هي مهامكم؟ أجيبوا باختصار ووضوح."
+ },
+ {
+  "video": "E-F07",
+  "scene": 16,
+  "line": 10,
+  "severity": "error",
+  "lang": "de",
+  "issue": "'Verantwortung gehabt' is unidiomatic.",
+  "suggested_fix": "DE: Ich war für ein kleines Team verantwortlich. || AR: كنتُ مسؤولًا عن فريق صغير. || EN: I was responsible for a small team."
+ },
+ {
+  "video": "E-F07",
+  "scene": 17,
+  "line": 11,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin 'Abnahme.'.",
+  "suggested_fix": "تذكّروا الترتيب: أولًا Lastenheft، ثم Pflichtenheft، ثم Abnahme أي الاستلام."
+ },
+ {
+  "video": "E-F07",
+  "scene": 19,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "مرة أخرى أهم الكلمات: das Kabel، die Sicherung، das Schütz بالألمانية."
+ },
+ {
+  "video": "E-F07",
+  "scene": 19,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Arabic line ends with Latin (edge rule).",
+  "suggested_fix": "وكذلك: der Schutzleiter، der Neutralleiter، der Außenleiter بالألمانية."
+ },
+ {
+  "video": "E-F01",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Terminology: 'Elektrofachkraft' has four Arabic renderings across F01/F03/F04/F05 ('فني كهرباء مؤهل', 'فني كهربائي مؤهل', 'شخص مؤهَّل كهربائيًا', untranslated Latin). 'فني' (technician) is wrong because an engineer can be an Elektrofachkraft, and F04 itself says the term is not a job title. EN 'qualified electrician' has the same problem. Use one rendering in all 7 scripts.",
+  "suggested_fix": "AR: شخص مؤهَّل كهربائيًا || EN: Elektrofachkraft (qualified electrical person)"
+ },
+ {
+  "video": "E-F01",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "German glossary entries have no articles (F07 has them). Learners need gender/article for each noun. Plurals optional.",
+  "suggested_fix": "die Elektrofachkraft; der Übertragungsnetzbetreiber; der Verteilnetzbetreiber; die Regelzone; die Netzentwicklung; die Handwerksrolle; das Installateurverzeichnis; die Automatisierungstechnik; die Steuerung; die Inbetriebnahme; das Bauelement; das Ingenieurgesetz; die Instandhaltung"
+ },
+ {
+  "video": "E-F01",
+  "scene": 0,
+  "line": 2,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q2 option 2] German is a fragment ('...oder unter ihrer Aufsicht' has no subject); Arabic/English follow. Use the unified Elektrofachkraft term.",
+  "suggested_fix": "DE: Eine Elektrofachkraft oder jemand unter ihrer Aufsicht || AR: شخص مؤهَّل كهربائيًا أو من يعمل تحت إشرافه || EN: An Elektrofachkraft, or someone working under her or his supervision"
+ },
+ {
+  "video": "E-F01",
+  "scene": 0,
+  "line": 3,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q3] Arabic question 'للصفة' is vague; distractor 'Nur im Ausland' is implausible and not discussed in the video.",
+  "suggested_fix": "DE: Option 3: Ja, wenn der Arbeitgeber zustimmt || AR: Question: هل يكفي العمل لسنوات طويلة وحده للحصول على صفة الشخص المؤهَّل كهربائيًا؟ / Option 3: نعم، إذا وافق صاحب العمل || EN: Option 3: Yes, if the employer agrees"
+ },
+ {
+  "video": "E-F01",
+  "scene": 1,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "No explicit learning outcome; objectives are only implied. Add a measurable goal after line 6.",
+  "suggested_fix": "DE: Am Ende können Sie die vier Tätigkeitsfelder nennen und den Begriff Elektrofachkraft erklären. || AR: وفي النهاية ستتمكنون من ذكر مجالات العمل الأربعة وشرح مصطلح الشخص المؤهَّل كهربائيًا. || EN: At the end you can name the four fields of work and explain the term Elektrofachkraft."
+ },
+ {
+  "video": "E-F01",
+  "scene": 5,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Items 2 and 3 ('Sicherer Betrieb' / 'Zuverlässiger Betrieb') are redundant; the lines mention maintaining and expanding.",
+  "suggested_fix": "items: [\"Viele regionale Betreiber\", \"Sicher und zuverlässig betreiben\", \"Netz warten\", \"Bedarfsgerecht ausbauen\"]"
+ },
+ {
+  "video": "E-F01",
+  "scene": 5,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: EnWG is 'قانون اقتصاد الطاقة' here but 'قانون الطاقة' in F03 (title, lines, glossary). Use 'قانون الطاقة'.",
+  "suggested_fix": "يُلزم قانون الطاقة الألماني مشغّلي الشبكات بتشغيل شبكتهم بأمان وموثوقية."
+ },
+ {
+  "video": "E-F01",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] 'Betriebsmittel' is shown as a slide term (AR 'وسائل التشغيل الكهربائية') but never spoken in scene 7; F03/F05 render it 'معدات كهربائية'. Say it in a line and unify.",
+  "suggested_fix": "DE: Dazu gehören Gebäude und Fabriken mit ihren elektrischen Betriebsmitteln. (replace line 2) / term AR: معدات كهربائية || AR: ويشمل ذلك المباني والمصانع بمعداتها الكهربائية. / term AR: معدات كهربائية || EN: This includes buildings and factories with their electrical equipment."
+ },
+ {
+  "video": "E-F01",
+  "scene": 7,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Die Errichtung und Instandhaltung machen oft Fachbetriebe' is ambiguous (subject/object) and unidiomatic.",
+  "suggested_fix": "Errichtung und Instandhaltung übernehmen oft Fachbetriebe."
+ },
+ {
+  "video": "E-F01",
+  "scene": 7,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: use the unified Elektrofachkraft rendering.",
+  "suggested_fix": "سنرى بعد قليل الدور الذي يؤديه الشخص المؤهَّل كهربائيًا (Elektrofachkraft) في ذلك."
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Same terminology fix for the Elektrofachkraft slide term.",
+  "suggested_fix": "AR: شخص مؤهَّل كهربائيًا || EN: Elektrofachkraft (qualified electrical person)"
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'Meister' is rendered 'أستاذ حرفة' here but 'المايستر' in F04; 'ماستر' in F04 S5.3 reads as a master's degree. Use one rendering across the series.",
+  "suggested_fix": "وتُثبت الصفة عادةً بتأهيل مهني، مثل مهندس كهرباء أو معلّم حرفة كهربائية (مايستر)."
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Berufsgenossenschaft is 'هيئات التأمين' here, 'هيئات التأمين ضد الحوادث' in S9, 'هيئة التأمين ضد إصابات العمل' in F05 glossary. Unify.",
+  "suggested_fix": "وتوجد هذه الصياغة بشكل مشابه في لوائح الوقاية من الحوادث الصادرة عن هيئات التأمين ضد إصابات العمل."
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'wiederholende Arbeiten' is unidiomatic; the standard wording (and slide in F04) is 'wiederkehrende'.",
+  "suggested_fix": "Sie darf nur gleichartige, wiederkehrende Arbeiten nach einer Arbeitsanweisung ausführen."
+ },
+ {
+  "video": "E-F01",
+  "scene": 9,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: see S8.7 (accident insurer).",
+  "suggested_fix": "وهذه القاعدة واردة في لائحة الوقاية من الحوادث الصادرة عن هيئات التأمين ضد إصابات العمل."
+ },
+ {
+  "video": "E-F01",
+  "scene": 10,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: same Meister rendering issue as S8.3 (see F04 S14.2: 'شهادة المايستر').",
+  "suggested_fix": "ومن يعمل لحسابه يحتاج مبدئيًا إلى شهادة معلّم حرفة (مايستر) وإلى قيد في سجل الحرف."
+ },
+ {
+  "video": "E-F01",
+  "scene": 10,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Altgesellenregelung' is spoken without any explanation (not in glossary) and the Arabic 'العامل القديم المؤهل' is a calque; F04 explains it better.",
+  "suggested_fix": "DE: Dafür gibt es Ausnahmen, zum Beispiel für erfahrene Gesellen: die Altgesellenregelung. || AR: وتوجد استثناءات لذلك، مثل مسار الحِرَفيين ذوي الخبرة، المعروف بنظام Altgesellenregelung في الألمانية. || EN: There are exceptions, for example for experienced journeymen: the Altgesellenregelung."
+ },
+ {
+  "video": "E-F01",
+  "scene": 10,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Glossary term 'Installateurverzeichnis' (slide item + glossary) is never spoken in the lines; the Arabic uses 'الاتصال' for Netzanschluss while F03 uses 'التوصيل'.",
+  "suggested_fix": "DE: Für Anschlussarbeiten am Niederspannungsnetz ist außerdem ein Eintrag im Installateurverzeichnis des Netzbetreibers nötig. || AR: وللأعمال المتعلقة بالتوصيل بشبكة الجهد المنخفض يلزم أيضًا قيد في سجل المُركِّبين المعتمدين لدى مشغّل الشبكة. || EN: For connection work on the low-voltage grid an entry in the installer register of the grid operator is also required."
+ },
+ {
+  "video": "E-F01",
+  "scene": 12,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Planung bis Inbetriebnahme' is a clipped phrase that sounds unnatural in speech.",
+  "suggested_fix": "Stellenanzeigen nennen hier oft die Arbeit von der Planung bis zur Inbetriebnahme."
+ },
+ {
+  "video": "E-F01",
+  "scene": 12,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Arabic spells VDE/VDI as 'فاو دي إي/فاو دي آي' but F02 uses 'فدي'; pick one convention for organisation names.",
+  "suggested_fix": "الجمعية المتخصصة المشتركة بين في دي آي وفدي لتقنية القياس والأتمتة تسمى جي إم إيه."
+ },
+ {
+  "video": "E-F01",
+  "scene": 15,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide order] 'Der Weg des Stroms' (generation to use) is a prerequisite for the grid scene but sits after the four fields. Move scene 15 to between scenes 3 and 4.",
+  "suggested_fix": "Reorder: S1, S2, S3, S15, S4, S5 ..."
+ },
+ {
+  "video": "E-F01",
+  "scene": 16,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Line has no actor (the other lines name planners/automation engineers) and the Arabic uses 'اتصال' for Netzanschluss; unify with 'التوصيل'.",
+  "suggested_fix": "DE: Die Netzseite sorgt für den Anschluss der Anlage an das Netz. || AR: ويتولى مجال الشبكات توصيل المنشأة بالشبكة. || EN: The grid side takes care of connecting the plant to the grid."
+ },
+ {
+  "video": "E-F01",
+  "scene": 16,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Arabic 'بشكل متحكَّم به' is stiff and unnatural; German 'Automatisierer' is colloquial.",
+  "suggested_fix": "DE: Automatisierungstechniker sorgen dafür, dass alles gesteuert läuft. || AR: ويحرص مهندسو الأتمتة على أن يعمل كل شيء تحت تحكم دقيق."
+ },
+ {
+  "video": "E-F01",
+  "scene": 17,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Slide items (outdoors, software, details, customers) do not match what is spoken (large systems, programming, developing devices).",
+  "suggested_fix": "items: [\"Große Anlagen und Netze?\", \"Programmieren und Steuern?\", \"Neue Geräte entwickeln?\", \"Genauigkeit und Details?\"]"
+ },
+ {
+  "video": "E-F01",
+  "scene": 17,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'keine einzig richtige Antwort' is ungrammatical German.",
+  "suggested_fix": "Es gibt nicht die eine richtige Antwort."
+ },
+ {
+  "video": "E-F01",
+  "scene": 19,
+  "line": 1,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "English uses US spelling ('summarize') while F02, F03, F05, F06, F07 use British spelling; unify (same in F04).",
+  "suggested_fix": "Let us summarise the four fields in a table."
+ },
+ {
+  "video": "E-F01",
+  "scene": 20,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Ländergesetzen' is inconsistent with the slide and quiz ('Landesgesetzen'); 'Landesgesetze' is the usual legal term.",
+  "suggested_fix": "Sie ist in Landesgesetzen geregelt, die sich leicht unterscheiden."
+ },
+ {
+  "video": "E-F01",
+  "scene": 22,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Recap is incomplete: automation, development and the title Ingenieur (slide item 4) are not recapped in the spoken lines, and L4/L6 repeat the 'next video' announcement. Insert after line 3 and delete line 6.",
+  "suggested_fix": "DE: In der Automatisierung steuern Sie Prozesse, in der Entwicklung entstehen neue Produkte. Der Titel Ingenieur ist durch Landesgesetze geschützt. || AR: في الأتمتة تتحكمون بالعمليات، وفي التطوير تُبتكر منتجات جديدة. ولقب مهندس محمي بقوانين الولايات. || EN: In automation you control processes, in development new products are created. The title Ingenieur is protected by state laws."
+ },
+ {
+  "video": "E-F01",
+  "scene": 22,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'قاموس' means dictionary; the section is a glossary. F05 correctly uses 'مسرد'.",
+  "suggested_fix": "دوّنوا المصطلحات من المسرد وأجيبوا عن الاختبار."
+ },
+ {
+  "video": "E-F02",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "German glossary entries have no articles; add them.",
+  "suggested_fix": "die Norm; die Normungsorganisation; das Ausgabedatum; der Entwurf; die Stellungnahme; das Vorschriftenwerk; das Prüfzeichen; übernehmen (Verb); zurückgezogen (Partizip); die anerkannten Regeln der Technik (Pl.); der Stand der Technik; der Normen-Infopoint; der eingetragene Verein (e. V.)"
+ },
+ {
+  "video": "E-F02",
+  "scene": 0,
+  "line": 5,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q5 option 3] 'Online stellen' is not idiomatic and vague.",
+  "suggested_fix": "DE: Im Internet veröffentlichen || AR: نشرها على الإنترنت || EN: Publish them on the internet"
+ },
+ {
+  "video": "E-F02",
+  "scene": 0,
+  "line": 10,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Terminology/cross-video: 'anerkannte Regeln der Technik' is 'القواعد المعترف بها للتقنية' here but 'قواعد التقنية المعترف بها' in F03. Use this form in both (also S17 slide term).",
+  "suggested_fix": "AR: القواعد المعترف بها للتقنية"
+ },
+ {
+  "video": "E-F02",
+  "scene": 3,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Series-wide TTS: 'I-E-Zett' spells the letter Z; the letter C is 'Ze' (the script itself uses 'Ze-E' for CE). 'Ssenelek' is unlikely to read as a 'Z' sound. This note applies to every tts containing I-E-Zett/Ssenelek/Sen (about 35 lines in F02, F06, F03). It contradicts the project example list, so confirm the convention before bulk change.",
+  "suggested_fix": "I-E-Ze ist die weltweite und Zenelek die europäische Ebene."
+ },
+ {
+  "video": "E-F02",
+  "scene": 4,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "PLAN convention is 'I-So' for ISO ('I-S-O' will be read letter by letter), and 'Sen' will be read with a voiced S.",
+  "suggested_fix": "Din vertritt Deutschland in Zen, Zenelek und I-So."
+ },
+ {
+  "video": "E-F02",
+  "scene": 5,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Arabic 'إن' for EN is also the Arabic particle 'inna/if' and reads as a word; spell the letters. Applies to S5.6, S8.3, S8.4, S8.6, S9.4, S9.6, S22.3.",
+  "suggested_fix": "وفي ألمانيا تتبنى المعايير الأوروبية باسم دين إي إن."
+ },
+ {
+  "video": "E-F02",
+  "scene": 6,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "An association does not 'kennen' a collection; unidiomatic.",
+  "suggested_fix": "DE: Zum VDE gehört das VDE-Vorschriftenwerk, eine Sammlung wichtiger Sicherheitsnormen. || AR: ويتبع فدي مجموعة اللوائح، وهي مجموعة من معايير السلامة المهمة."
+ },
+ {
+  "video": "E-F02",
+  "scene": 7,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'أحكام' (rulings) is a poor rendering of 'VDE-Bestimmungen'; also 'الكهروتقنية' is a calque (F01 uses الهندسة الكهربائية).",
+  "suggested_fix": "كثير من المعايير الكهربائية هي أيضًا قواعد صادرة عن فدي."
+ },
+ {
+  "video": "E-F02",
+  "scene": 7,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Awkward Arabic ('بعد إجراء موافقة تحدده رئاسة فدي').",
+  "suggested_fix": "وتُدرج في المجموعة بعد إجراء اعتماد تقرره رئاسة فدي."
+ },
+ {
+  "video": "E-F02",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Table has no header row; the third column is unexplained.",
+  "suggested_fix": "items: [\"Ebene | Organisation | Bezeichnung\", \"International | IEC | IEC\", \"Europa | CENELEC | EN\", \"Deutschland | DIN und DKE | DIN EN\"]"
+ },
+ {
+  "video": "E-F02",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'يريكم الطريق' is stilted; also, the scene slide table has no header row and the third column ('EN IEC') is unclear.",
+  "suggested_fix": "الاسم يدلكم على الطريق: ففي دين إي إن آي إي سي ترون المستويات الثلاثة."
+ },
+ {
+  "video": "E-F02",
+  "scene": 10,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'الكهروتقنية' (calque) vs 'الهندسة الكهربائية' in F01/F03/F06. Replace in S10.1 and S8.2 and use the same everywhere except the official DKE name.",
+  "suggested_fix": "هذا يعني لكم أن معظم المعايير الكهربائية مبني على معايير دولية أو أوروبية."
+ },
+ {
+  "video": "E-F02",
+  "scene": 10,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Colloquial/imprecise: 'الإنجليزي'.",
+  "suggested_fix": "لذلك تفيد اللغة الإنجليزية: كثير من مصطلحات آي إي سي تعود لاحقًا بالألمانية."
+ },
+ {
+  "video": "E-F02",
+  "scene": 13,
+  "line": 1,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "VDE 0100-410 is spoken in practice as 'null-einhundert, Teil vierhundertzehn'; digit-by-digit reading ('null-eins-null-null') is hard to follow. Same in S19.3.",
+  "suggested_fix": "Ein bekanntes Beispiel ist Din Fau-De-E null-einhundert, Teil vierhundertzehn."
+ },
+ {
+  "video": "E-F02",
+  "scene": 14,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Terminology: Stellungnahme is 'تعليق' in the slide/glossary but 'الملاحظات' in the lines and quiz; unify (also F03 uses 'الملاحظات').",
+  "suggested_fix": "ملاحظات رسمية"
+ },
+ {
+  "video": "E-F02",
+  "scene": 14,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'العموم' is not idiomatic for 'Öffentlichkeit'.",
+  "suggested_fix": "تُعرض المسودة على الجمهور لإبداء الملاحظات."
+ },
+ {
+  "video": "E-F02",
+  "scene": 16,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "CE is never named in Arabic although the slide shows 'CE'; F03 uses 'علامة المطابقة CE'. Unify and add the transliteration.",
+  "suggested_fix": "علامة فدي ليست هي نفسها وسم المطابقة الأوروبية، أي علامة سي إي."
+ },
+ {
+  "video": "E-F02",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Absolute claim 'nur' is risky as legal guidance.",
+  "suggested_fix": "DE: Rechtlich sicherer sind Sie mit klaren Absprachen im Vertrag. || AR: تكونون أكثر أمانًا قانونيًا باتفاقات واضحة في العقد. || EN: You are legally safer with clear agreements in the contract."
+ },
+ {
+  "video": "E-F02",
+  "scene": 19,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Stellen Sie sich eine Routine ein' is not idiomatic German.",
+  "suggested_fix": "Richten Sie sich eine feste Routine ein: Vor Projektstart prüfen, vor Abgabe noch einmal prüfen."
+ },
+ {
+  "video": "E-F02",
+  "scene": 20,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "'D-V-D' is read English-style; German is 'De-Fau-De'.",
+  "suggested_fix": "Das Fau-De-E-Vorschriftenwerk bietet der Fau-De-E-Verlag an, gedruckt, auf De-Fau-De oder als Online-Abo."
+ },
+ {
+  "video": "E-F02",
+  "scene": 21,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Ungrammatical: 'ist ebenfalls ein Kopieren'.",
+  "suggested_fix": "DE: Ein Foto oder Screenshot der Norm gilt ebenfalls als Kopie. || AR: تصوير المعيار أو أخذ لقطة شاشة منه يُعدّ أيضًا نسخًا."
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q1] Arabic question ends with a Latin word (edge rule); VDE rendering.",
+  "suggested_fix": "AR: ماذا يُفترض وفق المادة 49 من قانون الطاقة عند الالتزام بقواعد فدي؟"
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "German glossary entries have no articles; add them.",
+  "suggested_fix": "das Energiewirtschaftsgesetz (EnWG); die anerkannten Regeln der Technik (Pl.); die Vermutung; das Produktsicherheitsgesetz (ProdSG); das Inverkehrbringen; die CE-Kennzeichnung; die Niederspannungsrichtlinie; die Maschinenverordnung; der Netzbetreiber; der Anschlussnehmer; die Betreiberverantwortung; die Gewährleistung; die Verkehrssicherungspflicht; die Fahrlässigkeit"
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 2,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q2] Arabic question ends with Latin 'CE؟'.",
+  "suggested_fix": "AR: ماذا تعني علامة CE بالضبط؟"
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 2,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Terminology: see S4 term (glossary entry 2).",
+  "suggested_fix": "AR: القواعد المعترف بها للتقنية"
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 3,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q3] 'Niederdruck' appears only in the quiz; the lines only say 'gilt für Gas, nicht für Strom'. The Arabic question ends with Latin (edge rule). Make options match the taught content.",
+  "suggested_fix": "DE options: [0] Für Strom [1] Für Gas [2] Für Maschinen (answer 1) || AR question: على أي مجال تسري لائحة NDAV تحديدًا؟ || AR options: للكهرباء / للغاز / للآلات"
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 4,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q4] Arabic question ends with the digit 3.",
+  "suggested_fix": "AR: من يبقى مسؤولًا من حيث المبدأ وفق لائحة DGUV رقم 3 للتأمين ضد الحوادث؟"
+ },
+ {
+  "video": "E-F03",
+  "scene": 2,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'Jurist' is not 'محامي' (lawyer = Rechtsanwalt).",
+  "suggested_fix": "عند وجود أسئلة محددة، اسألوا مختصًا قانونيًا أو الجهة المختصة."
+ },
+ {
+  "video": "E-F03",
+  "scene": 4,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Terminology: anerkannte Regeln der Technik: three different Arabic forms (F02 glossary 'القواعد المعترف بها للتقنية', F03 term 'قواعد التقنية المعترف بها', line 'القواعد التقنية المعترف بها عمومًا'). Use F02 form everywhere.",
+  "suggested_fix": "القواعد المعترف بها للتقنية"
+ },
+ {
+  "video": "E-F03",
+  "scene": 4,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN 'Paragraph 1' is ambiguous next to 'section 49'; Absatz = subsection (also S5.1).",
+  "suggested_fix": "Subsection 1 requires that energy installations are built and operated in a technically safe way."
+ },
+ {
+  "video": "E-F03",
+  "scene": 4,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: see S4 term.",
+  "suggested_fix": "ويجب مراعاة القواعد المعترف بها عمومًا للتقنية."
+ },
+ {
+  "video": "E-F03",
+  "scene": 6,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: VDE is 'جمعية' (S5.2), 'رابطة' in F02, 'فدي' phonetically in F02, Latin 'VDE' elsewhere in F03; F05 uses 'الاتحاد الألماني للكهرباء'. Use phonetic names for organisations standing alone (دين، فدي، دكه) and Latin only inside designations (DIN EN 61082-1). Apply to S5.2, S6.1, S23.2, Q1.",
+  "suggested_fix": "مهم: معايير دين وفدي ليست قوانين."
+ },
+ {
+  "video": "E-F03",
+  "scene": 8,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'منع المنتجات من البقاء في السوق' is vague; the DE says authorities can have products withdrawn.",
+  "suggested_fix": "يمكن لسلطات مراقبة السوق أن تأمر بسحب المنتجات من السوق."
+ },
+ {
+  "video": "E-F03",
+  "scene": 8,
+  "line": 5,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "English 'dealer' vs 'distributor' in S12 (same German word Händler); Arabic 'تاجر' (merchant) is imprecise.",
+  "suggested_fix": "AR: المهم هو الدور: هل أنتم مصنّع أم مستورد أم موزّع؟ || EN: The role matters: are you a manufacturer, importer or distributor?"
+ },
+ {
+  "video": "E-F03",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] and glossary entry 6: Arabic ends with Latin 'CE' (edge rule).",
+  "suggested_fix": "علامة المطابقة الأوروبية (سي إي)"
+ },
+ {
+  "video": "E-F03",
+  "scene": 11,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'ترون هل' is not good MSA.",
+  "suggested_fix": "بعد ذلك تعرفون ما إذا كان التوجيه ينطبق أصلًا."
+ },
+ {
+  "video": "E-F03",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[order] Scene 12 introduces EMVG before the EMC directive (scene 13) is explained. Swap scenes 12 and 13, or add 'Das EMV-Gesetz kommt gleich' to S12.2.",
+  "suggested_fix": "Reorder: ... S11, S13, S12, S14 ..."
+ },
+ {
+  "video": "E-F03",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Händler = 'تاجر' vs 'distributor'; use 'موزّع' also in S12.2.",
+  "suggested_fix": "موزّع"
+ },
+ {
+  "video": "E-F03",
+  "scene": 13,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Arabic uses the English acronym 'EMC' while the German line, slide and TTS say EMV.",
+  "suggested_fix": "يتعلق توجيه EMV بالتوافق الكهرومغناطيسي."
+ },
+ {
+  "video": "E-F03",
+  "scene": 14,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Awkward construction.",
+  "suggested_fix": "أما اندراج منتجكم تحتها فيتوقف على كل حالة."
+ },
+ {
+  "video": "E-F03",
+  "scene": 16,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'عادةً' is not in the German (unfaithful addition).",
+  "suggested_fix": "في التوصيل بالشبكة تهمّ لائحة التوصيل بالجهد المنخفض، وتُختصر إلى NAV في الألمانية."
+ },
+ {
+  "video": "E-F03",
+  "scene": 18,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Vague filler ('steht im Zusammenhang mit der Sicherheit') says nothing concrete.",
+  "suggested_fix": "DE: Festgestellte Mängel muss der Unternehmer beseitigen lassen. || AR: ويجب على صاحب العمل أن يتولى إصلاح العيوب المكتشفة. || EN: The employer must have identified defects remedied."
+ },
+ {
+  "video": "E-F03",
+  "scene": 19,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Haftung should be 'المساءلة القانونية' (as in S23.5), not 'المسؤولية' which is Verantwortung.",
+  "suggested_fix": "في المساءلة القانونية نميّز بين القانون المدني والقانون الجزائي."
+ },
+ {
+  "video": "E-F03",
+  "scene": 19,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Haftung rendering.",
+  "suggested_fix": "مهم: نشوء المساءلة القانونية يعتمد دائمًا على كل حالة."
+ },
+ {
+  "video": "E-F03",
+  "scene": 20,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Legal term for 'verjähren' is 'تتقادم', not 'تسقط'.",
+  "suggested_fix": "في عقد المقاولة تتقادم دعاوى العيوب عادةً بعد سنتين، وفي المباني بعد خمس سنوات."
+ },
+ {
+  "video": "E-F03",
+  "scene": 22,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Reading a URL: 'minus' is read literally; use natural pronunciation.",
+  "suggested_fix": "Deutsche Gesetze finden Sie im Internetportal des Bundes, gesetze im internet Punkt De."
+ },
+ {
+  "video": "E-F03",
+  "scene": 22,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "EUR-Lex is pronounced 'Euro-Lex'; 'Ör-Lex' is unclear.",
+  "suggested_fix": "E-U-Recht finden Sie auf Euro-Lex."
+ },
+ {
+  "video": "E-F03",
+  "scene": 23,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المعروفة' is not in the German; keep faithful.",
+  "suggested_fix": "وفي التوصيل بالشبكة تسري قواعد NAV الألمانية."
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[title] Title uses 'سلطة التوقيع' but lines use 'صلاحية التوقيع'.",
+  "suggested_fix": "الكفاءة المهنية: Elektrofachkraft وEFKffT وصلاحية التوقيع، وحدود عمل المهندس"
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "German glossary entries have no articles; add them.",
+  "suggested_fix": "die Elektrofachkraft; die EFKffT; die elektrotechnisch unterwiesene Person (EUP); der Laie; die Verantwortliche Elektrofachkraft (VEFK); die Leitung und Aufsicht; die Arbeitsanweisung; das Installateurverzeichnis; der Netzbetreiber; die Handwerksrolle; die Meisterpflicht; die Prokura; die Handlungsvollmacht; das Ingenieurgesetz"
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 2,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Unify the EFKffT Arabic term with the lines.",
+  "suggested_fix": "AR: شخص مؤهَّل كهربائيًا لأعمال محددة"
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 3,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "EUP terminology in glossary.",
+  "suggested_fix": "AR: شخص مُرشَد كهربائيًا"
+ },
+ {
+  "video": "E-F04",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'الكهروتقنية' is a calque of Elektrotechnik; F01/F03/F06 use 'الهندسة الكهربائية'. Applies to S1.1, S1.2, S7 term, S8.1, S15.6, glossary.",
+  "suggested_fix": "مرحبًا بكم في هذا الفيديو عن الكفاءة المهنية في الهندسة الكهربائية."
+ },
+ {
+  "video": "E-F04",
+  "scene": 1,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same as S1.1.",
+  "suggested_fix": "ستتعلمون من يحق له في ألمانيا تنفيذ الأعمال الكهربائية."
+ },
+ {
+  "video": "E-F04",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Terminology: the slide says 'فنّي كهرباء مؤهَّل' but the lines say 'شخص مؤهَّل كهربائيًا'; F01/F03/F05 say 'فني كهرباء مؤهل'. 'فنّي' (technician) is wrong; unify as 'شخص مؤهَّل كهربائيًا'.",
+  "suggested_fix": "AR: شخص مؤهَّل كهربائيًا || EN: Elektrofachkraft (qualified electrical person)"
+ },
+ {
+  "video": "E-F04",
+  "scene": 4,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'كلمة فنّي' wrongly equates Fachkraft with technician.",
+  "suggested_fix": "فصفة «المؤهَّل» لا تصف وظيفة."
+ },
+ {
+  "video": "E-F04",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'die die Regel definiert' is ambiguous and clumsy.",
+  "suggested_fix": "Er beschreibt eine Fähigkeit, die in der Vorschrift definiert ist."
+ },
+ {
+  "video": "E-F04",
+  "scene": 6,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Same: use the unified term.",
+  "suggested_fix": "شخص مؤهَّل كهربائيًا لأعمال محددة"
+ },
+ {
+  "video": "E-F04",
+  "scene": 6,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'sich wiederholende' vs slide/F01 'wiederkehrende': standard wording is 'wiederkehrende'.",
+  "suggested_fix": "Diese Person macht nur gleichartige, wiederkehrende Arbeiten."
+ },
+ {
+  "video": "E-F04",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Terminology: 'Unterweisung/unterwiesen' is rendered 'توجيه/موجَّه', the same word used for 'Leitung' (S3.3 'إشرافه وتوجيهه', S10.1). Distinguish: Unterweisung = إرشاد, Leitung = توجيه. Apply to S7.1, S7.2, S7.3, S7.6, S9.4, glossary 3, F05 S2/S22.7.",
+  "suggested_fix": "AR: شخص مُرشَد كهربائيًا || EN: electrotechnically instructed person (EUP)"
+ },
+ {
+  "video": "E-F04",
+  "scene": 7,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "EUP terminology (see term).",
+  "suggested_fix": "المقصود بـ EUP الشخص الذي تلقّى إرشادًا كهربائيًا."
+ },
+ {
+  "video": "E-F04",
+  "scene": 7,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Line 6 repeats line 2 (instruction comes from an Elektrofachkraft); replace with new information.",
+  "suggested_fix": "DE: Die Unterweisung wird vom Unternehmer organisiert und regelmäßig wiederholt. || AR: ويُنظّم صاحب العمل هذا الإرشاد ويكرره بانتظام. || EN: The employer organises this instruction and repeats it regularly."
+ },
+ {
+  "video": "E-F04",
+  "scene": 8,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same as S1.1.",
+  "suggested_fix": "غير المختص كهربائيًا لا يجوز له تنفيذ أعمال كهربائية بشكل مستقل."
+ },
+ {
+  "video": "E-F04",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'نادوا' is colloquial/imperative of 'call out'.",
+  "suggested_fix": "استدعوا حينها شخصًا مؤهَّلًا كهربائيًا."
+ },
+ {
+  "video": "E-F04",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] 'EFK' appears in the table but is never spoken or in the glossary.",
+  "suggested_fix": "items: [\"Elektrofachkraft | Arbeitsgebiet beurteilen\", \"EFKffT | festgelegte Tätigkeiten\", \"EUP | unterwiesene Aufgaben\", \"Laie | nur einfache Handgriffe\"]"
+ },
+ {
+  "video": "E-F04",
+  "scene": 9,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Line starts with 'و EFKffT' (conjunction detached from a Latin word, awkward in RTL). Same in S9.4 and S21.3.",
+  "suggested_fix": "أما EFKffT فيعمل ضمن إطار محدد فقط."
+ },
+ {
+  "video": "E-F04",
+  "scene": 9,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same pattern; 'مهام جرى توجيهه فيها' is clumsy and uses 'توجيه' for Unterweisung (see EUP terminology).",
+  "suggested_fix": "أما EUP فينفّذ فقط المهام التي تلقّى إرشادًا بشأنها."
+ },
+ {
+  "video": "E-F04",
+  "scene": 9,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Overgeneralised: a Laie is not 'under guidance of the Elektrofachkraft'; EFKffT works per Arbeitsanweisung.",
+  "suggested_fix": "DE: Alle drei unteren Stufen arbeiten in einem Rahmen, den die Elektrofachkraft oder der Unternehmer festlegt. || AR: المستويات الثلاثة الدنيا تعمل ضمن إطار يحدده الشخص المؤهَّل كهربائيًا أو صاحب العمل. || EN: The three lower levels work within a framework set by the Elektrofachkraft or the employer."
+ },
+ {
+  "video": "E-F04",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Item 4 'Ob nötig: Sache der Organisation' is cryptic.",
+  "suggested_fix": "items[3]: \"Bestellung: Frage der Organisation\""
+ },
+ {
+  "video": "E-F04",
+  "scene": 13,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Terminology: Installateurverzeichnis is 'سجل المقاولين (المعتمدين)' here but 'سجل المُركِّبين لدى مشغّل الشبكة' in F01 ('مقاولين' = contractors). Same in S13.2, S15.4, S16.4, S21.4, glossary 8, Q3.",
+  "suggested_fix": "سجل المُركِّبين المعتمدين"
+ },
+ {
+  "video": "E-F04",
+  "scene": 13,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Netzanschluss is 'الاتصال بالشبكة' here and in S21.4, 'التوصيل بالشبكة' in F03. Use 'التوصيل'.",
+  "suggested_fix": "للأعمال المتعلقة بالتوصيل بالشبكة توجد قاعدة خاصة."
+ },
+ {
+  "video": "E-F04",
+  "scene": 13,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology (see S13 term).",
+  "suggested_fix": "وفق المادة 13 من NAV يمسك مشغّل الشبكة سجل المُركِّبين المعتمدين."
+ },
+ {
+  "video": "E-F04",
+  "scene": 13,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "NAV is spelled 'En-A-Fau' here and 'N-A-Fau' in F03; use one.",
+  "suggested_fix": "Nach Paragraf dreizehn N-A-Fau führt der Netzbetreiber ein Installateurverzeichnis."
+ },
+ {
+  "video": "E-F04",
+  "scene": 15,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Colloquial: 'in die Handwerksrolle kommen'.",
+  "suggested_fix": "Auch Ingenieure können in die Handwerksrolle eingetragen werden."
+ },
+ {
+  "video": "E-F04",
+  "scene": 15,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same as S1.1.",
+  "suggested_fix": "يجب أن تتناسب الدراسة مع الهندسة الكهربائية."
+ },
+ {
+  "video": "E-F04",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Imprecise: an engineer is not proof; the degree is.",
+  "suggested_fix": "Oft gilt ein Ingenieurabschluss als Nachweis für die Elektrofachkraft."
+ },
+ {
+  "video": "E-F04",
+  "scene": 16,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology (see S13 term).",
+  "suggested_fix": "أما شركة تركيبات خاصة على الشبكة فتحتاج إلى مسار سجل الحِرَف وسجل المُركِّبين المعتمدين."
+ },
+ {
+  "video": "E-F04",
+  "scene": 21,
+  "line": 1,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "English uses US spelling here ('summarize', 'recognize', 'organization', 'offense') while F02/F03/F05/F06/F07 use British. Unify.",
+  "suggested_fix": "Let us summarise."
+ },
+ {
+  "video": "E-F04",
+  "scene": 21,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Recap does not cover slide items 3 and 5 (Unternehmer/VEFK, title and Prokura) — insert after line 3.",
+  "suggested_fix": "DE: Der Unternehmer organisiert, die VEFK trägt die fachliche Verantwortung. Titel und Prokura sind eigene Themen. || AR: صاحب العمل ينظّم، والمسؤول الكهربائي المؤهَّل يتحمل المسؤولية الفنية. واللقب والتوكيل التجاري موضوعان مستقلان. || EN: The employer organises, the VEFK bears the technical responsibility. Title and Prokura are separate topics."
+ },
+ {
+  "video": "E-F04",
+  "scene": 21,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same pattern as S9.3.",
+  "suggested_fix": "أما EFKffT وEUP وغير المختص فلهم حدود أضيق."
+ },
+ {
+  "video": "E-F04",
+  "scene": 21,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology (see S13 term).",
+  "suggested_fix": "وللتوصيل بالشبكة يهمّ سجل الحِرَف وسجل المُركِّبين المعتمدين."
+ },
+ {
+  "video": "E-F05",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[title] DGUV rendering in the title.",
+  "suggested_fix": "السلامة الكهربائية والقواعد الخمس، لائحة DGUV رقم 3، الفحوص الدورية"
+ },
+ {
+  "video": "E-F05",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "German glossary entries have no articles; add them.",
+  "suggested_fix": "das Freischalten; die Spannungsfreiheit; das Erden; das Kurzschließen; das Abschranken; die Gefährdungsbeurteilung; die Elektrofachkraft; das Arbeiten unter Spannung (AuS); das Betriebsmittel; die Prüffrist; die Persönliche Schutzausrüstung (PSA); der Störlichtbogen; die Berufsgenossenschaft"
+ },
+ {
+  "video": "E-F05",
+  "scene": 2,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Unterweisung terminology.",
+  "suggested_fix": "كما تحتاجون إلى إرشاد وتدريب داخل الشركة."
+ },
+ {
+  "video": "E-F05",
+  "scene": 3,
+  "line": 11,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: the Störlichtbogen line (11) comes after the concluding lines 9–10; move it before line 9. EN term 'arc fault' means AFCI-type faults; use 'fault arc / arc flash'.",
+  "suggested_fix": "Move line 11 to position 8 (after the burns). Slide term EN: fault arc (arc flash)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Das Gleiche gilt für Anlagen mit höherer Spannung' is a non-sequitur (same as what?).",
+  "suggested_fix": "DE: Bei höherer Spannung kann der Strom größer und die Gefahr höher sein. || AR: وعند الجهد الأعلى قد يكون التيار أكبر وتكون الخطورة أعلى. || EN: With higher voltage the current can be larger and the danger greater."
+ },
+ {
+  "video": "E-F05",
+  "scene": 5,
+  "line": 10,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard is 'DIN VDE 0105-100'; digits are read as 'null eins null fünf Strich eins null null' — practitioners say 'null-einhundertfünf, Teil einhundert'.",
+  "suggested_fix": "DE: Die Norm DIN VDE 0105-100 beschreibt den Betrieb von Anlagen. || TTS: Die Norm Din Fau-De-E null-einhundertfünf, Teil einhundert, beschreibt den Betrieb von Anlagen."
+ },
+ {
+  "video": "E-F05",
+  "scene": 6,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN uses 'he' for the employer while other scripts use 'they'/'she or he'. Pick one style.",
+  "suggested_fix": "From that the employer derives the necessary protective measures."
+ },
+ {
+  "video": "E-F05",
+  "scene": 6,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "CE is spelled 'Ce-E' here but 'Ze-E' in F02/F03; use Ze-E.",
+  "suggested_fix": "Ein Ze-E-Kennzeichen ersetzt diese Beurteilung nicht."
+ },
+ {
+  "video": "E-F05",
+  "scene": 6,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Passive 'يُسأل' is unnatural.",
+  "suggested_fix": "عندئذٍ نسأل أولًا عن المخاطر التي قد تنشأ."
+ },
+ {
+  "video": "E-F05",
+  "scene": 7,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Lines 4, 5, 7, 8 repeat the same point ('feste Reihenfolge') and the five rules are never read aloud in this scene although the slide lists them. Replace line 7 with the list.",
+  "suggested_fix": "DE: Die fünf Regeln: freischalten, sichern, Spannungsfreiheit feststellen, erden und kurzschließen, abdecken oder abschranken. || AR: القواعد الخمس: فصل الجهد، ومنع إعادة التشغيل، والتحقق من انعدام الجهد، والتأريض والتقصير، وتغطية الأجزاء المجاورة أو إحاطتها بحواجز. || EN: The five rules: isolate, secure, verify no voltage, earth and short-circuit, cover or fence off."
+ },
+ {
+  "video": "E-F05",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] 'Schutzschalter' differs from the spoken 'Leitungsschutzschalter'.",
+  "suggested_fix": "items[1]: \"z. B. Leitungsschutzschalter aus\""
+ },
+ {
+  "video": "E-F05",
+  "scene": 8,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'قاطع حماية الخطوط' vs 'قاطع حماية الخط' in F04/F07.",
+  "suggested_fix": "تُفصل المنشأة، مثلًا عند قاطع حماية الخط."
+ },
+ {
+  "video": "E-F05",
+  "scene": 8,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'التأمين' reads as 'insurance'; use 'تأمين ... ضد'/'منع'.",
+  "suggested_fix": "القاعدة الثانية: تأمين المنشأة ضد إعادة التشغيل."
+ },
+ {
+  "video": "E-F05",
+  "scene": 13,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] Same Elektrofachkraft terminology (also glossary 7).",
+  "suggested_fix": "AR: شخص مؤهَّل كهربائيًا || EN: Elektrofachkraft (qualified electrical person)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 13,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Elektrofachkraft left as Latin inside the sentence; use the unified Arabic term (also S15.9, S18.5, S13.6, glossary 7, S13 term).",
+  "suggested_fix": "الفحوص ينفذها شخص مؤهَّل كهربائيًا أو شخص يعمل تحت إشرافه."
+ },
+ {
+  "video": "E-F05",
+  "scene": 13,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "DGUV rendering (see S5.4).",
+  "suggested_fix": "وهذا مذكور في لائحة DGUV رقم 3 للتأمين ضد الحوادث."
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "DGUV rendering.",
+  "suggested_fix": "لائحة DGUV رقم 3 تشترط إجراء فحوص."
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same Elektrofachkraft terminology.",
+  "suggested_fix": "وينفذها شخص مؤهَّل كهربائيًا أو شخص تحت إشرافه."
+ },
+ {
+  "video": "E-F05",
+  "scene": 17,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Related: 'منشور التأمين المذكور رقم مئتين وثلاثة' — see fix in the DE finding above.",
+  "suggested_fix": "ويساعد في الاختيار الصحيح منشور DGUV Information رقم 203-077 الصادر عن التأمين ضد الحوادث."
+ },
+ {
+  "video": "E-F05",
+  "scene": 18,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Same Elektrofachkraft terminology.",
+  "suggested_fix": "في الجهد العالي لا يفصل التيار إلا شخص مؤهَّل كهربائيًا مخوَّل."
+ },
+ {
+  "video": "E-F05",
+  "scene": 18,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'جهاز الصدمات الكهربائية' is ambiguous (could be a shock weapon).",
+  "suggested_fix": "وأحضروا جهاز إزالة الرجفان (الصادم الكهربائي) إن أمكن."
+ },
+ {
+  "video": "E-F05",
+  "scene": 18,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Lines 10 and 11 say the same thing; delete line 11.",
+  "suggested_fix": "Delete S18.11 (Üben Sie diesen Ablauf in einem Erste-Hilfe-Kurs.)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 20,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "(see DE fix) 'موسومة' is archaic.",
+  "suggested_fix": "يجب توفر مخططات حديثة وأن تكون الدارات معلَّمة بوضوح."
+ },
+ {
+  "video": "E-F05",
+  "scene": 21,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Awkward Arabic comparison.",
+  "suggested_fix": "من الأفضل أن تطرحوا هذه الأسئلة مرة زائدة على أن تطرحوها مرة أقل من اللازم."
+ },
+ {
+  "video": "E-F05",
+  "scene": 22,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "DGUV rendering.",
+  "suggested_fix": "تُفحص المنشآت وفق لائحة DGUV رقم 3 للتأمين ضد الحوادث."
+ },
+ {
+  "video": "E-F05",
+  "scene": 22,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Unterweisung terminology.",
+  "suggested_fix": "العمل الحقيقي يتطلب تأهيلًا وإرشادًا والالتزام بالقواعد الحالية."
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q1/Q5] 'Darstellung' vs options being Planarten; Q5 awkward German.",
+  "suggested_fix": "DE: Q1: Welcher Plan ist einpolig und zeigt die Struktur? / Q5: Was tun Sie vor Projektbeginn mit den Normen?"
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "German glossary entries have no articles; add them.",
+  "suggested_fix": "der Schaltplan; der Übersichtsschaltplan; der Stromlaufplan; der Installationsplan; der Klemmenplan; der Verdrahtungsplan; das Schaltzeichen; das Betriebsmittel; die Referenzkennzeichnung; der Kennbuchstabe; das Schütz; der Schließer; der Öffner; der Querverweis; der Revisionsstand"
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 2,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q2 option 2] Terminology: 'منصهر' → 'مصهر'.",
+  "suggested_fix": "AR: مصهر"
+ },
+ {
+  "video": "E-F06",
+  "scene": 0,
+  "line": 8,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Singular 'معدة كهربائية'/'item of equipment' vs plural 'معدات كهربائية' in F03/F05.",
+  "suggested_fix": "AR: معدات كهربائية || EN: electrical equipment"
+ },
+ {
+  "video": "E-F06",
+  "scene": 1,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Das Video dauert nur wenige Minuten' is untrue for a 10–16 minute video and wastes the learning-goal slot; 'Sie brauchen keinen Stift' is filler.",
+  "suggested_fix": "DE: Am Ende können Sie vier Planarten unterscheiden und eine Kennzeichnung wie Q1 oder M1 lesen. || TTS: Am Ende können Sie vier Planarten unterscheiden und eine Kennzeichnung wie Ku eins oder Emm eins lesen. || AR: وفي النهاية ستتمكنون من التمييز بين أربعة أنواع من المخططات وقراءة ترميز مثل Q1 أو M1 بسهولة. || EN: At the end you can tell four diagram types apart and read a designation such as Q1 or M1."
+ },
+ {
+  "video": "E-F06",
+  "scene": 4,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Hausanschluss is 'وصلة المبنى' here and in F04, 'التوصيل المنزلي' in F03.",
+  "suggested_fix": "مثال نموذجي هو المسار من التوصيل المنزلي عبر العدّاد إلى لوحة التوزيع."
+ },
+ {
+  "video": "E-F06",
+  "scene": 5,
+  "line": 0,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "[slide term] EN 'circuit diagram' is used for both Schaltplan (glossary 1) and Stromlaufplan (glossary 3); use 'schematic' for Stromlaufplan, and in S3.5, S5.1, S7.8.",
+  "suggested_fix": "schematic (Stromlaufplan)"
+ },
+ {
+  "video": "E-F06",
+  "scene": 6,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "The German term Wirkschaltplan is not shown in Arabic, so learners cannot connect it to what they will hear.",
+  "suggested_fix": "كان التمثيل المترابط يسمى سابقًا Wirkschaltplan أي مخطط التأثير، وما زلتم تسمعون هذا المصطلح."
+ },
+ {
+  "video": "E-F06",
+  "scene": 7,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Confusing roles (Elektriker/Techniker; S2.2 uses Monteur).",
+  "suggested_fix": "DE: Mit ihm plant der Monteur die Montage und sieht, wo er Kabel verlegen muss. || AR: به يخطط المُركِّب أعمال التركيب ويرى أين يمدّ الكابلات. || EN: With it the installer plans the installation and sees where cables must go."
+ },
+ {
+  "video": "E-F06",
+  "scene": 7,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'wichtig ... wichtig' repetition.",
+  "suggested_fix": "Hier zählt die Position, deshalb sind Maßstab und Raumbezug wichtig."
+ },
+ {
+  "video": "E-F06",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide term] 'التسليك' means unclogging a pipe in MSA (colloquial 'wiring' in Egyptian). Use 'مخطط توصيل الأسلاك' (also S8.2, glossary 6).",
+  "suggested_fix": "مخطط توصيل الأسلاك"
+ },
+ {
+  "video": "E-F06",
+  "scene": 8,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الوصلات الموصلة' is a tautology; 'مخطط التسليك' term fix.",
+  "suggested_fix": "ومخطط توصيل الأسلاك يُظهر التوصيلات الكهربائية بين الأجهزة."
+ },
+ {
+  "video": "E-F06",
+  "scene": 8,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'بنّاء لوحات التحكم' is a calque of Schaltschrankbauer.",
+  "suggested_fix": "يحتاج مُجمِّع لوحات التحكم هذه المخططات لتوصيل الأسلاك."
+ },
+ {
+  "video": "E-F06",
+  "scene": 9,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Grammar: 'أي جهاز المقصود'.",
+  "suggested_fix": "الرمز مجرد رسم، والترميز هو الذي يحدد أي جهاز هو المقصود."
+ },
+ {
+  "video": "E-F06",
+  "scene": 11,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'طبعة' vs 'إصدار'.",
+  "suggested_fix": "وتتضمن نسخة 2022 من المعيار الأساسي مبادئ عامة للتنظيم."
+ },
+ {
+  "video": "E-F06",
+  "scene": 11,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Weak analogy: a stamp is reused on many documents, the opposite of a unique designation.",
+  "suggested_fix": "DE: Stellen Sie sich eine Seriennummer vor: Sie gehört zu genau einem Gerät. || AR: تخيّلوا رقمًا تسلسليًا: يخص جهازًا واحدًا فقط. || EN: Imagine a serial number: it belongs to exactly one device."
+ },
+ {
+  "video": "E-F06",
+  "scene": 12,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الكائنات' is an IT term; use 'العناصر'.",
+  "suggested_fix": "يصنّف المعيار IEC 81346-2 العناصر في فئات، ولكل فئة حرف."
+ },
+ {
+  "video": "E-F06",
+  "scene": 12,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Sicherung = 'المنصهر' here, 'المصهر' in F05, 'فاصم' in F03, 'الفيوز' in F07. Use 'مصهر'.",
+  "suggested_fix": "الحرف F للحماية كالمصهرات، والحرف K لمعالجة الإشارات كالمرحلات."
+ },
+ {
+  "video": "E-F06",
+  "scene": 13,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "S13.6 and S13.7 say the same thing; delete line 7.",
+  "suggested_fix": "Delete S13.7"
+ },
+ {
+  "video": "E-F06",
+  "scene": 15,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Klemmenmarken' is unusual; use 'Klemmenbezeichnungen'.",
+  "suggested_fix": "Wichtig: Die Nummern sind keine Spannungsangaben. Es sind nur Klemmenbezeichnungen."
+ },
+ {
+  "video": "E-F06",
+  "scene": 15,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'حالة الراحة' is not a technical term.",
+  "suggested_fix": "يختلف المفتوح عادةً عن المغلق عادةً في حالة السكون، أي دون تشغيل: مفتوح أو مغلق."
+ },
+ {
+  "video": "E-F06",
+  "scene": 17,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Imperative inversion with missing 'Sie' in the second verb is colloquial/ungrammatical.",
+  "suggested_fix": "Wenn Sie einen Plan ändern, erhöhen Sie den Revisionsstand und notieren Sie, was sich geändert hat."
+ },
+ {
+  "video": "E-F06",
+  "scene": 17,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Es gibt keinen Plan ohne Datum' is a factual claim that is not true; intended as a rule.",
+  "suggested_fix": "DE: Ein Plan ohne Datum ist unbrauchbar. Sonst weiß niemand, ob er noch stimmt. || AR: المخطط بلا تاريخ لا يُعتمد عليه، وإلا لا يعرف أحد إن كان ما زال صحيحًا. || EN: A diagram without a date is useless. Otherwise nobody knows whether it is still correct."
+ },
+ {
+  "video": "E-F06",
+  "scene": 18,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'الأحرف الرمزية'/'طبعة'.",
+  "suggested_fix": "لأحرف الترميز يسري حاليًا إصدار 2019 من IEC 81346-2، ويوجد مشروع جديد."
+ },
+ {
+  "video": "E-F06",
+  "scene": 18,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Ungrammatical 'كساري'; also 'طبعة' vs 'إصدار' (F02, S10.6 use 'إصدار').",
+  "suggested_fix": "المعيار DIN EN IEC 60445 يُدرج لدى DIN بإصدار 2023 بوصفه ساريًا."
+ },
+ {
+  "video": "E-F06",
+  "scene": 19,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'وأعطوا الترميز' is stiff.",
+  "suggested_fix": "الخلاصة: اختاروا نوع المخطط، وتحققوا من الرمز، وامنحوا كل جهاز ترميزه، ووثّقوا الحالة."
+ },
+ {
+  "video": "E-F07",
+  "scene": 0,
+  "line": 1,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q1] Weak/vague: answer 'das Kabel' is trivial and 'Welches Wort ist richtig?' is unclear; the video teaches that the plural of Kabel stays the same. Use the plural.",
+  "suggested_fix": "DE: Wie lautet der Plural von 'das Kabel'? [0] die Kabel [1] die Kabeln [2] die Käbel (answer 0) || AR: ما هو جمع كلمة «das Kabel»؟ / الصيغة die Kabel كما هي / الصيغة die Kabeln بنون إضافية / الصيغة die Käbel بتغيير الحرف || EN: What is the plural of 'das Kabel'? die Kabel / die Kabeln / die Käbel"
+ },
+ {
+  "video": "E-F07",
+  "scene": 0,
+  "line": 4,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "'الفيوز / الحماية' is a colloquial loan; use MSA and match the generic meaning of Sicherung.",
+  "suggested_fix": "AR: المصهر / جهاز الحماية || EN: fuse / protective device"
+ },
+ {
+  "video": "E-F07",
+  "scene": 0,
+  "line": 4,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "[Quiz Q4 option 1] EN 'What, faster!' is unnatural.",
+  "suggested_fix": "EN: Pardon? Faster!"
+ },
+ {
+  "video": "E-F07",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide terms] Terminology: Leitung 'السلك / الخط الكهربائي' (S3), 'الخط / السلك' (S4, glossary); EN 'line, cable run' vs 'line, wiring'. Kabel 'الكبل' here but 'الكابلات' in F06. Use: Leitung = 'الخط الكهربائي' (EN: electrical line / wiring), Kabel = 'الكابل'. Apply to S3, S4, glossary 2–3, S4.4, S4.6, S9.6.",
+  "suggested_fix": "AR: الخط الكهربائي / الكابل || EN: electrical line (wiring) / cable"
+ },
+ {
+  "video": "E-F07",
+  "scene": 4,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Tautology: 'Leitung ... so nennt man Leitungen'.",
+  "suggested_fix": "DE: Die Leitung, die Leitungen: So nennt man die Verbindungen in der Installation. || AR: نقول: die Leitung، die Leitungen: هكذا تُسمّى الخطوط الكهربائية في التركيب. || EN: Die Leitung, die Leitungen: this is what the connections in an installation are called."
+ },
+ {
+  "video": "E-F07",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: 'الدائرة/دوائر' here vs 'دارة/دارات' in F05/F06 (S5.2, S5.8, S6.3, S16.2). Use 'دارة'.",
+  "suggested_fix": "يفصل der Leitungsschutzschalter الدارة عند الحمل الزائد أو القصر."
+ },
+ {
+  "video": "E-F07",
+  "scene": 5,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR 'القاطع' and EN 'protection device' translate the generic 'Sicherung' differently; glossary says 'الفيوز' (colloquial English loan).",
+  "suggested_fix": "AR: مثال: لقد فصل جهاز الحماية. || EN: An example: The protective device has tripped."
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[slide terms] Terminology: Klemme 'الطرف / مشبك التوصيل' (glossary 'طرف التوصيل'); Schaltschrank 'خزانة التحكم' here and 'لوحة التحكم' in F03/F06. Use 'طرف التوصيل' and 'لوحة التحكم' everywhere (S6.4, S6.8, S15.3, glossary 10).",
+  "suggested_fix": "طرف التوصيل / لوحة التحكم"
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] 'der Verteiler, -: Gerätekasten' is an inaccurate definition.",
+  "suggested_fix": "items[2]: \"der Verteiler, -: verteilt auf Stromkreise\""
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Schaltschrank = 'لوحة التحكم'.",
+  "suggested_fix": "نقول: der Schaltschrank، die Schaltschränke: في لوحة التحكم توجد الكونتاكتورات والأطراف."
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'يتماسك' is not the technical meaning of 'anziehen' for a contactor.",
+  "suggested_fix": "مثال: الكونتاكتور يعمل، أي تنغلق ملامساته."
+ },
+ {
+  "video": "E-F07",
+  "scene": 7,
+  "line": 12,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "The 'Grundgrößen' lesson never teaches the units; line 12 says 'Immer mit Einheit' without an example. Insert before line 12.",
+  "suggested_fix": "DE: Zum Beispiel: zweihundertdreißig Volt, zehn Ampere, fünfzig Ohm. || AR: مثلًا: مئتان وثلاثون فولت، وعشرة أمبير، وخمسون أوم. || EN: For example: two hundred and thirty volts, ten amperes, fifty ohms."
+ },
+ {
+  "video": "E-F07",
+  "scene": 10,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Rows 3 and 4 ('Phase → Außenleiter', 'Strom aus → freischalten') are not spoken in scene 10. Insert after line 3.",
+  "suggested_fix": "DE: Statt Phase sagt man Außenleiter, und statt Strom aus sagt man freischalten. || AR: بدل Phase يُقال Außenleiter، وبدل Strom aus يُقال freischalten في اللغة المهنية. || EN: Instead of Phase you say Außenleiter, and instead of Strom aus you say freischalten."
+ },
+ {
+  "video": "E-F07",
+  "scene": 13,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Item 4 'Ich rufe später noch einmal an.' is never spoken. Insert after line 4.",
+  "suggested_fix": "DE: Wenn jemand nicht da ist, sagen Sie: Ich rufe später noch einmal an. || AR: وإذا لم يكن الشخص موجودًا فقولوا: Ich rufe später noch einmal an، أي سأتصل لاحقًا مرة أخرى. || EN: If the person is not there, say: I will call again later."
+ },
+ {
+  "video": "E-F07",
+  "scene": 13,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'So fragen Sie nach einem Namen' does not describe asking for a spelling.",
+  "suggested_fix": "DE: Können Sie das buchstabieren? So bitten Sie darum, einen Namen zu buchstabieren. || AR: هل يمكنكم تهجئة ذلك؟ هكذا تطلبون تهجئة اسم ما. || EN: Can you spell that? This is how you ask someone to spell a name."
+ },
+ {
+  "video": "E-F07",
+  "scene": 15,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Schaltschrank = 'لوحة التحكم'.",
+  "suggested_fix": "لدي خمس سنوات خبرة في تخطيط لوحات التحكم."
+ },
+ {
+  "video": "E-F07",
+  "scene": 15,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: S15.9 ('Üben Sie diese Sätze...') should come last; S15.10 adds a new sentence after the practice instruction. Move S15.10 before S15.9.",
+  "suggested_fix": "Order: S15.8, S15.10, S15.9"
+ },
+ {
+  "video": "E-F07",
+  "scene": 17,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Arabic collision: Wareneingang and Abnahme are both 'الاستلام'.",
+  "suggested_fix": "نقول: der Lieferschein يرافق البضاعة. تفحصون به البضاعة الواردة."
+ },
+ {
+  "video": "E-F07",
+  "scene": 17,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Pedagogic order: Lastenheft (what the customer needs) must come before Pflichtenheft (how the contractor does it); currently Pflichtenheft is defined in S17.5 and Lastenheft only in S17.8, and S17.9 repeats S17.5. Make S17.5 the Lastenheft, S17.8 the Pflichtenheft and delete S17.9; add 'das Lastenheft' to the slide table and glossary.",
+  "suggested_fix": "DE: Das Lastenheft schreibt der Kunde. Es sagt, was er braucht. || AR: نقول: das Lastenheft يكتبه العميل، وهو يحدد ما يحتاجه. || EN: The customer writes the Lastenheft. It says what the customer needs."
+ },
+ {
+  "video": "E-F07",
+  "scene": 17,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Companion to S17.5 (Pflichtenheft).",
+  "suggested_fix": "DE: Das Pflichtenheft schreibt der Auftragnehmer. Es sagt, wie er die Anforderungen umsetzt. || AR: نقول: das Pflichtenheft يكتبه المقاول، وهو يصف كيف ينفّذ المتطلبات. || EN: The contractor writes the Pflichtenheft. It says how the contractor implements the requirements."
+ },
+ {
+  "video": "E-F07",
+  "scene": 18,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "[slide] Item 2 ('Können Sie das anders sagen?') differs from the spoken 'auf Hochdeutsch'.",
+  "suggested_fix": "items[1]: \"Fragen Sie: Bitte auf Hochdeutsch?\""
+ },
+ {
+  "video": "E-F01",
+  "scene": 4,
+  "line": 9,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Gender style: line uses masculine generic 'als Ingenieur' while S1.4 uses 'Ingenieurinnen und Ingenieure'. Also S9.5. Choose one convention for the series (same pattern in F03, F05, F06).",
+  "suggested_fix": "Für Sie als Ingenieurin oder Ingenieur heißt das: Hier geht es um große Anlagen und viel Verantwortung."
+ },
+ {
+  "video": "E-F02",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Answer positions are skewed: [0,1,1,1,1]. Vary the correct index (F03 [0,0,1,0,1], F06 all 0).",
+  "suggested_fix": "e.g. Q2 answer index 2, Q4 answer index 0 (reorder options accordingly)."
+ },
+ {
+  "video": "E-F02",
+  "scene": 5,
+  "line": 6,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Spelling: 'Europäische Normen' is a common noun phrase in running text; adjective should be lower-case (also S8.3 'die Europäischen Normen').",
+  "suggested_fix": "In Deutschland übernimmt sie europäische Normen als DIN EN."
+ },
+ {
+  "video": "E-F03",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Answer positions: [0,0,1,0,1], three of five at index 0. Vary.",
+  "suggested_fix": "e.g. reorder Q1 and Q4 options so the answers are index 2 and 1."
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 3,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Q3 distractor 'Das Finanzamt' is implausible; answer index pattern [1,1,0,0,1].",
+  "suggested_fix": "DE: Die Handwerkskammer"
+ },
+ {
+  "video": "E-F04",
+  "scene": 0,
+  "line": 5,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Q5 'Wo ist der Titel Ingenieur geregelt?' duplicates F01 Q5 exactly; fine as reinforcement but change wording if both are shown in one course.",
+  "suggested_fix": "DE: Wo steht, wer den Titel Ingenieur führen darf?"
+ },
+ {
+  "video": "E-F04",
+  "scene": 1,
+  "line": 0,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Schema: F04–F07 use 'terms: null' (F01–F03 use []), and F07 S1 uses 'items: null'. Check validate.py handles null.",
+  "suggested_fix": "\"terms\": [] and \"items\": []"
+ },
+ {
+  "video": "E-F05",
+  "scene": 1,
+  "line": 1,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Series naming: F05 says 'Folge/Grundlagenfolge/Episode' and 'الحلقة', all other videos say 'Video'/'الفيديو'. Also kicker styles differ per video.",
+  "suggested_fix": "DE: Willkommen zum fünften Grundlagenvideo. || AR: مرحبًا بكم في الفيديو الخامس من الأساسيات. || EN: Welcome to the fifth foundation video."
+ },
+ {
+  "video": "E-F05",
+  "scene": 2,
+  "line": 9,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Scene 2 has 9 lines of repeated disclaimers (also S22.5). Shorten to 5 lines.",
+  "suggested_fix": "Delete S2.9 and S2.5."
+ },
+ {
+  "video": "E-F07",
+  "scene": 0,
+  "line": 1,
+  "severity": "note",
+  "lang": "glossary",
+  "issue": "Plural notation is inconsistent (die -, -en, die Leitungen, -e). Use the same pattern for all entries; articles themselves are correct.",
+  "suggested_fix": "der Leitungsschutzschalter, die Leitungsschutzschalter; der Außenleiter, die Außenleiter; der Neutralleiter, die Neutralleiter; der Schutzleiter, die Schutzleiter; die Fehlerstrom-Schutzeinrichtung, die Fehlerstrom-Schutzeinrichtungen; das Prüfprotokoll, die Prüfprotokolle; der Lieferschein, die Lieferscheine; die Stückliste, die Stücklisten; das Pflichtenheft, die Pflichtenhefte; die Abnahme, die Abnahmen"
+ },
+ {
+  "video": "E-F07",
+  "scene": 1,
+  "line": 3,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Narrator voice: only F07 says 'Ich spreche'; all other videos use 'Wir'. Acceptable for a pronunciation lesson, but state the choice.",
+  "suggested_fix": "Wir sprechen langsam und klar. Sprechen Sie gern mit."
+ },
+ {
+  "video": "E-F07",
+  "scene": 15,
+  "line": 2,
+  "severity": "note",
+  "lang": "de",
+  "issue": "The model persona 'Ahmed Samir ... Elektroingenieur' is male only; add a female variant for learners.",
+  "suggested_fix": "Mein Name ist Ahmed Samir. Ich bin Elektroingenieur. (Variante: Ich bin Elektroingenieurin.)"
+ },
+ {
+  "video": "E-F07",
+  "scene": 19,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "NEXT/closing pointer 'Weg in den Beruf' does not match PLAN.md, where the video after E-F07 is E-A01 (grid structure). Confirm series order.",
+  "suggested_fix": "DE: Viel Erfolg! Im nächsten Video geht es um den Aufbau des deutschen Stromnetzes. || AR: بالتوفيق! في الفيديو القادم نتناول بنية شبكة الكهرباء الألمانية. || EN: Good luck! The next video is about the structure of the German power grid."
+ }
+]

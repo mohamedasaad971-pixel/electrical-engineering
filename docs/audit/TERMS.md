@@ -1,0 +1,31 @@
+# Verbindliche Terminologie E-F01..07 (DE → AR) und TTS-Regeln
+
+Alle Skripte müssen diese Wahl verwenden. Arabische Zeilen dürfen nicht mit lateinischen Buchstaben/Ziffern beginnen oder enden (Kennung in Klammern in die Mitte setzen oder Satz umstellen).
+
+| DE | AR |
+|---|---|
+| Elektrofachkraft | الكهربائي المؤهَّل (Elektrofachkraft) – nie «فني» |
+| EFKffT | الكهربائي المؤهَّل لأعمال محددة |
+| Elektrotechnisch unterwiesene Person | شخص مُلقَّن كهروتقنيًا |
+| Laie | شخص غير مؤهَّل |
+| Haftung | المسؤولية القانونية |
+| Gewährleistung | الضمان |
+| Auftraggeber | الجهة المُشغِّلة للمشروع (صاحب المشروع) |
+| Unternehmer (Arbeitsschutz) | صاحب المنشأة |
+| Auftragnehmer | المقاول |
+| Sicherung | المنصهر |
+| Leitungsschutzschalter | القاطع الآلي |
+| Stromkreis | دارة كهربائية |
+| Schaltschrank | خزانة التوزيع والتحكم |
+| Netzanschluss | التوصيل بالشبكة |
+| Netzbetreiber | مشغّل الشبكة |
+| Unterweisung | التوجيه والتعليمات (Unterweisung) |
+| Prüfprotokoll | محضر الفحص |
+| Schaltplan | مخطط الدارات |
+| Normen | المعايير |
+| Vorschrift | لائحة |
+| DGUV Vorschrift 3 | لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) – Kennung nie am Satzrand |
+
+TTS: Abkürzungen als Buchstabennamen: DIN «Din», VDE «Fau-De-E», IEC «I-E-Ze» (nicht I-E-Zett), EN «E-En», ISO «I-So», DGUV «De-Ge-U-Fau», DKE «De-Ka-E», EnWG «E-En-We-Ge», ProdSG «Prod-Es-Ge», CE «Ze-E», HwO «Ha-We-O», NAV «En-A-Fau», DVGW «De-Fau-Ge-We». Zahlen ausgeschrieben, tts muss denselben Inhalt/dieselbe Reihenfolge wie die de-Zeile haben.
+
+Nächstes-Video-Kette: E-F01→E-F02→E-F03→E-F04→E-F05→E-F06→E-F07→E-A01 (Energienetze).
