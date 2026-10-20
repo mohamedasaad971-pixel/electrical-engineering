@@ -1,0 +1,1550 @@
+{
+ "id": "E-F07",
+ "title": {
+  "de": "Fachsprache für Elektroingenieure: Werkstatt, Interview, Dokumente",
+  "ar": "الألمانية المهنية: مصطلحات الورشة والمقابلة والوثائق",
+  "en": "Technical German for Electrical Engineers: Workshop, Interview, Documents"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "Fachsprache für Elektroingenieure",
+    "heading": "Fachsprache: Werkstatt, Interview, Dokumente"
+   },
+   "lines": [
+    {
+     "de": "Willkommen zu diesem Video über Fachsprache in der Elektrotechnik.",
+     "ar": "مرحبًا بكم في هذا الفيديو عن اللغة المهنية في الكهرباء.",
+     "en": "Welcome to this video about technical German in electrical engineering."
+    },
+    {
+     "de": "Sie lernen wichtige Wörter, Sätze für die Werkstatt und Antworten für das Gespräch.",
+     "ar": "ستتعلمون كلمات مهمة، وجملًا للورشة، وإجابات للمقابلة.",
+     "en": "You will learn key words, phrases for the workshop and answers for the interview."
+    },
+    {
+     "de": "Ich spreche langsam und klar. Sprechen Sie gern mit.",
+     "ar": "سأتكلم ببطء ووضوح. شاركوني النطق بحرية.",
+     "en": "I speak slowly and clearly. Feel free to repeat after me."
+    },
+    {
+     "de": "Zuerst eine kurze Übersicht.",
+     "ar": "أولًا، نظرة عامة سريعة.",
+     "en": "First, a short overview."
+    },
+    {
+     "de": "Wir sprechen über Wörter aus der Elektrotechnik, mit Artikel und Plural.",
+     "ar": "سنتحدث عن كلمات من الكهرباء، مع أداة التعريف والجمع.",
+     "en": "We talk about words from electrical engineering, with article and plural."
+    },
+    {
+     "de": "Danach üben wir Sätze für die Werkstatt, das Telefon und die E-Mail.",
+     "ar": "بعد ذلك نتدرب على جمل للورشة والهاتف والبريد الإلكتروني.",
+     "en": "Then we practise sentences for the workshop, the phone and email."
+    },
+    {
+     "de": "Am Ende hören Sie Antworten für das Vorstellungsgespräch und wichtige Dokumente.",
+     "ar": "وفي النهاية تسمعون إجابات لمقابلة العمل ووثائق مهمة.",
+     "en": "At the end you hear answers for the job interview and important documents."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum Fachsprache?",
+    "heading": "Warum Fachsprache wichtig ist",
+    "items": [
+     "Sicherheit: Missverständnisse vermeiden",
+     "Respekt: Kollegen verstehen Sie sofort",
+     "Dokumente: Normen und Berichte lesen",
+     "Gespräch: Sie wirken kompetent"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auf der Baustelle ist Sprache auch Sicherheit.",
+     "ar": "في موقع العمل، اللغة جزء من السلامة.",
+     "en": "On a building site, language is also safety."
+    },
+    {
+     "de": "Ein falsches Wort kann gefährlich sein.",
+     "ar": "كلمة خاطئة قد تكون خطيرة.",
+     "en": "One wrong word can be dangerous."
+    },
+    {
+     "de": "Mit der richtigen Fachsprache verstehen Kollegen Sie sofort.",
+     "ar": "وباللغة المهنية الصحيحة يفهمكم الزملاء فورًا.",
+     "en": "With the right technical language, colleagues understand you at once."
+    },
+    {
+     "de": "Und im Vorstellungsgespräch zeigen Sie, dass Sie Ihr Fach kennen.",
+     "ar": "وفي مقابلة العمل تُظهرون أنكم تعرفون تخصصكم.",
+     "en": "And in the job interview you show that you know your field."
+    },
+    {
+     "de": "Viele Ingenieure kennen die Wörter auf Englisch oder Arabisch.",
+     "ar": "يعرف كثير من المهندسين الكلمات بالإنجليزية أو العربية.",
+     "en": "Many engineers know the words in English or Arabic."
+    },
+    {
+     "de": "In Deutschland arbeiten Sie aber auf Deutsch.",
+     "ar": "لكنكم في ألمانيا تعملون بالألمانية.",
+     "en": "But in Germany you work in German."
+    },
+    {
+     "de": "Das ist am Anfang schwer. Aber Sie schaffen das Schritt für Schritt.",
+     "ar": "هذا صعب في البداية، لكنكم تنجزونه خطوة بخطوة.",
+     "en": "That is hard at the beginning. But you can do it step by step."
+    },
+    {
+     "de": "Wir lernen heute nur Wörter, die Sie wirklich jeden Tag brauchen.",
+     "ar": "اليوم نتعلم فقط كلمات تحتاجونها فعلًا كل يوم.",
+     "en": "Today we only learn words that you really need every day."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Regel Nummer eins",
+    "heading": "Immer mit Artikel lernen",
+    "items": [
+     "der, die oder das: immer mitlernen",
+     "Plural gleich dazu lernen",
+     "Beispiel: die Leitung, die Leitungen",
+     "Beispiel: das Kabel, die Kabel"
+    ],
+    "terms": [
+     {
+      "de": "die Leitung",
+      "ar": "السلك / الخط الكهربائي",
+      "en": "line, cable run"
+     },
+     {
+      "de": "das Kabel",
+      "ar": "الكبل",
+      "en": "cable"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Lernen Sie jedes Nomen immer mit Artikel.",
+     "ar": "تعلّموا كل اسم دائمًا مع أداة التعريف.",
+     "en": "Always learn every noun with its article."
+    },
+    {
+     "de": "Sagen Sie nicht nur Kabel, sondern: das Kabel.",
+     "ar": "لا تقولوا فقط Kabel، بل: das Kabel.",
+     "en": "Do not just say Kabel, say: das Kabel."
+    },
+    {
+     "de": "Lernen Sie auch gleich den Plural. Die Leitung, die Leitungen.",
+     "ar": "وتعلّموا الجمع مباشرة. die Leitung، die Leitungen.",
+     "en": "Learn the plural right away. Die Leitung, die Leitungen."
+    },
+    {
+     "de": "Das Kabel, die Kabel. Hier bleibt der Plural gleich.",
+     "ar": "نقول: das Kabel، die Kabel. هنا يبقى الجمع كما هو.",
+     "en": "Das Kabel, die Kabel. Here the plural stays the same."
+    },
+    {
+     "de": "Warum ist der Artikel so wichtig?",
+     "ar": "لماذا أداة التعريف مهمة جدًا؟",
+     "en": "Why is the article so important?"
+    },
+    {
+     "de": "Weil Adjektive und Verben sich danach richten.",
+     "ar": "لأن الصفات والأفعال تتبعها.",
+     "en": "Because adjectives and verbs follow it."
+    },
+    {
+     "de": "Und weil Kollegen Fehler sofort hören.",
+     "ar": "ولأن الزملاء يسمعون الأخطاء فورًا.",
+     "en": "And because colleagues hear mistakes immediately."
+    },
+    {
+     "de": "Machen Sie Karteikarten. Vorne das Wort, hinten Artikel und Plural.",
+     "ar": "اصنعوا بطاقات. في الأمام الكلمة، وفي الخلف أداة التعريف والجمع.",
+     "en": "Make flashcards. The word on the front, article and plural on the back."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Grundwörter 1",
+    "heading": "Leiter, Leitung, Kabel",
+    "items": [
+     "der Leiter, die Leiter: Material für Strom",
+     "die Leitung, -en: Verbindung im Bau",
+     "das Kabel, die Kabel: isolierte Leitung"
+    ],
+    "terms": [
+     {
+      "de": "der Leiter",
+      "ar": "الموصل",
+      "en": "conductor"
+     },
+     {
+      "de": "die Leitung",
+      "ar": "الخط / السلك",
+      "en": "line, wiring"
+     },
+     {
+      "de": "das Kabel",
+      "ar": "الكبل",
+      "en": "cable"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Leiter, die Leiter: Das ist das Material, das Strom leitet.",
+     "ar": "نقول: der Leiter، die Leiter: هو المادة التي توصّل التيار.",
+     "en": "Der Leiter, die Leiter: the material that carries current."
+    },
+    {
+     "de": "Achtung: Auch eine Person, die ein Team führt, heißt Leiter.",
+     "ar": "انتبهوا: الشخص الذي يدير فريقًا يسمى Leiter أيضًا.",
+     "en": "Careful: a person who leads a team is also called Leiter."
+    },
+    {
+     "de": "Die Leitung, die Leitungen: So nennt man Leitungen in der Installation.",
+     "ar": "نقول: die Leitung، die Leitungen: هكذا تُسمّى الخطوط في التركيب.",
+     "en": "Die Leitung, die Leitungen: this is how wiring is called in an installation."
+    },
+    {
+     "de": "Das Kabel, die Kabel: Ein Kabel ist eine isolierte Leitung.",
+     "ar": "نقول: das Kabel، die Kabel: الكبل خط معزول.",
+     "en": "Das Kabel, die Kabel: a cable is an insulated line."
+    },
+    {
+     "de": "Hören Sie ein Beispiel im Satz.",
+     "ar": "استمعوا إلى مثال داخل جملة.",
+     "en": "Listen to an example in a sentence."
+    },
+    {
+     "de": "Das Kabel ist zu kurz.",
+     "ar": "الكبل قصير جدًا.",
+     "en": "The cable is too short."
+    },
+    {
+     "de": "Die Leitung führt zum Verteiler.",
+     "ar": "الخط يذهب إلى لوحة التوزيع.",
+     "en": "The line leads to the distribution board."
+    },
+    {
+     "de": "Der Leiter besteht aus Kupfer.",
+     "ar": "الموصل مصنوع من النحاس.",
+     "en": "The conductor is made of copper."
+    },
+    {
+     "de": "Bitte wiederholen Sie diese drei Sätze langsam.",
+     "ar": "من فضلكم كرروا هذه الجمل الثلاث ببطء.",
+     "en": "Please repeat these three sentences slowly."
+    },
+    {
+     "de": "Merken Sie sich: Leiter ist nicht gleich Leitung. Der Leiter ist das Material, die Leitung ist das Ganze.",
+     "ar": "تذكّروا: Leiter ليس Leitung. الموصل هو المادة، والخط هو الكل.",
+     "en": "Remember: Leiter is not Leitung. The Leiter is the material, the Leitung is the whole line."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Grundwörter 2: Schutz",
+    "heading": "Sicherung, LS-Schalter, FI-Schalter",
+    "items": [
+     "die Sicherung, -en: allgemeines Wort",
+     "der Leitungsschutzschalter: bei Überlast",
+     "Fehlerstrom-Schutzeinrichtung: RCD"
+    ],
+    "terms": [
+     {
+      "de": "der Leitungsschutzschalter",
+      "ar": "قاطع حماية الخط",
+      "en": "miniature circuit breaker"
+     },
+     {
+      "de": "die Fehlerstrom-Schutzeinrichtung",
+      "ar": "جهاز الحماية من تيار الخطأ",
+      "en": "residual current device"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Sicherung, die Sicherungen: Im Alltag ein allgemeines Wort.",
+     "ar": "نقول: die Sicherung، die Sicherungen: كلمة عامة في الحياة اليومية.",
+     "en": "Die Sicherung, die Sicherungen: an everyday general word."
+    },
+    {
+     "de": "Der Leitungsschutzschalter trennt den Stromkreis bei Überlast oder Kurzschluss.",
+     "ar": "يفصل der Leitungsschutzschalter الدائرة عند الحمل الزائد أو القصر.",
+     "en": "The Leitungsschutzschalter disconnects the circuit on overload or short circuit."
+    },
+    {
+     "de": "Kurz sagt man LS-Schalter. Umgangssprachlich auch: Sicherungsautomat.",
+     "ar": "اختصارًا يُقال LS-Schalter. وفي العامية: Sicherungsautomat.",
+     "en": "Short: LS-Schalter. Colloquially also: Sicherungsautomat.",
+     "tts": "Kurz sagt man El-Es-Schalter. Umgangssprachlich auch: Sicherungsautomat."
+    },
+    {
+     "de": "Die Fehlerstrom-Schutzeinrichtung heißt international RCD. Umgangssprachlich: FI-Schutz.",
+     "ar": "تُسمى die Fehlerstrom-Schutzeinrichtung دوليًا RCD. وعاميًا: FI-Schutz.",
+     "en": "The Fehlerstrom-Schutzeinrichtung is called RCD internationally. Colloquially: FI-Schutz.",
+     "tts": "Die Fehlerstrom-Schutzeinrichtung heißt international Er-Zeh-De. Umgangssprachlich: Ef-I-Schutz."
+    },
+    {
+     "de": "Sie misst den Unterschied zwischen Strom hin und Strom zurück.",
+     "ar": "تقيس الفرق بين التيار الذاهب والتيار العائد.",
+     "en": "It measures the difference between the current going out and coming back."
+    },
+    {
+     "de": "Ein Beispiel: Die Sicherung hat ausgelöst.",
+     "ar": "مثال: لقد فصل القاطع.",
+     "en": "An example: The protection device has tripped."
+    },
+    {
+     "de": "Vorsicht: Bei einem LS-Schalter sagt man auslösen, nicht kaputtgehen.",
+     "ar": "انتبهوا: مع القاطع يُقال auslösen أي فصل، وليس تعطّل.",
+     "en": "Careful: for a circuit breaker you say tripped, not broken.",
+     "tts": "Vorsicht: Bei einem El-Es-Schalter sagt man auslösen, nicht kaputtgehen."
+    },
+    {
+     "de": "Noch ein Satz: Der RCD hat ausgelöst. Bitte prüfen Sie den Stromkreis.",
+     "ar": "جملة أخرى: لقد فصل جهاز RCD. من فضلكم افحصوا الدائرة.",
+     "en": "Another sentence: The RCD has tripped. Please check the circuit.",
+     "tts": "Noch ein Satz: Der Er-Zeh-De hat ausgelöst. Bitte prüfen Sie den Stromkreis."
+    },
+    {
+     "de": "Sprechen Sie nach: Der Leitungsschutzschalter hat ausgelöst.",
+     "ar": "رددوا: لقد فصل قاطع حماية الخط.",
+     "en": "Repeat: The circuit breaker has tripped."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Grundwörter 3: Schalten",
+    "heading": "Schütz, Klemme, Verteiler, Schaltschrank",
+    "items": [
+     "das Schütz, die Schütze: Schalter, hohe Leistung",
+     "die Klemme, -n: Anschlusspunkt",
+     "der Verteiler, -: Gerätekasten",
+     "der Schaltschrank, Schaltschränke"
+    ],
+    "terms": [
+     {
+      "de": "das Schütz",
+      "ar": "الكونتاكتور",
+      "en": "contactor"
+     },
+     {
+      "de": "die Klemme",
+      "ar": "الطرف / مشبك التوصيل",
+      "en": "terminal"
+     },
+     {
+      "de": "der Schaltschrank",
+      "ar": "خزانة التحكم",
+      "en": "control cabinet"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Schütz, die Schütze: Ein elektromagnetischer Schalter für hohe Leistung.",
+     "ar": "نقول: das Schütz، die Schütze: مفتاح كهرومغناطيسي للقدرات العالية.",
+     "en": "Das Schütz, die Schütze: an electromagnetic switch for high power."
+    },
+    {
+     "de": "Die Klemme, die Klemmen: Hier schließen Sie eine Leitung an.",
+     "ar": "نقول: die Klemme، die Klemmen: هنا توصلون الخط.",
+     "en": "Die Klemme, die Klemmen: this is where you connect a wire."
+    },
+    {
+     "de": "Der Verteiler, die Verteiler: Er verteilt den Strom an mehrere Stromkreise.",
+     "ar": "نقول: der Verteiler، die Verteiler: يوزّع التيار على عدة دوائر.",
+     "en": "Der Verteiler, die Verteiler: it distributes power to several circuits."
+    },
+    {
+     "de": "Der Schaltschrank, die Schaltschränke: Im Schrank sitzen Schütze und Klemmen.",
+     "ar": "نقول: der Schaltschrank، die Schaltschränke: في الخزانة توجد الكونتاكتورات والأطراف.",
+     "en": "Der Schaltschrank, die Schaltschränke: contactors and terminals sit inside."
+    },
+    {
+     "de": "Ein Beispiel: Das Schütz zieht an.",
+     "ar": "مثال: الكونتاكتور يعمل (يتماسك).",
+     "en": "An example: The contactor pulls in."
+    },
+    {
+     "de": "Die Klemme ist locker. Bitte ziehen Sie die Schraube fest.",
+     "ar": "الطرف مفكوك. من فضلكم شدّوا البرغي.",
+     "en": "The terminal is loose. Please tighten the screw."
+    },
+    {
+     "de": "Der Verteiler ist im Keller.",
+     "ar": "لوحة التوزيع في القبو.",
+     "en": "The distribution board is in the basement."
+    },
+    {
+     "de": "Öffnen Sie den Schaltschrank nur mit Erlaubnis.",
+     "ar": "افتحوا خزانة التحكم فقط بإذن.",
+     "en": "Open the control cabinet only with permission."
+    },
+    {
+     "de": "Hören Sie noch einmal: das Schütz, die Schütze.",
+     "ar": "استمعوا مرة أخرى: das Schütz، die Schütze.",
+     "en": "Listen once more: das Schütz, die Schütze."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Grundgrößen",
+    "heading": "Strom, Spannung, Widerstand, Leistung",
+    "items": [
+     "der Strom: Fluss der Ladung",
+     "die Spannung, -en: Antrieb für den Strom",
+     "der Widerstand, Widerstände",
+     "die Leistung, -en: Arbeit pro Zeit"
+    ],
+    "terms": [
+     {
+      "de": "die Spannung",
+      "ar": "الجهد",
+      "en": "voltage"
+     },
+     {
+      "de": "der Widerstand",
+      "ar": "المقاومة",
+      "en": "resistance"
+     },
+     {
+      "de": "die Leistung",
+      "ar": "القدرة",
+      "en": "power"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun die vier Grundgrößen. Der Strom, meistens ohne Plural.",
+     "ar": "الآن الكميات الأربع الأساسية. der Strom، غالبًا بلا جمع.",
+     "en": "Now the four basic quantities. Der Strom, mostly without a plural."
+    },
+    {
+     "de": "Die Spannung, die Spannungen. Spannung treibt den Strom an.",
+     "ar": "نقول: die Spannung، die Spannungen. الجهد يدفع التيار.",
+     "en": "Die Spannung, die Spannungen. Voltage drives the current."
+    },
+    {
+     "de": "Der Widerstand, die Widerstände. Er bremst den Strom.",
+     "ar": "نقول: der Widerstand، die Widerstände. يعيق التيار.",
+     "en": "Der Widerstand, die Widerstände. It restricts the current."
+    },
+    {
+     "de": "Die Leistung, die Leistungen. Leistung ist Arbeit pro Zeit.",
+     "ar": "نقول: die Leistung، die Leistungen. القدرة هي الشغل في الزمن.",
+     "en": "Die Leistung, die Leistungen. Power is work per time."
+    },
+    {
+     "de": "Wichtig: Sagen Sie Spannung, nicht Strom, wenn Sie Volt meinen.",
+     "ar": "مهم: قولوا Spannung لا Strom عندما تقصدون الفولت.",
+     "en": "Important: say Spannung, not Strom, when you mean volts."
+    },
+    {
+     "de": "Ein Beispiel: Die Spannung ist zu niedrig.",
+     "ar": "مثال: الجهد منخفض جدًا.",
+     "en": "An example: The voltage is too low."
+    },
+    {
+     "de": "Der Widerstand ist zu hoch.",
+     "ar": "المقاومة مرتفعة جدًا.",
+     "en": "The resistance is too high."
+    },
+    {
+     "de": "Die Leistung der Maschine ist groß.",
+     "ar": "قدرة الآلة كبيرة.",
+     "en": "The power of the machine is large."
+    },
+    {
+     "de": "Der Strom fließt durch den Leiter.",
+     "ar": "التيار يجري عبر الموصل.",
+     "en": "The current flows through the conductor."
+    },
+    {
+     "de": "Wiederholen Sie: Spannung, Strom, Widerstand, Leistung.",
+     "ar": "كرروا: Spannung، Strom، Widerstand، Leistung.",
+     "en": "Repeat: Spannung, Strom, Widerstand, Leistung."
+    },
+    {
+     "de": "Sie hören oft den Satz: Wie hoch ist die Spannung?",
+     "ar": "تسمعون كثيرًا السؤال: ما هو الجهد؟",
+     "en": "You often hear the question: How high is the voltage?"
+    },
+    {
+     "de": "Antworten Sie ruhig und klar. Immer mit Einheit.",
+     "ar": "أجيبوا بهدوء ووضوح، ودائمًا مع الوحدة.",
+     "en": "Answer calmly and clearly. Always with the unit."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Die Leiter im Netz",
+    "heading": "Außenleiter, Neutralleiter, Schutzleiter",
+    "items": [
+     "der Außenleiter (L): führt Spannung",
+     "der Neutralleiter (N): am Sternpunkt",
+     "der Schutzleiter (PE): schützt Personen",
+     "die Erdung, -en: Verbindung zur Erde"
+    ],
+    "terms": [
+     {
+      "de": "der Außenleiter",
+      "ar": "الموصل الخارجي (الطور)",
+      "en": "line conductor"
+     },
+     {
+      "de": "der Neutralleiter",
+      "ar": "موصل التعادل",
+      "en": "neutral conductor"
+     },
+     {
+      "de": "der Schutzleiter",
+      "ar": "موصل الحماية",
+      "en": "protective conductor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Diese Wörter müssen Sie sicher kennen.",
+     "ar": "هذه الكلمات يجب أن تعرفوها جيدًا.",
+     "en": "You must know these words well."
+    },
+    {
+     "de": "Der Außenleiter führt Spannung. Im Alltag hört man auch: Phase.",
+     "ar": "نقول: der Außenleiter يحمل الجهد. وفي الحياة اليومية يُقال أيضًا: Phase.",
+     "en": "The Außenleiter carries voltage. In everyday talk you also hear: Phase.",
+     "tts": "Der Außenleiter führt Spannung. Im Alltag hört man auch: Phase. Das Kürzel ist: El."
+    },
+    {
+     "de": "Der Neutralleiter ist mit dem Sternpunkt des Netzes verbunden. Kürzel: N.",
+     "ar": "نقول: der Neutralleiter متصل بنقطة النجمة في الشبكة. رمزه: N.",
+     "en": "The Neutralleiter is connected to the star point of the network. Symbol: N.",
+     "tts": "Der Neutralleiter ist mit dem Sternpunkt des Netzes verbunden. Kürzel: En."
+    },
+    {
+     "de": "Der Schutzleiter verbindet die Gehäuse der Geräte. Kürzel: PE.",
+     "ar": "نقول: der Schutzleiter يصل هياكل الأجهزة ببعضها. رمزه: PE.",
+     "en": "The Schutzleiter connects the housings of the devices. Symbol: PE.",
+     "tts": "Der Schutzleiter verbindet die Gehäuse der Geräte. Kürzel: Pe-E."
+    },
+    {
+     "de": "Die Erdung, die Erdungen, verbindet Anlagen mit der Erde.",
+     "ar": "نقول: die Erdung، die Erdungen، تصل المنشآت بالأرض.",
+     "en": "Die Erdung, die Erdungen, connects installations to earth."
+    },
+    {
+     "de": "Ein Hinweis zur Sicherheit: Fragen Sie im Team nach den Farben und Bezeichnungen.",
+     "ar": "تنبيه للسلامة: اسألوا الفريق عن الألوان والتسميات.",
+     "en": "A safety note: ask your team about the colours and labels."
+    },
+    {
+     "de": "Hören Sie im Satz: Der Schutzleiter muss immer angeschlossen sein.",
+     "ar": "استمعوا في جملة: يجب أن يكون موصل الحماية موصولًا دائمًا.",
+     "en": "Listen in a sentence: The protective conductor must always be connected."
+    },
+    {
+     "de": "Der Neutralleiter ist nicht dasselbe wie der Schutzleiter.",
+     "ar": "موصل التعادل ليس هو نفسه موصل الحماية.",
+     "en": "The neutral conductor is not the same as the protective conductor."
+    },
+    {
+     "de": "Das ist ein häufiger Fehler. Merken Sie sich den Unterschied.",
+     "ar": "هذا خطأ شائع. تذكّروا الفرق.",
+     "en": "That is a common mistake. Remember the difference."
+    },
+    {
+     "de": "Üben Sie diese Sätze laut mit einem Kollegen.",
+     "ar": "تدرّبوا على هذه الجمل بصوت عالٍ مع زميل.",
+     "en": "Practise these sentences aloud with a colleague."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wörter zerlegen",
+    "heading": "Zusammengesetzte Wörter verstehen",
+    "items": [
+     "Leitung + Schutz + Schalter",
+     "Schalt + Schrank = Schaltschrank",
+     "Das letzte Wort bestimmt den Artikel",
+     "Fugen-s: Prüf + Protokoll"
+    ],
+    "terms": [
+     {
+      "de": "der Leitungsschutzschalter",
+      "ar": "قاطع حماية الخط",
+      "en": "miniature circuit breaker"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Deutsche Fachwörter sind oft lang. Aber sie sind leicht zu zerlegen.",
+     "ar": "الكلمات المهنية الألمانية طويلة غالبًا، لكن تقسيمها سهل.",
+     "en": "German technical words are often long, but they are easy to split."
+    },
+    {
+     "de": "Leitungsschutzschalter: Leitung, Schutz, Schalter. Ein Schalter, der die Leitung schützt.",
+     "ar": "نقول: Leitungsschutzschalter: خط، حماية، مفتاح. مفتاح يحمي الخط.",
+     "en": "Leitungsschutzschalter: line, protection, switch. A switch that protects the line."
+    },
+    {
+     "de": "Das letzte Wort ist wichtig. Es bestimmt den Artikel.",
+     "ar": "الكلمة الأخيرة مهمة. فهي تحدد أداة التعريف.",
+     "en": "The last word matters. It decides the article."
+    },
+    {
+     "de": "Schalten plus der Schrank ergibt: der Schaltschrank.",
+     "ar": "نقول: Schalt مع der Schrank تعطي: der Schaltschrank.",
+     "en": "Schalt plus der Schrank gives: der Schaltschrank."
+    },
+    {
+     "de": "Manchmal steht ein s in der Mitte. Zum Beispiel: Prüfprotokoll, Leitungsschutz.",
+     "ar": "أحيانًا يوجد حرف s في الوسط، مثل Leitungsschutz.",
+     "en": "Sometimes there is an s in the middle, for example in Leitungsschutz."
+    },
+    {
+     "de": "Noch ein Beispiel: Kabelkanal. Kabel plus Kanal.",
+     "ar": "مثال آخر: Kabelkanal. كبل مع قناة.",
+     "en": "Another example: Kabelkanal. Cable plus channel."
+    },
+    {
+     "de": "Und: Schutzleiteranschluss. Das ist der Anschluss für den Schutzleiter.",
+     "ar": "وكذلك: Schutzleiteranschluss. وهو وصلة موصل الحماية.",
+     "en": "And: Schutzleiteranschluss. That is the connection for the protective conductor."
+    },
+    {
+     "de": "Der Trick: Lesen Sie von hinten nach vorne.",
+     "ar": "الحيلة: اقرؤوا من الخلف إلى الأمام.",
+     "en": "The trick: read from back to front."
+    },
+    {
+     "de": "So verstehen Sie auch neue Wörter, die Sie noch nie gehört haben.",
+     "ar": "هكذا تفهمون أيضًا كلمات جديدة لم تسمعوها من قبل.",
+     "en": "That way you also understand new words you have never heard."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Alltag und Fachsprache",
+    "heading": "Umgangssprache oder Fachsprache?",
+    "items": [
+     "Automat → Leitungsschutzschalter",
+     "FI → Fehlerstrom-Schutzeinrichtung",
+     "Phase → Außenleiter",
+     "Strom aus → freischalten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auf der Baustelle hören Sie oft Umgangssprache.",
+     "ar": "في الموقع تسمعون غالبًا اللغة العامية.",
+     "en": "On site you often hear colloquial language."
+    },
+    {
+     "de": "Kollegen sagen: Der Automat ist raus. Gemeint ist: der Leitungsschutzschalter hat ausgelöst.",
+     "ar": "يقول الزملاء: der Automat ist raus. والمقصود أن القاطع قد فصل.",
+     "en": "Colleagues say: the Automat is out. They mean the circuit breaker has tripped."
+    },
+    {
+     "de": "Sie sagen FI. In Dokumenten steht: Fehlerstrom-Schutzeinrichtung.",
+     "ar": "يقولون FI. وفي الوثائق يُكتب: Fehlerstrom-Schutzeinrichtung.",
+     "en": "They say FI. In documents it says: Fehlerstrom-Schutzeinrichtung.",
+     "tts": "Sie sagen Ef-I. In Dokumenten steht: Fehlerstrom-Schutzeinrichtung."
+    },
+    {
+     "de": "Verstehen Sie beides. Schreiben Sie aber in Berichten die Fachsprache.",
+     "ar": "افهموا الاثنين، لكن اكتبوا في التقارير اللغة المهنية.",
+     "en": "Understand both. But write the technical term in reports."
+    },
+    {
+     "de": "Fachsprache steht in Plänen, Berichten und Normen.",
+     "ar": "اللغة المهنية موجودة في المخططات والتقارير والمعايير.",
+     "en": "Technical language is in plans, reports and standards."
+    },
+    {
+     "de": "Umgangssprache hören Sie im Gespräch auf der Baustelle.",
+     "ar": "أما العامية فتسمعونها في الحديث في الموقع.",
+     "en": "Colloquial language is what you hear in conversation on site."
+    },
+    {
+     "de": "Fragen Sie ruhig: Meinen Sie den Leitungsschutzschalter?",
+     "ar": "اسألوا بحرية: هل تقصدون قاطع حماية الخط؟",
+     "en": "Just ask: Do you mean the Leitungsschutzschalter?"
+    },
+    {
+     "de": "So lernen Sie beide Sprachebenen.",
+     "ar": "هكذا تتعلمون المستويين اللغويين.",
+     "en": "That is how you learn both language levels."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Werkstatt und Sicherheit",
+    "heading": "Wichtige Sätze in der Werkstatt",
+    "items": [
+     "Achtung, hier ist Spannung!",
+     "Bitte schalten Sie die Anlage frei.",
+     "Ist die Anlage spannungsfrei?",
+     "Nicht einschalten! Ich arbeite hier."
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommen Sätze für die Werkstatt. Sprechen Sie sie langsam nach.",
+     "ar": "الآن جمل للورشة. رددوها ببطء.",
+     "en": "Now phrases for the workshop. Repeat them slowly."
+    },
+    {
+     "de": "Achtung, hier ist Spannung!",
+     "ar": "انتباه، هنا يوجد جهد!",
+     "en": "Careful, there is voltage here!"
+    },
+    {
+     "de": "Bitte schalten Sie die Anlage frei.",
+     "ar": "من فضلكم افصلوا الطاقة عن المنشأة.",
+     "en": "Please disconnect the installation from power."
+    },
+    {
+     "de": "Ist die Anlage spannungsfrei?",
+     "ar": "هل المنشأة خالية من الجهد؟",
+     "en": "Is the installation free of voltage?"
+    },
+    {
+     "de": "Nicht einschalten! Es wird gearbeitet.",
+     "ar": "لا تشغّلوا! يجري العمل هنا.",
+     "en": "Do not switch on! Work is in progress."
+    },
+    {
+     "de": "Wichtig ist auch der Ton. Sagen Sie Bitte und Danke.",
+     "ar": "النبرة مهمة أيضًا. قولوا من فضلكم وشكرًا.",
+     "en": "Tone matters too. Say please and thank you."
+    },
+    {
+     "de": "Sie sagen zu Kollegen oft Sie, bis man Ihnen das Du anbietet.",
+     "ar": "تخاطبون الزملاء غالبًا بصيغة Sie حتى يعرضوا عليكم صيغة Du.",
+     "en": "You often say Sie to colleagues until they offer you Du."
+    },
+    {
+     "de": "Ein Beispiel für eine Frage: Wo ist der Verteiler?",
+     "ar": "مثال على سؤال: أين لوحة التوزيع؟",
+     "en": "An example of a question: Where is the distribution board?"
+    },
+    {
+     "de": "Und eine Antwort: Der Verteiler ist im Keller, links.",
+     "ar": "وجواب: لوحة التوزيع في القبو، على اليسار.",
+     "en": "And an answer: The distribution board is in the basement, on the left."
+    },
+    {
+     "de": "Eine Bitte: Reichen Sie mir bitte den Schraubendreher.",
+     "ar": "طلب: ناولوني من فضلكم مفك البراغي.",
+     "en": "A request: Please pass me the screwdriver."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Höflich nachfragen",
+    "heading": "Wenn Sie etwas nicht verstehen",
+    "items": [
+     "Könnten Sie das bitte wiederholen?",
+     "Könnten Sie langsamer sprechen?",
+     "Was bedeutet das genau?",
+     "Habe ich das richtig verstanden?"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Sie verstehen etwas nicht? Das ist normal. Fragen Sie höflich.",
+     "ar": "لم تفهموا شيئًا؟ هذا طبيعي. اسألوا بأدب.",
+     "en": "You do not understand something? That is normal. Ask politely."
+    },
+    {
+     "de": "Könnten Sie das bitte wiederholen?",
+     "ar": "هل يمكنكم إعادة ذلك من فضلكم؟",
+     "en": "Could you please repeat that?"
+    },
+    {
+     "de": "Könnten Sie bitte etwas langsamer sprechen?",
+     "ar": "هل يمكنكم التحدث أبطأ قليلًا من فضلكم؟",
+     "en": "Could you please speak a little slower?"
+    },
+    {
+     "de": "Was bedeutet das genau? Und: Habe ich das richtig verstanden?",
+     "ar": "ماذا يعني ذلك بالضبط؟ وأيضًا: هل فهمتُ ذلك بشكل صحيح؟",
+     "en": "What does that mean exactly? And: Have I understood that correctly?"
+    },
+    {
+     "de": "Gute Fachleute fragen nach. Das ist ein Zeichen von Sorgfalt.",
+     "ar": "المتخصصون الجيدون يسألون. وهذا دليل على الدقة.",
+     "en": "Good professionals ask. That is a sign of care."
+    },
+    {
+     "de": "Noch ein Beispiel: Könnten Sie mir das bitte zeigen?",
+     "ar": "مثال آخر: هل يمكنكم أن تُريني ذلك من فضلكم؟",
+     "en": "Another example: Could you please show me that?"
+    },
+    {
+     "de": "Oder: Könnten Sie das bitte aufschreiben?",
+     "ar": "أو: هل يمكنكم كتابة ذلك من فضلكم؟",
+     "en": "Or: Could you please write that down?"
+    },
+    {
+     "de": "Wenn Sie ein Wort nicht kennen, fragen Sie: Was ist das auf Deutsch?",
+     "ar": "إذا لم تعرفوا كلمة فاسألوا: ما هذا بالألمانية؟",
+     "en": "If you do not know a word, ask: What is that in German?"
+    },
+    {
+     "de": "Wiederholen Sie die Antwort, dann merken Sie sich das Wort besser.",
+     "ar": "كرروا الجواب فتحفظوا الكلمة أفضل.",
+     "en": "Repeat the answer, then you remember the word better."
+    },
+    {
+     "de": "Wenn Sie unsicher sind, ist Nachfragen immer besser als Raten.",
+     "ar": "إذا كنتم غير متأكدين، فالسؤال دائمًا أفضل من التخمين.",
+     "en": "If you are unsure, asking is always better than guessing."
+    },
+    {
+     "de": "Das gilt besonders bei der Sicherheit.",
+     "ar": "وهذا ينطبق خصوصًا على السلامة.",
+     "en": "That is especially true for safety."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Am Telefon",
+    "heading": "Telefonsätze für den Alltag",
+    "items": [
+     "Guten Tag, hier spricht Ahmed Samir.",
+     "Ich rufe wegen des Auftrags an.",
+     "Kann ich bitte Herrn Becker sprechen?",
+     "Ich rufe später noch einmal an."
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Telefon sehen Sie niemanden. Sprechen Sie deshalb klar.",
+     "ar": "في الهاتف لا ترون أحدًا، لذا تكلموا بوضوح.",
+     "en": "On the phone you cannot see anyone. So speak clearly."
+    },
+    {
+     "de": "Guten Tag, hier spricht Ahmed Samir von der Firma Elektro Nord.",
+     "ar": "يوم سعيد، معكم أحمد سمير من شركة Elektro Nord.",
+     "en": "Good day, this is Ahmed Samir from the company Elektro Nord."
+    },
+    {
+     "de": "Ich rufe wegen des Auftrags an. Kann ich bitte Herrn Becker sprechen?",
+     "ar": "أتصل بخصوص الطلب. هل يمكنني التحدث مع السيد Becker من فضلكم؟",
+     "en": "I am calling about the order. May I speak to Mr Becker, please?"
+    },
+    {
+     "de": "Können Sie das buchstabieren? So fragen Sie nach einem Namen.",
+     "ar": "هل يمكنكم تهجئة ذلك؟ هكذا تسألون عن اسم.",
+     "en": "Can you spell that? This is how you ask about a name."
+    },
+    {
+     "de": "Vielen Dank. Auf Wiederhören!",
+     "ar": "شكرًا جزيلًا. إلى اللقاء (على الهاتف)!",
+     "en": "Thank you very much. Goodbye!"
+    },
+    {
+     "de": "Hören Sie noch eine Situation.",
+     "ar": "استمعوا إلى موقف آخر.",
+     "en": "Listen to one more situation."
+    },
+    {
+     "de": "Die Kollegin sagt: Die Lieferung kommt morgen.",
+     "ar": "الزميلة تقول: التسليم يصل غدًا.",
+     "en": "The colleague says: The delivery arrives tomorrow."
+    },
+    {
+     "de": "Sie antworten: Entschuldigung, könnten Sie das bitte wiederholen?",
+     "ar": "تجيبون: عذرًا، هل يمكنكم إعادة ذلك من فضلكم؟",
+     "en": "You answer: Excuse me, could you please repeat that?"
+    },
+    {
+     "de": "Bei schlechtem Netz sagen Sie: Die Verbindung ist schlecht.",
+     "ar": "عند ضعف الشبكة تقولون: الاتصال سيئ.",
+     "en": "With a bad connection you say: The connection is bad."
+    },
+    {
+     "de": "Sprechen Sie langsam. Wiederholen Sie wichtige Zahlen und Namen.",
+     "ar": "تكلموا ببطء. كرروا الأرقام والأسماء المهمة.",
+     "en": "Speak slowly. Repeat important numbers and names."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "E-Mail",
+    "heading": "Eine kurze E-Mail schreiben",
+    "items": [
+     "Sehr geehrte Frau Weber,",
+     "ich schreibe Ihnen wegen der Lieferung.",
+     "Bitte senden Sie mir die Stückliste.",
+     "Mit freundlichen Grüßen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "In einer E-Mail schreiben Sie kurz und höflich.",
+     "ar": "في البريد الإلكتروني اكتبوا بإيجاز وأدب.",
+     "en": "In an email, write short and polite."
+    },
+    {
+     "de": "Beginnen Sie so: Sehr geehrte Frau Weber, oder: Sehr geehrter Herr Becker.",
+     "ar": "ابدؤوا هكذا: Sehr geehrte Frau Weber، أو: Sehr geehrter Herr Becker.",
+     "en": "Begin like this: Sehr geehrte Frau Weber, or: Sehr geehrter Herr Becker."
+    },
+    {
+     "de": "Dann: Ich schreibe Ihnen wegen der Lieferung.",
+     "ar": "ثم: أكتب إليكم بخصوص التسليم.",
+     "en": "Then: I am writing to you about the delivery."
+    },
+    {
+     "de": "Eine Bitte: Bitte senden Sie mir die Stückliste.",
+     "ar": "طلب: من فضلكم أرسلوا لي قائمة القطع.",
+     "en": "A request: Please send me the parts list."
+    },
+    {
+     "de": "Am Ende: Mit freundlichen Grüßen, und Ihr Name.",
+     "ar": "في النهاية: Mit freundlichen Grüßen، ثم اسمكم.",
+     "en": "At the end: Mit freundlichen Grüßen, and your name."
+    },
+    {
+     "de": "Schreiben Sie in der E-Mail einen klaren Betreff.",
+     "ar": "اكتبوا في البريد عنوانًا واضحًا.",
+     "en": "Write a clear subject line in the email."
+    },
+    {
+     "de": "Zum Beispiel: Anfrage zur Stückliste für Projekt Nord.",
+     "ar": "مثلًا: استفسار عن قائمة القطع لمشروع Nord.",
+     "en": "For example: Request about the parts list for project Nord."
+    },
+    {
+     "de": "Schreiben Sie kurze Sätze, nicht zu viele Informationen auf einmal.",
+     "ar": "اكتبوا جملًا قصيرة، وليس معلومات كثيرة دفعة واحدة.",
+     "en": "Write short sentences, not too much information at once."
+    },
+    {
+     "de": "Danken Sie am Ende: Vielen Dank für Ihre Hilfe.",
+     "ar": "اشكروا في النهاية: شكرًا جزيلًا على مساعدتكم.",
+     "en": "Thank them at the end: Many thanks for your help."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Vorstellung im Interview",
+    "heading": "Ihre Vorstellung in 20 Sekunden",
+    "items": [
+     "Ich bin Elektroingenieur und plane Anlagen."
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Gespräch kommt zuerst die Vorstellung. Üben Sie diese Sätze.",
+     "ar": "في المقابلة تأتي أولًا التعريف بالنفس. تدرّبوا على هذه الجمل.",
+     "en": "In the interview, the introduction comes first. Practise these sentences."
+    },
+    {
+     "de": "Mein Name ist Ahmed Samir. Ich bin Elektroingenieur.",
+     "ar": "اسمي أحمد سمير. أنا مهندس كهرباء.",
+     "en": "My name is Ahmed Samir. I am an electrical engineer."
+    },
+    {
+     "de": "Ich habe fünf Jahre Erfahrung in der Planung von Schaltschränken.",
+     "ar": "لدي خمس سنوات خبرة في تخطيط خزائن التحكم.",
+     "en": "I have five years of experience in planning control cabinets."
+    },
+    {
+     "de": "Ich lerne jeden Tag Deutsch. Mein Niveau ist jetzt B1.",
+     "ar": "أتعلم الألمانية كل يوم. مستواي الآن B1.",
+     "en": "I learn German every day. My level is now B1.",
+     "tts": "Ich lerne jeden Tag Deutsch. Mein Niveau ist jetzt Be-Eins."
+    },
+    {
+     "de": "Ich möchte gern in Ihrem Team arbeiten.",
+     "ar": "أرغب في العمل ضمن فريقكم.",
+     "en": "I would like to work in your team."
+    },
+    {
+     "de": "Sprechen Sie ruhig und lächeln Sie.",
+     "ar": "تكلموا بهدوء وابتسموا.",
+     "en": "Speak calmly and smile."
+    },
+    {
+     "de": "Sagen Sie nach der Vorstellung, was Sie gut können.",
+     "ar": "بعد التعريف قولوا ما تجيدونه.",
+     "en": "After the introduction, say what you are good at."
+    },
+    {
+     "de": "Zum Beispiel: Ich kenne mich gut mit Schaltplänen aus.",
+     "ar": "مثلًا: أنا متمكن من المخططات الكهربائية.",
+     "en": "For example: I know my way around circuit diagrams."
+    },
+    {
+     "de": "Üben Sie diese Sätze laut, vor dem Spiegel.",
+     "ar": "تدرّبوا على هذه الجمل بصوت عالٍ أمام المرآة.",
+     "en": "Practise these sentences aloud in front of the mirror."
+    },
+    {
+     "de": "Sagen Sie zum Beispiel: Ich arbeite gern im Team.",
+     "ar": "قولوا مثلًا: أحب العمل ضمن فريق.",
+     "en": "Say for example: I like working in a team."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Aufgaben und Verantwortung",
+    "heading": "Antworten zu Aufgaben im Interview",
+    "items": [
+     "Ich plane Stromkreise und Verteiler.",
+     "Ich prüfe Anlagen und dokumentiere.",
+     "Ich trage Verantwortung für Sicherheit.",
+     "Ich arbeite im Team."
+    ]
+   },
+   "lines": [
+    {
+     "de": "Man fragt Sie: Was waren Ihre Aufgaben? Antworten Sie kurz und klar.",
+     "ar": "يُسألكم: ما هي مهامكم؟ أجيبوا باختصار ووضوح.",
+     "en": "They ask you: What were your tasks? Answer short and clear."
+    },
+    {
+     "de": "Ich habe Stromkreise und Verteiler geplant.",
+     "ar": "خططتُ للدوائر ولوحات التوزيع.",
+     "en": "I planned circuits and distribution boards."
+    },
+    {
+     "de": "Ich habe Anlagen geprüft und die Ergebnisse dokumentiert.",
+     "ar": "فحصتُ المنشآت ووثّقتُ النتائج.",
+     "en": "I tested installations and documented the results."
+    },
+    {
+     "de": "Und die Verantwortung? Ich war für die Sicherheit auf der Baustelle verantwortlich.",
+     "ar": "وماذا عن المسؤولية؟ كنتُ مسؤولًا عن السلامة في الموقع.",
+     "en": "And responsibility? I was responsible for safety on the building site."
+    },
+    {
+     "de": "Sagen Sie nur, was wirklich stimmt. Ehrlichkeit zählt.",
+     "ar": "قولوا فقط ما هو صحيح فعلًا. الصدق مهم.",
+     "en": "Say only what is really true. Honesty counts."
+    },
+    {
+     "de": "Eine Frage kommt oft: Warum möchten Sie bei uns arbeiten?",
+     "ar": "سؤال يتكرر: لماذا تريدون العمل لدينا؟",
+     "en": "A common question: Why do you want to work with us?"
+    },
+    {
+     "de": "Eine Antwort: Ihre Firma baut moderne Anlagen. Das interessiert mich.",
+     "ar": "جواب: شركتكم تبني منشآت حديثة وهذا يهمني.",
+     "en": "An answer: Your company builds modern installations. That interests me."
+    },
+    {
+     "de": "Und: Wo sehen Sie Ihre Stärken? Ich arbeite genau und sicher.",
+     "ar": "وسؤال: أين ترون نقاط قوتكم؟ أعمل بدقة وأمان.",
+     "en": "And: Where do you see your strengths? I work precisely and safely."
+    },
+    {
+     "de": "Wichtig sind kurze, klare Sätze.",
+     "ar": "المهم جمل قصيرة وواضحة.",
+     "en": "Short, clear sentences are important."
+    },
+    {
+     "de": "Sagen Sie: Ich habe Verantwortung für ein kleines Team gehabt.",
+     "ar": "قولوا: كنتُ مسؤولًا عن فريق صغير.",
+     "en": "Say: I was responsible for a small team."
+    },
+    {
+     "de": "Das ist ein guter Satz für das Gespräch.",
+     "ar": "هذه جملة جيدة للمقابلة.",
+     "en": "That is a good sentence for the interview."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Dokumente im Projekt",
+    "heading": "Prüfprotokoll, Lieferschein, Stückliste",
+    "items": [
+     "das Prüfprotokoll, -e: Ergebnisse der Prüfung",
+     "der Lieferschein, -e: Ware wurde geliefert",
+     "die Stückliste, -n: Teile mit Mengen",
+     "das Pflichtenheft, -e: so wird es gebaut",
+     "die Abnahme, -n: Kunde nimmt die Arbeit an"
+    ],
+    "terms": [
+     {
+      "de": "das Prüfprotokoll",
+      "ar": "محضر الفحص",
+      "en": "test report"
+     },
+     {
+      "de": "die Stückliste",
+      "ar": "قائمة القطع",
+      "en": "parts list"
+     },
+     {
+      "de": "die Abnahme",
+      "ar": "الاستلام",
+      "en": "acceptance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss die wichtigsten Dokumente.",
+     "ar": "وأخيرًا أهم الوثائق.",
+     "en": "Finally, the most important documents."
+    },
+    {
+     "de": "Das Prüfprotokoll hält die Ergebnisse einer Prüfung fest.",
+     "ar": "نقول: das Prüfprotokoll يوثّق نتائج الفحص.",
+     "en": "The Prüfprotokoll records the results of a test."
+    },
+    {
+     "de": "Der Lieferschein begleitet die Ware. Sie prüfen damit den Wareneingang.",
+     "ar": "نقول: der Lieferschein يرافق البضاعة. تفحصون به الاستلام.",
+     "en": "The Lieferschein accompanies the goods. You check the incoming goods with it."
+    },
+    {
+     "de": "Die Stückliste zeigt alle Teile mit Mengen.",
+     "ar": "نقول: die Stückliste تُظهر كل القطع مع الكميات.",
+     "en": "The Stückliste shows all parts with quantities."
+    },
+    {
+     "de": "Das Pflichtenheft beschreibt, wie der Auftragnehmer die Anforderungen umsetzt.",
+     "ar": "نقول: das Pflichtenheft يصف كيف ينفّذ المقاول المتطلبات.",
+     "en": "The Pflichtenheft describes how the contractor implements the requirements."
+    },
+    {
+     "de": "Bei der Abnahme nimmt der Kunde die Arbeit offiziell an.",
+     "ar": "عند die Abnahme يقبل العميل العمل رسميًا.",
+     "en": "At the Abnahme, the customer officially accepts the work."
+    },
+    {
+     "de": "Diese Wörter sehen Sie in Projekten jeden Tag.",
+     "ar": "هذه الكلمات سترونها في المشاريع كل يوم.",
+     "en": "You see these words in projects every day."
+    },
+    {
+     "de": "Das Lastenheft schreibt der Kunde. Es sagt, was er braucht.",
+     "ar": "نقول: das Lastenheft يكتبه العميل. ويقول ما يحتاجه.",
+     "en": "The customer writes the Lastenheft. It says what he needs."
+    },
+    {
+     "de": "Das Pflichtenheft schreibt der Auftragnehmer. Es sagt, wie er es macht.",
+     "ar": "نقول: das Pflichtenheft يكتبه المقاول. ويقول كيف سينفّذ.",
+     "en": "The contractor writes the Pflichtenheft. It says how he does it."
+    },
+    {
+     "de": "Ein Beispiel: Bitte unterschreiben Sie den Lieferschein.",
+     "ar": "مثال: من فضلكم وقّعوا على إشعار التسليم.",
+     "en": "An example: Please sign the delivery note."
+    },
+    {
+     "de": "Merken Sie sich die Reihenfolge: erst Lastenheft, dann Pflichtenheft, dann Abnahme.",
+     "ar": "تذكّروا الترتيب: أولًا Lastenheft، ثم Pflichtenheft، ثم Abnahme.",
+     "en": "Remember the order: first Lastenheft, then Pflichtenheft, then Abnahme."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Dialekt und Tempo",
+    "heading": "Dialekt: keine Angst",
+    "items": [
+     "Dialekte klingen oft anders",
+     "Fragen Sie: Können Sie das anders sagen?",
+     "Hochdeutsch hilft beim Lernen",
+     "Hören Sie viel, üben Sie jeden Tag"
+    ]
+   },
+   "lines": [
+    {
+     "de": "In Deutschland sprechen viele Menschen Dialekt.",
+     "ar": "في ألمانيا يتحدث كثيرون بلهجة محلية.",
+     "en": "In Germany many people speak a dialect."
+    },
+    {
+     "de": "Dann klingen Wörter plötzlich anders. Das ist normal.",
+     "ar": "فتبدو الكلمات فجأة مختلفة. وهذا طبيعي.",
+     "en": "Then words suddenly sound different. That is normal."
+    },
+    {
+     "de": "Fragen Sie ruhig: Können Sie das bitte auf Hochdeutsch sagen?",
+     "ar": "اسألوا بهدوء: هل يمكنكم قولها بالألمانية الفصحى من فضلكم؟",
+     "en": "Just ask: Could you please say that in standard German?"
+    },
+    {
+     "de": "Mit Übung wird es leichter.",
+     "ar": "مع التمرين يصبح الأمر أسهل.",
+     "en": "With practice it gets easier."
+    },
+    {
+     "de": "Manche Wörter in Süddeutschland oder Österreich sind anders.",
+     "ar": "بعض الكلمات في جنوب ألمانيا أو النمسا مختلفة.",
+     "en": "Some words in southern Germany or Austria are different."
+    },
+    {
+     "de": "Fachwörter in Dokumenten bleiben aber gleich.",
+     "ar": "أما الكلمات المهنية في الوثائق فتبقى نفسها.",
+     "en": "But technical words in documents stay the same."
+    },
+    {
+     "de": "Deshalb ist Fachsprache auch eine große Hilfe.",
+     "ar": "لذلك فاللغة المهنية مساعدة كبيرة أيضًا.",
+     "en": "That is why technical language is also a great help."
+    },
+    {
+     "de": "Wichtig: Sie müssen nicht perfekt sein. Verständlich reicht.",
+     "ar": "المهم: لا يجب أن تكونوا مثاليين. يكفي أن تكونوا مفهومين.",
+     "en": "Important: you do not have to be perfect. Being understandable is enough."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das haben Sie gelernt",
+    "items": [
+     "Nomen immer mit Artikel und Plural",
+     "Fachwörter zerlegen",
+     "Höflich nachfragen",
+     "Interview-Sätze und Dokumente kennen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen. Lernen Sie Nomen immer mit Artikel und Plural.",
+     "ar": "نلخّص. تعلّموا الأسماء دائمًا مع أداة التعريف والجمع.",
+     "en": "Let us summarise. Always learn nouns with article and plural."
+    },
+    {
+     "de": "Zerlegen Sie lange Wörter. Das letzte Wort bestimmt den Artikel.",
+     "ar": "قسّموا الكلمات الطويلة. الكلمة الأخيرة تحدد أداة التعريف.",
+     "en": "Split long words. The last word decides the article."
+    },
+    {
+     "de": "Fragen Sie höflich nach: Könnten Sie das bitte wiederholen?",
+     "ar": "اسألوا بأدب: هل يمكنكم إعادة ذلك من فضلكم؟",
+     "en": "Ask politely: Could you please repeat that?"
+    },
+    {
+     "de": "Üben Sie Ihre Vorstellung und kennen Sie die wichtigen Dokumente.",
+     "ar": "تدرّبوا على تعريفكم بأنفسكم واعرفوا الوثائق المهمة.",
+     "en": "Practise your introduction and know the important documents."
+    },
+    {
+     "de": "Noch einmal die wichtigsten Wörter: das Kabel, die Sicherung, das Schütz.",
+     "ar": "مرة أخرى أهم الكلمات: das Kabel، die Sicherung، das Schütz.",
+     "en": "Once more the key words: das Kabel, die Sicherung, das Schütz."
+    },
+    {
+     "de": "Und: der Schutzleiter, der Neutralleiter, der Außenleiter.",
+     "ar": "وكذلك: der Schutzleiter، der Neutralleiter، der Außenleiter.",
+     "en": "And: der Schutzleiter, der Neutralleiter, der Außenleiter."
+    },
+    {
+     "de": "Wiederholen Sie diese Liste jeden Tag fünf Minuten.",
+     "ar": "كرروا هذه القائمة كل يوم خمس دقائق.",
+     "en": "Repeat this list for five minutes every day."
+    },
+    {
+     "de": "Viel Erfolg! Im nächsten Video geht es um den Weg in den Beruf.",
+     "ar": "بالتوفيق! في الفيديو القادم نتحدث عن الطريق إلى العمل.",
+     "en": "Good luck! The next video is about the path into the job."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "der Leiter, die Leiter",
+   "ar": "الموصل",
+   "en": "conductor"
+  },
+  {
+   "de": "die Leitung, die Leitungen",
+   "ar": "الخط / السلك",
+   "en": "line, wiring"
+  },
+  {
+   "de": "das Kabel, die Kabel",
+   "ar": "الكبل",
+   "en": "cable"
+  },
+  {
+   "de": "die Sicherung, die Sicherungen",
+   "ar": "الفيوز / الحماية",
+   "en": "fuse, protection"
+  },
+  {
+   "de": "der Leitungsschutzschalter, die -",
+   "ar": "قاطع حماية الخط",
+   "en": "miniature circuit breaker"
+  },
+  {
+   "de": "die Fehlerstrom-Schutzeinrichtung, -en",
+   "ar": "جهاز الحماية من تيار الخطأ",
+   "en": "residual current device (RCD)"
+  },
+  {
+   "de": "das Schütz, die Schütze",
+   "ar": "الكونتاكتور",
+   "en": "contactor"
+  },
+  {
+   "de": "die Klemme, die Klemmen",
+   "ar": "طرف التوصيل",
+   "en": "terminal"
+  },
+  {
+   "de": "der Verteiler, die Verteiler",
+   "ar": "لوحة التوزيع",
+   "en": "distribution board"
+  },
+  {
+   "de": "der Schaltschrank, die Schaltschränke",
+   "ar": "خزانة التحكم",
+   "en": "control cabinet"
+  },
+  {
+   "de": "der Strom",
+   "ar": "التيار",
+   "en": "current"
+  },
+  {
+   "de": "die Spannung, die Spannungen",
+   "ar": "الجهد",
+   "en": "voltage"
+  },
+  {
+   "de": "der Widerstand, die Widerstände",
+   "ar": "المقاومة",
+   "en": "resistance"
+  },
+  {
+   "de": "die Leistung, die Leistungen",
+   "ar": "القدرة",
+   "en": "power"
+  },
+  {
+   "de": "die Erdung, die Erdungen",
+   "ar": "التأريض",
+   "en": "earthing"
+  },
+  {
+   "de": "der Außenleiter, die -",
+   "ar": "الموصل الخارجي (الطور)",
+   "en": "line conductor"
+  },
+  {
+   "de": "der Neutralleiter, die -",
+   "ar": "موصل التعادل",
+   "en": "neutral conductor"
+  },
+  {
+   "de": "der Schutzleiter, die -",
+   "ar": "موصل الحماية",
+   "en": "protective conductor"
+  },
+  {
+   "de": "das Prüfprotokoll, -e",
+   "ar": "محضر الفحص",
+   "en": "test report"
+  },
+  {
+   "de": "der Lieferschein, -e",
+   "ar": "إشعار التسليم",
+   "en": "delivery note"
+  },
+  {
+   "de": "die Stückliste, -n",
+   "ar": "قائمة القطع",
+   "en": "parts list"
+  },
+  {
+   "de": "das Pflichtenheft, -e",
+   "ar": "كراسة الشروط التنفيذية",
+   "en": "functional specification (contractor)"
+  },
+  {
+   "de": "die Abnahme, -n",
+   "ar": "الاستلام الرسمي",
+   "en": "acceptance"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Welches Wort ist richtig?",
+    "ar": "أي كلمة صحيحة؟",
+    "en": "Which word is correct?"
+   },
+   "options": [
+    {
+     "de": "das Kabel",
+     "ar": "das Kabel",
+     "en": "das Kabel"
+    },
+    {
+     "de": "der Kabel",
+     "ar": "der Kabel",
+     "en": "der Kabel"
+    },
+    {
+     "de": "die Kabel (Singular)",
+     "ar": "die Kabel (مفرد)",
+     "en": "die Kabel (singular)"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was bedeutet umgangssprachlich 'Sicherungsautomat'?",
+    "ar": "ماذا يعني Sicherungsautomat عاميًا؟",
+    "en": "What does 'Sicherungsautomat' mean colloquially?"
+   },
+   "options": [
+    {
+     "de": "Schütz",
+     "ar": "Schütz",
+     "en": "contactor"
+    },
+    {
+     "de": "Leitungsschutzschalter",
+     "ar": "Leitungsschutzschalter",
+     "en": "miniature circuit breaker"
+    },
+    {
+     "de": "Klemme",
+     "ar": "Klemme",
+     "en": "terminal"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welcher Leiter ist mit dem Sternpunkt verbunden?",
+    "ar": "أي موصل متصل بنقطة النجمة؟",
+    "en": "Which conductor is connected to the star point?"
+   },
+   "options": [
+    {
+     "de": "der Neutralleiter",
+     "ar": "der Neutralleiter",
+     "en": "the neutral conductor"
+    },
+    {
+     "de": "der Schutzleiter",
+     "ar": "der Schutzleiter",
+     "en": "the protective conductor"
+    },
+    {
+     "de": "der Außenleiter",
+     "ar": "der Außenleiter",
+     "en": "the line conductor"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was fragen Sie, wenn Sie etwas nicht verstanden haben?",
+    "ar": "ماذا تسألون إذا لم تفهموا شيئًا؟",
+    "en": "What do you ask when you did not understand?"
+   },
+   "options": [
+    {
+     "de": "Wie bitte, schneller!",
+     "ar": "Wie bitte, schneller!",
+     "en": "What, faster!"
+    },
+    {
+     "de": "Könnten Sie das bitte wiederholen?",
+     "ar": "Könnten Sie das bitte wiederholen?",
+     "en": "Could you please repeat that?"
+    },
+    {
+     "de": "Das ist falsch.",
+     "ar": "Das ist falsch.",
+     "en": "That is wrong."
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welches Dokument zeigt Teile mit Mengen?",
+    "ar": "أي وثيقة تُظهر القطع مع الكميات؟",
+    "en": "Which document shows parts with quantities?"
+   },
+   "options": [
+    {
+     "de": "das Prüfprotokoll",
+     "ar": "das Prüfprotokoll",
+     "en": "the test report"
+    },
+    {
+     "de": "die Stückliste",
+     "ar": "die Stückliste",
+     "en": "the parts list"
+    },
+    {
+     "de": "die Abnahme",
+     "ar": "die Abnahme",
+     "en": "the acceptance"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um den Weg in den Beruf in Deutschland.",
+  "ar": "في الفيديو القادم نتحدث عن الطريق إلى العمل في ألمانيا.",
+  "en": "The next video is about the path into the profession in Germany."
+ },
+ "stand": "2026-10-20; vor Build Artikel/Plural gegen Duden/DWDS prüfen (Netz blockiert), Pflichtenheft/Lastenheft-Definition und Begriffe Außenleiter/Neutralleiter/Schutzleiter gegen aktuelle VDE-Norm prüfen"
+}

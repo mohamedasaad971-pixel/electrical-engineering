@@ -1,0 +1,1337 @@
+{
+ "id": "E-F06",
+ "title": {
+  "de": "Schaltpläne, Symbole und Kennzeichnung",
+  "ar": "المخططات والرموز والترميز في الهندسة الكهربائية",
+  "en": "Circuit diagrams, symbols and designation"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-F06 · Grundlagen",
+    "heading": "Pläne und Kennzeichnung",
+    "items": [
+     "Schaltpläne lesen und verstehen",
+     "Kennzeichnung nach IEC 81346",
+     "Symbole und Klemmen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zu diesem Video über Schaltpläne und Kennzeichnung.",
+     "ar": "أهلًا بكم في هذا الفيديو عن المخططات الكهربائية والترميز.",
+     "en": "Welcome to this video about circuit diagrams and designation."
+    },
+    {
+     "de": "Pläne sind die gemeinsame Sprache aller Elektroingenieure in Deutschland.",
+     "ar": "المخططات هي اللغة المشتركة بين جميع مهندسي الكهرباء في ألمانيا.",
+     "en": "Diagrams are the common language of all electrical engineers in Germany."
+    },
+    {
+     "de": "Heute lernen Sie die wichtigsten Planarten, die Kennbuchstaben und die Klemmenbezeichnung.",
+     "ar": "اليوم ستتعلمون أهم أنواع المخططات ورموز الأحرف وترقيم الأطراف.",
+     "en": "Today you learn the main diagram types, the letter codes and terminal marking."
+    },
+    {
+     "de": "Das Video dauert nur wenige Minuten. Sie brauchen keinen Stift, nur Aufmerksamkeit.",
+     "ar": "الفيديو قصير، ولا تحتاجون إلى قلم بل إلى انتباه فقط.",
+     "en": "The video is short. You do not need a pen, only attention."
+    },
+    {
+     "de": "Wir arbeiten mit einfachen, eigenen Beispielen und zeigen keine Seiten aus Normen.",
+     "ar": "نعمل بأمثلة بسيطة من إعدادنا ولا نعرض صفحات من المعايير.",
+     "en": "We work with simple examples of our own and show no pages from standards."
+    },
+    {
+     "de": "Los geht es mit den Planarten.",
+     "ar": "لنبدأ بأنواع المخططات.",
+     "en": "Let us start with the diagram types."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum Pläne wichtig sind",
+    "heading": "Ohne Plan keine Anlage",
+    "items": [
+     "Planung, Bau und Betrieb nutzen Pläne",
+     "Prüfer und Kunden lesen die Dokumentation",
+     "Fehlersuche startet mit dem Plan",
+     "Jeder Plan muss eindeutig sein"
+    ],
+    "terms": [
+     {
+      "de": "Schaltplan",
+      "ar": "مخطط كهربائي",
+      "en": "circuit diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jede elektrische Anlage braucht Dokumente.",
+     "ar": "كل منشأة كهربائية تحتاج إلى وثائق.",
+     "en": "Every electrical installation needs documents."
+    },
+    {
+     "de": "Der Planer zeichnet, der Monteur baut, und der Service sucht Fehler.",
+     "ar": "المصمم يرسم والفني يركّب وفريق الصيانة يبحث عن الأعطال.",
+     "en": "The planner draws, the installer builds, and service finds faults."
+    },
+    {
+     "de": "Alle drei müssen denselben Plan gleich verstehen.",
+     "ar": "ويجب أن يفهم الثلاثة المخطط نفسه بالطريقة نفسها.",
+     "en": "All three must understand the same diagram in the same way."
+    },
+    {
+     "de": "Darum gibt es Regeln für Darstellung, Symbole und Kennzeichnung.",
+     "ar": "لذلك توجد قواعد للتمثيل وللرموز وللترميز.",
+     "en": "That is why rules exist for presentation, symbols and designation."
+    },
+    {
+     "de": "Ein Plan ist auch ein Vertrag. Er zeigt, was geliefert und gebaut wurde.",
+     "ar": "والمخطط هو أيضًا بمثابة عقد، فهو يبيّن ما تم توريده وبناؤه.",
+     "en": "A diagram is also a kind of contract. It shows what was delivered and built."
+    },
+    {
+     "de": "Als Ingenieur in Deutschland werden Sie oft Pläne prüfen und freigeben.",
+     "ar": "كمهندس في ألمانيا ستراجعون المخططات وتعتمدونها في كثير من الأحيان.",
+     "en": "As an engineer in Germany you will often check and release diagrams."
+    },
+    {
+     "de": "Deshalb lohnt es sich, Pläne von Anfang an sauber zu lesen.",
+     "ar": "لذلك يستحق الأمر أن نقرأ المخططات بدقة من البداية.",
+     "en": "So it is worth reading diagrams carefully from the start."
+    },
+    {
+     "de": "Wer Pläne versteht, spricht schneller mit Kollegen aus anderen Bereichen.",
+     "ar": "من يفهم المخططات يتحدث أسرع مع زملاء من تخصصات أخرى.",
+     "en": "Whoever understands diagrams talks faster with colleagues from other fields."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Übersicht",
+    "heading": "Die wichtigsten Planarten",
+    "items": [
+     "Übersichtsschaltplan",
+     "Stromlaufplan",
+     "Installationsplan",
+     "Klemmenplan"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt nicht den einen Schaltplan, sondern mehrere Planarten.",
+     "ar": "لا يوجد مخطط واحد فقط، بل عدة أنواع من المخططات.",
+     "en": "There is not one single diagram, but several diagram types."
+    },
+    {
+     "de": "Jede Planart beantwortet eine andere Frage.",
+     "ar": "كل نوع من المخططات يجيب عن سؤال مختلف.",
+     "en": "Each diagram type answers a different question."
+    },
+    {
+     "de": "Wir sehen heute vier Arten: Übersicht, Stromlauf, Installation und Klemmen.",
+     "ar": "سنرى اليوم أربعة أنواع: النظرة العامة ومسار التيار والتركيب والأطراف.",
+     "en": "Today we look at four types: overview, circuit, installation and terminals."
+    },
+    {
+     "de": "Der Übersichtsschaltplan beantwortet die Frage: Wie ist die Anlage aufgebaut?",
+     "ar": "مخطط النظرة العامة يجيب: كيف بُنيت المنشأة؟",
+     "en": "The overview diagram answers: how is the installation structured?"
+    },
+    {
+     "de": "Der Stromlaufplan beantwortet: Wie funktioniert die Schaltung?",
+     "ar": "ومخطط مسار التيار يجيب: كيف تعمل الدارة؟",
+     "en": "The circuit diagram answers: how does the circuit work?"
+    },
+    {
+     "de": "Der Installationsplan sagt: Wo liegt was im Gebäude? Der Klemmenplan sagt: Was ist wo angeschlossen?",
+     "ar": "ومخطط التركيب يقول: أين يقع كل شيء في المبنى؟ ومخطط الأطراف: ماذا وُصل وأين؟",
+     "en": "The installation plan says: where is what in the building? The terminal diagram says: what is connected where?"
+    },
+    {
+     "de": "Merken Sie sich diese vier Fragen. Sie helfen, die richtige Planart zu wählen.",
+     "ar": "احفظوا هذه الأسئلة الأربعة، فهي تساعد على اختيار نوع المخطط الصحيح.",
+     "en": "Remember these four questions. They help you choose the right diagram type."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Planart 1",
+    "heading": "Der Übersichtsschaltplan",
+    "items": [
+     "Einpolige Darstellung",
+     "Zeigt die Struktur der Anlage",
+     "Beispiel: Hausanschluss, Zähler, Verteiler",
+     "Wenige Details, viel Überblick"
+    ],
+    "terms": [
+     {
+      "de": "einpolig",
+      "ar": "أحادي الخط",
+      "en": "single-line"
+     },
+     {
+      "de": "Übersichtsschaltplan",
+      "ar": "مخطط النظرة العامة",
+      "en": "overview diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Übersichtsschaltplan zeigt die Struktur einer Anlage.",
+     "ar": "مخطط النظرة العامة يُظهر بنية المنشأة.",
+     "en": "The overview diagram shows the structure of an installation."
+    },
+    {
+     "de": "Er ist einpolig. Mehrere Leiter werden als eine Linie gezeichnet.",
+     "ar": "وهو أحادي الخط، أي أن عدة موصلات تُرسم كخط واحد.",
+     "en": "It is single-line. Several conductors are drawn as one line."
+    },
+    {
+     "de": "Ein typisches Beispiel ist der Weg vom Hausanschluss über den Zähler zum Verteiler.",
+     "ar": "مثال نموذجي هو المسار من وصلة المبنى عبر العدّاد إلى لوحة التوزيع.",
+     "en": "A typical example is the path from the service connection via the meter to the distribution board."
+    },
+    {
+     "de": "So erkennen Sie schnell den Aufbau, ohne sich in Details zu verlieren.",
+     "ar": "هكذا ترون البنية بسرعة دون الضياع في التفاصيل.",
+     "en": "This way you see the structure quickly without getting lost in details."
+    },
+    {
+     "de": "Der Übersichtsschaltplan ist oft der erste Plan, den Sie in einem Projekt sehen.",
+     "ar": "غالبًا ما يكون مخطط النظرة العامة أول مخطط ترونه في المشروع.",
+     "en": "The overview diagram is often the first diagram you see in a project."
+    },
+    {
+     "de": "Einzelne Bauteile erscheinen nur als einfache Blöcke oder Symbole.",
+     "ar": "وتظهر العناصر المفردة ككتل أو رموز بسيطة فقط.",
+     "en": "Individual components appear only as simple blocks or symbols."
+    },
+    {
+     "de": "In der Praxis finden Sie ihn auf der ersten Seite einer Projektmappe.",
+     "ar": "في الممارسة تجدونه غالبًا في الصفحة الأولى من ملف المشروع.",
+     "en": "In practice you find it on the first page of a project file."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Planart 2",
+    "heading": "Der Stromlaufplan",
+    "items": [
+     "Allpolige Darstellung",
+     "Alle Leiter und Bauteile",
+     "Zeigt die Funktion der Schaltung",
+     "Nicht die reale Lage der Teile"
+    ],
+    "terms": [
+     {
+      "de": "Stromlaufplan",
+      "ar": "مخطط مسار التيار",
+      "en": "circuit diagram (Stromlaufplan)"
+     },
+     {
+      "de": "allpolig",
+      "ar": "متعدد الأقطاب",
+      "en": "all-pole"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Stromlaufplan zeigt, wie eine Schaltung funktioniert.",
+     "ar": "مخطط مسار التيار يُظهر كيف تعمل الدارة.",
+     "en": "The Stromlaufplan shows how a circuit works."
+    },
+    {
+     "de": "Er ist allpolig. Alle Leiter und Bauteile sind sichtbar.",
+     "ar": "وهو متعدد الأقطاب، أي أن كل الموصلات والعناصر ظاهرة.",
+     "en": "It is all-pole. All conductors and components are visible."
+    },
+    {
+     "de": "Er zeigt aber nicht, wo die Teile im Schrank oder im Raum liegen.",
+     "ar": "لكنه لا يُظهر أين تقع الأجزاء داخل اللوحة أو الغرفة.",
+     "en": "But it does not show where the parts are located in the cabinet or room."
+    },
+    {
+     "de": "Für Fehlersuche und Inbetriebnahme ist er das wichtigste Dokument.",
+     "ar": "وهو أهم وثيقة للبحث عن الأعطال وللتشغيل الأولي.",
+     "en": "For troubleshooting and commissioning it is the most important document."
+    },
+    {
+     "de": "Oft fließt der Strom in senkrechten Strompfaden von oben nach unten.",
+     "ar": "غالبًا يُرسم مسار التيار في مسارات عمودية من الأعلى إلى الأسفل.",
+     "en": "Often the current is drawn in vertical current paths from top to bottom."
+    },
+    {
+     "de": "So kann man Steuerung und Last getrennt lesen.",
+     "ar": "وهكذا يمكن قراءة دارة التحكم ودارة الحمل كلًا على حدة.",
+     "en": "This way control and load can be read separately."
+    },
+    {
+     "de": "Fehler finden Sie so leichter: Sie folgen dem Strom Schritt für Schritt.",
+     "ar": "تجدون الأعطال أسهل هكذا: تتبعون التيار خطوة بخطوة.",
+     "en": "You find faults more easily this way: you follow the current step by step."
+    },
+    {
+     "de": "Lesen Sie zuerst die Versorgung, dann den Steuerkreis, dann die Last.",
+     "ar": "اقرؤوا أولًا التغذية، ثم دارة التحكم، ثم الحمل.",
+     "en": "Read the supply first, then the control circuit, then the load."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Darstellungsarten",
+    "heading": "Zusammenhängend oder aufgelöst",
+    "items": [
+     "Zusammenhängend: Bauteil als Ganzes",
+     "Aufgelöst: Teile an den Stromwegen",
+     "Aufgelöst ist übersichtlicher",
+     "Dafür braucht man eine Kennzeichnung"
+    ],
+    "terms": [
+     {
+      "de": "aufgelöste Darstellung",
+      "ar": "تمثيل مفكَّك",
+      "en": "exploded representation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt zwei Darstellungsarten für Stromlaufpläne.",
+     "ar": "هناك طريقتان لتمثيل مخططات مسار التيار.",
+     "en": "There are two ways to present circuit diagrams."
+    },
+    {
+     "de": "Bei der zusammenhängenden Darstellung zeichnet man ein Bauteil als Ganzes.",
+     "ar": "في التمثيل المترابط يُرسم العنصر كوحدة كاملة.",
+     "en": "In the connected presentation you draw a component as a whole."
+    },
+    {
+     "de": "Bei der aufgelösten Darstellung liegen die Teile dort, wo sie im Stromweg wirken.",
+     "ar": "في التمثيل المفكَّك توضع الأجزاء حيث تعمل في مسار التيار.",
+     "en": "In the split presentation the parts lie where they act in the current path."
+    },
+    {
+     "de": "Bei einem Schütz liegt die Spule im Steuerstrom und die Kontakte im Laststrom.",
+     "ar": "في الكونتاكتور تقع الملف في دارة التحكم والملامسات في دارة الحمل.",
+     "en": "In a contactor the coil is in the control circuit and the contacts in the load circuit."
+    },
+    {
+     "de": "Beide Darstellungen zeigen dieselbe Schaltung. Nur die Zeichnung ist anders.",
+     "ar": "كلا التمثيلين يُظهران الدارة نفسها، والاختلاف في الرسم فقط.",
+     "en": "Both presentations show the same circuit. Only the drawing is different."
+    },
+    {
+     "de": "Früher nannte man die zusammenhängende Darstellung Wirkschaltplan. Diesen Begriff hören Sie noch.",
+     "ar": "كان التمثيل المترابط يسمى مخطط التأثير سابقًا، وما زلتم تسمعون هذا المصطلح.",
+     "en": "Formerly the connected presentation was called Wirkschaltplan. You still hear this term."
+    },
+    {
+     "de": "Beim ersten Mal ist die aufgelöste Darstellung ungewohnt. Mit etwas Übung wird sie klar.",
+     "ar": "في المرة الأولى يبدو التمثيل المفكَّك غريبًا، ومع التدريب يصبح واضحًا.",
+     "en": "The first time, the split presentation feels unfamiliar. With a little practice it becomes clear."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Planart 3",
+    "heading": "Installationsplan und Lageplan",
+    "items": [
+     "Zeigt die Lage im Grundriss",
+     "Schaltzeichen für Steckdose, Schalter, Leuchte",
+     "Leitungswege und Stromkreisnummern",
+     "Lageplan: Anordnung der Geräte"
+    ],
+    "terms": [
+     {
+      "de": "Installationsplan",
+      "ar": "مخطط التركيب",
+      "en": "installation plan"
+     },
+     {
+      "de": "Grundriss",
+      "ar": "مسقط أفقي",
+      "en": "floor plan"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Installationsplan zeigt die Lage der Betriebsmittel im Grundriss.",
+     "ar": "مخطط التركيب يُظهر موقع المعدات على المسقط الأفقي.",
+     "en": "The installation plan shows the position of equipment on the floor plan."
+    },
+    {
+     "de": "Man sieht zum Beispiel Steckdosen, Schalter und Leuchten als Symbole.",
+     "ar": "نرى مثلًا المقابس والمفاتيح والمصابيح على شكل رموز.",
+     "en": "You see, for example, sockets, switches and luminaires as symbols."
+    },
+    {
+     "de": "Oft stehen auch Leitungswege und Stromkreisnummern im Plan.",
+     "ar": "وغالبًا تظهر أيضًا مسارات الكابلات وأرقام الدارات في المخطط.",
+     "en": "Often cable routes and circuit numbers are also shown in the plan."
+    },
+    {
+     "de": "Ein Lageplan zeigt in ähnlicher Weise, wo Geräte angeordnet sind.",
+     "ar": "ويُظهر مخطط الموقع بطريقة مشابهة أين تُوضع الأجهزة.",
+     "en": "A layout plan shows in a similar way where devices are arranged."
+    },
+    {
+     "de": "Im Installationsplan folgen die Zeichen der Lage im Gebäude, nicht der Funktion.",
+     "ar": "في مخطط التركيب تتبع الرموز موقعها في المبنى لا وظيفتها.",
+     "en": "In the installation plan the symbols follow the position in the building, not the function."
+    },
+    {
+     "de": "Mit ihm plant der Elektriker die Montage. Der Techniker sieht, wo er Kabel verlegen muss.",
+     "ar": "به يخطط الكهربائي التركيب ويرى الفني أين يمدّ الكابلات.",
+     "en": "With it the electrician plans the installation. The technician sees where cables must go."
+    },
+    {
+     "de": "Hier ist die Position wichtig, deshalb sind Maßstab und Raumbezug wichtig.",
+     "ar": "هنا الموضع هو المهم، لذلك يهم المقياس والعلاقة بالغرفة.",
+     "en": "Here the position matters, so scale and room reference are important."
+    },
+    {
+     "de": "Der Installationsplan ergänzt den Stromlaufplan, er ersetzt ihn nicht.",
+     "ar": "يكمّل مخطط التركيب مخطط مسار التيار ولا يحل محله.",
+     "en": "The installation plan complements the circuit diagram; it does not replace it."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Planart 4",
+    "heading": "Klemmenplan und Verdrahtung",
+    "items": [
+     "Klemmenplan: Belegung der Klemmen",
+     "Verdrahtungsplan: Verbindungen zwischen Geräten",
+     "Wichtig für Schaltschrankbau",
+     "Wichtig für Inbetriebnahme und Service"
+    ],
+    "terms": [
+     {
+      "de": "Klemmenplan",
+      "ar": "مخطط الأطراف",
+      "en": "terminal diagram"
+     },
+     {
+      "de": "Verdrahtungsplan",
+      "ar": "مخطط التسليك",
+      "en": "wiring diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Klemmenplan zeigt, welcher Draht an welcher Klemme liegt.",
+     "ar": "مخطط الأطراف يُظهر أي سلك يتصل بأي طرف.",
+     "en": "The terminal diagram shows which wire is on which terminal."
+    },
+    {
+     "de": "Ein Verdrahtungsplan zeigt die leitenden Verbindungen zwischen den Geräten.",
+     "ar": "ومخطط التسليك يُظهر الوصلات الموصلة بين الأجهزة.",
+     "en": "A wiring diagram shows the conductive connections between devices."
+    },
+    {
+     "de": "Der Schaltschrankbauer braucht diese Pläne zum Verdrahten.",
+     "ar": "بنّاء لوحات التحكم يحتاج هذه المخططات للتسليك.",
+     "en": "The control cabinet builder needs these plans for wiring."
+    },
+    {
+     "de": "Auch Anschlusspläne gehören in diese Gruppe. Die Begriffe sind in der Praxis nicht immer gleich.",
+     "ar": "ومخططات التوصيل تنتمي إلى هذه المجموعة، لكن المصطلحات في الممارسة ليست دائمًا واحدة.",
+     "en": "Connection diagrams also belong to this group. In practice the terms are not always the same."
+    },
+    {
+     "de": "Im Schaltschrank sitzen viele Klemmen nebeneinander. Ohne Plan ist die Suche mühsam.",
+     "ar": "في لوحة التحكم تتجاور أطراف كثيرة، وبدون مخطط يصبح البحث مرهقًا.",
+     "en": "In the control cabinet many terminals sit side by side. Without a diagram searching is tiresome."
+    },
+    {
+     "de": "Der Klemmenplan listet Klemme für Klemme, welcher Draht dort endet.",
+     "ar": "يسرد مخطط الأطراف طرفًا بطرف أي سلك ينتهي هناك.",
+     "en": "The terminal diagram lists terminal by terminal which wire ends there."
+    },
+    {
+     "de": "Auf der Baustelle ist der Klemmenplan oft das Dokument, das am meisten benutzt wird.",
+     "ar": "في الموقع غالبًا ما يكون مخطط الأطراف الوثيقة الأكثر استعمالًا.",
+     "en": "On site the terminal diagram is often the document used most."
+    },
+    {
+     "de": "Eine Nummer im Plan muss mit der Nummer an der Klemme übereinstimmen.",
+     "ar": "ويجب أن يطابق الرقم في المخطط الرقم على الطرف.",
+     "en": "A number in the diagram must match the number on the terminal."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Symbole",
+    "heading": "Schaltzeichen nach IEC 60617",
+    "items": [
+     "Genormte Symbole für Bauteile",
+     "Gleiche Symbole weltweit",
+     "Offizielle Quelle: Datenbank der IEC",
+     "Nicht aus dem Gedächtnis zeichnen"
+    ],
+    "terms": [
+     {
+      "de": "Schaltzeichen",
+      "ar": "رمز كهربائي",
+      "en": "graphical symbol"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Pläne benutzen genormte Symbole, die Schaltzeichen.",
+     "ar": "تستخدم المخططات رموزًا معيارية تسمى الرموز الكهربائية.",
+     "en": "Diagrams use standardised symbols, the graphical symbols."
+    },
+    {
+     "de": "Die Norm dafür heißt IEC 60617, in Deutschland DIN EN 60617.",
+     "ar": "المعيار الخاص بها هو IEC 60617، وفي ألمانيا DIN EN 60617.",
+     "en": "The standard for them is IEC 60617, in Germany DIN EN 60617.",
+     "tts": "Die Norm dafür heißt I-E-Zett sechzig-siebzehn, in Deutschland Din E-En sechzig-siebzehn."
+    },
+    {
+     "de": "Die IEC bietet die Symbole als Online-Datenbank an, mit Suche und Filtern.",
+     "ar": "تقدّم IEC هذه الرموز كقاعدة بيانات على الإنترنت مع بحث وتصفية.",
+     "en": "The IEC offers the symbols as an online database with search and filters.",
+     "tts": "Die I-E-Zett bietet die Symbole als Online-Datenbank an, mit Suche und Filtern."
+    },
+    {
+     "de": "In diesem Kurs zeigen wir keine Symbole aus der Norm. Schauen Sie im offiziellen Katalog nach.",
+     "ar": "في هذه الدورة لا نعرض رموزًا من المعيار؛ ارجعوا إلى الكتالوج الرسمي.",
+     "en": "In this course we do not show symbols from the standard. Look in the official catalogue."
+    },
+    {
+     "de": "Ein Symbol ist nur eine Zeichnung. Erst das Kennzeichen sagt, welches Gerät gemeint ist.",
+     "ar": "الرمز مجرد رسم، والترميز هو الذي يحدد أي جهاز المقصود.",
+     "en": "A symbol is only a drawing. Only the designation says which device is meant."
+    },
+    {
+     "de": "Wenn Sie ein Symbol nicht kennen, suchen Sie es in der Datenbank. Raten Sie nie.",
+     "ar": "إذا لم تعرفوا رمزًا فابحثوا عنه في قاعدة البيانات ولا تخمّنوا أبدًا.",
+     "en": "If you do not know a symbol, look it up in the database. Never guess."
+    },
+    {
+     "de": "Ein Hinweis zum Urheberrecht: Wir kopieren keine Symbole aus der Norm in unsere Folien.",
+     "ar": "تنبيه حول حقوق النشر: لا ننسخ رموزًا من المعيار إلى شرائحنا.",
+     "en": "A note on copyright: we do not copy symbols from the standard into our slides."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Regeln für Dokumente",
+    "heading": "Darstellung nach IEC 61082",
+    "items": [
+     "Teil 1: allgemeine Regeln",
+     "Gilt für Schaltpläne, Zeichnungen, Tabellen",
+     "Deutsche Fassung: DIN EN 61082-1",
+     "Ausgabe 2015, VDE 0040-1"
+    ],
+    "terms": [
+     {
+      "de": "Dokument",
+      "ar": "وثيقة",
+      "en": "document"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie ein Plan aufgebaut ist, regelt die Reihe IEC 61082.",
+     "ar": "طريقة بناء المخطط تنظمها سلسلة IEC 61082.",
+     "en": "How a diagram is built is governed by the IEC 61082 series.",
+     "tts": "Wie ein Plan aufgebaut ist, regelt die Reihe I-E-Zett einundsechzig-null-zweiundachtzig."
+    },
+    {
+     "de": "Teil 1 gibt allgemeine Regeln für Dokumente der Elektrotechnik.",
+     "ar": "الجزء الأول يضع قواعد عامة لوثائق الهندسة الكهربائية.",
+     "en": "Part 1 gives general rules for electrotechnical documents.",
+     "tts": "Teil eins gibt allgemeine Regeln für Dokumente der Elektrotechnik."
+    },
+    {
+     "de": "Dazu kommen besondere Regeln für Schaltpläne, Zeichnungen und Tabellen.",
+     "ar": "وتُضاف قواعد خاصة بالمخططات والرسومات والجداول.",
+     "en": "Added to this are special rules for diagrams, drawings and tables."
+    },
+    {
+     "de": "Die deutsche Fassung heißt DIN EN 61082-1 und stammt aus dem Jahr 2015.",
+     "ar": "النسخة الألمانية تسمى DIN EN 61082-1 وهي من عام 2015.",
+     "en": "The German version is called DIN EN 61082-1 and dates from 2015.",
+     "tts": "Die deutsche Fassung heißt Din E-En einundsechzig-null-zweiundachtzig, Teil eins, und stammt aus dem Jahr zweitausendfünfzehn."
+    },
+    {
+     "de": "Die Reihe ist international. Deshalb sind Pläne weltweit lesbar.",
+     "ar": "السلسلة دولية، ولذلك يمكن قراءة المخططات في العالم كله.",
+     "en": "The series is international. That is why diagrams can be read worldwide."
+    },
+    {
+     "de": "Eine Berichtigung zur Ausgabe 2015 gibt es auch. Prüfen Sie, ob sie für Sie wichtig ist.",
+     "ar": "وهناك أيضًا تصحيح للإصدار 2015، فتحققوا إن كان مهمًا لكم.",
+     "en": "There is also a corrigendum to the 2015 edition. Check whether it matters to you.",
+     "tts": "Eine Berichtigung zur Ausgabe zweitausendfünfzehn gibt es auch. Prüfen Sie, ob sie für Sie wichtig ist."
+    },
+    {
+     "de": "Ein Plan, der nach diesen Regeln gezeichnet ist, liest sich in jedem Land ähnlich.",
+     "ar": "المخطط المرسوم بهذه القواعد يُقرأ بشكل مشابه في كل بلد.",
+     "en": "A diagram drawn by these rules reads similarly in every country."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Kennzeichnung",
+    "heading": "Betriebsmittel eindeutig benennen",
+    "items": [
+     "Jedes Betriebsmittel bekommt ein Kennzeichen",
+     "Norm: IEC 81346",
+     "Deutsch: DIN EN IEC 81346",
+     "Kennzeichen steht im Plan und am Gerät"
+    ],
+    "terms": [
+     {
+      "de": "Betriebsmittelkennzeichnung",
+      "ar": "ترميز المعدات",
+      "en": "equipment designation"
+     },
+     {
+      "de": "Referenzkennzeichnung",
+      "ar": "ترميز مرجعي",
+      "en": "reference designation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Plan muss jedes Gerät einen eindeutigen Namen haben.",
+     "ar": "في المخطط يجب أن يكون لكل جهاز اسم فريد.",
+     "en": "In the diagram every device must have a unique name."
+    },
+    {
+     "de": "Dieses Kennzeichen heißt Referenzkennzeichnung. Die Grundlage ist die Norm IEC 81346.",
+     "ar": "هذا الترميز يسمى الترميز المرجعي، وأساسه معيار IEC 81346.",
+     "en": "This designation is called reference designation. The basis is the IEC 81346 standard.",
+     "tts": "Dieses Kennzeichen heißt Referenzkennzeichnung. Die Grundlage ist die Norm I-E-Zett einundachtzig-dreihundertsechsundvierzig."
+    },
+    {
+     "de": "Das Kennzeichen am Gerät ist der Schlüssel zu den Informationen in den Dokumenten.",
+     "ar": "الترميز على الجهاز هو مفتاح الوصول إلى المعلومات في الوثائق.",
+     "en": "The designation on the device is the key to the information in the documents."
+    },
+    {
+     "de": "So finden Sie im Plan genau das Gerät, das im Schrank hängt.",
+     "ar": "هكذا تجدون في المخطط الجهاز نفسه الموجود في اللوحة.",
+     "en": "This way you find in the diagram exactly the device that hangs in the cabinet."
+    },
+    {
+     "de": "Das System ist unabhängig vom Hersteller. Es gilt für viele technische Bereiche.",
+     "ar": "النظام مستقل عن الشركة المصنعة ويصلح لمجالات تقنية كثيرة.",
+     "en": "The system is independent of the manufacturer. It applies to many technical fields."
+    },
+    {
+     "de": "Die Ausgabe 2022 der Grundnorm nennt dafür allgemeine Strukturierungsprinzipien.",
+     "ar": "وتتضمن طبعة 2022 من المعيار الأساسي مبادئ عامة للتنظيم.",
+     "en": "The 2022 edition of the basic standard gives general structuring principles for this.",
+     "tts": "Die Ausgabe zweitausendzweiundzwanzig der Grundnorm nennt dafür allgemeine Strukturierungsprinzipien."
+    },
+    {
+     "de": "Stellen Sie sich einen Stempel vor: Er gehört zu genau einem Gerät.",
+     "ar": "تخيّلوا ختمًا: يخص جهازًا واحدًا فقط.",
+     "en": "Imagine a stamp: it belongs to exactly one device."
+    },
+    {
+     "de": "Auch für Fehlermeldungen und Ersatzteile hilft das Kennzeichen.",
+     "ar": "ويساعد الترميز أيضًا في رسائل الأعطال وقطع الغيار.",
+     "en": "The designation also helps with fault messages and spare parts."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Kennbuchstaben",
+    "heading": "Beispiele für Klassen",
+    "items": [
+     "Q: Schalten von Energie, zum Beispiel Schütz",
+     "F: Schutz, zum Beispiel Sicherung",
+     "K: Signalverarbeitung, zum Beispiel Relais",
+     "M: mechanische Energie, zum Beispiel Motor"
+    ],
+    "terms": [
+     {
+      "de": "Kennbuchstabe",
+      "ar": "حرف الترميز",
+      "en": "letter code"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Norm IEC 81346-2 ordnet Objekte in Klassen. Jede Klasse hat einen Buchstaben.",
+     "ar": "يصنّف المعيار IEC 81346-2 الكائنات في فئات، ولكل فئة حرف.",
+     "en": "The IEC 81346-2 standard sorts objects into classes. Each class has a letter.",
+     "tts": "Die Norm I-E-Zett einundachtzig-dreihundertsechsundvierzig, Teil zwei, ordnet Objekte in Klassen. Jede Klasse hat einen Buchstaben."
+    },
+    {
+     "de": "Q steht zum Beispiel für das Schalten von Energie, etwa bei einem Schütz.",
+     "ar": "الحرف Q مثلًا للتحكم بتدفق الطاقة، كما في الكونتاكتور.",
+     "en": "Q stands, for example, for switching energy, such as with a contactor.",
+     "tts": "Ku steht zum Beispiel für das Schalten von Energie, etwa bei einem Schütz."
+    },
+    {
+     "de": "F steht für Schutzeinrichtungen wie Sicherungen. K steht für Signalverarbeitung, zum Beispiel Relais.",
+     "ar": "الحرف F للحماية كالمنصهرات، والحرف K لمعالجة الإشارات كالمرحلات.",
+     "en": "F stands for protective devices such as fuses. K stands for signal processing, for example relays.",
+     "tts": "Eff steht für Schutzeinrichtungen wie Sicherungen. Ka steht für Signalverarbeitung, zum Beispiel Relais."
+    },
+    {
+     "de": "M steht für mechanische Energie, also für Motoren.",
+     "ar": "والحرف M للطاقة الميكانيكية أي المحركات.",
+     "en": "M stands for mechanical energy, that is, for motors.",
+     "tts": "Emm steht für mechanische Energie, also für Motoren."
+    },
+    {
+     "de": "Das sind nur Beispiele. Die vollständige Tabelle steht in der Norm.",
+     "ar": "هذه أمثلة فقط، والجدول الكامل موجود في المعيار.",
+     "en": "These are only examples. The complete table is in the standard."
+    },
+    {
+     "de": "Wichtig: Der Buchstabe sagt, was das Gerät tut, nicht wie es aussieht.",
+     "ar": "المهم: الحرف يدل على ما يفعله الجهاز لا على شكله.",
+     "en": "Important: the letter says what the device does, not what it looks like."
+    },
+    {
+     "de": "Prüfen Sie bei einem Projekt immer die Tabelle der Ausgabe, die dort gilt.",
+     "ar": "وراجعوا في كل مشروع جدول الإصدار المعتمد فيه.",
+     "en": "In a project always check the table of the edition that applies there."
+    },
+    {
+     "de": "Auch ältere Pläne nutzen oft ähnliche Buchstaben, aber nicht immer dieselben.",
+     "ar": "وتستخدم المخططات الأقدم أحيانًا أحرفًا مشابهة لكن ليست دائمًا نفسها.",
+     "en": "Older diagrams also often use similar letters, but not always the same ones."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Unser Beispiel",
+    "heading": "Ein Motorstart im Plan",
+    "items": [
+     "Q1: Schütz schaltet den Motor",
+     "F1: Sicherung schützt den Kreis",
+     "K1: Relais gibt ein Signal",
+     "M1: der Motor"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hier ist unser eigenes, einfaches Beispiel für einen Motorstart.",
+     "ar": "وهذا مثالنا البسيط الخاص لتشغيل محرك.",
+     "en": "Here is our own simple example of a motor start."
+    },
+    {
+     "de": "Ein Kennzeichen besteht aus dem Buchstaben und einer laufenden Nummer.",
+     "ar": "يتكون الترميز من الحرف ورقم تسلسلي.",
+     "en": "A designation consists of the letter and a running number."
+    },
+    {
+     "de": "Die Sicherung heißt F1, das Schütz Q1, das Relais K1 und der Motor M1.",
+     "ar": "المنصهر F1 والكونتاكتور Q1 والمرحل K1 والمحرك M1.",
+     "en": "The fuse is called F1, the contactor Q1, the relay K1 and the motor M1.",
+     "tts": "Die Sicherung heißt Eff eins, das Schütz Ku eins, das Relais Ka eins und der Motor Emm eins."
+    },
+    {
+     "de": "Ein zweiter Motor wäre dann M2. So bleibt jedes Gerät eindeutig.",
+     "ar": "ولو وُجد محرك ثانٍ لكان M2؛ هكذا يبقى كل جهاز فريدًا.",
+     "en": "A second motor would then be M2. This keeps every device unique.",
+     "tts": "Ein zweiter Motor wäre dann Emm zwei. So bleibt jedes Gerät eindeutig."
+    },
+    {
+     "de": "Zeichnen Sie so ein Beispiel einmal selbst auf Papier. Das hilft beim Lernen.",
+     "ar": "ارسموا مثل هذا المثال بأنفسكم على الورق مرة واحدة، فهذا يساعد على التعلّم.",
+     "en": "Draw such an example yourself on paper once. It helps with learning."
+    },
+    {
+     "de": "Wichtig: Dieses Beispiel ist nur eine Lernhilfe und keine Vorschrift.",
+     "ar": "مهم: هذا المثال وسيلة للتعلّم فقط وليس قاعدة ملزمة.",
+     "en": "Important: this example is only a learning aid and not a rule."
+    },
+    {
+     "de": "Beachten Sie: Die Buchstaben und Nummern sind nur Beispiele für das Lernen.",
+     "ar": "لاحظوا: الأحرف والأرقام هنا مجرد أمثلة للتعلّم.",
+     "en": "Note: the letters and numbers here are only examples for learning."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Querverweise",
+    "heading": "Vom Schütz zum Kontakt",
+    "items": [
+     "Spule und Kontakte liegen getrennt",
+     "Querverweis zeigt: Wo ist der Kontakt?",
+     "Hilft bei großen Plänen",
+     "Gleiches Kennzeichen an allen Teilen"
+    ],
+    "terms": [
+     {
+      "de": "Querverweis",
+      "ar": "إحالة مرجعية",
+      "en": "cross-reference"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "In der aufgelösten Darstellung liegen die Teile eines Geräts an verschiedenen Stellen.",
+     "ar": "في التمثيل المفكَّك تقع أجزاء الجهاز الواحد في أماكن مختلفة.",
+     "en": "In the split presentation the parts of one device lie in different places."
+    },
+    {
+     "de": "Darum nutzen viele Pläne Querverweise.",
+     "ar": "لذلك تستخدم مخططات كثيرة الإحالات المرجعية.",
+     "en": "That is why many diagrams use cross-references."
+    },
+    {
+     "de": "Am Spulensymbol sehen Sie, auf welcher Seite die Kontakte des Schützes liegen.",
+     "ar": "عند رمز الملف ترون في أي صفحة تقع ملامسات الكونتاكتور.",
+     "en": "At the coil symbol you see on which page the contacts of the contactor are."
+    },
+    {
+     "de": "Alle Teile tragen dasselbe Kennzeichen, zum Beispiel Q1.",
+     "ar": "وتحمل كل الأجزاء الترميز نفسه، مثل Q1.",
+     "en": "All parts carry the same designation, for example Q1.",
+     "tts": "Alle Teile tragen dasselbe Kennzeichen, zum Beispiel Ku eins."
+    },
+    {
+     "de": "Ohne Querverweis müssten Sie lange suchen, wenn ein Schütz fünf Kontakte hat.",
+     "ar": "بدون إحالة مرجعية ستبحثون طويلًا إذا كان للكونتاكتور خمسة ملامسات.",
+     "en": "Without a cross-reference you would search for a long time if a contactor has five contacts."
+    },
+    {
+     "de": "Fachleute sagen dazu: Der Plan muss navigierbar sein.",
+     "ar": "ويقول المختصون: يجب أن يكون المخطط سهل التنقل.",
+     "en": "Specialists say: the diagram must be navigable."
+    },
+    {
+     "de": "Bei kleinen Plänen brauchen Sie sie nicht. Bei großen Schaltschränken sind sie unverzichtbar.",
+     "ar": "في المخططات الصغيرة لا تحتاجونها، أما في اللوحات الكبيرة فلا غنى عنها.",
+     "en": "In small diagrams you do not need them. In large cabinets they are indispensable."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Klemmen",
+    "heading": "Klemmenbezeichnung",
+    "items": [
+     "A1, A2: Spulenanschlüsse am Schütz",
+     "13, 14: Schließer-Hilfskontakt",
+     "21, 22: Öffner-Hilfskontakt",
+     "Norm: DIN EN IEC 60445"
+    ],
+    "terms": [
+     {
+      "de": "Schließer",
+      "ar": "مفتوح عادةً",
+      "en": "normally open contact"
+     },
+     {
+      "de": "Öffner",
+      "ar": "مغلق عادةً",
+      "en": "normally closed contact"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auch die Klemmen am Gerät haben Bezeichnungen.",
+     "ar": "كما أن لأطراف الجهاز تسميات.",
+     "en": "The terminals on a device also have designations."
+    },
+    {
+     "de": "Bei vielen Herstellern heißen die Spulenanschlüsse eines Schützes A1 und A2.",
+     "ar": "عند كثير من الشركات تسمى أطراف ملف الكونتاكتور A1 وA2.",
+     "en": "At many manufacturers the coil terminals of a contactor are called A1 and A2.",
+     "tts": "Bei vielen Herstellern heißen die Spulenanschlüsse eines Schützes A eins und A zwei."
+    },
+    {
+     "de": "Ein Schließer als Hilfskontakt trägt oft die Nummern 13 und 14, ein Öffner 21 und 22.",
+     "ar": "وملامس مساعد مفتوح عادةً يحمل غالبًا الرقمين 13 و14، والمغلق 21 و22.",
+     "en": "A normally open auxiliary contact often carries the numbers 13 and 14, a normally closed one 21 and 22.",
+     "tts": "Ein Schließer als Hilfskontakt trägt oft die Nummern dreizehn und vierzehn, ein Öffner einundzwanzig und zweiundzwanzig."
+    },
+    {
+     "de": "Die Regeln für die Kennzeichnung von Anschlüssen stehen in der Norm DIN EN IEC 60445.",
+     "ar": "وقواعد ترميز الأطراف موجودة في المعيار DIN EN IEC 60445.",
+     "en": "The rules for marking terminals are in the standard DIN EN IEC 60445.",
+     "tts": "Die Regeln für die Kennzeichnung von Anschlüssen stehen in der Norm Din E-En I-E-Zett sechzig-vierhundertfünfundvierzig."
+    },
+    {
+     "de": "Prüfen Sie immer das Datenblatt des Herstellers.",
+     "ar": "وراجعوا دائمًا ورقة بيانات الشركة المصنعة.",
+     "en": "Always check the manufacturer's data sheet."
+    },
+    {
+     "de": "Wichtig: Die Nummern sind keine Spannungsangaben. Es sind nur Klemmenmarken.",
+     "ar": "مهم: الأرقام ليست قيم جهد، بل علامات للأطراف فقط.",
+     "en": "Important: the numbers are not voltage values. They are only terminal marks."
+    },
+    {
+     "de": "Schließer und Öffner unterscheiden sich im Ruhezustand: offen oder geschlossen.",
+     "ar": "يختلف المفتوح عادةً عن المغلق عادةً في حالة الراحة: مفتوح أو مغلق.",
+     "en": "Normally open and normally closed differ in the rest state: open or closed."
+    },
+    {
+     "de": "Üben Sie das an einem echten Datenblatt. So bleiben die Nummern im Kopf.",
+     "ar": "تدربوا على ورقة بيانات حقيقية، فتبقى الأرقام في الذاكرة.",
+     "en": "Practise with a real data sheet. That way the numbers stay in your head."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Alte Kennzeichnungen",
+    "heading": "Ältere Pläne lesen",
+    "items": [
+     "Ältere Anlagen nutzen ältere Systeme",
+     "Alte Normen wurden zurückgezogen",
+     "Beispiel: DIN 6779-2",
+     "Neu: DIN EN IEC 81346-2"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Sie werden in Deutschland oft ältere Pläne finden.",
+     "ar": "ستجدون في ألمانيا غالبًا مخططات أقدم.",
+     "en": "In Germany you will often find older diagrams."
+    },
+    {
+     "de": "Sie nutzen manchmal ältere Kennzeichnungen, die nicht mehr den aktuellen Normen entsprechen.",
+     "ar": "وهي تستخدم أحيانًا ترميزات أقدم لم تعد تطابق المعايير الحالية.",
+     "en": "They sometimes use older designations that no longer match current standards."
+    },
+    {
+     "de": "Zum Beispiel wurde die Norm DIN 6779-2 zurückgezogen. Empfohlen wird DIN EN 81346-2.",
+     "ar": "فمثلًا سُحب المعيار DIN 6779-2، ويُوصى بالمعيار DIN EN 81346-2.",
+     "en": "For example, the standard DIN 6779-2 was withdrawn. DIN EN 81346-2 is recommended.",
+     "tts": "Zum Beispiel wurde die Norm Din sechstausendsiebenhundertneunundsiebzig, Teil zwei, zurückgezogen. Empfohlen wird Din E-En einundachtzig-dreihundertsechsundvierzig, Teil zwei."
+    },
+    {
+     "de": "Fragen Sie im Projekt immer, nach welcher Norm der Plan erstellt wurde.",
+     "ar": "اسألوا دائمًا في المشروع وفق أي معيار أُعد المخطط.",
+     "en": "In a project always ask by which standard the diagram was made."
+    },
+    {
+     "de": "Bei Umbauten gilt: Der Plan muss zur Anlage passen. Eine alte Beschriftung kann irreführen.",
+     "ar": "عند التعديلات يجب أن يطابق المخطط المنشأة، فقد يضلّل ترميز قديم.",
+     "en": "For modifications the diagram must match the installation. An old label can mislead."
+    },
+    {
+     "de": "Für Ihren Alltag heißt das: erst den Normstand klären, dann den Plan lesen.",
+     "ar": "وهذا يعني في عملكم اليومي: وضّحوا الإصدار المعتمد أولًا ثم اقرؤوا المخطط.",
+     "en": "For your daily work this means: clarify the standard version first, then read the diagram."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Dokumentenstruktur",
+    "heading": "Dokumente ordnen und Revisionen",
+    "items": [
+     "Dokumentenarten klassifizieren",
+     "Neue Norm: IEC 81355-1 (2024)",
+     "Revisionsstand im Schriftfeld",
+     "Alte Stände klar kennzeichnen"
+    ],
+    "terms": [
+     {
+      "de": "Revisionsstand",
+      "ar": "حالة المراجعة",
+      "en": "revision status"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Größere Anlagen haben viele Dokumente. Man ordnet sie nach der Art der Information.",
+     "ar": "للمنشآت الكبيرة وثائق كثيرة، وتُرتَّب بحسب نوع المعلومة.",
+     "en": "Larger installations have many documents. They are sorted by the kind of information."
+    },
+    {
+     "de": "Früher diente dazu die Norm IEC 61355-1. Sie wurde durch IEC 81355-1 aus dem Jahr 2024 abgelöst.",
+     "ar": "كان يُستخدم لذلك المعيار IEC 61355-1، وقد حلّ محله IEC 81355-1 لعام 2024.",
+     "en": "Formerly the standard IEC 61355-1 was used. It was replaced by IEC 81355-1 from 2024.",
+     "tts": "Früher diente dazu die Norm I-E-Zett einundsechzig-dreihundertfünfundfünfzig, Teil eins. Sie wurde durch I-E-Zett einundachtzig-dreihundertfünfundfünfzig, Teil eins, aus dem Jahr zweitausendvierundzwanzig abgelöst."
+    },
+    {
+     "de": "Jeder Plan sollte einen Revisionsstand haben, zum Beispiel im Schriftfeld.",
+     "ar": "وينبغي أن يحمل كل مخطط حالة مراجعة، مثلًا في إطار العنوان.",
+     "en": "Every diagram should have a revision status, for example in the title block."
+    },
+    {
+     "de": "So weiß jeder, welcher Stand gilt. Das ist gute Praxis im Projekt.",
+     "ar": "هكذا يعرف الجميع أي نسخة هي السارية، وهذه ممارسة جيدة في المشاريع.",
+     "en": "This way everyone knows which version applies. This is good practice in a project."
+    },
+    {
+     "de": "Ändern Sie einen Plan, erhöhen Sie den Revisionsstand und notieren, was sich geändert hat.",
+     "ar": "إذا غيّرتم مخططًا فارفعوا حالة المراجعة ودوّنوا ما تغيّر.",
+     "en": "If you change a diagram, increase the revision status and note what has changed."
+    },
+    {
+     "de": "Prüfer und Kunden vertrauen nur Plänen mit einem klaren, aktuellen Stand.",
+     "ar": "المدققون والعملاء لا يثقون إلا بمخططات ذات حالة واضحة وحديثة.",
+     "en": "Inspectors and customers trust only diagrams with a clear, current status."
+    },
+    {
+     "de": "Es gibt keinen Plan ohne Datum. Sonst weiß niemand, ob er noch stimmt.",
+     "ar": "لا يوجد مخطط بلا تاريخ، وإلا لا يعرف أحد إن كان ما زال صحيحًا.",
+     "en": "There is no diagram without a date. Otherwise nobody knows whether it is still correct."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Normen ändern sich",
+    "heading": "Aktuelle Ausgaben prüfen",
+    "items": [
+     "IEC 81346-2: Ausgabe 2019, Entwurf liegt vor",
+     "DIN EN 61082-1: Ausgabe 2015",
+     "IEC 60617: Datenbank, Stand prüfen",
+     "DIN EN IEC 60445: Ausgabe 2023"
+    ],
+    "terms": [
+     {
+      "de": "Ausgabe",
+      "ar": "إصدار",
+      "en": "edition"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Normen ändern sich. Das gilt auch für Pläne und Kennzeichnung.",
+     "ar": "المعايير تتغير، وهذا يشمل المخططات والترميز.",
+     "en": "Standards change. This also applies to diagrams and designation."
+    },
+    {
+     "de": "Für die Kennbuchstaben gilt derzeit die Ausgabe 2019 der IEC 81346-2. Ein neuer Entwurf liegt vor.",
+     "ar": "للأحرف الرمزية تسري حاليًا طبعة 2019 من IEC 81346-2، ويوجد مشروع جديد.",
+     "en": "For the letter codes the 2019 edition of IEC 81346-2 currently applies. A new draft exists.",
+     "tts": "Für die Kennbuchstaben gilt derzeit die Ausgabe zweitausendneunzehn der I-E-Zett einundachtzig-dreihundertsechsundvierzig, Teil zwei. Ein neuer Entwurf liegt vor."
+    },
+    {
+     "de": "Die Symbole stehen in einer Datenbank, die regelmäßig aktualisiert wird.",
+     "ar": "والرموز موجودة في قاعدة بيانات تُحدَّث بانتظام.",
+     "en": "The symbols are in a database that is updated regularly."
+    },
+    {
+     "de": "Prüfen Sie deshalb vor jedem Projekt die gültigen Ausgaben bei DIN, VDE oder IEC.",
+     "ar": "لذلك تحققوا قبل كل مشروع من الإصدارات السارية لدى DIN أو VDE أو IEC.",
+     "en": "Therefore, before every project, check the valid editions at DIN, VDE or IEC.",
+     "tts": "Prüfen Sie deshalb vor jedem Projekt die gültigen Ausgaben bei Din, Fau-De-E oder I-E-Zett."
+    },
+    {
+     "de": "Die Norm DIN EN IEC 60445 steht in der Ausgabe 2023 bei DIN als aktuell.",
+     "ar": "المعيار DIN EN IEC 60445 يُدرج لدى DIN بإصدار 2023 كساري.",
+     "en": "The standard DIN EN IEC 60445 is listed at DIN as current in the 2023 edition.",
+     "tts": "Die Norm Din E-En I-E-Zett sechzig-vierhundertfünfundvierzig steht in der Ausgabe zweitausenddreiundzwanzig bei Din als aktuell."
+    },
+    {
+     "de": "Auch das kann sich ändern. Notieren Sie sich daher das Prüfdatum.",
+     "ar": "وهذا قد يتغير أيضًا، لذلك دوّنوا تاريخ التحقق.",
+     "en": "This can also change. So note the date you checked."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das nehmen Sie mit",
+    "items": [
+     "Planarten: Übersicht, Strom, Installation",
+     "Symbole aus der IEC-Datenbank",
+     "Kennzeichen mit Buchstabe und Nummer",
+     "Klemmen und Ausgaben prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen. Jede Planart beantwortet eine andere Frage.",
+     "ar": "لنلخّص: كل نوع من المخططات يجيب عن سؤال مختلف.",
+     "en": "Let us summarise. Each diagram type answers a different question."
+    },
+    {
+     "de": "Symbole kommen aus der IEC-Datenbank, Kennzeichen aus der Reihe IEC 81346.",
+     "ar": "الرموز من قاعدة بيانات IEC والترميز من سلسلة IEC 81346.",
+     "en": "Symbols come from the IEC database, designations from the IEC 81346 series.",
+     "tts": "Symbole kommen aus der I-E-Zett-Datenbank, Kennzeichen aus der Reihe I-E-Zett einundachtzig-dreihundertsechsundvierzig."
+    },
+    {
+     "de": "Ein Kennzeichen besteht aus Buchstabe und Nummer, zum Beispiel Q1 oder M1.",
+     "ar": "الترميز يتكون من حرف ورقم مثل Q1 أو M1.",
+     "en": "A designation consists of a letter and a number, for example Q1 or M1.",
+     "tts": "Ein Kennzeichen besteht aus Buchstabe und Nummer, zum Beispiel Ku eins oder Emm eins."
+    },
+    {
+     "de": "Und prüfen Sie immer, welche Ausgabe der Norm im Projekt gilt.",
+     "ar": "وتحققوا دائمًا من الإصدار الساري للمعيار في المشروع.",
+     "en": "And always check which edition of the standard applies in the project."
+    },
+    {
+     "de": "Das Wichtigste: Planart wählen, Symbol prüfen, Kennzeichen vergeben, Stand dokumentieren.",
+     "ar": "الخلاصة: اختاروا نوع المخطط، وتحققوا من الرمز، وأعطوا الترميز، ووثّقوا الحالة.",
+     "en": "The essentials: choose the diagram type, check the symbol, assign the designation, document the status."
+    },
+    {
+     "de": "Im Quiz können Sie Ihr Wissen jetzt prüfen. Viel Erfolg.",
+     "ar": "يمكنكم الآن اختبار معلوماتكم في الاختبار القصير. بالتوفيق.",
+     "en": "In the quiz you can now test your knowledge. Good luck."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "Schaltplan",
+   "ar": "مخطط كهربائي",
+   "en": "circuit diagram"
+  },
+  {
+   "de": "Übersichtsschaltplan",
+   "ar": "مخطط النظرة العامة",
+   "en": "overview diagram"
+  },
+  {
+   "de": "Stromlaufplan",
+   "ar": "مخطط مسار التيار",
+   "en": "circuit diagram (Stromlaufplan)"
+  },
+  {
+   "de": "Installationsplan",
+   "ar": "مخطط التركيب",
+   "en": "installation plan"
+  },
+  {
+   "de": "Klemmenplan",
+   "ar": "مخطط الأطراف",
+   "en": "terminal diagram"
+  },
+  {
+   "de": "Verdrahtungsplan",
+   "ar": "مخطط التسليك",
+   "en": "wiring diagram"
+  },
+  {
+   "de": "Schaltzeichen",
+   "ar": "رمز كهربائي",
+   "en": "graphical symbol"
+  },
+  {
+   "de": "Betriebsmittel",
+   "ar": "معدة كهربائية",
+   "en": "item of equipment"
+  },
+  {
+   "de": "Referenzkennzeichnung",
+   "ar": "ترميز مرجعي",
+   "en": "reference designation"
+  },
+  {
+   "de": "Kennbuchstabe",
+   "ar": "حرف الترميز",
+   "en": "letter code"
+  },
+  {
+   "de": "Schütz",
+   "ar": "كونتاكتور",
+   "en": "contactor"
+  },
+  {
+   "de": "Schließer",
+   "ar": "ملامس مفتوح عادةً",
+   "en": "normally open contact"
+  },
+  {
+   "de": "Öffner",
+   "ar": "ملامس مغلق عادةً",
+   "en": "normally closed contact"
+  },
+  {
+   "de": "Querverweis",
+   "ar": "إحالة مرجعية",
+   "en": "cross-reference"
+  },
+  {
+   "de": "Revisionsstand",
+   "ar": "حالة المراجعة",
+   "en": "revision status"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Welche Darstellung ist einpolig und zeigt die Struktur?",
+    "ar": "أي تمثيل أحادي الخط ويُظهر البنية؟",
+    "en": "Which diagram is single-line and shows the structure?"
+   },
+   "options": [
+    {
+     "de": "Übersichtsschaltplan",
+     "ar": "مخطط النظرة العامة",
+     "en": "Overview diagram"
+    },
+    {
+     "de": "Klemmenplan",
+     "ar": "مخطط الأطراف",
+     "en": "Terminal diagram"
+    },
+    {
+     "de": "Installationsplan",
+     "ar": "مخطط التركيب",
+     "en": "Installation plan"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wofür steht der Buchstabe M als Beispiel?",
+    "ar": "على ماذا يدل الحرف M كمثال؟",
+    "en": "What does the letter M stand for as an example?"
+   },
+   "options": [
+    {
+     "de": "Motor",
+     "ar": "محرك",
+     "en": "Motor"
+    },
+    {
+     "de": "Sicherung",
+     "ar": "منصهر",
+     "en": "Fuse"
+    },
+    {
+     "de": "Relais",
+     "ar": "مرحل",
+     "en": "Relay"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wie heißen die Spulenanschlüsse bei vielen Herstellern?",
+    "ar": "ماذا تسمى أطراف الملف عند كثير من الشركات؟",
+    "en": "What are coil terminals called at many manufacturers?"
+   },
+   "options": [
+    {
+     "de": "A1 und A2",
+     "ar": "A1 وA2",
+     "en": "A1 and A2"
+    },
+    {
+     "de": "13 und 14",
+     "ar": "13 و14",
+     "en": "13 and 14"
+    },
+    {
+     "de": "21 und 22",
+     "ar": "21 و22",
+     "en": "21 and 22"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Woher kommen die offiziellen Schaltzeichen?",
+    "ar": "من أين تأتي الرموز الرسمية؟",
+    "en": "Where do the official symbols come from?"
+   },
+   "options": [
+    {
+     "de": "Aus der IEC-60617-Datenbank",
+     "ar": "من قاعدة بيانات IEC 60617",
+     "en": "From the IEC 60617 database"
+    },
+    {
+     "de": "Aus dem Gedächtnis",
+     "ar": "من الذاكرة",
+     "en": "From memory"
+    },
+    {
+     "de": "Vom Hersteller allein",
+     "ar": "من الشركة المصنعة وحدها",
+     "en": "From the manufacturer alone"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was tun Sie vor einem Projekt mit den Normen?",
+    "ar": "ماذا تفعلون بالمعايير قبل المشروع؟",
+    "en": "What do you do with the standards before a project?"
+   },
+   "options": [
+    {
+     "de": "Gültige Ausgaben prüfen",
+     "ar": "التحقق من الإصدارات السارية",
+     "en": "Check the valid editions"
+    },
+    {
+     "de": "Nichts, Normen ändern sich nie",
+     "ar": "لا شيء، المعايير لا تتغير",
+     "en": "Nothing, standards never change"
+    },
+    {
+     "de": "Alte Ausgabe immer nutzen",
+     "ar": "استخدام الإصدار القديم دائمًا",
+     "en": "Always use the old edition"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um die Berufssprache: Wörter aus Werkstatt, Interview und Dokumenten.",
+  "ar": "في الفيديو القادم نتناول لغة المهنة: كلمات الورشة والمقابلة والوثائق.",
+  "en": "The next video covers professional language: words from the workshop, interviews and documents."
+ },
+ "stand": "2026-10-20; re-check: IEC 81346-2 Edition 3 status, IEC 60617 DB edition, DIN EN 61082-1 and DIN EN IEC 60445 current editions, IEC 81355-1 DIN adoption"
+}

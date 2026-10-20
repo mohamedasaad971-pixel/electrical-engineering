@@ -1,0 +1,1473 @@
+{
+ "id": "E-F02",
+ "title": {
+  "de": "Normensystem: DIN, VDE, DKE, IEC/EN, Ausgabe und Entwurf",
+  "ar": "منظومة المعايير: DIN وVDE وDKE وIEC/EN، الإصدار والمسودة",
+  "en": "The standards system: DIN, VDE, DKE, IEC/EN, edition and draft"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "Modul E-F02 · Normen",
+    "heading": "Die Welt der Normen: DIN, DKE, VDE, IEC, EN",
+    "items": [],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Willkommen zu diesem Video über das Normensystem in Deutschland.",
+     "ar": "أهلًا بكم في هذا الفيديو عن منظومة المعايير في ألمانيا.",
+     "en": "Welcome to this video about the standards system in Germany."
+    },
+    {
+     "de": "Als Elektroingenieur begegnen Sie Normen jeden Tag.",
+     "ar": "بصفتكم مهندسي كهرباء ستواجهون المعايير كل يوم.",
+     "en": "As an electrical engineer, you will meet standards every day."
+    },
+    {
+     "de": "Aber wer macht diese Normen, und was bedeuten die Nummern?",
+     "ar": "لكن من يضع هذه المعايير، وماذا تعني الأرقام؟",
+     "en": "But who makes these standards, and what do the numbers mean?"
+    },
+    {
+     "de": "Wir bleiben dabei praktisch und sprechen in einfacher Sprache.",
+     "ar": "سنبقى عمليين ونتحدث بلغة بسيطة.",
+     "en": "We stay practical and use simple language."
+    },
+    {
+     "de": "Am Ende kennen Sie die wichtigsten Begriffe für Ihren Berufsalltag.",
+     "ar": "وفي النهاية ستعرفون أهم المصطلحات لحياتكم المهنية اليومية.",
+     "en": "At the end you will know the most important terms for your working life."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum das wichtig ist",
+    "heading": "Normen sind Ihr tägliches Werkzeug",
+    "items": [
+     "Pläne und Berichte nennen Normen",
+     "Kunden fragen nach der gültigen Ausgabe",
+     "Prüfer vergleichen mit der Norm",
+     "Falsche Version heißt: Risiko"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "In Plänen, Berichten und Angeboten stehen oft Normnummern.",
+     "ar": "في المخططات والتقارير والعروض تظهر أرقام المعايير كثيرًا.",
+     "en": "Plans, reports and offers often contain standard numbers."
+    },
+    {
+     "de": "Ein Kunde fragt zum Beispiel: Nach welcher Ausgabe haben Sie geplant?",
+     "ar": "قد يسأل العميل مثلًا: وفق أي إصدار قمتم بالتخطيط؟",
+     "en": "A client may ask, for example: Which edition did you design to?"
+    },
+    {
+     "de": "Wenn Sie die Nummern lesen können, arbeiten Sie sicherer und schneller.",
+     "ar": "إذا استطعتم قراءة الأرقام فستعملون بأمان وسرعة أكبر.",
+     "en": "If you can read the numbers, you work more safely and faster."
+    },
+    {
+     "de": "Heute lernen wir die Organisationen und die Sprache der Normen.",
+     "ar": "اليوم نتعرف على الجهات المعنية وعلى لغة المعايير.",
+     "en": "Today we learn the organisations and the language of standards."
+    },
+    {
+     "de": "In Deutschland ist das besonders wichtig, weil Behörden, Firmen und Versicherungen auf Normen achten.",
+     "ar": "هذا مهم خصوصًا في ألمانيا لأن الجهات الرسمية والشركات وشركات التأمين تهتم بالمعايير.",
+     "en": "In Germany this is especially important because authorities, companies and insurers pay attention to standards."
+    },
+    {
+     "de": "Eine Norm ist ein technisches Dokument, das Fachleute gemeinsam erarbeitet haben.",
+     "ar": "المعيار وثيقة تقنية أعدها الخبراء معًا.",
+     "en": "A standard is a technical document that experts developed together."
+    },
+    {
+     "de": "Sie beschreibt, wie man etwas sicher und einheitlich macht.",
+     "ar": "وهي تصف كيف يُنجز الأمر بأمان وبشكل موحد.",
+     "en": "It describes how to do something safely and in a uniform way."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Die Organisationen",
+    "heading": "Vier Namen, vier Rollen",
+    "items": [
+     "DIN: nationale Normungsorganisation",
+     "DKE: Elektrotechnik im DIN und VDE",
+     "VDE: Verband, Prüfzeichen, Vorschriftenwerk",
+     "IEC und CENELEC: international, europäisch"
+    ],
+    "terms": [
+     {
+      "de": "Norm",
+      "ar": "معيار",
+      "en": "standard"
+     },
+     {
+      "de": "Normungsorganisation",
+      "ar": "منظمة التقييس",
+      "en": "standardisation body"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Anfang stehen vier Namen: DIN, DKE, VDE und die Organisationen IEC und CENELEC.",
+     "ar": "في البداية أربعة أسماء: دين ودكه وفدي، ومعها منظمتا آي إي سي وسينيليك.",
+     "en": "There are four names at the start: DIN, DKE, VDE, plus the bodies IEC and CENELEC.",
+     "tts": "Am Anfang stehen vier Namen: Din, De-Ka-E, Fau-De-E und die Organisationen I-E-Zett und Ssenelek."
+    },
+    {
+     "de": "Jeder Name hat eine andere Rolle.",
+     "ar": "لكل اسم دور مختلف.",
+     "en": "Each name has a different role."
+    },
+    {
+     "de": "Wir gehen sie nacheinander durch.",
+     "ar": "سنمر عليها واحدًا تلو الآخر.",
+     "en": "We will go through them one by one."
+    },
+    {
+     "de": "Merken Sie sich zuerst: DIN ist national, die DKE ist die Fachstelle, und der VDE ist der Verband.",
+     "ar": "تذكروا أولًا: دين وطنية، ودكه الجهة المتخصصة، وفدي هو الرابطة.",
+     "en": "Remember first: DIN is national, the DKE is the specialist body, and the VDE is the association.",
+     "tts": "Merken Sie sich zuerst: Din ist national, die De-Ka-E ist die Fachstelle, und der Fau-De-E ist der Verband."
+    },
+    {
+     "de": "IEC ist die weltweite und CENELEC die europäische Ebene.",
+     "ar": "آي إي سي هي المستوى العالمي وسينيليك هي المستوى الأوروبي.",
+     "en": "The IEC is the worldwide level and CENELEC the European level.",
+     "tts": "I-E-Zett ist die weltweite und Ssenelek die europäische Ebene."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "DIN",
+    "heading": "DIN: die nationale Normungsorganisation",
+    "items": [
+     "DIN ist ein eingetragener Verein",
+     "Vertrag mit dem Bund seit 1975",
+     "Keine hoheitlichen Befugnisse",
+     "Mitglied in CEN, CENELEC und ISO"
+    ],
+    "terms": [
+     {
+      "de": "eingetragener Verein",
+      "ar": "جمعية مسجلة",
+      "en": "registered association"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "DIN ist ein eingetragener Verein, also eine private Organisation.",
+     "ar": "دين جمعية مسجلة، أي منظمة خاصة.",
+     "en": "DIN is a registered association, so a private organisation.",
+     "tts": "Din ist ein eingetragener Verein, also eine private Organisation."
+    },
+    {
+     "de": "Im Jahr 1975 hat der Bund DIN durch einen Vertrag als nationale Normungsorganisation anerkannt.",
+     "ar": "في عام 1975 اعترفت الحكومة الاتحادية بدين كمنظمة تقييس وطنية بموجب عقد.",
+     "en": "In 1975 the federal government recognised DIN as the national standardisation body by contract.",
+     "tts": "Im Jahr neunzehnhundertfünfundsiebzig hat der Bund Din durch einen Vertrag als nationale Normungsorganisation anerkannt."
+    },
+    {
+     "de": "DIN bekam dabei keine hoheitlichen Befugnisse.",
+     "ar": "ولم تُمنح دين بذلك صلاحيات سيادية.",
+     "en": "DIN did not receive any sovereign powers.",
+     "tts": "Din bekam dabei keine hoheitlichen Befugnisse."
+    },
+    {
+     "de": "DIN vertritt Deutschland in CEN, CENELEC und ISO.",
+     "ar": "تمثل دين ألمانيا في سين وسينيليك وإيزو.",
+     "en": "DIN represents Germany in CEN, CENELEC and ISO.",
+     "tts": "Din vertritt Deutschland in Sen, Ssenelek und I-S-O."
+    },
+    {
+     "de": "DIN arbeitet im Konsens mit den interessierten Kreisen.",
+     "ar": "تعمل دين بالتوافق مع الأطراف المعنية.",
+     "en": "DIN works by consensus with the interested parties.",
+     "tts": "Din arbeitet im Konsens mit den interessierten Kreisen."
+    },
+    {
+     "de": "Das heißt: Normen sind keine Befehle des Staates, sondern Ergebnisse gemeinsamer Arbeit.",
+     "ar": "أي أن المعايير ليست أوامر من الدولة بل نتيجة عمل مشترك.",
+     "en": "This means standards are not orders from the state, but results of joint work."
+    },
+    {
+     "de": "Der Staat hat DIN nur als Organisation anerkannt, die Normen erarbeitet.",
+     "ar": "اعترفت الدولة بدين فقط كمنظمة تُعدّ المعايير.",
+     "en": "The state only recognised DIN as the organisation that develops standards.",
+     "tts": "Der Staat hat Din nur als Organisation anerkannt, die Normen erarbeitet."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "DKE",
+    "heading": "DKE: Normung für die Elektrotechnik",
+    "items": [
+     "Gemeinsam von DIN und VDE getragen",
+     "Experten aus Industrie und Forschung",
+     "Vertritt Deutschland in IEC und CENELEC",
+     "Übernimmt Europäische Normen als DIN EN"
+    ],
+    "terms": [
+     {
+      "de": "Gremium",
+      "ar": "لجنة",
+      "en": "committee"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Für unser Fachgebiet ist die DKE zuständig.",
+     "ar": "في مجال تخصصنا تتولى دكه المهمة.",
+     "en": "For our field, the DKE is responsible.",
+     "tts": "Für unser Fachgebiet ist die De-Ka-E zuständig."
+    },
+    {
+     "de": "Das Kürzel steht für Deutsche Kommission Elektrotechnik Elektronik Informationstechnik im DIN und VDE.",
+     "ar": "الاختصار يعني اللجنة الألمانية للكهروتقنية والإلكترونيات وتقنية المعلومات في دين وفدي.",
+     "en": "The abbreviation stands for the German Commission for Electrical, Electronic and Information Technologies of DIN and VDE.",
+     "tts": "Das Kürzel steht für Deutsche Kommission Elektrotechnik Elektronik Informationstechnik im Din und Fau-De-E."
+    },
+    {
+     "de": "In der DKE arbeiten Fachleute aus Industrie, Wissenschaft und Behörden zusammen.",
+     "ar": "في دكه يعمل خبراء من الصناعة والعلوم والجهات الحكومية معًا.",
+     "en": "In the DKE, experts from industry, science and authorities work together.",
+     "tts": "In der De-Ka-E arbeiten Fachleute aus Industrie, Wissenschaft und Behörden zusammen."
+    },
+    {
+     "de": "Die DKE vertritt Deutschland bei CENELEC und bei der IEC.",
+     "ar": "تمثل دكه ألمانيا لدى سينيليك ولدى آي إي سي.",
+     "en": "The DKE represents Germany at CENELEC and at the IEC.",
+     "tts": "Die De-Ka-E vertritt Deutschland bei Ssenelek und bei der I-E-Zett."
+    },
+    {
+     "de": "Die DKE schreibt also nicht allein, sondern organisiert die Arbeit der Fachleute.",
+     "ar": "فدكه لا تكتب وحدها، بل تنظّم عمل الخبراء.",
+     "en": "So the DKE does not write alone, but organises the work of the experts.",
+     "tts": "Die De-Ka-E schreibt also nicht allein, sondern organisiert die Arbeit der Fachleute."
+    },
+    {
+     "de": "In Deutschland übernimmt sie Europäische Normen als DIN EN.",
+     "ar": "وفي ألمانيا تتبنى المعايير الأوروبية باسم دين إن.",
+     "en": "In Germany it adopts European standards as DIN EN.",
+     "tts": "In Deutschland übernimmt sie Europäische Normen als Din E-En."
+    },
+    {
+     "de": "Wer an der Normung mitarbeiten möchte, kann in Fachgremien Erfahrung einbringen.",
+     "ar": "ومن يرغب في المشاركة يمكنه تقديم خبرته في اللجان المتخصصة.",
+     "en": "If you want to take part in standardisation, you can contribute experience in expert committees."
+    },
+    {
+     "de": "Die Arbeit läuft in Fachgremien, in denen auch Hochschulen und Behörden vertreten sind.",
+     "ar": "ويجري العمل في لجان متخصصة تشارك فيها الجامعات والجهات الحكومية أيضًا.",
+     "en": "The work takes place in expert committees where universities and authorities are also represented."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "VDE",
+    "heading": "VDE: Verband und Vorschriftenwerk",
+    "items": [
+     "VDE ist ein Technik-Verband",
+     "Er trägt die DKE",
+     "VDE-Vorschriftenwerk: Sicherheitsregeln",
+     "VDE Institut: Prüfen und Zertifizieren"
+    ],
+    "terms": [
+     {
+      "de": "Vorschriftenwerk",
+      "ar": "مجموعة اللوائح",
+      "en": "body of regulations"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der VDE ist ein Verband der Elektro- und Informationstechnik.",
+     "ar": "فدي رابطة لتقنية الكهرباء والمعلومات.",
+     "en": "The VDE is an association for electrical and information technology.",
+     "tts": "Der Fau-De-E ist ein Verband der Elektro- und Informationstechnik."
+    },
+    {
+     "de": "Er trägt die DKE.",
+     "ar": "وهي التي تحتضن دكه.",
+     "en": "It supports the DKE.",
+     "tts": "Er trägt die De-Ka-E."
+    },
+    {
+     "de": "Der VDE kennt das VDE-Vorschriftenwerk, eine Sammlung wichtiger Sicherheitsnormen.",
+     "ar": "ولدى فدي مجموعة اللوائح، وهي مجموعة من معايير السلامة المهمة.",
+     "en": "The VDE has the VDE-Vorschriftenwerk, a collection of important safety standards.",
+     "tts": "Der Fau-De-E kennt das Fau-De-E-Vorschriftenwerk, eine Sammlung wichtiger Sicherheitsnormen."
+    },
+    {
+     "de": "Das VDE Institut prüft und zertifiziert Produkte.",
+     "ar": "ويقوم معهد فدي باختبار المنتجات وإصدار شهادات لها.",
+     "en": "The VDE Institute tests and certifies products.",
+     "tts": "Das Fau-De-E Institut prüft und zertifiziert Produkte."
+    },
+    {
+     "de": "Wichtig ist der Unterschied: Der VDE ist kein Staat und macht keine Gesetze.",
+     "ar": "الفرق مهم: فدي ليس دولة ولا يضع قوانين.",
+     "en": "The difference matters: the VDE is not a state and does not make laws.",
+     "tts": "Wichtig ist der Unterschied: Der Fau-De-E ist kein Staat und macht keine Gesetze."
+    },
+    {
+     "de": "Seine Regeln gelten als Fachwissen der Branche.",
+     "ar": "وقواعده تُعدّ معرفة مهنية في القطاع.",
+     "en": "Its rules count as professional knowledge of the sector."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "VDE-Vorschriftenwerk",
+    "heading": "Wie eine Norm eine VDE-Bestimmung wird",
+    "items": [
+     "Norm entsteht in der DKE",
+     "VDE-Präsidium beschließt ein Verfahren",
+     "Danach: Aufnahme ins Vorschriftenwerk",
+     "Die Norm trägt dann eine VDE-Nummer"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Viele elektrotechnische Normen sind zugleich VDE-Bestimmungen.",
+     "ar": "كثير من المعايير الكهروتقنية هي أيضًا أحكام صادرة عن فدي.",
+     "en": "Many electrotechnical standards are also VDE provisions.",
+     "tts": "Viele elektrotechnische Normen sind zugleich Fau-De-E-Bestimmungen."
+    },
+    {
+     "de": "Sie werden nach einem Genehmigungsverfahren des VDE-Präsidiums ins Vorschriftenwerk aufgenommen.",
+     "ar": "وتُدرج في المجموعة بعد إجراء موافقة تحدده رئاسة فدي.",
+     "en": "They are included in the Vorschriftenwerk after an approval procedure set by the VDE Presidium.",
+     "tts": "Sie werden nach einem Genehmigungsverfahren des Fau-De-E-Präsidiums ins Vorschriftenwerk aufgenommen."
+    },
+    {
+     "de": "Dann steht neben der DIN-Nummer auch eine VDE-Nummer.",
+     "ar": "عندئذ يظهر بجانب رقم دين رقم خاص بفدي أيضًا.",
+     "en": "Then a VDE number appears next to the DIN number.",
+     "tts": "Dann steht neben der Din-Nummer auch eine Fau-De-E-Nummer."
+    },
+    {
+     "de": "Ein Beispiel ist DIN EN 61355-1 mit der VDE-Nummer 0040-3.",
+     "ar": "مثال على ذلك المعيار الألماني الأوروبي رقم 61355-1 ورقمه عند فدي 0040-3.",
+     "en": "One example is DIN EN 61355-1 with the VDE number 0040-3.",
+     "tts": "Ein Beispiel ist Din E-En eins-und-sechzig-dreihundertfünfundfünfzig, Teil eins, mit der Fau-De-E-Nummer null-null-vier-null, Teil drei."
+    },
+    {
+     "de": "Das Wort Vorschriftenwerk klingt streng, aber es ist eine Sammlung von Normen.",
+     "ar": "كلمة مجموعة اللوائح تبدو صارمة، لكنها مجموعة من المعايير.",
+     "en": "The word Vorschriftenwerk sounds strict, but it is a collection of standards."
+    },
+    {
+     "de": "Die VDE-Nummer hilft Ihnen, die Norm in der Sammlung zu finden.",
+     "ar": "يساعدكم رقم فدي على إيجاد المعيار في المجموعة.",
+     "en": "The VDE number helps you find the standard in the collection.",
+     "tts": "Die Fau-De-E-Nummer hilft Ihnen, die Norm in der Sammlung zu finden."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Drei Ebenen",
+    "heading": "Von international bis national",
+    "items": [
+     "IEC | weltweit | EN IEC",
+     "CENELEC | Europa | EN",
+     "DIN und DKE | Deutschland | DIN EN"
+    ],
+    "terms": [
+     {
+      "de": "Ebene",
+      "ar": "مستوى",
+      "en": "level"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Normen gibt es auf drei Ebenen.",
+     "ar": "توجد المعايير على ثلاثة مستويات.",
+     "en": "Standards exist on three levels."
+    },
+    {
+     "de": "Die IEC arbeitet weltweit für Elektrotechnik.",
+     "ar": "تعمل آي إي سي على مستوى العالم في الكهروتقنية.",
+     "en": "The IEC works worldwide on electrical engineering.",
+     "tts": "Die I-E-Zett arbeitet weltweit für Elektrotechnik."
+    },
+    {
+     "de": "CENELEC macht die Europäischen Normen, kurz EN.",
+     "ar": "وسينيليك تضع المعايير الأوروبية، واختصارها إن.",
+     "en": "CENELEC makes the European standards, called EN for short.",
+     "tts": "Ssenelek macht die Europäischen Normen, kurz E-En."
+    },
+    {
+     "de": "Deutschland übernimmt sie als DIN EN, durch DIN und DKE.",
+     "ar": "وتتبناها ألمانيا باسم دين إن، عبر دين ودكه.",
+     "en": "Germany adopts them as DIN EN, through DIN and the DKE.",
+     "tts": "Deutschland übernimmt sie als Din E-En, durch Din und De-Ka-E."
+    },
+    {
+     "de": "Merken Sie sich die Richtung: von weltweit über Europa nach Deutschland.",
+     "ar": "تذكروا الاتجاه: من العالم إلى أوروبا ثم إلى ألمانيا.",
+     "en": "Remember the direction: from worldwide through Europe to Germany."
+    },
+    {
+     "de": "Der Name zeigt Ihnen den Weg: In DIN EN IEC sehen Sie alle drei Ebenen.",
+     "ar": "الاسم يريكم الطريق: ففي دين إن آي إي سي ترون المستويات الثلاثة.",
+     "en": "The name shows you the path: in DIN EN IEC you see all three levels.",
+     "tts": "Der Name zeigt Ihnen den Weg: In Din E-En I-E-Zett sehen Sie alle drei Ebenen."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Der Weg",
+    "heading": "Wie aus IEC eine DIN EN wird",
+    "items": [
+     "1. IEC und CENELEC stimmen parallel ab",
+     "2. CENELEC übernimmt die IEC-Norm als EN",
+     "3. Alle CENELEC-Mitglieder übernehmen die EN",
+     "4. Deutschland: DIN EN, deutsche Fassung",
+     "5. Gegenteilige nationale Normen entfallen"
+    ],
+    "terms": [
+     {
+      "de": "übernehmen",
+      "ar": "يتبنى",
+      "en": "to adopt"
+     },
+     {
+      "de": "zurückziehen",
+      "ar": "يسحب",
+      "en": "to withdraw"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie wird aus einer IEC-Norm eine DIN EN?",
+     "ar": "كيف يصبح معيار آي إي سي معيارًا ألمانيًا أوروبيًا؟",
+     "en": "How does an IEC standard become a DIN EN?",
+     "tts": "Wie wird aus einer I-E-Zett-Norm eine Din E-En?"
+    },
+    {
+     "de": "CENELEC und IEC haben vereinbart: Neue Arbeit wird zuerst der IEC angeboten.",
+     "ar": "اتفقت سينيليك وآي إي سي على أن يُعرض أي عمل جديد على آي إي سي أولًا.",
+     "en": "CENELEC and the IEC agreed that new work is offered to the IEC first.",
+     "tts": "Ssenelek und I-E-Zett haben vereinbart: Neue Arbeit wird zuerst der I-E-Zett angeboten."
+    },
+    {
+     "de": "Beide Organisationen stimmen parallel ab.",
+     "ar": "وتصوّت المنظمتان بالتوازي.",
+     "en": "Both organisations vote in parallel."
+    },
+    {
+     "de": "Dann gilt die IEC-Norm in Europa als EN.",
+     "ar": "بعد ذلك يسري معيار آي إي سي في أوروبا بصفته إن.",
+     "en": "Then the IEC standard applies in Europe as an EN.",
+     "tts": "Dann gilt die I-E-Zett-Norm in Europa als E-En."
+    },
+    {
+     "de": "Alle CENELEC-Mitglieder müssen die EN als identische nationale Norm übernehmen.",
+     "ar": "ويجب على كل أعضاء سينيليك تبني المعيار الأوروبي كمعيار وطني مطابق.",
+     "en": "All CENELEC members must adopt the EN as an identical national standard.",
+     "tts": "Alle Ssenelek-Mitglieder müssen die E-En als identische nationale Norm übernehmen."
+    },
+    {
+     "de": "In Deutschland macht das die DKE, und es entsteht eine DIN EN.",
+     "ar": "في ألمانيا تقوم بذلك دكه، فينتج معيار دين إن.",
+     "en": "In Germany the DKE does this, and a DIN EN is created.",
+     "tts": "In Deutschland macht das die De-Ka-E, und es entsteht eine Din E-En."
+    },
+    {
+     "de": "Widersprechende nationale Normen werden zurückgezogen.",
+     "ar": "أما المعايير الوطنية المتعارضة فتُسحب.",
+     "en": "Conflicting national standards are withdrawn."
+    },
+    {
+     "de": "Das spart Arbeit, denn die Hersteller müssen nicht für jedes Land andere Regeln beachten.",
+     "ar": "وهذا يوفر الجهد لأن المصنّعين لا يحتاجون إلى قواعد مختلفة لكل بلد.",
+     "en": "This saves work, because manufacturers do not have to follow different rules for every country."
+    },
+    {
+     "de": "CENELEC hat dafür auch einen eigenen Leitfaden zur Übernahme von IEC-Normen.",
+     "ar": "ولدى سينيليك دليل خاص لتبني معايير آي إي سي.",
+     "en": "CENELEC also has its own guide for adopting IEC standards.",
+     "tts": "Ssenelek hat dafür auch einen eigenen Leitfaden zur Übernahme von I-E-Zett-Normen."
+    },
+    {
+     "de": "Sie sehen: Eine Norm im Regal ist oft schon mehrere Stufen gegangen.",
+     "ar": "ترون أن المعيار في المكتبة قد مرّ غالبًا بعدة مراحل.",
+     "en": "You see: a standard on the shelf has often already gone through several steps."
+    },
+    {
+     "de": "Darum steht im Titel oft auch die Nummer der europäischen Fassung.",
+     "ar": "ولذلك يذكر العنوان غالبًا رقم النسخة الأوروبية.",
+     "en": "That is why the title often also contains the number of the European version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Die Folge",
+    "heading": "Der größte Teil kommt von außen",
+    "items": [
+     "Viele Normen beruhen auf IEC oder EN",
+     "Deutsche Fassung = gleicher Inhalt",
+     "Übersetzung ist Teil der Übernahme",
+     "Eigene nationale Normen sind seltener"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Für Sie heißt das: Der größte Teil der elektrotechnischen Normen beruht auf internationalen oder europäischen Normen.",
+     "ar": "هذا يعني لكم أن معظم المعايير الكهروتقنية مبني على معايير دولية أو أوروبية.",
+     "en": "For you this means: most electrotechnical standards are based on international or European standards."
+    },
+    {
+     "de": "Wer die IEC-Logik versteht, versteht auch viele deutsche Normen.",
+     "ar": "من يفهم منطق آي إي سي يفهم أيضًا كثيرًا من المعايير الألمانية.",
+     "en": "If you understand the IEC logic, you also understand many German standards.",
+     "tts": "Wer die I-E-Zett-Logik versteht, versteht auch viele deutsche Normen."
+    },
+    {
+     "de": "Die deutsche Fassung hat denselben technischen Inhalt wie die EN.",
+     "ar": "النسخة الألمانية لها المحتوى التقني نفسه للمعيار الأوروبي.",
+     "en": "The German version has the same technical content as the EN.",
+     "tts": "Die deutsche Fassung hat denselben technischen Inhalt wie die E-En."
+    },
+    {
+     "de": "Darum lohnt sich Englisch: Viele Begriffe aus der IEC kommen später auf Deutsch zurück.",
+     "ar": "لذلك يفيد الإنجليزي: كثير من مصطلحات آي إي سي تعود لاحقًا بالألمانية.",
+     "en": "That is why English pays off: many IEC terms come back later in German.",
+     "tts": "Darum lohnt sich Englisch: Viele Begriffe aus der I-E-Zett kommen später auf Deutsch zurück."
+    },
+    {
+     "de": "Lernen Sie Begriffe deshalb immer zweisprachig.",
+     "ar": "تعلموا المصطلحات دائمًا بلغتين.",
+     "en": "So always learn terms in two languages."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Bezeichnung lesen",
+    "heading": "Beispiel: DIN EN IEC 81346-1:2024-07",
+    "items": [
+     "DIN EN IEC | übernommene Norm",
+     "81346 | Zählnummer der Reihe",
+     "-1 | Teil 1 der Reihe",
+     "2024-07 | DIN-Ausgabe, Jahr-Monat",
+     "EN IEC 81346-1:2022 | Ausgabe darunter"
+    ],
+    "terms": [
+     {
+      "de": "Ausgabedatum",
+      "ar": "تاريخ الإصدار",
+      "en": "edition date"
+     },
+     {
+      "de": "Zählnummer",
+      "ar": "الرقم التسلسلي",
+      "en": "serial number"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt lesen wir eine Bezeichnung Schritt für Schritt.",
+     "ar": "الآن نقرأ تسمية معيار خطوة بخطوة.",
+     "en": "Now we read a designation step by step."
+    },
+    {
+     "de": "Das Beispiel ist DIN EN IEC 81346-1:2024-07.",
+     "ar": "المثال هو دين إن آي إي سي 81346-1 بتاريخ 2024-07.",
+     "en": "The example is DIN EN IEC 81346-1:2024-07.",
+     "tts": "Das Beispiel ist Din E-En I-E-Zett einundachtzigtausend dreihundertsechsundvierzig, Teil eins, Ausgabe zweitausendvierundzwanzig, Juli."
+    },
+    {
+     "de": "DIN EN IEC zeigt: Das ist eine übernommene europäische und internationale Norm.",
+     "ar": "التسمية تدل على أنه معيار أوروبي ودولي جرى تبنيه.",
+     "en": "DIN EN IEC shows: this is an adopted European and international standard.",
+     "tts": "Din E-En I-E-Zett zeigt: Das ist eine übernommene europäische und internationale Norm."
+    },
+    {
+     "de": "Die Zahl 81346 ist die Zählnummer, und der Zusatz Teil 1 nennt den Teil der Reihe.",
+     "ar": "الرقم 81346 هو الرقم التسلسلي، والجزء 1 يحدد الجزء من السلسلة.",
+     "en": "The number 81346 is the serial number, and the addition Part 1 names the part of the series.",
+     "tts": "Die Zahl einundachtzigtausend dreihundertsechsundvierzig ist die Zählnummer, und der Zusatz Teil eins nennt den Teil der Reihe."
+    },
+    {
+     "de": "Das Datum nach dem Doppelpunkt ist die Ausgabe von DIN, mit Jahr und Monat.",
+     "ar": "التاريخ بعد النقطتين هو إصدار دين، بالسنة والشهر.",
+     "en": "The date after the colon is the DIN edition, with year and month.",
+     "tts": "Das Datum nach dem Doppelpunkt ist die Ausgabe von Din, mit Jahr und Monat."
+    },
+    {
+     "de": "Viele Normen sind Reihen mit mehreren Teilen, zum Beispiel Teil 1, Teil 2 und so weiter.",
+     "ar": "كثير من المعايير سلاسل ذات أجزاء عدة، مثل الجزء الأول والثاني وهكذا.",
+     "en": "Many standards are series with several parts, for example Part 1, Part 2 and so on.",
+     "tts": "Viele Normen sind Reihen mit mehreren Teilen, zum Beispiel Teil eins, Teil zwei und so weiter."
+    },
+    {
+     "de": "Bei einer Anfrage müssen Sie also immer den richtigen Teil nennen.",
+     "ar": "لذلك عليكم عند الاستفسار ذكر الجزء الصحيح دائمًا.",
+     "en": "So in an enquiry you must always name the right part."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zwei Jahreszahlen",
+    "heading": "Achtung: zwei Daten, zwei Bedeutungen",
+    "items": [
+     "Nach dem Doppelpunkt: DIN-Ausgabe",
+     "Im Titel: Ausgabe der EN oder IEC",
+     "Beide gehören zusammen",
+     "Immer das Ausgabedatum angeben"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Oft sehen Sie zwei Jahreszahlen und verwechseln sie.",
+     "ar": "كثيرًا ما ترون سنتين فتخلطون بينهما.",
+     "en": "You often see two years and mix them up."
+    },
+    {
+     "de": "Das Datum hinter der Nummer gehört zur deutschen Ausgabe.",
+     "ar": "التاريخ بعد الرقم يخص الإصدار الألماني.",
+     "en": "The date behind the number belongs to the German edition."
+    },
+    {
+     "de": "Das Jahr im Titel nennt die zugrunde liegende EN oder IEC.",
+     "ar": "أما السنة في العنوان فتشير إلى المعيار الأوروبي أو الدولي الذي يستند إليه.",
+     "en": "The year in the title names the underlying EN or IEC edition.",
+     "tts": "Das Jahr im Titel nennt die zugrunde liegende E-En oder I-E-Zett."
+    },
+    {
+     "de": "Schreiben Sie in Berichten immer die Nummer mit Ausgabedatum.",
+     "ar": "اكتبوا في التقارير دائمًا الرقم مع تاريخ الإصدار.",
+     "en": "In reports, always write the number with the edition date."
+    },
+    {
+     "de": "Ein Beispiel: Ein Bericht nennt die Nummer ohne Datum, und niemand weiß, welche Fassung gemeint ist.",
+     "ar": "مثال: تقرير يذكر الرقم دون تاريخ، ولا أحد يعرف أي نسخة يقصد.",
+     "en": "An example: a report names the number without a date, and nobody knows which version is meant."
+    },
+    {
+     "de": "Mit dem Datum ist die Antwort eindeutig.",
+     "ar": "ومع التاريخ يصبح الجواب واضحًا.",
+     "en": "With the date, the answer is clear."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "DIN VDE 0100-410",
+    "heading": "Beispiel: DIN VDE 0100-410 in der Praxis",
+    "items": [
+     "0100-410 ist die VDE-Nummer mit Teil",
+     "Setzt eine europäische Vorgabe um (HD)",
+     "Ausgabe 2018-10 (Stand der Recherche)",
+     "Zuständig: Komitee der DKE"
+    ],
+    "terms": [
+     {
+      "de": "Ausgabe",
+      "ar": "إصدار",
+      "en": "edition"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein bekanntes Beispiel ist DIN VDE 0100-410.",
+     "ar": "مثال معروف هو دين فدي 0100-410.",
+     "en": "A well-known example is DIN VDE 0100-410.",
+     "tts": "Ein bekanntes Beispiel ist Din Fau-De-E null-eins-null-null, Teil vier-eins-null."
+    },
+    {
+     "de": "Sie regelt den Schutz gegen elektrischen Schlag in Niederspannungsanlagen.",
+     "ar": "وهو يتناول الحماية من الصدمة الكهربائية في منشآت الجهد المنخفض.",
+     "en": "It covers protection against electric shock in low-voltage installations."
+    },
+    {
+     "de": "Die Ausgabe ist 2018-10, und sie setzt ein europäisches Harmonisierungsdokument um.",
+     "ar": "الإصدار هو 2018-10، وهو يطبّق وثيقة توحيد أوروبية.",
+     "en": "The edition is 2018-10, and it implements a European harmonisation document.",
+     "tts": "Die Ausgabe ist zweitausendachtzehn, Oktober, und sie setzt ein europäisches Harmonisierungsdokument um."
+    },
+    {
+     "de": "Dieses Datum galt bei unserer Recherche im Oktober 2026.",
+     "ar": "كان هذا التاريخ هو السائد عند بحثنا في أكتوبر 2026.",
+     "en": "This date was valid at the time of our research in October 2026.",
+     "tts": "Dieses Datum galt bei unserer Recherche im Oktober zweitausendsechsundzwanzig."
+    },
+    {
+     "de": "Prüfen Sie die aktuelle Ausgabe immer selbst, bevor Sie arbeiten.",
+     "ar": "تحققوا دائمًا بأنفسكم من الإصدار الحالي قبل أن تعملوا.",
+     "en": "Always check the current edition yourself before you work."
+    },
+    {
+     "de": "Auch hier sehen Sie die Struktur: Nummer, Teil, Ausgabedatum.",
+     "ar": "وهنا أيضًا ترون البنية: الرقم، الجزء، تاريخ الإصدار.",
+     "en": "Here too you see the structure: number, part, edition date."
+    },
+    {
+     "de": "Die Norm ist zugleich eine VDE-Bestimmung und steht im VDE-Vorschriftenwerk.",
+     "ar": "المعيار أيضًا حكم من أحكام فدي ويرد في مجموعة اللوائح.",
+     "en": "The standard is also a VDE provision and is part of the VDE-Vorschriftenwerk.",
+     "tts": "Die Norm ist zugleich eine Fau-De-E-Bestimmung und steht im Fau-De-E-Vorschriftenwerk."
+    },
+    {
+     "de": "Fragen Sie sich bei jeder Norm: Welcher Teil, welche Ausgabe, welche Anlage?",
+     "ar": "اسألوا أنفسكم عن كل معيار: أي جزء، وأي إصدار، وأي منشأة؟",
+     "en": "With every standard ask yourself: which part, which edition, which installation?"
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Entwurf oder Norm",
+    "heading": "Entwurf ist nicht gleich Norm",
+    "items": [
+     "Entwurf: Vorschlag zur Stellungnahme",
+     "Norm: abgeschlossenes Ergebnis",
+     "Entwurf kann sich noch ändern",
+     "Das Enddatum steht auf dem Entwurf"
+    ],
+    "terms": [
+     {
+      "de": "Entwurf",
+      "ar": "مسودة",
+      "en": "draft"
+     },
+     {
+      "de": "Stellungnahme",
+      "ar": "تعليق",
+      "en": "comment"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt Normen, und es gibt Entwürfe.",
+     "ar": "هناك معايير، وهناك مسودات.",
+     "en": "There are standards, and there are drafts."
+    },
+    {
+     "de": "Ein Entwurf wird der Öffentlichkeit zur Stellungnahme vorgelegt.",
+     "ar": "تُعرض المسودة على العموم لإبداء الملاحظات.",
+     "en": "A draft is presented to the public for comments."
+    },
+    {
+     "de": "Im DIN-Portal können Sie sich kostenlos anmelden und Einsprüche einreichen.",
+     "ar": "في بوابة دين يمكنكم التسجيل مجانًا وتقديم الاعتراضات.",
+     "en": "In the DIN portal you can register for free and submit objections.",
+     "tts": "Im Din-Portal können Sie sich kostenlos anmelden und Einsprüche einreichen."
+    },
+    {
+     "de": "Die Frist steht auf dem jeweiligen Entwurf.",
+     "ar": "الموعد النهائي مذكور في كل مسودة.",
+     "en": "The deadline is stated on each draft."
+    },
+    {
+     "de": "Wichtig: Ein Entwurf ist noch keine gültige Norm, und er kann sich ändern.",
+     "ar": "المهم أن المسودة ليست معيارًا ساريًا بعد، وقد تتغير.",
+     "en": "Important: a draft is not yet a valid standard, and it can change."
+    },
+    {
+     "de": "Ein Entwurf zeigt Ihnen, wohin die Entwicklung geht.",
+     "ar": "تُظهر لكم المسودة اتجاه التطور.",
+     "en": "A draft shows you where development is heading."
+    },
+    {
+     "de": "Für Ihre Arbeit gilt aber die gültige Norm, nicht der Entwurf.",
+     "ar": "لكن في عملكم يسري المعيار الساري لا المسودة.",
+     "en": "For your work, however, the valid standard applies, not the draft."
+    },
+    {
+     "de": "Wenn Sie fachlich anderer Meinung sind, können Sie im Verfahren mitwirken.",
+     "ar": "وإن اختلفتم فنيًا في الرأي، يمكنكم المشاركة في الإجراء.",
+     "en": "If you disagree professionally, you can take part in the procedure."
+    },
+    {
+     "de": "Zitieren Sie einen Entwurf im Projekt nie als gültige Grundlage.",
+     "ar": "لا تستشهدوا بمسودة في المشروع بوصفها أساسًا ساريًا.",
+     "en": "Never cite a draft in a project as a valid basis."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "VDE-Prüfzeichen",
+    "heading": "Das VDE-Prüfzeichen auf Produkten",
+    "items": [
+     "Freiwilliges, privates Zeichen",
+     "Vergeben vom VDE Institut",
+     "Produktprüfung und Werkbesichtigung",
+     "Regelmäßige Fertigungsüberwachung"
+    ],
+    "terms": [
+     {
+      "de": "Prüfzeichen",
+      "ar": "علامة اختبار",
+      "en": "test mark"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das VDE-Prüfzeichen kennen Sie von Geräten und Kabeln.",
+     "ar": "علامة الاختبار من فدي تعرفونها من الأجهزة والكابلات.",
+     "en": "You know the VDE test mark from devices and cables.",
+     "tts": "Das Fau-De-E-Prüfzeichen kennen Sie von Geräten und Kabeln."
+    },
+    {
+     "de": "Es ist freiwillig und nicht gesetzlich vorgeschrieben.",
+     "ar": "هي اختيارية وليست مفروضة بالقانون.",
+     "en": "It is voluntary and not required by law."
+    },
+    {
+     "de": "Das VDE Institut vergibt es nach der Prüfung des Produkts.",
+     "ar": "ويمنحها معهد فدي بعد اختبار المنتج.",
+     "en": "The VDE Institute awards it after testing the product.",
+     "tts": "Das Fau-De-E Institut vergibt es nach der Prüfung des Produkts."
+    },
+    {
+     "de": "Dazu gehören auch eine Besichtigung der Fertigung und eine regelmäßige Überwachung.",
+     "ar": "ويشمل ذلك زيارة موقع التصنيع ومراقبة منتظمة للإنتاج.",
+     "en": "This also includes a visit to the factory and regular monitoring."
+    },
+    {
+     "de": "Sie finden die Zeichen auch in einer Online-Datenbank des VDE Instituts.",
+     "ar": "تجدون العلامات أيضًا في قاعدة بيانات إلكترونية لدى معهد فدي.",
+     "en": "You can also find the marks in an online database of the VDE Institute.",
+     "tts": "Sie finden die Zeichen auch in einer Online-Datenbank des Fau-De-E Instituts."
+    },
+    {
+     "de": "Das Zeichen steht für Sicherheit bei elektrischen, mechanischen und weiteren Gefährdungen.",
+     "ar": "العلامة تدل على السلامة من المخاطر الكهربائية والميكانيكية وغيرها.",
+     "en": "The mark stands for safety against electrical, mechanical and other hazards."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Zeichen vergleichen",
+    "heading": "VDE-Zeichen und CE-Kennzeichnung",
+    "items": [
+     "VDE-Zeichen | freiwillig | VDE Institut prüft",
+     "CE | Konformität mit EU-Vorschriften",
+     "Beide sind nicht dasselbe"
+    ],
+    "terms": [
+     {
+      "de": "Kennzeichnung",
+      "ar": "وسم",
+      "en": "marking"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das VDE-Zeichen ist nicht dasselbe wie die CE-Kennzeichnung.",
+     "ar": "علامة فدي ليست هي نفسها وسم المطابقة الأوروبية.",
+     "en": "The VDE mark is not the same as the CE marking.",
+     "tts": "Das Fau-De-E-Zeichen ist nicht dasselbe wie die Ze-E-Kennzeichnung."
+    },
+    {
+     "de": "CE dokumentiert die Konformität mit EU-Vorschriften.",
+     "ar": "وسم المطابقة يوثّق التوافق مع لوائح الاتحاد الأوروبي.",
+     "en": "CE documents conformity with EU regulations.",
+     "tts": "Ze-E dokumentiert die Konformität mit E-U-Vorschriften."
+    },
+    {
+     "de": "Das VDE-Zeichen ist ein zusätzliches, freiwilliges Zeichen für Sicherheit.",
+     "ar": "أما علامة فدي فعلامة إضافية اختيارية تدل على السلامة.",
+     "en": "The VDE mark is an additional, voluntary mark for safety.",
+     "tts": "Das Fau-De-E-Zeichen ist ein zusätzliches, freiwilliges Zeichen für Sicherheit."
+    },
+    {
+     "de": "Für Ihre Arbeit gilt: Prüfen Sie, welche Kennzeichnung für das Produkt wirklich verlangt wird.",
+     "ar": "وفي عملكم تحققوا أي وسم يُطلب فعلًا للمنتج.",
+     "en": "For your work: check which marking is really required for the product."
+    },
+    {
+     "de": "Verlassen Sie sich nicht allein auf ein Zeichen auf der Verpackung.",
+     "ar": "لا تعتمدوا على علامة على العبوة وحدها.",
+     "en": "Do not rely on a mark on the packaging alone."
+    },
+    {
+     "de": "Das Zeichen sagt also etwas über das Produkt, nicht über Ihre Anlage.",
+     "ar": "فالعلامة تخبر عن المنتج لا عن منشأتكم.",
+     "en": "So the mark says something about the product, not about your installation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Rechtliche Wirkung",
+    "heading": "Norm, Gesetz und anerkannte Regeln",
+    "items": [
+     "Normen sind grundsätzlich freiwillig",
+     "Verweis in Gesetz oder Vertrag: verbindlich",
+     "Gerichte sehen DIN oft als anerkannte Regel",
+     "Veraltete Norm ist nicht automatisch maßgeblich"
+    ],
+    "terms": [
+     {
+      "de": "anerkannte Regeln der Technik",
+      "ar": "القواعد المعترف بها للتقنية",
+      "en": "generally acknowledged rules of technology"
+     },
+     {
+      "de": "Stand der Technik",
+      "ar": "المستوى الحالي للتقنية",
+      "en": "state of the art"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ist eine Norm ein Gesetz? Nein.",
+     "ar": "هل المعيار قانون؟ لا.",
+     "en": "Is a standard a law? No."
+    },
+    {
+     "de": "Normen werden freiwillig angewendet.",
+     "ar": "تُطبَّق المعايير طوعًا في الأصل.",
+     "en": "Standards are applied voluntarily."
+    },
+    {
+     "de": "Verbindlich wird eine Norm, wenn ein Gesetz, eine Verordnung oder ein Vertrag auf sie verweist.",
+     "ar": "وتصبح ملزمة عندما يحيل إليها قانون أو لائحة أو عقد.",
+     "en": "A standard becomes binding when a law, an ordinance or a contract refers to it."
+    },
+    {
+     "de": "Vor Gericht gelten DIN-Normen oft als anerkannte Regeln der Technik.",
+     "ar": "وأمام القضاء تُعدّ معايير دين غالبًا من القواعد المعترف بها للتقنية.",
+     "en": "In court, DIN standards are often treated as generally acknowledged rules of technology.",
+     "tts": "Vor Gericht gelten Din-Normen oft als anerkannte Regeln der Technik."
+    },
+    {
+     "de": "Das ist aber nicht dasselbe, und eine veraltete Norm muss nicht maßgeblich sein.",
+     "ar": "لكن الأمرين ليسا متطابقين، والمعيار القديم ليس بالضرورة هو المعتمد.",
+     "en": "But these are not the same, and an outdated standard is not necessarily decisive."
+    },
+    {
+     "de": "Anerkannte Regeln der Technik sind das, was Fachleute in der Praxis als richtig und bewährt ansehen.",
+     "ar": "القواعد المعترف بها هي ما يراه أهل الاختصاص صحيحًا ومجربًا في الممارسة.",
+     "en": "Generally acknowledged rules of technology are what experts consider correct and proven in practice."
+    },
+    {
+     "de": "Eine Norm ist ein wichtiger Hinweis darauf, aber nicht der einzige.",
+     "ar": "والمعيار دليل مهم على ذلك لكنه ليس الوحيد.",
+     "en": "A standard is an important indication, but not the only one."
+    },
+    {
+     "de": "Sie sehen: Die Norm hilft Ihnen sehr, aber sie ersetzt nicht Ihr Fachurteil.",
+     "ar": "ترون أن المعيار يساعدكم كثيرًا لكنه لا يغني عن حكمكم المهني.",
+     "en": "You see: the standard helps you a lot, but it does not replace your professional judgement."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Stand der Technik",
+    "heading": "Was Gesetz oder Vertrag verlangt, entscheidet",
+    "items": [],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Auch der Begriff Stand der Technik steht in Gesetzen und Verträgen.",
+     "ar": "كذلك يرد مصطلح المستوى الحالي للتقنية في القوانين والعقود.",
+     "en": "The term state of the art also appears in laws and contracts."
+    },
+    {
+     "de": "Was er genau bedeutet, hängt vom Text ab.",
+     "ar": "وما يعنيه بالضبط يتوقف على نص الوثيقة.",
+     "en": "What exactly it means depends on the text."
+    },
+    {
+     "de": "Fragen Sie im Zweifel Ihre Fachabteilung oder eine Rechtsberatung.",
+     "ar": "في حال الشك اسألوا القسم المختص أو مستشارًا قانونيًا.",
+     "en": "If in doubt, ask your specialist department or legal adviser."
+    },
+    {
+     "de": "Rechtlich sicher sind Sie nur mit klaren Absprachen im Vertrag.",
+     "ar": "لا تكونون آمنين قانونيًا إلا باتفاقات واضحة في العقد.",
+     "en": "You are legally safe only with clear agreements in the contract."
+    },
+    {
+     "de": "Schreiben Sie darum die Norm mit Ausgabedatum in den Vertrag.",
+     "ar": "لذلك اكتبوا المعيار مع تاريخ إصداره في العقد.",
+     "en": "So write the standard with its edition date into the contract."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Normen ändern sich",
+    "heading": "Normen ändern sich: Version prüfen",
+    "items": [
+     "Neue Ausgaben ersetzen alte",
+     "Zurückgezogene Normen erkennen",
+     "Datum im Bericht immer nennen",
+     "Quelle: Verlag oder DIN prüfen"
+    ],
+    "terms": [
+     {
+      "de": "zurückgezogen",
+      "ar": "مسحوب",
+      "en": "withdrawn"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Normen sind nicht für immer gültig.",
+     "ar": "المعايير ليست سارية إلى الأبد.",
+     "en": "Standards are not valid forever."
+    },
+    {
+     "de": "Neue Ausgaben ersetzen ältere, und alte Ausgaben werden zurückgezogen.",
+     "ar": "تحل الإصدارات الجديدة محل القديمة، وتُسحب القديمة.",
+     "en": "New editions replace older ones, and old editions are withdrawn."
+    },
+    {
+     "de": "Auch die Ausgabe von DIN VDE 0100-410 kann sich ändern, deshalb ist unser Datum nur ein Beispiel.",
+     "ar": "وقد يتغير أيضًا إصدار دين فدي 0100-410، لذا فتاريخنا مجرد مثال.",
+     "en": "The edition of DIN VDE 0100-410 can also change, so our date is only an example.",
+     "tts": "Auch die Ausgabe von Din Fau-De-E null-eins-null-null, Teil vier-eins-null, kann sich ändern, deshalb ist unser Datum nur ein Beispiel."
+    },
+    {
+     "de": "Prüfen Sie vor jedem Projekt die aktuelle Fassung bei Verlag oder DIN.",
+     "ar": "تحققوا قبل كل مشروع من النسخة الحالية لدى الناشر أو دين.",
+     "en": "Before every project, check the current version with the publisher or DIN.",
+     "tts": "Prüfen Sie vor jedem Projekt die aktuelle Fassung bei Verlag oder Din."
+    },
+    {
+     "de": "Stellen Sie sich eine Routine ein: Vor Projektstart prüfen, vor Abgabe noch einmal prüfen.",
+     "ar": "اعتمدوا روتينًا: تحققوا قبل بدء المشروع وتحققوا مرة أخرى قبل التسليم.",
+     "en": "Set up a routine: check before the project starts, check again before delivery."
+    },
+    {
+     "de": "Notieren Sie das Prüfdatum in Ihrer Dokumentation.",
+     "ar": "دوّنوا تاريخ التحقق في وثائقكم.",
+     "en": "Write the check date in your documentation."
+    },
+    {
+     "de": "Verlassen Sie sich nicht auf alte Ordner oder auf Dateien von Kollegen.",
+     "ar": "لا تعتمدوا على مجلدات قديمة أو على ملفات من الزملاء.",
+     "en": "Do not rely on old folders or on files from colleagues."
+    },
+    {
+     "de": "Fragen Sie bei Unsicherheit die Normenstelle Ihrer Firma.",
+     "ar": "وعند الشك اسألوا قسم المعايير في شركتكم.",
+     "en": "When unsure, ask your company's standards office."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Normen beschaffen",
+    "heading": "Normen legal beschaffen",
+    "items": [
+     "Beuth Verlag: DIN-Normen online suchen",
+     "VDE VERLAG: VDE-Vorschriftenwerk",
+     "Gedruckt, auf DVD oder als Online-Abo",
+     "Normen-Infopoints: kostenlos einsehen"
+    ],
+    "terms": [
+     {
+      "de": "Normen-Infopoint",
+      "ar": "نقطة معلومات المعايير",
+      "en": "standards info point"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wo bekommen Sie Normen legal?",
+     "ar": "من أين تحصلون على المعايير بطريقة قانونية؟",
+     "en": "Where do you get standards legally?"
+    },
+    {
+     "de": "Beim Beuth Verlag können Sie online suchen; Inhaltsverzeichnisse sind frei, Volltexte kosten Geld.",
+     "ar": "في دار بويت يمكنكم البحث عبر الإنترنت؛ فهارس المحتويات مجانية والنصوص الكاملة بمقابل.",
+     "en": "At Beuth Verlag you can search online; tables of contents are free, full texts cost money."
+    },
+    {
+     "de": "Das VDE-Vorschriftenwerk bietet der VDE VERLAG an, gedruckt, auf DVD oder als Online-Abo.",
+     "ar": "ويقدّم ناشر فدي مجموعة اللوائح مطبوعة أو على أقراص أو باشتراك إلكتروني.",
+     "en": "VDE VERLAG offers the VDE-Vorschriftenwerk in print, on DVD or as an online subscription.",
+     "tts": "Das Fau-De-E-Vorschriftenwerk bietet der Fau-De-E-Verlag an, gedruckt, auf D-V-D oder als Online-Abo."
+    },
+    {
+     "de": "In Deutschland gibt es Normen-Infopoints, oft in Hochschulbibliotheken.",
+     "ar": "وفي ألمانيا توجد نقاط معلومات للمعايير، غالبًا في مكتبات الجامعات.",
+     "en": "In Germany there are standards info points, often in university libraries."
+    },
+    {
+     "de": "Dort können Sie Normen kostenlos einsehen; fragen Sie vorher nach den Öffnungszeiten.",
+     "ar": "هناك يمكنكم الاطلاع عليها مجانًا؛ اسألوا قبل الزيارة عن مواعيد الدوام.",
+     "en": "There you can view standards for free; ask about opening hours first."
+    },
+    {
+     "de": "Fragen Sie auch Ihren Arbeitgeber: Viele Firmen haben schon Zugang zu Normen.",
+     "ar": "اسألوا صاحب العمل أيضًا: كثير من الشركات لديها وصول إلى المعايير.",
+     "en": "Also ask your employer: many companies already have access to standards."
+    },
+    {
+     "de": "Kaufen Sie nur bei Quellen, die Sie sicher als Verlag erkennen.",
+     "ar": "اشتروا فقط من مصادر تعرفونها يقينًا كناشرين.",
+     "en": "Only buy from sources you clearly recognise as publishers."
+    },
+    {
+     "de": "Planen Sie dafür etwas Zeit ein, besonders bei der Suche nach dem richtigen Teil.",
+     "ar": "خصصوا لذلك بعض الوقت، خصوصًا عند البحث عن الجزء الصحيح.",
+     "en": "Plan some time for this, especially when searching for the right part."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtige Regel",
+    "heading": "Normtexte nicht kopieren",
+    "items": [
+     "Normen sind urheberrechtlich geschützt",
+     "Kein Kopieren, kein Weitergeben",
+     "Lizenz für Online-Lesen beachten",
+     "Eigene Worte und Nummer nennen"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Eine wichtige Regel zum Schluss: Normen sind geschützte Werke.",
+     "ar": "قاعدة مهمة في الختام: المعايير أعمال محمية.",
+     "en": "One important rule at the end: standards are protected works."
+    },
+    {
+     "de": "Kopieren Sie keine Normtexte und geben Sie keine Dateien weiter.",
+     "ar": "لا تنسخوا نصوص المعايير ولا تمرروا ملفاتها.",
+     "en": "Do not copy standard texts and do not pass on files."
+    },
+    {
+     "de": "Online-Bibliotheken erlauben oft nur das Lesen, aber keinen Download.",
+     "ar": "المكتبات الإلكترونية غالبًا تسمح بالقراءة فقط دون تنزيل.",
+     "en": "Online libraries often allow reading only, but no download."
+    },
+    {
+     "de": "Nennen Sie in Berichten die Nummer mit Ausgabedatum und beschreiben Sie den Inhalt mit eigenen Worten.",
+     "ar": "اذكروا في التقارير الرقم مع تاريخ الإصدار، وصفوا المضمون بكلماتكم.",
+     "en": "In reports, name the number with the edition date and describe the content in your own words."
+    },
+    {
+     "de": "Ein Foto oder Screenshot der Norm ist ebenfalls ein Kopieren.",
+     "ar": "تصوير المعيار أو أخذ لقطة شاشة منه هو أيضًا نسخ.",
+     "en": "A photo or screenshot of the standard is also copying."
+    },
+    {
+     "de": "Das gilt auch für Kurse und Präsentationen: Zeigen Sie keine Normseiten.",
+     "ar": "وينطبق هذا على الدورات والعروض: لا تعرضوا صفحات المعايير.",
+     "en": "This also applies to courses and presentations: do not show standard pages."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "DIN: national; DKE: Elektrotechnik",
+     "VDE: Verband, Prüfzeichen, Vorschriftenwerk",
+     "IEC, EN, DIN EN: ein Übernahmeweg",
+     "Ausgabedatum und Entwurf beachten",
+     "Version immer aktuell prüfen"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "DIN ist national, die DKE macht die Elektrotechnik, und der VDE bietet Vorschriftenwerk und Prüfzeichen.",
+     "ar": "دين وطنية، ودكه تتولى الكهروتقنية، وفدي يقدّم المجموعة وعلامة الاختبار.",
+     "en": "DIN is national, the DKE handles electrical engineering, and the VDE offers the Vorschriftenwerk and test mark.",
+     "tts": "Din ist national, die De-Ka-E macht die Elektrotechnik, und der Fau-De-E bietet Vorschriftenwerk und Prüfzeichen."
+    },
+    {
+     "de": "Eine IEC-Norm wird zur EN und dann zur DIN EN.",
+     "ar": "معيار آي إي سي يصبح إن ثم دين إن.",
+     "en": "An IEC standard becomes an EN and then a DIN EN.",
+     "tts": "Eine I-E-Zett-Norm wird zur E-En und dann zur Din E-En."
+    },
+    {
+     "de": "Achten Sie auf das Ausgabedatum und auf den Unterschied zwischen Entwurf und Norm.",
+     "ar": "انتبهوا إلى تاريخ الإصدار وإلى الفرق بين المسودة والمعيار.",
+     "en": "Watch the edition date and the difference between draft and standard."
+    },
+    {
+     "de": "Und prüfen Sie immer die aktuelle Fassung.",
+     "ar": "وتحققوا دائمًا من النسخة الحالية.",
+     "en": "And always check the current version."
+    },
+    {
+     "de": "So können Sie Normnummern künftig sicher lesen und gezielt suchen.",
+     "ar": "هكذا يمكنكم مستقبلًا قراءة أرقام المعايير بثقة والبحث عنها بدقة.",
+     "en": "This way you can read standard numbers with confidence and search for them precisely."
+    },
+    {
+     "de": "Im nächsten Video wenden wir dieses Wissen im Alltag an.",
+     "ar": "في الفيديو التالي نطبق هذه المعرفة في العمل اليومي.",
+     "en": "In the next video we apply this knowledge in daily work."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "Norm",
+   "ar": "معيار",
+   "en": "standard"
+  },
+  {
+   "de": "Normungsorganisation",
+   "ar": "منظمة التقييس",
+   "en": "standardisation body"
+  },
+  {
+   "de": "Ausgabedatum",
+   "ar": "تاريخ الإصدار",
+   "en": "edition date"
+  },
+  {
+   "de": "Entwurf",
+   "ar": "مسودة",
+   "en": "draft"
+  },
+  {
+   "de": "Stellungnahme",
+   "ar": "تعليق",
+   "en": "comment"
+  },
+  {
+   "de": "Vorschriftenwerk",
+   "ar": "مجموعة اللوائح",
+   "en": "body of regulations"
+  },
+  {
+   "de": "Prüfzeichen",
+   "ar": "علامة اختبار",
+   "en": "test mark"
+  },
+  {
+   "de": "übernehmen",
+   "ar": "يتبنى",
+   "en": "to adopt"
+  },
+  {
+   "de": "zurückgezogen",
+   "ar": "مسحوب",
+   "en": "withdrawn"
+  },
+  {
+   "de": "anerkannte Regeln der Technik",
+   "ar": "القواعد المعترف بها للتقنية",
+   "en": "generally acknowledged rules of technology"
+  },
+  {
+   "de": "Stand der Technik",
+   "ar": "المستوى الحالي للتقنية",
+   "en": "state of the art"
+  },
+  {
+   "de": "Normen-Infopoint",
+   "ar": "نقطة معلومات المعايير",
+   "en": "standards info point"
+  },
+  {
+   "de": "eingetragener Verein",
+   "ar": "جمعية مسجلة",
+   "en": "registered association"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Wer macht in Deutschland die Normung für die Elektrotechnik?",
+    "ar": "من يتولى التقييس في الكهروتقنية في ألمانيا؟",
+    "en": "Who does standardisation for electrical engineering in Germany?"
+   },
+   "options": [
+    {
+     "de": "Die DKE im DIN und VDE",
+     "ar": "دكه في دين وفدي",
+     "en": "The DKE within DIN and VDE"
+    },
+    {
+     "de": "Nur der Staat",
+     "ar": "الدولة وحدها",
+     "en": "Only the state"
+    },
+    {
+     "de": "Nur die IEC",
+     "ar": "آي إي سي فقط",
+     "en": "Only the IEC"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was bedeutet das Datum nach dem Doppelpunkt in einer DIN-Nummer?",
+    "ar": "ماذا يعني التاريخ بعد النقطتين في رقم دين؟",
+    "en": "What does the date after the colon in a DIN number mean?"
+   },
+   "options": [
+    {
+     "de": "Das Ablaufdatum",
+     "ar": "تاريخ الانتهاء",
+     "en": "The expiry date"
+    },
+    {
+     "de": "Die DIN-Ausgabe in Jahr und Monat",
+     "ar": "إصدار دين بالسنة والشهر",
+     "en": "The DIN edition in year and month"
+    },
+    {
+     "de": "Das Datum der Bestellung",
+     "ar": "تاريخ الطلب",
+     "en": "The order date"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was gilt für einen Normentwurf?",
+    "ar": "ماذا ينطبق على مسودة معيار؟",
+    "en": "What applies to a draft standard?"
+   },
+   "options": [
+    {
+     "de": "Er ist schon gültige Norm",
+     "ar": "هي معيار ساري بالفعل",
+     "en": "It is already a valid standard"
+    },
+    {
+     "de": "Er dient der Stellungnahme und kann sich ändern",
+     "ar": "تخدم إبداء الملاحظات وقد تتغير",
+     "en": "It is for comments and can change"
+    },
+    {
+     "de": "Er ist ein Gesetz",
+     "ar": "هي قانون",
+     "en": "It is a law"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wann wird eine Norm rechtlich verbindlich?",
+    "ar": "متى يصبح المعيار ملزمًا قانونيًا؟",
+    "en": "When does a standard become legally binding?"
+   },
+   "options": [
+    {
+     "de": "Immer sofort",
+     "ar": "دائمًا فورًا",
+     "en": "Always immediately"
+    },
+    {
+     "de": "Wenn Gesetz oder Vertrag auf sie verweist",
+     "ar": "عندما يحيل إليه قانون أو عقد",
+     "en": "When a law or contract refers to it"
+    },
+    {
+     "de": "Nie",
+     "ar": "أبدًا",
+     "en": "Never"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wie dürfen Sie mit Normtexten umgehen?",
+    "ar": "كيف يجوز لكم التعامل مع نصوص المعايير؟",
+    "en": "How may you handle standard texts?"
+   },
+   "options": [
+    {
+     "de": "Kopieren und verteilen",
+     "ar": "نسخها وتوزيعها",
+     "en": "Copy and distribute"
+    },
+    {
+     "de": "Legal beschaffen und nicht kopieren",
+     "ar": "الحصول عليها قانونيًا وعدم نسخها",
+     "en": "Obtain legally and not copy"
+    },
+    {
+     "de": "Online stellen",
+     "ar": "نشرها على الإنترنت",
+     "en": "Put them online"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "next": {
+  "de": "Als Nächstes sehen wir, wie Sie die Normen für Planung und Anlagen im Alltag finden und anwenden.",
+  "ar": "في الفيديو التالي نرى كيف تجدون معايير التخطيط والمنشآت وتطبقونها في العمل اليومي.",
+  "en": "Next, we see how you find and apply standards for design and installations in daily work."
+ },
+ "stand": "2026-10-20; erneut prüfen: aktuelle Ausgabe von DIN VDE 0100-410, Einspruchsverfahren und Fristen für Entwürfe, Angebote von Beuth und VDE VERLAG, Zahl/Orte der Normen-Infopoints, rechtliche Einordnung"
+}

@@ -1,0 +1,1594 @@
+{
+ "id": "E-F05",
+ "title": {
+  "de": "Elektrische Sicherheit: Fünf Regeln, DGUV Vorschrift 3, Prüfungen",
+  "ar": "السلامة الكهربائية والقواعد الخمس، اللائحة الثالثة، الفحوص الدورية",
+  "en": "Electrical Safety: Five Rules, DGUV Regulation 3, Inspections"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "Grundlagen · Folge 5",
+    "heading": "Elektrische Sicherheit",
+    "items": [
+     "Fünf Sicherheitsregeln",
+     "Prüfungen und Gefährdungsbeurteilung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zur fünften Grundlagenfolge.",
+     "ar": "مرحبًا بكم في الحلقة الخامسة من الأساسيات.",
+     "en": "Welcome to the fifth foundation episode."
+    },
+    {
+     "de": "Heute geht es um elektrische Sicherheit.",
+     "ar": "موضوعنا اليوم هو السلامة الكهربائية.",
+     "en": "Today we talk about electrical safety."
+    },
+    {
+     "de": "Sie lernen die fünf Sicherheitsregeln kennen.",
+     "ar": "ستتعرفون على قواعد السلامة الخمس.",
+     "en": "You will learn the five safety rules."
+    },
+    {
+     "de": "Als Ingenieur in Deutschland arbeiten Sie oft mit Elektrofachkräften zusammen.",
+     "ar": "كمهندس في ألمانيا ستعملون كثيرًا مع Elektrofachkraft.",
+     "en": "As an engineer in Germany, you often work together with qualified electricians."
+    },
+    {
+     "de": "Darum müssen Sie die Sprache der Sicherheit kennen.",
+     "ar": "لذلك عليكم أن تعرفوا لغة السلامة.",
+     "en": "So you need to know the language of safety."
+    },
+    {
+     "de": "Wir gehen Schritt für Schritt vor und erklären die wichtigen Wörter.",
+     "ar": "سنتقدم خطوة بخطوة ونشرح المصطلحات المهمة.",
+     "en": "We go step by step and explain the important words."
+    },
+    {
+     "de": "Am Ende finden Sie ein Glossar und ein kurzes Quiz.",
+     "ar": "وفي النهاية ستجدون مسردًا واختبارًا قصيرًا.",
+     "en": "At the end you will find a glossary and a short quiz."
+    },
+    {
+     "de": "Außerdem sehen wir Prüfungen, Schutzausrüstung und Erste Hilfe.",
+     "ar": "وسنتناول أيضًا الفحوص ومعدات الوقاية والإسعافات الأولية.",
+     "en": "We also look at inspections, protective equipment and first aid."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Kein Ersatz für Ausbildung"
+    ],
+    "terms": [
+     {
+      "de": "Unterweisung",
+      "ar": "التوجيه والتعليم المهني",
+      "en": "instruction"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video ist nur eine Orientierung.",
+     "ar": "هذا الفيديو للتوجيه العام فقط.",
+     "en": "This video is for orientation only."
+    },
+    {
+     "de": "Echte Arbeit an elektrischen Anlagen braucht eine passende Ausbildung.",
+     "ar": "العمل الحقيقي على المنشآت الكهربائية يتطلب تأهيلًا مناسبًا.",
+     "en": "Real work on electrical installations needs suitable training."
+    },
+    {
+     "de": "Sie brauchen außerdem eine Unterweisung im Betrieb.",
+     "ar": "كما تحتاجون إلى توجيه داخل الشركة.",
+     "en": "You also need instruction at your company."
+    },
+    {
+     "de": "Und Sie müssen immer die aktuellen Regeln beachten.",
+     "ar": "ويجب دائمًا الالتزام بالقواعد الحالية.",
+     "en": "And you must always follow the current rules."
+    },
+    {
+     "de": "Sicherheit ist keine Frage von Geschwindigkeit.",
+     "ar": "السلامة ليست مسألة سرعة.",
+     "en": "Safety is not a question of speed."
+    },
+    {
+     "de": "Sie ist eine Frage von Wissen, Ordnung und Disziplin.",
+     "ar": "إنها مسألة معرفة ونظام وانضباط.",
+     "en": "It is a question of knowledge, order and discipline."
+    },
+    {
+     "de": "Fragen Sie im Zweifel immer die verantwortliche Person.",
+     "ar": "في حال الشك اسألوا دائمًا الشخص المسؤول.",
+     "en": "If in doubt, always ask the responsible person."
+    },
+    {
+     "de": "Das Video ersetzt keine Schulung.",
+     "ar": "الفيديو لا يغني عن التدريب.",
+     "en": "This video does not replace training."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Gefahr",
+    "heading": "Wie Strom auf den Körper wirkt",
+    "items": [
+     "Besonders gefährdet: das Herz",
+     "Herzrhythmusstörungen, Herzkammerflimmern",
+     "Atemstörungen sind möglich",
+     "Verbrennungen an Ein- und Austrittsstellen",
+     "Auch Störlichtbögen verbrennen"
+    ],
+    "terms": [
+     {
+      "de": "Herzkammerflimmern",
+      "ar": "الرجفان البطيني",
+      "en": "ventricular fibrillation"
+     },
+     {
+      "de": "Störlichtbogen",
+      "ar": "القوس الكهربائي العرضي",
+      "en": "arc fault"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wir sprechen hier nur qualitativ über die Wirkung.",
+     "ar": "نتحدث هنا عن التأثير بشكل نوعي فقط.",
+     "en": "Here we describe the effects only in qualitative terms."
+    },
+    {
+     "de": "Strom durch den Körper gefährdet vor allem das Herz.",
+     "ar": "التيار عبر الجسم يهدد القلب خصوصًا.",
+     "en": "Current through the body mainly endangers the heart."
+    },
+    {
+     "de": "Es kann zu Herzrhythmusstörungen kommen.",
+     "ar": "قد تحدث اضطرابات في نظم القلب.",
+     "en": "Heart rhythm disorders can occur."
+    },
+    {
+     "de": "Im schlimmsten Fall folgt Herzkammerflimmern.",
+     "ar": "وفي أسوأ الحالات يحدث رجفان بطيني.",
+     "en": "In the worst case, ventricular fibrillation follows."
+    },
+    {
+     "de": "Auch die Atmung kann gestört werden.",
+     "ar": "وقد يتعطل التنفس أيضًا.",
+     "en": "Breathing can also be disturbed."
+    },
+    {
+     "de": "Dazu kommen Verbrennungen an den Stellen, wo der Strom ein- und austritt.",
+     "ar": "ويضاف إلى ذلك حروق في مواضع دخول التيار وخروجه.",
+     "en": "There are also burns where the current enters and leaves."
+    },
+    {
+     "de": "Man sieht diese Folgen nicht immer sofort.",
+     "ar": "لا تظهر هذه العواقب دائمًا فورًا.",
+     "en": "These effects are not always visible straight away."
+    },
+    {
+     "de": "Darum ist auch ein scheinbar leichter Unfall ernst zu nehmen.",
+     "ar": "لذلك يجب أخذ حتى الحادث الذي يبدو خفيفًا على محمل الجد.",
+     "en": "So even an accident that seems minor must be taken seriously."
+    },
+    {
+     "de": "Deshalb ist Vorbeugung so wichtig.",
+     "ar": "لذلك الوقاية مهمة جدًا.",
+     "en": "That is why prevention is so important."
+    },
+    {
+     "de": "Das Ziel jeder Regel ist, dass es gar nicht erst zu einem Stromfluss durch den Körper kommt.",
+     "ar": "هدف كل قاعدة ألا يمر تيار عبر الجسم أصلًا.",
+     "en": "The goal of every rule is that no current flows through the body in the first place."
+    },
+    {
+     "de": "Ein Störlichtbogen kann ebenfalls schwere Verbrennungen verursachen.",
+     "ar": "كما يمكن للقوس الكهربائي العرضي أن يسبب حروقًا شديدة.",
+     "en": "An arc fault can also cause severe burns."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Gefahr",
+    "heading": "Was die Schwere bestimmt",
+    "items": [
+     "Stromstärke",
+     "Stromart",
+     "Körperwiderstand",
+     "Dauer und Stromweg"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie schwer ein Unfall wird, hängt von mehreren Faktoren ab.",
+     "ar": "تعتمد خطورة الحادث على عدة عوامل.",
+     "en": "How severe an accident is depends on several factors."
+    },
+    {
+     "de": "Wichtig sind die Stromstärke und die Stromart.",
+     "ar": "المهم هو شدة التيار ونوعه.",
+     "en": "The current strength and type matter."
+    },
+    {
+     "de": "Dazu kommt der Widerstand des Körpers.",
+     "ar": "ثم مقاومة الجسم.",
+     "en": "Then there is the resistance of the body."
+    },
+    {
+     "de": "Ebenso wichtig sind die Dauer und der Weg durch den Körper.",
+     "ar": "ومن المهم أيضًا المدة والمسار داخل الجسم.",
+     "en": "The duration and the path through the body matter just as much."
+    },
+    {
+     "de": "Das Gleiche gilt für Anlagen mit höherer Spannung.",
+     "ar": "وينطبق الأمر نفسه على المنشآت ذات الجهد الأعلى.",
+     "en": "The same applies to installations with higher voltage."
+    },
+    {
+     "de": "Sie sehen: Es gibt keinen Strom, der immer harmlos ist.",
+     "ar": "ترون أنه لا يوجد تيار آمن دائمًا.",
+     "en": "You see: there is no current that is always harmless."
+    },
+    {
+     "de": "Ein kurzer Kontakt ist meist weniger gefährlich als ein langer.",
+     "ar": "الملامسة القصيرة أقل خطرًا عادةً من الطويلة.",
+     "en": "A short contact is usually less dangerous than a long one."
+    },
+    {
+     "de": "Aber verlassen Sie sich nie darauf.",
+     "ar": "لكن لا تعتمدوا على ذلك أبدًا.",
+     "en": "But never rely on that."
+    },
+    {
+     "de": "Schon deshalb gilt: Jeder Stromunfall ist ernst.",
+     "ar": "ولهذا فإن كل حادث كهربائي أمر جدي.",
+     "en": "So every electric accident is serious."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Rechtsrahmen",
+    "heading": "Wer regelt was?",
+    "items": [
+     "ArbSchG: Gefährdungsbeurteilung",
+     "BetrSichV: Arbeitsmittel",
+     "DGUV Vorschrift 3: Elektrische Anlagen",
+     "VDE 0105-100: Betrieb von Anlagen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "In Deutschland regeln mehrere Texte die Sicherheit.",
+     "ar": "في ألمانيا تنظم عدة نصوص مسألة السلامة.",
+     "en": "In Germany, several texts regulate safety."
+    },
+    {
+     "de": "Das Arbeitsschutzgesetz verlangt eine Gefährdungsbeurteilung.",
+     "ar": "قانون حماية العمل يشترط تقييم المخاطر.",
+     "en": "The Occupational Safety and Health Act requires a risk assessment.",
+     "tts": "Das Arbeitsschutzgesetz verlangt eine Gefährdungsbeurteilung."
+    },
+    {
+     "de": "Die Betriebssicherheitsverordnung gilt für Arbeitsmittel.",
+     "ar": "لائحة السلامة التشغيلية تنطبق على وسائل العمل.",
+     "en": "The Industrial Safety Ordinance covers work equipment."
+    },
+    {
+     "de": "Die DGUV Vorschrift 3 betrifft elektrische Anlagen und Betriebsmittel.",
+     "ar": "اللائحة الثالثة للتأمين الاجتماعي ضد الحوادث تخص المنشآت والمعدات الكهربائية.",
+     "en": "DGUV Regulation 3 covers electrical installations and equipment.",
+     "tts": "De-Ge-U-Fau Vorschrift drei betrifft elektrische Anlagen und Betriebsmittel."
+    },
+    {
+     "de": "Diese Texte hängen eng zusammen.",
+     "ar": "هذه النصوص مترابطة بشكل وثيق.",
+     "en": "These texts are closely connected."
+    },
+    {
+     "de": "Das Gesetz gibt den Rahmen, die Vorschrift und die Norm füllen die Details.",
+     "ar": "القانون يضع الإطار، واللائحة والمعيار يملآن التفاصيل.",
+     "en": "The law gives the framework, the regulation and the standard fill in the details."
+    },
+    {
+     "de": "Normen selbst zitieren wir in diesem Kurs nicht wörtlich.",
+     "ar": "نحن لا نقتبس المعايير حرفيًا في هذه الدورة.",
+     "en": "In this course we do not quote standards word for word."
+    },
+    {
+     "de": "Sie müssen nicht alles auswendig kennen.",
+     "ar": "لا يلزمكم حفظ كل شيء عن ظهر قلب.",
+     "en": "You do not need to know everything by heart."
+    },
+    {
+     "de": "Aber Sie sollten wissen, wo Sie nachsehen.",
+     "ar": "لكن عليكم أن تعرفوا أين تبحثون.",
+     "en": "But you should know where to look."
+    },
+    {
+     "de": "Die Norm VDE 0105-100 beschreibt den Betrieb von Anlagen.",
+     "ar": "معيار الاتحاد الألماني للكهرباء المذكور يصف تشغيل المنشآت.",
+     "en": "The VDE standard 0105-100 describes operating installations.",
+     "tts": "Die Norm Fau-De-E null eins null fünf Strich eins null null beschreibt den Betrieb von Anlagen."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Gefährdungsbeurteilung",
+    "heading": "Erst beurteilen, dann arbeiten",
+    "items": [
+     "Gefahren der Arbeit ermitteln",
+     "Schutzmaßnahmen festlegen",
+     "Arbeitsmittel vor der Nutzung prüfen",
+     "CE-Kennzeichen ersetzt sie nicht"
+    ],
+    "terms": [
+     {
+      "de": "Gefährdungsbeurteilung",
+      "ar": "تقييم المخاطر",
+      "en": "risk assessment"
+     },
+     {
+      "de": "Arbeitgeber",
+      "ar": "صاحب العمل",
+      "en": "employer"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Arbeitgeber muss die Gefahren der Arbeit beurteilen.",
+     "ar": "على صاحب العمل أن يقيّم مخاطر العمل.",
+     "en": "The employer must assess the hazards of the work."
+    },
+    {
+     "de": "Daraus leitet er die nötigen Schutzmaßnahmen ab.",
+     "ar": "ومن ذلك يستخلص إجراءات الحماية اللازمة.",
+     "en": "From that he derives the necessary protective measures."
+    },
+    {
+     "de": "Das gilt auch, bevor Arbeitsmittel benutzt werden.",
+     "ar": "وينطبق ذلك قبل استخدام وسائل العمل أيضًا.",
+     "en": "This also applies before work equipment is used."
+    },
+    {
+     "de": "Ein CE-Kennzeichen ersetzt diese Beurteilung nicht.",
+     "ar": "علامة المطابقة الأوروبية لا تغني عن هذا التقييم.",
+     "en": "A CE marking does not replace this assessment.",
+     "tts": "Ein Ce-E-Kennzeichen ersetzt diese Beurteilung nicht."
+    },
+    {
+     "de": "Ein Beispiel: Ein neues Gerät soll in einer Werkstatt benutzt werden.",
+     "ar": "مثال: سيُستخدم جهاز جديد في ورشة.",
+     "en": "An example: a new device is to be used in a workshop."
+    },
+    {
+     "de": "Dann fragt man zuerst, welche Gefahren dabei entstehen können.",
+     "ar": "عندئذٍ يُسأل أولًا عن الأخطار التي قد تنشأ.",
+     "en": "Then you first ask which hazards can arise."
+    },
+    {
+     "de": "Danach legt man die Schutzmaßnahmen fest.",
+     "ar": "بعد ذلك تُحدد إجراءات الحماية.",
+     "en": "After that you define the protective measures."
+    },
+    {
+     "de": "Das ist Pflicht des Arbeitgebers, aber Sie wirken daran mit.",
+     "ar": "هذا واجب صاحب العمل، لكنكم تشاركون فيه.",
+     "en": "This is the employer's duty, but you contribute to it."
+    },
+    {
+     "de": "Für Sie als Ingenieur heißt das: Sicherheit beginnt in der Planung.",
+     "ar": "وبالنسبة لكم كمهندسين، السلامة تبدأ من التخطيط.",
+     "en": "For you as an engineer, safety starts in planning."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Die fünf Regeln",
+    "heading": "Übersicht in fester Reihenfolge",
+    "items": [
+     "1  Freischalten",
+     "2  Gegen Wiedereinschalten sichern",
+     "3  Spannungsfreiheit feststellen",
+     "4  Erden und Kurzschließen",
+     "5  Benachbarte Teile abdecken oder abschranken"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommen die fünf Sicherheitsregeln.",
+     "ar": "والآن نصل إلى قواعد السلامة الخمس.",
+     "en": "Now come the five safety rules."
+    },
+    {
+     "de": "Sie stehen in der Norm VDE 0105-100, Abschnitt 6.2.",
+     "ar": "وهي مذكورة في المعيار المذكور، في البند السادس فاصلة اثنان.",
+     "en": "They are in the standard VDE 0105-100, section 6.2.",
+     "tts": "Sie stehen in der Norm Fau-De-E null eins null fünf Strich eins null null, Abschnitt sechs Punkt zwei."
+    },
+    {
+     "de": "Sie gelten für Arbeiten an spannungsfrei gemachten Anlagen.",
+     "ar": "وتنطبق على الأعمال في المنشآت التي فُصل عنها الجهد.",
+     "en": "They apply to work on installations that have been de-energised."
+    },
+    {
+     "de": "Die Reihenfolge ist wichtig: von eins bis fünf.",
+     "ar": "الترتيب مهم: من الأولى إلى الخامسة.",
+     "en": "The order matters: from one to five."
+    },
+    {
+     "de": "Merken Sie sich die Idee: Fünf Schritte, eine feste Reihenfolge.",
+     "ar": "تذكروا الفكرة: خمس خطوات بترتيب ثابت.",
+     "en": "Remember the idea: five steps, one fixed order."
+    },
+    {
+     "de": "Wir sehen uns jetzt jede Regel genauer an.",
+     "ar": "سننظر الآن إلى كل قاعدة عن قرب.",
+     "en": "Now we look at each rule more closely."
+    },
+    {
+     "de": "Prägen Sie sich die Reihenfolge gut ein.",
+     "ar": "احفظوا الترتيب جيدًا.",
+     "en": "Learn the order well."
+    },
+    {
+     "de": "Sie ist die Grundlage für alles Weitere in diesem Video.",
+     "ar": "إنه أساس كل ما يلي في هذا الفيديو.",
+     "en": "It is the basis for everything else in this video."
+    },
+    {
+     "de": "Die Regeln sind hier sinngemäß wiedergegeben, nicht wörtlich.",
+     "ar": "القواعد هنا معروضة بالمعنى لا بالنص الحرفي.",
+     "en": "The rules are paraphrased here, not quoted word for word."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Regel 1 und 2",
+    "heading": "Freischalten und sichern",
+    "items": [
+     "Anlage allseitig abschalten",
+     "z. B. Schutzschalter ausschalten",
+     "Sicherungen entfernen",
+     "Verbotsschild anbringen"
+    ],
+    "terms": [
+     {
+      "de": "Freischalten",
+      "ar": "فصل الجهد",
+      "en": "isolate / switch off"
+     },
+     {
+      "de": "Wiedereinschalten",
+      "ar": "إعادة التشغيل",
+      "en": "re-energising"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Regel eins heißt: Freischalten.",
+     "ar": "القاعدة الأولى: فصل الجهد.",
+     "en": "Rule one: isolate."
+    },
+    {
+     "de": "Die Anlage wird abgeschaltet, zum Beispiel am Leitungsschutzschalter.",
+     "ar": "تُفصل المنشأة، مثلًا عند قاطع حماية الخطوط.",
+     "en": "The installation is switched off, for example at the circuit breaker."
+    },
+    {
+     "de": "Manchmal werden auch Schmelzsicherungen entfernt.",
+     "ar": "وأحيانًا تُزال المصهرات أيضًا.",
+     "en": "Sometimes fuses are removed as well."
+    },
+    {
+     "de": "Regel zwei heißt: Gegen Wiedereinschalten sichern.",
+     "ar": "القاعدة الثانية: التأمين ضد إعادة التشغيل.",
+     "en": "Rule two: secure against re-energising."
+    },
+    {
+     "de": "Niemand soll die Anlage aus Versehen wieder einschalten.",
+     "ar": "لا ينبغي لأحد أن يعيد تشغيل المنشأة عن طريق الخطأ.",
+     "en": "No one should switch the installation back on by mistake."
+    },
+    {
+     "de": "Warum zwei Schritte? Abschalten allein reicht nicht.",
+     "ar": "لماذا خطوتان؟ الفصل وحده لا يكفي.",
+     "en": "Why two steps? Switching off alone is not enough."
+    },
+    {
+     "de": "Jemand könnte die Anlage sonst unbemerkt wieder einschalten.",
+     "ar": "فقد يعيد أحدهم تشغيل المنشأة دون أن ينتبه أحد.",
+     "en": "Otherwise someone could switch the installation back on unnoticed."
+    },
+    {
+     "de": "Deshalb gehören beide Regeln zusammen.",
+     "ar": "لذلك تتلازم القاعدتان.",
+     "en": "That is why both rules belong together."
+    },
+    {
+     "de": "Beide Schritte sind einfach, aber sie müssen sorgfältig sein.",
+     "ar": "الخطوتان بسيطتان لكن يجب أن تُنفذا بعناية.",
+     "en": "Both steps are simple, but they must be done carefully."
+    },
+    {
+     "de": "Dazu hilft zum Beispiel ein Verbotsschild.",
+     "ar": "ويساعد في ذلك مثلًا لافتة منع.",
+     "en": "A prohibition sign helps here, for example."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Regel 3",
+    "heading": "Spannungsfreiheit feststellen",
+    "items": [
+     "Erst messen, dann arbeiten",
+     "Nie nur auf das Schalten vertrauen",
+     "Mit geeignetem Prüfgerät",
+     "Nur durch qualifizierte Personen"
+    ],
+    "terms": [
+     {
+      "de": "Spannungsfreiheit",
+      "ar": "انعدام الجهد",
+      "en": "absence of voltage"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Regel drei heißt: Spannungsfreiheit feststellen.",
+     "ar": "القاعدة الثالثة: التحقق من انعدام الجهد.",
+     "en": "Rule three: verify that there is no voltage."
+    },
+    {
+     "de": "Abschalten allein reicht nicht.",
+     "ar": "الفصل وحده لا يكفي.",
+     "en": "Switching off alone is not enough."
+    },
+    {
+     "de": "Man muss prüfen, dass wirklich keine Spannung anliegt.",
+     "ar": "يجب التأكد من أنه لا يوجد جهد فعلًا.",
+     "en": "You must check that there really is no voltage."
+    },
+    {
+     "de": "Das macht eine qualifizierte Person mit einem geeigneten Gerät.",
+     "ar": "ويقوم بذلك شخص مؤهل بجهاز مناسب.",
+     "en": "A qualified person does this with a suitable device."
+    },
+    {
+     "de": "Ein Gedanke dazu: Vertrauen Sie nie nur auf ein Schild oder einen Schalter.",
+     "ar": "فكرة هنا: لا تعتمدوا أبدًا على لافتة أو مفتاح فقط.",
+     "en": "One thought: never rely only on a sign or a switch."
+    },
+    {
+     "de": "Die Messung gibt Ihnen die Sicherheit.",
+     "ar": "القياس هو ما يمنحكم الأمان.",
+     "en": "The measurement gives you certainty."
+    },
+    {
+     "de": "Erst danach gilt die Anlage als spannungsfrei.",
+     "ar": "وبعد ذلك فقط تُعتبر المنشأة خالية من الجهد.",
+     "en": "Only then is the installation considered de-energised."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Regel 4 und 5",
+    "heading": "Erden und abdecken",
+    "items": [
+     "Erden und Kurzschließen",
+     "Benachbarte Teile abdecken",
+     "Oder: abschranken",
+     "Gefahrenbereich markieren"
+    ],
+    "terms": [
+     {
+      "de": "Erden",
+      "ar": "التأريض",
+      "en": "earthing"
+     },
+     {
+      "de": "Kurzschließen",
+      "ar": "التقصير",
+      "en": "short-circuiting"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Regel vier heißt: Erden und Kurzschließen.",
+     "ar": "القاعدة الرابعة: التأريض والتقصير.",
+     "en": "Rule four: earth and short-circuit."
+    },
+    {
+     "de": "Damit schützt man sich vor unerwarteter Spannung an der Arbeitsstelle.",
+     "ar": "وبذلك يحمي المرء نفسه من جهد غير متوقع في موضع العمل.",
+     "en": "This protects against unexpected voltage at the workplace."
+    },
+    {
+     "de": "Regel fünf heißt: Benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "القاعدة الخامسة: تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Rule five: cover or fence off neighbouring live parts."
+    },
+    {
+     "de": "So bleibt der Arbeitsbereich klar abgegrenzt.",
+     "ar": "وهكذا يبقى مكان العمل محددًا بوضوح.",
+     "en": "This keeps the work area clearly defined."
+    },
+    {
+     "de": "Diese beiden Regeln sind die letzten vor Arbeitsbeginn.",
+     "ar": "هاتان القاعدتان هما الأخيرتان قبل بدء العمل.",
+     "en": "These two rules are the last ones before work begins."
+    },
+    {
+     "de": "Danach kann die verantwortliche Person die Arbeitsstelle freigeben.",
+     "ar": "بعد ذلك يستطيع الشخص المسؤول أن يعتمد موقع العمل.",
+     "en": "After that the responsible person can release the workplace."
+    },
+    {
+     "de": "Wie genau das gemacht wird, hängt von der Anlage ab.",
+     "ar": "وكيفية ذلك بالضبط تعتمد على المنشأة.",
+     "en": "Exactly how this is done depends on the installation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Reihenfolge",
+    "heading": "Rückwärts wieder einschalten",
+    "items": [
+     "Arbeitsstelle erst nach Regel 1 bis 5 frei",
+     "Wiedereinschalten in umgekehrter Reihenfolge",
+     "Aufsicht gibt die Stelle frei"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Arbeitsstelle wird erst freigegeben, wenn alle fünf Regeln erfüllt sind.",
+     "ar": "لا يُسمح ببدء العمل إلا بعد تنفيذ القواعد الخمس كلها.",
+     "en": "The workplace is released only when all five rules are met."
+    },
+    {
+     "de": "Dabei gilt die Reihenfolge eins bis fünf.",
+     "ar": "وهنا يُتبع الترتيب من الأولى إلى الخامسة.",
+     "en": "The order one to five applies."
+    },
+    {
+     "de": "Beim Wiedereinschalten ist es umgekehrt.",
+     "ar": "وعند إعادة التشغيل يكون الترتيب معكوسًا.",
+     "en": "When re-energising, it is the other way round."
+    },
+    {
+     "de": "Man beginnt also mit Regel fünf und endet bei Regel eins.",
+     "ar": "أي نبدأ بالقاعدة الخامسة وننتهي بالأولى.",
+     "en": "So you start with rule five and end with rule one."
+    },
+    {
+     "de": "Diese Reihenfolge schützt alle Beteiligten.",
+     "ar": "هذا الترتيب يحمي جميع المشاركين.",
+     "en": "This order protects everyone involved."
+    },
+    {
+     "de": "Prüfen Sie vorher, dass niemand mehr an der Anlage arbeitet.",
+     "ar": "تأكدوا قبل ذلك أن أحدًا لم يعد يعمل على المنشأة.",
+     "en": "Check beforehand that no one is still working on the installation."
+    },
+    {
+     "de": "Merken Sie sich: erst freischalten, zuletzt wieder einschalten.",
+     "ar": "تذكروا: الفصل أولًا وإعادة التشغيل أخيرًا.",
+     "en": "Remember: isolate first, re-energise last."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Praxisbeispiel",
+    "heading": "So läuft eine Arbeit ab",
+    "items": [
+     "Auftrag und Gefahren klären",
+     "Regeln 1 bis 5 der Reihe nach",
+     "Arbeitsstelle durch Aufsicht freigeben",
+     "Arbeit ausführen",
+     "Rückwärts wieder einschalten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Stellen wir uns eine einfache Arbeit an einem Verteiler vor.",
+     "ar": "لنتخيل عملًا بسيطًا على لوحة توزيع.",
+     "en": "Let us imagine a simple job on a distribution board."
+    },
+    {
+     "de": "Zuerst klärt das Team den Auftrag und die Gefahren.",
+     "ar": "أولًا يوضح الفريق المهمة والأخطار.",
+     "en": "First the team clarifies the job and the hazards."
+    },
+    {
+     "de": "Dann folgen die fünf Regeln, eine nach der anderen.",
+     "ar": "ثم تأتي القواعد الخمس واحدة بعد الأخرى.",
+     "en": "Then come the five rules, one after the other."
+    },
+    {
+     "de": "Erst danach gibt die verantwortliche Person die Arbeitsstelle frei.",
+     "ar": "وبعدها فقط يعتمد الشخص المسؤول موقع العمل.",
+     "en": "Only then does the responsible person release the workplace."
+    },
+    {
+     "de": "Jetzt kann die eigentliche Arbeit beginnen.",
+     "ar": "الآن يمكن أن يبدأ العمل الفعلي.",
+     "en": "Now the actual work can begin."
+    },
+    {
+     "de": "Am Ende wird in umgekehrter Reihenfolge wieder eingeschaltet.",
+     "ar": "وفي النهاية تُعاد التشغيل بترتيب معكوس.",
+     "en": "At the end, power is restored in reverse order."
+    },
+    {
+     "de": "Dieses Beispiel zeigt nur den Ablauf, es ist keine Anleitung.",
+     "ar": "هذا المثال يوضح التسلسل فقط وليس دليل عمل.",
+     "en": "This example shows only the sequence; it is not an instruction."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Qualifikation",
+    "heading": "Wer darf arbeiten?",
+    "items": [
+     "Elektrofachkraft: Ausbildung und Erfahrung",
+     "Arbeit nur im Rahmen der Befugnis",
+     "Arbeitgeber legt Aufgaben fest",
+     "Unterweisung regelmäßig erneuern"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "فني كهرباء مؤهل",
+      "en": "qualified electrician (EFK)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wer arbeitet an elektrischen Anlagen?",
+     "ar": "من الذي يعمل على المنشآت الكهربائية؟",
+     "en": "Who works on electrical installations?"
+    },
+    {
+     "de": "Prüfungen führt eine Elektrofachkraft oder jemand unter ihrer Leitung durch.",
+     "ar": "الفحوص تنفذها Elektrofachkraft أو شخص تحت إشرافها.",
+     "en": "Inspections are carried out by a qualified electrician or someone under their direction."
+    },
+    {
+     "de": "Das steht in der DGUV Vorschrift 3.",
+     "ar": "وهذا مذكور في اللائحة الثالثة للتأمين ضد الحوادث.",
+     "en": "This is stated in DGUV Regulation 3.",
+     "tts": "Das steht in der De-Ge-U-Fau Vorschrift drei."
+    },
+    {
+     "de": "Ein Ingenieurabschluss allein macht noch keine Elektrofachkraft.",
+     "ar": "الشهادة الهندسية وحدها لا تجعل الشخص Elektrofachkraft.",
+     "en": "An engineering degree alone does not make someone a qualified electrician."
+    },
+    {
+     "de": "Fragen Sie im Betrieb, welche Aufgaben Sie übernehmen dürfen.",
+     "ar": "اسألوا في الشركة عن المهام المسموح لكم بها.",
+     "en": "Ask at your company which tasks you may take on."
+    },
+    {
+     "de": "Mehr zur Elektrofachkraft hören Sie in einer eigenen Folge.",
+     "ar": "ستسمعون المزيد عن Elektrofachkraft في حلقة مستقلة.",
+     "en": "You will hear more about the qualified electrician in a separate episode."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Arbeiten unter Spannung",
+    "heading": "Die Ausnahme von der Regel",
+    "items": [
+     "Normalfall: spannungsfrei arbeiten",
+     "Ausnahme: keine Gefährdung möglich",
+     "Oder: zwingende Gründe",
+     "Nur benannte, ausgebildete Personen",
+     "Nur freigegebene Arbeitsverfahren"
+    ],
+    "terms": [
+     {
+      "de": "Arbeiten unter Spannung",
+      "ar": "العمل تحت الجهد",
+      "en": "live working"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Arbeiten unter Spannung ist nur eine Ausnahme.",
+     "ar": "العمل تحت الجهد استثناء فقط.",
+     "en": "Live working is only an exception."
+    },
+    {
+     "de": "Man kürzt sie oft mit AuS ab.",
+     "ar": "ويُختصر غالبًا بالحرفين المذكورين.",
+     "en": "It is often abbreviated as AuS.",
+     "tts": "Man kürzt sie oft mit A-U-S ab."
+    },
+    {
+     "de": "Sie ist erlaubt, wenn keine Gefährdung auftreten kann.",
+     "ar": "وهو مسموح إذا لم يكن هناك خطر.",
+     "en": "It is allowed if no hazard can arise."
+    },
+    {
+     "de": "Oder wenn der spannungsfreie Zustand aus zwingenden Gründen nicht möglich ist.",
+     "ar": "أو إذا تعذّر الوصول إلى حالة انعدام الجهد لأسباب قاهرة.",
+     "en": "Or if a de-energised state is impossible for compelling reasons."
+    },
+    {
+     "de": "Dann dürfen nur benannte, besonders ausgebildete Beschäftigte arbeiten.",
+     "ar": "عندئذٍ لا يعمل إلا موظفون مسمّون ومدرَّبون تدريبًا خاصًا.",
+     "en": "Then only named, specially trained employees may work."
+    },
+    {
+     "de": "Sie dürfen nur freigegebene Arbeitsverfahren benutzen.",
+     "ar": "ويستخدمون فقط أساليب عمل معتمدة.",
+     "en": "They may only use approved work procedures."
+    },
+    {
+     "de": "In der Praxis ist das selten und gut vorbereitet.",
+     "ar": "وفي الواقع هو نادر ومُعدّ جيدًا.",
+     "en": "In practice it is rare and well prepared."
+    },
+    {
+     "de": "Der Arbeitgeber prüft die Befähigung regelmäßig.",
+     "ar": "صاحب العمل يتحقق من الكفاءة بانتظام.",
+     "en": "The employer checks the qualification regularly."
+    },
+    {
+     "de": "Sie beruht auf Ausbildung, Erfahrung und aktueller Tätigkeit.",
+     "ar": "وهي تقوم على التأهيل والخبرة والممارسة الحديثة.",
+     "en": "It is based on training, experience and current activity."
+    },
+    {
+     "de": "Die Regeln dazu stehen unter anderem in der DGUV Regel 103-011.",
+     "ar": "والقواعد المتعلقة بذلك مذكورة ضمن أمور أخرى في القاعدة المذكورة رقم مئة وثلاثة.",
+     "en": "The rules are set out in DGUV Rule 103-011, among others.",
+     "tts": "Die Regeln dazu stehen unter anderem in der De-Ge-U-Fau Regel hundertdrei Strich null elf."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "DGUV Vorschrift 3",
+    "heading": "Elektrische Anlagen prüfen",
+    "items": [
+     "Prüfung vor der ersten Inbetriebnahme",
+     "Prüfung nach einer Änderung",
+     "Wiederholungsprüfung in Zeitabständen",
+     "Durch Elektrofachkraft oder unter ihrer Leitung"
+    ],
+    "terms": [
+     {
+      "de": "Prüfung",
+      "ar": "فحص",
+      "en": "inspection"
+     },
+     {
+      "de": "Betriebsmittel",
+      "ar": "معدات كهربائية",
+      "en": "electrical equipment"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die DGUV Vorschrift 3 verlangt Prüfungen.",
+     "ar": "اللائحة الثالثة تشترط إجراء فحوص.",
+     "en": "DGUV Regulation 3 requires inspections.",
+     "tts": "De-Ge-U-Fau Vorschrift drei verlangt Prüfungen."
+    },
+    {
+     "de": "Der Unternehmer muss Anlagen und Betriebsmittel prüfen lassen.",
+     "ar": "على صاحب المنشأة أن يجعل المنشآت والمعدات تُفحص.",
+     "en": "The operator must have installations and equipment inspected."
+    },
+    {
+     "de": "Das gilt vor der ersten Inbetriebnahme und nach einer Änderung.",
+     "ar": "وذلك قبل التشغيل الأول وبعد أي تعديل.",
+     "en": "This applies before first commissioning and after a modification."
+    },
+    {
+     "de": "Außerdem gibt es wiederkehrende Prüfungen in bestimmten Zeitabständen.",
+     "ar": "وهناك أيضًا فحوص دورية على فترات محددة.",
+     "en": "There are also recurring inspections at set intervals."
+    },
+    {
+     "de": "Das Ziel ist, Mängel früh zu finden.",
+     "ar": "الهدف هو اكتشاف العيوب مبكرًا.",
+     "en": "The goal is to find defects early."
+    },
+    {
+     "de": "So sinkt das Risiko für Unfälle.",
+     "ar": "وبذلك ينخفض خطر الحوادث.",
+     "en": "This lowers the risk of accidents and fires."
+    },
+    {
+     "de": "Prüfungen sind kein Papierkram, sondern ein Teil der Unfallverhütung.",
+     "ar": "الفحوص ليست أوراقًا فقط، بل جزء من منع الحوادث.",
+     "en": "Inspections are not paperwork; they are part of accident prevention."
+    },
+    {
+     "de": "Sie gelten für Anlagen und für Betriebsmittel.",
+     "ar": "وهي تشمل المنشآت والمعدات.",
+     "en": "They apply to installations and to equipment."
+    },
+    {
+     "de": "Eine Elektrofachkraft führt sie durch, oder jemand unter ihrer Leitung.",
+     "ar": "وينفذها Elektrofachkraft أو شخص تحت إشرافها.",
+     "en": "A qualified electrician carries them out, or someone under their direction."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Prüffristen",
+    "heading": "Wie oft prüfen?",
+    "items": [
+     "Mängel müssen rechtzeitig auffallen",
+     "Der Arbeitgeber legt sie fest",
+     "Grundlage: Gefährdungsbeurteilung",
+     "Es gibt Richtwerte der Unfallversicherung"
+    ],
+    "terms": [
+     {
+      "de": "Prüffrist",
+      "ar": "مدة الفحص الدوري",
+      "en": "inspection interval"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie oft muss man prüfen?",
+     "ar": "كم مرة يجب الفحص؟",
+     "en": "How often must you inspect?"
+    },
+    {
+     "de": "Die Fristen müssen so gewählt sein, dass Mängel rechtzeitig auffallen.",
+     "ar": "يجب اختيار المدد بحيث تُكتشف العيوب في الوقت المناسب.",
+     "en": "The intervals must be chosen so that defects are found in time."
+    },
+    {
+     "de": "Der Arbeitgeber legt sie fest, und zwar in der Gefährdungsbeurteilung.",
+     "ar": "ويحددها صاحب العمل ضمن تقييم المخاطر.",
+     "en": "The employer sets them, based on the risk assessment."
+    },
+    {
+     "de": "Dabei zählen Betrieb, Nutzung und Umgebung.",
+     "ar": "وتؤخذ في الحسبان ظروف التشغيل والاستخدام والبيئة.",
+     "en": "Operation, use and environment all count."
+    },
+    {
+     "de": "Es gibt Richtwerte der Unfallversicherungsträger.",
+     "ar": "وهناك قيم إرشادية من جهات التأمين ضد الحوادث.",
+     "en": "There are guideline values from the accident insurance bodies."
+    },
+    {
+     "de": "Eine Werkstatt braucht daher andere Fristen als ein Büro.",
+     "ar": "لذلك قد تحتاج الورشة إلى مدد مختلفة عن المكتب.",
+     "en": "So a workshop may need different intervals than an office."
+    },
+    {
+     "de": "Das ist ein Beispiel für die Logik, keine feste Zahl.",
+     "ar": "هذا مثال على المنطق وليس رقمًا ثابتًا.",
+     "en": "That is an example of the logic, not a fixed number."
+    },
+    {
+     "de": "Ein stark belasteter Betrieb braucht oft kürzere Abstände.",
+     "ar": "المنشأة ذات الحمل الكبير تحتاج غالبًا إلى فترات أقصر.",
+     "en": "A heavily used site often needs shorter intervals."
+    },
+    {
+     "de": "Die genauen Zahlen müssen Sie in der aktuellen Fassung nachlesen.",
+     "ar": "أما الأرقام الدقيقة فعليكم مراجعتها في النسخة الحالية.",
+     "en": "You must look up the exact figures in the current version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "PSA",
+    "heading": "Persönliche Schutzausrüstung",
+    "items": [
+     "Schutzkleidung",
+     "Kopf- und Gesichtsschutz",
+     "Handschutz",
+     "Auswahl nach Gefährdung"
+    ],
+    "terms": [
+     {
+      "de": "PSA",
+      "ar": "معدات الوقاية الشخصية",
+      "en": "personal protective equipment"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Persönliche Schutzausrüstung nennt man kurz PSA.",
+     "ar": "معدات الوقاية الشخصية تُسمى اختصارًا بهذا الاسم.",
+     "en": "Personal protective equipment is called PSA for short.",
+     "tts": "Persönliche Schutzausrüstung nennt man kurz Pe-Es-A."
+    },
+    {
+     "de": "Sie schützt zum Beispiel vor einem Störlichtbogen.",
+     "ar": "وهي تحمي مثلًا من القوس الكهربائي العرضي.",
+     "en": "It protects, for example, against an arc fault."
+    },
+    {
+     "de": "Dazu gehören Schutzkleidung, Kopf- und Gesichtsschutz und Handschutz.",
+     "ar": "وتشمل ملابس واقية وحماية للرأس والوجه وحماية لليدين.",
+     "en": "This includes protective clothing, head and face protection, and hand protection."
+    },
+    {
+     "de": "Die richtige Auswahl hilft die DGUV Information 203-077.",
+     "ar": "ويساعد في الاختيار الصحيح منشور التأمين المذكور رقم مئتين وثلاثة.",
+     "en": "The DGUV Information 203-077 helps with choosing correctly.",
+     "tts": "Die richtige Auswahl hilft die De-Ge-U-Fau Information zweihundertdrei Strich null sieben sieben."
+    },
+    {
+     "de": "Prüfen Sie die Ausrüstung vor jedem Einsatz.",
+     "ar": "افحصوا المعدات قبل كل استخدام.",
+     "en": "Check the equipment before every use."
+    },
+    {
+     "de": "Beschädigte Teile gehören nicht in den Einsatz.",
+     "ar": "الأجزاء التالفة لا مكان لها في الاستخدام.",
+     "en": "Damaged parts do not belong in use."
+    },
+    {
+     "de": "Die Auswahl richtet sich nach der Gefährdung.",
+     "ar": "يعتمد الاختيار على الخطر القائم.",
+     "en": "The choice depends on the hazard."
+    },
+    {
+     "de": "PSA ersetzt aber nie die fünf Sicherheitsregeln.",
+     "ar": "لكن معدات الوقاية لا تغني أبدًا عن قواعد السلامة الخمس.",
+     "en": "But PSA never replaces the five safety rules.",
+     "tts": "Aber Pe-Es-A ersetzt nie die fünf Sicherheitsregeln."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Erste Hilfe",
+    "heading": "Stromunfall: erste Schritte",
+    "items": [
+     "Eigenschutz zuerst",
+     "Strom unterbrechen",
+     "Hochspannung: nur Fachkraft schaltet ab",
+     "Notruf 112: Stromunfall melden",
+     "Wiederbelebung und Defibrillator"
+    ],
+    "terms": [
+     {
+      "de": "Eigenschutz",
+      "ar": "حماية النفس أولًا",
+      "en": "self-protection"
+     },
+     {
+      "de": "Notruf",
+      "ar": "نداء الطوارئ",
+      "en": "emergency call"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was tun bei einem Stromunfall? Nur allgemein.",
+     "ar": "ماذا نفعل عند حادث كهربائي؟ بشكل عام فقط.",
+     "en": "What to do in an electric accident? Only in general terms."
+    },
+    {
+     "de": "Zuerst schützen Sie sich selbst.",
+     "ar": "أولًا احموا أنفسكم.",
+     "en": "First, protect yourself."
+    },
+    {
+     "de": "Dann unterbrechen Sie den Strom.",
+     "ar": "ثم اقطعوا التيار.",
+     "en": "Then cut the power."
+    },
+    {
+     "de": "Bei Niederspannung bis 1000 Volt schalten Sie ab oder ziehen den Stecker.",
+     "ar": "في الجهد المنخفض حتى ألف فولت اقطعوا التيار أو اسحبوا القابس.",
+     "en": "For low voltage up to 1000 volts, switch off or pull the plug.",
+     "tts": "Bei Niederspannung bis eintausend Volt schalten Sie ab oder ziehen den Stecker."
+    },
+    {
+     "de": "Bei Hochspannung darf nur eine autorisierte Elektrofachkraft abschalten.",
+     "ar": "في الجهد العالي لا يفصل التيار إلا Elektrofachkraft مخوّلة.",
+     "en": "With high voltage, only an authorised qualified electrician may switch off."
+    },
+    {
+     "de": "Rufen Sie die 112 an und sagen Sie zuerst: Stromunfall.",
+     "ar": "اتصلوا بالرقم مئة واثني عشر وقولوا أولًا: حادث كهربائي.",
+     "en": "Call 112 and say first: electric accident.",
+     "tts": "Rufen Sie die eins eins zwei an und sagen Sie zuerst: Stromunfall."
+    },
+    {
+     "de": "Bei Atem- oder Kreislaufstillstand beginnen Sie sofort mit der Wiederbelebung.",
+     "ar": "عند توقف التنفس أو الدورة الدموية ابدؤوا الإنعاش فورًا.",
+     "en": "If breathing or circulation stops, start resuscitation immediately."
+    },
+    {
+     "de": "Holen Sie, wenn möglich, einen Defibrillator.",
+     "ar": "وأحضروا جهاز الصدمات الكهربائية إن أمكن.",
+     "en": "Fetch a defibrillator if possible."
+    },
+    {
+     "de": "Bleiben Sie ruhig und handeln Sie nach einem festen Ablauf.",
+     "ar": "حافظوا على هدوئكم وتصرفوا وفق تسلسل ثابت.",
+     "en": "Stay calm and act according to a fixed sequence."
+    },
+    {
+     "de": "Erste-Hilfe-Kurse im Betrieb üben genau das.",
+     "ar": "دورات الإسعافات الأولية في الشركة تتدرب على ذلك بالضبط.",
+     "en": "First-aid courses at work practise exactly this."
+    },
+    {
+     "de": "Üben Sie diesen Ablauf in einem Erste-Hilfe-Kurs.",
+     "ar": "تدربوا على هذا التسلسل في دورة إسعاف أولي.",
+     "en": "Practise this sequence in a first-aid course."
+    },
+    {
+     "de": "Jede betroffene Person sollte ärztlich untersucht werden, denn Folgen können verzögert auftreten.",
+     "ar": "يجب أن يفحص طبيب كل مصاب، فالعواقب قد تظهر متأخرة.",
+     "en": "Everyone affected should see a doctor, because effects can appear later."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "BG ETEM",
+    "heading": "Die Berufsgenossenschaft",
+    "items": [
+     "Gesetzliche Unfallversicherung",
+     "Prävention: Beratung, Schulung",
+     "Besichtigung von Betrieben",
+     "Reha nach Arbeitsunfällen"
+    ],
+    "terms": [
+     {
+      "de": "Berufsgenossenschaft",
+      "ar": "هيئة التأمين ضد إصابات العمل",
+      "en": "statutory accident insurer"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die BG ETEM ist ein Träger der gesetzlichen Unfallversicherung.",
+     "ar": "هذه الهيئة جهة تأمين قانوني ضد حوادث العمل.",
+     "en": "The BG ETEM is a statutory accident insurance body.",
+     "tts": "Die Be-Ge E-Te-E-M ist ein Träger der gesetzlichen Unfallversicherung."
+    },
+    {
+     "de": "Sie ist unter anderem für Energie und elektrische Anlagen zuständig.",
+     "ar": "وهي مسؤولة ضمن أمور أخرى عن الطاقة والمنشآت الكهربائية.",
+     "en": "Among other things, it is responsible for energy and electrical installations."
+    },
+    {
+     "de": "Sie arbeitet an Prävention: mit Beratung, Schulungen und Betriebsbesichtigungen.",
+     "ar": "وتعمل في الوقاية عبر الاستشارة والتدريب وزيارات الشركات.",
+     "en": "It works on prevention through advice, training and company visits."
+    },
+    {
+     "de": "Als Ansprechpartner hilft sie auch bei Fragen zur Sicherheit.",
+     "ar": "وهي جهة اتصال تساعد أيضًا في أسئلة السلامة.",
+     "en": "As a contact point it also helps with safety questions."
+    },
+    {
+     "de": "Fragen zu Ihrem Betrieb klären Sie mit Ihrer Sicherheitsfachkraft.",
+     "ar": "أسئلة شركتكم تحلونها مع مسؤول السلامة لديكم.",
+     "en": "Questions about your company you clear with your safety officer."
+    },
+    {
+     "de": "Für Sie als Zuwanderer ist das ein wichtiger Ansprechpartner im System.",
+     "ar": "وبالنسبة لكم كوافدين هي جهة مهمة في هذا النظام.",
+     "en": "For you as a newcomer, it is an important contact in the system."
+    },
+    {
+     "de": "Nach einem Arbeitsunfall zahlt sie Behandlung und Rehabilitation.",
+     "ar": "وبعد حادث العمل تدفع تكاليف العلاج وإعادة التأهيل.",
+     "en": "After a work accident, it pays for treatment and rehabilitation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Dokumentation",
+    "heading": "Pläne und Kennzeichnung",
+    "items": [
+     "Aktuelle Schaltpläne bereithalten",
+     "Stromkreise eindeutig kennzeichnen",
+     "Sicherheitszeichen anbringen",
+     "Besondere Gefahren vorher benennen"
+    ],
+    "terms": [
+     {
+      "de": "Schaltplan",
+      "ar": "مخطط التوصيل",
+      "en": "circuit diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Gute Sicherheit beginnt mit guten Unterlagen.",
+     "ar": "السلامة الجيدة تبدأ بوثائق جيدة.",
+     "en": "Good safety starts with good documents."
+    },
+    {
+     "de": "Aktuelle Schaltpläne sollten vorhanden sein, oder die Stromkreise sind gekennzeichnet.",
+     "ar": "يجب توفر مخططات حديثة، أو تكون الدارات موسومة.",
+     "en": "Current circuit diagrams should be available, or the circuits are labelled."
+    },
+    {
+     "de": "Auch Sicherheitszeichen gehören dazu.",
+     "ar": "كما تدخل علامات السلامة في ذلك.",
+     "en": "Safety signs belong to it as well."
+    },
+    {
+     "de": "Vor Arbeitsbeginn weist man auf besondere Gefahren hin.",
+     "ar": "وقبل بدء العمل يُنبَّه إلى الأخطار الخاصة.",
+     "en": "Before work starts, special hazards are pointed out."
+    },
+    {
+     "de": "Hier hilft Ihre Arbeit als Ingenieur ganz direkt.",
+     "ar": "وهنا يفيد عملكم كمهندسين بشكل مباشر.",
+     "en": "Here your work as an engineer helps directly."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Sprache im Betrieb",
+    "heading": "Wichtige Sätze",
+    "items": [
+     "Ist die Anlage freigeschaltet?",
+     "Wurde die Spannungsfreiheit festgestellt?",
+     "Wer ist verantwortlich?",
+     "Ist die Arbeitsstelle freigegeben?"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss lernen wir vier nützliche Sätze.",
+     "ar": "في الختام نتعلم أربع جمل مفيدة.",
+     "en": "Finally, we learn four useful sentences."
+    },
+    {
+     "de": "Erstens: Ist die Anlage freigeschaltet?",
+     "ar": "أولًا: هل فُصلت المنشأة؟",
+     "en": "First: Is the installation isolated?"
+    },
+    {
+     "de": "Zweitens: Wurde die Spannungsfreiheit festgestellt?",
+     "ar": "ثانيًا: هل تم التحقق من انعدام الجهد؟",
+     "en": "Second: Has the absence of voltage been verified?"
+    },
+    {
+     "de": "Drittens: Wer ist verantwortlich?",
+     "ar": "ثالثًا: من المسؤول؟",
+     "en": "Third: Who is responsible?"
+    },
+    {
+     "de": "Viertens: Ist die Arbeitsstelle freigegeben?",
+     "ar": "رابعًا: هل اعتُمد موقع العمل؟",
+     "en": "Fourth: Has the workplace been released?"
+    },
+    {
+     "de": "Stellen Sie diese Fragen lieber einmal zu oft als einmal zu wenig.",
+     "ar": "اطرحوا هذه الأسئلة مرة زائدة أفضل من مرة ناقصة.",
+     "en": "Better ask these questions once too often than once too few."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Fünf Regeln, feste Reihenfolge",
+     "Prüfungen nach DGUV Vorschrift 3",
+     "Gefährdungsbeurteilung zuerst",
+     "PSA ersetzt keine Regel",
+     "Nur mit Ausbildung arbeiten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Es gibt fünf Sicherheitsregeln in fester Reihenfolge.",
+     "ar": "هناك خمس قواعد سلامة بترتيب ثابت.",
+     "en": "There are five safety rules in a fixed order."
+    },
+    {
+     "de": "Anlagen werden nach der DGUV Vorschrift 3 geprüft.",
+     "ar": "تُفحص المنشآت وفق اللائحة الثالثة.",
+     "en": "Installations are inspected under DGUV Regulation 3.",
+     "tts": "Anlagen werden nach der De-Ge-U-Fau Vorschrift drei geprüft."
+    },
+    {
+     "de": "Am Anfang steht die Gefährdungsbeurteilung.",
+     "ar": "في البداية يأتي تقييم المخاطر.",
+     "en": "The risk assessment comes first."
+    },
+    {
+     "de": "Und noch einmal: Dieses Video ist nur eine Orientierung.",
+     "ar": "ومرة أخرى: هذا الفيديو للتوجيه فقط.",
+     "en": "And once more: this video is orientation only."
+    },
+    {
+     "de": "Mit diesem Wissen verstehen Sie die Sprache der Sicherheit besser.",
+     "ar": "بهذه المعرفة ستفهمون لغة السلامة بشكل أفضل.",
+     "en": "With this knowledge you understand the language of safety better."
+    },
+    {
+     "de": "Echte Arbeit braucht Ausbildung, Unterweisung und die aktuellen Regeln.",
+     "ar": "العمل الحقيقي يتطلب تأهيلًا وتوجيهًا والقواعد الحالية.",
+     "en": "Real work needs training, instruction and the current rules."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "Freischalten",
+   "ar": "فصل الجهد",
+   "en": "isolating"
+  },
+  {
+   "de": "Spannungsfreiheit",
+   "ar": "انعدام الجهد",
+   "en": "absence of voltage"
+  },
+  {
+   "de": "Erden",
+   "ar": "التأريض",
+   "en": "earthing"
+  },
+  {
+   "de": "Kurzschließen",
+   "ar": "التقصير",
+   "en": "short-circuiting"
+  },
+  {
+   "de": "Abschranken",
+   "ar": "وضع حواجز",
+   "en": "fencing off"
+  },
+  {
+   "de": "Gefährdungsbeurteilung",
+   "ar": "تقييم المخاطر",
+   "en": "risk assessment"
+  },
+  {
+   "de": "Elektrofachkraft",
+   "ar": "فني كهرباء مؤهل",
+   "en": "qualified electrician"
+  },
+  {
+   "de": "Arbeiten unter Spannung",
+   "ar": "العمل تحت الجهد",
+   "en": "live working"
+  },
+  {
+   "de": "Betriebsmittel",
+   "ar": "معدات كهربائية",
+   "en": "electrical equipment"
+  },
+  {
+   "de": "Prüffrist",
+   "ar": "مدة الفحص الدوري",
+   "en": "inspection interval"
+  },
+  {
+   "de": "Persönliche Schutzausrüstung",
+   "ar": "معدات الوقاية الشخصية",
+   "en": "personal protective equipment"
+  },
+  {
+   "de": "Störlichtbogen",
+   "ar": "القوس الكهربائي العرضي",
+   "en": "arc fault"
+  },
+  {
+   "de": "Berufsgenossenschaft",
+   "ar": "هيئة التأمين ضد إصابات العمل",
+   "en": "statutory accident insurer"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Welche Regel kommt zuerst?",
+    "ar": "أي قاعدة تأتي أولًا؟",
+    "en": "Which rule comes first?"
+   },
+   "options": [
+    {
+     "de": "Freischalten",
+     "ar": "فصل الجهد",
+     "en": "Isolate"
+    },
+    {
+     "de": "Erden und Kurzschließen",
+     "ar": "التأريض والتقصير",
+     "en": "Earth and short-circuit"
+    },
+    {
+     "de": "Abdecken",
+     "ar": "التغطية",
+     "en": "Cover"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was gilt beim Wiedereinschalten?",
+    "ar": "ماذا يسري عند إعادة التشغيل؟",
+    "en": "What applies when re-energising?"
+   },
+   "options": [
+    {
+     "de": "Gleiche Reihenfolge",
+     "ar": "نفس الترتيب",
+     "en": "Same order"
+    },
+    {
+     "de": "Umgekehrte Reihenfolge",
+     "ar": "ترتيب معكوس",
+     "en": "Reverse order"
+    },
+    {
+     "de": "Keine Reihenfolge",
+     "ar": "لا ترتيب",
+     "en": "No order"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wer legt die Prüffristen fest?",
+    "ar": "من يحدد مدد الفحص؟",
+    "en": "Who sets the inspection intervals?"
+   },
+   "options": [
+    {
+     "de": "Der Arbeitgeber mit der Gefährdungsbeurteilung",
+     "ar": "صاحب العمل عبر تقييم المخاطر",
+     "en": "The employer, using the risk assessment"
+    },
+    {
+     "de": "Der Kunde",
+     "ar": "العميل",
+     "en": "The customer"
+    },
+    {
+     "de": "Niemand",
+     "ar": "لا أحد",
+     "en": "No one"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wann ist Arbeiten unter Spannung erlaubt?",
+    "ar": "متى يُسمح بالعمل تحت الجهد؟",
+    "en": "When is live working allowed?"
+   },
+   "options": [
+    {
+     "de": "Immer",
+     "ar": "دائمًا",
+     "en": "Always"
+    },
+    {
+     "de": "Nur in Ausnahmefällen mit Ausbildung",
+     "ar": "في حالات استثنائية فقط مع تأهيل",
+     "en": "Only in exceptional cases with training"
+    },
+    {
+     "de": "Nie",
+     "ar": "أبدًا",
+     "en": "Never"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welche Nummer rufen Sie bei einem Stromunfall an?",
+    "ar": "ما الرقم الذي تتصلون به عند حادث كهربائي؟",
+    "en": "Which number do you call after an electric accident?"
+   },
+   "options": [
+    {
+     "de": "112",
+     "ar": "مئة واثنا عشر",
+     "en": "112"
+    },
+    {
+     "de": "110",
+     "ar": "مئة وعشرة",
+     "en": "110"
+    },
+    {
+     "de": "Keine",
+     "ar": "لا شيء",
+     "en": "None"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "next": {
+  "de": "Weiter mit Folge 6: Schaltpläne und Zeichnungen.",
+  "ar": "نكمل في الحلقة السادسة: المخططات والرسومات.",
+  "en": "Next, episode 6: circuit diagrams and drawings."
+ },
+ "stand": "2026-10-20; prüfen: aktueller Wortlaut VDE 0105-100, Überarbeitung DGUV Vorschrift 3/4, Prüffristen-Richtwerte (nicht im Video genannt), DGUV Regel 103-011"
+}

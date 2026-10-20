@@ -1,0 +1,190 @@
+{
+ "video": "E-F05",
+ "facts": [
+  {
+   "claim": "Die fünf Sicherheitsregeln stehen in DIN VDE 0105-100 (Ausgabe 2015-10), Abschnitt 6.2.",
+   "source_url": "https://die-tuev-akademie.de/blog/die-fuenf-sicherheitsregeln-der-elektrotechnik-professionell-umsetzen",
+   "source_name": "TÜV Akademie / Aggregat mehrerer Suchtreffer",
+   "confidence": "medium",
+   "note": "Wortlaut der Norm selbst nicht abgerufen (Normtext nicht frei). Im Video nur paraphrasiert."
+  },
+  {
+   "claim": "Reihenfolge und Inhalt: 1 Freischalten; 2 Gegen Wiedereinschalten sichern; 3 Spannungsfreiheit feststellen; 4 Erden und Kurzschließen; 5 Benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung, Arbeitsblatt Sicherheitsregeln",
+   "confidence": "medium",
+   "note": "Von mehreren Quellen übereinstimmend genannt; Normwortlaut nicht direkt geprüft."
+  },
+  {
+   "claim": "Die Arbeitsstelle wird erst freigegeben, wenn alle fünf Regeln in der Reihenfolge 1 bis 5 durchgeführt sind; beim Wiedereinschalten gilt die umgekehrte Reihenfolge.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung",
+   "confidence": "medium",
+   "note": "Sekundärquelle (Lehrmaterial)."
+  },
+  {
+   "claim": "Freischalten umfasst z. B. das Ausschalten von Leitungsschutzschaltern bzw. Entfernen von Schmelzsicherungen; Verbotsschilder werden angebracht.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung",
+   "confidence": "medium",
+   "note": "Beispiele, nicht abschließend."
+  },
+  {
+   "claim": "Die Sicherheitsregeln gehören zu den Grundsätzen für Arbeiten an spannungsfrei gemachten Anlagen; BG-ETEM-Checklisten verweisen dafür auf DGUV Vorschrift 3 §3.",
+   "source_url": "https://medien.bgetem.de/medienportal/artikel/U1owMDE-/s108-arbeiten-an-elektrischen-anlagen-bf.pdf/@@download/file",
+   "source_name": "BG ETEM (über Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Seite nicht direkt abrufbar (Netzwerk); Inhalt über Suchtreffer."
+  },
+  {
+   "claim": "DGUV Vorschrift 3 §5: Der Unternehmer muss elektrische Anlagen und Betriebsmittel vor der ersten Inbetriebnahme und nach einer Änderung durch eine Elektrofachkraft oder unter deren Leitung prüfen lassen sowie in bestimmten Zeitabständen wiederholt prüfen lassen.",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/dguv/3/5.htm",
+   "source_name": "BGN Branchenwissen (Abdruck DGUV V3 §5)",
+   "confidence": "medium",
+   "note": "Paraphrase; Abdruck der Vorschrift auf BG-Seite."
+  },
+  {
+   "claim": "Die Fristen der wiederkehrenden Prüfung müssen so bemessen sein, dass entstehende Mängel rechtzeitig festgestellt werden.",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/dguv/3/5.htm",
+   "source_name": "BGN Branchenwissen (Abdruck DGUV V3 §5)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Der Arbeitgeber ermittelt die Prüffristen im Rahmen der Gefährdungsbeurteilung; Betriebs-, Nutzungs- und Umgebungsbedingungen sind entscheidend.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/44134",
+   "source_name": "KomNet NRW / BG BAU Beileger",
+   "confidence": "medium",
+   "note": "Konkrete Zahlenwerte nicht verifiziert (siehe dropped)."
+  },
+  {
+   "claim": "Die DGUV Informationen 203-071 und 203-072 behandeln wiederkehrende Prüfungen elektrischer Arbeitsmittel bzw. Anlagen und sind Hilfen für Prüfpersonen.",
+   "source_url": "https://publikationen.dguv.de/regelwerk/dguv-informationen/2879/wiederkehrende-pruefungen-elektrischer-anlagen-und-ortsfester-betriebsmittel-fachwissen-fuer-pruefper",
+   "source_name": "DGUV Publikationen (Suchtreffer)",
+   "confidence": "low",
+   "note": "Zuordnung 071/072 zu ortsfest/ortsveränderlich in Quellen widersprüchlich; im Skript nur allgemein als 'DGUV-Informationen zu wiederkehrenden Prüfungen'."
+  },
+  {
+   "claim": "Für die Prüfung gelten Richtwerte für Fristen; sie dürfen je nach Fehlerquote und Bedingungen angepasst werden.",
+   "source_url": "https://industrie-fachwissen.de/werkstatt/dguv-v3-pruefung-ortsveraenderliche-betriebsmittel-fristen-richtwerte-kosten",
+   "source_name": "Fachseite (Sekundärquelle)",
+   "confidence": "low",
+   "note": "Nur als Prinzip 'Richtwerte, an Gefährdungsbeurteilung gebunden' verwendet; Zahlen verworfen."
+  },
+  {
+   "claim": "Arbeiten an unter Spannung stehenden Teilen sind nur in Ausnahmefällen erlaubt (DGUV V3 §8): wenn eine Gefährdung ausgeschlossen ist oder der spannungsfreie Zustand aus zwingenden Gründen nicht herstellbar ist.",
+   "source_url": "https://www.tuev-nord.de/de/wissen/wissen-kompakt/arbeiten-unter-spannung/",
+   "source_name": "TÜV Nord",
+   "confidence": "medium",
+   "note": "Sekundärquelle, Originaltext §8 nicht abgerufen."
+  },
+  {
+   "claim": "Arbeiten unter Spannung dürfen nur namentlich benannte, besonders ausgebildete und berechtigte Beschäftigte durchführen, und nur mit freigegebenen Arbeitsverfahren.",
+   "source_url": "https://www.lvq.de/fileadmin/user_upload/A14_LVQ_AuS_2024.pdf",
+   "source_name": "LVQ (nach DGUV Regel 103-011)",
+   "confidence": "medium",
+   "note": "Dokument bezieht sich auf AuS bis 1 kV AC."
+  },
+  {
+   "claim": "Die Befähigung für AuS beruht auf Ausbildung, Erfahrung und zeitnaher Tätigkeit; der Arbeitgeber prüft sie regelmäßig.",
+   "source_url": "https://www.lvq.de/fileadmin/user_upload/A14_LVQ_AuS_2024.pdf",
+   "source_name": "LVQ (nach DGUV Regel 103-011)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "ArbSchG §5: Der Arbeitgeber beurteilt die mit der Arbeit verbundenen Gefährdungen, um erforderliche Schutzmaßnahmen zu ermitteln.",
+   "source_url": "https://lxgesetze.de/arbschg/5",
+   "source_name": "lxgesetze.de (Abdruck ArbSchG)",
+   "confidence": "medium",
+   "note": "Gesetzestext-Spiegel; Original gesetze-im-internet.de nicht abrufbar."
+  },
+  {
+   "claim": "BetrSichV §3: Vor der Verwendung von Arbeitsmitteln beurteilt der Arbeitgeber die Gefährdungen und leitet Schutzmaßnahmen ab; eine CE-Kennzeichnung ersetzt das nicht.",
+   "source_url": "https://www.anwalt24.de/gesetze/betrsichv-1/3",
+   "source_name": "anwalt24.de (Abdruck BetrSichV)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Strom durch den Körper gefährdet vor allem das Herz (Herzrhythmusstörungen, Herzkammerflimmern, Herz-Kreislauf-Stillstand); auch Atemstörungen sind möglich.",
+   "source_url": "https://cdn.vbg.de/media/a4d5f7149bda4e9798d7fe7c27afad8b/dld:attachment/stromunfall.pdf",
+   "source_name": "VBG Merkblatt Stromunfall",
+   "confidence": "medium",
+   "note": "Nur qualitativ."
+  },
+  {
+   "claim": "Die Schwere hängt ab von Stromstärke, Stromart, Körperwiderstand, Dauer und Stromweg durch den Körper.",
+   "source_url": "https://cdn.vbg.de/media/a4d5f7149bda4e9798d7fe7c27afad8b/dld:attachment/stromunfall.pdf",
+   "source_name": "VBG Merkblatt Stromunfall",
+   "confidence": "medium",
+   "note": "Faktor 'Wechselstrom gefährlicher als Gleichstrom' nicht verwendet."
+  },
+  {
+   "claim": "Verbrennungen entstehen an Ein- und Austrittsstellen und durch Störlichtbögen; Folgen können verzögert auftreten, daher soll jede Person nach einem Stromunfall ärztlich untersucht werden.",
+   "source_url": "https://cdn.vbg.de/media/a4d5f7149bda4e9798d7fe7c27afad8b/dld:attachment/stromunfall.pdf",
+   "source_name": "VBG Merkblatt Stromunfall",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Erste Hilfe: Selbstschutz zuerst; Stromkreis unterbrechen (Niederspannung bis 1000 V z. B. ausschalten, Stecker ziehen, Sicherung entfernen); bei Hochspannung nur eine autorisierte Elektrofachkraft schaltet ab.",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/asi/a3_10_0/9.htm",
+   "source_name": "BGN ASI 10.0, Kap. 9",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Bei Stillstand von Atmung/Kreislauf sofort Wiederbelebung beginnen und, wenn verfügbar, einen AED holen; der Notruf ist 112 und die Meldung 'Stromunfall' kommt zuerst.",
+   "source_url": "https://www.weka.de/elektrosicherheit/stromunfall-so-leisten-sie-erste-hilfe/",
+   "source_name": "WEKA / BGN",
+   "confidence": "medium",
+   "note": "Zahlenverhältnis der Wiederbelebung bewusst nicht genannt."
+  },
+  {
+   "claim": "Zur Auswahl persönlicher Schutzausrüstung gegen Störlichtbögen (Schutzkleidung, Kopf-/Gesichtsschutz, Handschutz) gibt es die DGUV Information 203-077.",
+   "source_url": "https://publikationen.dguv.de/regelwerk/dguv-informationen/786/thermische-gefaehrdung-durch-stoerlichtboegen",
+   "source_name": "DGUV Publikationen",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die BG ETEM ist ein gesetzlicher Unfallversicherungsträger (Körperschaft des öffentlichen Rechts); sie betreibt Prävention (Beratung, Besichtigungen, Schulungen) und zahlt Heilbehandlung und Rehabilitation nach Arbeitsunfällen.",
+   "source_url": "https://umwelt-online.de/recht/arbeitss/uvv/satzung/bg_etem_a.htm",
+   "source_name": "BG ETEM Satzung / Unternehmensbroschüre",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die BG ETEM ist u. a. für Energie- und Wasserwirtschaft sowie die Errichtung elektrischer Anlagen zuständig.",
+   "source_url": "https://medien.bgetem.de/medienportal/artikel/RDAxMQ--/@@download/download",
+   "source_name": "BG ETEM Broschüre",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die DGUV Vorschriften 3 und 4 werden laut Fachpresse überarbeitet; aktuelle Fassung vor Anwendung prüfen.",
+   "source_url": "https://www.weka.de/arbeitsschutz-gefahrstoffe/dguv-ueberarbeitet-vorgaben-zur-pruefung-elektrischer-anlagen/",
+   "source_name": "WEKA",
+   "confidence": "low",
+   "note": "Nur im 'stand'-Hinweis verwendet, nicht gesprochen."
+  },
+  {
+   "claim": "BG-ETEM-Checklisten nennen als Grundsätze (DGUV V3 §3): aktuelle Schaltpläne bzw. Kennzeichnung der Stromkreise, Sicherheitszeichen, Hinweis auf besondere Gefahren vor Arbeitsbeginn.",
+   "source_url": "https://medien.bgetem.de/medienportal/artikel/U1owMDE-/s108-arbeiten-an-elektrischen-anlagen-bf.pdf/@@download/file",
+   "source_name": "BG ETEM (über Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Sekundär zusammengefasst."
+  }
+ ],
+ "dropped": [
+  "Konkrete Prüffristen-Zahlen (z. B. 4 Jahre ortsfest, 6/12/24 Monate ortsveränderlich, 1 Monat bis 4 Jahre RCD): nur Sekundärquellen, Original (DGUV V3 Tabelle 1A/Durchführungsanweisung, DGUV I 203-071) nicht abrufbar.",
+  "Fehlerquote unter 2 % für Fristverlängerung: nur Sekundärquelle.",
+  "Lichtbogen-Schutzklassen 1/2 für Kleidung: nur Händlerseite.",
+  "Mindestabstand 1,5 m zur Bahn-Oberleitung: nur ADAC, nicht allgemeingültig.",
+  "Unfallstatistik BG ETEM (3.500-4.000 bzw. 4.796 Meldungen): Quellen widersprüchlich.",
+  "Verhältnis 30:2 bei Wiederbelebung: nur Nebenquelle, im Skript nicht genannt.",
+  "Wortlaut der VDE 0105-100 selbst (Normtext nicht frei zugänglich).",
+  "Wechselstrom sei 4-5 mal gefährlicher als Gleichstrom: widersprüchlich/Sekundärquelle."
+ ]
+}
