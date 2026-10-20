@@ -54,6 +54,26 @@
      "de": "Am Ende rechnen wir ein einfaches Beispiel zur Kompensation.",
      "ar": "وفي النهاية نحسب مثالًا بسيطًا عن التعويض.",
      "en": "At the end we calculate a simple compensation example."
+    },
+    {
+     "de": "Das Thema ist für die Praxis in Deutschland sehr wichtig.",
+     "ar": "الموضوع مهم جدًا للعمل العملي في ألمانيا.",
+     "en": "The topic is very important for practice in Germany."
+    },
+    {
+     "de": "Als Ingenieur sprechen Sie dort mit Netzbetreibern, Planern und Herstellern darüber.",
+     "ar": "كمهندس ستناقشون ذلك هناك مع مشغّلي الشبكات والمخطِّطين والمصنّعين.",
+     "en": "As an engineer you discuss it there with grid operators, planners and manufacturers."
+    },
+    {
+     "de": "Wir erklären dabei die wichtigen deutschen Fachwörter.",
+     "ar": "وسنشرح في أثناء ذلك المصطلحات الألمانية المهمة.",
+     "en": "We explain the important German technical terms along the way."
+    },
+    {
+     "de": "Am Ende gibt es ein Glossar und ein kurzes Quiz.",
+     "ar": "وفي النهاية يوجد مسرد واختبار قصير.",
+     "en": "At the end there is a glossary and a short quiz."
     }
    ]
   },
@@ -98,6 +118,21 @@
      "de": "Darum nennen wir hier bewusst keine Zahlenwerte aus Normen.",
      "ar": "لذلك لا نذكر هنا عمدًا أي قيم رقمية من المعايير.",
      "en": "So we deliberately give no numbers from standards here."
+    },
+    {
+     "de": "Rechnen Sie Beispiele immer mit den Werten Ihres Projekts neu.",
+     "ar": "أعيدوا دائمًا حساب الأمثلة بقيم مشروعكم أنتم.",
+     "en": "Always recalculate examples with the values of your own project."
+    },
+    {
+     "de": "Wichtige Entscheidungen treffen Sie nie allein nach einem Video.",
+     "ar": "لا تتخذوا قرارات مهمة اعتمادًا على فيديو وحده.",
+     "en": "Never base important decisions on a single video."
+    },
+    {
+     "de": "Fragen Sie im Zweifel eine Fachperson.",
+     "ar": "في حال الشك اسألوا شخصًا مختصًا.",
+     "en": "If in doubt, ask a specialist."
     }
    ]
   },
@@ -146,6 +181,21 @@
      "de": "Gute Netzqualität heißt: Geräte arbeiten zuverlässig und ohne Zusatzbelastung.",
      "ar": "جودة الشبكة الجيدة تعني أن الأجهزة تعمل بموثوقية ودون أحمال إضافية.",
      "en": "Good power quality means devices work reliably without extra stress."
+    },
+    {
+     "de": "Netzqualität betrifft die Spannung und den Strom gleichzeitig.",
+     "ar": "جودة الشبكة تخص الجهد والتيار معًا.",
+     "en": "Power quality concerns voltage and current at the same time."
+    },
+    {
+     "de": "Verbraucher beeinflussen das Netz, und das Netz beeinflusst die Verbraucher.",
+     "ar": "الأحمال تؤثر في الشبكة والشبكة تؤثر في الأحمال.",
+     "en": "Loads influence the grid, and the grid influences the loads."
+    },
+    {
+     "de": "Deshalb sprechen Ingenieure von Netzrückwirkungen.",
+     "ar": "لذلك يتحدث المهندسون عن التأثيرات الراجعة على الشبكة.",
+     "en": "That is why engineers speak of grid feedback effects."
     }
    ]
   },
@@ -186,6 +236,21 @@
      "de": "Viertens: Einbrüche und Unterbrechungen.",
      "ar": "رابعًا: الهبوط المفاجئ للجهد والانقطاعات.",
      "en": "Fourth: dips and interruptions."
+    },
+    {
+     "de": "Diese Merkmale kann man mit Messgeräten erfassen.",
+     "ar": "يمكن تسجيل هذه الخصائص بأجهزة القياس.",
+     "en": "These characteristics can be recorded with measuring devices."
+    },
+    {
+     "de": "Ein einzelner Messwert reicht dafür meist nicht.",
+     "ar": "وقيمة قياس واحدة لا تكفي عادةً لذلك.",
+     "en": "A single reading is usually not enough."
+    },
+    {
+     "de": "Man misst über längere Zeit und wertet die Ergebnisse aus.",
+     "ar": "بل تُجرى القياسات لفترة أطول وتُقيَّم النتائج.",
+     "en": "One measures over a longer time and evaluates the results."
     }
    ]
   },
@@ -239,6 +304,21 @@
      "de": "Die Ausgabe ändert sich. Prüfen Sie immer die aktuelle Fassung.",
      "ar": "الإصدار يتغير. تحققوا دائمًا من النسخة الحالية.",
      "en": "The edition changes. Always check the current version."
+    },
+    {
+     "de": "Dazu gehören Spannungshöhe, Frequenz, Flicker und Oberschwingungen.",
+     "ar": "ومن ذلك مقدار الجهد والتردد والوميض والتوافقيات.",
+     "en": "These include voltage level, frequency, flicker and harmonics."
+    },
+    {
+     "de": "Auch Einbrüche, Unterbrechungen und Überspannungen gehören dazu.",
+     "ar": "وكذلك الهبوط المفاجئ والانقطاعات والجهود الزائدة.",
+     "en": "Dips, interruptions and overvoltages are included too."
+    },
+    {
+     "de": "Für Einbrüche gibt es in der Fachliteratur eher Richtwerte.",
+     "ar": "بالنسبة للهبوط المفاجئ توجد في المراجع المتخصصة قيم إرشادية في الغالب.",
+     "en": "For dips the technical literature gives rather guide values."
     }
    ]
   },
@@ -286,6 +366,21 @@
      "de": "Das verändert die Spannungsqualität in den Netzen.",
      "ar": "وهذا يغيّر جودة الجهد في الشبكات.",
      "en": "This changes the voltage quality in the grids."
+    },
+    {
+     "de": "Wechselrichter von Erzeugungsanlagen arbeiten ebenfalls mit Leistungselektronik.",
+     "ar": "العاكسات في منشآت التوليد تعتمد هي الأخرى على إلكترونيات القدرة.",
+     "en": "Inverters of generation plants also use power electronics."
+    },
+    {
+     "de": "Planer müssen diese Wirkung auf das Netz von Anfang an mitdenken.",
+     "ar": "على المخططين أن يأخذوا هذا التأثير على الشبكة في الحسبان منذ البداية.",
+     "en": "Planners must consider this effect on the grid from the start."
+    },
+    {
+     "de": "Darum gehört Netzqualität heute zum Alltag in der Energietechnik.",
+     "ar": "لذلك صارت جودة الشبكة اليوم جزءًا من العمل اليومي في هندسة الطاقة.",
+     "en": "So power quality is part of everyday work in power engineering today."
     }
    ]
   },
@@ -349,6 +444,21 @@
      "de": "So wird auch die Spannung verzerrt.",
      "ar": "وهكذا يتشوّه الجهد أيضًا.",
      "en": "So the voltage becomes distorted too."
+    },
+    {
+     "de": "Man nennt solche Effekte auch Netzrückwirkungen.",
+     "ar": "تسمّى هذه التأثيرات أيضًا التأثيرات الراجعة على الشبكة.",
+     "en": "Such effects are also called grid feedback effects."
+    },
+    {
+     "de": "Oberschwingungen haben ein Vielfaches der Netzfrequenz.",
+     "ar": "للتوافقيات تردد يساوي مضاعفًا لتردد الشبكة.",
+     "en": "Harmonics have a multiple of the grid frequency."
+    },
+    {
+     "de": "Bei fünfzig Hertz sind das zum Beispiel hundertfünfzig oder zweihundertfünfzig Hertz.",
+     "ar": "عند خمسين هرتز مثلًا هذا يعني مئة وخمسين أو مئتين وخمسين هرتز.",
+     "en": "At fifty hertz that means, for example, one hundred fifty or two hundred fifty hertz."
     }
    ]
   },
@@ -406,6 +516,21 @@
      "de": "Der Neutralleiter kann dadurch stark belastet werden.",
      "ar": "ولذلك قد يتعرض لحمل كبير.",
      "en": "The neutral conductor can therefore be heavily loaded."
+    },
+    {
+     "de": "Wichtig: Oberschwingungen tragen nicht zur Wirkleistung bei.",
+     "ar": "مهم: التوافقيات لا تسهم في القدرة الفعّالة.",
+     "en": "Important: harmonics do not contribute to active power."
+    },
+    {
+     "de": "Sie belasten das Netz vor allem thermisch.",
+     "ar": "إنها تحمّل الشبكة في الأساس حراريًا.",
+     "en": "They mainly load the grid thermally."
+    },
+    {
+     "de": "Darum sollten Planer Kabel, Trafos und Kompensation passend auslegen.",
+     "ar": "لذلك على المخططين تصميم الكابلات والمحوّلات والتعويض بشكل مناسب.",
+     "en": "So planners should size cables, transformers and compensation suitably."
     }
    ]
   },
@@ -454,6 +579,21 @@
      "ar": "ويصف طرق القياس معيار IEC 61000-4-30 بين معايير أخرى.",
      "en": "Measurement methods are described, among others, in IEC 61000-4-30.",
      "tts": "Messverfahren beschreibt unter anderem die Norm I-E-Ze einundsechzigtausend-vier-dreißig."
+    },
+    {
+     "de": "Auch die Planung hilft, mit passenden Geräten und Betriebsmitteln.",
+     "ar": "كما يساعد التخطيط باختيار أجهزة ومعدات مناسبة.",
+     "en": "Planning helps too, with suitable devices and equipment."
+    },
+    {
+     "de": "Messungen zeigen, ob eine Maßnahme wirklich wirkt.",
+     "ar": "القياسات تبيّن ما إذا كان الإجراء فعّالًا حقًا.",
+     "en": "Measurements show whether a measure really works."
+    },
+    {
+     "de": "Jede Maßnahme sollten Sie mit dem Netzbetreiber und der Norm abgleichen.",
+     "ar": "ينبغي مطابقة كل إجراء مع مشغّل الشبكة والمعيار.",
+     "en": "Check every measure against the grid operator and the standard."
     }
    ]
   },
@@ -511,6 +651,21 @@
      "de": "Kenngrößen sind Pst für zehn Minuten und Plt für zwei Stunden.",
      "ar": "المقدارين المميّزين هما Pst لعشر دقائق وPlt لساعتين.",
      "en": "Key values are Pst for ten minutes and Plt for two hours."
+    },
+    {
+     "de": "Typische Verursacher sind Lasten mit stark schwankender Leistung.",
+     "ar": "المسبّبات المعتادة هي أحمال ذات قدرة شديدة التذبذب.",
+     "en": "Typical causes are loads with strongly fluctuating power."
+    },
+    {
+     "de": "Die Messnorm für das Flickermeter legt selbst keine Grenzwerte fest.",
+     "ar": "معيار القياس الخاص بجهاز الوميض لا يحدد بنفسه قيمًا حدّية.",
+     "en": "The measurement standard for the flicker meter sets no limit values itself."
+    },
+    {
+     "de": "Bewertungen und Grenzen kommen aus anderen Regelwerken.",
+     "ar": "التقييمات والحدود تأتي من أنظمة أخرى.",
+     "en": "Assessments and limits come from other rule sets."
     }
    ]
   },
@@ -564,6 +719,21 @@
      "de": "Umrichter oder Schütze können dann ausfallen oder abschalten.",
      "ar": "فقد تتعطل محوّلات التردد أو الملامسات أو تنفصل.",
      "en": "Converters or contactors may then fail or switch off."
+    },
+    {
+     "de": "Wie empfindlich ein Gerät ist, hängt vom Gerät ab.",
+     "ar": "درجة حساسية الجهاز تتوقف على الجهاز نفسه.",
+     "en": "How sensitive a device is depends on the device."
+    },
+    {
+     "de": "Bei kritischen Prozessen lohnt sich ein genauer Blick auf die Störfestigkeit.",
+     "ar": "في العمليات الحرجة يستحق الأمر النظر بدقة إلى مناعة الأجهزة.",
+     "en": "For critical processes a close look at immunity is worthwhile."
+    },
+    {
+     "de": "Ein Spannungseinbruch ist etwas anderes als eine Unterbrechung der Versorgung.",
+     "ar": "هبوط الجهد المفاجئ يختلف عن انقطاع التغذية.",
+     "en": "A voltage dip is different from a supply interruption."
     }
    ]
   },
@@ -605,6 +775,21 @@
      "de": "Beurteilt wird mit Messungen und einer Bezugsnorm.",
      "ar": "ويجري التقييم بالقياسات وبمعيار مرجعي.",
      "en": "Assessment uses measurements and a reference standard."
+    },
+    {
+     "de": "Wichtig ist der Zusammenhang zwischen Ursache und Wirkung.",
+     "ar": "المهم هو العلاقة بين السبب والنتيجة.",
+     "en": "The link between cause and effect is important."
+    },
+    {
+     "de": "Erst wenn Sie die Ursache kennen, finden Sie die passende Maßnahme.",
+     "ar": "عندما تعرفون السبب فقط تجدون الإجراء المناسب.",
+     "en": "Only when you know the cause do you find the right measure."
+    },
+    {
+     "de": "Dafür braucht man oft Messungen über längere Zeit.",
+     "ar": "لذلك تلزم غالبًا قياسات لفترة طويلة.",
+     "en": "That often requires measurements over a longer time."
     }
    ]
   },
@@ -616,7 +801,7 @@
     "items": [
      "Wirkleistung P: nutzbare Arbeit, Einheit Watt",
      "Blindleistung Q: keine Arbeit, Einheit var",
-     "Scheinleistung S: Belastung der Leitung, Einheit VA",
+     "Scheinleistung S: Belastung der Leitung, VA",
      "Induktive Last: Motoren nehmen Q auf"
     ],
     "terms": [
@@ -667,6 +852,26 @@
      "de": "Induktive Verbraucher wie Motoren nehmen Blindleistung auf.",
      "ar": "الأحمال الحثية مثل المحركات تسحب قدرة ردية.",
      "en": "Inductive loads such as motors draw reactive power."
+    },
+    {
+     "de": "Die Einheit der Wirkleistung ist Watt.",
+     "ar": "وحدة القدرة الفعّالة هي الواط.",
+     "en": "The unit of active power is the watt."
+    },
+    {
+     "de": "Die Einheit der Blindleistung ist var.",
+     "ar": "وحدة القدرة الردية هي الفار.",
+     "en": "The unit of reactive power is the var."
+    },
+    {
+     "de": "Die Einheit der Scheinleistung ist Voltampere.",
+     "ar": "وحدة القدرة الظاهرية هي الفولت أمبير.",
+     "en": "The unit of apparent power is the volt-ampere."
+    },
+    {
+     "de": "Leitungen und Transformatoren müssen die Scheinleistung tragen.",
+     "ar": "الخطوط والمحوّلات يجب أن تتحمل القدرة الظاهرية.",
+     "en": "Lines and transformers must carry the apparent power."
     }
    ]
   },
@@ -726,6 +931,21 @@
      "ar": "كلما اقترب cos φ من الواحد قلّ الجزء الردي.",
      "en": "The closer cos φ is to one, the less reactive share there is.",
      "tts": "Je näher Kosinus Phi an eins liegt, desto weniger Blindanteil gibt es."
+    },
+    {
+     "de": "Der Winkel phi ist der Phasenwinkel zwischen Spannung und Strom.",
+     "ar": "الزاوية فاي هي زاوية الطور بين الجهد والتيار.",
+     "en": "The angle phi is the phase angle between voltage and current."
+    },
+    {
+     "de": "Bei induktiver Last eilt der Strom der Spannung nach.",
+     "ar": "في الحِمل الحثي يتأخر التيار عن الجهد.",
+     "en": "With an inductive load the current lags the voltage."
+    },
+    {
+     "de": "Ein kleiner Winkel bedeutet wenig Blindleistung.",
+     "ar": "الزاوية الصغيرة تعني قدرة ردية قليلة.",
+     "en": "A small angle means little reactive power."
     }
    ]
   },
@@ -767,6 +987,21 @@
      "de": "Bei Umrichtern und Netzteilen sollten Sie deshalb genau hinsehen.",
      "ar": "لذلك يجب التدقيق جيدًا عند محوّلات التردد ومصادر التغذية.",
      "en": "So look closely at converters and power supplies."
+    },
+    {
+     "de": "Das ist wichtig für moderne Anlagen mit viel Leistungselektronik.",
+     "ar": "هذا مهم للمنشآت الحديثة ذات الكمّ الكبير من إلكترونيات القدرة.",
+     "en": "This matters for modern plants with a lot of power electronics."
+    },
+    {
+     "de": "Ein Wert allein sagt dort nicht die ganze Wahrheit.",
+     "ar": "قيمة واحدة لا تروي القصة كاملة هناك.",
+     "en": "A single value does not tell the whole story there."
+    },
+    {
+     "de": "Verzerrung erzeugt eigene Blindanteile, die Verzerrungsblindleistung.",
+     "ar": "التشوه يولّد أجزاءً ردية خاصة به تسمى القدرة الردية التشوهية.",
+     "en": "Distortion creates its own reactive parts, called distortion reactive power."
     }
    ]
   },
@@ -817,6 +1052,21 @@
      "ar": "وقيمة cos φ تساوي ٦٠ على ١٠٠ أي ٠٫٦.",
      "en": "The cos φ is 60 divided by 100, so 0.6.",
      "tts": "Der Kosinus Phi ist sechzig durch einhundert, also null Komma sechs."
+    },
+    {
+     "de": "Rechnen wir langsam und Schritt für Schritt.",
+     "ar": "لنحسب ببطء وخطوة بخطوة.",
+     "en": "Let us calculate slowly, step by step."
+    },
+    {
+     "de": "Merken Sie sich: Die Anlage nimmt viel Strom auf, obwohl die Wirkleistung kleiner ist.",
+     "ar": "تذكّروا: المنشأة تسحب تيارًا كبيرًا مع أن القدرة الفعّالة أصغر.",
+     "en": "Remember: the plant draws a lot of current although active power is smaller."
+    },
+    {
+     "de": "Der Blindanteil ist hier groß.",
+     "ar": "الجزء الردي هنا كبير.",
+     "en": "The reactive share is large here."
     }
    ]
   },
@@ -875,6 +1125,28 @@
      "de": "Der Strom sinkt damit auf etwa drei Viertel, bei gleicher Wirkleistung.",
      "ar": "وبذلك ينخفض التيار إلى نحو ثلاثة أرباعه مع بقاء القدرة الفعّالة نفسها.",
      "en": "The current thus falls to about three quarters, at the same active power."
+    },
+    {
+     "de": "Die Formel lautet: Kondensatorleistung gleich P mal Differenz der Tangenswerte.",
+     "ar": "الصيغة هي: قدرة المكثف تساوي P ضرب فرق قيمتي الظل.",
+     "en": "The formula is: capacitor power equals P times the difference of the tangent values."
+    },
+    {
+     "de": "Hier ist der Tangens vorher 80 durch 60, also etwa 1,33.",
+     "ar": "هنا الظل قبل التعويض ٨٠ على ٦٠ أي نحو ١٫٣٣.",
+     "en": "Here the tangent before is 80 divided by 60, so about 1.33.",
+     "tts": "Hier ist der Tangens vorher achtzig durch sechzig, also etwa eins Komma drei drei."
+    },
+    {
+     "de": "Das passt zur Rechnung mit der Differenz: 35 kvar.",
+     "ar": "وهذا يطابق الحساب بالفرق: ٣٥ كيلو فار.",
+     "en": "That matches the difference calculation: 35 kvar.",
+     "tts": "Das passt zur Rechnung mit der Differenz: fünfunddreißig Kilovar."
+    },
+    {
+     "de": "Auch diese Zahlen sind nur ein Lehrbeispiel.",
+     "ar": "هذه الأرقام أيضًا مثال تعليمي فقط.",
+     "en": "These numbers are also only a teaching example."
     }
    ]
   },
@@ -928,6 +1200,21 @@
      "de": "Dann nutzt man verdrosselte Anlagen mit Filterkreisdrosseln.",
      "ar": "عندئذ تُستخدم أنظمة مزوَّدة بملفات خنق.",
      "en": "Then detuned systems with filter reactors are used."
+    },
+    {
+     "de": "Der Kondensator wirkt als Quelle für kapazitive Blindleistung.",
+     "ar": "يعمل المكثف كمصدر للقدرة الردية السعوية.",
+     "en": "The capacitor acts as a source of capacitive reactive power."
+    },
+    {
+     "de": "Die benötigte Größe hängt von Wirkleistung und Zielwert ab.",
+     "ar": "الحجم المطلوب يتوقف على القدرة الفعّالة والقيمة المستهدفة.",
+     "en": "The required size depends on active power and target value."
+    },
+    {
+     "de": "Kondensatorbatterien sollten Sie regelmäßig kontrollieren.",
+     "ar": "ينبغي فحص بطاريات المكثفات بانتظام.",
+     "en": "You should check capacitor banks regularly."
     }
    ]
   },
@@ -975,6 +1262,21 @@
      "de": "Fragen Sie deshalb vor der Planung beim zuständigen Netzbetreiber nach.",
      "ar": "لذلك اسألوا المشغّل المختص قبل التخطيط.",
      "en": "So ask the responsible operator before planning."
+    },
+    {
+     "de": "Manche Verträge nennen einen erlaubten Bereich für den Verschiebungsfaktor.",
+     "ar": "بعض العقود تذكر نطاقًا مسموحًا لعامل الإزاحة.",
+     "en": "Some contracts name a permitted range for the displacement factor."
+    },
+    {
+     "de": "Liegt der Wert außerhalb, kann eine Kompensationsanlage verlangt werden.",
+     "ar": "إذا خرجت القيمة عن النطاق فقد يُطلب تركيب منظومة تعويض.",
+     "en": "If the value is outside, a compensation system can be required."
+    },
+    {
+     "de": "Konkrete Zahlen nennen wir hier nicht, denn sie ändern sich.",
+     "ar": "لا نذكر هنا أرقامًا محددة لأنها تتغير.",
+     "en": "We give no concrete numbers here, because they change."
     }
    ]
   },
@@ -1016,6 +1318,21 @@
      "de": "Kondensatoren können die Blindleistung vor Ort liefern.",
      "ar": "يمكن للمكثفات توفير القدرة الردية في الموقع.",
      "en": "Capacitors can supply reactive power on site."
+    },
+    {
+     "de": "Das Leistungsdreieck verbindet P, Q und S.",
+     "ar": "مثلث القدرة يربط بين P وQ وS.",
+     "en": "The power triangle connects P, Q and S."
+    },
+    {
+     "de": "Unser Rechenbeispiel zeigte: Mit Kompensation sinkt der Strom deutlich.",
+     "ar": "أظهر مثالنا الحسابي أن التيار ينخفض بوضوح مع التعويض.",
+     "en": "Our example showed: with compensation the current drops clearly."
+    },
+    {
+     "de": "Die Zahlen darin waren nur ein Lehrbeispiel.",
+     "ar": "الأرقام فيه كانت مثالًا تعليميًا فقط.",
+     "en": "The numbers in it were only a teaching example."
     },
     {
      "de": "Die Bezugsnorm ist DIN EN 50160, Grenzwerte stehen nur dort.",
@@ -1061,6 +1378,16 @@
      "de": "Es ist keine Rechtsberatung und keine Fachplanung.",
      "ar": "وهو ليس استشارة قانونية ولا تصميمًا هندسيًا.",
      "en": "It is not legal advice and not engineering design."
+    },
+    {
+     "de": "Bei Zweifeln wenden Sie sich an den Netzbetreiber oder eine Fachperson.",
+     "ar": "عند الشك راجعوا مشغّل الشبكة أو شخصًا مختصًا.",
+     "en": "In case of doubt, contact the grid operator or a specialist."
+    },
+    {
+     "de": "Mit diesem Wissen verstehen Sie Gespräche zur Netzqualität besser.",
+     "ar": "بهذه المعرفة ستفهمون الحوارات حول جودة الشبكة بشكل أفضل.",
+     "en": "With this knowledge you understand conversations about power quality better."
     },
     {
      "de": "Das nächste Video behandelt Niederspannungsinstallationen.",

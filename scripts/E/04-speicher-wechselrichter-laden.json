@@ -1224,11 +1224,6 @@
      "en": "Let us summarise the flow of a project."
     },
     {
-     "de": "Zuerst planen Sie Typ, Kopplung und Schutz.",
-     "ar": "أولًا تخططون النوع والربط والحماية.",
-     "en": "First you plan type, coupling and protection."
-    },
-    {
      "de": "Merken Sie sich dabei die Reihenfolge: Planen, anmelden, errichten, prüfen.",
      "ar": "تذكّروا الترتيب: تخطيط، تسجيل، تنفيذ، فحص.",
      "en": "Remember the order: plan, register, build, test."
@@ -1237,6 +1232,11 @@
      "de": "Jeder Schritt braucht eine klare Verantwortung.",
      "ar": "كل خطوة تحتاج إلى مسؤولية واضحة.",
      "en": "Every step needs clear responsibility."
+    },
+    {
+     "de": "Zuerst planen Sie Typ, Kopplung und Schutz.",
+     "ar": "أولًا تخططون النوع والربط والحماية.",
+     "en": "First you plan type, coupling and protection."
     },
     {
      "de": "Dann folgt die Anmeldung beim Netzbetreiber und im Register.",
@@ -1304,11 +1304,6 @@
      "en": "There are string, hybrid and central inverters."
     },
     {
-     "de": "Sie wissen jetzt, wie Speicher, Wechselrichter und Ladepunkte zusammenhängen.",
-     "ar": "أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والمحوّلات ونقاط الشحن.",
-     "en": "You now know how storage, inverters and charging points fit together."
-    },
-    {
      "de": "Speicher werden gleichstromgekoppelt oder wechselstromgekoppelt angeschlossen.",
      "ar": "تُوصَّل أجهزة التخزين عبر الربط المستمر أو الربط المتناوب.",
      "en": "Storage is connected DC-coupled or AC-coupled."
@@ -1333,6 +1328,16 @@
      "de": "Am Ladepunkt sind Gleichfehlerströme im Schutzkonzept zu beachten.",
      "ar": "عند نقطة الشحن يجب مراعاة تيارات العطل المستمرة في مفهوم الحماية.",
      "en": "At the charging point, DC residual currents must be considered in the protection concept."
+    },
+    {
+     "de": "Die Anschlussregeln und Normen müssen Sie dabei immer in der aktuellen Fassung prüfen.",
+     "ar": "يجب دائمًا التحقق من قواعد الربط والمعايير في نسختها الحالية.",
+     "en": "You must always check the connection rules and standards in their current version."
+    },
+    {
+     "de": "Sie wissen jetzt, wie Speicher, Wechselrichter und Ladepunkte zusammenhängen.",
+     "ar": "أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والمحوّلات ونقاط الشحن.",
+     "en": "You now know how storage, inverters and charging points fit together."
     }
    ]
   },
@@ -1370,11 +1375,6 @@
      "en": "Always check the current version and the requirements of your grid operator."
     },
     {
-     "de": "Wer die Begriffe kennt, spricht auf Baustellen und im Büro sicherer.",
-     "ar": "من يعرف المصطلحات يتحدث بثقة أكبر في الموقع وفي المكتب.",
-     "en": "Anyone who knows the terms speaks more confidently on site and in the office."
-    },
-    {
      "de": "Dieses Video ist eine allgemeine Information.",
      "ar": "هذا الفيديو معلومات عامة.",
      "en": "This video is general information."
@@ -1383,6 +1383,11 @@
      "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
      "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
      "en": "It is not legal advice and not engineering advice."
+    },
+    {
+     "de": "Wer die Begriffe kennt, spricht auf Baustellen und im Büro sicherer.",
+     "ar": "من يعرف المصطلحات يتحدث بثقة أكبر في الموقع وفي المكتب.",
+     "en": "Anyone who knows the terms speaks more confidently on site and in the office."
     },
     {
      "de": "Im nächsten Video geht es um Netz- und Anlagenschutz.",
