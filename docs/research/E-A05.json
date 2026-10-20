@@ -1,0 +1,193 @@
+{
+ "video": "E-A05",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Überstrom ist der Oberbegriff für jeden Strom über der zulässigen Belastbarkeit; Überlast und Kurzschluss sind die zwei Hauptarten.",
+   "source_url": "https://viox.com/de/overcurrent-vs-short-circuit/",
+   "source_name": "VIOX (Fachblog)",
+   "confidence": "medium",
+   "note": "Sekundärquelle, Begriffsdefinition allgemein anerkannt."
+  },
+  {
+   "claim": "Ein Kurzschluss ist eine fehlerhafte leitende Verbindung zwischen spannungsführenden Leitern ohne Nutzwiderstand im Fehlerstromkreis; der Strom ist in der Regel deutlich größer als bei Überlast.",
+   "source_url": "https://alleantworten.de/wie-entsteht-ein-kurzschluss",
+   "source_name": "alleantworten.de / Suchzusammenfassung",
+   "confidence": "medium",
+   "note": "Nur qualitativ verwendet."
+  },
+  {
+   "claim": "Der Fehlerpfad beim Kurzschluss ist niederohmig; es fließen sehr hohe, fast augenblicklich auftretende Ströme.",
+   "source_url": "https://viox.com/de/overcurrent-vs-short-circuit/",
+   "source_name": "VIOX",
+   "confidence": "medium",
+   "note": "Ohm-Ebene: Strom = Spannung durch Widerstand/Impedanz, keine Formel mit Zahlen."
+  },
+  {
+   "claim": "Überlastschutz reagiert üblicherweise zeitverzögert, Kurzschlussschutz sehr schnell.",
+   "source_url": "https://viox.com/de/overcurrent-vs-short-circuit/",
+   "source_name": "VIOX",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Der Leitungsschutzschalter hat einen thermischen Bimetall-Auslöser für Überlast (zeitabhängig) und einen elektromagnetischen Auslöser für Kurzschluss (nahezu unverzögert).",
+   "source_url": "https://library.e.abb.com/public/2fc486f9e6cc457093780fc11fa3336d/2CDC400002D0104_Rev-J_Ausloese-Charakteristiken_20200610_72dpi.pdf",
+   "source_name": "ABB, Auslösecharakteristiken",
+   "confidence": "medium",
+   "note": "Herstellerunterlage, Funktionsprinzip allgemein."
+  },
+  {
+   "claim": "Leitungsschutzschalter für Haushalt und ähnliche Anwendungen: DIN EN 60898-1 (VDE 0641-11); Charakteristiken B, C, D.",
+   "source_url": "https://library.e.abb.com/public/2fc486f9e6cc457093780fc11fa3336d/2CDC400002D0104_Rev-J_Ausloese-Charakteristiken_20200610_72dpi.pdf",
+   "source_name": "ABB, Auslösecharakteristiken",
+   "confidence": "medium",
+   "note": "Ausgabestand nicht geprüft; im Video nur Normname, keine Werte."
+  },
+  {
+   "claim": "Schmelzsicherungen der Betriebsklasse gG sind Ganzbereichssicherungen: Sie schalten vom kleinsten Schmelzstrom bis zum Ausschaltvermögen ab und schützen Leitungen; Norm DIN EN 60269-1 / VDE 0636.",
+   "source_url": "https://www.mersen.com/en/products?page=615",
+   "source_name": "Mersen (Hersteller)",
+   "confidence": "medium",
+   "note": "Im Video nur Prinzip, keine Normnummer."
+  },
+  {
+   "claim": "Ein Leistungsschalter kann Ströme unter normalen und anormalen Bedingungen (Kurzschluss) einschalten, führen und ausschalten.",
+   "source_url": "https://viox.com/de/load-break-switch-vs-circuit-breaker/",
+   "source_name": "VIOX",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Ein Lasttrenner schaltet nur Ströme unter normalen Betriebsbedingungen und bietet keinen ausreichenden Schutz bei Kurzschluss; sein Schaltvermögen ist geringer als das eines Leistungsschalters.",
+   "source_url": "https://viox.com/de/isolator-vs-disconnector-vs-switch-disconnector-vs-load-break-switch/",
+   "source_name": "VIOX",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Ein reiner Trenner dient der sicheren Freischaltung und wird normalerweise lastfrei betätigt; er soll eine sichtbare oder sichere Anzeige des geöffneten Zustands liefern.",
+   "source_url": "https://viox.com/de/isolator-vs-disconnector-vs-switch-disconnector-vs-load-break-switch/",
+   "source_name": "VIOX (Normbezug IEC 60947-3 dort genannt)",
+   "confidence": "medium",
+   "note": "Normnummer nicht im Video."
+  },
+  {
+   "claim": "Öffnet man einen Trenner unter Strom, kann ein Lichtbogen bestehen bleiben und überschlagen.",
+   "source_url": "https://fluke.com/de-ch/mehr-erfahren/blog/erneuerbare-energien/non-load-break-disconnect",
+   "source_name": "Fluke (PV-Kontext)",
+   "confidence": "medium",
+   "note": "Allgemein formuliert."
+  },
+  {
+   "claim": "Ein Schütz ist ein elektromagnetisch betätigter Schalter für Verbraucher mit hoher Leistung; es bietet für sich keinen Überlast- oder Kurzschlussschutz. Dafür dienen Überlastrelais bzw. Sicherungen oder Leitungsschutzschalter.",
+   "source_url": "https://viox.com/de/contactor-vs-motor-starter/",
+   "source_name": "VIOX; sanier.de",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Selektivität: Bei einem Fehler löst nur die Schutzeinrichtung unmittelbar vor der Fehlerstelle aus.",
+   "source_url": "https://new.abb.com/low-voltage/de/loesungen/selektivitaet",
+   "source_name": "ABB, Was ist Selektivität?",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Man unterscheidet totale Selektivität (für alle Überströme) und partielle Selektivität (nur bis zu einem Grenzstrom).",
+   "source_url": "https://new.abb.com/low-voltage/de/loesungen/selektivitaet",
+   "source_name": "ABB",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Strom- und Zeitselektivität: Stromselektivität nutzt unterschiedliche Ansprechwerte, Zeitselektivität staffelt Verzögerungen; der näher an der Last liegende Schalter reagiert schneller.",
+   "source_url": "https://www.tuvsud.com/de-de/indust-re/elektrotechnik-info/schutzanordnungen-und-staffelungen",
+   "source_name": "TÜV SÜD",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Zeitbedingung: Die minimale Nichtauslösezeit des vorgelagerten Geräts muss größer sein als die maximale Auslösezeit des nachgelagerten Geräts.",
+   "source_url": "https://new.abb.com/low-voltage/de/loesungen/selektivitaet/im-fokus/fehlerstromselektivitaet",
+   "source_name": "ABB",
+   "confidence": "medium",
+   "note": "Zeitwerte nicht im Video."
+  },
+  {
+   "claim": "Das Ausschaltvermögen eines Schutzgeräts muss höher sein als der zu erwartende Kurzschlussstrom am Einbauort; sonst ist ein vorgeschaltetes Gerät (Back-up) nötig.",
+   "source_url": "https://new.abb.com/low-voltage/de/produkte/installationsgeraete/fehlerstrom-schutzeinrichtungen/vorsicherung-ueberlast-und-back-up-schutz",
+   "source_name": "ABB; Eaton",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Für die Auslösung ist der kleinste Kurzschlussstrom am Leitungsende maßgeblich, besonders bei langen Kabeln oder hoher Quellimpedanz.",
+   "source_url": "https://content.voltimum.com/de/134211/201201098518201201098396.pdf",
+   "source_name": "Voltimum-Unterlage",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Schutzkette: Stromwandler liefert Messstrom an das Schutzrelais; das Relais schließt den Auslösekreis, der Leistungsschalter öffnet und trennt den fehlerhaften Abschnitt.",
+   "source_url": "https://www.tuvsud.com/de-de/indust-re/elektrotechnik-info/schutztechnik-in-mittel-und-niederspannungsanlagen",
+   "source_name": "TÜV SÜD; TE Connectivity",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Distanzschutz bestimmt über die Impedanz die Entfernung zum Fehlerort; Basis des Netzschutzes in Übertragungsnetzen und vermaschten Verteilnetzen.",
+   "source_url": "https://repositum.tuwien.at/handle/20.500.12708/158454?mode=full",
+   "source_name": "TU Wien (Repositum); Suchzusammenfassung",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Differentialschutz vergleicht die Ströme an den Enden des geschützten Abschnitts (Kirchhoffsche Knotenregel); er reagiert nur auf Fehler im Schutzbereich; Einsatz bei Maschinen, Transformatoren, Sammelschienen, Leitungen.",
+   "source_url": "https://www.hitachienergy.com/ch/de/products-and-solutions/substation-automation-protection-and-control/products/protection-and-control/line-differential-protection",
+   "source_name": "Hitachi Energy; Ziegler (Lehrbuch)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "In Netzen mit mehreren Einspeisungen verhindert eine Richtungsentscheidung unselektive Auslösungen; bei schwacher Einspeisung (z. B. Inselbetrieb) kann der Kurzschlussstrom unter den Anregewert fallen.",
+   "source_url": "https://www.tuvsud.com/de-de/indust-re/elektrotechnik-info/schutztechnik-in-mittel-und-niederspannungsanlagen",
+   "source_name": "TÜV SÜD",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Übertragungsnetzbetreiber betreiben ihr Netz mit Schutz- und Reserveschutzeinrichtungen, die die Ausweitung von Störungen automatisch verhindern (VO (EU) 2017/1485, Art. 36).",
+   "source_url": "https://gesetze.legal/eu/vo_eu_2017_1485/36",
+   "source_name": "gesetze.legal (EU-Verordnung)",
+   "confidence": "medium",
+   "note": "Wortlaut nicht auf EUR-Lex geprüft; im Video nur sinngemäß."
+  },
+  {
+   "claim": "Neben dem Hauptschutz wird meist ein Reserveschutz (Backup) vorgesehen; FNN-Leitfaden unterscheidet ortsfernen, örtlichen Reserveschutz und Schutzdopplung.",
+   "source_url": "https://www.next.bulletin.ch/sites/default/files/2025-07/2025_5_Evrenosoglu_Zukunftssichere_Netzschutzsysteme.pdf",
+   "source_name": "Electrosuisse Bulletin 5/2025; VDE-Verlag Inhaltsverzeichnis",
+   "confidence": "medium",
+   "note": "Varianten nur namentlich, nicht im Video."
+  },
+  {
+   "claim": "Sammelschienen werden häufig mit sehr schnellem Differentialschutz gesichert.",
+   "source_url": "https://www.tuvsud.com/de-de/indust-re/elektrotechnik-info/schutztechnik-in-mittel-und-niederspannungsanlagen",
+   "source_name": "Suchzusammenfassung (Leitfaden Netze)",
+   "confidence": "low",
+   "note": "Nur als 'häufig' formuliert; im Skript vorsichtig."
+  }
+ ],
+ "dropped": [
+  "Konkrete Staffelfaktoren (z. B. 1,6-fach Nennstromstaffelung), Auslösebereiche der B/C/D-Kennlinien (Vielfache des Nennstroms): Herstellerangaben, nicht normverifiziert, keine Zahlen im Video.",
+  "Aktueller Status/Ausgabe von DIN EN 60947-2 (VDE 0660-101): widersprüchliche Katalogeinträge; Norm im Skript nicht genannt.",
+  "Selektive Hauptleitungsschutzschalter (SLS) und DIN VDE 0641-21: nur Händlerblog; gestrichen.",
+  "Inhalt von VDE-AR-N 4110 zu Netzschutz/Übergabeschutz: nur Netzbetreiber-Ergänzungen mit unterschiedlichen Ständen, kein Primärtext; nicht genannt.",
+  "Konkrete Staffelzeiten im Mittelspannungsnetz, UMZ/AMZ-Kennlinien: keine Primärquelle, gestrichen.",
+  "Schaltvermögen-Zahlen (kA, Icu/Ics/Icn-Werte), Strombereiche von Schützen: Herstellerangaben, ohne Zahlen/Begriffe weggelassen.",
+  "Normnummern DIN EN 62271-102, IEC 60947-3, IEC 60947-4-1, DIN EN 60909: in Suche nicht verifiziert; nicht im Video.",
+  "Formel zur Kurzschlussstromberechnung nach DIN EN 60909 (Spannungsfaktor c): nicht belegt; nur qualitatives Ohm-Prinzip.",
+  "Schutzwandlerklassen (TPS, TPX, TPY, TPZ): nicht für ein Grundlagenvideo nötig.",
+  "Hersteller- oder Produktaussagen (Relaistypen, Schaltgeräte-Serien): bewusst ausgeschlossen."
+ ]
+}

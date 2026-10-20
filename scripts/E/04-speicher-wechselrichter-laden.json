@@ -1,0 +1,1524 @@
+{
+ "id": "E-A04",
+ "title": {
+  "de": "Speicher, Wechselrichter und Ladeinfrastruktur: Anschluss und Schutz",
+  "ar": "التخزين والمحولات الشمسية والمركبات الكهربائية: الربط والحماية",
+  "en": "Storage, inverters and charging infrastructure: connection and protection"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-A04 · Energie und Netze",
+    "heading": "Speicher, Wechselrichter, Laden",
+    "items": [
+     "Anschluss und Schutz",
+     "Konzepte im Überblick"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum vierten Video über Energie und Netze.",
+     "ar": "مرحبًا بكم في الفيديو الرابع عن الطاقة والشبكات.",
+     "en": "Welcome to the fourth video on energy and grids.",
+     "tts": "Willkommen zum vierten Video über Energie und Netze."
+    },
+    {
+     "de": "Heute geht es um Batteriespeicher, Wechselrichter und Ladestationen.",
+     "ar": "موضوعنا اليوم هو بطاريات التخزين والمحولات الشمسية ومحطات الشحن.",
+     "en": "Today we look at battery storage, inverters and charging stations."
+    },
+    {
+     "de": "Wir arbeiten mit klaren Begriffen und einfachen Bildern.",
+     "ar": "سنعمل بمصطلحات واضحة وصور بسيطة.",
+     "en": "We work with clear terms and simple pictures."
+    },
+    {
+     "de": "Sie lernen, wie diese Geräte ans Netz kommen.",
+     "ar": "ستتعرفون على كيفية ربط هذه الأجهزة بالشبكة.",
+     "en": "You learn how these devices are connected to the grid."
+    },
+    {
+     "de": "Und Sie lernen, wie sie geschützt werden.",
+     "ar": "وكيف تتم حمايتها.",
+     "en": "And you learn how they are protected."
+    },
+    {
+     "de": "Das Video richtet sich an Ingenieure, die in Deutschland arbeiten möchten.",
+     "ar": "الفيديو موجّه إلى المهندسين الذين يرغبون بالعمل في ألمانيا.",
+     "en": "The video is for engineers who want to work in Germany."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur ein Überblick",
+    "items": [
+     "Keine Planungs- oder Rechtsberatung"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video zeigt nur Konzepte.",
+     "ar": "هذا الفيديو يعرض المفاهيم فقط.",
+     "en": "This video shows concepts only."
+    },
+    {
+     "de": "Es gibt keine Grenzwerte und keine Rechenbeispiele.",
+     "ar": "لا توجد فيه قيم حدّية ولا أمثلة حسابية.",
+     "en": "There are no limit values and no calculation examples."
+    },
+    {
+     "de": "Planung, Prüfung und Haftung liegen immer bei den Verantwortlichen im Projekt.",
+     "ar": "التخطيط والفحص والمسؤولية القانونية تبقى دائمًا على المسؤولين في المشروع.",
+     "en": "Planning, inspection and liability always lie with those responsible in the project."
+    },
+    {
+     "de": "Die Arbeit am Netzanschluss macht eine Elektrofachkraft.",
+     "ar": "العمل على التوصيل بالشبكة يقوم به الكهربائي المؤهَّل (Elektrofachkraft).",
+     "en": "Work at the grid connection is done by a qualified electrician."
+    },
+    {
+     "de": "Die genauen Regeln stehen in den aktuellen Normen und in den Vorgaben des Netzbetreibers.",
+     "ar": "القواعد الدقيقة موجودة في المعايير الحالية وفي متطلبات مشغّل الشبكة.",
+     "en": "The exact rules are in the current standards and in the grid operator's requirements."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Überblick",
+    "heading": "Drei Geräte, ein Netz",
+    "items": [
+     "Batteriespeicher",
+     "Wechselrichter",
+     "Ladepunkt für Elektroautos",
+     "Schutz und Anmeldung"
+    ],
+    "terms": [
+     {
+      "de": "Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "grid operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Drei Gerätegruppen bestimmen heute viele Hausanschlüsse.",
+     "ar": "ثلاث مجموعات من الأجهزة تحدد اليوم كثيرًا من التوصيلات المنزلية.",
+     "en": "Three device groups shape many house connections today."
+    },
+    {
+     "de": "Der Batteriespeicher speichert Energie für später.",
+     "ar": "بطارية التخزين تحفظ الطاقة لوقت لاحق.",
+     "en": "The battery storage keeps energy for later."
+    },
+    {
+     "de": "Der Wechselrichter verbindet Gleichstrom und Wechselstrom.",
+     "ar": "المحوّل يربط التيار المستمر بالتيار المتناوب.",
+     "en": "The inverter links direct current and alternating current."
+    },
+    {
+     "de": "Der Ladepunkt versorgt das Elektroauto.",
+     "ar": "نقطة الشحن تزوّد السيارة الكهربائية بالطاقة.",
+     "en": "The charging point supplies the electric car."
+    },
+    {
+     "de": "Alle drei hängen am Netz des Netzbetreibers.",
+     "ar": "وكلها ترتبط بشبكة مشغّل الشبكة.",
+     "en": "All three are connected to the grid of the grid operator."
+    },
+    {
+     "de": "Ein Fehler an einer Stelle kann das ganze System betreffen.",
+     "ar": "خطأ في موضع واحد قد يؤثر في المنظومة كلها.",
+     "en": "A fault in one place can affect the whole system."
+    },
+    {
+     "de": "Darum gibt es Regeln für Anmeldung, Schutz und Betrieb.",
+     "ar": "لذلك توجد قواعد للتسجيل والحماية والتشغيل.",
+     "en": "That is why there are rules for registration, protection and operation."
+    },
+    {
+     "de": "Deshalb betrachten wir Technik und Regeln zusammen.",
+     "ar": "لذلك ننظر إلى التقنية والقواعد معًا.",
+     "en": "That is why we look at technology and rules together."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Wechselrichter",
+    "heading": "Typen im Vergleich",
+    "items": [
+     "String | Module einer Reihe, Standard",
+     "Hybrid | zusätzlich Batterie steuern",
+     "Zentral | große Anlagen, Freifläche",
+     "Batterie | eigener Umrichter für Speicher",
+     "Insel | Betrieb ohne öffentliches Netz"
+    ],
+    "terms": [
+     {
+      "de": "Wechselrichter",
+      "ar": "المحوّل (العاكس)",
+      "en": "inverter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit den Wechselrichter-Typen.",
+     "ar": "لنبدأ بأنواع المحوّلات.",
+     "en": "Let us start with the inverter types."
+    },
+    {
+     "de": "Der Stringwechselrichter wandelt den Gleichstrom ganzer Modulreihen um.",
+     "ar": "محوّل السلاسل يحوّل التيار المستمر لصفوف كاملة من الألواح.",
+     "en": "The string inverter converts the direct current of whole module strings."
+    },
+    {
+     "de": "Im Haus liegt meist Gleichstrom bei Modulen und Batterie vor.",
+     "ar": "في المنزل يوجد عادةً تيار مستمر عند الألواح والبطارية.",
+     "en": "In the house, direct current is usually found at the modules and the battery."
+    },
+    {
+     "de": "Er ist der klassische Standard ohne Speicher.",
+     "ar": "هو النوع التقليدي المعتاد بدون تخزين.",
+     "en": "It is the classic standard without storage."
+    },
+    {
+     "de": "Der Hybridwechselrichter steuert zusätzlich eine Batterie.",
+     "ar": "المحوّل الهجين يتحكم أيضًا ببطارية.",
+     "en": "The hybrid inverter also controls a battery."
+    },
+    {
+     "de": "Zentralwechselrichter findet man vor allem bei großen Freiflächen- und Gewerbeanlagen.",
+     "ar": "تُستخدم المحوّلات المركزية خصوصًا في المحطات الكبيرة والحقول المفتوحة والمنشآت التجارية.",
+     "en": "Central inverters are mainly found in large ground-mounted and commercial plants."
+    },
+    {
+     "de": "Ein Batteriewechselrichter gehört nur zum Speicher.",
+     "ar": "محوّل البطارية يخص الجهاز التخزيني فقط.",
+     "en": "A battery inverter belongs only to the storage unit."
+    },
+    {
+     "de": "Die Wahl hängt von Größe, Speicher und Betreiber ab.",
+     "ar": "يعتمد الاختيار على الحجم والتخزين والمشغّل.",
+     "en": "The choice depends on size, storage and operator."
+    },
+    {
+     "de": "Ein Inselwechselrichter arbeitet ohne öffentliches Netz.",
+     "ar": "محوّل الجزيرة يعمل دون شبكة عامة.",
+     "en": "An island inverter works without the public grid."
+    },
+    {
+     "de": "Das Typenschild und das Datenblatt zeigen, wofür das Gerät gebaut ist.",
+     "ar": "لوحة البيانات وورقة البيانات تبيّنان الغرض الذي صُنع الجهاز له.",
+     "en": "The rating plate and datasheet show what the device is built for."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Wechselrichter",
+    "heading": "Wer macht was?",
+    "items": [
+     "String: wandelt Modulstrom um",
+     "Hybrid: Module und Batterie in einem Gerät",
+     "Zentral: viele Reihen, große Leistung",
+     "Insel: eigenes Netz aufbauen"
+    ],
+    "terms": [
+     {
+      "de": "Hybridwechselrichter",
+      "ar": "المحوّل الهجين",
+      "en": "hybrid inverter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Merken Sie sich die Aufgaben mit einem Satz.",
+     "ar": "احفظوا المهام بجملة واحدة.",
+     "en": "Remember the tasks with one sentence."
+    },
+    {
+     "de": "Dazu hilft eine einfache Eselsbrücke für jede Aufgabe.",
+     "ar": "يساعد على ذلك تذكّر بسيط لكل مهمة.",
+     "en": "A simple memory aid helps with each task."
+    },
+    {
+     "de": "String macht Modulstrom nutzbar.",
+     "ar": "محوّل السلاسل يجعل تيار الألواح قابلًا للاستخدام.",
+     "en": "String makes module current usable."
+    },
+    {
+     "de": "Hybrid verbindet Module und Batterie in einem Gerät.",
+     "ar": "الهجين يجمع الألواح والبطارية في جهاز واحد.",
+     "en": "Hybrid combines modules and battery in one device."
+    },
+    {
+     "de": "Zentral bündelt viele Reihen in großer Leistung.",
+     "ar": "المركزي يجمع صفوفًا كثيرة بقدرة كبيرة.",
+     "en": "Central bundles many strings at high power."
+    },
+    {
+     "de": "Insel baut ein eigenes kleines Netz auf.",
+     "ar": "الجزيرة تُنشئ شبكة صغيرة خاصة بها.",
+     "en": "Island builds its own small grid."
+    },
+    {
+     "de": "Welcher Typ passt, hängt vom Projekt ab.",
+     "ar": "النوع المناسب يعتمد على المشروع.",
+     "en": "Which type fits depends on the project."
+    },
+    {
+     "de": "Im Zweifel fragen Sie den Hersteller oder die Elektrofachkraft.",
+     "ar": "وعند الشك اسألوا الشركة المصنّعة أو الكهربائي المؤهَّل (Elektrofachkraft).",
+     "en": "If in doubt, ask the manufacturer or the qualified electrician."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Speicher",
+    "heading": "Kopplung des Speichers",
+    "items": [
+     "Kopplung | Aussage",
+     "DC-gekoppelt | Hybridgerät, Strom einmal umgewandelt",
+     "AC-gekoppelt | eigener Batteriewechselrichter",
+     "Nachrüsten | AC-Kopplung bei Bestandsanlage",
+     "Planung | Herstellerdaten prüfen"
+    ],
+    "terms": [
+     {
+      "de": "DC-Kopplung",
+      "ar": "الربط عبر التيار المستمر",
+      "en": "DC coupling"
+     },
+     {
+      "de": "AC-Kopplung",
+      "ar": "الربط عبر التيار المتناوب",
+      "en": "AC coupling"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Speicher kann auf zwei Arten angeschlossen werden.",
+     "ar": "يمكن توصيل التخزين بطريقتين.",
+     "en": "A storage unit can be connected in two ways."
+    },
+    {
+     "de": "Beide Wege sind in der Praxis üblich.",
+     "ar": "كلا الطريقين شائع في الممارسة.",
+     "en": "Both ways are common in practice."
+    },
+    {
+     "de": "Bei der Gleichstrom-Kopplung hängt die Batterie am Hybridgerät.",
+     "ar": "في الربط عبر التيار المستمر تتصل البطارية بالجهاز الهجين.",
+     "en": "With DC coupling, the battery is connected to the hybrid device."
+    },
+    {
+     "de": "Der Solarstrom wird dann nur einmal umgewandelt.",
+     "ar": "عندها يُحوَّل التيار الشمسي مرة واحدة فقط.",
+     "en": "The solar power is then converted only once.",
+     "tts": "Der Solarstrom wird dann nur einmal umgewandelt."
+    },
+    {
+     "de": "Bei der Wechselstrom-Kopplung hat der Speicher einen eigenen Batteriewechselrichter.",
+     "ar": "في الربط عبر التيار المتناوب يملك المخزن محوّل بطارية خاصًا به.",
+     "en": "With AC coupling, the storage has its own battery inverter."
+    },
+    {
+     "de": "Das passt gut zur Nachrüstung einer bestehenden Anlage.",
+     "ar": "وهذا مناسب لإضافة التخزين إلى منظومة قائمة.",
+     "en": "This suits retrofitting an existing plant."
+    },
+    {
+     "de": "Welche Lösung besser ist, entscheiden Projekt und Herstellerdaten.",
+     "ar": "أي حل أفضل يحدده المشروع وبيانات الشركة المصنّعة.",
+     "en": "Which solution is better is decided by the project and manufacturer data."
+    },
+    {
+     "de": "Wichtig sind außerdem die Angaben im Datenblatt zum Betrieb und zum Schutz.",
+     "ar": "ومهمة أيضًا بيانات ورقة البيانات عن التشغيل والحماية.",
+     "en": "The datasheet details on operation and protection are also important."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzbetrieb",
+    "heading": "Der Wechselrichter braucht das Netz",
+    "items": [
+     "Orientiert sich an Netzspannung",
+     "Orientiert sich an Netzfrequenz",
+     "Bei Netzausfall: Abschaltung",
+     "Ziel: Sicherheit für Personen"
+    ],
+    "terms": [
+     {
+      "de": "netzgeführt",
+      "ar": "موجَّه بالشبكة",
+      "en": "grid-following"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein normaler Wechselrichter ist netzgeführt.",
+     "ar": "المحوّل العادي موجَّه بالشبكة.",
+     "en": "A normal inverter is grid-following."
+    },
+    {
+     "de": "Er orientiert sich an Spannung und Frequenz des Netzes.",
+     "ar": "يعتمد على جهد الشبكة وترددها كمرجع.",
+     "en": "It orients itself to the voltage and frequency of the grid."
+    },
+    {
+     "de": "Man nennt das auch netzparallelen Betrieb.",
+     "ar": "يسمى هذا أيضًا التشغيل المتوازي مع الشبكة.",
+     "en": "This is also called grid-parallel operation."
+    },
+    {
+     "de": "Ohne dieses Signal kann er nicht richtig arbeiten.",
+     "ar": "ودون هذه الإشارة لا يستطيع العمل بشكل صحيح.",
+     "en": "Without this signal it cannot work properly."
+    },
+    {
+     "de": "Fällt das Netz aus, schaltet er ab.",
+     "ar": "إذا انقطعت الشبكة فإنه ينفصل.",
+     "en": "If the grid fails, it switches off."
+    },
+    {
+     "de": "Das ist wichtig für die Sicherheit.",
+     "ar": "وهذا مهم للسلامة.",
+     "en": "This is important for safety."
+    },
+    {
+     "de": "Eine Leitung, die spannungsfrei sein soll, darf keine Spannung führen.",
+     "ar": "الخط الذي يُفترض أن يكون بلا جهد يجب ألا يحمل جهدًا.",
+     "en": "A line that should be de-energised must not carry voltage."
+    },
+    {
+     "de": "Ohne Netzsignal darf also keine Einspeisung weiterlaufen.",
+     "ar": "إذن لا يجوز أن تستمر التغذية دون إشارة الشبكة.",
+     "en": "So without a grid signal, no feed-in may continue."
+    },
+    {
+     "de": "Auch Monteure am Netz sind so besser geschützt.",
+     "ar": "وبذلك يكون العاملون على الشبكة أكثر أمانًا.",
+     "en": "Fitters working on the grid are also better protected this way."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutz",
+    "heading": "Der NA-Schutz",
+    "items": [
+     "Netz- und Anlagenschutz",
+     "Überwacht Spannung und Frequenz",
+     "Trennt bei Abweichung vom Netz",
+     "Gehört zur Anschlussregel für Erzeuger"
+    ],
+    "terms": [
+     {
+      "de": "NA-Schutz",
+      "ar": "حماية الشبكة والمنشأة",
+      "en": "grid and system protection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zum Netz- und Anlagenschutz, kurz NA-Schutz.",
+     "ar": "والآن إلى حماية الشبكة والمنشأة، ويُختصر بالألمانية إلى حماية الشبكة والمنشأة (NA-Schutz).",
+     "en": "Now to the grid and system protection, short NA-Schutz.",
+     "tts": "Jetzt zum Netz- und Anlagenschutz, kurz En-A-Schutz."
+    },
+    {
+     "de": "Er überwacht dauernd Spannung und Frequenz.",
+     "ar": "يراقب الجهد والتردد باستمرار.",
+     "en": "It constantly monitors voltage and frequency."
+    },
+    {
+     "de": "Er greift schnell ein, wenn etwas nicht stimmt.",
+     "ar": "يتدخل بسرعة عندما يكون هناك خلل.",
+     "en": "It intervenes quickly when something is wrong."
+    },
+    {
+     "de": "Weicht ein Wert zu stark ab, trennt er die Anlage vom Netz.",
+     "ar": "إذا انحرفت قيمة بشدة فإنه يفصل المنشأة عن الشبكة.",
+     "en": "If a value deviates too much, it disconnects the plant from the grid."
+    },
+    {
+     "de": "So schützt er das Netz und die eigene Anlage.",
+     "ar": "وبهذا يحمي الشبكة والمنشأة نفسها.",
+     "en": "So it protects the grid and the plant itself."
+    },
+    {
+     "de": "Die Anwendungsregel VDE-AR-N 4105 behandelt ihn für Erzeugungsanlagen am Niederspannungsnetz.",
+     "ar": "القاعدة التطبيقية VDE-AR-N 4105 تتناوله لمنشآت التوليد على شبكة الجهد المنخفض.",
+     "en": "The application rule VDE-AR-N 4105 covers it for generation plants on the low-voltage grid.",
+     "tts": "Die Anwendungsregel Fau-De-E-A-R-En vier-eins-null-fünf behandelt ihn für Erzeugungsanlagen am Niederspannungsnetz."
+    },
+    {
+     "de": "Grenzwerte und Zeiten finden Sie nur in der aktuellen Fassung.",
+     "ar": "القيم الحدّية والأزمنة تجدونها فقط في النسخة الحالية.",
+     "en": "Limit values and times are only in the current version."
+    },
+    {
+     "de": "Manche Netzbetreiber fragen dazu ein eigenes Zertifikat ab.",
+     "ar": "بعض مشغّلي الشبكة يطلبون لذلك شهادة خاصة.",
+     "en": "Some grid operators ask for a separate certificate for this."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "NA-Schutz",
+    "heading": "Zwei Bauformen",
+    "items": [
+     "Integriert: im Wechselrichter, mit Kuppelschalter",
+     "Zentral: eigenes Gerät an einer Stelle",
+     "Zertifikat: Nachweis für den Netzbetreiber",
+     "Beides: Datenblatt des Herstellers prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Kuppelschalter",
+      "ar": "مفتاح الربط",
+      "en": "coupling switch"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Den NA-Schutz gibt es in zwei Bauformen.",
+     "ar": "توجد حماية الشبكة والمنشأة (NA-Schutz) بشكلين.",
+     "en": "The NA-Schutz exists in two designs.",
+     "tts": "Den En-A-Schutz gibt es in zwei Bauformen."
+    },
+    {
+     "de": "Beim integrierten Schutz sitzt er im Wechselrichter.",
+     "ar": "في الشكل المدمج يوجد داخل المحوّل.",
+     "en": "With the integrated design, it sits inside the inverter."
+    },
+    {
+     "de": "Das spart Platz und Verdrahtung.",
+     "ar": "وهذا يوفر المساحة والتمديدات.",
+     "en": "This saves space and wiring."
+    },
+    {
+     "de": "Ein Kuppelschalter trennt dann die Anlage vom Netz.",
+     "ar": "ثم يقوم مفتاح الربط بفصل المنشأة عن الشبكة.",
+     "en": "A coupling switch then disconnects the plant from the grid."
+    },
+    {
+     "de": "Beim zentralen Schutz ist es ein eigenes Gerät.",
+     "ar": "في الشكل المركزي يكون جهازًا مستقلًا.",
+     "en": "With the central design, it is a separate device."
+    },
+    {
+     "de": "Hersteller lassen diese Funktionen zertifizieren.",
+     "ar": "تقوم الشركات المصنّعة باعتماد هذه الوظائف بشهادات.",
+     "en": "Manufacturers have these functions certified."
+    },
+    {
+     "de": "Das ist vor allem bei größeren Anlagen eine Möglichkeit.",
+     "ar": "وهذا خيار خصوصًا في المنشآت الكبيرة.",
+     "en": "This is an option mainly for larger plants."
+    },
+    {
+     "de": "Der Netzbetreiber fragt bei der Anmeldung oft nach dem Zertifikat.",
+     "ar": "ومشغّل الشبكة يطلب غالبًا الشهادة عند التسجيل.",
+     "en": "The grid operator often asks for the certificate at registration."
+    },
+    {
+     "de": "Dokumentieren Sie die gewählte Lösung im Schaltplan.",
+     "ar": "وثّقوا الحل المختار في مخطط الدارات.",
+     "en": "Document the chosen solution in the circuit diagram."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutz",
+    "heading": "Inselbildung verhindern",
+    "items": [
+     "Insel: Teilnetz speist sich selbst",
+     "Gefahr für Personen am Netz",
+     "Wechselrichter erkennt Netzausfall",
+     "Prüfung nach IEC 62116"
+    ],
+    "terms": [
+     {
+      "de": "Inselbildung",
+      "ar": "تكوّن الجزيرة الكهربائية",
+      "en": "islanding"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein wichtiger Begriff ist die Inselbildung, englisch Islanding.",
+     "ar": "مصطلح مهم هو تكوّن الجزيرة الكهربائية، وبالإنجليزية يسمى Islanding.",
+     "en": "An important term is islanding, in German Inselbildung."
+    },
+    {
+     "de": "Dabei versorgt eine Anlage ein abgetrenntes Teilnetz weiter.",
+     "ar": "فيها تستمر منشأة بتغذية جزء منفصل من الشبكة.",
+     "en": "Here a plant keeps supplying a separated part of the grid."
+    },
+    {
+     "de": "Die Netzfrequenz soll stabil bleiben.",
+     "ar": "ينبغي أن يبقى تردد الشبكة مستقرًا.",
+     "en": "The grid frequency should remain stable."
+    },
+    {
+     "de": "Das ist gefährlich für Personen, die am Netz arbeiten.",
+     "ar": "وهذا خطر على الأشخاص الذين يعملون على الشبكة.",
+     "en": "This is dangerous for people working on the grid."
+    },
+    {
+     "de": "Darum müssen Wechselrichter einen Netzausfall erkennen und abschalten.",
+     "ar": "لذلك يجب أن تكشف المحوّلات انقطاع الشبكة وتنفصل.",
+     "en": "So inverters must detect a grid failure and switch off."
+    },
+    {
+     "de": "Für diese Funktion gibt es ein Prüfverfahren in der Norm I-E-Ze sechs-zwei-eins-eins-sechs.",
+     "ar": "لهذه الوظيفة يوجد إجراء اختبار في المعيار IEC 62116.",
+     "en": "There is a test procedure for this function in the standard IEC 62116.",
+     "tts": "Für diese Funktion gibt es ein Prüfverfahren in der Norm I-E-Ze sechs-zwei-eins-eins-sechs."
+    },
+    {
+     "de": "Gewollter Inselbetrieb ist etwas anderes.",
+     "ar": "أما التشغيل المقصود كجزيرة فهو أمر مختلف.",
+     "en": "Intended island operation is something different."
+    },
+    {
+     "de": "Dafür braucht man ein passendes Inselsystem, meist mit Speicher.",
+     "ar": "وله يلزم نظام جزيرة مناسب، غالبًا مع تخزين.",
+     "en": "For that you need a suitable island system, usually with storage."
+    },
+    {
+     "de": "Bei Arbeiten am Netz gelten weiter die fünf Sicherheitsregeln.",
+     "ar": "وعند العمل على الشبكة تظل قواعد السلامة الخمس سارية.",
+     "en": "When working on the grid, the five safety rules still apply."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzdienlich",
+    "heading": "Der Wechselrichter hilft dem Netz",
+    "items": [
+     "Blindleistung bereitstellen",
+     "Leistung bei Überfrequenz senken",
+     "Fernsteuerung durch Netzbetreiber",
+     "Regeln nur in aktueller Fassung"
+    ],
+    "terms": [
+     {
+      "de": "Blindleistung",
+      "ar": "القدرة غير الفعالة",
+      "en": "reactive power"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Moderne Wechselrichter tun mehr als Strom einspeisen.",
+     "ar": "المحوّلات الحديثة تفعل أكثر من ضخ التيار.",
+     "en": "Modern inverters do more than feed in power."
+    },
+    {
+     "de": "Sie können Blindleistung bereitstellen und so die Spannung stützen.",
+     "ar": "يمكنها توفير القدرة غير الفعالة ودعم الجهد بذلك.",
+     "en": "They can provide reactive power and so support the voltage."
+    },
+    {
+     "de": "Das Netz nimmt viele kleine Erzeuger auf.",
+     "ar": "تستوعب الشبكة منتجين صغارًا كثيرين.",
+     "en": "The grid takes in many small generators."
+    },
+    {
+     "de": "Bei zu hoher Netzfrequenz müssen sie ihre Wirkleistung senken.",
+     "ar": "عند ارتفاع تردد الشبكة كثيرًا عليها خفض قدرتها الفعالة.",
+     "en": "When the grid frequency is too high, they must reduce their active power."
+    },
+    {
+     "de": "Netzbetreiber können Einspeisung unter Umständen begrenzen.",
+     "ar": "يمكن لمشغّلي الشبكة أحيانًا تحديد التغذية.",
+     "en": "Grid operators can in some cases limit feed-in."
+    },
+    {
+     "de": "Die Einstellungen sind in der Anschlussregel beschrieben.",
+     "ar": "الإعدادات موصوفة في قاعدة الربط.",
+     "en": "The settings are described in the connection rule."
+    },
+    {
+     "de": "Wir nennen hier bewusst keine Werte, weil sie sich ändern.",
+     "ar": "لا نذكر هنا قيمًا عمدًا لأنها تتغير.",
+     "en": "We deliberately give no values here, because they change."
+    },
+    {
+     "de": "Die Einstellung der Funktion ist Teil der Inbetriebnahme.",
+     "ar": "ضبط الوظيفة جزء من التشغيل الأولي.",
+     "en": "Setting the function is part of commissioning."
+    },
+    {
+     "de": "So bleibt die Spannung im Netz in einem guten Bereich.",
+     "ar": "وبهذا يبقى الجهد في الشبكة ضمن نطاق جيد.",
+     "en": "This keeps the voltage in the grid in a good range."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Regelwerk",
+    "heading": "Anschlussregeln im Überblick",
+    "items": [
+     "VDE-AR-N 4100 | Niederspannung allgemein",
+     "VDE-AR-N 4105 | Erzeuger und Speicher",
+     "FNN-Hinweis | Praxis für Speicher",
+     "Netzbetreiber | eigene Technische Anschlussbedingungen",
+     "Immer | aktuelle Fassung prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Technische Anschlussregel",
+      "ar": "قاعدة الربط الفنية",
+      "en": "technical connection rule"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Welche Regeln gelten für den Anschluss?",
+     "ar": "ما القواعد التي تسري على التوصيل؟",
+     "en": "Which rules apply to the connection?"
+    },
+    {
+     "de": "Die VDE-AR-N 4100 beschreibt den Anschluss ans Niederspannungsnetz allgemein.",
+     "ar": "القاعدة VDE-AR-N 4100 تصف الربط بشبكة الجهد المنخفض بشكل عام.",
+     "en": "The VDE-AR-N 4100 describes the connection to the low-voltage grid in general.",
+     "tts": "Die Fau-De-E-A-R-En vier-eins-null-null beschreibt den Anschluss ans Niederspannungsnetz allgemein."
+    },
+    {
+     "de": "Dazu kommen Zählerplatz, Messkonzept und weitere Unterlagen.",
+     "ar": "ويضاف إلى ذلك مكان العدّاد ومفهوم القياس ووثائق أخرى.",
+     "en": "Add to that the meter location, metering concept and further documents."
+    },
+    {
+     "de": "Die VDE-AR-N 4105 gilt für Erzeugungsanlagen und wird auch auf Speicher angewendet.",
+     "ar": "والقاعدة VDE-AR-N 4105 تخص منشآت التوليد وتُطبَّق أيضًا على أجهزة التخزين.",
+     "en": "The VDE-AR-N 4105 applies to generation plants and is also applied to storage.",
+     "tts": "Die Fau-De-E-A-R-En vier-eins-null-fünf gilt für Erzeugungsanlagen und wird auch auf Speicher angewendet."
+    },
+    {
+     "de": "Dazu gibt es einen Hinweis von VDE FNN für Speicher.",
+     "ar": "ويوجد إلى جانبها إرشاد من VDE FNN خاص بالتخزين.",
+     "en": "In addition there is a note from VDE FNN for storage.",
+     "tts": "Dazu gibt es einen Hinweis von Fau-De-E Ef-En-En für Speicher."
+    },
+    {
+     "de": "Außerdem hat jeder Netzbetreiber eigene technische Bedingungen.",
+     "ar": "كما أن لكل مشغّل شبكة شروطه الفنية الخاصة.",
+     "en": "In addition, every grid operator has its own technical conditions."
+    },
+    {
+     "de": "Die Fassungen ändern sich. Prüfen Sie immer den Stand.",
+     "ar": "النسخ تتغير. تحققوا دائمًا من الإصدار الحالي.",
+     "en": "The versions change. Always check the current status."
+    },
+    {
+     "de": "Die Regeln gelten für Planer, Errichter und Betreiber.",
+     "ar": "القواعد تسري على المخططين والمنفِّذين والمشغّلين.",
+     "en": "The rules apply to planners, installers and operators."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Anmeldung",
+    "heading": "Speicher anmelden",
+    "items": [
+     "Anmeldung beim Netzbetreiber",
+     "Formulare mit Zertifikaten",
+     "Eintrag im Marktstammdatenregister",
+     "Inbetriebsetzungsprotokoll"
+    ],
+    "terms": [
+     {
+      "de": "Marktstammdatenregister",
+      "ar": "سجل بيانات سوق الطاقة",
+      "en": "market master data register"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Speicher wird nicht einfach eingeschaltet.",
+     "ar": "لا يُشغَّل المخزن ببساطة هكذا.",
+     "en": "A storage unit is not simply switched on."
+    },
+    {
+     "de": "Zuerst melden Sie ihn beim Netzbetreiber an.",
+     "ar": "أولًا تسجّلونه لدى مشغّل الشبكة.",
+     "en": "First you register it with the grid operator."
+    },
+    {
+     "de": "Dazu gehören Formulare, Zertifikate und ein Schaltplan.",
+     "ar": "ويشمل ذلك نماذج وشهادات ومخطط الدارات.",
+     "en": "This includes forms, certificates and a circuit diagram."
+    },
+    {
+     "de": "Das Marktstammdatenregister führt die Bundesnetzagentur.",
+     "ar": "الوكالة الاتحادية للشبكات هي التي تدير سجل بيانات سوق الطاقة.",
+     "en": "The Federal Network Agency runs the market master data register."
+    },
+    {
+     "de": "Der Errichter füllt das Inbetriebsetzungsprotokoll aus.",
+     "ar": "يملأ المنفِّذ محضر التشغيل الأولي.",
+     "en": "The installer fills in the commissioning protocol."
+    },
+    {
+     "de": "Ortsfeste Speicher müssen außerdem im Marktstammdatenregister eingetragen werden.",
+     "ar": "ويجب أيضًا تسجيل أجهزة التخزين الثابتة في سجل بيانات سوق الطاقة.",
+     "en": "Stationary storage units must also be entered in the market master data register."
+    },
+    {
+     "de": "Das gilt auch, wenn die Solaranlage schon registriert ist.",
+     "ar": "وهذا ينطبق حتى لو كانت المنظومة الشمسية مسجّلة مسبقًا.",
+     "en": "This also applies if the solar plant is already registered."
+    },
+    {
+     "de": "Tragbare Akkus und Powerstations sind davon ausgenommen.",
+     "ar": "البطاريات المحمولة ومحطات الطاقة المتنقلة مستثناة من ذلك.",
+     "en": "Portable batteries and power stations are excluded."
+    },
+    {
+     "de": "Prüfen Sie Fristen und Pflichten immer auf den offiziellen Seiten.",
+     "ar": "تحققوا من المواعيد والواجبات دائمًا في الصفحات الرسمية.",
+     "en": "Always check deadlines and duties on the official pages."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Verantwortung",
+    "heading": "Wer darf was?",
+    "items": [
+     "Betreiber: meldet und bleibt verantwortlich",
+     "Elektrofachkraft: arbeitet an der Anlage",
+     "Eingetragener Betrieb: errichtet am Netzanschluss",
+     "Ingenieur: plant und prüft Unterlagen"
+    ],
+    "terms": [
+     {
+      "de": "Installateurverzeichnis",
+      "ar": "سجل المقاولين المعتمدين",
+      "en": "installer register"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Rollen sind klar verteilt.",
+     "ar": "الأدوار موزعة بوضوح.",
+     "en": "The roles are clearly distributed."
+    },
+    {
+     "de": "Das ist eine Frage der Sicherheit und der Haftung.",
+     "ar": "هذه مسألة سلامة ومسؤولية قانونية.",
+     "en": "This is a question of safety and liability."
+    },
+    {
+     "de": "Der Betreiber ist gegenüber dem Netzbetreiber verantwortlich.",
+     "ar": "المشغّل مسؤول أمام مشغّل الشبكة.",
+     "en": "The operator is responsible towards the grid operator."
+    },
+    {
+     "de": "Die Anlage hinter dem Netzanschluss wird nach der Niederspannungsanschlussverordnung errichtet.",
+     "ar": "تُنفَّذ المنشأة بعد نقطة التوصيل وفق لائحة التوصيل بالجهد المنخفض.",
+     "en": "The installation behind the grid connection is built under the low-voltage connection ordinance."
+    },
+    {
+     "de": "Netzbetreiber verlangen dafür einen Betrieb im Installateurverzeichnis.",
+     "ar": "يطلب مشغّلو الشبكة لذلك شركة مسجّلة في سجل المقاولين المعتمدين.",
+     "en": "Grid operators require a company in the installer register."
+    },
+    {
+     "de": "Dort arbeitet eine Elektrofachkraft.",
+     "ar": "وهناك يعمل الكهربائي المؤهَّل (Elektrofachkraft).",
+     "en": "A qualified electrician works there."
+    },
+    {
+     "de": "Der Errichter weist den Betreiber ein und übergibt die Dokumentation.",
+     "ar": "يقوم المنفِّذ بتوجيه المشغّل وتسليم الوثائق.",
+     "en": "The installer instructs the operator and hands over the documentation."
+    },
+    {
+     "de": "Als Ingenieur planen und prüfen Sie, ohne diese Rollen zu vermischen.",
+     "ar": "كمهندس تخططون وتراجعون دون خلط هذه الأدوار.",
+     "en": "As an engineer you plan and review, without mixing these roles."
+    },
+    {
+     "de": "Ihre Rolle ist es, die Schnittstellen sauber zu klären.",
+     "ar": "دوركم هو توضيح نقاط التماس بشكل سليم.",
+     "en": "Your role is to clarify the interfaces cleanly."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Wallbox",
+    "heading": "Anmeldung eines Ladepunkts",
+    "items": [
+     "Anmeldung | vor Inbetriebnahme beim Netzbetreiber",
+     "Rechtsgrundlage | NAV, Paragraf 19",
+     "Größere Leistung | Zustimmung des Netzbetreibers",
+     "Installation | durch eingetragenen Betrieb",
+     "Hinweis | Schwelle und Frist prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Ladepunkt",
+      "ar": "نقطة الشحن",
+      "en": "charging point"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Wallbox, also zum Ladepunkt.",
+     "ar": "والآن إلى صندوق الشحن، أي نقطة الشحن.",
+     "en": "Now to the wallbox, the charging point."
+    },
+    {
+     "de": "Jede Ladeeinrichtung muss vor der Inbetriebnahme beim Netzbetreiber angemeldet werden.",
+     "ar": "يجب تسجيل كل منشأة شحن لدى مشغّل الشبكة قبل تشغيلها.",
+     "en": "Every charging device must be registered with the grid operator before commissioning."
+    },
+    {
+     "de": "Die Anmeldung zeigt dem Netzbetreiber, was im Netz neu entsteht.",
+     "ar": "يبيّن التسجيل لمشغّل الشبكة ما الجديد الذي ينشأ في الشبكة.",
+     "en": "The registration shows the grid operator what is new in the grid."
+    },
+    {
+     "de": "Die Grundlage ist Paragraf 19 der Niederspannungsanschlussverordnung.",
+     "ar": "الأساس هو المادة التاسعة عشرة من لائحة التوصيل بالجهد المنخفض.",
+     "en": "The basis is section 19 of the low-voltage connection ordinance.",
+     "tts": "Die Grundlage ist Paragraf neunzehn der Niederspannungsanschlussverordnung."
+    },
+    {
+     "de": "Bei größerer Leistung braucht man zusätzlich die Zustimmung des Netzbetreibers.",
+     "ar": "عند القدرة الأكبر يلزم أيضًا موافقة مشغّل الشبكة.",
+     "en": "For higher power you also need the approval of the grid operator."
+    },
+    {
+     "de": "Die Bundesnetzagentur nennt dafür etwa elf Kilowatt, genauer über zwölf Kilovoltampere.",
+     "ar": "تذكر الوكالة الاتحادية للشبكات لذلك نحو أحد عشر كيلوواط، وبدقة أكثر ما فوق اثني عشر كيلوفولت أمبير.",
+     "en": "The Federal Network Agency gives about eleven kilowatts for this, more exactly above twelve kilovolt-amperes.",
+     "tts": "Die Bundesnetzagentur nennt dafür etwa elf Kilowatt, genauer über zwölf Kilovoltampere."
+    },
+    {
+     "de": "Prüfen Sie diese Schwelle immer im aktuellen Stand.",
+     "ar": "تحققوا دائمًا من هذا الحد في أحدث إصدار.",
+     "en": "Always check this threshold in the current version."
+    },
+    {
+     "de": "Die Installation selbst gehört in die Hand eines eingetragenen Betriebs.",
+     "ar": "أما التركيب نفسه فيجب أن يكون بيد شركة مسجّلة.",
+     "en": "The installation itself belongs in the hands of a registered company."
+    },
+    {
+     "de": "Viele Netzbetreiber bieten dafür ein Online-Portal an.",
+     "ar": "كثير من مشغّلي الشبكة يوفرون لذلك بوابة إلكترونية.",
+     "en": "Many grid operators offer an online portal for this."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Steuerbarkeit",
+    "heading": "Paragraf 14a und Netzbetreiber",
+    "items": [
+     "Ladepunkte, Wärmepumpen, Speicher",
+     "Netzbetreiber darf Bezug dimmen",
+     "Anschluss darf nicht verzögert werden",
+     "Regeln ändern sich öfter"
+    ],
+    "terms": [
+     {
+      "de": "steuerbare Verbrauchseinrichtung",
+      "ar": "مستهلك قابل للتحكم",
+      "en": "controllable consumer"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Energiewirtschaftsgesetz kennt steuerbare Verbrauchseinrichtungen.",
+     "ar": "قانون الطاقة يعرف المستهلكات القابلة للتحكم.",
+     "en": "The energy industry act knows controllable consumers.",
+     "tts": "Das Energiewirtschaftsgesetz kennt steuerbare Verbrauchseinrichtungen."
+    },
+    {
+     "de": "Dazu zählen unter anderem Wärmepumpen, private Ladepunkte und Stromspeicher.",
+     "ar": "ومنها مثلًا المضخات الحرارية ونقاط الشحن الخاصة وأجهزة تخزين الكهرباء.",
+     "en": "These include heat pumps, private charging points and electricity storage, among others."
+    },
+    {
+     "de": "Beide Seiten brauchen Planungssicherheit.",
+     "ar": "يحتاج الطرفان إلى أمان في التخطيط.",
+     "en": "Both sides need planning certainty."
+    },
+    {
+     "de": "Die Grundlage steht in Paragraf 14a des Energiewirtschaftsgesetzes.",
+     "ar": "الأساس موجود في المادة 14a من قانون الطاقة.",
+     "en": "The basis is in section 14a of the energy industry act.",
+     "tts": "Die Grundlage steht in Paragraf vierzehn a des Energiewirtschaftsgesetzes."
+    },
+    {
+     "de": "Seit einer Festlegung der Bundesnetzagentur von November 2023 gilt ein Tausch.",
+     "ar": "منذ قرار للوكالة الاتحادية للشبكات في نوفمبر ٢٠٢٣ يسري ما يشبه مقايضة.",
+     "en": "Since a ruling of the Federal Network Agency in November 2023, a trade-off applies.",
+     "tts": "Seit einer Festlegung der Bundesnetzagentur von November zweitausenddreiundzwanzig gilt ein Tausch."
+    },
+    {
+     "de": "Der Netzbetreiber darf den Anschluss neuer privater Wallboxen nicht mehr wegen Überlastung verzögern.",
+     "ar": "لا يجوز لمشغّل الشبكة بعد الآن تأخير توصيل صناديق الشحن الخاصة الجديدة بسبب الحمل الزائد.",
+     "en": "The grid operator may no longer delay the connection of new private wallboxes because of overload."
+    },
+    {
+     "de": "Dafür darf er den Strombezug bei Engpässen zeitweise dimmen.",
+     "ar": "وفي المقابل يجوز له خفض سحب التيار مؤقتًا عند الاختناقات.",
+     "en": "In return, he may temporarily throttle the power draw during bottlenecks."
+    },
+    {
+     "de": "Die Einzelheiten ändern sich oft. Prüfen Sie den aktuellen Stand.",
+     "ar": "التفاصيل تتغير كثيرًا. تحققوا من الوضع الحالي.",
+     "en": "The details change often. Check the current status."
+    },
+    {
+     "de": "Ein Energiemanagementsystem kann mehrere Geräte im Haus gemeinsam begrenzen.",
+     "ar": "يمكن لنظام إدارة الطاقة أن يحدّ عدة أجهزة في المنزل معًا.",
+     "en": "An energy management system can limit several devices in the house together."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Fehlerstromschutz",
+    "heading": "Schutz am Ladepunkt",
+    "items": [
+     "Eigene Fehlerstrom-Schutzeinrichtung je Ladepunkt",
+     "Gleichfehlerströme: besondere Maßnahme",
+     "Lösung: Typ B oder Typ A mit Erkennung",
+     "Norm DIN VDE 0100-722 und Herstellerangaben"
+    ],
+    "terms": [
+     {
+      "de": "Fehlerstrom-Schutzeinrichtung",
+      "ar": "جهاز الحماية من تيار العطل",
+      "en": "residual current device"
+     },
+     {
+      "de": "Gleichfehlerstrom",
+      "ar": "تيار عطل مستمر",
+      "en": "DC residual current"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zum Schutz am Ladepunkt.",
+     "ar": "والآن إلى الحماية عند نقطة الشحن.",
+     "en": "Now to protection at the charging point."
+    },
+    {
+     "de": "Jeder Ladepunkt braucht eine eigene Fehlerstrom-Schutzeinrichtung.",
+     "ar": "كل نقطة شحن تحتاج جهاز حماية من تيار العطل خاصًا بها.",
+     "en": "Every charging point needs its own residual current device."
+    },
+    {
+     "de": "Wir zeigen hier nur das Konzept.",
+     "ar": "نعرض هنا المفهوم فقط.",
+     "en": "We only show the concept here."
+    },
+    {
+     "de": "Sie wird kurz R-C-D genannt.",
+     "ar": "يُختصر اسمها إلى RCD.",
+     "en": "It is called RCD for short.",
+     "tts": "Sie wird kurz Er-Ze-De genannt."
+    },
+    {
+     "de": "Ladegeräte im Auto können glatte Gleichfehlerströme erzeugen.",
+     "ar": "قد تولّد أجهزة الشحن في السيارة تيارات عطل مستمرة ناعمة.",
+     "en": "Chargers in the car can create smooth DC residual currents."
+    },
+    {
+     "de": "Ein normaler Typ A erkennt diese Ströme nicht sicher.",
+     "ar": "جهاز النوع A العادي لا يكشف هذه التيارات بشكل موثوق.",
+     "en": "A normal Type A does not detect these currents reliably."
+    },
+    {
+     "de": "Deshalb nutzt man Typ B oder Typ A mit Gleichstrom-Erkennung.",
+     "ar": "لذلك يُستخدم النوع B أو النوع A مع كشف التيار المستمر.",
+     "en": "So you use Type B or Type A with DC detection."
+    },
+    {
+     "de": "Diese Erkennung kann im Ladegerät oder als Zusatzgerät sitzen.",
+     "ar": "قد يكون هذا الكشف داخل الشاحن أو في جهاز إضافي.",
+     "en": "This detection can be in the charger or in an add-on device."
+    },
+    {
+     "de": "Für Ladepunkte gibt es dafür auch den Begriff E-V-R-C-M.",
+     "ar": "وهناك لهذه الأجهزة أيضًا مصطلح EV-RCM.",
+     "en": "For charging points there is also the term EV-RCM for this.",
+     "tts": "Für Ladepunkte gibt es dafür auch den Begriff E-Fau-Er-Ze-Em."
+    },
+    {
+     "de": "Die genauen Anforderungen stehen in der Norm und im Datenblatt des Ladegeräts.",
+     "ar": "المتطلبات الدقيقة موجودة في المعيار وفي ورقة بيانات الشاحن.",
+     "en": "The exact requirements are in the standard and in the charger datasheet."
+    },
+    {
+     "de": "Nehmen Sie im Zweifel die Herstellerangaben und die Norm zur Hand.",
+     "ar": "في حال الشك ارجعوا إلى بيانات الشركة والمعيار.",
+     "en": "If in doubt, use the manufacturer information and the standard."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Projektablauf",
+    "heading": "Von der Idee zur Inbetriebnahme",
+    "items": [
+     "1 Planung | Typ, Kopplung, Schutz klären",
+     "2 Anmeldung | Netzbetreiber und Register",
+     "3 Errichtung | eingetragener Betrieb",
+     "4 Prüfung | Protokoll und Dokumentation",
+     "5 Betrieb | Einweisung und Übergabe"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir den Ablauf eines Projekts zusammen.",
+     "ar": "لنلخّص مسار المشروع.",
+     "en": "Let us summarise the flow of a project."
+    },
+    {
+     "de": "Zuerst planen Sie Typ, Kopplung und Schutz.",
+     "ar": "أولًا تخططون النوع والربط والحماية.",
+     "en": "First you plan type, coupling and protection."
+    },
+    {
+     "de": "Jeder Schritt braucht eine klare Verantwortung.",
+     "ar": "كل خطوة تحتاج إلى مسؤولية واضحة.",
+     "en": "Every step needs clear responsibility."
+    },
+    {
+     "de": "Dann folgt die Anmeldung beim Netzbetreiber und im Register.",
+     "ar": "ثم يأتي التسجيل لدى مشغّل الشبكة وفي السجل.",
+     "en": "Then comes registration with the grid operator and in the register."
+    },
+    {
+     "de": "Danach errichtet ein eingetragener Betrieb die Anlage.",
+     "ar": "بعد ذلك تُنفّذ شركة مسجّلة المنشأة.",
+     "en": "After that, a registered company builds the installation."
+    },
+    {
+     "de": "Es folgen Prüfung und Inbetriebsetzungsprotokoll.",
+     "ar": "يلي ذلك الفحص ومحضر التشغيل الأولي.",
+     "en": "Inspection and the commissioning protocol follow."
+    },
+    {
+     "de": "Zum Schluss weist der Errichter den Betreiber ein.",
+     "ar": "وفي النهاية يوجّه المنفِّذ المشغّل.",
+     "en": "Finally, the installer instructs the operator."
+    },
+    {
+     "de": "Heben Sie Datenblätter, Zertifikate und Schaltplan sorgfältig auf.",
+     "ar": "احتفظوا بأوراق البيانات والشهادات ومخطط الدارات بعناية.",
+     "en": "Keep datasheets, certificates and the circuit diagram carefully."
+    },
+    {
+     "de": "So vermeiden Sie Verzögerungen bei der Abnahme.",
+     "ar": "وبذلك تتجنبون التأخير عند الاستلام.",
+     "en": "This avoids delays at acceptance."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste",
+    "items": [
+     "Wechselrichter: String, Hybrid, Zentral",
+     "NA-Schutz trennt bei Netzfehler",
+     "Inselbildung wird verhindert",
+     "Ladepunkt anmelden, Gleichstrom beachten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir die wichtigsten Punkte zusammen.",
+     "ar": "لنلخّص أهم النقاط.",
+     "en": "Let us summarise the key points."
+    },
+    {
+     "de": "Es gibt String-, Hybrid- und Zentralwechselrichter.",
+     "ar": "توجد محوّلات سلاسل وهجينة ومركزية.",
+     "en": "There are string, hybrid and central inverters."
+    },
+    {
+     "de": "Merken Sie sich dabei die Reihenfolge: Planen, anmelden, errichten, prüfen.",
+     "ar": "تذكّروا الترتيب: تخطيط، تسجيل، تنفيذ، فحص.",
+     "en": "Remember the order: plan, register, build, test."
+    },
+    {
+     "de": "Speicher werden gleichstromgekoppelt oder wechselstromgekoppelt angeschlossen.",
+     "ar": "تُوصَّل أجهزة التخزين عبر الربط المستمر أو الربط المتناوب.",
+     "en": "Storage is connected DC-coupled or AC-coupled."
+    },
+    {
+     "de": "Der NA-Schutz trennt die Anlage bei Abweichungen vom Netz.",
+     "ar": "حماية الشبكة والمنشأة (NA-Schutz) تفصل المنشأة عند انحرافات الشبكة.",
+     "en": "The NA-Schutz disconnects the plant from the grid when deviations occur.",
+     "tts": "Der En-A-Schutz trennt die Anlage bei Abweichungen vom Netz."
+    },
+    {
+     "de": "Die Inselbildung muss verhindert werden.",
+     "ar": "يجب منع تكوّن الجزيرة الكهربائية.",
+     "en": "Islanding must be prevented."
+    },
+    {
+     "de": "Ladepunkte meldet man beim Netzbetreiber an.",
+     "ar": "تُسجَّل نقاط الشحن لدى مشغّل الشبكة.",
+     "en": "Charging points are registered with the grid operator."
+    },
+    {
+     "de": "Am Ladepunkt sind Gleichfehlerströme im Schutzkonzept zu beachten.",
+     "ar": "عند نقطة الشحن يجب مراعاة تيارات العطل المستمرة في مفهوم الحماية.",
+     "en": "At the charging point, DC residual currents must be considered in the protection concept."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Schlusshinweis",
+    "heading": "Prüfen Sie den aktuellen Stand",
+    "items": [
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ],
+    "terms": [
+     {
+      "de": "Normen",
+      "ar": "المعايير",
+      "en": "standards"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss noch einmal der wichtige Hinweis.",
+     "ar": "وفي الختام، التنبيه المهم مرة أخرى.",
+     "en": "Finally, the important note once more."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich.",
+     "ar": "القوانين والمعايير تتغير.",
+     "en": "Laws and standards change."
+    },
+    {
+     "de": "Sie wissen jetzt, wie Speicher, Wechselrichter und Ladepunkte zusammenhängen.",
+     "ar": "أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والمحوّلات ونقاط الشحن.",
+     "en": "You now know how storage, inverters and charging points fit together."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung und die Vorgaben Ihres Netzbetreibers.",
+     "ar": "تحققوا دائمًا من النسخة الحالية ومن متطلبات مشغّل الشبكة.",
+     "en": "Always check the current version and the requirements of your grid operator."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is not legal advice and not engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um Netz- und Anlagenschutz.",
+     "ar": "في الفيديو القادم سنتناول حماية الشبكة والمنشآت.",
+     "en": "The next video is about grid and system protection."
+    },
+    {
+     "de": "Danke fürs Zuschauen.",
+     "ar": "شكرًا على المتابعة.",
+     "en": "Thanks for watching."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "der Batteriespeicher",
+   "ar": "مخزن البطاريات",
+   "en": "battery storage"
+  },
+  {
+   "de": "der Wechselrichter",
+   "ar": "المحوّل (العاكس)",
+   "en": "inverter"
+  },
+  {
+   "de": "der Stringwechselrichter",
+   "ar": "محوّل السلاسل",
+   "en": "string inverter"
+  },
+  {
+   "de": "der Hybridwechselrichter",
+   "ar": "المحوّل الهجين",
+   "en": "hybrid inverter"
+  },
+  {
+   "de": "der Zentralwechselrichter",
+   "ar": "المحوّل المركزي",
+   "en": "central inverter"
+  },
+  {
+   "de": "die Kopplung",
+   "ar": "الربط (طريقة الربط)",
+   "en": "coupling"
+  },
+  {
+   "de": "der NA-Schutz",
+   "ar": "حماية الشبكة والمنشأة",
+   "en": "grid and system protection"
+  },
+  {
+   "de": "der Kuppelschalter",
+   "ar": "مفتاح الربط",
+   "en": "coupling switch"
+  },
+  {
+   "de": "die Inselbildung",
+   "ar": "تكوّن الجزيرة الكهربائية",
+   "en": "islanding"
+  },
+  {
+   "de": "die Blindleistung",
+   "ar": "القدرة غير الفعالة",
+   "en": "reactive power"
+  },
+  {
+   "de": "der Ladepunkt",
+   "ar": "نقطة الشحن",
+   "en": "charging point"
+  },
+  {
+   "de": "die Wallbox",
+   "ar": "صندوق الشحن (وحدة الشحن الجدارية)",
+   "en": "wallbox"
+  },
+  {
+   "de": "die Fehlerstrom-Schutzeinrichtung",
+   "ar": "جهاز الحماية من تيار العطل",
+   "en": "residual current device"
+  },
+  {
+   "de": "der Gleichfehlerstrom",
+   "ar": "تيار العطل المستمر",
+   "en": "DC residual current"
+  },
+  {
+   "de": "das Installateurverzeichnis",
+   "ar": "سجل المقاولين المعتمدين",
+   "en": "installer register"
+  },
+  {
+   "de": "das Marktstammdatenregister",
+   "ar": "سجل بيانات سوق الطاقة",
+   "en": "market master data register"
+  },
+  {
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "en": "qualified electrician"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was macht der NA-Schutz?",
+    "ar": "ماذا تفعل حماية الشبكة والمنشأة؟",
+    "en": "What does the NA-Schutz do?"
+   },
+   "options": [
+    {
+     "de": "Er lädt die Batterie",
+     "ar": "تشحن البطارية",
+     "en": "It charges the battery"
+    },
+    {
+     "de": "Er trennt die Anlage bei Netzabweichung",
+     "ar": "تفصل المنشأة عند انحراف الشبكة",
+     "en": "It disconnects the plant on grid deviation"
+    },
+    {
+     "de": "Er misst den Verbrauch",
+     "ar": "تقيس الاستهلاك",
+     "en": "It measures consumption"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welcher Wechselrichter steuert zusätzlich eine Batterie?",
+    "ar": "أي محوّل يتحكم أيضًا ببطارية؟",
+    "en": "Which inverter also controls a battery?"
+   },
+   "options": [
+    {
+     "de": "Hybridwechselrichter",
+     "ar": "المحوّل الهجين",
+     "en": "Hybrid inverter"
+    },
+    {
+     "de": "Stringwechselrichter ohne Speicher",
+     "ar": "محوّل سلاسل بدون تخزين",
+     "en": "String inverter without storage"
+    },
+    {
+     "de": "Zentralwechselrichter",
+     "ar": "محوّل مركزي",
+     "en": "Central inverter"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was bedeutet Inselbildung?",
+    "ar": "ماذا يعني تكوّن الجزيرة؟",
+    "en": "What does islanding mean?"
+   },
+   "options": [
+    {
+     "de": "Ein Kabel liegt im Wasser",
+     "ar": "كابل داخل الماء",
+     "en": "A cable lies in water"
+    },
+    {
+     "de": "Der Speicher ist leer",
+     "ar": "المخزن فارغ",
+     "en": "The storage is empty"
+    },
+    {
+     "de": "Eine Anlage speist ein abgetrenntes Teilnetz weiter",
+     "ar": "منشأة تواصل تغذية جزء منفصل من الشبكة",
+     "en": "A plant keeps feeding a separated part of the grid"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was gilt für eine Ladeeinrichtung vor der Inbetriebnahme?",
+    "ar": "ما الذي يسري على منشأة الشحن قبل التشغيل؟",
+    "en": "What applies to a charging device before commissioning?"
+   },
+   "options": [
+    {
+     "de": "Nichts, sie darf sofort laufen",
+     "ar": "لا شيء، يمكن تشغيلها فورًا",
+     "en": "Nothing, it may run at once"
+    },
+    {
+     "de": "Sie wird beim Netzbetreiber angemeldet",
+     "ar": "تُسجَّل لدى مشغّل الشبكة",
+     "en": "It is registered with the grid operator"
+    },
+    {
+     "de": "Sie wird nur im Auto angemeldet",
+     "ar": "تُسجَّل في السيارة فقط",
+     "en": "It is registered in the car only"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Warum sind Gleichfehlerströme am Ladepunkt wichtig?",
+    "ar": "لماذا تهم تيارات العطل المستمر عند نقطة الشحن؟",
+    "en": "Why do DC residual currents matter at the charging point?"
+   },
+   "options": [
+    {
+     "de": "Sie machen das Kabel schwerer",
+     "ar": "تجعل الكابل أثقل",
+     "en": "They make the cable heavier"
+    },
+    {
+     "de": "Sie ändern die Farbe des Steckers",
+     "ar": "تغيّر لون القابس",
+     "en": "They change the plug colour"
+    },
+    {
+     "de": "Ein normaler Typ A erkennt sie nicht sicher",
+     "ar": "النوع A العادي لا يكشفها بموثوقية",
+     "en": "A normal Type A does not detect them reliably"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "E-A05: Netz- und Anlagenschutz",
+  "ar": "E-A05: حماية الشبكة والمنشآت",
+  "en": "E-A05: Grid and system protection"
+ },
+ "stand": "2026-10-20; re-check: current edition of VDE-AR-N 4105/4100 and FNN storage hint, NAV section 19 and the BNetzA wallbox threshold, EnWG 14a rulings, DIN VDE 0100-722 RCD requirements, MaStR duties"
+}

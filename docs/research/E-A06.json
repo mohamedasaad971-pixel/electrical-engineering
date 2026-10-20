@@ -1,0 +1,184 @@
+{
+ "video": "E-A06",
+ "facts": [
+  {
+   "claim": "Die Norm DIN EN 50160 trägt den Titel 'Merkmale der Spannung in öffentlichen Elektrizitätsversorgungsnetzen'.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-50160/327353625",
+   "source_name": "DIN Media",
+   "confidence": "high",
+   "note": "Titel in mehreren Katalogeinträgen identisch."
+  },
+  {
+   "claim": "Laut DIN-Media-Eintrag war DIN EN 50160:2020-11 die gültige Ausgabe in der Suche; frühere Ausgaben (z. B. 2011-02) sind zurückgezogen.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-50160/327353625",
+   "source_name": "DIN Media (Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Ausgabestand im Video nicht genannt, nur 'aktuelle Ausgabe prüfen'."
+  },
+  {
+   "claim": "Ein deutscher Entwurf 'EN 50160:2022 + A1:2025' (VDE 0839-160:2026-04) war als Entwurf geführt; Einspruchsfrist bis 2026-05-06. Endgültiger Status nicht verifiziert.",
+   "source_url": "https://www.dinmedia.de/de/norm-entwurf/din-en-50160/399609869",
+   "source_name": "DIN Media / VDE Verlag (Entwurf)",
+   "confidence": "medium",
+   "note": "Nur als Hinweis 'Ausgabe kann sich ändern' verwendet."
+  },
+  {
+   "claim": "EN 50160 beschreibt die Merkmale der Spannung am Netzanschlusspunkt öffentlicher Netze: Spannungshöhe, Frequenz, Flicker, Spannungseinbrüche und Unterbrechungen, Überspannungen, Unsymmetrie, Oberschwingungen, Netzsignalspannungen.",
+   "source_url": "https://www.dinmedia.de/de/norm-entwurf/din-en-50160/399609869",
+   "source_name": "DIN Media / VDE Verlag (Entwurf, Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Nur Aufzählung der Merkmale, keine Zahlenwerte."
+  },
+  {
+   "claim": "EN 50160 gilt unter normalen Betriebsbedingungen für öffentliche Netze; Industrienetze sind ausgenommen.",
+   "source_url": "https://genorma.com/en/standards/en-50160-2022",
+   "source_name": "Genorma (englische Fassung, Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Einschränkung allgemein formuliert."
+  },
+  {
+   "claim": "Für Spannungseinbrüche und -unterbrechungen nennt die Spannungsqualitäts-Literatur Richt- bzw. Erwartungswerte, für Frequenz und Oberschwingungen feste Pegel.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800734764_PROBE_01.pdf",
+   "source_name": "VDE Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Keine Zahlen im Video."
+  },
+  {
+   "claim": "Oberschwingungen entstehen vor allem durch nichtlineare Verbraucher mit nichtsinusförmigem Strom, z. B. Frequenzumrichter, USV-Anlagen, Gleichrichter, Netzteile.",
+   "source_url": "https://www.baunetzwissen.de/glossar/o/oberschwingungen-3363369",
+   "source_name": "Baunetzwissen / Danfoss / Weidmüller",
+   "confidence": "medium",
+   "note": "Mehrere Herstellerquellen übereinstimmend."
+  },
+  {
+   "claim": "Oberschwingungsströme erzeugen an der Netzimpedanz Spannungsabfälle, die sich der Netzspannung überlagern; dadurch verzerrt sich die Spannung.",
+   "source_url": "https://www.computer-automation.de/stromversorgungen/netzqualitaet-sytematisch-ueberwacht.htm",
+   "source_name": "computer-automation.de",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Folgen von Oberschwingungen: Fehlfunktionen empfindlicher Steuerungen, zusätzliche Belastung von Kabeln, Transformatoren und Kompensationsanlagen, vorzeitige Ausfälle.",
+   "source_url": "https://www.computer-automation.de/stromversorgungen/netzqualitaet-sytematisch-ueberwacht.htm",
+   "source_name": "computer-automation.de",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Im Vierleitersystem addieren sich Oberschwingungen, die Vielfache von drei sind (3., 9., ...), im Neutralleiter statt sich aufzuheben; der Neutralleiter kann deshalb stark belastet werden.",
+   "source_url": "https://repositum.tuwien.at/handle/20.500.12708/181479",
+   "source_name": "TU Wien (Dissertation) / Schneider Electric FAQ",
+   "confidence": "medium",
+   "note": "Keine Prozentwerte verwendet."
+  },
+  {
+   "claim": "Gegenmaßnahme: Netzrückwirkungen möglichst an der Quelle verringern, z. B. durch Drosseln im Zwischenkreis von Frequenzumrichtern; Netzqualität wird durch Messung überwacht.",
+   "source_url": "https://www.danfoss.com/de-de/about-danfoss/our-businesses/drives/drives-expert-hub/emv-clean-grid/",
+   "source_name": "Danfoss (Hersteller)",
+   "confidence": "medium",
+   "note": "Hersteller-Quelle, nur allgemein formuliert."
+  },
+  {
+   "claim": "Flicker: Schwankende Leistungsaufnahme variabler Lasten verursacht Spannungsschwankungen, die als sichtbare Helligkeitsänderungen von Leuchten auftreten können.",
+   "source_url": "https://www.fluke.com/en-in/learn/blog/power-quality/voltage-fluctuations-flicker",
+   "source_name": "Fluke (Hersteller-Blog)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Ein Flickermeter nach IEC 61000-4-15 (in Deutschland DIN EN 61000-4-15, VDE 0847-4-15) bewertet Spannungsschwankungen nach menschlicher Wahrnehmung; Kenngrößen Pst (zehn Minuten) und Plt (zwei Stunden). Die Messnorm legt selbst keine Grenzwerte fest.",
+   "source_url": "https://www.atecorp.com/compliance-standards/iec/iec-61000-4-15",
+   "source_name": "ATEC / VDE Verlag Leseprobe",
+   "confidence": "medium",
+   "note": "Keine Grenzwerte im Video."
+  },
+  {
+   "claim": "Ursachen von Spannungseinbrüchen: Anlauf großer induktiver Lasten (Motoren) und Fehler im Netz wie Kurzschlüsse oder Erdschlüsse.",
+   "source_url": "https://fluke.com/de-de/mehr-erfahren/blog/netzqualitaet/ein-neuer-blick-auf-die-grundlagen-der-netzqualitaet",
+   "source_name": "Fluke / haustechnikdialog / FNN-Faktenpapier (Verweis)",
+   "confidence": "medium",
+   "note": "Definitionszahlen (Prozent, Dauer) nur aus Fachportal -> dropped."
+  },
+  {
+   "claim": "Empfindliche Geräte wie Frequenzumrichter, Schaltnetzteile und Schütze können auf Spannungseinbrüche mit Fehlfunktion oder Abschaltung reagieren; die Empfindlichkeit hängt vom Gerät ab.",
+   "source_url": "https://fluke.com/de-de/mehr-erfahren/blog/netzqualitaet/ein-neuer-blick-auf-die-grundlagen-der-netzqualitaet",
+   "source_name": "Fluke / computer-automation.de",
+   "confidence": "medium",
+   "note": "Keine Schwellenwerte im Video."
+  },
+  {
+   "claim": "Wirkleistung P und Blindleistung Q addieren sich geometrisch zur Scheinleistung S: S² = P² + Q²; der Leistungsfaktor bei sinusförmigen Größen ist cos φ = P/S.",
+   "source_url": "https://files.sma.de/downloads/BLINDLEISTUNG-ADE094210.pdf",
+   "source_name": "SMA Technische Information / auto-wirtschaft.ch / Uni Paderborn",
+   "confidence": "high",
+   "note": "Mehrere Lehrquellen übereinstimmend; Rechenbeispiel im Video mit erfundenen Zahlen."
+  },
+  {
+   "claim": "Induktive Verbraucher (z. B. Motoren) nehmen Blindleistung auf; der Strom eilt der Spannung nach. Blindleistung leistet keine nutzbare Arbeit, belastet aber Leitungen und Betriebsmittel mit Strom.",
+   "source_url": "https://files.sma.de/downloads/BLINDLEISTUNG-ADE094210.pdf",
+   "source_name": "SMA Technische Information",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Kompensation: Kondensatoren parallel zum induktiven Verbraucher liefern kapazitive Blindleistung; benötigte Kondensatorleistung Qc = P·(tan φ1 − tan φ2).",
+   "source_url": "https://content.voltimum.com/de/134330/200805301912.pdf",
+   "source_name": "Voltimum (Herstellerkatalog) / Uni Paderborn Aufgabe",
+   "confidence": "medium",
+   "note": "Formel in der Lehre Standard."
+  },
+  {
+   "claim": "Der Verschiebungsfaktor cos φ bezieht sich nur auf die Grundschwingung; der Leistungsfaktor λ erfasst zusätzlich Verzerrungen durch nichtsinusförmige Ströme. Nur bei sinusförmigen Größen sind beide gleich.",
+   "source_url": "https://a-eberle.de/en/?p=44704",
+   "source_name": "A. Eberle / VDE-Fachbuch-Inhaltsverzeichnis",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Kondensatoren allein können bei Oberschwingungen problematisch sein; deshalb gibt es verdrosselte Kompensationsanlagen mit Filterkreisdrosseln.",
+   "source_url": "https://content.voltimum.com/de/134330/200805301912.pdf",
+   "source_name": "Voltimum (Herstellerkatalog)",
+   "confidence": "medium",
+   "note": "Nur als Hinweis, keine Auslegung."
+  },
+  {
+   "claim": "Anforderungen an den Verschiebungsfaktor und Abrechnung von Blindarbeit unterscheiden sich je Netznutzungs-/Anschlussvertrag und Preisblatt des Netzbetreibers.",
+   "source_url": "https://swe-emmendingen.de/wp-content/uploads/2012/09/Netznutzungsvertrag_-NS_SWE-Stand_20130808.pdf",
+   "source_name": "Netzbetreiber-Verträge (SWE Emmendingen, Amprion, Stadtwerke Ratingen)",
+   "confidence": "medium",
+   "note": "Konkrete Schwellen (0,9 / 0,95 / 48 %) -> dropped."
+  },
+  {
+   "claim": "Die Messnorm IEC 61000-4-30 beschreibt Messverfahren für Spannungsqualitätsparameter in 50/60-Hz-Netzen; Klasse A legt Verfahren, Aggregation und Genauigkeit fest.",
+   "source_url": "https://fluke.com/de-de/mehr-erfahren/blog/netzqualitaet/was-bedeutet-die-norm-iec-61000-4-30-klasse-a-fuer-mich",
+   "source_name": "Fluke / DIN Media",
+   "confidence": "medium",
+   "note": "Aktuelle Ausgabe nicht verifiziert."
+  },
+  {
+   "claim": "Gerätenormen begrenzen Oberschwingungsströme: EN 61000-3-2 für Geräte bis 16 A je Leiter, EN 61000-3-12 für Geräte über 16 A bis 75 A an öffentlichen Niederspannungsnetzen.",
+   "source_url": "https://iteh.es/catalog/standards/sist/310ecba1-4e1b-4fce-abf1-b6f532445351/sist-en-iec-61000-3-2-2019",
+   "source_name": "iTeh / DIN Media / Rohde & Schwarz",
+   "confidence": "medium",
+   "note": "Ausgabestände nicht verifiziert; nur Gerätenormen als Begriff, ohne Strom-Zahlen im Video."
+  },
+  {
+   "claim": "Dezentrale Erzeugung und Leistungselektronik in Verbrauchs- und Erzeugungsanlagen erhöhen die Bedeutung der Spannungsqualität.",
+   "source_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2021/Juni/Verbesserung_der_Spannungsqualitaet_in_elektrischen_Netzen/Verbesserung-Spannungsqualitaet-in-elektrischen-Netzen-Leitfaden.pdf",
+   "source_name": "ZVEI-Leitfaden (2021) / VDE Verlag Vorwort",
+   "confidence": "medium",
+   "note": ""
+  }
+ ],
+ "dropped": [
+  "Grenzwerte aus EN 50160 (Spannungstoleranzen, Oberschwingungspegel, Häufigkeiten): nicht aus Primärquelle verifiziert.",
+  "Definition Spannungseinbruch mit Prozentwerten und Dauern: nur Fachportal-Sekundärquelle.",
+  "Pst < 1,0 / Plt < 0,8 als Empfehlung (nur Fluke-Blog): kein Grenzwert verwendet.",
+  "Konkrete cos-φ-Schwellen der Netzbetreiber (0,9; 0,95; 48 % kapazitiv), Pönale, Tarife: je Vertrag verschieden, schnell veränderlich.",
+  "Anforderungen an Blindleistung in VDE-AR-N 4100/4105: nicht verifiziert, nicht genannt.",
+  "Neutralleiterstrom 1,73-fach bzw. 20-30 % dritte Harmonische: Herstellerquellen, nicht geprüft.",
+  "Genauer endgültiger Status der EN 50160-Neuausgabe (2026-04): nicht verifiziert; nur 'aktuelle Ausgabe prüfen'.",
+  "Aktuelle Ausgabe/Rückzugsstatus von EN 61000-4-30, EN 61000-3-12: widersprüchlich/ungeprüft.",
+  "Typische THD-Werte und Anteile einzelner Oberschwingungen (3., 5., 7.): Herstellerangaben, nicht verifiziert."
+ ]
+}

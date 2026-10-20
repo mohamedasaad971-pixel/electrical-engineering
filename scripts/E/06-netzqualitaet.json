@@ -1,0 +1,1288 @@
+{
+ "id": "E-A06",
+ "title": {
+  "de": "Netzqualität: Oberschwingungen, Flicker, Leistungsfaktor",
+  "ar": "جودة الطاقة: التوافقيات والوميض ومعامل القدرة",
+  "en": "Power Quality: Harmonics, Flicker, Power Factor"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-A06 · Energie und Netze",
+    "heading": "Netzqualität und Leistungsfaktor",
+    "items": [
+     "Spannungsqualität",
+     "Oberschwingungen und Flicker",
+     "Wirk-, Blind- und Scheinleistung"
+    ],
+    "terms": [
+     {
+      "de": "die Netzqualität",
+      "ar": "جودة الطاقة (جودة الشبكة)",
+      "en": "power quality"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum sechsten Video über Energie und Netze.",
+     "ar": "مرحبًا بكم في الفيديو السادس عن الطاقة والشبكات.",
+     "en": "Welcome to the sixth video on energy and grids."
+    },
+    {
+     "de": "Heute geht es um die Netzqualität.",
+     "ar": "موضوعنا اليوم هو جودة الطاقة في الشبكة.",
+     "en": "Today we talk about power quality."
+    },
+    {
+     "de": "Sie lernen, was eine gute Spannung ausmacht.",
+     "ar": "ستتعرفون على ما يجعل الجهد جيدًا.",
+     "en": "You learn what makes a good voltage."
+    },
+    {
+     "de": "Wir sprechen über Oberschwingungen, Flicker und Spannungseinbrüche.",
+     "ar": "سنتحدث عن التوافقيات والوميض وهبوط الجهد المفاجئ.",
+     "en": "We talk about harmonics, flicker and voltage dips."
+    },
+    {
+     "de": "Danach folgen Wirkleistung, Blindleistung und der Leistungsfaktor.",
+     "ar": "بعد ذلك ننتقل إلى القدرة الفعّالة والقدرة الردية ومعامل القدرة.",
+     "en": "Then come active power, reactive power and the power factor."
+    },
+    {
+     "de": "Am Ende rechnen wir ein einfaches Beispiel zur Kompensation.",
+     "ar": "وفي النهاية نحسب مثالًا بسيطًا عن التعويض.",
+     "en": "At the end we calculate a simple compensation example."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Kein Ersatz für Norm und Beratung"
+    ],
+    "terms": [
+     {
+      "de": "die Norm",
+      "ar": "المعيار (Norm)",
+      "en": "standard"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Einführung.",
+     "ar": "هذا الفيديو مقدمة عامة.",
+     "en": "This video is a general introduction."
+    },
+    {
+     "de": "Es ersetzt weder die Normen noch eine fachliche Beratung.",
+     "ar": "وهو لا يغني عن المعايير ولا عن الاستشارة المتخصصة.",
+     "en": "It replaces neither the standards nor professional advice."
+    },
+    {
+     "de": "Grenzwerte finden Sie nur in der aktuellen Norm.",
+     "ar": "القيم الحدّية تجدونها فقط في المعيار الحالي.",
+     "en": "You find limit values only in the current standard."
+    },
+    {
+     "de": "Darum nennen wir hier bewusst keine Zahlenwerte aus Normen.",
+     "ar": "لذلك لا نذكر هنا عمدًا أي قيم رقمية من المعايير.",
+     "en": "So we deliberately give no numbers from standards here."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundidee",
+    "heading": "Was bedeutet Netzqualität?",
+    "items": [
+     "Ideal: saubere, sinusförmige Spannung",
+     "Stabile Spannungshöhe",
+     "Stabile Frequenz",
+     "Wenige Unterbrechungen",
+     "Wirklichkeit: Störungen durch Lasten"
+    ],
+    "terms": [
+     {
+      "de": "die Spannungsqualität",
+      "ar": "جودة الجهد",
+      "en": "voltage quality"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Idealfall ist die Netzspannung eine saubere Sinuskurve.",
+     "ar": "في الحالة المثالية يكون جهد الشبكة موجة جيبية نظيفة.",
+     "en": "Ideally the grid voltage is a clean sine wave."
+    },
+    {
+     "de": "Ihre Höhe und ihre Frequenz bleiben stabil.",
+     "ar": "ويبقى مقداره وتردده ثابتين.",
+     "en": "Its level and frequency stay stable."
+    },
+    {
+     "de": "In der Wirklichkeit stören Verbraucher und Fehler diese Idee.",
+     "ar": "لكن في الواقع تُفسد الأحمال والأعطال هذه الصورة.",
+     "en": "In reality, loads and faults disturb this ideal."
+    },
+    {
+     "de": "Das Ergebnis nennt man Spannungsqualität.",
+     "ar": "ونسمّي النتيجة جودة الجهد.",
+     "en": "The result is called voltage quality."
+    },
+    {
+     "de": "Gute Netzqualität heißt: Geräte arbeiten zuverlässig und ohne Zusatzbelastung.",
+     "ar": "جودة الشبكة الجيدة تعني أن الأجهزة تعمل بموثوقية ودون أحمال إضافية.",
+     "en": "Good power quality means devices work reliably without extra stress."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Merkmale",
+    "heading": "Woran man Spannung bewertet",
+    "items": [
+     "Höhe: Abweichung vom Sollwert",
+     "Frequenz: Abweichung vom Sollwert",
+     "Kurvenform: Verzerrung der Sinuskurve",
+     "Verfügbarkeit: Einbrüche, Unterbrechungen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Man bewertet die Spannung an mehreren Merkmalen.",
+     "ar": "يُقيَّم الجهد من خلال عدة خصائص.",
+     "en": "Voltage is judged by several characteristics."
+    },
+    {
+     "de": "Erstens: die Höhe der Spannung.",
+     "ar": "أولًا: مقدار الجهد.",
+     "en": "First: the level of the voltage."
+    },
+    {
+     "de": "Zweitens: die Frequenz.",
+     "ar": "ثانيًا: التردد.",
+     "en": "Second: the frequency."
+    },
+    {
+     "de": "Drittens: die Form der Kurve, also Verzerrungen und Oberschwingungen.",
+     "ar": "ثالثًا: شكل الموجة، أي التشوهات والتوافقيات.",
+     "en": "Third: the shape of the curve, so distortion and harmonics."
+    },
+    {
+     "de": "Viertens: Einbrüche und Unterbrechungen.",
+     "ar": "رابعًا: الهبوط المفاجئ للجهد والانقطاعات.",
+     "en": "Fourth: dips and interruptions."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Bezugsnorm",
+    "heading": "DIN EN 50160 als Referenz",
+    "items": [
+     "Titel: Merkmale der Spannung",
+     "Gilt für öffentliche Netze",
+     "Normale Betriebsbedingungen",
+     "Ausgabe immer prüfen"
+    ],
+    "terms": [
+     {
+      "de": "die Merkmale der Spannung",
+      "ar": "خصائص الجهد",
+      "en": "voltage characteristics"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Bezugsnorm für dieses Thema ist DIN EN 50160.",
+     "ar": "المعيار المرجعي لهذا الموضوع هو DIN EN 50160 في ألمانيا.",
+     "en": "The reference standard for this topic is DIN EN 50160.",
+     "tts": "Die Bezugsnorm für dieses Thema ist Din E-En fünf null eins sechs null."
+    },
+    {
+     "de": "Ihr Titel lautet: Merkmale der Spannung in öffentlichen Elektrizitätsversorgungsnetzen.",
+     "ar": "عنوانها: خصائص الجهد في شبكات الكهرباء العامة.",
+     "en": "Its title is: voltage characteristics in public electricity supply networks."
+    },
+    {
+     "de": "Sie beschreibt Merkmale am Netzanschlusspunkt öffentlicher Netze.",
+     "ar": "تصف الخصائص عند نقطة التوصيل بالشبكات العامة.",
+     "en": "It describes characteristics at the connection point of public grids."
+    },
+    {
+     "de": "Sie gilt unter normalen Betriebsbedingungen.",
+     "ar": "وهي تسري في ظروف التشغيل العادية.",
+     "en": "It applies under normal operating conditions."
+    },
+    {
+     "de": "Industrienetze sind nicht ihr Thema.",
+     "ar": "شبكات المصانع ليست ضمن موضوعها.",
+     "en": "Industrial networks are not its subject."
+    },
+    {
+     "de": "Die Ausgabe ändert sich. Prüfen Sie immer die aktuelle Fassung.",
+     "ar": "الإصدار يتغير. تحققوا دائمًا من النسخة الحالية.",
+     "en": "The edition changes. Always check the current version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum jetzt wichtig",
+    "heading": "Mehr Leistungselektronik im Netz",
+    "items": [
+     "Frequenzumrichter in der Industrie",
+     "Wechselrichter für Erzeugungsanlagen",
+     "Netzteile in vielen Geräten",
+     "Dezentrale Erzeugung"
+    ],
+    "terms": [
+     {
+      "de": "die Leistungselektronik",
+      "ar": "إلكترونيات القدرة",
+      "en": "power electronics"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Warum ist das Thema heute wichtiger?",
+     "ar": "لماذا أصبح هذا الموضوع أهم اليوم؟",
+     "en": "Why is the topic more important today?"
+    },
+    {
+     "de": "Es gibt immer mehr Leistungselektronik in Verbrauchs- und Erzeugungsanlagen.",
+     "ar": "هناك المزيد من إلكترونيات القدرة في منشآت الاستهلاك والتوليد.",
+     "en": "There is more and more power electronics in consumer and generation systems."
+    },
+    {
+     "de": "Beispiele sind Frequenzumrichter und Netzteile.",
+     "ar": "من الأمثلة محوّلات التردد ومصادر التغذية.",
+     "en": "Examples are frequency converters and power supplies."
+    },
+    {
+     "de": "Auch die Erzeugung wird dezentraler.",
+     "ar": "كما أن التوليد أصبح أكثر لامركزية.",
+     "en": "Generation is also becoming more decentralised."
+    },
+    {
+     "de": "Das verändert die Spannungsqualität in den Netzen.",
+     "ar": "وهذا يغيّر جودة الجهد في الشبكات.",
+     "en": "This changes the voltage quality in the grids."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Oberschwingungen",
+    "heading": "Wie Oberschwingungen entstehen",
+    "items": [
+     "Nichtlineare Verbraucher",
+     "Strom ist nicht sinusförmig",
+     "Beispiele: Umrichter, USV, Netzteile",
+     "Strom verzerrt die Spannung"
+    ],
+    "terms": [
+     {
+      "de": "die Oberschwingungen",
+      "ar": "التوافقيات",
+      "en": "harmonics"
+     },
+     {
+      "de": "der Frequenzumrichter",
+      "ar": "محوّل التردد",
+      "en": "frequency converter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit den Oberschwingungen.",
+     "ar": "لنبدأ بالتوافقيات.",
+     "en": "Let us begin with harmonics."
+    },
+    {
+     "de": "Ein linearer Verbraucher nimmt einen sinusförmigen Strom auf.",
+     "ar": "الحِمل الخطي يسحب تيارًا جيبيًا.",
+     "en": "A linear load draws a sinusoidal current."
+    },
+    {
+     "de": "Ein nichtlinearer Verbraucher nimmt dagegen einen verzerrten Strom auf.",
+     "ar": "أما الحِمل غير الخطي فيسحب تيارًا مشوَّهًا.",
+     "en": "A nonlinear load draws a distorted current instead."
+    },
+    {
+     "de": "Typische Beispiele sind Frequenzumrichter, USV-Anlagen und Schaltnetzteile.",
+     "ar": "من الأمثلة المعتادة محوّلات التردد وأنظمة التغذية الاحتياطية ومصادر التغذية النبضية.",
+     "en": "Typical examples are frequency converters, UPS systems and switched-mode power supplies.",
+     "tts": "Typische Beispiele sind Frequenzumrichter, U-Es-Fau-Anlagen und Schaltnetzteile."
+    },
+    {
+     "de": "Der verzerrte Strom fließt durch die Impedanz des Netzes.",
+     "ar": "يمر التيار المشوَّه عبر ممانعة الشبكة.",
+     "en": "The distorted current flows through the grid impedance."
+    },
+    {
+     "de": "Dort erzeugt er Spannungsabfälle, die sich der Netzspannung überlagern.",
+     "ar": "فيولّد هناك هبوطًا في الجهد يتراكب على جهد الشبكة.",
+     "en": "There it creates voltage drops that overlay the grid voltage."
+    },
+    {
+     "de": "So wird auch die Spannung verzerrt.",
+     "ar": "وهكذا يتشوّه الجهد أيضًا.",
+     "en": "So the voltage becomes distorted too."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Folgen",
+    "heading": "Was Oberschwingungen bewirken",
+    "items": [
+     "Kabel und Trafos: zusätzliche Erwärmung",
+     "Steuerungen: Fehlfunktionen möglich",
+     "Kompensationsanlagen: Überlastung",
+     "Neutralleiter: hohe Belastung"
+    ],
+    "terms": [
+     {
+      "de": "der Neutralleiter",
+      "ar": "الموصل المحايد",
+      "en": "neutral conductor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Oberschwingungen haben mehrere Folgen.",
+     "ar": "للتوافقيات عدة نتائج.",
+     "en": "Harmonics have several effects."
+    },
+    {
+     "de": "Kabel und Transformatoren werden zusätzlich belastet.",
+     "ar": "تتعرض الكابلات والمحوّلات لحمل إضافي.",
+     "en": "Cables and transformers get extra stress."
+    },
+    {
+     "de": "Empfindliche Steuerungen können Fehlfunktionen zeigen.",
+     "ar": "قد تُظهر أنظمة التحكم الحساسة أعطالًا وظيفية.",
+     "en": "Sensitive controls may malfunction."
+    },
+    {
+     "de": "Kompensationsanlagen können überlastet werden.",
+     "ar": "وقد تتعرض أنظمة التعويض للحمل الزائد.",
+     "en": "Compensation systems can be overloaded."
+    },
+    {
+     "de": "Im Vierleitersystem ist der Neutralleiter ein Sonderfall.",
+     "ar": "في نظام الأسلاك الأربعة يمثّل الموصل المحايد حالة خاصة.",
+     "en": "In a four-wire system the neutral conductor is a special case."
+    },
+    {
+     "de": "Oberschwingungen, die Vielfache von drei sind, addieren sich dort.",
+     "ar": "التوافقيات التي هي من مضاعفات الرقم ثلاثة تتجمع فيه.",
+     "en": "Harmonics that are multiples of three add up there."
+    },
+    {
+     "de": "Der Neutralleiter kann dadurch stark belastet werden.",
+     "ar": "ولذلك قد يتعرض لحمل كبير.",
+     "en": "The neutral conductor can therefore be heavily loaded."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Gegenmaßnahmen",
+    "heading": "Oberschwingungen begrenzen",
+    "items": [
+     "An der Quelle ansetzen",
+     "Drosseln im Umrichter",
+     "Gerätenormen beachten",
+     "Messen statt vermuten",
+     "Frühzeitig planen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was kann man gegen Oberschwingungen tun?",
+     "ar": "ماذا يمكن فعله ضد التوافقيات؟",
+     "en": "What can you do about harmonics?"
+    },
+    {
+     "de": "Am besten setzt man direkt an der Quelle an.",
+     "ar": "الأفضل أن نعالج المشكلة عند المصدر مباشرة.",
+     "en": "It is best to act directly at the source."
+    },
+    {
+     "de": "Frequenzumrichter haben oft Drosseln im Zwischenkreis.",
+     "ar": "غالبًا ما تحتوي محوّلات التردد على ملفات خنق في الدارة الوسيطة.",
+     "en": "Frequency converters often have chokes in the DC link."
+    },
+    {
+     "de": "Gerätenormen wie EN 61000-3-2 begrenzen Oberschwingungsströme von Geräten.",
+     "ar": "معايير الأجهزة مثل EN 61000-3-2 تحدّ من التيارات التوافقية للأجهزة.",
+     "en": "Product standards such as EN 61000-3-2 limit the harmonic currents of devices.",
+     "tts": "Gerätenormen wie EN einundsechzigtausend-drei-zwei begrenzen Oberschwingungsströme von Geräten."
+    },
+    {
+     "de": "Ohne Messung erkennt man Netzrückwirkungen kaum.",
+     "ar": "من دون قياس يصعب اكتشاف التأثيرات الراجعة على الشبكة.",
+     "en": "Without measurement you hardly notice grid disturbances."
+    },
+    {
+     "de": "Messverfahren beschreibt unter anderem die Norm IEC 61000-4-30.",
+     "ar": "ويصف طرق القياس معيار IEC 61000-4-30 بين معايير أخرى.",
+     "en": "Measurement methods are described, among others, in IEC 61000-4-30.",
+     "tts": "Messverfahren beschreibt unter anderem die Norm I-E-Ze einundsechzigtausend-vier-dreißig."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Flicker",
+    "heading": "Flicker: Spannung schwankt",
+    "items": [
+     "Lasten schwanken schnell",
+     "Spannung schwankt mit",
+     "Leuchten ändern ihre Helligkeit",
+     "Messung mit Flickermeter"
+    ],
+    "terms": [
+     {
+      "de": "der Flicker",
+      "ar": "الوميض",
+      "en": "flicker"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zum Flicker.",
+     "ar": "والآن إلى الوميض.",
+     "en": "Now to flicker."
+    },
+    {
+     "de": "Manche Lasten ändern ihre Leistungsaufnahme schnell und stark.",
+     "ar": "بعض الأحمال تغيّر قدرتها المسحوبة بسرعة وبشدة.",
+     "en": "Some loads change their power consumption quickly and strongly."
+    },
+    {
+     "de": "Dann schwankt die Spannung im Netz mit.",
+     "ar": "فيتذبذب جهد الشبكة معها.",
+     "en": "Then the grid voltage fluctuates too."
+    },
+    {
+     "de": "Leuchten können sichtbar flackern.",
+     "ar": "وقد تومض المصابيح بشكل ملحوظ.",
+     "en": "Lamps can visibly flicker."
+    },
+    {
+     "de": "Das ist für Menschen unangenehm.",
+     "ar": "وهذا مزعج للإنسان.",
+     "en": "That is unpleasant for people."
+    },
+    {
+     "de": "Ein Flickermeter bewertet die Schwankungen nach menschlicher Wahrnehmung.",
+     "ar": "يقيّم جهاز قياس الوميض التذبذبات بحسب إدراك الإنسان.",
+     "en": "A flicker meter rates fluctuations by human perception."
+    },
+    {
+     "de": "Kenngrößen sind Pst für zehn Minuten und Plt für zwei Stunden.",
+     "ar": "المقدارين المميّزين هما Pst لعشر دقائق وPlt لساعتين.",
+     "en": "Key values are Pst for ten minutes and Plt for two hours."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Spannungseinbrüche",
+    "heading": "Spannungseinbruch: kurz und tief",
+    "items": [
+     "Plötzliches Absinken der Spannung",
+     "Schnelle Wiederkehr",
+     "Ursache: Motoranlauf",
+     "Ursache: Fehler im Netz",
+     "Geräte können abschalten"
+    ],
+    "terms": [
+     {
+      "de": "der Spannungseinbruch",
+      "ar": "هبوط الجهد المفاجئ",
+      "en": "voltage dip"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Spannungseinbruch ist ein plötzliches, kurzes Absinken der Spannung.",
+     "ar": "هبوط الجهد المفاجئ هو انخفاض مفاجئ وقصير في الجهد.",
+     "en": "A voltage dip is a sudden, short drop of the voltage."
+    },
+    {
+     "de": "Danach kehrt die Spannung schnell zurück.",
+     "ar": "بعد ذلك يعود الجهد سريعًا.",
+     "en": "Afterwards the voltage returns quickly."
+    },
+    {
+     "de": "Eine typische Ursache ist der Anlauf großer Motoren.",
+     "ar": "من الأسباب المعتادة تشغيل المحركات الكبيرة.",
+     "en": "A typical cause is the start of large motors."
+    },
+    {
+     "de": "Auch Fehler im Netz, zum Beispiel Kurzschlüsse, führen zu Einbrüchen.",
+     "ar": "كما تؤدي أعطال الشبكة، مثل الدارات القصيرة، إلى هذا الهبوط.",
+     "en": "Faults in the grid, for example short circuits, also cause dips."
+    },
+    {
+     "de": "Empfindliche Geräte reagieren unterschiedlich darauf.",
+     "ar": "تتفاوت استجابة الأجهزة الحساسة لذلك.",
+     "en": "Sensitive devices react differently."
+    },
+    {
+     "de": "Umrichter oder Schütze können dann ausfallen oder abschalten.",
+     "ar": "فقد تتعطل محوّلات التردد أو الملامسات أو تنفصل.",
+     "en": "Converters or contactors may then fail or switch off."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Überblick",
+    "heading": "Störung und typische Ursache",
+    "items": [
+     "Oberschwingungen | Nichtlineare Verbraucher",
+     "Flicker | Schnell schwankende Lasten",
+     "Spannungseinbruch | Motoranlauf, Netzfehler",
+     "Verzerrte Spannung | Oberschwingungsströme an Impedanz",
+     "Beurteilung | Messung und Bezugsnorm"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir die Störungen kurz zusammen.",
+     "ar": "لنلخّص الاضطرابات باختصار.",
+     "en": "Let us summarise the disturbances briefly."
+    },
+    {
+     "de": "Oberschwingungen kommen von nichtlinearen Verbrauchern.",
+     "ar": "التوافقيات تأتي من الأحمال غير الخطية.",
+     "en": "Harmonics come from nonlinear loads."
+    },
+    {
+     "de": "Flicker kommt von schnell schwankenden Lasten.",
+     "ar": "الوميض يأتي من الأحمال سريعة التذبذب.",
+     "en": "Flicker comes from rapidly fluctuating loads."
+    },
+    {
+     "de": "Einbrüche entstehen bei Motoranlauf oder Netzfehlern.",
+     "ar": "وتحدث الهبوطات المفاجئة عند تشغيل المحركات أو عند أعطال الشبكة.",
+     "en": "Dips occur at motor start or grid faults."
+    },
+    {
+     "de": "Beurteilt wird mit Messungen und einer Bezugsnorm.",
+     "ar": "ويجري التقييم بالقياسات وبمعيار مرجعي.",
+     "en": "Assessment uses measurements and a reference standard."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Leistungsarten",
+    "heading": "Wirk-, Blind- und Scheinleistung",
+    "items": [
+     "Wirkleistung P: nutzbare Arbeit, Einheit Watt",
+     "Blindleistung Q: keine Arbeit, Einheit var",
+     "Scheinleistung S: Belastung der Leitung, Einheit VA",
+     "Induktive Last: Motoren nehmen Q auf"
+    ],
+    "terms": [
+     {
+      "de": "die Wirkleistung",
+      "ar": "القدرة الفعّالة",
+      "en": "active power"
+     },
+     {
+      "de": "die Blindleistung",
+      "ar": "القدرة الردية",
+      "en": "reactive power"
+     },
+     {
+      "de": "die Scheinleistung",
+      "ar": "القدرة الظاهرية",
+      "en": "apparent power"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Leistung im Wechselstromnetz.",
+     "ar": "والآن إلى القدرة في شبكة التيار المتناوب.",
+     "en": "Now to power in the AC grid."
+    },
+    {
+     "de": "Die Wirkleistung P leistet die nutzbare Arbeit.",
+     "ar": "القدرة الفعّالة P هي التي تنجز العمل المفيد.",
+     "en": "Active power P does the useful work."
+    },
+    {
+     "de": "Die Blindleistung Q leistet keine nutzbare Arbeit.",
+     "ar": "القدرة الردية Q لا تنجز عملًا مفيدًا.",
+     "en": "Reactive power Q does no useful work."
+    },
+    {
+     "de": "Sie belastet aber Leitungen und Betriebsmittel mit Strom.",
+     "ar": "لكنها تحمّل الخطوط والمعدات بتيار إضافي.",
+     "en": "But it loads lines and equipment with current."
+    },
+    {
+     "de": "Die Scheinleistung S ergibt sich aus beiden.",
+     "ar": "القدرة الظاهرية S تنتج من الاثنتين معًا.",
+     "en": "Apparent power S results from both."
+    },
+    {
+     "de": "Induktive Verbraucher wie Motoren nehmen Blindleistung auf.",
+     "ar": "الأحمال الحثية مثل المحركات تسحب قدرة ردية.",
+     "en": "Inductive loads such as motors draw reactive power."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Leistungsdreieck",
+    "heading": "Das Leistungsdreieck",
+    "items": [
+     "P und Q sind die Katheten",
+     "S ist die Hypotenuse",
+     "S² = P² + Q²",
+     "cos φ = P / S"
+    ],
+    "terms": [
+     {
+      "de": "der Leistungsfaktor",
+      "ar": "معامل القدرة",
+      "en": "power factor"
+     },
+     {
+      "de": "der Verschiebungsfaktor",
+      "ar": "عامل الإزاحة",
+      "en": "displacement factor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die drei Leistungen bilden ein rechtwinkliges Dreieck.",
+     "ar": "تشكّل القدرات الثلاث مثلثًا قائم الزاوية.",
+     "en": "The three powers form a right-angled triangle."
+    },
+    {
+     "de": "Wirkleistung und Blindleistung sind die beiden kurzen Seiten.",
+     "ar": "القدرة الفعّالة والقدرة الردية هما الضلعان القصيران.",
+     "en": "Active and reactive power are the two short sides."
+    },
+    {
+     "de": "Die Scheinleistung ist die lange Seite.",
+     "ar": "والقدرة الظاهرية هي الضلع الطويل.",
+     "en": "Apparent power is the long side."
+    },
+    {
+     "de": "Es gilt: S Quadrat gleich P Quadrat plus Q Quadrat.",
+     "ar": "القاعدة: مربع S يساوي مربع P زائد مربع Q.",
+     "en": "The rule: S squared equals P squared plus Q squared."
+    },
+    {
+     "de": "Der Leistungsfaktor ist bei sinusförmigen Größen cos φ gleich P durch S.",
+     "ar": "معامل القدرة للمقادير الجيبية هو cos φ ويساوي P مقسومة على S.",
+     "en": "For sinusoidal quantities the power factor is cos φ equal to P divided by S.",
+     "tts": "Der Leistungsfaktor ist bei sinusförmigen Größen Kosinus Phi gleich P durch S."
+    },
+    {
+     "de": "Je näher cos φ an eins liegt, desto weniger Blindanteil gibt es.",
+     "ar": "كلما اقترب cos φ من الواحد قلّ الجزء الردي.",
+     "en": "The closer cos φ is to one, the less reactive share there is.",
+     "tts": "Je näher Kosinus Phi an eins liegt, desto weniger Blindanteil gibt es."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Achtung",
+    "heading": "cos φ ist nicht immer Lambda",
+    "items": [
+     "cos φ: nur die Grundschwingung",
+     "Lambda: auch Verzerrung",
+     "Gleich nur bei Sinus",
+     "Umrichter: Unterschied beachten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Eine wichtige Unterscheidung.",
+     "ar": "تمييز مهم.",
+     "en": "An important distinction."
+    },
+    {
+     "de": "Der Verschiebungsfaktor cos φ bezieht sich nur auf die Grundschwingung.",
+     "ar": "عامل الإزاحة cos φ يخص الموجة الأساسية فقط.",
+     "en": "The displacement factor cos φ refers only to the fundamental.",
+     "tts": "Der Verschiebungsfaktor Kosinus Phi bezieht sich nur auf die Grundschwingung."
+    },
+    {
+     "de": "Der Leistungsfaktor Lambda erfasst zusätzlich die Verzerrung durch Oberschwingungen.",
+     "ar": "أما معامل القدرة λ فيشمل أيضًا التشوه الناتج عن التوافقيات.",
+     "en": "The power factor lambda also covers distortion by harmonics."
+    },
+    {
+     "de": "Nur bei sinusförmigem Strom sind beide gleich.",
+     "ar": "لا يتساويان إلا عندما يكون التيار جيبيًا.",
+     "en": "They are equal only for sinusoidal current."
+    },
+    {
+     "de": "Bei Umrichtern und Netzteilen sollten Sie deshalb genau hinsehen.",
+     "ar": "لذلك يجب التدقيق جيدًا عند محوّلات التردد ومصادر التغذية.",
+     "en": "So look closely at converters and power supplies."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Lehrbeispiel 1",
+    "heading": "Beispiel: erfundene Zahlen",
+    "items": [
+     "Wirkleistung P | 60 kW",
+     "Blindleistung Q | 80 kvar",
+     "Scheinleistung S | 100 kVA",
+     "cos φ | 0,6",
+     "Hinweis | Nur Lehrbeispiel"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt ein Rechenbeispiel.",
+     "ar": "والآن مثال حسابي.",
+     "en": "Now a calculation example."
+    },
+    {
+     "de": "Die Zahlen sind erfunden und dienen nur zum Lernen.",
+     "ar": "الأرقام مُختلَقة وتخدم التعلّم فقط.",
+     "en": "The numbers are made up and serve only for teaching."
+    },
+    {
+     "de": "Eine Anlage nimmt 60 kW Wirkleistung und 80 kvar Blindleistung auf.",
+     "ar": "منشأة تسحب ٦٠ كيلوواط قدرة فعّالة و٨٠ كيلو فار قدرة ردية.",
+     "en": "A plant draws 60 kW active and 80 kvar reactive power.",
+     "tts": "Eine Anlage nimmt sechzig Kilowatt Wirkleistung und achtzig Kilovar Blindleistung auf."
+    },
+    {
+     "de": "Die Scheinleistung ist die Wurzel aus 3600 plus 6400.",
+     "ar": "القدرة الظاهرية هي الجذر التربيعي لمجموع ٣٦٠٠ و٦٤٠٠.",
+     "en": "Apparent power is the root of 3600 plus 6400.",
+     "tts": "Die Scheinleistung ist die Wurzel aus dreitausendsechshundert plus sechstausendvierhundert."
+    },
+    {
+     "de": "Das ergibt 100 kVA.",
+     "ar": "والناتج ١٠٠ كيلو فولت أمبير.",
+     "en": "That gives 100 kVA.",
+     "tts": "Das ergibt einhundert Kilovoltampere."
+    },
+    {
+     "de": "Der cos φ ist 60 durch 100, also 0,6.",
+     "ar": "وقيمة cos φ تساوي ٦٠ على ١٠٠ أي ٠٫٦.",
+     "en": "The cos φ is 60 divided by 100, so 0.6.",
+     "tts": "Der Kosinus Phi ist sechzig durch einhundert, also null Komma sechs."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Lehrbeispiel 2",
+    "heading": "Beispiel: Kompensation auf 0,8",
+    "items": [
+     "Ziel | cos φ = 0,8, tan φ = 0,75",
+     "Neue Blindleistung | 45 kvar",
+     "Kondensatorleistung | 35 kvar",
+     "Neue Scheinleistung | 75 kVA",
+     "Strom sinkt | auf etwa drei Viertel"
+    ],
+    "terms": [
+     {
+      "de": "die Blindleistungskompensation",
+      "ar": "تعويض القدرة الردية",
+      "en": "reactive power compensation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun wollen wir auf cos φ gleich 0,8 verbessern.",
+     "ar": "نريد الآن تحسين cos φ إلى ٠٫٨ في هذا المثال.",
+     "en": "Now we want to improve to a cos φ of 0.8.",
+     "tts": "Nun wollen wir auf Kosinus Phi gleich null Komma acht verbessern."
+    },
+    {
+     "de": "Dann ist der Tangens 0,75.",
+     "ar": "عندئذ يكون الظل ٠٫٧٥.",
+     "en": "Then the tangent is 0.75.",
+     "tts": "Dann ist der Tangens null Komma sieben fünf."
+    },
+    {
+     "de": "Die neue Blindleistung ist 60 mal 0,75, also 45 kvar.",
+     "ar": "القدرة الردية الجديدة هي ٦٠ ضرب ٠٫٧٥ أي ٤٥ كيلو فار.",
+     "en": "The new reactive power is 60 times 0.75, so 45 kvar.",
+     "tts": "Die neue Blindleistung ist sechzig mal null Komma sieben fünf, also fünfundvierzig Kilovar."
+    },
+    {
+     "de": "Der Kondensator muss die Differenz liefern: 80 minus 45, also 35 kvar.",
+     "ar": "على المكثف أن يوفّر الفرق: ٨٠ ناقص ٤٥ أي ٣٥ كيلو فار.",
+     "en": "The capacitor must supply the difference: 80 minus 45, so 35 kvar.",
+     "tts": "Der Kondensator muss die Differenz liefern: achtzig minus fünfundvierzig, also fünfunddreißig Kilovar."
+    },
+    {
+     "de": "Die Scheinleistung sinkt auf 75 kVA.",
+     "ar": "وتنخفض القدرة الظاهرية إلى ٧٥ كيلو فولت أمبير.",
+     "en": "Apparent power falls to 75 kVA.",
+     "tts": "Die Scheinleistung sinkt auf fünfundsiebzig Kilovoltampere."
+    },
+    {
+     "de": "Der Strom sinkt damit auf etwa drei Viertel, bei gleicher Wirkleistung.",
+     "ar": "وبذلك ينخفض التيار إلى نحو ثلاثة أرباعه مع بقاء القدرة الفعّالة نفسها.",
+     "en": "The current thus falls to about three quarters, at the same active power."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Kompensation",
+    "heading": "Blindleistungskompensation",
+    "items": [
+     "Kondensatoren parallel zur Last",
+     "Liefern die Blindleistung lokal",
+     "Weniger Strom im Zulauf",
+     "Oberschwingungen beachten",
+     "Verdrosselte Anlagen"
+    ],
+    "terms": [
+     {
+      "de": "der Kondensator",
+      "ar": "المكثف",
+      "en": "capacitor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "So funktioniert Blindleistungskompensation im Konzept.",
+     "ar": "هكذا يعمل تعويض القدرة الردية من حيث المبدأ.",
+     "en": "This is how reactive power compensation works in concept."
+    },
+    {
+     "de": "Man schaltet Kondensatoren parallel zum induktiven Verbraucher.",
+     "ar": "نوصل مكثفات على التوازي مع الحِمل الحثي.",
+     "en": "Capacitors are connected in parallel with the inductive load."
+    },
+    {
+     "de": "Sie liefern die Blindleistung direkt vor Ort.",
+     "ar": "فتوفّر القدرة الردية في الموقع مباشرة.",
+     "en": "They supply the reactive power right on site."
+    },
+    {
+     "de": "Dann fließt weniger Blindstrom durch Zuleitung und Transformator.",
+     "ar": "فيمر تيار ردي أقل عبر الكبل والمحوّل.",
+     "en": "Then less reactive current flows through the feeder and transformer."
+    },
+    {
+     "de": "Bei vielen Oberschwingungen sind Kondensatoren allein problematisch.",
+     "ar": "عند وجود توافقيات كثيرة تكون المكثفات وحدها مشكلة.",
+     "en": "With many harmonics, capacitors alone are problematic."
+    },
+    {
+     "de": "Dann nutzt man verdrosselte Anlagen mit Filterkreisdrosseln.",
+     "ar": "عندئذ تُستخدم أنظمة مزوَّدة بملفات خنق.",
+     "en": "Then detuned systems with filter reactors are used."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzbetreiber",
+    "heading": "Regeln des Netzbetreibers",
+    "items": [
+     "Verträge sind unterschiedlich",
+     "Preisblatt des Netzbetreibers",
+     "Blindarbeit kann berechnet werden",
+     "Vor der Planung nachfragen"
+    ],
+    "terms": [
+     {
+      "de": "der Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "grid operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auch der Netzbetreiber stellt Anforderungen.",
+     "ar": "كما يضع مشغّل الشبكة متطلبات.",
+     "en": "The grid operator also sets requirements."
+    },
+    {
+     "de": "Sie stehen im Netzanschluss- oder Netznutzungsvertrag.",
+     "ar": "وهي مذكورة في عقد التوصيل بالشبكة أو استخدامها.",
+     "en": "They are in the connection or grid use contract."
+    },
+    {
+     "de": "Erlaubter Bereich und Abrechnung unterscheiden sich je Netzbetreiber.",
+     "ar": "النطاق المسموح وطريقة المحاسبة تختلف من مشغّل لآخر.",
+     "en": "The permitted range and billing differ by operator."
+    },
+    {
+     "de": "Der Netzbetreiber darf Blindarbeit nach seinem Preisblatt berechnen.",
+     "ar": "يجوز للمشغّل محاسبة الطاقة الردية وفق قائمة أسعاره.",
+     "en": "The operator may charge reactive energy per its price list."
+    },
+    {
+     "de": "Fragen Sie deshalb vor der Planung beim zuständigen Netzbetreiber nach.",
+     "ar": "لذلك اسألوا المشغّل المختص قبل التخطيط.",
+     "en": "So ask the responsible operator before planning."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Netzqualität: Spannung und Strom",
+     "Oberschwingungen, Flicker, Einbrüche",
+     "S² = P² + Q², cos φ = P / S",
+     "Kompensation mit Kondensatoren",
+     "Normen und Betreiber prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Netzqualität beschreibt, wie sauber Spannung und Strom sind.",
+     "ar": "جودة الشبكة تصف مدى نقاء الجهد والتيار.",
+     "en": "Power quality describes how clean voltage and current are."
+    },
+    {
+     "de": "Oberschwingungen, Flicker und Einbrüche sind typische Störungen.",
+     "ar": "التوافقيات والوميض والهبوط المفاجئ اضطرابات معتادة.",
+     "en": "Harmonics, flicker and dips are typical disturbances."
+    },
+    {
+     "de": "Wirk-, Blind- und Scheinleistung hängen über das Leistungsdreieck zusammen.",
+     "ar": "القدرة الفعّالة والردية والظاهرية ترتبط عبر مثلث القدرة.",
+     "en": "Active, reactive and apparent power connect via the power triangle."
+    },
+    {
+     "de": "Kondensatoren können die Blindleistung vor Ort liefern.",
+     "ar": "يمكن للمكثفات توفير القدرة الردية في الموقع.",
+     "en": "Capacitors can supply reactive power on site."
+    },
+    {
+     "de": "Die Bezugsnorm ist DIN EN 50160, Grenzwerte stehen nur dort.",
+     "ar": "المعيار المرجعي هو DIN EN 50160 والقيم الحدّية توجد فيه وحده.",
+     "en": "The reference standard is DIN EN 50160; limit values are only there.",
+     "tts": "Die Bezugsnorm ist Din E-En fünf null eins sechs null, Grenzwerte stehen nur dort."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Abschluss",
+    "heading": "Aktuelle Fassungen prüfen",
+    "items": [
+     "Normen und Gesetze ändern sich",
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss zwei wichtige Hinweise.",
+     "ar": "وأخيرًا ملاحظتان مهمتان.",
+     "en": "Finally, two important notes."
+    },
+    {
+     "de": "Gesetze, Normen und Regeln der Netzbetreiber ändern sich.",
+     "ar": "القوانين والمعايير وقواعد مشغّلي الشبكات تتغير.",
+     "en": "Laws, standards and grid operator rules change."
+    },
+    {
+     "de": "Prüfen Sie deshalb immer die aktuelle Fassung.",
+     "ar": "لذلك تحقّقوا دائمًا من النسخة الحالية.",
+     "en": "So always check the current version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Fachplanung.",
+     "ar": "وهو ليس استشارة قانونية ولا تصميمًا هندسيًا.",
+     "en": "It is not legal advice and not engineering design."
+    },
+    {
+     "de": "Das nächste Video behandelt Niederspannungsinstallationen.",
+     "ar": "الفيديو القادم يتناول التركيبات ذات الجهد المنخفض.",
+     "en": "The next video covers low-voltage installations."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Netzqualität",
+   "ar": "جودة الطاقة (جودة الشبكة)",
+   "en": "power quality"
+  },
+  {
+   "de": "die Spannungsqualität",
+   "ar": "جودة الجهد",
+   "en": "voltage quality"
+  },
+  {
+   "de": "die Oberschwingung",
+   "ar": "التوافقية",
+   "en": "harmonic"
+  },
+  {
+   "de": "der Flicker",
+   "ar": "الوميض",
+   "en": "flicker"
+  },
+  {
+   "de": "der Spannungseinbruch",
+   "ar": "هبوط الجهد المفاجئ",
+   "en": "voltage dip"
+  },
+  {
+   "de": "die Wirkleistung",
+   "ar": "القدرة الفعّالة",
+   "en": "active power"
+  },
+  {
+   "de": "die Blindleistung",
+   "ar": "القدرة الردية",
+   "en": "reactive power"
+  },
+  {
+   "de": "die Scheinleistung",
+   "ar": "القدرة الظاهرية",
+   "en": "apparent power"
+  },
+  {
+   "de": "der Leistungsfaktor",
+   "ar": "معامل القدرة",
+   "en": "power factor"
+  },
+  {
+   "de": "der Verschiebungsfaktor",
+   "ar": "عامل الإزاحة",
+   "en": "displacement factor"
+  },
+  {
+   "de": "die Blindleistungskompensation",
+   "ar": "تعويض القدرة الردية",
+   "en": "reactive power compensation"
+  },
+  {
+   "de": "der Kondensator",
+   "ar": "المكثف",
+   "en": "capacitor"
+  },
+  {
+   "de": "der Frequenzumrichter",
+   "ar": "محوّل التردد",
+   "en": "frequency converter"
+  },
+  {
+   "de": "der Neutralleiter",
+   "ar": "الموصل المحايد",
+   "en": "neutral conductor"
+  },
+  {
+   "de": "der Netzbetreiber",
+   "ar": "مشغّل الشبكة",
+   "en": "grid operator"
+  },
+  {
+   "de": "die Leistungselektronik",
+   "ar": "إلكترونيات القدرة",
+   "en": "power electronics"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Welche Größe leistet die nutzbare Arbeit?",
+    "ar": "أي مقدار ينجز العمل المفيد؟",
+    "en": "Which quantity does the useful work?"
+   },
+   "options": [
+    {
+     "de": "Die Blindleistung",
+     "ar": "القدرة الردية",
+     "en": "Reactive power"
+    },
+    {
+     "de": "Die Wirkleistung",
+     "ar": "القدرة الفعّالة",
+     "en": "Active power"
+    },
+    {
+     "de": "Die Scheinleistung",
+     "ar": "القدرة الظاهرية",
+     "en": "Apparent power"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wodurch entstehen Oberschwingungen vor allem?",
+    "ar": "ما السبب الرئيسي لنشوء التوافقيات؟",
+    "en": "What mainly causes harmonics?"
+   },
+   "options": [
+    {
+     "de": "Durch Sonnenlicht",
+     "ar": "بسبب ضوء الشمس",
+     "en": "Sunlight"
+    },
+    {
+     "de": "Durch lange Kabel",
+     "ar": "بسبب الكابلات الطويلة",
+     "en": "Long cables"
+    },
+    {
+     "de": "Durch nichtlineare Verbraucher",
+     "ar": "بسبب الأحمال غير الخطية",
+     "en": "Nonlinear loads"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was beschreibt ein Spannungseinbruch?",
+    "ar": "ماذا يصف هبوط الجهد المفاجئ؟",
+    "en": "What does a voltage dip describe?"
+   },
+   "options": [
+    {
+     "de": "Ein kurzes, plötzliches Absinken der Spannung",
+     "ar": "انخفاضًا قصيرًا ومفاجئًا في الجهد",
+     "en": "A short, sudden drop of the voltage"
+    },
+    {
+     "de": "Eine dauerhaft zu hohe Frequenz",
+     "ar": "تردد مرتفعًا بشكل دائم",
+     "en": "A permanently too high frequency"
+    },
+    {
+     "de": "Eine neue Leitungsfarbe",
+     "ar": "لونًا جديدًا للموصل",
+     "en": "A new conductor colour"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Im Lehrbeispiel sind P gleich 60 kW und Q gleich 80 kvar. Wie groß ist S?",
+    "ar": "في المثال التعليمي P تساوي ٦٠ كيلوواط وQ تساوي ٨٠ كيلو فار. كم تبلغ S؟",
+    "en": "In the teaching example P is 60 kW and Q is 80 kvar. What is S?"
+   },
+   "options": [
+    {
+     "de": "140 kVA",
+     "ar": "١٤٠ كيلو فولت أمبير",
+     "en": "140 kVA"
+    },
+    {
+     "de": "20 kVA",
+     "ar": "٢٠ كيلو فولت أمبير",
+     "en": "20 kVA"
+    },
+    {
+     "de": "100 kVA",
+     "ar": "١٠٠ كيلو فولت أمبير",
+     "en": "100 kVA"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Welche Aussage zur Norm DIN EN 50160 passt?",
+    "ar": "أي عبارة عن المعيار DIN EN 50160 صحيحة؟",
+    "en": "Which statement about DIN EN 50160 fits?"
+   },
+   "options": [
+    {
+     "de": "Sie regelt die Farben von Leitungen",
+     "ar": "تنظّم ألوان الموصلات",
+     "en": "It regulates conductor colours"
+    },
+    {
+     "de": "Sie ist die Bezugsnorm für Spannungsmerkmale in öffentlichen Netzen",
+     "ar": "هي المعيار المرجعي لخصائص الجهد في الشبكات العامة",
+     "en": "It is the reference standard for voltage characteristics in public grids"
+    },
+    {
+     "de": "Sie gilt nur für Hausgeräte",
+     "ar": "تسري على الأجهزة المنزلية فقط",
+     "en": "It applies only to household appliances"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um Niederspannungsinstallationen nach DIN VDE 0100.",
+  "ar": "في الفيديو القادم نتناول التركيبات الكهربائية للجهد المنخفض (سلسلة DIN VDE 0100) بنظرة عامة.",
+  "en": "The next video covers low-voltage installations under DIN VDE 0100."
+ },
+ "stand": "2026-10-20; prüfen: aktuelle Ausgabe DIN EN 50160 (Ausgabe 2020-11 laut Katalog, Neuausgabe VDE 0839-160 als Entwurf 2026-04, Endstatus nicht verifiziert), Messnormen (DIN EN 61000-4-30, -4-15) und Gerätenormen (DIN EN 61000-3-2, -3-12) auf aktuellen Stand, Anforderungen der Netzbetreiber zu Blindleistung (Verträge/Preisblätter, nicht im Video), Grenzwerte nur in der Norm selbst"
+}

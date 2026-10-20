@@ -1,0 +1,179 @@
+{
+ "video": "E-A04",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "VDE-AR-N 4105 ist die VDE-Anwendungsregel für Erzeugungsanlagen am Niederspannungsnetz; als Ausgabe wird häufig 2018-11 genannt, Netzbetreiber-Formulare nennen auch neuere Fassungen.",
+   "source_url": "https://www.photovoltaik.info/vde-ar-n-4105-speicherinstallation-anschlussregeln/",
+   "source_name": "photovoltaik.info / Netzbetreiber-Formulare",
+   "confidence": "medium",
+   "note": "Exakte aktuelle Fassung vor Veröffentlichung prüfen; im Video nur 'aktuelle Fassung'."
+  },
+  {
+   "claim": "Die VDE-AR-N 4105 wird auch auf Speicher angewendet: Netzbetreiber-Formulare behandeln 'Erzeugungsanlagen und/oder Speicher' gemeinsam.",
+   "source_url": "https://new-netz.de/mediathek/E.8_-_Inbetriebsetzungsprotokoll_fuer_Erzeugungsanlagen_und_oder_Speicher_an_das_Niederspannungsnetz.pdf",
+   "source_name": "NEW Netz, Formular E.8",
+   "confidence": "medium",
+   "note": "Mehrere VNB-Formulare übereinstimmend."
+  },
+  {
+   "claim": "Der VDE-FNN-Hinweis zu Speichern ergänzt VDE-AR-N 4100 und VDE-AR-N 4105; im Oktober 2025 erschien ein gemeinsamer Hinweis zu Erzeugungsanlagen, Speichern und Verbrauchseinrichtungen am Niederspannungsnetz (Version 1).",
+   "source_url": "https://www.vde.com/de/fnn/themen/innovation/speicher",
+   "source_name": "VDE FNN",
+   "confidence": "medium",
+   "note": "Ob der Hinweis den älteren Speicherhinweis vollständig ersetzt, nicht geklärt."
+  },
+  {
+   "claim": "VDE-AR-N 4100 ist die Anwendungsregel für den Anschluss an das Niederspannungsnetz (Technische Anschlussregel Niederspannung).",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar/tar-niederspannung",
+   "source_name": "VDE FNN, TAR Niederspannung",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Der NA-Schutz (Netz- und Anlagenschutz) überwacht Spannung und Frequenz und trennt die Anlage bei Abweichungen vom Netz.",
+   "source_url": "https://www.photovoltaik.info/vde-ar-n-4105-speicherinstallation-anschlussregeln/",
+   "source_name": "photovoltaik.info; Forum Verlag Glossar",
+   "confidence": "medium",
+   "note": "Grenzwerte und Zeiten nicht verwendet."
+  },
+  {
+   "claim": "NA-Schutz kann im Wechselrichter integriert sein (integrierter NA-Schutz mit Kuppelschalter) oder als zentraler NA-Schutz ausgeführt werden; Hersteller lassen dies zertifizieren.",
+   "source_url": "https://www.pv-magazine.de/produkte/aeconversion-mikrowechselrichter-mit-integriertem-na-schutz/",
+   "source_name": "pv magazine; Hersteller-Zertifikate (Fronius, SolarEdge, Solarwatt)",
+   "confidence": "medium",
+   "note": "Nur Konzept."
+  },
+  {
+   "claim": "Für die Anmeldung beim Netzbetreiber werden typischerweise ein Einheitenzertifikat und ein Zertifikat für den NA-Schutz verlangt.",
+   "source_url": "https://www.stadtwerke-gronau.de/fileadmin/co_theme/Default/Media/Dokumente/4.0_Netze/4.3_Anschl%C3%BCsse/4.3.4_Installateure/vde-ar-n-4105-formulare-anhang-e-data_ausfuellbar.pdf",
+   "source_name": "Stadtwerke Gronau, VDE-AR-N-4105-Formulare",
+   "confidence": "medium",
+   "note": "Formulare unterscheiden sich je Netzbetreiber."
+  },
+  {
+   "claim": "Die Prüfnorm IEC 62116 beschreibt Prüfverfahren für Maßnahmen gegen Inselbildung bei netzgekoppelten PV-Wechselrichtern; in Deutschland als DKE-Veröffentlichung verfügbar.",
+   "source_url": "https://www.din.de/en/getting-involved/standards-committees/dke/publications/wdc-beuth:din21:112815362",
+   "source_name": "DKE / DIN",
+   "confidence": "medium",
+   "note": "Nur Nennung der Prüfnorm, kein Normtext."
+  },
+  {
+   "claim": "Ein netzgeführter Wechselrichter orientiert sich an Spannung und Frequenz des Netzes und schaltet bei Netzausfall ab, damit eine spannungsfrei gedachte Leitung nicht weiter Spannung führt (Gefahr für Personen am Netz).",
+   "source_url": "https://www.photovoltaik.info/pv-anlage-stromausfall-dunkelheit/",
+   "source_name": "photovoltaik.info",
+   "confidence": "medium",
+   "note": "Anti-Islanding-Konzept; Sekundärquelle."
+  },
+  {
+   "claim": "Inselbetrieb ist etwas anderes als Netzparallelbetrieb und braucht einen dafür geeigneten Insel- oder Hybridwechselrichter, meist mit Speicher.",
+   "source_url": "https://www.energie-fachberater.de/strom-solar/solar/photovoltaik/autarker-betrieb-der-photovoltaik-anlage-bei-netz-stromausfall.php",
+   "source_name": "energie-fachberater.de",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Gängige Wechselrichter-Typen: String-, Hybrid-, Batterie-, Modul-, Zentral- und Inselwechselrichter.",
+   "source_url": "https://reduco.ai/blog/solar/wechselrichter-arten",
+   "source_name": "reduco.ai (Überblick)",
+   "confidence": "low",
+   "note": "Nur als Einordnung gegengeprüft mit Fact 12."
+  },
+  {
+   "claim": "Stringwechselrichter wandeln Gleichstrom der Module in Wechselstrom; Hybridwechselrichter steuern zusätzlich die Batterie; Zentralwechselrichter sind vor allem bei großen Freiflächen- und Gewerbeanlagen üblich.",
+   "source_url": "https://basic-solar.de/ratgeber/wechselrichter/hybrid-wechselrichter-erklaert/",
+   "source_name": "basic-solar.de; priwatt.de; reduco.ai",
+   "confidence": "medium",
+   "note": "Mehrere Quellen übereinstimmend; keine Wirkungsgrade."
+  },
+  {
+   "claim": "DC-Kopplung: Hybridwechselrichter verbindet Module, Batterie und Hausnetz, Solarstrom wird nur einmal umgewandelt. AC-Kopplung: Speicher mit eigenem Batteriewechselrichter, geeignet zur Nachrüstung bei Bestandsanlagen.",
+   "source_url": "https://priwatt.de/blog/was-ist-ein-hybrid-wechselrichter/",
+   "source_name": "priwatt.de; basic-solar.de; Anker",
+   "confidence": "medium",
+   "note": "Wirkungsgradangaben widersprüchlich, daher gedroppt."
+  },
+  {
+   "claim": "Netzdienliche Funktionen von Wechselrichtern nach VDE-AR-N 4105 umfassen u. a. Blindleistungsbereitstellung (Standardkennlinie cos phi(P), Q(U)-Optionen) und Wirkleistungsreduktion bei Überfrequenz.",
+   "source_url": "https://www.vde.com/de/fnn/arbeitsgebiete/sicherer-betrieb-dez/studien/studie-statische-spannungshaltung",
+   "source_name": "VDE FNN Studie statische Spannungshaltung; Netzbetreiber-Richtlinien",
+   "confidence": "medium",
+   "note": "Parameter (z. B. 50,2 Hz, Gradient) NICHT übernommen."
+  },
+  {
+   "claim": "Ortsfeste Stromspeicher müssen im Marktstammdatenregister registriert werden, auch wenn die PV-Anlage schon registriert ist; die Registrierung folgt innerhalb eines Monats nach Inbetriebnahme. Mobile Akkus/Powerstations sind ausgenommen.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Leitfaeden_Hinweise/_DL/Stromspeicher.html",
+   "source_name": "Bundesnetzagentur, Hinweis EE-Stromspeicher / MaStR-Hilfe",
+   "confidence": "high",
+   "note": "Frist und Details vor Veröffentlichung prüfen; im Video ohne Frist."
+  },
+  {
+   "claim": "Das Inbetriebsetzungsprotokoll für Erzeugungsanlagen/Speicher wird vom Anlagenerrichter (eingetragener Elektrofachbetrieb) ausgefüllt; der Errichter weist den Betreiber ein und übergibt die Dokumentation inkl. Schaltplan.",
+   "source_url": "https://www.enercity-netz.de/assets/cms/eng/partner/installateure/anmeldung-photovoltaikanlage/E.8.1-Inbetriebsetzungsprotokoll-f-r-Erzeugungsanlagen-und-oder-Speicher...pdf",
+   "source_name": "enercity Netz; Stadtwerke Gronau",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Ladeeinrichtungen sind vor Inbetriebnahme beim zuständigen Netzbetreiber anzumelden (§ 19 Abs. 2 Satz 2 NAV), unabhängig von der Leistung; die Anmeldung kann nach BNetzA von jedermann erfolgen.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Vportal/Energie/E_Mobilitaet/_faq/Wallbox_table.html",
+   "source_name": "Bundesnetzagentur, FAQ E-Mobilität",
+   "confidence": "high",
+   "note": "Seite älter; Stand prüfen."
+  },
+  {
+   "claim": "Oberhalb einer Leistungsgrenze (Bundesnetzagentur: über 12 kVA, etwa 11 kW Wirkleistung) ist zusätzlich eine Genehmigung/Zustimmung des Netzbetreibers nötig.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Vportal/Energie/E_Mobilitaet/_faq/Wallbox_table.html",
+   "source_name": "Bundesnetzagentur, FAQ E-Mobilität",
+   "confidence": "medium",
+   "note": "Im Video als 'etwa elf Kilowatt laut Bundesnetzagentur, Stand prüfen'. Frist von zwei Monaten gedroppt."
+  },
+  {
+   "claim": "Seit der Festlegung BK6-22-300 vom 27.11.2023 darf der Netzbetreiber den Anschluss neuer privater Wallboxen nicht mehr wegen möglicher lokaler Überlastung ablehnen oder verzögern; dafür darf er den Netzbezug steuerbarer Verbrauchseinrichtungen temporär dimmen.",
+   "source_url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2023/20231127_14a.html",
+   "source_name": "Bundesnetzagentur, Pressemitteilung 27.11.2023",
+   "confidence": "high",
+   "note": "Ausgestaltung (Module, Entgelte) kann sich ändern; keine Zahlen im Video."
+  },
+  {
+   "claim": "§ 14a EnWG nennt als steuerbare Verbrauchseinrichtungen u. a. Wärmepumpen, nicht öffentlich zugängliche Ladepunkte und Stromspeicher.",
+   "source_url": "https://www.gesetze-im-internet.de/enwg_2005/__14a.html",
+   "source_name": "gesetze-im-internet.de, EnWG § 14a; Bundesnetzagentur",
+   "confidence": "high",
+   "note": "Wortlaut des Gesetzes kann geändert werden; Stand prüfen."
+  },
+  {
+   "claim": "Errichtung und Änderung der Kundenanlage richten sich nach § 13 NAV; Netzbetreiber verlangen dafür ein im Installateurverzeichnis eingetragenes Elektroinstallationsunternehmen.",
+   "source_url": "https://www.anwalt24.de/gesetze/nav-1/13",
+   "source_name": "NAV § 13 (Gesetzestext-Wiedergabe); Netzbetreiber-Formulare; BDEW Bundesinstallateurausschuss",
+   "confidence": "medium",
+   "note": "Genauer Satz-4-Wortlaut nicht geprüft; im Video allgemein formuliert."
+  },
+  {
+   "claim": "DIN VDE 0100-722 (Ausgabe 2019-06 genannt) verlangt für Ladepunkte eigene Fehlerstrom-Schutzeinrichtung und Schutz gegen glatte Gleichfehlerströme: Typ B oder Typ A mit Gleichfehlerstrom-Erkennung (im Ladegerät oder separat).",
+   "source_url": "https://v2charge.com/de/?p=425945",
+   "source_name": "Hersteller-/Fachartikel (Sekundärquelle) zu DIN VDE 0100-722",
+   "confidence": "low",
+   "note": "Normtext nicht geprüft -> nur konzeptionell, keine Zahlen, Hinweis auf Norm und Herstellerangaben."
+  },
+  {
+   "claim": "Spezielle RCD-Typen 'Typ A-EV'/'Typ F-EV' bzw. Geräte mit Gleichfehlerstrom-Überwachung (RDC-DD nach IEC 62955, 'EV-RCM') existieren für Ladepunkte.",
+   "source_url": "https://content.voltimum.com/at/27454/93.pdf",
+   "source_name": "Voltimum; v2charge",
+   "confidence": "low",
+   "note": "Nur Begriffe im Glossar/Konzept, ohne Zahlen."
+  }
+ ],
+ "dropped": [
+  "Schwellen und Gradienten der Wirkleistungsreduktion (z. B. 50,2 Hz, Prozent pro Hertz) - Parameter, nur aus Netzbetreiber-Richtlinie der Vorgängerfassung",
+  "Abschaltzeit des NA-Schutzes (z. B. 200 ms) - aus einem Herstellerzertifikat",
+  "Zahlenwert des Gleichfehlerstrom-Grenzwerts (6 mA) - aus Sekundärquellen/Normentwurf 2011",
+  "Frist von zwei Monaten für Netzbetreiber-Antwort bei Wallboxen - BNetzA nennt sie, aber veränderlich; nicht im Skript",
+  "4,2 kW Mindestleistung bei §14a und Netzentgelt-Module (Beträge, Module, Termine) - schnell veränderlich",
+  "Wirkungsgrade AC- vs. DC-Kopplung und Marktanteile (90 %) - widersprüchliche Angaben",
+  "Schweizer Regel zum externen NA-Schutz über 30 kW - Schweiz, nicht Deutschland",
+  "Verbot der Mischung RCD Typ A und B im selben Stromkreis - nur Quelle von 2012",
+  "Konkrete Pflicht zur Steuerbarkeit ab 12 kVA nach VDE-AR-N 4100 - nur Sekundärhinweis",
+  "Einspeisevergütung, Förderungen, Steckersolargeräte-Regeln - nicht Thema, veränderlich"
+ ]
+}

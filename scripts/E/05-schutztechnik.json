@@ -1,0 +1,1716 @@
+{
+ "id": "E-A05",
+ "title": {
+  "de": "Schutztechnik in Netzen und Anlagen: Schutzorgane, Selektivität, Schaltgeräte",
+  "ar": "حماية الشبكة والمنظومات: القواطع والتنسيق والمفاتيح",
+  "en": "Protection in Grids and Installations: Devices, Selectivity, Switchgear"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-A05 · Energie und Netze",
+    "heading": "Schutztechnik in Netzen und Anlagen",
+    "items": [
+     "Schutzorgane und Schaltgeräte",
+     "Selektivität und Staffelung",
+     "Netzschutz im Überblick"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum fünften Video über Energie und Netze.",
+     "ar": "مرحبًا بكم في الفيديو الخامس عن الطاقة والشبكات.",
+     "en": "Welcome to the fifth video about energy and grids."
+    },
+    {
+     "de": "Heute geht es um Schutztechnik.",
+     "ar": "موضوعنا اليوم هو تقنية الحماية.",
+     "en": "Today we talk about protection technology."
+    },
+    {
+     "de": "Jede Anlage und jedes Netz braucht Schutz vor Fehlern.",
+     "ar": "كل منشأة وكل شبكة تحتاج إلى حماية من الأعطال.",
+     "en": "Every installation and every grid needs protection against faults."
+    },
+    {
+     "de": "Sie lernen Sicherung, Leitungsschutzschalter und Leistungsschalter kennen.",
+     "ar": "ستتعرفون على المنصهر والقاطع الآلي وقاطع القدرة.",
+     "en": "You will get to know the fuse, the miniature circuit breaker and the power circuit breaker."
+    },
+    {
+     "de": "Dann sehen wir, was Selektivität bedeutet.",
+     "ar": "ثم سنرى ما معنى الانتقائية.",
+     "en": "Then we see what selectivity means."
+    },
+    {
+     "de": "Außerdem klären wir Trenner, Lasttrenner und Schütz.",
+     "ar": "كما سنوضح الفرق بين المفصل ومفصل الحمل والملامس.",
+     "en": "We also clarify the disconnector, the switch disconnector and the contactor."
+    },
+    {
+     "de": "Zum Schluss folgt ein Blick auf den Netzschutz.",
+     "ar": "وفي الختام نلقي نظرة على حماية الشبكة.",
+     "en": "At the end we look at grid protection."
+    },
+    {
+     "de": "Wir bleiben bei den Begriffen und ohne schwere Rechnung.",
+     "ar": "سنبقى عند المفاهيم دون حسابات معقدة.",
+     "en": "We stay with the concepts and without heavy calculation."
+    },
+    {
+     "de": "Das Thema ist für Anlagen, Fabriken und Netze gleichermaßen wichtig.",
+     "ar": "الموضوع مهم للمنشآت والمصانع والشبكات على حد سواء.",
+     "en": "The topic is equally important for installations, factories and grids."
+    },
+    {
+     "de": "Am Ende können Sie die wichtigsten Begriffe im Gespräch sicher verwenden.",
+     "ar": "وفي النهاية ستتمكنون من استخدام أهم المصطلحات بثقة في الحديث.",
+     "en": "In the end you can use the most important terms confidently in conversation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Kein Ersatz für Ausbildung"
+    ],
+    "terms": [
+     {
+      "de": "Schutzorgan",
+      "ar": "جهاز الحماية",
+      "en": "protective device"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video erklärt nur Grundbegriffe.",
+     "ar": "هذا الفيديو يشرح المفاهيم الأساسية فقط.",
+     "en": "This video explains basic concepts only."
+    },
+    {
+     "de": "Die Auslegung von Schutz ist Aufgabe von geschulten Fachleuten.",
+     "ar": "تصميم الحماية مهمة متخصصين مؤهلين.",
+     "en": "Designing protection is the job of trained specialists."
+    },
+    {
+     "de": "Sie rechnen mit Herstellerdaten und aktuellen Normen.",
+     "ar": "فهم يعتمدون على بيانات المصنّعين والمعايير الحالية.",
+     "en": "They work with manufacturer data and current standards."
+    },
+    {
+     "de": "Hier lernen Sie die Sprache dazu.",
+     "ar": "هنا ستتعلمون اللغة المرتبطة بالموضوع.",
+     "en": "Here you learn the language that goes with it."
+    },
+    {
+     "de": "Dann können Sie im Team gut mitreden.",
+     "ar": "وعندها يمكنكم المشاركة في النقاش مع الفريق بشكل جيد.",
+     "en": "Then you can take part in team discussions well."
+    },
+    {
+     "de": "Zahlen und Grenzwerte nennen wir bewusst nicht.",
+     "ar": "ولا نذكر الأرقام والقيم الحدّية عمدًا.",
+     "en": "We deliberately do not give numbers or limit values."
+    },
+    {
+     "de": "Bitte nutzen Sie es als Einstieg und vertiefen Sie die Themen später.",
+     "ar": "يرجى اعتماده مدخلًا ثم التوسع في المواضيع لاحقًا.",
+     "en": "Please use it as an introduction and deepen the topics later."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Warum Schutz?",
+    "heading": "Drei Begriffe: Überstrom, Überlast, Kurzschluss",
+    "items": [
+     "Überstrom: Oberbegriff für zu hohen Strom",
+     "Überlast: zu viel Last im gesunden Kreis",
+     "Kurzschluss: Fehler ohne Nutzwiderstand",
+     "Ziel: Fehler früh und sicher abschalten"
+    ],
+    "terms": [
+     {
+      "de": "Überstrom",
+      "ar": "التيار الزائد",
+      "en": "overcurrent"
+     },
+     {
+      "de": "Überlast",
+      "ar": "الحمل الزائد",
+      "en": "overload"
+     },
+     {
+      "de": "Kurzschluss",
+      "ar": "القصر (الدائرة القصيرة)",
+      "en": "short circuit"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit den Begriffen.",
+     "ar": "لنبدأ بالمصطلحات.",
+     "en": "Let us start with the terms."
+    },
+    {
+     "de": "Überstrom ist der Oberbegriff.",
+     "ar": "التيار الزائد هو المصطلح الشامل.",
+     "en": "Overcurrent is the umbrella term."
+    },
+    {
+     "de": "Es ist jeder Strom, der höher ist als die zulässige Belastbarkeit.",
+     "ar": "وهو كل تيار أعلى من قدرة التحمل المسموح بها.",
+     "en": "It is any current higher than the permitted load capacity."
+    },
+    {
+     "de": "Überlast entsteht in einem gesunden Stromkreis.",
+     "ar": "الحمل الزائد ينشأ في دارة كهربائية سليمة.",
+     "en": "Overload occurs in a healthy circuit."
+    },
+    {
+     "de": "Zu viele Verbraucher laufen gleichzeitig.",
+     "ar": "أي أن مستهلكين كثيرين يعملون في الوقت نفسه.",
+     "en": "Too many loads run at the same time."
+    },
+    {
+     "de": "Ein Kurzschluss ist dagegen ein Fehler.",
+     "ar": "أما القصر فهو عطل.",
+     "en": "A short circuit, in contrast, is a fault."
+    },
+    {
+     "de": "Zwischen spannungsführenden Leitern entsteht eine leitende Verbindung ohne Nutzwiderstand.",
+     "ar": "ينشأ اتصال موصِّل بين موصلات تحت الجهد دون مقاومة تشغيلية مفيدة.",
+     "en": "A conductive connection arises between live conductors without any useful load resistance."
+    },
+    {
+     "de": "Das Ziel jedes Schutzes: den Fehler früh und sicher abschalten.",
+     "ar": "هدف كل حماية: فصل العطل مبكرًا وبشكل آمن.",
+     "en": "The goal of any protection: switch off the fault early and safely."
+    },
+    {
+     "de": "Diese drei Begriffe sehen Sie in Plänen, Berichten und Gesprächen immer wieder.",
+     "ar": "سترون هذه المصطلحات الثلاثة مرارًا في المخططات والتقارير والنقاشات.",
+     "en": "You see these three terms again and again in drawings, reports and conversations."
+    },
+    {
+     "de": "Wer sie sauber trennt, vermeidet viele Missverständnisse.",
+     "ar": "من يفصل بينها بوضوح يتجنب كثيرًا من سوء الفهم.",
+     "en": "Anyone who separates them cleanly avoids many misunderstandings."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundlagen",
+    "heading": "Kurzschlussstrom: Ohm-Prinzip",
+    "items": [
+     "Strom = Spannung geteilt durch Widerstand",
+     "Fehlerweg: sehr niederohmig",
+     "Dadurch: sehr hoher Strom",
+     "Wechselstrom: Impedanz statt Widerstand",
+     "Wirkt in Millisekunden"
+    ],
+    "terms": [
+     {
+      "de": "Kurzschlussstrom",
+      "ar": "تيار القصر",
+      "en": "short-circuit current"
+     },
+     {
+      "de": "Impedanz",
+      "ar": "المعاوقة",
+      "en": "impedance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Warum ist der Kurzschlussstrom so hoch?",
+     "ar": "لماذا يكون تيار القصر مرتفعًا إلى هذا الحد؟",
+     "en": "Why is the short-circuit current so high?"
+    },
+    {
+     "de": "Hier hilft das Ohmsche Gesetz.",
+     "ar": "هنا يفيدنا قانون أوم.",
+     "en": "Ohm's law helps here."
+    },
+    {
+     "de": "Der Strom ist die Spannung geteilt durch den Widerstand.",
+     "ar": "التيار هو الجهد مقسومًا على المقاومة.",
+     "en": "The current is the voltage divided by the resistance."
+    },
+    {
+     "de": "Bei einem Kurzschluss ist der Widerstand im Fehlerweg sehr klein.",
+     "ar": "في حالة القصر تكون المقاومة في مسار العطل صغيرة جدًا.",
+     "en": "In a short circuit, the resistance in the fault path is very small."
+    },
+    {
+     "de": "Darum fließt ein sehr hoher Strom.",
+     "ar": "لذلك يمرّ تيار مرتفع جدًا.",
+     "en": "So a very high current flows."
+    },
+    {
+     "de": "Er tritt fast augenblicklich auf.",
+     "ar": "ويظهر تقريبًا في لحظة واحدة.",
+     "en": "It appears almost instantly."
+    },
+    {
+     "de": "Im Wechselstromnetz sprechen wir von Impedanz.",
+     "ar": "وفي شبكة التيار المتناوب نتحدث عن المعاوقة.",
+     "en": "In an AC grid we speak of impedance."
+    },
+    {
+     "de": "Kabel, Transformator und Einspeisung bilden zusammen diese Impedanz.",
+     "ar": "الكابل والمحوّل ومصدر التغذية تشكّل معًا هذه المعاوقة.",
+     "en": "Cable, transformer and supply together form this impedance."
+    },
+    {
+     "de": "Das ist der Grund, warum Kurzschlüsse so gefährlich sind.",
+     "ar": "وهذا هو سبب خطورة حالات القصر.",
+     "en": "This is why short circuits are so dangerous."
+    },
+    {
+     "de": "Die Höhe hängt davon ab, wie stark das Netz an dieser Stelle ist.",
+     "ar": "ويعتمد مقدارها على مدى قوة الشبكة عند هذا الموضع.",
+     "en": "The size depends on how strong the grid is at this point."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Fehlerarten",
+    "heading": "Überlast und Kurzschluss im Vergleich",
+    "items": [
+     "Ursache | Überlast: zu viele Verbraucher; Kurzschluss: Fehler",
+     "Strom | Überlast: erhöht; Kurzschluss: sehr hoch",
+     "Gefahr | Überlast: Erwärmung; Kurzschluss: Zerstörung",
+     "Schutz | Überlast: verzögert; Kurzschluss: sehr schnell",
+     "Beispiel | Überlast: Mehrfachsteckdose; Kurzschluss: Kabelfehler"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Vergleichen wir beide Fehlerarten.",
+     "ar": "لنقارن بين نوعي العطل.",
+     "en": "Let us compare both kinds of fault."
+    },
+    {
+     "de": "Bei Überlast ist der Strom erhöht, aber nicht extrem.",
+     "ar": "في الحمل الزائد يكون التيار مرتفعًا لكن ليس بشكل شديد.",
+     "en": "With overload the current is raised, but not extreme."
+    },
+    {
+     "de": "Die Gefahr liegt in der längeren Erwärmung.",
+     "ar": "الخطر يكمن في التسخين لفترة أطول.",
+     "en": "The danger lies in longer heating."
+    },
+    {
+     "de": "Darum darf der Schutz hier etwas Zeit lassen.",
+     "ar": "لذلك يمكن للحماية هنا أن تمنح بعض الوقت.",
+     "en": "So the protection may allow some time here."
+    },
+    {
+     "de": "Beim Kurzschluss ist der Strom sehr hoch.",
+     "ar": "في القصر يكون التيار مرتفعًا جدًا.",
+     "en": "In a short circuit the current is very high."
+    },
+    {
+     "de": "Hier muss der Schutz sehr schnell abschalten.",
+     "ar": "هنا يجب أن تفصل الحماية بسرعة كبيرة.",
+     "en": "Here the protection must switch off very quickly."
+    },
+    {
+     "de": "Ein Schutzgerät braucht also beide Fähigkeiten.",
+     "ar": "إذن يحتاج جهاز الحماية إلى القدرتين معًا.",
+     "en": "So a protective device needs both abilities."
+    },
+    {
+     "de": "Diese Unterscheidung bestimmt später die Wahl des Schutzgeräts.",
+     "ar": "هذا التمييز يحدد لاحقًا اختيار جهاز الحماية.",
+     "en": "This distinction later determines the choice of protective device."
+    },
+    {
+     "de": "Merken Sie sich das Paar: langsam bei Überlast, schnell bei Kurzschluss.",
+     "ar": "احفظوا هذا الزوج: بطيء عند الحمل الزائد، سريع عند القصر.",
+     "en": "Remember the pair: slow for overload, fast for short circuit."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutzorgan 1",
+    "heading": "Die Sicherung",
+    "items": [
+     "Schmelzleiter im Sicherungseinsatz",
+     "Schmilzt bei zu hohem Strom",
+     "Ganzbereichssicherung schützt Leitungen",
+     "Einsatz wird nach dem Ansprechen getauscht"
+    ],
+    "terms": [
+     {
+      "de": "Sicherung",
+      "ar": "المنصهر",
+      "en": "fuse"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das älteste Schutzorgan ist die Sicherung.",
+     "ar": "أقدم جهاز حماية هو المنصهر.",
+     "en": "The oldest protective device is the fuse."
+    },
+    {
+     "de": "Im Inneren liegt ein Schmelzleiter.",
+     "ar": "في داخله موصل قابل للانصهار.",
+     "en": "Inside there is a fusible element."
+    },
+    {
+     "de": "Bei zu hohem Strom schmilzt er und unterbricht den Stromkreis.",
+     "ar": "عند ارتفاع التيار أكثر من اللازم ينصهر ويقطع الدارة الكهربائية.",
+     "en": "When the current is too high it melts and interrupts the circuit."
+    },
+    {
+     "de": "Danach muss der Sicherungseinsatz getauscht werden.",
+     "ar": "بعد ذلك يجب استبدال عنصر المنصهر.",
+     "en": "Afterwards the fuse link must be replaced."
+    },
+    {
+     "de": "Es gibt Sicherungen für verschiedene Aufgaben.",
+     "ar": "توجد منصهرات لمهام مختلفة.",
+     "en": "There are fuses for different tasks."
+    },
+    {
+     "de": "Eine Ganzbereichssicherung schaltet vom kleinen Überstrom bis zum Kurzschluss ab.",
+     "ar": "منصهر النطاق الكامل يفصل من التيار الزائد الصغير حتى القصر.",
+     "en": "A full-range fuse switches off from a small overcurrent up to the short circuit."
+    },
+    {
+     "de": "Sie schützt damit vor allem Leitungen.",
+     "ar": "وهو بذلك يحمي الكابلات والموصلات بشكل أساسي.",
+     "en": "It therefore mainly protects cables."
+    },
+    {
+     "de": "Sie ist robust, günstig und weit verbreitet.",
+     "ar": "وهو متين ورخيص ومنتشر على نطاق واسع.",
+     "en": "It is robust, inexpensive and widely used."
+    },
+    {
+     "de": "Im Betrieb sorgt sie still dafür, dass Leitungen nicht zu heiß werden.",
+     "ar": "وهو في التشغيل يمنع بهدوء ارتفاع حرارة الكابلات أكثر من اللازم.",
+     "en": "In operation it quietly makes sure that cables do not get too hot."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutzorgan 2",
+    "heading": "Der Leitungsschutzschalter",
+    "items": [
+     "Thermischer Auslöser für Überlast",
+     "Magnetischer Auslöser für Kurzschluss",
+     "Kann nach dem Auslösen wieder eingeschaltet werden",
+     "Typisch in Verteilern der Installation"
+    ],
+    "terms": [
+     {
+      "de": "Leitungsschutzschalter",
+      "ar": "القاطع الآلي",
+      "en": "miniature circuit breaker"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Verteiler finden Sie meist den Leitungsschutzschalter.",
+     "ar": "في لوحة التوزيع ستجدون غالبًا القاطع الآلي.",
+     "en": "In the distribution board you mostly find the miniature circuit breaker."
+    },
+    {
+     "de": "Er vereint zwei Auslöser in einem Gerät.",
+     "ar": "يجمع بين مُحرّكَي فصل في جهاز واحد.",
+     "en": "It combines two releases in one device."
+    },
+    {
+     "de": "Der thermische Auslöser enthält ein Bimetall.",
+     "ar": "المُحرِّك الحراري يحتوي على شريحة ثنائية المعدن.",
+     "en": "The thermal release contains a bimetal strip."
+    },
+    {
+     "de": "Er reagiert auf Wärme, also auf Strom und Zeit.",
+     "ar": "وهو يستجيب للحرارة، أي للتيار والزمن.",
+     "en": "It reacts to heat, so to current and time."
+    },
+    {
+     "de": "Das ist der Schutz bei Überlast.",
+     "ar": "هذه هي الحماية عند الحمل الزائد.",
+     "en": "This is the protection against overload."
+    },
+    {
+     "de": "Der magnetische Auslöser arbeitet fast ohne Verzögerung.",
+     "ar": "المُحرِّك المغناطيسي يعمل تقريبًا دون تأخير.",
+     "en": "The magnetic release works almost without delay."
+    },
+    {
+     "de": "Er schützt bei Kurzschluss.",
+     "ar": "وهو يحمي عند القصر.",
+     "en": "It protects in case of a short circuit."
+    },
+    {
+     "de": "Nach dem Auslösen schalten Sie das Gerät einfach wieder ein, wenn die Ursache behoben ist.",
+     "ar": "بعد الفصل تعيدون تشغيل الجهاز ببساطة إذا زال السبب.",
+     "en": "After tripping you simply switch it on again once the cause is fixed."
+    },
+    {
+     "de": "Er ist praktisch, weil niemand einen Einsatz tauschen muss.",
+     "ar": "وهو عملي لأن أحدًا لا يحتاج إلى استبدال عنصر.",
+     "en": "It is practical because nobody has to replace a link."
+    },
+    {
+     "de": "Trotzdem sollte man vor dem Wiedereinschalten die Ursache suchen.",
+     "ar": "ومع ذلك ينبغي البحث عن السبب قبل إعادة التشغيل.",
+     "en": "Still, you should look for the cause before switching on again."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutzorgan 3",
+    "heading": "Der Leistungsschalter",
+    "items": [
+     "Schaltet Normalstrom und Kurzschlussstrom",
+     "Einstellbare Auslöser",
+     "Für Hauptverteilungen und Einspeisungen",
+     "Auch im Mittel- und Hochspannungsnetz"
+    ],
+    "terms": [
+     {
+      "de": "Leistungsschalter",
+      "ar": "قاطع القدرة",
+      "en": "power circuit breaker"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Für größere Anlagen gibt es den Leistungsschalter.",
+     "ar": "للمنشآت الأكبر يوجد قاطع القدرة.",
+     "en": "For larger installations there is the power circuit breaker."
+    },
+    {
+     "de": "Er kann Betriebsströme ein- und ausschalten.",
+     "ar": "يستطيع وصل وفصل تيارات التشغيل.",
+     "en": "It can switch operating currents on and off."
+    },
+    {
+     "de": "Und er kann auch Kurzschlussströme abschalten.",
+     "ar": "كما يستطيع فصل تيارات القصر.",
+     "en": "And it can also interrupt short-circuit currents."
+    },
+    {
+     "de": "Das unterscheidet ihn von einem Lasttrenner.",
+     "ar": "وهذا ما يميّزه عن مفصل الحمل.",
+     "en": "That distinguishes it from a switch disconnector."
+    },
+    {
+     "de": "Seine Auslöser sind oft einstellbar.",
+     "ar": "محرّكات الفصل فيه غالبًا قابلة للضبط.",
+     "en": "Its releases are often adjustable."
+    },
+    {
+     "de": "So lässt er sich auf die Anlage abstimmen.",
+     "ar": "وبذلك يمكن مواءمته مع المنشأة.",
+     "en": "So it can be matched to the installation."
+    },
+    {
+     "de": "Sie finden ihn in Hauptverteilungen und bei Einspeisungen.",
+     "ar": "ستجدونه في لوحات التوزيع الرئيسية وعند نقاط التغذية.",
+     "en": "You find it in main distribution boards and at supply points."
+    },
+    {
+     "de": "Auch in Netzen und Umspannwerken sind Leistungsschalter die Schalter für den Fehlerfall.",
+     "ar": "وفي الشبكات ومحطات التحويل تكون قواطع القدرة هي المفاتيح المخصصة لحالة العطل.",
+     "en": "In grids and substations too, circuit breakers are the switches for the fault case."
+    },
+    {
+     "de": "Je nach Netzebene ändern sich Bauform und Größe stark.",
+     "ar": "يختلف الشكل والحجم كثيرًا حسب مستوى الشبكة.",
+     "en": "Design and size change a lot depending on the grid level."
+    },
+    {
+     "de": "Das Prinzip bleibt aber gleich: Fehlerstrom erkennen und sicher unterbrechen.",
+     "ar": "لكن المبدأ يبقى نفسه: اكتشاف تيار العطل وقطعه بأمان.",
+     "en": "But the principle stays the same: detect the fault current and interrupt it safely."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Überblick",
+    "heading": "Schutzorgane im Vergleich",
+    "items": [
+     "Sicherung | Schmelzleiter, einmalig, schützt Leitungen",
+     "Leitungsschutzschalter | Thermisch und magnetisch, wieder einschaltbar",
+     "Leistungsschalter | Einstellbar, schaltet auch Kurzschluss",
+     "Alle drei | Schützen vor Überstrom"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir die drei Schutzorgane zusammen.",
+     "ar": "لنلخّص أجهزة الحماية الثلاثة.",
+     "en": "Let us summarize the three protective devices."
+    },
+    {
+     "de": "Die Sicherung ist einfach und schaltet nur einmal.",
+     "ar": "المنصهر بسيط ويفصل مرة واحدة فقط.",
+     "en": "The fuse is simple and switches only once."
+    },
+    {
+     "de": "Der Leitungsschutzschalter ist wieder einschaltbar und sitzt im Verteiler.",
+     "ar": "القاطع الآلي يمكن إعادة تشغيله ويوجد في لوحة التوزيع.",
+     "en": "The miniature circuit breaker can be switched on again and sits in the distribution board."
+    },
+    {
+     "de": "Der Leistungsschalter ist einstellbar und für größere Ströme gedacht.",
+     "ar": "قاطع القدرة قابل للضبط ومخصص للتيارات الأكبر.",
+     "en": "The power circuit breaker is adjustable and made for larger currents."
+    },
+    {
+     "de": "Alle drei schützen vor Überstrom.",
+     "ar": "كلها تحمي من التيار الزائد.",
+     "en": "All three protect against overcurrent."
+    },
+    {
+     "de": "Die Wahl hängt von Anlage, Strom und Aufgabe ab.",
+     "ar": "يعتمد الاختيار على المنشأة والتيار والمهمة.",
+     "en": "The choice depends on installation, current and task."
+    },
+    {
+     "de": "Für Ihre Arbeit heißt das: Sie wählen immer das Schutzorgan, das zur Aufgabe passt.",
+     "ar": "أي أنكم في عملكم تختارون دائمًا جهاز الحماية المناسب للمهمة.",
+     "en": "For your work this means: you always choose the protective device that fits the task."
+    },
+    {
+     "de": "Einen Allzweck-Schutz für alles gibt es nicht.",
+     "ar": "لا يوجد جهاز حماية شامل يصلح لكل شيء.",
+     "en": "There is no all-purpose protection for everything."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtige Grenze",
+    "heading": "Das Ausschaltvermögen",
+    "items": [
+     "Muss höher sein als der Kurzschlussstrom"
+    ],
+    "terms": [
+     {
+      "de": "Ausschaltvermögen",
+      "ar": "قدرة القطع",
+      "en": "breaking capacity"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jedes Schutzgerät hat eine Grenze.",
+     "ar": "لكل جهاز حماية حدّ معيّن.",
+     "en": "Every protective device has a limit."
+    },
+    {
+     "de": "Sie heißt Ausschaltvermögen.",
+     "ar": "يسمى قدرة القطع.",
+     "en": "It is called breaking capacity."
+    },
+    {
+     "de": "Das ist der größte Kurzschlussstrom, den das Gerät sicher abschalten kann.",
+     "ar": "وهو أكبر تيار قصر يستطيع الجهاز فصله بأمان.",
+     "en": "It is the largest short-circuit current the device can safely interrupt."
+    },
+    {
+     "de": "An der Einbaustelle darf der zu erwartende Kurzschlussstrom nicht höher sein.",
+     "ar": "عند موضع التركيب يجب ألا يكون تيار القصر المتوقع أعلى منها.",
+     "en": "At the installation point the expected short-circuit current must not be higher."
+    },
+    {
+     "de": "Ist er höher, braucht man ein vorgeschaltetes Schutzgerät.",
+     "ar": "وإذا كان أعلى فهناك حاجة إلى جهاز حماية في المنبع.",
+     "en": "If it is higher, an upstream protective device is needed."
+    },
+    {
+     "de": "Man spricht dann von Vorsicherung oder Back-up-Schutz.",
+     "ar": "ويُسمّى ذلك عندئذٍ المنصهر الاحتياطي أو الحماية الداعمة.",
+     "en": "This is then called back-up protection."
+    },
+    {
+     "de": "Auch der kleinste Kurzschlussstrom ist wichtig.",
+     "ar": "كذلك تيار القصر الأصغر مهم.",
+     "en": "The smallest short-circuit current matters too."
+    },
+    {
+     "de": "Am Ende langer Kabel muss der Schutz noch sicher auslösen.",
+     "ar": "في نهاية الكابلات الطويلة يجب أن تظل الحماية قادرة على الفصل بأمان.",
+     "en": "At the end of long cables the protection must still trip reliably."
+    },
+    {
+     "de": "Das Ausschaltvermögen ist also eine Sicherheitsgrenze.",
+     "ar": "إذن قدرة القطع حدّ أمان.",
+     "en": "So the breaking capacity is a safety limit."
+    },
+    {
+     "de": "Sie gehört in jede Auswahl und in jede Dokumentation.",
+     "ar": "وهي جزء من كل اختيار ومن كل توثيق.",
+     "en": "It belongs in every selection and every document."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zusammenspiel",
+    "heading": "Selektivität",
+    "items": [
+     "Nur das Gerät vor der Fehlerstelle löst aus",
+     "Der Rest der Anlage bleibt in Betrieb",
+     "Total: für alle Überströme",
+     "Partiell: nur bis zu einem Grenzstrom"
+    ],
+    "terms": [
+     {
+      "de": "Selektivität",
+      "ar": "الانتقائية",
+      "en": "selectivity"
+     },
+     {
+      "de": "Fehlerstelle",
+      "ar": "موضع العطل",
+      "en": "fault location"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt ein Kernbegriff: die Selektivität.",
+     "ar": "الآن نصل إلى مصطلح أساسي: الانتقائية.",
+     "en": "Now comes a core term: selectivity."
+    },
+    {
+     "de": "Stellen Sie sich mehrere Schutzgeräte hintereinander vor.",
+     "ar": "تخيلوا عدة أجهزة حماية مرتبة على التوالي.",
+     "en": "Imagine several protective devices in series."
+    },
+    {
+     "de": "Bei einem Fehler soll nur das Gerät auslösen, das direkt vor der Fehlerstelle sitzt.",
+     "ar": "عند حدوث عطل يجب أن يفصل فقط الجهاز الموجود مباشرة قبل موضع العطل.",
+     "en": "In a fault only the device directly in front of the fault location should trip."
+    },
+    {
+     "de": "Der Rest der Anlage bleibt in Betrieb.",
+     "ar": "ويبقى باقي المنشأة قيد التشغيل.",
+     "en": "The rest of the installation stays in operation."
+    },
+    {
+     "de": "Das ist wichtig für Fertigung, Krankenhaus und Rechenzentrum.",
+     "ar": "وهذا مهم للإنتاج والمستشفيات ومراكز البيانات.",
+     "en": "This matters for production, hospitals and data centres."
+    },
+    {
+     "de": "Man unterscheidet totale und partielle Selektivität.",
+     "ar": "نميّز بين الانتقائية الكاملة والجزئية.",
+     "en": "We distinguish total and partial selectivity."
+    },
+    {
+     "de": "Total gilt für alle möglichen Überströme.",
+     "ar": "الكاملة تنطبق على جميع التيارات الزائدة الممكنة.",
+     "en": "Total applies to all possible overcurrents."
+    },
+    {
+     "de": "Partiell gilt nur bis zu einem bestimmten Grenzstrom.",
+     "ar": "والجزئية تنطبق فقط حتى تيار حدّي معيّن.",
+     "en": "Partial applies only up to a certain limit current."
+    },
+    {
+     "de": "Selektivität ist ein Teil der Versorgungssicherheit im Kleinen.",
+     "ar": "الانتقائية جزء من أمن الإمداد على نطاق صغير.",
+     "en": "Selectivity is a part of supply security on a small scale."
+    },
+    {
+     "de": "Ohne sie könnte ein kleiner Fehler die ganze Anlage lahmlegen.",
+     "ar": "من دونها قد يشلّ عطل صغير المنشأة بالكامل.",
+     "en": "Without it a small fault could shut down the whole installation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Staffelung",
+    "heading": "Wie erreicht man Selektivität?",
+    "items": [
+     "Stromstaffelung: unterschiedliche Ansprechwerte",
+     "Zeitstaffelung: Verzögerung nach oben",
+     "Näher an der Last: schneller",
+     "Prüfung: Herstellerdaten und Berechnung"
+    ],
+    "terms": [
+     {
+      "de": "Staffelung",
+      "ar": "التدريج",
+      "en": "grading"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Selektivität entsteht durch Staffelung.",
+     "ar": "تتحقق الانتقائية عبر التدريج.",
+     "en": "Selectivity comes from grading."
+    },
+    {
+     "de": "Bei der Stromstaffelung haben die Geräte verschiedene Ansprechwerte.",
+     "ar": "في التدريج بالتيار تكون لدى الأجهزة قيم استجابة مختلفة.",
+     "en": "With current grading the devices have different pick-up values."
+    },
+    {
+     "de": "Das Gerät näher an der Last reagiert früher.",
+     "ar": "الجهاز الأقرب إلى الحمل يستجيب أبكر.",
+     "en": "The device closer to the load reacts earlier."
+    },
+    {
+     "de": "Bei der Zeitstaffelung bekommt das vorgelagerte Gerät eine Verzögerung.",
+     "ar": "في التدريج الزمني يُعطى الجهاز في المنبع تأخيرًا.",
+     "en": "With time grading the upstream device gets a delay."
+    },
+    {
+     "de": "Das nachgelagerte Gerät hat dann Zeit, den Fehler zu beseitigen.",
+     "ar": "وبذلك يكون لدى الجهاز اللاحق وقت لإزالة العطل.",
+     "en": "The downstream device then has time to clear the fault."
+    },
+    {
+     "de": "Die Regel lautet: Das vorgelagerte Gerät darf erst später auslösen.",
+     "ar": "القاعدة هي: يجب ألا يفصل الجهاز السابق إلا بعد ذلك.",
+     "en": "The rule is: the upstream device may only trip later."
+    },
+    {
+     "de": "Ob Selektivität wirklich besteht, zeigen Herstellerdaten und Berechnung.",
+     "ar": "وجود الانتقائية فعلًا تُظهره بيانات المصنّع والحساب.",
+     "en": "Whether selectivity really exists is shown by manufacturer data and calculation."
+    },
+    {
+     "de": "Eine bloße Vermutung reicht nicht.",
+     "ar": "التخمين وحده لا يكفي.",
+     "en": "A mere assumption is not enough."
+    },
+    {
+     "de": "Beide Wege können kombiniert werden.",
+     "ar": "يمكن الجمع بين الطريقتين.",
+     "en": "Both ways can be combined."
+    },
+    {
+     "de": "Das Ergebnis muss immer nachvollziehbar sein.",
+     "ar": "ويجب أن تكون النتيجة قابلة للتتبع دائمًا.",
+     "en": "The result must always be traceable."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Schaltgeräte 1",
+    "heading": "Trenner und Lasttrenner",
+    "items": [
+     "Trenner: sichere Freischaltung",
+     "Meist nur ohne Last bedienen",
+     "Lasttrenner: schaltet Betriebsströme",
+     "Kein Kurzschlussschutz"
+    ],
+    "terms": [
+     {
+      "de": "Trenner",
+      "ar": "المفصل",
+      "en": "disconnector"
+     },
+     {
+      "de": "Lasttrenner",
+      "ar": "مفصل الحمل",
+      "en": "switch disconnector"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zu den Schaltgeräten.",
+     "ar": "والآن إلى أجهزة القطع والوصل.",
+     "en": "Now to the switching devices."
+    },
+    {
+     "de": "Ein Trenner dient der sicheren Freischaltung.",
+     "ar": "يخدم المفصل الفصل الآمن للدارة.",
+     "en": "A disconnector serves safe isolation."
+    },
+    {
+     "de": "Er zeigt, dass der Stromkreis wirklich offen ist.",
+     "ar": "ويُظهر أن الدارة الكهربائية مفتوحة فعلًا.",
+     "en": "It shows that the circuit is really open."
+    },
+    {
+     "de": "Ein reiner Trenner wird normalerweise ohne Last bedient.",
+     "ar": "المفصل البحت يُشغَّل عادةً دون حمل.",
+     "en": "A pure disconnector is normally operated without load."
+    },
+    {
+     "de": "Öffnet man ihn unter Strom, kann ein Lichtbogen entstehen.",
+     "ar": "وإذا فُتح تحت التيار فقد ينشأ قوس كهربائي.",
+     "en": "If it is opened under current, an arc can occur."
+    },
+    {
+     "de": "Ein Lasttrenner kann dagegen Betriebsströme schalten.",
+     "ar": "أما مفصل الحمل فيستطيع وصل وفصل تيارات التشغيل.",
+     "en": "A switch disconnector, however, can switch operating currents."
+    },
+    {
+     "de": "Aber er ist kein Schutzgerät für den Kurzschluss.",
+     "ar": "لكنه ليس جهاز حماية من القصر.",
+     "en": "But it is not a protective device against short circuit."
+    },
+    {
+     "de": "Dafür brauchen Sie Sicherung oder Leistungsschalter.",
+     "ar": "لذلك تحتاجون إلى منصهر أو قاطع قدرة.",
+     "en": "For that you need a fuse or a circuit breaker."
+    },
+    {
+     "de": "Darum schaltet man vor Arbeiten zuerst mit einem Gerät, das Last schalten darf.",
+     "ar": "لذلك يُفصل قبل العمل أولًا بجهاز يسمح له بفصل الحمل.",
+     "en": "That is why before work you first switch off with a device that may switch load."
+    },
+    {
+     "de": "Danach trennt man sichtbar und sicher.",
+     "ar": "وبعد ذلك يُفصل بشكل واضح وآمن.",
+     "en": "Only then do you isolate visibly and safely."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schaltgeräte 2",
+    "heading": "Das Schütz",
+    "items": [
+     "Elektromagnetischer Schalter",
+     "Schaltet große Verbraucher aus der Ferne",
+     "Steuerstrom schaltet Laststrom",
+     "Kein eigener Überlast- oder Kurzschlussschutz"
+    ],
+    "terms": [
+     {
+      "de": "Schütz",
+      "ar": "الملامس (الكونتاكتور)",
+      "en": "contactor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Schütz ist ein elektromagnetischer Schalter.",
+     "ar": "الملامس مفتاح كهرومغناطيسي.",
+     "en": "The contactor is an electromagnetic switch."
+    },
+    {
+     "de": "Ein kleiner Steuerstrom schaltet einen großen Laststrom.",
+     "ar": "تيار تحكم صغير يوصل تيار حمل كبيرًا.",
+     "en": "A small control current switches a large load current."
+    },
+    {
+     "de": "So kann man Motoren aus der Ferne ein- und ausschalten.",
+     "ar": "وهكذا يمكن تشغيل المحركات وإيقافها عن بُعد.",
+     "en": "This way motors can be switched on and off remotely."
+    },
+    {
+     "de": "Man sieht Schütze oft im Schaltschrank.",
+     "ar": "نرى الملامسات غالبًا في خزانة التوزيع والتحكم.",
+     "en": "You often see contactors in the control cabinet."
+    },
+    {
+     "de": "Aber Vorsicht: Ein Schütz schützt nicht selbst.",
+     "ar": "لكن انتبهوا: الملامس لا يحمي نفسه بنفسه.",
+     "en": "But careful: a contactor does not protect itself."
+    },
+    {
+     "de": "Für Überlast kommt ein Überlastrelais dazu.",
+     "ar": "للحمل الزائد يُضاف مرحّل حماية من الحمل الزائد.",
+     "en": "For overload an overload relay is added."
+    },
+    {
+     "de": "Für Kurzschluss braucht es Sicherung oder Leitungsschutzschalter.",
+     "ar": "وللقصر يلزم منصهر أو قاطع آلي.",
+     "en": "For short circuit it needs a fuse or a miniature circuit breaker."
+    },
+    {
+     "de": "Ein Schütz wird sehr oft geschaltet und ist dafür gebaut.",
+     "ar": "يُشغَّل الملامس كثيرًا جدًا وهو مصمم لذلك.",
+     "en": "A contactor is switched very often and is built for that."
+    },
+    {
+     "de": "Das ist seine Stärke im Maschinenbau und in der Industrie.",
+     "ar": "وهذه ميزته في هندسة الآلات والصناعة.",
+     "en": "That is its strength in machinery and industry."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Überblick",
+    "heading": "Schaltgeräte im Vergleich",
+    "items": [
+     "Trenner | Freischalten, meist lastfrei",
+     "Lasttrenner | Betriebsstrom schalten",
+     "Schütz | Fernschalten, oft sehr häufig",
+     "Leistungsschalter | Betrieb und Kurzschluss",
+     "Wichtig | Schalten und Schützen sind verschiedene Aufgaben"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ordnen wir die Schaltgeräte nach ihrer Aufgabe.",
+     "ar": "لنرتّب أجهزة القطع والوصل حسب مهمتها.",
+     "en": "Let us sort the switching devices by their task."
+    },
+    {
+     "de": "Der Trenner trennt sicher.",
+     "ar": "المفصل يفصل بأمان.",
+     "en": "The disconnector isolates safely."
+    },
+    {
+     "de": "Der Lasttrenner schaltet normale Lastströme.",
+     "ar": "مفصل الحمل يوصل ويفصل تيارات الحمل العادية.",
+     "en": "The switch disconnector switches normal load currents."
+    },
+    {
+     "de": "Das Schütz schaltet oft und aus der Ferne.",
+     "ar": "الملامس يعمل كثيرًا وعن بُعد.",
+     "en": "The contactor switches often and remotely."
+    },
+    {
+     "de": "Der Leistungsschalter beherrscht auch den Kurzschluss.",
+     "ar": "قاطع القدرة يتحكم أيضًا في القصر.",
+     "en": "The circuit breaker also handles the short circuit."
+    },
+    {
+     "de": "Merken Sie sich: Schalten und Schützen sind verschiedene Aufgaben.",
+     "ar": "تذكروا: الوصل والفصل والحماية مهام مختلفة.",
+     "en": "Remember: switching and protecting are different tasks."
+    },
+    {
+     "de": "In der Praxis arbeiten diese Geräte oft zusammen.",
+     "ar": "في الواقع العملي تعمل هذه الأجهزة غالبًا معًا.",
+     "en": "In practice these devices often work together."
+    },
+    {
+     "de": "Ein Motorabzweig besteht zum Beispiel aus Schutzgerät, Schütz und Überlastrelais.",
+     "ar": "فرع المحرك مثلًا يتكوّن من جهاز حماية وملامس ومرحّل حماية من الحمل الزائد.",
+     "en": "A motor feeder consists, for example, of a protective device, a contactor and an overload relay."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzschutz",
+    "heading": "Die Schutzkette im Netz",
+    "items": [
+     "Stromwandler misst den Strom",
+     "Schutzrelais bewertet",
+     "Auslösekreis gibt den Befehl",
+     "Leistungsschalter trennt den Abschnitt"
+    ],
+    "terms": [
+     {
+      "de": "Schutzrelais",
+      "ar": "مرحّل الحماية",
+      "en": "protection relay"
+     },
+     {
+      "de": "Stromwandler",
+      "ar": "محوّل التيار",
+      "en": "current transformer"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "In großen Netzen arbeitet der Schutz als Kette.",
+     "ar": "في الشبكات الكبيرة تعمل الحماية كسلسلة.",
+     "en": "In large grids the protection works as a chain."
+    },
+    {
+     "de": "Zuerst misst ein Stromwandler den Strom.",
+     "ar": "أولًا يقيس محوّل التيار التيار.",
+     "en": "First a current transformer measures the current."
+    },
+    {
+     "de": "Er liefert ein kleines Messsignal an das Schutzrelais.",
+     "ar": "يُرسل إشارة قياس صغيرة إلى مرحّل الحماية.",
+     "en": "It delivers a small measuring signal to the protection relay."
+    },
+    {
+     "de": "Das Schutzrelais bewertet, ob ein Fehler vorliegt.",
+     "ar": "يقيّم مرحّل الحماية ما إذا كان هناك عطل.",
+     "en": "The protection relay judges whether a fault exists."
+    },
+    {
+     "de": "Wenn ja, schließt es den Auslösekreis.",
+     "ar": "وإذا كان الأمر كذلك فإنه يغلق دارة الفصل.",
+     "en": "If yes, it closes the trip circuit."
+    },
+    {
+     "de": "Dann öffnet der Leistungsschalter.",
+     "ar": "عندها يفتح قاطع القدرة.",
+     "en": "Then the circuit breaker opens."
+    },
+    {
+     "de": "Der fehlerhafte Abschnitt ist vom Netz getrennt.",
+     "ar": "ويصبح المقطع المعطوب معزولًا عن الشبكة.",
+     "en": "The faulty section is separated from the grid."
+    },
+    {
+     "de": "Das alles geschieht in sehr kurzer Zeit.",
+     "ar": "وكل ذلك يحدث في زمن قصير جدًا.",
+     "en": "All of this happens in a very short time."
+    },
+    {
+     "de": "Jedes Glied der Kette muss zuverlässig arbeiten.",
+     "ar": "يجب أن يعمل كل حلقة من السلسلة بشكل موثوق.",
+     "en": "Every link of the chain must work reliably."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Netzschutz",
+    "heading": "Distanzschutz",
+    "items": [
+     "Misst die Impedanz",
+     "Daraus folgt die Entfernung zum Fehler",
+     "Typisch für Leitungen im Übertragungsnetz",
+     "Auch in vermaschten Verteilnetzen"
+    ],
+    "terms": [
+     {
+      "de": "Distanzschutz",
+      "ar": "الحماية بالمسافة",
+      "en": "distance protection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein wichtiges Verfahren ist der Distanzschutz.",
+     "ar": "من الطرق المهمة الحماية بالمسافة.",
+     "en": "An important method is distance protection."
+    },
+    {
+     "de": "Er arbeitet mit der Impedanz.",
+     "ar": "وهي تعمل بالاعتماد على المعاوقة.",
+     "en": "It works with impedance."
+    },
+    {
+     "de": "Je weiter der Fehler entfernt ist, desto größer ist die gemessene Impedanz.",
+     "ar": "كلما كان العطل أبعد زادت المعاوقة المقاسة.",
+     "en": "The farther away the fault, the larger the measured impedance."
+    },
+    {
+     "de": "So erkennt das Gerät, wie weit der Fehler entfernt ist.",
+     "ar": "وهكذا يعرف الجهاز مدى بُعد العطل.",
+     "en": "This is how the device recognizes how far away the fault is."
+    },
+    {
+     "de": "Distanzschutz ist die Basis des Netzschutzes in Übertragungsnetzen.",
+     "ar": "الحماية بالمسافة هي أساس حماية الشبكة في شبكات النقل.",
+     "en": "Distance protection is the basis of grid protection in transmission grids."
+    },
+    {
+     "de": "Man nutzt ihn auch in vermaschten Verteilnetzen.",
+     "ar": "ويُستخدم أيضًا في شبكات التوزيع المتشابكة.",
+     "en": "It is also used in meshed distribution grids."
+    },
+    {
+     "de": "Mehrere Geräte arbeiten dabei gestaffelt zusammen.",
+     "ar": "وتعمل عدة أجهزة معًا بشكل مدرّج.",
+     "en": "Several devices work together in a graded way."
+    },
+    {
+     "de": "Ein einfacher Überstromschutz würde hier oft zu grob arbeiten.",
+     "ar": "الحماية البسيطة من التيار الزائد قد تكون هنا خشنة في الغالب.",
+     "en": "A simple overcurrent protection would often work too coarsely here."
+    },
+    {
+     "de": "Deshalb ist die Entfernung zum Fehler eine nützliche Information.",
+     "ar": "لذلك تكون المسافة إلى العطل معلومة مفيدة.",
+     "en": "That is why the distance to the fault is useful information."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Netzschutz",
+    "heading": "Differentialschutz",
+    "items": [
+     "Vergleicht Ströme an beiden Enden",
+     "Summe sollte null sein",
+     "Reagiert nur im Schutzbereich",
+     "Für Transformatoren, Leitungen, Sammelschienen"
+    ],
+    "terms": [
+     {
+      "de": "Differentialschutz",
+      "ar": "الحماية التفاضلية",
+      "en": "differential protection"
+     },
+     {
+      "de": "Sammelschiene",
+      "ar": "قضيب التجميع",
+      "en": "busbar"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein zweites Verfahren ist der Differentialschutz.",
+     "ar": "الطريقة الثانية هي الحماية التفاضلية.",
+     "en": "A second method is differential protection."
+    },
+    {
+     "de": "Er vergleicht die Ströme am Anfang und am Ende des geschützten Abschnitts.",
+     "ar": "تقارن بين التيارات في بداية المقطع المحمي ونهايته.",
+     "en": "It compares the currents at the beginning and the end of the protected section."
+    },
+    {
+     "de": "Grundlage ist die Kirchhoffsche Knotenregel.",
+     "ar": "الأساس هو قانون كيرشهوف للعقد.",
+     "en": "The basis is Kirchhoff's current law."
+    },
+    {
+     "de": "Im fehlerfreien Fall fließt so viel hinein wie heraus.",
+     "ar": "في حالة عدم وجود عطل يدخل من التيار بقدر ما يخرج.",
+     "en": "In the fault-free case as much flows in as flows out."
+    },
+    {
+     "de": "Gibt es eine Abweichung, liegt ein Fehler im Bereich.",
+     "ar": "وإذا ظهر فرق فهناك عطل داخل المنطقة.",
+     "en": "If there is a difference, there is a fault in the zone."
+    },
+    {
+     "de": "Der Schutz reagiert nur auf Fehler in seinem Schutzbereich.",
+     "ar": "والحماية تستجيب فقط للأعطال داخل منطقتها.",
+     "en": "The protection reacts only to faults in its own zone."
+    },
+    {
+     "de": "Darum ist er selektiv.",
+     "ar": "ولذلك فهي انتقائية.",
+     "en": "That is why it is selective."
+    },
+    {
+     "de": "Man nutzt ihn bei Transformatoren, Leitungen, Maschinen und Sammelschienen.",
+     "ar": "وتُستخدم مع المحولات والخطوط والآلات وقضبان التجميع.",
+     "en": "It is used for transformers, lines, machines and busbars."
+    },
+    {
+     "de": "Das Verfahren ist schnell und genau.",
+     "ar": "هذه الطريقة سريعة ودقيقة.",
+     "en": "The method is fast and precise."
+    },
+    {
+     "de": "Es erkennt Fehler im Bereich, ohne auf Zeitstaffelung zu warten.",
+     "ar": "فهي تكتشف الأعطال في المنطقة دون انتظار التدريج الزمني.",
+     "en": "It detects faults in the zone without waiting for time grading."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzschutz",
+    "heading": "Reserveschutz und moderne Netze",
+    "items": [
+     "Hauptschutz plus Reserveschutz",
+     "Reserve greift bei Versagen",
+     "Mehrere Einspeisungen: Richtung beachten",
+     "Schwache Einspeisung: kleiner Fehlerstrom"
+    ],
+    "terms": [
+     {
+      "de": "Reserveschutz",
+      "ar": "الحماية الاحتياطية",
+      "en": "back-up protection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was passiert, wenn der Hauptschutz versagt?",
+     "ar": "ماذا يحدث إذا فشلت الحماية الرئيسية؟",
+     "en": "What happens if the main protection fails?"
+    },
+    {
+     "de": "Dafür gibt es den Reserveschutz.",
+     "ar": "لهذا توجد الحماية الاحتياطية.",
+     "en": "That is what back-up protection is for."
+    },
+    {
+     "de": "Auch Übertragungsnetzbetreiber arbeiten mit Schutz und Reserveschutz.",
+     "ar": "ومشغّلو شبكات النقل أيضًا يعملون بحماية رئيسية وحماية احتياطية.",
+     "en": "Transmission system operators also work with protection and back-up protection."
+    },
+    {
+     "de": "Ziel ist, die Ausweitung einer Störung zu verhindern.",
+     "ar": "والهدف منع اتساع الاضطراب.",
+     "en": "The aim is to prevent a disturbance from spreading."
+    },
+    {
+     "de": "Moderne Netze haben mehrere Einspeisungen.",
+     "ar": "الشبكات الحديثة لها عدة مصادر تغذية.",
+     "en": "Modern grids have several feeding points."
+    },
+    {
+     "de": "Dann ist die Richtung des Stroms wichtig, damit nicht unnötig abgeschaltet wird.",
+     "ar": "عندها يصبح اتجاه التيار مهمًا حتى لا يحدث فصل غير ضروري.",
+     "en": "Then the direction of the current matters so that no unnecessary tripping occurs."
+    },
+    {
+     "de": "Bei schwacher Einspeisung kann der Kurzschlussstrom klein bleiben.",
+     "ar": "عند التغذية الضعيفة قد يبقى تيار القصر صغيرًا.",
+     "en": "With weak infeed the short-circuit current can stay small."
+    },
+    {
+     "de": "Dann muss der Schutz trotzdem sicher erkennen.",
+     "ar": "ومع ذلك يجب أن تتعرف الحماية عليه بأمان.",
+     "en": "The protection must still detect it reliably."
+    },
+    {
+     "de": "Reserveschutz ist wie ein zweites Netz unter dem Seil.",
+     "ar": "الحماية الاحتياطية كشبكة ثانية تحت الحبل.",
+     "en": "Back-up protection is like a second net under the rope."
+    },
+    {
+     "de": "Er greift erst, wenn der erste Schutz nicht arbeitet.",
+     "ar": "ولا تتدخل إلا إذا لم تعمل الحماية الأولى.",
+     "en": "It only steps in when the first protection does not work."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Ihre Rolle",
+    "heading": "Was Sie als Ingenieur tun",
+    "items": [
+     "Fehlerströme am Einbauort klären",
+     "Geräte und Auslöser abstimmen",
+     "Selektivität dokumentieren",
+     "Mit Netzbetreiber und Hersteller abstimmen"
+    ],
+    "terms": [
+     {
+      "de": "Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "grid operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was bedeutet das für Ihre Arbeit?",
+     "ar": "ماذا يعني ذلك لعملكم؟",
+     "en": "What does this mean for your work?"
+    },
+    {
+     "de": "Sie klären, wie hoch der Kurzschlussstrom an der Einbaustelle sein kann.",
+     "ar": "تحددون مدى ارتفاع تيار القصر في موضع التركيب.",
+     "en": "You clarify how high the short-circuit current can be at the installation point."
+    },
+    {
+     "de": "Sie wählen Geräte mit passendem Ausschaltvermögen.",
+     "ar": "تختارون أجهزة بقدرة قطع مناسبة.",
+     "en": "You choose devices with suitable breaking capacity."
+    },
+    {
+     "de": "Sie stimmen die Auslöser aufeinander ab.",
+     "ar": "وتنسّقون محرّكات الفصل بعضها مع بعض.",
+     "en": "You coordinate the releases with each other."
+    },
+    {
+     "de": "Sie dokumentieren die Selektivität nachvollziehbar.",
+     "ar": "وتوثّقون الانتقائية بشكل قابل للمتابعة.",
+     "en": "You document selectivity in a traceable way."
+    },
+    {
+     "de": "Bei Netzanschlüssen sprechen Sie mit dem Netzbetreiber.",
+     "ar": "وعند التوصيل بالشبكة تتشاورون مع مشغّل الشبكة.",
+     "en": "For grid connections you talk to the grid operator."
+    },
+    {
+     "de": "Und Sie arbeiten mit Herstellerdaten und mit Fachleuten für Schutztechnik.",
+     "ar": "وتعملون مع بيانات المصنّعين ومع متخصصين في تقنية الحماية.",
+     "en": "And you work with manufacturer data and with protection specialists."
+    },
+    {
+     "de": "So wird aus Wissen ein sicheres Projekt.",
+     "ar": "وهكذا تتحول المعرفة إلى مشروع آمن.",
+     "en": "This is how knowledge becomes a safe project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Überlast langsam, Kurzschluss schnell",
+     "Drei Schutzorgane für Überstrom",
+     "Ausschaltvermögen größer als Kurzschlussstrom",
+     "Selektivität: nur der Fehlerort schaltet ab",
+     "Distanz- und Differentialschutz im Netz"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "Überlast braucht verzögerten Schutz, Kurzschluss braucht schnellen Schutz.",
+     "ar": "الحمل الزائد يحتاج حماية متأخرة، والقصر يحتاج حماية سريعة.",
+     "en": "Overload needs delayed protection, short circuit needs fast protection."
+    },
+    {
+     "de": "Sicherung, Leitungsschutzschalter und Leistungsschalter sind die Schutzorgane.",
+     "ar": "المنصهر والقاطع الآلي وقاطع القدرة هي أجهزة الحماية.",
+     "en": "Fuse, miniature circuit breaker and power circuit breaker are the protective devices."
+    },
+    {
+     "de": "Das Ausschaltvermögen muss zum Kurzschlussstrom passen.",
+     "ar": "يجب أن تتناسب قدرة القطع مع تيار القصر.",
+     "en": "The breaking capacity must match the short-circuit current."
+    },
+    {
+     "de": "Selektivität heißt: Nur der Bereich mit dem Fehler wird abgeschaltet.",
+     "ar": "الانتقائية تعني: يُفصل فقط المقطع الذي فيه العطل.",
+     "en": "Selectivity means: only the area with the fault is switched off."
+    },
+    {
+     "de": "Trenner, Lasttrenner und Schütz schalten, aber sie schützen nicht automatisch.",
+     "ar": "المفصل ومفصل الحمل والملامس توصل وتفصل، لكنها لا تحمي تلقائيًا.",
+     "en": "Disconnector, switch disconnector and contactor switch, but they do not automatically protect."
+    },
+    {
+     "de": "Im Netz sichern Distanzschutz, Differentialschutz und Reserveschutz die Versorgung.",
+     "ar": "وفي الشبكة تؤمّن الحماية بالمسافة والتفاضلية والاحتياطية استمرارية الإمداد.",
+     "en": "In the grid, distance, differential and back-up protection secure supply."
+    },
+    {
+     "de": "Wenn Sie diese Begriffe sicher nutzen, verstehen Sie Schutzkonzepte im Gespräch viel besser.",
+     "ar": "إذا استخدمتم هذه المصطلحات بثقة فسوف تفهمون مفاهيم الحماية في النقاش بشكل أفضل بكثير.",
+     "en": "If you use these terms confidently, you will understand protection concepts in conversation much better."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Zum Schluss",
+    "heading": "Aktuelle Fassungen prüfen",
+    "items": [
+     "Allgemeine Information, keine Beratung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss noch eine wichtige Bitte.",
+     "ar": "وأخيرًا، طلب مهم.",
+     "en": "Finally, an important request."
+    },
+    {
+     "de": "Gesetze, Normen und Anschlussregeln ändern sich.",
+     "ar": "القوانين والمعايير وقواعد التوصيل تتغير.",
+     "en": "Laws, standards and connection rules change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung.",
+     "ar": "تحققوا دائمًا من النسخة الحالية.",
+     "en": "Always check the current version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is not legal advice and not engineering advice."
+    },
+    {
+     "de": "Für konkrete Projekte brauchen Sie Fachleute und Herstellerdaten.",
+     "ar": "للمشاريع الفعلية تحتاجون إلى مختصين وبيانات من المصنّعين.",
+     "en": "For real projects you need specialists and manufacturer data."
+    },
+    {
+     "de": "Im nächsten Video geht es um Netzqualität.",
+     "ar": "في الفيديو القادم نتناول جودة الطاقة.",
+     "en": "The next video is about power quality."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Sicherung",
+   "ar": "المنصهر",
+   "en": "fuse"
+  },
+  {
+   "de": "der Leitungsschutzschalter",
+   "ar": "القاطع الآلي",
+   "en": "miniature circuit breaker"
+  },
+  {
+   "de": "der Leistungsschalter",
+   "ar": "قاطع القدرة",
+   "en": "power circuit breaker"
+  },
+  {
+   "de": "der Überstrom",
+   "ar": "التيار الزائد",
+   "en": "overcurrent"
+  },
+  {
+   "de": "die Überlast",
+   "ar": "الحمل الزائد",
+   "en": "overload"
+  },
+  {
+   "de": "der Kurzschluss",
+   "ar": "القصر (الدائرة القصيرة)",
+   "en": "short circuit"
+  },
+  {
+   "de": "der Kurzschlussstrom",
+   "ar": "تيار القصر",
+   "en": "short-circuit current"
+  },
+  {
+   "de": "das Ausschaltvermögen",
+   "ar": "قدرة القطع",
+   "en": "breaking capacity"
+  },
+  {
+   "de": "die Selektivität",
+   "ar": "الانتقائية",
+   "en": "selectivity"
+  },
+  {
+   "de": "die Staffelung",
+   "ar": "التدريج",
+   "en": "grading"
+  },
+  {
+   "de": "der Trenner",
+   "ar": "المفصل",
+   "en": "disconnector"
+  },
+  {
+   "de": "der Lasttrenner",
+   "ar": "مفصل الحمل",
+   "en": "switch disconnector"
+  },
+  {
+   "de": "das Schütz",
+   "ar": "الملامس (الكونتاكتور)",
+   "en": "contactor"
+  },
+  {
+   "de": "das Schutzrelais",
+   "ar": "مرحّل الحماية",
+   "en": "protection relay"
+  },
+  {
+   "de": "der Stromwandler",
+   "ar": "محوّل التيار",
+   "en": "current transformer"
+  },
+  {
+   "de": "der Distanzschutz",
+   "ar": "الحماية بالمسافة",
+   "en": "distance protection"
+  },
+  {
+   "de": "der Differentialschutz",
+   "ar": "الحماية التفاضلية",
+   "en": "differential protection"
+  },
+  {
+   "de": "der Reserveschutz",
+   "ar": "الحماية الاحتياطية",
+   "en": "back-up protection"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was ist ein Kurzschluss?",
+    "ar": "ما هو القصر؟",
+    "en": "What is a short circuit?"
+   },
+   "options": [
+    {
+     "de": "Zu viele Verbraucher laufen",
+     "ar": "مستهلكون كثيرون يعملون",
+     "en": "Too many loads run"
+    },
+    {
+     "de": "Ein Fehler ohne Nutzwiderstand zwischen Leitern",
+     "ar": "عطل دون مقاومة تشغيلية بين الموصلات",
+     "en": "A fault without useful resistance between conductors"
+    },
+    {
+     "de": "Ein Schalter ist offen",
+     "ar": "مفتاح مفتوح",
+     "en": "A switch is open"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was schützt der thermische Auslöser eines Leitungsschutzschalters?",
+    "ar": "مماذا يحمي المُحرِّك الحراري في القاطع الآلي؟",
+    "en": "What does the thermal release of a miniature circuit breaker protect against?"
+   },
+   "options": [
+    {
+     "de": "Überlast",
+     "ar": "الحمل الزائد",
+     "en": "Overload"
+    },
+    {
+     "de": "Nur Blitzschlag",
+     "ar": "الصواعق فقط",
+     "en": "Lightning only"
+    },
+    {
+     "de": "Nur Spannungsausfall",
+     "ar": "انقطاع الجهد فقط",
+     "en": "Voltage loss only"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was bedeutet Selektivität?",
+    "ar": "ماذا تعني الانتقائية؟",
+    "en": "What does selectivity mean?"
+   },
+   "options": [
+    {
+     "de": "Alle Geräte lösen gleichzeitig aus",
+     "ar": "تفصل جميع الأجهزة في الوقت نفسه",
+     "en": "All devices trip at the same time"
+    },
+    {
+     "de": "Das größte Gerät löst immer zuerst aus",
+     "ar": "أكبر جهاز يفصل أولًا دائمًا",
+     "en": "The largest device always trips first"
+    },
+    {
+     "de": "Nur das Gerät vor der Fehlerstelle löst aus",
+     "ar": "يفصل فقط الجهاز الذي قبل موضع العطل",
+     "en": "Only the device before the fault location trips"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was gilt für das Ausschaltvermögen?",
+    "ar": "ماذا ينطبق على قدرة القطع؟",
+    "en": "What applies to the breaking capacity?"
+   },
+   "options": [
+    {
+     "de": "Es darf kleiner sein als der Kurzschlussstrom",
+     "ar": "يمكن أن تكون أصغر من تيار القصر",
+     "en": "It may be smaller than the short-circuit current"
+    },
+    {
+     "de": "Es muss höher sein als der zu erwartende Kurzschlussstrom",
+     "ar": "يجب أن تكون أعلى من تيار القصر المتوقع",
+     "en": "It must be higher than the expected short-circuit current"
+    },
+    {
+     "de": "Es ist unwichtig",
+     "ar": "غير مهمة",
+     "en": "It is unimportant"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was macht der Differentialschutz?",
+    "ar": "ماذا تفعل الحماية التفاضلية؟",
+    "en": "What does differential protection do?"
+   },
+   "options": [
+    {
+     "de": "Er misst nur die Spannung",
+     "ar": "تقيس الجهد فقط",
+     "en": "It only measures voltage"
+    },
+    {
+     "de": "Er schaltet Motoren aus der Ferne",
+     "ar": "تشغّل المحركات عن بُعد",
+     "en": "It switches motors remotely"
+    },
+    {
+     "de": "Er vergleicht Ströme an den Enden eines Abschnitts",
+     "ar": "تقارن التيارات عند طرفي المقطع",
+     "en": "It compares currents at the ends of a section"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um Netzqualität.",
+  "ar": "في الفيديو القادم نتناول جودة الطاقة.",
+  "en": "The next video covers power quality."
+ },
+ "stand": "2026-10-20; prüfen: Normausgaben für Leitungsschutzschalter, Sicherungen und Leistungsschalter (in Video nur sinngemäß), Formulierungen zu Trenner/Lasttrenner/Schütz gegen Produktnormen, Reserveschutz-Aussagen gegen VO (EU) 2017/1485 Art. 36 und VDE-FNN-Leitfaden, Distanz-/Differentialschutz gegen Fachliteratur, aktuelle Technische Anschlussregeln (nicht im Video)"
+}

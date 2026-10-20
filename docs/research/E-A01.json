@@ -1,0 +1,156 @@
+{
+ "video": "E-A01",
+ "facts": [
+  {
+   "claim": "Das deutsche Höchstspannungsnetz wird von vier Übertragungsnetzbetreibern betrieben: 50Hertz, Amprion, TenneT und TransnetBW.",
+   "source_url": "https://www.netzentwicklungsplan.de/sites/default/files/2022-11/NEP_2030_1_Entwurf_Teil1_Kap1_bis_3_0.pdf",
+   "source_name": "Netzentwicklungsplan Strom (ÜNB)",
+   "confidence": "high",
+   "note": "Zusätzlich BMWK-Dossier."
+  },
+  {
+   "claim": "Jeder der vier ÜNB verantwortet eine eigene Regelzone, in der Erzeugung und Verbrauch im Gleichgewicht gehalten werden.",
+   "source_url": "https://www.bundestag.de/resource/blob/494452/29f6a6424b8d97b6aad95ff22cfa6577/WD-5-117-16-pdf.pdf",
+   "source_name": "Wissenschaftliche Dienste des Bundestags WD 5-117/16",
+   "confidence": "medium",
+   "note": "Stand 2017; Struktur seitdem unverändert nach Suchtreffern."
+  },
+  {
+   "claim": "Grobe Lage: 50Hertz Norden und Osten; Amprion Westen und Südwesten; TenneT von Schleswig-Holstein bis Bayern; TransnetBW vor allem Baden-Württemberg.",
+   "source_url": "https://www.smard.de/page/en/wiki-article/5884/205642",
+   "source_name": "SMARD (Bundesnetzagentur)",
+   "confidence": "medium",
+   "note": "Nur grobe Himmelsrichtungen im Video; Zonengrenzen folgen nicht exakt Landesgrenzen."
+  },
+  {
+   "claim": "Das Übertragungsnetz entspricht der Höchstspannungsebene; die übrigen Ebenen gehören zum Verteilnetz, das viele regionale und kommunale Betreiber führen.",
+   "source_url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Dossier/NetzeUndNetzausbau/das-deutsche-stromnetz.html",
+   "source_name": "BMWK Dossier Das deutsche Stromnetz",
+   "confidence": "medium",
+   "note": "Auch 1komma5 Netzebenen."
+  },
+  {
+   "claim": "Es gibt vier Spannungsebenen: Höchst-, Hoch-, Mittel- und Niederspannung. Manche Quellen zählen sieben Netzebenen, wenn die Umspannebenen mitgezählt werden.",
+   "source_url": "https://1komma5.com/de/strommarkt/netzebenen/",
+   "source_name": "1komma5 Netzebenen; BMWK",
+   "confidence": "medium",
+   "note": "Grenzwerte in kV weichen zwischen Quellen ab: im Video nicht genannt."
+  },
+  {
+   "claim": "Rollen der Ebenen: Höchstspannung transportiert über weite Strecken; Hochspannung versorgt Städte und große Industrie; Mittelspannung regionale Umspannwerke und Betriebe; Niederspannung ist die letzte Verteilebene für Haushalte und Gewerbe.",
+   "source_url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Dossier/NetzeUndNetzausbau/das-deutsche-stromnetz.html",
+   "source_name": "BMWK Dossier; Bürgerbegehren Klimaschutz Stromnetze",
+   "confidence": "medium",
+   "note": "Qualitativ."
+  },
+  {
+   "claim": "§ 12 EnWG: Betreiber von Übertragungsnetzen regeln die Energieübertragung durch ihr Netz unter Berücksichtigung des Austauschs mit anderen Verbundnetzen und tragen zu einem sicheren Elektrizitätsversorgungssystem in ihrer Regelzone bei.",
+   "source_url": "https://www.gesetze-im-internet.de/enwg_2005/__12.html",
+   "source_name": "gesetze-im-internet.de EnWG § 12",
+   "confidence": "high",
+   "note": "Sinngemäß paraphrasiert."
+  },
+  {
+   "claim": "§ 13 EnWG trägt die Überschrift Systemverantwortung der Betreiber von Übertragungsnetzen; § 14 EnWG erklärt diese Pflichten entsprechend für Verteilnetzbetreiber, soweit sie für die Sicherheit der Versorgung in ihrem Netz verantwortlich sind.",
+   "source_url": "https://dejure.org/gesetze/EnWG/Gesamt/25",
+   "source_name": "dejure.org (EnWG-Inhaltsverzeichnis, § 14)",
+   "confidence": "medium",
+   "note": "Sekundärquelle; Wortlaut gegen gesetze-im-internet.de prüfen."
+  },
+  {
+   "claim": "Für jeden Bilanzkreis ist ein Bilanzkreisverantwortlicher gegenüber dem ÜNB zu benennen; er ist für eine ausgeglichene Bilanz aus Einspeisung und Entnahme in jeder Viertelstunde verantwortlich.",
+   "source_url": "https://bundesrecht.juris.de/stromnzv/StromNZV.pdf",
+   "source_name": "StromNZV § 4 (bundesrecht.juris.de)",
+   "confidence": "medium",
+   "note": "Rechtsstand der StromNZV vor Abgleich mit aktueller Fassung prüfen."
+  },
+  {
+   "claim": "Abweichungen werden viertelstundenscharf durch Ausgleichsenergie ausgeglichen; der Bilanzkreisverantwortliche trägt dem ÜNB die Kosten dafür.",
+   "source_url": "https://amprion.net/Dokumente/Strommarkt/Bilanzkreise/Bilanzkreisvertrag/DE/2024/DE-ÜNB-Standard-Bilanzkreisvertrag-2024.pdf",
+   "source_name": "DE-ÜNB Standard-Bilanzkreisvertrag 2024 (Amprion)",
+   "confidence": "medium",
+   "note": "Preisbildung nicht im Video."
+  },
+  {
+   "claim": "Die ÜNB gleichen Abweichungen mit drei Regelenergiequalitäten aus: Primärregelung, Sekundärregelung und Minutenreserve.",
+   "source_url": "https://www.stadtwerke-peine.de/files/1941-3-0-238b/StromNZV.pdf",
+   "source_name": "StromNZV / Fachliteratur",
+   "confidence": "medium",
+   "note": "Begriffe im EU-Kontext teils anders benannt (aFRR, mFRR); im Video nur deutsche Namen allgemein."
+  },
+  {
+   "claim": "Primärregelleistung dient der schnellen Ausregelung größerer Ungleichgewichte im gesamten ENTSO-E-Verbund Kontinentaleuropa.",
+   "source_url": "https://dserver.bundestag.de/btd/17/107/1710704.pdf",
+   "source_name": "Bundestags-Drucksache 17/10704",
+   "confidence": "medium",
+   "note": "Dimensionierung nicht genannt."
+  },
+  {
+   "claim": "ENTSO-E wurde 2008 gegründet und nahm 2009 den Betrieb auf; Vorgänger war u. a. UCTE.",
+   "source_url": "https://en.wikipedia.org/wiki/Continental_Europe_Synchronous_Area",
+   "source_name": "ENTSO-E / Wikipedia (Sekundärquelle)",
+   "confidence": "medium",
+   "note": "Jahreszahlen im Video nicht genannt."
+  },
+  {
+   "claim": "Das kontinentaleuropäische Synchrongebiet wird mit 50 Hz betrieben; die Übertragungsnetzbetreiber halten die Frequenz, Erzeugung und Verbrauch müssen im ganzen Gebiet im Gleichgewicht sein.",
+   "source_url": "https://entsoe.eu/news/2022/03/16/continental-europe-successful-synchronisation-with-ukraine-and-moldova-power-systems/",
+   "source_name": "ENTSO-E News 2022",
+   "confidence": "high",
+   "note": "Länderzahl schwankt je nach Quelle: nicht genannt."
+  },
+  {
+   "claim": "Die Bundesnetzagentur (Sitz Bonn) fördert Wettbewerb und diskriminierungsfreien Netzzugang, genehmigt Netzentgelte und beschleunigt den Netzausbau.",
+   "source_url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Artikel/Ministerium/Geschaeftsbereich/bundesnetzagentur-bnetza.html",
+   "source_name": "BMWK Bundesnetzagentur",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Nach § 63 Abs. 3 EnWG veröffentlicht die Bundesnetzagentur jährlich einen Monitoringbericht.",
+   "source_url": "https://bdew.de/media/documents/bdew_stellungnahme_monitoring_energie_2025_oeffentlich.pdf",
+   "source_name": "BDEW-Stellungnahme zu Monitoring",
+   "confidence": "medium",
+   "note": "Paragraphenverweis gegen Gesetz prüfen."
+  },
+  {
+   "claim": "Die vier ÜNB erstellen den Netzentwicklungsplan Strom; die Bundesnetzagentur prüft ihn, führt eine Konsultation durch und bestätigt ihn. Er dient als Grundlage des Bundesbedarfsplans.",
+   "source_url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20240301_NEP.html",
+   "source_name": "Bundesnetzagentur Pressemitteilung 01.03.2024",
+   "confidence": "high",
+   "note": "Laufender Zyklus prüfen."
+  },
+  {
+   "claim": "Redispatch greift in die Erzeugung von Kraftwerken ein, um Leitungen vor Überlastung zu schützen; ÜNB prognostizieren und greifen bei Engpässen ein.",
+   "source_url": "https://www.bundesnetzagentur.de/redispatch",
+   "source_name": "Bundesnetzagentur Redispatch; BDEW",
+   "confidence": "medium",
+   "note": "Regeln (Redispatch 2.0, Schwellen) im Video nicht genannt."
+  },
+  {
+   "claim": "Netzbetrieb muss vom Energievertrieb und der Erzeugung entflochten werden (EnWG Teil 2, §§ 6 bis 10); Verteilnetzbetreiber rechtlich getrennt.",
+   "source_url": "https://www.bundestag.de/resource/blob/959608/WD-5-055-23-pdf.pdf",
+   "source_name": "Bundestag WD 5-055/23; dejure EnWG",
+   "confidence": "medium",
+   "note": "Nur allgemein; Details nicht im Video."
+  },
+  {
+   "claim": "Landesregulierungsbehörden sind für kleinere Netzbetreiber zuständig (unter 100.000 Kunden, Netzgebiet in einem Land) nach § 54 EnWG.",
+   "source_url": "https://dejure.org/gesetze/EnWG/Gesamt/36",
+   "source_name": "Bundestag WD / EnWG",
+   "confidence": "medium",
+   "note": "Schwelle nicht im Video."
+  }
+ ],
+ "dropped": [
+  "Länge der Netze in km (37.000 / 94.000 / 520.000 / 1,2 Mio.) – Stand unklar",
+  "Anzahl Verteilnetzbetreiber (ca. 850 bis 866) – schwankt, nur Statista/dpa",
+  "Kilovolt-Grenzwerte der Spannungsebenen – Quellen widersprechen sich",
+  "Zuordnung der Regelzonen zu einzelnen Bundesländern – nicht verlässlich belegt",
+  "Eigentümerstruktur der ÜNB (z. B. Bundesbeteiligung) – ändert sich",
+  "Ausgleichsenergiepreis (reBAP), Preisobergrenzen, Regelleistungsmengen – ändern sich",
+  "Zahl der Länder / ÜNB im ENTSO-E-Verbund – schwankt",
+  "Redispatch-2.0-Schwellen (100 kW) und Starttermin – nicht im Video",
+  "Netzausbau-Kilometer und aktueller NEP-Zyklus – ändert sich"
+ ]
+}

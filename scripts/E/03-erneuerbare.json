@@ -1,0 +1,1628 @@
+{
+ "id": "E-A03",
+ "title": {
+  "de": "Erneuerbare Energien: Photovoltaik, Wind und das EEG",
+  "ar": "الطاقات المتجددة: الشمسية والرياح وقانون EEG والتغذية والتعويض",
+  "en": "Renewable Energy: Solar, Wind and the EEG"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-A03 · Energie und Netze",
+    "heading": "Erneuerbare Energien und EEG",
+    "items": [
+     "Photovoltaik und Wind",
+     "Einspeisevorrang und Vergütung",
+     "Registrierung und Netzverträglichkeit"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum dritten Video über Energie und Netze.",
+     "ar": "مرحبًا بكم في الفيديو الثالث عن الطاقة والشبكات.",
+     "en": "Welcome to the third video about energy and grids."
+    },
+    {
+     "de": "Heute geht es um erneuerbare Energien in Deutschland.",
+     "ar": "موضوعنا اليوم هو الطاقات المتجددة في ألمانيا.",
+     "en": "Today we look at renewable energy in Germany."
+    },
+    {
+     "de": "Wir sprechen über Photovoltaik und Windenergie.",
+     "ar": "سنتحدث عن الطاقة الشمسية الكهروضوئية وطاقة الرياح.",
+     "en": "We talk about photovoltaics and wind energy."
+    },
+    {
+     "de": "Dann folgt das Erneuerbare-Energien-Gesetz, kurz EEG.",
+     "ar": "ثم نتناول قانون الطاقات المتجددة (EEG) باختصار.",
+     "en": "Then comes the Renewable Energy Sources Act, short EEG.",
+     "tts": "Dann folgt das Erneuerbare-Energien-Gesetz, kurz E-E-Ge."
+    },
+    {
+     "de": "Wir behandeln Prinzipien, keine Zahlen und keine Tarife.",
+     "ar": "سنتناول المبادئ فقط، دون أرقام ودون تعرفات.",
+     "en": "We cover principles, not numbers and not tariffs."
+    },
+    {
+     "de": "Am Ende gibt es ein Glossar und ein Quiz.",
+     "ar": "وفي النهاية مسرد واختبار قصير.",
+     "en": "At the end there is a glossary and a quiz."
+    },
+    {
+     "de": "Das Video ist für Ingenieure gedacht, die in Deutschland an Netzprojekten arbeiten wollen.",
+     "ar": "الفيديو موجّه للمهندسين الذين يريدون العمل في ألمانيا على مشاريع الشبكات.",
+     "en": "The video is meant for engineers who want to work on grid projects in Germany."
+    },
+    {
+     "de": "Wir erklären die wichtigsten deutschen Wörter gleich mit.",
+     "ar": "وسنشرح معها أهم الكلمات الألمانية.",
+     "en": "We explain the most important German words along the way."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur allgemeine Information",
+    "items": [
+     "Gesetze ändern sich oft",
+     "Keine Rechtsberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Das EEG wird in Deutschland immer wieder geändert.",
+     "ar": "يُعدَّل قانون EEG في ألمانيا مرارًا.",
+     "en": "The EEG is amended again and again in Germany.",
+     "tts": "Das E-E-Ge wird in Deutschland immer wieder geändert."
+    },
+    {
+     "de": "Darum nennen wir hier keine Zahlen und keine Fristen.",
+     "ar": "لذلك لا نذكر هنا أرقامًا ولا مُهَلًا.",
+     "en": "So we name no numbers and no deadlines here."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Orientierung.",
+     "ar": "هذا الفيديو توجيه عام.",
+     "en": "This video is general orientation."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is neither legal nor engineering advice."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung der Texte.",
+     "ar": "تحققوا دائمًا من النسخة الحالية للنصوص.",
+     "en": "Always check the current version of the texts."
+    },
+    {
+     "de": "Sie sollen verstehen, wie das System grundsätzlich funktioniert.",
+     "ar": "المقصود أن تفهموا كيف يعمل النظام من حيث المبدأ.",
+     "en": "You should understand how the system works in principle."
+    },
+    {
+     "de": "Für konkrete Projekte brauchen Sie immer die gültigen Originaltexte.",
+     "ar": "وللمشاريع الفعلية تحتاجون دائمًا إلى النصوص الأصلية السارية.",
+     "en": "For real projects you always need the valid original texts."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundidee",
+    "heading": "Warum gibt es das EEG?",
+    "items": [
+     "Ziel: treibhausgasneutrale Stromversorgung",
+     "Ausbau stetig und kosteneffizient",
+     "Umwelt- und netzverträglich"
+    ],
+    "terms": [
+     {
+      "de": "Netzverträglichkeit",
+      "ar": "ملاءمة الشبكة",
+      "en": "grid compatibility"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit dem Ziel des Gesetzes.",
+     "ar": "نبدأ بهدف القانون.",
+     "en": "Let us start with the aim of the law."
+    },
+    {
+     "de": "Das EEG will eine nachhaltige und treibhausgasneutrale Stromversorgung.",
+     "ar": "يريد قانون EEG إمدادًا مستدامًا بالكهرباء محايدًا للغازات الدفيئة.",
+     "en": "The EEG wants a sustainable, greenhouse-gas-neutral power supply.",
+     "tts": "Das E-E-Ge will eine nachhaltige und treibhausgasneutrale Stromversorgung."
+    },
+    {
+     "de": "Diese Versorgung soll vollständig auf erneuerbaren Energien beruhen.",
+     "ar": "ويجب أن يقوم هذا الإمداد بالكامل على الطاقات المتجددة.",
+     "en": "This supply should rest fully on renewable energy."
+    },
+    {
+     "de": "Der Ausbau soll stetig und kosteneffizient sein.",
+     "ar": "ويجب أن يكون التوسع مستمرًا وفعّالًا من حيث التكلفة.",
+     "en": "The expansion should be steady and cost-efficient."
+    },
+    {
+     "de": "Er soll außerdem umweltverträglich und netzverträglich sein.",
+     "ar": "كما يجب أن يكون ملائمًا للبيئة وملائمًا للشبكة.",
+     "en": "It should also be environmentally and grid compatible."
+    },
+    {
+     "de": "Das Wort Netzverträglichkeit merken wir uns. Es kommt später wieder.",
+     "ar": "لنتذكر كلمة ملاءمة الشبكة (Netzverträglichkeit)؛ ستعود لاحقًا.",
+     "en": "Remember the word grid compatibility. It comes back later."
+    },
+    {
+     "de": "Das Gesetz legt also die Richtung fest und den Rahmen für Anlagen und Netze.",
+     "ar": "فالقانون يحدد الاتجاه والإطار للمنشآت والشبكات.",
+     "en": "So the law sets the direction and the framework for plants and grids."
+    },
+    {
+     "de": "Die technischen Einzelheiten stehen in Regeln, die wir später ansehen.",
+     "ar": "أما التفاصيل التقنية فتوجد في قواعد سنتناولها لاحقًا.",
+     "en": "The technical details are in rules that we look at later."
+    },
+    {
+     "de": "Für Sie als Ingenieur ist das der Hintergrund fast jedes Projekts.",
+     "ar": "بالنسبة لكم كمهندسين هذه هي خلفية كل مشروع تقريبًا.",
+     "en": "For you as an engineer this is the background of almost every project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Bedeutung",
+    "heading": "Besonderes öffentliches Interesse",
+    "items": [
+     "Errichtung und Betrieb von Anlagen",
+     "Überragendes öffentliches Interesse",
+     "Vorrang in Abwägungen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das EEG gibt den erneuerbaren Energien ein besonderes Gewicht.",
+     "ar": "يمنح قانون EEG الطاقات المتجددة وزنًا خاصًا.",
+     "en": "The EEG gives renewable energy special weight.",
+     "tts": "Das E-E-Ge gibt den erneuerbaren Energien ein besonderes Gewicht."
+    },
+    {
+     "de": "Errichtung und Betrieb der Anlagen liegen im überragenden öffentlichen Interesse.",
+     "ar": "إقامة المنشآت وتشغيلها تقع ضمن المصلحة العامة العليا.",
+     "en": "Building and operating the plants is of overriding public interest."
+    },
+    {
+     "de": "Sie dienen auch der öffentlichen Gesundheit und Sicherheit.",
+     "ar": "وهي تخدم أيضًا الصحة العامة والسلامة العامة.",
+     "en": "They also serve public health and safety."
+    },
+    {
+     "de": "Bei Genehmigungen sollen sie ein vorrangiger Belang sein.",
+     "ar": "وفي إجراءات الترخيص يجب أن تكون اعتبارًا ذا أولوية.",
+     "en": "In permit decisions they should be a priority concern."
+    },
+    {
+     "de": "Dieser Vorrang gilt bis zur nahezu treibhausgasneutralen Stromerzeugung.",
+     "ar": "وتسري هذه الأولوية حتى يصبح توليد الكهرباء محايدًا تقريبًا للغازات الدفيئة.",
+     "en": "This priority applies until power generation is almost greenhouse-gas neutral."
+    },
+    {
+     "de": "Für Ihre Arbeit heißt das: Solche Projekte haben politisch Rückenwind.",
+     "ar": "ومعنى ذلك لعملكم: هذه المشاريع تحظى بدعم سياسي.",
+     "en": "For your work this means: such projects have political tailwind."
+    },
+    {
+     "de": "Das EEG ist deshalb mehr als ein reines Vergütungsgesetz.",
+     "ar": "لذلك فإن قانون EEG أكثر من مجرد قانون للمكافآت.",
+     "en": "So the EEG is more than a pure remuneration law.",
+     "tts": "Das E-E-Ge ist deshalb mehr als ein reines Vergütungsgesetz."
+    },
+    {
+     "de": "Es beeinflusst auch, wie Behörden Projekte bewerten.",
+     "ar": "وهو يؤثر أيضًا في كيفية تقييم الجهات الرسمية للمشاريع.",
+     "en": "It also affects how authorities assess projects."
+    },
+    {
+     "de": "Das beschleunigt oft Entscheidungen, ersetzt aber keine Prüfung im Einzelfall.",
+     "ar": "وهذا يسرّع القرارات غالبًا، لكنه لا يغني عن الفحص في كل حالة.",
+     "en": "This often speeds up decisions but does not replace a case-by-case review."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Technik",
+    "heading": "Photovoltaik: vom Licht zum Netz",
+    "items": [
+     "Modul: erzeugt Gleichstrom",
+     "Wechselrichter: macht Wechselstrom",
+     "Schutz: trennt bei Netzfehlern",
+     "Zähler: misst Einspeisung"
+    ],
+    "terms": [
+     {
+      "de": "Wechselrichter",
+      "ar": "العاكس",
+      "en": "inverter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Technik. Beginnen wir mit der Photovoltaik.",
+     "ar": "والآن إلى التقنية. نبدأ بالطاقة الكهروضوئية.",
+     "en": "Now to the technology. We begin with photovoltaics."
+    },
+    {
+     "de": "Solarmodule erzeugen aus Licht elektrischen Gleichstrom.",
+     "ar": "تولّد الألواح الشمسية تيارًا مستمرًا من الضوء.",
+     "en": "Solar modules produce direct current from light."
+    },
+    {
+     "de": "Das öffentliche Netz arbeitet aber mit Wechselstrom.",
+     "ar": "لكن الشبكة العامة تعمل بالتيار المتناوب.",
+     "en": "But the public grid works with alternating current."
+    },
+    {
+     "de": "Deshalb wandelt ein Wechselrichter den Strom um.",
+     "ar": "لذلك يحوّل العاكس (Wechselrichter) التيار.",
+     "en": "So an inverter converts the current."
+    },
+    {
+     "de": "Zusätzlich braucht die Anlage Schutzfunktionen für das Netz.",
+     "ar": "وتحتاج المنشأة أيضًا إلى وظائف حماية تخص الشبكة.",
+     "en": "The plant also needs protective functions for the grid."
+    },
+    {
+     "de": "Ein Zähler erfasst, wie viel Strom ins Netz fließt.",
+     "ar": "ويسجّل العداد كمية الكهرباء المتدفقة إلى الشبكة.",
+     "en": "A meter records how much power flows into the grid."
+    },
+    {
+     "de": "Das Modul liefert Gleichspannung, deren Höhe vom Licht abhängt.",
+     "ar": "يعطي اللوح جهدًا مستمرًا يتوقف مقداره على الضوء.",
+     "en": "The module delivers direct voltage whose level depends on the light."
+    },
+    {
+     "de": "Der Wechselrichter muss die Anlage also immer neu auf einen günstigen Arbeitspunkt regeln.",
+     "ar": "لذلك على العاكس أن يضبط المنشأة باستمرار على نقطة عمل مناسبة.",
+     "en": "So the inverter must keep adjusting the plant to a good operating point."
+    },
+    {
+     "de": "Diese Bausteine finden Sie in fast jeder Anlage wieder, ob klein oder groß.",
+     "ar": "ستجدون هذه المكونات في كل منشأة تقريبًا، صغيرة كانت أم كبيرة.",
+     "en": "You find these building blocks in almost every plant, small or large."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Technik",
+    "heading": "Windenergie: Generator und Umrichter",
+    "items": [
+     "Rotor: nimmt Windenergie auf",
+     "Generator: erzeugt Strom",
+     "Umrichter: passt Frequenz an",
+     "Transformator: hebt die Spannung"
+    ],
+    "terms": [
+     {
+      "de": "Umrichter",
+      "ar": "المحوّل الإلكتروني",
+      "en": "converter"
+     },
+     {
+      "de": "Generator",
+      "ar": "المولّد",
+      "en": "generator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Windenergie.",
+     "ar": "والآن إلى طاقة الرياح.",
+     "en": "Now wind energy."
+    },
+    {
+     "de": "Der Rotor nimmt die Bewegungsenergie des Windes auf.",
+     "ar": "يلتقط الدوّار الطاقة الحركية للرياح.",
+     "en": "The rotor takes up the kinetic energy of the wind."
+    },
+    {
+     "de": "Ein Generator erzeugt daraus elektrische Energie.",
+     "ar": "ويولّد المولّد منها طاقة كهربائية.",
+     "en": "A generator makes electrical energy from it."
+    },
+    {
+     "de": "Der Wind ist nicht konstant, die Drehzahl schwankt oft.",
+     "ar": "الرياح غير ثابتة، وسرعة الدوران تتغير كثيرًا.",
+     "en": "The wind is not constant, so the speed often varies."
+    },
+    {
+     "de": "Dann schwankt auch die Frequenz am Generator.",
+     "ar": "فيتغير كذلك تردد المولّد.",
+     "en": "Then the frequency at the generator varies too."
+    },
+    {
+     "de": "Ein Umrichter formt den Strom passend zum Netz.",
+     "ar": "ويشكّل المحوّل الإلكتروني التيار بما يناسب الشبكة.",
+     "en": "A converter shapes the current to fit the grid."
+    },
+    {
+     "de": "Viele Anlagen nutzen außerdem einen Transformator zur Netzanbindung.",
+     "ar": "وتستخدم منشآت كثيرة أيضًا محوّلًا للربط بالشبكة.",
+     "en": "Many plants also use a transformer for the grid link."
+    },
+    {
+     "de": "Moderne Anlagen sind deshalb stark von Leistungselektronik geprägt.",
+     "ar": "لذلك تتميز المنشآت الحديثة بكثرة إلكترونيات القدرة.",
+     "en": "Modern plants are therefore strongly shaped by power electronics."
+    },
+    {
+     "de": "Für Netzingenieure ist das ein wichtiges Thema der kommenden Jahre.",
+     "ar": "وهذا موضوع مهم لمهندسي الشبكات في السنوات القادمة.",
+     "en": "For grid engineers this is an important topic of the coming years."
+    },
+    {
+     "de": "Auch hier entscheidet die Leistungselektronik über das Verhalten am Netz.",
+     "ar": "وهنا أيضًا تحدد إلكترونيات القدرة السلوك عند الشبكة.",
+     "en": "Here too, power electronics decide the behaviour at the grid."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Vergleich",
+    "heading": "Sonne und Wind im Netz",
+    "items": [
+     "Sonne | Gleichstrom, Wechselrichter nötig",
+     "Wind | Generator, oft mit Umrichter",
+     "Beide | wetterabhängige Einspeisung",
+     "Beide | Leistungselektronik am Netzrand",
+     "Beide | Netz muss Schwankungen ausgleichen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Vergleichen wir beide Technologien kurz.",
+     "ar": "لنقارن التقنيتين بإيجاز.",
+     "en": "Let us compare both technologies briefly."
+    },
+    {
+     "de": "Bei der Sonne entsteht Gleichstrom, ein Wechselrichter ist nötig.",
+     "ar": "في الشمس ينتج تيار مستمر، ولا بد من عاكس.",
+     "en": "With solar, direct current arises, so an inverter is needed."
+    },
+    {
+     "de": "Beim Wind arbeitet ein Generator, oft zusammen mit einem Umrichter.",
+     "ar": "وفي الرياح يعمل مولّد، غالبًا مع محوّل إلكتروني.",
+     "en": "With wind, a generator works, often together with a converter."
+    },
+    {
+     "de": "Beide Quellen hängen vom Wetter ab.",
+     "ar": "كلا المصدرين يعتمد على الطقس.",
+     "en": "Both sources depend on the weather."
+    },
+    {
+     "de": "Beide speisen über Leistungselektronik ins Netz ein.",
+     "ar": "وكلاهما يغذّي الشبكة عبر إلكترونيات القدرة.",
+     "en": "Both feed into the grid through power electronics."
+    },
+    {
+     "de": "Das Netz muss deshalb Schwankungen verkraften.",
+     "ar": "لذلك يجب أن تتحمل الشبكة التقلبات.",
+     "en": "So the grid has to cope with fluctuations."
+    },
+    {
+     "de": "Dazu zählt auch die Frage, wie sich Anlagen bei Netzfehlern verhalten.",
+     "ar": "ويدخل في ذلك أيضًا سؤال كيف تتصرف المنشآت عند أعطال الشبكة.",
+     "en": "This includes the question of how plants behave during grid faults."
+    },
+    {
+     "de": "Darauf kommen wir bei der Netzverträglichkeit zurück.",
+     "ar": "وسنعود إلى ذلك عند الحديث عن ملاءمة الشبكة.",
+     "en": "We return to this under grid compatibility."
+    },
+    {
+     "de": "Genau deshalb sind Regelung und Schutz so wichtig.",
+     "ar": "ولهذا بالذات تكون المراقبة والحماية مهمتين جدًا.",
+     "en": "That is exactly why control and protection are so important."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Erinnerung",
+    "heading": "Wer ist der Netzbetreiber?",
+    "items": [
+     "Verteilnetzbetreiber: regionales Netz",
+     "Übertragungsnetzbetreiber: Höchstspannung",
+     "Anlagen speisen meist ins Verteilnetz"
+    ],
+    "terms": [
+     {
+      "de": "Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "grid operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Erinnern Sie sich an das erste Video dieser Reihe.",
+     "ar": "تذكّروا الفيديو الأول من هذه السلسلة.",
+     "en": "Remember the first video of this series."
+    },
+    {
+     "de": "Dort haben wir die Netzbetreiber kennengelernt.",
+     "ar": "هناك تعرفنا على مشغّلي الشبكة.",
+     "en": "There we met the grid operators."
+    },
+    {
+     "de": "Der Verteilnetzbetreiber betreibt das regionale Netz.",
+     "ar": "مشغّل شبكة التوزيع يدير الشبكة الإقليمية.",
+     "en": "The distribution grid operator runs the regional grid."
+    },
+    {
+     "de": "Der Übertragungsnetzbetreiber betreibt das Höchstspannungsnetz.",
+     "ar": "ومشغّل شبكة النقل يدير شبكة الجهد الفائق.",
+     "en": "The transmission system operator runs the extra-high-voltage grid."
+    },
+    {
+     "de": "Viele Erzeugungsanlagen speisen in das Verteilnetz ein.",
+     "ar": "وكثير من منشآت التوليد تغذّي شبكة التوزيع.",
+     "en": "Many generating plants feed into the distribution grid."
+    },
+    {
+     "de": "Dort ist also Ihr erster Ansprechpartner der Netzbetreiber vor Ort.",
+     "ar": "فمحاورك الأول هناك هو مشغّل الشبكة المحلي.",
+     "en": "So your first contact there is the local grid operator."
+    },
+    {
+     "de": "Kleine Anlagen hängen meist an der Niederspannung.",
+     "ar": "المنشآت الصغيرة تتصل عادةً بالجهد المنخفض.",
+     "en": "Small plants usually connect to low voltage."
+    },
+    {
+     "de": "Große Windparks gehen oft in höhere Spannungsebenen.",
+     "ar": "أما مزارع الرياح الكبيرة فتتصل غالبًا بمستويات جهد أعلى.",
+     "en": "Large wind farms often connect to higher voltage levels."
+    },
+    {
+     "de": "Wer das Netz kennt, versteht auch die Regeln für den Anschluss besser.",
+     "ar": "من يعرف الشبكة يفهم قواعد الربط بصورة أفضل.",
+     "en": "Whoever knows the grid also understands the connection rules better."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzanschluss",
+    "heading": "Anschluss von Anlagen",
+    "items": [
+     "Anschluss unverzüglich und vorrangig",
+     "Netzbetreiber nennt den Verknüpfungspunkt",
+     "Angaben zur Anlage werden geprüft"
+    ],
+    "terms": [
+     {
+      "de": "Netzanschluss",
+      "ar": "التوصيل بالشبكة",
+      "en": "grid connection"
+     },
+     {
+      "de": "Verknüpfungspunkt",
+      "ar": "نقطة الربط",
+      "en": "connection point"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie kommt eine Anlage ans Netz?",
+     "ar": "كيف تصل المنشأة إلى الشبكة؟",
+     "en": "How does a plant get to the grid?"
+    },
+    {
+     "de": "Das EEG verpflichtet Netzbetreiber, Anlagen unverzüglich und vorrangig anzuschließen.",
+     "ar": "يُلزم قانون EEG مشغّلي الشبكة بربط المنشآت دون تأخير وبأولوية.",
+     "en": "The EEG obliges grid operators to connect plants promptly and with priority.",
+     "tts": "Das E-E-Ge verpflichtet Netzbetreiber, Anlagen unverzüglich und vorrangig anzuschließen."
+    },
+    {
+     "de": "Der Anschluss erfolgt an einem geeigneten Verknüpfungspunkt.",
+     "ar": "ويتم الربط عند نقطة ربط مناسبة.",
+     "en": "The connection is made at a suitable connection point."
+    },
+    {
+     "de": "Der Netzbetreiber braucht dafür Angaben zur Anlage.",
+     "ar": "ويحتاج مشغّل الشبكة لذلك إلى بيانات عن المنشأة.",
+     "en": "For this the grid operator needs data about the plant."
+    },
+    {
+     "de": "Damit prüft er die Netzverträglichkeit.",
+     "ar": "وبها يفحص ملاءمة الشبكة.",
+     "en": "With these he checks grid compatibility."
+    },
+    {
+     "de": "Oft stellt ein Installationsbetrieb den Antrag für den Kunden.",
+     "ar": "وغالبًا ما تقدّم شركة التركيب الطلب نيابة عن العميل.",
+     "en": "Often an installation company files the request for the customer."
+    },
+    {
+     "de": "Der Netzbetreiber legt außerdem fest, welche Unterlagen er braucht.",
+     "ar": "كما يحدد مشغّل الشبكة الوثائق التي يحتاجها.",
+     "en": "The grid operator also determines which documents he needs."
+    },
+    {
+     "de": "Er muss Ihnen einen Zeitplan für die Bearbeitung nennen.",
+     "ar": "وعليه أن يعطيكم جدولًا زمنيًا للمعالجة.",
+     "en": "He must give you a schedule for processing."
+    },
+    {
+     "de": "Am Ende erhalten Sie sein Ergebnis samt Kostenvoranschlag für den Anschluss.",
+     "ar": "وفي النهاية تتلقون نتيجته مع تقدير تكلفة الربط.",
+     "en": "In the end you receive his result with a cost estimate for the connection."
+    },
+    {
+     "de": "Das Verfahren ist also vor allem eine Abstimmung zwischen Betreiber, Planer und Netzbetreiber.",
+     "ar": "فالإجراء إذن تنسيق بين المشغّل والمخطط ومشغّل الشبكة.",
+     "en": "So the procedure is mainly coordination between operator, planner and grid operator."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzanschluss",
+    "heading": "Auch bei Engpässen im Netz",
+    "items": [
+     "Anschlusspflicht gilt auch bei Ausbaubedarf",
+     "Netzausbau: unverzüglich",
+     "Grenze: wirtschaftliche Zumutbarkeit"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was, wenn das Netz an der Stelle zu schwach ist?",
+     "ar": "وماذا لو كانت الشبكة ضعيفة في ذلك الموضع؟",
+     "en": "What if the grid is too weak at that spot?"
+    },
+    {
+     "de": "Dann bleibt die Anschlusspflicht grundsätzlich bestehen.",
+     "ar": "تبقى عندئذٍ واجب الربط قائمًا من حيث المبدأ.",
+     "en": "Then the duty to connect basically remains."
+    },
+    {
+     "de": "Der Netzbetreiber muss das Netz dann optimieren, verstärken oder ausbauen.",
+     "ar": "وعلى مشغّل الشبكة حينها تحسين الشبكة أو تقويتها أو توسيعها.",
+     "en": "The grid operator must then optimise, reinforce or expand the grid."
+    },
+    {
+     "de": "Auch das geschieht unverzüglich.",
+     "ar": "وهذا أيضًا يتم دون تأخير.",
+     "en": "This too happens without delay."
+    },
+    {
+     "de": "Eine Grenze ist die wirtschaftliche Zumutbarkeit.",
+     "ar": "وأحد الحدود هو الجدوى الاقتصادية المعقولة.",
+     "en": "One limit is economic reasonableness."
+    },
+    {
+     "de": "Wichtig: Die Details regeln Gesetz und Netzbetreiber im Einzelfall.",
+     "ar": "المهم: التفاصيل يحددها القانون ومشغّل الشبكة في كل حالة.",
+     "en": "Important: law and grid operator settle the details case by case."
+    },
+    {
+     "de": "Planer sollten diese Fragen früh mit dem Netzbetreiber klären.",
+     "ar": "ينبغي للمخططين توضيح هذه الأسئلة مبكرًا مع مشغّل الشبكة.",
+     "en": "Planners should clarify these questions early with the grid operator."
+    },
+    {
+     "de": "So vermeiden sie spätere Überraschungen bei Kosten und Terminen.",
+     "ar": "وبذلك يتجنبون مفاجآت لاحقة في التكاليف والمواعيد.",
+     "en": "This avoids later surprises in costs and schedules."
+    },
+    {
+     "de": "Für Planer heißt das: Netzprüfung und mögliche Ertüchtigung früh einplanen.",
+     "ar": "ومعنى ذلك للمخططين: خططوا مبكرًا لفحص الشبكة وإمكانية تقويتها.",
+     "en": "For planners this means: plan the grid check and possible reinforcement early."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Kernprinzip",
+    "heading": "Einspeisevorrang",
+    "items": [
+     "Abnahme, Übertragung, Verteilung",
+     "vorrangig, unverzüglich, physikalisch"
+    ],
+    "terms": [
+     {
+      "de": "Einspeisevorrang",
+      "ar": "أولوية التغذية",
+      "en": "feed-in priority"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt das Kernprinzip: der Einspeisevorrang.",
+     "ar": "والآن المبدأ الأساسي: أولوية التغذية (Einspeisevorrang).",
+     "en": "Now the core principle: feed-in priority."
+    },
+    {
+     "de": "Netzbetreiber müssen Strom aus erneuerbaren Energien vorrangig abnehmen.",
+     "ar": "على مشغّلي الشبكة أن يستلموا الكهرباء من الطاقات المتجددة بأولوية.",
+     "en": "Grid operators must take electricity from renewables with priority."
+    },
+    {
+     "de": "Sie müssen ihn auch vorrangig übertragen und verteilen.",
+     "ar": "وعليهم أيضًا نقلها وتوزيعها بأولوية.",
+     "en": "They must also transmit and distribute it with priority."
+    },
+    {
+     "de": "Das geschieht unverzüglich und physikalisch.",
+     "ar": "ويتم ذلك دون تأخير وبصورة فعلية.",
+     "en": "This happens without delay and physically."
+    },
+    {
+     "de": "Der Vorrang gilt nicht grenzenlos. Der Systembetrieb nach dem EnWG bleibt vorbehalten.",
+     "ar": "هذه الأولوية ليست مطلقة؛ فتشغيل المنظومة وفق قانون EnWG مُستثنى منها.",
+     "en": "The priority is not unlimited. System operation under the EnWG remains reserved.",
+     "tts": "Der Vorrang gilt nicht grenzenlos. Der Systembetrieb nach dem E-En-We-Ge bleibt vorbehalten."
+    },
+    {
+     "de": "Mit diesem Vorrang soll saubere Energie nicht unnötig im Netz hängen bleiben.",
+     "ar": "بهذه الأولوية لا تبقى الطاقة النظيفة عالقة في الشبكة دون داعٍ.",
+     "en": "With this priority, clean energy should not get stuck in the grid unnecessarily."
+    },
+    {
+     "de": "Er ist ein zentraler Punkt, den Sie im deutschen Energierecht immer wieder sehen.",
+     "ar": "وهي نقطة مركزية ستصادفونها مرارًا في قانون الطاقة الألماني.",
+     "en": "It is a central point you will meet again and again in German energy law."
+    },
+    {
+     "de": "Merken Sie sich das deutsche Wort. Sie hören es in jedem Netzprojekt.",
+     "ar": "احفظوا الكلمة الألمانية؛ ستسمعونها في كل مشروع شبكي.",
+     "en": "Remember the German word. You will hear it in every grid project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Betrieb",
+    "heading": "Steuerbarkeit und Redispatch",
+    "items": [
+     "Leistung muss abrufbar sein",
+     "Leistung muss ferngesteuert sinken können",
+     "Redispatch ersetzt altes Einspeisemanagement"
+    ],
+    "terms": [
+     {
+      "de": "Redispatch",
+      "ar": "إعادة جدولة التوليد",
+      "en": "redispatch"
+     },
+     {
+      "de": "Fernsteuerbarkeit",
+      "ar": "إمكانية التحكم عن بُعد",
+      "en": "remote controllability"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Vorrang heißt nicht, dass das Netz nie eingreift.",
+     "ar": "الأولوية لا تعني أن الشبكة لا تتدخل أبدًا.",
+     "en": "Priority does not mean the grid never intervenes."
+    },
+    {
+     "de": "Bei Engpässen muss der Netzbetreiber die Einspeisung steuern können.",
+     "ar": "عند الاختناقات يجب أن يستطيع مشغّل الشبكة التحكم بالتغذية.",
+     "en": "In bottlenecks the grid operator must be able to control feed-in."
+    },
+    {
+     "de": "Darum verlangt das EEG technische Einrichtungen.",
+     "ar": "لذلك يشترط قانون EEG تجهيزات تقنية.",
+     "en": "So the EEG demands technical equipment.",
+     "tts": "Darum verlangt das E-E-Ge technische Einrichtungen."
+    },
+    {
+     "de": "Die aktuelle Einspeisung muss abrufbar sein.",
+     "ar": "يجب أن تكون التغذية الحالية قابلة للاستعلام.",
+     "en": "The current feed-in must be retrievable."
+    },
+    {
+     "de": "Die Wirkleistung muss ferngesteuert reduzierbar sein.",
+     "ar": "ويجب أن يمكن خفض القدرة الفعلية عن بُعد.",
+     "en": "Active power must be remotely reducible."
+    },
+    {
+     "de": "Der Rahmen dafür heißt heute Redispatch. Er ersetzt das frühere Einspeisemanagement.",
+     "ar": "وإطار ذلك يسمى اليوم إعادة جدولة التوليد (Redispatch) وهو يحل محل إدارة التغذية السابقة.",
+     "en": "The framework is called redispatch today. It replaces the former feed-in management."
+    },
+    {
+     "de": "In der Praxis arbeiten Netzbetreiber dafür mit Messwerten und Steuersignalen.",
+     "ar": "وفي الممارسة يعمل مشغّلو الشبكة لذلك بقيم القياس وإشارات التحكم.",
+     "en": "In practice grid operators work with measured values and control signals."
+    },
+    {
+     "de": "Wer Anlagen plant, muss diese Schnittstellen früh berücksichtigen.",
+     "ar": "ومن يخطط المنشآت عليه مراعاة هذه الواجهات مبكرًا.",
+     "en": "Whoever plans plants must consider these interfaces early."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Vergütung",
+    "heading": "Zwei Wege für den Strom",
+    "items": [
+     "Weg | Grundidee",
+     "Netzbetreiber | nimmt Strom ab, zahlt Vergütung",
+     "Direktvermarkter | verkauft Strom am Markt",
+     "Marktprämie | gleicht Differenz zum Marktwert aus",
+     "Eigenverbrauch | Strom bleibt vor Ort"
+    ],
+    "terms": [
+     {
+      "de": "Direktvermarktung",
+      "ar": "التسويق المباشر",
+      "en": "direct marketing"
+     },
+     {
+      "de": "Einspeisevergütung",
+      "ar": "مكافأة التغذية",
+      "en": "feed-in tariff"
+     },
+     {
+      "de": "Marktprämie",
+      "ar": "علاوة السوق",
+      "en": "market premium"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Vergütung, nur als Prinzip.",
+     "ar": "والآن إلى المكافأة، كمبدأ فقط.",
+     "en": "Now remuneration, as a principle only."
+    },
+    {
+     "de": "Der Betreiber hat zwei Wege für den erzeugten Strom.",
+     "ar": "للمشغّل طريقان للكهرباء المولَّدة.",
+     "en": "The operator has two routes for the generated power."
+    },
+    {
+     "de": "Erstens überlässt er den Strom dem Netzbetreiber und erhält die Einspeisevergütung.",
+     "ar": "أولًا يترك الكهرباء لمشغّل الشبكة ويتلقى مكافأة التغذية (Einspeisevergütung).",
+     "en": "First he leaves the power to the grid operator and gets the feed-in tariff."
+    },
+    {
+     "de": "Zweitens verkauft er ihn über einen Direktvermarkter am Markt.",
+     "ar": "ثانيًا يبيعها عبر مسوّق مباشر في السوق.",
+     "en": "Second he sells it on the market through a direct marketer."
+    },
+    {
+     "de": "Dann kann er eine Marktprämie erhalten.",
+     "ar": "وعندئذٍ قد يحصل على علاوة السوق (Marktprämie).",
+     "en": "Then he may receive a market premium."
+    },
+    {
+     "de": "Die Prämie gleicht den Unterschied zwischen Marktwert und festgelegtem Wert aus.",
+     "ar": "وتعوّض العلاوة الفرق بين قيمة السوق والقيمة المحددة.",
+     "en": "The premium compensates the gap between market value and the set value."
+    },
+    {
+     "de": "Welcher Weg gilt, hängt von Anlage und aktuellem Recht ab.",
+     "ar": "والطريق المنطبق يتوقف على المنشأة والقانون الحالي.",
+     "en": "Which route applies depends on the plant and current law."
+    },
+    {
+     "de": "Wichtig ist der Unterschied zwischen Abnahme und Vermarktung.",
+     "ar": "المهم هو الفرق بين الاستلام والتسويق.",
+     "en": "The difference between taking power and marketing it is important."
+    },
+    {
+     "de": "Bei der Direktvermarktung übernimmt die kaufmännische Abnahme ein anderer Partner.",
+     "ar": "في التسويق المباشر يتولى شريك آخر الاستلام التجاري.",
+     "en": "In direct marketing another partner handles the commercial purchase."
+    },
+    {
+     "de": "Beide Wege setzen voraus, dass die Anlage ordnungsgemäß angemeldet ist.",
+     "ar": "كلا الطريقين يفترض أن المنشأة مُبلَّغ عنها بصورة سليمة.",
+     "en": "Both routes assume that the plant is properly notified."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Hinweis",
+    "heading": "Höhe und Grenzen: aktuell prüfen",
+    "items": [
+     "Keine Sätze im Video",
+     "Grenzen ändern sich",
+     "Quelle: Bundesnetzagentur"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie hoch die Vergütung ist, nennen wir bewusst nicht.",
+     "ar": "قيمة المكافأة لا نذكرها عن قصد.",
+     "en": "We deliberately do not state how high the remuneration is."
+    },
+    {
+     "de": "Sätze und Grenzen für die Anlagengröße ändern sich.",
+     "ar": "تتغير القيم وحدود حجم المنشأة.",
+     "en": "Rates and size limits for plants change."
+    },
+    {
+     "de": "Sie hängen auch vom Zeitpunkt der Inbetriebnahme ab.",
+     "ar": "كما تتوقف على وقت التشغيل الأول.",
+     "en": "They also depend on the date of commissioning."
+    },
+    {
+     "de": "Für größere Anlagen gibt es Ausschreibungen.",
+     "ar": "وللمنشآت الأكبر توجد مناقصات.",
+     "en": "For larger plants there are tenders."
+    },
+    {
+     "de": "Die aktuellen Werte veröffentlicht die Bundesnetzagentur.",
+     "ar": "القيم الحالية تنشرها الوكالة الاتحادية للشبكات (Bundesnetzagentur).",
+     "en": "The Bundesnetzagentur publishes the current values."
+    },
+    {
+     "de": "Ingenieure sollten im Projekt immer die gültige Fassung prüfen.",
+     "ar": "على المهندسين دائمًا التحقق من النسخة السارية في المشروع.",
+     "en": "In a project, engineers should always check the valid version."
+    },
+    {
+     "de": "Für Ihre Projekte ist deshalb ein Blick in die aktuelle Übersicht der Behörde Pflicht.",
+     "ar": "لذلك فإن النظر في النظرة العامة الحالية للجهة الرسمية واجب في مشاريعكم.",
+     "en": "So a look at the authority's current overview is a must for your projects."
+    },
+    {
+     "de": "Verlassen Sie sich nie auf alte Tabellen.",
+     "ar": "لا تعتمدوا أبدًا على جداول قديمة.",
+     "en": "Never rely on old tables."
+    },
+    {
+     "de": "Auch Förderbedingungen können sich ändern, ohne dass die Technik sich ändert.",
+     "ar": "وقد تتغير شروط الدعم دون أن تتغير التقنية.",
+     "en": "Support conditions can also change without the technology changing."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Pflicht",
+    "heading": "Marktstammdatenregister",
+    "items": [
+     "Zentrales Register der Bundesnetzagentur",
+     "Anlagen müssen registriert werden",
+     "Auch kleine Anlagen sind betroffen"
+    ],
+    "terms": [
+     {
+      "de": "Marktstammdatenregister",
+      "ar": "سجل بيانات السوق الرئيسي",
+      "en": "central market master data register"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt eine Pflicht, die man leicht vergisst.",
+     "ar": "والآن واجب يسهل نسيانه.",
+     "en": "Now a duty that is easily forgotten."
+    },
+    {
+     "de": "Anlagen müssen im Marktstammdatenregister eingetragen werden.",
+     "ar": "يجب تسجيل المنشآت في سجل بيانات السوق الرئيسي (Marktstammdatenregister).",
+     "en": "Plants must be entered in the Marktstammdatenregister."
+    },
+    {
+     "de": "Es ist das zentrale Register der Bundesnetzagentur.",
+     "ar": "وهو السجل المركزي للوكالة الاتحادية للشبكات.",
+     "en": "It is the central register of the Bundesnetzagentur."
+    },
+    {
+     "de": "Die Pflicht gilt auch für kleine Photovoltaikanlagen.",
+     "ar": "وهذا الواجب يشمل حتى المنشآت الكهروضوئية الصغيرة.",
+     "en": "The duty also covers small photovoltaic plants."
+    },
+    {
+     "de": "Sie gilt auch ohne Vergütung.",
+     "ar": "ويسري حتى دون مكافأة.",
+     "en": "It applies even without remuneration."
+    },
+    {
+     "de": "Die Eintragung hat eine Frist nach der Inbetriebnahme.",
+     "ar": "وللتسجيل مهلة بعد التشغيل الأول.",
+     "en": "Registration has a deadline after commissioning."
+    },
+    {
+     "de": "Dort stehen Standort, Art und technische Daten der Anlage.",
+     "ar": "وفيه يُسجَّل موقع المنشأة ونوعها وبياناتها التقنية.",
+     "en": "There the location, type and technical data of the plant are recorded."
+    },
+    {
+     "de": "Betriebsdaten wie Zählerstände gehören nicht hinein.",
+     "ar": "أما بيانات التشغيل مثل قراءات العدادات فلا تُسجَّل فيه.",
+     "en": "Operating data such as meter readings do not belong in it."
+    },
+    {
+     "de": "Merken Sie sich das Wort. Es taucht in Formularen und Gesprächen ständig auf.",
+     "ar": "احفظوا الكلمة؛ فهي تظهر باستمرار في النماذج والمحادثات.",
+     "en": "Remember the word. It shows up constantly in forms and conversations."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Pflichten",
+    "heading": "Register und Netzbetreiber",
+    "items": [
+     "Register: Eintrag der Stammdaten",
+     "Netzbetreiber: eigene Anmeldung",
+     "Folge bei Verspätung: Zahlung ruht",
+     "Betreiber: bleibt verantwortlich"
+    ],
+    "terms": [
+     {
+      "de": "Anlagenbetreiber",
+      "ar": "مشغّل المنشأة",
+      "en": "plant operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Registereintrag ersetzt nicht die Anmeldung beim Netzbetreiber.",
+     "ar": "التسجيل في السجل لا يحل محل الإبلاغ لدى مشغّل الشبكة.",
+     "en": "The register entry does not replace notifying the grid operator."
+    },
+    {
+     "de": "Beides sind eigene Schritte.",
+     "ar": "كلاهما خطوة مستقلة.",
+     "en": "Both are separate steps."
+    },
+    {
+     "de": "Wer zu spät registriert, riskiert Nachteile bei der Vergütung.",
+     "ar": "ومن يسجّل متأخرًا يخاطر بخسارة في المكافأة.",
+     "en": "Whoever registers late risks disadvantages in remuneration."
+    },
+    {
+     "de": "Zahlungen können zurückgehalten werden.",
+     "ar": "وقد تُحجب المدفوعات.",
+     "en": "Payments can be withheld."
+    },
+    {
+     "de": "Auch ein Bußgeld ist möglich.",
+     "ar": "وقد تُفرض غرامة أيضًا.",
+     "en": "A fine is also possible."
+    },
+    {
+     "de": "Ein Installateur darf die Registrierung übernehmen.",
+     "ar": "ويجوز للمُركِّب تولّي التسجيل.",
+     "en": "An installer may handle the registration."
+    },
+    {
+     "de": "Verantwortlich bleibt trotzdem der Anlagenbetreiber.",
+     "ar": "ومع ذلك تبقى المسؤولية على مشغّل المنشأة.",
+     "en": "The plant operator nevertheless stays responsible."
+    },
+    {
+     "de": "Prüfen Sie bei jedem Projekt, wer die Anmeldung und die Registrierung übernimmt.",
+     "ar": "تحققوا في كل مشروع من يتولى الإبلاغ والتسجيل.",
+     "en": "Check in each project who handles notification and registration."
+    },
+    {
+     "de": "So bleibt keine Pflicht unbemerkt liegen.",
+     "ar": "وبذلك لا يبقى أي واجب منسيًّا.",
+     "en": "That way no duty is left unnoticed."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Regelwerk",
+    "heading": "VDE-AR-N 4105 im Überblick",
+    "items": [
+     "Anwendungsregel für das Niederspannungsnetz",
+     "Herausgeber: VDE FNN",
+     "Netzschutz, Messung, Betrieb, Nachweise"
+    ],
+    "terms": [
+     {
+      "de": "Anwendungsregel",
+      "ar": "قاعدة تطبيقية",
+      "en": "application rule"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Welche technische Regel gilt für kleine Erzeugungsanlagen?",
+     "ar": "ما القاعدة التقنية المنطبقة على منشآت التوليد الصغيرة؟",
+     "en": "Which technical rule applies to small generating plants?"
+    },
+    {
+     "de": "Für das Niederspannungsnetz ist es die VDE-AR-N 4105.",
+     "ar": "لشبكة الجهد المنخفض هي القاعدة VDE-AR-N 4105 المعروفة.",
+     "en": "For the low-voltage grid it is VDE-AR-N 4105.",
+     "tts": "Für das Niederspannungsnetz ist es die Fau-De-E, A-Er, En, vier-eins-null-fünf."
+    },
+    {
+     "de": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im VDE, kurz VDE FNN.",
+     "ar": "وناشرها هو منتدى تقنية الشبكات وتشغيلها في VDE، ويُختصر VDE FNN.",
+     "en": "It is published by the Forum for Network Technology and Operation, VDE FNN.",
+     "tts": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im VDE, kurz Fau-De-E Ef-En-En."
+    },
+    {
+     "de": "Sie behandelt unter anderem Netzschutz, Messung und Betrieb.",
+     "ar": "تعالج الحماية الشبكية والقياس والتشغيل وغير ذلك.",
+     "en": "It covers grid protection, metering and operation, among others."
+    },
+    {
+     "de": "Auch der Nachweis der elektrischen Eigenschaften gehört dazu.",
+     "ar": "ويدخل فيها أيضًا إثبات الخصائص الكهربائية.",
+     "en": "Proof of the electrical properties is part of it too."
+    },
+    {
+     "de": "Wir zitieren die Norm nicht. Sie wird beim Normenanbieter bezogen.",
+     "ar": "لا نقتبس نص المعيار؛ يُحصل عليه من الجهة الناشرة.",
+     "en": "We do not quote the standard. It is obtained from the publisher."
+    },
+    {
+     "de": "Wir nennen hier keine Grenzwerte und keine Fristen aus der Norm.",
+     "ar": "لا نذكر هنا قيمًا حدّية ولا مُهَلًا من المعيار.",
+     "en": "We name no limit values and no deadlines from the standard here."
+    },
+    {
+     "de": "Die Norm wird regelmäßig überarbeitet. Prüfen Sie Ausgabe und Datum.",
+     "ar": "يُراجَع المعيار بانتظام؛ تحققوا من الإصدار والتاريخ.",
+     "en": "The standard is revised regularly. Check edition and date."
+    },
+    {
+     "de": "Eine Anwendungsregel ist kein Gesetz, wird aber in der Praxis verlangt.",
+     "ar": "القاعدة التطبيقية ليست قانونًا لكنها مطلوبة في الممارسة.",
+     "en": "An application rule is not a law, but it is required in practice."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Technik",
+    "heading": "Was heißt Netzverträglichkeit?",
+    "items": [
+     "Spannung im zulässigen Bereich halten",
+     "Schutz bei Netzfehlern",
+     "Rückwirkungen begrenzen",
+     "Messung und Nachweise"
+    ],
+    "terms": [
+     {
+      "de": "Netzverträglichkeit",
+      "ar": "ملاءمة الشبكة",
+      "en": "grid compatibility"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt wird die Netzverträglichkeit konkret.",
+     "ar": "والآن نجعل ملاءمة الشبكة ملموسة.",
+     "en": "Now grid compatibility becomes concrete."
+    },
+    {
+     "de": "Eine Anlage darf das Netz nicht stören.",
+     "ar": "يجب ألا تُخلّ المنشأة بالشبكة.",
+     "en": "A plant must not disturb the grid."
+    },
+    {
+     "de": "Die Spannung muss im zulässigen Bereich bleiben.",
+     "ar": "يجب أن يبقى الجهد ضمن النطاق المسموح.",
+     "en": "The voltage must stay in the permitted range."
+    },
+    {
+     "de": "Bei Netzfehlern muss die Anlage richtig reagieren.",
+     "ar": "عند أعطال الشبكة يجب أن تتصرف المنشأة تصرفًا صحيحًا.",
+     "en": "During grid faults the plant must react correctly."
+    },
+    {
+     "de": "Rückwirkungen auf andere Kunden sollen klein bleiben.",
+     "ar": "يجب أن تبقى التأثيرات على المشتركين الآخرين صغيرة.",
+     "en": "Effects on other customers should stay small."
+    },
+    {
+     "de": "Messung und Nachweise zeigen, dass die Regeln erfüllt sind.",
+     "ar": "وتُظهر القياسات والإثباتات أن القواعد مستوفاة.",
+     "en": "Measurements and proofs show that the rules are met."
+    },
+    {
+     "de": "Die Details stehen in den Anwendungsregeln und beim Netzbetreiber.",
+     "ar": "والتفاصيل موجودة في القواعد التطبيقية وعند مشغّل الشبكة.",
+     "en": "The details are in the application rules and with the grid operator."
+    },
+    {
+     "de": "Für Photovoltaik und Wind gelten dabei dieselben Grundgedanken.",
+     "ar": "وتنطبق على الشمس والرياح الأفكار الأساسية نفسها.",
+     "en": "The same basic ideas apply to photovoltaics and wind."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Praxis",
+    "heading": "Regeln des Netzbetreibers beachten",
+    "items": [
+     "Netzbetreiber ergänzen die Regeln",
+     "Eigene Vorgaben und Formulare",
+     "Vor Planung: aktuelle Unterlagen holen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zusätzlich hat jeder Netzbetreiber eigene Vorgaben.",
+     "ar": "وبالإضافة إلى ذلك لكل مشغّل شبكة اشتراطاته الخاصة.",
+     "en": "In addition each grid operator has its own requirements."
+    },
+    {
+     "de": "Er veröffentlicht Ergänzungen zu den Anwendungsregeln.",
+     "ar": "وينشر إضافات على القواعد التطبيقية.",
+     "en": "He publishes supplements to the application rules."
+    },
+    {
+     "de": "Dazu kommen Formulare und technische Mindestanforderungen.",
+     "ar": "وتضاف إليها نماذج ومتطلبات تقنية دنيا.",
+     "en": "Forms and technical minimum requirements are added."
+    },
+    {
+     "de": "Sie unterscheiden sich von Region zu Region.",
+     "ar": "وهي تختلف من منطقة إلى أخرى.",
+     "en": "They differ from region to region."
+    },
+    {
+     "de": "Holen Sie deshalb vor der Planung die aktuellen Unterlagen.",
+     "ar": "لذلك احصلوا قبل التخطيط على الوثائق الحالية.",
+     "en": "So get the current documents before planning."
+    },
+    {
+     "de": "Fragen Sie im Zweifel direkt beim Netzbetreiber nach.",
+     "ar": "وعند الشك اسألوا مشغّل الشبكة مباشرة.",
+     "en": "If in doubt, ask the grid operator directly."
+    },
+    {
+     "de": "Ein Anruf oder eine Anfrage im Portal spart oft viel Zeit.",
+     "ar": "اتصال أو استفسار عبر البوابة يوفر غالبًا وقتًا كثيرًا.",
+     "en": "A call or an enquiry in the portal often saves much time."
+    },
+    {
+     "de": "Dokumentieren Sie Antworten schriftlich.",
+     "ar": "ودوّنوا الإجابات كتابةً.",
+     "en": "Document answers in writing."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Ihre Rolle",
+    "heading": "Was Sie als Ingenieur tun",
+    "items": [
+     "Planung: Unterlagen sammeln",
+     "Abstimmung: Netzbetreiber früh fragen",
+     "Nachweise: sauber dokumentieren",
+     "Pflichten: Registrierung prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was heißt das nun für Sie als Ingenieur?",
+     "ar": "ماذا يعني هذا لكم كمهندسين؟",
+     "en": "What does this mean for you as an engineer?"
+    },
+    {
+     "de": "Sie sammeln zuerst die aktuellen Unterlagen.",
+     "ar": "تجمعون أولًا الوثائق الحالية.",
+     "en": "First you collect the current documents."
+    },
+    {
+     "de": "Sie stimmen sich früh mit dem Netzbetreiber ab.",
+     "ar": "وتنسّقون مبكرًا مع مشغّل الشبكة.",
+     "en": "You coordinate early with the grid operator."
+    },
+    {
+     "de": "Sie dokumentieren Daten und Nachweise sauber.",
+     "ar": "وتوثّقون البيانات والإثباتات بدقة.",
+     "en": "You document data and proofs cleanly."
+    },
+    {
+     "de": "Sie prüfen, ob die Registrierung geklärt ist.",
+     "ar": "وتتحققون من أن التسجيل مُنجَز.",
+     "en": "You check that registration is settled."
+    },
+    {
+     "de": "Bei elektrischen Arbeiten gilt weiter: nur mit passender Qualifikation.",
+     "ar": "وفي الأعمال الكهربائية يبقى الشرط: فقط بالتأهيل المناسب.",
+     "en": "For electrical work it still applies: only with suitable qualification."
+    },
+    {
+     "de": "Das ist die Aufgabe der Elektrofachkraft.",
+     "ar": "وهذه مهمة الكهربائي المؤهَّل (Elektrofachkraft).",
+     "en": "That is the task of the Elektrofachkraft."
+    },
+    {
+     "de": "So verbinden Sie Technik, Recht und Praxis in einem Projekt.",
+     "ar": "وهكذا تجمعون التقنية والقانون والممارسة في مشروع واحد.",
+     "en": "This way you combine technology, law and practice in one project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Ziel: treibhausgasneutraler Strom",
+     "Einspeisevorrang und Anschlusspflicht",
+     "Zwei Wege: Vergütung oder Direktvermarktung",
+     "Registrieren und Netzverträglichkeit beachten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Das EEG will eine treibhausgasneutrale Stromversorgung.",
+     "ar": "يريد قانون EEG إمدادًا بالكهرباء محايدًا للغازات الدفيئة.",
+     "en": "The EEG wants a greenhouse-gas-neutral power supply.",
+     "tts": "Das E-E-Ge will eine treibhausgasneutrale Stromversorgung."
+    },
+    {
+     "de": "Netzbetreiber müssen Anlagen vorrangig anschließen und deren Strom vorrangig abnehmen.",
+     "ar": "على مشغّلي الشبكة ربط المنشآت وتسلّم كهربائها بأولوية.",
+     "en": "Grid operators must connect plants and take their power with priority."
+    },
+    {
+     "de": "Der Strom wird über Einspeisevergütung oder Direktvermarktung vergütet.",
+     "ar": "وتُكافأ الكهرباء عبر مكافأة التغذية أو التسويق المباشر.",
+     "en": "The power is paid for via feed-in tariff or direct marketing."
+    },
+    {
+     "de": "Jede Anlage gehört in das Marktstammdatenregister.",
+     "ar": "وكل منشأة تُسجَّل في سجل بيانات السوق الرئيسي.",
+     "en": "Every plant belongs in the Marktstammdatenregister."
+    },
+    {
+     "de": "Technisch zählen Netzverträglichkeit, Steuerbarkeit und die Regeln des Netzbetreibers.",
+     "ar": "وتقنيًا تُعدّ ملاءمة الشبكة وإمكانية التحكم وقواعد مشغّل الشبكة هي الأهم.",
+     "en": "Technically, grid compatibility, controllability and the grid operator's rules count."
+    },
+    {
+     "de": "Und noch einmal: Zahlen und Fristen müssen Sie selbst aktuell prüfen.",
+     "ar": "ومرة أخرى: الأرقام والمُهَل عليكم فحصها بأنفسكم بصورة حديثة.",
+     "en": "And once more: you must check numbers and deadlines for yourself."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Schluss",
+    "heading": "Aktuelle Fassungen prüfen",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Allgemeine Information"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss noch einmal der wichtige Hinweis.",
+     "ar": "وأخيرًا مرة أخرى التنبيه المهم.",
+     "en": "Finally, the important note once more."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich regelmäßig.",
+     "ar": "القوانين والمعايير تتغير باستمرار.",
+     "en": "Laws and standards change regularly."
+    },
+    {
+     "de": "Das gilt besonders für das EEG und die Anwendungsregeln.",
+     "ar": "وهذا ينطبق خاصة على قانون EEG والقواعد التطبيقية.",
+     "en": "This applies especially to the EEG and the application rules.",
+     "tts": "Das gilt besonders für das E-E-Ge und die Anwendungsregeln."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung der Quellen.",
+     "ar": "تحققوا دائمًا من النسخة الحالية للمصادر.",
+     "en": "Always check the current version of the sources."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ersetzt weder Rechtsberatung noch Ingenieurberatung.",
+     "ar": "وهو لا يغني عن الاستشارة القانونية ولا الهندسية.",
+     "en": "It replaces neither legal nor engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um Speicher, Wechselrichter und Ladeinfrastruktur.",
+     "ar": "في الفيديو القادم: المخزنات والعاكسات والبنية التحتية للشحن.",
+     "en": "The next video covers storage, inverters and charging infrastructure."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die erneuerbaren Energien",
+   "ar": "الطاقات المتجددة",
+   "en": "renewable energy"
+  },
+  {
+   "de": "das Erneuerbare-Energien-Gesetz",
+   "ar": "قانون الطاقات المتجددة",
+   "en": "Renewable Energy Sources Act"
+  },
+  {
+   "de": "der Einspeisevorrang",
+   "ar": "أولوية التغذية",
+   "en": "feed-in priority"
+  },
+  {
+   "de": "die Einspeisevergütung",
+   "ar": "مكافأة التغذية",
+   "en": "feed-in tariff"
+  },
+  {
+   "de": "die Direktvermarktung",
+   "ar": "التسويق المباشر",
+   "en": "direct marketing"
+  },
+  {
+   "de": "die Marktprämie",
+   "ar": "علاوة السوق",
+   "en": "market premium"
+  },
+  {
+   "de": "das Marktstammdatenregister",
+   "ar": "سجل بيانات السوق الرئيسي",
+   "en": "central market master data register"
+  },
+  {
+   "de": "die Netzverträglichkeit",
+   "ar": "ملاءمة الشبكة",
+   "en": "grid compatibility"
+  },
+  {
+   "de": "der Netzbetreiber",
+   "ar": "مشغّل الشبكة",
+   "en": "grid operator"
+  },
+  {
+   "de": "der Netzanschluss",
+   "ar": "التوصيل بالشبكة",
+   "en": "grid connection"
+  },
+  {
+   "de": "der Verknüpfungspunkt",
+   "ar": "نقطة الربط",
+   "en": "connection point"
+  },
+  {
+   "de": "der Wechselrichter",
+   "ar": "العاكس",
+   "en": "inverter"
+  },
+  {
+   "de": "der Umrichter",
+   "ar": "المحوّل الإلكتروني",
+   "en": "converter"
+  },
+  {
+   "de": "der Generator",
+   "ar": "المولّد",
+   "en": "generator"
+  },
+  {
+   "de": "der Anlagenbetreiber",
+   "ar": "مشغّل المنشأة",
+   "en": "plant operator"
+  },
+  {
+   "de": "das Redispatch",
+   "ar": "إعادة جدولة التوليد",
+   "en": "redispatch"
+  },
+  {
+   "de": "die Fernsteuerbarkeit",
+   "ar": "إمكانية التحكم عن بُعد",
+   "en": "remote controllability"
+  },
+  {
+   "de": "die Anwendungsregel",
+   "ar": "قاعدة تطبيقية",
+   "en": "application rule"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was bedeutet Einspeisevorrang?",
+    "ar": "ماذا تعني أولوية التغذية؟",
+    "en": "What does feed-in priority mean?"
+   },
+   "options": [
+    {
+     "de": "Netzbetreiber nehmen Strom aus erneuerbaren Energien vorrangig ab.",
+     "ar": "يستلم مشغّلو الشبكة الكهرباء المتجددة بأولوية.",
+     "en": "Grid operators take renewable power with priority."
+    },
+    {
+     "de": "Der Betreiber darf nie abgeregelt werden.",
+     "ar": "لا يجوز أبدًا خفض قدرة المشغّل.",
+     "en": "The operator may never be curtailed."
+    },
+    {
+     "de": "Nur große Anlagen dürfen einspeisen.",
+     "ar": "المنشآت الكبيرة فقط تغذّي الشبكة.",
+     "en": "Only large plants may feed in."
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wozu dient ein Wechselrichter bei Photovoltaik?",
+    "ar": "ما وظيفة العاكس في الطاقة الكهروضوئية؟",
+    "en": "What is an inverter for in photovoltaics?"
+   },
+   "options": [
+    {
+     "de": "Er speichert Sonnenlicht.",
+     "ar": "يخزّن ضوء الشمس.",
+     "en": "It stores sunlight."
+    },
+    {
+     "de": "Er wandelt Gleichstrom in Wechselstrom um.",
+     "ar": "يحوّل التيار المستمر إلى متناوب.",
+     "en": "It converts direct current into alternating current."
+    },
+    {
+     "de": "Er misst die Einspeisung.",
+     "ar": "يقيس التغذية.",
+     "en": "It measures the feed-in."
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was gilt für das Marktstammdatenregister?",
+    "ar": "ماذا ينطبق على سجل بيانات السوق الرئيسي؟",
+    "en": "What applies to the Marktstammdatenregister?"
+   },
+   "options": [
+    {
+     "de": "Es ersetzt die Anmeldung beim Netzbetreiber.",
+     "ar": "يحل محل الإبلاغ لدى مشغّل الشبكة.",
+     "en": "It replaces notifying the grid operator."
+    },
+    {
+     "de": "Nur Anlagen mit Vergütung müssen sich eintragen.",
+     "ar": "فقط المنشآت ذات المكافأة تسجَّل.",
+     "en": "Only plants with remuneration must register."
+    },
+    {
+     "de": "Anlagen müssen eingetragen werden, auch kleine.",
+     "ar": "يجب تسجيل المنشآت حتى الصغيرة.",
+     "en": "Plants must be registered, including small ones."
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wofür steht die Marktprämie im Prinzip?",
+    "ar": "على ماذا تقوم علاوة السوق من حيث المبدأ؟",
+    "en": "What is the market premium in principle?"
+   },
+   "options": [
+    {
+     "de": "Ein Ausgleich zwischen Marktwert und festgelegtem Wert.",
+     "ar": "تعويض بين قيمة السوق والقيمة المحددة.",
+     "en": "A balance between market value and a set value."
+    },
+    {
+     "de": "Eine Steuer auf Einspeisung.",
+     "ar": "ضريبة على التغذية.",
+     "en": "A tax on feed-in."
+    },
+    {
+     "de": "Eine Gebühr für den Netzanschluss.",
+     "ar": "رسم على التوصيل بالشبكة.",
+     "en": "A fee for the grid connection."
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was sollten Sie vor der Planung tun?",
+    "ar": "ماذا ينبغي أن تفعلوا قبل التخطيط؟",
+    "en": "What should you do before planning?"
+   },
+   "options": [
+    {
+     "de": "Alte Unterlagen weiterverwenden.",
+     "ar": "استخدام الوثائق القديمة.",
+     "en": "Reuse old documents."
+    },
+    {
+     "de": "Auf Zahlen aus Videos verlassen.",
+     "ar": "الاعتماد على أرقام الفيديوهات.",
+     "en": "Rely on numbers from videos."
+    },
+    {
+     "de": "Aktuelle Gesetze und Netzbetreiber-Vorgaben prüfen.",
+     "ar": "فحص القوانين الحالية واشتراطات مشغّل الشبكة.",
+     "en": "Check current laws and grid operator requirements."
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um Speicher, Wechselrichter und Ladeinfrastruktur.",
+  "ar": "في الفيديو القادم نتناول المخزنات والعاكسات والبنية التحتية للشحن.",
+  "en": "The next video covers storage, inverters and charging infrastructure."
+ },
+ "stand": "2026-10-20; prüfen: aktuelle Fassung EEG (§ 1, 2, 8, 9, 11; Änderungen laufend, Fassung nur über Sekundärspiegel gesehen), Marktstammdatenregister-Verordnung (Fristen, Folgen), Redispatch-Regeln im EnWG, Ausgabe VDE-AR-N 4105 und Ergänzungen des jeweiligen Netzbetreibers"
+}

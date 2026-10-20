@@ -1,0 +1,179 @@
+{
+ "video": "E-A02",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Die VDE-FNN-Technischen-Anschlussregeln (TAR) sind: VDE-AR-N 4100 (Niederspannung), VDE-AR-N 4110 (Mittelspannung), VDE-AR-N 4120 (Hochspannung), VDE-AR-N 4130 (Höchstspannung).",
+   "source_url": "https://www.vde.com/de/fnn/dokumente/alle-vde-anwendungsregeln",
+   "source_name": "VDE FNN, Übersicht VDE-Anwendungsregeln",
+   "confidence": "high",
+   "note": "Bezeichnungen laut VDE-Seite; Ausgabestände ändern sich."
+  },
+  {
+   "claim": "VDE-AR-N 4100 (TAR Niederspannung) legt den nationalen Standard für den Netzanschluss von Kundenanlagen in der Niederspannung fest und ist Basis der TAB der Netzbetreiber.",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar-niederspannung",
+   "source_name": "VDE FNN, TAR Niederspannung",
+   "confidence": "high",
+   "note": "Bestätigt durch mehrere TAB-Dokumente von Netzbetreibern."
+  },
+  {
+   "claim": "Aktuelle Ausgabe der VDE-AR-N 4100 ist 2026-04 (vollständig überarbeitet, veröffentlicht am 06.03.2026).",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar-niederspannung",
+   "source_name": "VDE FNN, TAR Niederspannung",
+   "confidence": "high",
+   "note": "Anwendungsbeginn laut Installateursversammlung 01.04.2026; Hager nennt abweichend März. Im Video nur 'Ausgabe 2026-04'."
+  },
+  {
+   "claim": "Für die Vorgängerfassung 2019-04 gibt es eine Übergangszeit von zwölf Monaten; die Errichtung muss ganz nach alter oder ganz nach neuer Fassung erfolgen.",
+   "source_url": "https://www.eam-netz.de/fileadmin/user_upload/Fuer_Partner/PDFs/20260715_Installateurrundschreiben_Juli_2026.pdf",
+   "source_name": "EAM Netz, Installateurrundschreiben Juli 2026",
+   "confidence": "medium",
+   "note": "Netzbetreiber-Dokument; im Video nur 'es gibt eine Übergangszeit, Netzbetreiber prüfen', ohne Datum."
+  },
+  {
+   "claim": "Inhaltliche Neuerungen der VDE-AR-N 4100:2026-04 betreffen u. a. Zähleranlagen und erstmals detaillierte Regeln für Wandleranlagen sowie eine einheitlichere Vorbereitung der Steuerung.",
+   "source_url": "https://hager.com/de/wissen/normen/vde-ar-n-4100",
+   "source_name": "Hager (Hersteller)",
+   "confidence": "medium",
+   "note": "Herstellerseite plus Installateursversammlung-Präsentation; nur grob genannt."
+  },
+  {
+   "claim": "Zur VDE-AR-N 4100 läuft eine Änderung A1 (Entwurf 2026, Öffentlichkeitsbeteiligung 15.05.–26.06.2026, Ziel: Vereinfachung Steuerungs-/Messsystem-Rollout); Endstand nicht belegt.",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar-niederspannung",
+   "source_name": "VDE FNN, TAR Niederspannung",
+   "confidence": "medium",
+   "note": "Im Video nur 'Änderungen sind in Arbeit'."
+  },
+  {
+   "claim": "VDE-AR-N 4105 behandelt Erzeugungsanlagen am Niederspannungsnetz (Planung, Errichtung, Betrieb, Änderung von Anlagen im Parallelbetrieb mit dem Netz).",
+   "source_url": "https://www.clearingstelle-eeg-kwkg.de/suche/type/technische-norm/4296",
+   "source_name": "Clearingstelle EEG|KWKG",
+   "confidence": "high",
+   "note": "Bezeichnung 'Erzeugungsanlagen am Niederspannungsnetz'."
+  },
+  {
+   "claim": "Aktuell gültige Ausgabe der VDE-AR-N 4105 ist 2026-03 (vollständig überarbeitet, ersetzt 2018-11).",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar/tar-niederspannung/erzeugungsanlagen-am-niederspannungsnetz-vde-ar-n-4105-2026",
+   "source_name": "VDE FNN / Clearingstelle EEG|KWKG",
+   "confidence": "high",
+   "note": "Veröffentlichungsdatum uneinheitlich (27.02. bzw. 01.03.2026); im Video nur Ausgabe 2026-03."
+  },
+  {
+   "claim": "Die 2026er VDE-AR-N 4105 vereinfacht Anforderungen für sehr kleine Erzeugungsanlagen und Speicher und regelt bidirektionales Laden neu.",
+   "source_url": "https://www.elektro.net/128592/netzanschluss-in-der-niederspannung-das-neue-vorschriftenwerk-2/",
+   "source_name": "elektro.net",
+   "confidence": "medium",
+   "note": "Grenzwerte (800 VA, 2.000 Wp) bewusst nicht genannt."
+  },
+  {
+   "claim": "Die Formulare/Vordrucke der VDE-AR-N 4105 (Antrag, Datenblatt, Inbetriebsetzungsprotokoll, Einheiten- und Anlagenzertifikat) liegen als Anhang vor; die Nummerierung wechselte mit der 2026er Ausgabe (früher E.x, jetzt F.x).",
+   "source_url": "https://www.vde.com/resource/blob/1785304/4fe3275a62f58893a41e9fc62d323c7c/formulare-data.pdf",
+   "source_name": "VDE FNN, Formulare zur VDE-AR-N 4105 (Suchtreffer)",
+   "confidence": "medium",
+   "note": "Im Video nur Formularnamen, keine Nummern."
+  },
+  {
+   "claim": "Für Erzeugungseinheiten und NA-Schutz sind Zertifikate akkreditierter Zertifizierer vorgesehen; Einheitenzertifikate sind im ZEREZ-Register prüfbar.",
+   "source_url": "https://mir.bayernwerk-netz.de/content/dam/revu-global/bayernwerk-netz/files/kommunen/installateure/20211103-bayernwerk-einheitenzertifikate-ns-extern.pdf",
+   "source_name": "Bayernwerk Netz, Einheitenzertifikate NS",
+   "confidence": "medium",
+   "note": "Stichtag 01.04.2021 im Video nicht genannt."
+  },
+  {
+   "claim": "Welche Norm (4105 oder 4110) gilt, hängt von Leistung und Anlagenkonstellation ab; VDE bietet eine Entscheidungshilfe zur Abgrenzung. Schwellenangaben (135 kW, 500 kW) sind uneinheitlich.",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar/tar-mittelspannung-vde-ar-n-4110",
+   "source_name": "VDE FNN, TAR Mittelspannung",
+   "confidence": "medium",
+   "note": "Zahlen deshalb in 'dropped'. Im Video: 'Grenze hängt von Leistung und Konstellation ab; aktuelle Regel und Netzbetreiber prüfen'."
+  },
+  {
+   "claim": "VDE-AR-N 4110 gilt für Kundenanlagen am Mittelspannungsnetz.",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar/tar-mittelspannung-vde-ar-n-4110",
+   "source_name": "VDE FNN, TAR Mittelspannung",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "§ 49 EnWG: Energieanlagen sind so zu errichten und zu betreiben, dass die technische Sicherheit gewährleistet ist; dabei sind die allgemein anerkannten Regeln der Technik zu beachten. Bei Einhaltung der VDE-Regeln wird dies bei Anlagen zur Stromerzeugung, -fortleitung und -abgabe vermutet.",
+   "source_url": "https://www.gesetze-im-internet.de/enwg_2005/__49.html",
+   "source_name": "gesetze-im-internet.de, EnWG § 49",
+   "confidence": "high",
+   "note": "Absatzzählung nicht genannt; Fassung prüfen."
+  },
+  {
+   "claim": "Die TAB der Netzbetreiber konkretisieren VDE-AR-N 4100 und 4105 für das jeweilige Netzgebiet; sie unterscheiden sich nach Netzbetreiber und Datum.",
+   "source_url": "https://www.regionetz.de/fileadmin/regionetz/content/Dokumente/TAB/TAB_NS_2024.pdf",
+   "source_name": "Regionetz TAB NS 2024 (u. a. weitere Netzbetreiber-TAB)",
+   "confidence": "high",
+   "note": "Mehrere Netzbetreiber-Dokumente übereinstimmend."
+  },
+  {
+   "claim": "NAV § 1: Anschlussnehmer ist, in wessen Auftrag ein Grundstück/Gebäude angeschlossen wird oder wer Eigentümer/Erbbauberechtigter eines angeschlossenen Grundstücks ist; Anschlussnutzer ist der Letztverbraucher, der über den Anschluss Elektrizität entnimmt.",
+   "source_url": "https://www.gesetze-im-internet.de/nav/__1.html",
+   "source_name": "gesetze-im-internet.de, NAV § 1",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "NAV § 2 regelt das Netzanschlussverhältnis (Anschluss und Betrieb) zwischen Anschlussnehmer und Netzbetreiber; der Netzanschlussvertrag bedarf der Textform. NAV § 3 regelt das Anschlussnutzungsverhältnis (Recht, über den Anschluss Strom zu entnehmen; ohne Stromlieferung und Netzzugang).",
+   "source_url": "https://www.gesetze-im-internet.de/nav/BJNR247710006.html",
+   "source_name": "gesetze-im-internet.de, NAV",
+   "confidence": "high",
+   "note": "Auf Übersichtsebene; keine Rechtsberatung."
+  },
+  {
+   "claim": "NAV § 13: Der Anschlussnehmer ist gegenüber dem Netzbetreiber für die ordnungsgemäße Errichtung, Erweiterung, Änderung und Instandhaltung der Anlage hinter der Hausanschlusssicherung verantwortlich.",
+   "source_url": "https://www.anwalt24.de/gesetze/nav-1/13",
+   "source_name": "anwalt24.de (Gesetzestext NAV § 13)",
+   "confidence": "high",
+   "note": "Offizielle Quelle gesetze-im-internet.de nicht abgerufen; Wortlaut stimmt mit BDEW/ZVEH-Grundsätzen überein."
+  },
+  {
+   "claim": "NAV § 13: Arbeiten zum Anschluss an das Niederspannungsnetz dürfen außer durch den Netzbetreiber nur durch ein in ein Installateurverzeichnis eines Netzbetreibers eingetragenes Installationsunternehmen durchgeführt werden; Eintrag nur gegen Nachweis fachlicher Qualifikation.",
+   "source_url": "https://bdew.de/media/documents/Grundsätze_BDEW_ZVEH_2025.pdf",
+   "source_name": "BDEW/ZVEH Grundsätze 2025",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Der Netzbetreiber darf die Anlage vor und nach der Inbetriebsetzung prüfen und bei erheblichen Sicherheitsmängeln den Anschluss verweigern oder unterbrechen.",
+   "source_url": "https://www.bdew.de/media/original_images/2024/02/02/240131_grundsatze_bdew_zveh_2024.pdf",
+   "source_name": "BDEW/ZVEH Grundsätze (Suchtreffer-Zusammenfassung)",
+   "confidence": "medium",
+   "note": "Rechtsgrundlage (NAV) nicht einzeln geprüft; im Video vorsichtig formuliert."
+  },
+  {
+   "claim": "Messkonzepte: Die Wahl hängt von Art und Zahl der Anlagen, Verbrauch und Vergütung ab; Volleinspeisung und Überschusseinspeisung werden messtechnisch unterschiedlich erfasst. Der Messstellenbetreiber legt nach Messstellenbetriebsgesetz die Technik fest.",
+   "source_url": "https://www.enercity-netz.de/assets/cms/eng/installateure/pdfs/Messkonzepte-Katalog_enercityNetz_2026.pdf",
+   "source_name": "enercityNetz Messkonzepte-Katalog 2026 u. a. Netzbetreiber",
+   "confidence": "medium",
+   "note": "Konzeptnummern (MK 1 …) sind netzbetreiberspezifisch und nicht im Video."
+  },
+  {
+   "claim": "Erzeugungsanlagen und Speicher müssen im Marktstammdatenregister der Bundesnetzagentur registriert werden, dies ersetzt nicht die Anmeldung beim Netzbetreiber; Frist laut Verbraucherzentrale einen Monat nach Inbetriebnahme.",
+   "source_url": "https://www.verbraucherzentrale.de/wissen/energie/erneuerbare-energien/marktstammdatenregister-das-muessen-sie-bei-solaranlage-und-co-wissen-33124",
+   "source_name": "Verbraucherzentrale (Stand Juli 2026)",
+   "confidence": "medium",
+   "note": "Frist und Sanktionen im Video nicht genannt; EEG/MaStRV-Rechtsgrundlage prüfen."
+  },
+  {
+   "claim": "Die Anmeldung muss nach dem beim jeweiligen Netzbetreiber verwendeten Verfahren erfolgen (Portal oder Formular); Reihenfolge und Fristen sind netzbetreiberspezifisch.",
+   "source_url": "https://cms.e-regio.de/assets/global/Dokumente/Eigenerzeugungsanlagen/Anmeldung_Kleinsterzeugungsanlage.pdf",
+   "source_name": "e-regio Anmeldeformular",
+   "confidence": "medium",
+   "note": ""
+  }
+ ],
+ "dropped": [
+  "Schwellenwerte 135 kW / 135 kVA / 500 kW für 4105 vs. 4110: widersprüchliche Quellen",
+  "Details zu Kleinstanlagen (800 VA, 2.000 Wp, Steckersolargeräte): Einzelquelle Ratgeberportal",
+  "Übergangsfrist der VDE-AR-N 4105:2026-03: keine belastbare Quelle",
+  "Konkrete Daten zum Anwendungsbeginn 4100 (März vs. 1. April 2026): uneinheitlich",
+  "KraftNAV-Fristen (zwei Wochen, 25 Prozent Vorschuss, Anschlusszusage): gelten für Kraftwerke, nicht für Niederspannung",
+  "Messkonzept-Nummern (MK 1, MK 2, MK 5 …): netzbetreiberspezifisch",
+  "NA-Schutz-Pflicht ab 30 kVA und Anlagenzertifikat-Schwellen: nur Herstellerseite",
+  "Ausgabestand VDE-AR-N 4110 (2023-09 vs. Novelle), 4120/4130: schnell veränderlich",
+  "Bußgelder / Wegfall der Vergütung bei fehlender Registrierung: Rechtsfolgen nicht primär geprüft",
+  "Gebühren/Baukostenzuschuss: bewusst nicht behandelt"
+ ]
+}
