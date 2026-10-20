@@ -166,6 +166,14 @@
   "Prüfintervalle für wiederkehrende Prüfungen von Sicherheitsbeleuchtung und BMA: landesabhängig, nicht verifiziert",
   "VdS 2095 / VdS 2540 als maßgebliche Richtlinien: nur Sekundärquelle",
   "VDI 6017 / DIN EN 81-73 für Aufzugs-Brandfallsteuerung: nur Merkblatt Berliner Feuerwehr, nicht verifiziert",
-  "Konkrete Ausgaben von DIN EN 1838 (2025-03) und DIN EN 50172 (2024-10) aus der DKE-Liste: nicht im Video, da schnell veränderlich"
+  "Konkrete Ausgaben von DIN EN 1838 (2025-03) und DIN EN 50172 (2024-10) aus der DKE-Liste: nicht im Video, da schnell veränderlich",
+  "Konkrete Reaktionen der Brandfallsteuerung (Aufzug fährt zur Haltestelle, Lüftung abschalten/umstellen, Feststellanlagen schließen Türen, Rauchabzug öffnet): nicht belegt, Art der Steuerung legt das Brandschutzkonzept fest",
+  "Aussage, dass Rettungswege nur aus Fluren und Treppenräumen bestehen: zu eng, F2 nennt nur notwendige Flure und Treppenräume im MLAR-Kontext",
+  "Aussage, dass die Prüfung immer von anerkannten Prüfsachverständigen gemacht wird: Prüfer und Prüfpflichten sind landesabhängig",
+  "Aussage, dass nur Elektrofachkräfte solche Arbeiten ausführen dürfen: gilt auch unter Leitung und Aufsicht (DGUV V3)",
+  "Aussage, dass eine Sicherheitsstromquelle nach dem Freischalten weiter einspeisen kann: in keinem Fakt belegt",
+  "Aussage, dass eine Fachfirma einen Kompetenznachweis braucht, und dass eine Norm allein keine Pflicht begründet: nicht in den Fakten (Rechtsaussage)",
+  "Aussage, dass Melder nur Rauch oder Wärme erkennen: unvollständig, nur als Beispiel genannt",
+  "DIN 14675 als ganze Norm: nur Teil 2 stellt Anforderungen an Fachfirmen"
  ]
 }

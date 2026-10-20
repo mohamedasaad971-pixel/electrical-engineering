@@ -2,7 +2,7 @@
  "id": "E-B05",
  "title": {
   "de": "Brandschutz, Notbeleuchtung und Alarmanlagen in der Elektrotechnik",
-  "ar": "الحماية من الحريق والإضاءة الطارئة وأنظمة الإنذار (التنسيق مع لائحة البناء)",
+  "ar": "الحماية من الحريق وإضاءة الطوارئ وأنظمة الإنذار (التنسيق مع لائحة البناء)",
   "en": "Fire Protection, Emergency Lighting and Alarm Systems"
  },
  "scenes": [
@@ -36,7 +36,7 @@
     },
     {
      "de": "Denken Sie an Notbeleuchtung, Brandmeldeanlagen und Leitungen in Rettungswegen.",
-     "ar": "فكروا في الإضاءة الطارئة وأنظمة إنذار الحريق والكابلات في مسارات الإخلاء.",
+     "ar": "فكروا في إضاءة الطوارئ وأنظمة إنذار الحريق والكابلات في مسارات الإخلاء.",
      "en": "Think of emergency lighting, fire alarm systems and cables in escape routes."
     },
     {
@@ -51,7 +51,7 @@
     },
     {
      "de": "Wir behandeln fünf Themen: Rettungswege, Funktionserhalt, Notbeleuchtung, Alarmanlagen und Prüfungen.",
-     "ar": "سنتناول خمسة مواضيع: مسارات الإخلاء والحفاظ على الوظيفة والإضاءة الطارئة وأنظمة الإنذار والفحوص.",
+     "ar": "سنتناول خمسة مواضيع: مسارات الإخلاء واستمرار الوظيفة وإضاءة الطوارئ وأنظمة الإنذار والفحوص.",
      "en": "We cover five topics: escape routes, functional endurance, emergency lighting, alarm systems and inspections."
     },
     {
@@ -108,7 +108,7 @@
     },
     {
      "de": "Das Bauordnungsrecht ist Sache der Länder.",
-     "ar": "قانون لوائح البناء من اختصاص الولايات.",
+     "ar": "تشريعات البناء من اختصاص الولايات.",
      "en": "Building regulation law is a matter for the federal states."
     },
     {
@@ -122,19 +122,19 @@
      "en": "We deliberately do not give concrete times or distances."
     },
     {
+     "de": "Diese Werte stehen im genehmigten Brandschutzkonzept und in den aktuellen Vorschriften.",
+     "ar": "هذه القيم موجودة في مفهوم الحماية من الحريق المعتمد وفي اللوائح الحالية.",
+     "en": "These values are in the approved fire protection concept and the current rules."
+    },
+    {
      "de": "Für Ihre Arbeit zählt immer die Fassung, die im Projekt gilt.",
-     "ar": "ما يهم في عملكم دائمًا هو النسخة السارية في المشروع.",
+     "ar": "ما يهم في عملكم دائمًا هو الصيغة السارية في المشروع.",
      "en": "For your work, the version that applies in the project always counts."
     },
     {
      "de": "Im Zweifel fragen Sie die Bauaufsicht oder den Brandschutzplaner.",
      "ar": "وعند الشك اسألوا سلطة البناء أو مخطط الحماية من الحريق.",
      "en": "If in doubt, ask the building authority or the fire protection planner."
-    },
-    {
-     "de": "Diese Werte stehen im genehmigten Brandschutzkonzept und in den aktuellen Vorschriften.",
-     "ar": "هذه القيم موجودة في مفهوم الحماية من الحريق المعتمد وفي اللوائح الحالية.",
-     "en": "These values are in the approved fire protection concept and the current rules."
     }
    ]
   },
@@ -180,7 +180,7 @@
     },
     {
      "de": "Technische Baubestimmungen und Richtlinien machen die Anforderungen konkret.",
-     "ar": "التعليمات الفنية للبناء والإرشادات تجعل المتطلبات ملموسة.",
+     "ar": "التعليمات الفنية للبناء والتوجيهات تجعل المتطلبات ملموسة.",
      "en": "Technical building rules and guidelines make the requirements concrete."
     },
     {
@@ -229,7 +229,7 @@
      },
      {
       "de": "Sonderbau",
-      "ar": "منشأة خاصة (Sonderbau)",
+      "ar": "منشأة خاصة",
       "en": "special building"
      }
     ]
@@ -267,7 +267,7 @@
     },
     {
      "de": "Das gilt auch für Ihre Zeichnungen und Beschreibungen.",
-     "ar": "وينطبق ذلك أيضًا على رسوماتكم ووصوفاتكم.",
+     "ar": "وينطبق ذلك أيضًا على رسوماتكم ووثائق الوصف الفني الخاصة بكم.",
      "en": "This also applies to your drawings and descriptions."
     },
     {
@@ -289,14 +289,14 @@
     "heading": "Elektrik in Rettungswegen",
     "items": [
      "Rettungswege sollen im Brand nutzbar bleiben",
-     "Leitungen erhöhen die Brandlast",
+     "Leitungen können die Brandlast erhöhen",
      "Durchführungen durch Wände beachten",
      "Die Anlage braucht ein Konzept"
     ],
     "terms": [
      {
       "de": "Rettungsweg",
-      "ar": "مسار الإخلاء (Rettungsweg)",
+      "ar": "مسار الإخلاء",
       "en": "escape route"
      },
      {
@@ -308,9 +308,9 @@
    },
    "lines": [
     {
-     "de": "Rettungswege sind Flure und Treppenräume.",
-     "ar": "مسارات الإخلاء هي الممرات وبيوت السلالم.",
-     "en": "Escape routes are corridors and stairwells."
+     "de": "Zu den Rettungswegen gehören notwendige Flure und Treppenräume.",
+     "ar": "من مسارات الإخلاء الممرات الإلزامية وبيوت السلالم.",
+     "en": "Escape routes include required corridors and stairwells."
     },
     {
      "de": "Im Brandfall sollen Menschen sie sicher benutzen können.",
@@ -329,7 +329,7 @@
     },
     {
      "de": "Auch Durchführungen durch Wände und Decken sind ein Thema.",
-     "ar": "وتُعد المرور عبر الجدران والأسقف موضوعًا مهمًا أيضًا.",
+     "ar": "وتُعد عمليات تمرير الكابلات عبر الجدران والأسقف موضوعًا مهمًا أيضًا.",
      "en": "Penetrations through walls and ceilings are also an issue."
     },
     {
@@ -338,8 +338,8 @@
      "en": "There, the fire protection of the building element must not be lost."
     },
     {
-     "de": "Ein Beispiel: Ein Flur dient als Fluchtweg für viele Personen.",
-     "ar": "مثال: ممر يُستخدم كمسار هروب لعدد كبير من الأشخاص.",
+     "de": "Ein Beispiel: Ein Flur dient als Rettungsweg für viele Personen.",
+     "ar": "مثال: ممر يُستخدم كمسار إخلاء لعدد كبير من الأشخاص.",
      "en": "An example: a corridor serves as an escape route for many people."
     },
     {
@@ -358,9 +358,9 @@
      "en": "It is precisely there that human lives are at stake."
     },
     {
-     "de": "Planen Sie diese Wege deshalb früh mit dem Brandschutz ab.",
+     "de": "Stimmen Sie diese Wege deshalb früh mit dem Brandschutz ab.",
      "ar": "لذلك نسّقوا هذه المسارات مبكرًا مع جهة الحماية من الحريق.",
-     "en": "So coordinate these routes early with the fire protection planner."
+     "en": "So coordinate these routes early with fire protection."
     }
    ]
   },
@@ -380,7 +380,7 @@
     "terms": [
      {
       "de": "Leitungsanlage",
-      "ar": "منظومة الكابلات (Leitungsanlage)",
+      "ar": "منظومة الكابلات",
       "en": "cable system"
      }
     ]
@@ -388,7 +388,7 @@
    "lines": [
     {
      "de": "Eine wichtige Richtlinie heißt Muster-Leitungsanlagen-Richtlinie.",
-     "ar": "إرشاد مهم هو التعليمات النموذجية (Muster-Leitungsanlagen-Richtlinie) لمنظومات الكابلات.",
+     "ar": "التوجيه النموذجي لمنظومات الكابلات (Muster-Leitungsanlagen-Richtlinie) توجيه مهم.",
      "en": "An important guideline is the Model Cable Systems Guideline."
     },
     {
@@ -409,12 +409,12 @@
     },
     {
      "de": "Und sie behandelt den Funktionserhalt elektrischer Leitungsanlagen im Brandfall.",
-     "ar": "وتتناول أيضًا الحفاظ على وظيفة منظومات الكابلات الكهربائية عند الحريق.",
+     "ar": "وتتناول أيضًا استمرار وظيفة منظومات الكابلات الكهربائية عند الحريق.",
      "en": "And it covers the functional endurance of electrical cable systems in a fire."
     },
     {
      "de": "Wichtig: Es ist eine Muster-Richtlinie, kein Gesetz.",
-     "ar": "المهم: هي إرشاد نموذجي وليست قانونًا.",
+     "ar": "المهم: هي توجيه نموذجي وليست قانونًا.",
      "en": "Important: it is a model guideline, not a law."
     },
     {
@@ -424,7 +424,7 @@
     },
     {
      "de": "Lesen Sie die Fassung, die im Projektland gilt, nicht nur die Musterfassung.",
-     "ar": "اقرؤوا النسخة المعتمدة في ولاية المشروع لا النسخة النموذجية فقط.",
+     "ar": "اقرؤوا الصيغة المعتمدة في ولاية المشروع لا الصيغة النموذجية فقط.",
      "en": "Read the version that applies in the project state, not only the model version."
     },
     {
@@ -461,7 +461,7 @@
    "lines": [
     {
      "de": "Wie wird eine Muster-Richtlinie verbindlich?",
-     "ar": "كيف يصبح الإرشاد النموذجي ملزمًا؟",
+     "ar": "كيف يصبح التوجيه النموذجي ملزمًا؟",
      "en": "How does a model guideline become binding?"
     },
     {
@@ -482,7 +482,7 @@
     },
     {
      "de": "Deshalb kann eine ältere Fassung in einem Land noch maßgeblich sein.",
-     "ar": "لذلك قد تبقى نسخة أقدم معتمدة في ولاية ما.",
+     "ar": "لذلك قد تبقى صيغة أقدم معتمدة في ولاية ما.",
      "en": "So an older version can still be relevant in one state."
     },
     {
@@ -497,7 +497,7 @@
     },
     {
      "de": "Prüfen Sie immer die Fassung im Land Ihres Projekts.",
-     "ar": "تحققوا دائمًا من النسخة المعتمدة في ولاية مشروعكم.",
+     "ar": "تحققوا دائمًا من الصيغة المعتمدة في ولاية مشروعكم.",
      "en": "Always check the version in the state of your project."
     }
    ]
@@ -508,7 +508,7 @@
     "kicker": "Funktionserhalt",
     "heading": "Was bedeutet Funktionserhalt?",
     "items": [
-     "Strom fließt auch im Brand weiter",
+     "Strom fließt im Brand weiter (geforderte Dauer)",
      "Sicherheitstechnik bleibt in Betrieb",
      "Dauer richtet sich nach Bauvorschriften",
      "Gilt für das geprüfte Gesamtsystem"
@@ -516,7 +516,7 @@
     "terms": [
      {
       "de": "Funktionserhalt",
-      "ar": "الحفاظ على الوظيفة (Funktionserhalt)",
+      "ar": "استمرار الوظيفة",
       "en": "functional endurance"
      }
     ]
@@ -524,17 +524,17 @@
    "lines": [
     {
      "de": "Funktionserhalt ist ein zentraler Begriff.",
-     "ar": "الحفاظ على الوظيفة (Funktionserhalt) مفهوم محوري.",
+     "ar": "استمرار الوظيفة (Funktionserhalt) مفهوم محوري.",
      "en": "Functional endurance is a central term."
     },
     {
-     "de": "Gemeint ist: Der Stromfluss bleibt im Brand nicht unterbrochen.",
-     "ar": "المقصود: لا ينقطع مرور التيار أثناء الحريق.",
-     "en": "It means the current flow is not interrupted during a fire."
+     "de": "Gemeint ist: Der Stromfluss bleibt im Brand für die geforderte Dauer nicht unterbrochen.",
+     "ar": "المقصود: لا ينقطع مرور التيار أثناء الحريق طوال المدة المطلوبة.",
+     "en": "It means the current flow is not interrupted during a fire for the required duration."
     },
     {
      "de": "So laufen Sicherheitsbeleuchtung und Brandmeldeanlage weiter.",
-     "ar": "وهكذا تستمر إضاءة الأمان ونظام إنذار الحريق في العمل.",
+     "ar": "وهكذا تستمر إضاءة الطوارئ ونظام إنذار الحريق في العمل.",
      "en": "This keeps safety lighting and the fire alarm system running."
     },
     {
@@ -551,11 +551,11 @@
      "de": "Für Kabel gibt es eine Prüfnorm, die DIN 4102-12.",
      "ar": "وللكابلات معيار اختبار هو DIN 4102-12 الألماني.",
      "en": "For cables there is a test standard, DIN 4102-12.",
-     "tts": "Für Kabel gibt es eine Prüfnorm, die Din viertausendeinhundertzwei, Teil zwölf."
+     "tts": "Für Kabel gibt es eine Prüfnorm, die Din vier eins null zwei Strich eins zwei."
     },
     {
      "de": "Ein Beispiel sind Brandmeldeanlage und Sicherheitsbeleuchtung im Treppenraum.",
-     "ar": "مثال على ذلك نظام إنذار الحريق وإضاءة الأمان في بيت السلم.",
+     "ar": "مثال على ذلك نظام إنذار الحريق وإضاءة الطوارئ في بيت السلم.",
      "en": "An example is the fire alarm system and safety lighting in the stairwell."
     },
     {
@@ -615,7 +615,7 @@
     },
     {
      "de": "Anlagen mit Funktionserhalt werden gekennzeichnet und dokumentiert.",
-     "ar": "تُعلَّم المنظومات ذات الحفاظ على الوظيفة وتُوثَّق.",
+     "ar": "تُعلَّم المنظومات التي يُشترط لها استمرار الوظيفة وتُوثَّق.",
      "en": "Installations with functional endurance are labelled and documented."
     },
     {
@@ -625,7 +625,7 @@
     },
     {
      "de": "Der Monteur muss die Einbauvorgaben genau einhalten.",
-     "ar": "ويجب على الفني الالتزام بتعليمات التركيب بدقة.",
+     "ar": "ويجب على المركِّب الالتزام بتعليمات التركيب بدقة.",
      "en": "The installer must follow the installation instructions exactly."
     },
     {
@@ -654,7 +654,7 @@
     "terms": [
      {
       "de": "Sicherheitsstromversorgung",
-      "ar": "مصدر الطاقة لأغراض الأمان (Sicherheitsstromversorgung)",
+      "ar": "مصدر الطاقة لأغراض الأمان",
       "en": "safety power supply"
      }
     ]
@@ -666,20 +666,20 @@
      "en": "Safety systems need a reliable power supply."
     },
     {
-     "de": "Sie fällt nicht aus, wenn das Netz ausfällt.",
-     "ar": "ولا يتوقف عند انقطاع الشبكة.",
-     "en": "It must not fail when the mains fails."
+     "de": "Sie soll auch bei Netzausfall weiter versorgen.",
+     "ar": "ويجب أن تواصل التغذية حتى عند انقطاع الشبكة.",
+     "en": "It is meant to keep supplying even when the mains fails."
     },
     {
      "de": "Typische Verbraucher sind Sicherheitsbeleuchtung und Brandschutzeinrichtungen.",
-     "ar": "من المستهلكين المعتادين إضاءة الأمان ومعدات الحماية من الحريق.",
+     "ar": "من المستهلكين المعتادين إضاءة الطوارئ ومعدات الحماية من الحريق.",
      "en": "Typical loads are safety lighting and fire protection equipment."
     },
     {
      "de": "Die Norm DIN VDE 0100-560 behandelt Einrichtungen für Sicherheitszwecke und ihre Stromquellen.",
-     "ar": "يتناول معيار DIN VDE 0100-560 تجهيزات أغراض الأمان ومصادر كهربائها.",
+     "ar": "يتناول معيار DIN VDE 0100-560 تجهيزات الأمان ومصادر تغذيتها بالطاقة.",
      "en": "The standard DIN VDE 0100-560 covers safety services and their power sources.",
-     "tts": "Die Norm Din Fau-De-E null-eins-null-null, Teil fünf-sechzig behandelt Einrichtungen für Sicherheitszwecke und ihre Stromquellen."
+     "tts": "Die Norm Din Fau-De-E null eins null null Strich fünf sechs null behandelt Einrichtungen für Sicherheitszwecke und ihre Stromquellen."
     },
     {
      "de": "Sie regelt auch Leitungsanlagen und Stromkreise dafür.",
@@ -727,12 +727,12 @@
     "terms": [
      {
       "de": "Sicherheitsbeleuchtung",
-      "ar": "إضاءة الأمان (Sicherheitsbeleuchtung)",
+      "ar": "إضاءة الأمان",
       "en": "safety lighting"
      },
      {
       "de": "Notbeleuchtung",
-      "ar": "الإضاءة الطارئة",
+      "ar": "إضاءة الطوارئ",
       "en": "emergency lighting"
      }
     ]
@@ -744,9 +744,9 @@
      "en": "If the light fails, nobody should be left in the dark."
     },
     {
-     "de": "Dafür gibt es die Sicherheitsbeleuchtung, im Alltag oft Notbeleuchtung genannt.",
-     "ar": "لذلك توجد إضاءة الأمان، وتسمى في الحياة اليومية غالبًا الإضاءة الطارئة.",
-     "en": "For this there is safety lighting, often called emergency lighting in everyday speech."
+     "de": "Dafür gibt es die Sicherheitsbeleuchtung. Sie ist ein Teil der Notbeleuchtung, im Alltag sagt man oft nur Notbeleuchtung.",
+     "ar": "لذلك توجد إضاءة الأمان (Sicherheitsbeleuchtung)، وهي جزء من إضاءة الطوارئ، وغالبًا ما يقال في الحياة اليومية إضاءة الطوارئ فقط.",
+     "en": "For this there is safety lighting. It is part of emergency lighting; in everyday speech people often just say emergency lighting."
     },
     {
      "de": "Die Rettungswegbeleuchtung zeigt den Weg nach draußen.",
@@ -805,7 +805,7 @@
     "terms": [
      {
       "de": "Vornorm",
-      "ar": "معيار تمهيدي (Vornorm)",
+      "ar": "معيار تمهيدي",
       "en": "pre-standard"
      }
     ]
@@ -820,19 +820,19 @@
      "de": "Die Norm DIN EN 1838 legt die lichttechnischen Anforderungen fest.",
      "ar": "يحدد معيار DIN EN 1838 المتطلبات الضوئية.",
      "en": "The standard DIN EN 1838 sets the lighting requirements.",
-     "tts": "Die Norm Din E-En eintausendachthundertachtunddreißig legt die lichttechnischen Anforderungen fest."
+     "tts": "Die Norm Din E-En eins acht drei acht legt die lichttechnischen Anforderungen fest."
     },
     {
      "de": "Die Norm DIN EN 50172, auch VDE 0108-100, betrifft die Anlagentechnik.",
      "ar": "ويتعلق معيار DIN EN 50172 المعروف أيضًا بـ VDE 0108-100 بتقنية المنظومة.",
      "en": "The standard DIN EN 50172, also VDE 0108-100, concerns the system design.",
-     "tts": "Die Norm Din E-En fünfzigtausend-einhundertzweiundsiebzig, auch Fau-De-E null-eins-null-acht, Teil einhundert, betrifft die Anlagentechnik."
+     "tts": "Die Norm Din E-En fünf null eins sieben zwei, auch Fau-De-E null eins null acht Strich eins null null, betrifft die Anlagentechnik."
     },
     {
      "de": "Dazu kommt die Vornorm DIN VDE V 0108-100-1 mit Ergänzungen.",
      "ar": "يضاف إليها المعيار التمهيدي DIN VDE V 0108-100-1 بإضافات.",
      "en": "Added to this is the pre-standard DIN VDE V 0108-100-1 with supplements.",
-     "tts": "Dazu kommt die Vornorm Din Fau-De-E Vau null-eins-null-acht, Teil einhundert, Strich eins mit Ergänzungen."
+     "tts": "Dazu kommt die Vornorm Din Fau-De-E Vau null eins null acht Strich eins null null Strich eins mit Ergänzungen."
     },
     {
      "de": "Ihre baurechtliche Einführung kann je Bundesland abweichen.",
@@ -841,7 +841,7 @@
     },
     {
      "de": "In Arbeitsstätten regelt die ASR A2.3 die Sicherheitsbeleuchtung für Flucht- und Rettungswege.",
-     "ar": "وفي أماكن العمل تنظم ASR A2.3 إضاءة الأمان لمسارات الهروب والإخلاء.",
+     "ar": "وفي أماكن العمل تنظم ASR A2.3 إضاءة الطوارئ لمسارات الهروب والإخلاء.",
      "en": "In workplaces, ASR A2.3 covers safety lighting for escape and rescue routes.",
      "tts": "In Arbeitsstätten regelt die A-Es-Er A zwei Punkt drei die Sicherheitsbeleuchtung für Flucht- und Rettungswege."
     },
@@ -851,9 +851,9 @@
      "en": "Our tip: always read standards together with the building code."
     },
     {
-     "de": "Eine Norm allein macht noch keine Pflicht.",
-     "ar": "المعيار وحده لا يخلق التزامًا.",
-     "en": "A standard alone does not create an obligation."
+     "de": "Ob eine Norm verbindlich wird, hängt zum Beispiel vom Baurecht und vom Vertrag ab.",
+     "ar": "وما إذا كان المعيار ملزمًا يتوقف مثلًا على قانون البناء وعلى العقد.",
+     "en": "Whether a standard becomes binding depends, for example, on building law and the contract."
     },
     {
      "de": "Alle Ausgaben ändern sich; prüfen Sie den aktuellen Stand.",
@@ -868,7 +868,7 @@
     "kicker": "Brandmeldeanlagen",
     "heading": "Aufbau im Überblick",
     "items": [
-     "Melder: erkennen Rauch oder Wärme",
+     "Melder: erkennen z. B. Rauch oder Wärme",
      "Zentrale: wertet Meldungen aus",
      "Alarmierung: warnt die Personen",
      "Aufschaltung: Meldung zur Feuerwehr"
@@ -876,12 +876,12 @@
     "terms": [
      {
       "de": "Brandmeldeanlage",
-      "ar": "نظام إنذار الحريق (Brandmeldeanlage)",
+      "ar": "نظام إنذار الحريق",
       "en": "fire alarm system"
      },
      {
       "de": "Aufschaltung",
-      "ar": "الربط بالإطفاء (Aufschaltung)",
+      "ar": "الربط بفرقة الإطفاء",
       "en": "connection to the fire brigade"
      }
     ]
@@ -894,9 +894,9 @@
      "tts": "Jetzt zu den Brandmeldeanlagen, kurz Be-Em-A."
     },
     {
-     "de": "Melder erkennen Rauch oder Wärme.",
-     "ar": "تكشف الكواشف الدخان أو الحرارة.",
-     "en": "Detectors sense smoke or heat."
+     "de": "Melder erkennen zum Beispiel Rauch oder Wärme.",
+     "ar": "تكشف الكواشف مثلًا الدخان أو الحرارة.",
+     "en": "Detectors sense, for example, smoke or heat."
     },
     {
      "de": "Die Zentrale wertet die Meldungen aus.",
@@ -910,7 +910,7 @@
     },
     {
      "de": "Oft wird die Anlage auf die Feuerwehr aufgeschaltet.",
-     "ar": "وكثيرًا ما يُربط النظام بالإطفاء.",
+     "ar": "وكثيرًا ما يُربط النظام بفرقة الإطفاء.",
      "en": "The system is often connected to the fire brigade."
     },
     {
@@ -935,7 +935,7 @@
     },
     {
      "de": "Fragen Sie früh bei der zuständigen Feuerwehr nach.",
-     "ar": "اسألوا مبكرًا الإطفاء المختصة.",
+     "ar": "اسألوا فرقة الإطفاء المختصة مبكرًا.",
      "en": "Ask the responsible fire brigade early."
     }
    ]
@@ -948,14 +948,14 @@
     "items": [
      "DIN VDE 0833-2 | Brandmeldeanlagen",
      "Titel | Gefahrenmeldeanlagen",
-     "DIN 14675 | Fachfirmen",
+     "DIN 14675-2 | Fachfirmen",
      "Ablauf | Planung bis Instandhaltung",
      "Ausgaben | Stand prüfen"
     ],
     "terms": [
      {
       "de": "Fachfirma",
-      "ar": "شركة متخصصة (Fachfirma)",
+      "ar": "شركة متخصصة",
       "en": "specialist firm"
      }
     ]
@@ -970,25 +970,25 @@
      "de": "Die Reihe DIN VDE 0833 heißt Gefahrenmeldeanlagen für Brand, Einbruch und Überfall.",
      "ar": "سلسلة DIN VDE 0833 عنوانها منظومات الإنذار للحريق والسطو والاعتداء.",
      "en": "The series DIN VDE 0833 is called hazard warning systems for fire, burglary and robbery.",
-     "tts": "Die Reihe Din Fau-De-E 0833 heißt Gefahrenmeldeanlagen für Brand, Einbruch und Überfall."
+     "tts": "Die Reihe Din Fau-De-E null acht drei drei heißt Gefahrenmeldeanlagen für Brand, Einbruch und Überfall."
     },
     {
      "de": "Teil zwei, DIN VDE 0833-2, betrifft Brandmeldeanlagen.",
      "ar": "الجزء الثاني DIN VDE 0833-2 يخص أنظمة إنذار الحريق.",
      "en": "Part two, DIN VDE 0833-2, concerns fire alarm systems.",
-     "tts": "Teil zwei, Din Fau-De-E null-acht-drei-drei, Teil zwei, betrifft Brandmeldeanlagen."
+     "tts": "Teil zwei, Din Fau-De-E null acht drei drei Strich zwei, betrifft Brandmeldeanlagen."
     },
     {
-     "de": "Eine neue Fassung ist im Jahr zweitausendzweiundzwanzig erschienen.",
-     "ar": "ظهرت نسخة جديدة في عام ألفين واثنين وعشرين.",
-     "en": "A new version appeared in the year two thousand twenty-two.",
+     "de": "Eine neue Fassung ist im Jahr 2022 erschienen.",
+     "ar": "ظهرت في عام ٢٠٢٢ صيغة جديدة.",
+     "en": "A new version appeared in 2022.",
      "tts": "Eine neue Fassung ist im Jahr zweitausendzweiundzwanzig erschienen."
     },
     {
-     "de": "Die DIN 14675 stellt Anforderungen an Fachfirmen für Brandmeldeanlagen.",
-     "ar": "يضع معيار DIN 14675 متطلبات على الشركات المتخصصة بأنظمة إنذار الحريق.",
-     "en": "DIN 14675 sets requirements for specialist firms for fire alarm systems.",
-     "tts": "Die Din vierzehntausend-sechshundertfünfundsiebzig stellt Anforderungen an Fachfirmen für Brandmeldeanlagen."
+     "de": "Der Teil zwei der DIN 14675 stellt Anforderungen an Fachfirmen für Brandmeldeanlagen.",
+     "ar": "يضع الجزء الثاني من معيار DIN 14675 متطلبات على الشركات المتخصصة بأنظمة إنذار الحريق.",
+     "en": "Part two of DIN 14675 sets requirements for specialist firms for fire alarm systems.",
+     "tts": "Der Teil zwei der Din eins vier sechs sieben fünf stellt Anforderungen an Fachfirmen für Brandmeldeanlagen."
     },
     {
      "de": "Das betrifft Planung, Montage, Inbetriebnahme, Abnahme und Instandhaltung.",
@@ -996,9 +996,9 @@
      "en": "This covers planning, installation, commissioning, acceptance and maintenance."
     },
     {
-     "de": "Eine Fachfirma braucht dafür einen entsprechenden Nachweis ihrer Kompetenz.",
-     "ar": "تحتاج الشركة المتخصصة لذلك إلى إثبات مناسب لكفاءتها.",
-     "en": "A specialist firm needs suitable proof of its competence for this."
+     "de": "Die Anforderungen an die Fachfirma regelt der Teil zwei der Norm.",
+     "ar": "متطلبات الشركة المتخصصة ينظمها الجزء الثاني من المعيار.",
+     "en": "The requirements for the specialist firm are set by part two of the standard."
     },
     {
      "de": "Fragen Sie den Auftraggeber, welche Anforderungen im Vertrag stehen.",
@@ -1018,16 +1018,17 @@
     "kicker": "Brandfallsteuerung",
     "heading": "Schnittstellen der BMA",
     "items": [
-     "Rauch- und Wärmeabzug | öffnen",
-     "Aufzüge | Fahrt zur Haltestelle",
-     "Lüftung | abschalten oder umstellen",
-     "Feststellanlagen | Türen schließen",
+     "Rauch- und Wärmeabzug | wird angesteuert",
+     "Aufzüge | wird angesteuert",
+     "Lüftung | wird angesteuert",
+     "Feststellanlagen | werden angesteuert",
+     "Art | laut Brandschutzkonzept",
      "Dokument | Brandfallsteuermatrix"
     ],
     "terms": [
      {
       "de": "Brandfallsteuerung",
-      "ar": "التحكم في حالة الحريق (Brandfallsteuerung)",
+      "ar": "التحكم في حالة الحريق",
       "en": "fire-case control"
      }
     ]
@@ -1045,7 +1046,7 @@
     },
     {
      "de": "Beispiele sind Rauch- und Wärmeabzug, Aufzüge und Lüftung.",
-     "ar": "من الأمثلة تهوية الدخان والحرارة والمصاعد والتهوية.",
+     "ar": "من الأمثلة شفط الدخان والحرارة والمصاعد والتهوية.",
      "en": "Examples are smoke and heat extraction, lifts and ventilation."
     },
     {
@@ -1093,7 +1094,7 @@
     "items": [
      "Prüfpflicht je nach Landesrecht",
      "Grundlage: Prüfverordnung des Landes",
-     "Anerkannte Prüfsachverständige",
+     "Je nach Land: Prüfsachverständige",
      "Arbeitsstätte: regelmäßige Funktionsprüfung"
     ],
     "terms": [
@@ -1106,13 +1107,13 @@
    },
    "lines": [
     {
-     "de": "Sicherheitstechnische Anlagen müssen geprüft werden.",
-     "ar": "يجب فحص المنظومات الأمنية التقنية.",
-     "en": "Safety systems must be inspected."
+     "de": "Sicherheitstechnische Anlagen müssen oft geprüft werden.",
+     "ar": "تخضع المنظومات التقنية للأمان غالبًا للفحص.",
+     "en": "Safety systems often have to be inspected."
     },
     {
      "de": "Ob und wie, regelt das Landesrecht.",
-     "ar": "وهل ذلك وكيفه ينظمه قانون الولاية.",
+     "ar": "وجوب الفحص وكيفيته يحدده قانون الولاية.",
      "en": "Whether and how is regulated by state law."
     },
     {
@@ -1126,9 +1127,9 @@
      "en": "There is a model inspection ordinance, but each state decides for itself."
     },
     {
-     "de": "Die Prüfung machen anerkannte Prüfsachverständige.",
-     "ar": "ويقوم بالفحص خبراء فحص معتمدون.",
-     "en": "The inspection is done by recognised inspection experts."
+     "de": "Die Prüfung machen je nach Land anerkannte Prüfsachverständige.",
+     "ar": "ويقوم بالفحص، بحسب الولاية، خبراء فحص معتمدون.",
+     "en": "Depending on the state, the inspection is done by recognised inspection experts."
     },
     {
      "de": "Das Land regelt auch ihre Anerkennung.",
@@ -1166,7 +1167,7 @@
    "slide": {
     "layout": "table",
     "kicker": "Sicherheit bei Arbeiten",
-    "heading": "Fünf Sicherheitsregeln aus E-F05",
+    "heading": "Die fünf Sicherheitsregeln",
     "items": [
      "1  Freischalten",
      "2  Gegen Wiedereinschalten sichern",
@@ -1177,7 +1178,7 @@
     "terms": [
      {
       "de": "Elektrofachkraft",
-      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "ar": "الكهربائي المؤهَّل",
       "en": "qualified electrician"
      }
     ]
@@ -1189,15 +1190,19 @@
      "en": "Work on safety systems needs special care."
     },
     {
-     "de": "Es gelten die fünf Sicherheitsregeln aus dem Video E-F05.",
-     "ar": "تسري قواعد السلامة الخمس من الفيديو E-F05 المذكور سابقًا.",
-     "en": "The five safety rules from the video E-F05 apply.",
-     "tts": "Es gelten die fünf Sicherheitsregeln aus dem Video E-F-null-fünf."
+     "de": "Es gelten die fünf Sicherheitsregeln aus dem Video über elektrische Sicherheit.",
+     "ar": "تسري قواعد السلامة الخمس من فيديو السلامة الكهربائية.",
+     "en": "The five safety rules from the video on electrical safety apply."
     },
     {
-     "de": "Die fünf Regeln: freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen, erden und kurzschließen, benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
-     "ar": "القواعد الخمس: فصل الجهد، وتأمين المنشأة ضد إعادة التشغيل، والتحقق من انعدام الجهد في جميع الأقطاب، والتأريض والتقصير، وتغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
-     "en": "The five rules: isolate, secure against re-energising, verify absence of voltage on all poles, earth and short-circuit, cover or fence off neighbouring live parts."
+     "de": "Die fünf Regeln: freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen.",
+     "ar": "القواعد الخمس: فصل الجهد، وتأمينه ضد إعادة التشغيل، والتحقق من انعدام الجهد في كل الأقطاب.",
+     "en": "The five rules: isolate, secure against re-energising, verify absence of voltage on all poles."
+    },
+    {
+     "de": "Dann erden und kurzschließen, zuletzt benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "ثم التأريض وإجراء القصر الكهربائي، وأخيرًا تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Then earth and short-circuit, and finally cover or fence off neighbouring live parts."
     },
     {
      "de": "Die Reihenfolge ist fest: von eins bis fünf.",
@@ -1210,14 +1215,14 @@
      "en": "When re-energising, the reverse order applies."
     },
     {
-     "de": "Denken Sie auch an eine Sicherheitsstromquelle, die weiter einspeisen kann.",
-     "ar": "وانتبهوا كذلك إلى مصدر طاقة الأمان الذي قد يواصل التغذية.",
-     "en": "Also think of a safety power source that may keep feeding."
+     "de": "Beachten Sie auch die Sicherheitsstromversorgung der Anlage.",
+     "ar": "وانتبهوا كذلك إلى منظومة التغذية بالطاقة لأغراض الأمان في المنشأة.",
+     "en": "Also keep the safety power supply of the system in mind."
     },
     {
-     "de": "Solche Arbeiten gehören nur in die Hand von Elektrofachkräften.",
-     "ar": "مثل هذه الأعمال مكانها فقط أيدي الكهربائيين المؤهَّلين (Elektrofachkräfte) وحدهم.",
-     "en": "Such work belongs only in the hands of qualified electricians."
+     "de": "Solche Arbeiten gehören in die Hand einer Elektrofachkraft oder erfolgen unter deren Leitung und Aufsicht.",
+     "ar": "مثل هذه الأعمال من اختصاص الكهربائي المؤهَّل (Elektrofachkraft) أو تُنفَّذ تحت إدارته وإشرافه.",
+     "en": "Such work belongs in the hands of a qualified electrician or is carried out under their direction and supervision."
     },
     {
      "de": "Und Brandschutz darf durch die Arbeit nie verloren gehen.",
@@ -1235,7 +1240,7 @@
      "Brandschutzplaner: Konzept und Schutzziele",
      "Elektroplaner: Anlagen und Leitungswege",
      "Feuerwehr: Aufschaltung und Zugang",
-     "Prüfsachverständige: Abnahme und Prüfung",
+     "Prüfsachverständige: Prüfung",
      "Bauaufsicht: Genehmigung"
     ]
    },
@@ -1257,7 +1262,7 @@
     },
     {
      "de": "Die Feuerwehr nennt Bedingungen für Aufschaltung und Zugang.",
-     "ar": "تذكر الإطفاء شروط الربط والوصول.",
+     "ar": "تحدد فرقة الإطفاء شروط الربط والوصول.",
      "en": "The fire brigade states conditions for connection and access."
     },
     {
@@ -1324,23 +1329,23 @@
     },
     {
      "de": "Funktionserhalt gilt immer für das geprüfte Gesamtsystem.",
-     "ar": "الحفاظ على الوظيفة يسري دائمًا على المنظومة الكاملة المختبَرة.",
+     "ar": "استمرار الوظيفة يسري دائمًا على المنظومة الكاملة المختبَرة.",
      "en": "Functional endurance always applies to the tested complete system."
     },
     {
      "de": "Sicherheitsbeleuchtung und Brandmeldeanlage folgen dem Brandschutzkonzept.",
-     "ar": "تتبع إضاءة الأمان ونظام إنذار الحريق مفهوم الحماية من الحريق.",
+     "ar": "تتبع إضاءة الطوارئ ونظام إنذار الحريق مفهوم الحماية من الحريق.",
      "en": "Safety lighting and the fire alarm system follow the fire protection concept."
-    },
-    {
-     "de": "Dann können Sie das Wissen im Alltag anwenden.",
-     "ar": "عندها يمكنكم تطبيق المعرفة في العمل اليومي.",
-     "en": "Then you can apply the knowledge in daily work."
     },
     {
      "de": "Anerkannte Sachverständige prüfen, je nach Landesrecht.",
      "ar": "يفحص خبراء معتمدون بحسب قانون الولاية.",
      "en": "Recognised experts inspect, depending on state law."
+    },
+    {
+     "de": "So können Sie das Wissen im Alltag anwenden.",
+     "ar": "وهكذا يمكنكم تطبيق المعرفة في العمل اليومي.",
+     "en": "This way you can apply the knowledge in daily work."
     }
    ]
   },
@@ -1364,12 +1369,12 @@
     },
     {
      "de": "Gesetze, Richtlinien und Normen ändern sich.",
-     "ar": "القوانين والإرشادات والمعايير تتغير.",
+     "ar": "القوانين والتوجيهات والمعايير تتغير.",
      "en": "Laws, guidelines and standards change."
     },
     {
      "de": "Prüfen Sie vor jedem Projekt die aktuelle Fassung im jeweiligen Bundesland.",
-     "ar": "تحققوا قبل كل مشروع من النسخة الحالية في الولاية المعنية.",
+     "ar": "تحققوا قبل كل مشروع من الصيغة الحالية في الولاية المعنية.",
      "en": "Before every project, check the current version in the respective state."
     },
     {
@@ -1399,7 +1404,7 @@
   },
   {
    "de": "die Notbeleuchtung",
-   "ar": "الإضاءة الطارئة",
+   "ar": "إضاءة الطوارئ",
    "en": "emergency lighting"
   },
   {
@@ -1409,7 +1414,7 @@
   },
   {
    "de": "der Funktionserhalt",
-   "ar": "الحفاظ على الوظيفة عند الحريق",
+   "ar": "استمرار الوظيفة عند الحريق",
    "en": "functional endurance"
   },
   {
@@ -1454,7 +1459,7 @@
   },
   {
    "de": "die Aufschaltung",
-   "ar": "الربط بالإطفاء",
+   "ar": "الربط بفرقة الإطفاء",
    "en": "connection to the fire brigade"
   },
   {
@@ -1477,7 +1482,7 @@
   {
    "q": {
     "de": "Was bedeutet Funktionserhalt?",
-    "ar": "ماذا يعني الحفاظ على الوظيفة عند الحريق؟",
+    "ar": "ماذا يعني استمرار الوظيفة عند الحريق؟",
     "en": "What does functional endurance mean?"
    },
    "options": [
@@ -1487,17 +1492,17 @@
      "en": "Cables do not burn"
     },
     {
-     "de": "Der Stromfluss bleibt im Brand nicht unterbrochen",
-     "ar": "لا ينقطع مرور التيار أثناء الحريق",
-     "en": "Current flow is not interrupted in a fire"
-    },
-    {
      "de": "Die Anlage wird abgeschaltet",
      "ar": "تُفصل المنشأة",
      "en": "The system is switched off"
+    },
+    {
+     "de": "Der Stromfluss bleibt im Brand für die geforderte Dauer erhalten",
+     "ar": "يستمر مرور التيار أثناء الحريق طوال المدة المطلوبة",
+     "en": "Current flow continues in a fire for the required duration"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
@@ -1520,20 +1525,15 @@
      "de": "Nur für Wohnhäuser",
      "ar": "للمباني السكنية فقط",
      "en": "Only for homes"
-    },
-    {
-     "de": "Nie",
-     "ar": "أبدًا",
-     "en": "Never"
     }
    ],
    "answer": 0
   },
   {
    "q": {
-    "de": "Wer legt die Art der Brandfallsteuerung fest?",
-    "ar": "من يحدد نوع التحكم في حالة الحريق؟",
-    "en": "Who sets the type of fire-case control?"
+    "de": "Was legt die Art der Brandfallsteuerung fest?",
+    "ar": "ما الذي يحدد نوع التحكم في حالة الحريق؟",
+    "en": "What sets the type of fire-case control?"
    },
    "options": [
     {
@@ -1547,9 +1547,9 @@
      "en": "The electricity supplier"
     },
     {
-     "de": "Der Bauherr allein",
-     "ar": "صاحب البناء وحده",
-     "en": "The client alone"
+     "de": "Die Farbe der Kabel",
+     "ar": "لون الكابلات",
+     "en": "The colour of the cables"
     },
     {
      "de": "Das Brandschutzkonzept",
@@ -1561,9 +1561,9 @@
   },
   {
    "q": {
-    "de": "Was regelt DIN 14675?",
-    "ar": "ماذا ينظم معيار DIN 14675؟",
-    "en": "What does DIN 14675 regulate?"
+    "de": "Was regelt DIN 14675 Teil 2?",
+    "ar": "ما الذي ينظمه الجزء الثاني من معيار DIN 14675 بالتحديد؟",
+    "en": "What does part 2 of DIN 14675 regulate?"
    },
    "options": [
     {
@@ -1602,9 +1602,9 @@
      "en": "A visual check only"
     },
     {
-     "de": "Die fünf Sicherheitsregeln aus E-F05 in fester Reihenfolge",
-     "ar": "قواعد السلامة الخمس من E-F05 بترتيب ثابت",
-     "en": "The five safety rules from E-F05 in fixed order"
+     "de": "Die fünf Sicherheitsregeln in fester Reihenfolge",
+     "ar": "قواعد السلامة الخمس بترتيب ثابت",
+     "en": "The five safety rules in fixed order"
     }
    ],
    "answer": 2
@@ -1615,5 +1615,5 @@
   "ar": "في الفيديو القادم نتناول التخطيط الكهربائي وفق لائحة HOAI لأتعاب المهندسين.",
   "en": "The next video is about electrical planning under the HOAI."
  },
- "stand": "2026-10-20; prüfen: Fassung und Einführung der Muster-Leitungsanlagen-Richtlinie je Bundesland, Ausgaben DIN EN 1838, DIN EN 50172 (VDE 0108-100), DIN VDE 0833-2, DIN 14675, DIN VDE 0100-560, aktuelle ASR A2.3, Prüfverordnungen der Länder und Anerkennung der Prüfsachverständigen, Landesbauordnung des Projektlands"
+ "stand": "2026-10-20; prüfen: Fassung und Einführung der Muster-Leitungsanlagen-Richtlinie je Bundesland, Ausgaben DIN EN 1838, DIN EN 50172 (VDE 0108-100), DIN VDE 0833-2, DIN 14675, DIN VDE 0100-560, aktuelle ASR A2.3, Prüfverordnungen der Länder und Anerkennung der Prüfsachverständigen, Landesbauordnung des Projektlands; Zuständigkeit und Anerkennung der Prüfer je Land, Teil 2 der DIN 14675, Brandfallsteuermatrix des Projekts"
 }

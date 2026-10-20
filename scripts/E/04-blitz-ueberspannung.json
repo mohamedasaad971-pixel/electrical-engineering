@@ -848,7 +848,7 @@
    "lines": [
     {
      "de": "Für Niederspannungsanlagen gilt die Reihe DIN VDE 0100.",
-     "ar": "على منشآت الجهد المنخفض تنطبق سلسلة DIN VDE 0100.",
+     "ar": "على منشآت الجهد المنخفض تنطبق السلسلة DIN VDE 0100 من المعايير.",
      "en": "For low-voltage installations, the series DIN VDE 0100 applies.",
      "tts": "Für Niederspannungsanlagen gilt die Reihe Din Fau-De-E null eins null null."
     },
@@ -1292,7 +1292,7 @@
     },
     {
      "de": "Merken Sie sich außerdem den Namen der Normenreihe: DIN EN 62305.",
-     "ar": "واحفظوا أيضًا اسم سلسلة المعايير: DIN EN 62305.",
+     "ar": "واحفظوا أيضًا اسم السلسلة DIN EN 62305 للمعايير.",
      "en": "Also remember the name of the standard series: DIN EN 62305.",
      "tts": "Merken Sie sich außerdem den Namen der Normenreihe: Din E-En sechs zwei drei null fünf."
     },
