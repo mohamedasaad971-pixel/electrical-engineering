@@ -518,11 +518,6 @@
      "de": "Manche Netzbetreiber fragen dazu ein eigenes Zertifikat ab.",
      "ar": "بعض مشغّلي الشبكة يطلبون لذلك شهادة خاصة.",
      "en": "Some grid operators ask for a separate certificate for this."
-    },
-    {
-     "de": "Er arbeitet unabhängig von der Regelung des Wechselrichters.",
-     "ar": "يعمل بشكل مستقل عن تنظيم المحوّل.",
-     "en": "It works independently of the inverter's control."
     }
    ]
   },
@@ -1234,6 +1229,11 @@
      "en": "First you plan type, coupling and protection."
     },
     {
+     "de": "Merken Sie sich dabei die Reihenfolge: Planen, anmelden, errichten, prüfen.",
+     "ar": "تذكّروا الترتيب: تخطيط، تسجيل، تنفيذ، فحص.",
+     "en": "Remember the order: plan, register, build, test."
+    },
+    {
      "de": "Jeder Schritt braucht eine klare Verantwortung.",
      "ar": "كل خطوة تحتاج إلى مسؤولية واضحة.",
      "en": "Every step needs clear responsibility."
@@ -1272,6 +1272,11 @@
      "de": "Der Netzbetreiber ist dabei Ihr wichtigster Ansprechpartner.",
      "ar": "مشغّل الشبكة هو جهة الاتصال الأهم لديكم في ذلك.",
      "en": "The grid operator is your most important contact here."
+    },
+    {
+     "de": "Dieser Ablauf gilt als Orientierung und kann je Netzbetreiber abweichen.",
+     "ar": "هذا المسار للاسترشاد وقد يختلف من مشغّل شبكة لآخر.",
+     "en": "This flow is a guide and may differ between grid operators."
     }
    ]
   },
@@ -1299,9 +1304,9 @@
      "en": "There are string, hybrid and central inverters."
     },
     {
-     "de": "Merken Sie sich dabei die Reihenfolge: Planen, anmelden, errichten, prüfen.",
-     "ar": "تذكّروا الترتيب: تخطيط، تسجيل، تنفيذ، فحص.",
-     "en": "Remember the order: plan, register, build, test."
+     "de": "Sie wissen jetzt, wie Speicher, Wechselrichter und Ladepunkte zusammenhängen.",
+     "ar": "أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والمحوّلات ونقاط الشحن.",
+     "en": "You now know how storage, inverters and charging points fit together."
     },
     {
      "de": "Speicher werden gleichstromgekoppelt oder wechselstromgekoppelt angeschlossen.",
@@ -1328,11 +1333,6 @@
      "de": "Am Ladepunkt sind Gleichfehlerströme im Schutzkonzept zu beachten.",
      "ar": "عند نقطة الشحن يجب مراعاة تيارات العطل المستمرة في مفهوم الحماية.",
      "en": "At the charging point, DC residual currents must be considered in the protection concept."
-    },
-    {
-     "de": "Dieser Ablauf gilt als Orientierung und kann je Netzbetreiber abweichen.",
-     "ar": "هذا المسار للاسترشاد وقد يختلف من مشغّل شبكة لآخر.",
-     "en": "This flow is a guide and may differ between grid operators."
     }
    ]
   },
@@ -1365,19 +1365,14 @@
      "en": "Laws and standards change."
     },
     {
-     "de": "Sie wissen jetzt, wie Speicher, Wechselrichter und Ladepunkte zusammenhängen.",
-     "ar": "أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والمحوّلات ونقاط الشحن.",
-     "en": "You now know how storage, inverters and charging points fit together."
+     "de": "Prüfen Sie immer die aktuelle Fassung und die Vorgaben Ihres Netzbetreibers.",
+     "ar": "تحققوا دائمًا من النسخة الحالية ومن متطلبات مشغّل الشبكة.",
+     "en": "Always check the current version and the requirements of your grid operator."
     },
     {
      "de": "Wer die Begriffe kennt, spricht auf Baustellen und im Büro sicherer.",
      "ar": "من يعرف المصطلحات يتحدث بثقة أكبر في الموقع وفي المكتب.",
      "en": "Anyone who knows the terms speaks more confidently on site and in the office."
-    },
-    {
-     "de": "Prüfen Sie immer die aktuelle Fassung und die Vorgaben Ihres Netzbetreibers.",
-     "ar": "تحققوا دائمًا من النسخة الحالية ومن متطلبات مشغّل الشبكة.",
-     "en": "Always check the current version and the requirements of your grid operator."
     },
     {
      "de": "Dieses Video ist eine allgemeine Information.",
