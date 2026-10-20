@@ -46,4 +46,4 @@ jobs:
           ls -la files
           tag="media-${{ steps.p.outputs.artifact }}"
           gh release create "$tag" --draft --title "$tag" --notes "Built media (private draft). Not published." -R "$GITHUB_REPOSITORY" || true
-          gh release upload "$tag" files/* --clobber -R "$GITHUB_REPOSITORY"
+          find files -maxdepth 2 -type f \( -name '*.mp4' -o -name '*.srt' -o -name '*.vtt' -o -name '*.json' -o -name 'contact-sheet.png' \) -print0 | xargs -0 gh release upload "$tag" --clobber -R "$GITHUB_REPOSITORY"

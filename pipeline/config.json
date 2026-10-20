@@ -1,0 +1,21 @@
+{
+  "model_id": "eleven_multilingual_v2",
+  "voice_id": "CUIt6gps1g4tx87ixvE4",
+  "voice_settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 0.92
+  },
+  "lead": 0.5,
+  "gap_line": 0.45,
+  "tail": 0.9,
+  "intro_seconds": 3.8,
+  "max_chars_per_run": 600000,
+  "burn_langs": [
+    "ar",
+    "en"
+  ],
+  "voice_name": "Eleonore - Sincere and Educational"
+}

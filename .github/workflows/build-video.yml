@@ -29,7 +29,7 @@ jobs:
           vids = r.get("video", [])
           if not 1 <= len(vids) <= 4:
               raise SystemExit("run.json: 1 to 4 videos required (got %d)" % len(vids))
-          inc = [{"script": v, "name": os.path.basename(v)[:-5]} for v in vids]
+          inc = [{"idx": i, "script": v, "name": os.path.basename(v)[:-5]} for i, v in enumerate(vids)]
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write("matrix=" + json.dumps({"include": inc}) + "\n")
               f.write("rev=%d\n" % int(r.get("rev", 1)))
@@ -39,8 +39,8 @@ jobs:
 
   build:
     needs: plan
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       max-parallel: 4
@@ -51,29 +51,40 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: pipeline/requirements.txt
       - name: System packages (ffmpeg, fonts)
         run: |
           sudo apt-get update -y
           sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-ui-core fonts-noto-extra fontconfig
           fc-cache -f
-          fc-list | grep -i "naskh" | head -3; fc-match "Noto Naskh Arabic"; fc-match "Noto Sans"
+          fc-match "Noto Sans Arabic"; fc-match "Noto Serif Display"; fc-match "Noto Sans"
       - name: Python deps and Chromium
         run: |
-          pip install -r requirements.txt
+          pip install -r pipeline/requirements.txt
           python -m playwright install --with-deps chromium
       - name: Validate script
         run: python tools/validate.py "${{ matrix.script }}"
+      - name: Restore voice cache
+        uses: actions/cache@v4
+        with:
+          path: cache/tts
+          key: tts-${{ github.run_id }}-${{ matrix.idx }}
+          restore-keys: |
+            tts-
       - name: Build
         env:
+          VIDEO_INDEX: ${{ matrix.idx }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_COMMERCIAL: ${{ vars.ELEVENLABS_COMMERCIAL }}
+        run: python pipeline/build_video.py
+      - name: Audio check (Whisper, synthesized builds only)
+        continue-on-error: true
+        env:
+          VIDEO_INDEX: ${{ matrix.idx }}
+        run: python pipeline/audio_check.py
+      - name: Summary
         run: |
-          args="--script ${{ matrix.script }} --rev ${{ needs.plan.outputs.rev }}"
-          if [ "${{ needs.plan.outputs.synthesize }}" = "true" ]; then args="$args --synthesize"; else args="$args --no-synthesize --silent"; fi
-          if [ "${{ needs.plan.outputs.burn }}" = "true" ]; then args="$args --burn"; else args="$args --no-burn"; fi
-          python pipeline/build.py $args
-      - name: QA summary
-        run: |
-          for d in out/*/; do python pipeline/qa.py "$d" || true; done | tee -a "$GITHUB_STEP_SUMMARY"
+          for r in out/*/report.json; do python3 -c "import json,sys;r=json.load(open(sys.argv[1]));print('###',r['video']);print(json.dumps(r['qa'],ensure_ascii=False,indent=1));print('warnings:',r['warnings'])" "$r"; done | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Video id
         id: vid
         run: echo "id=$(ls out | head -1)" >> "$GITHUB_OUTPUT"
@@ -89,4 +100,4 @@ jobs:
         run: |
           tag="build-${{ steps.vid.outputs.id }}-rev${{ needs.plan.outputs.rev }}"
           gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --draft --title "$tag" --notes "Automated build (media not committed to git)."
-          gh release upload "$tag" out/${{ steps.vid.outputs.id }}/* --clobber
+          find out/${{ steps.vid.outputs.id }} -maxdepth 2 -type f \( -name '*.mp4' -o -name '*.srt' -o -name '*.vtt' -o -name '*.json' -o -name 'contact-sheet.png' \) -print0 | xargs -0 gh release upload "$tag" --clobber

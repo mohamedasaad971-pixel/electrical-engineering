@@ -1,1 +1,1 @@
-{"action":"build","video":["scripts/E/06-schaltplaene.json","scripts/E/07-fachsprache.json"],"synthesize":true,"burn":true,"rev":1}
+{"action":"build","video":["scripts/E/01-berufsbilder.json"],"synthesize":false,"burn":true,"rev":100}

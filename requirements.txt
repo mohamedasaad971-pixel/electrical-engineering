@@ -1,6 +1,0 @@
-pyloudnorm
-soundfile
-playwright
-requests
-pillow
-numpy
