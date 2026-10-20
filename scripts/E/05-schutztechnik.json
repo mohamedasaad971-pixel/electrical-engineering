@@ -2,7 +2,7 @@
  "id": "E-A05",
  "title": {
   "de": "Schutztechnik in Netzen und Anlagen: Schutzorgane, Selektivität, Schaltgeräte",
-  "ar": "حماية الشبكة والمنظومات: القواطع والتنسيق والمفاتيح",
+  "ar": "تقنية الحماية في الشبكات والمنشآت: أجهزة الحماية والانتقائية وأجهزة القطع والوصل",
   "en": "Protection in Grids and Installations: Devices, Selectivity, Switchgear"
  },
  "scenes": [
@@ -45,7 +45,7 @@
     },
     {
      "de": "Außerdem klären wir Trenner, Lasttrenner und Schütz.",
-     "ar": "كما سنوضح الفرق بين المفصل ومفصل الحمل والملامس.",
+     "ar": "كما سنوضح الفرق بين المفصل ومفصل الحمل والكونتاكتور.",
      "en": "We also clarify the disconnector, the switch disconnector and the contactor."
     },
     {
@@ -72,11 +72,13 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Nur eine Orientierung",
     "items": [
-     "Kein Ersatz für Ausbildung"
+     "Nur Grundbegriffe, keine Zahlen",
+     "Auslegung durch geschulte Fachleute",
+     "Herstellerdaten und aktuelle Normen beachten"
     ],
     "terms": [
      {
@@ -98,7 +100,7 @@
      "en": "This video explains basic concepts only."
     },
     {
-     "de": "Die Auslegung von Schutz ist Aufgabe von geschulten Fachleuten.",
+     "de": "Die Auslegung des Schutzes ist Aufgabe von geschulten Fachleuten.",
      "ar": "تصميم الحماية مهمة متخصصين مؤهلين.",
      "en": "Designing protection is the job of trained specialists."
     },
@@ -153,7 +155,7 @@
      },
      {
       "de": "Kurzschluss",
-      "ar": "القصر (الدائرة القصيرة)",
+      "ar": "القصر (قصر الدارة)",
       "en": "short circuit"
      }
     ]
@@ -221,7 +223,7 @@
      "Fehlerweg: sehr niederohmig",
      "Dadurch: sehr hoher Strom",
      "Wechselstrom: Impedanz statt Widerstand",
-     "Wirkt in Millisekunden"
+     "Tritt fast augenblicklich auf"
     ],
     "terms": [
      {
@@ -295,11 +297,11 @@
     "kicker": "Fehlerarten",
     "heading": "Überlast und Kurzschluss im Vergleich",
     "items": [
-     "Ursache | Überlast: zu viele Verbraucher; Kurzschluss: Fehler",
-     "Strom | Überlast: erhöht; Kurzschluss: sehr hoch",
-     "Gefahr | Überlast: Erwärmung; Kurzschluss: Zerstörung",
-     "Schutz | Überlast: verzögert; Kurzschluss: sehr schnell",
-     "Beispiel | Überlast: Mehrfachsteckdose; Kurzschluss: Kabelfehler"
+     "Ursache | Last zu hoch / Fehler",
+     "Strom | erhöht / sehr hoch",
+     "Gefahr | Erwärmung / Zerstörung",
+     "Schutz | verzögert / sehr schnell",
+     "Beispiel | Mehrfachsteckdose / Kabelfehler"
     ]
    },
    "lines": [
@@ -320,7 +322,7 @@
     },
     {
      "de": "Darum darf der Schutz hier etwas Zeit lassen.",
-     "ar": "لذلك يمكن للحماية هنا أن تمنح بعض الوقت.",
+     "ar": "لذلك يمكن للحماية هنا أن تتأخر قليلًا في الفصل.",
      "en": "So the protection may allow some time here."
     },
     {
@@ -371,9 +373,9 @@
    },
    "lines": [
     {
-     "de": "Das älteste Schutzorgan ist die Sicherung.",
-     "ar": "أقدم جهاز حماية هو المنصهر.",
-     "en": "The oldest protective device is the fuse."
+     "de": "Die Sicherung ist ein klassisches Schutzorgan.",
+     "ar": "المنصهر جهاز حماية تقليدي.",
+     "en": "The fuse is a classic protective device."
     },
     {
      "de": "Im Inneren liegt ein Schmelzleiter.",
@@ -387,7 +389,7 @@
     },
     {
      "de": "Danach muss der Sicherungseinsatz getauscht werden.",
-     "ar": "بعد ذلك يجب استبدال عنصر المنصهر.",
+     "ar": "بعد ذلك يجب استبدال خرطوشة المنصهر.",
      "en": "Afterwards the fuse link must be replaced."
     },
     {
@@ -402,18 +404,13 @@
     },
     {
      "de": "Sie schützt damit vor allem Leitungen.",
-     "ar": "وهو بذلك يحمي الكابلات والموصلات بشكل أساسي.",
-     "en": "It therefore mainly protects cables."
-    },
-    {
-     "de": "Sie ist robust, günstig und weit verbreitet.",
-     "ar": "وهو متين ورخيص ومنتشر على نطاق واسع.",
-     "en": "It is robust, inexpensive and widely used."
+     "ar": "وهو بذلك يحمي الخطوط الكهربائية بشكل أساسي.",
+     "en": "It therefore mainly protects lines."
     },
     {
      "de": "Im Betrieb sorgt sie still dafür, dass Leitungen nicht zu heiß werden.",
-     "ar": "وهو في التشغيل يمنع بهدوء ارتفاع حرارة الكابلات أكثر من اللازم.",
-     "en": "In operation it quietly makes sure that cables do not get too hot."
+     "ar": "وهو في التشغيل يمنع بهدوء ارتفاع حرارة الخطوط الكهربائية أكثر من اللازم.",
+     "en": "In operation it quietly makes sure that lines do not get too hot."
     }
    ]
   },
@@ -444,12 +441,12 @@
     },
     {
      "de": "Er vereint zwei Auslöser in einem Gerät.",
-     "ar": "يجمع بين مُحرّكَي فصل في جهاز واحد.",
+     "ar": "يجمع بين عنصرَي فصل في جهاز واحد.",
      "en": "It combines two releases in one device."
     },
     {
      "de": "Der thermische Auslöser enthält ein Bimetall.",
-     "ar": "المُحرِّك الحراري يحتوي على شريحة ثنائية المعدن.",
+     "ar": "عنصر الفصل الحراري يحتوي على شريحة ثنائية المعدن.",
      "en": "The thermal release contains a bimetal strip."
     },
     {
@@ -464,7 +461,7 @@
     },
     {
      "de": "Der magnetische Auslöser arbeitet fast ohne Verzögerung.",
-     "ar": "المُحرِّك المغناطيسي يعمل تقريبًا دون تأخير.",
+     "ar": "عنصر الفصل المغناطيسي يعمل تقريبًا دون تأخير.",
      "en": "The magnetic release works almost without delay."
     },
     {
@@ -473,13 +470,13 @@
      "en": "It protects in case of a short circuit."
     },
     {
-     "de": "Nach dem Auslösen schalten Sie das Gerät einfach wieder ein, wenn die Ursache behoben ist.",
-     "ar": "بعد الفصل تعيدون تشغيل الجهاز ببساطة إذا زال السبب.",
-     "en": "After tripping you simply switch it on again once the cause is fixed."
+     "de": "Nach dem Auslösen lässt sich das Gerät wieder einschalten.",
+     "ar": "بعد الفصل يمكن إعادة تشغيل الجهاز.",
+     "en": "After tripping, the device can be switched on again."
     },
     {
      "de": "Er ist praktisch, weil niemand einen Einsatz tauschen muss.",
-     "ar": "وهو عملي لأن أحدًا لا يحتاج إلى استبدال عنصر.",
+     "ar": "وهو عملي لأن أحدًا لا يحتاج إلى استبدال خرطوشة.",
      "en": "It is practical because nobody has to replace a link."
     },
     {
@@ -497,7 +494,7 @@
     "items": [
      "Schaltet Normalstrom und Kurzschlussstrom",
      "Einstellbare Auslöser",
-     "Für Hauptverteilungen und Einspeisungen",
+     "Für größere Anlagen und Netze",
      "Auch im Mittel- und Hochspannungsnetz"
     ],
     "terms": [
@@ -531,18 +528,13 @@
     },
     {
      "de": "Seine Auslöser sind oft einstellbar.",
-     "ar": "محرّكات الفصل فيه غالبًا قابلة للضبط.",
+     "ar": "عناصر الفصل فيه غالبًا قابلة للضبط.",
      "en": "Its releases are often adjustable."
     },
     {
      "de": "So lässt er sich auf die Anlage abstimmen.",
      "ar": "وبذلك يمكن مواءمته مع المنشأة.",
      "en": "So it can be matched to the installation."
-    },
-    {
-     "de": "Sie finden ihn in Hauptverteilungen und bei Einspeisungen.",
-     "ar": "ستجدونه في لوحات التوزيع الرئيسية وعند نقاط التغذية.",
-     "en": "You find it in main distribution boards and at supply points."
     },
     {
      "de": "Auch in Netzen und Umspannwerken sind Leistungsschalter die Schalter für den Fehlerfall.",
@@ -567,9 +559,9 @@
     "kicker": "Überblick",
     "heading": "Schutzorgane im Vergleich",
     "items": [
-     "Sicherung | Schmelzleiter, einmalig, schützt Leitungen",
-     "Leitungsschutzschalter | Thermisch und magnetisch, wieder einschaltbar",
-     "Leistungsschalter | Einstellbar, schaltet auch Kurzschluss",
+     "Sicherung | Schmelzleiter, einmalig",
+     "Leitungsschutzschalter | thermisch, magnetisch",
+     "Leistungsschalter | einstellbar, auch Kurzschluss",
      "Alle drei | Schützen vor Überstrom"
     ]
    },
@@ -577,7 +569,7 @@
     {
      "de": "Fassen wir die drei Schutzorgane zusammen.",
      "ar": "لنلخّص أجهزة الحماية الثلاثة.",
-     "en": "Let us summarize the three protective devices."
+     "en": "Let us summarise the three protective devices."
     },
     {
      "de": "Die Sicherung ist einfach und schaltet nur einmal.",
@@ -618,11 +610,13 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtige Grenze",
     "heading": "Das Ausschaltvermögen",
     "items": [
-     "Muss höher sein als der Kurzschlussstrom"
+     "Größter sicher abschaltbarer Kurzschlussstrom",
+     "Muss höher sein als der Kurzschlussstrom",
+     "Auch der kleinste Kurzschlussstrom zählt"
     ],
     "terms": [
      {
@@ -660,8 +654,9 @@
     },
     {
      "de": "Man spricht dann von Vorsicherung oder Back-up-Schutz.",
-     "ar": "ويُسمّى ذلك عندئذٍ المنصهر الاحتياطي أو الحماية الداعمة.",
-     "en": "This is then called back-up protection."
+     "ar": "ويُسمّى ذلك عندئذٍ المنصهر الأمامي أو حماية الإسناد.",
+     "en": "This is then called an upstream fuse or back-up protection.",
+     "tts": "Man spricht dann von Vorsicherung oder Bäck-app-Schutz."
     },
     {
      "de": "Auch der kleinste Kurzschlussstrom ist wichtig.",
@@ -804,12 +799,12 @@
     },
     {
      "de": "Das nachgelagerte Gerät hat dann Zeit, den Fehler zu beseitigen.",
-     "ar": "وبذلك يكون لدى الجهاز اللاحق وقت لإزالة العطل.",
+     "ar": "وبذلك يكون لدى الجهاز في جهة المصب وقت لإزالة العطل.",
      "en": "The downstream device then has time to clear the fault."
     },
     {
      "de": "Die Regel lautet: Das vorgelagerte Gerät darf erst später auslösen.",
-     "ar": "القاعدة هي: يجب ألا يفصل الجهاز السابق إلا بعد ذلك.",
+     "ar": "يجب ألا يفصل الجهاز في جهة المنبع إلا بعد ذلك.",
      "en": "The rule is: the upstream device may only trip later."
     },
     {
@@ -821,11 +816,6 @@
      "de": "Eine bloße Vermutung reicht nicht.",
      "ar": "التخمين وحده لا يكفي.",
      "en": "A mere assumption is not enough."
-    },
-    {
-     "de": "Beide Wege können kombiniert werden.",
-     "ar": "يمكن الجمع بين الطريقتين.",
-     "en": "Both ways can be combined."
     },
     {
      "de": "Das Ergebnis muss immer nachvollziehbar sein.",
@@ -848,12 +838,12 @@
     "terms": [
      {
       "de": "Trenner",
-      "ar": "المفصل",
+      "ar": "مفتاح العزل (المفصل)",
       "en": "disconnector"
      },
      {
       "de": "Lasttrenner",
-      "ar": "مفصل الحمل",
+      "ar": "مفتاح فصل الحمل (مفصل الحمل)",
       "en": "switch disconnector"
      }
     ]
@@ -866,13 +856,13 @@
     },
     {
      "de": "Ein Trenner dient der sicheren Freischaltung.",
-     "ar": "يخدم المفصل الفصل الآمن للدارة.",
+     "ar": "يخدم المفصل فصل الجهد بأمان.",
      "en": "A disconnector serves safe isolation."
     },
     {
-     "de": "Er zeigt, dass der Stromkreis wirklich offen ist.",
-     "ar": "ويُظهر أن الدارة الكهربائية مفتوحة فعلًا.",
-     "en": "It shows that the circuit is really open."
+     "de": "Er soll den offenen Zustand sichtbar oder sicher anzeigen.",
+     "ar": "ويُفترض أن يُظهر الحالة المفتوحة بشكل مرئي أو موثوق.",
+     "en": "It is meant to show the open state visibly or reliably."
     },
     {
      "de": "Ein reiner Trenner wird normalerweise ohne Last bedient.",
@@ -900,14 +890,14 @@
      "en": "For that you need a fuse or a circuit breaker."
     },
     {
-     "de": "Darum schaltet man vor Arbeiten zuerst mit einem Gerät, das Last schalten darf.",
-     "ar": "لذلك يُفصل قبل العمل أولًا بجهاز يسمح له بفصل الحمل.",
-     "en": "That is why before work you first switch off with a device that may switch load."
+     "de": "Darum ist Freischalten nur der erste Schritt der fünf Sicherheitsregeln.",
+     "ar": "لذلك فإن فصل الجهد ليس سوى الخطوة الأولى من قواعد السلامة الخمس.",
+     "en": "That is why isolating is only the first step of the five safety rules."
     },
     {
-     "de": "Danach trennt man sichtbar und sicher.",
-     "ar": "وبعد ذلك يُفصل بشكل واضح وآمن.",
-     "en": "Only then do you isolate visibly and safely."
+     "de": "Die weiteren Schritte kennen Sie aus dem Video über Elektrosicherheit.",
+     "ar": "أما الخطوات التالية فتعرفونها من فيديو السلامة الكهربائية.",
+     "en": "You know the further steps from the video on electrical safety."
     }
    ]
   },
@@ -925,7 +915,7 @@
     "terms": [
      {
       "de": "Schütz",
-      "ar": "الملامس (الكونتاكتور)",
+      "ar": "الكونتاكتور",
       "en": "contactor"
      }
     ]
@@ -933,7 +923,7 @@
    "lines": [
     {
      "de": "Das Schütz ist ein elektromagnetischer Schalter.",
-     "ar": "الملامس مفتاح كهرومغناطيسي.",
+     "ar": "الكونتاكتور مفتاح كهرومغناطيسي.",
      "en": "The contactor is an electromagnetic switch."
     },
     {
@@ -948,12 +938,12 @@
     },
     {
      "de": "Man sieht Schütze oft im Schaltschrank.",
-     "ar": "نرى الملامسات غالبًا في خزانة التوزيع والتحكم.",
+     "ar": "نرى الكونتاكتورات غالبًا في خزانة التوزيع والتحكم.",
      "en": "You often see contactors in the control cabinet."
     },
     {
      "de": "Aber Vorsicht: Ein Schütz schützt nicht selbst.",
-     "ar": "لكن انتبهوا: الملامس لا يحمي نفسه بنفسه.",
+     "ar": "لكن انتبهوا: الكونتاكتور لا يحمي نفسه بنفسه.",
      "en": "But careful: a contactor does not protect itself."
     },
     {
@@ -968,7 +958,7 @@
     },
     {
      "de": "Ein Schütz wird sehr oft geschaltet und ist dafür gebaut.",
-     "ar": "يُشغَّل الملامس كثيرًا جدًا وهو مصمم لذلك.",
+     "ar": "يُشغَّل الكونتاكتور كثيرًا جدًا وهو مصمم لذلك.",
      "en": "A contactor is switched very often and is built for that."
     },
     {
@@ -988,7 +978,7 @@
      "Lasttrenner | Betriebsstrom schalten",
      "Schütz | Fernschalten, oft sehr häufig",
      "Leistungsschalter | Betrieb und Kurzschluss",
-     "Wichtig | Schalten und Schützen sind verschiedene Aufgaben"
+     "Wichtig | Schalten ist nicht Schützen"
     ]
    },
    "lines": [
@@ -1009,7 +999,7 @@
     },
     {
      "de": "Das Schütz schaltet oft und aus der Ferne.",
-     "ar": "الملامس يعمل كثيرًا وعن بُعد.",
+     "ar": "الكونتاكتور يعمل كثيرًا وعن بُعد.",
      "en": "The contactor switches often and remotely."
     },
     {
@@ -1029,7 +1019,7 @@
     },
     {
      "de": "Ein Motorabzweig besteht zum Beispiel aus Schutzgerät, Schütz und Überlastrelais.",
-     "ar": "فرع المحرك مثلًا يتكوّن من جهاز حماية وملامس ومرحّل حماية من الحمل الزائد.",
+     "ar": "فرع المحرك مثلًا يتكوّن من جهاز حماية وكونتاكتور ومرحّل حماية من الحمل الزائد.",
      "en": "A motor feeder consists, for example, of a protective device, a contactor and an overload relay."
     }
    ]
@@ -1101,7 +1091,7 @@
     },
     {
      "de": "Jedes Glied der Kette muss zuverlässig arbeiten.",
-     "ar": "يجب أن يعمل كل حلقة من السلسلة بشكل موثوق.",
+     "ar": "يجب أن تعمل كل حلقة من السلسلة بشكل موثوق.",
      "en": "Every link of the chain must work reliably."
     }
    ]
@@ -1144,7 +1134,7 @@
     {
      "de": "So erkennt das Gerät, wie weit der Fehler entfernt ist.",
      "ar": "وهكذا يعرف الجهاز مدى بُعد العطل.",
-     "en": "This is how the device recognizes how far away the fault is."
+     "en": "This is how the device recognises how far away the fault is."
     },
     {
      "de": "Distanzschutz ist die Basis des Netzschutzes in Übertragungsnetzen.",
@@ -1160,11 +1150,6 @@
      "de": "Mehrere Geräte arbeiten dabei gestaffelt zusammen.",
      "ar": "وتعمل عدة أجهزة معًا بشكل مدرّج.",
      "en": "Several devices work together in a graded way."
-    },
-    {
-     "de": "Ein einfacher Überstromschutz würde hier oft zu grob arbeiten.",
-     "ar": "الحماية البسيطة من التيار الزائد قد تكون هنا خشنة في الغالب.",
-     "en": "A simple overcurrent protection would often work too coarsely here."
     },
     {
      "de": "Deshalb ist die Entfernung zum Fehler eine nützliche Information.",
@@ -1239,11 +1224,6 @@
      "en": "It is used for transformers, lines, machines and busbars."
     },
     {
-     "de": "Das Verfahren ist schnell und genau.",
-     "ar": "هذه الطريقة سريعة ودقيقة.",
-     "en": "The method is fast and precise."
-    },
-    {
      "de": "Es erkennt Fehler im Bereich, ohne auf Zeitstaffelung zu warten.",
      "ar": "فهي تكتشف الأعطال في المنطقة دون انتظار التدريج الزمني.",
      "en": "It detects faults in the zone without waiting for time grading."
@@ -1265,7 +1245,7 @@
      {
       "de": "Reserveschutz",
       "ar": "الحماية الاحتياطية",
-      "en": "back-up protection"
+      "en": "reserve protection"
      }
     ]
    },
@@ -1278,12 +1258,12 @@
     {
      "de": "Dafür gibt es den Reserveschutz.",
      "ar": "لهذا توجد الحماية الاحتياطية.",
-     "en": "That is what back-up protection is for."
+     "en": "That is what reserve protection is for."
     },
     {
      "de": "Auch Übertragungsnetzbetreiber arbeiten mit Schutz und Reserveschutz.",
-     "ar": "ومشغّلو شبكات النقل أيضًا يعملون بحماية رئيسية وحماية احتياطية.",
-     "en": "Transmission system operators also work with protection and back-up protection."
+     "ar": "ومشغّلو شبكة النقل أيضًا يعملون بحماية رئيسية وحماية احتياطية.",
+     "en": "Transmission system operators also work with protection and reserve protection."
     },
     {
      "de": "Ziel ist, die Ausweitung einer Störung zu verhindern.",
@@ -1306,14 +1286,14 @@
      "en": "With weak infeed the short-circuit current can stay small."
     },
     {
-     "de": "Dann muss der Schutz trotzdem sicher erkennen.",
-     "ar": "ومع ذلك يجب أن تتعرف الحماية عليه بأمان.",
+     "de": "Dann muss der Schutz den Fehler trotzdem sicher erkennen.",
+     "ar": "ومع ذلك يجب أن تتعرف الحماية على العطل بأمان.",
      "en": "The protection must still detect it reliably."
     },
     {
-     "de": "Reserveschutz ist wie ein zweites Netz unter dem Seil.",
-     "ar": "الحماية الاحتياطية كشبكة ثانية تحت الحبل.",
-     "en": "Back-up protection is like a second net under the rope."
+     "de": "Reserveschutz ist wie ein Sicherheitsnetz unter dem Drahtseil.",
+     "ar": "الحماية الاحتياطية مثل شبكة أمان تحت حبل المشي.",
+     "en": "Reserve protection is like a safety net under a tightrope."
     },
     {
      "de": "Er greift erst, wenn der erste Schutz nicht arbeitet.",
@@ -1359,7 +1339,7 @@
     },
     {
      "de": "Sie stimmen die Auslöser aufeinander ab.",
-     "ar": "وتنسّقون محرّكات الفصل بعضها مع بعض.",
+     "ar": "وتنسّقون عناصر الفصل بعضها مع بعض.",
      "en": "You coordinate the releases with each other."
     },
     {
@@ -1391,7 +1371,7 @@
     "heading": "Das Wichtigste in Kürze",
     "items": [
      "Überlast langsam, Kurzschluss schnell",
-     "Drei Schutzorgane für Überstrom",
+     "Drei wichtige Schutzorgane gegen Überstrom",
      "Ausschaltvermögen größer als Kurzschlussstrom",
      "Selektivität: nur der Fehlerort schaltet ab",
      "Distanz- und Differentialschutz im Netz"
@@ -1401,17 +1381,17 @@
     {
      "de": "Fassen wir zusammen.",
      "ar": "لنلخّص.",
-     "en": "Let us summarize."
+     "en": "Let us summarise."
     },
     {
-     "de": "Überlast braucht verzögerten Schutz, Kurzschluss braucht schnellen Schutz.",
-     "ar": "الحمل الزائد يحتاج حماية متأخرة، والقصر يحتاج حماية سريعة.",
-     "en": "Overload needs delayed protection, short circuit needs fast protection."
+     "de": "Bei Überlast reagiert der Schutz üblicherweise verzögert, bei Kurzschluss sehr schnell.",
+     "ar": "عند الحمل الزائد تكون استجابة الحماية عادةً متأخرة، وعند القصر سريعة جدًا.",
+     "en": "For overload, protection usually reacts with a delay, for short circuit very quickly."
     },
     {
-     "de": "Sicherung, Leitungsschutzschalter und Leistungsschalter sind die Schutzorgane.",
-     "ar": "المنصهر والقاطع الآلي وقاطع القدرة هي أجهزة الحماية.",
-     "en": "Fuse, miniature circuit breaker and power circuit breaker are the protective devices."
+     "de": "Sicherung, Leitungsschutzschalter und Leistungsschalter sind wichtige Schutzorgane.",
+     "ar": "المنصهر والقاطع الآلي وقاطع القدرة أجهزة حماية مهمة.",
+     "en": "Fuse, miniature circuit breaker and power circuit breaker are important protective devices."
     },
     {
      "de": "Das Ausschaltvermögen muss zum Kurzschlussstrom passen.",
@@ -1425,13 +1405,13 @@
     },
     {
      "de": "Trenner, Lasttrenner und Schütz schalten, aber sie schützen nicht automatisch.",
-     "ar": "المفصل ومفصل الحمل والملامس توصل وتفصل، لكنها لا تحمي تلقائيًا.",
+     "ar": "المفصل ومفصل الحمل والكونتاكتور توصل وتفصل، لكنها لا تحمي تلقائيًا.",
      "en": "Disconnector, switch disconnector and contactor switch, but they do not automatically protect."
     },
     {
      "de": "Im Netz sichern Distanzschutz, Differentialschutz und Reserveschutz die Versorgung.",
      "ar": "وفي الشبكة تؤمّن الحماية بالمسافة والتفاضلية والاحتياطية استمرارية الإمداد.",
-     "en": "In the grid, distance, differential and back-up protection secure supply."
+     "en": "In the grid, distance, differential and reserve protection secure supply."
     },
     {
      "de": "Wenn Sie diese Begriffe sicher nutzen, verstehen Sie Schutzkonzepte im Gespräch viel besser.",
@@ -1442,11 +1422,13 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Zum Schluss",
     "heading": "Aktuelle Fassungen prüfen",
     "items": [
-     "Allgemeine Information, keine Beratung"
+     "Allgemeine Information",
+     "Keine Rechts- oder Ingenieurberatung",
+     "Aktuelle Fassung prüfen"
     ]
    },
    "lines": [
@@ -1516,7 +1498,7 @@
   },
   {
    "de": "der Kurzschluss",
-   "ar": "القصر (الدائرة القصيرة)",
+   "ar": "القصر (قصر الدارة)",
    "en": "short circuit"
   },
   {
@@ -1541,17 +1523,17 @@
   },
   {
    "de": "der Trenner",
-   "ar": "المفصل",
+   "ar": "مفتاح العزل (المفصل)",
    "en": "disconnector"
   },
   {
    "de": "der Lasttrenner",
-   "ar": "مفصل الحمل",
+   "ar": "مفتاح فصل الحمل (مفصل الحمل)",
    "en": "switch disconnector"
   },
   {
    "de": "das Schütz",
-   "ar": "الملامس (الكونتاكتور)",
+   "ar": "الكونتاكتور",
    "en": "contactor"
   },
   {
@@ -1577,7 +1559,17 @@
   {
    "de": "der Reserveschutz",
    "ar": "الحماية الاحتياطية",
-   "en": "back-up protection"
+   "en": "reserve protection"
+  },
+  {
+   "de": "der Auslöser",
+   "ar": "عنصر الفصل",
+   "en": "release (trip element)"
+  },
+  {
+   "de": "die Impedanz",
+   "ar": "المعاوقة",
+   "en": "impedance"
   }
  ],
  "quiz": [
@@ -1608,8 +1600,8 @@
   },
   {
    "q": {
-    "de": "Was schützt der thermische Auslöser eines Leitungsschutzschalters?",
-    "ar": "مماذا يحمي المُحرِّك الحراري في القاطع الآلي؟",
+    "de": "Wovor schützt der thermische Auslöser eines Leitungsschutzschalters?",
+    "ar": "ممّ يحمي عنصر الفصل الحراري في القاطع الآلي؟",
     "en": "What does the thermal release of a miniature circuit breaker protect against?"
    },
    "options": [
@@ -1712,5 +1704,5 @@
   "ar": "في الفيديو القادم نتناول جودة الطاقة.",
   "en": "The next video covers power quality."
  },
- "stand": "2026-10-20; prüfen: Normausgaben für Leitungsschutzschalter, Sicherungen und Leistungsschalter (in Video nur sinngemäß), Formulierungen zu Trenner/Lasttrenner/Schütz gegen Produktnormen, Reserveschutz-Aussagen gegen VO (EU) 2017/1485 Art. 36 und VDE-FNN-Leitfaden, Distanz-/Differentialschutz gegen Fachliteratur, aktuelle Technische Anschlussregeln (nicht im Video)"
+ "stand": "2026-10-20; prüfen: Normausgaben für Leitungsschutzschalter, Sicherungen und Leistungsschalter (in Video nur sinngemäß), Formulierungen zu Trenner/Lasttrenner/Schütz gegen Produktnormen, Reserveschutz-Aussagen gegen VO (EU) 2017/1485 Art. 36 und VDE-FNN-Leitfaden, Distanz-/Differentialschutz gegen Fachliteratur, aktuelle Technische Anschlussregeln (nicht im Video); abgeschwächt/entfernt: Zeitangabe Millisekunden, \"ältestes Schutzorgan\", Wirkung von Trenner auf Arbeitsschritte, absolute Aussagen zu Schutzorganen und Überlastschutz"
 }

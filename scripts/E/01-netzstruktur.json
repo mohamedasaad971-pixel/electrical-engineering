@@ -39,7 +39,7 @@
     },
     {
      "de": "Dazu gehören die Netzbetreiber und die Bundesnetzagentur.",
-     "ar": "ومنها مشغّلو الشبكة والوكالة الاتحادية للشبكات (Bundesnetzagentur).",
+     "ar": "ومنها الوكالة الاتحادية للشبكات (Bundesnetzagentur) ومشغّلو الشبكة.",
      "en": "These include the grid operators and the Federal Network Agency."
     },
     {
@@ -140,9 +140,9 @@
      "en": "Then you see the role of each level in the whole system."
     },
     {
-     "de": "Ohne diese Kette gäbe es keine sichere Versorgung.",
-     "ar": "من دون هذه السلسلة لا يوجد إمداد آمن.",
-     "en": "Without this chain there would be no secure supply."
+     "de": "Diese Kette ist die Grundlage der Versorgung.",
+     "ar": "هذه السلسلة هي أساس الإمداد.",
+     "en": "This chain is the basis of supply."
     },
     {
      "de": "Erzeugung und Verbrauch gehören also immer zusammen.",
@@ -274,9 +274,9 @@
      "en": "High voltage supplies cities and large industry."
     },
     {
-     "de": "Die Mittelspannung versorgt Regionen, Stadtteile und Betriebe.",
-     "ar": "الجهد المتوسط يغذّي المناطق والأحياء والمنشآت.",
-     "en": "Medium voltage supplies regions, districts and companies."
+     "de": "Die Mittelspannung versorgt Regionen und Betriebe.",
+     "ar": "الجهد المتوسط يغذّي المناطق والمنشآت.",
+     "en": "Medium voltage supplies regions and companies."
     },
     {
      "de": "Die Niederspannung ist die letzte Ebene.",
@@ -304,9 +304,9 @@
      "en": "A lower level is closer to the customer."
     },
     {
-     "de": "Darum schauen Sie die Werte immer in der aktuellen Regel nach.",
-     "ar": "لذلك راجعوا القيم دائمًا في القاعدة الحالية.",
-     "en": "So always look up the values in the current rule."
+     "de": "Darum schauen Sie die Werte immer in der aktuellen Fassung der Regeln nach.",
+     "ar": "لذلك راجعوا القيم دائمًا في اللوائح والمعايير الحالية.",
+     "en": "So always look up the values in the current version of the rules."
     }
    ]
   },
@@ -417,10 +417,10 @@
      "en": "Germany has four transmission system operators."
     },
     {
-     "de": "Sie heißen 50Hertz, Amprion, TenneT und TransnetBW.",
-     "ar": "هذه الشركات هي 50Hertz وAmprion وTenneT وTransnetBW معًا.",
-     "en": "They are called 50Hertz, Amprion, TenneT and TransnetBW.",
-     "tts": "Sie heißen Fünfzig-Hertz, Amprion, Tenn-T und Transnet-Be-We."
+     "de": "Sie heißen 50Hertz, Amprion, TenneT und TransnetBW, wie Sie auf der Folie sehen.",
+     "ar": "أسماء هذه الشركات هي 50Hertz وAmprion وTenneT وTransnetBW كما ترون على الشريحة.",
+     "en": "They are called 50Hertz, Amprion, TenneT and TransnetBW, as you can see on the slide.",
+     "tts": "Sie heißen Fünfzig-Hertz, Amprion, Tenn-T und Transnet-Be-We, wie Sie auf der Folie sehen."
     },
     {
      "de": "Jeder Betreiber verantwortet eine eigene Regelzone.",
@@ -441,7 +441,8 @@
     {
      "de": "TenneT reicht von Schleswig-Holstein bis nach Bayern.",
      "ar": "وتمتد TenneT من شليسفيغ هولشتاين إلى بافاريا.",
-     "en": "TenneT reaches from Schleswig-Holstein to Bavaria."
+     "en": "TenneT reaches from Schleswig-Holstein to Bavaria.",
+     "tts": "Tenn-T reicht von Schleswig-Holstein bis nach Bayern."
     },
     {
      "de": "TransnetBW liegt vor allem in Baden-Württemberg.",
@@ -453,11 +454,6 @@
      "de": "Der Betreiber überwacht sein Netz ständig.",
      "ar": "يراقب المشغّل شبكته باستمرار.",
      "en": "The operator watches its grid constantly."
-    },
-    {
-     "de": "Die vier Regelzonen sind historisch gewachsen.",
-     "ar": "نشأت مناطق التحكم الأربع تاريخيًا.",
-     "en": "The four control areas grew historically."
     },
     {
      "de": "Merken Sie sich die vier Namen und die grobe Lage.",
@@ -474,7 +470,7 @@
   {
    "slide": {
     "layout": "bullets",
-    "kicker": "Systemverantwortung",
+    "kicker": "Aufgaben der Übertragungsnetzbetreiber",
     "heading": "Was die Übertragungsnetzbetreiber tun",
     "items": [
      "Energieübertragung im Netz regeln",
@@ -512,19 +508,14 @@
      "en": "They contribute to a secure supply system in their control area."
     },
     {
-     "de": "Das nennt man Systemverantwortung.",
-     "ar": "وهذا ما يسمى مسؤولية استقرار المنظومة.",
-     "en": "This is called system responsibility."
+     "de": "Dazu gehört im Gesetz auch die Systemverantwortung.",
+     "ar": "ويشمل القانون أيضًا مسؤولية استقرار المنظومة.",
+     "en": "The law also covers system responsibility."
     },
     {
      "de": "Sie ist im Gesetz in eigenen Paragrafen beschrieben.",
      "ar": "وهي موصوفة في القانون في مواد مستقلة.",
      "en": "It is described in separate sections of the law."
-    },
-    {
-     "de": "Dazu gehört auch, bei Störungen schnell zu reagieren.",
-     "ar": "ويشمل ذلك الاستجابة السريعة عند الأعطال.",
-     "en": "This also includes reacting quickly to disturbances."
     },
     {
      "de": "Das Wort Systemverantwortung hören Sie oft im Beruf.",
@@ -584,9 +575,9 @@
      "en": "One sign of it is the grid frequency."
     },
     {
-     "de": "In Europa beträgt sie fünfzig Hertz.",
-     "ar": "وفي أوروبا يبلغ هذا التردد خمسين هرتز.",
-     "en": "In Europe it is fifty hertz."
+     "de": "Im europäischen Verbundnetz beträgt sie fünfzig Hertz.",
+     "ar": "وفي شبكة الربط الأوروبية يبلغ هذا التردد خمسين هرتز.",
+     "en": "In the European interconnected grid it is fifty hertz."
     },
     {
      "de": "Zu viel Verbrauch lässt die Frequenz sinken.",
@@ -629,7 +620,7 @@
      },
      {
       "de": "ENTSO-E",
-      "ar": "الشبكة الأوروبية لمشغّلي النقل (ENTSO-E)",
+      "ar": "اتحاد ENTSO-E الأوروبي لمشغّلي النقل",
       "en": "European network of TSOs"
      }
     ]
@@ -638,8 +629,7 @@
     {
      "de": "Das deutsche Netz steht nicht allein.",
      "ar": "شبكة ألمانيا ليست وحدها.",
-     "en": "The German grid does not stand alone.",
-     "tts": "Das deutsche Netz steht nicht allein."
+     "en": "The German grid does not stand alone."
     },
     {
      "de": "Es gehört zum kontinentaleuropäischen Synchrongebiet.",
@@ -674,24 +664,15 @@
      "en": "Part of the fast control is shared across the whole system."
     },
     {
-     "de": "Früher gab es in Europa mehrere getrennte Netzverbände.",
-     "ar": "في السابق كانت هناك في أوروبا اتحادات شبكات منفصلة عدة.",
-     "en": "In the past there were several separate grid associations in Europe."
+     "de": "Früher arbeitete ENTSO-E unter anderen Namen, zum Beispiel UCTE.",
+     "ar": "اسم UCTE مثال على الأسماء التي عملت ENTSO-E تحتها سابقًا.",
+     "en": "ENTSO-E used to work under other names, for example UCTE.",
+     "tts": "Früher arbeitete Ent-so-E unter anderen Namen, zum Beispiel U-Ze-Te-E."
     },
     {
      "de": "Heute arbeiten die Betreiber eng zusammen.",
      "ar": "واليوم يعمل المشغّلون معًا بشكل وثيق.",
      "en": "Today the operators work closely together."
-    },
-    {
-     "de": "Alle Länder im Verbund teilen also dasselbe Schicksal.",
-     "ar": "فكل الدول في المنظومة تتشارك المصير نفسه.",
-     "en": "All countries in the system therefore share the same fate."
-    },
-    {
-     "de": "Eine Störung in einem Land kann also andere Länder betreffen.",
-     "ar": "لذلك قد يؤثر عطل في دولة على دول أخرى.",
-     "en": "A disturbance in one country can therefore affect others."
     }
    ]
   },
@@ -726,9 +707,9 @@
      "en": "Often they are municipal utilities or regional suppliers."
     },
     {
-     "de": "Ihr Netzgebiet ist ein bestimmtes Gebiet.",
-     "ar": "ولكل منها منطقة شبكة محددة.",
-     "en": "Each has a defined grid area."
+     "de": "Jeder von ihnen hat ein festes Netzgebiet.",
+     "ar": "ولكل منها منطقة شبكة ثابتة.",
+     "en": "Each of them has a fixed grid area."
     },
     {
      "de": "Dort sind sie für die Versorgungssicherheit verantwortlich.",
@@ -746,14 +727,9 @@
      "en": "This applies within their distribution tasks."
     },
     {
-     "de": "Es gibt also keine Grenze zwischen Ihrem Projekt und dem Netz.",
-     "ar": "فلا حدّ إذن بين مشروعكم والشبكة.",
-     "en": "So there is no border between your project and the grid."
-    },
-    {
-     "de": "Die Betreiber legen fest, wie sich Anlagen anschließen lassen.",
-     "ar": "والمشغّلون يحددون كيف تُوصَل المنشآت.",
-     "en": "The operators define how installations can connect."
+     "de": "Ihr Projekt trifft also früher oder später auf diesen Betreiber.",
+     "ar": "فمشروعكم سيلتقي عاجلًا أو آجلًا بهذا المشغّل.",
+     "en": "So your project will meet this operator sooner or later."
     },
     {
      "de": "Der Verteilnetzbetreiber kennt die lokalen Bedingungen am besten.",
@@ -763,7 +739,7 @@
     {
      "de": "Er ist oft der erste Ansprechpartner für neue Anlagen.",
      "ar": "وهو غالبًا أول جهة اتصال للمنشآت الجديدة.",
-     "en": "He is often the first contact for new installations."
+     "en": "It is often the first contact for new installations."
     },
     {
      "de": "Wenn Sie Anlagen planen, sprechen Sie meist zuerst mit dem Verteilnetzbetreiber.",
@@ -817,11 +793,6 @@
      "en": "Important: each role has its own duties."
     },
     {
-     "de": "Sie sehen: Jede Gruppe hat ihre eigene Aufgabe.",
-     "ar": "ترون أن لكل مجموعة مهمتها الخاصة.",
-     "en": "You see: each group has its own task."
-    },
-    {
      "de": "Zusammen halten sie das System am Laufen.",
      "ar": "وهي معًا تُبقي المنظومة عاملة.",
      "en": "Together they keep the system running."
@@ -840,9 +811,9 @@
     "kicker": "Unabhängigkeit",
     "heading": "Entflechtung: Netz getrennt vom Vertrieb",
     "items": [
-     "Netzbetrieb ist ein Monopol-Bereich",
-     "Trennung von Erzeugung und Vertrieb",
-     "Rechtlich, organisatorisch, informatorisch",
+     "Netzbetrieb muss neutral sein",
+     "Netzbetrieb getrennt von Vertrieb, Erzeugung",
+     "Form der Trennung je nach Netzbetreiber",
      "Regeln im Energiewirtschaftsgesetz"
     ],
     "terms": [
@@ -875,14 +846,14 @@
      "en": "That is why the law requires unbundling."
     },
     {
-     "de": "Der Netzbetrieb wird vom Vertrieb und von der Erzeugung getrennt.",
-     "ar": "يُفصل تشغيل الشبكة عن البيع والتوليد.",
-     "en": "Grid operation is separated from sales and generation."
+     "de": "Der Netzbetrieb wird grundsätzlich vom Vertrieb und von der Erzeugung getrennt.",
+     "ar": "يُفصل تشغيل الشبكة من حيث المبدأ عن البيع والتوليد.",
+     "en": "Grid operation is in principle separated from sales and generation."
     },
     {
-     "de": "Die Trennung kann rechtlich, organisatorisch und informatorisch sein.",
-     "ar": "وقد يكون الفصل قانونيًا وتنظيميًا ومعلوماتيًا.",
-     "en": "The separation can be legal, organisational and informational."
+     "de": "Die Trennung kann je nach Netzbetreiber unterschiedlich ausgeprägt sein.",
+     "ar": "وقد يختلف شكل الفصل بحسب مشغّل الشبكة.",
+     "en": "The form of separation can differ by grid operator."
     },
     {
      "de": "Die Vorschriften stehen im Teil zwei des Energiewirtschaftsgesetzes.",
@@ -911,7 +882,7 @@
      {
       "de": "die Ausgleichsenergie",
       "ar": "طاقة الموازنة",
-      "en": "balancing energy"
+      "en": "imbalance energy"
      }
     ]
    },
@@ -932,9 +903,9 @@
      "en": "Each balancing group has a responsible manager."
     },
     {
-     "de": "Er meldet sich beim Übertragungsnetzbetreiber an.",
+     "de": "Er wird dem Übertragungsnetzbetreiber benannt.",
      "ar": "وهو يُسمّى لدى مشغّل شبكة النقل.",
-     "en": "He or she is named to the transmission operator."
+     "en": "He or she is named to the transmission system operator."
     },
     {
      "de": "Seine Bilanz soll in jeder Viertelstunde ausgeglichen sein.",
@@ -944,7 +915,7 @@
     {
      "de": "Gibt es eine Abweichung, wird Ausgleichsenergie eingesetzt.",
      "ar": "وإذا حدث انحراف تُستخدم طاقة الموازنة.",
-     "en": "If there is a deviation, balancing energy is used."
+     "en": "If there is a deviation, imbalance energy is used."
     },
     {
      "de": "Der Bilanzkreisverantwortliche trägt dafür die Kosten.",
@@ -1049,11 +1020,6 @@
      "en": "Balancing power is part of the transmission operators' task."
     },
     {
-     "de": "Die Namen stammen aus dem deutschen Regelsystem.",
-     "ar": "هذه الأسماء من نظام الضبط الألماني.",
-     "en": "The names come from the German control system."
-    },
-    {
      "de": "Sie unterscheiden sich vor allem in der Reaktionszeit.",
      "ar": "وتختلف أساسًا في زمن الاستجابة.",
      "en": "They differ mainly in reaction time."
@@ -1074,12 +1040,12 @@
      "Leitungen können überlastet werden",
      "Eingriff in die Erzeugung",
      "Ziel: Leitungen schützen",
-     "Meist Aufgabe der Übertragungsnetzbetreiber"
+     "Aufgabe der Netzbetreiber"
     ],
     "terms": [
      {
       "de": "der Redispatch",
-      "ar": "إعادة الجدولة (Redispatch)",
+      "ar": "إعادة جدولة التوليد",
       "en": "redispatch"
      }
     ]
@@ -1107,7 +1073,7 @@
     },
     {
      "de": "Das heißt Redispatch.",
-     "ar": "وهذا يسمى إعادة الجدولة.",
+     "ar": "وهذا يسمى إعادة جدولة التوليد.",
      "en": "This is called redispatch."
     },
     {
@@ -1116,9 +1082,9 @@
      "en": "The goal is to protect the lines from overload."
     },
     {
-     "de": "Die Übertragungsnetzbetreiber planen dafür am Vortag mit Prognosen.",
-     "ar": "ويخطط مشغّلو شبكة النقل لذلك قبل يوم بالاعتماد على التنبؤات.",
-     "en": "The transmission operators plan this a day ahead using forecasts."
+     "de": "Die Netzbetreiber planen dafür mit Prognosen.",
+     "ar": "ويخطط مشغّلو الشبكة لذلك بالاعتماد على التنبؤات.",
+     "en": "The grid operators plan this using forecasts."
     },
     {
      "de": "Die Regeln dazu ändern sich, schauen Sie also in die aktuelle Fassung.",
@@ -1158,7 +1124,7 @@
      "en": "The Federal Network Agency is based in Bonn."
     },
     {
-     "de": "Sie ist die Aufsicht und Regulierungsbehörde für die Netze.",
+     "de": "Sie ist die Aufsichts- und Regulierungsbehörde für die Netze.",
      "ar": "وهي جهة الرقابة والتنظيم للشبكات.",
      "en": "It is the supervisory and regulatory authority for the grids."
     },
@@ -1223,7 +1189,7 @@
      "Vier Betreiber erstellen den Entwurf",
      "Öffentliche Konsultation",
      "Bundesnetzagentur bestätigt den Plan",
-     "Grundlage für das Bundesbedarfsplangesetz"
+     "Grundlage für den Bundesbedarfsplan"
     ],
     "terms": [
      {
@@ -1265,14 +1231,9 @@
      "en": "It is a basis for the statutory needs plan."
     },
     {
-     "de": "Jedes Jahr oder alle paar Jahre beginnt ein neuer Zyklus.",
-     "ar": "وتبدأ دورة جديدة بين حين وآخر.",
-     "en": "A new cycle starts from time to time."
-    },
-    {
-     "de": "Die Betreiber verwenden dafür öffentliche Szenarien.",
-     "ar": "ويستخدم المشغّلون لذلك سيناريوهات علنية.",
-     "en": "The operators use public scenarios for this."
+     "de": "Der Plan wird regelmäßig neu erstellt.",
+     "ar": "ويُعاد إعداد الخطة بانتظام.",
+     "en": "The plan is prepared anew at regular intervals."
     },
     {
      "de": "So wird der Netzausbau nachvollziehbar.",
@@ -1380,9 +1341,9 @@
      "en": "Let us summarise."
     },
     {
-     "de": "Das Übertragungsnetz haben vier Betreiber in vier Regelzonen.",
-     "ar": "شبكة النقل يشغّلها أربعة مشغّلين في أربع مناطق تحكم.",
-     "en": "Four operators run the transmission grid in four control areas."
+     "de": "Das Übertragungsnetz betreiben vier Unternehmen in vier Regelzonen.",
+     "ar": "شبكة النقل تشغّلها أربع شركات في أربع مناطق تحكم.",
+     "en": "Four companies run the transmission grid in four control areas."
     },
     {
      "de": "Das Verteilnetz betreiben viele Unternehmen vor Ort.",
@@ -1410,19 +1371,14 @@
      "en": "Remember the roles, not the numbers."
     },
     {
-     "de": "So bleibt Ihr Wissen auch in Zukunft richtig.",
-     "ar": "وهكذا تبقى معرفتكم صحيحة في المستقبل.",
-     "en": "This way your knowledge stays correct in the future."
+     "de": "So veraltet Ihr Wissen nicht so schnell.",
+     "ar": "وهكذا لا تتقادم معرفتكم بسرعة.",
+     "en": "This way your knowledge does not become outdated so quickly."
     },
     {
-     "de": "Wiederholen Sie die Rollen mit dem Glossar.",
-     "ar": "كرّروا الأدوار مع المسرد.",
-     "en": "Repeat the roles with the glossary."
-    },
-    {
-     "de": "Merken Sie sich besonders Frequenz, Bilanzkreis und Regelzone.",
-     "ar": "احفظوا خصوصًا التردد ودائرة الموازنة ومنطقة التحكم.",
-     "en": "Remember especially frequency, balancing group and control area."
+     "de": "Wiederholen Sie besonders Frequenz, Bilanzkreis und Regelzone mit dem Glossar.",
+     "ar": "كرّروا خصوصًا التردد ودائرة الموازنة ومنطقة التحكم مع المسرد.",
+     "en": "Repeat especially frequency, balancing group and control area with the glossary."
     },
     {
      "de": "Diese Wörter hören Sie in jedem Netzprojekt.",
@@ -1439,7 +1395,7 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Gesetze ändern sich",
     "items": [
@@ -1478,11 +1434,6 @@
      "de": "Für konkrete Projekte fragen Sie den zuständigen Netzbetreiber und Fachleute.",
      "ar": "وللمشاريع الفعلية اسألوا مشغّل الشبكة المختص والمتخصصين.",
      "en": "For real projects, ask the responsible grid operator and experts."
-    },
-    {
-     "de": "Gesetze und Normen werden überarbeitet und neu veröffentlicht.",
-     "ar": "تُراجع القوانين والمعايير وتُنشر من جديد.",
-     "en": "Laws and standards are revised and published again."
     },
     {
      "de": "Auch Zuständigkeiten und Namen von Unternehmen können sich ändern.",
@@ -1577,6 +1528,21 @@
    "de": "der Netzentwicklungsplan",
    "ar": "خطة تطوير الشبكة",
    "en": "grid development plan"
+  },
+  {
+   "de": "die Hochspannung",
+   "ar": "الجهد العالي",
+   "en": "high voltage"
+  },
+  {
+   "de": "die Ausgleichsenergie",
+   "ar": "طاقة الموازنة",
+   "en": "imbalance energy"
+  },
+  {
+   "de": "der Redispatch",
+   "ar": "إعادة جدولة التوليد",
+   "en": "redispatch"
   }
  ],
  "quiz": [
@@ -1683,7 +1649,7 @@
   {
    "q": {
     "de": "Was ist Redispatch?",
-    "ar": "ما هو Redispatch؟",
+    "ar": "ما المقصود بإعادة جدولة التوليد في الشبكات؟",
     "en": "What is redispatch?"
    },
    "options": [
@@ -1699,7 +1665,7 @@
     },
     {
      "de": "Ein Schaltplan",
-     "ar": "مخطط دارات",
+     "ar": "مخطط الدارات",
      "en": "A circuit diagram"
     }
    ],
@@ -1707,9 +1673,9 @@
   }
  ],
  "next": {
-  "de": "Im nächsten Video geht es um den Netzanschluss (E-A02).",
-  "ar": "في الفيديو القادم نتناول التوصيل بالشبكة (E-A02).",
-  "en": "The next video covers the grid connection (E-A02)."
+  "de": "Im nächsten Video geht es um den Netzanschluss.",
+  "ar": "في الفيديو القادم نتناول التوصيل بالشبكة.",
+  "en": "The next video covers the grid connection."
  },
- "stand": "2026-10-20; prüfen: Namen und Zuschnitt der vier Regelzonen/Betreiber, Wortlaut EnWG §§ 12 bis 14 und Entflechtung (§§ 6 bis 10), StromNZV-Bilanzkreisregeln und Begriffe der Regelenergie, aktueller Netzentwicklungsplan-Zyklus, Zuständigkeit Bundes-/Landesbehörden"
+ "stand": "2026-10-20; prüfen: Namen und Zuschnitt der vier Regelzonen/Betreiber, Wortlaut EnWG §§ 12 bis 14 und Entflechtung (§§ 6 bis 10; Ausprägung je Netzbetreiber), StromNZV-Bilanzkreisregeln (Benennung des Bilanzkreisverantwortlichen) und Begriffe der Regelenergie, Rollen beim Redispatch (Redispatch 2.0), aktueller Netzentwicklungsplan-Zyklus, Zuständigkeit Bundes-/Landesbehörden"
 }

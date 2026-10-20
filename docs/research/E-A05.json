@@ -188,6 +188,11 @@
   "Normnummern DIN EN 62271-102, IEC 60947-3, IEC 60947-4-1, DIN EN 60909: in Suche nicht verifiziert; nicht im Video.",
   "Formel zur Kurzschlussstromberechnung nach DIN EN 60909 (Spannungsfaktor c): nicht belegt; nur qualitatives Ohm-Prinzip.",
   "Schutzwandlerklassen (TPS, TPX, TPY, TPZ): nicht für ein Grundlagenvideo nötig.",
-  "Hersteller- oder Produktaussagen (Relaistypen, Schaltgeräte-Serien): bewusst ausgeschlossen."
+  "Hersteller- oder Produktaussagen (Relaistypen, Schaltgeräte-Serien): bewusst ausgeschlossen.",
+  "Zeitangabe \"Millisekunden\" für den Kurzschlussstrom: nicht belegt, ersetzt durch \"fast augenblicklich\".",
+  "\"Älteste Schutzorgan\", \"robust, günstig, weit verbreitet\" (Sicherung): nicht belegt, gestrichen.",
+  "Arbeitsablauf \"erst Last schalten, dann sichtbar trennen\" (Freischalten): kein Faktum, verkürzt die fünf Sicherheitsregeln; ersetzt durch Verweis auf E-F05.",
+  "Aussage, Sicherung/LS/Leistungsschalter seien DIE Schutzorgane und Überlast BRAUCHE verzögerten Schutz: zu absolut, abgeschwächt.",
+  "\"Beide Staffelungswege können kombiniert werden\", \"einfacher Überstromschutz arbeitet zu grob\", \"schnell und genau\" (Differentialschutz), \"Hauptverteilungen und Einspeisungen\" (Leistungsschalter): nicht belegt, gestrichen."
  ]
 }
