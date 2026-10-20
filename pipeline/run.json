@@ -1,1 +1,1 @@
-{"action":"build","video":["scripts/E/01-netzstruktur.json","scripts/E/02-netzanschluss.json","scripts/E/03-erneuerbare.json","scripts/E/04-speicher-wechselrichter-laden.json"],"synthesize":true,"burn":true,"rev":1}
+{"action":"build","video":["scripts/E/05-schutztechnik.json","scripts/E/06-netzqualitaet.json","scripts/E/01-din-vde-0100.json","scripts/E/02-erdung-rcd.json"],"synthesize":true,"burn":true,"rev":1}
