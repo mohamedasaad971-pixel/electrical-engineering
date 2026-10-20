@@ -98,7 +98,7 @@
    "source_url": "https://www.gesetze-im-internet.de/enwg_2005/__49.html",
    "source_name": "gesetze-im-internet.de, EnWG § 49",
    "confidence": "high",
-   "note": "Absatzzählung nicht genannt; Fassung prüfen."
+   "note": "Absatzzählung nicht genannt; Fassung prüfen. Die Vermutung ist widerlegbar (laut Audit, vgl. E-F03; Primärquelle prüfen)."
   },
   {
    "claim": "Die TAB der Netzbetreiber konkretisieren VDE-AR-N 4100 und 4105 für das jeweilige Netzgebiet; sie unterscheiden sich nach Netzbetreiber und Datum.",
@@ -162,6 +162,20 @@
    "source_name": "e-regio Anmeldeformular",
    "confidence": "medium",
    "note": ""
+  },
+  {
+   "claim": "NAV § 13: Die Verantwortung des Anschlussnehmers gegenüber dem Netzbetreiber bleibt auch bestehen, wenn die Anlage vermietet ist.",
+   "source_url": "https://www.gesetze-im-internet.de/nav/__13.html",
+   "source_name": "gesetze-im-internet.de, NAV § 13 (laut Audit E-A01-06)",
+   "confidence": "medium",
+   "note": "Aus dem Audit übernommen; Wortlaut des § 13 Abs. 1 in der Primärquelle prüfen."
+  },
+  {
+   "claim": "Der Herausgeber der VDE-AR-N ist das Forum Netztechnik/Netzbetrieb im VDE (VDE FNN).",
+   "source_url": "https://www.vde.com/de/fnn",
+   "source_name": "VDE FNN (laut Audit E-A01-06)",
+   "confidence": "medium",
+   "note": "Namensform aus dem Audit; auf vde.com prüfen."
   }
  ],
  "dropped": [
@@ -174,6 +188,12 @@
   "NA-Schutz-Pflicht ab 30 kVA und Anlagenzertifikat-Schwellen: nur Herstellerseite",
   "Ausgabestand VDE-AR-N 4110 (2023-09 vs. Novelle), 4120/4130: schnell veränderlich",
   "Bußgelder / Wegfall der Vergütung bei fehlender Registrierung: Rechtsfolgen nicht primär geprüft",
-  "Gebühren/Baukostenzuschuss: bewusst nicht behandelt"
+  "Gebühren/Baukostenzuschuss: bewusst nicht behandelt",
+  "Zählerplatz als 'typisches Thema' der 4100 und 'Zeitverlust bei der Abnahme': nicht belegt",
+  "Aussage, Netzbetreiber änderten ihre TAB 'oft später': nicht belegt",
+  "Inhalt des Inbetriebsetzungsprotokolls (Bestätigung der Übereinstimmung mit der Anmeldung): nicht belegt",
+  "Zuständigkeit für die MaStR-Registrierung ('Sache des Betreibers'): nicht belegt",
+  "Zählerplatz-Änderung bei spätem Messkonzept und 'Prüfung kostet wenig Zeit': nicht belegt",
+  "Absolute Bauanweisung 'nicht bauen vor Rückmeldung' und 'Regeln sind keine bloße Empfehlung': Reihenfolge netzbetreiberspezifisch / Normen freiwillig"
  ]
 }

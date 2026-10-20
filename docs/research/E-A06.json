@@ -13,7 +13,7 @@
    "source_url": "https://www.dinmedia.de/de/norm/din-en-50160/327353625",
    "source_name": "DIN Media (Suchzusammenfassung)",
    "confidence": "medium",
-   "note": "Ausgabestand im Video nicht genannt, nur 'aktuelle Ausgabe prüfen'."
+   "note": "Ausgabestand im Video nicht genannt, nur 'aktuelle Ausgabe prüfen'. Hinweis (Audit): Stand 2020-11 vermutlich veraltet (Neuausgabe EN 50160:2022 existiert); im Video keine Ausgabe genannt."
   },
   {
    "claim": "Ein deutscher Entwurf 'EN 50160:2022 + A1:2025' (VDE 0839-160:2026-04) war als Entwurf geführt; Einspruchsfrist bis 2026-05-06. Endgültiger Status nicht verifiziert.",
@@ -179,6 +179,11 @@
   "Neutralleiterstrom 1,73-fach bzw. 20-30 % dritte Harmonische: Herstellerquellen, nicht geprüft.",
   "Genauer endgültiger Status der EN 50160-Neuausgabe (2026-04): nicht verifiziert; nur 'aktuelle Ausgabe prüfen'.",
   "Aktuelle Ausgabe/Rückzugsstatus von EN 61000-4-30, EN 61000-3-12: widersprüchlich/ungeprüft.",
-  "Typische THD-Werte und Anteile einzelner Oberschwingungen (3., 5., 7.): Herstellerangaben, nicht verifiziert."
+  "Typische THD-Werte und Anteile einzelner Oberschwingungen (3., 5., 7.): Herstellerangaben, nicht verifiziert.",
+  "Aussage 'Grenzwerte stehen nur in EN 50160': widerlegt durch Gerätenormen (EN 61000-3-2/-3-12) und andere Regelwerke; im Video entfernt.",
+  "Verzerrungsblindleistung (Blindanteil durch Verzerrung): physikalisch korrekt, aber nicht durch Quelle in diesem Dossier belegt; im Video entfernt.",
+  "Aussagen 'Oberschwingungen tragen nicht zur Wirkleistung bei' und 'belasten vor allem thermisch': nicht belegt; ersetzt durch 'zusätzliche Belastung, z. B. Erwärmung'.",
+  "Wartungshinweis 'Kondensatorbatterien regelmäßig kontrollieren': nicht belegt und für Laien riskant (Restladung); entfernt.",
+  "Rechtsaussagen 'Netzbetreiber darf Blindarbeit berechnen' und 'Kompensationsanlage kann verlangt werden': nur als 'richtet sich nach Vertrag/Preisblatt' formuliert."
  ]
 }

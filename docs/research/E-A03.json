@@ -108,11 +108,11 @@
    "note": "Aussage zur Verantwortung aus Hilfetext."
   },
   {
-   "claim": "Verspätete Registrierung: Zahlungen werden zurückgehalten, Anspruch kann teils entfallen; Ordnungswidrigkeit möglich.",
+   "claim": "Verspätete Registrierung: Zahlungen werden zurückgehalten, Anspruch kann teils entfallen.",
    "source_url": "https://www.marktstammdatenregister.de/MaStRHilfe/subpages/registrierungVerpflichtendFristen.html",
    "source_name": "Marktstammdatenregister-Hilfe",
    "confidence": "medium",
-   "note": "Allgemein formuliert."
+   "note": "Allgemein formuliert; Ordnungswidrigkeit/Bußgeld nicht übernommen (siehe dropped)."
   },
   {
    "claim": "Im Register werden Stammdaten (Standort, technische Daten) erfasst, keine Betriebsdaten wie Zählerstände.",
@@ -122,7 +122,7 @@
    "note": "Aus Suchzusammenfassung; Flyer nicht im Volltext geprüft."
   },
   {
-   "claim": "Anlagen müssen technische Einrichtungen zur Abrufbarkeit der Ist-Einspeisung und zur ferngesteuerten Reduzierung der Wirkleistung haben (EEG § 9; Paragraphenverweis in Quellen uneinheitlich).",
+   "claim": "Je nach Anlage (Größe, Inbetriebnahme) müssen technische Einrichtungen zur Abrufbarkeit der Ist-Einspeisung und zur ferngesteuerten Reduzierung der Wirkleistung vorhanden sein (EEG § 9; Paragraphenverweis in Quellen uneinheitlich).",
    "source_url": "https://www.enercity-netz.de/assets/cms/eng/partner/installateure/anmeldung-photovoltaikanlage/technische-vorgaben-zum-parag-9-eeg.pdf",
    "source_name": "enercity Netz; VDE FNN Hinweis § 9 EEG",
    "confidence": "medium",
@@ -174,6 +174,11 @@
   "Änderungsgesetz vom 18.12.2025 (BGBl. 2025 I Nr. 347) – nur Spiegelseiten, Datum unverifiziert",
   "Ausgabe VDE-AR-N 4105:2026-03 – einzelne Herstellerseite, Ausgabe im Skript nicht genannt",
   "Genaue Paragraphennummer der Fernsteuerbarkeit (§ 9 vs. § 10b) – Quellen uneinheitlich",
-  "Negative Strompreise/§ 51-Regeln, Mieterstrom, Volleinspeisung"
+  "Negative Strompreise/§ 51-Regeln, Mieterstrom, Volleinspeisung",
+  "Ordnungswidrigkeit/Bußgeld bei verspäteter Registrierung (E-A02 hat es als nicht primär belegt gestrichen; Skript sagt nur \"Rechtsfolgen regelt das Gesetz\")",
+  "Eigenverbrauch (\"Strom bleibt vor Ort\") als dritter Weg – nicht belegt, Tabellenzeile entfernt",
+  "Aussage \"politischer Rückenwind\" / \"beschleunigt Entscheidungen\" zum überragenden öffentlichen Interesse – nicht belegt",
+  "Registrierungspflicht für Speicher im MaStR (nur in E-A04 belegt); hier nur Erzeugungsanlagen",
+  "Pauschale Aussage, dass jede Anlage zwei Wege der Vergütung hat (Direktvermarktungspflicht ab Größe, weitere Formen)"
  ]
 }

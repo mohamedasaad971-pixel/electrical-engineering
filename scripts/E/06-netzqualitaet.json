@@ -19,7 +19,7 @@
     "terms": [
      {
       "de": "die Netzqualität",
-      "ar": "جودة الطاقة (جودة الشبكة)",
+      "ar": "جودة الطاقة",
       "en": "power quality"
      }
     ]
@@ -47,7 +47,7 @@
     },
     {
      "de": "Danach folgen Wirkleistung, Blindleistung und der Leistungsfaktor.",
-     "ar": "بعد ذلك ننتقل إلى القدرة الفعّالة والقدرة الردية ومعامل القدرة.",
+     "ar": "بعد ذلك ننتقل إلى القدرة الفعالة والقدرة غير الفعالة ومعامل القدرة.",
      "en": "Then come active power, reactive power and the power factor."
     },
     {
@@ -79,16 +79,18 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Nur eine Orientierung",
     "items": [
-     "Kein Ersatz für Norm und Beratung"
+     "Allgemeine Einführung",
+     "Keine Zahlenwerte aus Normen",
+     "Aktuelle Norm und Fachperson prüfen"
     ],
     "terms": [
      {
       "de": "die Norm",
-      "ar": "المعيار (Norm)",
+      "ar": "المعيار",
       "en": "standard"
      }
     ]
@@ -110,9 +112,9 @@
      "en": "It replaces neither the standards nor professional advice."
     },
     {
-     "de": "Grenzwerte finden Sie nur in der aktuellen Norm.",
-     "ar": "القيم الحدّية تجدونها فقط في المعيار الحالي.",
-     "en": "You find limit values only in the current standard."
+     "de": "Grenzwerte finden Sie in den aktuellen Normen.",
+     "ar": "القيم الحدّية تجدونها في المعايير الحالية.",
+     "en": "You find limit values in the current standards."
     },
     {
      "de": "Darum nennen wir hier bewusst keine Zahlenwerte aus Normen.",
@@ -179,12 +181,12 @@
     },
     {
      "de": "Gute Netzqualität heißt: Geräte arbeiten zuverlässig und ohne Zusatzbelastung.",
-     "ar": "جودة الشبكة الجيدة تعني أن الأجهزة تعمل بموثوقية ودون أحمال إضافية.",
+     "ar": "جودة الطاقة الجيدة تعني أن الأجهزة تعمل بموثوقية ودون أحمال إضافية.",
      "en": "Good power quality means devices work reliably without extra stress."
     },
     {
      "de": "Netzqualität betrifft die Spannung und den Strom gleichzeitig.",
-     "ar": "جودة الشبكة تخص الجهد والتيار معًا.",
+     "ar": "جودة الطاقة تخص الجهد والتيار معًا.",
      "en": "Power quality concerns voltage and current at the same time."
     },
     {
@@ -199,7 +201,7 @@
     },
     {
      "de": "Gute Netzqualität schützt Geräte, Anlagen und Produktionsprozesse.",
-     "ar": "جودة الشبكة الجيدة تحمي الأجهزة والمنشآت وعمليات الإنتاج.",
+     "ar": "جودة الطاقة الجيدة تحمي الأجهزة والمنشآت وعمليات الإنتاج.",
      "en": "Good power quality protects devices, plants and production processes."
     },
     {
@@ -218,7 +220,7 @@
      "Höhe: Abweichung vom Sollwert",
      "Frequenz: Abweichung vom Sollwert",
      "Kurvenform: Verzerrung der Sinuskurve",
-     "Verfügbarkeit: Einbrüche, Unterbrechungen"
+     "Einbrüche und Unterbrechungen"
     ]
    },
    "lines": [
@@ -286,7 +288,7 @@
    "lines": [
     {
      "de": "Die Bezugsnorm für dieses Thema ist DIN EN 50160.",
-     "ar": "المعيار المرجعي لهذا الموضوع هو DIN EN 50160 في ألمانيا.",
+     "ar": "معيار DIN EN 50160 هو المرجع في هذا الموضوع.",
      "en": "The reference standard for this topic is DIN EN 50160.",
      "tts": "Die Bezugsnorm für dieses Thema ist Din E-En fünf null eins sechs null."
     },
@@ -301,21 +303,6 @@
      "en": "It describes characteristics at the connection point of public grids."
     },
     {
-     "de": "Sie gilt unter normalen Betriebsbedingungen.",
-     "ar": "وهي تسري في ظروف التشغيل العادية.",
-     "en": "It applies under normal operating conditions."
-    },
-    {
-     "de": "Industrienetze sind nicht ihr Thema.",
-     "ar": "شبكات المصانع ليست ضمن موضوعها.",
-     "en": "Industrial networks are not its subject."
-    },
-    {
-     "de": "Die Ausgabe ändert sich. Prüfen Sie immer die aktuelle Fassung.",
-     "ar": "الإصدار يتغير. تحققوا دائمًا من النسخة الحالية.",
-     "en": "The edition changes. Always check the current version."
-    },
-    {
      "de": "Dazu gehören Spannungshöhe, Frequenz, Flicker und Oberschwingungen.",
      "ar": "ومن ذلك مقدار الجهد والتردد والوميض والتوافقيات.",
      "en": "These include voltage level, frequency, flicker and harmonics."
@@ -324,6 +311,16 @@
      "de": "Auch Einbrüche, Unterbrechungen und Überspannungen gehören dazu.",
      "ar": "وكذلك الهبوط المفاجئ والانقطاعات والجهود الزائدة.",
      "en": "Dips, interruptions and overvoltages are included too."
+    },
+    {
+     "de": "Sie gilt unter normalen Betriebsbedingungen.",
+     "ar": "وهي تسري في ظروف التشغيل العادية.",
+     "en": "It applies under normal operating conditions."
+    },
+    {
+     "de": "Industrienetze sind nicht ihr Thema.",
+     "ar": "شبكات المصانع ليست ضمن موضوعها.",
+     "en": "Industrial networks are not its subject."
     },
     {
      "de": "Für Einbrüche gibt es in der Fachliteratur eher Richtwerte.",
@@ -339,6 +336,11 @@
      "de": "Zahlenwerte entnehmen Sie bitte der gültigen Norm selbst.",
      "ar": "القيم الرقمية خذوها من المعيار الساري نفسه.",
      "en": "Please take numerical values from the valid standard itself."
+    },
+    {
+     "de": "Die Ausgabe ändert sich. Prüfen Sie immer die aktuelle Fassung.",
+     "ar": "الإصدار يتغير. تحققوا دائمًا من النسخة الحالية.",
+     "en": "The edition changes. Always check the current version."
     }
    ]
   },
@@ -399,7 +401,7 @@
     },
     {
      "de": "Darum gehört Netzqualität heute zum Alltag in der Energietechnik.",
-     "ar": "لذلك صارت جودة الشبكة اليوم جزءًا من العمل اليومي في هندسة الطاقة.",
+     "ar": "لذلك صارت جودة الطاقة اليوم جزءًا من العمل اليومي في هندسة الطاقة.",
      "en": "So power quality is part of everyday work in power engineering today."
     }
    ]
@@ -452,7 +454,7 @@
     },
     {
      "de": "Der verzerrte Strom fließt durch die Impedanz des Netzes.",
-     "ar": "يمر التيار المشوَّه عبر ممانعة الشبكة.",
+     "ar": "يمر التيار المشوَّه عبر معاوقة الشبكة.",
      "en": "The distorted current flows through the grid impedance."
     },
     {
@@ -506,7 +508,7 @@
     "terms": [
      {
       "de": "der Neutralleiter",
-      "ar": "الموصل المحايد",
+      "ar": "موصل التعادل",
       "en": "neutral conductor"
      }
     ]
@@ -534,7 +536,7 @@
     },
     {
      "de": "Im Vierleitersystem ist der Neutralleiter ein Sonderfall.",
-     "ar": "في نظام الأسلاك الأربعة يمثّل الموصل المحايد حالة خاصة.",
+     "ar": "في نظام الأسلاك الأربعة يمثّل موصل التعادل حالة خاصة.",
      "en": "In a four-wire system the neutral conductor is a special case."
     },
     {
@@ -548,14 +550,9 @@
      "en": "The neutral conductor can therefore be heavily loaded."
     },
     {
-     "de": "Wichtig: Oberschwingungen tragen nicht zur Wirkleistung bei.",
-     "ar": "مهم: التوافقيات لا تسهم في القدرة الفعّالة.",
-     "en": "Important: harmonics do not contribute to active power."
-    },
-    {
-     "de": "Sie belasten das Netz vor allem thermisch.",
-     "ar": "إنها تحمّل الشبكة في الأساس حراريًا.",
-     "en": "They mainly load the grid thermally."
+     "de": "Sie belasten Betriebsmittel zusätzlich, zum Beispiel durch Erwärmung.",
+     "ar": "إنها تحمّل المعدات حملًا إضافيًا، مثلًا بالتسخين.",
+     "en": "They put extra stress on equipment, for example through heating."
     },
     {
      "de": "Darum sollten Planer Kabel, Trafos und Kompensation passend auslegen.",
@@ -597,23 +594,23 @@
      "de": "Gerätenormen wie EN 61000-3-2 begrenzen Oberschwingungsströme von Geräten.",
      "ar": "معايير الأجهزة مثل EN 61000-3-2 تحدّ من التيارات التوافقية للأجهزة.",
      "en": "Product standards such as EN 61000-3-2 limit the harmonic currents of devices.",
-     "tts": "Gerätenormen wie E-En sechs eins null null null drei zwei begrenzen Oberschwingungsströme von Geräten."
+     "tts": "Gerätenormen wie E-En, sechs eins null null null, drei, zwei begrenzen Oberschwingungsströme von Geräten."
     },
     {
      "de": "Ohne Messung erkennt man Netzrückwirkungen kaum.",
      "ar": "من دون قياس يصعب اكتشاف التأثيرات الراجعة على الشبكة.",
-     "en": "Without measurement you hardly notice grid disturbances."
+     "en": "Without measurement you hardly notice grid feedback effects."
     },
     {
      "de": "Messverfahren beschreibt unter anderem die Norm IEC 61000-4-30.",
      "ar": "ويصف طرق القياس معيار IEC 61000-4-30 بين معايير أخرى.",
      "en": "Measurement methods are described, among others, in IEC 61000-4-30.",
-     "tts": "Messverfahren beschreibt unter anderem die Norm I-E-Ze sechs eins null null null vier drei null."
+     "tts": "Messverfahren beschreibt unter anderem die Norm I-E-Ze, sechs eins null null null, vier, drei null."
     },
     {
-     "de": "Auch die Planung hilft, mit passenden Geräten und Betriebsmitteln.",
-     "ar": "كما يساعد التخطيط باختيار أجهزة ومعدات مناسبة.",
-     "en": "Planning helps too, with suitable devices and equipment."
+     "de": "Auch die Planung hilft, wenn man passende Geräte und Betriebsmittel wählt.",
+     "ar": "كما يساعد التخطيط عند اختيار أجهزة ومعدات مناسبة.",
+     "en": "Planning also helps when suitable devices and equipment are chosen."
     },
     {
      "de": "Messungen zeigen, ob eine Maßnahme wirklich wirkt.",
@@ -679,7 +676,7 @@
     },
     {
      "de": "Kenngrößen sind Pst für zehn Minuten und Plt für zwei Stunden.",
-     "ar": "المقدارين المميّزين هما Pst لعشر دقائق وPlt لساعتين.",
+     "ar": "المقداران المميِّزان هما Pst لعشر دقائق وPlt لساعتين.",
      "en": "Key values are Pst for ten minutes and Plt for two hours.",
      "tts": "Kenngrößen sind Pe-Es-Te für zehn Minuten und Pe-El-Te für zwei Stunden."
     },
@@ -695,18 +692,13 @@
     },
     {
      "de": "Bewertungen und Grenzen kommen aus anderen Regelwerken.",
-     "ar": "التقييمات والحدود تأتي من أنظمة أخرى.",
+     "ar": "التقييمات والحدود تأتي من مجموعات لوائح أخرى.",
      "en": "Assessments and limits come from other rule sets."
     },
     {
      "de": "Für die Praxis heißt das: Beleuchtung ist besonders empfindlich.",
      "ar": "عمليًا هذا يعني أن الإضاءة حساسة بشكل خاص.",
      "en": "In practice that means lighting is especially sensitive."
-    },
-    {
-     "de": "Menschen nehmen solche Helligkeitsänderungen als unangenehm wahr.",
-     "ar": "يشعر الناس بهذه التغيرات في السطوع على أنها مزعجة.",
-     "en": "People find such brightness changes unpleasant."
     }
    ]
   },
@@ -748,7 +740,7 @@
     },
     {
      "de": "Auch Fehler im Netz, zum Beispiel Kurzschlüsse, führen zu Einbrüchen.",
-     "ar": "كما تؤدي أعطال الشبكة، مثل الدارات القصيرة، إلى هذا الهبوط.",
+     "ar": "كما تؤدي أعطال الشبكة، مثل حالات القصر، إلى هذا الهبوط.",
      "en": "Faults in the grid, for example short circuits, also cause dips."
     },
     {
@@ -758,7 +750,7 @@
     },
     {
      "de": "Umrichter oder Schütze können dann ausfallen oder abschalten.",
-     "ar": "فقد تتعطل محوّلات التردد أو الملامسات أو تنفصل.",
+     "ar": "فقد تتعطل محوّلات التردد أو الكونتاكتورات أو تنفصل.",
      "en": "Converters or contactors may then fail or switch off."
     },
     {
@@ -787,7 +779,7 @@
      "Oberschwingungen | Nichtlineare Verbraucher",
      "Flicker | Schnell schwankende Lasten",
      "Spannungseinbruch | Motoranlauf, Netzfehler",
-     "Verzerrte Spannung | Oberschwingungsströme an Impedanz",
+     "Verzerrte Spannung | Strom an Impedanz",
      "Beurteilung | Messung und Bezugsnorm"
     ]
    },
@@ -811,6 +803,11 @@
      "de": "Einbrüche entstehen bei Motoranlauf oder Netzfehlern.",
      "ar": "وتحدث الهبوطات المفاجئة عند تشغيل المحركات أو عند أعطال الشبكة.",
      "en": "Dips occur at motor start or grid faults."
+    },
+    {
+     "de": "Verzerrte Spannung entsteht, wenn Oberschwingungsströme durch die Netzimpedanz fließen.",
+     "ar": "ويتشوّه الجهد عندما تمر التيارات التوافقية عبر معاوقة الشبكة.",
+     "en": "Distorted voltage arises when harmonic currents flow through the grid impedance."
     },
     {
      "de": "Beurteilt wird mit Messungen und einer Bezugsnorm.",
@@ -848,12 +845,12 @@
     "terms": [
      {
       "de": "die Wirkleistung",
-      "ar": "القدرة الفعّالة",
+      "ar": "القدرة الفعالة",
       "en": "active power"
      },
      {
       "de": "die Blindleistung",
-      "ar": "القدرة الردية",
+      "ar": "القدرة غير الفعالة",
       "en": "reactive power"
      },
      {
@@ -871,13 +868,15 @@
     },
     {
      "de": "Die Wirkleistung P leistet die nutzbare Arbeit.",
-     "ar": "القدرة الفعّالة P هي التي تنجز العمل المفيد.",
-     "en": "Active power P does the useful work."
+     "ar": "القدرة الفعالة P هي التي تنجز العمل المفيد.",
+     "en": "Active power P does the useful work.",
+     "tts": "Die Wirkleistung Pe leistet die nutzbare Arbeit."
     },
     {
      "de": "Die Blindleistung Q leistet keine nutzbare Arbeit.",
-     "ar": "القدرة الردية Q لا تنجز عملًا مفيدًا.",
-     "en": "Reactive power Q does no useful work."
+     "ar": "القدرة غير الفعالة Q لا تنجز عملًا مفيدًا.",
+     "en": "Reactive power Q does no useful work.",
+     "tts": "Die Blindleistung Ku leistet keine nutzbare Arbeit."
     },
     {
      "de": "Sie belastet aber Leitungen und Betriebsmittel mit Strom.",
@@ -887,21 +886,22 @@
     {
      "de": "Die Scheinleistung S ergibt sich aus beiden.",
      "ar": "القدرة الظاهرية S تنتج من الاثنتين معًا.",
-     "en": "Apparent power S results from both."
+     "en": "Apparent power S results from both.",
+     "tts": "Die Scheinleistung Es ergibt sich aus beiden."
     },
     {
      "de": "Induktive Verbraucher wie Motoren nehmen Blindleistung auf.",
-     "ar": "الأحمال الحثية مثل المحركات تسحب قدرة ردية.",
+     "ar": "الأحمال الحثية مثل المحركات تسحب قدرة غير فعالة.",
      "en": "Inductive loads such as motors draw reactive power."
     },
     {
      "de": "Die Einheit der Wirkleistung ist Watt.",
-     "ar": "وحدة القدرة الفعّالة هي الواط.",
+     "ar": "وحدة القدرة الفعالة هي الواط.",
      "en": "The unit of active power is the watt."
     },
     {
      "de": "Die Einheit der Blindleistung ist var.",
-     "ar": "وحدة القدرة الردية هي الفار.",
+     "ar": "وحدة القدرة غير الفعالة هي الفار.",
      "en": "The unit of reactive power is the var."
     },
     {
@@ -916,12 +916,12 @@
     },
     {
      "de": "Ein Beispiel: Ein Motor braucht Wirkleistung für die Welle.",
-     "ar": "مثال: المحرك يحتاج قدرة فعّالة لعمود الدوران.",
+     "ar": "مثال: المحرك يحتاج قدرة فعالة لعمود الدوران.",
      "en": "An example: a motor needs active power for the shaft."
     },
     {
      "de": "Zusätzlich nimmt er als induktiver Verbraucher Blindleistung auf.",
-     "ar": "وهو يسحب بالإضافة إلى ذلك قدرة ردية بوصفه حِملًا حثيًا.",
+     "ar": "وهو يسحب بالإضافة إلى ذلك قدرة غير فعالة بوصفه حِملًا حثيًا.",
      "en": "In addition, as an inductive load, it draws reactive power."
     }
    ]
@@ -958,7 +958,7 @@
     },
     {
      "de": "Wirkleistung und Blindleistung sind die beiden kurzen Seiten.",
-     "ar": "القدرة الفعّالة والقدرة الردية هما الضلعان القصيران.",
+     "ar": "القدرة الفعالة والقدرة غير الفعالة هما الضلعان القصيران.",
      "en": "Active and reactive power are the two short sides."
     },
     {
@@ -968,18 +968,19 @@
     },
     {
      "de": "Es gilt: S Quadrat gleich P Quadrat plus Q Quadrat.",
-     "ar": "القاعدة: مربع S يساوي مربع P زائد مربع Q.",
-     "en": "The rule: S squared equals P squared plus Q squared."
+     "ar": "القاعدة: مربع القدرة الظاهرية يساوي مجموع مربعي القدرة الفعالة والقدرة غير الفعالة.",
+     "en": "The rule: S squared equals P squared plus Q squared.",
+     "tts": "Es gilt: Es Quadrat gleich Pe Quadrat plus Ku Quadrat."
     },
     {
      "de": "Der Leistungsfaktor ist bei sinusförmigen Größen cos φ gleich P durch S.",
-     "ar": "معامل القدرة للمقادير الجيبية هو cos φ ويساوي P مقسومة على S.",
+     "ar": "معامل القدرة للمقادير الجيبية هو cos φ، وهو يساوي P مقسومة على القدرة الظاهرية.",
      "en": "For sinusoidal quantities the power factor is cos φ equal to P divided by S.",
-     "tts": "Der Leistungsfaktor ist bei sinusförmigen Größen Kosinus Phi gleich P durch S."
+     "tts": "Der Leistungsfaktor ist bei sinusförmigen Größen Kosinus Phi gleich Pe durch Es."
     },
     {
      "de": "Je näher cos φ an eins liegt, desto weniger Blindanteil gibt es.",
-     "ar": "كلما اقترب cos φ من الواحد قلّ الجزء الردي.",
+     "ar": "كلما اقترب cos φ من الواحد قلّ الجزء غير الفعال.",
      "en": "The closer cos φ is to one, the less reactive share there is.",
      "tts": "Je näher Kosinus Phi an eins liegt, desto weniger Blindanteil gibt es."
     },
@@ -995,7 +996,7 @@
     },
     {
      "de": "Ein kleiner Winkel bedeutet wenig Blindleistung.",
-     "ar": "الزاوية الصغيرة تعني قدرة ردية قليلة.",
+     "ar": "الزاوية الصغيرة تعني قدرة غير فعالة قليلة.",
      "en": "A small angle means little reactive power."
     }
    ]
@@ -1048,11 +1049,6 @@
      "de": "Ein Wert allein sagt dort nicht die ganze Wahrheit.",
      "ar": "قيمة واحدة لا تروي القصة كاملة هناك.",
      "en": "A single value does not tell the whole story there."
-    },
-    {
-     "de": "Verzerrung erzeugt eigene Blindanteile, die Verzerrungsblindleistung.",
-     "ar": "التشوه يولّد أجزاءً ردية خاصة به تسمى القدرة الردية التشوهية.",
-     "en": "Distortion creates its own reactive parts, called distortion reactive power."
     }
    ]
   },
@@ -1081,16 +1077,21 @@
      "en": "The numbers are made up and serve only for teaching."
     },
     {
+     "de": "Rechnen wir langsam und Schritt für Schritt.",
+     "ar": "لنحسب ببطء وخطوة بخطوة.",
+     "en": "Let us calculate slowly, step by step."
+    },
+    {
      "de": "Eine Anlage nimmt 60 kW Wirkleistung und 80 kvar Blindleistung auf.",
-     "ar": "منشأة تسحب ٦٠ كيلوواط قدرة فعّالة و٨٠ كيلو فار قدرة ردية.",
+     "ar": "منشأة تسحب ٦٠ كيلوواط قدرة فعالة و٨٠ كيلو فار قدرة غير فعالة.",
      "en": "A plant draws 60 kW active and 80 kvar reactive power.",
      "tts": "Eine Anlage nimmt sechzig Kilowatt Wirkleistung und achtzig Kilovar Blindleistung auf."
     },
     {
-     "de": "Die Scheinleistung ist die Wurzel aus 3600 plus 6400.",
+     "de": "Die Scheinleistung ist die Wurzel aus der Summe von 3600 und 6400.",
      "ar": "القدرة الظاهرية هي الجذر التربيعي لمجموع ٣٦٠٠ و٦٤٠٠.",
-     "en": "Apparent power is the root of 3600 plus 6400.",
-     "tts": "Die Scheinleistung ist die Wurzel aus dreitausendsechshundert plus sechstausendvierhundert."
+     "en": "Apparent power is the square root of the sum of 3600 and 6400.",
+     "tts": "Die Scheinleistung ist die Wurzel aus der Summe von dreitausendsechshundert und sechstausendvierhundert."
     },
     {
      "de": "Das ergibt 100 kVA.",
@@ -1105,28 +1106,24 @@
      "tts": "Der Kosinus Phi ist sechzig durch einhundert, also null Komma sechs."
     },
     {
-     "de": "Rechnen wir langsam und Schritt für Schritt.",
-     "ar": "لنحسب ببطء وخطوة بخطوة.",
-     "en": "Let us calculate slowly, step by step."
-    },
-    {
-     "de": "Merken Sie sich: Die Anlage nimmt viel Strom auf, obwohl die Wirkleistung kleiner ist.",
-     "ar": "تذكّروا: المنشأة تسحب تيارًا كبيرًا مع أن القدرة الفعّالة أصغر.",
-     "en": "Remember: the plant draws a lot of current although active power is smaller."
+     "de": "Merken Sie sich: Die Anlage nimmt so viel Strom auf, als hätte sie 100 Kilovoltampere, obwohl sie nur 60 Kilowatt Wirkleistung hat.",
+     "ar": "تذكّروا: المنشأة تسحب من التيار ما يقابل ١٠٠ كيلو فولت أمبير مع أن قدرتها الفعالة ٦٠ كيلوواط فقط.",
+     "en": "Remember: the plant draws as much current as for 100 kVA, although its active power is only 60 kW.",
+     "tts": "Merken Sie sich: Die Anlage nimmt so viel Strom auf, als hätte sie einhundert Kilovoltampere, obwohl sie nur sechzig Kilowatt Wirkleistung hat."
     },
     {
      "de": "Der Blindanteil ist hier groß.",
-     "ar": "الجزء الردي هنا كبير.",
+     "ar": "الجزء غير الفعال هنا كبير.",
      "en": "The reactive share is large here."
     },
     {
      "de": "Der Strom ist proportional zur Scheinleistung, nicht zur Wirkleistung.",
-     "ar": "التيار يتناسب مع القدرة الظاهرية لا مع القدرة الفعّالة.",
+     "ar": "التيار يتناسب مع القدرة الظاهرية لا مع القدرة الفعالة.",
      "en": "The current is proportional to apparent power, not to active power."
     },
     {
      "de": "Darum belastet Blindleistung Leitung und Trafo.",
-     "ar": "لذلك تحمّل القدرة الردية الخط والمحوّل.",
+     "ar": "لذلك تحمّل القدرة غير الفعالة الخط والمحوّل.",
      "en": "That is why reactive power loads line and transformer."
     }
    ]
@@ -1146,7 +1143,7 @@
     "terms": [
      {
       "de": "die Blindleistungskompensation",
-      "ar": "تعويض القدرة الردية",
+      "ar": "تعويض القدرة غير الفعالة",
       "en": "reactive power compensation"
      }
     ]
@@ -1160,13 +1157,13 @@
     },
     {
      "de": "Dann ist der Tangens 0,75.",
-     "ar": "عندئذ يكون الظل ٠٫٧٥.",
+     "ar": "عندئذ يكون ظل الزاوية ٠٫٧٥.",
      "en": "Then the tangent is 0.75.",
      "tts": "Dann ist der Tangens null Komma sieben fünf."
     },
     {
      "de": "Die neue Blindleistung ist 60 mal 0,75, also 45 kvar.",
-     "ar": "القدرة الردية الجديدة هي ٦٠ ضرب ٠٫٧٥ أي ٤٥ كيلو فار.",
+     "ar": "القدرة غير الفعالة الجديدة هي ٦٠ ضرب ٠٫٧٥ أي ٤٥ كيلو فار.",
      "en": "The new reactive power is 60 times 0.75, so 45 kvar.",
      "tts": "Die neue Blindleistung ist sechzig mal null Komma sieben fünf, also fünfundvierzig Kilovar."
     },
@@ -1184,17 +1181,18 @@
     },
     {
      "de": "Der Strom sinkt damit auf etwa drei Viertel, bei gleicher Wirkleistung.",
-     "ar": "وبذلك ينخفض التيار إلى نحو ثلاثة أرباعه مع بقاء القدرة الفعّالة نفسها.",
+     "ar": "وبذلك ينخفض التيار إلى نحو ثلاثة أرباعه مع بقاء القدرة الفعالة نفسها.",
      "en": "The current thus falls to about three quarters, at the same active power."
     },
     {
      "de": "Die Formel lautet: Kondensatorleistung gleich P mal Differenz der Tangenswerte.",
-     "ar": "الصيغة هي: قدرة المكثف تساوي P ضرب فرق قيمتي الظل.",
-     "en": "The formula is: capacitor power equals P times the difference of the tangent values."
+     "ar": "الصيغة هي: قدرة المكثف تساوي القدرة الفعالة ضرب فرق ظلّي الزاوية.",
+     "en": "The formula is: capacitor power equals P times the difference of the tangent values.",
+     "tts": "Die Formel lautet: Kondensatorleistung gleich Pe mal Differenz der Tangenswerte."
     },
     {
      "de": "Hier ist der Tangens vorher 80 durch 60, also etwa 1,33.",
-     "ar": "هنا الظل قبل التعويض ٨٠ على ٦٠ أي نحو ١٫٣٣.",
+     "ar": "هنا ظل الزاوية قبل التعويض ٨٠ على ٦٠ أي نحو ١٫٣٣.",
      "en": "Here the tangent before is 80 divided by 60, so about 1.33.",
      "tts": "Hier ist der Tangens vorher achtzig durch sechzig, also etwa eins Komma drei drei."
     },
@@ -1234,7 +1232,7 @@
    "lines": [
     {
      "de": "So funktioniert Blindleistungskompensation im Konzept.",
-     "ar": "هكذا يعمل تعويض القدرة الردية من حيث المبدأ.",
+     "ar": "هكذا يعمل تعويض القدرة غير الفعالة من حيث المبدأ.",
      "en": "This is how reactive power compensation works in concept."
     },
     {
@@ -1244,12 +1242,12 @@
     },
     {
      "de": "Sie liefern die Blindleistung direkt vor Ort.",
-     "ar": "فتوفّر القدرة الردية في الموقع مباشرة.",
+     "ar": "فتوفّر القدرة غير الفعالة في الموقع مباشرة.",
      "en": "They supply the reactive power right on site."
     },
     {
      "de": "Dann fließt weniger Blindstrom durch Zuleitung und Transformator.",
-     "ar": "فيمر تيار ردي أقل عبر الكبل والمحوّل.",
+     "ar": "فيمر تيار غير فعال أقل عبر خط التغذية والمحوّل.",
      "en": "Then less reactive current flows through the feeder and transformer."
     },
     {
@@ -1263,23 +1261,13 @@
      "en": "Then detuned systems with filter reactors are used."
     },
     {
-     "de": "Der Kondensator wirkt als Quelle für kapazitive Blindleistung.",
-     "ar": "يعمل المكثف كمصدر للقدرة الردية السعوية.",
-     "en": "The capacitor acts as a source of capacitive reactive power."
-    },
-    {
      "de": "Die benötigte Größe hängt von Wirkleistung und Zielwert ab.",
-     "ar": "الحجم المطلوب يتوقف على القدرة الفعّالة والقيمة المستهدفة.",
+     "ar": "الحجم المطلوب يتوقف على القدرة الفعالة والقيمة المستهدفة.",
      "en": "The required size depends on active power and target value."
     },
     {
-     "de": "Kondensatorbatterien sollten Sie regelmäßig kontrollieren.",
-     "ar": "ينبغي فحص بطاريات المكثفات بانتظام.",
-     "en": "You should check capacitor banks regularly."
-    },
-    {
      "de": "Kondensatoren liefern kapazitive Blindleistung, Motoren brauchen induktive.",
-     "ar": "المكثفات توفّر قدرة ردية سعوية والمحركات تحتاج قدرة ردية حثية.",
+     "ar": "المكثفات توفّر قدرة غير فعالة سعوية والمحركات تحتاج قدرة غير فعالة حثية.",
      "en": "Capacitors supply capacitive reactive power, motors need inductive."
     },
     {
@@ -1297,7 +1285,7 @@
     "items": [
      "Verträge sind unterschiedlich",
      "Preisblatt des Netzbetreibers",
-     "Blindarbeit kann berechnet werden",
+     "Abrechnung von Blindarbeit: je Vertrag",
      "Vor der Planung nachfragen"
     ],
     "terms": [
@@ -1320,14 +1308,14 @@
      "en": "They are in the connection or grid use contract."
     },
     {
-     "de": "Erlaubter Bereich und Abrechnung unterscheiden sich je Netzbetreiber.",
-     "ar": "النطاق المسموح وطريقة المحاسبة تختلف من مشغّل لآخر.",
-     "en": "The permitted range and billing differ by operator."
+     "de": "Anforderungen und Abrechnung unterscheiden sich je Netzbetreiber.",
+     "ar": "المتطلبات وطريقة المحاسبة تختلف من مشغّل لآخر.",
+     "en": "Requirements and billing differ by operator."
     },
     {
-     "de": "Der Netzbetreiber darf Blindarbeit nach seinem Preisblatt berechnen.",
-     "ar": "يجوز للمشغّل محاسبة الطاقة الردية وفق قائمة أسعاره.",
-     "en": "The operator may charge reactive energy per its price list."
+     "de": "Die Abrechnung von Blindarbeit richtet sich nach Vertrag und Preisblatt des Netzbetreibers.",
+     "ar": "تخضع محاسبة الطاقة غير الفعالة لعقد مشغّل الشبكة وقائمة أسعاره.",
+     "en": "Billing for reactive energy follows the grid operator's contract and price list."
     },
     {
      "de": "Fragen Sie deshalb vor der Planung beim zuständigen Netzbetreiber nach.",
@@ -1335,14 +1323,9 @@
      "en": "So ask the responsible operator before planning."
     },
     {
-     "de": "Manche Verträge nennen einen erlaubten Bereich für den Verschiebungsfaktor.",
-     "ar": "بعض العقود تذكر نطاقًا مسموحًا لعامل الإزاحة.",
-     "en": "Some contracts name a permitted range for the displacement factor."
-    },
-    {
-     "de": "Liegt der Wert außerhalb, kann eine Kompensationsanlage verlangt werden.",
-     "ar": "إذا خرجت القيمة عن النطاق فقد يُطلب تركيب منظومة تعويض.",
-     "en": "If the value is outside, a compensation system can be required."
+     "de": "Manche Verträge stellen Anforderungen an den Verschiebungsfaktor.",
+     "ar": "بعض العقود تضع متطلبات لعامل الإزاحة.",
+     "en": "Some contracts set requirements for the displacement factor."
     },
     {
      "de": "Konkrete Zahlen nennen wir hier nicht, denn sie ändern sich.",
@@ -1372,7 +1355,7 @@
     },
     {
      "de": "Netzqualität beschreibt, wie sauber Spannung und Strom sind.",
-     "ar": "جودة الشبكة تصف مدى نقاء الجهد والتيار.",
+     "ar": "جودة الطاقة تصف مدى نقاء الجهد والتيار.",
      "en": "Power quality describes how clean voltage and current are."
     },
     {
@@ -1382,18 +1365,19 @@
     },
     {
      "de": "Wirk-, Blind- und Scheinleistung hängen über das Leistungsdreieck zusammen.",
-     "ar": "القدرة الفعّالة والردية والظاهرية ترتبط عبر مثلث القدرة.",
+     "ar": "القدرة الفعالة وغير الفعالة والظاهرية ترتبط عبر مثلث القدرة.",
      "en": "Active, reactive and apparent power connect via the power triangle."
     },
     {
      "de": "Kondensatoren können die Blindleistung vor Ort liefern.",
-     "ar": "يمكن للمكثفات توفير القدرة الردية في الموقع.",
+     "ar": "يمكن للمكثفات توفير القدرة غير الفعالة في الموقع.",
      "en": "Capacitors can supply reactive power on site."
     },
     {
      "de": "Das Leistungsdreieck verbindet P, Q und S.",
-     "ar": "مثلث القدرة يربط بين P وQ وS.",
-     "en": "The power triangle connects P, Q and S."
+     "ar": "مثلث القدرة يربط بين P وQ وS معًا.",
+     "en": "The power triangle connects P, Q and S.",
+     "tts": "Das Leistungsdreieck verbindet Pe, Ku und Es."
     },
     {
      "de": "Unser Rechenbeispiel zeigte: Mit Kompensation sinkt der Strom deutlich.",
@@ -1406,10 +1390,10 @@
      "en": "The numbers in it were only a teaching example."
     },
     {
-     "de": "Die Bezugsnorm ist DIN EN 50160, Grenzwerte stehen nur dort.",
-     "ar": "المعيار المرجعي هو DIN EN 50160 والقيم الحدّية توجد فيه وحده.",
-     "en": "The reference standard is DIN EN 50160; limit values are only there.",
-     "tts": "Die Bezugsnorm ist Din E-En fünf null eins sechs null, Grenzwerte stehen nur dort."
+     "de": "Die Bezugsnorm ist DIN EN 50160, Zahlenwerte entnehmen Sie den gültigen Normen.",
+     "ar": "المعيار المرجعي هو DIN EN 50160 والقيم الرقمية تؤخذ من المعايير السارية.",
+     "en": "The reference standard is DIN EN 50160; take numerical values from the valid standards.",
+     "tts": "Die Bezugsnorm ist Din E-En fünf null eins sechs null, Zahlenwerte entnehmen Sie den gültigen Normen."
     }
    ]
   },
@@ -1446,9 +1430,9 @@
      "en": "This video is general information."
     },
     {
-     "de": "Es ist keine Rechtsberatung und keine Fachplanung.",
-     "ar": "وهو ليس استشارة قانونية ولا تصميمًا هندسيًا.",
-     "en": "It is not legal advice and not engineering design."
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is not legal advice and not engineering advice."
     },
     {
      "de": "Bei Zweifeln wenden Sie sich an den Netzbetreiber oder eine Fachperson.",
@@ -1457,13 +1441,13 @@
     },
     {
      "de": "Mit diesem Wissen verstehen Sie Gespräche zur Netzqualität besser.",
-     "ar": "بهذه المعرفة ستفهمون الحوارات حول جودة الشبكة بشكل أفضل.",
+     "ar": "بهذه المعرفة ستفهمون الحوارات حول جودة الطاقة بشكل أفضل.",
      "en": "With this knowledge you understand conversations about power quality better."
     },
     {
-     "de": "Das nächste Video behandelt Niederspannungsinstallationen.",
-     "ar": "الفيديو القادم يتناول التركيبات ذات الجهد المنخفض.",
-     "en": "The next video covers low-voltage installations."
+     "de": "Im nächsten Video geht es um Niederspannungsinstallationen.",
+     "ar": "في الفيديو القادم نتناول التركيبات الكهربائية للجهد المنخفض.",
+     "en": "The next video is about low-voltage installations."
     }
    ]
   }
@@ -1471,7 +1455,7 @@
  "glossary": [
   {
    "de": "die Netzqualität",
-   "ar": "جودة الطاقة (جودة الشبكة)",
+   "ar": "جودة الطاقة",
    "en": "power quality"
   },
   {
@@ -1496,12 +1480,12 @@
   },
   {
    "de": "die Wirkleistung",
-   "ar": "القدرة الفعّالة",
+   "ar": "القدرة الفعالة",
    "en": "active power"
   },
   {
    "de": "die Blindleistung",
-   "ar": "القدرة الردية",
+   "ar": "القدرة غير الفعالة",
    "en": "reactive power"
   },
   {
@@ -1521,7 +1505,7 @@
   },
   {
    "de": "die Blindleistungskompensation",
-   "ar": "تعويض القدرة الردية",
+   "ar": "تعويض القدرة غير الفعالة",
    "en": "reactive power compensation"
   },
   {
@@ -1536,7 +1520,7 @@
   },
   {
    "de": "der Neutralleiter",
-   "ar": "الموصل المحايد",
+   "ar": "موصل التعادل",
    "en": "neutral conductor"
   },
   {
@@ -1560,12 +1544,12 @@
    "options": [
     {
      "de": "Die Blindleistung",
-     "ar": "القدرة الردية",
+     "ar": "القدرة غير الفعالة",
      "en": "Reactive power"
     },
     {
      "de": "Die Wirkleistung",
-     "ar": "القدرة الفعّالة",
+     "ar": "القدرة الفعالة",
      "en": "Active power"
     },
     {
@@ -1628,9 +1612,9 @@
   },
   {
    "q": {
-    "de": "Im Lehrbeispiel sind P gleich 60 kW und Q gleich 80 kvar. Wie groß ist S?",
-    "ar": "في المثال التعليمي P تساوي ٦٠ كيلوواط وQ تساوي ٨٠ كيلو فار. كم تبلغ S؟",
-    "en": "In the teaching example P is 60 kW and Q is 80 kvar. What is S?"
+    "de": "Im Lehrbeispiel sind P gleich 60 kW und Q gleich 80 kvar. Wie groß ist die Scheinleistung?",
+    "ar": "في المثال التعليمي القدرة الفعالة ٦٠ كيلوواط والقدرة غير الفعالة ٨٠ كيلو فار. كم تبلغ القدرة الظاهرية؟",
+    "en": "In the teaching example the active power is 60 kW and the reactive power is 80 kvar. What is the apparent power?"
    },
    "options": [
     {
@@ -1678,9 +1662,9 @@
   }
  ],
  "next": {
-  "de": "Im nächsten Video geht es um Niederspannungsinstallationen nach DIN VDE 0100.",
-  "ar": "في الفيديو القادم نتناول التركيبات الكهربائية للجهد المنخفض (سلسلة DIN VDE 0100) بنظرة عامة.",
-  "en": "The next video covers low-voltage installations under DIN VDE 0100."
+  "de": "Im nächsten Video geht es um Niederspannungsinstallationen.",
+  "ar": "في الفيديو القادم نتناول التركيبات الكهربائية للجهد المنخفض.",
+  "en": "The next video is about low-voltage installations."
  },
- "stand": "2026-10-20; prüfen: aktuelle Ausgabe DIN EN 50160 (Ausgabe 2020-11 laut Katalog, Neuausgabe VDE 0839-160 als Entwurf 2026-04, Endstatus nicht verifiziert), Messnormen (DIN EN 61000-4-30, -4-15) und Gerätenormen (DIN EN 61000-3-2, -3-12) auf aktuellen Stand, Anforderungen der Netzbetreiber zu Blindleistung (Verträge/Preisblätter, nicht im Video), Grenzwerte nur in der Norm selbst"
+ "stand": "2026-10-20; prüfen: aktuelle Ausgabe DIN EN 50160 (Ausgabe 2020-11 laut Katalog, Neuausgabe VDE 0839-160 als Entwurf 2026-04, Endstatus nicht verifiziert), Messnormen (DIN EN 61000-4-30, -4-15) und Gerätenormen (DIN EN 61000-3-2, -3-12) auf aktuellen Stand, Anforderungen der Netzbetreiber zu Blindleistung (Verträge/Preisblätter, nicht im Video), Zahlenwerte und Grenzwerte nur aus den gültigen Normen selbst; Abrechnung von Blindarbeit je Vertrag/Preisblatt"
 }

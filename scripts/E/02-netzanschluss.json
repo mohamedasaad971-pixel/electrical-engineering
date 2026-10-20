@@ -28,14 +28,14 @@
      "en": "Today we talk about the grid connection."
     },
     {
-     "de": "Jede Anlage braucht einen Anschluss an das öffentliche Netz.",
-     "ar": "كل منشأة تحتاج إلى توصيل بالشبكة العامة.",
-     "en": "Every installation needs a connection to the public grid."
+     "de": "Eine Anlage, die ans öffentliche Netz soll, braucht einen Netzanschluss.",
+     "ar": "المنشأة التي ستُوصَل بالشبكة العامة تحتاج إلى توصيل بالشبكة.",
+     "en": "An installation that is to connect to the public grid needs a grid connection."
     },
     {
-     "de": "Dafür gibt es klare Regeln und einen festen Ablauf.",
-     "ar": "ولهذا توجد قواعد واضحة وإجراء ثابت.",
-     "en": "For this there are clear rules and a fixed procedure."
+     "de": "Dafür gibt es klare Regeln und einen üblichen Ablauf.",
+     "ar": "ولهذا توجد قواعد واضحة وإجراء معتاد.",
+     "en": "For this there are clear rules and a usual procedure."
     },
     {
      "de": "Sie lernen die Regeln für die Niederspannung kennen.",
@@ -66,12 +66,15 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Nur eine Orientierung",
     "items": [
-     "Allgemeine Information",
-     "Kein Ersatz für Fachplanung"
+     "Überblick, keine Rechtsberatung",
+     "Keine Ingenieurberatung",
+     "Jeder Netzbetreiber hat eigene Abläufe",
+     "Keine Gebühren, keine festen Fristen",
+     "Unterlagen des Netzbetreibers prüfen"
     ]
    },
    "lines": [
@@ -113,8 +116,8 @@
     "kicker": "Grundbegriffe",
     "heading": "Wer ist beteiligt?",
     "items": [
-     "Netzbetreiber: besitzt und betreibt das Netz",
-     "Anschlussnehmer: Auftraggeber des Anschlusses",
+     "Netzbetreiber: betreibt das Netz",
+     "Anschlussnehmer: lässt anschließen, oft Eigentümer",
      "Anschlussnutzer: entnimmt Strom am Anschluss",
      "Installateur: führt die Arbeiten aus"
     ],
@@ -126,8 +129,8 @@
      },
      {
       "de": "der Anschlussnehmer",
-      "ar": "صاحب التوصيل",
-      "en": "connection owner"
+      "ar": "صاحب الاتصال بالشبكة",
+      "en": "connection customer"
      },
      {
       "de": "der Anschlussnutzer",
@@ -149,8 +152,8 @@
     },
     {
      "de": "Der Anschlussnehmer lässt ein Gebäude oder Grundstück anschließen.",
-     "ar": "صاحب التوصيل (Anschlussnehmer) هو من يطلب توصيل مبنى أو أرض.",
-     "en": "The connection owner has a building or property connected."
+     "ar": "صاحب الاتصال بالشبكة (Anschlussnehmer) هو من يطلب توصيل مبنى أو أرض.",
+     "en": "The connection customer has a building or property connected."
     },
     {
      "de": "Oft ist das der Eigentümer.",
@@ -169,7 +172,7 @@
     },
     {
      "de": "Die Arbeiten führt ein Installationsunternehmen aus.",
-     "ar": "ويقوم بالأعمال شركة تركيب كهربائي.",
+     "ar": "وتقوم بالأعمال شركة تركيب كهربائي.",
      "en": "The work is carried out by an installation company."
     },
     {
@@ -211,15 +214,16 @@
      "en": "Now to the rules for the connection."
     },
     {
-     "de": "Sie heißen Technische Anschlussregeln, kurz Tar.",
-     "ar": "تسمى القواعد الفنية للتوصيل، واختصارها Tar.",
-     "en": "They are called technical connection rules, Tar for short."
+     "de": "Sie heißen Technische Anschlussregeln, kurz TAR.",
+     "ar": "تسمى القواعد الفنية للتوصيل، ويُختصر اسمها TAR وينطق «تار».",
+     "en": "They are called technical connection rules, TAR for short.",
+     "tts": "Sie heißen Technische Anschlussregeln, kurz Tar."
     },
     {
-     "de": "Herausgeber ist das Forum Netztechnik im VDE, kurz Ef-En-En.",
-     "ar": "وناشرها منتدى تقنيات الشبكات في VDE، واختصاره FNN.",
-     "en": "The publisher is the Forum Network Technology within VDE, FNN for short.",
-     "tts": "Herausgeber ist das Forum Netztechnik im Fau-De-E, kurz Ef-En-En."
+     "de": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im VDE, kurz FNN.",
+     "ar": "وناشرها منتدى تقنية الشبكات وتشغيلها (FNN) في رابطة VDE الألمانية.",
+     "en": "The publisher is the Forum for Network Technology and Operation within VDE, FNN for short.",
+     "tts": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im Fau-De-E, kurz Ef-En-En."
     },
     {
      "de": "Für jede Spannungsebene gibt es eine eigene Regel.",
@@ -228,19 +232,19 @@
     },
     {
      "de": "Für die Niederspannung gilt VDE-AR-N 4100.",
-     "ar": "للجهد المنخفض تسري VDE-AR-N 4100.",
+     "ar": "للجهد المنخفض تسري القاعدة VDE-AR-N 4100 الفنية.",
      "en": "For low voltage, VDE-AR-N 4100 applies.",
      "tts": "Für die Niederspannung gilt Fau-De-E A-Er-En vier-eins-null-null."
     },
     {
      "de": "Für die Mittelspannung gilt VDE-AR-N 4110.",
-     "ar": "وللجهد المتوسط تسري VDE-AR-N 4110.",
+     "ar": "وللجهد المتوسط تسري القاعدة VDE-AR-N 4110 الفنية.",
      "en": "For medium voltage, VDE-AR-N 4110 applies.",
      "tts": "Für die Mittelspannung gilt Fau-De-E A-Er-En vier-eins-eins-null."
     },
     {
      "de": "Hochspannung und Höchstspannung haben die Nummern 4120 und 4130.",
-     "ar": "وللجهد العالي والفائق أرقام 4120 و4130.",
+     "ar": "وأرقام قواعد الجهد العالي والفائق هي 4120 و4130 على الترتيب.",
      "en": "High and extra-high voltage have the numbers 4120 and 4130.",
      "tts": "Hochspannung und Höchstspannung haben die Nummern vier-eins-zwei-null und vier-eins-drei-null."
     },
@@ -291,7 +295,7 @@
     {
      "de": "Die VDE-AR-N 4100 ist die Tar Niederspannung.",
      "ar": "القاعدة VDE-AR-N 4100 هي القاعدة الفنية للتوصيل بالجهد المنخفض.",
-     "en": "VDE-AR-N 4100 is the low-voltage Tar.",
+     "en": "VDE-AR-N 4100 is the low-voltage TAR.",
      "tts": "Die Fau-De-E A-Er-En vier-eins-null-null ist die Tar Niederspannung."
     },
     {
@@ -306,13 +310,13 @@
     },
     {
      "de": "Die aktuelle Ausgabe trägt das Datum 2026-04.",
-     "ar": "الإصدار الحالي يحمل تاريخ 2026-04.",
+     "ar": "الإصدار الحالي هو إصدار 2026-04 كما يظهر في عنوانه.",
      "en": "The current edition carries the date 2026-04.",
      "tts": "Die aktuelle Ausgabe trägt das Datum zweitausendsechsundzwanzig, April."
     },
     {
      "de": "Sie wurde vollständig überarbeitet.",
-     "ar": "وقد أُعيدت صياغته بالكامل.",
+     "ar": "وقد أُعيدت صياغتها بالكامل.",
      "en": "It was completely revised."
     },
     {
@@ -331,19 +335,9 @@
      "en": "Further amendments are also in progress."
     },
     {
-     "de": "Der Zählerplatz ist ein typisches Thema dieser Regel.",
-     "ar": "موضع العداد موضوع نموذجي في هذه القاعدة.",
-     "en": "The meter location is a typical topic of this rule."
-    },
-    {
      "de": "Planer und Installateure sollten sie gut kennen.",
      "ar": "ينبغي للمخطِّطين والمُركِّبين أن يعرفوها جيدًا.",
      "en": "Planners and installers should know it well."
-    },
-    {
-     "de": "Wer die Regel nicht kennt, verliert später Zeit bei der Abnahme.",
-     "ar": "ومن لا يعرف القاعدة يضيّع وقتًا لاحقًا عند القبول.",
-     "en": "Anyone who does not know the rule loses time later at acceptance."
     }
    ]
   },
@@ -396,13 +390,13 @@
     },
     {
      "de": "Die aktuelle Ausgabe ist 2026-03.",
-     "ar": "الإصدار الحالي هو 2026-03.",
+     "ar": "الإصدار الحالي هو إصدار 2026-03 كما يظهر في عنوانه.",
      "en": "The current edition is 2026-03.",
      "tts": "Die aktuelle Ausgabe ist zweitausendsechsundzwanzig, März."
     },
     {
      "de": "Sie ersetzt die Ausgabe von 2018.",
-     "ar": "وهو يحل محل إصدار عام 2018.",
+     "ar": "وهو يحل محل إصدار 2018 الأقدم.",
      "en": "It replaces the 2018 edition.",
      "tts": "Sie ersetzt die Ausgabe von zweitausendachtzehn."
     },
@@ -459,7 +453,7 @@
     },
     {
      "de": "Je nach Leistung und Aufbau kann statt 4105 die Regel 4110 gelten.",
-     "ar": "وبحسب القدرة والتركيب قد تسري القاعدة 4110 بدل 4105.",
+     "ar": "وبحسب القدرة والتركيب قد تسري القاعدة الفنية 4110 بدل 4105 في بعض الحالات.",
      "en": "Depending on power and design, rule 4110 may apply instead of 4105.",
      "tts": "Je nach Leistung und Aufbau kann statt vier-eins-null-fünf die Regel vier-eins-eins-null gelten."
     },
@@ -505,7 +499,7 @@
      "§ 49 EnWG: technische Sicherheit",
      "Anerkannte Regeln der Technik",
      "VDE-Regeln: Vermutungswirkung",
-     "Keine Erlaubnis ohne Netzbetreiber"
+     "Netzbetreiber-Bedingungen beachten"
     ],
     "terms": [
      {
@@ -517,15 +511,15 @@
    },
    "lines": [
     {
-     "de": "Die Regeln sind keine bloße Empfehlung.",
-     "ar": "هذه القواعد ليست مجرد توصية.",
-     "en": "These rules are not a mere recommendation."
+     "de": "Die Regeln sind keine Gesetze, werden aber in der Praxis verlangt.",
+     "ar": "هذه القواعد ليست قوانين، لكنها مطلوبة في الممارسة.",
+     "en": "These rules are not laws, but they are required in practice."
     },
     {
      "de": "Das Energiewirtschaftsgesetz verlangt technische Sicherheit.",
-     "ar": "يشترط قانون قطاع الطاقة السلامة التقنية.",
+     "ar": "يشترط قانون الطاقة الألماني السلامة التقنية.",
      "en": "The Energy Industry Act requires technical safety.",
-     "tts": "Das Energiewirtschaftsgesetz, kurz E-En-We-Ge, verlangt technische Sicherheit."
+     "tts": "Das Energiewirtschaftsgesetz verlangt technische Sicherheit."
     },
     {
      "de": "Energieanlagen müssen nach den anerkannten Regeln der Technik errichtet werden.",
@@ -534,15 +528,15 @@
     },
     {
      "de": "Das steht in Paragraf 49.",
-     "ar": "وهذا منصوص عليه في المادة 49.",
+     "ar": "وهذا منصوص عليه في المادة 49 من القانون.",
      "en": "This is in section 49.",
      "tts": "Das steht in Paragraf neunundvierzig."
     },
     {
-     "de": "Bei Einhaltung der VDE-Regeln wird vermutet, dass diese Anforderung erfüllt ist.",
-     "ar": "وعند الالتزام بقواعد VDE يُفترض أن هذا المتطلب مستوفى.",
-     "en": "If VDE rules are followed, this requirement is presumed to be met.",
-     "tts": "Bei Einhaltung der Fau-De-E-Regeln wird vermutet, dass diese Anforderung erfüllt ist."
+     "de": "Bei Einhaltung der VDE-Regeln wird vermutet, dass diese Anforderung erfüllt ist; die Vermutung ist widerlegbar.",
+     "ar": "وعند الالتزام بقواعد VDE يُفترض أن هذا المتطلب مستوفى، ويمكن دحض هذا الافتراض.",
+     "en": "If VDE rules are followed, this requirement is presumed to be met; the presumption can be rebutted.",
+     "tts": "Bei Einhaltung der Fau-De-E-Regeln wird vermutet, dass diese Anforderung erfüllt ist; die Vermutung ist widerlegbar."
     },
     {
      "de": "Die Netzbetreiber machen die Regeln zur Bedingung für den Anschluss.",
@@ -592,8 +586,8 @@
      "en": "In addition there are the technical connection conditions."
     },
     {
-     "de": "Man sagt kurz Tab.",
-     "ar": "ويقال لها اختصارًا Tab.",
+     "de": "Man sagt kurz TAB.",
+     "ar": "ويقال لها اختصارًا TAB وتنطق «تاب».",
      "en": "They are called TAB for short.",
      "tts": "Man sagt kurz Tab."
     },
@@ -604,7 +598,7 @@
     },
     {
      "de": "Sie bauen auf den VDE-Regeln auf.",
-     "ar": "وهي مبنية على قواعد VDE.",
+     "ar": "وهي مبنية على قواعد رابطة VDE الألمانية.",
      "en": "They build on the VDE rules.",
      "tts": "Sie bauen auf den Fau-De-E-Regeln auf."
     },
@@ -619,13 +613,13 @@
      "en": "So the details are not always the same in different cities."
     },
     {
-     "de": "Achten Sie auf das Ausgabedatum der Tab.",
+     "de": "Achten Sie auf das Ausgabedatum der TAB.",
      "ar": "انتبهوا إلى تاريخ إصدار شروط التوصيل.",
      "en": "Pay attention to the issue date of the TAB.",
      "tts": "Achten Sie auf das Ausgabedatum der Tab."
     },
     {
-     "de": "Viele Netzbetreiber stellen die Tab als Datei auf ihrer Webseite bereit.",
+     "de": "Viele Netzbetreiber stellen die TAB als Datei auf ihrer Webseite bereit.",
      "ar": "يوفر كثير من مشغّلي الشبكات هذه الشروط كملف على موقعهم.",
      "en": "Many grid operators provide the TAB as a file on their website.",
      "tts": "Viele Netzbetreiber stellen die Tab als Datei auf ihrer Webseite bereit."
@@ -634,12 +628,6 @@
      "de": "Lesen Sie sie, bevor Sie mit der Planung beginnen.",
      "ar": "اقرؤوها قبل أن تبدؤوا التخطيط.",
      "en": "Read it before you start planning."
-    },
-    {
-     "de": "Gerade bei neuen Ausgaben ändern Netzbetreiber ihre Tab oft später.",
-     "ar": "وخاصة عند صدور إصدارات جديدة يعدّل مشغّلو الشبكات شروطهم غالبًا لاحقًا.",
-     "en": "Especially with new editions, grid operators often change their TAB later.",
-     "tts": "Gerade bei neuen Ausgaben ändern Netzbetreiber ihre Tab oft später."
     }
    ]
   },
@@ -650,7 +638,7 @@
     "heading": "Die Niederspannungsanschlussverordnung",
     "items": [
      "Kürzel | NAV",
-     "Anschlussnehmer | Auftraggeber",
+     "Anschlussnehmer | lässt anschließen",
      "Anschlussnutzer | Letztverbraucher",
      "Netzanschluss | Vertrag mit dem Netzbetreiber",
      "Anschlussnutzung | Recht zur Stromentnahme"
@@ -675,8 +663,8 @@
      "en": "The legal framework is in the Low-Voltage Connection Ordinance."
     },
     {
-     "de": "Man sagt kurz En-A-Fau.",
-     "ar": "ويقال لها اختصارًا NAV.",
+     "de": "Man sagt kurz NAV.",
+     "ar": "ويقال لها اختصارًا NAV وتنطق «إن إيه فاو».",
      "en": "It is called NAV for short.",
      "tts": "Man sagt kurz En-A-Fau."
     },
@@ -697,8 +685,8 @@
     },
     {
      "de": "Es besteht zwischen Anschlussnehmer und Netzbetreiber.",
-     "ar": "وهي قائمة بين صاحب التوصيل ومشغّل الشبكة.",
-     "en": "It exists between the connection owner and the grid operator."
+     "ar": "وهي قائمة بين صاحب الاتصال بالشبكة ومشغّل الشبكة.",
+     "en": "It exists between the connection customer and the grid operator."
     },
     {
      "de": "Der Vertrag dazu braucht die Textform.",
@@ -711,9 +699,9 @@
      "en": "The second is the connection use relationship."
     },
     {
-     "de": "Es gibt das Recht, über den Anschluss Strom zu entnehmen.",
+     "de": "Es gewährt das Recht, über den Anschluss Strom zu entnehmen.",
      "ar": "وهي تمنح الحق في سحب الكهرباء عبر التوصيل.",
-     "en": "It gives the right to draw electricity through the connection."
+     "en": "It grants the right to draw electricity through the connection."
     },
     {
      "de": "Eine Stromlieferung ist darin nicht enthalten.",
@@ -741,7 +729,7 @@
    "slide": {
     "layout": "bullets",
     "kicker": "Verantwortung",
-    "heading": "Wer haftet wofür?",
+    "heading": "Wer ist wofür verantwortlich?",
     "items": [
      "Anschlussnehmer: Anlage hinter dem Anschluss",
      "Anschluss nur durch eingetragene Unternehmen",
@@ -769,8 +757,8 @@
     },
     {
      "de": "Der Anschlussnehmer ist gegenüber dem Netzbetreiber verantwortlich.",
-     "ar": "صاحب التوصيل مسؤول أمام مشغّل الشبكة.",
-     "en": "The connection owner is responsible towards the grid operator."
+     "ar": "صاحب الاتصال بالشبكة مسؤول أمام مشغّل الشبكة.",
+     "en": "The connection customer is responsible towards the grid operator."
     },
     {
      "de": "Das gilt für die Anlage hinter der Hausanschlusssicherung.",
@@ -780,7 +768,7 @@
     {
      "de": "Er muss sie ordnungsgemäß errichten, ändern und instand halten lassen.",
      "ar": "وعليه أن يتأكد من إنشائها وتعديلها وصيانتها بشكل صحيح.",
-     "en": "He must have it properly built, changed and maintained."
+     "en": "The connection customer must have it properly built, changed and maintained."
     },
     {
      "de": "Arbeiten am Anschluss dürfen nur bestimmte Firmen ausführen.",
@@ -864,16 +852,16 @@
     {
      "de": "Danach meldet er sich mit einer Bestätigung oder mit Auflagen.",
      "ar": "بعد ذلك يرد بتأكيد أو بشروط.",
-     "en": "Afterwards he replies with a confirmation or with conditions."
+     "en": "Afterwards it replies with a confirmation or with conditions."
     },
     {
-     "de": "Erst dann wird die Anlage errichtet.",
-     "ar": "وعندها فقط تُنشأ المنشأة.",
-     "en": "Only then is the installation built."
+     "de": "In der Regel wird erst nach der Rückmeldung gebaut.",
+     "ar": "في العادة لا يبدأ البناء إلا بعد الرد.",
+     "en": "As a rule, building starts only after the reply."
     },
     {
      "de": "Zum Schluss folgen Inbetriebsetzung, Zählerinstallation und Registrierung.",
-     "ar": "وفي النهاية يأتي التشغيل الأولي وتركيب العداد والتسجيل.",
+     "ar": "وفي النهاية يأتي التشغيل الأولي وتركيب العداد والإدراج في السجل الرئيسي.",
      "en": "At the end come commissioning, meter installation and registration."
     },
     {
@@ -882,9 +870,9 @@
      "en": "Order and deadlines differ by grid operator."
     },
     {
-     "de": "Bauen Sie nicht, bevor die Rückmeldung des Netzbetreibers vorliegt.",
-     "ar": "لا تبدؤوا البناء قبل صدور رد مشغّل الشبكة.",
-     "en": "Do not build before the reply of the grid operator has arrived."
+     "de": "Klären Sie mit dem Netzbetreiber, ab wann gebaut werden darf.",
+     "ar": "اتفقوا مع مشغّل الشبكة على موعد السماح بالبدء بالبناء.",
+     "en": "Clarify with the grid operator when building may start."
     },
     {
      "de": "Die Namen der Schritte sind je Netzbetreiber verschieden.",
@@ -930,8 +918,8 @@
     },
     {
      "de": "Den Antrag stellt der Anschlussnehmer.",
-     "ar": "يقدم الطلب صاحب التوصيل.",
-     "en": "The application is made by the connection owner."
+     "ar": "يقدم الطلب صاحب الاتصال بالشبكة.",
+     "en": "The application is made by the connection customer."
     },
     {
      "de": "In der Praxis füllt oft der Installateur die Formulare mit aus.",
@@ -1002,7 +990,7 @@
     },
     {
      "de": "Der Netzbetreiber will wissen, dass die Geräte das Netz nicht stören.",
-     "ar": "يريد مشغّل الشبكة أن يعرف أن الأجهزة لا تضر بالشبكة.",
+     "ar": "يريد مشغّل الشبكة أن يتأكد من أن الأجهزة لا تُحدث اضطرابًا في الشبكة.",
      "en": "The grid operator wants to know that the devices do not disturb the grid."
     },
     {
@@ -1012,7 +1000,7 @@
     },
     {
      "de": "Für den Netz- und Anlagenschutz gibt es einen eigenen Nachweis.",
-     "ar": "وللحماية الشبكية وحماية المنشأة إثبات خاص.",
+     "ar": "وهناك إثبات خاص لحماية الشبكة والمنشأة.",
      "en": "There is a separate proof for the grid and plant protection."
     },
     {
@@ -1034,11 +1022,6 @@
      "de": "Zertifikate für Einheiten lassen sich in einem Register prüfen.",
      "ar": "يمكن التحقق من شهادات الوحدات في سجل خاص.",
      "en": "Unit certificates can be checked in a register."
-    },
-    {
-     "de": "Diese Prüfung kostet wenig Zeit und spart Ärger.",
-     "ar": "هذا الفحص لا يستغرق وقتًا طويلًا ويوفر المتاعب.",
-     "en": "This check takes little time and saves trouble."
     },
     {
      "de": "Bei Zweifeln hilft ein Anruf beim Netzbetreiber.",
@@ -1089,13 +1072,13 @@
     },
     {
      "de": "Bei der Volleinspeisung geht der erzeugte Strom ins Netz.",
-     "ar": "في التغذية الكاملة يذهب الكهرباء المولدة إلى الشبكة.",
+     "ar": "في التغذية الكاملة تذهب الكهرباء المولَّدة إلى الشبكة.",
      "en": "With full feed-in, the generated electricity goes into the grid."
     },
     {
      "de": "Bei der Überschusseinspeisung nutzt der Betreiber zuerst selbst.",
      "ar": "وفي تغذية الفائض يستخدم المشغّل الكهرباء أولًا بنفسه.",
-     "en": "With surplus feed-in, the operator uses electricity first himself."
+     "en": "With surplus feed-in, the operator first uses the electricity itself."
     },
     {
      "de": "Nur der Überschuss fließt ins Netz.",
@@ -1111,11 +1094,6 @@
      "de": "Die Messtechnik legt der Messstellenbetreiber fest.",
      "ar": "وتحدد التقنية مشغّل نقطة القياس.",
      "en": "The metering point operator defines the metering technology."
-    },
-    {
-     "de": "Klären Sie das Konzept früh, sonst ändert sich später der Zählerplatz.",
-     "ar": "وضّحوا المفهوم مبكرًا وإلا تغيّر موضع العداد لاحقًا.",
-     "en": "Clarify the concept early, or the meter location will change later."
     },
     {
      "de": "Fragen Sie auch, wer die Zähler stellt und wann.",
@@ -1152,9 +1130,9 @@
       "en": "commissioning protocol"
      },
      {
-      "de": "das Marktstammdatenregister",
-      "ar": "سجل بيانات السوق الأساسية",
-      "en": "core market data register"
+      "de": "das Marktstammdatenregister (MaStR)",
+      "ar": "السجل الرئيسي لبيانات سوق الطاقة",
+      "en": "core energy market data register"
      }
     ]
    },
@@ -1170,9 +1148,9 @@
      "en": "The installer fills in the commissioning protocol."
     },
     {
-     "de": "Darin bestätigt er, dass die Anlage zu den Angaben der Anmeldung passt.",
-     "ar": "ويؤكد فيه أن المنشأة تطابق بيانات التسجيل.",
-     "en": "In it he confirms that the installation matches the registration details."
+     "de": "Darin hält er die Inbetriebsetzung der Anlage fest.",
+     "ar": "ويوثّق فيه التشغيل الأولي للمنشأة.",
+     "en": "In it the installer records the commissioning of the installation."
     },
     {
      "de": "Der Netzbetreiber darf die Anlage vor und nach der Inbetriebsetzung prüfen.",
@@ -1182,12 +1160,12 @@
     {
      "de": "Bei erheblichen Sicherheitsmängeln kann er den Anschluss verweigern.",
      "ar": "وعند وجود عيوب سلامة جسيمة يمكنه رفض التوصيل.",
-     "en": "In case of serious safety defects he can refuse the connection."
+     "en": "In case of serious safety defects it can refuse the connection."
     },
     {
      "de": "Erzeugungsanlagen und Speicher müssen zusätzlich im Marktstammdatenregister stehen.",
-     "ar": "ويجب أن تُسجَّل منشآت التوليد والمخازن أيضًا في سجل بيانات السوق الأساسية.",
-     "en": "Generation plants and storage must also be entered in the core market data register."
+     "ar": "ويجب أن تُدرَج منشآت التوليد والمخازن أيضًا في السجل الرئيسي لبيانات سوق الطاقة.",
+     "en": "Generation plants and storage must also be entered in the core energy market data register (MaStR)."
     },
     {
      "de": "Das Register führt die Bundesnetzagentur.",
@@ -1205,11 +1183,6 @@
      "en": "The protocol is important proof for your documentation."
     },
     {
-     "de": "Auch die Registrierung im Register ist Sache des Betreibers.",
-     "ar": "والتسجيل في السجل من شأن المشغّل أيضًا.",
-     "en": "Registration in the register is also a matter for the operator."
-    },
-    {
      "de": "Danach beginnt der normale Betrieb der Anlage.",
      "ar": "بعد ذلك يبدأ التشغيل العادي للمنشأة.",
      "en": "After that the normal operation of the installation begins."
@@ -1224,7 +1197,7 @@
     "items": [
      "Netzbetreiber | prüft, bestätigt, schließt an",
      "Planer | wählt Regel und Konzept",
-     "Installateur | meldet an, errichtet, protokolliert",
+     "Installateur | errichtet, unterstützt, protokolliert",
      "Anschlussnehmer | trägt die Verantwortung",
      "Messstellenbetreiber | liefert die Messtechnik"
     ],
@@ -1255,22 +1228,22 @@
     {
      "de": "Er stellt auch die technischen Unterlagen zusammen.",
      "ar": "ويجمع أيضًا الوثائق الفنية.",
-     "en": "He also compiles the technical documents."
+     "en": "The planner also compiles the technical documents."
     },
     {
-     "de": "Der Installateur errichtet die Anlage und meldet sie an.",
-     "ar": "يُنشئ المُركِّب المنشأة ويسجلها.",
-     "en": "The installer builds the installation and registers it."
+     "de": "Der Installateur errichtet die Anlage und unterstützt bei der Anmeldung.",
+     "ar": "يُنشئ المُركِّب المنشأة ويساعد في التسجيل لدى مشغّل الشبكة.",
+     "en": "The installer builds the installation and supports the registration."
     },
     {
      "de": "Er ist im Installateurverzeichnis eingetragen.",
      "ar": "وهو مسجل في سجل المُركِّبين.",
-     "en": "He is entered in the installer register."
+     "en": "It is entered in the installer register."
     },
     {
      "de": "Der Anschlussnehmer bleibt der Verantwortliche gegenüber dem Netzbetreiber.",
-     "ar": "ويبقى صاحب التوصيل هو المسؤول أمام مشغّل الشبكة.",
-     "en": "The connection owner remains responsible towards the grid operator."
+     "ar": "ويبقى صاحب الاتصال بالشبكة هو المسؤول أمام مشغّل الشبكة.",
+     "en": "The connection customer remains responsible towards the grid operator."
     },
     {
      "de": "Als Ingenieur arbeiten Sie oft als Planer.",
@@ -1319,7 +1292,7 @@
      "en": "First check which edition of the rule currently applies."
     },
     {
-     "de": "Laden Sie danach die Tab Ihres Netzbetreibers herunter.",
+     "de": "Laden Sie danach die TAB Ihres Netzbetreibers herunter.",
      "ar": "ثم حمّلوا شروط التوصيل الفنية الخاصة بمشغّل الشبكة.",
      "en": "Then download the TAB of your grid operator.",
      "tts": "Laden Sie danach die Tab Ihres Netzbetreibers herunter."
@@ -1382,20 +1355,20 @@
     },
     {
      "de": "Für Verbrauchsanlagen gilt in der Niederspannung die VDE-AR-N 4100.",
-     "ar": "لمنشآت الاستهلاك في الجهد المنخفض تسري VDE-AR-N 4100.",
+     "ar": "لمنشآت الاستهلاك في الجهد المنخفض تسري القاعدة VDE-AR-N 4100 الفنية.",
      "en": "For consumption installations on low voltage, VDE-AR-N 4100 applies.",
      "tts": "Für Verbrauchsanlagen gilt in der Niederspannung die Fau-De-E A-Er-En vier-eins-null-null."
     },
     {
      "de": "Für Erzeugungsanlagen gilt die VDE-AR-N 4105.",
-     "ar": "ولمنشآت التوليد تسري VDE-AR-N 4105.",
+     "ar": "ولمنشآت التوليد تسري القاعدة VDE-AR-N 4105 الفنية.",
      "en": "For generation plants, VDE-AR-N 4105 applies.",
      "tts": "Für Erzeugungsanlagen gilt die Fau-De-E A-Er-En vier-eins-null-fünf."
     },
     {
-     "de": "Der Netzbetreiber ergänzt sie durch seine Tab.",
+     "de": "Der Netzbetreiber ergänzt sie durch seine TAB.",
      "ar": "ويكملها مشغّل الشبكة بشروط التوصيل الفنية الخاصة به.",
-     "en": "The grid operator supplements them with his TAB.",
+     "en": "The grid operator supplements them with its TAB.",
      "tts": "Der Netzbetreiber ergänzt sie durch seine Tab."
     },
     {
@@ -1417,10 +1390,11 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Schlusshinweis",
     "heading": "Gesetze und Normen ändern sich",
     "items": [
+     "Anschlussregeln sind neu erschienen",
      "Aktuelle Fassung prüfen",
      "Allgemeine Information",
      "Keine Rechts- oder Ingenieurberatung"
@@ -1458,9 +1432,10 @@
      "en": "It does not replace legal or engineering advice."
     },
     {
-     "de": "Im nächsten Video geht es um erneuerbare Energien.",
-     "ar": "في الفيديو القادم نتناول الطاقات المتجددة.",
-     "en": "The next video is about renewable energies."
+     "de": "Im nächsten Video geht es um den rechtlichen Rahmen: EnWG, Produktsicherheit und Haftung.",
+     "ar": "في الفيديو القادم نتناول الإطار القانوني: قانون الطاقة وسلامة المنتجات والمسؤولية القانونية.",
+     "en": "The next video is about the legal framework: the Energy Act, product safety and liability.",
+     "tts": "Im nächsten Video geht es um den rechtlichen Rahmen: E-En-We-Ge, Produktsicherheit und Haftung."
     },
     {
      "de": "Vielen Dank fürs Zuschauen.",
@@ -1493,8 +1468,8 @@
   },
   {
    "de": "der Anschlussnehmer",
-   "ar": "صاحب التوصيل",
-   "en": "connection owner"
+   "ar": "صاحب الاتصال بالشبكة (المنتفع بالتوصيل)",
+   "en": "connection customer"
   },
   {
    "de": "der Anschlussnutzer",
@@ -1560,6 +1535,16 @@
    "de": "der Planer",
    "ar": "المخطِّط",
    "en": "planner"
+  },
+  {
+   "de": "die Niederspannungsanschlussverordnung (NAV)",
+   "ar": "لائحة التوصيل بالجهد المنخفض",
+   "en": "Low-Voltage Connection Ordinance"
+  },
+  {
+   "de": "das Marktstammdatenregister (MaStR)",
+   "ar": "السجل الرئيسي لبيانات سوق الطاقة",
+   "en": "core energy market data register"
   }
  ],
  "quiz": [
@@ -1571,19 +1556,19 @@
    },
    "options": [
     {
-     "de": "VDE-AR-N 4130",
-     "ar": "VDE-AR-N 4130",
-     "en": "VDE-AR-N 4130"
+     "de": "Regel 4130 der Reihe VDE-AR-N",
+     "ar": "القاعدة 4130 من سلسلة VDE-AR-N الفنية",
+     "en": "Rule 4130 of the VDE-AR-N series"
     },
     {
-     "de": "VDE-AR-N 4110 für alle Fälle",
-     "ar": "VDE-AR-N 4110 لكل الحالات",
-     "en": "VDE-AR-N 4110 in all cases"
+     "de": "Regel 4110 für alle Fälle",
+     "ar": "القاعدة 4110 لكل الحالات",
+     "en": "Rule 4110 in all cases"
     },
     {
-     "de": "VDE-AR-N 4105",
-     "ar": "VDE-AR-N 4105",
-     "en": "VDE-AR-N 4105"
+     "de": "Regel 4105 der Reihe VDE-AR-N",
+     "ar": "القاعدة 4105 من سلسلة VDE-AR-N الفنية",
+     "en": "Rule 4105 of the VDE-AR-N series"
     }
    ],
    "answer": 2
@@ -1597,8 +1582,8 @@
    "options": [
     {
      "de": "Der Anschlussnehmer",
-     "ar": "صاحب التوصيل",
-     "en": "The connection owner"
+     "ar": "صاحب الاتصال بالشبكة",
+     "en": "The connection customer"
     },
     {
      "de": "Der Stromlieferant",
@@ -1628,7 +1613,7 @@
     {
      "de": "Die Regeln für sein Netzgebiet",
      "ar": "القواعد الخاصة بمنطقة شبكته",
-     "en": "The rules for his grid area"
+     "en": "The rules for its grid area"
     },
     {
      "de": "Die Hausordnung",
@@ -1681,18 +1666,18 @@
      "en": "Check the current version"
     },
     {
-     "de": "Nur den Nachbarn fragen",
-     "ar": "سؤال الجار فقط",
-     "en": "Only ask the neighbour"
+     "de": "Nur nach Gefühl entscheiden",
+     "ar": "القرار بحسب الانطباع الشخصي فقط",
+     "en": "Decide by gut feeling only"
     }
    ],
    "answer": 1
   }
  ],
  "next": {
-  "de": "Im nächsten Video geht es um erneuerbare Energien.",
-  "ar": "في الفيديو القادم نتناول الطاقات المتجددة.",
-  "en": "The next video covers renewable energies."
+  "de": "Im nächsten Video geht es um den rechtlichen Rahmen: EnWG, Produktsicherheit und Haftung.",
+  "ar": "في الفيديو القادم نتناول الإطار القانوني: قانون الطاقة وسلامة المنتجات والمسؤولية القانونية.",
+  "en": "The next video covers the legal framework: the Energy Act, product safety and liability."
  },
- "stand": "2026-10-20; prüfen: VDE-AR-N 4100 Ausgabe 2026-04 und Änderung A1, Übergangszeit; VDE-AR-N 4105 Ausgabe 2026-03 (Formularnummern, Leistungsgrenzen zu 4110 nicht genannt), TAB des Netzbetreibers, NAV §§ 2, 3, 13, EnWG § 49, Marktstammdatenregister-Pflichten, Zertifikatsanforderungen"
+ "stand": "2026-10-20; prüfen: VDE-AR-N 4100 Ausgabe 2026-04 und Änderung A1, Übergangszeit; VDE-AR-N 4105 Ausgabe 2026-03 (Formularnummern, Leistungsgrenzen zu 4110 nicht genannt), TAB des Netzbetreibers, NAV §§ 2, 3, 13, EnWG § 49, Marktstammdatenregister-Pflichten, Zertifikatsanforderungen; Audit 2026-10: abgeschwächt bzw. gestrichen: Verbindlichkeit der Regeln (nur 'in der Praxis verlangt'), Bauzeitpunkt (nur 'in der Regel nach Rückmeldung'), Aufgaben des Installateurs bei der Anmeldung; prüfen: Herausgebername VDE FNN, Widerlegbarkeit der Vermutung nach § 49 EnWG, NAV § 13 (Vermietung), Ausgabe 2018-11 als ersetzte Fassung der VDE-AR-N 4105"
 }

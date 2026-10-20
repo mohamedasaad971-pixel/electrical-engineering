@@ -2,7 +2,7 @@
  "id": "E-A03",
  "title": {
   "de": "Erneuerbare Energien: Photovoltaik, Wind und das EEG",
-  "ar": "الطاقات المتجددة: الشمسية والرياح وقانون EEG والتغذية والتعويض",
+  "ar": "الطاقات المتجددة: الطاقة الشمسية والرياح وقانون EEG الألماني",
   "en": "Renewable Energy: Solar, Wind and the EEG"
  },
  "scenes": [
@@ -63,12 +63,14 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Nur allgemeine Information",
     "items": [
      "Gesetze ändern sich oft",
-     "Keine Rechtsberatung"
+     "Keine Rechtsberatung",
+     "Keine Zahlen und keine Fristen",
+     "Aktuelle Fassung der Texte prüfen"
     ]
    },
    "lines": [
@@ -221,9 +223,9 @@
      "en": "This priority applies until power generation is almost greenhouse-gas neutral."
     },
     {
-     "de": "Für Ihre Arbeit heißt das: Solche Projekte haben politisch Rückenwind.",
-     "ar": "ومعنى ذلك لعملكم: هذه المشاريع تحظى بدعم سياسي.",
-     "en": "For your work this means: such projects have political tailwind."
+     "de": "Für Ihre Arbeit heißt das: Solche Projekte haben im Gesetz besonderes Gewicht.",
+     "ar": "ومعنى ذلك لعملكم: لهذه المشاريع وزن خاص في القانون.",
+     "en": "For your work this means: such projects carry special weight in the law."
     },
     {
      "de": "Das EEG ist deshalb mehr als ein reines Vergütungsgesetz.",
@@ -235,11 +237,6 @@
      "de": "Es beeinflusst auch, wie Behörden Projekte bewerten.",
      "ar": "وهو يؤثر أيضًا في كيفية تقييم الجهات الرسمية للمشاريع.",
      "en": "It also affects how authorities assess projects."
-    },
-    {
-     "de": "Das beschleunigt oft Entscheidungen, ersetzt aber keine Prüfung im Einzelfall.",
-     "ar": "وهذا يسرّع القرارات غالبًا، لكنه لا يغني عن الفحص في كل حالة.",
-     "en": "This often speeds up decisions but does not replace a case-by-case review."
     }
    ]
   },
@@ -367,7 +364,7 @@
     },
     {
      "de": "Viele Anlagen nutzen außerdem einen Transformator zur Netzanbindung.",
-     "ar": "وتستخدم منشآت كثيرة أيضًا محوّلًا للربط بالشبكة.",
+     "ar": "وتستخدم منشآت كثيرة أيضًا محوّلًا كهربائيًا لربطها بالشبكة.",
      "en": "Many plants also use a transformer for the grid link."
     },
     {
@@ -443,7 +440,7 @@
     },
     {
      "de": "Genau deshalb sind Regelung und Schutz so wichtig.",
-     "ar": "ولهذا بالذات تكون المراقبة والحماية مهمتين جدًا.",
+     "ar": "ولهذا بالذات يكون التنظيم والحماية مهمين جدًا.",
      "en": "That is exactly why control and protection are so important."
     }
    ]
@@ -494,7 +491,7 @@
     },
     {
      "de": "Dort ist also Ihr erster Ansprechpartner der Netzbetreiber vor Ort.",
-     "ar": "فمحاورك الأول هناك هو مشغّل الشبكة المحلي.",
+     "ar": "فجهة الاتصال الأولى لكم هناك هي مشغّل الشبكة المحلي.",
      "en": "So your first contact there is the local grid operator."
     },
     {
@@ -509,7 +506,7 @@
     },
     {
      "de": "Wer das Netz kennt, versteht auch die Regeln für den Anschluss besser.",
-     "ar": "من يعرف الشبكة يفهم قواعد الربط بصورة أفضل.",
+     "ar": "من يعرف الشبكة يفهم قواعد التوصيل بصورة أفضل.",
      "en": "Whoever knows the grid also understands the connection rules better."
     }
    ]
@@ -545,13 +542,13 @@
     },
     {
      "de": "Das EEG verpflichtet Netzbetreiber, Anlagen unverzüglich und vorrangig anzuschließen.",
-     "ar": "يُلزم قانون EEG مشغّلي الشبكة بربط المنشآت دون تأخير وبأولوية.",
+     "ar": "يُلزم قانون EEG مشغّلي الشبكة بتوصيل المنشآت بالشبكة دون تأخير وبأولوية.",
      "en": "The EEG obliges grid operators to connect plants promptly and with priority.",
      "tts": "Das E-E-Ge verpflichtet Netzbetreiber, Anlagen unverzüglich und vorrangig anzuschließen."
     },
     {
      "de": "Der Anschluss erfolgt an einem geeigneten Verknüpfungspunkt.",
-     "ar": "ويتم الربط عند نقطة ربط مناسبة.",
+     "ar": "ويتم التوصيل عند نقطة ربط مناسبة.",
      "en": "The connection is made at a suitable connection point."
     },
     {
@@ -562,7 +559,7 @@
     {
      "de": "Damit prüft er die Netzverträglichkeit.",
      "ar": "وبها يفحص ملاءمة الشبكة.",
-     "en": "With these he checks grid compatibility."
+     "en": "With these it checks grid compatibility."
     },
     {
      "de": "Oft stellt ein Installationsbetrieb den Antrag für den Kunden.",
@@ -572,22 +569,22 @@
     {
      "de": "Der Netzbetreiber legt außerdem fest, welche Unterlagen er braucht.",
      "ar": "كما يحدد مشغّل الشبكة الوثائق التي يحتاجها.",
-     "en": "The grid operator also determines which documents he needs."
+     "en": "The grid operator also determines which documents it needs."
     },
     {
      "de": "Er muss Ihnen einen Zeitplan für die Bearbeitung nennen.",
      "ar": "وعليه أن يعطيكم جدولًا زمنيًا للمعالجة.",
-     "en": "He must give you a schedule for processing."
+     "en": "It must give you a schedule for processing."
     },
     {
      "de": "Am Ende erhalten Sie sein Ergebnis samt Kostenvoranschlag für den Anschluss.",
-     "ar": "وفي النهاية تتلقون نتيجته مع تقدير تكلفة الربط.",
-     "en": "In the end you receive his result with a cost estimate for the connection."
+     "ar": "وفي النهاية تتلقون نتيجته مع تقدير تكلفة التوصيل.",
+     "en": "In the end you receive its result with a cost estimate for the connection."
     },
     {
-     "de": "Das Verfahren ist also vor allem eine Abstimmung zwischen Betreiber, Planer und Netzbetreiber.",
-     "ar": "فالإجراء إذن تنسيق بين المشغّل والمخطط ومشغّل الشبكة.",
-     "en": "So the procedure is mainly coordination between operator, planner and grid operator."
+     "de": "Das Verfahren ist also vor allem eine Abstimmung zwischen Anlagenbetreiber, Planer und Netzbetreiber.",
+     "ar": "فالإجراء إذن تنسيق بين مشغّل المنشأة والمخطِّط ومشغّل الشبكة.",
+     "en": "So the procedure is mainly coordination between plant operator, planner and grid operator."
     }
    ]
   },
@@ -610,7 +607,7 @@
     },
     {
      "de": "Dann bleibt die Anschlusspflicht grundsätzlich bestehen.",
-     "ar": "تبقى عندئذٍ واجب الربط قائمًا من حيث المبدأ.",
+     "ar": "يبقى واجب التوصيل بالشبكة قائمًا عندئذٍ من حيث المبدأ.",
      "en": "Then the duty to connect basically remains."
     },
     {
@@ -625,7 +622,7 @@
     },
     {
      "de": "Eine Grenze ist die wirtschaftliche Zumutbarkeit.",
-     "ar": "وأحد الحدود هو الجدوى الاقتصادية المعقولة.",
+     "ar": "وأحد الحدود هو المعقولية الاقتصادية.",
      "en": "One limit is economic reasonableness."
     },
     {
@@ -652,12 +649,14 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Kernprinzip",
     "heading": "Einspeisevorrang",
     "items": [
-     "Abnahme, Übertragung, Verteilung",
-     "vorrangig, unverzüglich, physikalisch"
+     "Netzbetreiber nehmen Strom vorrangig ab",
+     "Sie übertragen und verteilen ihn vorrangig",
+     "Unverzüglich und physikalisch",
+     "Vorbehalt: Systembetrieb nach EnWG"
     ],
     "terms": [
      {
@@ -670,7 +669,7 @@
    "lines": [
     {
      "de": "Jetzt kommt das Kernprinzip: der Einspeisevorrang.",
-     "ar": "والآن المبدأ الأساسي: أولوية التغذية (Einspeisevorrang).",
+     "ar": "والآن المبدأ الأساسي، ويسمى بالألمانية Einspeisevorrang، أي أولوية التغذية.",
      "en": "Now the core principle: feed-in priority."
     },
     {
@@ -690,7 +689,7 @@
     },
     {
      "de": "Der Vorrang gilt nicht grenzenlos. Der Systembetrieb nach dem EnWG bleibt vorbehalten.",
-     "ar": "هذه الأولوية ليست مطلقة؛ فتشغيل المنظومة وفق قانون EnWG مُستثنى منها.",
+     "ar": "هذه الأولوية ليست مطلقة؛ فتشغيل المنظومة وفق قانون الطاقة مُستثنى منها.",
      "en": "The priority is not unlimited. System operation under the EnWG remains reserved.",
      "tts": "Der Vorrang gilt nicht grenzenlos. Der Systembetrieb nach dem E-En-We-Ge bleibt vorbehalten."
     },
@@ -717,9 +716,9 @@
     "kicker": "Betrieb",
     "heading": "Steuerbarkeit und Redispatch",
     "items": [
-     "Leistung muss abrufbar sein",
-     "Leistung muss ferngesteuert sinken können",
-     "Redispatch ersetzt altes Einspeisemanagement"
+     "Je nach Anlage: Einspeisung abrufbar",
+     "Je nach Anlage: Leistung ferngesteuert senkbar",
+     "Redispatch 2.0 ersetzt altes Einspeisemanagement"
     ],
     "terms": [
      {
@@ -746,10 +745,10 @@
      "en": "In bottlenecks the grid operator must be able to control feed-in."
     },
     {
-     "de": "Darum verlangt das EEG technische Einrichtungen.",
-     "ar": "لذلك يشترط قانون EEG تجهيزات تقنية.",
-     "en": "So the EEG demands technical equipment.",
-     "tts": "Darum verlangt das E-E-Ge technische Einrichtungen."
+     "de": "Darum verlangt das EEG je nach Anlage technische Einrichtungen.",
+     "ar": "لذلك يشترط قانون EEG، بحسب المنشأة، تجهيزات تقنية.",
+     "en": "So the EEG demands technical equipment, depending on the plant.",
+     "tts": "Darum verlangt das E-E-Ge je nach Anlage technische Einrichtungen."
     },
     {
      "de": "Die aktuelle Einspeisung muss abrufbar sein.",
@@ -758,13 +757,14 @@
     },
     {
      "de": "Die Wirkleistung muss ferngesteuert reduzierbar sein.",
-     "ar": "ويجب أن يمكن خفض القدرة الفعلية عن بُعد.",
+     "ar": "ويجب أن يمكن خفض القدرة الفعالة عن بُعد.",
      "en": "Active power must be remotely reducible."
     },
     {
-     "de": "Der Rahmen dafür heißt heute Redispatch. Er ersetzt das frühere Einspeisemanagement.",
-     "ar": "وإطار ذلك يسمى اليوم إعادة جدولة التوليد (Redispatch) وهو يحل محل إدارة التغذية السابقة.",
-     "en": "The framework is called redispatch today. It replaces the former feed-in management."
+     "de": "Der Rahmen dafür heißt heute Redispatch 2.0. Er ersetzt das frühere Einspeisemanagement.",
+     "ar": "وإطار ذلك يسمى اليوم إعادة جدولة التوليد (Redispatch 2.0) وهو يحل محل إدارة التغذية السابقة.",
+     "en": "The framework is called Redispatch 2.0 today. It replaces the former feed-in management.",
+     "tts": "Der Rahmen dafür heißt heute Redispatch zwei Punkt null. Er ersetzt das frühere Einspeisemanagement."
     },
     {
      "de": "In der Praxis arbeiten Netzbetreiber dafür mit Messwerten und Steuersignalen.",
@@ -782,13 +782,12 @@
    "slide": {
     "layout": "table",
     "kicker": "Vergütung",
-    "heading": "Zwei Wege für den Strom",
+    "heading": "Zwei wichtige Wege für den Strom",
     "items": [
      "Weg | Grundidee",
      "Netzbetreiber | nimmt Strom ab, zahlt Vergütung",
      "Direktvermarkter | verkauft Strom am Markt",
-     "Marktprämie | gleicht Differenz zum Marktwert aus",
-     "Eigenverbrauch | Strom bleibt vor Ort"
+     "Marktprämie | gleicht Differenz zum Marktwert aus"
     ],
     "terms": [
      {
@@ -815,24 +814,24 @@
      "en": "Now remuneration, as a principle only."
     },
     {
-     "de": "Der Betreiber hat zwei Wege für den erzeugten Strom.",
-     "ar": "للمشغّل طريقان للكهرباء المولَّدة.",
-     "en": "The operator has two routes for the generated power."
+     "de": "Für den erzeugten Strom gibt es zwei wichtige Wege.",
+     "ar": "للكهرباء المولَّدة طريقان مهمان.",
+     "en": "There are two main routes for the generated power."
     },
     {
      "de": "Erstens überlässt er den Strom dem Netzbetreiber und erhält die Einspeisevergütung.",
-     "ar": "أولًا يترك الكهرباء لمشغّل الشبكة ويتلقى مكافأة التغذية (Einspeisevergütung).",
-     "en": "First he leaves the power to the grid operator and gets the feed-in tariff."
+     "ar": "أولًا يترك الكهرباء لمشغّل الشبكة، ويتلقى مقابلها ما يسمى بالألمانية Einspeisevergütung، أي مكافأة التغذية.",
+     "en": "First the operator leaves the power to the grid operator and gets the feed-in tariff."
     },
     {
      "de": "Zweitens verkauft er ihn über einen Direktvermarkter am Markt.",
      "ar": "ثانيًا يبيعها عبر مسوّق مباشر في السوق.",
-     "en": "Second he sells it on the market through a direct marketer."
+     "en": "Second the operator sells it on the market through a direct marketer."
     },
     {
      "de": "Dann kann er eine Marktprämie erhalten.",
-     "ar": "وعندئذٍ قد يحصل على علاوة السوق (Marktprämie).",
-     "en": "Then he may receive a market premium."
+     "ar": "وعندئذٍ قد يحصل على ما يسمى بالألمانية Marktprämie، أي علاوة السوق.",
+     "en": "Then the operator may receive a market premium."
     },
     {
      "de": "Die Prämie gleicht den Unterschied zwischen Marktwert und festgelegtem Wert aus.",
@@ -855,9 +854,9 @@
      "en": "In direct marketing another partner handles the commercial purchase."
     },
     {
-     "de": "Beide Wege setzen voraus, dass die Anlage ordnungsgemäß angemeldet ist.",
-     "ar": "كلا الطريقين يفترض أن المنشأة مُبلَّغ عنها بصورة سليمة.",
-     "en": "Both routes assume that the plant is properly notified."
+     "de": "Beide Wege setzen voraus, dass die Anlage ordnungsgemäß angemeldet und registriert ist.",
+     "ar": "كلا الطريقين يفترض أن تكون المنشأة مسجَّلة لدى مشغّل الشبكة وفي السجل بصورة سليمة.",
+     "en": "Both routes assume that the plant is properly notified and registered."
     }
    ]
   },
@@ -885,7 +884,7 @@
     },
     {
      "de": "Sie hängen auch vom Zeitpunkt der Inbetriebnahme ab.",
-     "ar": "كما تتوقف على وقت التشغيل الأول.",
+     "ar": "كما تتوقف على وقت التشغيل الأولي.",
      "en": "They also depend on the date of commissioning."
     },
     {
@@ -895,8 +894,8 @@
     },
     {
      "de": "Die aktuellen Werte veröffentlicht die Bundesnetzagentur.",
-     "ar": "القيم الحالية تنشرها الوكالة الاتحادية للشبكات (Bundesnetzagentur).",
-     "en": "The Bundesnetzagentur publishes the current values."
+     "ar": "تنشر القيم الحالية الوكالة الاتحادية للشبكات (Bundesnetzagentur) في ألمانيا.",
+     "en": "The Federal Network Agency (Bundesnetzagentur) publishes the current values."
     },
     {
      "de": "Ingenieure sollten im Projekt immer die gültige Fassung prüfen.",
@@ -905,7 +904,7 @@
     },
     {
      "de": "Für Ihre Projekte ist deshalb ein Blick in die aktuelle Übersicht der Behörde Pflicht.",
-     "ar": "لذلك فإن النظر في النظرة العامة الحالية للجهة الرسمية واجب في مشاريعكم.",
+     "ar": "لذلك فإن الاطلاع على أحدث نظرة عامة تنشرها الجهة الرسمية واجب في مشاريعكم.",
      "en": "So a look at the authority's current overview is a must for your projects."
     },
     {
@@ -927,8 +926,8 @@
     "heading": "Marktstammdatenregister",
     "items": [
      "Zentrales Register der Bundesnetzagentur",
-     "Anlagen müssen registriert werden",
-     "Auch kleine Anlagen sind betroffen"
+     "Erzeugungsanlagen müssen registriert werden",
+     "Auch kleine PV-Anlagen sind betroffen"
     ],
     "terms": [
      {
@@ -945,14 +944,14 @@
      "en": "Now a duty that is easily forgotten."
     },
     {
-     "de": "Anlagen müssen im Marktstammdatenregister eingetragen werden.",
-     "ar": "يجب تسجيل المنشآت في سجل بيانات السوق الرئيسي (Marktstammdatenregister).",
-     "en": "Plants must be entered in the Marktstammdatenregister."
+     "de": "Erzeugungsanlagen müssen im Marktstammdatenregister eingetragen werden.",
+     "ar": "يجب تسجيل منشآت التوليد فيما يسمى بالألمانية Marktstammdatenregister، أي سجل بيانات السوق الرئيسي.",
+     "en": "Generation plants must be entered in the central market master data register (Marktstammdatenregister)."
     },
     {
      "de": "Es ist das zentrale Register der Bundesnetzagentur.",
      "ar": "وهو السجل المركزي للوكالة الاتحادية للشبكات.",
-     "en": "It is the central register of the Bundesnetzagentur."
+     "en": "It is the central register of the Federal Network Agency."
     },
     {
      "de": "Die Pflicht gilt auch für kleine Photovoltaikanlagen.",
@@ -966,7 +965,7 @@
     },
     {
      "de": "Die Eintragung hat eine Frist nach der Inbetriebnahme.",
-     "ar": "وللتسجيل مهلة بعد التشغيل الأول.",
+     "ar": "وللتسجيل مهلة بعد التشغيل الأولي.",
      "en": "Registration has a deadline after commissioning."
     },
     {
@@ -1008,7 +1007,7 @@
    "lines": [
     {
      "de": "Der Registereintrag ersetzt nicht die Anmeldung beim Netzbetreiber.",
-     "ar": "التسجيل في السجل لا يحل محل الإبلاغ لدى مشغّل الشبكة.",
+     "ar": "التسجيل في السجل لا يحل محل التسجيل لدى مشغّل الشبكة.",
      "en": "The register entry does not replace notifying the grid operator."
     },
     {
@@ -1027,9 +1026,9 @@
      "en": "Payments can be withheld."
     },
     {
-     "de": "Auch ein Bußgeld ist möglich.",
-     "ar": "وقد تُفرض غرامة أيضًا.",
-     "en": "A fine is also possible."
+     "de": "Weitere Rechtsfolgen regelt das Gesetz.",
+     "ar": "والعواقب القانونية الأخرى ينظّمها القانون.",
+     "en": "Further legal consequences are set by law."
     },
     {
      "de": "Ein Installateur darf die Registrierung übernehmen.",
@@ -1043,7 +1042,7 @@
     },
     {
      "de": "Prüfen Sie bei jedem Projekt, wer die Anmeldung und die Registrierung übernimmt.",
-     "ar": "تحققوا في كل مشروع من يتولى الإبلاغ والتسجيل.",
+     "ar": "تحققوا في كل مشروع من يتولى التسجيل لدى مشغّل الشبكة والتسجيل في السجل.",
      "en": "Check in each project who handles notification and registration."
     },
     {
@@ -1079,15 +1078,15 @@
     },
     {
      "de": "Für das Niederspannungsnetz ist es die VDE-AR-N 4105.",
-     "ar": "لشبكة الجهد المنخفض هي القاعدة VDE-AR-N 4105 المعروفة.",
+     "ar": "لشبكة الجهد المنخفض هي القاعدة VDE-AR-N 4105 الفنية.",
      "en": "For the low-voltage grid it is VDE-AR-N 4105.",
-     "tts": "Für das Niederspannungsnetz ist es die Fau-De-E, A-Er, En, vier-eins-null-fünf."
+     "tts": "Für das Niederspannungsnetz ist es die Fau-De-E A-Er-En vier-eins-null-fünf."
     },
     {
      "de": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im VDE, kurz VDE FNN.",
-     "ar": "وناشرها هو منتدى تقنية الشبكات وتشغيلها في VDE، ويُختصر VDE FNN.",
+     "ar": "وناشرها منتدى تقنية الشبكات وتشغيلها، المعروف اختصارًا VDE FNN، التابع لرابطة VDE الألمانية.",
      "en": "It is published by the Forum for Network Technology and Operation, VDE FNN.",
-     "tts": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im VDE, kurz Fau-De-E Ef-En-En."
+     "tts": "Herausgeber ist das Forum Netztechnik und Netzbetrieb im Fau-De-E, kurz Fau-De-E Ef-En-En."
     },
     {
      "de": "Sie behandelt unter anderem Netzschutz, Messung und Betrieb.",
@@ -1203,7 +1202,7 @@
     {
      "de": "Er veröffentlicht Ergänzungen zu den Anwendungsregeln.",
      "ar": "وينشر إضافات على القواعد التطبيقية.",
-     "en": "He publishes supplements to the application rules."
+     "en": "It publishes supplements to the application rules."
     },
     {
      "de": "Dazu kommen Formulare und technische Mindestanforderungen.",
@@ -1289,7 +1288,7 @@
     },
     {
      "de": "Das ist die Aufgabe der Elektrofachkraft.",
-     "ar": "وهذه مهمة الكهربائي المؤهَّل (Elektrofachkraft).",
+     "ar": "وهذه هي مهمة ما يسمى بالألمانية Elektrofachkraft، أي الكهربائي المؤهَّل.",
      "en": "That is the task of the Elektrofachkraft."
     },
     {
@@ -1325,7 +1324,7 @@
     },
     {
      "de": "Netzbetreiber müssen Anlagen vorrangig anschließen und deren Strom vorrangig abnehmen.",
-     "ar": "على مشغّلي الشبكة ربط المنشآت وتسلّم كهربائها بأولوية.",
+     "ar": "على مشغّلي الشبكة توصيل المنشآت وتسلّم كهربائها بأولوية.",
      "en": "Grid operators must connect plants and take their power with priority."
     },
     {
@@ -1334,9 +1333,9 @@
      "en": "The power is paid for via feed-in tariff or direct marketing."
     },
     {
-     "de": "Jede Anlage gehört in das Marktstammdatenregister.",
-     "ar": "وكل منشأة تُسجَّل في سجل بيانات السوق الرئيسي.",
-     "en": "Every plant belongs in the Marktstammdatenregister."
+     "de": "Erzeugungsanlagen gehören in das Marktstammdatenregister.",
+     "ar": "ومنشآت التوليد تُسجَّل في سجل بيانات السوق الرئيسي.",
+     "en": "Generation plants belong in the Marktstammdatenregister."
     },
     {
      "de": "Technisch zählen Netzverträglichkeit, Steuerbarkeit und die Regeln des Netzbetreibers.",
@@ -1345,19 +1344,20 @@
     },
     {
      "de": "Und noch einmal: Zahlen und Fristen müssen Sie selbst aktuell prüfen.",
-     "ar": "ومرة أخرى: الأرقام والمُهَل عليكم فحصها بأنفسكم بصورة حديثة.",
+     "ar": "ومرة أخرى: عليكم أن تتحققوا بأنفسكم من الأرقام والمُهَل في المصادر الحالية.",
      "en": "And once more: you must check numbers and deadlines for yourself."
     }
    ]
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Schluss",
     "heading": "Aktuelle Fassungen prüfen",
     "items": [
      "Gesetze und Normen ändern sich",
-     "Allgemeine Information"
+     "Allgemeine Information",
+     "Aktuelle Fassung der Quellen prüfen"
     ]
    },
    "lines": [
@@ -1477,7 +1477,7 @@
    "en": "plant operator"
   },
   {
-   "de": "das Redispatch",
+   "de": "der Redispatch",
    "ar": "إعادة جدولة التوليد",
    "en": "redispatch"
   },
@@ -1552,7 +1552,7 @@
    "options": [
     {
      "de": "Es ersetzt die Anmeldung beim Netzbetreiber.",
-     "ar": "يحل محل الإبلاغ لدى مشغّل الشبكة.",
+     "ar": "يحل محل التسجيل لدى مشغّل الشبكة.",
      "en": "It replaces notifying the grid operator."
     },
     {
@@ -1561,9 +1561,9 @@
      "en": "Only plants with remuneration must register."
     },
     {
-     "de": "Anlagen müssen eingetragen werden, auch kleine.",
-     "ar": "يجب تسجيل المنشآت حتى الصغيرة.",
-     "en": "Plants must be registered, including small ones."
+     "de": "Erzeugungsanlagen müssen eingetragen werden, auch kleine.",
+     "ar": "يجب تسجيل منشآت التوليد حتى الصغيرة.",
+     "en": "Generation plants must be registered, including small ones."
     }
    ],
    "answer": 2
@@ -1571,7 +1571,7 @@
   {
    "q": {
     "de": "Wofür steht die Marktprämie im Prinzip?",
-    "ar": "على ماذا تقوم علاوة السوق من حيث المبدأ؟",
+    "ar": "ما المقصود بعلاوة السوق من حيث المبدأ؟",
     "en": "What is the market premium in principle?"
    },
    "options": [
@@ -1606,7 +1606,7 @@
      "en": "Reuse old documents."
     },
     {
-     "de": "Auf Zahlen aus Videos verlassen.",
+     "de": "Sich auf Zahlen aus Videos verlassen.",
      "ar": "الاعتماد على أرقام الفيديوهات.",
      "en": "Rely on numbers from videos."
     },
@@ -1624,5 +1624,5 @@
   "ar": "في الفيديو القادم نتناول المخزنات والعاكسات والبنية التحتية للشحن.",
   "en": "The next video covers storage, inverters and charging infrastructure."
  },
- "stand": "2026-10-20; prüfen: aktuelle Fassung EEG (§ 1, 2, 8, 9, 11; Änderungen laufend, Fassung nur über Sekundärspiegel gesehen), Marktstammdatenregister-Verordnung (Fristen, Folgen), Redispatch-Regeln im EnWG, Ausgabe VDE-AR-N 4105 und Ergänzungen des jeweiligen Netzbetreibers"
+ "stand": "2026-10-20; prüfen: aktuelle Fassung EEG (§ 1, 2, 8, 9, 11; Änderungen laufend, Fassung nur über Sekundärspiegel gesehen), Marktstammdatenregister-Verordnung (Fristen, Folgen), Redispatch-Regeln im EnWG, Ausgabe VDE-AR-N 4105 und Ergänzungen des jeweiligen Netzbetreibers; Aussagen zu technischen Einrichtungen (EEG § 9) nur \"je nach Anlage\", Rechtsfolgen verspäteter Registrierung nur allgemein (kein Bußgeld genannt), Registrierungspflicht nur für Erzeugungsanlagen belegt"
 }
