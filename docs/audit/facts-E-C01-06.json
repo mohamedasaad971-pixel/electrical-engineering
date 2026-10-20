@@ -1,0 +1,762 @@
+[
+ {
+  "video": "E-C03",
+  "scene": 5,
+  "line": 2,
+  "severity": "error",
+  "issue": "Arabisches 'تقريبًا' (ungefähr) macht den gesetzlichen Stichtag 20.01.2027 unscharf; DE/EN nennen ein exaktes Datum.",
+  "suggested_fix": "AR: تسري اللائحة وفق DGUV اعتبارًا من العشرين من يناير عام ألفين وسبعة وعشرين."
+ },
+ {
+  "video": "E-C02",
+  "scene": 10,
+  "line": 9,
+  "severity": "error",
+  "issue": "Referent falsch: 'Sie ging aus der älteren Norm EN 954-1 hervor' steht nach 'Andere Branchen haben ... Sektornormen' und bezieht sich dadurch auf die falsche Norm; gemeint ist EN ISO 13849-1 (Zeile 6).",
+  "suggested_fix": "DE: EN ISO 13849-1 ging aus der älteren Norm EN 954-1 hervor und nutzt den Performance Level. | AR: ظهر EN ISO 13849-1 من المعيار الأقدم EN 954-1 ويستخدم مستوى الأداء. | EN: EN ISO 13849-1 grew out of the older standard EN 954-1 and uses the performance level. (Zeile direkt hinter Zeile 6 verschieben; TTS: E-En I-So eins drei acht vier neun, Teil eins ging aus der älteren Norm E-En neun fünf vier, Teil eins hervor)"
+ },
+ {
+  "video": "E-C02",
+  "scene": 9,
+  "line": 8,
+  "severity": "error",
+  "issue": "'Ein SIL gilt nie für ein Gerät allein' ist absolut und falsch: IEC 61508 kennt auch SIL-Eignung/Grenzen für Teilsysteme und Geräte; widerspricht außerdem der Praxis. Fakt F9 sagt nur: SIL bezieht sich auf eine Sicherheitsfunktion.",
+  "suggested_fix": "DE: Ein SIL bezieht sich auf die ganze Sicherheitsfunktion, nicht nur auf ein einzelnes Gerät. | AR: يرتبط SIL بوظيفة الأمان كاملةً لا بجهاز منفرد فقط. | EN: A SIL relates to the whole safety function, not just to a single device. (TTS: Ein Sil bezieht sich auf die ganze Sicherheitsfunktion, nicht nur auf ein einzelnes Gerät.)"
+ },
+ {
+  "video": "E-C01",
+  "scene": 11,
+  "line": 5,
+  "severity": "error",
+  "issue": "'Dieses heißt PAA' folgt auf Zeile 4 (Foto der Eingänge) und benennt damit fälschlich das Eingangsabbild als PAA; PAA ist das Prozessabbild der Ausgänge (F6).",
+  "suggested_fix": "DE: Das Prozessabbild der Ausgänge heißt kurz PAA. | AR: واختصار صورة العملية للمخارج هو PAA في الألمانية. | EN: The process image of the outputs is called PAA for short. | TTS: Das Prozessabbild der Ausgänge heißt kurz Pe-A-A."
+ },
+ {
+  "video": "E-C01",
+  "scene": 7,
+  "line": 0,
+  "severity": "error",
+  "issue": "Falsches Genus: 'der Schütz' (= Schütze, Person); korrekt 'das Schütz' (Zeilen verwenden 'das Schütz').",
+  "suggested_fix": "DE: das Schütz"
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 7,
+  "severity": "error",
+  "issue": "TTS grammatisch falsch (Datum): 'zwanzigster Oktober'; ebenso Z2 'am fünfter Dezember' und Z4 'am sechster Dezember'.",
+  "suggested_fix": "TTS Z7: Unser Stand ist der zwanzigste Oktober zweitausendsechsundzwanzig. | Z2: ... wurde am fünften Dezember zweitausendfünfundzwanzig verkündet. | Z4: Es trat am sechsten Dezember zweitausendfünfundzwanzig in Kraft."
+ },
+ {
+  "video": "E-C06",
+  "scene": 4,
+  "line": 7,
+  "severity": "error",
+  "issue": "Frequenzzuordnung (kapazitiv vor allem hohe, induktiv eher niedrige Frequenzen) ist in F8 nicht belegt und fachlich fragwürdig (beide Kopplungen nehmen mit der Frequenz zu; Auswahl hängt eher von Impedanz/Spannung/Strom ab).",
+  "suggested_fix": "delete (Zeilen 7 und 8)"
+ },
+ {
+  "video": "E-C03",
+  "scene": 11,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Aussage zu beleuchteten Not-Halt-Geräten (Bedienteil bleibt ohne Licht rot) steht in keinem Fakt (E-C03 F16/F17) und gehört zu den ausgeschlossenen Beschriftungs-/Farbdetails der dropped-Liste.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C03",
+  "scene": 14,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Presse-spezifische Aussage (Öffnungen neben dem Lichtvorhang mit festen Schutzeinrichtungen schließen) ist durch keinen Fakt belegt (F19 nennt nur Über-/Unter-/Hintergreifen, Abstand, Wurfteile); Sicherheitsaussage ohne Beleg.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C03",
+  "scene": 16,
+  "line": 10,
+  "severity": "risk",
+  "issue": "'Die Behörde sagt selbst, dass sich keine starren Kriterien nennen lassen' ist in F22 nicht belegt und schreibt einer Behörde eine Aussage zu.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C03",
+  "scene": 16,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'gelten Sie als Hersteller' spricht den einzelnen Zuschauer (Ingenieur) an; rechtlich wird das Unternehmen, das wesentlich verändert, zum Hersteller. Missverständlich/rechtlich unscharf.",
+  "suggested_fix": "DE: Ist sie wesentlich, gilt das Unternehmen, das die Maschine verändert, als Hersteller der veränderten Maschine. | AR: إن كان التعديل جوهريًا فتُعدّ الجهة التي أجرته مصنِّعةً للآلة المعدَّلة. | EN: If it is, the company that modified the machine counts as the manufacturer of the modified machine."
+ },
+ {
+  "video": "E-C03",
+  "scene": 17,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Folienpunkt 'Gesamtanlage: Erklärung für das Ganze' ist weder in den Fakten (F20/F21) noch in den Zeilen belegt; Rechtsaussage zu Gesamtanlagen unbelegt.",
+  "suggested_fix": "delete (Folienpunkt ersetzen durch: 'Verordnung: neue Regeln prüfen')"
+ },
+ {
+  "video": "E-C03",
+  "scene": 12,
+  "line": 4,
+  "severity": "risk",
+  "issue": "'Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt' ist durch keinen Fakt belegt (F13/F14 nennen das nicht als Umsetzung von Kat. 0).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C03",
+  "scene": 5,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Rechtsaussage zu vor dem Stichtag in Verkehr gebrachten Maschinen ('werden noch nach der Richtlinie bewertet') ist in F1/F2 nicht belegt (Übergangsregeln nicht recherchiert); steht in Spannung zur Aussage 'kein Wahlrecht'.",
+  "suggested_fix": "DE: Welche Regeln für bereits früher in Verkehr gebrachte Maschinen gelten, prüfen Sie im aktuellen amtlichen Text. | AR: أما القواعد المنطبقة على الآلات التي طُرحت في السوق قبل ذلك فتحققوا منها في النص الرسمي الحالي. | EN: Which rules apply to machines placed on the market earlier, check in the current official text."
+ },
+ {
+  "video": "E-C02",
+  "scene": 11,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Der Level sagt etwas über die Güte der Funktion, nicht über die Gefahr selbst' widerspricht Zeile 6/Folie (PLr wird aus der Risikoabschätzung bestimmt, F13) und L11 des SIL-Teils; missverständlich.",
+  "suggested_fix": "DE: Der erforderliche Level folgt aus der Risikoabschätzung, der erreichte Level beschreibt die Güte der Funktion. | AR: المستوى المطلوب ينتج عن تقدير المخاطر، أما المستوى المحقَّق فيصف جودة الوظيفة. | EN: The required level follows from the risk estimation; the achieved level describes the quality of the function."
+ },
+ {
+  "video": "E-C02",
+  "scene": 13,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Nur Maschinenrichtlinie genannt; F15 ist älter (2012) und die Verhältnisfrage zur Maschinenverordnung 2023/1230 steht auf der dropped-Liste. Folie 'Beide Normen sind harmonisiert' unqualifiziert; ab 20.01.2027 gilt die Verordnung (E-F03/E-C03). Inkonsistent ohne Hinweis.",
+  "suggested_fix": "DE: Das gibt eine Vermutung der Konformität mit den Schutzzielen der Maschinenrichtlinie, ab 2027 gilt die Maschinenverordnung; prüfen Sie den aktuellen Stand. | AR: وهذا يعطي افتراض المطابقة لأهداف الحماية في توجيه الآلات؛ ومن 2027 تسري لائحة الآلات، فتحققوا من الوضع الحالي. | EN: This gives a presumption of conformity with the protection goals of the Machinery Directive; from 2027 the Machinery Regulation applies, so check the current status. | Folie: 'Harmonisierung: laut Quellen, Stand prüfen'"
+ },
+ {
+  "video": "E-C02",
+  "scene": 18,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'Brücken, Parameter und Programm sind tabu' ist absolut und widerspricht Zeile 6 / Folie ('nie ohne Freigabe'); Ingenieure ändern Parameter und Programme mit Freigabe.",
+  "suggested_fix": "DE: Brücken, Parameter und Programm ändern Sie nur mit Freigabe. | AR: الجسور المؤقتة والمعاملات والبرنامج لا تُغيَّر إلا بتفويض. | EN: Jumpers, parameters and programs are changed only with approval."
+ },
+ {
+  "video": "E-C01",
+  "scene": 17,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Empfehlung 'Für neue Projekte planen Sie mit den anderen vier Sprachen' (und Folienpunkt) ist durch F16 nicht belegt; Planungsempfehlung bei nur sekundär belegtem AWL-Wegfall.",
+  "suggested_fix": "DE: Ob AWL in neuen Projekten verwendet wird, richtet sich nach der gültigen Ausgabe und den Projektvorgaben. | AR: واستخدام AWL في المشاريع الجديدة يتبع الإصدار الساري ومتطلبات المشروع. | EN: Whether AWL is used in new projects depends on the valid edition and the project requirements. | Folie: 'Neue Projekte: Ausgabe und Vorgaben prüfen'"
+ },
+ {
+  "video": "E-C01",
+  "scene": 21,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Die Norm nennt fünf Sprachen' im Präsens widerspricht Zeile 6 (AWL in neuer Ausgabe nicht mehr enthalten); nur die Ausgabe 2013 nennt fünf.",
+  "suggested_fix": "DE: Die Ausgabe 2013 der Norm IEC 61131-3 nennt fünf Sprachen: KOP, FUP, AS, ST und AWL. | AR: يذكر إصدار 2013 من المعيار IEC 61131-3 خمس لغات: KOP وFUP وAS وST وAWL. | EN: The 2013 edition of the standard IEC 61131-3 names five languages: KOP, FUP, AS, ST and AWL. (TTS: ... Die Ausgabe zweitausenddreizehn der Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei nennt fünf Sprachen ...)"
+ },
+ {
+  "video": "E-C01",
+  "scene": 14,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Die Norm spricht ausdrücklich von digitalen oder analogen Signalen' behauptet Wortlaut, obwohl Normtext nicht geprüft ist (F1: nur sinngemäß); widerspricht Szene 2 Zeile 7.",
+  "suggested_fix": "DE: Sinngemäß spricht die Norm von digitalen oder analogen Signalen. | AR: ومن حيث المعنى يتحدث المعيار عن إشارات رقمية أو تماثلية. | EN: In essence, the standard speaks of digital or analog signals."
+ },
+ {
+  "video": "E-C01",
+  "scene": 7,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Die Verbindung läuft über das Bussystem der SPS' ist missverständlich/unbelegt (die Verbindung zum Schütz ist eine Verdrahtung am Ausgang); F3 nennt den Bus nur zwischen CPU und Baugruppen.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C04",
+  "scene": 5,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Überschrift 'PROFIBUS: der serielle Vorgänger' und 'Weiterentwicklung' implizieren formalen Ersatz; F9 verbietet das (nur: PROFINET entstand beim Umstieg auf Ethernet, PROFIBUS bleibt verbreitet; formaler Ersatz dropped).",
+  "suggested_fix": "DE: Heading 'PROFIBUS: der klassische Feldbus'; Punkt 3 'Zeitlich früher als PROFINET'"
+ },
+ {
+  "video": "E-C04",
+  "scene": 6,
+  "line": 9,
+  "severity": "risk",
+  "issue": "Begründung 'offener Standard, weil die Spezifikation verfügbar ist' ist unbelegt (F1 nur: offener Standard).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C04",
+  "scene": 15,
+  "line": 0,
+  "severity": "risk",
+  "issue": "'Beides ergänzt sich, kein Entweder-oder' ist absolut und unbelegt (F20 belegt nur die gemeinsame Companion Specification).",
+  "suggested_fix": "DE: Beides | ergänzt sich oft (Companion Specification)"
+ },
+ {
+  "video": "E-C04",
+  "scene": 17,
+  "line": 0,
+  "severity": "risk",
+  "issue": "'Geschirmtes Industrie-Ethernet-Kabel' ist nicht belegt (Kabelkategorien/Spezifikation dropped); ebenso 'RJ45 typisch im Schaltschrank'.",
+  "suggested_fix": "DE: Kabel | Industrie-Ethernet-Kabel; RJ45 | Bauform im Schaltschrank möglich"
+ },
+ {
+  "video": "E-C04",
+  "scene": 3,
+  "line": 4,
+  "severity": "risk",
+  "issue": "'Heute teilen sich viele Geräte eine gemeinsame Verbindung' ist technisch ungenau (geschaltetes Ethernet) und, wie 'Früher ... eigenes Kabel', 'spart Verdrahtung', 'macht Fehler sichtbarer', in den Fakten nicht belegt.",
+  "suggested_fix": "DE: Heute sind viele Geräte über ein Netzwerk verbunden. | AR: واليوم ترتبط أجهزة كثيرة عبر شبكة. | EN: Today many devices are connected through a network."
+ },
+ {
+  "video": "E-C04",
+  "scene": 12,
+  "line": 4,
+  "severity": "risk",
+  "issue": "'Es läuft vom kleinen Gerät bis zur Cloud-Umgebung' ist in F15 nicht belegt (Marketingaussage).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C05",
+  "scene": 9,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'unterscheidet drei Rollen' ist unvollständig; F1/F4/F10 nennen auch Dienstleister/Instandhalter (Service Provider, Teil 2-4).",
+  "suggested_fix": "DE: Die Normenreihe unterscheidet unter anderem diese drei Rollen. | AR: تميّز السلسلة بين عدة أدوار، منها هذه الثلاثة. | EN: The series distinguishes several roles, including these three."
+ },
+ {
+  "video": "E-C05",
+  "scene": 8,
+  "line": 0,
+  "severity": "risk",
+  "issue": "'Vier Gruppen von Teilen' (Allgemeines, Richtlinien/Verfahren, System, Produkte) ist in keinem Fakt belegt (nur Teile 2-1, 2-4, 3-2, 3-3, 4-1, 4-2); inhaltlich zutreffend, aber unverifiziert.",
+  "suggested_fix": "delete Szene oder Fakt nachrecherchieren; sonst: 'Die Reihe ist nach Themen in Teile gegliedert; Ausgaben je Teil prüfen'"
+ },
+ {
+  "video": "E-C05",
+  "scene": 6,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Fällt eine Schicht aus, hält die nächste den Angreifer auf' ist ein Schutzversprechen.",
+  "suggested_fix": "DE: Fällt eine Schicht aus, kann die nächste den Angriff noch bremsen. | AR: إذا سقطت طبقة، قد تبطئ الطبقة التالية الهجوم. | EN: If one layer fails, the next one can still slow the attack."
+ },
+ {
+  "video": "E-C05",
+  "scene": 11,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Mehr Zonen bedeuten mehr Schutz' absolut und unbelegt.",
+  "suggested_fix": "DE: Mehr Zonen können mehr Schutz bringen, bedeuten aber auch mehr Aufwand. | AR: مناطق أكثر قد تعني حماية أكثر، لكنها تعني جهدًا أكبر. | EN: More zones can bring more protection, but also mean more effort."
+ },
+ {
+  "video": "E-C05",
+  "scene": 21,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Folie 'Verfügbarkeit zuerst' und Szene 3 Zeile 6 ('zuerst an Verfügbarkeit denken') absolut; F15: Reihenfolge der Schutzziele ist kontextabhängig.",
+  "suggested_fix": "DE: Folie: 'Schutzziele: Verfügbarkeit oft vorn' | Szene 3 Z6: Darum hat in der OT die Verfügbarkeit oft hohe Priorität, neben der Sicherheit."
+ },
+ {
+  "video": "E-C06",
+  "scene": 2,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'immer die fünf Sicherheitsregeln' widerspricht Szene 14 Zeile 10 (Messen unter Spannung als Sonderfall) und Szene 18 Zeile 9 (Schleifenimpedanz bei eingeschalteter Anlage); Messen unter Spannung unterliegt eigenen Anforderungen, nicht den fünf Regeln.",
+  "suggested_fix": "DE: Bei Arbeiten an spannungsfrei gemachten Anlagen gelten die fünf Sicherheitsregeln. Messungen unter Spannung sind ein Sonderfall. | AR: عند العمل على منشآت فُصل عنها الجهد تسري قواعد السلامة الخمس؛ أما القياس تحت الجهد فحالة خاصة. | EN: For work on de-energised installations the five safety rules apply. Measuring under voltage is a special case."
+ },
+ {
+  "video": "E-C06",
+  "scene": 17,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'An Netzspannung gelten ... die fünf Sicherheitsregeln' ist widersprüchlich: Oszilloskop-Messung an Netzspannung ist Messen unter Spannung; Fakt F22 belegt keine Sicherheitsaussage.",
+  "suggested_fix": "DE: An Netzspannung gelten die Herstellerangaben und die Vorgaben des Betriebs; das ist Sache der Elektrofachkraft. | AR: عند جهد الشبكة تسري تعليمات الشركة المصنِّعة وتعليمات المنشأة، وهذا من اختصاص الكهربائي المؤهَّل. | EN: On mains voltage the manufacturer's instructions and the company's rules apply; this is a matter for the qualified electrician."
+ },
+ {
+  "video": "E-C06",
+  "scene": 13,
+  "line": 10,
+  "severity": "risk",
+  "issue": "DE nennt 'gehören in die Hand einer Elektrofachkraft' absolut ohne 'oder unter deren Leitung und Aufsicht', AR/EN ergänzen es; verstößt gegen die Regel für Arbeitsberechtigung und ist zwischen Sprachen inkonsistent.",
+  "suggested_fix": "DE: Änderungen am Schutzleitersystem führt eine Elektrofachkraft aus oder jemand unter ihrer Leitung und Aufsicht."
+ },
+ {
+  "video": "E-C06",
+  "scene": 13,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Bei Neuinstallationen mit Informationstechnik nennen Fachquellen das Fünf-Leiter-System TN-S' ist in F12/F13 nicht belegt.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C06",
+  "scene": 9,
+  "line": 2,
+  "severity": "risk",
+  "issue": "'harmonisierte Normen, vor allem die Reihe EN 61000' (und Folie 'Reihe EN 61000: harmonisierte Normen'): Listenstatus im Amtsblatt ist dropped und uneinheitlich; nicht alle Teile von EN 61000 sind harmonisiert.",
+  "suggested_fix": "DE: Konkrete Maßstäbe liefern Normen, vor allem die Reihe EN 61000. | AR: المعايير تقدّم المقاييس المحددة، وخاصة سلسلة EN 61000. | EN: Standards provide concrete criteria, above all the EN 61000 series. | Folie: 'Reihe EN 61000: EMV-Normen' (TTS entsprechend ohne 'harmonisierte')"
+ },
+ {
+  "video": "E-C06",
+  "scene": 8,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'Diese Regeln sind zu dokumentieren' behauptet eine Rechtspflicht (EMVG-Dokumentationspflicht ist dropped) und hat keinen klaren Bezug.",
+  "suggested_fix": "DE: Dokumentieren Sie, nach welchen Regeln die Anlage errichtet wurde. | AR: وثّقوا القواعد التي أُنشئت المنشأة وفقها. | EN: Document the rules according to which the installation was built."
+ },
+ {
+  "video": "E-C06",
+  "scene": 12,
+  "line": 1,
+  "severity": "risk",
+  "issue": "Ein Schirm hält 'elektrische und magnetische Felder' fern: für niederfrequente Magnetfelder überzogen und in F10 nicht belegt.",
+  "suggested_fix": "DE: Ein Schirm kann elektrische Felder von der Signalleitung fernhalten. | AR: يمكن للدرع أن يُبعد المجالات الكهربائية عن كابل الإشارة. | EN: A shield can keep electric fields away from the signal cable."
+ },
+ {
+  "video": "E-C03",
+  "scene": 4,
+  "line": 1,
+  "severity": "note",
+  "issue": "Video wird nach dem 20.01.2027 veraltet sein ('Bisher gilt ...', 'wird ersetzt'); Zeitbezug fehlt. Konsistent mit E-F03, aber ohne Stand-Hinweis.",
+  "suggested_fix": "DE: Stand dieses Videos ist Oktober 2026: Bisher gilt in der EU die Maschinenrichtlinie. | AR: حتى تاريخ إعداد هذا الفيديو في أكتوبر 2026 يسري في الاتحاد الأوروبي توجيه الآلات. | EN: As of this video, October 2026, the Machinery Directive still applies in the EU."
+ },
+ {
+  "video": "E-C03",
+  "scene": 4,
+  "line": 3,
+  "severity": "note",
+  "issue": "Umsetzung nur 'über das Produktsicherheitsgesetz' ist unvollständig; F4 nennt ProdSG und 9. ProdSV.",
+  "suggested_fix": "DE: In Deutschland geschah das bisher über das Produktsicherheitsgesetz und eine zugehörige Verordnung. | AR: وفي ألمانيا تم ذلك حتى الآن عبر قانون سلامة المنتجات ولائحة تنفيذية تابعة له. | EN: In Germany, this has so far been done through the Product Safety Act and an associated ordinance."
+ },
+ {
+  "video": "E-C03",
+  "scene": 13,
+  "line": 2,
+  "severity": "note",
+  "issue": "EN 'Fixed separating guards' widerspricht Zeile 3 (feste und bewegliche); DE sagt nur 'Trennende Schutzeinrichtungen'.",
+  "suggested_fix": "EN: Separating guards are, for example, guard fences, covers and grilles."
+ },
+ {
+  "video": "E-C03",
+  "scene": 13,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Scanner' (Laserscanner) ist in F19 nicht belegt.",
+  "suggested_fix": "DE: Berührungslos: Lichtvorhang u. a."
+ },
+ {
+  "video": "E-C03",
+  "scene": 11,
+  "line": 1,
+  "severity": "note",
+  "issue": "Superlativ 'das bekannteste Bedienelement' unbelegt.",
+  "suggested_fix": "DE: Der Not-Halt ist ein bekanntes Bedienelement an Maschinen. | AR: إيقاف الطوارئ عنصر تشغيل معروف في الآلات. | EN: The Not-Halt is a well-known control on machines."
+ },
+ {
+  "video": "E-C03",
+  "scene": 15,
+  "line": 3,
+  "severity": "note",
+  "issue": "AR gibt Regel 5 ohne 'unter Spannung stehende' wieder und Regel 2 als 'منع إعادة التشغيل' (E-F05 nutzt 'تأمينها ضد إعادة التشغيل' in den Regelfolien); kleine Abweichung zum DE-Wortlaut/TERMS.",
+  "suggested_fix": "AR: القواعد الخمس: فصل الجهد، وتأمينها ضد إعادة التشغيل، والتحقق من انعدام الجهد في جميع الأقطاب، والتأريض والتقصير، وتغطية الأجزاء المجاورة التي تحت الجهد أو إحاطتها بحواجز."
+ },
+ {
+  "video": "E-C03",
+  "scene": 15,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Fehlersuche' mit den fünf Regeln gleichgesetzt; Messungen/Fehlersuche unter Spannung sind ein Sonderfall (siehe E-C06). Kein Beleg im Fakt F26 für Fehlersuche.",
+  "suggested_fix": "DE: Auch Wartung an Maschinen braucht Sicherheit. | AR: كما تحتاج الصيانة في الآلات إلى السلامة. | EN: Maintenance on machines also needs safety."
+ },
+ {
+  "video": "E-C03",
+  "scene": 10,
+  "line": 1,
+  "severity": "note",
+  "issue": "AR-Term 'إيقاف الطوارئ' für Not-Halt weicht von E-C02 ('الإيقاف الاضطراري') ab; Terminologie je Pfad vereinheitlichen.",
+  "suggested_fix": "AR: einen Begriff für alle Videos festlegen (z. B. 'الإيقاف الاضطراري (Not-Halt)')"
+ },
+ {
+  "video": "E-C02",
+  "scene": 18,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Ein Fehler in der Praxis ist oft schon eine Folge davon' ist unklar und unbelegt.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C02",
+  "scene": 18,
+  "line": 2,
+  "severity": "note",
+  "issue": "Motiv 'um schneller zu arbeiten' ist in F22 nicht belegt (nur: häufig umgangen).",
+  "suggested_fix": "DE: Bediener umgehen Schutztüren manchmal. | AR: يتجاوز المشغّلون أحيانًا أبواب الحماية. | EN: Operators sometimes bypass guard doors."
+ },
+ {
+  "video": "E-C02",
+  "scene": 6,
+  "line": 1,
+  "severity": "note",
+  "issue": "'wichtigste Grundnorm' Superlativ unbelegt (F1: Grundnorm).",
+  "suggested_fix": "DE: Die Grundnorm heißt IEC 61508. | AR: المعيار الأساسي هو IEC 61508. | EN: The basic standard is IEC 61508."
+ },
+ {
+  "video": "E-C02",
+  "scene": 6,
+  "line": 8,
+  "severity": "note",
+  "issue": "Satz zu 'Schutzziele solcher Normen sind allgemein gehalten' ist unbelegt und inhaltsleer.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C02",
+  "scene": 4,
+  "line": 9,
+  "severity": "note",
+  "issue": "'finden Sie in vielen Fabriken' unbelegt; Beispiel stark vereinfacht (Verriegelung/Zuhaltung nicht erwähnt) und nicht als vereinfacht gekennzeichnet.",
+  "suggested_fix": "DE: Dieses vereinfachte Beispiel zeigt nur das Prinzip. | AR: هذا المثال مبسّط ويوضح المبدأ فقط. | EN: This simplified example only shows the principle."
+ },
+ {
+  "video": "E-C02",
+  "scene": 5,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Im Fehlerfall: sicherer Stopp' verallgemeinert; sicherer Zustand ist nicht immer ein Stopp (Zeile 6 sagt 'zum Beispiel').",
+  "suggested_fix": "DE: Im Fehlerfall: sicherer Zustand"
+ },
+ {
+  "video": "E-C02",
+  "scene": 12,
+  "line": 4,
+  "severity": "note",
+  "issue": "AR 'وحده' (allein) behauptet Ausschließlichkeit; nicht belegt.",
+  "suggested_fix": "AR: يأتي المصطلح PL من EN ISO 13849-1."
+ },
+ {
+  "video": "E-C02",
+  "scene": 17,
+  "line": 10,
+  "severity": "note",
+  "issue": "'So fällt ein Fehler in einem Kanal auf' ist in F20 nicht belegt (Zweikanaligkeit allein erkennt Fehler nicht automatisch); AR 'القناتين' grammatisch falsch.",
+  "suggested_fix": "DE: Zwei Kanäle ermöglichen es, Fehler zu erkennen. | AR: وتتيح القناتان اكتشاف الأعطال. | EN: Two channels make it possible to detect faults."
+ },
+ {
+  "video": "E-C02",
+  "scene": 20,
+  "line": 5,
+  "severity": "note",
+  "issue": "'immer' absolut.",
+  "suggested_fix": "DE: Am Anfang steht die Risikobeurteilung. | AR: في البداية يأتي تقييم المخاطر. | EN: The risk assessment comes first."
+ },
+ {
+  "video": "E-C02",
+  "scene": 19,
+  "line": 8,
+  "severity": "note",
+  "issue": "AR 'قيادته وإشرافه' weicht von E-F04 ('إدارته وإشرافه') ab.",
+  "suggested_fix": "AR: ويقوم بالعمل كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه."
+ },
+ {
+  "video": "E-C02",
+  "scene": 17,
+  "line": 3,
+  "severity": "note",
+  "issue": "AR-Term für Not-Halt 'الإيقاف الاضطراري' weicht von E-C03 ('إيقاف الطوارئ') ab.",
+  "suggested_fix": "Terminologie vereinheitlichen"
+ },
+ {
+  "video": "E-C01",
+  "scene": 16,
+  "line": 9,
+  "severity": "note",
+  "issue": "Versprechen 'Wir gehen die fünf Sprachen jetzt der Reihe nach durch' wird nicht eingelöst (nächste Szene nur AWL).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C01",
+  "scene": 15,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Neue Ausgabe seit 2025' unqualifiziert, Zeile 5 sagt 'laut Katalogen'; Status der DIN-Übernahme unklar (F16).",
+  "suggested_fix": "DE: Neue Ausgabe laut Katalogen seit 2025"
+ },
+ {
+  "video": "E-C01",
+  "scene": 6,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Betriebssystem ergänzt die Abläufe' (und Zeile 6) ist in F3 nicht belegt.",
+  "suggested_fix": "DE: Bussystem verbindet die Baugruppen (Punkt Betriebssystem streichen; Zeile 6 löschen)"
+ },
+ {
+  "video": "E-C01",
+  "scene": 5,
+  "line": 6,
+  "severity": "note",
+  "issue": "'sieht nie die Maschine selbst, sondern nur ihre Signale' absolut.",
+  "suggested_fix": "DE: Die SPS sieht die Maschine nur über ihre Signale. | AR: ترى SPS الآلة من خلال إشاراتها فقط. | EN: The SPS sees the machine only through its signals."
+ },
+ {
+  "video": "E-C01",
+  "scene": 13,
+  "line": 9,
+  "severity": "note",
+  "issue": "Beispiel Förderband ohne Hinweis, dass Sicherheitsfunktionen (Not-Halt, Schutzeinrichtungen) fehlen; als 'erdachtes Beispiel' kennzeichnen.",
+  "suggested_fix": "DE: Das Beispiel ist erdacht und vereinfacht; Sicherheitsfunktionen sind hier nicht gezeigt. | AR: المثال افتراضي ومبسّط، ووظائف الأمان غير معروضة هنا. | EN: The example is made up and simplified; safety functions are not shown here."
+ },
+ {
+  "video": "E-C01",
+  "scene": 18,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienzeile 'Mechatroniker | oft genannter Einstieg': 'Einstieg' nicht belegt (F20 nur: Stellenanzeigen verlangen häufig); Mechatroniker-Details sind dropped.",
+  "suggested_fix": "DE: Mechatroniker | in Stellenanzeigen genannt"
+ },
+ {
+  "video": "E-C01",
+  "scene": 20,
+  "line": 3,
+  "severity": "note",
+  "issue": "AR 'إدارته وإشرافه' und Regel 5 (DE Folie 'Benachbarte Teile ...') verkürzt gegenüber E-C02/E-C04 ('benachbarte, unter Spannung stehende Teile'); uneinheitlich.",
+  "suggested_fix": "DE: Folienpunkt 5 = '5 Benachbarte, unter Spannung stehende Teile abdecken oder abschranken'; Zeile 6 entsprechend"
+ },
+ {
+  "video": "E-C04",
+  "scene": 6,
+  "line": 8,
+  "severity": "note",
+  "issue": "Namensherleitung 'Process Field Network' nicht in den Fakten.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C04",
+  "scene": 10,
+  "line": 1,
+  "severity": "note",
+  "issue": "'nutzen Sie einen Ring' als Handlungsanweisung/absolut; MRP fängt typischerweise einen Ausfall ab (Fakt nennt keine Anzahl).",
+  "suggested_fix": "DE: Um Ausfälle einer Verbindung abzufangen, kann man einen Ring nutzen. | AR: لتحمّل تعطل أحد الاتصالات يمكن استخدام حلقة. | EN: To absorb the failure of a connection, a ring can be used."
+ },
+ {
+  "video": "E-C04",
+  "scene": 14,
+  "line": 9,
+  "severity": "note",
+  "issue": "Zeile steht nach der Zertifikats-Aussage; 'So kann ein Programm erkennen, was ein Wert bedeutet' bezieht sich dadurch falsch auf Zertifikate (gehört hinter Zeile 5).",
+  "suggested_fix": "Zeile 9 hinter Zeile 5 verschieben"
+ },
+ {
+  "video": "E-C04",
+  "scene": 15,
+  "line": 8,
+  "severity": "note",
+  "issue": "Gateway/Steuerung als Anbieter und 'Wartungspläne besser vorbereiten' nicht in F20 belegt.",
+  "suggested_fix": "delete (Zeilen 8 und 9)"
+ },
+ {
+  "video": "E-C04",
+  "scene": 5,
+  "line": 7,
+  "severity": "note",
+  "issue": "'vor allem bei Modernisierungen' ist ein unbelegter Schluss aus 'weiter im Einsatz'.",
+  "suggested_fix": "DE: Sie treffen es also in vielen Bestandsanlagen an. | AR: لذلك ستصادفونه في كثير من المنشآت القائمة. | EN: So you will meet it in many existing plants."
+ },
+ {
+  "video": "E-C04",
+  "scene": 20,
+  "line": 6,
+  "severity": "note",
+  "issue": "'gelten immer die fünf Sicherheitsregeln' absolut (Prüfen/Messen unter Spannung als Sonderfall, vgl. DGUV V3).",
+  "suggested_fix": "DE: Vor Arbeiten an der Anlage gelten die fünf Sicherheitsregeln. | AR: قبل الأعمال على المنشأة تسري قواعد السلامة الخمس. | EN: Before work on the plant, the five safety rules apply."
+ },
+ {
+  "video": "E-C04",
+  "scene": 4,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Feldbus: oft eigene Kabel und Anschlusstechnik' ist in den Fakten nicht belegt.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C04",
+  "scene": 16,
+  "line": 5,
+  "severity": "note",
+  "issue": "'In der OT zählen Verfügbarkeit und vorhersagbares Verhalten' ohne Beleg in diesem Fakt-File (F15 in E-C05).",
+  "suggested_fix": "DE: In der OT hat die Verfügbarkeit oft hohe Priorität. | AR: في OT تحظى التوافرية غالبًا بأولوية عالية. | EN: In OT, availability often has a high priority."
+ },
+ {
+  "video": "E-C04",
+  "scene": 12,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Standard der OPC Foundation' vs. IEC 62541: ok; Zeile 8 doppelt Zeile 2 (Redundanz).",
+  "suggested_fix": "delete Zeile 8"
+ },
+ {
+  "video": "E-C05",
+  "scene": 3,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienzeile 'Updates | OT: nur nach Planung' absolut; 'Lebensdauer' unbelegt; F16: 'oft nur nach Freigabe ... meist in Wartungsfenstern'.",
+  "suggested_fix": "DE: Updates | IT: schnell, OT: meist geplant"
+ },
+ {
+  "video": "E-C05",
+  "scene": 15,
+  "line": 1,
+  "severity": "note",
+  "issue": "'häufiges Einfallstor' und Protokollierung ('wer den Zugang wann benutzt hat') sind in F13/F14 nicht belegt.",
+  "suggested_fix": "DE: Der Fernzugriff ist ein mögliches Einfallstor. | AR: الوصول عن بُعد قد يكون منفذًا للاختراق. | EN: Remote access can be an entry point."
+ },
+ {
+  "video": "E-C05",
+  "scene": 17,
+  "line": 0,
+  "severity": "note",
+  "issue": "Szene 'typische Fehler' (flaches Netz, Standard-Passwörter) hat keinen Fakt; Häufigkeitsaussagen unbelegt.",
+  "suggested_fix": "DE: Kicker/Zeile 1: Zum Schluss einige mögliche Schwächen. | AR: وأخيرًا بعض نقاط الضعف المحتملة. | EN: Finally some possible weaknesses."
+ },
+ {
+  "video": "E-C05",
+  "scene": 5,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Oft reicht ein Weg über das Büronetz' und 'Alte Systeme ohne Updates' (Folie, absolut vs. Z4 'nicht immer') unbelegt.",
+  "suggested_fix": "DE: Ein Weg über das Büronetz oder einen Fernzugang kann reichen. | Folie: 'Alte Systeme oft ohne Updates'"
+ },
+ {
+  "video": "E-C05",
+  "scene": 4,
+  "line": 1,
+  "severity": "note",
+  "issue": "Klassische Schutzziele (Verfügbarkeit, Integrität, Vertraulichkeit) und Menschengefährdung (Z7) sind in den Fakten nicht belegt; nur F15 (Verfügbarkeit laut BSI).",
+  "suggested_fix": "Fakt ergänzen (BSI/ISO 27000) oder als 'klassische IT-Schutzziele' kennzeichnen"
+ },
+ {
+  "video": "E-C05",
+  "scene": 8,
+  "line": 3,
+  "severity": "note",
+  "issue": "Zeile 3 ('Das hilft Ihnen ...') steht vor den Gruppen 2 bis 4 und ist falsch platziert.",
+  "suggested_fix": "Zeile 3 hinter Zeile 5 verschieben"
+ },
+ {
+  "video": "E-C05",
+  "scene": 10,
+  "line": 5,
+  "severity": "note",
+  "issue": "Vertragsregelung für Fernzugriff ist Empfehlung ohne Beleg und grenzt an Rechtsberatung.",
+  "suggested_fix": "DE: Fernzugriff und Wartung sollten klar geregelt sein. | AR: ينبغي تنظيم الوصول عن بُعد والصيانة بوضوح. | EN: Remote access and maintenance should be clearly regulated."
+ },
+ {
+  "video": "E-C05",
+  "scene": 10,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Sicherheit entsteht nur, wenn' absolut.",
+  "suggested_fix": "DE: Sicherheit entsteht, wenn die Rollen zusammenarbeiten. | AR: ينشأ الأمن حين تتعاون الأدوار معًا. | EN: Security arises when the roles cooperate."
+ },
+ {
+  "video": "E-C05",
+  "scene": 16,
+  "line": 8,
+  "severity": "note",
+  "issue": "Rollenverteilung ('Hersteller informiert, Betreiber entscheidet mit dem Integrator') unbelegt.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C05",
+  "scene": 12,
+  "line": 0,
+  "severity": "note",
+  "issue": "AR-Term für SPS ('وحدة التحكم المنطقية القابلة للبرمجة') weicht von E-C01 ('وحدة التحكم المبرمجة') ab.",
+  "suggested_fix": "AR: وحدة التحكم المبرمجة (SPS)"
+ },
+ {
+  "video": "E-C05",
+  "scene": 20,
+  "line": 6,
+  "severity": "note",
+  "issue": "IEC 62443 als Orientierung für NIS2 ist nicht belegt (dropped: 'erfüllt NIS2 automatisch'); hier zwar hedged, aber Quelle fehlt.",
+  "suggested_fix": "delete oder 'Manche Betriebe ziehen IEC 62443 als fachliche Orientierung heran.'"
+ },
+ {
+  "video": "E-C06",
+  "scene": 9,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Die Norm richtet sich an Planer, Errichter und Betreiber' sowie 'Planer dokumentieren ...' sind in F12 nicht belegt.",
+  "suggested_fix": "delete (Zeilen 7 und 8)"
+ },
+ {
+  "video": "E-C06",
+  "scene": 18,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Widerstand der Strombahn' statt Impedanz (F18: Gesamtimpedanz); Folie sagt 'Strombahn des Fehlerstroms'.",
+  "suggested_fix": "DE: Die Schleifenimpedanz ist die Impedanz der Strombahn des Fehlerstroms. | AR: معاوقة حلقة العطل هي معاوقة مسار تيار العطل. | EN: (bereits 'impedance')"
+ },
+ {
+  "video": "E-C06",
+  "scene": 5,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienzeile ordnet kapazitiv/induktiv ohne Vorbehalt 'leitungsgebunden' zu, widerspricht 'Felder' in Gestrahlt; Zeile 3 hedgt 'nach vielen Fachquellen' (F8: Quellen zählen unterschiedlich).",
+  "suggested_fix": "DE: Galvanisch, kapazitiv, induktiv | oft leitungsgebunden gezählt"
+ },
+ {
+  "video": "E-C06",
+  "scene": 6,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Sie stehen in den ... Normen' hat nach Zeilen 6 und 7 keinen Bezugspunkt (Prüfpegel aus Zeile 5).",
+  "suggested_fix": "DE: Die Prüfpegel stehen in den jeweils gültigen Normen und Datenblättern. | AR: مستويات الاختبار مذكورة في المعايير وأوراق البيانات السارية. | EN: The test levels are in the currently valid standards and datasheets."
+ },
+ {
+  "video": "E-C06",
+  "scene": 11,
+  "line": 7,
+  "severity": "note",
+  "issue": "'kaum Geld kostet' und 'Planung entscheidet mehr als das Material' sind unbelegt.",
+  "suggested_fix": "delete (Zeilen 7 und 9)"
+ },
+ {
+  "video": "E-C06",
+  "scene": 15,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folie nennt 'Schleifenimpedanz' als Gerät, Zeile 5 den 'Installationstester' (nicht in Fakten).",
+  "suggested_fix": "DE: Installationstester | Schleifenimpedanz u. a."
+ },
+ {
+  "video": "E-C06",
+  "scene": 19,
+  "line": 9,
+  "severity": "note",
+  "issue": "Aussage, Kalibrierscheine enthielten typischerweise die Messunsicherheit, ist nicht in F20/F21 belegt.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-C06",
+  "scene": 17,
+  "line": 5,
+  "severity": "note",
+  "issue": "Begründung 'lange Masseleitung wirkt wie eine Antenne' ist vereinfacht und nicht belegt (F22: nur kurz halten).",
+  "suggested_fix": "DE: Darum hält man sie möglichst kurz. (Zeile 5 löschen)"
+ },
+ {
+  "video": "E-C06",
+  "scene": 7,
+  "line": 4,
+  "severity": "note",
+  "issue": "Titel des EMVG und Begriff Betriebsmittel nicht in F4 ausgeführt (zutreffend, aber ohne Fakt).",
+  "suggested_fix": "Fakt ergänzen oder streichen"
+ },
+ {
+  "video": "E-C06",
+  "scene": 2,
+  "line": 4,
+  "severity": "note",
+  "issue": "AR 'إشرافه وتوجيهه' (Leitung/Aufsicht vertauscht) weicht von E-F04 ab; auch S18/S21.",
+  "suggested_fix": "AR: ... أو شخص تحت إدارته وإشرافه."
+ }
+]
