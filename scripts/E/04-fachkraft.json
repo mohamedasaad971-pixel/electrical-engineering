@@ -2,7 +2,7 @@
  "id": "E-F04",
  "title": {
   "de": "Elektrofachkraft, EFKffT und Unterschriftsbefugnis",
-  "ar": "الكفاءة المهنية: Elektrofachkraft وEFKffT وسلطة التوقيع، حدود عمل المهندس",
+  "ar": "الكفاءة المهنية: Elektrofachkraft وEFKffT وصلاحية التوقيع، وحدود عمل المهندس",
   "en": "Professional competence: Elektrofachkraft, EFKffT and signing authority"
  },
  "scenes": [
@@ -18,12 +18,12 @@
    "lines": [
     {
      "de": "Willkommen zu diesem Video über die fachliche Qualifikation in der Elektrotechnik.",
-     "ar": "مرحبًا بكم في هذا الفيديو عن الكفاءة المهنية في الكهروتقنية.",
+     "ar": "مرحبًا بكم في هذا الفيديو عن الكفاءة المهنية في الهندسة الكهربائية.",
      "en": "Welcome to this video on professional competence in electrical engineering."
     },
     {
      "de": "Sie lernen, wer in Deutschland elektrotechnische Arbeiten ausführen darf.",
-     "ar": "ستتعلمون من يحق له في ألمانيا تنفيذ الأعمال الكهروتقنية.",
+     "ar": "ستتعلمون من يحق له في ألمانيا تنفيذ الأعمال الكهربائية.",
      "en": "You will learn who may carry out electrical work in Germany."
     },
     {
@@ -110,26 +110,26 @@
     "terms": [
      {
       "de": "Elektrofachkraft",
-      "ar": "فنّي كهرباء مؤهَّل",
-      "en": "qualified electrician (Elektrofachkraft)"
+      "ar": "الكهربائي المؤهَّل",
+      "en": "qualified electrical person (Elektrofachkraft)"
      }
     ]
    },
    "lines": [
     {
      "de": "Die DGUV Vorschrift 3 enthält einen Grundsatz.",
-     "ar": "تتضمن لائحة DGUV رقم 3 مبدأً أساسيًا.",
+     "ar": "تتضمن لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) مبدأً أساسيًا.",
      "en": "DGUV Vorschrift 3 contains a basic principle.",
      "tts": "Die De-Ge-U-Fau Vorschrift drei enthält einen Grundsatz."
     },
     {
      "de": "Elektrische Anlagen und Betriebsmittel werden von einer Elektrofachkraft errichtet, geändert und instand gehalten.",
-     "ar": "تُنشأ المنشآت والمعدّات الكهربائية وتُعدَّل وتُصان بواسطة شخص مؤهَّل كهربائيًا.",
+     "ar": "تُنشأ المنشآت والمعدّات الكهربائية وتُعدَّل وتُصان بواسطة كهربائي مؤهَّل.",
      "en": "Electrical installations and equipment are built, modified and maintained by an Elektrofachkraft."
     },
     {
      "de": "Oder die Arbeit geschieht unter ihrer Leitung und Aufsicht.",
-     "ar": "أو يجري العمل تحت إشرافه وتوجيهه.",
+     "ar": "أو يجري العمل تحت إدارته وإشرافه.",
      "en": "Or the work is done under their direction and supervision."
     },
     {
@@ -167,7 +167,7 @@
     "terms": [
      {
       "de": "Elektrofachkraft",
-      "ar": "شخص مؤهَّل كهربائيًا",
+      "ar": "الكهربائي المؤهَّل",
       "en": "Elektrofachkraft"
      }
     ]
@@ -175,7 +175,7 @@
    "lines": [
     {
      "de": "Eine Elektrofachkraft braucht drei Dinge.",
-     "ar": "يحتاج المؤهَّل كهربائيًا إلى ثلاثة أمور.",
+     "ar": "يحتاج الكهربائي المؤهَّل إلى ثلاثة أمور.",
      "en": "An Elektrofachkraft needs three things."
     },
     {
@@ -196,11 +196,11 @@
     {
      "de": "Damit beurteilt die Person ihre Arbeiten und erkennt Gefahren.",
      "ar": "وبذلك يقيّم الشخص أعماله ويتعرّف على المخاطر.",
-     "en": "With this, the person can assess their work and recognize hazards."
+     "en": "With this, the person can assess their work and recognise hazards."
     },
     {
      "de": "Das Wort Fachkraft beschreibt also keine Stelle.",
-     "ar": "فكلمة فنّي لا تصف وظيفة.",
+     "ar": "فكلمة «مؤهَّل» لا تصف وظيفة.",
      "en": "So the word Fachkraft does not describe a position."
     },
     {
@@ -214,9 +214,9 @@
      "en": "The yardstick is always the specific work."
     },
     {
-     "de": "Das Gesetz spricht von Beurteilen und Gefahren erkennen.",
+     "de": "Die Vorschrift spricht von Beurteilen und Gefahren erkennen.",
      "ar": "اللائحة تتحدث عن تقييم الأعمال وتمييز المخاطر.",
-     "en": "The rule speaks of assessing work and recognizing hazards."
+     "en": "The rule speaks of assessing work and recognising hazards."
     },
     {
      "de": "Das ist mehr als nur Theorie aus dem Studium.",
@@ -244,14 +244,14 @@
      "en": "The term is not a job title."
     },
     {
-     "de": "Er beschreibt eine Fähigkeit, die die Regel definiert.",
+     "de": "Er beschreibt eine Fähigkeit, die in der Vorschrift definiert ist.",
      "ar": "إنه يصف قدرة تحددها اللائحة.",
-     "en": "It describes an ability that the rule defines."
+     "en": "It describes an ability that is defined in the rule."
     },
     {
-     "de": "Üblich ist ein Nachweis durch Ausbildung, Meister, Techniker oder Ingenieurabschluss.",
-     "ar": "المعتاد إثباتها بتدريب مهني أو شهادة ماستر أو فنّي أو مهندس.",
-     "en": "Proof is usually a vocational qualification, a master, technician or engineering degree."
+     "de": "Üblich ist ein Nachweis durch Berufsausbildung, Meisterbrief, Technikerabschluss oder Ingenieurabschluss.",
+     "ar": "المعتاد إثبات ذلك بتدريب مهني أو بشهادة المايستر أو شهادة فنّي أو شهادة مهندس.",
+     "en": "Proof is usually a vocational qualification, a master craftsman's certificate, a technician's qualification or an engineering degree."
     },
     {
      "de": "Auch Praxis plus Schulung kann reichen, wenn man sie dokumentiert.",
@@ -270,7 +270,7 @@
     },
     {
      "de": "Für Schaltanlagen braucht er trotzdem Erfahrung in genau diesem Bereich.",
-     "ar": "ومع ذلك يحتاج لخبرة في هذا المجال بالذات للوحات التوزيع.",
+     "ar": "ومع ذلك يحتاج إلى خبرة في هذا المجال بالذات عند التعامل مع منظومات القطع والتوزيع.",
      "en": "For switchgear, they still need experience in exactly that area."
     },
     {
@@ -304,7 +304,7 @@
     "terms": [
      {
       "de": "EFKffT",
-      "ar": "فنّي كهرباء لأعمال محددة",
+      "ar": "الكهربائي المؤهَّل لأعمال محددة",
       "en": "Elektrofachkraft für festgelegte Tätigkeiten"
      }
     ]
@@ -312,18 +312,18 @@
    "lines": [
     {
      "de": "EFKffT heißt: Elektrofachkraft für festgelegte Tätigkeiten.",
-     "ar": "المصطلح EFKffT يعني: شخصًا مؤهَّلًا كهربائيًا لأعمال محددة.",
+     "ar": "المصطلح EFKffT يعني: كهربائيًا مؤهَّلًا لأعمال محددة.",
      "en": "EFKffT means: Elektrofachkraft für festgelegte Tätigkeiten.",
      "tts": "E-eff-Ka-eff-eff-Te heißt: Elektrofachkraft für festgelegte Tätigkeiten."
     },
     {
-     "de": "Diese Person macht nur gleichartige, sich wiederholende Arbeiten.",
+     "de": "Diese Person macht nur gleichartige, wiederkehrende Arbeiten.",
      "ar": "هذا الشخص ينفّذ أعمالًا متشابهة ومتكررة فقط.",
-     "en": "This person does only similar, repetitive work."
+     "en": "This person does only similar, recurring work."
     },
     {
      "de": "Der Unternehmer legt diese Arbeiten in einer Arbeitsanweisung fest.",
-     "ar": "يحدد صاحب العمل هذه الأعمال في تعليمات عمل.",
+     "ar": "يحدد صاحب المنشأة هذه الأعمال في تعليمات عمل.",
      "en": "The employer defines this work in a work instruction."
     },
     {
@@ -332,25 +332,19 @@
      "en": "The person needs training, an exam and on-site instruction."
     },
     {
-     "de": "Sie ist keine Elektrofachkraft und gilt außerhalb ihres Bereichs als Laie.",
-     "ar": "وهو ليس مؤهَّلًا كهربائيًا كاملًا، ويُعدّ خارج نطاقه غير مختص.",
+     "de": "Sie ist keine vollständige Elektrofachkraft und gilt außerhalb ihres Bereichs als Laie.",
+     "ar": "وهذا الشخص ليس كهربائيًا مؤهَّلًا كاملًا، ويُعدّ خارج نطاقه شخصًا غير مؤهَّل.",
      "en": "They are not a full Elektrofachkraft and count as a layperson outside their area."
     },
     {
-     "de": "Denken Sie an einen Mitarbeiter in der Produktion.",
-     "ar": "تخيّلوا موظفًا في الإنتاج.",
-     "en": "Think of an employee in production."
+     "de": "Ein Beispiel für klar begrenzte Arbeit: ein Mitarbeiter in der Produktion, der immer dieselbe Tätigkeit ausführt.",
+     "ar": "مثال لعمل محدود بوضوح: موظف في الإنتاج ينفّذ كل يوم النشاط نفسه.",
+     "en": "An example of clearly limited work: an employee in production who always does the same task."
     },
     {
-     "de": "Er tauscht jeden Tag dasselbe Bauteil an einer Maschine.",
-     "ar": "يستبدل كل يوم القطعة نفسها في آلة.",
-     "en": "Every day, they replace the same component on a machine."
-    },
-    {
-     "de": "Dafür kann der Betrieb eine EFKffT ausbilden.",
-     "ar": "ولذلك يمكن للمنشأة تأهيله ليصبح EFKffT.",
-     "en": "For this, the company can train an EFKffT.",
-     "tts": "Dafür kann der Betrieb eine E-eff-Ka-eff-eff-Te ausbilden."
+     "de": "Ob das passt, legt der Unternehmer in der Arbeitsanweisung fest.",
+     "ar": "وهل يناسب ذلك، يحدده صاحب المنشأة في تعليمات العمل.",
+     "en": "Whether that fits is decided by the employer in the work instruction."
     },
     {
      "de": "Die EFKffT ist also eine Lösung für klar begrenzte Aufgaben.",
@@ -379,7 +373,7 @@
     "terms": [
      {
       "de": "EUP",
-      "ar": "شخص موجَّه كهروتقنيًا",
+      "ar": "شخص مُلقَّن كهروتقنيًا",
       "en": "elektrotechnisch unterwiesene Person"
      }
     ]
@@ -387,18 +381,18 @@
    "lines": [
     {
      "de": "Die EUP ist die elektrotechnisch unterwiesene Person.",
-     "ar": "المقصود بـ EUP الشخص الذي تلقّى توجيهًا كهروتقنيًا.",
+     "ar": "المقصود بـ EUP هو الشخص المُلقَّن كهروتقنيًا.",
      "en": "The EUP is the electrotechnically instructed person.",
      "tts": "Die E-U-Pe ist die elektrotechnisch unterwiesene Person."
     },
     {
      "de": "Eine Elektrofachkraft hat sie über Aufgaben, Gefahren und Schutzmaßnahmen unterrichtet.",
-     "ar": "وقد وجّهها شخص مؤهَّل حول المهام والمخاطر وإجراءات الحماية.",
+     "ar": "وقد قدّم له كهربائي مؤهَّل التوجيه والتعليمات حول المهام والمخاطر وإجراءات الحماية.",
      "en": "An Elektrofachkraft has instructed them on tasks, hazards and protective measures."
     },
     {
      "de": "Sie darf nur Tätigkeiten ausführen, in denen sie unterwiesen wurde.",
-     "ar": "لا يحق لها سوى تنفيذ الأعمال التي جرى توجيهها فيها.",
+     "ar": "لا يحق له سوى تنفيذ الأعمال التي تلقّى فيها التوجيه والتعليمات.",
      "en": "They may only do activities in which they were instructed."
     },
     {
@@ -412,14 +406,9 @@
      "en": "One example is replacing a light source."
     },
     {
-     "de": "Die Unterweisung kommt von einer Elektrofachkraft.",
-     "ar": "يقدّم التوجيه شخص مؤهَّل كهربائيًا.",
-     "en": "The instruction comes from an Elektrofachkraft."
-    },
-    {
-     "de": "Sie ist keine einmalige Sache und gehört zur Organisation im Betrieb.",
-     "ar": "وهي ليست أمرًا لمرة واحدة بل جزء من التنظيم.",
-     "en": "It is not a one-time matter but part of the company's organization."
+     "de": "Sie gehört zur Organisation im Betrieb.",
+     "ar": "وهي جزء من التنظيم في المنشأة.",
+     "en": "It is part of the company's organisation."
     },
     {
      "de": "Die EUP kennt ihre Grenzen und fragt im Zweifel nach.",
@@ -429,7 +418,7 @@
     },
     {
      "de": "Typisch ist auch das Betätigen eines Leitungsschutzschalters.",
-     "ar": "ومن الأمثلة المعتادة تشغيل قاطع حماية الخط.",
+     "ar": "ومن الأمثلة المعتادة تشغيل القاطع الآلي.",
      "en": "Operating a circuit breaker is also typical."
     }
    ]
@@ -447,7 +436,7 @@
     "terms": [
      {
       "de": "Laie",
-      "ar": "غير مختص",
+      "ar": "شخص غير مؤهَّل",
       "en": "layperson"
      }
     ]
@@ -455,18 +444,13 @@
    "lines": [
     {
      "de": "Ein elektrotechnischer Laie darf keine elektrotechnischen Arbeiten selbstständig ausführen.",
-     "ar": "غير المختص كهروتقنيًا لا يجوز له تنفيذ أعمال كهروتقنية بشكل مستقل.",
+     "ar": "الشخص غير المؤهَّل لا يجوز له تنفيذ أعمال كهربائية بشكل مستقل.",
      "en": "A layperson may not carry out electrical work independently."
     },
     {
      "de": "Ausnahmen sind sehr einfache Handgriffe.",
      "ar": "الاستثناءات هي حركات يدوية بسيطة جدًا.",
      "en": "Exceptions are very simple actions."
-    },
-    {
-     "de": "Zum Beispiel das Ein- und Ausschalten einer Anlage.",
-     "ar": "مثل تشغيل منشأة وإيقافها.",
-     "en": "For example, switching a system on and off."
     },
     {
      "de": "Dabei darf keine Gefahr bestehen, spannungsführende Teile zu berühren.",
@@ -480,12 +464,12 @@
     },
     {
      "de": "Rufen Sie dann eine Elektrofachkraft.",
-     "ar": "نادوا حينها شخصًا مؤهَّلًا كهربائيًا.",
+     "ar": "استدعوا حينها كهربائيًا مؤهَّلًا.",
      "en": "Then call an Elektrofachkraft."
     },
     {
      "de": "Auch ein Mitarbeiter im Büro ist meist ein Laie.",
-     "ar": "وموظف المكتب غالبًا غير مختص أيضًا.",
+     "ar": "وموظف المكتب غالبًا شخص غير مؤهَّل أيضًا.",
      "en": "An office worker is usually also a layperson."
     },
     {
@@ -501,7 +485,7 @@
     "kicker": "Vergleich",
     "heading": "Die vier Stufen",
     "items": [
-     "EFK | Arbeitsgebiet beurteilen",
+     "Elektrofachkraft | Arbeitsgebiet beurteilen",
      "EFKffT | festgelegte Tätigkeiten",
      "EUP | unterwiesene Aufgaben",
      "Laie | nur einfache Handgriffe"
@@ -515,24 +499,24 @@
     },
     {
      "de": "Die Elektrofachkraft beurteilt ihr Arbeitsgebiet selbst.",
-     "ar": "يقيّم المؤهَّل كهربائيًا مجال عمله بنفسه.",
+     "ar": "يقيّم الكهربائي المؤهَّل مجال عمله بنفسه.",
      "en": "The Elektrofachkraft assesses their own field of work."
     },
     {
      "de": "Die EFKffT arbeitet nur im festgelegten Rahmen.",
-     "ar": "و EFKffT يعمل ضمن إطار محدد فقط.",
+     "ar": "أما EFKffT فيعمل ضمن إطار محدد فقط.",
      "en": "The EFKffT works only within the defined scope.",
      "tts": "Die E-eff-Ka-eff-eff-Te arbeitet nur im festgelegten Rahmen."
     },
     {
      "de": "Die EUP führt nur unterwiesene Aufgaben aus.",
-     "ar": "و EUP ينفّذ مهام جرى توجيهه فيها فقط.",
+     "ar": "أما EUP فينفّذ فقط المهام التي تلقّى التوجيه والتعليمات بشأنها.",
      "en": "The EUP performs only instructed tasks.",
      "tts": "Die E-U-Pe führt nur unterwiesene Aufgaben aus."
     },
     {
      "de": "Der Laie macht nur einfache Handgriffe.",
-     "ar": "أما غير المختص فيقوم بحركات بسيطة فقط.",
+     "ar": "أما الشخص غير المؤهَّل فيقوم بحركات بسيطة فقط.",
      "en": "The layperson does only simple actions."
     },
     {
@@ -546,9 +530,10 @@
      "en": "With each level, the permitted area becomes smaller."
     },
     {
-     "de": "Alle drei unteren Stufen arbeiten unter Anleitung der Elektrofachkraft.",
-     "ar": "المستويات الثلاثة الدنيا تعمل بتوجيه من المؤهَّل كهربائيًا.",
-     "en": "The three lower levels work under the guidance of the Elektrofachkraft."
+     "de": "Die EUP arbeitet unter Leitung und Aufsicht einer Elektrofachkraft.",
+     "ar": "أما الشخص المُلقَّن كهروتقنيًا (EUP) فيعمل تحت إدارة وإشراف الكهربائي المؤهَّل.",
+     "en": "The EUP works under the direction and supervision of an Elektrofachkraft.",
+     "tts": "Die E-U-Pe arbeitet unter Leitung und Aufsicht einer Elektrofachkraft."
     }
    ]
   },
@@ -558,7 +543,7 @@
     "kicker": "Aufsicht",
     "heading": "Leitung und Aufsicht",
     "items": [
-     "Die Fachkraft muss nicht ständig da sein",
+     "Bei der EUP: nicht ständig anwesend",
      "Sie prüft in angemessenen Abständen",
      "Anweisungen müssen befolgt werden"
     ]
@@ -566,13 +551,14 @@
    "lines": [
     {
      "de": "Was bedeutet Leitung und Aufsicht?",
-     "ar": "ماذا يعني الإشراف والتوجيه؟",
+     "ar": "ماذا تعني الإدارة والإشراف؟",
      "en": "What do direction and supervision mean?"
     },
     {
-     "de": "Die Elektrofachkraft muss nicht ständig anwesend sein.",
-     "ar": "لا يلزم أن يكون المؤهَّل حاضرًا باستمرار.",
-     "en": "The Elektrofachkraft need not be present all the time."
+     "de": "Bei der EUP muss die Elektrofachkraft nicht ständig anwesend sein.",
+     "ar": "في حالة EUP لا يلزم أن يكون الكهربائي المؤهَّل حاضرًا باستمرار.",
+     "en": "For the EUP, the Elektrofachkraft need not be present all the time.",
+     "tts": "Bei der E-U-Pe muss die Elektrofachkraft nicht ständig anwesend sein."
     },
     {
      "de": "Sie muss sich aber in angemessenen Abständen überzeugen.",
@@ -618,14 +604,14 @@
     "heading": "Unternehmer und VEFK",
     "items": [
      "Organisation liegt beim Unternehmer",
-     "Fachverantwortung: Elektrofachkraft",
+     "Fachliche Verantwortung: die VEFK",
      "VEFK: Verantwortliche Elektrofachkraft",
      "Aufgaben schriftlich übertragen"
     ],
     "terms": [
      {
       "de": "VEFK",
-      "ar": "مسؤول كهربائي مؤهَّل",
+      "ar": "الكهربائي المؤهَّل المسؤول",
       "en": "Verantwortliche Elektrofachkraft"
      }
     ]
@@ -633,22 +619,22 @@
    "lines": [
     {
      "de": "Im Betrieb trägt der Unternehmer die Organisationsverantwortung.",
-     "ar": "في المنشأة يتحمل صاحب العمل مسؤولية التنظيم.",
-     "en": "In a company, the employer bears organizational responsibility."
+     "ar": "في كل منشأة يتحمل صاحبها مسؤولية التنظيم.",
+     "en": "In a company, the employer bears organisational responsibility."
     },
     {
      "de": "Er wählt die Personen aus und beaufsichtigt die Organisation.",
      "ar": "يختار الأشخاص ويشرف على التنظيم.",
-     "en": "They select the people and oversee the organization."
+     "en": "They select the people and oversee the organisation."
     },
     {
-     "de": "Die fachliche Verantwortung trägt die Elektrofachkraft.",
-     "ar": "أما المسؤولية الفنية فيتحملها المؤهَّل كهربائيًا.",
-     "en": "The technical responsibility lies with the Elektrofachkraft."
+     "de": "Die fachliche Verantwortung trägt die Verantwortliche Elektrofachkraft.",
+     "ar": "أما المسؤولية الفنية فيتحملها الكهربائي المؤهَّل المسؤول.",
+     "en": "The technical responsibility lies with the responsible Elektrofachkraft."
     },
     {
      "de": "Die VEFK ist die Verantwortliche Elektrofachkraft.",
-     "ar": "المقصود بـ VEFK المسؤول الكهربائي المؤهَّل.",
+     "ar": "المقصود بـ VEFK هو الكهربائي المؤهَّل المسؤول.",
      "en": "The VEFK is the responsible Elektrofachkraft.",
      "tts": "Die Fau-E-eff-Ka ist die Verantwortliche Elektrofachkraft."
     },
@@ -659,7 +645,7 @@
     },
     {
      "de": "Der Unternehmer kann seine Verantwortung nicht einfach abgeben.",
-     "ar": "لا يستطيع صاحب العمل التخلي عن مسؤوليته ببساطة.",
+     "ar": "لا يستطيع صاحب المنشأة التخلي عن مسؤوليته ببساطة.",
      "en": "The employer cannot simply give away their responsibility."
     },
     {
@@ -669,8 +655,8 @@
     },
     {
      "de": "Die Organisation umfasst Auswahl, Unterweisung und Kontrolle.",
-     "ar": "يشمل التنظيم الاختيار والتوجيه والمراقبة.",
-     "en": "The organization includes selection, instruction and control."
+     "ar": "يشمل التنظيم الاختيار والتوجيه والتعليمات والمراقبة.",
+     "en": "The organisation includes selection, instruction and control."
     },
     {
      "de": "Sie sehen: Qualifikation allein genügt im Betrieb nicht.",
@@ -688,13 +674,13 @@
      "Bereich und Befugnisse festlegen",
      "Beide Seiten unterschreiben",
      "Grundlage: Arbeitsschutzrecht",
-     "Ob nötig: Sache der Organisation"
+     "Bestellung: Frage der Organisation"
     ]
    },
    "lines": [
     {
      "de": "Der Unternehmer kann Pflichten an die VEFK übertragen.",
-     "ar": "يمكن لصاحب العمل تفويض واجبات إلى VEFK.",
+     "ar": "يمكن لصاحب المنشأة تفويض واجبات إلى الكهربائي المؤهَّل المسؤول.",
      "en": "The employer can delegate duties to the VEFK.",
      "tts": "Der Unternehmer kann Pflichten an die Fau-E-eff-Ka übertragen."
     },
@@ -710,8 +696,8 @@
     },
     {
      "de": "Ob ein Betrieb eine VEFK bestellt, hängt von seiner Organisation ab.",
-     "ar": "وجود VEFK من عدمه يتوقف على تنظيم المنشأة.",
-     "en": "Whether a company appoints a VEFK depends on its organization.",
+     "ar": "تعيين منشأة لكهربائي مؤهَّل مسؤول من عدمه يتوقف على تنظيمها.",
+     "en": "Whether a company appoints a VEFK depends on its organisation.",
      "tts": "Ob ein Betrieb eine Fau-E-eff-Ka bestellt, hängt von seiner Organisation ab."
     },
     {
@@ -733,11 +719,6 @@
      "de": "Die Übertragung stützt sich auf das Arbeitsschutzrecht.",
      "ar": "يستند التفويض إلى قانون حماية العمل.",
      "en": "The delegation is based on occupational safety law."
-    },
-    {
-     "de": "Typische Aufgaben sind die Auswahl von Personen und die Organisation von Unterweisungen.",
-     "ar": "من المهام المعتادة اختيار الأشخاص وتنظيم التوجيه.",
-     "en": "Typical tasks are selecting people and organizing instruction."
     }
    ]
   },
@@ -750,12 +731,12 @@
      "Geführt vom Netzbetreiber",
      "Rechtsgrundlage: § 13 NAV",
      "Nur Nachweis der fachlichen Qualifikation",
-     "Mindestens eine VEFK im Unternehmen"
+     "Mindestens eine VEFK erwartet"
     ],
     "terms": [
      {
       "de": "Installateurverzeichnis",
-      "ar": "سجل المقاولين المعتمدين",
+      "ar": "سجل المُركِّبين المعتمدين",
       "en": "installer register"
      }
     ]
@@ -763,12 +744,12 @@
    "lines": [
     {
      "de": "Für Arbeiten am Netzanschluss gibt es eine besondere Regel.",
-     "ar": "للأعمال المتعلقة بالاتصال بالشبكة توجد قاعدة خاصة.",
+     "ar": "للأعمال المتعلقة بالتوصيل بالشبكة توجد قاعدة خاصة.",
      "en": "There is a special rule for work on the grid connection."
     },
     {
      "de": "Nach § 13 NAV führt der Netzbetreiber ein Installateurverzeichnis.",
-     "ar": "وفق المادة 13 من NAV يمسك مشغّل الشبكة سجل المقاولين.",
+     "ar": "وفق المادة 13 من NAV يمسك مشغّل الشبكة سجل المُركِّبين المعتمدين.",
      "en": "Under § 13 NAV, the grid operator keeps an installer register.",
      "tts": "Nach Paragraf dreizehn En-A-Fau führt der Netzbetreiber ein Installateurverzeichnis."
     },
@@ -778,10 +759,10 @@
      "en": "Registration may depend only on proof of professional qualification."
     },
     {
-     "de": "Üblich ist mindestens eine VEFK im Unternehmen.",
-     "ar": "المعتاد وجود VEFK واحد على الأقل في الشركة.",
-     "en": "Usually, the company has at least one VEFK.",
-     "tts": "Üblich ist mindestens eine Fau-E-eff-Ka im Unternehmen."
+     "de": "Nach den Grundsätzen von BDEW und ZVEH wird mindestens eine VEFK im Unternehmen erwartet.",
+     "ar": "وفق مبادئ BDEW وZVEH يُتوقع وجود VEFK واحد على الأقل في الشركة.",
+     "en": "Under the BDEW/ZVEH principles, at least one VEFK is expected in the company.",
+     "tts": "Nach den Grundsätzen von Be-De-E-We und Zet-Fau-E-Ha wird mindestens eine Fau-E-eff-Ka im Unternehmen erwartet."
     },
     {
      "de": "Die Einzelheiten unterscheiden sich je nach Netzbetreiber.",
@@ -832,7 +813,7 @@
    "lines": [
     {
      "de": "Das Elektrotechniker-Handwerk steht in Anlage A der Handwerksordnung.",
-     "ar": "حرفة فني الكهرباء مدرجة في الملحق A من قانون الحِرَف HwO.",
+     "ar": "حرفة فني الكهرباء مدرجة في الملحق A من قانون الحِرَف (HwO) الألماني.",
      "en": "The electrical technician trade is listed in Annex A of the HwO."
     },
     {
@@ -842,13 +823,13 @@
     },
     {
      "de": "Es gibt Wege ohne Meisterbrief, zum Beispiel für erfahrene Gesellen nach § 7b.",
-     "ar": "توجد طرق بدون شهادة المايستر، مثل مسار العمال القدامى وفق § 7b.",
+     "ar": "توجد طرق بدون شهادة المايستر، مثل مسار الحِرَفيين ذوي الخبرة وفق المادة 7b من القانون ذاته.",
      "en": "There are routes without a master certificate, for example for experienced journeymen under § 7b.",
      "tts": "Es gibt Wege ohne Meisterbrief, zum Beispiel für erfahrene Gesellen nach Paragraf sieben be."
     },
     {
      "de": "Auch eine Ausnahmebewilligung nach § 8 ist in bestimmten Fällen möglich.",
-     "ar": "كما يمكن في حالات معينة الحصول على استثناء وفق § 8.",
+     "ar": "كما يمكن في حالات معينة الحصول على استثناء وفق المادة 8 من القانون ذاته.",
      "en": "An exception permit under § 8 is also possible in certain cases.",
      "tts": "Auch eine Ausnahmebewilligung nach Paragraf acht ist in bestimmten Fällen möglich."
     },
@@ -888,24 +869,24 @@
    },
    "lines": [
     {
-     "de": "Auch Ingenieure können in die Handwerksrolle kommen.",
+     "de": "Auch Ingenieure können in die Handwerksrolle eingetragen werden.",
      "ar": "يمكن للمهندسين أيضًا التسجيل في سجل الحِرَف.",
      "en": "Engineers can also be entered in the trade register."
     },
     {
-     "de": "Nach § 7 Abs. 2 HwO zählt ein Hochschulabschluss in der passenden Fachrichtung.",
-     "ar": "وفق § 7 الفقرة 2 من HwO يُعتدّ بشهادة جامعية في التخصص المناسب.",
-     "en": "Under § 7 para. 2 HwO, a university degree in the matching field counts.",
-     "tts": "Nach Paragraf sieben Absatz zwei Ha-Fau-O zählt ein Hochschulabschluss in der passenden Fachrichtung."
+     "de": "Nach § 7 Abs. 2 HwO kann ein Hochschulabschluss in der passenden Fachrichtung zählen.",
+     "ar": "وفق المادة 7 الفقرة 2 من HwO قد يُعتدّ بشهادة جامعية في التخصص المناسب.",
+     "en": "Under § 7 para. 2 HwO, a university degree in the matching field can count.",
+     "tts": "Nach Paragraf sieben Absatz zwei Ha-We-O kann ein Hochschulabschluss in der passenden Fachrichtung zählen."
     },
     {
-     "de": "Die Handwerkskammer prüft das im Einzelfall.",
-     "ar": "وتفحص غرفة الحِرَف ذلك في كل حالة.",
-     "en": "The Handwerkskammer checks this case by case."
+     "de": "Die Handwerkskammer prüft das im Einzelfall. Wie ein ausländischer Abschluss behandelt wird, klären Sie dort.",
+     "ar": "وتفحص غرفة الحِرَف ذلك في كل حالة. أما كيفية التعامل مع شهادة أجنبية فاسألوا عنها هناك.",
+     "en": "The Handwerkskammer checks this case by case. How a foreign degree is treated, clarify with them."
     },
     {
      "de": "Für das Installateurverzeichnis gibt es zusätzlich einen Sachkundenachweis.",
-     "ar": "وللتسجيل في سجل المقاولين يوجد أيضًا إثبات للكفاءة.",
+     "ar": "وللتسجيل في سجل المُركِّبين المعتمدين يوجد أيضًا إثبات للكفاءة.",
      "en": "For the installer register there is an additional competence certificate."
     },
     {
@@ -915,7 +896,7 @@
     },
     {
      "de": "Das Studium muss zur Elektrotechnik passen.",
-     "ar": "يجب أن تتناسب الدراسة مع الكهروتقنية.",
+     "ar": "يجب أن تتناسب الدراسة مع الهندسة الكهربائية.",
      "en": "The degree must fit electrical engineering."
     },
     {
@@ -959,9 +940,9 @@
      "en": "An engineering degree does not replace experience in the field."
     },
     {
-     "de": "Oft gilt ein Ingenieur als Nachweis für die Elektrofachkraft.",
-     "ar": "غالبًا تُعدّ شهادة المهندس إثباتًا للتأهيل الكهربائي.",
-     "en": "An engineer often counts as proof of being an Elektrofachkraft."
+     "de": "Ein Ingenieurabschluss kann Teil des Nachweises für die Elektrofachkraft sein.",
+     "ar": "قد تكون الشهادة الهندسية جزءًا من إثبات صفة الكهربائي المؤهَّل.",
+     "en": "An engineering degree can be part of the proof of being an Elektrofachkraft."
     },
     {
      "de": "Entscheidend sind Gebiet, Erfahrung und die Beauftragung durch den Arbeitgeber.",
@@ -970,7 +951,7 @@
     },
     {
      "de": "Eine eigene Installationsfirma am Netz braucht aber den Weg über Handwerksrolle und Verzeichnis.",
-     "ar": "أما شركة تركيبات خاصة على الشبكة فتحتاج إلى مسار سجل الحِرَف وسجل المقاولين.",
+     "ar": "أما شركة تركيبات خاصة على الشبكة فتحتاج إلى مسار سجل الحِرَف وسجل المُركِّبين المعتمدين.",
      "en": "But your own installation company on the grid needs the route via trade register and installer register."
     },
     {
@@ -1007,9 +988,9 @@
     "heading": "Der Titel Ingenieur",
     "items": [
      "Geschützt durch Landesgesetze",
-     "16 Ingenieurgesetze der Länder",
-     "Hochschulstudium in Technik nötig",
-     "Unbefugtes Führen kann bestraft werden"
+     "Regelung in jedem der 16 Bundesländer",
+     "Meist: technisches Hochschulstudium",
+     "Unbefugtes Führen: ggf. Ordnungswidrigkeit"
     ]
    },
    "lines": [
@@ -1024,9 +1005,9 @@
      "en": "The rules are in the engineering laws of the federal states."
     },
     {
-     "de": "Es gibt also sechzehn verschiedene Gesetze.",
-     "ar": "أي توجد ستة عشر قانونًا مختلفًا.",
-     "en": "So there are sixteen different laws."
+     "de": "Es gibt also in jedem der sechzehn Bundesländer eine eigene Regelung.",
+     "ar": "أي توجد في كل ولاية من الولايات الست عشرة تنظيم خاص.",
+     "en": "So each of the sixteen federal states has its own regulation."
     },
     {
      "de": "Meist braucht man ein technisches Hochschulstudium.",
@@ -1036,7 +1017,7 @@
     {
      "de": "Unbefugtes Führen des Titels kann eine Ordnungswidrigkeit sein.",
      "ar": "استخدام اللقب دون وجه حق قد يُعدّ مخالفة إدارية.",
-     "en": "Using the title without authorization can be an administrative offense."
+     "en": "Using the title without authorisation can be an administrative offence."
     },
     {
      "de": "Titel und Qualifikation sind zwei verschiedene Dinge.",
@@ -1060,7 +1041,7 @@
     },
     {
      "de": "Das ist ein anderes Thema als die Elektrofachkraft.",
-     "ar": "وهذا موضوع مختلف عن المؤهَّل كهربائيًا.",
+     "ar": "وهذا موضوع مختلف عن الكهربائي المؤهَّل.",
      "en": "That is a different topic from the Elektrofachkraft."
     }
    ]
@@ -1072,7 +1053,7 @@
     "heading": "Prokura und ppa",
     "items": [
      "Prokura: § 49 HGB",
-     "Alle Geschäfte des Handelsgewerbes",
+     "Grundsätzlich alle Geschäfte",
      "Unterschrift mit Zusatz ppa",
      "Handlungsvollmacht ist enger"
     ],
@@ -1091,14 +1072,14 @@
      "en": "Now to signing authority in a company."
     },
     {
-     "de": "Ein Prokurist darf nach § 49 HGB alle Geschäfte eines Handelsgewerbes führen.",
-     "ar": "يحق للوكيل التجاري وفق § 49 من HGB إجراء جميع أعمال التجارة.",
-     "en": "A Prokurist may conduct all business of a trade under § 49 HGB.",
-     "tts": "Ein Prokurist darf nach Paragraf neunundvierzig Ha-Ge-Be alle Geschäfte eines Handelsgewerbes führen."
+     "de": "Ein Prokurist darf nach § 49 HGB grundsätzlich alle Geschäfte eines Handelsgewerbes führen; für Grundstücke braucht er eine besondere Befugnis.",
+     "ar": "يحق لحامل التوكيل التجاري الشامل وفق § 49 من HGB إجراء جميع أعمال التجارة من حيث المبدأ، وللعقارات يحتاج صلاحية خاصة.",
+     "en": "Under § 49 HGB a Prokurist may in principle conduct all business of a trade; for real estate a special authorisation is needed.",
+     "tts": "Ein Prokurist darf nach Paragraf neunundvierzig Ha-Ge-Be grundsätzlich alle Geschäfte eines Handelsgewerbes führen; für Grundstücke braucht er eine besondere Befugnis."
     },
     {
      "de": "Er unterschreibt mit dem Zusatz ppa.",
-     "ar": "ويوقّع مع الإضافة ppa.",
+     "ar": "ويوقّع مع إضافة ppa إلى توقيعه.",
      "en": "They sign with the addition ppa.",
      "tts": "Er unterschreibt mit dem Zusatz pe-pe-a."
     },
@@ -1109,8 +1090,8 @@
     },
     {
      "de": "Eine Handlungsvollmacht ist enger und lässt sich einschränken.",
-     "ar": "أما التفويض العادي فهو أضيق ويمكن تقييده.",
-     "en": "A general authority is narrower and can be limited."
+     "ar": "أما التفويض التجاري المحدود (Handlungsvollmacht) فهو أضيق ويمكن تقييده.",
+     "en": "A Handlungsvollmacht (limited commercial authority) is narrower and can be restricted."
     },
     {
      "de": "Die Prokura wird auch ins Handelsregister eingetragen.",
@@ -1118,9 +1099,9 @@
      "en": "The Prokura is also entered in the commercial register."
     },
     {
-     "de": "Im Betrieb haben nur wenige Personen diese Befugnis.",
-     "ar": "في المنشأة لا يملك هذه الصلاحية إلا قلة.",
-     "en": "In a company, only a few people have this authority."
+     "de": "Nicht jede Person im Betrieb hat diese Befugnis.",
+     "ar": "ليس كل شخص في المنشأة يملك هذه الصلاحية.",
+     "en": "Not every person in a company has this authority."
     },
     {
      "de": "Ein Ingenieur hat sie nicht automatisch.",
@@ -1158,9 +1139,9 @@
      "en": "Technical approval is something different from Prokura."
     },
     {
-     "de": "Wer technisch freigibt, regelt die Firma intern.",
-     "ar": "من يعتمد فنيًا تحدده الشركة داخليًا.",
-     "en": "Who gives technical approval is regulated internally by the company."
+     "de": "Die Firma regelt intern, wer technisch freigibt.",
+     "ar": "تحدد الشركة داخليًا من يعتمد فنيًا.",
+     "en": "The company regulates internally who gives technical approval."
     },
     {
      "de": "Fragen Sie deshalb nach Ihrer schriftlichen Beauftragung.",
@@ -1173,11 +1154,6 @@
      "en": "Clarify for which area you may sign."
     },
     {
-     "de": "Ein Prüfbericht trägt oft zwei Namen: den Ersteller und den Freigebenden.",
-     "ar": "غالبًا يحمل تقرير الفحص اسمين: معدّه ومن يعتمده.",
-     "en": "A test report often has two names: the author and the approver."
-    },
-    {
      "de": "Das ist eine Frage der Firmenregeln.",
      "ar": "هذه مسألة تتعلق بقواعد الشركة.",
      "en": "That is a matter of company rules."
@@ -1188,9 +1164,9 @@
      "en": "Record your approvals in writing and in a traceable way."
     },
     {
-     "de": "So schützen Sie sich und Ihr Team.",
-     "ar": "هكذا تحمون أنفسكم وفريقكم.",
-     "en": "This protects you and your team."
+     "de": "So bleibt nachvollziehbar, wer was freigegeben hat.",
+     "ar": "هكذا يبقى واضحًا من اعتمد ماذا.",
+     "en": "This keeps it traceable who approved what."
     }
    ]
   },
@@ -1248,22 +1224,28 @@
     {
      "de": "Fassen wir zusammen.",
      "ar": "لنلخّص.",
-     "en": "Let us summarize."
+     "en": "Let us summarise."
     },
     {
      "de": "Eine Elektrofachkraft hat Ausbildung, Erfahrung und Kenntnis der Regeln.",
-     "ar": "المؤهَّل كهربائيًا لديه تأهيل وخبرة ومعرفة بالقواعد.",
+     "ar": "الكهربائي المؤهَّل لديه تأهيل وخبرة ومعرفة بالقواعد.",
      "en": "An Elektrofachkraft has training, experience and knowledge of the rules."
     },
     {
      "de": "EFKffT, EUP und Laie haben engere Grenzen.",
-     "ar": "و EFKffT و EUP وغير المختص لهم حدود أضيق.",
+     "ar": "أما EFKffT وEUP والشخص غير المؤهَّل فلهم حدود أضيق.",
      "en": "The EFKffT, EUP and layperson have narrower limits.",
      "tts": "E-eff-Ka-eff-eff-Te, E-U-Pe und Laie haben engere Grenzen."
     },
     {
+     "de": "Der Unternehmer organisiert, die VEFK trägt die fachliche Verantwortung. Titel und Prokura sind eigene Themen.",
+     "ar": "صاحب المنشأة ينظّم، والكهربائي المؤهَّل المسؤول يتحمل المسؤولية الفنية. واللقب والتوكيل التجاري موضوعان مستقلان.",
+     "en": "The employer organises, the VEFK bears the technical responsibility. Title and Prokura are separate topics.",
+     "tts": "Der Unternehmer organisiert, die Fau-E-eff-Ka trägt die fachliche Verantwortung. Titel und Prokura sind eigene Themen."
+    },
+    {
      "de": "Für den Netzanschluss zählen Handwerksrolle und Installateurverzeichnis.",
-     "ar": "وللاتصال بالشبكة يهمّ سجل الحِرَف وسجل المقاولين.",
+     "ar": "وللتوصيل بالشبكة يهمّ سجل الحِرَف وسجل المُركِّبين المعتمدين.",
      "en": "For the grid connection, the trade register and installer register matter."
     },
     {
@@ -1286,72 +1268,72 @@
  ],
  "glossary": [
   {
-   "de": "Elektrofachkraft",
-   "ar": "شخص مؤهَّل كهربائيًا",
-   "en": "qualified electrician (Elektrofachkraft)"
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "en": "qualified electrical person (Elektrofachkraft)"
   },
   {
-   "de": "EFKffT",
-   "ar": "شخص مؤهَّل لأعمال محددة",
+   "de": "die EFKffT",
+   "ar": "الكهربائي المؤهَّل لأعمال محددة",
    "en": "Elektrofachkraft for defined tasks"
   },
   {
-   "de": "elektrotechnisch unterwiesene Person",
-   "ar": "شخص موجَّه كهروتقنيًا",
+   "de": "die elektrotechnisch unterwiesene Person (EUP)",
+   "ar": "شخص مُلقَّن كهروتقنيًا",
    "en": "electrotechnically instructed person"
   },
   {
-   "de": "Laie",
-   "ar": "غير مختص",
+   "de": "der Laie",
+   "ar": "شخص غير مؤهَّل",
    "en": "layperson"
   },
   {
-   "de": "Verantwortliche Elektrofachkraft",
-   "ar": "مسؤول كهربائي مؤهَّل",
+   "de": "die Verantwortliche Elektrofachkraft (VEFK)",
+   "ar": "الكهربائي المؤهَّل المسؤول",
    "en": "responsible Elektrofachkraft"
   },
   {
-   "de": "Leitung und Aufsicht",
-   "ar": "توجيه وإشراف",
+   "de": "die Leitung und Aufsicht",
+   "ar": "إدارة وإشراف",
    "en": "direction and supervision"
   },
   {
-   "de": "Arbeitsanweisung",
+   "de": "die Arbeitsanweisung",
    "ar": "تعليمات عمل",
    "en": "work instruction"
   },
   {
-   "de": "Installateurverzeichnis",
-   "ar": "سجل المقاولين المعتمدين",
+   "de": "das Installateurverzeichnis",
+   "ar": "سجل المُركِّبين المعتمدين",
    "en": "installer register"
   },
   {
-   "de": "Netzbetreiber",
+   "de": "der Netzbetreiber",
    "ar": "مشغّل الشبكة",
    "en": "grid operator"
   },
   {
-   "de": "Handwerksrolle",
+   "de": "die Handwerksrolle",
    "ar": "سجل الحِرَف",
    "en": "trade register"
   },
   {
-   "de": "Meisterpflicht",
+   "de": "die Meisterpflicht",
    "ar": "إلزام شهادة المايستر",
    "en": "master craftsman requirement"
   },
   {
-   "de": "Prokura",
+   "de": "die Prokura",
    "ar": "توكيل تجاري شامل",
    "en": "commercial power of attorney"
   },
   {
-   "de": "Handlungsvollmacht",
+   "de": "die Handlungsvollmacht",
    "ar": "تفويض تجاري محدود",
-   "en": "general commercial authority"
+   "en": "limited commercial authority"
   },
   {
-   "de": "Ingenieurgesetz",
+   "de": "das Ingenieurgesetz",
    "ar": "قانون المهندسين",
    "en": "engineering act (state law)"
   }
@@ -1360,7 +1342,7 @@
   {
    "q": {
     "de": "Was gehört zur Definition der Elektrofachkraft?",
-    "ar": "ما الذي يدخل في تعريف المؤهَّل كهربائيًا؟",
+    "ar": "ما الذي يدخل في تعريف الكهربائي المؤهَّل؟",
     "en": "What belongs to the definition of an Elektrofachkraft?"
    },
    "options": [
@@ -1385,7 +1367,7 @@
   {
    "q": {
     "de": "Was darf die EFKffT?",
-    "ar": "ماذا يحق للـ EFKffT؟",
+    "ar": "ماذا يحق للكهربائي المؤهَّل لأعمال محددة (EFKffT) فعله؟",
     "en": "What may the EFKffT do?"
    },
    "options": [
@@ -1395,22 +1377,22 @@
      "en": "All electrical work"
     },
     {
+     "de": "Nur Netzanschlüsse",
+     "ar": "أعمال التوصيل بالشبكة فقط",
+     "en": "Only grid connections"
+    },
+    {
      "de": "Nur festgelegte, gleichartige Arbeiten",
      "ar": "أعمالًا محددة ومتشابهة فقط",
      "en": "Only defined, similar work"
-    },
-    {
-     "de": "Nur Netzanschlüsse",
-     "ar": "وصلات الشبكة فقط",
-     "en": "Only grid connections"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
     "de": "Wer führt das Installateurverzeichnis?",
-    "ar": "من يمسك سجل المقاولين المعتمدين؟",
+    "ar": "من يمسك سجل المُركِّبين المعتمدين؟",
     "en": "Who keeps the installer register?"
    },
    "options": [
@@ -1425,9 +1407,9 @@
      "en": "The engineers' chamber"
     },
     {
-     "de": "Das Finanzamt",
-     "ar": "مكتب الضرائب",
-     "en": "The tax office"
+     "de": "Die Handwerkskammer",
+     "ar": "غرفة الحِرَف",
+     "en": "The Handwerkskammer"
     }
    ],
    "answer": 0
@@ -1435,15 +1417,10 @@
   {
    "q": {
     "de": "Wie unterschreibt ein Prokurist?",
-    "ar": "كيف يوقّع الوكيل التجاري؟",
+    "ar": "كيف يوقّع حامل التوكيل التجاري الشامل؟",
     "en": "How does a Prokurist sign?"
    },
    "options": [
-    {
-     "de": "Mit dem Zusatz ppa",
-     "ar": "مع الإضافة ppa",
-     "en": "With the addition ppa"
-    },
     {
      "de": "Ohne Zusatz",
      "ar": "دون إضافة",
@@ -1453,15 +1430,20 @@
      "de": "Nur mit Stempel",
      "ar": "بالختم فقط",
      "en": "Only with a stamp"
+    },
+    {
+     "de": "Mit dem Zusatz ppa",
+     "ar": "مع الإضافة ppa إلى توقيعه",
+     "en": "With the addition ppa"
     }
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "q": {
-    "de": "Wo ist der Titel Ingenieur geregelt?",
-    "ar": "أين ينظَّم لقب مهندس؟",
-    "en": "Where is the title Ingenieur regulated?"
+    "de": "Wo steht, wer den Titel Ingenieur führen darf?",
+    "ar": "أين يُحدَّد من يحق له حمل لقب مهندس؟",
+    "en": "Where does it say who may use the title Ingenieur?"
    },
    "options": [
     {
@@ -1476,7 +1458,7 @@
     },
     {
      "de": "Gar nicht",
-     "ar": "لا ينظَّم إطلاقًا",
+     "ar": "لا يُنظَّم إطلاقًا",
      "en": "Not at all"
     }
    ],
@@ -1488,5 +1470,5 @@
   "ar": "في الفيديو القادم: السلامة الكهربائية وقواعد الأمان الخمس والفحوص.",
   "en": "Next video: electrical safety, the five safety rules and inspections."
  },
- "stand": "2026-10-20; re-check: DGUV Vorschrift 3 wording, §13 NAV, Anlage A HwO, Landesingenieurgesetze, BDEW/ZVEH Grundsätze edition"
+ "stand": "2026-10-20; re-check: DGUV Vorschrift 3 wording, §13 NAV, Anlage A HwO, Landesingenieurgesetze, BDEW/ZVEH Grundsätze edition; softened/removed: Prokura Grundstücke, EUP-only Aufsicht, deutsche vs. ausländische Hochschulabschlüsse (-> Handwerkskammer), VEFK-Verantwortung, BDEW/ZVEH-Erwartung, unbelegte Beispiele"
 }
