@@ -1,0 +1,1626 @@
+{
+ "id": "E-C06",
+ "title": {
+  "de": "EMV und Messtechnik: Störungen, Maßnahmen, Messgeräte",
+  "ar": "التوافق الكهرومغناطيسي EMV والقياس: الاضطرابات والإجراءات وأجهزة القياس",
+  "en": "EMC and Measurement Technology: Interference, Measures, Instruments"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-C06 · Messtechnik",
+    "heading": "EMV und Messtechnik",
+    "items": [
+     "Störquellen und Störsenken",
+     "Schirmung, Erdung, Filter",
+     "Messgeräte und Messprotokoll"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum sechsten Video im Pfad Steuerung und Messtechnik.",
+     "ar": "مرحبًا بكم في الفيديو السادس من مسار التحكم والقياس.",
+     "en": "Welcome to the sixth video in the path on control and measurement technology."
+    },
+    {
+     "de": "Heute geht es um EMV und um Messtechnik.",
+     "ar": "موضوعنا اليوم هو التوافق الكهرومغناطيسي (EMV) والقياس.",
+     "en": "Today we cover EMC and measurement technology.",
+     "tts": "Heute geht es um E-Em-Fau und um Messtechnik."
+    },
+    {
+     "de": "EMV steht für elektromagnetische Verträglichkeit.",
+     "ar": "اختصار EMV يعني التوافق الكهرومغناطيسي.",
+     "en": "EMV stands for electromagnetic compatibility.",
+     "tts": "E-Em-Fau steht für elektromagnetische Verträglichkeit."
+    },
+    {
+     "de": "Zuerst klären wir Störquellen und Störsenken.",
+     "ar": "أولًا نوضح مصادر الاضطراب والمتأثرين بها.",
+     "en": "First we clarify sources and sinks of interference."
+    },
+    {
+     "de": "Dann sehen wir die Maßnahmen: Schirmung, Erdung, Filter und Leitungsführung.",
+     "ar": "ثم نتناول الإجراءات: التدريع والتأريض والمرشحات وتمديد الكابلات.",
+     "en": "Then we look at the measures: shielding, earthing, filters and cable routing."
+    },
+    {
+     "de": "Sie bekommen dazu ein Glossar und ein kurzes Quiz.",
+     "ar": "وستجدون معها مسردًا واختبارًا قصيرًا.",
+     "en": "You also get a glossary and a short quiz."
+    },
+    {
+     "de": "Danach kommen die Messgeräte, die Messunsicherheit und das Messprotokoll.",
+     "ar": "بعدها أجهزة القياس وعدم اليقين في القياس ومحضر القياس.",
+     "en": "After that come measuring instruments, measurement uncertainty and the measurement report."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Konzepte, keine Anleitung",
+     "Keine Grenzwerte im Video",
+     "Fünf Sicherheitsregeln gelten",
+     "Aktuelle Fassungen prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Messprotokoll",
+      "ar": "محضر القياس",
+      "en": "measurement report"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video erklärt nur Konzepte.",
+     "ar": "هذا الفيديو يشرح المفاهيم فقط.",
+     "en": "This video explains concepts only."
+    },
+    {
+     "de": "Es nennt keine Grenzwerte und keine Schritte für Messungen an Anlagen unter Spannung.",
+     "ar": "ولا يذكر قيمًا حدّية ولا خطوات للقياس على منشآت تحت الجهد.",
+     "en": "It gives no limit values and no steps for measuring on live installations."
+    },
+    {
+     "de": "Arbeiten an elektrischen Anlagen führt eine Elektrofachkraft aus, oder jemand unter ihrer Leitung und Aufsicht.",
+     "ar": "الأعمال على المنشآت الكهربائية ينفذها الكهربائي المؤهَّل (Elektrofachkraft) أو شخص تحت إشرافه وتوجيهه.",
+     "en": "Work on electrical installations is done by a qualified electrician, or someone under their direction and supervision."
+    },
+    {
+     "de": "Dazu gehören auch viele Messungen.",
+     "ar": "ومن ذلك أيضًا كثير من القياسات.",
+     "en": "Many measurements belong to that work."
+    },
+    {
+     "de": "Dabei gelten immer die fünf Sicherheitsregeln aus dem Video über elektrische Sicherheit.",
+     "ar": "وتسري دائمًا قواعد السلامة الخمس من فيديو السلامة الكهربائية.",
+     "en": "The five safety rules from the video on electrical safety always apply."
+    },
+    {
+     "de": "Wir nennen sie später noch einmal vollständig.",
+     "ar": "وسنذكرها لاحقًا مرة أخرى كاملة.",
+     "en": "We will state them in full again later."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundbegriffe",
+    "heading": "Was bedeutet EMV?",
+    "items": [
+     "Geräte stören sich nicht gegenseitig",
+     "Geräte sind selbst störfest",
+     "Störquelle: erzeugt die Störung",
+     "Störsenke: wird gestört",
+     "Kopplungspfad: der Weg dazwischen"
+    ],
+    "terms": [
+     {
+      "de": "Störquelle",
+      "ar": "مصدر الاضطراب",
+      "en": "source of interference"
+     },
+     {
+      "de": "Störsenke",
+      "ar": "المتأثر بالاضطراب (Störsenke)",
+      "en": "victim of interference (sink)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "EMV heißt: Geräte arbeiten nebeneinander, ohne sich zu stören.",
+     "ar": "تعني EMV أن الأجهزة تعمل جنبًا إلى جنب دون أن تزعج بعضها.",
+     "en": "EMC means devices work side by side without disturbing each other.",
+     "tts": "E-Em-Fau heißt: Geräte arbeiten nebeneinander, ohne sich zu stören."
+    },
+    {
+     "de": "Ein Gerät darf andere nicht stören.",
+     "ar": "فلا يجوز لجهاز أن يزعج الأجهزة الأخرى.",
+     "en": "A device must not disturb others."
+    },
+    {
+     "de": "Und es muss selbst genug Störungen aushalten.",
+     "ar": "ويجب أن يتحمل هو نفسه قدرًا كافيًا من الاضطرابات.",
+     "en": "And it must withstand enough interference itself."
+    },
+    {
+     "de": "Eine elektromagnetische Störung ist jede Erscheinung, die ein Gerät in seiner Funktion beeinträchtigen kann.",
+     "ar": "الاضطراب الكهرومغناطيسي هو كل ظاهرة قد تعطل وظيفة جهاز.",
+     "en": "An electromagnetic disturbance is any phenomenon that can impair a device's function."
+    },
+    {
+     "de": "Das Gerät, das stört, heißt Störquelle.",
+     "ar": "الجهاز الذي يسبب الاضطراب يسمى مصدر الاضطراب.",
+     "en": "The device that disturbs is called the source of interference."
+    },
+    {
+     "de": "Das Gerät, das gestört wird, heißt Störsenke.",
+     "ar": "والجهاز الذي يتأثر به يسمى (Störsenke) أي المتأثر بالاضطراب.",
+     "en": "The device that is disturbed is called the sink."
+    },
+    {
+     "de": "Der Weg zwischen beiden heißt Kopplungspfad.",
+     "ar": "والطريق بينهما يسمى مسار الاقتران.",
+     "en": "The path between them is called the coupling path."
+    },
+    {
+     "de": "Auch Antriebe brauchen einen EMV-gerechten Aufbau.",
+     "ar": "حتى المحركات تحتاج إلى تركيب يراعي التوافق الكهرومغناطيسي.",
+     "en": "Even drives need an installation that respects EMC.",
+     "tts": "Auch Antriebe brauchen einen E-Em-Fau-gerechten Aufbau."
+    },
+    {
+     "de": "Merken Sie sich dieses Modell: Quelle, Pfad, Senke.",
+     "ar": "احفظوا هذا النموذج: مصدر ومسار ومتأثر.",
+     "en": "Remember this model: source, path, sink."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Kopplung",
+    "heading": "Vier Arten der Kopplung",
+    "items": [
+     "Galvanisch: gemeinsamer Strompfad",
+     "Kapazitiv: elektrisches Feld",
+     "Induktiv: magnetisches Feld",
+     "Strahlung: Wellen im Raum"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Störungen gelangen auf vier typischen Wegen von der Quelle zur Senke.",
+     "ar": "تنتقل الاضطرابات من المصدر إلى المتأثر عبر أربعة طرق نموذجية.",
+     "en": "Disturbances travel from source to sink along four typical paths."
+    },
+    {
+     "de": "Bei der galvanischen Kopplung teilen sich Quelle und Senke einen Strompfad.",
+     "ar": "في الاقتران الجلفاني يتشارك المصدر والمتأثر مسار تيار واحدًا.",
+     "en": "With galvanic coupling, source and sink share a current path."
+    },
+    {
+     "de": "Ein gemeinsamer Rückleiter ist ein Beispiel.",
+     "ar": "الموصل الراجع المشترك مثال على ذلك.",
+     "en": "A shared return conductor is one example."
+    },
+    {
+     "de": "Bei der kapazitiven Kopplung wirkt ein elektrisches Wechselfeld.",
+     "ar": "في الاقتران السعوي يعمل مجال كهربائي متناوب.",
+     "en": "With capacitive coupling, an alternating electric field acts."
+    },
+    {
+     "de": "Bei der induktiven Kopplung wirkt ein magnetisches Wechselfeld.",
+     "ar": "وفي الاقتران الحثي يعمل مجال مغناطيسي متناوب.",
+     "en": "With inductive coupling, an alternating magnetic field acts."
+    },
+    {
+     "de": "Bei der Strahlung breiten sich Wellen durch den Raum aus.",
+     "ar": "وفي الإشعاع تنتشر الموجات عبر الفراغ.",
+     "en": "With radiation, waves spread through space."
+    },
+    {
+     "de": "Die kapazitive Kopplung zeigt sich vor allem bei hohen Frequenzen.",
+     "ar": "ويظهر الاقتران السعوي خصوصًا عند الترددات العالية.",
+     "en": "Capacitive coupling shows up mainly at high frequencies."
+    },
+    {
+     "de": "Die induktive Kopplung tritt eher bei niedrigen Frequenzen auf.",
+     "ar": "ويظهر الاقتران الحثي عادةً عند الترددات المنخفضة.",
+     "en": "Inductive coupling occurs more at low frequencies."
+    },
+    {
+     "de": "In der Praxis treten die Arten selten einzeln auf.",
+     "ar": "وفي الواقع نادرًا ما تظهر هذه الأنواع منفردة.",
+     "en": "In practice these types rarely occur alone."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Einteilung",
+    "heading": "Leitungsgebunden oder gestrahlt",
+    "items": [
+     "Leitungsgebunden | Störung läuft über Leitungen",
+     "Galvanisch, kapazitiv, induktiv | leitungsgebunden",
+     "Gestrahlt | Störung läuft über Felder und Wellen",
+     "Störaussendung | Was ein Gerät abgibt",
+     "Störfestigkeit | Was ein Gerät aushält"
+    ],
+    "terms": [
+     {
+      "de": "Störaussendung",
+      "ar": "الانبعاث الكهرومغناطيسي (Störaussendung)",
+      "en": "emission"
+     },
+     {
+      "de": "Störfestigkeit",
+      "ar": "المناعة ضد الاضطرابات (Störfestigkeit)",
+      "en": "immunity"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Man teilt Störungen nach dem Übertragungsweg ein.",
+     "ar": "تُصنَّف الاضطرابات بحسب طريق انتقالها.",
+     "en": "Disturbances are classified by their transmission path."
+    },
+    {
+     "de": "Leitungsgebundene Störungen laufen über Kabel und Leiter.",
+     "ar": "الاضطرابات المنقولة عبر الموصلات تنتقل عبر الكابلات والموصلات.",
+     "en": "Conducted disturbances travel along cables and conductors."
+    },
+    {
+     "de": "Galvanische, kapazitive und induktive Kopplung gehören nach vielen Fachquellen dazu.",
+     "ar": "ويُدرج كثير من المراجع الاقتران الجلفاني والسعوي والحثي ضمنها.",
+     "en": "According to many technical sources, galvanic, capacitive and inductive coupling belong here."
+    },
+    {
+     "de": "Gestrahlte Störungen laufen über Felder und Wellen.",
+     "ar": "أما الاضطرابات المشعّة فتنتقل عبر المجالات والموجات.",
+     "en": "Radiated disturbances travel through fields and waves."
+    },
+    {
+     "de": "Die Störaussendung beschreibt, was ein Gerät selbst abgibt.",
+     "ar": "الانبعاث الكهرومغناطيسي (Störaussendung) يصف ما يصدره الجهاز نفسه.",
+     "en": "Emission describes what a device itself gives off."
+    },
+    {
+     "de": "Die Störfestigkeit beschreibt, was ein Gerät aushält.",
+     "ar": "والمناعة ضد الاضطرابات (Störfestigkeit) تصف ما يتحمله الجهاز.",
+     "en": "Immunity describes what a device can withstand."
+    },
+    {
+     "de": "Strahlung entsteht, wenn Kabel oder Bauteile wie eine Antenne wirken.",
+     "ar": "ينشأ الإشعاع عندما تعمل الكابلات أو المكونات كهوائي.",
+     "en": "Radiation arises when cables or parts act like an antenna."
+    },
+    {
+     "de": "Darum ist ein Kabel nie nur eine Verbindung.",
+     "ar": "لذلك الكابل ليس مجرد وصلة.",
+     "en": "So a cable is never just a connection."
+    },
+    {
+     "de": "Beides wird in Normen geprüft und beschrieben.",
+     "ar": "وكلاهما يُختبر ويُوصَف في المعايير.",
+     "en": "Both are tested and described in standards."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Prüfen im Labor",
+    "heading": "Störfestigkeit im Labor",
+    "items": [
+     "Elektrostatische Entladung",
+     "Schnelle Transienten (Burst)",
+     "Stoßspannungen (Surge)",
+     "Reihe IEC 61000-4"
+    ],
+    "terms": [
+     {
+      "de": "Burst",
+      "ar": "النبضات العابرة السريعة (Burst)",
+      "en": "fast transients (burst)"
+     },
+     {
+      "de": "Surge",
+      "ar": "الصدمات الجهدية (Surge)",
+      "en": "surge"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hersteller prüfen die Störfestigkeit ihrer Geräte im Labor.",
+     "ar": "تختبر الشركات المصنِّعة مناعة أجهزتها ضد الاضطرابات في المختبر.",
+     "en": "Manufacturers test the immunity of their devices in a laboratory."
+    },
+    {
+     "de": "Die Prüfreihe IEC 61000-4 beschreibt solche Verfahren.",
+     "ar": "وسلسلة الاختبارات IEC 61000-4 تصف هذه الإجراءات.",
+     "en": "The IEC 61000-4 series describes such procedures.",
+     "tts": "Die Prüfreihe I-E-Ze einundsechzigtausend Strich vier beschreibt solche Verfahren."
+    },
+    {
+     "de": "Beispiele sind elektrostatische Entladung, schnelle Transienten und Stoßspannungen.",
+     "ar": "من الأمثلة التفريغ الكهروستاتيكي والعابرات السريعة والصدمات الجهدية.",
+     "en": "Examples are electrostatic discharge, fast transients and surges."
+    },
+    {
+     "de": "Auf Englisch heißen sie ESD, Burst und Surge.",
+     "ar": "وهذه الأسماء بالإنجليزية ESD وBurst وSurge شائعة في أوراق البيانات.",
+     "en": "In English they are called ESD, burst and surge.",
+     "tts": "Auf Englisch heißen sie E-Es-De, Burst und Surge."
+    },
+    {
+     "de": "Wir nennen hier keine Prüfpegel.",
+     "ar": "لا نذكر هنا مستويات الاختبار.",
+     "en": "We give no test levels here."
+    },
+    {
+     "de": "Eine solche Prüfung zeigt, ob das Gerät unter Störung weiterarbeitet.",
+     "ar": "ويبيّن هذا الاختبار هل يواصل الجهاز عمله تحت الاضطراب.",
+     "en": "Such a test shows whether the device keeps working under interference."
+    },
+    {
+     "de": "Vor Ort zählt dann vor allem die richtige Installation.",
+     "ar": "وفي الموقع يهم بعد ذلك التركيب الصحيح قبل كل شيء.",
+     "en": "On site, the correct installation then matters most."
+    },
+    {
+     "de": "Sie stehen in den jeweils gültigen Normen und Datenblättern.",
+     "ar": "فهي مذكورة في المعايير وأوراق البيانات السارية.",
+     "en": "They are in the currently valid standards and datasheets."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Recht",
+    "heading": "Richtlinie und Gesetz",
+    "items": [
+     "Richtlinie 2014/30/EU: EMV in der EU",
+     "EMVG: Umsetzung in Deutschland",
+     "Neu gefasst am 14. Dezember 2016",
+     "Bundesnetzagentur überwacht den Markt"
+    ],
+    "terms": [
+     {
+      "de": "EMVG",
+      "ar": "قانون التوافق الكهرومغناطيسي (EMVG)",
+      "en": "German EMC Act (EMVG)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die europäische Grundlage ist die EMV-Richtlinie 2014/30/EU.",
+     "ar": "الأساس الأوروبي هو توجيه EMV رقم 2014/30/EU في الاتحاد الأوروبي.",
+     "en": "The European basis is the EMC Directive 2014/30/EU.",
+     "tts": "Die europäische Grundlage ist die E-Em-Fau-Richtlinie zweitausendvierzehn Schrägstrich dreißig Schrägstrich E-U."
+    },
+    {
+     "de": "Sie regelt die elektromagnetische Verträglichkeit von Betriebsmitteln.",
+     "ar": "وهو ينظم التوافق الكهرومغناطيسي للمعدات الكهربائية.",
+     "en": "It regulates the electromagnetic compatibility of equipment."
+    },
+    {
+     "de": "In Deutschland setzt das EMVG diese Richtlinie um.",
+     "ar": "وفي ألمانيا ينفذ قانون EMVG هذا التوجيه.",
+     "en": "In Germany, the EMVG implements this directive.",
+     "tts": "In Deutschland setzt das E-Em-Fau-Ge diese Richtlinie um."
+    },
+    {
+     "de": "Der Titel lautet: Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln.",
+     "ar": "وعنوانه: قانون التوافق الكهرومغناطيسي للمعدات.",
+     "en": "Its title is: Act on the electromagnetic compatibility of equipment."
+    },
+    {
+     "de": "Das Gesetz wurde am 14. Dezember 2016 neu gefasst.",
+     "ar": "أُعيدت صياغة القانون بتاريخ ١٤ ديسمبر ٢٠١٦ ميلاديًا.",
+     "en": "The act was recast on 14 December 2016.",
+     "tts": "Das Gesetz wurde am vierzehnten Dezember zweitausendsechzehn neu gefasst."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung auf gesetze-im-internet.de.",
+     "ar": "تحققوا دائمًا من النسخة الحالية على موقع القوانين الاتحادية.",
+     "en": "Always check the current version on the federal laws website."
+    },
+    {
+     "de": "Betriebsmittel sind dabei Geräte und ortsfeste Anlagen.",
+     "ar": "والمعدات هنا هي الأجهزة والمنشآت الثابتة.",
+     "en": "Equipment here means devices and fixed installations."
+    },
+    {
+     "de": "Die Bundesnetzagentur führt das Gesetz aus und überwacht den Markt.",
+     "ar": "وتنفذ الوكالة الاتحادية للشبكات (Bundesnetzagentur) القانون وتراقب السوق.",
+     "en": "The Federal Network Agency enforces the act and monitors the market."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Pflichten",
+    "heading": "Wer hat welche Aufgabe?",
+    "items": [
+     "Hersteller: Konformität nachweisen",
+     "CE-Kennzeichnung: Konformität zeigen",
+     "Ortsfeste Anlage: Regeln der Technik",
+     "Behörde: Marktüberwachung"
+    ],
+    "terms": [
+     {
+      "de": "ortsfeste Anlage",
+      "ar": "المنشأة الثابتة (ortsfeste Anlage)",
+      "en": "fixed installation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Gesetzgeber unterscheidet Geräte und ortsfeste Anlagen.",
+     "ar": "يفرّق المشرّع بين الأجهزة والمنشآت الثابتة.",
+     "en": "The legislator distinguishes devices and fixed installations."
+    },
+    {
+     "de": "Hersteller müssen vor dem Inverkehrbringen die Konformität bewerten.",
+     "ar": "على الشركات المصنِّعة تقييم المطابقة قبل طرح المنتج في السوق.",
+     "en": "Manufacturers must assess conformity before placing a product on the market."
+    },
+    {
+     "de": "Sie halten die Konformitätserklärung und die technischen Unterlagen bereit.",
+     "ar": "وتحتفظ بإعلان المطابقة والوثائق الفنية جاهزة.",
+     "en": "They keep the declaration of conformity and the technical documentation available."
+    },
+    {
+     "de": "Die CE-Kennzeichnung zeigt, dass diese Bewertung erfolgt ist.",
+     "ar": "وعلامة CE تدل على أن هذا التقييم قد تم.",
+     "en": "The CE marking shows that this assessment has been done.",
+     "tts": "Die Ze-E-Kennzeichnung zeigt, dass diese Bewertung erfolgt ist."
+    },
+    {
+     "de": "Eine ortsfeste Anlage ist dauerhaft an einem festen Ort installiert.",
+     "ar": "المنشأة الثابتة مركّبة بشكل دائم في مكان محدد.",
+     "en": "A fixed installation is installed permanently at a fixed location."
+    },
+    {
+     "de": "Sie muss nach den allgemein anerkannten Regeln der Technik errichtet werden.",
+     "ar": "ويجب إنشاؤها وفق القواعد المعترف بها عمومًا للتقنية.",
+     "en": "It must be installed according to the generally recognised rules of technology."
+    },
+    {
+     "de": "Die Behörde nennt fehlende Konformitätserklärungen unter den häufigen Mängeln.",
+     "ar": "وتذكر الجهة الرقابية غياب إعلانات المطابقة ضمن العيوب الشائعة.",
+     "en": "The authority lists missing declarations of conformity among the frequent defects."
+    },
+    {
+     "de": "Das zeigt, wie ernst die Marktüberwachung ist.",
+     "ar": "وهذا يبيّن مدى جدية مراقبة السوق.",
+     "en": "That shows how serious market surveillance is."
+    },
+    {
+     "de": "Diese Regeln sind zu dokumentieren.",
+     "ar": "ويجب توثيق هذه القواعد.",
+     "en": "These rules must be documented."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Normen",
+    "heading": "Wo stehen die Regeln?",
+    "items": [
+     "Reihe EN 61000: harmonisierte Normen",
+     "Fachgrundnormen für Wohn- und Industrie",
+     "DIN VDE 0100-444 für Anlagen",
+     "Ausgabe und Status prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Fachgrundnorm",
+      "ar": "المعيار الأساسي العام (Fachgrundnorm)",
+      "en": "generic standard"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Richtlinie selbst bleibt abstrakt.",
+     "ar": "التوجيه نفسه يبقى عامًّا ومجرّدًا.",
+     "en": "The directive itself stays abstract."
+    },
+    {
+     "de": "Konkrete Maßstäbe liefern harmonisierte Normen, vor allem die Reihe EN 61000.",
+     "ar": "المعايير المنسَّقة تقدّم المقاييس المحددة، وخاصة سلسلة المعايير EN 61000 هذه.",
+     "en": "Harmonised standards provide concrete criteria, above all the EN 61000 series.",
+     "tts": "Konkrete Maßstäbe liefern harmonisierte Normen, vor allem die Reihe E-En einundsechzigtausend."
+    },
+    {
+     "de": "Fachgrundnormen gelten, wenn keine Produktnorm existiert.",
+     "ar": "المعايير الأساسية العامة تُطبَّق عندما لا يوجد معيار خاص بالمنتج.",
+     "en": "Generic standards apply when no product standard exists."
+    },
+    {
+     "de": "Es gibt sie getrennt für Störaussendung und Störfestigkeit, jeweils für Wohnbereich und Industrie.",
+     "ar": "وهي منفصلة للانبعاث وللمناعة، ولكل من المناطق السكنية والصناعية.",
+     "en": "They exist separately for emission and immunity, each for residential and industrial areas."
+    },
+    {
+     "de": "Für Anlagen ist die DIN VDE 0100-444 wichtig.",
+     "ar": "وبالنسبة للمنشآت فإن DIN VDE 0100-444 مهم.",
+     "en": "For installations, DIN VDE 0100-444 is important.",
+     "tts": "Für Anlagen ist die Din Fau-De-E null eins null null Strich vier vier vier wichtig."
+    },
+    {
+     "de": "Sie behandelt Maßnahmen gegen Störspannungen und elektromagnetische Störgrößen.",
+     "ar": "وهي تتناول إجراءات الحماية من الجهود المضطربة والمؤثرات الكهرومغناطيسية.",
+     "en": "It covers measures against interference voltages and electromagnetic disturbances."
+    },
+    {
+     "de": "Die Norm richtet sich an Planer, Errichter und Betreiber.",
+     "ar": "يتوجه هذا المعيار إلى المصممين والمنفذين والمشغّلين.",
+     "en": "The standard addresses planners, installers and operators."
+    },
+    {
+     "de": "Ausgabejahre ändern sich, prüfen Sie immer die gültige Ausgabe.",
+     "ar": "سنوات الإصدار تتغير، فتحققوا دائمًا من الإصدار الساري.",
+     "en": "Edition years change, so always check the valid edition."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Maßnahmen",
+    "heading": "Vier Hebel gegen Störungen",
+    "items": [
+     "Leitungsführung: Wege und Abstände",
+     "Schirmung: Feld abhalten",
+     "Erdung und Potentialausgleich",
+     "Filter: Störspannung dämpfen"
+    ],
+    "terms": [
+     {
+      "de": "Schirmung",
+      "ar": "التدريع",
+      "en": "shielding"
+     },
+     {
+      "de": "Potentialausgleich",
+      "ar": "الربط المتساوي الجهد",
+      "en": "equipotential bonding"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Gegen Störungen gibt es vier wichtige Hebel.",
+     "ar": "ضد الاضطرابات توجد أربع وسائل مهمة.",
+     "en": "Against interference there are four important levers."
+    },
+    {
+     "de": "Erstens die Leitungsführung, also Wege und Abstände.",
+     "ar": "أولًا تمديد الكابلات، أي المسارات والمسافات.",
+     "en": "First, cable routing, meaning paths and distances."
+    },
+    {
+     "de": "Zweitens die Schirmung, die Felder abhält.",
+     "ar": "ثانيًا التدريع الذي يحجب المجالات.",
+     "en": "Second, shielding, which keeps fields out."
+    },
+    {
+     "de": "Drittens Erdung und Potentialausgleich.",
+     "ar": "ثالثًا التأريض والربط المتساوي الجهد.",
+     "en": "Third, earthing and equipotential bonding."
+    },
+    {
+     "de": "Viertens Filter, die Störspannungen dämpfen.",
+     "ar": "رابعًا المرشحات التي تخفف الجهود المضطربة.",
+     "en": "Fourth, filters that attenuate interference voltages."
+    },
+    {
+     "de": "Meist wirken die Maßnahmen zusammen.",
+     "ar": "وغالبًا تعمل الإجراءات معًا.",
+     "en": "The measures usually work together."
+    },
+    {
+     "de": "Wir behandeln sie nur als Konzept.",
+     "ar": "ونتناولها هنا كمفهوم فقط.",
+     "en": "We treat them only as a concept."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Leitungsführung",
+    "heading": "Kabel richtig verlegen",
+    "items": [
+     "Energie und Signal trennen",
+     "Kreuzungen im rechten Winkel",
+     "Kurze Wege, keine Schleifen",
+     "Kein langes Parallelführen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit der Leitungsführung.",
+     "ar": "لنبدأ بتمديد الكابلات.",
+     "en": "Let us start with cable routing."
+    },
+    {
+     "de": "Energieleitungen und Signalleitungen verlegen Sie räumlich getrennt.",
+     "ar": "مدّوا كابلات القدرة وكابلات الإشارة منفصلة مكانيًا.",
+     "en": "Lay power cables and signal cables spatially separated."
+    },
+    {
+     "de": "Wenn sie sich kreuzen müssen, dann möglichst im rechten Winkel.",
+     "ar": "وإذا اضطرت إلى التقاطع فليكن ذلك بزاوية قائمة قدر الإمكان.",
+     "en": "If they must cross, then preferably at a right angle."
+    },
+    {
+     "de": "Vermeiden Sie lange parallele Strecken.",
+     "ar": "تجنبوا المقاطع المتوازية الطويلة.",
+     "en": "Avoid long parallel runs."
+    },
+    {
+     "de": "Wählen Sie kurze Wege.",
+     "ar": "اختاروا مسارات قصيرة.",
+     "en": "Choose short routes."
+    },
+    {
+     "de": "Vermeiden Sie Schleifen, denn eine Schleife fängt Magnetfelder ein.",
+     "ar": "وتجنبوا الحلقات، فالحلقة تلتقط المجالات المغناطيسية.",
+     "en": "Avoid loops, because a loop picks up magnetic fields."
+    },
+    {
+     "de": "Das ist günstig, weil es kaum Geld kostet.",
+     "ar": "وهذا اقتصادي لأنه لا يكلف مالًا يُذكر.",
+     "en": "This is economical because it hardly costs anything."
+    },
+    {
+     "de": "Die Trennung gilt auch in der Schaltschrankplanung.",
+     "ar": "ويسري الفصل أيضًا عند تخطيط خزانة التوزيع والتحكم.",
+     "en": "The separation also applies when planning a control cabinet."
+    },
+    {
+     "de": "Die Planung entscheidet hier mehr als das Material.",
+     "ar": "فالتخطيط هنا أهم من المواد.",
+     "en": "Here the planning matters more than the material."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schirmung",
+    "heading": "Schirmung bei Signalleitungen",
+    "items": [
+     "Schirm großflächig auflegen",
+     "Schirmenden nicht verdrillen",
+     "Einseitig oder beidseitig: Vorgaben",
+     "Potentialausgleich ergänzt den Schirm"
+    ],
+    "terms": [
+     {
+      "de": "Schirm",
+      "ar": "الدرع (Schirm)",
+      "en": "shield"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Schirm hält elektrische und magnetische Felder von der Signalleitung fern.",
+     "ar": "الدرع يُبعد المجالات الكهربائية والمغناطيسية عن كابل الإشارة.",
+     "en": "A shield keeps electric and magnetic fields away from the signal cable."
+    },
+    {
+     "de": "Wichtig ist die großflächige Auflage des Schirms.",
+     "ar": "المهم أن يُوصَل الدرع على مساحة واسعة.",
+     "en": "What matters is a large-area connection of the shield."
+    },
+    {
+     "de": "Ein verdrilltes Schirmende wirkt dagegen schlecht.",
+     "ar": "أما طرف الدرع المجدول فأداؤه ضعيف.",
+     "en": "A twisted shield end, by contrast, performs poorly."
+    },
+    {
+     "de": "Bei digitalen Signalen legt man den Schirm üblicherweise an beiden Enden auf.",
+     "ar": "في الإشارات الرقمية يُوصَل الدرع عادةً من الطرفين.",
+     "en": "With digital signals the shield is usually connected at both ends."
+    },
+    {
+     "de": "Bei niedrigen Frequenzen kann eine einseitige Auflage sinnvoll sein.",
+     "ar": "وعند الترددات المنخفضة قد يكون التوصيل من طرف واحد مناسبًا.",
+     "en": "At low frequencies, a one-sided connection can make sense."
+    },
+    {
+     "de": "Die Fachquellen sind hier nicht einheitlich.",
+     "ar": "والمراجع المتخصصة غير متفقة هنا.",
+     "en": "The technical sources are not uniform here."
+    },
+    {
+     "de": "Darum gelten die Angaben von Hersteller und Planung.",
+     "ar": "لذلك تُتَّبع تعليمات الشركة المصنِّعة والتصميم.",
+     "en": "So the manufacturer's and the design's specifications apply."
+    },
+    {
+     "de": "Ein guter Potentialausgleich unterstützt jeden Schirm.",
+     "ar": "والربط المتساوي الجهد الجيد يدعم كل درع.",
+     "en": "Good equipotential bonding supports every shield."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Erdung und Filter",
+    "heading": "Erdung, Potentialausgleich, Filter",
+    "items": [
+     "Niederohmiger Potentialausgleich",
+     "Erdschleifen vermeiden",
+     "TN-S statt gemeinsamer PEN-Leiter",
+     "Netzfilter am Eintritt"
+    ],
+    "terms": [
+     {
+      "de": "Netzfilter",
+      "ar": "مرشّح الشبكة (Netzfilter)",
+      "en": "mains filter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein durchgängiger, niederohmiger Potentialausgleich ist die Basis.",
+     "ar": "الأساس هو ربط متساوي الجهد متواصل ومنخفض المقاومة.",
+     "en": "A continuous, low-impedance equipotential bonding is the basis."
+    },
+    {
+     "de": "Erdschleifen sollten Sie vermeiden.",
+     "ar": "وينبغي تجنب حلقات التأريض.",
+     "en": "You should avoid earth loops."
+    },
+    {
+     "de": "Im Gebäude spielt auch das Netzsystem eine Rolle.",
+     "ar": "وفي المبنى يؤدي نظام الشبكة دورًا أيضًا.",
+     "en": "In a building, the supply system also plays a role."
+    },
+    {
+     "de": "Betriebsströme im PEN-Leiter fließen über viele Wege durch das Gebäude.",
+     "ar": "تيارات التشغيل في موصل PEN تسري عبر مسارات كثيرة داخل المبنى.",
+     "en": "Operating currents in the PEN conductor flow along many paths through the building.",
+     "tts": "Betriebsströme im Pen-Leiter fließen über viele Wege durch das Gebäude."
+    },
+    {
+     "de": "Das führt zu EMV-Problemen.",
+     "ar": "وهذا يسبب مشكلات في التوافق الكهرومغناطيسي.",
+     "en": "That leads to EMC problems.",
+     "tts": "Das führt zu E-Em-Fau-Problemen."
+    },
+    {
+     "de": "Ein TN-S-System trennt Neutralleiter und Schutzleiter und entschärft das.",
+     "ar": "ونظام TN-S يفصل موصل التعادل عن موصل الحماية ويخفف ذلك.",
+     "en": "A TN-S system separates neutral conductor and protective conductor and eases this.",
+     "tts": "Ein Te-En-Es-System trennt Neutralleiter und Schutzleiter und entschärft das."
+    },
+    {
+     "de": "Ein Netzfilter am Eintritt dämpft Störspannungen auf der Versorgung.",
+     "ar": "ومرشّح الشبكة عند نقطة الدخول يخفف الجهود المضطربة على التغذية.",
+     "en": "A mains filter at the entry attenuates interference voltages on the supply."
+    },
+    {
+     "de": "Bei Neuinstallationen mit Informationstechnik nennen Fachquellen das Fünf-Leiter-System TN-S.",
+     "ar": "وعند التركيبات الجديدة مع تقنية المعلومات تذكر المراجع نظام TN-S ذا الموصلات الخمسة.",
+     "en": "For new installations with information technology, technical sources name the five-conductor TN-S system.",
+     "tts": "Bei Neuinstallationen mit Informationstechnik nennen Fachquellen das Fünf-Leiter-System Te-En-Es."
+    },
+    {
+     "de": "Änderungen am Schutzleitersystem gehören in die Hand einer Elektrofachkraft.",
+     "ar": "التغييرات في منظومة موصل الحماية يتولاها الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إشرافه.",
+     "en": "Changes to the protective conductor system are for a qualified electrician or someone under their supervision."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Sicherheit",
+    "heading": "Die fünf Sicherheitsregeln",
+    "items": [
+     "1 Freischalten",
+     "2 Gegen Wiedereinschalten sichern",
+     "3 Spannungsfreiheit allpolig feststellen",
+     "4 Erden und Kurzschließen",
+     "5 Benachbarte Teile abdecken oder abschranken"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt die Messtechnik, und damit die Sicherheit.",
+     "ar": "والآن نصل إلى تقنية القياس، وبالتالي إلى السلامة.",
+     "en": "Now comes measurement technology, and with it safety."
+    },
+    {
+     "de": "Die fünf Sicherheitsregeln gelten vor Arbeiten an elektrischen Anlagen.",
+     "ar": "قواعد السلامة الخمس تسري قبل الأعمال على المنشآت الكهربائية.",
+     "en": "The five safety rules apply before work on electrical installations."
+    },
+    {
+     "de": "Regel eins: freischalten.",
+     "ar": "القاعدة الأولى: فصل الجهد.",
+     "en": "Rule one: isolate."
+    },
+    {
+     "de": "Regel zwei: gegen Wiedereinschalten sichern.",
+     "ar": "القاعدة الثانية: تأمينها ضد إعادة التشغيل.",
+     "en": "Rule two: secure against reconnection."
+    },
+    {
+     "de": "Regel drei: Spannungsfreiheit allpolig feststellen.",
+     "ar": "القاعدة الثالثة: التحقق من انعدام الجهد في كل الأقطاب.",
+     "en": "Rule three: verify the absence of voltage on all poles."
+    },
+    {
+     "de": "Regel vier: erden und kurzschließen.",
+     "ar": "القاعدة الرابعة: التأريض والتقصير.",
+     "en": "Rule four: earth and short-circuit."
+    },
+    {
+     "de": "Regel fünf: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "القاعدة الخامسة: تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Rule five: cover or fence off neighbouring live parts."
+    },
+    {
+     "de": "Das ist die Reihenfolge, und Sie kürzen sie nie ab.",
+     "ar": "هذا هو الترتيب، ولا تختصروه أبدًا.",
+     "en": "That is the order, and you never shorten it."
+    },
+    {
+     "de": "Messen unter Spannung ist ein Sonderfall und folgt den Vorgaben des Betriebs.",
+     "ar": "والقياس تحت الجهد حالة خاصة ويتبع تعليمات المنشأة.",
+     "en": "Measuring under voltage is a special case and follows the company's rules."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Messgeräte",
+    "heading": "Vier Geräte im Überblick",
+    "items": [
+     "Multimeter | Spannung, Strom, Widerstand",
+     "Oszilloskop | Verlauf über der Zeit",
+     "Isolationsmessgerät | Gleichspannung, freigeschaltet",
+     "Schleifenimpedanz | Fehlerschleife der Anlage"
+    ],
+    "terms": [
+     {
+      "de": "Multimeter",
+      "ar": "المقياس المتعدد (Multimeter)",
+      "en": "multimeter"
+     },
+     {
+      "de": "Oszilloskop",
+      "ar": "راسم الذبذبات",
+      "en": "oscilloscope"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wir betrachten vier Messgeräte auf Konzeptebene.",
+     "ar": "نتناول أربعة أجهزة قياس على مستوى المفهوم.",
+     "en": "We look at four measuring instruments at concept level."
+    },
+    {
+     "de": "Das Multimeter misst Spannung, Strom und Widerstand.",
+     "ar": "المقياس المتعدد يقيس الجهد والتيار والمقاومة.",
+     "en": "The multimeter measures voltage, current and resistance."
+    },
+    {
+     "de": "Das Oszilloskop zeigt den zeitlichen Verlauf eines Signals.",
+     "ar": "وراسم الذبذبات يعرض تغير الإشارة مع الزمن.",
+     "en": "The oscilloscope shows how a signal changes over time."
+    },
+    {
+     "de": "Das Isolationsmessgerät prüft den Isolationswiderstand mit Gleichspannung.",
+     "ar": "وجهاز قياس العزل يفحص مقاومة العزل بجهد مستمر.",
+     "en": "The insulation tester checks insulation resistance with direct voltage."
+    },
+    {
+     "de": "Der Installationstester misst unter anderem die Schleifenimpedanz.",
+     "ar": "ومختبر التركيبات يقيس من بين ما يقيس معاوقة حلقة العطل.",
+     "en": "The installation tester measures, among other things, the loop impedance."
+    },
+    {
+     "de": "Jedes Gerät hat einen klaren Zweck.",
+     "ar": "لكل جهاز غرض واضح.",
+     "en": "Each instrument has a clear purpose."
+    },
+    {
+     "de": "Ein Gerät ersetzt das andere nicht.",
+     "ar": "وجهاز لا يحل محل آخر.",
+     "en": "One instrument does not replace another."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Multimeter",
+    "heading": "Multimeter und Messkategorie",
+    "items": [
+     "Kategorie CAT II, III, IV",
+     "Kategorie zur Messstelle passend",
+     "Messleitungen gehören dazu",
+     "Datenblatt des Herstellers lesen"
+    ],
+    "terms": [
+     {
+      "de": "Messkategorie",
+      "ar": "فئة القياس (Messkategorie)",
+      "en": "measurement category"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Bei Multimetern ist die Messkategorie entscheidend.",
+     "ar": "في المقاييس المتعددة تكون فئة القياس حاسمة.",
+     "en": "For multimeters, the measurement category is decisive."
+    },
+    {
+     "de": "Sie steht in der Norm IEC 61010-1 und heißt CAT zwei, drei oder vier.",
+     "ar": "وهي مذكورة في المعيار IEC 61010-1 وتُسمى CAT II أو III أو IV بحسب مستواها.",
+     "en": "It is in the standard IEC 61010-1 and is called CAT two, three or four.",
+     "tts": "Sie steht in der Norm I-E-Ze einundsechzigtausendzehn Strich eins und heißt Kat zwei, drei oder vier."
+    },
+    {
+     "de": "Sie beschreibt, wie energiereich die Überspannungen am Messort sein können.",
+     "ar": "وهي تصف مدى قوة طاقة الجهود الزائدة عند موضع القياس.",
+     "en": "It describes how energetic the overvoltages at the measuring point can be."
+    },
+    {
+     "de": "Gerät und Messort müssen zusammenpassen.",
+     "ar": "ويجب أن يتوافق الجهاز مع موضع القياس.",
+     "en": "The instrument and the measuring point must match."
+    },
+    {
+     "de": "Auch die Messleitungen brauchen die passende Kategorie.",
+     "ar": "وكابلات القياس أيضًا تحتاج إلى الفئة المناسبة.",
+     "en": "The test leads also need the right category."
+    },
+    {
+     "de": "Die Zahlen für Prüfspannungen nennen wir hier nicht.",
+     "ar": "لا نذكر هنا أرقام جهود الاختبار.",
+     "en": "We do not give the figures for test voltages here."
+    },
+    {
+     "de": "Sie stehen im Datenblatt.",
+     "ar": "فهي مذكورة في ورقة البيانات.",
+     "en": "They are in the datasheet."
+    },
+    {
+     "de": "Ein Multimeter ersetzt kein Isolationsmessgerät.",
+     "ar": "والمقياس المتعدد لا يحل محل جهاز قياس العزل.",
+     "en": "A multimeter does not replace an insulation tester."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Oszilloskop",
+    "heading": "Oszilloskop: Grundlagen",
+    "items": [
+     "Zeigt Spannung über der Zeit",
+     "Tastkopf abgleichen",
+     "Masseleitung möglichst kurz",
+     "Bandbreite von Gerät und Tastkopf"
+    ],
+    "terms": [
+     {
+      "de": "Tastkopf",
+      "ar": "مجس القياس (Tastkopf)",
+      "en": "probe"
+     },
+     {
+      "de": "Bandbreite",
+      "ar": "عرض الحزمة الترددية",
+      "en": "bandwidth"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Oszilloskop macht schnelle Vorgänge sichtbar.",
+     "ar": "راسم الذبذبات يجعل الظواهر السريعة مرئية.",
+     "en": "The oscilloscope makes fast events visible."
+    },
+    {
+     "de": "So erkennen Sie Spitzen und Störungen im Signal.",
+     "ar": "وهكذا تلاحظون القمم والاضطرابات في الإشارة.",
+     "en": "This lets you see spikes and disturbances in the signal."
+    },
+    {
+     "de": "Der Tastkopf gehört zur Messkette.",
+     "ar": "مجس القياس جزء من سلسلة القياس.",
+     "en": "The probe is part of the measuring chain."
+    },
+    {
+     "de": "Man gleicht ihn mit dem Testsignal des Geräts ab.",
+     "ar": "ويُضبط باستخدام إشارة الاختبار في الجهاز.",
+     "en": "It is adjusted using the instrument's test signal."
+    },
+    {
+     "de": "Eine lange Masseleitung wirkt wie eine Antenne.",
+     "ar": "وكابل الأرضي الطويل يعمل كهوائي.",
+     "en": "A long ground lead acts like an antenna."
+    },
+    {
+     "de": "Darum hält man sie möglichst kurz.",
+     "ar": "لذلك يُبقى قصيرًا قدر الإمكان.",
+     "en": "So it is kept as short as possible."
+    },
+    {
+     "de": "Die Bandbreite von Tastkopf und Oszilloskop muss zum Signal passen.",
+     "ar": "ويجب أن تناسب عرض الحزمة للمجس والراسم الإشارة.",
+     "en": "The bandwidth of probe and oscilloscope must suit the signal."
+    },
+    {
+     "de": "An Netzspannung gelten die Herstellerangaben und die fünf Sicherheitsregeln.",
+     "ar": "وعند جهد الشبكة تسري تعليمات الشركة المصنِّعة وقواعد السلامة الخمس.",
+     "en": "On mains voltage, the manufacturer's instructions and the five safety rules apply."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Prüfmessungen",
+    "heading": "Isolation und Schleifenimpedanz",
+    "items": [
+     "Isolationsmessung | Gleichspannung, Anlage vom Netz",
+     "Zweck | Isolation ist ausreichend",
+     "Schleifenimpedanz | Strombahn des Fehlerstroms",
+     "Zweck | Schutz schaltet sicher ab",
+     "Grenzwerte | Aus Norm und Schutzorgan"
+    ],
+    "terms": [
+     {
+      "de": "Schleifenimpedanz",
+      "ar": "معاوقة حلقة العطل",
+      "en": "loop impedance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Diese beiden Messungen kommen bei der Prüfung von Anlagen vor.",
+     "ar": "هذان القياسان يردان عند فحص المنشآت.",
+     "en": "These two measurements occur when testing installations."
+    },
+    {
+     "de": "Die Erstprüfung besteht aus Besichtigen, Erproben und Messen.",
+     "ar": "الفحص الأولي يتكون من المعاينة والتجربة والقياس.",
+     "en": "The initial verification consists of inspecting, testing and measuring."
+    },
+    {
+     "de": "Bei der Isolationsmessung erzeugt das Gerät eine Gleichspannung.",
+     "ar": "في قياس العزل يولّد الجهاز جهدًا مستمرًا.",
+     "en": "In insulation measurement, the instrument produces a direct voltage."
+    },
+    {
+     "de": "Die Anlage ist dafür vom Netz getrennt, nach den fünf Sicherheitsregeln.",
+     "ar": "والمنشأة مفصولة عن الشبكة لهذا الغرض، وفق قواعد السلامة الخمس.",
+     "en": "The installation is disconnected from the supply for this, following the five safety rules."
+    },
+    {
+     "de": "Die Schleifenimpedanz ist der Widerstand der Strombahn des Fehlerstroms.",
+     "ar": "معاوقة حلقة العطل هي مقاومة مسار تيار العطل.",
+     "en": "The loop impedance is the impedance of the path of the fault current."
+    },
+    {
+     "de": "Daraus folgt der Kurzschlussstrom, und der muss die Schutzeinrichtung auslösen.",
+     "ar": "ومنها يُستنتج تيار القصر، ويجب أن يكفي لتشغيل جهاز الحماية.",
+     "en": "From it follows the short-circuit current, and it must be enough to trip the protective device."
+    },
+    {
+     "de": "Einen festen Wert für alle Anlagen gibt es nicht.",
+     "ar": "لا توجد قيمة ثابتة لكل المنشآت.",
+     "en": "There is no fixed value for all installations."
+    },
+    {
+     "de": "Diese Messung läuft bei eingeschalteter Anlage und gehört in Fachhand.",
+     "ar": "ويجري هذا القياس والمنشأة تحت الجهد، ويتولاه المختصون.",
+     "en": "This measurement runs on a live installation and belongs in expert hands."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Qualität",
+    "heading": "Kalibrierung und Messunsicherheit",
+    "items": [
+     "Kalibrieren: Abweichung feststellen",
+     "Justieren: Gerät verändern",
+     "Rückführbarkeit auf Normale",
+     "Ergebnis: Messwert und Unsicherheit"
+    ],
+    "terms": [
+     {
+      "de": "Kalibrierung",
+      "ar": "المعايرة",
+      "en": "calibration"
+     },
+     {
+      "de": "Messunsicherheit",
+      "ar": "عدم اليقين في القياس",
+      "en": "measurement uncertainty"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jedes Messgerät hat eine Abweichung.",
+     "ar": "لكل جهاز قياس انحراف.",
+     "en": "Every measuring instrument has a deviation."
+    },
+    {
+     "de": "Die Kalibrierung stellt diese Abweichung fest und dokumentiert sie.",
+     "ar": "المعايرة تحدد هذا الانحراف وتوثّقه.",
+     "en": "Calibration determines this deviation and documents it."
+    },
+    {
+     "de": "Das Justieren verändert dagegen das Gerät.",
+     "ar": "أما الضبط (Justierung) فيغيّر الجهاز نفسه.",
+     "en": "Adjustment, by contrast, changes the instrument itself."
+    },
+    {
+     "de": "Wichtig ist die Rückführbarkeit auf nationale Normale.",
+     "ar": "والمهم قابلية التتبّع إلى المعايير الوطنية.",
+     "en": "Traceability to national standards is important."
+    },
+    {
+     "de": "Akkreditierte Labore arbeiten nach DIN EN ISO/IEC 17025.",
+     "ar": "تعمل المختبرات المعتمدة وفق المعيار DIN EN ISO/IEC 17025 الدولي.",
+     "en": "Accredited laboratories work according to DIN EN ISO/IEC 17025.",
+     "tts": "Akkreditierte Labore arbeiten nach Din E-En I-So I-E-Ze siebzehntausendfünfundzwanzig."
+    },
+    {
+     "de": "Kein Messwert ist exakt.",
+     "ar": "لا توجد قيمة قياس دقيقة تمامًا.",
+     "en": "No measured value is exact."
+    },
+    {
+     "de": "Ein vollständiges Ergebnis besteht aus Messwert und Messunsicherheit.",
+     "ar": "النتيجة الكاملة تتكون من قيمة القياس وعدم اليقين.",
+     "en": "A complete result consists of a measured value and measurement uncertainty."
+    },
+    {
+     "de": "Die Unsicherheit zeigt einen Bereich um den Messwert.",
+     "ar": "وعدم اليقين يبيّن نطاقًا حول قيمة القياس.",
+     "en": "The uncertainty shows a range around the measured value."
+    },
+    {
+     "de": "Ein Kalibrierschein von einem akkreditierten Labor enthält typischerweise die Messunsicherheit.",
+     "ar": "وشهادة المعايرة من مختبر معتمد تتضمن عادةً عدم اليقين في القياس.",
+     "en": "A calibration certificate from an accredited laboratory typically contains the measurement uncertainty."
+    },
+    {
+     "de": "Das ist wichtig, wenn ein Wert nahe an einer Anforderung liegt.",
+     "ar": "وهذا مهم عندما تكون القيمة قريبة من متطلب ما.",
+     "en": "That matters when a value is close to a requirement."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Dokumentation",
+    "heading": "Das Messprotokoll",
+    "items": [
+     "Objekt, Datum, Prüfgrundlage",
+     "Messgerät und Kalibrierung",
+     "Messwerte und Bewertung",
+     "Name und Unterschrift"
+    ],
+    "terms": [
+     {
+      "de": "Messprotokoll",
+      "ar": "محضر القياس",
+      "en": "measurement report"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was nicht dokumentiert ist, kann später niemand prüfen.",
+     "ar": "ما لم يُوثَّق لا يمكن لأحد التحقق منه لاحقًا.",
+     "en": "What is not documented cannot be checked by anyone later."
+    },
+    {
+     "de": "Ein Messprotokoll nennt zuerst das Objekt, das Datum und die Prüfgrundlage.",
+     "ar": "يذكر محضر القياس أولًا الجهاز المفحوص والتاريخ وأساس الفحص.",
+     "en": "A measurement report first names the object, the date and the basis of the test."
+    },
+    {
+     "de": "Dann folgt das verwendete Messgerät, am besten mit Typ und Kalibrierstand.",
+     "ar": "ثم جهاز القياس المستخدم، ويُفضَّل بنوعه وحالة معايرته.",
+     "en": "Then comes the instrument used, ideally with type and calibration status."
+    },
+    {
+     "de": "Dazu kommen die Messwerte und die Bewertung.",
+     "ar": "ثم قيم القياس والتقييم.",
+     "en": "Then come the measured values and the assessment."
+    },
+    {
+     "de": "Am Ende stehen Ergebnis, Name und Unterschrift der prüfenden Person.",
+     "ar": "وفي النهاية النتيجة واسم الشخص الفاحص وتوقيعه.",
+     "en": "At the end come the result, name and signature of the person testing."
+    },
+    {
+     "de": "Je nach Prüfung kommt der nächste Termin hinzu.",
+     "ar": "وحسب الفحص يضاف موعد الفحص التالي.",
+     "en": "Depending on the test, the next due date is added."
+    },
+    {
+     "de": "Ohne Messwerte lässt sich ein Protokoll kaum auswerten.",
+     "ar": "وبدون قيم القياس يصعب تقييم المحضر.",
+     "en": "Without measured values a report is hard to evaluate."
+    },
+    {
+     "de": "Vorlagen sind nützlich, aber Ihr Betrieb legt den Inhalt fest.",
+     "ar": "القوالب مفيدة، لكن منشأتكم هي التي تحدد المحتوى.",
+     "en": "Templates are useful, but your company sets the content."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste",
+    "items": [
+     "Quelle, Pfad, Senke",
+     "Leitungsgebunden und gestrahlt",
+     "Schirmung, Erdung, Filter, Leitungsführung",
+     "Messkategorie und Kalibrierung beachten",
+     "Protokoll mit Unsicherheit dokumentieren"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "EMV beschreibt Störquelle, Kopplungspfad und Störsenke.",
+     "ar": "تصف EMV مصدر الاضطراب ومسار الاقتران والمتأثر.",
+     "en": "EMC describes source, coupling path and sink.",
+     "tts": "E-Em-Fau beschreibt Störquelle, Kopplungspfad und Störsenke."
+    },
+    {
+     "de": "Störungen sind leitungsgebunden oder gestrahlt.",
+     "ar": "والاضطرابات إما منقولة عبر الموصلات أو مشعّة.",
+     "en": "Disturbances are conducted or radiated."
+    },
+    {
+     "de": "Gute Leitungsführung, Schirmung, Erdung und Filter helfen zusammen.",
+     "ar": "تمديد الكابلات الجيد والتدريع والتأريض والمرشحات تساعد معًا.",
+     "en": "Good cable routing, shielding, earthing and filters help together."
+    },
+    {
+     "de": "Beim Messen zählen Messkategorie, Kalibrierung und Messunsicherheit.",
+     "ar": "وعند القياس تهم فئة القياس والمعايرة وعدم اليقين.",
+     "en": "In measuring, measurement category, calibration and uncertainty count."
+    },
+    {
+     "de": "Alles gehört in ein sauberes Messprotokoll.",
+     "ar": "وكل ذلك يُدوَّن في محضر قياس منظم.",
+     "en": "Everything belongs in a clean measurement report."
+    },
+    {
+     "de": "Arbeiten an Anlagen: Elektrofachkraft oder unter deren Leitung und Aufsicht, mit den fünf Sicherheitsregeln.",
+     "ar": "الأعمال على المنشآت: الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إشرافه وتوجيهه، مع قواعد السلامة الخمس.",
+     "en": "Work on installations: a qualified electrician or someone under their direction and supervision, with the five safety rules."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Hinweis zum Schluss",
+    "heading": "Gesetze und Normen ändern sich",
+    "items": [
+     "Aktuelle Fassungen prüfen",
+     "Allgemeine Information",
+     "Keine Rechtsberatung",
+     "Keine Ingenieurberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وفي الختام، ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich.",
+     "ar": "القوانين والمعايير تتغير.",
+     "en": "Laws and standards change."
+    },
+    {
+     "de": "Das gilt für das EMVG, für die Normenreihen und für Prüfvorgaben.",
+     "ar": "وينطبق ذلك على EMVG وسلاسل المعايير ومتطلبات الفحص.",
+     "en": "This applies to the EMVG, the standard series and test requirements.",
+     "tts": "Das gilt für das E-Em-Fau-Ge, für die Normenreihen und für Prüfvorgaben."
+    },
+    {
+     "de": "Prüfen Sie deshalb immer die aktuelle Fassung.",
+     "ar": "لذلك تحققوا دائمًا من النسخة الحالية.",
+     "en": "So always check the current version."
+    },
+    {
+     "de": "Dieses Video ist allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وليس استشارة قانونية ولا هندسية.",
+     "en": "It is not legal advice and not engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um Fachsprache: Werkstatt, Datenblatt und Gespräch.",
+     "ar": "وفي الفيديو القادم نتناول لغة المهنة: الورشة وورقة البيانات والحوار.",
+     "en": "The next video is about technical language: workshop, datasheet and conversation."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Elektromagnetische Verträglichkeit (EMV)",
+   "ar": "التوافق الكهرومغناطيسي",
+   "en": "electromagnetic compatibility (EMC)"
+  },
+  {
+   "de": "die Störquelle",
+   "ar": "مصدر الاضطراب",
+   "en": "source of interference"
+  },
+  {
+   "de": "die Störsenke",
+   "ar": "المتأثر بالاضطراب",
+   "en": "victim of interference (sink)"
+  },
+  {
+   "de": "der Kopplungspfad",
+   "ar": "مسار الاقتران",
+   "en": "coupling path"
+  },
+  {
+   "de": "die Störaussendung",
+   "ar": "الانبعاث الكهرومغناطيسي",
+   "en": "emission"
+  },
+  {
+   "de": "die Störfestigkeit",
+   "ar": "المناعة ضد الاضطرابات",
+   "en": "immunity"
+  },
+  {
+   "de": "die Schirmung",
+   "ar": "التدريع",
+   "en": "shielding"
+  },
+  {
+   "de": "der Potentialausgleich",
+   "ar": "الربط المتساوي الجهد",
+   "en": "equipotential bonding"
+  },
+  {
+   "de": "der Netzfilter",
+   "ar": "مرشّح الشبكة",
+   "en": "mains filter"
+  },
+  {
+   "de": "die ortsfeste Anlage",
+   "ar": "المنشأة الثابتة",
+   "en": "fixed installation"
+  },
+  {
+   "de": "das Multimeter",
+   "ar": "المقياس المتعدد",
+   "en": "multimeter"
+  },
+  {
+   "de": "das Oszilloskop",
+   "ar": "راسم الذبذبات",
+   "en": "oscilloscope"
+  },
+  {
+   "de": "die Messkategorie",
+   "ar": "فئة القياس",
+   "en": "measurement category"
+  },
+  {
+   "de": "die Schleifenimpedanz",
+   "ar": "معاوقة حلقة العطل",
+   "en": "loop impedance"
+  },
+  {
+   "de": "die Kalibrierung",
+   "ar": "المعايرة",
+   "en": "calibration"
+  },
+  {
+   "de": "die Messunsicherheit",
+   "ar": "عدم اليقين في القياس",
+   "en": "measurement uncertainty"
+  },
+  {
+   "de": "das Messprotokoll",
+   "ar": "محضر القياس",
+   "en": "measurement report"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Wie nennt man das Gerät, das gestört wird?",
+    "ar": "ما اسم الجهاز الذي يتأثر بالاضطراب؟",
+    "en": "What is the device that is disturbed called?"
+   },
+   "options": [
+    {
+     "de": "Störquelle",
+     "ar": "مصدر الاضطراب",
+     "en": "source of interference"
+    },
+    {
+     "de": "Kopplungspfad",
+     "ar": "مسار الاقتران",
+     "en": "coupling path"
+    },
+    {
+     "de": "Störsenke",
+     "ar": "المتأثر بالاضطراب (Störsenke)",
+     "en": "sink"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was beschreibt die Störfestigkeit?",
+    "ar": "ماذا تصف المناعة ضد الاضطرابات؟",
+    "en": "What does immunity describe?"
+   },
+   "options": [
+    {
+     "de": "Was ein Gerät selbst abgibt",
+     "ar": "ما يصدره الجهاز نفسه",
+     "en": "What a device itself gives off"
+    },
+    {
+     "de": "Was ein Gerät aushält",
+     "ar": "ما يتحمله الجهاز",
+     "en": "What a device can withstand"
+    },
+    {
+     "de": "Was ein Kabel kostet",
+     "ar": "كم يكلف الكابل",
+     "en": "What a cable costs"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welche Aussage zur Leitungsführung passt?",
+    "ar": "أي عبارة عن تمديد الكابلات صحيحة؟",
+    "en": "Which statement on cable routing fits?"
+   },
+   "options": [
+    {
+     "de": "Energie und Signal trennen, Schleifen vermeiden",
+     "ar": "فصل القدرة عن الإشارة وتجنب الحلقات",
+     "en": "Separate power and signal, avoid loops"
+    },
+    {
+     "de": "Energie und Signal lang parallel führen",
+     "ar": "تمديد القدرة والإشارة متوازيتين لمسافة طويلة",
+     "en": "Run power and signal in parallel for long"
+    },
+    {
+     "de": "Möglichst große Schleifen legen",
+     "ar": "عمل حلقات كبيرة قدر الإمكان",
+     "en": "Make loops as large as possible"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was gehört in ein vollständiges Messergebnis?",
+    "ar": "ما الذي يدخل في نتيجة القياس الكاملة؟",
+    "en": "What belongs in a complete measurement result?"
+   },
+   "options": [
+    {
+     "de": "Nur der Messwert",
+     "ar": "قيمة القياس فقط",
+     "en": "Only the measured value"
+    },
+    {
+     "de": "Messwert und Messunsicherheit",
+     "ar": "قيمة القياس وعدم اليقين",
+     "en": "Measured value and measurement uncertainty"
+    },
+    {
+     "de": "Nur die Gerätefarbe",
+     "ar": "لون الجهاز فقط",
+     "en": "Only the colour of the device"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wer führt Arbeiten an elektrischen Anlagen nach den fünf Sicherheitsregeln aus?",
+    "ar": "من ينفذ الأعمال على المنشآت الكهربائية وفق قواعد السلامة الخمس؟",
+    "en": "Who carries out work on electrical installations following the five safety rules?"
+   },
+   "options": [
+    {
+     "de": "Jeder mit einem Multimeter",
+     "ar": "أي شخص لديه مقياس متعدد",
+     "en": "Anyone with a multimeter"
+    },
+    {
+     "de": "Elektrofachkraft oder unter ihrer Leitung und Aufsicht",
+     "ar": "الكهربائي المؤهَّل أو من يعمل تحت إشرافه وتوجيهه",
+     "en": "A qualified electrician or someone under their direction and supervision"
+    },
+    {
+     "de": "Nur wer es eilig hat",
+     "ar": "فقط من هو مستعجل",
+     "en": "Only someone in a hurry"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "next": {
+  "de": "E-D01: Fachsprache Elektrotechnik: Werkstatt, Datenblatt, Gespräch",
+  "ar": "E-D01: لغة المهنة في الكهرباء: الورشة وورقة البيانات والحوار",
+  "en": "E-D01: Technical language for electrical engineering: workshop, datasheet, conversation"
+ },
+ "stand": "2026-10-20; prüfen: aktuelle Fassung EMVG und Richtlinie 2014/30/EU, Ausgaben EN 61000-6, DIN VDE 0100-444 und -600, Messkategorien IEC 61010-1, DGUV Information 203-071"
+}

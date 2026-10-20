@@ -1,0 +1,1664 @@
+{
+ "id": "E-C05",
+ "title": {
+  "de": "Industrielle Cybersicherheit (OT-Security): Schutzziele, Defense in Depth, Zonen und Konduits, IEC 62443 und NIS2",
+  "ar": "الأمن السيبراني الصناعي: IEC 62443 وNIS2 (مفاهيم) – أهداف الحماية والدفاع المتعمّق والمناطق وقنوات الاتصال",
+  "en": "Industrial Cybersecurity (OT Security): IEC 62443 and NIS2 (Concepts)"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-C05 · Industrie",
+    "heading": "Industrielle Cybersicherheit",
+    "items": [
+     "OT-Security",
+     "IEC 62443 und NIS2"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum fünften Video in diesem Pfad.",
+     "ar": "مرحبًا بكم في الفيديو الخامس من هذا المسار.",
+     "en": "Welcome to the fifth video in this path."
+    },
+    {
+     "de": "Heute geht es um Cybersicherheit in der Industrie.",
+     "ar": "موضوعنا اليوم هو الأمن السيبراني في الصناعة.",
+     "en": "Today we talk about cybersecurity in industry."
+    },
+    {
+     "de": "Man sagt dazu auch OT-Security.",
+     "ar": "ويُسمّى ذلك أيضًا OT-Security أي أمن تقنيات التشغيل",
+     "en": "It is also called OT security.",
+     "tts": "Man sagt dazu auch O-Te-Security."
+    },
+    {
+     "de": "Wir sehen Schutzziele, Defense in Depth sowie Zonen und Konduits.",
+     "ar": "سنتناول أهداف الحماية والدفاع المتعمّق والمناطق الأمنية وقنوات الاتصال.",
+     "en": "We look at protection goals, defense in depth, zones and conduits."
+    },
+    {
+     "de": "Dann folgen die Normenreihe IEC 62443 und die NIS2-Richtlinie.",
+     "ar": "ثم سلسلة المعايير IEC 62443 وتوجيه NIS2 الأوروبي.",
+     "en": "Then come the IEC 62443 series and the NIS2 directive.",
+     "tts": "Dann folgen die Normenreihe I-E-Ze sechs-zwei-vier-vier-drei und die En-I-Es-Zwei-Richtlinie."
+    },
+    {
+     "de": "Wir bleiben bei den Konzepten und gehen nicht in einzelne Produkte.",
+     "ar": "سنبقى عند المفاهيم ولن ندخل في منتجات بعينها.",
+     "en": "We stay with concepts and do not go into individual products."
+    },
+    {
+     "de": "So können Sie das Wissen später in jedem Projekt anwenden.",
+     "ar": "وهكذا يمكنكم تطبيق المعرفة لاحقًا في أي مشروع.",
+     "en": "This way you can apply the knowledge later in any project."
+    },
+    {
+     "de": "Am Ende gibt es Glossar und Quiz.",
+     "ar": "وفي النهاية مسرد واختبار قصير.",
+     "en": "At the end there are a glossary and a quiz."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Allgemeine Information",
+     "Keine Rechtsberatung",
+     "Keine Ingenieurberatung",
+     "Aktuelle Fassungen prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Stand der Technik",
+      "ar": "الحالة الراهنة للتقنية (Stand der Technik)",
+      "en": "state of the art"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video gibt nur allgemeine Informationen.",
+     "ar": "هذا الفيديو يقدّم معلومات عامة فقط.",
+     "en": "This video gives general information only."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is neither legal nor engineering advice."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich.",
+     "ar": "القوانين والمعايير تتغير.",
+     "en": "Laws and standards change."
+    },
+    {
+     "de": "Bitte entscheiden Sie im Projekt immer mit Ihrer Fachabteilung und Ihrem Rechtsbereich.",
+     "ar": "يرجى اتخاذ القرارات في المشروع دائمًا مع القسم المختص وقسم الشؤون القانونية.",
+     "en": "In a project please always decide together with your specialist department and legal department."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung.",
+     "ar": "تحققوا دائمًا من النسخة الحالية.",
+     "en": "Always check the current version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "IT und OT",
+    "heading": "Zwei Welten",
+    "items": [
+     "Ziel | IT: Daten schützen, OT: Prozess laufen lassen",
+     "Ausfall | IT: ärgerlich, OT: Anlage steht",
+     "Lebensdauer | OT-Anlagen laufen oft sehr lange",
+     "Updates | IT: schnell, OT: nur nach Planung",
+     "Folgen | OT: auch Sicherheit von Menschen"
+    ],
+    "terms": [
+     {
+      "de": "Betriebstechnik (OT)",
+      "ar": "تقنية التشغيل (OT)",
+      "en": "operational technology"
+     },
+     {
+      "de": "Informationstechnik (IT)",
+      "ar": "تقنية المعلومات (IT)",
+      "en": "information technology"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst vergleichen wir IT und OT.",
+     "ar": "أولًا نقارن بين تقنية المعلومات وتقنية التشغيل.",
+     "en": "First we compare IT and OT.",
+     "tts": "Zuerst vergleichen wir I-Te und O-Te."
+    },
+    {
+     "de": "IT bedeutet Informationstechnik, zum Beispiel Büro-Computer.",
+     "ar": "تقنية المعلومات، ويُرمز لها IT، تشمل مثلًا حواسيب المكاتب",
+     "en": "IT means information technology, for example office computers.",
+     "tts": "I-Te bedeutet Informationstechnik, zum Beispiel Büro-Computer."
+    },
+    {
+     "de": "OT bedeutet Betriebstechnik: Steuerungen, Antriebe und Sensoren.",
+     "ar": "تقنية التشغيل (OT) تشمل وحدات التحكم والمحركات والحساسات",
+     "en": "OT means operational technology: controllers, drives and sensors.",
+     "tts": "O-Te bedeutet Betriebstechnik: Steuerungen, Antriebe und Sensoren."
+    },
+    {
+     "de": "In der IT schützt man vor allem Daten.",
+     "ar": "في تقنية المعلومات نحمي البيانات في المقام الأول.",
+     "en": "In IT you mainly protect data.",
+     "tts": "In der I-Te schützt man vor allem Daten."
+    },
+    {
+     "de": "In der OT muss vor allem der Prozess weiterlaufen.",
+     "ar": "وفي تقنية التشغيل يجب أن تستمر العملية قبل كل شيء.",
+     "en": "In OT the process must above all keep running.",
+     "tts": "In der O-Te muss vor allem der Prozess weiterlaufen."
+    },
+    {
+     "de": "Darum denken OT-Teams zuerst an Verfügbarkeit und Sicherheit.",
+     "ar": "لذلك يفكر فريق OT أولًا في التوافرية والسلامة.",
+     "en": "So OT teams think first of availability and safety.",
+     "tts": "Darum denken O-Te-Teams zuerst an Verfügbarkeit und Sicherheit."
+    },
+    {
+     "de": "Die Zusammenarbeit von IT und OT ist deshalb wichtig.",
+     "ar": "ولهذا فالتعاون بين تقنية المعلومات وتقنية التشغيل مهم.",
+     "en": "So cooperation between IT and OT is important.",
+     "tts": "Die Zusammenarbeit von I-Te und O-Te ist deshalb wichtig."
+    },
+    {
+     "de": "Anlagen laufen oft viele Jahre mit alter Technik.",
+     "ar": "تعمل المنشآت غالبًا سنوات طويلة بتقنية قديمة.",
+     "en": "Plants often run for many years with old technology."
+    },
+    {
+     "de": "Beide Seiten müssen voneinander lernen.",
+     "ar": "على الجانبين أن يتعلّم كل منهما من الآخر.",
+     "en": "Both sides must learn from each other."
+    },
+    {
+     "de": "Ein Angriff kann deshalb echte physische Folgen haben.",
+     "ar": "لذلك قد يكون للهجوم عواقب مادية حقيقية.",
+     "en": "So an attack can have real physical consequences."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Schutzziele",
+    "heading": "Was wir schützen",
+    "items": [
+     "Verfügbarkeit: Anlage läuft",
+     "Integrität: Daten und Befehle stimmen",
+     "Vertraulichkeit: Wissen bleibt geheim",
+     "Funktionale Sicherheit: Mensch und Anlage"
+    ],
+    "terms": [
+     {
+      "de": "die Verfügbarkeit",
+      "ar": "التوافرية",
+      "en": "availability"
+     },
+     {
+      "de": "die Integrität",
+      "ar": "النزاهة (Integrität)",
+      "en": "integrity"
+     },
+     {
+      "de": "die Vertraulichkeit",
+      "ar": "السرية",
+      "en": "confidentiality"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt drei klassische Schutzziele.",
+     "ar": "هناك ثلاثة أهداف حماية كلاسيكية.",
+     "en": "There are three classic protection goals."
+    },
+    {
+     "de": "Das erste ist die Verfügbarkeit: Die Anlage läuft.",
+     "ar": "الأول هو التوافرية: أن تعمل المنشأة.",
+     "en": "The first is availability: the plant runs."
+    },
+    {
+     "de": "Das zweite ist die Integrität: Daten und Befehle sind unverändert und richtig.",
+     "ar": "الثاني هو النزاهة: أن تبقى البيانات والأوامر صحيحة وغير معدّلة.",
+     "en": "The second is integrity: data and commands are correct and unchanged."
+    },
+    {
+     "de": "Das dritte ist die Vertraulichkeit: Nur Berechtigte sehen die Daten.",
+     "ar": "الثالث هو السرية: ألّا يرى البيانات إلا المخوَّلون.",
+     "en": "The third is confidentiality: only authorized people see the data."
+    },
+    {
+     "de": "In der OT steht die Verfügbarkeit laut BSI sehr weit oben.",
+     "ar": "في تقنية التشغيل تحتل التوافرية بحسب BSI مرتبة عالية جدًا.",
+     "en": "In OT, availability ranks very high according to the BSI.",
+     "tts": "In der O-Te steht die Verfügbarkeit laut Be-Es-I sehr weit oben."
+    },
+    {
+     "de": "Ein Beispiel: Steht eine Produktionslinie still, entstehen schnell hohe Kosten.",
+     "ar": "مثال: إذا توقف خط إنتاج، تنشأ تكاليف عالية بسرعة.",
+     "en": "An example: if a production line stops, high costs arise quickly."
+    },
+    {
+     "de": "Ein falscher Messwert oder Befehl kann außerdem Menschen gefährden.",
+     "ar": "كما قد تعرّض قيمة قياس أو أمر خاطئ الأشخاص للخطر.",
+     "en": "A wrong measured value or command can also endanger people."
+    },
+    {
+     "de": "Deshalb sprechen wir hier von Sicherheit in einem breiten Sinn.",
+     "ar": "لذلك نتحدث هنا عن الأمان بمعنى واسع.",
+     "en": "So here we speak of safety and security in a broad sense."
+    },
+    {
+     "de": "Dazu kommt die funktionale Sicherheit von Menschen und Anlage.",
+     "ar": "ويضاف إليها السلامة الوظيفية للأشخاص والمنشأة.",
+     "en": "In addition comes the functional safety of people and plant."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Gefahren",
+    "heading": "Warum Anlagen angreifbar sind",
+    "items": [
+     "Alte Systeme ohne Updates",
+     "Vernetzung mit Büro und Internet",
+     "Fernzugänge für Dienstleister",
+     "Unbekannte, undokumentierte Zugänge"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Früher waren Anlagen oft nicht vernetzt.",
+     "ar": "في الماضي لم تكن المنشآت متصلة بالشبكات غالبًا.",
+     "en": "In the past plants were often not networked."
+    },
+    {
+     "de": "Heute hängen sie am Büronetz und manchmal am Internet.",
+     "ar": "واليوم ترتبط بشبكة المكتب وأحيانًا بالإنترنت.",
+     "en": "Today they are connected to the office network and sometimes the internet."
+    },
+    {
+     "de": "Dienstleister warten Maschinen aus der Ferne.",
+     "ar": "ويقوم مقدّمو الخدمة بصيانة الآلات عن بُعد.",
+     "en": "Service providers maintain machines remotely."
+    },
+    {
+     "de": "Alte Steuerungen bekommen nicht immer Sicherheitsupdates.",
+     "ar": "وقد لا تحصل وحدات التحكم القديمة دائمًا على تحديثات أمنية.",
+     "en": "Old controllers do not always get security updates."
+    },
+    {
+     "de": "Besonders riskant sind Zugänge, die niemand dokumentiert hat.",
+     "ar": "والأخطر هي المداخل التي لم يوثّقها أحد.",
+     "en": "Especially risky are access points that nobody documented."
+    },
+    {
+     "de": "Ein Angreifer muss nicht die Steuerung selbst treffen.",
+     "ar": "لا يحتاج المهاجم إلى استهداف وحدة التحكم نفسها.",
+     "en": "An attacker does not have to hit the controller itself."
+    },
+    {
+     "de": "Oft reicht ein Weg über das Büronetz oder einen Fernzugang.",
+     "ar": "وغالبًا يكفي طريق عبر شبكة المكتب أو عبر وصول عن بُعد.",
+     "en": "Often a path through the office network or a remote access is enough."
+    },
+    {
+     "de": "Deshalb beginnt Schutz mit einem Überblick über alle Geräte und Verbindungen.",
+     "ar": "لذلك تبدأ الحماية بنظرة شاملة على كل الأجهزة والاتصالات.",
+     "en": "So protection starts with an overview of all devices and connections."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Defense in Depth",
+    "heading": "Schutz in Schichten",
+    "items": [
+     "Außen: Perimeter und Firewall",
+     "Netz: Segmente und Zonen",
+     "System: Härtung und Rechte",
+     "Mensch: Regeln und Schulung"
+    ],
+    "terms": [
+     {
+      "de": "Defense in Depth",
+      "ar": "الدفاع المتعمّق (Defense in Depth)",
+      "en": "defense in depth"
+     },
+     {
+      "de": "die Härtung",
+      "ar": "التحصين (Härtung)",
+      "en": "hardening"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein einzelner Schutz reicht nicht.",
+     "ar": "حماية واحدة لا تكفي.",
+     "en": "A single protection is not enough."
+    },
+    {
+     "de": "Darum nutzt man Defense in Depth, also Schutz in Schichten.",
+     "ar": "لذلك نستخدم الدفاع المتعمّق، أي الحماية على طبقات.",
+     "en": "So we use defense in depth, that is, protection in layers."
+    },
+    {
+     "de": "Außen steht zum Beispiel eine Firewall.",
+     "ar": "في الخارج مثلًا جدار ناري.",
+     "en": "On the outside there is, for example, a firewall."
+    },
+    {
+     "de": "Innen ist das Netz in Segmente geteilt.",
+     "ar": "وفي الداخل تُقسَّم الشبكة إلى قطاعات.",
+     "en": "Inside, the network is divided into segments."
+    },
+    {
+     "de": "Die Systeme selbst werden gehärtet, und Rechte sind begrenzt.",
+     "ar": "وتُحصَّن الأنظمة نفسها وتُقيَّد الصلاحيات.",
+     "en": "The systems themselves are hardened and rights are limited."
+    },
+    {
+     "de": "Fällt eine Schicht aus, hält die nächste den Angreifer auf.",
+     "ar": "إذا سقطت طبقة، توقف الطبقة التالية المهاجم.",
+     "en": "If one layer fails, the next one stops the attacker."
+    },
+    {
+     "de": "Dieses Prinzip kennen Sie auch aus der Elektrotechnik: mehrere Schutzeinrichtungen hintereinander.",
+     "ar": "تعرفون هذا المبدأ من الهندسة الكهربائية: عدة أجهزة حماية متتالية.",
+     "en": "You also know this principle from electrical engineering: several protective devices in series."
+    },
+    {
+     "de": "So wird aus vielen kleinen Maßnahmen ein starker Schutz.",
+     "ar": "وهكذا تتحول إجراءات صغيرة كثيرة إلى حماية قوية.",
+     "en": "So many small measures become strong protection."
+    },
+    {
+     "de": "Laut BSI darf auch das Innere einer Anlage nicht auf eigene Sicherheit verzichten.",
+     "ar": "وبحسب BSI لا يجوز أن يستغني داخل المنشأة نفسه عن حمايته الخاصة.",
+     "en": "According to the BSI, even the inside of a plant must not go without its own security.",
+     "tts": "Laut Be-Es-I darf auch das Innere einer Anlage nicht auf eigene Sicherheit verzichten."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "IEC 62443",
+    "heading": "Die Normenreihe im Überblick",
+    "items": [
+     "Reihe | Cybersicherheit für Automatisierungssysteme",
+     "Teil 2-1 | Programm und Management beim Betreiber",
+     "Teil 3-2 | Risikobeurteilung, Zonen und Konduits",
+     "Teil 3-3 | Technische Anforderungen an Systeme",
+     "Teil 4-1 | Sicherer Entwicklungsprozess für Produkte",
+     "Teil 4-2 | Technische Anforderungen an Komponenten"
+    ],
+    "terms": [
+     {
+      "de": "die Normenreihe",
+      "ar": "سلسلة المعايير",
+      "en": "standards series"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Normenreihe IEC 62443.",
+     "ar": "والآن ننتقل إلى سلسلة المعايير IEC 62443 وأجزائها",
+     "en": "Now to the IEC 62443 series.",
+     "tts": "Jetzt zur Normenreihe I-E-Ze sechs-zwei-vier-vier-drei."
+    },
+    {
+     "de": "Sie behandelt die Sicherheit industrieller Automatisierungs- und Steuerungssysteme.",
+     "ar": "تتناول أمن أنظمة الأتمتة والتحكم الصناعية.",
+     "en": "It covers the security of industrial automation and control systems."
+    },
+    {
+     "de": "In Deutschland erscheint sie als DIN EN IEC 62443 mit VDE-Nummer.",
+     "ar": "وتصدر في ألمانيا باسم DIN EN IEC 62443 ومعها رقم تصنيف VDE الخاص بها",
+     "en": "In Germany it appears as DIN EN IEC 62443 with a VDE number.",
+     "tts": "In Deutschland erscheint sie als Din E-En I-E-Ze sechs-zwei-vier-vier-drei mit Fau-De-E-Nummer."
+    },
+    {
+     "de": "Teil 2-1 richtet sich an den Betreiber und sein Sicherheitsprogramm.",
+     "ar": "الجزء 2-1 موجَّه إلى المشغّل وبرنامجه الأمني.",
+     "en": "Part 2-1 addresses the operator and the security programme.",
+     "tts": "Teil zwei-eins richtet sich an den Betreiber und sein Sicherheitsprogramm."
+    },
+    {
+     "de": "Wichtig: Das ist eine Orientierung, kein Ersatz für den Normtext.",
+     "ar": "مهم: هذا للتوجيه فقط وليس بديلًا عن نص المعيار.",
+     "en": "Important: this is orientation, not a replacement for the standard text."
+    },
+    {
+     "de": "Teil 3-2 beschreibt die Risikobeurteilung mit Zonen und Konduits.",
+     "ar": "الجزء 3-2 يصف تقييم المخاطر بالمناطق وقنوات الاتصال.",
+     "en": "Part 3-2 describes risk assessment with zones and conduits.",
+     "tts": "Teil drei-zwei beschreibt die Risikobeurteilung mit Zonen und Konduits."
+    },
+    {
+     "de": "Teil 3-3 nennt technische Anforderungen an das Gesamtsystem.",
+     "ar": "الجزء 3-3 يحدد المتطلبات التقنية للنظام الكامل.",
+     "en": "Part 3-3 states technical requirements for the whole system.",
+     "tts": "Teil drei-drei nennt technische Anforderungen an das Gesamtsystem."
+    },
+    {
+     "de": "Teil 4-1 regelt die sichere Entwicklung von Produkten.",
+     "ar": "الجزء 4-1 ينظّم التطوير الآمن للمنتجات.",
+     "en": "Part 4-1 governs the secure development of products.",
+     "tts": "Teil vier-eins regelt die sichere Entwicklung von Produkten."
+    },
+    {
+     "de": "Teil 4-2 stellt Anforderungen an einzelne Komponenten.",
+     "ar": "الجزء 4-2 يضع متطلبات للمكوّنات المنفردة.",
+     "en": "Part 4-2 sets requirements for individual components.",
+     "tts": "Teil vier-zwei stellt Anforderungen an einzelne Komponenten."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufbau",
+    "heading": "Vier Gruppen von Teilen",
+    "items": [
+     "1: Allgemeines und Begriffe",
+     "2: Richtlinien und Verfahren",
+     "3: Anforderungen an das System",
+     "4: Anforderungen an Produkte"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Teile sind in vier Gruppen geordnet.",
+     "ar": "الأجزاء مرتبة في أربع مجموعات.",
+     "en": "The parts are arranged in four groups."
+    },
+    {
+     "de": "Gruppe eins enthält Allgemeines und Begriffe.",
+     "ar": "المجموعة الأولى تتضمن العموميات والمفاهيم.",
+     "en": "Group one contains general topics and terms."
+    },
+    {
+     "de": "Das hilft Ihnen, einen Teil schnell der richtigen Aufgabe zuzuordnen.",
+     "ar": "يساعدكم ذلك على ربط كل جزء بسرعة بالمهمة المناسبة.",
+     "en": "This helps you quickly assign a part to the right task."
+    },
+    {
+     "de": "Gruppe zwei behandelt Richtlinien und Verfahren.",
+     "ar": "المجموعة الثانية تتناول السياسات والإجراءات.",
+     "en": "Group two covers policies and procedures."
+    },
+    {
+     "de": "Gruppe drei betrachtet das System, Gruppe vier die Produkte.",
+     "ar": "المجموعة الثالثة تنظر إلى النظام، والرابعة إلى المنتجات.",
+     "en": "Group three looks at the system, group four at products."
+    },
+    {
+     "de": "Die Reihe ist nicht abgeschlossen, und Ausgaben unterscheiden sich je Teil.",
+     "ar": "السلسلة غير مكتملة، وتختلف الإصدارات من جزء لآخر.",
+     "en": "The series is not complete, and editions differ by part."
+    },
+    {
+     "de": "Prüfen Sie deshalb immer die gültige Ausgabe, zum Beispiel bei der DKE.",
+     "ar": "لذلك تحققوا دائمًا من الإصدار السارّي، مثلًا لدى DKE الألمانية",
+     "en": "So always check the valid edition, for example at the DKE.",
+     "tts": "Prüfen Sie deshalb immer die gültige Ausgabe, zum Beispiel bei der De-Ka-E."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Rollen",
+    "heading": "Hersteller, Integrator, Betreiber",
+    "items": [
+     "Hersteller: baut Produkte und Komponenten",
+     "Integrator: baut die Gesamtanlage",
+     "Betreiber: nutzt und betreibt die Anlage",
+     "Rolle zählt, nicht die Firma"
+    ],
+    "terms": [
+     {
+      "de": "der Hersteller",
+      "ar": "الشركة المصنِّعة",
+      "en": "manufacturer"
+     },
+     {
+      "de": "der Integrator",
+      "ar": "مُدمِج الأنظمة",
+      "en": "integrator"
+     },
+     {
+      "de": "der Betreiber",
+      "ar": "مشغّل المنشأة",
+      "en": "operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Normenreihe unterscheidet drei Rollen.",
+     "ar": "تميّز السلسلة بين ثلاثة أدوار.",
+     "en": "The series distinguishes three roles."
+    },
+    {
+     "de": "Der Hersteller entwickelt Produkte wie Steuerungen oder Switches.",
+     "ar": "الشركة المصنِّعة تطوّر منتجات مثل وحدات التحكم والمحوّلات الشبكية.",
+     "en": "The manufacturer develops products such as controllers or switches."
+    },
+    {
+     "de": "Für ihn sind vor allem die Teile 4-1 und 4-2 wichtig.",
+     "ar": "بالنسبة إليها الجزآن 4-1 و4-2 هما الأهم.",
+     "en": "For the manufacturer, parts 4-1 and 4-2 matter most.",
+     "tts": "Für ihn sind vor allem die Teile vier-eins und vier-zwei wichtig."
+    },
+    {
+     "de": "Der Integrator baut daraus die Anlage und bindet sie ein.",
+     "ar": "مُدمِج الأنظمة يبني منها المنشأة ويربطها معًا.",
+     "en": "The integrator builds the plant from them and connects it."
+    },
+    {
+     "de": "Der Betreiber nutzt die Anlage und trägt das Sicherheitsprogramm.",
+     "ar": "مشغّل المنشأة يستخدمها ويتحمّل البرنامج الأمني.",
+     "en": "The operator uses the plant and carries the security programme."
+    },
+    {
+     "de": "Jede Rolle hat eigene Aufgaben, aber alle arbeiten zusammen.",
+     "ar": "لكل دور مهامه الخاصة، لكن الجميع يتعاونون.",
+     "en": "Each role has its own tasks, but all work together."
+    },
+    {
+     "de": "Der Hersteller liefert sichere Produkte und meldet Schwachstellen.",
+     "ar": "تقدّم الشركة المصنِّعة منتجات آمنة وتبلّغ عن الثغرات.",
+     "en": "The manufacturer delivers secure products and reports vulnerabilities."
+    },
+    {
+     "de": "Der Integrator achtet auf sichere Konfiguration und Übergabe.",
+     "ar": "يهتم مُدمِج الأنظمة بالإعداد الآمن والتسليم.",
+     "en": "The integrator takes care of secure configuration and handover."
+    },
+    {
+     "de": "Eine Firma kann mehrere Rollen haben.",
+     "ar": "يمكن أن يكون للشركة الواحدة عدة أدوار.",
+     "en": "One company can have several roles."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Zusammenarbeit",
+    "heading": "Wer klärt was im Projekt?",
+    "items": [
+     "Betreiber: Schutzbedarf und Ziele",
+     "Integrator: Konzept und Umsetzung",
+     "Hersteller: sichere Produkte, Updates",
+     "Alle: Rollen schriftlich festhalten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Sicherheit entsteht nur, wenn die Rollen zusammenarbeiten.",
+     "ar": "لا ينشأ الأمن إلا بتعاون الأدوار معًا.",
+     "en": "Security only arises when the roles cooperate."
+    },
+    {
+     "de": "Der Betreiber kennt seinen Prozess und sagt, was geschützt werden muss.",
+     "ar": "المشغّل يعرف عمليته ويحدد ما يجب حمايته.",
+     "en": "The operator knows the process and says what must be protected."
+    },
+    {
+     "de": "Der Integrator macht daraus ein Konzept mit Zonen und Konduits.",
+     "ar": "ومُدمِج الأنظمة يحوّل ذلك إلى تصور بمناطق وقنوات اتصال.",
+     "en": "The integrator turns this into a concept with zones and conduits."
+    },
+    {
+     "de": "Der Hersteller liefert Produkte und Informationen zu Updates.",
+     "ar": "والشركة المصنِّعة تورّد المنتجات ومعلومات عن التحديثات.",
+     "en": "The manufacturer supplies products and information about updates."
+    },
+    {
+     "de": "Fernzugriff und Wartung sollten im Vertrag klar geregelt sein.",
+     "ar": "ينبغي تنظيم الوصول عن بُعد والصيانة بوضوح في العقد.",
+     "en": "Remote access and maintenance should be clearly regulated in the contract."
+    },
+    {
+     "de": "Halten Sie Verantwortung und Ansprechpartner schriftlich fest.",
+     "ar": "دوّنوا المسؤوليات وجهات الاتصال كتابيًا.",
+     "en": "Record responsibility and contact persons in writing."
+    },
+    {
+     "de": "So weiß im Ernstfall jeder, was zu tun ist.",
+     "ar": "وهكذا يعرف الجميع في الحالة الطارئة ما يجب فعله.",
+     "en": "So in an emergency everyone knows what to do."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zonen und Konduits",
+    "heading": "Das Grundprinzip",
+    "items": [
+     "Zone: Teile mit ähnlichem Schutzbedarf",
+     "Konduit: kontrollierter Kommunikationsweg",
+     "Jede Zone bekommt ein Schutzniveau",
+     "Verkehr nur über geprüfte Konduits"
+    ],
+    "terms": [
+     {
+      "de": "die Zone",
+      "ar": "المنطقة الأمنية (Zone)",
+      "en": "zone"
+     },
+     {
+      "de": "das Konduit",
+      "ar": "قناة الاتصال (Conduit)",
+      "en": "conduit"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zum wichtigsten Konzept: Zonen und Konduits.",
+     "ar": "والآن إلى أهم مفهوم: المناطق الأمنية وقنوات الاتصال.",
+     "en": "Now the most important concept: zones and conduits."
+    },
+    {
+     "de": "Eine Zone fasst Anlagenteile mit ähnlichem Schutzbedarf zusammen.",
+     "ar": "المنطقة الأمنية تجمع أجزاء المنشأة ذات حاجة الحماية المتشابهة.",
+     "en": "A zone groups plant parts with similar protection needs."
+    },
+    {
+     "de": "Ein Konduit ist der kontrollierte Kommunikationsweg zwischen Zonen.",
+     "ar": "قناة الاتصال هي المسار المُراقَب للتواصل بين المناطق.",
+     "en": "A conduit is the controlled communication path between zones."
+    },
+    {
+     "de": "Alles, was zwischen Zonen fließt, geht durch ein Konduit.",
+     "ar": "كل ما يعبر بين المناطق يمرّ عبر قناة اتصال.",
+     "en": "Everything that flows between zones passes through a conduit."
+    },
+    {
+     "de": "Für jede Zone legt man ein Ziel-Schutzniveau fest.",
+     "ar": "نحدد لكل منطقة مستوى حماية مستهدفًا.",
+     "en": "For each zone a target security level is defined."
+    },
+    {
+     "de": "Man kann sich Zonen wie Brandabschnitte in einem Gebäude vorstellen.",
+     "ar": "يمكن تخيّل المناطق مثل أقسام الحريق في مبنى.",
+     "en": "You can imagine zones like fire compartments in a building."
+    },
+    {
+     "de": "Mehr Zonen bedeuten mehr Schutz, aber auch mehr Aufwand.",
+     "ar": "مناطق أكثر تعني حماية أكثر، لكن أيضًا جهدًا أكبر.",
+     "en": "More zones mean more protection, but also more effort."
+    },
+    {
+     "de": "Deshalb wählt man die Aufteilung nach dem Risiko.",
+     "ar": "لذلك يُختار التقسيم بحسب الخطر.",
+     "en": "So the division is chosen according to risk."
+    },
+    {
+     "de": "Eine Tür dazwischen entspricht dem Konduit.",
+     "ar": "والباب بينها يقابل قناة الاتصال.",
+     "en": "A door between them corresponds to the conduit."
+    },
+    {
+     "de": "Das Ziel ist, dass ein Fehler nicht die ganze Anlage trifft.",
+     "ar": "الهدف ألّا يصيب العطل المنشأة كلها.",
+     "en": "The aim is that one fault does not hit the whole plant."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Beispiel",
+    "heading": "Eine mögliche Zonenaufteilung",
+    "items": [
+     "Büro-Netz | Office-IT, weniger kritisch",
+     "Pufferzone (DMZ) | Übergang zwischen Büro und Anlage",
+     "Leitebene | Visualisierung und Server",
+     "Steuerungsebene | SPS und Steuerungen",
+     "Feldebene | Sensoren, Antriebe, Aktoren"
+    ],
+    "terms": [
+     {
+      "de": "die Pufferzone (DMZ)",
+      "ar": "المنطقة العازلة (DMZ)",
+      "en": "buffer zone (DMZ)"
+     },
+     {
+      "de": "die SPS",
+      "ar": "وحدة التحكم المنطقية القابلة للبرمجة (SPS)",
+      "en": "PLC"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hier sehen Sie ein vereinfachtes Beispiel.",
+     "ar": "هنا مثال مبسّط.",
+     "en": "Here is a simplified example."
+    },
+    {
+     "de": "Es ist nur ein Beispiel und keine Vorgabe aus der Norm.",
+     "ar": "إنه مجرد مثال وليس مطلبًا من المعيار.",
+     "en": "It is only an example and not a requirement from the standard."
+    },
+    {
+     "de": "Das Büro-Netz bildet eine eigene Zone.",
+     "ar": "شبكة المكتب تشكّل منطقة مستقلة.",
+     "en": "The office network forms its own zone."
+    },
+    {
+     "de": "Dazwischen liegt eine Pufferzone, die DMZ.",
+     "ar": "وبينها منطقة عازلة، وهي المعروفة باسم DMZ بين الشبكتين",
+     "en": "In between lies a buffer zone, the DMZ.",
+     "tts": "Dazwischen liegt eine Pufferzone, die De-Em-Zet."
+    },
+    {
+     "de": "Dahinter folgen Leitebene, Steuerungsebene und Feldebene.",
+     "ar": "ويليها مستوى المراقبة ومستوى التحكم ومستوى الحقل.",
+     "en": "Behind it come the supervisory, control and field levels."
+    },
+    {
+     "de": "Je weiter unten, desto kritischer sind meist die Geräte für den Prozess.",
+     "ar": "كلما اتجهنا للأسفل، كانت الأجهزة غالبًا أكثر أهمية للعملية.",
+     "en": "The further down, the more critical the devices usually are for the process."
+    },
+    {
+     "de": "Darum sind dort die Regeln meist strenger.",
+     "ar": "ولذلك تكون القواعد هناك غالبًا أشد.",
+     "en": "So the rules there are usually stricter."
+    },
+    {
+     "de": "Die Übergänge sind die Konduits mit Firewall und Regeln.",
+     "ar": "والانتقالات بينها هي قنوات الاتصال مع جدار ناري وقواعد.",
+     "en": "The transitions are the conduits with firewall and rules."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutzniveaus",
+    "heading": "Von der Risikobeurteilung zum Niveau",
+    "items": [
+     "System abgrenzen",
+     "In Zonen und Konduits teilen",
+     "Risiko je Zone bewerten",
+     "Ziel-Schutzniveau festlegen"
+    ],
+    "terms": [
+     {
+      "de": "das Schutzniveau",
+      "ar": "مستوى الحماية (Security Level)",
+      "en": "security level"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie kommt man zu den Zonen?",
+     "ar": "كيف نصل إلى المناطق؟",
+     "en": "How do you arrive at the zones?"
+    },
+    {
+     "de": "Teil 3-2 beschreibt dafür eine Risikobeurteilung.",
+     "ar": "الجزء 3-2 يصف لذلك تقييمًا للمخاطر.",
+     "en": "Part 3-2 describes a risk assessment for this.",
+     "tts": "Teil drei-zwei beschreibt dafür eine Risikobeurteilung."
+    },
+    {
+     "de": "Zuerst grenzt man das betrachtete System ab.",
+     "ar": "أولًا نحدد حدود النظام قيد الدراسة.",
+     "en": "First you define the boundary of the system under consideration."
+    },
+    {
+     "de": "Kennen Sie das Risiko nicht, schützen Sie leicht an der falschen Stelle.",
+     "ar": "إن لم تعرفوا الخطر فقد تحمون بسهولة المكان الخطأ.",
+     "en": "If you do not know the risk, you can easily protect the wrong place."
+    },
+    {
+     "de": "Dann teilt man es in Zonen und Konduits.",
+     "ar": "ثم نقسّمه إلى مناطق وقنوات اتصال.",
+     "en": "Then you divide it into zones and conduits."
+    },
+    {
+     "de": "Danach bewertet man das Risiko je Zone und legt ein Ziel-Schutzniveau fest.",
+     "ar": "بعد ذلك نقيّم الخطر لكل منطقة ونحدد مستوى الحماية المستهدف.",
+     "en": "Then you assess the risk per zone and set a target security level."
+    },
+    {
+     "de": "So wird Sicherheit zu einer begründeten Entscheidung und nicht zu einem Gefühl.",
+     "ar": "وبذلك يصبح الأمن قرارًا مبرَّرًا لا مجرد شعور.",
+     "en": "So security becomes a reasoned decision, not a feeling."
+    },
+    {
+     "de": "Das Ergebnis sollte man sauber dokumentieren.",
+     "ar": "وينبغي توثيق النتيجة بشكل منظّم.",
+     "en": "The result should be documented cleanly."
+    },
+    {
+     "de": "Teil 3-3 sagt, welche technischen Anforderungen dazu passen.",
+     "ar": "والجزء 3-3 يبيّن المتطلبات التقنية المناسبة.",
+     "en": "Part 3-3 says which technical requirements fit.",
+     "tts": "Teil drei-drei sagt, welche technischen Anforderungen dazu passen."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Segmentierung",
+    "heading": "Netze sinnvoll trennen",
+    "items": [
+     "Vertikal: Produktion und Büro trennen",
+     "Horizontal: Anlagenteile trennen",
+     "Firewalls oder filternde Systeme",
+     "Nur nötige Verbindungen erlauben"
+    ],
+    "terms": [
+     {
+      "de": "die Segmentierung",
+      "ar": "التقسيم الشبكي (Segmentierung)",
+      "en": "segmentation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Segmentierung setzt das Zonenkonzept im Netz um.",
+     "ar": "التقسيم الشبكي يطبّق مفهوم المناطق على الشبكة.",
+     "en": "Segmentation puts the zone concept into the network."
+    },
+    {
+     "de": "Das BSI empfiehlt, Produktion und Büro-IT zu trennen.",
+     "ar": "توصي BSI بفصل الإنتاج عن تقنية المعلومات المكتبية.",
+     "en": "The BSI recommends separating production and office IT.",
+     "tts": "Das Be-Es-I empfiehlt, Produktion und Büro-I-Te zu trennen."
+    },
+    {
+     "de": "Das nennt man vertikale Trennung.",
+     "ar": "وهذا يسمى الفصل العمودي.",
+     "en": "This is called vertical separation."
+    },
+    {
+     "de": "Auch Anlagenteile untereinander kann man trennen, horizontal.",
+     "ar": "ويمكن أيضًا فصل أجزاء المنشأة عن بعضها، أفقيًا.",
+     "en": "Plant parts can also be separated from each other, horizontally."
+    },
+    {
+     "de": "Dafür nutzt man Firewalls oder ähnliche filternde Systeme.",
+     "ar": "ولذلك تُستخدم جدران نارية أو أنظمة ترشيح مماثلة.",
+     "en": "Firewalls or similar filtering systems are used for this."
+    },
+    {
+     "de": "Ein Schadprogramm im Büro erreicht dann nicht automatisch die Steuerung.",
+     "ar": "وعندها لا يصل برنامج خبيث في المكتب تلقائيًا إلى وحدة التحكم.",
+     "en": "Malware in the office then does not automatically reach the controller."
+    },
+    {
+     "de": "In der Praxis plant man Segmente gemeinsam mit der IT-Abteilung des Betreibers.",
+     "ar": "وعمليًا تُخطَّط القطاعات بالتعاون مع قسم تقنية المعلومات لدى المشغّل.",
+     "en": "In practice segments are planned together with the operator's IT department.",
+     "tts": "In der Praxis plant man Segmente gemeinsam mit der I-Te-Abteilung des Betreibers."
+    },
+    {
+     "de": "Auch Regeln müssen gepflegt werden, sonst veralten sie.",
+     "ar": "ويجب كذلك صيانة القواعد، وإلا فإنها تتقادم.",
+     "en": "Rules must also be maintained, otherwise they become outdated."
+    },
+    {
+     "de": "Erlaubt wird nur, was die Anlage wirklich braucht.",
+     "ar": "ويُسمح فقط بما تحتاجه المنشأة فعلًا.",
+     "en": "Only what the plant really needs is allowed."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Fernzugriff",
+    "heading": "Sicher aus der Ferne warten",
+    "items": [
+     "Zugang über DMZ und Firewall",
+     "Nur Zielsystem, nicht ganzes Netz",
+     "Freigabe nur für Zweck und Dauer",
+     "Starke Anmeldung, verschlüsselt"
+    ],
+    "terms": [
+     {
+      "de": "der Fernzugriff",
+      "ar": "الوصول عن بُعد",
+      "en": "remote access"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Fernzugriff ist ein häufiges Einfallstor.",
+     "ar": "الوصول عن بُعد منفذ شائع للاختراق.",
+     "en": "Remote access is a common entry point."
+    },
+    {
+     "de": "Das BSI empfiehlt Zugangspunkte in einer DMZ.",
+     "ar": "توصي BSI بوضع نقاط الوصول داخل منطقة DMZ العازلة",
+     "en": "The BSI recommends access points in a DMZ.",
+     "tts": "Das Be-Es-I empfiehlt Zugangspunkte in einer De-Em-Zet."
+    },
+    {
+     "de": "Der Dienstleister erreicht dort nur das Zielsystem, nicht das ganze Anlagennetz.",
+     "ar": "يصل مقدّم الخدمة هناك إلى النظام المستهدف فقط، لا إلى شبكة المنشأة كلها.",
+     "en": "There the service provider reaches only the target system, not the whole plant network."
+    },
+    {
+     "de": "Die Freigabe gilt nur für Zweck und Dauer der Wartung.",
+     "ar": "والتفعيل يسري فقط لغرض الصيانة ومدتها.",
+     "en": "Approval applies only to the purpose and duration of maintenance."
+    },
+    {
+     "de": "Man nutzt starke Anmeldung, zum Beispiel mit mehreren Faktoren.",
+     "ar": "ويُستخدم تسجيل دخول قوي، مثلًا بعدة عوامل.",
+     "en": "Strong login is used, for example with several factors."
+    },
+    {
+     "de": "Wichtig ist auch, wer den Zugang wann benutzt hat.",
+     "ar": "ومن المهم أيضًا معرفة من استخدم الوصول ومتى.",
+     "en": "It is also important who used the access and when."
+    },
+    {
+     "de": "Ein Zugang ohne Dokumentation kann der Betreiber nicht unterbinden.",
+     "ar": "والوصول غير الموثّق لا يستطيع المشغّل منعه.",
+     "en": "An access without documentation cannot be stopped by the operator."
+    },
+    {
+     "de": "Die Verbindung wird verschlüsselt, und jeder Zugang wird dokumentiert.",
+     "ar": "يُشفَّر الاتصال ويُوثَّق كل وصول.",
+     "en": "The connection is encrypted and every access is documented."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Patch-Management",
+    "heading": "Updates mit Plan",
+    "items": [
+     "Bestand kennen: Geräte und Versionen",
+     "Herstellerfreigabe einholen",
+     "Wartungsfenster nutzen",
+     "Ersatzmaßnahmen, wenn kein Update geht"
+    ],
+    "terms": [
+     {
+      "de": "das Patch-Management",
+      "ar": "إدارة التحديثات الأمنية (Patch-Management)",
+      "en": "patch management"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Patch-Management ist in der OT schwieriger als in der IT.",
+     "ar": "إدارة التحديثات الأمنية أصعب في تقنية التشغيل منها في تقنية المعلومات.",
+     "en": "Patch management is harder in OT than in IT.",
+     "tts": "Patch-Management ist in der O-Te schwieriger als in der I-Te."
+    },
+    {
+     "de": "Zuerst muss man wissen, welche Geräte und Versionen im Einsatz sind.",
+     "ar": "أولًا يجب معرفة الأجهزة والإصدارات المستخدمة.",
+     "en": "First you must know which devices and versions are in use."
+    },
+    {
+     "de": "Viele Patches für Steuerungen darf man nur nach Freigabe des Herstellers einspielen.",
+     "ar": "كثير من التحديثات لوحدات التحكم لا يجوز تثبيتها إلا بعد موافقة الشركة المصنِّعة.",
+     "en": "Many patches for controllers may only be installed after approval by the manufacturer."
+    },
+    {
+     "de": "Oft geht das nur in geplanten Wartungsfenstern.",
+     "ar": "وغالبًا لا يتم ذلك إلا في نوافذ صيانة مخطَّطة.",
+     "en": "Often this is only possible in planned maintenance windows."
+    },
+    {
+     "de": "Geht ein Update nicht, helfen Ersatzmaßnahmen, etwa stärkere Segmentierung.",
+     "ar": "وإذا تعذّر التحديث فتساعد إجراءات بديلة، مثل تقسيم شبكي أقوى.",
+     "en": "If no update is possible, compensating measures help, such as stronger segmentation."
+    },
+    {
+     "de": "Das Ziel bleibt gleich: bekannte Schwachstellen bewusst behandeln.",
+     "ar": "يبقى الهدف واحدًا: معالجة الثغرات المعروفة بوعي.",
+     "en": "The goal stays the same: handle known vulnerabilities deliberately."
+    },
+    {
+     "de": "Ein Update ohne Test kann selbst einen Ausfall auslösen.",
+     "ar": "وقد يتسبب تحديث بلا اختبار في عطل بحد ذاته.",
+     "en": "An update without testing can itself cause a failure."
+    },
+    {
+     "de": "Der Hersteller informiert, der Betreiber entscheidet mit dem Integrator.",
+     "ar": "تُعلِم الشركة المصنِّعة، ويقرّر المشغّل مع مُدمِج الأنظمة.",
+     "en": "The manufacturer informs, the operator decides with the integrator."
+    },
+    {
+     "de": "Auch aktive Scans können empfindliche Anlagen stören.",
+     "ar": "كما قد تُربك الفحوص النشطة المنشآت الحساسة.",
+     "en": "Active scans can also disturb sensitive plants."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Typische Fehler",
+    "heading": "Was in der Praxis schiefgeht",
+    "items": [
+     "Flaches Netz ohne Trennung",
+     "Standard-Passwörter bleiben",
+     "Fernzugang ohne Überblick",
+     "Kein Plan für Ausfälle"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss einige typische Schwächen aus der Praxis.",
+     "ar": "وأخيرًا بعض نقاط الضعف المتكررة في الواقع العملي.",
+     "en": "Finally some typical weaknesses from practice."
+    },
+    {
+     "de": "Das Netz ist flach, und alles spricht mit allem.",
+     "ar": "الشبكة مسطّحة، وكل شيء يتصل بكل شيء.",
+     "en": "The network is flat and everything talks to everything."
+    },
+    {
+     "de": "Geräte behalten ihre Standard-Passwörter aus der Inbetriebnahme.",
+     "ar": "تحتفظ الأجهزة بكلمات المرور الافتراضية من وقت التشغيل الأول.",
+     "en": "Devices keep their default passwords from commissioning."
+    },
+    {
+     "de": "Es gibt Fernzugänge, die niemand mehr kennt.",
+     "ar": "هناك وصولات عن بُعد لم يعد أحد يعرفها.",
+     "en": "There are remote accesses that nobody knows any more."
+    },
+    {
+     "de": "Es gibt keinen Plan, wie die Anlage nach einem Vorfall wieder anläuft.",
+     "ar": "لا توجد خطة لإعادة تشغيل المنشأة بعد وقوع حادث.",
+     "en": "There is no plan for how the plant restarts after an incident."
+    },
+    {
+     "de": "Gute Sicherungskopien und geübte Abläufe helfen hier sehr.",
+     "ar": "النسخ الاحتياطية الجيدة والإجراءات المُدرَّب عليها تساعد كثيرًا هنا.",
+     "en": "Good backups and practised procedures help a lot here."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "NIS2",
+    "heading": "Die europäische Richtlinie",
+    "items": [
+     "Name | Richtlinie (EU) 2022/2555, kurz NIS2",
+     "Ziel | Hohes gemeinsames Cybersicherheitsniveau",
+     "Art | EU-Richtlinie, nationale Umsetzung nötig",
+     "Vorgänger | Richtlinie (EU) 2016/1148 aufgehoben",
+     "Frist | Umsetzung bis Oktober 2024"
+    ],
+    "terms": [
+     {
+      "de": "die Richtlinie",
+      "ar": "التوجيه الأوروبي (Richtlinie)",
+      "en": "directive"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur europäischen Seite: die NIS2-Richtlinie.",
+     "ar": "والآن إلى الجانب الأوروبي: توجيه NIS2 الصادر عن الاتحاد",
+     "en": "Now the European side: the NIS2 directive.",
+     "tts": "Nun zur europäischen Seite: die En-I-Es-Zwei-Richtlinie."
+    },
+    {
+     "de": "Offiziell heißt sie Richtlinie EU 2022/2555.",
+     "ar": "اسمه الرسمي التوجيه الأوروبي 2022/2555 الصادر عن الاتحاد",
+     "en": "Officially it is Directive EU 2022/2555.",
+     "tts": "Offiziell heißt sie Richtlinie E-U zweitausendzweiundzwanzig Schrägstrich zweitausendfünfhundertfünfundfünfzig."
+    },
+    {
+     "de": "Sie wurde im Dezember 2022 veröffentlicht.",
+     "ar": "في ديسمبر 2022 نُشر هذا التوجيه",
+     "en": "It was published in December 2022.",
+     "tts": "Sie wurde im Dezember zweitausendzweiundzwanzig veröffentlicht."
+    },
+    {
+     "de": "Sie ersetzt die frühere NIS-Richtlinie aus dem Jahr 2016.",
+     "ar": "وبموجبه لم يعد توجيه NIS السابق من عام 2016 ساريًا",
+     "en": "It replaces the earlier NIS directive from 2016.",
+     "tts": "Sie ersetzt die frühere NIS-Richtlinie aus dem Jahr zweitausendsechzehn."
+    },
+    {
+     "de": "Eine Richtlinie gilt nicht direkt für Unternehmen.",
+     "ar": "التوجيه لا يسري مباشرة على الشركات.",
+     "en": "A directive does not apply directly to companies."
+    },
+    {
+     "de": "Jedes Land muss sie in nationales Recht umsetzen.",
+     "ar": "وعلى كل دولة أن تنقله إلى قانونها الوطني.",
+     "en": "Each country must transpose it into national law."
+    },
+    {
+     "de": "Die Frist dafür endete im Oktober 2024.",
+     "ar": "في أكتوبر 2024 انتهت المهلة لذلك",
+     "en": "The deadline for this ended in October 2024.",
+     "tts": "Die Frist dafür endete im Oktober zweitausendvierundzwanzig."
+    },
+    {
+     "de": "Wir nennen hier bewusst keine Schwellenwerte oder Pflichtenlisten.",
+     "ar": "ونحن لا نذكر هنا عمدًا عتبات أو قوائم التزامات.",
+     "en": "We deliberately name no thresholds or lists of duties here."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Deutschland",
+    "heading": "Die deutsche Umsetzung",
+    "items": [
+     "Gesetz | NIS-2-Umsetzungsgesetz (NIS2UmsuCG)",
+     "Kern | Neufassung des BSI-Gesetzes (BSIG)",
+     "In Kraft | 6. Dezember 2025",
+     "Aufsicht | Bundesamt für Sicherheit in der Informationstechnik",
+     "Stand | 20. Oktober 2026, aktuell prüfen"
+    ],
+    "terms": [
+     {
+      "de": "das BSI",
+      "ar": "المكتب الاتحادي لأمن المعلومات (BSI)",
+      "en": "Federal Office for Information Security"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Deutschland hat die Frist nicht eingehalten.",
+     "ar": "لم تلتزم ألمانيا بالمهلة.",
+     "en": "Germany did not meet the deadline."
+    },
+    {
+     "de": "Das Umsetzungsgesetz wurde am 5. Dezember 2025 verkündet.",
+     "ar": "في الخامس من ديسمبر 2025 صدر قانون التطبيق",
+     "en": "The implementation act was promulgated on 5 December 2025.",
+     "tts": "Das Umsetzungsgesetz wurde am fünfter Dezember zweitausendfünfundzwanzig verkündet."
+    },
+    {
+     "de": "Das Ziel ist, die Cybersicherheit in der EU insgesamt zu erhöhen.",
+     "ar": "الهدف رفع مستوى الأمن السيبراني في الاتحاد الأوروبي عمومًا.",
+     "en": "The aim is to raise cybersecurity across the EU as a whole.",
+     "tts": "Das Ziel ist, die Cybersicherheit in der E-U insgesamt zu erhöhen."
+    },
+    {
+     "de": "Es trat am 6. Dezember 2025 in Kraft.",
+     "ar": "في السادس من ديسمبر 2025 دخل حيز التنفيذ",
+     "en": "It entered into force on 6 December 2025.",
+     "tts": "Es trat am sechster Dezember zweitausendfünfundzwanzig in Kraft."
+    },
+    {
+     "de": "Sein Kern ist die Neufassung des BSI-Gesetzes.",
+     "ar": "وجوهره هو الصيغة الجديدة لقانون BSI الألماني",
+     "en": "Its core is the new version of the BSI Act.",
+     "tts": "Sein Kern ist die Neufassung des Be-Es-I-Gesetzes."
+    },
+    {
+     "de": "Das BSI ist die zuständige Bundesbehörde.",
+     "ar": "و BSI هي الجهة الاتحادية المختصة.",
+     "en": "The BSI is the competent federal authority.",
+     "tts": "Das Be-Es-I ist die zuständige Bundesbehörde."
+    },
+    {
+     "de": "Unser Stand ist der 20. Oktober 2026.",
+     "ar": "في 20 أكتوبر 2026 يقع تاريخنا المرجعي",
+     "en": "Our reference date is 20 October 2026.",
+     "tts": "Unser Stand ist der zwanzigster Oktober zweitausendsechsundzwanzig."
+    },
+    {
+     "de": "Seitdem kann es Änderungen gegeben haben.",
+     "ar": "وقد تكون حدثت تعديلات منذ ذلك الحين.",
+     "en": "There may have been changes since then."
+    },
+    {
+     "de": "Prüfen Sie deshalb die aktuelle Rechtslage beim BSI.",
+     "ar": "لذلك تحققوا لدى BSI من الوضع القانوني الحالي",
+     "en": "So check the current legal situation at the BSI.",
+     "tts": "Prüfen Sie deshalb die aktuelle Rechtslage beim Be-Es-I."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "NIS2 und OT",
+    "heading": "Was das für die Industrie heißt",
+    "items": [
+     "Betroffenheit selbst prüfen",
+     "Risikomanagement nach Stand der Technik",
+     "Dokumentation der Maßnahmen",
+     "Registrierung beim BSI beachten"
+    ],
+    "terms": [
+     {
+      "de": "die Einrichtung",
+      "ar": "الجهة المعنية (Einrichtung)",
+      "en": "entity"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was bedeutet NIS2 für Industrie und Anlagen?",
+     "ar": "ماذا يعني NIS2 للصناعة والمنشآت؟",
+     "en": "What does NIS2 mean for industry and plants?",
+     "tts": "Was bedeutet En-I-Es-Zwei für Industrie und Anlagen?"
+    },
+    {
+     "de": "Das Gesetz unterscheidet besonders wichtige und wichtige Einrichtungen.",
+     "ar": "يميّز القانون بين الجهات المهمة جدًا والجهات المهمة.",
+     "en": "The law distinguishes particularly important and important entities."
+    },
+    {
+     "de": "Ob ein Unternehmen betroffen ist, muss es selbst prüfen.",
+     "ar": "وعلى الشركة أن تتحقق بنفسها مما إذا كانت معنية.",
+     "en": "A company must check itself whether it is affected."
+    },
+    {
+     "de": "Betroffene Einrichtungen brauchen ein Risikomanagement nach dem Stand der Technik.",
+     "ar": "الجهات المعنية تحتاج إلى إدارة مخاطر وفق الحالة الراهنة للتقنية.",
+     "en": "Affected entities need risk management in line with the state of the art."
+    },
+    {
+     "de": "Sie müssen ihre Maßnahmen dokumentieren und sich beim BSI registrieren.",
+     "ar": "وعليها التسجيل لدى BSI وتوثيق إجراءاتها",
+     "en": "They must document their measures and register with the BSI.",
+     "tts": "Sie müssen ihre Maßnahmen dokumentieren und sich beim Be-Es-I registrieren."
+    },
+    {
+     "de": "Die IEC 62443 kann dabei als fachliche Orientierung dienen.",
+     "ar": "ويمكن أن تكون IEC 62443 مرجعًا فنيًا في ذلك.",
+     "en": "IEC 62443 can serve as technical guidance.",
+     "tts": "Die I-E-Ze sechs-zwei-vier-vier-drei kann dabei als fachliche Orientierung dienen."
+    },
+    {
+     "de": "Für Ingenieure heißt das: Technik und Organisation gehören zusammen.",
+     "ar": "بالنسبة للمهندسين يعني ذلك: التقنية والتنظيم يسيران معًا.",
+     "en": "For engineers this means: technology and organization belong together."
+    },
+    {
+     "de": "Es gibt keine Abkürzung: Jede Einrichtung muss ihre eigene Lage bewerten.",
+     "ar": "لا يوجد اختصار: على كل جهة تقييم وضعها بنفسها.",
+     "en": "There is no shortcut: every entity must assess its own situation."
+    },
+    {
+     "de": "Fragen Sie im Projekt früh nach den Zuständigkeiten.",
+     "ar": "اسألوا في المشروع مبكرًا عن المسؤوليات.",
+     "en": "Ask early in the project about responsibilities."
+    },
+    {
+     "de": "Ob eine Norm gesetzliche Pflichten erfüllt, klären Fachleute im Einzelfall.",
+     "ar": "وما إذا كان معيار ما يفي بالالتزامات القانونية يحدده المختصون في كل حالة.",
+     "en": "Whether a standard meets legal duties is for specialists to clarify case by case."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Schutzziele: Verfügbarkeit zuerst",
+     "Schutz in Schichten",
+     "Zonen und Konduits",
+     "Rollen: Hersteller, Integrator, Betreiber",
+     "NIS2: Stand prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "In der OT zählt vor allem, dass die Anlage sicher weiterläuft.",
+     "ar": "في تقنية التشغيل المهم قبل كل شيء أن تستمر المنشأة بأمان.",
+     "en": "In OT, what matters most is that the plant keeps running safely.",
+     "tts": "In der O-Te zählt vor allem, dass die Anlage sicher weiterläuft."
+    },
+    {
+     "de": "Defense in Depth schützt in mehreren Schichten.",
+     "ar": "الدفاع المتعمّق يحمي على عدة طبقات.",
+     "en": "Defense in depth protects in several layers."
+    },
+    {
+     "de": "Zonen und Konduits teilen die Anlage in kontrollierte Bereiche.",
+     "ar": "المناطق وقنوات الاتصال تقسّم المنشأة إلى نطاقات مُراقَبة.",
+     "en": "Zones and conduits divide the plant into controlled areas."
+    },
+    {
+     "de": "Segmentierung, Fernzugriff und Patches braucht man mit Plan.",
+     "ar": "التقسيم الشبكي والوصول عن بُعد والتحديثات تحتاج إلى خطة.",
+     "en": "Segmentation, remote access and patches need a plan."
+    },
+    {
+     "de": "Hersteller, Integrator und Betreiber tragen jeweils ihren Teil.",
+     "ar": "الشركة المصنِّعة ومُدمِج الأنظمة والمشغّل، كلٌّ يتحمّل نصيبه.",
+     "en": "Manufacturer, integrator and operator each carry their part."
+    },
+    {
+     "de": "Wenn Sie unsicher sind, fragen Sie früh Fachleute für Cybersicherheit.",
+     "ar": "وإن لم تكونوا متأكدين فاسألوا مبكرًا مختصي الأمن السيبراني.",
+     "en": "If you are unsure, ask cybersecurity specialists early."
+    },
+    {
+     "de": "Und denken Sie daran: Sicherheit ist kein einmaliges Projekt, sondern ein Prozess.",
+     "ar": "وتذكّروا: الأمن ليس مشروعًا لمرة واحدة بل عملية مستمرة.",
+     "en": "And remember: security is not a one-off project but a process."
+    },
+    {
+     "de": "Als Ingenieur sollten Sie diese Begriffe sicher kennen.",
+     "ar": "كمهندس، ينبغي أن تعرفوا هذه المصطلحات جيدًا.",
+     "en": "As an engineer you should know these terms well."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Abschluss",
+    "heading": "Bitte beachten",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Aktuelle Fassungen prüfen",
+     "Allgemeine Information",
+     "Keine Rechts- oder Ingenieurberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss noch einmal wichtig.",
+     "ar": "وأخيرًا، نؤكد مرة أخرى.",
+     "en": "Finally, once more, this is important."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich laufend.",
+     "ar": "القوانين والمعايير تتغير باستمرار.",
+     "en": "Laws and standards change constantly."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung der Quelle.",
+     "ar": "تحققوا دائمًا من النسخة الحالية من المصدر.",
+     "en": "Always check the current version of the source."
+    },
+    {
+     "de": "Dieses Video ist allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ersetzt keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "ولا يغني عن استشارة قانونية أو هندسية.",
+     "en": "It does not replace legal or engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um EMV und Messtechnik.",
+     "ar": "في الفيديو القادم نتناول التوافق الكهرومغناطيسي وتقنية القياس.",
+     "en": "The next video covers EMC and measurement technology.",
+     "tts": "Im nächsten Video geht es um E-Em-Fau und Messtechnik."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "das Schutzziel",
+   "هدف الحماية",
+   "protection goal"
+  ],
+  [
+   "die Verfügbarkeit",
+   "التوافرية",
+   "availability"
+  ],
+  [
+   "die Integrität",
+   "النزاهة (Integrität)",
+   "integrity"
+  ],
+  [
+   "die Vertraulichkeit",
+   "السرية",
+   "confidentiality"
+  ],
+  [
+   "die Betriebstechnik (OT)",
+   "تقنية التشغيل (OT)",
+   "operational technology"
+  ],
+  [
+   "die Zone",
+   "المنطقة الأمنية",
+   "zone"
+  ],
+  [
+   "das Konduit",
+   "قناة الاتصال (Conduit)",
+   "conduit"
+  ],
+  [
+   "die Segmentierung",
+   "التقسيم الشبكي",
+   "segmentation"
+  ],
+  [
+   "der Fernzugriff",
+   "الوصول عن بُعد",
+   "remote access"
+  ],
+  [
+   "das Patch-Management",
+   "إدارة التحديثات الأمنية",
+   "patch management"
+  ],
+  [
+   "der Hersteller",
+   "الشركة المصنِّعة",
+   "manufacturer"
+  ],
+  [
+   "der Integrator",
+   "مُدمِج الأنظمة",
+   "integrator"
+  ],
+  [
+   "der Betreiber",
+   "مشغّل المنشأة",
+   "operator"
+  ],
+  [
+   "die Härtung",
+   "التحصين",
+   "hardening"
+  ],
+  [
+   "die Richtlinie",
+   "التوجيه الأوروبي",
+   "directive"
+  ],
+  [
+   "die Einrichtung",
+   "الجهة المعنية",
+   "entity"
+  ]
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was steht in der OT laut BSI sehr weit oben?",
+    "ar": "ما الذي يحتل مرتبة عالية جدًا في تقنية التشغيل بحسب BSI؟",
+    "en": "What ranks very high in OT according to the BSI?"
+   },
+   "options": [
+    {
+     "de": "Die Verfügbarkeit",
+     "ar": "التوافرية",
+     "en": "Availability"
+    },
+    {
+     "de": "Die Werbung",
+     "ar": "الإعلان",
+     "en": "Advertising"
+    },
+    {
+     "de": "Die Farbe",
+     "ar": "اللون",
+     "en": "Colour"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was ist ein Konduit?",
+    "ar": "ما هي قناة الاتصال؟",
+    "en": "What is a conduit?"
+   },
+   "options": [
+    {
+     "de": "Ein Sensor",
+     "ar": "حساس",
+     "en": "A sensor"
+    },
+    {
+     "de": "Ein kontrollierter Kommunikationsweg zwischen Zonen",
+     "ar": "مسار اتصال مُراقَب بين المناطق",
+     "en": "A controlled communication path between zones"
+    },
+    {
+     "de": "Eine Firewall-Lizenz",
+     "ar": "ترخيص جدار ناري",
+     "en": "A firewall licence"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wer entwickelt Produkte und Komponenten?",
+    "ar": "من يطوّر المنتجات والمكوّنات؟",
+    "en": "Who develops products and components?"
+   },
+   "options": [
+    {
+     "de": "Der Betreiber",
+     "ar": "المشغّل",
+     "en": "The operator"
+    },
+    {
+     "de": "Der Integrator",
+     "ar": "مُدمِج الأنظمة",
+     "en": "The integrator"
+    },
+    {
+     "de": "Der Hersteller",
+     "ar": "الشركة المصنِّعة",
+     "en": "The manufacturer"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wie sollte Fernwartung laufen?",
+    "ar": "كيف ينبغي أن تجري الصيانة عن بُعد؟",
+    "en": "How should remote maintenance run?"
+   },
+   "options": [
+    {
+     "de": "Dauerhaft offen für alle",
+     "ar": "مفتوحة دائمًا للجميع",
+     "en": "Permanently open to everyone"
+    },
+    {
+     "de": "Über DMZ und Firewall, nur für Zweck und Dauer",
+     "ar": "عبر DMZ وجدار ناري، لغرض ومدة محددين فقط",
+     "en": "Via DMZ and firewall, only for purpose and duration"
+    },
+    {
+     "de": "Ohne Dokumentation",
+     "ar": "دون توثيق",
+     "en": "Without documentation"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was ist der Kern des deutschen NIS2-Umsetzungsgesetzes?",
+    "ar": "ما جوهر قانون التطبيق الألماني لـ NIS2؟",
+    "en": "What is the core of the German NIS2 implementation act?"
+   },
+   "options": [
+    {
+     "de": "Eine neue Norm von VDE",
+     "ar": "معيار جديد من VDE",
+     "en": "A new VDE standard"
+    },
+    {
+     "de": "Ein Gesetz über Steckdosen",
+     "ar": "قانون عن المقابس",
+     "en": "A law on sockets"
+    },
+    {
+     "de": "Die Neufassung des BSI-Gesetzes",
+     "ar": "الصيغة الجديدة لقانون BSI",
+     "en": "The new version of the BSI Act"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um EMV und Messtechnik.",
+  "ar": "في الفيديو القادم نتناول التوافق الكهرومغناطيسي وتقنية القياس.",
+  "en": "The next video covers EMC and measurement technology."
+ },
+ "stand": "2026-10-20; prüfen: aktueller Stand NIS2UmsuCG/BSIG (Änderungen seit Dez. 2025, KRITIS-Dachgesetz, Registrierung beim BSI), gültige Ausgaben der Teile von DIN EN IEC 62443 (DKE), Rollenbezeichnungen und Teil-Inhalte gegen Normenkatalog, aktuelle BSI-Empfehlungen (ICS-Security-Kompendium, IND.3.2); keine Schwellenwerte oder Pflichtenlisten genannt"
+}

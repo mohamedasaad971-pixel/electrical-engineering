@@ -1,0 +1,208 @@
+{
+ "video": "E-C02",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "IEC 61508 ist die Grundnorm der funktionalen Sicherheit elektrischer, elektronischer und programmierbarer elektronischer sicherheitsbezogener Systeme.",
+   "source_url": "https://webstore.iec.ch/publication/5514",
+   "source_name": "IEC Webstore (IEC TR 61508-0) und Katalogeinträge",
+   "confidence": "high",
+   "note": "Normtext nicht zitiert."
+  },
+  {
+   "claim": "Teil 1 der Reihe beschreibt einen generischen Ansatz für alle Tätigkeiten im Sicherheitslebenszyklus; die Reihe soll die Entwicklung von Sektornormen erleichtern.",
+   "source_url": "https://reference.globalspec.com/ref/3880040/iec-61508-1-2010",
+   "source_name": "GlobalSpec-Katalog zu IEC 61508-1:2010",
+   "confidence": "medium",
+   "note": "Sekundär; Paraphrase der Kurzbeschreibung."
+  },
+  {
+   "claim": "Die aktuelle zweite Ausgabe der Reihe stammt aus dem Jahr 2010; frühere Ausgaben (1998/2000) sind ersetzt.",
+   "source_url": "https://webstore.iec.ch/en/publication/19800",
+   "source_name": "IEC Webstore (IEC 61508-1 Revised) / Katalogsuche",
+   "confidence": "medium",
+   "note": "Im Video nur mit Stand-Hinweis; aktuelle Ausgabe prüfen."
+  },
+  {
+   "claim": "Die Reihe hat sieben Teile; Teil 1 allgemeine Anforderungen und Lebenszyklus, Teil 2 Hardware, Teil 3 Software.",
+   "source_url": "https://quality.arc42.org/standards/iec-61508",
+   "source_name": "arc42 Quality Standards Übersicht",
+   "confidence": "medium",
+   "note": "Sekundärquelle."
+  },
+  {
+   "claim": "Der Sicherheitslebenszyklus reicht vom Konzept bis zur Außerbetriebnahme; er umfasst Analyse, Realisierung sowie Betrieb und Instandhaltung.",
+   "source_url": "https://www.jamasoftware.com/ebook/iec-61508-complete-guide-to-functional-safety-in-industrial-manufacturing",
+   "source_name": "Jama Software (Sekundärzusammenfassung)",
+   "confidence": "medium",
+   "note": "Gliederung in drei Phasen ist Vereinfachung dieser Quelle; im Video nur 'vom Konzept bis zur Außerbetriebnahme'."
+  },
+  {
+   "claim": "Funktionale Sicherheit ist der Teil der Gesamtsicherheit, der vom korrekten Funktionieren sicherheitsbezogener E/E/PE-Systeme und anderer Maßnahmen zur Risikominderung abhängt.",
+   "source_url": "https://www.electropedia.org/cdd/iec62683/iec62683.nsf/0/ADEBB0CF515A39CAC1258D10005EE0ED",
+   "source_name": "Electropedia / Definitionsauszug (Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Sinngemäß wiedergegeben."
+  },
+  {
+   "claim": "Sicherheitsrelevante Systeme müssen auch bei Ausfällen und Störungen korrekt funktionieren; Beispiel für sicheren Zustand: bei einem Fehler wird ein sicherer Stopp ausgelöst.",
+   "source_url": "https://www.dguv.de/medien/ifa/de/pra/softwa/sistema/kochbuch/sistema_kochbuch_6_de.pdf",
+   "source_name": "DGUV/IFA SISTEMA-Kochbuch 6 (Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Beispiel nur allgemein."
+  },
+  {
+   "claim": "Die Reihe unterscheidet zufällige Hardwareausfälle (probabilistisch bewertet) und systematische Fehler (durch Prozessdisziplin, Methoden und Verifikation beherrscht).",
+   "source_url": "https://spyro-soft.com/blog/industry-4-0/iec-61508",
+   "source_name": "Spyrosoft / Sekundärzusammenfassung",
+   "confidence": "medium",
+   "note": "Allgemein formuliert."
+  },
+  {
+   "claim": "SIL ist ein Maß für die Zuverlässigkeit einer Sicherheitsfunktion; es gibt vier Stufen, SIL 1 niedrigste, SIL 4 höchste. Die Stufe folgt aus einer Gefährdungs- und Risikoanalyse.",
+   "source_url": "https://quality.arc42.org/standards/iec-61508",
+   "source_name": "arc42 / Jama / Wikipedia 'Safety integrity level' (übereinstimmend)",
+   "confidence": "medium",
+   "note": "Zahlenwerte (PFD/PFH-Grenzen) bewusst nicht genannt."
+  },
+  {
+   "claim": "IEC 61508 ist keine harmonisierte europäische Norm und genügt allein nicht als CE-Nachweis.",
+   "source_url": "https://www.pilz.com/en-PL/knowhow/law-standards-norms/functional-safety/en-iec-61508",
+   "source_name": "Pilz Know-how (Hersteller, nur Normenerklärung)",
+   "confidence": "medium",
+   "note": "Nur als Hinweis; Produktangaben nicht übernommen."
+  },
+  {
+   "claim": "EN 62061 (IEC 62061) ist die Sektornorm für sicherheitsbezogene elektrische Steuerungen an Maschinen, abgeleitet von IEC 61508; Zielgröße SIL.",
+   "source_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2022/Februar/TA_Si_Sicherheit_von_Maschinen/Sicherheit_von_Maschinen_1.1_V2.pdf",
+   "source_name": "ZVEI Leitfaden 'Sicherheit von Maschinen' (2022)",
+   "confidence": "medium",
+   "note": "Edition nicht genannt."
+  },
+  {
+   "claim": "EN ISO 13849-1 verwendet Performance Level (PL) als Zielgröße; PL reicht von a bis e.",
+   "source_url": "https://www.dguv.de/ifa;/publikationen/reports-download/reports-2017/ifa-report-2-2017/index.jsp",
+   "source_name": "DGUV/IFA Report 2/2017",
+   "confidence": "high",
+   "note": "Dritte Ausgabe 2016 laut IFA; heutige Ausgabe prüfen."
+  },
+  {
+   "claim": "Der erforderliche Performance Level PLr einer steuerungstechnischen Sicherheitsfunktion wird über die Risikoabschätzung bestimmt; der erreichte PL wird danach ermittelt.",
+   "source_url": "https://publikationen.dguv.de/forschung/ifa/ifa-report/4150/ifa-report-2/2017e-functional-safety-of-machine-controls-application-of-en-iso-13849",
+   "source_name": "DGUV Publikationen, IFA Report 2/2017e",
+   "confidence": "high",
+   "note": "Risikograph-Details nicht verwendet."
+  },
+  {
+   "claim": "EN ISO 13849-1 entstand aus der früheren EN 954-1 und berücksichtigt Aspekte der IEC 61508.",
+   "source_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2022/Februar/TA_Si_Sicherheit_von_Maschinen/Sicherheit_von_Maschinen_1.1_V2.pdf",
+   "source_name": "ZVEI Leitfaden / Euchner 'Safety of Machinery'",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Beide Maschinennormen (EN ISO 13849-1, EN 62061) sind harmonisiert und geben Konformitätsvermutung; wo keine C-Norm etwas vorschreibt, wählt der Konstrukteur; eine gewählte Norm ist vollständig anzuwenden, Anforderungen nicht mischen.",
+   "source_url": "https://assets2.euchner.de/uploads/Safety-of-Machinery-2012.pdf",
+   "source_name": "Euchner 'Safety of Machinery' (2012), ZVEI",
+   "confidence": "medium",
+   "note": "Ältere Quelle (2012); Harmonisierungsstatus ist zu prüfen. Im Video allgemein mit Prüfhinweis."
+  },
+  {
+   "claim": "Aus der Risikobeurteilung ergibt sich, ob und in welchem Maß ein Risiko an einer Maschine vermindert werden muss.",
+   "source_url": "https://www.dguv.de/medien/ifa/de/pra/softwa/sistema/kochbuch/sistema_kochbuch_6_de.pdf",
+   "source_name": "DGUV/IFA SISTEMA-Kochbuch 6",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die Risikobeurteilung nach EN ISO 12100 ist ein iterativer Prozess; Risiko hängt von Schadensausmaß und Eintrittswahrscheinlichkeit ab.",
+   "source_url": "https://www.suva.ch/de-ch/download/dokument/sicherheit-von-maschinen-br-das-wichtigste-zur-risikobeurteilung-br-ueberblick-ueber-den-inhalt-der-en-iso-12100--ce15-1.d",
+   "source_name": "Suva Factsheet CE15 zu EN ISO 12100",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Risikominderung in drei Stufen: zuerst inhärent sichere Konstruktion, dann technische und ergänzende Schutzmaßnahmen, dann Benutzerinformation.",
+   "source_url": "https://www.suva.ch/de-ch/download/factsheets/sicherheit-von-maschinen---das-wichtigste-zur-risikominderung--ueberblick-ueber-den-inhalt-der-en-iso-12100--ce14-2.d",
+   "source_name": "Suva Factsheet CE14 zu EN ISO 12100",
+   "confidence": "high",
+   "note": "Bestätigt durch DGUV/IFA SISTEMA-Kochbuch (inhärent sicher zuerst)."
+  },
+  {
+   "claim": "Die Dokumentation der Risikobeurteilung und des Risikominderungsprozesses gehört nach EN ISO 12100 dazu.",
+   "source_url": "https://www.weka.de/produktsicherheit/die-en-iso-12100-maschinen-und-anlagen-sicher-konstruieren/",
+   "source_name": "WEKA / Suva Übersicht",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Sicherheitsüberwachungen werden standardmäßig zweikanalig ausgeführt; Sicherheitsrelais oder Sicherheits-SPS werten die Signale aus; bei Drahtbruch oder Spannungsausfall soll die Maschine stoppen (ausfallsicheres Prinzip).",
+   "source_url": "https://forum.digikey.com/t/einfuhrung-in-sicherheitskonzepte-bei-der-automation/69852",
+   "source_name": "DigiKey Forum, Einführungsartikel",
+   "confidence": "medium",
+   "note": "Allgemeines Konzept; keine Produktaussagen."
+  },
+  {
+   "claim": "Sicherheits-SPS können mehrere Sicherheitsgeräte (Not-Halt, Lichtvorhänge) in einer Einheit überwachen.",
+   "source_url": "https://www.computer-automation.de/safety-und-security/die-en-14119-in-der-umsetzung.htm",
+   "source_name": "computer-automation.de (Fachartikel)",
+   "confidence": "medium",
+   "note": "Produktnennung weggelassen."
+  },
+  {
+   "claim": "Schutztüren werden von Bedienern häufig umgangen (Manipulation); EN ISO 14119 behandelt Verriegelungseinrichtungen an Schutzeinrichtungen.",
+   "source_url": "https://www.computer-automation.de/safety-und-security/die-en-14119-in-der-umsetzung.htm",
+   "source_name": "computer-automation.de (Fachartikel)",
+   "confidence": "medium",
+   "note": "Nur Normname und Problem genannt."
+  },
+  {
+   "claim": "Sicherheitsfunktion einer Steuerung muss gegen Ausfall und Manipulation geschützt sein; IFA stellt SISTEMA als Hilfe bereit.",
+   "source_url": "https://www.dguv.de/medien/ifa/de/pra/softwa/sistema/kochbuch/sistema_kochbuch_6_de.pdf",
+   "source_name": "DGUV/IFA",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln (DIN VDE 0105-100) gelten bei Arbeiten an spannungsfrei gemachten Anlagen; Reihenfolge eins bis fünf.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung (wie E-F05)",
+   "confidence": "medium",
+   "note": "Wie in E-F05; sinngemäß, nicht wörtlich. Arbeitsberechtigung: Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft (E-F04)."
+  }
+ ],
+ "dropped": [
+  {
+   "claim": "Zahlen- und Grenzwerttabellen (PFD/PFH je SIL, Zuordnung PL zu SIL)",
+   "reason": "Vom Brief ausgeschlossen und nur aus Sekundärquellen."
+  },
+  {
+   "claim": "Details der Kategorien B bis 4 und Architekturen nach EN ISO 13849-1",
+   "reason": "Nicht aus Primärquelle verifiziert; nur Namen der Stufen a bis e verwendet."
+  },
+  {
+   "claim": "Aktuelle Ausgaben (z. B. EN ISO 13849-1:2023, IEC 62061:2021) und Änderungen",
+   "reason": "Einzelquelle, schnell veränderlich; Video verweist auf Prüfung der aktuellen Fassung."
+  },
+  {
+   "claim": "Entwurf prEN ISO 12100:2025 und Ablösung der Ausgabe 2010",
+   "reason": "Datum/Status eines Entwurfs ungeklärt."
+  },
+  {
+   "claim": "Verhältnis zur neuen EU-Maschinenverordnung (Ablösung der Maschinenrichtlinie)",
+   "reason": "Nicht verifiziert; Rechts- und Übergangsfragen, nicht im Video."
+  },
+  {
+   "claim": "Max. erreichbare PL/SIL konkreter Sicherheitsrelais/Sicherheits-SPS",
+   "reason": "Produktangaben; ausgeschlossen."
+  },
+  {
+   "claim": "SIL 4 bei Maschinen nicht relevant",
+   "reason": "Einzelquelle."
+  },
+  {
+   "claim": "ISO 26262 (Automobil) als Sektornorm",
+   "reason": "Nur als Beispiel aus Sekundärquelle; im Video 'weitere Branchen' ohne Normnummer."
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "video": "E-C03",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Die Maschinenverordnung (EU) 2023/1230 löst die Maschinenrichtlinie 2006/42/EG ab; laut DGUV gilt bis 19.01.2027 ausschließlich die Richtlinie und ab 20.01.2027 nur noch die Verordnung, ohne Übergangsphase mit Wahlrecht.",
+   "source_url": "https://www.dguv.de/dguv-test/prod-pruef-zert/konform-prod/maschinen/eu-maschinenverordnung/index.jsp",
+   "source_name": "DGUV (Prüf- und Zertifizierungsstelle)",
+   "confidence": "medium",
+   "note": "Konsistent mit E-F03 (20. Januar 2027). Im Skript mit Hinweis 'laut DGUV' und Stand-Prüfung."
+  },
+  {
+   "claim": "Die Verordnung gilt in Deutschland unmittelbar; ergänzende Durchführungsbestimmungen sind laut Bundesentwurf nötig.",
+   "source_url": "https://cdn.table.media/assets/entwurf_maschinendg.pdf",
+   "source_name": "Entwurf Maschinen-Durchführungsgesetz (Bund)",
+   "confidence": "medium",
+   "note": "Status des deutschen Durchführungsgesetzes nicht bestätigt, im Skript nur 'Stand prüfen'."
+  },
+  {
+   "claim": "Die Gesetzesbegründung (BT-Drs. 21/1507) sieht Aufgaben der BAuA bei der Marktüberwachung nach dem Maschinenverordnung-Durchführungsgesetz vor.",
+   "source_url": "https://dserver.bundestag.de/btd/21/015/2101507.pdf",
+   "source_name": "Deutscher Bundestag, Drucksache 21/1507",
+   "confidence": "low",
+   "note": "Nur als Hinweis auf laufendes Gesetzgebungsverfahren; nicht im Skript."
+  },
+  {
+   "claim": "Nach der Maschinenrichtlinie 2006/42/EG müssen Maschinen den grundlegenden Sicherheits- und Gesundheitsanforderungen entsprechen; sie wurde in Deutschland über das ProdSG und die 9. ProdSV umgesetzt.",
+   "source_url": "https://dguv.de/dguv-test/prod-pruef-zert/konform-prod/maschinen/index.jsp",
+   "source_name": "DGUV, Maschinensicherheit in Europa",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Vor dem Inverkehrbringen muss ein Konformitätsbewertungsverfahren durchgeführt werden; der Hersteller bringt die CE-Kennzeichnung an und fügt eine Konformitätserklärung bei. Bei Maschinen aus Anhang IV muss eine benannte Stelle mitwirken, wenn keine harmonisierte Norm angewendet wird oder sie nicht alle Anforderungen abdeckt.",
+   "source_url": "https://dguv.de/dguv-test/prod-pruef-zert/konform-prod/maschinen/index.jsp",
+   "source_name": "DGUV, Maschinensicherheit in Europa",
+   "confidence": "high",
+   "note": "Im Skript nur 'kann eine benannte Stelle nötig sein'."
+  },
+  {
+   "claim": "Die CE-Kennzeichnung ist vor dem Inverkehrbringen anzubringen; ein Produkt mit unberechtigter oder fehlender vorgeschriebener CE-Kennzeichnung darf nicht bereitgestellt werden (§ 7 ProdSG).",
+   "source_url": "https://www.gesetze-im-internet.de/prodsg_2021/__7.html",
+   "source_name": "gesetze-im-internet.de, ProdSG § 7",
+   "confidence": "high",
+   "note": "Übernommen aus E-F03."
+  },
+  {
+   "claim": "Die Risikobeurteilung ist nach der Maschinenrichtlinie Pflicht des Herstellers; wie sie im Detail zu gestalten ist, lassen die Rechtstexte offen.",
+   "source_url": "https://www.weka.de/produktsicherheit/risikobeurteilung/",
+   "source_name": "WEKA Produktsicherheit",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "EN ISO 12100 ist die Typ-A-Grundnorm: Terminologie, Leitsätze und Methodik zur Konstruktion sicherer Maschinen; sie vereint frühere Normen (ISO 12100-1/-2, ISO 14121-1). Die Ausgabe 2010 wird als DIN EN ISO 12100:2011-03 geführt; ein Entwurf einer Neufassung (prEN ISO 12100:2025) wurde gelistet.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-iso-12100/128264334",
+   "source_name": "DIN Media / Austrian Standards (Normenradar)",
+   "confidence": "medium",
+   "note": "Im Skript: 'Ausgabe prüfen'."
+  },
+  {
+   "claim": "Der Prozess besteht aus Risikoanalyse, Risikobewertung und Risikominderung und wird iterativ durchlaufen.",
+   "source_url": "https://www.weka.de/produktsicherheit/das-iterative-verfahren-nach-en-iso-12100/",
+   "source_name": "WEKA / DIN Media",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Risikominderung folgt einem Drei-Stufen-Verfahren: (1) inhärent sichere Konstruktion, (2) technische und/oder ergänzende Schutzmaßnahmen, (3) Benutzerinformation über Restrisiken.",
+   "source_url": "https://www.suva.ch/de-ch/download/factsheets/sicherheit-von-maschinen---das-wichtigste-zur-risikominderung--ueberblick-ueber-den-inhalt-der-en-iso-12100--ce14-2.d",
+   "source_name": "Suva Factsheet zu EN ISO 12100",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "EN 60204-1 gilt für elektrische, elektronische und programmierbar elektronische Ausrüstung von Maschinen, die bei der Arbeit nicht von Hand getragen werden, einschließlich Gruppen von koordiniert arbeitenden Maschinen.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-60204-1/278537709",
+   "source_name": "DIN Media / VDE Verlag",
+   "confidence": "medium",
+   "note": "Spannungs- und Frequenzgrenzen bewusst nicht genannt."
+  },
+  {
+   "claim": "Als DIN EN 60204-1 (VDE 0113-1) ist die Ausgabe 2019-06 gelistet; eine neuere Ausgabe (2026-06) wurde im Suchergebnis erwähnt, die Quellen widersprechen sich zum Gültigkeitsstatus.",
+   "source_url": "https://vde-verlag.de/standards/0100523/din-en-60204-1-vde-0113-1-2019-06.html",
+   "source_name": "VDE Verlag / DIN Media",
+   "confidence": "low",
+   "note": "Daher nur 'gültige Ausgabe prüfen'; Jahreszahlen nicht im Skript."
+  },
+  {
+   "claim": "Die Ausgabe 2019 hat Abschnitt 9 (Steuerfunktionen: u. a. sichere Drehmomentabschaltung, Not-Aus, Schutz der Steuerkreise) neu gestaltet.",
+   "source_url": "https://www.vde-verlag.de/previewpdf/70100523.pdf",
+   "source_name": "VDE Verlag, Vorschau",
+   "confidence": "medium",
+   "note": "Nicht im Skript genannt."
+  },
+  {
+   "claim": "Stopp-Kategorie 0: ungesteuertes Stillsetzen durch sofortiges Trennen der Energie; Kategorie 1: gesteuertes Stillsetzen, danach Trennen der Energie; Kategorie 2: gesteuertes Stillsetzen ohne Trennen der Energie, nicht für das Abschalten im Gefahrfall. Die Wahl ergibt sich aus der Risikobeurteilung.",
+   "source_url": "https://www.kollmorgen.com/en-us/developer-network/stopp-und-not-halt-funktion/",
+   "source_name": "Kollmorgen (Herstellerinfo zu EN 60204-1)",
+   "confidence": "medium",
+   "note": "Sekundärquelle, deshalb nur konzeptionell."
+  },
+  {
+   "claim": "Not-Halt: Stoppbefehl zum Stillsetzen einer gefahrbringenden Bewegung oder eines Prozesses; Not-Aus (Ausschalten im Notfall): Schutzziel ist das Verringern elektrischer Gefährdungen durch Trennen der Energie. Die Quellen verwenden die Begriffe nicht einheitlich.",
+   "source_url": "https://www.bgrci.de/fileadmin/BGRCI/Downloads/DL_Praevention/Fachwissen/Maschinensicherheit/2024-01-28_NOT-HALT-Befehlsger%C3%A4te_BG_RCI_aktuell.pdf",
+   "source_name": "BG RCI / IFA",
+   "confidence": "medium",
+   "note": "BG RCI verweist für Not-Aus auf EN 60204-1."
+  },
+  {
+   "claim": "EN ISO 13850 regelt die Gestaltung der Not-Halt-Funktion; Befehlsgerät rot, ein vorhandener Hintergrund gelb; das Stellteil muss bei jeder Betätigung einrasten; Entriegeln gibt den Wiederanlauf nur frei.",
+   "source_url": "https://www.suva.ch/de-ch/praevention/nach-gefahren/maschinen-und-werkzeuge/maschinensicherheit-und-maschinensteuerungen/schalteinrichtungen-bei-maschinen/schalteinrichtungen-und-maschinensteuerungen-not-aus-schalter-not-halt-geraete",
+   "source_name": "Suva / DIN Media / IFA",
+   "confidence": "medium",
+   "note": "Ausgabe 2007 zurückgezogen; neuere Ausgabe prüfen."
+  },
+  {
+   "claim": "Ein Not-Halt-Gerät ist an jedem Bedienstand vorgesehen, sofern die Risikobeurteilung es nicht als entbehrlich ausweist; Ausnahmen u. a. bei handgeführten Maschinen.",
+   "source_url": "https://www.suva.ch/de-ch/praevention/nach-gefahren/maschinen-und-werkzeuge/maschinensicherheit-und-maschinensteuerungen/schalteinrichtungen-bei-maschinen/schalteinrichtungen-und-maschinensteuerungen-not-aus-schalter-not-halt-geraete",
+   "source_name": "Suva",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "EN ISO 14120 legt Anforderungen an Gestaltung und Bau fester und beweglicher trennender Schutzeinrichtungen (Verkleidungen, Abdeckungen, Schutzgitter) gegen mechanische Gefährdungen fest.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-iso-14120/225533621",
+   "source_name": "DIN Media",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Berührungslos wirkende Schutzeinrichtungen (BWS) fallen unter die Normenreihe IEC 61496; Lichtvorhänge müssen Über-, Unter- und Hintergreifen ausschließen; der Abstand zur Gefahrstelle richtet sich nach EN ISO 13855; Lichtvorhänge schützen nicht gegen herausgeschleuderte Teile.",
+   "source_url": "https://www.suva.ch/de-ch/praevention/nach-gefahren/maschinen-und-werkzeuge/maschinensicherheit-und-maschinensteuerungen/schalteinrichtungen-bei-maschinen/lichtschranken-und-lichtvorhaenge",
+   "source_name": "Suva / IFA / DIN Media",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Eine unvollständige Maschine kann allein keine bestimmte Funktion erfüllen und ist zum Einbau in andere Maschinen bestimmt (Beispiel Antriebssystem); nach der Richtlinie gehören Einbauerklärung und Montageanleitung dazu und werden später Teil der technischen Unterlagen der Gesamtmaschine.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/43534",
+   "source_name": "KomNet NRW",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Verordnung 2023/1230 gleicht die Anforderungen an unvollständige Maschinen laut Fachbeitrag weitgehend an; Einzelheiten nicht belegt.",
+   "source_url": "https://www.forum-media.at/news/Arbeitssicherheit-Brandschutz/MaschinenVO-birgt-neue-Anforderungen-an-Hersteller-von-unvollstaendigen-Maschinen",
+   "source_name": "Forum Media",
+   "confidence": "low",
+   "note": "Nur als 'neue Regeln prüfen'."
+  },
+  {
+   "claim": "Wer eine Maschine wesentlich verändert, gilt als Hersteller und muss die Herstellerpflichten (u. a. erneute Risikobeurteilung) erfüllen; bei nicht wesentlicher Veränderung entfällt ein neues Konformitätsbewertungsverfahren, die Gefährdungsbeurteilung nach BetrSichV ist nötig; Analyse und Dokumentation sind immer Pflicht. Grundlage: Interpretationspapier des BMAS (2015).",
+   "source_url": "https://assets.ibf-solutions.com/fileadmin/Dateidownloads/interpretationspapier-wesentliche-veraenderung-von-maschinen.pdf",
+   "source_name": "BMAS-Interpretationspapier (Bekanntmachung 09.04.2015) / Fachquellen",
+   "confidence": "medium",
+   "note": "Anpassung an die Verordnung nicht belegt."
+  },
+  {
+   "claim": "Betriebsanleitung: in der/den Amtssprache(n) des Mitgliedstaats, in dem die Maschine in Verkehr gebracht/in Betrieb genommen wird (Original oder Übersetzung mit beigefügtem Original); sie geht an den Kunden. Technische Unterlagen müssen dem Kunden nicht geliefert werden und dienen der Marktaufsicht.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/17361",
+   "source_name": "KomNet NRW (Richtlinie 2006/42/EG Anhang I 1.7.4)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die technischen Unterlagen müssen nach der Richtlinie (Anhang VII) den Behörden mindestens zehn Jahre verfügbar bleiben.",
+   "source_url": "https://gesetze.legal/eu/rl_2006_42_eg/anhang_vii",
+   "source_name": "Richtlinie 2006/42/EG Anhang VII",
+   "confidence": "high",
+   "note": "Frist der Verordnung nicht geprüft, im Skript so gekennzeichnet."
+  },
+  {
+   "claim": "Vermutungswirkung: Eine nach einer im Amtsblatt veröffentlichten harmonisierten Norm hergestellte Maschine gilt als konform mit den von der Norm erfassten Anforderungen (Art. 7 RL); die Liste wird laufend aktualisiert.",
+   "source_url": "https://www.ibf-solutions.com/news-und-wissen/amtsblaetter/normen-zur-maschinenrichtlinie",
+   "source_name": "IBF / Richtlinientext",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Elektrische Arbeiten an Anlagen und Betriebsmitteln erfolgen durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht (DGUV Vorschrift 3); die fünf Sicherheitsregeln in fester Reihenfolge, Freischalten ist nur der erste Schritt.",
+   "source_url": "https://www.tuev-nord.de/de/unternehmen/bildung/wissen-kompakt/elektrotechnik/aufgaben-und-rollen-in-der-elektrotechnik",
+   "source_name": "E-F04 / E-F05 (intern geprüft), TÜV Nord",
+   "confidence": "high",
+   "note": "Übernommen aus E-F04/E-F05; Aussage 'Not-Halt ersetzt die fünf Regeln nicht' ist eine vorsichtige Folgerung aus der Rolle von Regel 1."
+  }
+ ],
+ "dropped": [
+  "Genauer Wortlaut von EN 60204-1, EN ISO 13850, EN ISO 12100 (Zitierverbot; Normtext nicht frei)",
+  "Spannungs- und Frequenzgrenzen des Anwendungsbereichs von EN 60204-1 (Zahlen bewusst nicht genannt)",
+  "Gültigkeit der Ausgabe 2019 vs. 2026 von EN 60204-1 (Quellen widersprüchlich)",
+  "Gelbe Hintergrundfarbe RAL-Nummern und Beschriftungsregeln des Not-Halt (Details aus Herstellerquellen)",
+  "Historische Erklärung der Not-Aus/Not-Halt-Verwechslung durch falsche Übersetzung von 'emergency stop' (nur Einzelquelle)",
+  "Zahl 'rund 95 Prozent aller Umbauten sind nicht wesentlich' (Herstellermeinung)",
+  "Regeln zu Verriegelungen beweglicher Schutzeinrichtungen (EN ISO 14119) und Auswahl des BWS-Typs (nicht ausreichend belegt)",
+  "Berechnung der Sicherheitsabstände nach EN ISO 13855 (nur Verweis)",
+  "Status des deutschen Maschinen-Durchführungsgesetzes und Abschaffung der 9. ProdSV (nicht bestätigt)",
+  "Details der Maschinenverordnung zu Cybersecurity, KI-Systemen und Haftung (nicht recherchiert)",
+  "Aufbewahrungsfrist und Sprachregeln der technischen Unterlagen nach der Verordnung (nicht belegt)",
+  "Liste der 16 harmonisierten Normen mit Übergangsfrist 20.01.2027 (Einzelquelle)",
+  "Wegfall der Einbauerklärung in der Verordnung (Einzelquelle, widersprüchlich)",
+  "Rolle der BAuA als nationaler Knotenpunkt (nur Gesetzesbegründung/Entwurf)",
+  "Genaue Rollenverteilung Hersteller/Importeur/Händler nach der Verordnung (nicht recherchiert)"
+ ]
+}

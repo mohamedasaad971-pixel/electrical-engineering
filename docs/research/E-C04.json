@@ -1,0 +1,195 @@
+{
+ "video": "E-C04",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "PROFINET ist ein offener Industrial-Ethernet-Standard für die Automatisierung, entwickelt von PROFIBUS & PROFINET International (PI).",
+   "source_url": "https://profinet.com/profinet-explained/technology-description",
+   "source_name": "PROFIBUS & PROFINET International (profinet.com)",
+   "confidence": "high",
+   "note": "Herstellerorganisation, Primärquelle für die Technologie."
+  },
+  {
+   "claim": "PROFINET dient dem Datenaustausch zwischen Steuerungen und Feldgeräten wie I/O-Blöcken, Antrieben und Bildverarbeitungssystemen.",
+   "source_url": "https://profinet.com/profinet-explained/technology-description",
+   "source_name": "profinet.com",
+   "confidence": "medium",
+   "note": "Geräteliste laut Herstellerangaben."
+  },
+  {
+   "claim": "PROFINET nutzt Standard-Ethernet als Übertragungsmedium und ist mit Büro-Ethernet kompatibel; Büro-Ethernet allein gilt für industrielle Echtzeit-Anforderungen als nicht ausreichend.",
+   "source_url": "https://profinet.com/profinet-explained/technology-description",
+   "source_name": "profinet.com",
+   "confidence": "medium",
+   "note": "Herstellerseite."
+  },
+  {
+   "claim": "PROFINET kennt drei Kommunikationskanäle: Standard-TCP/IP für nicht deterministische Funktionen, PROFINET RT und den hardwaregestützten Modus IRT.",
+   "source_url": "https://profinet.com/profinet-explained/technology-description",
+   "source_name": "profinet.com",
+   "confidence": "medium",
+   "note": "Latenzwerte der Quelle bewusst nicht übernommen."
+  },
+  {
+   "claim": "Ein Netz gilt als deterministisch, wenn es Daten in einer festgelegten, vorhersagbaren Zeit überträgt (bounded response). Echtzeit heißt nicht automatisch schnell.",
+   "source_url": "https://www.designworldonline.com/industrial-ethernet-basics-for-mechanical-engineers/",
+   "source_name": "Design World",
+   "confidence": "medium",
+   "note": "Begriffsdefinition aus Fachartikel; Quellen verwenden 'garantiert' als begrenztes Zeitfenster."
+  },
+  {
+   "claim": "Bei harter Echtzeit darf keine Frist verpasst werden; bei weicher Echtzeit sind gelegentliche Überschreitungen tolerierbar.",
+   "source_url": "https://www.motioncontroltips.com/deterministic-real-time-control-what-does-it-really-mean-in-motion-control-applications/",
+   "source_name": "Motion Control Tips",
+   "confidence": "medium",
+   "note": "Allgemeine Begriffsdefinition."
+  },
+  {
+   "claim": "Industrial Ethernet ist kein einzelnes Protokoll, sondern ein Sammelbegriff für Ethernet-basierte Protokolle der Industrie (z. B. PROFINET, EtherNet/IP, EtherCAT).",
+   "source_url": "https://www.processonline.com.au/content/industrial-networks-buses/article/determinism-in-industrial-ethernet-br-a-technology-overview-part-1-678679974",
+   "source_name": "Process Online",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "PROFIBUS DP ist ein klassischer serieller Feldbus auf Basis von RS-485.",
+   "source_url": "https://www.keyence.com/ss/products/controls/network/fieldnetwork/profibus.jsp",
+   "source_name": "Keyence",
+   "confidence": "medium",
+   "note": "Übertragungsraten und Teilnehmerzahlen nicht übernommen."
+  },
+  {
+   "claim": "PI entwickelte PROFINET, als die Industrie auf Industrial Ethernet umstieg; PROFIBUS bleibt verbreitet und wird weiter eingesetzt.",
+   "source_url": "https://arxiv.org/pdf/2011.14167",
+   "source_name": "arXiv: Profinet vs Profibus",
+   "confidence": "medium",
+   "note": "Ob PROFINET PROFIBUS formal 'ersetzt', nicht belegt; im Skript nur 'Weiterentwicklung auf Ethernet-Basis' und 'bleibt verbreitet'."
+  },
+  {
+   "claim": "Die Spezifikationen von PROFINET sind in die Normenreihen IEC 61158 und IEC 61784 eingebettet (Dienste/Protokolle bzw. Profile).",
+   "source_url": "https://www.profibus.com/profinet-specification",
+   "source_name": "PI Spezifikationsseite",
+   "confidence": "medium",
+   "note": "Nur Bezeichnung der Reihen, keine Teilnummern, keine Textzitate."
+  },
+  {
+   "claim": "PROFINET-Geräte haben meist zwei Ports mit integriertem Switch, sodass Linien ohne externe Switches möglich sind; Sterne und Bäume entstehen mit Switches; ein Ausfall des zentralen Switches trifft alle daran angeschlossenen Teilnehmer.",
+   "source_url": "https://us.profinet.com/wp-content/uploads/2019/08/Topology.pdf",
+   "source_name": "PROFINET Topology (PI-Nordamerika)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Ein Ring wird über das Medienredundanzprotokoll MRP realisiert; ein Media Redundancy Manager öffnet den Ring im Normalbetrieb und schließt ihn bei einer Störung. Alle Teilnehmer im Ring müssen MRP unterstützen.",
+   "source_url": "https://content.helpme-codesys.com/de/CODESYS%20PROFINET/_pnio_media_redundancy.html",
+   "source_name": "CODESYS-Hilfe PROFINET",
+   "confidence": "medium",
+   "note": "Umschaltzeiten bewusst nicht übernommen."
+  },
+  {
+   "claim": "Gerätenamen werden im Engineering-Werkzeug projektiert und per DCP (Discovery and Configuration Protocol) auf die Geräte übertragen; die Steuerung setzt beim Hochlauf die IP-Adressen.",
+   "source_url": "https://profinetuniversity.com/?p=331",
+   "source_name": "PROFINET University",
+   "confidence": "medium",
+   "note": "Herstellerneutrale Lernseite; Details je Hersteller prüfen."
+  },
+  {
+   "claim": "LLDP ist in PROFINET-Geräten standardmäßig aktiv; Nachbargeräte tauschen Name und Portinformationen aus, daraus lässt sich die Topologie prüfen. Die Topologiekonfiguration wird u. a. für MRP, IRT, Geräteaustausch und Anlagendiagnose benötigt (Herstellerdokumentation).",
+   "source_url": "https://profinetuniversity.com/?p=576",
+   "source_name": "PROFINET University",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "OPC UA ist eine plattformunabhängige, serviceorientierte Architektur der OPC Foundation (veröffentlicht 2008), die die älteren OPC-Classic-Spezifikationen zusammenführt.",
+   "source_url": "https://opcfoundation.org/?p=24",
+   "source_name": "OPC Foundation",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "OPC UA bietet ein Client-Server-Modell und zusätzlich Publish-Subscribe (PubSub) für Many-to-Many-Szenarien.",
+   "source_url": "https://reference.opcfoundation.org/specs/OPC-10000-1/4",
+   "source_name": "OPC Foundation Reference, Teil 1 Overview",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "OPC UA stellt einen gemeinsamen Adressraum mit Informationsmodell bereit; Server können Daten, Alarme/Ereignisse und Historie sowie Typdefinitionen anbieten.",
+   "source_url": "https://reference.opcfoundation.org/Core/Part1/v104/docs/5",
+   "source_name": "OPC Foundation Reference",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Sicherheit ist Teil der OPC-UA-Spezifikation: Authentifizierung, Verschlüsselung und Integritätsprüfung; Sicherheitsmodi None, Sign, SignAndEncrypt; Vertrauen über Zertifikate und Vertrauenslisten.",
+   "source_url": "https://newwebsite.opcfoundation.org/wp-content/uploads/2014/05/OPC-UA_Security_FR.pdf",
+   "source_name": "OPC Foundation, UA Security",
+   "confidence": "medium",
+   "note": "Teils aus Sekundärquelle; Details gegen aktuelle Spezifikation prüfen."
+  },
+  {
+   "claim": "OPC UA ist als internationale Normenreihe IEC 62541 veröffentlicht.",
+   "source_url": "https://webstore.ansi.org/preview-pages/IEC/preview_iec62541-6%7Bed2.0%7Db.pdf",
+   "source_name": "ANSI Webstore / IEC 62541",
+   "confidence": "medium",
+   "note": "Ausgabestände ändern sich; nur Reihenbezeichnung."
+  },
+  {
+   "claim": "PI und OPC Foundation haben gemeinsam eine OPC-UA-Companion-Specification für PROFINET veröffentlicht; sie bildet PROFINET-Geräteinformationen (z. B. Seriennummer, Firmware) in einem OPC-UA-Informationsmodell ab, für horizontale und vertikale Kommunikation.",
+   "source_url": "https://www.profibus.com/newsroom/press-news/first-opc-ua-companion-specification-for-profinet-published/",
+   "source_name": "PI Pressemitteilung",
+   "confidence": "high",
+   "note": "Bestätigt durch OPC Foundation Reference (OPC 30140)."
+  },
+  {
+   "claim": "Die PNO-Montagerichtlinie (Dokument 8071) behandelt u. a. Kabelführung, Abstände und mechanischen Schutz bei PROFINET.",
+   "source_url": "https://se.profibus.com/fileadmin/media/downloadsection/installation_guide/PROFINET_Montagerichtlinie_8071_V212_Sept22.pdf",
+   "source_name": "PI Montagerichtlinie",
+   "confidence": "medium",
+   "note": "Ausgabe Sept. 2022 laut Dokument; aktuelle Version prüfen."
+  },
+  {
+   "claim": "Der vierpolige D-codierte M12-Steckverbinder ist für 100-Mbit-Ethernet gedacht, der achtpolige X-codierte M12 für höhere Datenraten; RJ45 gibt es in verschiedenen Kategorien.",
+   "source_url": "https://www.computer-automation.de/e-mechanik-und-interfaces/von-2-auf-4-paarig-ohne-systembruch.htm",
+   "source_name": "Computer&Automation",
+   "confidence": "medium",
+   "note": "Im Skript nur Hinweis 'verschiedene Bauformen, Codierung beachten'."
+  },
+  {
+   "claim": "Zwischen IT und OT wird häufig eine industrielle DMZ (Purdue-Ebene 3.5) eingesetzt, damit kein direktes Routing zwischen Büro- und Anlagennetz besteht.",
+   "source_url": "https://wz-it.com/knowledge/remote-access/ot-it-segmentierung-dmz-fernwartung/",
+   "source_name": "Fachblog / Anbieter",
+   "confidence": "medium",
+   "note": "Anbieter-Quellen; Konzept verbreitet, Umsetzung projektspezifisch. IEC 62443 folgt in E-C05."
+  },
+  {
+   "claim": "Die Elektrofachkraft nach DGUV Vorschrift 3: Errichten, Ändern und Instandhalten elektrischer Anlagen und Betriebsmittel erfolgt durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+   "source_url": "https://www.tuev-nord.de/de/unternehmen/bildung/wissen-kompakt/elektrotechnik/aufgaben-und-rollen-in-der-elektrotechnik",
+   "source_name": "TÜV Nord (aus E-F04)",
+   "confidence": "high",
+   "note": "Übernommen aus docs/research/E-F04.json."
+  },
+  {
+   "claim": "Fünf Sicherheitsregeln: Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken. Reihenfolge eins bis fünf.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung (aus E-F05)",
+   "confidence": "medium",
+   "note": "Übernommen aus docs/research/E-F05.json; Normwortlaut nicht geprüft."
+  }
+ ],
+ "dropped": [
+  "Latenz-/Zykluszeit-Angaben (z. B. 1 bis 10 ms) – Herstellerangaben, schnell veränderlich, keine Zahlen im Video",
+  "Conformance Classes A bis D von PROFINET – nur eine Quelle (Wikipedia)",
+  "PROFINET over TSN / Conformance Class D – Entwicklungsstand ändert sich",
+  "PROFIBUS-Übertragungsraten, Teilnehmerzahlen, Segmentlängen – nur Hersteller-/Lernseiten",
+  "Umschaltzeiten bei MRP/MRPD – Herstellerangaben",
+  "Abschlusswiderstand-Werte und Kabeltypen für PROFIBUS – nicht belegt",
+  "Ob PROFINET PROFIBUS formal ersetzt – Quellen uneinheitlich",
+  "Kabelkategorien (Cat5e bis Cat6A), maximale Leitungslängen, Pinbelegungen – Normtext/PNO-Richtlinie nicht geprüft",
+  "Ausgabestände von IEC 62541-6 (Ausgabe 2025, EN-Übernahme 2026) – nur Sekundärquelle",
+  "Kritik am Purdue-Modell/statische DMZ – Einzelquelle",
+  "Port-Mirroring-Risiken bei Failsafe-Systemen – Einzelfall aus Forum",
+  "Ethernet-APL – nicht recherchiert"
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "video": "E-C06",
+ "facts": [
+  {
+   "claim": "Die EMV-Richtlinie 2014/30/EU regelt die elektromagnetische Verträglichkeit von Betriebsmitteln in der EU.",
+   "source_url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0030",
+   "source_name": "EUR-Lex, Richtlinie 2014/30/EU",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Elektromagnetische Störung ist jede elektromagnetische Erscheinung, die die Funktion eines Betriebsmittels beeinträchtigen könnte; Störfestigkeit ist die Fähigkeit, unter einer Störung ohne Funktionsbeeinträchtigung zu arbeiten.",
+   "source_url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX:32014L0030",
+   "source_name": "EUR-Lex, Richtlinie 2014/30/EU, Begriffsbestimmungen",
+   "confidence": "high",
+   "note": "Im Video paraphrasiert."
+  },
+  {
+   "claim": "Wesentliche Anforderung: Geräte dürfen keine Störungen erzeugen, die andere Geräte beeinträchtigen, und müssen selbst ausreichend störfest sein.",
+   "source_url": "https://www.bechtle-plm.de/wissen/glossar/emv-richtlinie-2014-30-eu/",
+   "source_name": "Bechtle PLM Glossar (Sekundärquelle zu EUR-Lex Anhang I)",
+   "confidence": "medium",
+   "note": "Anhang I nicht im Wortlaut geprüft."
+  },
+  {
+   "claim": "Das EMVG wurde am 14.12.2016 neu gefasst und setzt die Richtlinie 2014/30/EU in deutsches Recht um.",
+   "source_url": "https://www.gesetze-im-internet.de/emvg_2016/BJNR287910016.html",
+   "source_name": "gesetze-im-internet.de, EMVG (Ausfertigungsdatum 14.12.2016)",
+   "confidence": "high",
+   "note": "Spätere Änderungen nicht geprüft; ein Drittanbieter nennt eine Änderung 2026, unbestätigt."
+  },
+  {
+   "claim": "Ortsfeste Anlagen müssen zusätzlich nach den allgemein anerkannten Regeln der Technik installiert werden (§ 5).",
+   "source_url": "https://www.gesetze-im-internet.de/emvg_2016/BJNR287910016.html",
+   "source_name": "gesetze-im-internet.de, EMVG § 5",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die Bundesnetzagentur führt das EMVG aus und überwacht den Markt; sie darf auch ortsfeste Anlagen auf Übereinstimmung prüfen.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Technik/Marktueberwachung/artikel.html",
+   "source_name": "Bundesnetzagentur, Marktüberwachung; EMVG § 22",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Hersteller dürfen ein Gerät erst nach durchgeführter Konformitätsbewertung in Verkehr bringen; EU-Konformitätserklärung und technische Unterlagen sind zehn Jahre bereitzuhalten; die CE-Kennzeichnung zeigt die Konformität an.",
+   "source_url": "https://www.gesetze-im-internet.de/emvg_2016/BJNR287910016.html",
+   "source_name": "gesetze-im-internet.de, EMVG; Bundesnetzagentur Marktüberwachung",
+   "confidence": "medium",
+   "note": "Im Video ohne Zahl zehn."
+  },
+  {
+   "claim": "Grundmodell: Störquelle, Störsenke und Kopplungspfad. Kopplungsarten: galvanisch (gemeinsame Impedanz), kapazitiv (elektrisches Feld), induktiv (magnetisches Feld) und Strahlung; die ersten drei erzeugen leitungsgebundene Störungen, Strahlung ist leitungsungebunden.",
+   "source_url": "https://www.electronicsplanet.ch/emv/emv-kopplungsarten.php",
+   "source_name": "electronicsplanet.ch, EMV Kopplungsarten; Elektropraktiker",
+   "confidence": "medium",
+   "note": "Quellen zählen unterschiedlich; Grundidee einheitlich."
+  },
+  {
+   "claim": "Energie- und Signalleitungen räumlich trennen, Kreuzungen möglichst im rechten Winkel, keine langen Parallelführungen, kurze Wege ohne Schleifen.",
+   "source_url": "https://www.artec-systems.de/fachinformationen/wissen-zum-schaltschrankbau/emv-im-schaltschrankbau",
+   "source_name": "Artec Systems, EMV im Schaltschrankbau; Nord Datenblatt",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Schirme von Signalleitungen werden großflächig aufgelegt; bei digitalen Signalen üblich an beiden Enden, bei niederfrequenten Störungen kann einseitig sinnvoll sein; maßgeblich sind Herstellerangaben.",
+   "source_url": "https://support.industry.siemens.com/cs/attachments/16704599/Installationshinweise_EMV-gerechter_Aufbau_d.pdf",
+   "source_name": "Siemens, Installationshinweise EMV-gerechter Aufbau",
+   "confidence": "medium",
+   "note": "Quellen uneinheitlich; im Video nur allgemein, mit Hinweis auf Herstellerangaben."
+  },
+  {
+   "claim": "Netzfilter am Eintritt der Versorgung dämpfen Störspannungen; durchgängiger, niederohmiger Potentialausgleich und das Vermeiden von Erdschleifen sind Voraussetzung für stabiles EMV-Verhalten.",
+   "source_url": "https://www.demvt.de/publish/binarydata/PDF/Leitfaden%20Schaltschrank%20Planung.pdf",
+   "source_name": "DEMVT, EMV-gerechter Schaltschrankaufbau; Artec",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DIN VDE 0100-444 behandelt Maßnahmen gegen Störspannungen und elektromagnetische Störgrößen in Anlagen; sie ist die deutsche Übernahme von HD 60364-4-444.",
+   "source_url": "https://www.dinmedia.de/en/standard/din-vde-0100-444/133560881",
+   "source_name": "DIN Media / VDE Verlag",
+   "confidence": "medium",
+   "note": "Ausgabe 2010-10 gelistet; neuere Ausgabe nicht geprüft, daher keine Jahresangabe im Skript."
+  },
+  {
+   "claim": "Betriebsbedingte Neutralleiterströme über PEN- und Schutzleiter im Gebäude führen zu EMV-Problemen; ein TN-S-System mit getrenntem Schutz- und Neutralleiter entschärft das.",
+   "source_url": "https://www.elektrofachkraft.de/sicheres-arbeiten/emv-freundliche-tn-s-systeme",
+   "source_name": "elektrofachkraft.de, EMV-freundliche TN-S-Systeme",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Fachgrundnormen der Reihe EN 61000-6 (Störfestigkeit und Störaussendung, Wohn- und Industriebereich) gelten dort, wo keine Produktnorm existiert.",
+   "source_url": "https://samd-solutions.de/wissen/emv-industrie-en-61000-6/en.html",
+   "source_name": "samd-solutions; VDE Verlag (DIN EN IEC 61000-6-1)",
+   "confidence": "medium",
+   "note": "Ausgabejahre und Status uneinheitlich: im Skript keine Jahre."
+  },
+  {
+   "claim": "Standardisierte Störfestigkeitsprüfungen im Labor (Reihe IEC 61000-4) umfassen unter anderem ESD, schnelle Transienten (Burst) und Stoßspannungen (Surge).",
+   "source_url": "https://en.wikipedia.org/wiki/IEC_61000-4-5",
+   "source_name": "Wikipedia IEC 61000-4-5; Cadence zu IEC 61000-4-4",
+   "confidence": "medium",
+   "note": "Nur als Konzept; keine Prüfpegel."
+  },
+  {
+   "claim": "Messkategorien (CAT II, III, IV nach IEC 61010-1) beschreiben die Eignung eines Messgeräts für Messorte mit unterschiedlich energiereichen Transienten; Gerät und Messleitungen müssen zur Messaufgabe passen.",
+   "source_url": "https://www.gossenmetrawatt.de/en/knowledge/measuring-and-test-technology/measuring-categories-per-iec-61010-1/",
+   "source_name": "Gossen Metrawatt; BGHM Hilfsmittel Multimeter",
+   "confidence": "medium",
+   "note": "Prüfspannungswerte uneinheitlich: nicht genannt."
+  },
+  {
+   "claim": "Isolationsmessung ist eine Widerstandsmessung mit einer vom Prüfgerät erzeugten Gleichspannung an einer vom Netz getrennten Anlage; ein Multimeter ist dafür ungeeignet.",
+   "source_url": "https://de.rs-online.com/web/content/discovery-portal/produktratgeber/isolationsmessung",
+   "source_name": "RS Components Ratgeber; Elektropraktiker",
+   "confidence": "medium",
+   "note": "Nur Prinzip, keine Werte."
+  },
+  {
+   "claim": "Die Schleifenimpedanz ist die Gesamtimpedanz der Strombahn des Fehlerstroms (Quelle, Außenleiter, Schutzleiter); aus ihr folgt der Kurzschlussstrom, der für die Abschaltung der Schutzeinrichtung ausreichen muss; einen festen Ohm-Grenzwert für alle Anlagen gibt es nicht.",
+   "source_url": "https://www.elektropraktiker.de/nachricht/wie-die-schleifenimpedanzmessung-funktioniert/",
+   "source_name": "Elektropraktiker; elektrofachkraft.de",
+   "confidence": "medium",
+   "note": "Messung erfolgt bei eingeschalteter Anlage: nur durch Elektrofachkraft; keine Verfahren im Video."
+  },
+  {
+   "claim": "Die Erstprüfung nach DIN VDE 0100-600 gliedert sich in Besichtigen, Erproben und Messen.",
+   "source_url": "https://www.elektrofachkraft.de/pruefung/erstpruefung-nach-din-vde-0100-600-entwurf-2025-12",
+   "source_name": "elektrofachkraft.de, Erstprüfung DIN VDE 0100-600",
+   "confidence": "medium",
+   "note": "Ausgabe/Entwurf-Status widersprüchlich: keine Jahresangabe im Skript."
+  },
+  {
+   "claim": "Kalibrieren dokumentiert die Abweichung eines Messgeräts, Justieren verändert das Gerät; DAkkS-akkreditierte Labore arbeiten nach DIN EN ISO/IEC 17025; Kalibrierungen sind auf nationale Normale rückführbar.",
+   "source_url": "https://kalibrieren-direkt.de/glossar/kalibrierung",
+   "source_name": "kalibrieren-direkt.de; Gigahertz-Optik; 3d-messtechnik.de",
+   "confidence": "medium",
+   "note": "Anbieterquellen; Normtext nicht geprüft."
+  },
+  {
+   "claim": "Ein Messergebnis besteht aus Messwert und Messunsicherheit; die Unsicherheit kennzeichnet einen Wertebereich um das Ergebnis (GUM).",
+   "source_url": "https://www.ptb.de/cms/fileadmin/internet/fachabteilungen/abteilung_1/1.2_festkoerpermechanik/1.22/276._PTB-Seminar.Teil_1.MU-Drehmoment_GUM.pdf",
+   "source_name": "PTB-Seminar, Einführung Messunsicherheit nach GUM",
+   "confidence": "high",
+   "note": "Im Video ohne Zahlenwerte."
+  },
+  {
+   "claim": "Oszilloskop: Tastkopf abgleichen, kurze Masseleitung verwenden, Bandbreite von Tastkopf und Oszilloskop beachten.",
+   "source_url": "https://de.wikipedia.org/wiki/Tastkopf",
+   "source_name": "Wikipedia Tastkopf; hf-praxis; tps-elektronik",
+   "confidence": "medium",
+   "note": "Sicherheit bei Netzspannung nicht belegt: im Video nur Verweis auf Herstellerangaben und die fünf Sicherheitsregeln."
+  },
+  {
+   "claim": "Typische Protokollinhalte: Prüfart und Umfang, Ergebnis, Name und Unterschrift der prüfenden Person; bei elektrischen Prüfungen zusätzlich Objekt, Datum, Prüfgrundlage, Messwerte, verwendetes Messgerät und nächster Termin.",
+   "source_url": "https://publikationen.dguv.de/widgets/pdf/download/article/787",
+   "source_name": "DGUV Information 203-071; arbeitsschutzpilot.de",
+   "confidence": "medium",
+   "note": "Gesetzesbezug BetrSichV nur über Anbieterquellen: nicht genannt."
+  },
+  {
+   "claim": "Errichten, Ändern und Instandhalten elektrischer Anlagen und Betriebsmittel erfolgt nach DGUV Vorschrift 3 durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+   "source_url": "https://www.tuev-nord.de/de/unternehmen/bildung/wissen-kompakt/elektrotechnik/aufgaben-und-rollen-in-der-elektrotechnik",
+   "source_name": "TÜV Nord (übernommen aus E-F04)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Fünf Sicherheitsregeln (E-F05): freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen, erden und kurzschließen, benachbarte unter Spannung stehende Teile abdecken oder abschranken.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung (übernommen aus E-F05)",
+   "confidence": "medium",
+   "note": "Nur sinngemäß."
+  }
+ ],
+ "dropped": [
+  "Konkrete Ausgabejahre der Fachgrundnormen EN 61000-6-1 bis -6-4 und ihr Listenstatus im Amtsblatt (Quellen uneinheitlich).",
+  "Aktuelle Ausgabe/Entwurf von DIN VDE 0100-600 (2017-06 vs. Entwurf 2025-12 widersprüchlich) und DIN VDE 0100-444 (nur 2010-10 gelistet).",
+  "Sämtliche Grenzwerte: Isolationswiderstand, Prüfspannungen, Schleifenimpedanz-Werte, Störaussendungs- und Störfestigkeitspegel, Impulsfestigkeit der Messkategorien.",
+  "Behauptung einer EMVG-Änderung im Jahr 2026 (nur Drittanbieter jurawelt.com, nicht am Gesetzestext geprüft).",
+  "Artikelnummer der EMV-Richtlinie zu ortsfesten Anlagen (Art. 19 in keiner Quelle belegt).",
+  "Rechtsgrundlage BetrSichV § 14 Abs. 7 für Prüfdokumentation (nur Anbieterquellen).",
+  "Konkrete Aufbewahrungsfristen für Messprotokolle.",
+  "Pflicht, das Kalibrierdatum im Protokoll anzugeben (nur Vorlagenanbieter, DGUV nennt es nicht ausdrücklich).",
+  "Erweiterungsfaktor k=2 und 95 Prozent Überdeckung (nur als Beispiel in PTB-Folien; für Video unnötig).",
+  "Sicherheitsaussagen zu Netz-Masse am Oszilloskop (Trenntransformator, Differenztastkopf): nicht durch Quelle belegt.",
+  "Messzeiten und Prüfverfahren für EMV-Labormessungen (Absorberkammer, CISPR): keine Quelle gefunden.",
+  "Frequenzbereiche, bei denen leitungsgebundene bzw. gestrahlte Messungen beginnen (Quellen uneinheitlich).",
+  "EMVG-Betreiberpflicht zur Dokumentation (Paragraph nur über Sekundärquelle); Aussage im Skript nur allgemein."
+ ]
+}

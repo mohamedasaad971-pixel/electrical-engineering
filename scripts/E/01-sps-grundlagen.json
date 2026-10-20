@@ -1,0 +1,1640 @@
+{
+ "id": "E-C01",
+ "title": {
+  "de": "Grundlagen der Automatisierung und SPS: Aufbau, Zyklus, Sensoren, Aktoren, IEC 61131-3",
+  "ar": "أساسيات الأتمتة ووحدات التحكم المبرمجة (SPS) والمعيار IEC 61131-3",
+  "en": "Automation Basics and the SPS (PLC): Structure, Cycle, Sensors, Actuators, IEC 61131-3"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-C01 · Automatisierung",
+    "heading": "Grundlagen der Automatisierung und SPS",
+    "items": [
+     "Aufbau einer SPS",
+     "Zyklische Programmbearbeitung",
+     "Sensoren und Aktoren",
+     "Programmiersprachen nach IEC 61131-3"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum ersten Video über Automatisierung.",
+     "ar": "مرحبًا بكم في الفيديو الأول عن الأتمتة.",
+     "en": "Welcome to the first video about automation."
+    },
+    {
+     "de": "Heute lernen Sie die Grundlagen der speicherprogrammierbaren Steuerung, kurz SPS.",
+     "ar": "اليوم ستتعرفون على أساسيات وحدة التحكم المبرمجة، واختصارها SPS، في ألمانيا.",
+     "en": "Today you learn the basics of the programmable logic controller, called SPS in German.",
+     "tts": "Heute lernen Sie die Grundlagen der speicherprogrammierbaren Steuerung, kurz Es-Pe-Es."
+    },
+    {
+     "de": "Eine SPS steuert Maschinen und Anlagen in der Industrie.",
+     "ar": "تتحكم وحدة SPS في الآلات والمنشآت في الصناعة.",
+     "en": "An SPS controls machines and plants in industry.",
+     "tts": "Eine Es-Pe-Es steuert Maschinen und Anlagen in der Industrie."
+    },
+    {
+     "de": "Wir betrachten den Aufbau, den Zyklus und die Sprachen der Norm IEC 61131-3.",
+     "ar": "سنتناول البنية والدورة ولغات البرمجة في المعيار IEC 61131-3 الدولي.",
+     "en": "We look at the structure, the cycle and the languages of the standard IEC 61131-3.",
+     "tts": "Wir betrachten den Aufbau, den Zyklus und die Sprachen der Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei."
+    },
+    {
+     "de": "Außerdem sprechen wir über Sensoren, Aktoren und typische Berufe.",
+     "ar": "كما نتحدث عن المستشعرات والمنفِّذات والمهن النموذجية.",
+     "en": "We also talk about sensors, actuators and typical professions."
+    },
+    {
+     "de": "Das Video ist herstellerneutral und zeigt keine Software eines bestimmten Herstellers.",
+     "ar": "الفيديو محايد تجاه الشركات ولا يعرض برنامج أي شركة بعينها.",
+     "en": "The video is vendor-neutral and shows no software of a specific manufacturer."
+    },
+    {
+     "de": "Am Ende finden Sie ein Glossar und ein kurzes Quiz mit fünf Fragen.",
+     "ar": "وفي النهاية ستجدون مسردًا واختبارًا قصيرًا من خمسة أسئلة.",
+     "en": "At the end you find a glossary and a short quiz with five questions."
+    },
+    {
+     "de": "Als Elektroingenieur begegnen Ihnen Steuerungen in der Industrie immer wieder.",
+     "ar": "وكمهندس كهربائي ستصادفون وحدات التحكم في الصناعة مرارًا.",
+     "en": "As an electrical engineer, you meet controllers in industry again and again."
+    },
+    {
+     "de": "Es gibt viele Hersteller, und die Bedienung unterscheidet sich von Firma zu Firma.",
+     "ar": "هناك شركات مصنِّعة كثيرة، وتختلف طريقة التشغيل من شركة إلى أخرى.",
+     "en": "There are many manufacturers, and operation differs from company to company."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Definition",
+    "heading": "Was ist eine SPS?",
+    "items": [
+     "Digital arbeitendes elektronisches System",
+     "Für den Industrieeinsatz",
+     "Programmierbarer Speicher",
+     "Steuert Maschinen und Prozesse"
+    ],
+    "terms": [
+     {
+      "de": "die SPS",
+      "ar": "وحدة التحكم المبرمجة (SPS)",
+      "en": "programmable logic controller"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fangen wir mit der Definition an.",
+     "ar": "لنبدأ بالتعريف.",
+     "en": "Let us start with the definition."
+    },
+    {
+     "de": "Nach der Norm DIN EN 61131-1 ist eine SPS ein digital arbeitendes elektronisches System.",
+     "ar": "وفق المعيار DIN EN 61131-1 فإن SPS نظام إلكتروني يعمل رقميًا.",
+     "en": "According to the standard DIN EN 61131-1, an SPS is a digitally working electronic system.",
+     "tts": "Nach der Norm Din E-En einundsechzigtausendeinhunderteinunddreißig, Teil eins ist eine Es-Pe-Es ein digital arbeitendes elektronisches System."
+    },
+    {
+     "de": "Es ist für den Einsatz in der Industrie gedacht.",
+     "ar": "وهو مخصص للاستخدام في الصناعة.",
+     "en": "It is intended for use in industry."
+    },
+    {
+     "de": "Es besitzt einen programmierbaren Speicher für das Anwenderprogramm.",
+     "ar": "ويملك ذاكرة قابلة للبرمجة لبرنامج المستخدم.",
+     "en": "It has a programmable memory for the user program."
+    },
+    {
+     "de": "Merken Sie sich das Wort Steuerung: Es meint hier ein Gerät, das Signale verarbeitet.",
+     "ar": "تذكروا كلمة التحكم: تعني هنا جهازًا يعالج الإشارات.",
+     "en": "Remember the word Steuerung: here it means a device that processes signals."
+    },
+    {
+     "de": "Damit steuert es Maschinen oder Prozesse über digitale oder analoge Signale.",
+     "ar": "وبه يتحكم في الآلات أو العمليات عبر إشارات رقمية أو تماثلية.",
+     "en": "With it, it controls machines or processes through digital or analog signals."
+    },
+    {
+     "de": "Das ist nur der Sinn der Norm, nicht ihr Wortlaut.",
+     "ar": "هذا مضمون المعيار فقط وليس نصه الحرفي.",
+     "en": "This is only the meaning of the standard, not its exact wording."
+    },
+    {
+     "de": "Speicherprogrammierbar heißt: Das Programm liegt im Speicher und lässt sich ändern.",
+     "ar": "أي أن البرنامج موجود في الذاكرة ويمكن تغييره.",
+     "en": "Memory-programmable means: the program is in memory and can be changed."
+    },
+    {
+     "de": "Die Sensoren und Aktoren der Anlage müssen aber weiterhin angeschlossen werden.",
+     "ar": "لكن مستشعرات المنشأة ومنفِّذاتها يجب أن تبقى موصولة.",
+     "en": "However, the sensors and actuators of the plant must still be connected."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Vergleich",
+    "heading": "Verdrahtet oder programmiert",
+    "items": [
+     "Logik | VPS: Verdrahtung, SPS: Programm",
+     "Änderung | VPS: Umbau, SPS: Programm laden",
+     "Typische Bauteile der VPS | Relais, Schütze",
+     "Typisch heute | SPS für flexible Abläufe"
+    ],
+    "terms": [
+     {
+      "de": "die verbindungsprogrammierte Steuerung (VPS)",
+      "ar": "التحكم الموصول بالأسلاك (VPS)",
+      "en": "hard-wired control"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Früher wurden Steuerungen oft mit Relais und Schützen gebaut.",
+     "ar": "في الماضي كانت أنظمة التحكم تُبنى غالبًا بالمرحلات والكونتاكتورات.",
+     "en": "In the past, controls were often built with relays and contactors."
+    },
+    {
+     "de": "Man nennt das eine verbindungsprogrammierte Steuerung, kurz VPS.",
+     "ar": "وتسمى هذه تحكمًا موصولًا بالأسلاك، ويُختصر بالرمز VPS في الألمانية.",
+     "en": "This is called a hard-wired control, VPS for short.",
+     "tts": "Man nennt das eine verbindungsprogrammierte Steuerung, kurz Fau-Pe-Es."
+    },
+    {
+     "de": "Bei der VPS bestimmt die Verdrahtung der Bauteile die Logik.",
+     "ar": "في VPS يحدد توصيل الأسلاك بين الأجهزة المنطق.",
+     "en": "In a VPS, the wiring of the components determines the logic.",
+     "tts": "Bei der Fau-Pe-Es bestimmt die Verdrahtung der Bauteile die Logik."
+    },
+    {
+     "de": "Bei jeder Änderung muss man die Hardware umbauen.",
+     "ar": "وعند كل تعديل يجب تغيير الأجهزة نفسها.",
+     "en": "With every change, you have to rebuild the hardware."
+    },
+    {
+     "de": "Bei der SPS programmieren Sie die Logik und laden sie in die Steuerung.",
+     "ar": "أما في SPS فتبرمجون المنطق وتحمّلونه في وحدة التحكم.",
+     "en": "With an SPS, you program the logic and load it into the controller.",
+     "tts": "Bei der Es-Pe-Es programmieren Sie die Logik und laden sie in die Steuerung."
+    },
+    {
+     "de": "Das macht Änderungen oft einfacher.",
+     "ar": "وهذا يجعل التعديلات أبسط في الغالب.",
+     "en": "This often makes changes easier."
+    },
+    {
+     "de": "Bei der SPS steckt die Logik im Programm und nicht in der Verdrahtung.",
+     "ar": "في SPS يكمن المنطق في البرنامج وليس في الأسلاك.",
+     "en": "With an SPS, the logic is in the program and not in the wiring.",
+     "tts": "Bei der Es-Pe-Es steckt die Logik im Programm und nicht in der Verdrahtung."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Aufbau",
+    "heading": "Der Aufbau einer SPS",
+    "items": [
+     "Eingänge: Signale von den Sensoren",
+     "CPU: Prozessor und Programmspeicher",
+     "Ausgänge: Signale an die Aktoren",
+     "Stromversorgung: speist die Baugruppen"
+    ],
+    "terms": [
+     {
+      "de": "die Zentraleinheit (CPU)",
+      "ar": "وحدة المعالجة المركزية (CPU)",
+      "en": "central processing unit"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt der Aufbau einer SPS.",
+     "ar": "الآن بنية وحدة التحكم SPS هذه.",
+     "en": "Now the structure of an SPS.",
+     "tts": "Jetzt der Aufbau einer Es-Pe-Es."
+    },
+    {
+     "de": "Im Kern besteht sie aus einer Zentralbaugruppe mit Prozessor.",
+     "ar": "في جوهرها تتكون من وحدة مركزية فيها معالج.",
+     "en": "At its core, it consists of a central module with a processor."
+    },
+    {
+     "de": "Der Prozessor heißt auch CPU.",
+     "ar": "ويسمى المعالج أيضًا بالرمز CPU عادةً.",
+     "en": "The processor is also called the CPU.",
+     "tts": "Der Prozessor heißt auch Ze-Pe-U."
+    },
+    {
+     "de": "Dazu kommen der Programmspeicher und ein Bussystem.",
+     "ar": "ويضاف إلى ذلك ذاكرة البرنامج ونظام ناقل.",
+     "en": "In addition there are the program memory and a bus system."
+    },
+    {
+     "de": "Außen liegen die Eingabebaugruppen und die Ausgabebaugruppen.",
+     "ar": "وفي الخارج توجد وحدات الدخل ووحدات الخرج.",
+     "en": "On the outside are the input modules and the output modules."
+    },
+    {
+     "de": "Eine Stromversorgung versorgt alle Baugruppen.",
+     "ar": "ويغذي مصدر طاقة كل الوحدات.",
+     "en": "A power supply feeds all modules."
+    },
+    {
+     "de": "Merken Sie sich die Reihenfolge: Eingänge, CPU, Ausgänge.",
+     "ar": "تذكروا الترتيب: الدخل ثم CPU ثم الخرج.",
+     "en": "Remember the order: inputs, CPU, outputs.",
+     "tts": "Merken Sie sich die Reihenfolge: Eingänge, Ze-Pe-U, Ausgänge."
+    },
+    {
+     "de": "Diese Reihenfolge begleitet uns durch das ganze Video.",
+     "ar": "وهذا الترتيب سيرافقنا في الفيديو كله.",
+     "en": "This order accompanies us through the whole video."
+    },
+    {
+     "de": "Prägen Sie sich diese drei Teile gut ein, denn sie kommen in jedem Gespräch über Steuerungen vor.",
+     "ar": "احفظوا هذه الأجزاء الثلاثة جيدًا، فهي تظهر في كل حديث عن أنظمة التحكم.",
+     "en": "Memorise these three parts well, because they appear in every conversation about controllers."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Eingänge",
+    "heading": "Eingänge: Signale aufnehmen",
+    "items": [
+     "Sensor liefert ein Signal",
+     "Eingabebaugruppe nimmt es auf",
+     "Signal digital oder analog",
+     "CPU erhält den Zustand"
+    ],
+    "terms": [
+     {
+      "de": "die Eingabebaugruppe",
+      "ar": "وحدة الدخل",
+      "en": "input module"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit den Eingängen.",
+     "ar": "نبدأ بالمداخل.",
+     "en": "Let us begin with the inputs."
+    },
+    {
+     "de": "Eingabebaugruppen nehmen Signale von Sensoren auf.",
+     "ar": "وحدات الدخل تستقبل الإشارات من المستشعرات.",
+     "en": "Input modules receive signals from sensors."
+    },
+    {
+     "de": "Sie leiten diese Signale an die CPU weiter.",
+     "ar": "وتمرر هذه الإشارات إلى وحدة CPU المركزية.",
+     "en": "They pass these signals on to the CPU.",
+     "tts": "Sie leiten diese Signale an die Ze-Pe-U weiter."
+    },
+    {
+     "de": "Ein Signal kann digital sein, zum Beispiel ein oder aus.",
+     "ar": "قد تكون الإشارة رقمية، مثل تشغيل أو إيقاف.",
+     "en": "A signal can be digital, for example on or off."
+    },
+    {
+     "de": "Es kann aber auch analog sein, also ein Messwert.",
+     "ar": "وقد تكون تماثلية، أي قيمة قياس.",
+     "en": "But it can also be analog, that is, a measured value."
+    },
+    {
+     "de": "Die SPS sieht also nie die Maschine selbst, sondern nur ihre Signale.",
+     "ar": "فـ SPS لا ترى الآلة نفسها أبدًا، بل إشاراتها فقط.",
+     "en": "So the SPS never sees the machine itself, only its signals.",
+     "tts": "Die Es-Pe-Es sieht also nie die Maschine selbst, sondern nur ihre Signale."
+    },
+    {
+     "de": "Die Eingabebaugruppe nimmt das Signal auf und gibt es weiter.",
+     "ar": "وحدة الدخل تستقبل الإشارة وتمررها.",
+     "en": "The input module receives the signal and passes it on."
+    },
+    {
+     "de": "Typische Geräte am Eingang sind Taster, Schalter und Sensoren.",
+     "ar": "الأجهزة النموذجية عند الدخل هي الأزرار والمفاتيح والمستشعرات.",
+     "en": "Typical devices at the input are pushbuttons, switches and sensors."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "CPU",
+    "heading": "Die CPU: Das Programm läuft",
+    "items": [
+     "Prozessor und Programmspeicher",
+     "Anwenderprogramm wird abgearbeitet",
+     "Bussystem verbindet die Baugruppen",
+     "Betriebssystem ergänzt die Abläufe"
+    ],
+    "terms": [
+     {
+      "de": "das Anwenderprogramm",
+      "ar": "برنامج المستخدم",
+      "en": "user program"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die CPU ist das Gehirn der SPS.",
+     "ar": "تعدّ وحدة CPU دماغ نظام SPS بأكمله.",
+     "en": "The CPU is the brain of the SPS.",
+     "tts": "Die Ze-Pe-U ist das Gehirn der Es-Pe-Es."
+    },
+    {
+     "de": "Im Programmspeicher liegt das Anwenderprogramm.",
+     "ar": "في ذاكرة البرنامج يوجد برنامج المستخدم.",
+     "en": "The user program is stored in the program memory."
+    },
+    {
+     "de": "Dieses Programm schreiben Sie oder Ihr Team für die Anlage.",
+     "ar": "هذا البرنامج تكتبونه أنتم أو فريقكم من أجل المنشأة.",
+     "en": "You or your team write this program for the plant."
+    },
+    {
+     "de": "Die CPU arbeitet es Schritt für Schritt ab.",
+     "ar": "وتنفذه CPU خطوة بعد خطوة.",
+     "en": "The CPU works through it step by step.",
+     "tts": "Die Ze-Pe-U arbeitet es Schritt für Schritt ab."
+    },
+    {
+     "de": "Ein Bussystem verbindet die CPU mit den Baugruppen.",
+     "ar": "ونظام ناقل يربط CPU بالوحدات.",
+     "en": "A bus system connects the CPU with the modules.",
+     "tts": "Ein Bussystem verbindet die Ze-Pe-U mit den Baugruppen."
+    },
+    {
+     "de": "Zusätzlich laufen Funktionen des Betriebssystems.",
+     "ar": "وإضافة إلى ذلك تعمل وظائف نظام التشغيل.",
+     "en": "In addition, functions of the operating system run."
+    },
+    {
+     "de": "Wichtig: Die CPU entscheidet, aber sie bewegt selbst nichts.",
+     "ar": "المهم أن CPU تقرر لكنها لا تحرّك شيئًا بنفسها.",
+     "en": "Important: the CPU decides, but it moves nothing itself.",
+     "tts": "Wichtig: Die Ze-Pe-U entscheidet, aber sie bewegt selbst nichts."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Ausgänge",
+    "heading": "Ausgänge: Aktoren ansteuern",
+    "items": [
+     "CPU berechnet Ausgangszustände",
+     "Ausgabebaugruppe gibt Signale aus",
+     "Aktor setzt das Signal um",
+     "Beispiel: Schütz schaltet einen Motor"
+    ],
+    "terms": [
+     {
+      "de": "die Ausgabebaugruppe",
+      "ar": "وحدة الخرج",
+      "en": "output module"
+     },
+     {
+      "de": "der Schütz",
+      "ar": "الكونتاكتور",
+      "en": "contactor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zu den Ausgängen.",
+     "ar": "والآن إلى المخارج.",
+     "en": "Now to the outputs."
+    },
+    {
+     "de": "Ausgabebaugruppen senden Signale an Aktoren.",
+     "ar": "وحدات الخرج ترسل الإشارات إلى المنفِّذات.",
+     "en": "Output modules send signals to actuators."
+    },
+    {
+     "de": "Die CPU berechnet vorher, welche Ausgänge ein oder aus sein sollen.",
+     "ar": "تحسب CPU مسبقًا أي المخارج يجب أن تكون قيد التشغيل أو الإيقاف.",
+     "en": "Beforehand, the CPU calculates which outputs should be on or off.",
+     "tts": "Die Ze-Pe-U berechnet vorher, welche Ausgänge ein oder aus sein sollen."
+    },
+    {
+     "de": "Ein Beispiel: Ein Ausgang steuert ein Schütz an.",
+     "ar": "مثال: مخرج يشغّل كونتاكتورًا.",
+     "en": "An example: an output controls a contactor."
+    },
+    {
+     "de": "Das Schütz schaltet dann den Motor.",
+     "ar": "ثم يقوم الكونتاكتور بتشغيل المحرك.",
+     "en": "The contactor then switches the motor."
+    },
+    {
+     "de": "So wird aus einem kleinen Signal eine große Wirkung.",
+     "ar": "وهكذا تتحول إشارة صغيرة إلى تأثير كبير.",
+     "en": "So a small signal becomes a large effect."
+    },
+    {
+     "de": "Die Verbindung läuft dabei über das Bussystem der SPS.",
+     "ar": "ويتم الاتصال عبر نظام الناقل في وحدة SPS هذه.",
+     "en": "The connection runs over the bus system of the SPS.",
+     "tts": "Die Verbindung läuft dabei über das Bussystem der Es-Pe-Es."
+    },
+    {
+     "de": "Typische Geräte am Ausgang sind Schütze, Relais und Ventile.",
+     "ar": "الأجهزة النموذجية عند الخرج هي الكونتاكتورات والمرحلات والصمامات.",
+     "en": "Typical devices at the output are contactors, relays and valves."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Sensoren",
+    "heading": "Sensoren: Die Augen der Anlage",
+    "items": [
+     "Erfassen physikalische Größen",
+     "Beispiel: induktiver Sensor",
+     "Arbeitet berührungslos",
+     "Erfasst Metalle, keine Nichtmetalle"
+    ],
+    "terms": [
+     {
+      "de": "der Sensor",
+      "ar": "المستشعر",
+      "en": "sensor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Sensoren erfassen physikalische Größen.",
+     "ar": "المستشعرات تقيس الكميات الفيزيائية.",
+     "en": "Sensors detect physical quantities."
+    },
+    {
+     "de": "Man nennt sie oft die Augen und Ohren einer Maschine.",
+     "ar": "وكثيرًا ما تُسمى عيون الآلة وآذانها.",
+     "en": "They are often called the eyes and ears of a machine."
+    },
+    {
+     "de": "Ein bekanntes Beispiel ist der induktive Sensor.",
+     "ar": "مثال معروف هو المستشعر الحثي.",
+     "en": "A well-known example is the inductive sensor."
+    },
+    {
+     "de": "Er arbeitet berührungslos mit einem elektromagnetischen Wechselfeld.",
+     "ar": "يعمل دون تلامس بواسطة مجال كهرومغناطيسي متناوب.",
+     "en": "It works without contact, using an alternating electromagnetic field."
+    },
+    {
+     "de": "Er erfasst Metalle, aber keine Nichtmetalle.",
+     "ar": "ويكشف المعادن ولا يكشف غير المعادن.",
+     "en": "It detects metals, but not non-metals."
+    },
+    {
+     "de": "Sein Ausgang liefert ein Schaltsignal oder einen analogen Messwert.",
+     "ar": "ويعطي خرجه إشارة تبديل أو قيمة قياس تماثلية.",
+     "en": "Its output delivers a switching signal or an analog measured value."
+    },
+    {
+     "de": "Sensoren gibt es für viele Größen, zum Beispiel für Position oder Temperatur.",
+     "ar": "توجد مستشعرات لكميات كثيرة، مثل الموضع أو درجة الحرارة.",
+     "en": "Sensors exist for many quantities, for example position or temperature."
+    },
+    {
+     "de": "Zu jedem Sensor gehört ein Datenblatt, das Sie aufmerksam lesen sollten.",
+     "ar": "لكل مستشعر ورقة بيانات ينبغي أن تقرؤوها بانتباه.",
+     "en": "Every sensor has a data sheet that you should read carefully."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Aktoren",
+    "heading": "Aktoren: Die Hände der Anlage",
+    "items": [
+     "Aktor | setzt Signale in Aktion um",
+     "Schaltend | Schütz, Relais, Magnetventil",
+     "Regelnd | Frequenzumrichter, Servoantrieb",
+     "Regelnd | Stellventil",
+     "Merkhilfe | Sensor: Auge, Aktor: Hand"
+    ],
+    "terms": [
+     {
+      "de": "der Aktor",
+      "ar": "المنفِّذ",
+      "en": "actuator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Aktoren setzen elektrische Signale in Bewegung oder Aktion um.",
+     "ar": "المنفِّذات تحوّل الإشارات الكهربائية إلى حركة أو فعل.",
+     "en": "Actuators convert electrical signals into movement or action."
+    },
+    {
+     "de": "Schütze, Relais und Magnetventile schalten Zustände.",
+     "ar": "الكونتاكتورات والمرحلات والصمامات الكهرومغناطيسية تبدّل الحالات.",
+     "en": "Contactors, relays and solenoid valves switch states."
+    },
+    {
+     "de": "Frequenzumrichter, Servoantriebe und Stellventile erlauben eine feinere Regelung.",
+     "ar": "ومحوّلات التردد والمحركات المؤازرة وصمامات الضبط تتيح تنظيمًا أدق.",
+     "en": "Frequency converters, servo drives and control valves allow finer control."
+    },
+    {
+     "de": "Der Sensor ist also das Auge, der Aktor die Hand.",
+     "ar": "فالمستشعر هو العين والمنفِّذ هو اليد.",
+     "en": "So the sensor is the eye, the actuator is the hand."
+    },
+    {
+     "de": "Dazwischen steht die SPS und entscheidet.",
+     "ar": "وفي الوسط تقف SPS وتقرر.",
+     "en": "In between stands the SPS and decides.",
+     "tts": "Dazwischen steht die Es-Pe-Es und entscheidet."
+    },
+    {
+     "de": "Auch ein Motor ist aus Sicht der Steuerung oft ein Aktor, den ein Schütz schaltet.",
+     "ar": "والمحرك أيضًا يُعدّ في كثير من الأحيان منفِّذًا في نظر التحكم، يبدّله كونتاكتور.",
+     "en": "From the controller's point of view, a motor is also often an actuator that a contactor switches."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zyklus",
+    "heading": "Die zyklische Programmbearbeitung",
+    "items": [
+     "Eingänge einlesen",
+     "Programm bearbeiten",
+     "Ausgänge ausgeben",
+     "Dann beginnt der Zyklus von vorn"
+    ],
+    "terms": [
+     {
+      "de": "die zyklische Programmbearbeitung",
+      "ar": "المعالجة الدورية للبرنامج",
+      "en": "cyclic program processing"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt der wichtigste Punkt: der Zyklus.",
+     "ar": "والآن أهم نقطة: الدورة.",
+     "en": "Now comes the most important point: the cycle."
+    },
+    {
+     "de": "Eine SPS arbeitet nicht einmal, sondern immer wieder im Kreis.",
+     "ar": "وحدة SPS لا تعمل مرة واحدة، بل تدور باستمرار.",
+     "en": "An SPS does not work once, but again and again in a loop.",
+     "tts": "Eine Es-Pe-Es arbeitet nicht einmal, sondern immer wieder im Kreis."
+    },
+    {
+     "de": "Erster Schritt: Sie liest die Eingänge ein.",
+     "ar": "الخطوة الأولى: تقرأ المداخل.",
+     "en": "Step one: it reads in the inputs."
+    },
+    {
+     "de": "Zweiter Schritt: Sie bearbeitet das Programm.",
+     "ar": "الخطوة الثانية: تعالج البرنامج.",
+     "en": "Step two: it processes the program."
+    },
+    {
+     "de": "Dritter Schritt: Sie gibt die Ausgänge aus.",
+     "ar": "الخطوة الثالثة: تُخرج المخارج.",
+     "en": "Step three: it writes the outputs."
+    },
+    {
+     "de": "Danach beginnt alles wieder von vorn.",
+     "ar": "بعد ذلك يبدأ كل شيء من جديد.",
+     "en": "After that, everything starts again from the beginning."
+    },
+    {
+     "de": "Diesen Ablauf nennt man zyklische Programmbearbeitung.",
+     "ar": "ويُسمى هذا المسار معالجة دورية للبرنامج.",
+     "en": "This sequence is called cyclic program processing."
+    },
+    {
+     "de": "Ein einzelner Durchlauf heißt Zyklus.",
+     "ar": "والمرور الواحد يسمى دورة.",
+     "en": "A single run is called a cycle."
+    },
+    {
+     "de": "Stellen Sie sich eine Schleife vor, die immer wieder dieselben drei Schritte durchläuft.",
+     "ar": "تخيلوا حلقة تمر مرارًا بالخطوات الثلاث نفسها.",
+     "en": "Imagine a loop that runs through the same three steps again and again."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Begriffe",
+    "heading": "Prozessabbild und Zykluszeit",
+    "items": [
+     "PAE: eingelesene Eingangszustände",
+     "PAA: berechnete Ausgangszustände",
+     "Zykluszeit: Dauer eines Durchlaufs",
+     "EVA: Eingabe, Verarbeitung, Ausgabe"
+    ],
+    "terms": [
+     {
+      "de": "das Prozessabbild",
+      "ar": "صورة العملية",
+      "en": "process image"
+     },
+     {
+      "de": "die Zykluszeit",
+      "ar": "زمن الدورة",
+      "en": "cycle time"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beim Einlesen speichert die SPS die Eingänge im Prozessabbild.",
+     "ar": "عند القراءة تحفظ SPS المداخل في صورة العملية.",
+     "en": "When reading, the SPS stores the inputs in the process image.",
+     "tts": "Beim Einlesen speichert die Es-Pe-Es die Eingänge im Prozessabbild."
+    },
+    {
+     "de": "Das Prozessabbild der Eingänge heißt kurz PAE.",
+     "ar": "واختصار صورة العملية للمداخل هو PAE في الألمانية.",
+     "en": "The process image of the inputs is called PAE for short.",
+     "tts": "Das Prozessabbild der Eingänge heißt kurz Pe-A-E."
+    },
+    {
+     "de": "Das Programm rechnet mit diesem Abbild und schreibt die Ergebnisse in das Prozessabbild der Ausgänge.",
+     "ar": "يحسب البرنامج بهذه الصورة ويكتب النتائج في صورة المخارج.",
+     "en": "The program calculates with this image and writes the results into the process image of the outputs."
+    },
+    {
+     "de": "Das Prozessabbild ist wie ein Foto der Eingänge für den ganzen Programmdurchlauf.",
+     "ar": "صورة العملية تشبه لقطة للمداخل تسري على مرور البرنامج كله.",
+     "en": "The process image is like a photo of the inputs for the whole program run."
+    },
+    {
+     "de": "Dieses heißt PAA.",
+     "ar": "ويُرمز لهذه الصورة بالرمز PAA أيضًا.",
+     "en": "This is called PAA.",
+     "tts": "Dieses heißt Pe-A-A."
+    },
+    {
+     "de": "Die Zykluszeit ist die Zeit für einen kompletten Durchlauf.",
+     "ar": "زمن الدورة هو الزمن اللازم لمرور كامل واحد.",
+     "en": "The cycle time is the time for one complete run."
+    },
+    {
+     "de": "Man nennt das Prinzip auch EVA: Eingabe, Verarbeitung, Ausgabe.",
+     "ar": "ويسمى المبدأ أيضًا EVA: إدخال ومعالجة وإخراج.",
+     "en": "The principle is also called EVA: input, processing, output.",
+     "tts": "Man nennt das Prinzip auch E-Fau-A: Eingabe, Verarbeitung, Ausgabe."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Praxis",
+    "heading": "Was der Zyklus bedeutet",
+    "items": [
+     "Eingänge werden einmal pro Zyklus gelesen",
+     "Änderungen währenddessen bleiben unbeachtet",
+     "Ausgänge folgen erst nach Programmende",
+     "Zykluszeit gehört zur Planung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was heißt das in der Praxis?",
+     "ar": "ماذا يعني ذلك عمليًا؟",
+     "en": "What does this mean in practice?"
+    },
+    {
+     "de": "Die Eingänge werden nur einmal pro Zyklus eingelesen.",
+     "ar": "تُقرأ المداخل مرة واحدة فقط في كل دورة.",
+     "en": "The inputs are read only once per cycle."
+    },
+    {
+     "de": "Ändert sich ein Signal während der Programmbearbeitung, bleibt es zunächst unbeachtet.",
+     "ar": "إذا تغيرت إشارة أثناء معالجة البرنامج فلا تُؤخذ بالحسبان في البداية.",
+     "en": "If a signal changes during program processing, it is first ignored."
+    },
+    {
+     "de": "Erst im nächsten Zyklus sieht die SPS die Änderung.",
+     "ar": "وفي الدورة التالية فقط ترى SPS التغيير.",
+     "en": "Only in the next cycle does the SPS see the change.",
+     "tts": "Erst im nächsten Zyklus sieht die Es-Pe-Es die Änderung."
+    },
+    {
+     "de": "Stellen Sie sich vor, ein Taster wird kurz gedrückt, während das Programm läuft.",
+     "ar": "تخيلوا أن زرًا ضُغط لحظة قصيرة أثناء تشغيل البرنامج.",
+     "en": "Imagine a pushbutton is pressed briefly while the program is running."
+    },
+    {
+     "de": "Die Ausgänge werden erst nach dem Ende des Programms übergeben.",
+     "ar": "ولا تُسلَّم المخارج إلا بعد انتهاء البرنامج.",
+     "en": "The outputs are only handed over after the program ends."
+    },
+    {
+     "de": "Darum gehört die Zykluszeit zur Planung einer Anlage.",
+     "ar": "لذلك فإن زمن الدورة جزء من تخطيط المنشأة.",
+     "en": "That is why the cycle time is part of planning a plant."
+    },
+    {
+     "de": "Konkrete Werte finden Sie in der Dokumentation des Geräts.",
+     "ar": "وستجدون القيم الفعلية في وثائق الجهاز.",
+     "en": "You find concrete values in the documentation of the device."
+    },
+    {
+     "de": "Die Zahlen sind je nach Gerät sehr unterschiedlich.",
+     "ar": "والأرقام تختلف كثيرًا بحسب الجهاز.",
+     "en": "The numbers differ greatly depending on the device."
+    },
+    {
+     "de": "Als Ingenieur sollten Sie die Namen der Normen kennen, auch ohne den Text auswendig zu lernen.",
+     "ar": "كمهندس ينبغي أن تعرفوا أسماء المعايير حتى دون حفظ نصها.",
+     "en": "As an engineer, you should know the names of the standards, even without learning the text by heart."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Beispiel",
+    "heading": "Beispiel: Ein Förderband",
+    "items": [
+     "Sensor: erkennt ein Metallteil",
+     "SPS: bearbeitet das Programm",
+     "Schütz: wird angesteuert",
+     "Motor: startet das Band"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein einfaches Beispiel macht den Ablauf klar.",
+     "ar": "مثال بسيط يوضح المسار.",
+     "en": "A simple example makes the sequence clear."
+    },
+    {
+     "de": "Stellen Sie sich ein Förderband vor.",
+     "ar": "تخيلوا حزامًا ناقلًا.",
+     "en": "Imagine a conveyor belt."
+    },
+    {
+     "de": "Ein induktiver Sensor erkennt ein Metallteil am Anfang des Bandes.",
+     "ar": "مستشعر حثي يكشف قطعة معدنية في بداية الحزام.",
+     "en": "An inductive sensor detects a metal part at the start of the belt."
+    },
+    {
+     "de": "Die Eingabebaugruppe nimmt dieses Signal auf.",
+     "ar": "وحدة الدخل تستقبل هذه الإشارة.",
+     "en": "The input module receives this signal."
+    },
+    {
+     "de": "Im nächsten Zyklus liest die SPS den neuen Zustand ein.",
+     "ar": "وفي الدورة التالية تقرأ SPS الحالة الجديدة.",
+     "en": "In the next cycle, the SPS reads in the new state.",
+     "tts": "Im nächsten Zyklus liest die Es-Pe-Es den neuen Zustand ein."
+    },
+    {
+     "de": "Das Programm entscheidet: Das Band soll laufen.",
+     "ar": "فيقرر البرنامج: يجب أن يعمل الحزام.",
+     "en": "The program decides: the belt should run."
+    },
+    {
+     "de": "Die Ausgabebaugruppe steuert ein Schütz an.",
+     "ar": "وحدة الخرج تشغّل كونتاكتورًا.",
+     "en": "The output module controls a contactor."
+    },
+    {
+     "de": "Das Schütz schaltet den Motor, und das Band startet.",
+     "ar": "فيشغّل الكونتاكتور المحرك ويبدأ الحزام بالحركة.",
+     "en": "The contactor switches the motor, and the belt starts."
+    },
+    {
+     "de": "Das Beispiel ist vereinfacht und zeigt nur das Prinzip.",
+     "ar": "المثال مبسَّط ويوضح المبدأ فقط.",
+     "en": "The example is simplified and shows only the principle."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Signalarten",
+    "heading": "Digital und analog",
+    "items": [
+     "Digital | zwei Zustände, ein oder aus",
+     "Beispiel digital | Taster gedrückt oder nicht",
+     "Analog | ein Messwert",
+     "Beides | an Eingängen und Ausgängen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Signale können digital oder analog sein.",
+     "ar": "يمكن أن تكون الإشارات رقمية أو تماثلية.",
+     "en": "Signals can be digital or analog."
+    },
+    {
+     "de": "Ein digitales Signal kennt zwei Zustände: ein oder aus.",
+     "ar": "الإشارة الرقمية لها حالتان: تشغيل أو إيقاف.",
+     "en": "A digital signal has two states: on or off."
+    },
+    {
+     "de": "Ein Taster ist ein einfaches Beispiel: gedrückt oder nicht gedrückt.",
+     "ar": "الزر مثال بسيط: مضغوط أو غير مضغوط.",
+     "en": "A pushbutton is a simple example: pressed or not pressed."
+    },
+    {
+     "de": "Ein analoges Signal stellt dagegen einen Messwert dar.",
+     "ar": "أما الإشارة التماثلية فتمثل قيمة قياس.",
+     "en": "An analog signal, on the other hand, represents a measured value."
+    },
+    {
+     "de": "Beide Arten gibt es an Eingängen und an Ausgängen.",
+     "ar": "وكلا النوعين موجود في المداخل والمخارج.",
+     "en": "Both types exist at inputs and at outputs."
+    },
+    {
+     "de": "Die Norm spricht ausdrücklich von digitalen oder analogen Signalen.",
+     "ar": "والمعيار يتحدث صراحة عن إشارات رقمية أو تماثلية.",
+     "en": "The standard explicitly speaks of digital or analog signals."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Norm",
+    "heading": "Die Norm IEC 61131-3",
+    "items": [
+     "Programmiersprachen für SPS",
+     "Deutsche Fassung: DIN EN 61131-3",
+     "Neue Ausgabe seit 2025",
+     "Gültige Ausgabe immer prüfen"
+    ],
+    "terms": [
+     {
+      "de": "die Norm",
+      "ar": "المعيار",
+      "en": "standard"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Programmierung.",
+     "ar": "والآن إلى البرمجة.",
+     "en": "Now to programming."
+    },
+    {
+     "de": "Die Norm IEC 61131-3 legt Programmiersprachen für Steuerungen fest.",
+     "ar": "المعيار IEC 61131-3 يحدد لغات البرمجة لوحدات التحكم.",
+     "en": "The standard IEC 61131-3 defines programming languages for controllers.",
+     "tts": "Die Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei legt Programmiersprachen für Steuerungen fest."
+    },
+    {
+     "de": "In Deutschland heißt die Übernahme DIN EN 61131-3.",
+     "ar": "وفي ألمانيا يحمل المعيار المعتمد الاسم DIN EN 61131-3 رسميًا.",
+     "en": "In Germany, the adopted version is called DIN EN 61131-3.",
+     "tts": "In Deutschland heißt die Übernahme Din E-En einundsechzigtausendeinhunderteinunddreißig, Teil drei."
+    },
+    {
+     "de": "Eine ältere Ausgabe stammt aus dem Jahr 2013.",
+     "ar": "الإصدار الأقدم صدر في سنة 2013 ميلادية.",
+     "en": "An older edition dates from the year 2013.",
+     "tts": "Eine ältere Ausgabe stammt aus dem Jahr zweitausenddreizehn."
+    },
+    {
+     "de": "Laut Katalogen gibt es seit 2025 eine neue Ausgabe.",
+     "ar": "وبحسب الفهارس يوجد إصدار جديد منذ عام 2025 للمعيار.",
+     "en": "According to catalogues, there has been a new edition since 2025.",
+     "tts": "Laut Katalogen gibt es seit zweitausendfünfundzwanzig eine neue Ausgabe."
+    },
+    {
+     "de": "Welche Ausgabe in Ihrem Projekt gilt, prüfen Sie immer neu.",
+     "ar": "أيّ إصدار يسري في مشروعكم، تحققوا منه دائمًا من جديد.",
+     "en": "Which edition applies in your project, always check anew."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Sprachen",
+    "heading": "Die fünf Sprachen im Überblick",
+    "items": [
+     "KOP | Kontaktplan, grafisch",
+     "FUP | Funktionsplan, grafisch",
+     "AS | Ablaufsprache, grafisch",
+     "ST | Strukturierter Text, textuell",
+     "AWL | Anweisungsliste, textuell"
+    ],
+    "terms": [
+     {
+      "de": "der Kontaktplan (KOP)",
+      "ar": "مخطط السلّم (KOP)",
+      "en": "ladder diagram"
+     },
+     {
+      "de": "der Funktionsplan (FUP)",
+      "ar": "مخطط الكتل الوظيفية (FUP)",
+      "en": "function block diagram"
+     },
+     {
+      "de": "der Strukturierte Text (ST)",
+      "ar": "النص المنظَّم (ST)",
+      "en": "structured text"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Ausgabe von 2013 nennt fünf Sprachen.",
+     "ar": "إصدار 2013 يذكر خمس لغات.",
+     "en": "The 2013 edition names five languages.",
+     "tts": "Die Ausgabe von zweitausenddreizehn nennt fünf Sprachen."
+    },
+    {
+     "de": "Erstens der Kontaktplan, kurz KOP.",
+     "ar": "أولًا مخطط السلّم، ويُختصر بالرمز KOP في الألمانية.",
+     "en": "First, the ladder diagram, KOP for short.",
+     "tts": "Erstens der Kontaktplan, kurz Ka-O-Pe."
+    },
+    {
+     "de": "Zweitens der Funktionsplan, kurz FUP, in der Norm auch Funktionsbausteinsprache.",
+     "ar": "ثانيًا مخطط الكتل الوظيفية، واختصاره FUP، ويُسمى في المعيار أيضًا لغة الكتل الوظيفية.",
+     "en": "Second, the function block diagram, FUP for short, in the standard also called function block language.",
+     "tts": "Zweitens der Funktionsplan, kurz Ef-U-Pe, in der Norm auch Funktionsbausteinsprache."
+    },
+    {
+     "de": "Drittens die Ablaufsprache, kurz AS.",
+     "ar": "ثالثًا لغة التسلسل، ويُرمز لها بالرمز AS في الألمانية.",
+     "en": "Third, the sequential function chart, AS for short.",
+     "tts": "Drittens die Ablaufsprache, kurz A-Es."
+    },
+    {
+     "de": "Viertens der Strukturierte Text, kurz ST.",
+     "ar": "رابعًا النص المنظَّم، ويُرمز له بالرمز ST في الألمانية.",
+     "en": "Fourth, structured text, ST for short.",
+     "tts": "Viertens der Strukturierte Text, kurz Es-Te."
+    },
+    {
+     "de": "Fünftens die Anweisungsliste, kurz AWL.",
+     "ar": "خامسًا قائمة التعليمات، ويُرمز لها بالرمز AWL في الألمانية.",
+     "en": "Fifth, the instruction list, AWL for short.",
+     "tts": "Fünftens die Anweisungsliste, kurz A-We-El."
+    },
+    {
+     "de": "KOP, FUP und AS sind grafisch, ST und AWL sind textuell.",
+     "ar": "اللغات KOP وFUP وAS رسومية، أما ST وAWL فنصيتان.",
+     "en": "KOP, FUP and AS are graphical, ST and AWL are textual.",
+     "tts": "Ka-O-Pe, Ef-U-Pe und A-Es sind grafisch, Es-Te und A-We-El sind textuell."
+    },
+    {
+     "de": "Grafische Sprachen zeigen das Programm als Bild, textuelle als Text.",
+     "ar": "اللغات الرسومية تعرض البرنامج كصورة، والنصية تعرضه كنص.",
+     "en": "Graphical languages show the program as a picture, textual ones as text."
+    },
+    {
+     "de": "Wir gehen die fünf Sprachen jetzt der Reihe nach durch.",
+     "ar": "سنمر الآن على اللغات الخمس واحدة بعد أخرى.",
+     "en": "We now go through the five languages one by one."
+    },
+    {
+     "de": "Die Reihenfolge ist keine Rangliste.",
+     "ar": "والترتيب ليس تصنيفًا للأفضلية.",
+     "en": "The order is not a ranking."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "AWL",
+    "heading": "Status der Anweisungsliste",
+    "items": [
+     "2013: als veraltet eingestuft",
+     "2025: laut Quellen nicht mehr enthalten",
+     "Altanlagen: AWL kann noch vorkommen",
+     "Neue Projekte: KOP, FUP, ST, AS"
+    ],
+    "terms": [
+     {
+      "de": "die Anweisungsliste (AWL)",
+      "ar": "قائمة التعليمات (AWL)",
+      "en": "instruction list"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Eine Sprache verdient besondere Aufmerksamkeit: die AWL.",
+     "ar": "هناك لغة واحدة تستحق انتباهًا خاصًا هي AWL تحديدًا.",
+     "en": "One language deserves special attention: the AWL.",
+     "tts": "Eine Sprache verdient besondere Aufmerksamkeit: die A-We-El."
+    },
+    {
+     "de": "In der Ausgabe von 2013 wurde sie als veraltet eingestuft.",
+     "ar": "في إصدار 2013 صُنِّفت على أنها قديمة.",
+     "en": "In the 2013 edition, it was classified as outdated.",
+     "tts": "In der Ausgabe von zweitausenddreizehn wurde sie als veraltet eingestuft."
+    },
+    {
+     "de": "Laut Fachquellen steht sie in der Ausgabe von 2025 nicht mehr in der Norm.",
+     "ar": "وبحسب مصادر متخصصة لم تعد في إصدار 2025 ضمن المعيار.",
+     "en": "According to technical sources, it is no longer in the standard in the 2025 edition.",
+     "tts": "Laut Fachquellen steht sie in der Ausgabe von zweitausendfünfundzwanzig nicht mehr in der Norm."
+    },
+    {
+     "de": "Einen Primärbeleg haben wir dafür nicht geprüft.",
+     "ar": "ولم نتحقق من ذلك من مصدر أصلي.",
+     "en": "We did not check a primary source for this."
+    },
+    {
+     "de": "Programmierwerkzeuge dürfen sie trotzdem weiter anbieten.",
+     "ar": "ويجوز لأدوات البرمجة مع ذلك أن تواصل دعمها.",
+     "en": "Programming tools may still continue to offer it."
+    },
+    {
+     "de": "In älteren Anlagen begegnet Ihnen AWL daher noch.",
+     "ar": "لذلك ستصادفون AWL في المنشآت الأقدم.",
+     "en": "In older plants you will therefore still meet AWL.",
+     "tts": "In älteren Anlagen begegnet Ihnen A-We-El daher noch."
+    },
+    {
+     "de": "Für neue Projekte planen Sie mit den anderen vier Sprachen.",
+     "ar": "وللمشاريع الجديدة خططوا باللغات الأربع الأخرى.",
+     "en": "For new projects, plan with the other four languages."
+    },
+    {
+     "de": "Übernehmen Sie ein altes Projekt, kann es also Programme in AWL enthalten.",
+     "ar": "فإذا تسلّمتم مشروعًا قديمًا فقد يحتوي على برامج مكتوبة بلغة AWL تحديدًا.",
+     "en": "If you take over an old project, it may therefore contain programs in AWL.",
+     "tts": "Übernehmen Sie ein altes Projekt, kann es also Programme in A-We-El enthalten."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Berufe",
+    "heading": "Typische Berufsbilder",
+    "items": [
+     "Elektroniker Automatisierungs- und Systemtechnik | Ausbildung",
+     "SPS-Programmierer | Tätigkeit, kein Ausbildungsberuf",
+     "Techniker Automatisierungstechnik | Fortbildung",
+     "Mechatroniker | oft genannter Einstieg"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wer arbeitet mit SPS? Schauen wir auf typische Berufsbilder.",
+     "ar": "من يعمل مع SPS؟ لننظر إلى المهن النموذجية.",
+     "en": "Who works with an SPS? Let us look at typical professions.",
+     "tts": "Wer arbeitet mit Es-Pe-Es? Schauen wir auf typische Berufsbilder."
+    },
+    {
+     "de": "Seit August 2021 gibt es den Elektroniker mit Fachrichtung Automatisierungs- und Systemtechnik.",
+     "ar": "منذ أغسطس 2021 توجد مهنة الإلكتروني بتخصص الأتمتة وتقنية الأنظمة.",
+     "en": "Since August 2021 there is the electronics technician specialising in automation and systems technology.",
+     "tts": "Seit August zweitausendeinundzwanzig gibt es den Elektroniker mit Fachrichtung Automatisierungs- und Systemtechnik."
+    },
+    {
+     "de": "Die Ausbildung dauert dreieinhalb Jahre.",
+     "ar": "وتستغرق الدراسة المهنية ثلاث سنوات ونصف.",
+     "en": "The training takes three and a half years."
+    },
+    {
+     "de": "Der SPS-Programmierer ist eine Tätigkeit, kein eigener Ausbildungsberuf.",
+     "ar": "مبرمج SPS وظيفة وليست مهنة تدريبية مستقلة.",
+     "en": "The SPS programmer is an activity, not a training occupation of its own.",
+     "tts": "Der Es-Pe-Es-Programmierer ist eine Tätigkeit, kein eigener Ausbildungsberuf."
+    },
+    {
+     "de": "Stellenanzeigen verlangen dafür häufig eine Ausbildung als Elektroniker oder Mechatroniker.",
+     "ar": "وإعلانات الوظائف تطلب غالبًا تأهيلًا مهنيًا كإلكتروني أو ميكاترونيك.",
+     "en": "Job ads often require training as an electronics technician or mechatronics technician."
+    },
+    {
+     "de": "Ein weiterer Weg ist die Fortbildung zum Techniker.",
+     "ar": "وطريق آخر هو التأهيل المتقدم ليصبح فنيًا متخصصًا.",
+     "en": "Another path is further training to become a technician."
+    },
+    {
+     "de": "Die Bezeichnungen unterscheiden sich zwischen Handwerk und Industrie.",
+     "ar": "وتختلف المسميات بين الحرف اليدوية والصناعة.",
+     "en": "The names differ between skilled trades and industry."
+    },
+    {
+     "de": "Diese Liste ist ein Überblick und keine vollständige Aufzählung aller Wege.",
+     "ar": "هذه القائمة نظرة عامة وليست حصرًا لكل الطرق.",
+     "en": "This list is an overview and not a complete list of all paths."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufgaben",
+    "heading": "Was Fachleute tun",
+    "items": [
+     "Sensorsysteme montieren",
+     "Bussysteme und Netzwerke konfigurieren",
+     "Steuerungen aufbauen und programmieren",
+     "Anlagen an Kunden übergeben"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was machen diese Fachleute konkret?",
+     "ar": "ماذا يفعل هؤلاء المختصون عمليًا؟",
+     "en": "What do these specialists actually do?"
+    },
+    {
+     "de": "Laut Berufsinformation montieren sie Sensorsysteme.",
+     "ar": "وفق معلومات المهنة يركّبون أنظمة المستشعرات.",
+     "en": "According to career information, they mount sensor systems."
+    },
+    {
+     "de": "Sie konfigurieren Bussysteme und Netzwerke.",
+     "ar": "ويضبطون أنظمة النواقل والشبكات.",
+     "en": "They configure bus systems and networks."
+    },
+    {
+     "de": "Sie bauen Steuerungen auf und programmieren sie.",
+     "ar": "ويبنون وحدات التحكم ويبرمجونها.",
+     "en": "They build controllers and program them."
+    },
+    {
+     "de": "Am Ende übergeben sie fertige Anlagen an die Kunden.",
+     "ar": "وفي النهاية يسلّمون المنشآت الجاهزة للعملاء.",
+     "en": "In the end they hand finished plants over to the customers."
+    },
+    {
+     "de": "Als Ingenieur arbeiten Sie oft mit diesen Berufen zusammen.",
+     "ar": "وكمهندس ستعملون كثيرًا مع هذه المهن.",
+     "en": "As an engineer, you often work together with these professions."
+    },
+    {
+     "de": "Kennen Sie ihre Sprache, verstehen Sie die Anlage besser.",
+     "ar": "كلما عرفتم لغتهم فهمتم المنشأة أفضل.",
+     "en": "If you know their language, you understand the plant better."
+    },
+    {
+     "de": "Für Ihre Karriere in Deutschland lohnt es sich, diese Aufgaben zu kennen.",
+     "ar": "ولمسيرتكم المهنية في ألمانيا يستحق الأمر معرفة هذه المهام.",
+     "en": "For your career in Germany, it is worth knowing these tasks."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Sicherheit",
+    "heading": "Sicherheit am Schaltschrank",
+    "items": [
+     "1 Freischalten",
+     "2 Gegen Wiedereinschalten sichern",
+     "3 Spannungsfreiheit allpolig feststellen",
+     "4 Erden und Kurzschließen",
+     "5 Benachbarte Teile abdecken oder abschranken"
+    ],
+    "terms": [
+     {
+      "de": "die Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Noch ein wichtiger Hinweis zur Sicherheit.",
+     "ar": "وهناك ملاحظة مهمة تخص السلامة.",
+     "en": "One more important note on safety."
+    },
+    {
+     "de": "Programmieren am Schreibtisch ist etwas anderes als Arbeiten im Schaltschrank.",
+     "ar": "البرمجة على المكتب تختلف عن العمل داخل خزانة التوزيع والتحكم.",
+     "en": "Programming at a desk is different from working in a control cabinet."
+    },
+    {
+     "de": "Arbeiten an elektrischen Anlagen erfolgen durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+     "ar": "الأعمال على المنشآت الكهربائية يقوم بها الكهربائي المؤهَّل أو تتم تحت إدارته وإشرافه.",
+     "en": "Work on electrical installations is done by a qualified electrician or under their direction and supervision."
+    },
+    {
+     "de": "Dabei gelten die fünf Sicherheitsregeln in dieser Reihenfolge.",
+     "ar": "وهنا تسري قواعد السلامة الخمس بهذا الترتيب.",
+     "en": "The five safety rules apply here, in this order."
+    },
+    {
+     "de": "Eins: freischalten. Zwei: gegen Wiedereinschalten sichern. Drei: Spannungsfreiheit allpolig feststellen.",
+     "ar": "واحد: فصل الجهد. اثنان: تأمينها ضد إعادة التشغيل. ثلاثة: التحقق من انعدام الجهد في كل الأقطاب.",
+     "en": "One: isolate. Two: secure against reconnection. Three: verify absence of voltage on all poles."
+    },
+    {
+     "de": "Vier: erden und kurzschließen. Fünf: benachbarte Teile abdecken oder abschranken.",
+     "ar": "أربعة: التأريض والتقصير. خمسة: تغطية الأجزاء المجاورة أو إحاطتها بحواجز.",
+     "en": "Four: earth and short-circuit. Five: cover or fence off neighbouring parts."
+    },
+    {
+     "de": "Die Arbeitsstelle wird erst freigegeben, wenn alle fünf Regeln erfüllt sind.",
+     "ar": "ولا يُسمح ببدء العمل إلا بعد استيفاء القواعد الخمس كلها.",
+     "en": "The workplace is released only when all five rules are fulfilled."
+    },
+    {
+     "de": "Beim Wiedereinschalten gilt die umgekehrte Reihenfolge.",
+     "ar": "وعند إعادة التشغيل يسري الترتيب العكسي.",
+     "en": "When switching back on, the reverse order applies."
+    },
+    {
+     "de": "Wenn Sie unsicher sind, fragen Sie eine Elektrofachkraft.",
+     "ar": "وإن كنتم غير متأكدين فاسألوا الكهربائي المؤهَّل (Elektrofachkraft) دائمًا.",
+     "en": "If you are unsure, ask a qualified electrician."
+    },
+    {
+     "de": "Diese Regeln sind kein Tempo-Rezept, sondern die Grundlage für sicheres Arbeiten.",
+     "ar": "هذه القواعد ليست وصفة للسرعة بل أساس العمل الآمن.",
+     "en": "These rules are not a recipe for speed, but the basis for working safely."
+    },
+    {
+     "de": "Mehr dazu finden Sie im Video über elektrische Sicherheit.",
+     "ar": "وتجدون المزيد عن ذلك في فيديو السلامة الكهربائية.",
+     "en": "You find more on this in the video about electrical safety."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das nehmen Sie mit",
+    "items": [
+     "SPS: Eingänge, CPU, Ausgänge",
+     "Zyklus: einlesen, bearbeiten, ausgeben",
+     "Sensoren erfassen, Aktoren handeln",
+     "Fünf Sprachen, AWL mit besonderem Status"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Eine SPS besteht aus Eingängen, CPU und Ausgängen.",
+     "ar": "تتكون وحدة SPS من مداخل ووحدة CPU ومخارج.",
+     "en": "An SPS consists of inputs, CPU and outputs.",
+     "tts": "Eine Es-Pe-Es besteht aus Eingängen, Ze-Pe-U und Ausgängen."
+    },
+    {
+     "de": "Sie arbeitet zyklisch: einlesen, bearbeiten, ausgeben.",
+     "ar": "وتعمل دوريًا: قراءة ثم معالجة ثم إخراج.",
+     "en": "It works cyclically: read, process, output."
+    },
+    {
+     "de": "Sensoren erfassen Größen, Aktoren setzen sie in Aktionen um.",
+     "ar": "المستشعرات تقيس الكميات والمنفِّذات تحوّلها إلى أفعال.",
+     "en": "Sensors detect quantities, actuators turn them into actions."
+    },
+    {
+     "de": "Die Norm IEC 61131-3 nennt fünf Sprachen: KOP, FUP, AS, ST und AWL.",
+     "ar": "يذكر المعيار IEC 61131-3 خمس لغات: KOP وFUP وAS وST وAWL كما رأينا.",
+     "en": "The standard IEC 61131-3 names five languages: KOP, FUP, AS, ST and AWL.",
+     "tts": "Die Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei nennt fünf Sprachen: Ka-O-Pe, Ef-U-Pe, A-Es, Es-Te und A-We-El."
+    },
+    {
+     "de": "Die AWL ist veraltet und laut Quellen nicht mehr Teil der neuen Ausgabe.",
+     "ar": "لغة AWL قديمة، وبحسب المصادر لم تعد جزءًا من الإصدار الجديد.",
+     "en": "The AWL is outdated and, according to sources, no longer part of the new edition.",
+     "tts": "Die A-We-El ist veraltet und laut Quellen nicht mehr Teil der neuen Ausgabe."
+    },
+    {
+     "de": "Im nächsten Video geht es um funktionale Sicherheit.",
+     "ar": "في الفيديو القادم نتناول السلامة الوظيفية.",
+     "en": "The next video is about functional safety."
+    },
+    {
+     "de": "Dort sehen Sie, wie Steuerungen Menschen schützen.",
+     "ar": "وهناك سترون كيف تحمي أنظمة التحكم الناس.",
+     "en": "There you see how controllers protect people."
+    },
+    {
+     "de": "Wiederholen Sie die Wörter aus dem Glossar, bevor Sie das Quiz starten.",
+     "ar": "كرّروا كلمات المسرد قبل أن تبدؤوا الاختبار.",
+     "en": "Repeat the words from the glossary before you start the quiz."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Hinweis",
+    "heading": "Wichtiger Hinweis",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Gültige Fassung immer prüfen",
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وفي الختام ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich.",
+     "ar": "القوانين والمعايير تتغير.",
+     "en": "Laws and standards change."
+    },
+    {
+     "de": "Prüfen Sie deshalb immer die aktuell gültige Fassung.",
+     "ar": "لذلك تحققوا دائمًا من النسخة السارية حاليًا.",
+     "en": "So always check the currently valid version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ersetzt keine Rechtsberatung und keine Fachberatung.",
+     "ar": "ولا يحل محل الاستشارة القانونية أو الهندسية.",
+     "en": "It does not replace legal advice or engineering advice."
+    },
+    {
+     "de": "Im Quiz können Sie Ihr Wissen jetzt testen.",
+     "ar": "يمكنكم الآن اختبار معرفتكم في الاختبار القصير.",
+     "en": "In the quiz you can now test your knowledge."
+    },
+    {
+     "de": "Bei konkreten Projekten fragen Sie Fachleute und lesen die Herstellerunterlagen.",
+     "ar": "وفي المشاريع الفعلية اسألوا المختصين واقرؤوا وثائق الشركة المصنِّعة.",
+     "en": "In real projects, ask specialists and read the manufacturer's documents."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Automatisierung",
+   "ar": "الأتمتة",
+   "en": "automation"
+  },
+  {
+   "de": "die speicherprogrammierbare Steuerung (SPS)",
+   "ar": "وحدة التحكم المبرمجة (SPS)",
+   "en": "programmable logic controller"
+  },
+  {
+   "de": "die verbindungsprogrammierte Steuerung (VPS)",
+   "ar": "التحكم الموصول بالأسلاك (VPS)",
+   "en": "hard-wired control"
+  },
+  {
+   "de": "die Zentraleinheit (CPU)",
+   "ar": "وحدة المعالجة المركزية (CPU)",
+   "en": "central processing unit"
+  },
+  {
+   "de": "die Eingabebaugruppe",
+   "ar": "وحدة الدخل",
+   "en": "input module"
+  },
+  {
+   "de": "die Ausgabebaugruppe",
+   "ar": "وحدة الخرج",
+   "en": "output module"
+  },
+  {
+   "de": "das Anwenderprogramm",
+   "ar": "برنامج المستخدم",
+   "en": "user program"
+  },
+  {
+   "de": "der Sensor",
+   "ar": "المستشعر",
+   "en": "sensor"
+  },
+  {
+   "de": "der Aktor",
+   "ar": "المنفِّذ",
+   "en": "actuator"
+  },
+  {
+   "de": "das Prozessabbild",
+   "ar": "صورة العملية",
+   "en": "process image"
+  },
+  {
+   "de": "die Zykluszeit",
+   "ar": "زمن الدورة",
+   "en": "cycle time"
+  },
+  {
+   "de": "der Kontaktplan (KOP)",
+   "ar": "مخطط السلّم (KOP)",
+   "en": "ladder diagram"
+  },
+  {
+   "de": "der Funktionsplan (FUP)",
+   "ar": "مخطط الكتل الوظيفية (FUP)",
+   "en": "function block diagram"
+  },
+  {
+   "de": "die Ablaufsprache (AS)",
+   "ar": "لغة التسلسل (AS)",
+   "en": "sequential function chart"
+  },
+  {
+   "de": "der Strukturierte Text (ST)",
+   "ar": "النص المنظَّم (ST)",
+   "en": "structured text"
+  },
+  {
+   "de": "die Anweisungsliste (AWL)",
+   "ar": "قائمة التعليمات (AWL)",
+   "en": "instruction list"
+  },
+  {
+   "de": "der Schaltschrank",
+   "ar": "خزانة التوزيع والتحكم",
+   "en": "control cabinet"
+  },
+  {
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "en": "qualified electrician"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was ist die richtige Reihenfolge im SPS-Zyklus?",
+    "ar": "ما الترتيب الصحيح في دورة SPS؟",
+    "en": "What is the correct order in the SPS cycle?"
+   },
+   "options": [
+    {
+     "de": "Ausgeben, Bearbeiten, Einlesen",
+     "ar": "إخراج ثم معالجة ثم قراءة",
+     "en": "Output, process, read"
+    },
+    {
+     "de": "Bearbeiten, Einlesen, Ausgeben",
+     "ar": "معالجة ثم قراءة ثم إخراج",
+     "en": "Process, read, output"
+    },
+    {
+     "de": "Einlesen, Bearbeiten, Ausgeben",
+     "ar": "قراءة ثم معالجة ثم إخراج",
+     "en": "Read, process, output"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was macht ein Aktor?",
+    "ar": "ماذا يفعل المنفِّذ؟",
+    "en": "What does an actuator do?"
+   },
+   "options": [
+    {
+     "de": "Er setzt Signale in Aktion um",
+     "ar": "يحوّل الإشارات إلى فعل",
+     "en": "It converts signals into action"
+    },
+    {
+     "de": "Er misst nur Temperaturen",
+     "ar": "يقيس درجات الحرارة فقط",
+     "en": "It only measures temperatures"
+    },
+    {
+     "de": "Er speichert das Programm",
+     "ar": "يخزّن البرنامج",
+     "en": "It stores the program"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wofür steht das Prozessabbild der Eingänge?",
+    "ar": "ماذا تمثل صورة العملية للمداخل؟",
+    "en": "What does the process image of the inputs hold?"
+   },
+   "options": [
+    {
+     "de": "Das fertige Programm",
+     "ar": "البرنامج الجاهز",
+     "en": "The finished program"
+    },
+    {
+     "de": "Die eingelesenen Eingangszustände",
+     "ar": "حالات المداخل المقروءة",
+     "en": "The read-in input states"
+    },
+    {
+     "de": "Die Stromversorgung",
+     "ar": "مصدر الطاقة",
+     "en": "The power supply"
+    },
+    {
+     "de": "Den Schaltplan",
+     "ar": "مخطط الدارات",
+     "en": "The circuit diagram"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welche Aussage zur AWL passt zu den Quellen?",
+    "ar": "أي عبارة عن AWL تناسب المصادر؟",
+    "en": "Which statement about the AWL fits the sources?"
+   },
+   "options": [
+    {
+     "de": "Sie ist die einzige grafische Sprache",
+     "ar": "هي اللغة الرسومية الوحيدة",
+     "en": "It is the only graphical language"
+    },
+    {
+     "de": "Sie ist die neueste Sprache",
+     "ar": "هي أحدث لغة",
+     "en": "It is the newest language"
+    },
+    {
+     "de": "Sie ist ein Sensor",
+     "ar": "هي مستشعر",
+     "en": "It is a sensor"
+    },
+    {
+     "de": "Sie gilt als veraltet",
+     "ar": "تُعد قديمة",
+     "en": "It is considered outdated"
+    }
+   ],
+   "answer": 3
+  },
+  {
+   "q": {
+    "de": "Wer arbeitet an elektrischen Anlagen?",
+    "ar": "من يعمل على المنشآت الكهربائية؟",
+    "en": "Who works on electrical installations?"
+   },
+   "options": [
+    {
+     "de": "Jeder ohne Voraussetzungen",
+     "ar": "أي شخص دون شروط",
+     "en": "Anyone without requirements"
+    },
+    {
+     "de": "Nur wer schnell arbeitet",
+     "ar": "فقط من يعمل بسرعة",
+     "en": "Only those who work fast"
+    },
+    {
+     "de": "Elektrofachkraft oder unter deren Leitung und Aufsicht",
+     "ar": "الكهربائي المؤهَّل أو تحت إدارته وإشرافه",
+     "en": "A qualified electrician or under their direction and supervision"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um funktionale Sicherheit.",
+  "ar": "في الفيديو القادم نتناول السلامة الوظيفية.",
+  "en": "The next video covers functional safety."
+ },
+ "stand": "2026-10-20; prüfen: Wegfall der AWL in IEC 61131-3 Edition 4 (2025) nur sekundär belegt, Status der deutschen Übernahme EN IEC 61131-3:2025 bzw. DIN-Fassung, DIN EN 61131-1 (SPS-Definition nur sinngemäß), Berufsbezeichnungen und Ausbildungsdauer (ElekAusbV, BERUFENET), Fünf Sicherheitsregeln gegen DIN VDE 0105-100"
+}

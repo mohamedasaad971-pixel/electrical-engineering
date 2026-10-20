@@ -1,0 +1,186 @@
+{
+ "video": "E-C05",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Die Reihe IEC 62443 behandelt die Sicherheit industrieller Automatisierungs- und Steuerungssysteme (IACS); die Teile sind nach Rollen gegliedert (Betreiber, Systemintegrator, Produktlieferant).",
+   "source_url": "https://syc-se.iec.ch/deliveries/cybersecurity-guidelines/security-standards-and-best-practices/iec-62443/",
+   "source_name": "IEC SyC Smart Energy",
+   "confidence": "medium",
+   "note": "Rollengliederung zusätzlich in Erklärseiten (securebydesignhandbook.com, trout.software). Normtext nicht abgerufen."
+  },
+  {
+   "claim": "Die deutsche Fassung erscheint als DIN EN IEC 62443 (VDE 0802) mit dem Reihentitel 'Industrielle Kommunikationsnetze – IT-Sicherheit für Netze und Systeme'; Zuständigkeit DKE.",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7132826&type=dke%7Cdokument",
+   "source_name": "DKE (DIN EN IEC 62443-3-3 (VDE 0802-3-3):2020-01)",
+   "confidence": "medium",
+   "note": "Reihe ist nicht abgeschlossen; Ausgaben je Teil unterschiedlich. Im Video keine Ausgabejahre genannt."
+  },
+  {
+   "claim": "Teil 2-1 richtet sich an Betreiber (Anforderungen an ein Cybersicherheits-Programm / Managementsystem für den Betrieb); Edition 2.0 ist von 2024.",
+   "source_url": "https://cdn.standards.iteh.ai/samples/102021/ead9074305be4142a9125ad52d59f546/IEC-62443-2-1-2024.pdf",
+   "source_name": "IEC 62443-2-1 Ed. 2.0 (Vorschauseite iTeh)",
+   "confidence": "medium",
+   "note": "Nur Ausgabejahr aus Vorschau; im Video ohne Jahreszahl."
+  },
+  {
+   "claim": "Teil 2-4 behandelt Anforderungen an Dienstleister/Lieferanten und Instandhalter (u. a. Fernzugriff, Härtung, Patching, Backup).",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7141089&type=dke%7Cdokument",
+   "source_name": "DKE (DIN EN IEC 62443-2-4)",
+   "confidence": "medium",
+   "note": "Detailaufzählung nur aus Erklärseiten (althera.it); im Video allgemein formuliert."
+  },
+  {
+   "claim": "Teil 3-2 beschreibt die Sicherheits-Risikobeurteilung für das Systemdesign: System betrachten, in Zonen und Konduits aufteilen, Risiko bewerten, Ziel-Sicherheitsstufe je Zone/Konduit festlegen.",
+   "source_url": "https://webstore.iec.ch/en/publication/30727",
+   "source_name": "IEC Webstore (IEC 62443-3-2:2020)",
+   "confidence": "high",
+   "note": "Abstract der IEC."
+  },
+  {
+   "claim": "Teil 3-3 legt technische Systemanforderungen fest, bezogen auf Grundanforderungen und Sicherheitsstufen (vier Stufen, SL 1 bis SL 4).",
+   "source_url": "https://www.dinmedia.de/en/standard/din-en-iec-62443-3-3/311519620",
+   "source_name": "DIN Media (DIN EN IEC 62443-3-3)",
+   "confidence": "medium",
+   "note": "Vierstufigkeit aus Erklärseiten (cisco.com, fortinet.com)."
+  },
+  {
+   "claim": "Teil 4-1 beschreibt einen sicheren Entwicklungsprozess für Produkte (u. a. Anforderungen, Design, Verifikation, Schwachstellen- und Patch-Management, End-of-Life).",
+   "source_url": "https://cdn.standards.iteh.ai/samples/21445/5d9b618cf732432b83b4e17e0e7b24cf/IEC-62443-4-1-2018.pdf",
+   "source_name": "IEC 62443-4-1 Ed. 1.0 (Vorschauseite iTeh)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Teil 4-2 enthält technische Sicherheitsanforderungen an Komponenten (Software-Anwendung, eingebettetes Gerät, Host, Netzwerkgerät), abgeleitet aus den Systemanforderungen.",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7127807&type=dke%7Cdokument",
+   "source_name": "DKE (EN IEC 62443-4-2:2019-04)",
+   "confidence": "medium",
+   "note": "Komponentenarten aus Erklärseiten."
+  },
+  {
+   "claim": "Eine Zone fasst Anlagenteile mit ähnlichem Schutzbedarf zusammen; Konduits sind die kontrollierten Kommunikationswege zwischen Zonen.",
+   "source_url": "https://www.mdpi.com/2624-800x/6/2/52",
+   "source_name": "MDPI, Security Aspects of Zones and Conduits in IEC 62443",
+   "confidence": "medium",
+   "note": "Begriffsdefinition sinngemäß, kein Normzitat."
+  },
+  {
+   "claim": "Die Rolle zählt, nicht die Firma: ein Unternehmen kann gleichzeitig Produktlieferant (Hersteller) und Dienstleister/Integrator sein; im Standard heißt der Hersteller 'Product Supplier'.",
+   "source_url": "https://www.trout.software/resources/iec-62443",
+   "source_name": "Erklärseite trout.software (und weitere)",
+   "confidence": "medium",
+   "note": "Sekundärquelle; Rollenbezeichnungen im Video als Orientierung."
+  },
+  {
+   "claim": "BSI empfiehlt Defense in Depth: Schutzmaßnahmen in mehreren Schichten; innere Teile einer Anlage dürfen nicht auf eigene Security verzichten.",
+   "source_url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ICS/ICS-Security-Kompendium-Hersteller.pdf?__blob=publicationFile&v=2",
+   "source_name": "BSI ICS-Security-Kompendium",
+   "confidence": "high",
+   "note": "Version/Edition vor Nutzung prüfen."
+  },
+  {
+   "claim": "BSI empfiehlt, Produktion und Office-IT durch Firewalls oder filternde Systeme zu trennen (vertikale Trennung) und Anlagenteile untereinander zu trennen (horizontale Trennung).",
+   "source_url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ICS/ICS-Security-Kompendium-Hersteller.pdf?__blob=publicationFile&v=2",
+   "source_name": "BSI ICS-Security-Kompendium (Maßnahmen zur Segmentierung)",
+   "confidence": "high",
+   "note": "Maßnahmennummern nicht genannt."
+  },
+  {
+   "claim": "Fernwartung: Zugriffspunkte in einer DMZ, Zugang über Firewall nur zu nötigen Systemen, Freischaltung nur für Zweck und Dauer der Wartung, starke Authentisierung (z. B. Mehr-Faktor), verschlüsselte Übertragung.",
+   "source_url": "https://www.allianz-fuer-cybersicherheit.de/SharedDocs/Downloads/Webs/ACS/DE/BSI-CS/BSI-CS_005.pdf?__blob=publicationFile&v=6",
+   "source_name": "BSI-CS 005 (Allianz für Cybersicherheit) und IT-Grundschutz IND.3.2",
+   "confidence": "high",
+   "note": "Editionen 2022/2023 des Bausteins; aktuelle Fassung prüfen."
+  },
+  {
+   "claim": "Undokumentierte Fernwartungszugänge sind ein eigenes Risiko, weil der Betreiber sie nicht unterbinden kann.",
+   "source_url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023.pdf?__blob=publicationFile&v=3",
+   "source_name": "BSI IT-Grundschutz IND.3.2",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "In der OT hat Verfügbarkeit hohe Priorität, weil der Ausfall einer Anlage weitere Anlagen beeinflussen kann; Patch-Management und tolerierbare Ausfallzeiten sind Risikoaspekte.",
+   "source_url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ICS/ICS-Security_kompendium_pdf.pdf?__blob=publicationFile",
+   "source_name": "BSI ICS-Security-Kompendium",
+   "confidence": "medium",
+   "note": "Aus Version 2.0.0; Reihenfolge der Schutzziele in der Praxis kontextabhängig."
+  },
+  {
+   "claim": "Patches für Leitsysteme, SPS oder SCADA dürfen oft nur nach Freigabe des Herstellers und in abgestimmten Versionen eingespielt werden; Einspielung meist in geplanten Wartungsfenstern.",
+   "source_url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/ICS/ICS-Security_kompendium_pdf.pdf?__blob=publicationFile",
+   "source_name": "BSI ICS-Security-Kompendium / Uni Hamburg Arbeitspapier 2025",
+   "confidence": "medium",
+   "note": "Fristen und Zahlen bewusst weggelassen."
+  },
+  {
+   "claim": "Aktive Schwachstellenscans können Anlagen zum Stillstand bringen; in unteren Ebenen eher passive Verfahren.",
+   "source_url": "https://link.springer.com/chapter/10.1007/978-3-658-52565-1_18",
+   "source_name": "Springer, BSI-Werkzeuge für Schwachstellenmanagement",
+   "confidence": "low",
+   "note": "Einzelquelle; im Video nur vorsichtig ('können') oder weggelassen."
+  },
+  {
+   "claim": "Die Richtlinie (EU) 2022/2555 (NIS-2) vom 14. Dezember 2022 ist im Amtsblatt L 333 vom 27.12.2022 veröffentlicht und hebt die Richtlinie (EU) 2016/1148 auf.",
+   "source_url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj?locale=de",
+   "source_name": "EUR-Lex",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die Frist zur Umsetzung der NIS-2-Richtlinie in nationales Recht endete am 17. Oktober 2024; Deutschland hat sie nicht eingehalten.",
+   "source_url": "https://de.wikipedia.org/wiki/Richtlinie_(EU)_2022/2555_(NIS-2)",
+   "source_name": "Wikipedia / Leitfäden (Frist aus Richtlinientext Art. 41)",
+   "confidence": "medium",
+   "note": "Datum im Video nicht als Zahl nötig; evtl. 'Herbst 2024'."
+  },
+  {
+   "claim": "Das NIS-2-Umsetzungsgesetz (NIS2UmsuCG) wurde am 5. Dezember 2025 im Bundesgesetzblatt verkündet (BGBl. 2025 I Nr. 301) und ist am 6. Dezember 2025 in Kraft getreten; Kern ist die Neufassung des BSI-Gesetzes (BSIG).",
+   "source_url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2025/251205_NIS-2-Umsetzungsgesetz_in_Kraft.html",
+   "source_name": "BSI Pressemitteilung 5.12.2025; Menold Bezler; DNV",
+   "confidence": "high",
+   "note": "Mehrere Quellen übereinstimmend; Bundesrat-Daten uneinheitlich (nicht verwendet)."
+  },
+  {
+   "claim": "Betroffene Einrichtungen werden als 'besonders wichtige' und 'wichtige Einrichtungen' unterschieden; Unternehmen müssen selbst prüfen, ob sie betroffen sind.",
+   "source_url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/NIS-2-FAQ/NIS-2-FAQ-allgemein/FAQ-zu-NIS-2.html",
+   "source_name": "BSI FAQ zu NIS-2",
+   "confidence": "medium",
+   "note": "Schwellenwerte/Sektorlisten nicht verwendet."
+  },
+  {
+   "claim": "§ 30 BSIG verlangt geeignete, verhältnismäßige Risikomanagementmaßnahmen nach dem Stand der Technik und deren Dokumentation.",
+   "source_url": "https://www.menoldbezler.de/blog/umsetzung-der-nis-2-richtlinie-risikomanagementpflichten-nach-dem-neuen-bsig",
+   "source_name": "Menold Bezler (Kanzlei-Blog)",
+   "confidence": "medium",
+   "note": "Sekundärquelle; Gesetzestext auf gesetze-im-internet.de prüfen. Kein Pflichtenkatalog im Video."
+  },
+  {
+   "claim": "Betroffene Einrichtungen müssen sich beim BSI registrieren (§ 33 BSIG); das BSI-Portal dafür ging am 6. Januar 2026 online.",
+   "source_url": "https://borncity.com/blog/2026/01/07/nis-2-registrierung-im-bsi-portal-jetzt-moeglich-6-1-2026/",
+   "source_name": "Borns IT-Blog (nennt BSI-Angabe)",
+   "confidence": "medium",
+   "note": "Im Video nur 'Registrierung beim BSI'; Fristen nicht genannt."
+  },
+  {
+   "claim": "Das KRITIS-Dachgesetz (physischer Schutz kritischer Anlagen, CER-Richtlinie) ist laut BSI-Hinweis seit 17. März 2026 in Kraft; BSIG und KRITIS-DachG wurden laut Blogbericht vor der Sommerpause 2026 nochmals geändert.",
+   "source_url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/Kritische-Infrastrukturen/KRITIS-aktuell/kritis-aktuell.html",
+   "source_name": "BSI KRITIS aktuell; Borns IT-Blog 24.8.2026",
+   "confidence": "low",
+   "note": "Änderung nur über Blog; deshalb im Video nur 'wurde seitdem geändert/prüfen Sie die aktuelle Fassung'."
+  }
+ ],
+ "dropped": [
+  "Registrierungsfristen (6.3.2026, Nachfrist 31.7.2026) und Zahl registrierter Firmen (19.058): Blog/Sekundärquellen, widersprüchlich.",
+  "Geschätzte Zahl betroffener Einrichtungen (ca. 29.500): nur Sekundärquelle, zeitabhängig.",
+  "Schwellenwerte (Mitarbeiterzahl/Umsatz) und Sektorlisten nach NIS-2/BSIG: nicht verifiziert, bewusst nicht genannt.",
+  "Bußgeldhöhen und Geschäftsleiter-Haftung: Rechtsberatung/ Zahlen, nicht verifiziert.",
+  "Genaue Inhalte der Rechtsverordnungen (KRITIS-Verordnung, Schwellenwerte kritische Anlagen): Stand unklar.",
+  "Details der Änderung von BSIG/KRITIS-DachG im Sommer 2026: nur Blogbericht, Bundesgesetzblatt nicht geprüft.",
+  "Anzahl der sieben Grundanforderungen (Foundational Requirements) und Ausgabejahre der Teile: nur Sekundärquellen, im Video nicht genannt.",
+  "Aussage 'IEC 62443 erfüllt NIS2 automatisch': nicht belegt, im Video ausdrücklich nicht behauptet.",
+  "Patch-Fristen oder Zahlenwerte für Wartungsfenster: nicht belegt.",
+  "Cyber Resilience Act (EU) und Maschinenverordnung: nicht recherchiert, nicht im Video."
+ ]
+}

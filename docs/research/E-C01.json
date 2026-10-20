@@ -1,0 +1,180 @@
+{
+ "video": "E-C01",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "Nach DIN EN 61131-1 ist eine SPS ein digital arbeitendes elektronisches System für den Industrieeinsatz mit programmierbarem Speicher für Anwenderprogramme, das Maschinen oder Prozesse über digitale oder analoge Ein- und Ausgangssignale steuert.",
+   "source_url": "https://www.elektrotechnik.vogel.de/was-ist-eine-sps-definition-grundlagen-und-funktion-a-ac7e836b2194b3cac340ceddf92838d8/",
+   "source_name": "Vogel / Elektrotechnik (Zitat der Norm-Definition durch Dritte)",
+   "confidence": "medium",
+   "note": "Normtext nicht frei abgerufen; im Video nur sinngemäß, ausdrücklich nicht als Wortlaut."
+  },
+  {
+   "claim": "Bei verbindungsprogrammierten Steuerungen (VPS, z. B. Relais und Schütze) bestimmt die Verdrahtung der Bauteile die Logik; bei Änderungen muss hardwareseitig umgebaut werden. Bei der SPS wird die Logik programmiert und in die Steuerung geladen.",
+   "source_url": "https://wiki.hshl.de/wiki/index.php/Speicherprogrammierbare_Steuerung",
+   "source_name": "Hochschule Hamm-Lippstadt Wiki / weitere Lehrseiten",
+   "confidence": "medium",
+   "note": "Mehrere Quellen übereinstimmend."
+  },
+  {
+   "claim": "Eine SPS besteht im Wesentlichen aus der Zentralbaugruppe mit Prozessor (CPU), Programmspeicher und Bussystem sowie aus Ein- und Ausgabebaugruppen und einer Stromversorgung.",
+   "source_url": "https://beckassets.blob.core.windows.net/product/readingsample/14202710/9783834825971-c1.pdf",
+   "source_name": "Lehrbuch-Leseprobe 'Automatisieren mit SPS - Theorie und Praxis'",
+   "confidence": "medium",
+   "note": "Übereinstimmend mit weiteren Lehrseiten."
+  },
+  {
+   "claim": "Eingabebaugruppen nehmen Signale von Sensoren auf und leiten sie an die CPU weiter; Ausgabebaugruppen senden Signale an Aktoren.",
+   "source_url": "https://edcon-academy.de/sps-aufbau-3/",
+   "source_name": "edcon academy / Lehrseiten",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Jeder SPS-Zyklus beginnt mit dem Einlesen der Eingangszustände in das Prozessabbild und endet mit der Ausgabe der Signale an die Ausgänge; das Programm wird dazwischen bearbeitet.",
+   "source_url": "https://www.sps-lehrgang.de/funktionsweise-arbeitsweise-sps/",
+   "source_name": "sps-lehrgang.de (weitere Quellen übereinstimmend)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Das Prozessabbild der Eingänge (PAE) hält die eingelesenen Zustände, das Prozessabbild der Ausgänge (PAA) die berechneten Ausgangszustände; Änderungen der Eingänge während der Programmbearbeitung bleiben unberücksichtigt, Ausgänge werden nach Programmende übergeben.",
+   "source_url": "https://www.sps-tutorial.com/funktionsweise-sps/",
+   "source_name": "sps-tutorial.com / Lehrseiten",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Zykluszeit ist die Zeit, die für Einlesen der Eingänge, Abarbeiten des Programms und Ausgeben der Ausgänge benötigt wird.",
+   "source_url": "https://www.sps-tutorial.com/funktionsweise-sps/",
+   "source_name": "sps-tutorial.com / DEDOS / comquent",
+   "confidence": "medium",
+   "note": "Typische Millisekundenwerte weichen zwischen Quellen ab: nicht verwendet."
+  },
+  {
+   "claim": "Die Arbeitsweise heißt auch EVA-Prinzip: Eingabe, Verarbeitung, Ausgabe.",
+   "source_url": "https://www.sps-lehrgang.de/funktionsweise-arbeitsweise-sps/",
+   "source_name": "sps-lehrgang.de",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Sensoren erfassen physikalische Größen; Aktoren setzen elektrische Signale in Bewegungen oder Aktionen um.",
+   "source_url": "https://stex24.com/de/ratgeber/sensoren",
+   "source_name": "stex24 Ratgeber (weitere Lehrseiten übereinstimmend)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Schütze, Relais und Magnetventile schalten Zustände; Frequenzumrichter, Servoantriebe und Stellventile erlauben feinere Regelung.",
+   "source_url": "https://technik.wrswebsolutions.com/artikel/sensoren-und-aktoren.html",
+   "source_name": "technik.wrswebsolutions.com",
+   "confidence": "medium",
+   "note": "Einzelquelle für die Gruppierung, Aussage allgemein bekannt; im Video vorsichtig formuliert."
+  },
+  {
+   "claim": "Induktive Sensoren arbeiten berührungslos über ein elektromagnetisches Wechselfeld, erfassen Metalle, nicht Nichtmetalle, und liefern ein Schaltsignal oder einen analogen Messwert.",
+   "source_url": "https://www.baumer.com/us/en/service-support/function-principle/working-principle-and-technology-of-inductive-sensors/a/Know-how_Function_Inductive-sensors",
+   "source_name": "Baumer (Hersteller-Grundlagen), Balluff ergänzend",
+   "confidence": "medium",
+   "note": "Herstellerseite wird nur für das physikalische Prinzip genutzt, nicht für Produktaussagen."
+  },
+  {
+   "claim": "IEC 61131-3 legt die Programmiersprachen für speicherprogrammierbare Steuerungen fest; die deutsche Fassung ist DIN EN 61131-3 (DIN EN 61131-3:2014-06 basiert auf EN 61131-3:2013).",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7042975&type=dke%7Cdokument",
+   "source_name": "DKE Normenkatalog",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Ausgabe von 2013 nennt fünf Sprachen: Kontaktplan (KOP, engl. LD), Funktionsplan bzw. Funktionsbausteinsprache (FUP/FBS, engl. FBD), Strukturierter Text (ST), Anweisungsliste (AWL, engl. IL) und Ablaufsprache (AS, engl. SFC); AS strukturiert die interne Organisation von Programmen und Bausteinen.",
+   "source_url": "https://de.wikipedia.org/wiki/EN_61131-3",
+   "source_name": "Wikipedia DE EN 61131-3 / DKE-Beschreibung (Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Normtext selbst nicht geprüft."
+  },
+  {
+   "claim": "KOP, FUP und AS sind grafische Sprachen, ST und AWL textuelle.",
+   "source_url": "https://en.wikipedia.org/wiki/IEC_61131-3",
+   "source_name": "Wikipedia EN IEC 61131-3 (weitere Fachseiten übereinstimmend)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Anweisungsliste (IL/AWL) wurde in der dritten Ausgabe (2013) als veraltet (deprecated) eingestuft.",
+   "source_url": "https://en.wikipedia.org/wiki/Instruction_list",
+   "source_name": "Wikipedia EN Instruction list / IEC 61131-3",
+   "confidence": "medium",
+   "note": "Sekundärquellen; IEC-Primärtext nicht abgerufen."
+  },
+  {
+   "claim": "Die vierte Ausgabe (Mai 2025) ersetzt die Ausgabe 2013; nach Sekundärquellen ist AWL darin nicht mehr enthalten, Werkzeuge dürfen sie aber weiter unterstützen. Eine Europäische Fassung EN IEC 61131-3:2025 ist in Normenkatalogen gelistet.",
+   "source_url": "https://ecommerce.sist.si/catalog/standards/sist/3531260d-271b-49ce-9468-e73e22b02eab/sist-en-iec-61131-3-2025",
+   "source_name": "SIST-Katalog (EN IEC 61131-3:2025); Wikipedia EN; Fachseiten",
+   "confidence": "medium",
+   "note": "Primärbeleg zum Wegfall von AWL fehlt; Quellenlage uneinheitlich (ein Blog nennt 2026). Im Video: 'laut Quellen', Prüfhinweis. Status der DIN-Übernahme unklar."
+  },
+  {
+   "claim": "Mehrere Hersteller bieten Programmierwerkzeuge für die IEC-Sprachen an; Sprachumfang und herstellerspezifische Erweiterungen unterscheiden sich.",
+   "source_url": "https://control-panels.org/blog/plc-programming-languages-iec-61131",
+   "source_name": "Fachblogs (mehrere, uneinheitlich)",
+   "confidence": "medium",
+   "note": "Nur die allgemeine Aussage; keine Produkt-/Markenzuordnung."
+  },
+  {
+   "claim": "Seit 1. August 2021 heißt der handwerkliche Beruf Elektroniker bzw. Elektronikerin mit Fachrichtung Automatisierungs- und Systemtechnik; die Ausbildung dauert dreieinhalb Jahre (ElekAusbV).",
+   "source_url": "https://www.gesetze-im-internet.de/elekausbv_2021/BJNR069900021.html",
+   "source_name": "gesetze-im-internet.de, ElekAusbV",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Laut BERUFENET montieren, konfigurieren und programmieren Elektroniker dieses Feldes Sensorsysteme, Bussysteme und Netzwerke, bauen Steuerungen auf und übergeben fertige Anlagen an Kunden.",
+   "source_url": "https://web.arbeitsagentur.de/berufenet/beruf/15630",
+   "source_name": "BERUFENET (Bundesagentur für Arbeit)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "SPS-Programmierer ist eine Tätigkeitsbezeichnung, kein eigener Ausbildungsberuf; Stellenanzeigen verlangen häufig eine Ausbildung als Automatisierungstechniker, Elektroniker für Automatisierungstechnik oder Mechatroniker.",
+   "source_url": "https://www.jobvector.de/karriere-ratgeber/ingenieurwesen/sps-programmierer-berufsbild/",
+   "source_name": "jobvector Karriere-Ratgeber",
+   "confidence": "medium",
+   "note": "Ratgeberseite; im Video 'häufig'."
+  },
+  {
+   "claim": "Techniker/in Elektrotechnik (Automatisierungstechnik) ist ein Fortbildungsweg (Bachelor Professional in Technik).",
+   "source_url": "https://web.arbeitsagentur.de/berufenet/beruf/5573",
+   "source_name": "BERUFENET",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Arbeiten an elektrischen Anlagen müssen nach DGUV Vorschrift 3 von einer Elektrofachkraft oder unter deren Leitung und Aufsicht erfolgen.",
+   "source_url": "https://www.tuev-nord.de/de/unternehmen/bildung/wissen-kompakt/elektrotechnik/aufgaben-und-rollen-in-der-elektrotechnik",
+   "source_name": "TÜV NORD (aus Recherche E-F04)",
+   "confidence": "high",
+   "note": "Übernommen aus docs/research/E-F04.json."
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln in dieser Reihenfolge: freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte Teile abdecken oder abschranken. Arbeitsstelle erst freigeben, wenn alle fünf erfüllt sind; beim Wiedereinschalten umgekehrte Reihenfolge.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Hessische Bildungsverwaltung (aus Recherche E-F05)",
+   "confidence": "medium",
+   "note": "Übernommen aus docs/research/E-F05.json; DIN VDE 0105-100 Wortlaut nicht geprüft."
+  }
+ ],
+ "dropped": [
+  "Typische Zykluszeiten in Millisekunden (Quellen widersprechen sich; Zahlenwerte sind ohnehin ausgeschlossen)",
+  "Prozentanteil der KOP-Nutzung (über 80 Prozent, Einzelquelle Paper)",
+  "Welcher Hersteller welche IEC-Sprachen unterstützt (Blog-Tabellen widersprüchlich; Markenaussagen ausgeschlossen)",
+  "Hinweis, ein bestimmter Hersteller empfehle AWL nicht mehr (Blog)",
+  "Behauptung, AWL werde 2026 entfernt (Blog, widerspricht Mai 2025)",
+  "Watchdog/Zykluszeitüberwachung im Detail (Forum/Ratgeber, Einzelquellen)",
+  "Maximale Reaktionszeit etwa zwei Zyklen (Einzelquelle)",
+  "Historischer Übergang von Relais zur SPS 1975 bis 1990 (Einzelquelle, Jahreszahlen)",
+  "Ausbildungsvergütungen (veränderlich)",
+  "Details zum Beruf Mechatroniker (Suchergebnisse ohne Details)",
+  "VDE-Nummer zu DIN EN 61131-3 (keine Quelle gefunden)"
+ ]
+}
