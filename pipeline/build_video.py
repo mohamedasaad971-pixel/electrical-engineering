@@ -49,7 +49,7 @@ def sh(cmd, **kw):
 
 # ---------------------------------------------------------------- ElevenLabs
 def el_headers():
-    key = os.environ.get("ELEVENLABS_API_KEY", "")
+    key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     if not key:
         log("ERROR: ELEVENLABS_API_KEY is not set (repository secret).")
         sys.exit(1)
