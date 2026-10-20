@@ -54,9 +54,9 @@ jobs:
       - name: System packages (ffmpeg, fonts)
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-ui-core fonts-noto-naskh-arabic fonts-noto-extra fontconfig
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-ui-core fonts-noto-extra fontconfig
           fc-cache -f
-          fc-match "Noto Naskh Arabic"; fc-match "Noto Sans"
+          fc-list | grep -i "naskh" | head -3; fc-match "Noto Naskh Arabic"; fc-match "Noto Sans"
       - name: Python deps and Chromium
         run: |
           pip install -r requirements.txt
