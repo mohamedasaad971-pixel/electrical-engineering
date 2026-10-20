@@ -53,3 +53,23 @@ Nächstes-Video-Kette: E-F01→E-F02→E-F03→E-F04→E-F05→E-F06→E-F07→E
 | Regelung | التنظيم/الضبط (nicht «المراقبة») |
 
 Regeln: Das deutsche Feld `de` enthält die geschriebene Abkürzung (z. B. «VDE-AR-N 4105»), die Buchstabierung steht nur im Feld `tts`. Kein Zitat-Slide (quote) mit nur einer Zeile; Tabellenzeilen ≤ 50 Zeichen. Freischalten ist nur der erste von fünf Schritten: jede Aussage zu Arbeitsschritten verweist auf die fünf Sicherheitsregeln (E-F05) und enthält keine verkürzte Reihenfolge. Validator: tools/validate.py prüft jetzt auch Satzzeichen am Rand.
+
+## Ergänzung (Pfad E-B, verbindlich)
+| DE | AR |
+|---|---|
+| Potentialausgleich | الربط المتساوي الجهد |
+| Schutzpotentialausgleich | الربط الوقائي المتساوي الجهد |
+| Kabel | كابل (nicht «كبل») |
+| Freischalten (Regel 1) | فصل الجهد (wie E-F05) |
+| gegen Wiederinbetriebnahme sichern (Regel 2) | تأمينها ضد إعادة التشغيل |
+| allpolig (Regel 3) | «كل الأقطاب» – Regel 3 immer mit «allpolig» |
+| Abdecken/Abschranken (Regel 5) | إحاطتها بحواجز (wie E-F05) |
+| Notbeleuchtung/Sicherheitsbeleuchtung | إضاءة الطوارئ |
+| Funktionserhalt | استمرار الوظيفة (Funktionserhalt) |
+| HLS (Heizung, Lüftung, Sanitär) | التدفئة والتهوية والصرف الصحي |
+| Leistungsphase (HOAI) | مرحلة خدمة (wie im Zivilkurs) |
+| Kurzschluss | القصر الكهربائي |
+| RCD (tts) | Er-Ze-De |
+| Blitzschutzzone 0A (tts) | Null A, nie «صفر ألف» |
+
+Regeln für Aussagen zur Arbeitsberechtigung: nie «nur eine Elektrofachkraft darf …» absolut; immer «Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft» im Sinn von E-F04/DGUV V3. Die fünf Sicherheitsregeln immer vollständig (mit «allpolig»).
