@@ -1,0 +1,618 @@
+[
+ {
+  "video": "E-A05",
+  "scene": 13,
+  "line": 9,
+  "severity": "error",
+  "issue": "Safety-critical oversimplification that contradicts E-F05/E-F07. Lines 13.9-13.10 describe a work procedure ('switch off with a load-breaking device, then isolate visibly') that is not in the facts and is not the five safety rules (E-F05 rule one is Freischalten, E-F07 10.4 says 'Freischalten ist mehr'). It reads as safety instruction and omits securing against re-switching, verifying dead, earthing, covering. No legal/safety instructions allowed.",
+  "suggested_fix": "DE: Darum ist Freischalten nur der erste Schritt der fünf Sicherheitsregeln. | AR: لذلك فإن فصل الجهد ليس سوى الخطوة الأولى من قواعد السلامة الخمس. | EN: That is why isolating is only the first step of the five safety rules."
+ },
+ {
+  "video": "E-A05",
+  "scene": 13,
+  "line": 10,
+  "severity": "error",
+  "issue": "See 13.9: 'Danach trennt man sichtbar und sicher' completes an unsupported, incomplete work sequence.",
+  "suggested_fix": "DE: Die weiteren Schritte kennen Sie aus dem Video über Elektrosicherheit. | AR: أما الخطوات التالية فتعرفونها من فيديو السلامة الكهربائية. | EN: You know the further steps from the video on electrical safety."
+ },
+ {
+  "video": "E-A01",
+  "scene": 10,
+  "line": 7,
+  "severity": "error",
+  "issue": "Wrong/misleading: 'Es gibt keine Grenze zwischen Ihrem Projekt und dem Netz' contradicts the whole logic of Netzanschluss (connection point, Hausanschlusssicherung, NAV §13 responsibility boundary, E-A02). Not in facts.",
+  "suggested_fix": "DE: Der Netzanschluss ist die Schnittstelle zwischen Ihrem Projekt und dem Netz. | AR: التوصيل بالشبكة هو نقطة التماس بين مشروعكم والشبكة. | EN: The grid connection is the interface between your project and the grid."
+ },
+ {
+  "video": "E-A01",
+  "scene": 17,
+  "line": 7,
+  "severity": "error",
+  "issue": "DE says 'Jedes Jahr oder alle paar Jahre' (vague; the NEP cycle is not annual: biennial under EnWG §12b, research says only 'Laufender Zyklus prüfen'), while AR and EN say only 'from time to time' - DE/AR/EN inconsistent and cycle not in facts.",
+  "suggested_fix": "DE: Der Plan wird regelmäßig neu erstellt. | AR: ويُعاد إعداد الخطة بانتظام. | EN: The plan is prepared anew at regular intervals."
+ },
+ {
+  "video": "E-A06",
+  "scene": 20,
+  "line": 9,
+  "severity": "error",
+  "issue": "Overclaim and internal contradiction: 'Grenzwerte stehen nur dort [EN 50160]' contradicts 6.9 Gerätenormen (EN 61000-3-2 limit harmonic currents) and 10.10 ('Grenzen kommen aus anderen Regelwerken'); 2.4 has the same 'nur in der aktuellen Norm'. Facts F13/F23 name other limiting documents.",
+  "suggested_fix": "DE: Die Bezugsnorm ist DIN EN 50160, Zahlenwerte entnehmen Sie den gültigen Normen. | AR: المعيار المرجعي هو DIN EN 50160 والقيم الرقمية تؤخذ من المعايير السارية. | EN: The reference standard is DIN EN 50160; take numerical values from the valid standards. | tts: Die Bezugsnorm ist Din E-En fünf null eins sechs null, Zahlenwerte entnehmen Sie den gültigen Normen."
+ },
+ {
+  "video": "E-A06",
+  "scene": 2,
+  "line": 4,
+  "severity": "error",
+  "issue": "Same overclaim as 20.9: 'Grenzwerte finden Sie nur in der aktuellen Norm' (see 10.10, 9.4).",
+  "suggested_fix": "DE: Grenzwerte finden Sie in den aktuellen Normen. | AR: القيم الحدّية تجدونها في المعايير الحالية. | EN: You find limit values in the current standards."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "issue": "Terminology collision across videos: E-A04 renders Wechselrichter as 'المحوّل' (title line 1.2 'المحولات الشمسية', glossary 'المحوّل (العاكس)', quiz, summary) but E-A03 uses 'العاكس' for Wechselrichter and 'محوّل' for Transformator, E-A05/E-A06 use 'محوّل' for Transformator/Stromwandler/Frequenzumrichter. An Arabic viewer cannot tell inverter from transformer.",
+  "suggested_fix": "Use 'العاكس / العاكسات' for Wechselrichter throughout E-A04 (glossary, quiz, scenes 4-7, 19). Example 1.2 AR: موضوعنا اليوم هو بطاريات التخزين والعاكسات ومحطات الشحن."
+ },
+ {
+  "video": "E-A04",
+  "scene": 1,
+  "line": 2,
+  "severity": "error",
+  "issue": "See scene-0 terminology note: 'المحولات الشمسية' for Wechselrichter is ambiguous (transformers) and inconsistent with E-A03.",
+  "suggested_fix": "DE: Heute geht es um Batteriespeicher, Wechselrichter und Ladestationen. | AR: موضوعنا اليوم هو بطاريات التخزين والعاكسات ومحطات الشحن. | EN: (unchanged)"
+ },
+ {
+  "video": "E-A04",
+  "scene": 14,
+  "line": 3,
+  "severity": "error",
+  "issue": "Wrong party: NAV §13 puts the responsibility (research F21, E-F03 17.1, E-A02 11.2, quiz) on the Anschlussnehmer, not 'der Betreiber'. Slide card 'Betreiber: meldet und bleibt verantwortlich' repeats it. (Betreiber is correct only for the MaStR registration, E-A03 16.7.)",
+  "suggested_fix": "DE: Der Anschlussnehmer ist gegenüber dem Netzbetreiber verantwortlich. | AR: صاحب التوصيل مسؤول أمام مشغّل الشبكة. | EN: The connection owner is responsible towards the grid operator. | slide item 1: 'Anschlussnehmer: meldet und bleibt verantwortlich'"
+ },
+ {
+  "video": "E-A02",
+  "scene": 4,
+  "line": 3,
+  "severity": "error",
+  "issue": "Publisher name incomplete/inconsistent: VDE FNN = 'Forum Netztechnik/Netzbetrieb im VDE'. E-A02 says 'Forum Netztechnik im VDE' (AR/EN equally shortened) while E-A03 17.3 and E-A04 use the full name.",
+  "suggested_fix": "DE: Herausgeber ist das Forum Netztechnik und Netzbetrieb im VDE, kurz Ef-En-En. | AR: وناشرها منتدى تقنية الشبكات وتشغيلها في VDE، واختصاره FNN. | EN: The publisher is the Forum for Network Technology and Operation within VDE, FNN for short. | tts: Herausgeber ist das Forum Netztechnik und Netzbetrieb im Fau-De-E, kurz Ef-En-En."
+ },
+ {
+  "video": "E-A03",
+  "scene": 7,
+  "line": 9,
+  "severity": "error",
+  "issue": "AR mistranslation: DE 'Regelung und Schutz' (control and protection) is rendered 'المراقبة والحماية' (monitoring); control = التحكم (as used in E-A03 12.x).",
+  "suggested_fix": "DE: (unchanged) | AR: ولهذا بالذات يكون التحكم والحماية مهمين جدًا. | EN: (unchanged)"
+ },
+ {
+  "video": "E-A04",
+  "scene": 15,
+  "line": 2,
+  "severity": "error",
+  "issue": "Contradiction with the E-F series: 'Jede Ladeeinrichtung ... angemeldet' is supported (F17, NAV §19(2)), but 2.3 says 'Es gibt keine Grenzwerte', while 15.6 (and slide 15) give the 12 kVA / ~11 kW threshold. Sources also disagree on the 11 kW case (BNetzA FAQ: Zustimmung above 12 kVA, 'roughly 11 kW'); 'genauer' equates two different quantities.",
+  "suggested_fix": "2.3 -> DE: Es gibt keine Rechenbeispiele und nur wenige Zahlen. | AR: لا توجد أمثلة حسابية ولا أرقام إلا قليلًا. | EN: There are no calculation examples and only a few numbers.  15.6 -> DE: Die Bundesnetzagentur nennt dafür eine Schwelle von über zwölf Kilovoltampere, etwa elf Kilowatt. | AR: تذكر الوكالة الاتحادية للشبكات لذلك حدًا يزيد على اثني عشر كيلوفولت أمبير، أي نحو أحد عشر كيلوواط. | EN: The Federal Network Agency names a threshold of above twelve kilovolt-amperes, roughly eleven kilowatts."
+ },
+ {
+  "video": "E-A01",
+  "scene": 7,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Conflation: lines 7.2-7.4 paraphrase §12 EnWG (Aufgaben der ÜNB) but 7.5 labels it 'Systemverantwortung', which is the heading of §13 EnWG (measures when security is endangered, 7.7). Research facts list §12 and §13 separately; slide heading/kicker 'Systemverantwortung - Was die ÜNB tun' repeats the mix.",
+  "suggested_fix": "DE: Dazu gehört im Gesetz auch die Systemverantwortung. | AR: ويشمل القانون أيضًا مسؤولية استقرار المنظومة. | EN: The law also covers system responsibility.  (slide 7 kicker -> 'Aufgaben der ÜNB')"
+ },
+ {
+  "video": "E-A01",
+  "scene": 15,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'am Vortag' is not in facts; and since Redispatch 2.0 (1 Oct 2021) distribution grid operators and plant operators (Einsatzverantwortlicher, plants from 100 kW) are involved. Slide item 'Meist Aufgabe der Übertragungsnetzbetreiber' and quiz understate this; conflicts with E-A03 12.2/12.6 ('der Netzbetreiber').",
+  "suggested_fix": "DE: Die Netzbetreiber planen dafür mit Prognosen. | AR: ويخطط مشغّلو الشبكة لذلك بالاعتماد على التنبؤات. | EN: The grid operators plan this using forecasts.  slide item 4 -> 'Aufgabe der Netzbetreiber'"
+ },
+ {
+  "video": "E-A01",
+  "scene": 12,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Absolute: 'wird vom Vertrieb und von der Erzeugung getrennt'. Facts say only 'entflochten (EnWG §§ 6-10), VNB rechtlich getrennt' (details, de-minimis for small VNB not covered). Slide item 'Trennung von Erzeugung und Vertrieb' is wrong (it is grid operation that is separated, not generation from sales); slide item 'Netzbetrieb ist ein Monopol-Bereich' not in facts.",
+  "suggested_fix": "DE: Der Netzbetrieb wird grundsätzlich vom Vertrieb und von der Erzeugung getrennt. | AR: يُفصل تشغيل الشبكة من حيث المبدأ عن البيع والتوليد. | EN: Grid operation is in principle separated from sales and generation.  slide items 1-2 -> 'Netzbetrieb muss neutral sein' / 'Netz getrennt von Erzeugung und Vertrieb'"
+ },
+ {
+  "video": "E-A01",
+  "scene": 12,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'rechtlich, organisatorisch und informatorisch' is not in the facts (only 'rechtlich getrennt'); applies differently by operator size.",
+  "suggested_fix": "DE: Die Trennung kann je nach Netzbetreiber unterschiedlich ausgeprägt sein. | AR: وقد يختلف شكل الفصل بحسب مشغّل الشبكة. | EN: The form of separation can differ by grid operator."
+ },
+ {
+  "video": "E-A02",
+  "scene": 8,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'Die Regeln sind keine bloße Empfehlung' contradicts E-F02 17.2 ('Normen werden freiwillig angewendet', binding via law/contract) and VDE's own statement that application of VDE-AR-N is in principle voluntary (binding through TAB/contract). Presumption in 8.5 is rebuttable (E-F03 6.4).",
+  "suggested_fix": "DE: Die Regeln sind keine Gesetze, werden aber in der Praxis verlangt. | AR: هذه القواعد ليست قوانين، لكنها مطلوبة في الممارسة. | EN: These rules are not laws, but they are required in practice."
+ },
+ {
+  "video": "E-A02",
+  "scene": 12,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Absolute order/instruction ('Erst dann wird die Anlage errichtet' / 12.10 'Bauen Sie nicht, bevor...') contradicts 12.9 and fact F23 (order and deadlines operator-specific) and ignores simplified procedures for small plants; reads as procedural/legal advice.",
+  "suggested_fix": "DE: In der Regel wird erst nach der Rückmeldung gebaut. | AR: في العادة لا يبدأ البناء إلا بعد الرد. | EN: As a rule, building starts only after the reply."
+ },
+ {
+  "video": "E-A02",
+  "scene": 12,
+  "line": 10,
+  "severity": "risk",
+  "issue": "See 12.7: imperative legal/procedural advice, not in facts.",
+  "suggested_fix": "DE: Klären Sie mit dem Netzbetreiber, ab wann gebaut werden darf. | AR: اتفقوا مع مشغّل الشبكة على موعد السماح بالبدء بالبناء. | EN: Clarify with the grid operator when building may start."
+ },
+ {
+  "video": "E-A04",
+  "scene": 9,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Unsupported and misleading: 'zentraler NA-Schutz ... vor allem bei größeren Anlagen eine Möglichkeit'. This echoes a dropped item (NA-Schutz-Pflicht ab 30 kVA; under VDE-AR-N 4105:2018 a central NA-Schutz is required above 30 kVA, so it is a requirement, not merely an option). Not in F6.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-A04",
+  "scene": 7,
+  "line": 10,
+  "severity": "risk",
+  "issue": "'Erst freischalten, dann arbeiten' shortens rule one of the five safety rules and, placed after the inverter-switches-off argument (7.7-7.9), can suggest that an inverter shutdown makes a line safe to work on (PV DC side and batteries stay live). Conflicts with E-F05/E-F07 ('Freischalten ist mehr').",
+  "suggested_fix": "DE: Das ersetzt nicht die fünf Sicherheitsregeln: Freischalten ist nur der erste Schritt. | AR: وهذا لا يغني عن قواعد السلامة الخمس: فصل الجهد ليس سوى الخطوة الأولى. | EN: This does not replace the five safety rules: isolating is only the first step."
+ },
+ {
+  "video": "E-A04",
+  "scene": 17,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'EV-RCM' is not a verified term (research F23 low confidence; the standard term for DC-fault detection is RDC-DD per IEC 62955; 'Typ A-EV/F-EV' are the RCD types). Do not teach an unverified abbreviation.",
+  "suggested_fix": "DE: Dafür gibt es auch den Begriff R-D-C-D-D, also Gleichfehlerstrom-Erkennung. | AR: وهناك لهذا أيضًا المصطلح RDC-DD أي كشف تيار العطل المستمر. | EN: There is also the term RDC-DD for this, meaning DC residual current detection. | tts: Dafür gibt es auch den Begriff Er-De-Ze-De-De, also Gleichfehlerstrom-Erkennung.  (verify against IEC 62955 before use)"
+ },
+ {
+  "video": "E-A04",
+  "scene": 17,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Safety-relevant absolute statements (17.2 'Jeder Ladepunkt braucht eine eigene RCD', 17.6-17.7 Typ A / Typ B + detection) rest on research F22/F23 marked confidence 'low' (norm text not checked; DIN VDE 0100-722 edition 2019-06 only from secondary sources). Statements are consistent with manufacturer literature but must be checked against the standard.",
+  "suggested_fix": "DE: Nach DIN VDE 0100-722 wird für Ladepunkte eine eigene Fehlerstrom-Schutzeinrichtung gefordert. | AR: يشترط المعيار DIN VDE 0100-722 جهاز حماية من تيار العطل خاصًا بكل نقطة شحن. | EN: DIN VDE 0100-722 requires a separate residual current device for each charging point.  (re-verify first)"
+ },
+ {
+  "video": "E-A04",
+  "scene": 2,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Legal statement not in facts: 'Haftung liegt immer bei den Verantwortlichen im Projekt' (absolute 'immer'; liability is a legal question, cf. E-F03). Also slide 14 'Wer darf was?' / 14.2 'Frage der Haftung'.",
+  "suggested_fix": "DE: Wer für Planung und Prüfung zuständig ist, regelt das Projekt. | AR: من يتولى مسؤولية التخطيط والفحص يحدده المشروع. | EN: Who is responsible for planning and inspection is settled in the project.  14.2 -> DE: Das ist eine Frage der Sicherheit und der Verantwortung. | AR: هذه مسألة سلامة ومسؤولية. | EN: This is a question of safety and responsibility."
+ },
+ {
+  "video": "E-A04",
+  "scene": 16,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide item 'Anschluss darf nicht verzögert werden' is an absolute; fact F19 limits it to new private wallboxes and to delay because of possible local overload (BK6-22-300).",
+  "suggested_fix": "slide item 3 -> 'Keine Verzögerung wegen lokaler Überlast'"
+ },
+ {
+  "video": "E-A04",
+  "scene": 12,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'gemeinsame Fassung' is wrong in kind: the October 2025 document is an FNN Hinweis/Umsetzungshilfe (Version 1), not a TAR edition. E-A02 (same series) says VDE-AR-N 4100:2026-04 and 4105:2026-03 are current; whether the Hinweis is still valid/aligned with those editions is not verified (research F1 of E-A04 still cites 2018-11 as common edition, contradicting E-A02 F8).",
+  "suggested_fix": "DE: Im Oktober zweitausendfünfundzwanzig erschien ein gemeinsamer Hinweis für Erzeuger, Speicher und Verbraucher. | AR: في أكتوبر ٢٠٢٥ صدر إرشاد مشترك للمنتجين والمخازن والمستهلكين. | EN: In October 2025 a joint note appeared for generators, storage and consumers."
+ },
+ {
+  "video": "E-A04",
+  "scene": 20,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Next-video teaser wrong: E-A05 is 'Schutztechnik in Netzen und Anlagen' (fuses, breakers, selectivity, distance/differential protection), not 'Netz- und Anlagenschutz' (= NA-Schutz, already covered in E-A04). Also affects the 'next' block (E-A05: Netz- und Anlagenschutz).",
+  "suggested_fix": "DE: Im nächsten Video geht es um Schutztechnik in Netzen und Anlagen. | AR: في الفيديو القادم نتناول تقنية الحماية في الشبكات والمنشآت. | EN: The next video is about protection technology in grids and installations.  next -> 'E-A05: Schutztechnik in Netzen und Anlagen' | AR 'E-A05: تقنية الحماية في الشبكات والمنشآت' | EN 'E-A05: Protection technology in grids and installations'"
+ },
+ {
+  "video": "E-A03",
+  "scene": 12,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Absolute: 12.3-12.5 say the EEG demands technical equipment (retrievable infeed, remote active-power reduction) for plants in general. Facts F18 note unclear paragraph and dropped size thresholds; in practice it depends on plant size/commissioning date (§9 EEG; thresholds changed 2025, e.g. 60 percent limit without smart-meter control).",
+  "suggested_fix": "DE: Darum verlangt das EEG je nach Anlage technische Einrichtungen. | AR: لذلك يشترط قانون EEG، بحسب المنشأة، تجهيزات تقنية. | EN: So the EEG demands technical equipment, depending on the plant. | tts: Darum verlangt das E-E-Ge je nach Anlage technische Einrichtungen."
+ },
+ {
+  "video": "E-A03",
+  "scene": 21,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Absolute: 'Jede Anlage gehört in das Marktstammdatenregister' - facts F14/F15 cover Erzeugungsanlagen (and storage per E-A04 F15); mobile storage explicitly excluded in E-A04 13.8. Same generalisation in slide 15 ('Anlagen müssen registriert werden') and quiz.",
+  "suggested_fix": "DE: Erzeugungsanlagen und Speicher gehören in das Marktstammdatenregister. | AR: منشآت التوليد والمخازن تُسجَّل في سجل بيانات السوق الرئيسي. | EN: Generation plants and storage belong in the Marktstammdatenregister."
+ },
+ {
+  "video": "E-A03",
+  "scene": 13,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide row 'Eigenverbrauch | Strom bleibt vor Ort' is not in facts and not in any spoken line; heading 'Zwei Wege' is absolute (direct marketing is mandatory above a size threshold, other forms exist).",
+  "suggested_fix": "slide: delete item 'Eigenverbrauch | Strom bleibt vor Ort'; heading -> 'Zwei wichtige Wege für den Strom'"
+ },
+ {
+  "video": "E-A03",
+  "scene": 13,
+  "line": 2,
+  "severity": "risk",
+  "issue": "'hat zwei Wege' is absolute; 13.7 only partly hedges.",
+  "suggested_fix": "DE: Für den erzeugten Strom gibt es zwei wichtige Wege. | AR: للكهرباء المولَّدة طريقان مهمان. | EN: There are two main routes for the generated power."
+ },
+ {
+  "video": "E-A06",
+  "scene": 8,
+  "line": 8,
+  "severity": "risk",
+  "issue": "Unsupported and physically imprecise: 'Oberschwingungen tragen nicht zur Wirkleistung bei' is not in the facts (F9 lists thermal load and malfunction); 8.9 'vor allem thermisch' is also unsupported and conflicts with 8.3 (malfunction) and 15.8 (distortion reactive power).",
+  "suggested_fix": "8.8 delete. 8.9 -> DE: Sie belasten Betriebsmittel zusätzlich, zum Beispiel durch Erwärmung. | AR: إنها تحمّل المعدات حملًا إضافيًا، مثلًا بالتسخين. | EN: They put extra stress on equipment, for example through heating."
+ },
+ {
+  "video": "E-A06",
+  "scene": 18,
+  "line": 9,
+  "severity": "risk",
+  "issue": "Maintenance instruction not in facts and potentially unsafe for a non-qualified reader (capacitors hold charge; work belongs to an Elektrofachkraft per E-F04/E-F05).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-A02",
+  "scene": 3,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide card 'Netzbetreiber: besitzt und betreibt das Netz' - 'besitzt' not in facts (operator is not necessarily owner); card 'Anschlussnehmer: Auftraggeber des Anschlusses' conflicts with TERMS use of Auftraggeber. EN/AR 'connection owner / صاحب التوصيل' suggests ownership; NAV: person who has a property connected (owner, Erbbauberechtigter or client).",
+  "suggested_fix": "slide item 1 -> 'Netzbetreiber: betreibt das Netz'; item 2 -> 'Anschlussnehmer: lässt anschließen, oft Eigentümer'"
+ },
+ {
+  "video": "E-A02",
+  "scene": 11,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Heading 'Wer haftet wofür?' promises liability (legal) but content is NAV §13 'Verantwortung gegenüber dem Netzbetreiber'. 11.9 (stays responsible even if rented out) is not in the research facts (supported by NAV §13(1) but must be added to facts).",
+  "suggested_fix": "slide heading -> 'Wer ist wofür verantwortlich?'; add the NAV §13 rental sentence to docs/research/E-A02.json"
+ },
+ {
+  "video": "E-A02",
+  "scene": 17,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Inconsistent with 13.4 and F16/F6: 13.4 'Den Antrag stellt der Anschlussnehmer', 17.5 and slide 17 'Installateur meldet an'. E-A03 9.6 'Installationsbetrieb stellt den Antrag für den Kunden'.",
+  "suggested_fix": "DE: Der Installateur errichtet die Anlage und unterstützt bei der Anmeldung. | AR: يُنشئ المُركِّب المنشأة ويساعد في إجراءات التسجيل لدى مشغّل الشبكة. | EN: The installer builds the installation and supports the registration.  slide row 3 -> 'Installateur | errichtet, unterstützt, protokolliert'"
+ },
+ {
+  "video": "E-A01",
+  "scene": 9,
+  "line": 8,
+  "severity": "risk",
+  "issue": "Unsupported historical claim: 'Früher gab es mehrere getrennte Netzverbände' (fact F13 only names UCTE as a predecessor of ENTSO-E); 9.10 'dasselbe Schicksal' and 9.11 'Störung in einem Land kann andere Länder betreffen' are not in facts.",
+  "suggested_fix": "DE: Früher arbeitete ENTSO-E unter anderen Namen, zum Beispiel UCTE. | AR: كانت ENTSO-E تعمل سابقًا تحت أسماء أخرى، مثل UCTE. | EN: ENTSO-E used to work under other names, for example UCTE.  (9.10-9.11 delete or mark as general knowledge)"
+ },
+ {
+  "video": "E-A04",
+  "scene": 3,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Cross-video: E-A02 5.4/6.6 name VDE-AR-N 4100:2026-04 and 4105:2026-03 as current editions, E-A04 slide 12 'FNN-Hinweis | Praxis für Speicher' and 12.3-12.5 present the FNN Hinweis (storage) without saying whether it still applies to the 2026 editions; the older storage-only guide was merged into the Oct 2025 document.",
+  "suggested_fix": "Add to 12.7: DE: Prüfen Sie, ob der Hinweis zur gültigen Ausgabe der Regel passt. | AR: تحققوا من أن الإرشاد يناسب الإصدار الساري من القاعدة. | EN: Check that the note matches the valid edition of the rule."
+ },
+ {
+  "video": "E-A05",
+  "scene": 0,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide 4 item 'Wirkt in Millisekunden' is a time claim not in the facts (F3: 'fast augenblicklich').",
+  "suggested_fix": "slide 4 item 5 -> 'Tritt fast augenblicklich auf' (scene 4 line 0)"
+ },
+ {
+  "video": "E-A05",
+  "scene": 6,
+  "line": 1,
+  "severity": "risk",
+  "issue": "Unsupported claim: 'Das älteste Schutzorgan ist die Sicherung'; 6.8 'robust, günstig und weit verbreitet' also not in facts.",
+  "suggested_fix": "DE: Die Sicherung ist ein klassisches Schutzorgan. | AR: المنصهر جهاز حماية تقليدي. | EN: The fuse is a classic protective device."
+ },
+ {
+  "video": "E-A05",
+  "scene": 7,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'schalten Sie das Gerät einfach wieder ein' is an operating instruction and contradicts the caution of 7.10; resetting without finding the cause is exactly what the video should not encourage.",
+  "suggested_fix": "DE: Nach dem Auslösen lässt sich das Gerät wieder einschalten. | AR: بعد الفصل يمكن إعادة تشغيل الجهاز. | EN: After tripping, the device can be switched on again."
+ },
+ {
+  "video": "E-A05",
+  "scene": 21,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Absolute: 'Sicherung, Leitungsschutzschalter und Leistungsschalter SIND die Schutzorgane' (also 21.2 'braucht'); other protective devices exist (E-A04 RCD, motor protection). Facts only describe these three as examples.",
+  "suggested_fix": "DE: Sicherung, Leitungsschutzschalter und Leistungsschalter sind wichtige Schutzorgane. | AR: المنصهر والقاطع الآلي وقاطع القدرة أجهزة حماية مهمة. | EN: Fuse, miniature circuit breaker and power circuit breaker are important protective devices."
+ },
+ {
+  "video": "E-A03",
+  "scene": 12,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Incomplete: F19 says 'Redispatch 2.0' replaced Einspeisemanagement on 1 Oct 2021 (date deliberately omitted); 'Rahmen heißt heute Redispatch' ok but slide/line should say 'Redispatch 2.0'. Also AR term 'إعادة جدولة التوليد' differs from E-A01 'إعادة الجدولة'; glossary 'das Redispatch' vs E-A01 'der Redispatch'.",
+  "suggested_fix": "DE: Der Rahmen dafür heißt heute Redispatch 2.0. Er ersetzt das frühere Einspeisemanagement. | AR: وإطار ذلك يسمى اليوم Redispatch 2.0 وهو يحل محل إدارة التغذية السابقة. | EN: The framework is called Redispatch 2.0 today. It replaces the former feed-in management. | tts: ... Redispatch zwei Punkt null. ...; glossary: 'der Redispatch', AR 'إعادة الجدولة' everywhere"
+ },
+ {
+  "video": "E-A02",
+  "scene": 0,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Terminology inconsistency Marktstammdatenregister: E-A02 AR 'سجل بيانات السوق الأساسية' / EN 'core market data register'; E-A03 AR 'سجل بيانات السوق الرئيسي' / EN 'central market master data register'; E-A04 AR 'سجل بيانات سوق الطاقة' / EN 'market master data register'. Official EN name: Core Energy Market Data Register.",
+  "suggested_fix": "Use one term everywhere: AR 'سجل بيانات سوق الطاقة الأساسي (Marktstammdatenregister)' | EN 'core energy market data register (MaStR)'. Apply in E-A02 glossary/slide 16, E-A03 slide 15/glossary, E-A04 slide 13/glossary and lines."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Installateurverzeichnis AR 'سجل المقاولين المعتمدين' conflicts with E-A02/E-F04 'سجل المُركِّبين المعتمدين' and with TERMS (المقاول = Auftragnehmer). 'Errichter' = 'المنفِّذ' in E-A04 vs 'المُركِّب' for Installateur in E-A02.",
+  "suggested_fix": "AR 'سجل المُركِّبين المعتمدين' in slide 14 term, 14.5 and glossary; keep Errichter = المُركِّب or define it once."
+ },
+ {
+  "video": "E-A01",
+  "scene": 2,
+  "line": 10,
+  "severity": "note",
+  "issue": "Absolute: 'Ohne diese Kette gäbe es keine sichere Versorgung' not in facts; 19.8 'So bleibt Ihr Wissen auch in Zukunft richtig' is an overclaim.",
+  "suggested_fix": "2.10 DE: Diese Kette ist die Grundlage der Versorgung. | AR: هذه السلسلة هي أساس الإمداد. | EN: This chain is the basis of supply.  19.8 DE: So veraltet Ihr Wissen nicht so schnell. | AR: وهكذا لا تتقادم معرفتكم بسرعة. | EN: This way your knowledge does not become outdated so quickly."
+ },
+ {
+  "video": "E-A01",
+  "scene": 6,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Die vier Regelzonen sind historisch gewachsen' not in facts.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-A01",
+  "scene": 7,
+  "line": 7,
+  "severity": "note",
+  "issue": "'bei Störungen schnell zu reagieren' not in facts (it is §13 content, see 7.5).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-A01",
+  "scene": 13,
+  "line": 4,
+  "severity": "note",
+  "issue": "DE 'Er meldet sich beim ÜNB an' vs AR/EN 'is named / يُسمّى' (fact: 'ist zu benennen'). Make DE match.",
+  "suggested_fix": "DE: Er wird dem Übertragungsnetzbetreiber benannt. | AR: وهو يُسمّى لدى مشغّل شبكة النقل. | EN: He or she is named to the transmission operator."
+ },
+ {
+  "video": "E-A01",
+  "scene": 14,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Die Namen stammen aus dem deutschen Regelsystem' not in facts. Also EN 'balancing power' (Regelenergie) vs 'balancing energy' (Ausgleichsenergie, scene 13) are near-identical and confusing; Ausgleichsenergie = imbalance energy.",
+  "suggested_fix": "14.9 delete. Glossary/slide 13 EN for Ausgleichsenergie -> 'imbalance energy'."
+ },
+ {
+  "video": "E-A01",
+  "scene": 8,
+  "line": 4,
+  "severity": "note",
+  "issue": "'In Europa beträgt sie fünfzig Hertz' - fact refers to the continental European synchronous area.",
+  "suggested_fix": "DE: Im europäischen Verbundnetz beträgt sie fünfzig Hertz. | AR: وفي شبكة الربط الأوروبية يبلغ هذا التردد خمسين هرتز. | EN: In the European interconnected grid it is fifty hertz."
+ },
+ {
+  "video": "E-A01",
+  "scene": 4,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Stadtteile' not in fact F6 (Mittelspannung: regional Umspannwerke und Betriebe).",
+  "suggested_fix": "DE: Die Mittelspannung versorgt Regionen und Betriebe. | AR: الجهد المتوسط يغذّي المناطق والمنشآت. | EN: Medium voltage supplies regions and companies."
+ },
+ {
+  "video": "E-A01",
+  "scene": 10,
+  "line": 11,
+  "severity": "note",
+  "issue": "Advice 'sprechen Sie meist zuerst mit dem Verteilnetzbetreiber' and 10.8 'Die Betreiber legen fest, wie sich Anlagen anschließen lassen' are not in facts (TAB/TAR, see E-A02).",
+  "suggested_fix": "delete 10.8; keep 10.11 with 'meist'"
+ },
+ {
+  "video": "E-A02",
+  "scene": 5,
+  "line": 11,
+  "severity": "note",
+  "issue": "Unsupported assertions: 5.9 'Zählerplatz ist typisches Thema', 5.11 'verliert später Zeit bei der Abnahme', 9.10 'Netzbetreiber ändern ihre Tab oft später', 15.9 'sonst ändert sich später der Zählerplatz', 14.9, 16.3 (content of the Inbetriebsetzungsprotokoll), slide 8 item 'Keine Erlaubnis ohne Netzbetreiber'.",
+  "suggested_fix": "delete 5.11, 15.9, 9.10 'oft'; slide 8 item 4 -> 'Netzbetreiber-Bedingungen beachten'"
+ },
+ {
+  "video": "E-A02",
+  "scene": 6,
+  "line": 7,
+  "severity": "note",
+  "issue": "'ersetzt die Ausgabe 2018-11' (slide item too) rests on one guide site (priwatt) in my check; VDE pages confirm 2026-03 is current but do not state the replaced edition explicitly. Fact F8 marks it high.",
+  "suggested_fix": "keep, but re-verify on vde.com"
+ },
+ {
+  "video": "E-A02",
+  "scene": 8,
+  "line": 5,
+  "severity": "note",
+  "issue": "Presumption in §49(2) EnWG is rebuttable (E-F03 6.4); line says only 'wird vermutet'. Also the presumption covers 'technische Regeln des VDE' for electricity installations; fine as worded.",
+  "suggested_fix": "DE: Bei Einhaltung der VDE-Regeln wird vermutet, dass diese Anforderung erfüllt ist; die Vermutung ist widerlegbar. | AR: وعند الالتزام بقواعد VDE يُفترض أن هذا المتطلب مستوفى، ويمكن دحض هذا الافتراض. | EN: If VDE rules are followed, this requirement is presumed to be met; the presumption can be rebutted."
+ },
+ {
+  "video": "E-A02",
+  "scene": 8,
+  "line": 2,
+  "severity": "note",
+  "issue": "TTS adds 'kurz E-En-We-Ge' which is not in the de line (TERMS: tts must have the same content). AR 'قانون قطاع الطاقة' differs from E-A01/E-F 'قانون الطاقة'.",
+  "suggested_fix": "tts: Das Energiewirtschaftsgesetz verlangt technische Sicherheit. | AR: يشترط قانون الطاقة السلامة التقنية. | EN: (unchanged)"
+ },
+ {
+  "video": "E-A02",
+  "scene": 12,
+  "line": 4,
+  "severity": "note",
+  "issue": "AR 'التسجيل' is used for Anmeldung (12.4, 19.5) and for Registrierung (12.8) - ambiguous; E-A03 uses 'الإبلاغ' for Anmeldung. Also 1.3 'Jede Anlage braucht einen Anschluss an das öffentliche Netz' ignores island systems; 1.4 'festen Ablauf' vs 12.9.",
+  "suggested_fix": "Use 'طلب التوصيل/الإبلاغ لدى مشغّل الشبكة' for Anmeldung and 'تسجيل' only for Registrierung. 1.3 DE: Eine Anlage, die ans öffentliche Netz soll, braucht einen Netzanschluss. | AR: المنشأة التي ستُوصَل بالشبكة العامة تحتاج إلى توصيل بالشبكة. | EN: An installation that is to connect to the public grid needs a grid connection."
+ },
+ {
+  "video": "E-A03",
+  "scene": 16,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Auch ein Bußgeld ist möglich' (F16 medium, 'Ordnungswidrigkeit möglich') while E-A02 dropped 'Bußgelder' as not primarily verified - research files disagree. Keep only if confirmed in MaStRV/EnWG.",
+  "suggested_fix": "DE: Die Rechtsfolgen regelt das Gesetz. | AR: والعواقب القانونية ينظّمها القانون. | EN: The legal consequences are set by law."
+ },
+ {
+  "video": "E-A03",
+  "scene": 4,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Das beschleunigt oft Entscheidungen' and 4.6 'politisch Rückenwind' are not in facts.",
+  "suggested_fix": "delete 4.9; 4.6 -> 'Solche Projekte haben im Gesetz besonderes Gewicht.'"
+ },
+ {
+  "video": "E-A03",
+  "scene": 12,
+  "line": 0,
+  "severity": "note",
+  "issue": "Slide 12 item 'Redispatch ersetzt altes Einspeisemanagement' -> 'Redispatch 2.0 ersetzt altes Einspeisemanagement' (see 12.6).",
+  "suggested_fix": "none (see issue)"
+ },
+ {
+  "video": "E-A04",
+  "scene": 4,
+  "line": 11,
+  "severity": "note",
+  "issue": "'Für Wohnhäuser sind String- und Hybridgeräte am häufigsten' (market-share claim) not in facts (F12 only: Zentral for large plants). 9.3 'spart Platz und Verdrahtung', 11.8 not in facts.",
+  "suggested_fix": "delete 4.11 and 9.3"
+ },
+ {
+  "video": "E-A04",
+  "scene": 2,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Die Arbeit am Netzanschluss macht eine Elektrofachkraft' - incomplete vs NAV §13 / E-F03 17.3 / E-A02 11.6 (Netzbetreiber or registered installation company). Absolute.",
+  "suggested_fix": "DE: Die Arbeit am Netzanschluss führt der Netzbetreiber oder ein eingetragener Betrieb mit Elektrofachkraft aus. | AR: يتولى العمل على التوصيل بالشبكة مشغّل الشبكة أو شركة مسجّلة يعمل لديها كهربائي مؤهَّل (Elektrofachkraft). | EN: Work at the grid connection is done by the grid operator or a registered company with a qualified electrician."
+ },
+ {
+  "video": "E-A04",
+  "scene": 14,
+  "line": 4,
+  "severity": "note",
+  "issue": "NAV does not regulate how the installation is 'errichtet'; §13 allocates responsibility for the plant behind the Hausanschlusssicherung (cf. E-A02 11.3).",
+  "suggested_fix": "DE: Für die Anlage hinter der Hausanschlusssicherung trägt der Anschlussnehmer die Verantwortung. | AR: عن المنشأة بعد منصهر التوصيل المنزلي يتحمل صاحب التوصيل المسؤولية. | EN: The connection owner is responsible for the installation behind the house connection fuse."
+ },
+ {
+  "video": "E-A04",
+  "scene": 13,
+  "line": 3,
+  "severity": "note",
+  "issue": "'ein Schaltplan' belongs to the Anmeldung is not in facts (F16: Schaltplan is part of the documentation handed over to the operator).",
+  "suggested_fix": "DE: Dazu gehören Formulare und Zertifikate. | AR: ويشمل ذلك نماذج وشهادات. | EN: This includes forms and certificates."
+ },
+ {
+  "video": "E-A04",
+  "scene": 8,
+  "line": 6,
+  "severity": "note",
+  "issue": "TTS spelling 'Fau-De-E-A-R-En' differs from E-A02 'Fau-De-E A-Er-En'; E-A03 17.2 uses 'A-Er, En'. 10.6 DE contains the phonetic spelling 'I-E-Ze sechs-zwei-eins-eins-sechs' in the de line while AR/EN show 'IEC 62116' (use tts). 16.1 EN 'energy industry act' should be capitalised like E-A02/E-F03.",
+  "suggested_fix": "unify TTS for VDE-AR-N to 'Fau-De-E A-Er-En' + digits"
+ },
+ {
+  "video": "E-A05",
+  "scene": 10,
+  "line": 6,
+  "severity": "note",
+  "issue": "EN 'back-up protection' is used both for Vorsicherung/Back-up-Schutz (10.6, cascading) and for Reserveschutz (scene 19, glossary) - two different concepts.",
+  "suggested_fix": "10.6 EN: This is then called back-up (cascading) protection. | Reserveschutz EN -> 'reserve protection' (slide 19, glossary, 21.7)"
+ },
+ {
+  "video": "E-A05",
+  "scene": 13,
+  "line": 3,
+  "severity": "note",
+  "issue": "'Er zeigt, dass der Stromkreis wirklich offen ist' is stronger than F10 ('soll eine sichtbare oder sichere Anzeige liefern') and could be misread as a substitute for verifying dead.",
+  "suggested_fix": "DE: Er soll den offenen Zustand sichtbar oder sicher anzeigen. | AR: ويُفترض أن يُظهر الحالة المفتوحة بشكل مرئي أو موثوق. | EN: It is meant to show the open state visibly or reliably."
+ },
+ {
+  "video": "E-A05",
+  "scene": 21,
+  "line": 2,
+  "severity": "note",
+  "issue": "'Überlast braucht verzögerten Schutz' is an absolute; F4 says 'reagiert üblicherweise zeitverzögert'.",
+  "suggested_fix": "DE: Bei Überlast reagiert der Schutz üblicherweise verzögert, bei Kurzschluss sehr schnell. | AR: عند الحمل الزائد تكون استجابة الحماية عادةً متأخرة، وعند القصر سريعة جدًا. | EN: For overload protection usually reacts with a delay, for short circuit very quickly."
+ },
+ {
+  "video": "E-A05",
+  "scene": 12,
+  "line": 9,
+  "severity": "note",
+  "issue": "Unsupported small claims: 12.9 'Beide Wege können kombiniert werden', 17.8 'einfacher Überstromschutz würde zu grob arbeiten', 18.9 'schnell und genau', 8.7 'Hauptverteilungen und Einspeisungen'.",
+  "suggested_fix": "delete or mark as general"
+ },
+ {
+  "video": "E-A06",
+  "scene": 16,
+  "line": 4,
+  "severity": "note",
+  "issue": "Ambiguous spoken math: 'Wurzel aus 3600 plus 6400' can be heard as sqrt(3600)+6400.",
+  "suggested_fix": "DE: Die Scheinleistung ist die Wurzel aus der Summe von 3600 und 6400. | AR: (unchanged) | EN: Apparent power is the square root of the sum of 3600 and 6400. | tts: Die Scheinleistung ist die Wurzel aus der Summe von dreitausendsechshundert und sechstausendvierhundert."
+ },
+ {
+  "video": "E-A06",
+  "scene": 4,
+  "line": 0,
+  "severity": "note",
+  "issue": "Slide 4 card 'Verfügbarkeit: Einbrüche, Unterbrechungen' - dips are not 'availability' and the label is not in EN 50160 terms of F4; flicker/unbalance missing from the four cards although 5.7 lists flicker.",
+  "suggested_fix": "card 4 -> 'Einbrüche und Unterbrechungen'"
+ },
+ {
+  "video": "E-A06",
+  "scene": 15,
+  "line": 8,
+  "severity": "note",
+  "issue": "Distortion reactive power (Verzerrungsblindleistung) is correct physics but not in the facts (F19).",
+  "suggested_fix": "add a fact or delete"
+ },
+ {
+  "video": "E-A06",
+  "scene": 19,
+  "line": 4,
+  "severity": "note",
+  "issue": "'darf Blindarbeit nach seinem Preisblatt berechnen' is a legal permission claim (F21: billing differs per contract/Preisblatt); 19.7 'kann ... verlangt werden' not literally in facts.",
+  "suggested_fix": "DE: Die Abrechnung von Blindarbeit richtet sich nach Vertrag und Preisblatt des Netzbetreibers. | AR: تخضع محاسبة الطاقة الردية لعقد مشغّل الشبكة وقائمة أسعاره. | EN: Billing for reactive energy follows the grid operator's contract and price list."
+ },
+ {
+  "video": "E-A06",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "issue": "Cross-video AR terms: impedance 'ممانعة' (E-A06 7.5) vs 'المعاوقة' (E-A05 4.7/17); reactive power 'القدرة الردية' (E-A06) vs 'القدرة غير الفعالة' (E-A04); EN Netzrückwirkungen 'grid feedback effects' (3.8, 7.8) vs 'grid disturbances' (9.5) in the same video; 21.5 EN 'not engineering design' vs 'not engineering advice' elsewhere.",
+  "suggested_fix": "Unify: impedance = المعاوقة; reactive power = القدرة الردية (also in E-A04); Netzrückwirkungen EN = 'grid disturbances' everywhere."
+ },
+ {
+  "video": "E-A06",
+  "scene": 5,
+  "line": 0,
+  "severity": "note",
+  "issue": "Research F2 (DIN EN 50160:2020-11 valid) is probably outdated: a new EN 50160:2022 edition exists (national draft EN 50160:2022+A1:2025 per F3). The script correctly names no edition ('aktuelle Fassung prüfen') - keep it that way and correct the research file.",
+  "suggested_fix": "none (script ok)"
+ },
+ {
+  "video": "E-A02",
+  "scene": 16,
+  "line": 0,
+  "severity": "note",
+  "issue": "Dropped-list check: no dropped claims (thresholds 135/500 kW, 800 VA, 30 kVA, MK numbers, fees, Bußgelder) were found in E-A02; E-A01, E-A03, E-A05, E-A06 also contain no dropped numbers (A04: no 50.2 Hz, 200 ms, 6 mA, 2-month deadline, 4.2 kW; the 30 kVA NA-Schutz issue is indirect, see 9.7).",
+  "suggested_fix": "none"
+ }
+]
