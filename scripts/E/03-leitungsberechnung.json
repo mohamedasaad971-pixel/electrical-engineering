@@ -2,7 +2,7 @@
  "id": "E-B03",
  "title": {
   "de": "Leitungsberechnung: Querschnitt, Spannungsfall und Kurzschlussschutz",
-  "ar": "حساب الكبلات: المقطع وهبوط الجهد والحماية من القصر",
+  "ar": "حساب الكابلات: المقطع وهبوط الجهد والحماية من القصر الكهربائي",
   "en": "Cable sizing: cross-section, voltage drop and short-circuit protection"
  },
  "scenes": [
@@ -20,12 +20,12 @@
    "lines": [
     {
      "de": "Willkommen zum Video über die Leitungsberechnung.",
-     "ar": "مرحبًا بكم في الفيديو عن حساب الكبلات.",
+     "ar": "مرحبًا بكم في الفيديو عن حساب الكابلات.",
      "en": "Welcome to the video on cable sizing."
     },
     {
      "de": "Sie lernen, wie man ein Kabel für einen Stromkreis auswählt.",
-     "ar": "ستتعلمون كيف يُختار الكبل لدارة كهربائية.",
+     "ar": "ستتعلمون كيف يُختار الكابل لدارة كهربائية.",
      "en": "You learn how to select a cable for a circuit."
     },
     {
@@ -45,8 +45,8 @@
     },
     {
      "de": "Am Ende rechnen wir ein kleines Lehrbeispiel mit erfundenen Zahlen.",
-     "ar": "وفي النهاية نحسب مثالًا تعليميًا صغيرًا بأرقام مختلقة.",
-     "en": "At the end we calculate a small teaching example with made-up numbers."
+     "ar": "وفي النهاية نحسب مثالًا تعليميًا صغيرًا بأرقام افتراضية.",
+     "en": "At the end we calculate a small teaching example with hypothetical numbers."
     }
    ]
   },
@@ -80,8 +80,8 @@
     },
     {
      "de": "Die Zahlen im Beispiel sind erfunden und dienen nur dem Lernen.",
-     "ar": "الأرقام في المثال مختلقة وهدفها التعلم فقط.",
-     "en": "The numbers in the example are made up and are only for learning."
+     "ar": "الأرقام في المثال افتراضية وهدفها التعلم فقط.",
+     "en": "The numbers in the example are hypothetical and are only for learning."
     },
     {
      "de": "Wer Zweifel hat, fragt eine Elektrofachkraft oder liest die aktuelle Norm.",
@@ -89,7 +89,7 @@
      "en": "Whoever is in doubt asks a qualified electrician or reads the current standard."
     },
     {
-     "de": "Echte Auslegung machen Sie mit der gültigen Norm und mit qualifizierten Fachleuten.",
+     "de": "Eine echte Auslegung führen Sie mit der gültigen Norm und mit qualifizierten Fachleuten durch.",
      "ar": "أما التصميم الحقيقي فيتم بالمعيار الساري ومع مختصين مؤهلين.",
      "en": "Real design uses the valid standard and qualified specialists."
     }
@@ -121,9 +121,9 @@
    },
    "lines": [
     {
-     "de": "Ziel der Leitungsberechnung ist der Schutz vor zu viel Wärme.",
-     "ar": "هدف حساب الكبلات هو الحماية من الحرارة الزائدة.",
-     "en": "The goal of cable sizing is protection against too much heat."
+     "de": "Ein Hauptziel der Leitungsberechnung ist der Schutz vor zu viel Wärme; dazu kommt der Spannungsfall.",
+     "ar": "من الأهداف الرئيسية لحساب الكابلات الحماية من الحرارة الزائدة، ويضاف إليها هبوط الجهد.",
+     "en": "A main goal of cable sizing is protection against too much heat; voltage drop comes on top."
     },
     {
      "de": "Das gilt bei Überlast und auch bei Kurzschluss.",
@@ -132,12 +132,12 @@
     },
     {
      "de": "Erstens: Das Kabel darf den Betriebsstrom dauerhaft tragen.",
-     "ar": "أولًا: يجب أن يحمل الكبل تيار التشغيل بشكل دائم.",
+     "ar": "أولًا: يجب أن يحمل الكابل تيار التشغيل بشكل دائم.",
      "en": "First: the cable must carry the operating current continuously."
     },
     {
      "de": "Zweitens: Das Schutzgerät muss zum Kabel passen.",
-     "ar": "ثانيًا: يجب أن يناسب جهاز الحماية الكبل.",
+     "ar": "ثانيًا: يجب أن يناسب جهاز الحماية الكابل.",
      "en": "Second: the protective device must match the cable."
     },
     {
@@ -146,14 +146,14 @@
      "en": "Third: enough voltage must still arrive at the load."
     },
     {
-     "de": "Alle vier Prüfungen müssen gleichzeitig bestanden werden.",
-     "ar": "يجب اجتياز الفحوص الأربعة كلها معًا.",
-     "en": "All four checks must be passed at the same time."
-    },
-    {
      "de": "Viertens: Bei einem Kurzschluss muss rechtzeitig abgeschaltet werden.",
      "ar": "رابعًا: عند القصر الكهربائي يجب أن يحدث الفصل في الوقت المناسب.",
      "en": "Fourth: in a short circuit, disconnection must happen in time."
+    },
+    {
+     "de": "Alle vier Prüfungen müssen gleichzeitig bestanden werden.",
+     "ar": "يجب اجتياز الفحوص الأربعة كلها معًا.",
+     "en": "All four checks must be passed at the same time."
     }
    ]
   },
@@ -189,14 +189,14 @@
     },
     {
      "de": "Die Strombelastbarkeit sagt, wie viel Dauerstrom ein Kabel ohne Schaden trägt.",
-     "ar": "السعة التيارية تبيّن مقدار التيار الدائم الذي يحمله الكبل دون ضرر.",
+     "ar": "السعة التيارية تبيّن مقدار التيار الدائم الذي يحمله الكابل دون ضرر.",
      "en": "The current-carrying capacity states how much continuous current a cable carries without damage."
     },
     {
-     "de": "Man schreibt sie I-Z.",
+     "de": "Man schreibt sie Iz.",
      "ar": "ونرمز لها بالرمز Iz في الصيغ.",
-     "en": "It is written I-Z.",
-     "tts": "Man schreibt sie I-Z."
+     "en": "It is written Iz.",
+     "tts": "Man schreibt sie I-Zett."
     },
     {
      "de": "Sie hängt nicht nur vom Querschnitt ab.",
@@ -205,7 +205,7 @@
     },
     {
      "de": "Ein dickeres Kabel hat mehr Metall und erwärmt sich weniger.",
-     "ar": "الكبل الأسمك فيه معدن أكثر ويسخن أقل.",
+     "ar": "الكابل الأسمك فيه معدن أكثر ويسخن أقل.",
      "en": "A thicker cable has more metal and heats up less."
     },
     {
@@ -234,7 +234,7 @@
      },
      {
       "de": "die Häufung",
-      "ar": "التجميع (تجاور الكبلات)",
+      "ar": "تجميع الكابلات",
       "en": "grouping"
      }
     ]
@@ -252,7 +252,7 @@
     },
     {
      "de": "Das zweite ist die Verlegeart, also wie und wo das Kabel liegt.",
-     "ar": "الثاني هو طريقة التمديد، أي كيف وأين يوجد الكبل.",
+     "ar": "الثاني هو طريقة التمديد، أي كيف وأين يوجد الكابل.",
      "en": "The second is the installation method, that is how and where the cable is laid."
     },
     {
@@ -262,7 +262,7 @@
     },
     {
      "de": "Das vierte ist die Häufung, wenn mehrere Kabel zusammen liegen.",
-     "ar": "الرابع هو التجميع، عندما تتجاور عدة كبلات.",
+     "ar": "الرابع هو التجميع، عندما تتجاور عدة كابلات.",
      "en": "The fourth is grouping, when several cables lie together."
     },
     {
@@ -285,14 +285,14 @@
     "items": [
      "Frei in Luft: Wärme geht gut weg",
      "In der Wand: Wärme staut sich eher",
-     "In gedämmten Bereichen: besonders kritisch",
+     "Gedämmt: Belastbarkeit kann stark sinken",
      "Gleiches Kabel, andere Belastbarkeit"
     ]
    },
    "lines": [
     {
      "de": "Die Verlegeart beschreibt, wie ein Kabel eingebaut ist.",
-     "ar": "طريقة التمديد تصف كيفية تركيب الكبل.",
+     "ar": "طريقة التمديد تصف كيفية تركيب الكابل.",
      "en": "The installation method describes how a cable is installed."
     },
     {
@@ -312,13 +312,13 @@
     },
     {
      "de": "Das gleiche Kabel darf also je nach Verlegung unterschiedlich viel Strom tragen.",
-     "ar": "فالكبل نفسه قد يحمل تيارًا مختلفًا بحسب طريقة التمديد.",
+     "ar": "فالكابل نفسه قد يحمل تيارًا مختلفًا بحسب طريقة التمديد.",
      "en": "So the same cable may carry different currents depending on the installation."
     },
     {
-     "de": "Besonders in gedämmten Wänden ist das Risiko hoch.",
-     "ar": "الخطر مرتفع خصوصًا في الجدران المعزولة.",
-     "en": "The risk is high especially in insulated walls."
+     "de": "In gedämmten Bereichen kann die Strombelastbarkeit besonders stark sinken.",
+     "ar": "في المناطق المعزولة حراريًا قد تنخفض السعة التيارية بشدة.",
+     "en": "In insulated areas the current-carrying capacity can drop particularly strongly."
     },
     {
      "de": "Darum gehört die Verlegeart immer zur Berechnung.",
@@ -334,27 +334,27 @@
     "heading": "Mehrere Kabel erwärmen sich gegenseitig",
     "items": [
      "Kabel nebeneinander heizen sich auf",
-     "Umrechnungsfaktor senkt den Tabellenwert",
-     "Warme Umgebung senkt ihn ebenfalls",
+     "Umrechnungsfaktor passt den Tabellenwert an",
+     "Wärme und Häufung senken die Belastbarkeit",
      "Faktoren stehen in der gültigen Norm"
     ],
     "terms": [
      {
       "de": "der Umrechnungsfaktor",
       "ar": "معامل التصحيح",
-      "en": "conversion factor"
+      "en": "correction factor"
      }
     ]
    },
    "lines": [
     {
      "de": "Liegen mehrere belastete Kabel zusammen, erwärmen sie sich gegenseitig.",
-     "ar": "عندما تتجاور عدة كبلات محمّلة فإنها تسخّن بعضها.",
+     "ar": "عندما تتجاور عدة كابلات محمّلة فإنها تسخّن بعضها.",
      "en": "If several loaded cables lie together, they heat each other."
     },
     {
      "de": "Das nennt man Häufung.",
-     "ar": "وهذا ما يسمى التجميع.",
+     "ar": "وهذا ما يسمى تجميع الكابلات.",
      "en": "This is called grouping."
     },
     {
@@ -370,12 +370,12 @@
     {
      "de": "Dann multipliziert man ihn mit Umrechnungsfaktoren.",
      "ar": "ثم نضربها في معاملات تصحيح.",
-     "en": "Then you multiply it by conversion factors."
+     "en": "Then you multiply it by correction factors."
     },
     {
-     "de": "Das Ergebnis ist kleiner als der Tabellenwert.",
-     "ar": "والنتيجة أصغر من قيمة الجدول.",
-     "en": "The result is smaller than the table value."
+     "de": "Bei Häufung oder warmer Umgebung ist das Ergebnis kleiner als der Tabellenwert.",
+     "ar": "عند التجميع أو البيئة الدافئة تكون النتيجة أصغر من قيمة الجدول.",
+     "en": "With grouping or a warm environment the result is smaller than the table value."
     },
     {
      "de": "Rechnen Sie also nie nur mit dem Wert aus einer einfachen Tabelle.",
@@ -418,35 +418,35 @@
    "lines": [
     {
      "de": "Hier ein Überblick, welche Normen eine Rolle spielen.",
-     "ar": "هذه نظرة عامة على المعايير التي تلعب دورًا.",
+     "ar": "هذه نظرة عامة على المعايير ذات الصلة.",
      "en": "Here is an overview of which standards play a role."
     },
     {
      "de": "Die Norm DIN VDE 0100-520 behandelt Kabel- und Leitungssysteme, auch den Spannungsfall.",
-     "ar": "معيار DIN VDE 0100-520 يتناول أنظمة الكبلات، ومنها هبوط الجهد.",
+     "ar": "معيار DIN VDE 0100-520 يتناول أنظمة الكابلات، ومنها هبوط الجهد.",
      "en": "The standard DIN VDE 0100-520 covers wiring systems, including voltage drop.",
-     "tts": "Die Norm Din Fau-De-E null-einhundert, Teil fünfhundertzwanzig behandelt Kabel- und Leitungssysteme, auch den Spannungsfall."
+     "tts": "Die Norm Din Fau-De-E null eins null null Strich fünf zwei null behandelt Kabel- und Leitungssysteme, auch den Spannungsfall."
     },
     {
-     "de": "Dazu gibt es ein Beiblatt zwei als Anwendungshilfe, Ausgabe zweitausenddreiundzwanzig.",
+     "de": "Dazu gibt es ein Beiblatt 2 als Anwendungshilfe, Ausgabe 2023.",
      "ar": "وهناك ملحق رقم ٢ كوسيلة مساعدة للتطبيق، إصدار ٢٠٢٣.",
-     "en": "There is also a supplement two as an application aid, edition 2023.",
+     "en": "There is also a supplement 2 as an application aid, edition 2023.",
      "tts": "Dazu gibt es ein Beiblatt zwei als Anwendungshilfe, Ausgabe zweitausenddreiundzwanzig."
     },
     {
-     "de": "Die Strombelastbarkeit stützt sich üblicherweise auf DIN VDE 0298-4.",
-     "ar": "السعة التيارية تستند إلى DIN VDE 0298-4 عادةً.",
-     "en": "Current-carrying capacity usually relies on DIN VDE 0298-4.",
-     "tts": "Die Strombelastbarkeit stützt sich üblicherweise auf Din Fau-De-E null-zweihundertachtundneunzig, Teil vier."
+     "de": "Die Strombelastbarkeit stützt sich üblicherweise auf DIN VDE 0298-4; die gültige Ausgabe müssen Sie prüfen.",
+     "ar": "تستند السعة التيارية عادةً إلى DIN VDE 0298-4، ويجب التحقق من الإصدار الساري.",
+     "en": "Current-carrying capacity usually relies on DIN VDE 0298-4; you must check the valid edition.",
+     "tts": "Die Strombelastbarkeit stützt sich üblicherweise auf Din Fau-De-E null zwei neun acht Strich vier; die gültige Ausgabe müssen Sie prüfen."
     },
     {
      "de": "Der Schutz bei Überstrom steht in DIN VDE 0100-430.",
-     "ar": "الحماية من التيار الزائد موجودة في DIN VDE 0100-430 ضمن السلسلة.",
+     "ar": "الحماية من التيار الزائد مذكورة في DIN VDE 0100-430.",
      "en": "Protection against overcurrent is in DIN VDE 0100-430.",
-     "tts": "Der Schutz bei Überstrom steht in Din Fau-De-E null-einhundert, Teil vierhundertdreißig."
+     "tts": "Der Schutz bei Überstrom steht in Din Fau-De-E null eins null null Strich vier drei null."
     },
     {
-     "de": "Abschaltzeiten für den Schlagschutz stehen in Teil vierhundertzehn, die Erstprüfung in Teil sechshundert.",
+     "de": "Abschaltzeiten für den Schlagschutz stehen in Teil 410, die Erstprüfung in Teil 600.",
      "ar": "أزمنة الفصل للحماية من الصعق في الجزء ٤١٠، والفحص الأولي في الجزء ٦٠٠.",
      "en": "Disconnection times for shock protection are in part 410, the initial inspection in part 600.",
      "tts": "Abschaltzeiten für den Schlagschutz stehen in Teil vierhundertzehn, die Erstprüfung in Teil sechshundert."
@@ -494,43 +494,43 @@
      "en": "For overload protection you need three currents."
     },
     {
-     "de": "Erstens den Betriebsstrom I-B. Das ist der Strom, der im Betrieb fließt.",
+     "de": "Erstens den Betriebsstrom Ib. Das ist der Strom, der im Betrieb fließt.",
      "ar": "أولًا تيار التشغيل Ib، وهو التيار الذي يمر أثناء التشغيل.",
-     "en": "First the operating current I-B. This is the current that flows in operation.",
-     "tts": "Erstens den Betriebsstrom I-B. Das ist der Strom, der im Betrieb fließt."
+     "en": "First the operating current Ib. This is the current that flows in operation.",
+     "tts": "Erstens den Betriebsstrom I-Be. Das ist der Strom, der im Betrieb fließt."
     },
     {
-     "de": "Zweitens den Nennstrom I-N des Schutzgeräts, zum Beispiel eines Leitungsschutzschalters.",
+     "de": "Zweitens den Nennstrom In des Schutzgeräts, zum Beispiel eines Leitungsschutzschalters.",
      "ar": "ثانيًا التيار الاسمي In لجهاز الحماية، مثل القاطع الآلي.",
-     "en": "Second the rated current I-N of the protective device, for example a circuit breaker.",
-     "tts": "Zweitens den Nennstrom I-N des Schutzgeräts, zum Beispiel eines Leitungsschutzschalters."
+     "en": "Second the rated current In of the protective device, for example a circuit breaker.",
+     "tts": "Zweitens den Nennstrom I-En des Schutzgeräts, zum Beispiel eines Leitungsschutzschalters."
     },
     {
-     "de": "Drittens die Strombelastbarkeit I-Z des Kabels.",
-     "ar": "ثالثًا السعة التيارية Iz للكبل.",
-     "en": "Third the current-carrying capacity I-Z of the cable.",
-     "tts": "Drittens die Strombelastbarkeit I-Z des Kabels."
+     "de": "Drittens die Strombelastbarkeit Iz des Kabels.",
+     "ar": "ثالثًا السعة التيارية Iz للكابل.",
+     "en": "Third the current-carrying capacity Iz of the cable.",
+     "tts": "Drittens die Strombelastbarkeit I-Zett des Kabels."
     },
     {
-     "de": "Die Reihenfolge lautet: I-B kleiner gleich I-N kleiner gleich I-Z.",
+     "de": "Die Reihenfolge lautet: Ib kleiner gleich In kleiner gleich Iz.",
      "ar": "الترتيب هو: Ib أصغر من أو يساوي In أصغر من أو يساوي Iz كما هو مطلوب.",
-     "en": "The order is: I-B less than or equal to I-N less than or equal to I-Z.",
-     "tts": "Die Reihenfolge lautet: I-B kleiner gleich I-N kleiner gleich I-Z."
+     "en": "The order is: Ib less than or equal to In less than or equal to Iz.",
+     "tts": "Die Reihenfolge lautet: I-Be kleiner gleich I-En kleiner gleich I-Zett."
     },
     {
      "de": "Das Schutzgerät sitzt also zwischen Betriebsstrom und Kabelgrenze.",
-     "ar": "أي أن جهاز الحماية يقع بين تيار التشغيل وحد الكبل.",
+     "ar": "أي أن جهاز الحماية يقع بين تيار التشغيل وحد الكابل.",
      "en": "So the protective device sits between the operating current and the cable limit."
     },
     {
-     "de": "Nur wenn alle drei Bedingungen stimmen, ist das Kabel geschützt.",
-     "ar": "لا يكون الكبل محميًا إلا إذا تحققت الشروط الثلاثة.",
-     "en": "Only if all three conditions are met is the cable protected."
+     "de": "Nur wenn diese Reihenfolge stimmt und das Schutzgerät bei Überlast rechtzeitig auslöst, ist das Kabel vor Überlast geschützt.",
+     "ar": "لا يكون الكابل محميًا من الحمل الزائد إلا إذا كان هذا الترتيب صحيحًا وفصل جهاز الحماية في الوقت المناسب عند الحمل الزائد.",
+     "en": "Only if this order holds and the protective device trips in time under overload is the cable protected against overload."
     },
     {
-     "de": "Zusätzlich darf das Schutzgerät bei Überlast nicht zu spät auslösen.",
-     "ar": "وبالإضافة إلى ذلك يجب ألا يفصل الجهاز متأخرًا عند الحمل الزائد.",
-     "en": "In addition, the device must not trip too late under overload."
+     "de": "Den Kurzschlussschutz prüfen wir getrennt.",
+     "ar": "أما الحماية من القصر الكهربائي فتُفحص بشكل منفصل.",
+     "en": "We check short-circuit protection separately."
     }
    ]
   },
@@ -556,8 +556,8 @@
    "lines": [
     {
      "de": "Jetzt folgt ein Lehrbeispiel mit erfundenen Zahlen.",
-     "ar": "والآن مثال تعليمي بأرقام مختلقة.",
-     "en": "Now comes a teaching example with made-up numbers."
+     "ar": "والآن مثال تعليمي بأرقام افتراضية.",
+     "en": "Now comes a teaching example with hypothetical numbers."
     },
     {
      "de": "Es ist kein Projekt und keine Vorlage für echte Anlagen.",
@@ -565,13 +565,13 @@
      "en": "It is not a project and not a template for real installations."
     },
     {
-     "de": "Ein Verbraucher hat zweitausenddreihundert Watt Wirkleistung.",
+     "de": "Ein Verbraucher hat 2300 Watt Wirkleistung.",
      "ar": "مستهلك قدرته الفعالة ٢٣٠٠ واط.",
      "en": "A load has two thousand three hundred watts of active power.",
      "tts": "Ein Verbraucher hat zweitausenddreihundert Watt Wirkleistung."
     },
     {
-     "de": "Er hängt an zweihundertdreißig Volt Wechselspannung.",
+     "de": "Er hängt an 230 Volt Wechselspannung.",
      "ar": "وهو موصول بجهد متناوب مقداره ٢٣٠ فولت.",
      "en": "It is connected to two hundred thirty volts AC.",
      "tts": "Er hängt an zweihundertdreißig Volt Wechselspannung."
@@ -588,16 +588,16 @@
      "en": "The current is power divided by voltage."
     },
     {
-     "de": "Zweitausenddreihundert geteilt durch zweihundertdreißig ergibt zehn Ampere.",
+     "de": "2300 geteilt durch 230 ergibt 10 Ampere.",
      "ar": "٢٣٠٠ مقسومة على ٢٣٠ تعطي عشرة أمبير.",
      "en": "Two thousand three hundred divided by two hundred thirty gives ten amperes.",
      "tts": "Zweitausenddreihundert geteilt durch zweihundertdreißig ergibt zehn Ampere."
     },
     {
-     "de": "Das ist unser Betriebsstrom I-B.",
+     "de": "Das ist unser Betriebsstrom Ib.",
      "ar": "هذا هو تيار التشغيل Ib لدينا.",
-     "en": "This is our operating current I-B.",
-     "tts": "Das ist unser Betriebsstrom I-B."
+     "en": "This is our operating current Ib.",
+     "tts": "Das ist unser Betriebsstrom I-Be."
     },
     {
      "de": "Das Schutzgerät muss also mindestens diesen Nennstrom haben.",
@@ -605,14 +605,14 @@
      "en": "So the protective device needs at least this rated current."
     },
     {
-     "de": "Sie merken: Erst der Strom, dann das Kabel, dann das Schutzgerät.",
-     "ar": "لاحظوا: التيار أولًا، ثم الكبل، ثم جهاز الحماية.",
-     "en": "Note: first the current, then the cable, then the protective device."
+     "de": "Merken Sie sich: Erst der Strom, dann das Kabel, dann das Schutzgerät.",
+     "ar": "تذكروا: التيار أولًا، ثم الكابل، ثم جهاز الحماية.",
+     "en": "Remember: first the current, then the cable, then the protective device."
     },
     {
-     "de": "Das Kabel muss nach allen Faktoren noch mehr tragen können.",
-     "ar": "ويجب أن يتحمل الكبل أكثر من ذلك بعد تطبيق كل المعاملات.",
-     "en": "And the cable must still carry more after all factors are applied."
+     "de": "Die Strombelastbarkeit des Kabels muss nach allen Faktoren mindestens den Nennstrom des Schutzgeräts erreichen.",
+     "ar": "ويجب أن تبلغ السعة التيارية للكابل بعد تطبيق كل المعاملات التيار الاسمي لجهاز الحماية على الأقل.",
+     "en": "After all factors, the current-carrying capacity of the cable must reach at least the rated current of the protective device."
     }
    ]
   },
@@ -631,12 +631,12 @@
    "lines": [
     {
      "de": "Jedes Kabel hat einen elektrischen Widerstand.",
-     "ar": "لكل كبل مقاومة كهربائية.",
+     "ar": "لكل كابل مقاومة كهربائية.",
      "en": "Every cable has an electrical resistance."
     },
     {
      "de": "Fließt Strom, entsteht am Kabel eine Spannung nach dem Ohmschen Gesetz.",
-     "ar": "عند مرور التيار ينشأ جهد على الكبل وفق قانون أوم.",
+     "ar": "عند مرور التيار ينشأ جهد على الكابل وفق قانون أوم.",
      "en": "When current flows, a voltage appears across the cable according to Ohm's law."
     },
     {
@@ -646,7 +646,7 @@
     },
     {
      "de": "Je länger das Kabel und je größer der Strom, desto größer ist der Spannungsfall.",
-     "ar": "كلما زاد طول الكبل وزاد التيار زاد هبوط الجهد.",
+     "ar": "كلما زاد طول الكابل وزاد التيار زاد هبوط الجهد.",
      "en": "The longer the cable and the larger the current, the larger the voltage drop."
     },
     {
@@ -655,18 +655,13 @@
      "en": "A larger cross-section reduces it."
     },
     {
-     "de": "Bei Drehstrom wird der Faktor zwei durch Wurzel drei ersetzt.",
-     "ar": "في التيار ثلاثي الأطوار يُستبدل العامل اثنان بالجذر التربيعي لثلاثة.",
-     "en": "For three-phase current, the factor two is replaced by the square root of three."
-    },
-    {
      "de": "Die Formel ist eine Näherung, sie vernachlässigt den Blindwiderstand.",
      "ar": "الصيغة تقريبية، فهي تهمل المفاعلة.",
      "en": "The formula is an approximation; it neglects the reactance."
     },
     {
      "de": "Bei langen Leitungen entscheidet oft der Spannungsfall über den Querschnitt.",
-     "ar": "في الكبلات الطويلة غالبًا ما يحدد هبوط الجهد المقطع المطلوب.",
+     "ar": "في الكابلات الطويلة غالبًا ما يحدد هبوط الجهد المقطع المطلوب.",
      "en": "On long cables the voltage drop often decides the cross-section."
     }
    ]
@@ -690,13 +685,13 @@
      "en": "We continue with the teaching example."
     },
     {
-     "de": "Das Kupferkabel ist zwanzig Meter lang, mit zweieinhalb Quadratmillimetern Querschnitt.",
-     "ar": "كبل النحاس طوله عشرون مترًا ومقطعه مليمتران مربعان ونصف.",
+     "de": "Das Kupferkabel ist 20 Meter lang, mit 2,5 Quadratmillimetern Querschnitt.",
+     "ar": "كابل النحاس طوله عشرون مترًا ومقطعه مليمتران مربعان ونصف.",
      "en": "The copper cable is twenty metres long with a cross-section of two and a half square millimetres.",
      "tts": "Das Kupferkabel ist zwanzig Meter lang, mit zweieinhalb Quadratmillimetern Querschnitt."
     },
     {
-     "de": "Das gilt für Wechselstrom mit zwei Leitern. Hin und zurück sind es also vierzig Meter.",
+     "de": "Das gilt für Wechselstrom mit zwei Leitern. Hin und zurück sind es also 40 Meter.",
      "ar": "هذا لتيار متناوب بموصلين. فالمسافة ذهابًا وإيابًا أربعون مترًا.",
      "en": "This is single-phase AC with two conductors. So there and back it is forty metres.",
      "tts": "Das gilt für Wechselstrom mit zwei Leitern. Hin und zurück sind es also vierzig Meter."
@@ -707,25 +702,30 @@
      "en": "The formula: voltage drop equals two times length times current, divided by conductivity times cross-section."
     },
     {
-     "de": "Für Kupfer nehmen wir hier vereinfacht sechsundfünfzig an.",
-     "ar": "للنحاس نفترض هنا بشكل مبسط القيمة ٥٦.",
-     "en": "For copper we simply assume fifty-six here.",
-     "tts": "Für Kupfer nehmen wir hier vereinfacht sechsundfünfzig an."
+     "de": "Bei Drehstrom wird der Faktor zwei durch Wurzel drei ersetzt.",
+     "ar": "في التيار ثلاثي الأطوار يُستبدل العامل اثنان بالجذر التربيعي لثلاثة.",
+     "en": "For three-phase current, the factor two is replaced by the square root of three."
     },
     {
-     "de": "Also: zwei mal zwanzig mal zehn gleich vierhundert.",
+     "de": "Für Kupfer nehmen wir hier vereinfacht 56 Meter pro Ohm und Quadratmillimeter an.",
+     "ar": "للنحاس نفترض هنا بشكل مبسط القيمة ٥٦ متر لكل أوم ومليمتر مربع.",
+     "en": "For copper we simply assume fifty-six metres per ohm and square millimetre here.",
+     "tts": "Für Kupfer nehmen wir hier vereinfacht sechsundfünfzig Meter pro Ohm und Quadratmillimeter an."
+    },
+    {
+     "de": "Also: 2 mal 20 mal 10 gleich 400.",
      "ar": "إذن: اثنان ضرب عشرين ضرب عشرة يساوي أربعمئة.",
      "en": "So: two times twenty times ten equals four hundred.",
      "tts": "Also: zwei mal zwanzig mal zehn gleich vierhundert."
     },
     {
-     "de": "Geteilt durch sechsundfünfzig mal zweikommafünf, also hundertvierzig.",
+     "de": "Geteilt durch 56 mal 2,5, also 140.",
      "ar": "مقسومًا على ٥٦ ضرب ٢٫٥، أي مئة وأربعين.",
      "en": "Divided by fifty-six times two point five, that is one hundred forty.",
      "tts": "Geteilt durch sechsundfünfzig mal zweikommafünf, also hundertvierzig."
     },
     {
-     "de": "Das ergibt etwa zweikommaneun Volt, rund eins Komma zwei Prozent von zweihundertdreißig Volt.",
+     "de": "Das ergibt etwa 2,9 Volt, rund 1,2 Prozent von 230 Volt.",
      "ar": "والنتيجة نحو ٢٫٩ فولت، أي قرابة ١٫٢ بالمئة من ٢٣٠ فولت.",
      "en": "This gives about two point nine volts, roughly one point two percent of two hundred thirty volts.",
      "tts": "Das ergibt etwa zweikommaneun Volt, rund eins Komma zwei Prozent von zweihundertdreißig Volt."
@@ -787,7 +787,7 @@
     },
     {
      "de": "Ein zu großer Spannungsfall kann Geräte stören oder schlechter arbeiten lassen.",
-     "ar": "هبوط الجهد الكبير قد يزعج الأجهزة أو يجعل عملها أسوأ.",
+     "ar": "هبوط الجهد الكبير قد يؤثر في الأجهزة أو يضعف أداءها.",
      "en": "Too large a voltage drop can disturb devices or make them work worse."
     },
     {
@@ -838,23 +838,25 @@
      "en": "The permitted limit depends on the material and on the insulation."
     },
     {
-     "de": "Vereinfacht gilt: Die Energie des Schutzgeräts muss kleiner sein als k Quadrat mal S Quadrat.",
-     "ar": "ببساطة: يجب أن تكون طاقة المرور عبر جهاز الحماية أقل من k تربيع ضرب S تربيع.",
-     "en": "Simply put: the let-through energy of the device must be smaller than k squared times S squared."
+     "de": "Vereinfacht gilt: Der Durchlasswert I²t des Schutzgeräts muss kleiner sein als k² mal S².",
+     "ar": "ببساطة: يجب أن تكون قيمة I²t التي يمرّرها جهاز الحماية أقل من k تربيع ضرب S تربيع.",
+     "en": "Simply put: the let-through value I²t of the protective device must be smaller than k squared times S squared.",
+     "tts": "Vereinfacht gilt: Der Durchlasswert I-Quadrat-Te des Schutzgeräts muss kleiner sein als Ka Quadrat mal Es Quadrat."
     },
     {
      "de": "Dabei ist k ein Materialwert und S der Querschnitt.",
      "ar": "حيث k قيمة للمادة وS هو المقطع.",
-     "en": "Here k is a material value and S is the cross-section."
+     "en": "Here k is a material value and S is the cross-section.",
+     "tts": "Dabei ist Ka ein Materialwert und Es der Querschnitt."
     },
     {
      "de": "Ein Kurzschluss kann Leitungen so stark erhitzen, dass die Isolierung zerstört wird.",
-     "ar": "قد يسخّن القصر الكبلات حتى يتلف العزل.",
+     "ar": "قد يسخّن القصر الكهربائي الكابلات حتى يتلف العزل.",
      "en": "A short circuit can heat cables so much that the insulation is destroyed."
     },
     {
      "de": "Darum prüft man Überlast und Kurzschluss getrennt.",
-     "ar": "لذلك يُفحص الحمل الزائد والقصر بشكل منفصل.",
+     "ar": "لذلك يُفحص الحمل الزائد والقصر الكهربائي بشكل منفصل.",
      "en": "That is why overload and short circuit are checked separately."
     },
     {
@@ -865,7 +867,8 @@
     {
      "de": "Die k-Werte finden Sie in der Norm. Wir nennen sie hier nicht.",
      "ar": "قيم k موجودة في المعيار. ولن نذكرها هنا.",
-     "en": "You find the k values in the standard. We do not name them here."
+     "en": "You find the k values in the standard. We do not name them here.",
+     "tts": "Die Ka-Werte finden Sie in der Norm. Wir nennen sie hier nicht."
     }
    ]
   },
@@ -905,18 +908,18 @@
      "en": "In a fault, a fault current flows through a loop of outgoing conductor and return path."
     },
     {
-     "de": "Der Widerstand dieser Schleife heißt Schleifenimpedanz.",
+     "de": "Der Wechselstromwiderstand dieser Schleife heißt Schleifenimpedanz.",
      "ar": "معاوقة هذه الحلقة تسمى معاوقة حلقة العطل.",
-     "en": "The impedance of this loop is called loop impedance."
+     "en": "The AC resistance of this loop is called loop impedance."
     },
     {
      "de": "Je länger das Kabel, desto größer die Impedanz und desto kleiner der Fehlerstrom.",
-     "ar": "كلما طال الكبل زادت المعاوقة وقلّ تيار العطل.",
+     "ar": "كلما طال الكابل زادت المعاوقة وقلّ تيار العطل.",
      "en": "The longer the cable, the larger the impedance and the smaller the fault current."
     },
     {
      "de": "Am Leitungsende ist der Fehlerstrom am kleinsten.",
-     "ar": "عند نهاية الكبل يكون تيار العطل في أدنى قيمة.",
+     "ar": "عند نهاية الكابل يكون تيار العطل في أدنى قيمة.",
      "en": "At the end of the cable the fault current is smallest."
     },
     {
@@ -928,7 +931,7 @@
      "de": "Die Zeiten stehen in der Norm DIN VDE 0100-410 und hängen vom Netzsystem ab.",
      "ar": "الأزمنة موجودة في المعيار DIN VDE 0100-410 وتعتمد على نظام الشبكة.",
      "en": "The times are in the standard DIN VDE 0100-410 and depend on the system type.",
-     "tts": "Die Zeiten stehen in der Norm Din Fau-De-E null-einhundert, Teil vierhundertzehn und hängen vom Netzsystem ab."
+     "tts": "Die Zeiten stehen in der Norm Din Fau-De-E null eins null null Strich vier eins null und hängen vom Netzsystem ab."
     },
     {
      "de": "Die Länge ist also eine Grenze, die man oft vergisst.",
@@ -936,9 +939,9 @@
      "en": "So length is a limit that is often forgotten."
     },
     {
-     "de": "Ist die Leitung zu lang, wählen Sie einen größeren Querschnitt oder ein anderes Schutzgerät.",
-     "ar": "إذا كان الكبل طويلًا جدًا فاختاروا مقطعًا أكبر أو جهاز حماية آخر.",
-     "en": "If the cable is too long, choose a larger cross-section or another protective device."
+     "de": "Ist die Leitung zu lang, passen Sie Querschnitt, Schutzgerät oder Leitungslänge an und rechnen neu.",
+     "ar": "إذا كان الكابل طويلًا جدًا فعدّلوا المقطع أو جهاز الحماية أو طول الكابل وأعيدوا الحساب.",
+     "en": "If the cable is too long, adjust the cross-section, the protective device or the cable length and recalculate."
     }
    ]
   },
@@ -957,18 +960,18 @@
    "lines": [
     {
      "de": "Noch ein kurzes Lehrbeispiel, wieder mit erfundenen Zahlen.",
-     "ar": "مثال تعليمي قصير آخر، بأرقام مختلقة أيضًا.",
-     "en": "Another short teaching example, again with made-up numbers."
+     "ar": "مثال تعليمي قصير آخر، بأرقام افتراضية أيضًا.",
+     "en": "Another short teaching example, again with hypothetical numbers."
     },
     {
-     "de": "Die Spannung gegen Erde beträgt zweihundertdreißig Volt.",
-     "ar": "الجهد بالنسبة للأرض هو ٢٣٠ فولت.",
+     "de": "Die Spannung gegen Erde beträgt 230 Volt.",
+     "ar": "الجهد بالنسبة إلى الأرض هو ٢٣٠ فولت.",
      "en": "The voltage to earth is two hundred thirty volts.",
      "tts": "Die Spannung gegen Erde beträgt zweihundertdreißig Volt."
     },
     {
-     "de": "Am Leitungsende messen oder rechnen wir null Komma fünf Ohm Schleifenimpedanz.",
-     "ar": "عند نهاية الكبل نقيس أو نحسب معاوقة حلقة قدرها ٠٫٥ أوم.",
+     "de": "Am Leitungsende messen oder rechnen wir 0,5 Ohm Schleifenimpedanz.",
+     "ar": "عند نهاية الكابل نقيس أو نحسب معاوقة حلقة قدرها ٠٫٥ أوم.",
      "en": "At the cable end we measure or calculate zero point five ohms of loop impedance.",
      "tts": "Am Leitungsende messen oder rechnen wir null Komma fünf Ohm Schleifenimpedanz."
     },
@@ -978,7 +981,7 @@
      "en": "By Ohm's law the fault current is voltage divided by impedance."
     },
     {
-     "de": "Zweihundertdreißig geteilt durch null Komma fünf ergibt vierhundertsechzig Ampere.",
+     "de": "230 geteilt durch 0,5 ergibt 460 Ampere.",
      "ar": "٢٣٠ مقسومة على ٠٫٥ تعطي ٤٦٠ أمبير.",
      "en": "Two hundred thirty divided by zero point five gives four hundred sixty amperes.",
      "tts": "Zweihundertdreißig geteilt durch null Komma fünf ergibt vierhundertsechzig Ampere."
@@ -989,8 +992,8 @@
      "en": "This is a strong simplification, but it shows the idea."
     },
     {
-     "de": "Ob vierhundertsechzig Ampere reichen, zeigt die Auslösekennlinie des Schutzgeräts.",
-     "ar": "وهل تكفي ٤٦٠ أمبير؟ تبيّن ذلك منحنى تشغيل جهاز الحماية.",
+     "de": "Ob 460 Ampere reichen, zeigt die Auslösekennlinie des Schutzgeräts.",
+     "ar": "وهل تكفي ٤٦٠ أمبير؟ يبيّن ذلك منحنى الفصل الخاص بجهاز الحماية.",
      "en": "Whether four hundred sixty amperes are enough is shown by the trip curve of the protective device.",
      "tts": "Ob vierhundertsechzig Ampere reichen, zeigt die Auslösekennlinie des Schutzgeräts."
     },
@@ -1000,13 +1003,13 @@
      "en": "The curve shows at which current the device trips after which time."
     },
     {
-     "de": "Die Kennlinie des Schutzgeräts gehört deshalb immer zur Unterlage.",
+     "de": "Die Kennlinie des Schutzgeräts gehört deshalb immer zu den Unterlagen.",
      "ar": "لذلك يجب أن يكون منحنى جهاز الحماية جزءًا من الوثائق.",
      "en": "So the trip curve of the protective device always belongs in the documents."
     },
     {
      "de": "Diese Kennlinie liefert der Hersteller.",
-     "ar": "هذا المنحنى يوفره الصانع.",
+     "ar": "هذا المنحنى توفره الشركة المصنِّعة.",
      "en": "The manufacturer provides this curve."
     }
    ]
@@ -1058,7 +1061,7 @@
     },
     {
      "de": "Schritt sechs: Sie prüfen Kurzschlussfestigkeit und Abschaltbedingung.",
-     "ar": "الخطوة السادسة: تتحققون من تحمّل القصر وشرط الفصل.",
+     "ar": "الخطوة السادسة: تتحققون من تحمّل القصر الكهربائي وشرط الفصل.",
      "en": "Step six: you check short-circuit withstand and the disconnection condition."
     },
     {
@@ -1073,13 +1076,13 @@
     },
     {
      "de": "Gute Planer rechnen die schwierigste Stelle zuerst, meist das Leitungsende.",
-     "ar": "المخططون الجيدون يحسبون أصعب موضع أولًا، وغالبًا نهاية الكبل.",
+     "ar": "المخططون الجيدون يحسبون أصعب موضع أولًا، وغالبًا نهاية الكابل.",
      "en": "Good planners calculate the most difficult point first, usually the cable end."
     },
     {
-     "de": "Fällt ein Schritt durch, wählen Sie einen größeren Querschnitt und rechnen neu.",
-     "ar": "إذا فشلت خطوة، تختارون مقطعًا أكبر وتعيدون الحساب.",
-     "en": "If one step fails, you choose a larger cross-section and recalculate."
+     "de": "Fällt ein Schritt durch, passen Sie Querschnitt, Schutzgerät oder Verlegung an und rechnen neu.",
+     "ar": "إذا فشلت خطوة، تعدّلون المقطع أو جهاز الحماية أو التمديد وتعيدون الحساب.",
+     "en": "If a step fails, you adjust the cross-section, the protective device or the installation and recalculate."
     }
    ]
   },
@@ -1092,18 +1095,13 @@
      "Dokumentation: Annahmen schriftlich festhalten",
      "Erstprüfung: Abschaltung und Spannungsfall",
      "Änderung der Verlegung: neu rechnen",
-     "Verantwortung: Fachkraft prüft und gibt frei"
+     "Zuständigkeiten: im Vertrag klären"
     ],
     "terms": [
      {
       "de": "die Erstprüfung",
       "ar": "الفحص الأولي",
       "en": "initial inspection"
-     },
-     {
-      "de": "die Elektrofachkraft",
-      "ar": "الكهربائي المؤهَّل",
-      "en": "qualified electrician"
      }
     ]
    },
@@ -1144,9 +1142,9 @@
      "en": "A calculation program does not replace this understanding."
     },
     {
-     "de": "Die Verantwortung liegt bei der Elektrofachkraft, die prüft und freigibt.",
-     "ar": "المسؤولية على الكهربائي المؤهَّل (Elektrofachkraft) الذي يفحص ويعتمد.",
-     "en": "The responsibility lies with the qualified electrician, who checks and approves."
+     "de": "Wer prüft und freigibt, richtet sich nach Aufgabenverteilung und Vertrag; die Arbeiten und Messungen selbst gehören in qualifizierte Hände.",
+     "ar": "من يفحص ويعتمد يتحدد بتوزيع المهام والعقد؛ أما الأعمال والقياسات نفسها فمكانها أيدٍ مؤهَّلة.",
+     "en": "Who checks and approves depends on the allocation of tasks and the contract; the work and measurements themselves belong in qualified hands."
     }
    ]
   },
@@ -1171,14 +1169,13 @@
     },
     {
      "de": "Wer Kabel ändert oder anschließt, arbeitet an einer elektrischen Anlage.",
-     "ar": "من يعدّل الكبلات أو يوصلها يعمل على منشأة كهربائية.",
+     "ar": "من يعدّل الكابلات أو يوصلها يعمل على منشأة كهربائية.",
      "en": "Whoever changes or connects cables works on an electrical installation."
     },
     {
-     "de": "Dann gelten die fünf Sicherheitsregeln aus dem Video E-F05.",
-     "ar": "عندئذ تسري قواعد السلامة الخمس الواردة في الفيديو E-F05 كاملة.",
-     "en": "Then the five safety rules from video E-F05 apply.",
-     "tts": "Dann gelten die fünf Sicherheitsregeln aus dem Video E-F-null-fünf."
+     "de": "Dann gelten die fünf Sicherheitsregeln aus dem Video über elektrische Sicherheit.",
+     "ar": "عندئذ تسري قواعد السلامة الخمس الواردة في الفيديو عن السلامة الكهربائية كاملة.",
+     "en": "Then the five safety rules from the video on electrical safety apply."
     },
     {
      "de": "Eins: freischalten. Zwei: gegen Wiedereinschalten sichern.",
@@ -1187,13 +1184,13 @@
     },
     {
      "de": "Drei: Spannungsfreiheit allpolig feststellen. Vier: erden und kurzschließen.",
-     "ar": "ثلاثة: التحقق من انعدام الجهد في جميع الأقطاب. أربعة: التأريض والتقصير.",
+     "ar": "ثلاثة: التحقق من انعدام الجهد في كل الأقطاب. أربعة: التأريض والتقصير.",
      "en": "Three: verify absence of voltage on all poles. Four: earth and short-circuit."
     },
     {
      "de": "Fünf: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
      "ar": "خمسة: تغطية الأجزاء المجاورة الواقعة تحت الجهد أو إحاطتها بحواجز.",
-     "en": "Five: cover or barrier neighbouring live parts."
+     "en": "Five: cover or fence off neighbouring live parts."
     },
     {
      "de": "Die Reihenfolge ist fest. Freischalten ist nur der erste von fünf Schritten.",
@@ -1201,9 +1198,9 @@
      "en": "The order is fixed. Isolating is only the first of five steps."
     },
     {
-     "de": "Das gilt auch, wenn Sie als Ingenieur nur planen.",
-     "ar": "وهذا ينطبق أيضًا إذا كنتم مهندسين تكتفون بالتخطيط.",
-     "en": "This also applies if you, as an engineer, only plan."
+     "de": "Auch als planender Ingenieur sollten Sie die Regeln kennen, denn Ihre Planung muss sicheres Arbeiten ermöglichen.",
+     "ar": "وحتى كمهندس تكتفون بالتخطيط ينبغي أن تعرفوا هذه القواعد، لأن تخطيطكم يجب أن يتيح العمل بأمان.",
+     "en": "Even as a planning engineer you should know these rules, because your design must make safe work possible."
     },
     {
      "de": "Die Regeln selbst sind hier sinngemäß wiedergegeben, nicht wörtlich.",
@@ -1211,9 +1208,9 @@
      "en": "The rules are given here in meaning, not word for word."
     },
     {
-     "de": "Diese Arbeiten gehören in die Hand einer qualifizierten Elektrofachkraft.",
-     "ar": "هذه الأعمال مكانها يد كهربائي مؤهَّل.",
-     "en": "This work belongs in the hands of a qualified electrician."
+     "de": "Diese Arbeiten gehören in die Hand einer Elektrofachkraft oder erfolgen unter deren Leitung und Aufsicht.",
+     "ar": "تُنفَّذ هذه الأعمال على يد الكهربائي المؤهَّل أو تحت قيادته وإشرافه.",
+     "en": "This work belongs in the hands of a qualified electrician or is done under their direction and supervision."
     }
    ]
   },
@@ -1224,7 +1221,7 @@
     "heading": "Das Wichtigste in Kürze",
     "items": [
      "Vier Prüfungen: Iz, Überlast, ΔU, Kurzschluss",
-     "Verlegeart und Häufung senken Iz",
+     "Ungünstige Verlegeart, Wärme, Häufung senken Iz",
      "Ib ≤ In ≤ Iz",
      "Zulässigen Wert nur aus gültiger Quelle",
      "Normen ändern sich: aktuelle Fassung prüfen"
@@ -1237,14 +1234,14 @@
      "en": "Let us summarise."
     },
     {
-     "de": "Ein Kabel muss vier Prüfungen bestehen: Belastbarkeit, Überlast, Spannungsfall und Kurzschluss.",
-     "ar": "يجب أن يجتاز الكبل أربعة فحوص: التحمل، والحمل الزائد، وهبوط الجهد، والقصر.",
-     "en": "A cable must pass four checks: capacity, overload, voltage drop and short circuit."
+     "de": "Ein Kabel muss vier Prüfungen bestehen: Strombelastbarkeit, Überlast, Spannungsfall und Kurzschluss.",
+     "ar": "يجب أن يجتاز الكابل أربعة فحوص: السعة التيارية، والحمل الزائد، وهبوط الجهد، والقصر الكهربائي.",
+     "en": "A cable must pass four checks: current-carrying capacity, overload, voltage drop and short circuit."
     },
     {
-     "de": "Verlegeart, Temperatur und Häufung senken die Strombelastbarkeit.",
-     "ar": "طريقة التمديد والحرارة والتجميع تخفض السعة التيارية.",
-     "en": "Installation method, temperature and grouping reduce the current-carrying capacity."
+     "de": "Ungünstige Verlegeart, Wärme und Häufung senken die Strombelastbarkeit.",
+     "ar": "طريقة التمديد غير المناسبة والحرارة والتجميع تخفض السعة التيارية.",
+     "en": "An unfavourable installation method, heat and grouping reduce the current-carrying capacity."
     },
     {
      "de": "Das Schutzgerät steht zwischen Betriebsstrom und Strombelastbarkeit.",
@@ -1253,12 +1250,12 @@
     },
     {
      "de": "Die Beispiele in diesem Video hatten erfundene Zahlen.",
-     "ar": "الأمثلة في هذا الفيديو كانت بأرقام مختلقة.",
-     "en": "The examples in this video used made-up numbers."
+     "ar": "الأمثلة في هذا الفيديو كانت بأرقام افتراضية.",
+     "en": "The examples in this video used hypothetical numbers."
     },
     {
      "de": "Gesetze und Normen ändern sich. Prüfen Sie immer die aktuelle Fassung.",
-     "ar": "القوانين والمعايير تتغير. تحققوا دائمًا من النسخة الحالية.",
+     "ar": "القوانين والمعايير تتغير. تحققوا دائمًا من الصيغة الحالية.",
      "en": "Laws and standards change. Always check the current version."
     },
     {
@@ -1287,7 +1284,7 @@
  "glossary": [
   {
    "de": "die Leitungsberechnung",
-   "ar": "حساب الكبلات",
+   "ar": "حساب الكابلات",
    "en": "cable sizing"
   },
   {
@@ -1302,13 +1299,13 @@
   },
   {
    "de": "die Häufung",
-   "ar": "التجميع (تجاور الكبلات)",
+   "ar": "تجميع الكابلات",
    "en": "grouping"
   },
   {
    "de": "der Umrechnungsfaktor",
    "ar": "معامل التصحيح",
-   "en": "conversion factor"
+   "en": "correction factor"
   },
   {
    "de": "der Betriebsstrom",
@@ -1380,72 +1377,72 @@
    },
    "options": [
     {
-     "de": "Ib ≤ In ≤ Iz",
-     "ar": "Ib ≤ In ≤ Iz",
-     "en": "Ib ≤ In ≤ Iz"
-    },
-    {
      "de": "In ≤ Ib ≤ Iz",
-     "ar": "In ≤ Ib ≤ Iz",
+     "ar": "التيار الاسمي ≤ تيار التشغيل ≤ السعة التيارية",
      "en": "In ≤ Ib ≤ Iz"
     },
     {
+     "de": "Ib ≤ In ≤ Iz",
+     "ar": "تيار التشغيل ≤ التيار الاسمي ≤ السعة التيارية",
+     "en": "Ib ≤ In ≤ Iz"
+    },
+    {
      "de": "Iz ≤ In ≤ Ib",
-     "ar": "Iz ≤ In ≤ Ib",
+     "ar": "السعة التيارية ≤ التيار الاسمي ≤ تيار التشغيل",
      "en": "Iz ≤ In ≤ Ib"
-    }
-   ],
-   "answer": 0
-  },
-  {
-   "q": {
-    "de": "Was senkt die Strombelastbarkeit eines Kabels?",
-    "ar": "ما الذي يخفض السعة التيارية للكبل؟",
-    "en": "What lowers the current-carrying capacity of a cable?"
-   },
-   "options": [
-    {
-     "de": "Eine kürzere Leitung",
-     "ar": "كبل أقصر",
-     "en": "A shorter cable"
-    },
-    {
-     "de": "Häufung und warme Umgebung",
-     "ar": "التجميع والبيئة الدافئة",
-     "en": "Grouping and a warm environment"
-    },
-    {
-     "de": "Ein kleinerer Strom",
-     "ar": "تيار أصغر",
-     "en": "A smaller current"
     }
    ],
    "answer": 1
   },
   {
    "q": {
+    "de": "Was senkt die Strombelastbarkeit eines Kabels?",
+    "ar": "ما الذي يخفض السعة التيارية للكابل؟",
+    "en": "What lowers the current-carrying capacity of a cable?"
+   },
+   "options": [
+    {
+     "de": "Häufung und warme Umgebung",
+     "ar": "التجميع والبيئة الدافئة",
+     "en": "Grouping and a warm environment"
+    },
+    {
+     "de": "Ein größerer Querschnitt",
+     "ar": "مقطع أكبر",
+     "en": "A larger cross-section"
+    },
+    {
+     "de": "Eine kürzere Leitung",
+     "ar": "كابل أقصر",
+     "en": "A shorter cable"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
     "de": "Warum wird der Spannungsfall bei langen Kabeln wichtig?",
-    "ar": "لماذا يصبح هبوط الجهد مهمًا في الكبلات الطويلة؟",
+    "ar": "لماذا يصبح هبوط الجهد مهمًا في الكابلات الطويلة؟",
     "en": "Why does voltage drop matter on long cables?"
    },
    "options": [
     {
-     "de": "Der Widerstand wächst mit der Länge",
-     "ar": "المقاومة تزداد مع الطول",
-     "en": "Resistance grows with length"
-    },
-    {
      "de": "Das Kabel wird billiger",
-     "ar": "يصبح الكبل أرخص",
+     "ar": "يصبح الكابل أرخص",
      "en": "The cable gets cheaper"
     },
     {
-     "de": "Die Spannung steigt",
-     "ar": "يرتفع الجهد",
-     "en": "The voltage rises"
+     "de": "Der Strom wird kleiner",
+     "ar": "يصبح التيار أصغر",
+     "en": "The current gets smaller"
+    },
+    {
+     "de": "Der Widerstand wächst mit der Länge",
+     "ar": "المقاومة تزداد مع الطول",
+     "en": "Resistance grows with length"
     }
    ],
-   "answer": 0
+   "answer": 2
   },
   {
    "q": {
@@ -1456,46 +1453,46 @@
    "options": [
     {
      "de": "Am Anfang der Leitung",
-     "ar": "عند بداية الكبل",
+     "ar": "عند بداية الكابل",
      "en": "At the start of the cable"
+    },
+    {
+     "de": "Am Ende der Leitung",
+     "ar": "عند نهاية الكابل",
+     "en": "At the end of the cable"
     },
     {
      "de": "In der Mitte",
      "ar": "في المنتصف",
      "en": "In the middle"
-    },
-    {
-     "de": "Am Ende der Leitung",
-     "ar": "عند نهاية الكبل",
-     "en": "At the end of the cable"
-    }
-   ],
-   "answer": 2
-  },
-  {
-   "q": {
-    "de": "Wie viele Sicherheitsregeln gibt es, und was ist Schritt eins?",
-    "ar": "كم عدد قواعد السلامة وما الخطوة الأولى؟",
-    "en": "How many safety rules are there, and what is step one?"
-   },
-   "options": [
-    {
-     "de": "Drei; Erden",
-     "ar": "ثلاث؛ التأريض",
-     "en": "Three; earthing"
-    },
-    {
-     "de": "Fünf; Freischalten",
-     "ar": "خمس؛ فصل الجهد",
-     "en": "Five; isolating"
-    },
-    {
-     "de": "Fünf; Abdecken",
-     "ar": "خمس؛ التغطية",
-     "en": "Five; covering"
     }
    ],
    "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welcher Schritt steht bei den fünf Sicherheitsregeln an erster Stelle?",
+    "ar": "أي خطوة تأتي أولًا في قواعد السلامة الخمس؟",
+    "en": "Which step comes first among the five safety rules?"
+   },
+   "options": [
+    {
+     "de": "Erden und Kurzschließen",
+     "ar": "التأريض والتقصير",
+     "en": "Earthing and short-circuiting"
+    },
+    {
+     "de": "Spannungsfreiheit allpolig feststellen",
+     "ar": "التحقق من انعدام الجهد في كل الأقطاب",
+     "en": "Verifying absence of voltage on all poles"
+    },
+    {
+     "de": "Freischalten",
+     "ar": "فصل الجهد",
+     "en": "Isolating"
+    }
+   ],
+   "answer": 2
   }
  ],
  "next": {
@@ -1503,5 +1500,5 @@
   "ar": "في الفيديو القادم نتناول الحماية من الصواعق والجهد الزائد.",
   "en": "The next video covers lightning and surge protection."
  },
- "stand": "2026-10-20; prüfen: aktuelle Ausgaben DIN VDE 0100-520 (2023-06) und Beiblatt 2 (2023-10), DIN VDE 0298-4 (2013-06 zurückgezogen, Nachfolger nicht ermittelt), DIN VDE 0100-430 (Neufassung im Entwurf, Status offen), DIN VDE 0100-410 und -600; zulässiger Spannungsfall und Abschaltzeiten bewusst nicht genannt; Lehrbeispiele mit erfundenen Zahlen"
+ "stand": "2026-10-20; prüfen: aktuelle Ausgaben DIN VDE 0100-520 (2023-06) und Beiblatt 2 (2023-10), DIN VDE 0298-4 (2013-06 zurückgezogen, Nachfolger nicht ermittelt), DIN VDE 0100-430 (Neufassung im Entwurf, Status offen), DIN VDE 0100-410 und -600; zulässiger Spannungsfall und Abschaltzeiten bewusst nicht genannt; abgeschwächt: Überlastschutz nur als Ib ≤ In ≤ Iz plus rechtzeitiges Auslösen, Faktoren nur bei Häufung/Wärme als Verringerung, keine Zuständigkeits- oder Haftungsaussage, keine pauschale Regel 'größerer Querschnitt'; Lehrbeispiele mit erfundenen Zahlen"
 }

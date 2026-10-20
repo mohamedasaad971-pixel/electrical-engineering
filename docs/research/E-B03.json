@@ -150,6 +150,11 @@
   "Konkrete Abschaltzeiten aus DIN VDE 0100-410 Tabelle 41.1: ausgabeabhängig, nur Lehrbuchwiedergabe.",
   "Nachfolgeausgabe von DIN VDE 0298-4 und Status des Entwurfs zu DIN VDE 0100-430: nicht verifiziert.",
   "Status von DIN VDE 0100-520 Beiblatt 1:2016-10: nicht ermittelt.",
-  "Bezugstemperaturen 30 °C/20 °C und 25 °C-Hinweis (ABB, 2013): widersprüchlich, nicht im Skript."
+  "Bezugstemperaturen 30 °C/20 °C und 25 °C-Hinweis (ABB, 2013): widersprüchlich, nicht im Skript.",
+  "Aussage 'Verantwortung liegt bei der Elektrofachkraft, die prüft und freigibt' (Rechts-/Haftungsaussage): entfernt, Zuständigkeit nach Vertrag/Aufgabenverteilung.",
+  "Aussage, die fünf Sicherheitsregeln gälten auch für nur planende Ingenieure: ersetzt durch 'Regeln kennen, Planung muss sicheres Arbeiten ermöglichen'.",
+  "Pauschal 'Umrechnungsfaktoren verkleinern das Ergebnis' und 'Risiko in gedämmten Wänden hoch': auf Häufung/Wärme bzw. 'kann stark sinken' abgeschwächt.",
+  "Pauschalregel 'bei Durchfall größeren Querschnitt wählen': ersetzt durch Anpassung von Querschnitt, Schutzgerät oder Verlegung.",
+  "Aussage 'alle drei Bedingungen' beim Überlastschutz / 'Kabel geschützt' absolut: ersetzt durch Reihenfolge plus rechtzeitiges Auslösen bei Überlast."
  ]
 }

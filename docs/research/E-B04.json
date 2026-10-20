@@ -175,6 +175,10 @@
   "Maße des Fundamenterders (Betondeckung, Anschlussfahne, Stahlquerschnitt)",
   "Erder Typ A/Typ B nach DIN 18014: Bezeichnung nicht belegt",
   "Verhalten bei Gewitter / Arbeitsverbote bei Gewitter: keine verifizierte Quelle",
-  "Kosten, Versicherungs- und Haftungsfragen"
+  "Kosten, Versicherungs- und Haftungsfragen",
+  "Entfernt/abgeschwächt im Skript (nicht durch Fakten gedeckt): Typ-3-Gerät ersetzt keine vorgeschaltete Stufe; Mängelbeseitigung 'ohne Verzögerung'; Kosten späterer Änderungen",
+  "Entfernt: Potentialausgleich schütze vor Bränden / Schutzgeräte arbeiten ohne ihn nicht gut; Häufigkeit kleiner Spannungsspitzen im Alltag; 'blanker Stahl' als Fundamenterder-Material",
+  "Entfernt: EMV-gerechtes Schutzkonzept, Daten- und Antennenleitungen, 'weltweit genutzt', Beuth Verlag, uneinheitliche Typnamen, 'in den letzten Jahren überarbeitet', Abstimmung mit der Behörde",
+  "Absolute Aussage 'nur eine Elektrofachkraft darf diese Arbeiten ausführen' ersetzt durch 'Elektrofachkraft oder unter deren Leitung und Aufsicht' (E-F04/DGUV V3); 'Abnahmeprotokoll' ersetzt durch Prüfprotokoll"
  ]
 }

@@ -147,13 +147,6 @@
    "source_name": "Hessische Bildungsverwaltung; Forschungsdatei E-F05",
    "confidence": "medium",
    "note": "Paraphrase, nicht Normwortlaut; Reihenfolge wie in E-F05."
-  },
-  {
-   "claim": "Eine Novellierung der HOAI wird diskutiert; nach Stand August 2026 lag kein Referentenentwurf vor, die Fassung 2021 gilt weiter.",
-   "source_url": "https://quostra.com/de-de/blog/hoai-leistungsphasen/hoai-novellierung-stand",
-   "source_name": "Quostra Blog; VBI; galk.de",
-   "confidence": "low",
-   "note": "Schnell veränderlich: nur allgemeiner Hinweis 'aktuelle Fassung prüfen'."
   }
  ],
  "dropped": [
@@ -164,6 +157,10 @@
   "GAEB-Austauschformat für Leistungsverzeichnisse (nicht in dieser Recherche belegt)",
   "Genaue Inhalte jeder Grundleistung der Anlage 15 je Phase (Volltext nicht vollständig abgerufen)",
   "Konkreter Zeitplan der HOAI-Novelle",
-  "Gesetzliche Verjährungsfristen für Mängelansprüche (Rechtsfrage)"
+  "Gesetzliche Verjährungsfristen für Mängelansprüche (Rechtsfrage)",
+  "Diskussion über eine HOAI-Novelle (low confidence, Blogs/Verbände; im Video nur 'kann sich künftig ändern')",
+  "Schaltschrank-Schaltpläne als feste Grundleistung der Phase 5 (nicht belegt; im Video nur 'je nach Vertrag')",
+  "Aussage, Firmen 'müssen' Mängel beseitigen (Rechtsfrage; im Video 'soweit der Vertrag das vorsieht')",
+  "Behauptung, die uneinheitliche Einführung der MLAR betreffe vor allem Treppenräume und Flure (nicht belegt)"
  ]
 }

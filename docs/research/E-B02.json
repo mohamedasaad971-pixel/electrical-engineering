@@ -1,6 +1,6 @@
 {
  "video": "E-B02",
- "stand": "2026-10-20",
+ "stand": "2026-10-20; Audit angewendet (E-B02): Aussagen zu Erdreich-Pfad, Pflicht des Schutzpotentialausgleichs, RCD im TN, Prüftaste und IT-Frist abgeschwächt bzw. entfernt",
  "facts": [
   {
    "claim": "Das Kurzzeichen der Netzsysteme besteht aus Buchstaben: Der erste beschreibt die Erdungsverhältnisse an der Spannungsquelle, der zweite die Erdung der Körper (Gehäuse) der Betriebsmittel.",
@@ -73,11 +73,11 @@
    "note": ""
   },
   {
-   "claim": "Bei einem ersten Isolationsfehler im IT-System kann die Anlage weiterlaufen; der Fehler soll so schnell wie möglich beseitigt werden (DIN VDE 0100-410, 411.6.3.1 laut Bender), die Frist liegt im Ermessen des Betreibers.",
+   "claim": "Bei einem ersten Isolationsfehler im IT-System kann die Anlage weiterlaufen; der Fehler soll so schnell wie möglich beseitigt werden (DIN VDE 0100-410, 411.6.3.1 laut Bender).",
    "source_url": "https://www.bender.de/fachwissen/technologie/it-system/",
    "source_name": "Bender (Hersteller Isolationsüberwachung)",
    "confidence": "medium",
-   "note": "Herstellerquelle. Keine Frist genannt; Abschnittsnummer nicht im Video."
+   "note": "Herstellerquelle. Keine Frist genannt; die frühere Aussage 'Frist im Ermessen des Betreibers' wurde entfernt (unbelegt, nach dropped verschoben). Abschnittsnummer nicht im Video."
   },
   {
    "claim": "Für den Betrieb eines IT-Systems schreibt die Norm ein Isolationsüberwachungsgerät vor, das den Isolationswiderstand dauernd misst und bei Unterschreiten eines Grenzwerts meldet, ohne die Stromversorgung zu unterbrechen.",
@@ -164,7 +164,7 @@
    "note": "Konkretes Intervall (halbjährlich) bewusst gedroppt: Herstellerangaben abweichend."
   },
   {
-   "claim": "Die fünf Sicherheitsregeln (E-F05): Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken. Reihenfolge 1 bis 5.",
+   "claim": "Die fünf Sicherheitsregeln (E-F05): Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken. Reihenfolge 1 bis 5. Beim Wiedereinschalten gilt die umgekehrte Reihenfolge (docs/research/E-F05.json).",
    "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
    "source_name": "Hessische Bildungsverwaltung (aus docs/research/E-F05.json)",
    "confidence": "medium",
@@ -184,6 +184,8 @@
   "Pflicht von RCD im Haushalt (Zusatzschutz 30 mA, Bereiche) - Primärnorm nötig",
   "TN-C: durchgehender PEN-Leiter; laut Fachquellen für Neuerrichtung nicht mehr zugelassen,  (low confidence)",
   "Die Aufteilung des PEN erfolgt in der Kundenanlage, nicht beim Netzbetreiber; der Netzbetr (low confidence)",
-  "Welche Netzform an einem Standort vorliegt, gibt der Netzbetreiber an. (low confidence)"
+  "Welche Netzform an einem Standort vorliegt, gibt der Netzbetreiber an. (low confidence)",
+  "Frist zur Fehlerbeseitigung im IT-System liegt im Ermessen des Betreibers - unbelegt (nur Herstellerseite)",
+  "Absolute Aussagen: Fehlerstrom im TN nie über das Erdreich; Schutzpotentialausgleich 'gilt für jedes Gebäude'; RCD ergänzt 'oft' den Schutz im TN; jeder RCD hat eine Prüftaste; RCD 'reagiert schon bei sehr kleinen Fehlerströmen'; 'Ort der Trennung entscheidet die Elektrofachkraft' - nicht belegt, abgeschwächt oder entfernt"
  ]
 }

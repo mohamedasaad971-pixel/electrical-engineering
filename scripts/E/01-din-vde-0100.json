@@ -2,7 +2,7 @@
  "id": "E-B01",
  "title": {
   "de": "Niederspannungsanlagen: DIN VDE 0100 im Überblick",
-  "ar": "منشآت الجهد المنخفض: نظرة عامة على سلسلة المعايير DIN VDE 0100",
+  "ar": "منشآت الجهد المنخفض: نظرة عامة على سلسلة معايير DIN VDE 0100 الألمانية",
   "en": "Low-Voltage Installations: DIN VDE 0100 at a Glance"
  },
  "scenes": [
@@ -25,7 +25,7 @@
     },
     {
      "de": "Heute geht es um die Normenreihe DIN VDE 0100.",
-     "ar": "موضوعنا اليوم هو سلسلة المعايير المعروفة بـ DIN VDE 0100 الخاصة بتركيبات الجهد المنخفض.",
+     "ar": "موضوعنا اليوم هو سلسلة المعايير المعروفة بـ DIN VDE 0100 الخاصة بمنشآت الجهد المنخفض.",
      "en": "Today we look at the DIN VDE 0100 series of standards.",
      "tts": "Heute geht es um die Normenreihe Din Fau-De-E null eins null null."
     },
@@ -40,9 +40,9 @@
      "en": "You will see which protection goal stands behind it."
     },
     {
-     "de": "Und Sie erfahren, wer solche Anlagen errichten darf.",
-     "ar": "وستعرفون من يحق له تركيب مثل هذه المنشآت.",
-     "en": "And you will learn who may install such systems."
+     "de": "Und Sie erfahren, wer solche Anlagen errichtet.",
+     "ar": "وستعرفون من يقوم بتركيب مثل هذه المنشآت.",
+     "en": "And you will learn who installs such systems."
     },
     {
      "de": "Das ist ein Überblick und keine Installationsanleitung.",
@@ -72,10 +72,10 @@
     "kicker": "Schutzziele",
     "heading": "Wozu gibt es diese Normenreihe?",
     "items": [
-     "Schutz von Menschen",
-     "Schutz von Nutztieren",
-     "Schutz von Sachwerten",
-     "Planung, Errichtung, Prüfung"
+     "Schutz vor Gefahren",
+     "Planung der Anlage",
+     "Errichtung der Anlage",
+     "Prüfung der Anlage"
     ],
     "terms": [
      {
@@ -92,9 +92,9 @@
      "en": "Why does this series of standards exist at all?"
     },
     {
-     "de": "Sie soll Menschen, Nutztiere und Sachwerte vor Gefahren schützen.",
-     "ar": "هدفها حماية البشر والمواشي والممتلكات من المخاطر.",
-     "en": "It should protect people, livestock and property from hazards."
+     "de": "Sie soll vor Gefahren in Niederspannungsanlagen schützen.",
+     "ar": "هدفها الحماية من المخاطر في منشآت الجهد المنخفض.",
+     "en": "It is meant to protect against hazards in low-voltage installations."
     },
     {
      "de": "Sie behandelt Planung, Errichtung und Prüfung von Niederspannungsanlagen.",
@@ -112,19 +112,9 @@
      "en": "The term low-voltage installation includes, for example, the electrical installation in buildings."
     },
     {
-     "de": "Sie begleitet eine Anlage also von der Planung bis zur Prüfung.",
-     "ar": "فهي ترافق المنشأة إذن من التخطيط حتى الفحص.",
-     "en": "So it accompanies a system from planning to testing."
-    },
-    {
-     "de": "Die Reihe nennt also drei Schutzgüter: Menschen, Nutztiere und Sachwerte.",
-     "ar": "فالسلسلة تذكر إذن ثلاثة عناصر مشمولة بالحماية: البشر والمواشي والممتلكات.",
-     "en": "So the series names three things to protect: people, livestock and property."
-    },
-    {
-     "de": "Schutz heißt hier also mehr als nur die Sicherheit von Personen.",
-     "ar": "فالحماية هنا تعني أكثر من أمان الأشخاص وحدهم.",
-     "en": "Protection here means more than the safety of people alone."
+     "de": "Sie begleitet eine Anlage von der Planung bis zur Prüfung.",
+     "ar": "فهي ترافق المنشأة من التخطيط حتى الفحص.",
+     "en": "It accompanies a system from planning to testing."
     }
    ]
   },
@@ -137,7 +127,7 @@
      "DIN VDE 0100 | Deutsche Normenreihe",
      "IEC 60364 | Internationale Reihe, sehr ähnlich",
      "HD 60364 | Europäische Harmonisierungsdokumente",
-     "DKE | Nationale Organisation für Normung",
+     "DKE | Fachstelle für Elektrotechnik in DIN, VDE",
      "Teil 600 | Übernahme von HD 60364-6"
     ]
    },
@@ -149,7 +139,7 @@
     },
     {
      "de": "DIN VDE 0100 ist die deutsche Normenreihe.",
-     "ar": "السلسلة المعيارية الألمانية هي DIN VDE 0100 بحد ذاتها.",
+     "ar": "سلسلة DIN VDE 0100 هي السلسلة الألمانية للمعايير.",
      "en": "DIN VDE 0100 is the German series of standards.",
      "tts": "Din Fau-De-E null eins null null ist die deutsche Normenreihe."
     },
@@ -177,10 +167,10 @@
      "tts": "Ein Beispiel ist Teil sechshundert, die Prüfungen, aus Ha-De sechs null drei sechs vier Strich sechs."
     },
     {
-     "de": "Zuständig für die deutsche Normung ist die DKE.",
-     "ar": "والجهة المسؤولة عن التقييس الألماني في هذا المجال هي هيئة (DKE) المتخصصة.",
-     "en": "The DKE is responsible for German standardisation here.",
-     "tts": "Zuständig für die deutsche Normung ist die De-Ka-E."
+     "de": "Für die Elektrotechnik erarbeitet die DKE, getragen von DIN und VDE, die deutschen Normen.",
+     "ar": "وفي الهندسة الكهربائية تتولى هيئة DKE، التي يدعمها DIN وVDE، إعداد المعايير الألمانية.",
+     "en": "For electrical engineering, the DKE, supported by DIN and VDE, prepares the German standards.",
+     "tts": "Für die Elektrotechnik erarbeitet die De-Ka-E, getragen von Din und Fau-De-E, die deutschen Normen."
     },
     {
      "de": "Wer Normen aus anderen Ländern kennt, erkennt deshalb vieles wieder.",
@@ -204,14 +194,14 @@
    "slide": {
     "layout": "table",
     "kicker": "Aufbau der Reihe",
-    "heading": "Die Gruppen 100 bis 700",
+    "heading": "Die Gruppen 100 bis 800",
     "items": [
      "100 und 200 | Grundsätze und Begriffe",
      "300 | früher: allgemeine Merkmale",
      "400 | Schutzmaßnahmen",
      "500 | Auswahl und Errichtung der Betriebsmittel",
      "600 | Prüfungen",
-     "700 | Besondere Betriebsstätten und Anlagen"
+     "700, 800 | Besondere Bereiche; Energieeffizienz"
     ],
     "terms": [
      {
@@ -233,10 +223,10 @@
      "en": "The series is divided into groups."
     },
     {
-     "de": "Die Gruppen tragen die Nummern 100 bis 700.",
-     "ar": "وتحمل المجموعات الأرقام من ١٠٠ حتى ٧٠٠.",
-     "en": "The groups carry the numbers 100 to 700.",
-     "tts": "Die Gruppen tragen die Nummern hundert bis siebenhundert."
+     "de": "Die Gruppen tragen die Nummern 100 bis 700; dazu kommt eine Gruppe 800 zur Energieeffizienz.",
+     "ar": "وتحمل المجموعات الأرقام من ١٠٠ حتى ٧٠٠، وتضاف إليها مجموعة ٨٠٠ الخاصة بكفاءة الطاقة.",
+     "en": "The groups carry the numbers 100 to 700; in addition there is a group 800 on energy efficiency.",
+     "tts": "Die Gruppen tragen die Nummern hundert bis siebenhundert; dazu kommt eine Gruppe achthundert zur Energieeffizienz."
     },
     {
      "de": "Die Gruppen 100 und 200 behandeln Grundsätze und Begriffe.",
@@ -245,10 +235,10 @@
      "tts": "Die Gruppen hundert und zweihundert behandeln Grundsätze und Begriffe."
     },
     {
-     "de": "Die frühere Gruppe 300 führen neuere Übersichten nicht mehr als eigene Gruppe.",
+     "de": "Neuere Übersichten führen die frühere Gruppe 300 nicht mehr als eigene Gruppe.",
      "ar": "أما المجموعة ٣٠٠ السابقة فلا تُدرج في الملخصات الأحدث كمجموعة مستقلة.",
      "en": "Newer overviews no longer list the former group 300 as a separate group.",
-     "tts": "Die frühere Gruppe dreihundert führen neuere Übersichten nicht mehr als eigene Gruppe."
+     "tts": "Neuere Übersichten führen die frühere Gruppe dreihundert nicht mehr als eigene Gruppe."
     },
     {
      "de": "Die Gruppe 400 enthält die Schutzmaßnahmen.",
@@ -269,11 +259,6 @@
      "tts": "Die Gruppe sechshundert steht für Prüfungen, die Gruppe siebenhundert für besondere Bereiche."
     },
     {
-     "de": "Merken Sie sich die Reihenfolge: Grundsätze, Schutz, Betriebsmittel, Prüfung.",
-     "ar": "احفظوا التسلسل: المبادئ، ثم الحماية، ثم المعدات، ثم الفحص.",
-     "en": "Remember the order: principles, protection, equipment, testing."
-    },
-    {
      "de": "Die Gruppe 700 ist ein Zusatz für Sonderfälle.",
      "ar": "والمجموعة ٧٠٠ إضافة للحالات الخاصة.",
      "en": "Group 700 is an addition for special cases.",
@@ -283,6 +268,11 @@
      "de": "Diese Struktur finden Sie im Kern auch in der internationalen Reihe wieder.",
      "ar": "وهذه البنية تجدونها في جوهرها في السلسلة الدولية أيضًا.",
      "en": "You find this structure in essence in the international series as well."
+    },
+    {
+     "de": "Merken Sie sich die Reihenfolge: Grundsätze, Schutz, Betriebsmittel, Prüfung.",
+     "ar": "احفظوا التسلسل: المبادئ، ثم الحماية، ثم المعدات، ثم الفحص.",
+     "en": "Remember the order: principles, protection, equipment, testing."
     }
    ]
   },
@@ -447,10 +437,10 @@
      "tts": "Teil fünf zwei null behandelt Kabel- und Leitungsanlagen."
     },
     {
-     "de": "Teil 540 behandelt Erdung, Schutzleiter und Schutzpotentialausgleich.",
-     "ar": "ويتناول الجزء ٥٤٠ التأريض وموصل الحماية والتوصيل الأرضي الوقائي المتساوي الجهد.",
-     "en": "Part 540 deals with earthing, protective conductors and protective equipotential bonding.",
-     "tts": "Teil fünf vier null behandelt Erdung, Schutzleiter und Schutzpotentialausgleich."
+     "de": "Teil 540 behandelt Erdung und Schutzleiter, dazu gehört auch der Schutzpotentialausgleich.",
+     "ar": "ويتناول الجزء ٥٤٠ التأريض وموصل الحماية، ويشمل ذلك الربط الوقائي المتساوي الجهد.",
+     "en": "Part 540 deals with earthing and protective conductors; protective equipotential bonding is part of it.",
+     "tts": "Teil fünf vier null behandelt Erdung und Schutzleiter, dazu gehört auch der Schutzpotentialausgleich."
     },
     {
      "de": "Das Thema Erdung vertiefen wir im nächsten Video.",
@@ -459,9 +449,9 @@
     },
     {
      "de": "Erdung und Schutzleiter erklären wir dort zusammen mit dem Thema RCD.",
-     "ar": "وسنشرح هناك التأريض وموصل الحماية مع موضوع (RCD) الحماية من التيار المتبقي.",
+     "ar": "وسنشرح هناك التأريض وموصل الحماية مع موضوع جهاز (RCD) الحماية من تيار العطل.",
      "en": "There we explain earthing and the protective conductor together with the topic RCD.",
-     "tts": "Erdung und Schutzleiter erklären wir dort zusammen mit dem Thema Er-Ce-De."
+     "tts": "Erdung und Schutzleiter erklären wir dort zusammen mit dem Thema Er-Ze-De."
     }
    ]
   },
@@ -509,7 +499,7 @@
     },
     {
      "de": "Die Norm beschreibt Besichtigen, Erproben und Messen sowie einen Bericht.",
-     "ar": "ويصف المعيار المعاينة والاختبار والقياس، إضافة إلى تقرير.",
+     "ar": "ويصف المعيار المعاينة والاختبار والقياس، إضافة إلى محضر الفحص.",
      "en": "The standard describes inspecting, testing and measuring, plus a report."
     },
     {
@@ -518,9 +508,9 @@
      "en": "We deliberately do not give measured values or test sequence here."
     },
     {
-     "de": "Sie gehören in die Norm und in die Hand einer Elektrofachkraft.",
-     "ar": "مكانها المعيار نفسه ويد الكهربائي المؤهَّل (Elektrofachkraft) المختص.",
-     "en": "They belong in the standard and in the hands of a qualified electrician."
+     "de": "Sie stehen in der Norm; ausgeführt werden die Prüfungen von einer Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+     "ar": "فهي مذكورة في المعيار نفسه، ويُجرى الفحص بواسطة الكهربائي المؤهَّل (Elektrofachkraft) أو تحت إدارته وإشرافه.",
+     "en": "They are in the standard; the tests are carried out by a qualified electrician or under their direction and supervision."
     },
     {
      "de": "Die Norm sieht die Prüfung als festen Schritt vor der Inbetriebnahme vor.",
@@ -586,11 +576,6 @@
      "de": "In der Praxis liest man solche Teile gemeinsam mit den Grundteilen.",
      "ar": "وعمليًا تُقرأ هذه الأجزاء مع الأجزاء الأساسية معًا.",
      "en": "In practice, such parts are read together with the basic parts."
-    },
-    {
-     "de": "Die Reihe deckt also auch moderne Anlagen wie Photovoltaik ab.",
-     "ar": "إذن تغطي السلسلة منشآت حديثة أيضًا مثل الخلايا الكهروضوئية.",
-     "en": "So the series also covers modern systems such as photovoltaics."
     }
    ]
   },
@@ -659,9 +644,9 @@
      "en": "So always check the current edition."
     },
     {
-     "de": "Die Nummer hinter dem Strich nennt also den Teil der Reihe.",
-     "ar": "فالرقم بعد الشرطة يحدد إذن الجزء من السلسلة.",
-     "en": "So the number after the dash names the part of the series."
+     "de": "Die Nummer hinter dem Strich nennt den Teil der Reihe.",
+     "ar": "فالرقم بعد الشرطة يحدد الجزء من السلسلة.",
+     "en": "The number after the dash names the part of the series."
     },
     {
      "de": "So finden Sie im Katalog schnell den passenden Teil.",
@@ -710,14 +695,9 @@
      "en": "The first level is called basic protection."
     },
     {
-     "de": "Zuerst betrachtet man den fehlerfreien Zustand der Anlage.",
-     "ar": "أولًا ننظر إلى حالة المنشأة السليمة من الأعطال.",
-     "en": "First one looks at the fault-free state of the installation."
-    },
-    {
-     "de": "Danach fragt man, was bei einem Fehler geschieht.",
-     "ar": "ثم نسأل ماذا يحدث عند وقوع عطل.",
-     "en": "Then one asks what happens in the event of a fault."
+     "de": "Dabei betrachtet man zuerst den fehlerfreien Zustand der Anlage.",
+     "ar": "وهنا ننظر أولًا إلى حالة المنشأة السليمة من الأعطال.",
+     "en": "Here one first looks at the fault-free state of the installation."
     },
     {
      "de": "Die zweite Ebene heißt Fehlerschutz.",
@@ -725,9 +705,14 @@
      "en": "The second level is called fault protection."
     },
     {
-     "de": "Beide Ebenen sollen Menschen und Nutztiere schützen.",
-     "ar": "ويهدف المستويان معًا إلى حماية البشر والمواشي.",
-     "en": "Both levels should protect people and livestock."
+     "de": "Dabei fragt man, was bei einem Fehler geschieht.",
+     "ar": "وهنا نسأل ماذا يحدث عند وقوع عطل.",
+     "en": "Here one asks what happens in the event of a fault."
+    },
+    {
+     "de": "Beide Ebenen dienen dem Schutz gegen elektrischen Schlag.",
+     "ar": "ويخدم المستويان معًا الحماية من الصدمة الكهربائية.",
+     "en": "Both levels serve protection against electric shock."
     },
     {
      "de": "Teil 410 ist deshalb für Planer und Prüfer zentral.",
@@ -745,7 +730,7 @@
     "items": [
      "Basisschutz | Aktive Teile nicht berührbar",
      "Zum Beispiel | Isolierung oder Gehäuse",
-     "Fehlerschutz | Keine gefährliche Berührungsspannung",
+     "Fehlerschutz | Keine gefährliche Spannung",
      "Gemeint ist | der Fehlerfall",
      "Alte Namen | direktes und indirektes Berühren"
     ],
@@ -804,9 +789,9 @@
      "en": "It should not appear on conductive parts, or not persist."
     },
     {
-     "de": "Alte Namen waren Schutz gegen direktes und bei indirektem Berühren.",
-     "ar": "وكانت الأسماء القديمة الحماية من التلامس المباشر وعند التلامس غير المباشر.",
-     "en": "Old names were protection against direct and indirect contact."
+     "de": "Alte Namen waren Schutz gegen direktes Berühren und Schutz bei indirektem Berühren.",
+     "ar": "وكانت الأسماء القديمة الحماية من التلامس المباشر والحماية عند التلامس غير المباشر.",
+     "en": "Old names were protection against direct contact and protection against indirect contact."
     },
     {
      "de": "Merken Sie sich: Der Basisschutz wirkt im Normalbetrieb, der Fehlerschutz im Fehlerfall.",
@@ -870,24 +855,14 @@
      "en": "Protective separation applies to a single item of equipment."
     },
     {
-     "de": "Dabei bleibt der Basisschutz zusätzlich nötig.",
-     "ar": "وتبقى الحماية الأساسية لازمة إضافةً إلى ذلك.",
-     "en": "Basic protection is still required in addition."
-    },
-    {
-     "de": "Welche Maßnahme passt, entscheidet die Planung nach der Norm.",
-     "ar": "أي إجراء يناسب يقرره التخطيط وفق المعيار.",
-     "en": "Which measure fits is decided in planning according to the standard."
+     "de": "Welche Maßnahme passt, entscheidet die Planung nach der Norm und nach Art der Anlage.",
+     "ar": "أي إجراء يناسب تقرره عملية التخطيط وفق المعيار ووفق نوع المنشأة.",
+     "en": "Which measure fits is decided in planning according to the standard and the type of installation."
     },
     {
      "de": "Zahlen und Abschaltzeiten nennen wir hier nicht.",
      "ar": "لا نذكر هنا أرقامًا ولا أزمنة الفصل.",
      "en": "We do not give numbers or disconnection times here."
-    },
-    {
-     "de": "Welche Maßnahme sinnvoll ist, hängt von der Anlage und ihrer Nutzung ab.",
-     "ar": "وأي إجراء مناسب يعتمد على المنشأة وطريقة استخدامها.",
-     "en": "Which measure makes sense depends on the installation and its use."
     }
    ]
   },
@@ -965,29 +940,29 @@
     "kicker": "Dokumentation",
     "heading": "Der Prüfbericht",
     "items": [
-     "Besichtigung festhalten",
-     "Geprüfte Stromkreise nennen",
-     "Ergebnisse aufführen",
-     "Verantwortliche erkennbar"
+     "Ergebnisse der Besichtigung",
+     "Ergebnisse des Erprobens",
+     "Ergebnisse des Messens",
+     "Ergebnisse festhalten"
     ],
     "terms": [
      {
-      "de": "der Stromkreis",
-      "ar": "دارة كهربائية",
-      "en": "circuit"
+      "de": "der Prüfbericht",
+      "ar": "محضر الفحص",
+      "en": "test report"
      }
     ]
    },
    "lines": [
     {
      "de": "Zur Prüfung gehört ein schriftlicher Bericht.",
-     "ar": "يُلحق بالفحص تقرير مكتوب.",
+     "ar": "يُلحق بالفحص محضر مكتوب.",
      "en": "A written report belongs to the test."
     },
     {
-     "de": "Er enthält die Besichtigung, die geprüften Stromkreise und die Ergebnisse.",
-     "ar": "ويتضمن المعاينة والدارات الكهربائية التي فُحصت والنتائج.",
-     "en": "It contains the inspection, the tested circuits and the results."
+     "de": "Er enthält die Ergebnisse der Besichtigung, des Erprobens und des Messens.",
+     "ar": "ويتضمن نتائج المعاينة والاختبار والقياس.",
+     "en": "It contains the results of inspecting, testing and measuring."
     },
     {
      "de": "Die Verantwortlichen für Planung, Errichtung und Prüfung übergeben ihn dem Auftraggeber.",
@@ -995,13 +970,8 @@
      "en": "Those responsible for planning, erection and testing hand it to the client."
     },
     {
-     "de": "Aus dem Bericht soll hervorgehen, wer wofür verantwortlich ist.",
-     "ar": "ويجب أن يظهر من التقرير من المسؤول عن ماذا.",
-     "en": "The report should show who is responsible for what."
-    },
-    {
      "de": "Eine Elektrofachkraft erstellt oder bestätigt den Bericht.",
-     "ar": "والكهربائي المؤهَّل (Elektrofachkraft) هو من يعدّ التقرير أو يؤكده.",
+     "ar": "والكهربائي المؤهَّل (Elektrofachkraft) هو من يعدّ المحضر أو يؤكده.",
      "en": "A qualified electrician prepares or confirms the report."
     },
     {
@@ -1016,7 +986,7 @@
     },
     {
      "de": "Gute Berichte helfen auch später, wenn jemand die Anlage verstehen muss.",
-     "ar": "والتقارير الجيدة تفيد لاحقًا أيضًا حين يحتاج أحد إلى فهم المنشأة.",
+     "ar": "والمحاضر الجيدة تفيد لاحقًا أيضًا حين يحتاج أحد إلى فهم المنشأة.",
      "en": "Good reports also help later, when someone has to understand the system."
     }
    ]
@@ -1025,7 +995,7 @@
    "slide": {
     "layout": "cards",
     "kicker": "Elektrofachkraft",
-    "heading": "Wer darf errichten?",
+    "heading": "Wer errichtet und ändert Anlagen?",
     "items": [
      "Aufgabe: Errichten, Ändern, Instandhalten",
      "Oder: unter Leitung und Aufsicht",
@@ -1035,9 +1005,9 @@
    },
    "lines": [
     {
-     "de": "Wer darf solche Anlagen errichten?",
-     "ar": "من يحق له تركيب مثل هذه المنشآت؟",
-     "en": "Who may install such systems?"
+     "de": "Wer errichtet solche Anlagen?",
+     "ar": "من يقوم بتركيب مثل هذه المنشآت؟",
+     "en": "Who erects such systems?"
     },
     {
      "de": "Nach der DGUV Vorschrift 3 gilt: Das macht eine Elektrofachkraft.",
@@ -1048,11 +1018,11 @@
     {
      "de": "Gemeint sind Errichten, Ändern und Instandhalten.",
      "ar": "والمقصود التركيب والتعديل والصيانة.",
-     "en": "Meant are erecting, changing and maintaining."
+     "en": "This means erecting, modifying and maintaining."
     },
     {
      "de": "Oder die Arbeit erfolgt unter deren Leitung und Aufsicht.",
-     "ar": "أو يتم العمل تحت إشرافه وتوجيهه.",
+     "ar": "أو يتم العمل تحت إدارته وإشرافه.",
      "en": "Or the work is done under their direction and supervision."
     },
     {
@@ -1061,19 +1031,9 @@
      "en": "A qualified electrician assesses work through training, knowledge and experience."
     },
     {
-     "de": "Der Begriff beschreibt eine Befähigung, keine Berufsbezeichnung.",
-     "ar": "فالمصطلح يصف كفاءة وليس مسمى وظيفيًا.",
-     "en": "The term describes a qualification, not a job title."
-    },
-    {
-     "de": "Ein Laie darf keine elektrotechnischen Arbeiten selbstständig ausführen.",
-     "ar": "وغير المؤهَّل لا يجوز له تنفيذ أعمال كهربائية بمفرده.",
-     "en": "A layperson may not carry out electrical work independently."
-    },
-    {
-     "de": "Die Qualifikation gilt immer für einen bestimmten Arbeitsbereich.",
-     "ar": "والتأهيل يسري دائمًا على مجال عمل محدد.",
-     "en": "The qualification always applies to a specific field of work."
+     "de": "Ein Laie führt keine elektrotechnischen Arbeiten selbstständig aus.",
+     "ar": "والشخص غير المؤهَّل (Laie) لا ينفّذ أعمالًا كهربائية بمفرده.",
+     "en": "A layperson does not carry out electrical work independently."
     },
     {
      "de": "Mehr dazu finden Sie im Video über die Elektrofachkraft.",
@@ -1118,10 +1078,10 @@
      "en": "For the grid connection there is an additional rule."
     },
     {
-     "de": "Nach § 13 NAV führt der Netzbetreiber ein Installateurverzeichnis.",
-     "ar": "وفق المادة ١٣ من لائحة NAV يحتفظ مشغّل الشبكة بسجل للمركِّبين المعتمدين (Installateurverzeichnis) لديه.",
-     "en": "Under section 13 of the NAV, the network operator keeps an installer directory.",
-     "tts": "Nach Paragraf dreizehn En-A-Fau führt der Netzbetreiber ein Installateurverzeichnis."
+     "de": "Nach § 13 der Niederspannungsanschlussverordnung, kurz NAV, führt der Netzbetreiber ein Installateurverzeichnis.",
+     "ar": "وفق المادة ١٣ من لائحة التوصيل بشبكة الجهد المنخفض (NAV) يحتفظ مشغّل الشبكة بسجل للمركِّبين المعتمدين (Installateurverzeichnis) لديه.",
+     "en": "Under section 13 of the Low-Voltage Connection Ordinance (NAV), the network operator keeps an installer directory.",
+     "tts": "Nach Paragraf dreizehn der Niederspannungsanschlussverordnung, kurz En-A-Fau, führt der Netzbetreiber ein Installateurverzeichnis."
     },
     {
      "de": "Arbeiten am Anschluss an das Niederspannungsnetz führt außer dem Netzbetreiber nur ein eingetragenes Unternehmen aus.",
@@ -1132,10 +1092,10 @@
      "de": "Die Grundsätze von BDEW und ZVEH nennen Anforderungen für die Eintragung.",
      "ar": "وتذكر مبادئ BDEW وZVEH متطلبات التسجيل في السجل.",
      "en": "The principles of BDEW and ZVEH name requirements for registration.",
-     "tts": "Die Grundsätze von Be-De-E-We und Zet-Fau-E-Ha nennen Anforderungen für die Eintragung."
+     "tts": "Die Grundsätze von Be-De-E-We und Zett-Fau-E-Ha nennen Anforderungen für die Eintragung."
     },
     {
-     "de": "Dazu zählen die Handwerksrolle und eine Verantwortliche Elektrofachkraft mit Sachkundenachweis.",
+     "de": "Dazu zählen die Handwerksrolle und eine verantwortliche Elektrofachkraft mit Sachkundenachweis.",
      "ar": "منها القيد في سجل الحرف وكهربائي مؤهَّل مسؤول يحمل شهادة الكفاءة.",
      "en": "These include the trade register and a responsible qualified electrician with proof of expertise."
     },
@@ -1164,7 +1124,7 @@
     "items": [
      "1. Freischalten",
      "2. Gegen Wiedereinschalten sichern",
-     "3. Spannungsfreiheit feststellen",
+     "3. Spannungsfreiheit allpolig feststellen",
      "4. Erden und Kurzschließen",
      "5. Benachbarte Teile abdecken oder abschranken"
     ]
@@ -1188,9 +1148,9 @@
      "tts": "Diese stehen in Din Fau-De-E null eins null fünf Strich eins null null."
     },
     {
-     "de": "Erstens: Freischalten. Zweitens: gegen Wiedereinschalten sichern. Drittens: Spannungsfreiheit feststellen.",
-     "ar": "أولًا: فصل الجهد. ثانيًا: تأمين المنشأة ضد إعادة التشغيل. ثالثًا: التحقق من انعدام الجهد.",
-     "en": "First: isolate. Second: secure against reconnection. Third: verify absence of voltage."
+     "de": "Erstens: Freischalten. Zweitens: gegen Wiedereinschalten sichern. Drittens: Spannungsfreiheit allpolig feststellen.",
+     "ar": "أولًا: فصل الجهد. ثانيًا: التأمين ضد إعادة التشغيل. ثالثًا: التحقق من انعدام الجهد في جميع الأقطاب.",
+     "en": "First: isolate. Second: secure against reconnection. Third: verify absence of voltage on all poles."
     },
     {
      "de": "Viertens: erden und kurzschließen. Fünftens: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
@@ -1206,11 +1166,6 @@
      "de": "Zuerst kommt immer Regel eins, das Freischalten.",
      "ar": "في البداية تأتي دائمًا القاعدة الأولى، أي فصل الجهد.",
      "en": "First comes rule one, isolating."
-    },
-    {
-     "de": "Beim Wiedereinschalten gilt die umgekehrte Reihenfolge.",
-     "ar": "وعند إعادة التشغيل يكون الترتيب معكوسًا.",
-     "en": "When switching back on, the order is reversed."
     },
     {
      "de": "Ein gutes Schutzkonzept in der Anlage ersetzt sie bei der Arbeit nicht.",
@@ -1230,7 +1185,7 @@
     "kicker": "Zusammenfassung",
     "heading": "Das Wichtigste in Kürze",
     "items": [
-     "Aufbau: Gruppen 100 bis 700",
+     "Aufbau: Gruppen 100 bis 800",
      "Schutzziel: kein elektrischer Schlag",
      "Basisschutz und Fehlerschutz",
      "Ablauf: planen, errichten, prüfen",
@@ -1244,10 +1199,10 @@
      "en": "Let us summarise."
     },
     {
-     "de": "DIN VDE 0100 ist in die Gruppen 100 bis 700 gegliedert.",
-     "ar": "المعيار DIN VDE 0100 مقسّم إلى مجموعات من ١٠٠ إلى ٧٠٠.",
-     "en": "DIN VDE 0100 is divided into groups 100 to 700.",
-     "tts": "Din Fau-De-E null eins null null ist in die Gruppen hundert bis siebenhundert gegliedert."
+     "de": "DIN VDE 0100 ist in Gruppen gegliedert, von 100 bis 700 und dazu 800.",
+     "ar": "المعيار DIN VDE 0100 مقسّم إلى مجموعات من ١٠٠ إلى ٧٠٠، وتضاف إليها ٨٠٠.",
+     "en": "DIN VDE 0100 is divided into groups, from 100 to 700 and in addition 800.",
+     "tts": "Din Fau-De-E null eins null null ist in Gruppen gegliedert, von hundert bis siebenhundert und dazu achthundert."
     },
     {
      "de": "Die Gruppe 400 enthält die Schutzmaßnahmen, die Gruppe 600 die Prüfungen.",
@@ -1266,9 +1221,9 @@
      "en": "Planning, erection and testing belong together."
     },
     {
-     "de": "Errichten dürfen Elektrofachkräfte oder Personen unter ihrer Aufsicht.",
-     "ar": "التركيب يقوم به الكهربائيون المؤهَّلون أو أشخاص تحت إشرافهم.",
-     "en": "Erecting is done by qualified electricians or people under their supervision."
+     "de": "Errichten, Ändern und Instandhalten erfolgt durch Elektrofachkräfte oder unter ihrer Leitung und Aufsicht.",
+     "ar": "يقوم بالتركيب والتعديل والصيانة كهربائيون مؤهَّلون أو يتم ذلك تحت إدارتهم وإشرافهم.",
+     "en": "Erecting, changing and maintaining is done by qualified electricians or under their direction and supervision."
     },
     {
      "de": "Für den Netzanschluss zählt zusätzlich das Installateurverzeichnis.",
@@ -1326,15 +1281,15 @@
      "en": "It is neither legal advice nor engineering advice."
     },
     {
-     "de": "Arbeiten an Anlagen führt nur eine Elektrofachkraft nach den fünf Sicherheitsregeln aus.",
-     "ar": "والعمل على المنشآت ينفذه الكهربائي المؤهَّل وفق قواعد السلامة الخمس.",
-     "en": "Work on installations is done only by a qualified electrician following the five safety rules."
+     "de": "Arbeiten an elektrischen Anlagen gehören in die Hand einer Elektrofachkraft oder erfolgen unter deren Leitung und Aufsicht, jeweils nach den fünf Sicherheitsregeln.",
+     "ar": "الأعمال على المنشآت الكهربائية من اختصاص الكهربائي المؤهَّل (Elektrofachkraft) أو تُنفَّذ تحت إدارته وإشرافه، وفق قواعد السلامة الخمس.",
+     "en": "Work on electrical installations belongs in the hands of a qualified electrician or is carried out under their direction and supervision, following the five safety rules."
     },
     {
      "de": "Im nächsten Video geht es um Erdungssysteme und RCD.",
-     "ar": "في الفيديو القادم نتناول أنظمة التأريض وأجهزة (RCD) الحماية من التيار المتبقي.",
+     "ar": "في الفيديو القادم نتناول أنظمة التأريض وجهاز (RCD) الحماية من تيار العطل.",
      "en": "The next video covers earthing systems and RCDs.",
-     "tts": "Im nächsten Video geht es um Erdungssysteme und Er-Ce-De."
+     "tts": "Im nächsten Video geht es um Erdungssysteme und Er-Ze-De."
     }
    ]
   }
@@ -1397,7 +1352,7 @@
   },
   {
    "de": "der Prüfbericht",
-   "ar": "تقرير الفحص",
+   "ar": "محضر الفحص",
    "en": "test report"
   },
   {
@@ -1412,7 +1367,7 @@
   },
   {
    "de": "die Elektrofachkraft",
-   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "ar": "الكهربائي المؤهَّل",
    "en": "qualified electrician"
   },
   {
@@ -1441,17 +1396,17 @@
    "options": [
     {
      "de": "Gruppe 400",
-     "ar": "المجموعة 400",
+     "ar": "المجموعة ٤٠٠ من السلسلة",
      "en": "Group 400"
     },
     {
      "de": "Gruppe 500",
-     "ar": "المجموعة 500",
+     "ar": "المجموعة ٥٠٠ من السلسلة",
      "en": "Group 500"
     },
     {
      "de": "Gruppe 600",
-     "ar": "المجموعة 600",
+     "ar": "المجموعة ٦٠٠ من السلسلة",
      "en": "Group 600"
     }
    ],
@@ -1491,17 +1446,17 @@
    "options": [
     {
      "de": "In DIN VDE 0100-600",
-     "ar": "في DIN VDE 0100-600",
+     "ar": "في معيار DIN VDE 0100-600 نفسه",
      "en": "In DIN VDE 0100-600"
     },
     {
      "de": "In DIN VDE 0105-100",
-     "ar": "في DIN VDE 0105-100",
+     "ar": "في معيار DIN VDE 0105-100 نفسه",
      "en": "In DIN VDE 0105-100"
     },
     {
      "de": "In DIN VDE 0100-712",
-     "ar": "في DIN VDE 0100-712",
+     "ar": "في معيار DIN VDE 0100-712 نفسه",
      "en": "In DIN VDE 0100-712"
     }
    ],
@@ -1515,6 +1470,11 @@
    },
    "options": [
     {
+     "de": "Die DKE",
+     "ar": "هيئة DKE للتقييس",
+     "en": "The DKE"
+    },
+    {
      "de": "Der Auftraggeber",
      "ar": "الجهة المُشغِّلة للمشروع",
      "en": "The client"
@@ -1523,45 +1483,40 @@
      "de": "Der Netzbetreiber",
      "ar": "مشغّل الشبكة",
      "en": "The network operator"
-    },
-    {
-     "de": "Die DKE",
-     "ar": "هيئة DKE",
-     "en": "The DKE"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
-    "de": "Welche Gruppe gilt zusätzlich für besondere Räume wie Baustellen?",
-    "ar": "أي مجموعة تسري إضافةً على الأماكن الخاصة مثل مواقع البناء؟",
+    "de": "Welche Gruppe gilt zusätzlich für besondere Bereiche wie Baustellen?",
+    "ar": "أي مجموعة تسري إضافةً إلى المجموعات الأخرى على الأماكن الخاصة مثل مواقع البناء؟",
     "en": "Which group applies additionally to special areas such as construction sites?"
    },
    "options": [
     {
+     "de": "Gruppe 500",
+     "ar": "المجموعة ٥٠٠ من السلسلة",
+     "en": "Group 500"
+    },
+    {
      "de": "Gruppe 700",
-     "ar": "المجموعة 700",
+     "ar": "المجموعة ٧٠٠ من السلسلة",
      "en": "Group 700"
     },
     {
      "de": "Gruppe 100",
-     "ar": "المجموعة 100",
+     "ar": "المجموعة ١٠٠ من السلسلة",
      "en": "Group 100"
-    },
-    {
-     "de": "Gruppe 500",
-     "ar": "المجموعة 500",
-     "en": "Group 500"
     }
    ],
-   "answer": 0
+   "answer": 1
   }
  ],
  "next": {
   "de": "Im nächsten Video geht es um Erdungssysteme und RCD.",
-  "ar": "في الفيديو القادم نتناول أنظمة التأريض وأجهزة الحماية من التيار المتبقي (RCD).",
+  "ar": "في الفيديو القادم نتناول أنظمة التأريض وجهاز (RCD) الحماية من تيار العطل.",
   "en": "The next video covers earthing systems and RCDs."
  },
- "stand": "2026-10-20; vor Veröffentlichung prüfen: aktuelle Ausgaben und Entwürfe von DIN VDE 0100-100 (Entwurf 2024-04), -410 (2018-10), -600 (2017-06, Entwurf 2025-12), -712; Gruppe 300 und Teiltitel der Gruppen 400/500 gegen DKE/VDE VERLAG; § 13 NAV und BDEW/ZVEH-Grundsätze; Wortlaut DIN VDE 0105-100 (Sicherheitsregeln, nur sekundär belegt)"
+ "stand": "2026-10-20; vor Veröffentlichung prüfen: aktuelle Ausgaben und Entwürfe von DIN VDE 0100-100 (Entwurf 2024-04), -410 (2018-10), -600 (2017-06, Entwurf 2025-12), -712; Gruppe 300 und Teiltitel der Gruppen 400/500 gegen DKE/VDE VERLAG; § 13 NAV und BDEW/ZVEH-Grundsätze; Wortlaut DIN VDE 0105-100 (Sicherheitsregeln, nur sekundär belegt); Regel 3 'allpolig' (E-F05/TERMS, Normwortlaut nicht geprüft); Gruppe 800 (DIN VDE 0100-801) nur beiläufig; Zuständigkeit DKE aus E-F02; Wortlaut § 13 NAV (Abs. 2) gegen gesetze-im-internet.de prüfen; Schutzgüter, Prüfberichtsinhalt und Verfahrensaussagen bewusst nicht belegt und entfernt"
 }

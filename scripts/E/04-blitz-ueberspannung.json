@@ -39,7 +39,7 @@
     },
     {
      "de": "Das hilft Ihnen im Gespräch mit Planern und Fachkräften in Deutschland.",
-     "ar": "هذا يساعدكم في الحديث مع المخططين والمؤهَّلين في ألمانيا.",
+     "ar": "هذا يساعدكم في الحديث مع المخططين والمختصين في ألمانيا.",
      "en": "This helps you when talking with planners and skilled staff in Germany."
     },
     {
@@ -96,7 +96,7 @@
     },
     {
      "de": "Sein elektromagnetisches Feld erzeugt Spannungen in Leitungen.",
-     "ar": "مجاله الكهرومغناطيسي يولّد جهودًا في الكبلات.",
+     "ar": "مجاله الكهرومغناطيسي يولّد جهودًا في الكابلات.",
      "en": "Its electromagnetic field creates voltages in cables."
     },
     {
@@ -106,7 +106,7 @@
     },
     {
      "de": "Solche Spannungsspitzen können Geräte beschädigen oder zerstören.",
-     "ar": "هذه القمم الجهدية قد تتلف الأجهزة أو تدمّرها.",
+     "ar": "ذروات الجهد هذه قد تتلف الأجهزة أو تدمّرها.",
      "en": "Such voltage peaks can damage or destroy equipment."
     },
     {
@@ -115,9 +115,9 @@
      "en": "Importantly, not only the direct strike causes damage."
     },
     {
-     "de": "Oft sind es die kleinen, kurzen Spannungsspitzen im Alltag.",
-     "ar": "وغالبًا تكون القمم الجهدية الصغيرة القصيرة في الحياة اليومية.",
-     "en": "Often it is the small, short voltage peaks of everyday life."
+     "de": "Auch kleine, kurze Spannungsspitzen im Alltag können Schäden verursachen.",
+     "ar": "وقد تسبب ذروات الجهد الصغيرة والقصيرة في الحياة اليومية أضرارًا أيضًا.",
+     "en": "Even small, short voltage peaks in everyday life can cause damage."
     },
     {
      "de": "Deshalb betrachtet man Blitzschutz und Überspannungsschutz gemeinsam.",
@@ -193,7 +193,7 @@
     },
     {
      "de": "Innen geht es um die Verteilung der Spannungen im Gebäude.",
-     "ar": "وفي الداخل يدور حول توزيع الجهود داخل المبنى.",
+     "ar": "وفي الداخل يدور الأمر حول توزيع الجهود داخل المبنى.",
      "en": "Inside, it is about how voltages are distributed in the building."
     },
     {
@@ -216,7 +216,7 @@
     "terms": [
      {
       "de": "Fangeinrichtung",
-      "ar": "أداة الالتقاط",
+      "ar": "منظومة الالتقاط",
       "en": "air termination"
      },
      {
@@ -239,7 +239,7 @@
     },
     {
      "de": "Erstens die Fangeinrichtung: Sie fängt den Blitz auf.",
-     "ar": "أولًا أداة الالتقاط، وهي تلتقط الصاعقة.",
+     "ar": "أولًا منظومة الالتقاط، وهي تلتقط الصاعقة.",
      "en": "First the air termination: it catches the lightning."
     },
     {
@@ -259,7 +259,7 @@
     },
     {
      "de": "Ob eine Fangeinrichtung nötig ist, hängt vom Gebäude und vom Risiko ab.",
-     "ar": "وجود أداة التقاط من عدمه يعتمد على المبنى والمخاطر.",
+     "ar": "وجود منظومة التقاط من عدمه يعتمد على المبنى والمخاطر.",
      "en": "Whether an air termination is needed depends on the building and the risk."
     },
     {
@@ -269,7 +269,7 @@
     },
     {
      "de": "Die Details legt eine Blitzschutzfachkraft nach der Norm fest.",
-     "ar": "وتحدد التفاصيل خبير الحماية من الصواعق وفق المعيار.",
+     "ar": "ويحدد المتخصص المؤهَّل في الحماية من الصواعق التفاصيل وفق المعيار.",
      "en": "The details are set by a lightning protection specialist according to the standard."
     },
     {
@@ -292,7 +292,7 @@
     "terms": [
      {
       "de": "Potentialausgleich",
-      "ar": "معادلة الجهد",
+      "ar": "الربط المتساوي الجهد",
       "en": "equipotential bonding"
      },
      {
@@ -315,12 +315,12 @@
     },
     {
      "de": "Wichtige Bausteine sind der Potentialausgleich und Überspannungsschutzgeräte.",
-     "ar": "من العناصر المهمة معادلة الجهد وأجهزة الحماية من الجهد الزائد.",
+     "ar": "من العناصر المهمة الربط المتساوي الجهد وأجهزة الحماية من الجهد الزائد.",
      "en": "Important building blocks are equipotential bonding and surge protective devices."
     },
     {
      "de": "Beim Potentialausgleich verbindet man Metallteile miteinander.",
-     "ar": "في معادلة الجهد نصل الأجزاء المعدنية ببعضها.",
+     "ar": "في الربط المتساوي الجهد نصل الأجزاء المعدنية ببعضها.",
      "en": "In equipotential bonding, metal parts are connected to each other."
     },
     {
@@ -334,19 +334,14 @@
      "en": "Where direct connection is not allowed, protective devices are used."
     },
     {
-     "de": "Der Potentialausgleich verhindert gefährliche Spannungsunterschiede.",
-     "ar": "تمنع معادلة الجهد فروق الجهد الخطرة.",
-     "en": "Equipotential bonding prevents dangerous voltage differences."
+     "de": "Der Potentialausgleich hilft, gefährliche Spannungsunterschiede zu vermeiden.",
+     "ar": "يساعد الربط المتساوي الجهد على تجنب فروق الجهد الخطرة.",
+     "en": "Equipotential bonding helps to avoid dangerous voltage differences."
     },
     {
-     "de": "Das schützt vor Funkenüberschlägen und Bränden.",
-     "ar": "وهذا يحمي من القفزات الشرارية ومن الحرائق.",
-     "en": "This protects against flashovers and fires."
-    },
-    {
-     "de": "Ohne Potentialausgleich können Schutzgeräte ihre Arbeit nicht gut erledigen.",
-     "ar": "وبدون معادلة الجهد لا تؤدي أجهزة الحماية عملها جيدًا.",
-     "en": "Without equipotential bonding, protective devices cannot do their job well."
+     "de": "Das kann auch helfen, Funkenüberschläge zu vermeiden.",
+     "ar": "وهذا قد يساعد أيضًا على تجنب التفريغات الشرارية.",
+     "en": "This can also help to avoid flashovers."
     },
     {
      "de": "Die Schutzgeräte werden im Gebäude an passenden Stellen eingebaut.",
@@ -391,9 +386,9 @@
      "en": "In new buildings a foundation earth electrode is often installed."
     },
     {
-     "de": "Er besteht aus blankem Stahl im Fundament.",
-     "ar": "ويتكوّن من فولاذ عارٍ داخل الأساس.",
-     "en": "It consists of bare steel in the foundation."
+     "de": "Er besteht aus nicht isolierten Leitern im Fundament.",
+     "ar": "ويتكوّن من موصلات غير معزولة داخل الأساس.",
+     "en": "It consists of uninsulated conductors in the foundation."
     },
     {
      "de": "Er wird als geschlossener Ring ausgeführt.",
@@ -412,9 +407,9 @@
     },
     {
      "de": "Die Ausführung richtet sich nach DIN 18014 und den Vorgaben des Netzbetreibers.",
-     "ar": "ويتبع التنفيذ المعيار المذكور ومتطلبات مشغّل الشبكة.",
-     "en": "The design follows the DIN standard 18014 and the grid operator's requirements.",
-     "tts": "Die Ausführung richtet sich nach Din achtzehntausendvierzehn und den Vorgaben des Netzbetreibers."
+     "ar": "ويتبع التنفيذ المعيار DIN 18014 ومتطلبات مشغّل الشبكة.",
+     "en": "The design follows DIN 18014 and the grid operator's requirements.",
+     "tts": "Die Ausführung richtet sich nach Din eins acht null eins vier und den Vorgaben des Netzbetreibers."
     },
     {
      "de": "Als Ingenieur sollten Sie diese Schnittstelle früh im Projekt klären.",
@@ -423,17 +418,17 @@
     },
     {
      "de": "Die Erdung betrifft Rohbau, Elektro und Haustechnik gleichzeitig.",
-     "ar": "يمس التأريض الهيكل الإنشائي والكهرباء والتقنيات المنزلية معًا.",
+     "ar": "يمس التأريض الهيكل الإنشائي والكهرباء وتقنيات المبنى معًا.",
      "en": "Earthing affects the shell construction, electrical work and building services at once."
     },
     {
-     "de": "Spätere Änderungen sind oft schwierig und teuer.",
-     "ar": "والتعديلات اللاحقة غالبًا ما تكون صعبة ومكلفة.",
-     "en": "Later changes are often difficult and expensive."
+     "de": "Spätere Änderungen sind oft schwierig.",
+     "ar": "والتعديلات اللاحقة غالبًا ما تكون صعبة.",
+     "en": "Later changes are often difficult."
     },
     {
      "de": "Diese Fragen gehören in die Planung, nicht erst auf die Baustelle.",
-     "ar": "هذه الأسئلة مكانها التخطيط لا موقع البناء فقط.",
+     "ar": "هذه الأسئلة مكانها مرحلة التخطيط، وليس بعد الوصول إلى موقع البناء.",
      "en": "These questions belong in planning, not only on the construction site."
     }
    ]
@@ -469,21 +464,21 @@
      "en": "Each area has a different level of risk."
     },
     {
-     "de": "Zone null A ist außen und kann direkt getroffen werden.",
-     "ar": "المنطقة صفر ألف خارجية ويمكن أن تُصاب مباشرة.",
-     "en": "Zone zero A is outside and can be hit directly.",
+     "de": "Zone 0A ist außen und kann direkt getroffen werden.",
+     "ar": "المنطقة 0A خارجية ويمكن أن تُصاب مباشرة.",
+     "en": "Zone 0A is outside and can be hit directly.",
      "tts": "Zone null A ist außen und kann direkt getroffen werden."
     },
     {
-     "de": "Zone null B ist gegen direkte Einschläge geschützt, aber das Feld wirkt dort voll.",
-     "ar": "المنطقة صفر باء محمية من الضربات المباشرة لكن المجال يؤثر فيها كاملًا.",
-     "en": "Zone zero B is protected from direct strikes, but the field acts there fully.",
+     "de": "Zone 0B ist gegen direkte Einschläge geschützt, aber das Feld wirkt dort voll.",
+     "ar": "المنطقة 0B محمية من الضربات المباشرة لكن المجال يؤثر فيها كاملًا.",
+     "en": "Zone 0B is protected from direct strikes, but the field acts there fully.",
      "tts": "Zone null B ist gegen direkte Einschläge geschützt, aber das Feld wirkt dort voll."
     },
     {
-     "de": "In Zone eins sind Strom und Feld schon kleiner.",
-     "ar": "في المنطقة واحد يكون التيار والمجال أصغر بالفعل.",
-     "en": "In zone one, current and field are already smaller.",
+     "de": "In Zone 1 sind Strom und Feld schon kleiner.",
+     "ar": "في المنطقة ١ يكون التيار والمجال أصغر بالفعل.",
+     "en": "In zone 1, current and field are already smaller.",
      "tts": "In Zone eins sind Strom und Feld schon kleiner."
     },
     {
@@ -498,18 +493,13 @@
     },
     {
      "de": "Je höher die Zahl, desto geringer die Belastung.",
-     "ar": "كلما ارتفع الرقم قلّ الحِمل.",
+     "ar": "كلما ارتفع الرقم قلّ الإجهاد على المنشأة.",
      "en": "The higher the number, the lower the load."
     },
     {
      "de": "Die Zonen helfen bei der Auswahl der Schutzgeräte.",
      "ar": "تساعد المناطق في اختيار أجهزة الحماية.",
      "en": "The zones help with the selection of protective devices."
-    },
-    {
-     "de": "Das Konzept stammt aus den Normen und wird weltweit genutzt.",
-     "ar": "المفهوم مأخوذ من المعايير ويُستخدم عالميًا.",
-     "en": "The concept comes from the standards and is used worldwide."
     }
    ]
   },
@@ -521,8 +511,7 @@
     "items": [
      "Erdung und Potentialausgleich",
      "Schirmung und Leitungsführung",
-     "Abgestimmte Schutzgeräte",
-     "Trennschnittstellen"
+     "Abgestimmte Schutzgeräte"
     ]
    },
    "lines": [
@@ -533,12 +522,12 @@
     },
     {
      "de": "Dazu gehören Erdung und Potentialausgleich.",
-     "ar": "ومنها التأريض ومعادلة الجهد.",
+     "ar": "ومنها التأريض والربط المتساوي الجهد.",
      "en": "These include earthing and equipotential bonding."
     },
     {
      "de": "Auch Schirmung und eine gute Leitungsführung helfen.",
-     "ar": "كما يساعد التدريع وحسن توجيه الكبلات.",
+     "ar": "كما يساعد التدريع وحسن توجيه الكابلات.",
      "en": "Shielding and good cable routing also help."
     },
     {
@@ -557,12 +546,6 @@
      "en": "The system works only as a whole."
     },
     {
-     "de": "Man spricht auch von einem EMV-gerechten Schutzkonzept.",
-     "ar": "ويُقال أيضًا مفهوم حماية يراعي التوافق الكهرومغناطيسي.",
-     "en": "This is also called an EMC-compliant protection concept.",
-     "tts": "Man spricht auch von einem E-Em-Fau-gerechten Schutzkonzept."
-    },
-    {
      "de": "Das ist besonders wichtig für empfindliche Elektronik.",
      "ar": "وهذا مهم بصفة خاصة للإلكترونيات الحساسة.",
      "en": "This is especially important for sensitive electronics."
@@ -571,11 +554,6 @@
      "de": "Die Maßnahmen planen Sie am besten schon im Entwurf.",
      "ar": "الأفضل أن تخططوا للإجراءات منذ مرحلة التصميم.",
      "en": "It is best to plan the measures already in the design."
-    },
-    {
-     "de": "Auch Datenleitungen und Antennenleitungen werden dabei betrachtet.",
-     "ar": "وتؤخذ كبلات البيانات وكبلات الهوائيات بالحسبان أيضًا.",
-     "en": "Data cables and antenna cables are also considered here."
     }
    ]
   },
@@ -600,10 +578,10 @@
    },
    "lines": [
     {
-     "de": "In Deutschland gilt die Normenreihe DIN EN 62305.",
-     "ar": "في ألمانيا تُطبَّق سلسلة المعايير المذكورة.",
-     "en": "In Germany the standard series DIN EN 62305 applies.",
-     "tts": "In Deutschland gilt die Normenreihe Din E-En zwei sechs drei null fünf."
+     "de": "In Deutschland gilt die Normenreihe DIN EN 62305, neuere Teile erscheinen als DIN EN IEC 62305.",
+     "ar": "تُطبَّق في ألمانيا سلسلة المعايير DIN EN 62305، وتصدر الأجزاء الأحدث باسم DIN EN IEC 62305 ضمن السلسلة نفسها.",
+     "en": "In Germany the series DIN EN 62305 applies; newer parts are published as DIN EN IEC 62305.",
+     "tts": "In Deutschland gilt die Normenreihe Din E-En sechs zwei drei null fünf, neuere Teile erscheinen als Din E-En I-E-Ze sechs zwei drei null fünf."
     },
     {
      "de": "Sie hat vier Teile.",
@@ -637,7 +615,7 @@
     },
     {
      "de": "In Deutschland trägt sie zusätzlich eine VDE-Nummer.",
-     "ar": "وفي ألمانيا تحمل أيضًا رقمًا من اتحاد الكهروتقنيين.",
+     "ar": "وفي ألمانيا تحمل أيضًا رقم VDE إضافيًا.",
      "en": "In Germany it also carries a VDE number.",
      "tts": "In Deutschland trägt sie zusätzlich eine Fau-De-E-Nummer."
     },
@@ -672,22 +650,22 @@
     },
     {
      "de": "Einzelne Teile haben neue Ausgaben bekommen.",
-     "ar": "بعض الأجزاء صدرت لها طبعات جديدة.",
+     "ar": "بعض الأجزاء صدرت لها إصدارات جديدة.",
      "en": "Some parts have received new editions."
     },
     {
      "de": "Ältere Fassungen können dabei zurückgezogen werden.",
-     "ar": "وقد تُسحب الطبعات الأقدم عندئذٍ.",
+     "ar": "وقد تُسحب الإصدارات الأقدم عندئذٍ.",
      "en": "Older versions can be withdrawn in the process."
     },
     {
      "de": "Prüfen Sie deshalb immer die aktuelle Ausgabe jedes Teils.",
-     "ar": "لذلك تحققوا دائمًا من الطبعة الحالية لكل جزء.",
+     "ar": "لذلك تحققوا دائمًا من الإصدار الحالي لكل جزء.",
      "en": "So always check the current edition of each part."
     },
     {
      "de": "Fragen Sie dazu das DIN, den VDE oder Ihren Auftraggeber.",
-     "ar": "اسألوا المعهد الألماني للمعايير أو اتحاد الكهروتقنيين أو الجهة المُشغِّلة للمشروع (صاحب المشروع).",
+     "ar": "اسألوا DIN أو VDE أو الجهة المُشغِّلة للمشروع (صاحب المشروع).",
      "en": "Ask DIN, VDE or your client.",
      "tts": "Fragen Sie dazu das Din, den Fau-De-E oder Ihren Auftraggeber."
     },
@@ -702,9 +680,9 @@
      "en": "The content of the standards is not reproduced here."
     },
     {
-     "de": "Sie erhalten die Normen beim Beuth Verlag oder über Ihren Arbeitgeber.",
-     "ar": "تحصلون على المعايير من دار بويت أو عبر جهة عملكم.",
-     "en": "You get the standards from the Beuth publisher or through your employer."
+     "de": "Sie erhalten die Normen bei den Normenverlagen oder über Ihren Arbeitgeber.",
+     "ar": "تحصلون على المعايير من دور نشر المعايير أو عبر جهة عملكم.",
+     "en": "You get the standards from the standards publishers or through your employer."
     },
     {
      "de": "Die Prüfung der Aktualität gehört zu jedem Projektstart.",
@@ -724,7 +702,7 @@
     "kicker": "Schutzgeräte",
     "heading": "Überspannungsschutz: Typ 1, 2 und 3",
     "items": [
-     "Typ 1: Blitzstromableiter am Hausanschluss",
+     "Typ 1: Blitzstromableiter, Hauptstromversorgung",
      "Typ 2: Überspannungsableiter im Verteiler",
      "Typ 3: Geräteschutz nah am Endgerät",
      "Kombiableiter: Typ 1 und Typ 2 in einem"
@@ -749,7 +727,7 @@
      "en": "Surge protective devices come in three types."
     },
     {
-     "de": "Typ eins ist der Blitzstromableiter.",
+     "de": "Typ 1 ist der Blitzstromableiter.",
      "ar": "النوع الأول هو مانع تيار الصاعقة.",
      "en": "Type one is the lightning current arrester.",
      "tts": "Typ eins ist der Blitzstromableiter."
@@ -760,27 +738,22 @@
      "en": "It is installed in the main power supply system, preferably before the meter."
     },
     {
-     "de": "Typ zwei sitzt meist in der Unterverteilung.",
+     "de": "Typ 2 sitzt meist in der Unterverteilung.",
      "ar": "النوع الثاني يوضع غالبًا في لوحة التوزيع الفرعية.",
      "en": "Type two is usually in the sub-distribution board.",
      "tts": "Typ zwei sitzt meist in der Unterverteilung."
     },
     {
-     "de": "Typ drei schützt das Endgerät und sitzt möglichst nah daran.",
+     "de": "Typ 3 schützt das Endgerät und sitzt möglichst nah daran.",
      "ar": "النوع الثالث يحمي الجهاز الطرفي ويوضع قريبًا منه قدر الإمكان.",
      "en": "Type three protects the end device and sits as close to it as possible.",
      "tts": "Typ drei schützt das Endgerät und sitzt möglichst nah daran."
     },
     {
-     "de": "Ein Kombiableiter erfüllt die Aufgaben von Typ eins und Typ zwei.",
+     "de": "Ein Kombiableiter erfüllt die Aufgaben von Typ 1 und Typ 2.",
      "ar": "مانع التيار المركَّب يؤدي مهام النوعين الأول والثاني.",
      "en": "A combined arrester covers the tasks of type one and type two.",
      "tts": "Ein Kombiableiter erfüllt die Aufgaben von Typ eins und Typ zwei."
-    },
-    {
-     "de": "Die Namen sind nicht einheitlich, deshalb achten Sie auf die Beschreibung.",
-     "ar": "التسميات غير موحدة، لذا انتبهوا إلى الوصف.",
-     "en": "The names are not uniform, so pay attention to the description."
     },
     {
      "de": "Hersteller zeigen die Typen in ihren Datenblättern.",
@@ -793,15 +766,10 @@
      "en": "Always read the exact installation instructions there."
     },
     {
-     "de": "Die Namen Typ eins, zwei und drei beschreiben also die Stufe im Gebäude.",
-     "ar": "فأسماء النوع الأول والثاني والثالث تصف المرحلة داخل المبنى.",
-     "en": "The names type one, two and three therefore describe the stage in the building.",
-     "tts": "Die Namen Typ eins, zwei und drei beschreiben also die Stufe im Gebäude."
-    },
-    {
-     "de": "Je näher am Gerät, desto feiner der Schutz.",
-     "ar": "كلما اقتربت الحماية من الجهاز كانت أدق.",
-     "en": "The closer to the device, the finer the protection."
+     "de": "Merken Sie sich: Typ 1 in der Hauptstromversorgung, Typ 3 am Endgerät.",
+     "ar": "تذكروا: النوع الأول في منظومة التغذية الرئيسية والنوع الثالث عند الجهاز الطرفي.",
+     "en": "Remember: type 1 in the main power supply, type 3 at the end device.",
+     "tts": "Merken Sie sich: Typ eins in der Hauptstromversorgung, Typ drei am Endgerät."
     }
    ]
   },
@@ -823,7 +791,7 @@
      "en": "The protective devices work in stages."
     },
     {
-     "de": "Typ eins nimmt den großen Blitzstrom auf.",
+     "de": "Typ 1 nimmt den großen Blitzstrom auf.",
      "ar": "النوع الأول يستوعب تيار الصاعقة الكبير.",
      "en": "Type one takes up the large lightning current.",
      "tts": "Typ eins nimmt den großen Blitzstrom auf."
@@ -844,10 +812,9 @@
      "en": "Without working earthing they do not work properly."
     },
     {
-     "de": "Ein Typ-drei-Gerät allein ersetzt keine vorgeschaltete Stufe.",
-     "ar": "جهاز النوع الثالث وحده لا يغني عن المرحلة السابقة له.",
-     "en": "A type-three device alone does not replace an upstream stage.",
-     "tts": "Ein Typ-drei-Gerät allein ersetzt keine vorgeschaltete Stufe."
+     "de": "Welche Stufen nötig sind, legt die Planung nach Norm und Herstellerangaben fest.",
+     "ar": "أي المراحل تلزم تحددها أعمال التخطيط وفق المعيار وتعليمات المصنّع.",
+     "en": "Which stages are needed is decided in planning according to the standard and the manufacturer's instructions."
     },
     {
      "de": "Beachten Sie die Vorgaben des Herstellers genau.",
@@ -856,7 +823,7 @@
     },
     {
      "de": "Sie nennen zum Beispiel die richtige Absicherung und Leitungsführung.",
-     "ar": "فهي تحدد مثلًا الحماية المناسبة وطريقة مد الكبلات.",
+     "ar": "فهي تحدد مثلًا الحماية المناسبة وطريقة مد الكابلات.",
      "en": "They state, for example, the correct fusing and cable routing."
     },
     {
@@ -874,14 +841,14 @@
     "items": [
      "Norm: DIN VDE 0100, Teil 443",
      "Risikobasiertes Vorgehen",
-     "Einige Fälle: Schutz immer nötig",
+     "Einige Fälle: Schutz ohne Berechnung",
      "Ausgabe der Norm prüfen"
     ]
    },
    "lines": [
     {
      "de": "Für Niederspannungsanlagen gilt die Reihe DIN VDE 0100.",
-     "ar": "على منشآت الجهد المنخفض تنطبق السلسلة المذكورة.",
+     "ar": "على منشآت الجهد المنخفض تنطبق سلسلة DIN VDE 0100.",
      "en": "For low-voltage installations, the series DIN VDE 0100 applies.",
      "tts": "Für Niederspannungsanlagen gilt die Reihe Din Fau-De-E null eins null null."
     },
@@ -897,7 +864,7 @@
      "en": "In Germany a risk-based approach is used."
     },
     {
-     "de": "Bei manchen Fällen ist der Schutz ohne Berechnung nötig.",
+     "de": "In manchen Fällen ist der Schutz auch ohne Berechnung nötig.",
      "ar": "وفي بعض الحالات تلزم الحماية دون حساب.",
      "en": "In some cases protection is needed without calculation."
     },
@@ -907,19 +874,14 @@
      "en": "Examples are safety systems or medical devices."
     },
     {
-     "de": "Bei neuen Wohngebäuden betrifft das vor allem die Stromversorgungsleitungen.",
-     "ar": "وفي المباني السكنية الجديدة يخص ذلك خطوط التغذية الكهربائية بالدرجة الأولى.",
-     "en": "In new residential buildings this mainly concerns the power supply lines."
+     "de": "Für neue Wohngebäude verlangt eine Ausgabe der Norm den Schutz der Stromversorgungsleitungen.",
+     "ar": "وفي المباني السكنية الجديدة تشترط إحدى إصدارات المعيار حماية خطوط التغذية الكهربائية.",
+     "en": "For new residential buildings, one edition of the standard requires protection of the power supply lines."
     },
     {
      "de": "Welche Ausgabe gilt, müssen Sie im Projekt prüfen.",
-     "ar": "أي طبعة تسري عليكم التحقق منه في المشروع.",
+     "ar": "عليكم التحقق في المشروع من الإصدار الساري.",
      "en": "Which edition applies, you must check in the project."
-    },
-    {
-     "de": "Die Norm wurde in den letzten Jahren überarbeitet.",
-     "ar": "جرت مراجعة المعيار في السنوات الأخيرة.",
-     "en": "The standard has been revised in recent years."
     },
     {
      "de": "Das Prinzip: Schutz hängt von Nutzung und Risiko ab.",
@@ -959,9 +921,9 @@
    },
    "lines": [
     {
-     "de": "Ob Blitzschutz Pflicht ist, regelt das Baurecht.",
-     "ar": "كون الحماية من الصواعق إلزامية يحدده قانون البناء.",
-     "en": "Whether lightning protection is mandatory is set by building law."
+     "de": "Ob Blitzschutz Pflicht ist, ergibt sich vor allem aus dem Baurecht der Länder.",
+     "ar": "كون الحماية من الصواعق إلزامية يُستمد في المقام الأول من قانون البناء في الولايات.",
+     "en": "Whether lightning protection is mandatory results mainly from the building law of the federal states."
     },
     {
      "de": "Jedes Bundesland hat eine eigene Landesbauordnung.",
@@ -1019,7 +981,7 @@
      "Teil 2 der Reihe",
      "Bei Unklarheit anwenden",
      "Ergebnis hilft bei der Auswahl",
-     "Abstimmung mit der Behörde"
+     "Ergebnis früh abstimmen"
     ]
    },
    "lines": [
@@ -1044,9 +1006,9 @@
      "en": "From this follows which protective measures make sense."
     },
     {
-     "de": "Klären Sie das Ergebnis früh mit Bauherr und zuständiger Stelle.",
-     "ar": "وضّحوا النتيجة مبكرًا مع صاحب البناء والجهة المختصة.",
-     "en": "Clarify the result early with the owner and the responsible body."
+     "de": "Klären Sie das Ergebnis früh mit den Beteiligten.",
+     "ar": "وضّحوا النتيجة مبكرًا مع المعنيين.",
+     "en": "Clarify the result early with those involved."
     },
     {
      "de": "Eine Dokumentation macht die Entscheidung später nachvollziehbar.",
@@ -1055,7 +1017,7 @@
     },
     {
      "de": "Fragen Sie im Zweifel eine Blitzschutzfachkraft.",
-     "ar": "اسألوا عند الشك خبير الحماية من الصواعق.",
+     "ar": "اسألوا عند الشك المتخصص المؤهَّل في الحماية من الصواعق.",
      "en": "If in doubt, ask a lightning protection specialist."
     },
     {
@@ -1079,7 +1041,7 @@
     "terms": [
      {
       "de": "Blitzschutzfachkraft",
-      "ar": "خبير الحماية من الصواعق",
+      "ar": "المتخصص المؤهَّل في الحماية من الصواعق",
       "en": "lightning protection specialist"
      }
     ]
@@ -1092,18 +1054,18 @@
     },
     {
      "de": "Die Blitzschutzfachkraft ist meist selbst eine Elektrofachkraft.",
-     "ar": "وغالبًا ما يكون خبير الحماية من الصواعق نفسه كهربائيًا مؤهَّلًا (Elektrofachkraft) أيضًا.",
+     "ar": "وغالبًا ما يكون المتخصص المؤهَّل في الحماية من الصواعق نفسه كهربائيًا مؤهَّلًا (Elektrofachkraft) أيضًا.",
      "en": "The lightning protection specialist is usually also a qualified electrician."
     },
     {
      "de": "Sie hat mehrjährige Erfahrung und plant, installiert, prüft und wartet.",
-     "ar": "لديه خبرة سنوات ويخطط ويركّب ويفحص ويصون.",
+     "ar": "لديه خبرة عدة سنوات ويخطط ويركّب ويفحص ويصون.",
      "en": "They have several years of experience and plan, install, test and maintain."
     },
     {
-     "de": "Schutzgeräte im Verteiler installiert eine Elektrofachkraft.",
-     "ar": "وأجهزة الحماية في لوحة التوزيع يركّبها كهربائي مؤهَّل.",
-     "en": "Protective devices in the distribution board are installed by a qualified electrician."
+     "de": "Schutzgeräte im Verteiler installiert eine Elektrofachkraft oder jemand unter deren Leitung und Aufsicht.",
+     "ar": "وأجهزة الحماية في لوحة التوزيع يركّبها كهربائي مؤهَّل أو من يعمل تحت إدارته وإشرافه.",
+     "en": "Protective devices in the distribution board are installed by a qualified electrician or by someone under their direction and supervision."
     },
     {
      "de": "Als Ingenieur stimmen Sie die Fachbereiche aufeinander ab.",
@@ -1112,12 +1074,12 @@
     },
     {
      "de": "Der Betreiber ist dafür verantwortlich, dass Mängel behoben werden.",
-     "ar": "والمشغّل مسؤول عن معالجة العيوب.",
+     "ar": "والمشغّل (مالك المنشأة) مسؤول عن معالجة العيوب.",
      "en": "The operator is responsible for having defects corrected."
     },
     {
      "de": "Die Zusammenarbeit der Gewerke spart Zeit und Fehler.",
-     "ar": "تعاون الأعمال المختلفة يوفّر الوقت ويقلل الأخطاء.",
+     "ar": "تعاون الاختصاصات المختلفة يوفّر الوقت ويقلل الأخطاء.",
      "en": "Cooperation between trades saves time and errors."
     },
     {
@@ -1126,9 +1088,9 @@
      "en": "Document interfaces and responsibilities in writing."
     },
     {
-     "de": "Wer nicht qualifiziert ist, fasst die Anlage nicht an.",
-     "ar": "من ليس مؤهَّلًا لا يلمس المنشأة.",
-     "en": "Whoever is not qualified does not touch the installation."
+     "de": "Wer nicht qualifiziert ist, arbeitet nicht ohne Leitung und Aufsicht an der Anlage.",
+     "ar": "من ليس مؤهَّلًا لا يعمل على المنشأة دون إدارة وإشراف.",
+     "en": "Whoever is not qualified does not work on the installation without direction and supervision."
     },
     {
      "de": "Wer ein Projekt leitet, sollte wissen, wen er fragen kann.",
@@ -1158,12 +1120,12 @@
     },
     {
      "de": "Dafür gelten die fünf Sicherheitsregeln aus dem Grundlagenvideo.",
-     "ar": "وتنطبق عليه قواعد السلامة الخمس من فيديو الأساسيات.",
+     "ar": "وتسري عليها قواعد السلامة الخمس من فيديو الأساسيات.",
      "en": "The five safety rules from the foundation video apply."
     },
     {
      "de": "Eins: freischalten.",
-     "ar": "واحد: فصل التغذية.",
+     "ar": "واحد: فصل الجهد.",
      "en": "One: isolate.",
      "tts": "Eins: freischalten."
     },
@@ -1187,13 +1149,13 @@
     },
     {
      "de": "Fünf: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
-     "ar": "خمسة: تغطية الأجزاء المجاورة التي تحت الجهد أو عزلها بحواجز.",
+     "ar": "خمسة: تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
      "en": "Five: cover or fence off neighbouring live parts.",
      "tts": "Fünf: benachbarte, unter Spannung stehende Teile abdecken oder abschranken."
     },
     {
      "de": "Freischalten ist nur der erste von fünf Schritten, immer in dieser Reihenfolge.",
-     "ar": "فصل التغذية هو الخطوة الأولى فقط من خمس، وبهذا الترتيب دائمًا.",
+     "ar": "فصل الجهد هو الخطوة الأولى فقط من خمس، وبهذا الترتيب دائمًا.",
      "en": "Isolating is only the first of five steps, always in this order."
     },
     {
@@ -1207,14 +1169,14 @@
      "en": "You find the exact wording in the current regulations."
     },
     {
-     "de": "Nur eine Elektrofachkraft darf diese Arbeiten ausführen.",
-     "ar": "الكهربائي المؤهَّل فقط يجوز له تنفيذ هذه الأعمال.",
-     "en": "Only a qualified electrician may carry out this work."
+     "de": "Diese Arbeiten gehören in die Hand einer Elektrofachkraft oder erfolgen unter deren Leitung und Aufsicht.",
+     "ar": "هذه الأعمال من اختصاص الكهربائي المؤهَّل أو تُنفَّذ تحت إدارته وإشرافه.",
+     "en": "This work belongs in the hands of a qualified electrician or is carried out under their direction and supervision."
     },
     {
-     "de": "Das gilt auch für kleine Änderungen am Verteiler.",
-     "ar": "وهذا يسري على التعديلات الصغيرة في لوحة التوزيع أيضًا.",
-     "en": "This also applies to small changes at the distribution board."
+     "de": "Holen Sie sich im Zweifel eine Elektrofachkraft dazu.",
+     "ar": "استعينوا عند الشك بكهربائي مؤهَّل.",
+     "en": "If in doubt, bring in a qualified electrician."
     }
    ]
   },
@@ -1222,10 +1184,10 @@
    "slide": {
     "layout": "bullets",
     "kicker": "Prüfung",
-    "heading": "Prüfung und Abnahme",
+    "heading": "Prüfung und Dokumentation",
     "items": [
      "Erstprüfung bei Fertigstellung",
-     "Mängel ohne Verzögerung beheben",
+     "Mängel beheben lassen",
      "Prüffristen: in der Norm nachsehen",
      "Dokumentation aufbewahren"
     ]
@@ -1237,9 +1199,9 @@
      "en": "A lightning protection system is tested after completion."
     },
     {
-     "de": "Danach folgt ein Abnahmeprotokoll.",
-     "ar": "ثم يأتي محضر الاستلام.",
-     "en": "A handover record follows."
+     "de": "Danach wird das Ergebnis in einem Prüfprotokoll festgehalten.",
+     "ar": "ثم تُدوَّن النتيجة في محضر الفحص.",
+     "en": "Afterwards the result is recorded in an inspection report."
     },
     {
      "de": "Später braucht es wiederkehrende Prüfungen.",
@@ -1247,9 +1209,9 @@
      "en": "Later, recurring inspections are needed."
     },
     {
-     "de": "Die Fristen stehen in den ergänzenden Normenblättern.",
-     "ar": "والمدد مذكورة في الملاحق المكمّلة للمعايير.",
-     "en": "The intervals are in the supplementary standard sheets."
+     "de": "Die Fristen stehen in den ergänzenden Beiblättern zur Norm.",
+     "ar": "والمدد مذكورة في الملاحق المكمّلة للمعيار.",
+     "en": "The intervals are in the supplementary sheets to the standard."
     },
     {
      "de": "Nennen Sie im Gespräch keine festen Jahre, sondern prüfen Sie die Vorgabe.",
@@ -1257,9 +1219,9 @@
      "en": "In conversation, do not name fixed years, but check the requirement."
     },
     {
-     "de": "Werden Mängel gefunden, muss der Betreiber sie ohne Verzögerung beheben lassen.",
-     "ar": "وإذا وُجدت عيوب فعلى المشغّل معالجتها دون تأخير.",
-     "en": "If defects are found, the operator must have them corrected without delay."
+     "de": "Werden Mängel gefunden, muss der Betreiber die Beseitigung veranlassen.",
+     "ar": "وإذا وُجدت عيوب فعلى المشغّل أن يطلب معالجتها.",
+     "en": "If defects are found, the operator must have them corrected."
     },
     {
      "de": "Bewahren Sie Protokolle und Pläne sorgfältig auf.",
@@ -1304,12 +1266,12 @@
     },
     {
      "de": "Außen fangen, leiten und erden Sie den Blitz.",
-     "ar": "في الخارج نلتقط الصاعقة ونوصلها ونؤرضها.",
+     "ar": "في الخارج نلتقط الصاعقة ونوجّهها إلى الأرض ونؤرِّضها.",
      "en": "Outside, you catch, conduct and earth the lightning."
     },
     {
      "de": "Innen sorgen Potentialausgleich und Schutzgeräte für Sicherheit.",
-     "ar": "وفي الداخل تؤمّن معادلة الجهد وأجهزة الحماية السلامة.",
+     "ar": "وفي الداخل يؤمّن الربط المتساوي الجهد وأجهزة الحماية السلامة.",
      "en": "Inside, equipotential bonding and protective devices provide safety."
     },
     {
@@ -1318,7 +1280,7 @@
      "en": "The zone concept reduces the stress step by step."
     },
     {
-     "de": "Typ eins, zwei und drei müssen zusammenpassen.",
+     "de": "Typ 1, 2 und 3 müssen zusammenpassen.",
      "ar": "يجب أن تنسجم الأنواع الأول والثاني والثالث معًا.",
      "en": "Types one, two and three must fit together.",
      "tts": "Typ eins, zwei und drei müssen zusammenpassen."
@@ -1329,9 +1291,10 @@
      "en": "For every task, all five safety rules apply."
     },
     {
-     "de": "Merken Sie sich außerdem die Namen der Normenreihe.",
-     "ar": "واحفظوا أيضًا أسماء سلسلة المعايير.",
-     "en": "Also remember the name of the standard series."
+     "de": "Merken Sie sich außerdem den Namen der Normenreihe: DIN EN 62305.",
+     "ar": "واحفظوا أيضًا اسم سلسلة المعايير: DIN EN 62305.",
+     "en": "Also remember the name of the standard series: DIN EN 62305.",
+     "tts": "Merken Sie sich außerdem den Namen der Normenreihe: Din E-En sechs zwei drei null fünf."
     },
     {
      "de": "Zonen, Typen und Erdung bilden gemeinsam das Schutzkonzept.",
@@ -1347,7 +1310,7 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Gesetze und Normen ändern sich",
     "items": [
@@ -1364,7 +1327,7 @@
     },
     {
      "de": "Prüfen Sie vor jeder Anwendung die aktuelle Fassung.",
-     "ar": "تحققوا قبل كل تطبيق من النسخة الحالية.",
+     "ar": "تحققوا قبل كل تطبيق من الصيغة الحالية.",
      "en": "Before every use, check the current version."
     },
     {
@@ -1378,12 +1341,7 @@
      "en": "It is neither legal advice nor engineering advice."
     },
     {
-     "de": "Im nächsten Video geht es um Brandschutz, Notbeleuchtung und Gefahrenmeldeanlagen.",
-     "ar": "في الفيديو القادم: الحماية من الحريق والإنارة الطارئة وأنظمة الإنذار.",
-     "en": "The next video covers fire protection, emergency lighting and alarm systems."
-    },
-    {
-     "de": "Für Ihre Arbeit in Deutschland gilt immer das Projekt und der Standort.",
+     "de": "Für Ihre Arbeit in Deutschland zählen immer das Projekt und der Standort.",
      "ar": "في عملكم في ألمانيا يسري دائمًا ما يخص المشروع والموقع.",
      "en": "For your work in Germany, the project and the location always count."
     },
@@ -1391,6 +1349,11 @@
      "de": "Wir wünschen Ihnen viel Erfolg beim Lernen.",
      "ar": "نتمنى لكم النجاح في التعلم.",
      "en": "We wish you every success in your learning."
+    },
+    {
+     "de": "Im nächsten Video geht es um Brandschutz, Notbeleuchtung und Gefahrenmeldeanlagen.",
+     "ar": "في الفيديو القادم: الحماية من الحريق والإنارة الطارئة وأنظمة الإنذار.",
+     "en": "The next video covers fire protection, emergency lighting and alarm systems."
     }
    ]
   }
@@ -1418,7 +1381,7 @@
   },
   {
    "de": "die Fangeinrichtung",
-   "ar": "أداة الالتقاط",
+   "ar": "منظومة الالتقاط",
    "en": "air termination"
   },
   {
@@ -1438,7 +1401,7 @@
   },
   {
    "de": "der Potentialausgleich",
-   "ar": "معادلة الجهد",
+   "ar": "الربط المتساوي الجهد",
    "en": "equipotential bonding"
   },
   {
@@ -1468,12 +1431,12 @@
   },
   {
    "de": "die Blitzschutzfachkraft",
-   "ar": "خبير الحماية من الصواعق",
+   "ar": "المتخصص المؤهَّل في الحماية من الصواعق",
    "en": "lightning protection specialist"
   },
   {
    "de": "die Elektrofachkraft",
-   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "ar": "الكهربائي المؤهَّل",
    "en": "qualified electrician"
   },
   {
@@ -1496,22 +1459,22 @@
    },
    "options": [
     {
+     "de": "Nur Potentialausgleich und Schutzgeräte",
+     "ar": "الربط المتساوي الجهد وأجهزة الحماية فقط",
+     "en": "Only equipotential bonding and protective devices"
+    },
+    {
      "de": "Fangeinrichtung, Ableitung, Erdungsanlage",
-     "ar": "أداة الالتقاط وموصل التفريغ ومنظومة التأريض",
+     "ar": "منظومة الالتقاط وموصل التفريغ ومنظومة التأريض",
      "en": "Air termination, down conductor, earthing system"
     },
     {
      "de": "Nur Überspannungsschutzgeräte",
      "ar": "أجهزة حماية من الجهد الزائد فقط",
      "en": "Only surge protective devices"
-    },
-    {
-     "de": "Nur Schirmung",
-     "ar": "التدريع فقط",
-     "en": "Shielding only"
     }
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "q": {
@@ -1531,9 +1494,9 @@
      "en": "In the sub-board behind the device"
     },
     {
-     "de": "Am Hausanschluss, möglichst vor dem Zähler",
-     "ar": "عند التوصيل المنزلي ويفضَّل قبل العدّاد",
-     "en": "At the service entrance, preferably before the meter"
+     "de": "In der Hauptstromversorgung, möglichst vor dem Zähler",
+     "ar": "في التغذية الرئيسية ويفضَّل قبل العدّاد",
+     "en": "In the main power supply, preferably before the meter"
     }
    ],
    "answer": 2
@@ -1565,9 +1528,9 @@
   },
   {
    "q": {
-    "de": "Wer regelt in Deutschland, wann Blitzschutz verlangt wird?",
-    "ar": "من ينظّم في ألمانيا متى يُطلب نظام الحماية من الصواعق؟",
-    "en": "Who regulates in Germany when lightning protection is required?"
+    "de": "Woraus ergibt sich in Deutschland vor allem, wann Blitzschutz verlangt wird?",
+    "ar": "مما يُستمد في ألمانيا في المقام الأول وقت طلب الحماية من الصواعق؟",
+    "en": "What mainly determines in Germany when lightning protection is required?"
    },
    "options": [
     {
@@ -1576,17 +1539,17 @@
      "en": "Only the device manufacturer"
     },
     {
-     "de": "Das Baurecht der Länder, zum Beispiel die Landesbauordnung",
-     "ar": "قانون البناء في الولايات، مثل لائحة البناء الولائية",
-     "en": "State building law, for example the state building code"
-    },
-    {
      "de": "Ein bundesweites Verbot",
      "ar": "حظر على مستوى الدولة",
      "en": "A nationwide ban"
+    },
+    {
+     "de": "Vor allem das Baurecht der Länder, zum Beispiel die Landesbauordnung",
+     "ar": "في المقام الأول قانون البناء في الولايات، مثل لائحة البناء الولائية",
+     "en": "Mainly state building law, for example the state building code"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
@@ -1597,7 +1560,7 @@
    "options": [
     {
      "de": "Nur freischalten genügt",
-     "ar": "فصل التغذية وحده يكفي",
+     "ar": "فصل الجهد وحده يكفي",
      "en": "Isolating alone is enough"
     },
     {
@@ -1615,9 +1578,9 @@
   }
  ],
  "next": {
-  "de": "Im nächsten Video geht es um Brandschutz, Notbeleuchtung und Gefahrenmeldeanlagen (E-B05).",
+  "de": "Im nächsten Video geht es um Brandschutz, Notbeleuchtung und Gefahrenmeldeanlagen.",
   "ar": "في الفيديو القادم: الحماية من الحريق والإنارة الطارئة وأنظمة الإنذار.",
   "en": "The next video covers fire protection, emergency lighting and alarm systems."
  },
- "stand": "2026-10-20; prüfen: aktuelle Ausgaben DIN EN IEC 62305 Teile 1-4 (Teil 3 2025-10 und Teil 4 2026-02 nur über DIN-Media-Listung belegt), DIN VDE 0100-443/-534 und DIN 18014, Wortlaut Landesbauordnungen, Typ-1/2/3-Einsatz (Herstellerquellen), Wortlaut fünf Sicherheitsregeln (DIN VDE 0105-100)"
+ "stand": "2026-10-20; prüfen: aktuelle Ausgaben DIN EN IEC 62305 Teile 1-4 (Teil 3 2025-10 und Teil 4 2026-02 nur über DIN-Media-Listung belegt; Bezeichnung neuerer Teile als DIN EN IEC), DIN VDE 0100-443/-534 (Aussage zu neuen Wohngebäuden: Ausgabe 2016-10) und DIN 18014, Wortlaut Landesbauordnungen, Typ-1/2/3-Einsatz (Herstellerquellen), Wortlaut fünf Sicherheitsregeln (DIN VDE 0105-100, Zusatz 'allpolig'); abgeschwächt: Landesbauordnung 'vor allem', Mängelbeseitigung ohne Frist, Potentialausgleich 'hilft', Arbeitsberechtigung 'Elektrofachkraft oder unter deren Leitung und Aufsicht'"
 }

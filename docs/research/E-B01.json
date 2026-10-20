@@ -167,7 +167,7 @@
    "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
    "source_name": "Hessische Bildungsverwaltung / TÜV Akademie (aus Recherche E-F05)",
    "confidence": "medium",
-   "note": "Normwortlaut nicht geprüft; nur paraphrasiert."
+   "note": "Normwortlaut nicht geprüft; nur paraphrasiert. Regel 3 im Skript mit 'allpolig' (E-F05, TERMS.md); Normwortlaut prüfen."
   },
   {
    "claim": "DIN VDE 0105-100 betrifft den Betrieb elektrischer Anlagen; DIN VDE 0100 betrifft Errichtung (inklusive Planung und Erstprüfung). Zuordnung nach Fachberatern.",
@@ -189,6 +189,13 @@
   "Konkrete Reihenfolge der Messungen nach Teil 600 und Zahl der Besichtigungsanforderungen: Detail, keine Installationsanleitung.",
   "Ob E DIN VDE 0100-410 oder E DIN VDE 0100-100 inzwischen als Weißdruck erschienen ist: nicht verifizierbar, daher nur 'Entwürfe und neue Ausgaben prüfen'.",
   "Status der Gruppe 300 im Detail: Quellen uneinheitlich, nur vorsichtig als 'früher eigene Gruppe' erwähnt.",
-  "Rolle der DKE in CENELEC/IEC: Fakt aus E-F02 ausreichend, hier nicht erneut aufgenommen."
+  "Rolle der DKE in CENELEC/IEC: Fakt aus E-F02 ausreichend, hier nicht erneut aufgenommen.",
+  "Schutzgüter 'Menschen, Nutztiere und Sachwerte' (S2, S11): kein Fakt, aus dem Skript entfernt, nur noch allgemein 'Schutz vor Gefahren'.",
+  "Inhalt des Prüfberichts über Besichtigung/Erproben/Messen hinaus und 'wer wofür verantwortlich ist' (S15): unbelegt, entfernt.",
+  "'Bei Schutztrennung bleibt der Basisschutz zusätzlich nötig' (S13): unbelegt, entfernt.",
+  "'Die Reihe deckt moderne Anlagen wie Photovoltaik ab' (S9): Verallgemeinerung, entfernt; belegt ist nur Teil 712.",
+  "'Elektrofachkraft ist Befähigung, keine Berufsbezeichnung' und 'gilt immer für bestimmten Arbeitsbereich' (S16): unbelegt bzw. absolut, entfernt.",
+  "'Beim Wiedereinschalten gilt die umgekehrte Reihenfolge' (S18): nicht in den Fakten, entfernt.",
+  "Absolute Aussage 'Arbeiten führt nur eine Elektrofachkraft aus' (S20): ersetzt durch Elektrofachkraft oder unter Leitung und Aufsicht (DGUV V3)."
  ]
 }
