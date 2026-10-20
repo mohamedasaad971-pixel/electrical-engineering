@@ -154,14 +154,14 @@
    "source_url": "https://v2charge.com/de/?p=425945",
    "source_name": "Hersteller-/Fachartikel (Sekundärquelle) zu DIN VDE 0100-722",
    "confidence": "low",
-   "note": "Normtext nicht geprüft -> nur konzeptionell, keine Zahlen, Hinweis auf Norm und Herstellerangaben."
+   "note": "Normtext nicht geprüft -> nur konzeptionell, keine Zahlen, Hinweis auf Norm und Herstellerangaben. Im Skript als 'Nach DIN VDE 0100-722 wird ... gefordert' formuliert; vor Veroeffentlichung gegen den Normtext pruefen."
   },
   {
-   "claim": "Spezielle RCD-Typen 'Typ A-EV'/'Typ F-EV' bzw. Geräte mit Gleichfehlerstrom-Überwachung (RDC-DD nach IEC 62955, 'EV-RCM') existieren für Ladepunkte.",
+   "claim": "Spezielle RCD-Typen 'Typ A-EV'/'Typ F-EV' bzw. Geräte mit Gleichfehlerstrom-Überwachung (RDC-DD nach IEC 62955) existieren für Ladepunkte.",
    "source_url": "https://content.voltimum.com/at/27454/93.pdf",
    "source_name": "Voltimum; v2charge",
    "confidence": "low",
-   "note": "Nur Begriffe im Glossar/Konzept, ohne Zahlen."
+   "note": "Nur Begriffe im Glossar/Konzept, ohne Zahlen. Begriff 'EV-RCM' nicht verifiziert und aus dem Skript entfernt; RDC-DD (IEC 62955) vor Veroeffentlichung gegen die Norm pruefen."
   }
  ],
  "dropped": [
@@ -174,6 +174,15 @@
   "Schweizer Regel zum externen NA-Schutz über 30 kW - Schweiz, nicht Deutschland",
   "Verbot der Mischung RCD Typ A und B im selben Stromkreis - nur Quelle von 2012",
   "Konkrete Pflicht zur Steuerbarkeit ab 12 kVA nach VDE-AR-N 4100 - nur Sekundärhinweis",
-  "Einspeisevergütung, Förderungen, Steckersolargeräte-Regeln - nicht Thema, veränderlich"
+  "Einspeisevergütung, Förderungen, Steckersolargeräte-Regeln - nicht Thema, veränderlich",
+  "Aussage 'Fuer Wohnhaeuser sind String- und Hybridgeraete am haeufigsten' - Marktanteilsaussage, nicht in den Fakten",
+  "Platz- und Verdrahtungsvorteil des integrierten NA-Schutzes - nicht in den Fakten",
+  "Zentraler NA-Schutz 'vor allem bei groesseren Anlagen eine Moeglichkeit' - ungestuetzt, Pflicht ab 30 kVA nicht belegt",
+  "Begriff 'EV-RCM' - nicht verifiziert (nur RDC-DD nach IEC 62955 genannt)",
+  "Pauschale Aussagen 'Haftung liegt immer bei den Verantwortlichen' und 'Arbeit am Netzanschluss macht eine Elektrofachkraft' - ersetzt durch allgemeine Formulierung bzw. NAV-Fakt",
+  "Fernsteuerung/Begrenzung der Einspeisung durch den Netzbetreiber bei Wechselrichtern und Inbetriebnahme-Einstellung der Blindleistungsfunktion - nicht in den Fakten",
+  "Energiemanagementsystem begrenzt mehrere Geraete gemeinsam - nicht in den Fakten",
+  "Schaltplan als Teil der Anmeldeunterlagen - Fakt nennt Schaltplan nur in der Dokumentationsuebergabe",
+  "Absolute Aussage 'Anschluss darf nicht verzoegert werden' - eingeschraenkt auf neue private Wallboxen und moegliche lokale Ueberlastung (BK6-22-300)"
  ]
 }

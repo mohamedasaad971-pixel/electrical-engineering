@@ -390,7 +390,7 @@
    "lines": [
     {
      "de": "Ein normaler Wechselrichter ist netzgeführt.",
-     "ar": "المحوّل العادي موجَّه بالشبكة.",
+     "ar": "العاكس العادي موجَّه بالشبكة.",
      "en": "A normal inverter is grid-following."
     },
     {
@@ -1525,9 +1525,9 @@
    },
    "options": [
     {
-     "de": "Ein Wechselrichter wird vom Netz getrennt",
-     "ar": "يُفصل العاكس عن الشبكة",
-     "en": "An inverter is disconnected from the grid"
+     "de": "Die Netzfrequenz steigt über den Sollwert",
+     "ar": "يرتفع تردد الشبكة فوق القيمة المطلوبة",
+     "en": "The grid frequency rises above the set value"
     },
     {
      "de": "Eine Batterie wird tiefentladen",
