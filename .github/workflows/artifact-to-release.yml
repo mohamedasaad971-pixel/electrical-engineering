@@ -3,14 +3,17 @@ name: artifact-to-release
 # Copies an already-built artifact into a DRAFT release (private to collaborators).
 # No rebuild and no text-to-speech: it only moves existing files.
 on:
+  push:
+    paths:
+      - "pipeline/release.json"
   workflow_dispatch:
     inputs:
       run_id:
         description: "build-video run id that produced the artifact"
-        required: true
+        required: false
       artifact:
         description: "artifact name, e.g. E-F01-rev1"
-        required: true
+        required: false
 
 permissions:
   contents: write
@@ -20,10 +23,20 @@ jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          python3 - <<'PY'
+          import json, os
+          r = json.load(open("pipeline/release.json"))
+          i = "${{ inputs.run_id }}" or str(r["run_id"])
+          a = "${{ inputs.artifact }}" or r["artifact"]
+          open(os.environ["GITHUB_OUTPUT"], "a").write(f"run_id={i}\nartifact={a}\n")
+          PY
       - uses: actions/download-artifact@v4
         with:
-          name: ${{ inputs.artifact }}
-          run-id: ${{ inputs.run_id }}
+          name: ${{ steps.p.outputs.artifact }}
+          run-id: ${{ steps.p.outputs.run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path: files
       - name: Draft release
@@ -31,6 +44,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ls -la files
-          tag="media-${{ inputs.artifact }}"
+          tag="media-${{ steps.p.outputs.artifact }}"
           gh release create "$tag" --draft --title "$tag" --notes "Built media (private draft). Not published." -R "$GITHUB_REPOSITORY" || true
           gh release upload "$tag" files/* --clobber -R "$GITHUB_REPOSITORY"
