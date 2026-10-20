@@ -1,0 +1,1533 @@
+{
+ "id": "E-F03",
+ "title": {
+  "de": "Der rechtliche Rahmen: EnWG, Produktsicherheit, Haftung",
+  "ar": "الإطار القانوني: قانون الطاقة وسلامة المنتجات ومسؤولية الشركة",
+  "en": "The Legal Framework: Energy Act, Product Safety, Liability"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "Folge F03",
+    "heading": "Der rechtliche Rahmen",
+    "items": [],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Willkommen zu diesem Video über den rechtlichen Rahmen für Elektroingenieure in Deutschland.",
+     "ar": "أهلًا بكم في هذا الفيديو عن الإطار القانوني لمهندسي الكهرباء في ألمانيا.",
+     "en": "Welcome to this video about the legal framework for electrical engineers in Germany."
+    },
+    {
+     "de": "Wir sprechen über Energierecht, Produktsicherheit und Verantwortung.",
+     "ar": "سنتحدث عن قانون الطاقة وسلامة المنتجات والمسؤولية.",
+     "en": "We talk about energy law, product safety and responsibility."
+    },
+    {
+     "de": "Am Ende kennen Sie die wichtigsten Begriffe und wissen, wo Sie nachlesen können.",
+     "ar": "في النهاية ستعرفون أهم المصطلحات وتعرفون أين تقرؤون المزيد.",
+     "en": "At the end you will know the key terms and where to read more."
+    },
+    {
+     "de": "Das hilft Ihnen im Beruf, im Vorstellungsgespräch und im Projekt.",
+     "ar": "وهذا يفيدكم في العمل وفي مقابلة التوظيف وفي المشروع.",
+     "en": "This helps you at work, in job interviews and in projects."
+    },
+    {
+     "de": "Wir bleiben bei einfachen Beispielen aus dem Berufsalltag.",
+     "ar": "وسنبقى مع أمثلة بسيطة من الحياة المهنية اليومية.",
+     "en": "We stay with simple examples from everyday work."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Allgemeine Information, keine Rechtsberatung",
+    "items": [
+     "Nur eine allgemeine Orientierung",
+     "Keine Rechtsberatung im Einzelfall",
+     "Gesetze und Normen ändern sich",
+     "Prüfen Sie immer den aktuellen Stand"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Bitte beachten Sie: Dieses Video ist nur eine allgemeine Orientierung.",
+     "ar": "يرجى الانتباه: هذا الفيديو توجيه عام فقط.",
+     "en": "Please note: this video is general orientation only."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung.",
+     "ar": "وهو ليس استشارة قانونية.",
+     "en": "It is not legal advice."
+    },
+    {
+     "de": "Gesetze ändern sich, und jeder Fall ist anders.",
+     "ar": "القوانين تتغير، وكل حالة مختلفة.",
+     "en": "Laws change, and every case is different."
+    },
+    {
+     "de": "Bei konkreten Fragen fragen Sie eine Juristin, einen Juristen oder die zuständige Behörde.",
+     "ar": "عند وجود أسئلة محددة، اسألوا محاميًا أو الجهة المختصة.",
+     "en": "For specific questions, ask a lawyer or the responsible authority."
+    },
+    {
+     "de": "Rechtliche Texte sind genau formuliert, und kleine Unterschiede können viel ändern.",
+     "ar": "النصوص القانونية دقيقة الصياغة، وفروق صغيرة قد تغيّر الكثير.",
+     "en": "Legal texts are worded precisely, and small differences can change a lot."
+    },
+    {
+     "de": "Behandeln Sie dieses Video als Einstieg, nicht als Endpunkt.",
+     "ar": "اعتبروا هذا الفيديو بداية لا نهاية.",
+     "en": "Treat this video as a starting point, not an end point."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Überblick",
+    "heading": "Vier Bereiche im Überblick",
+    "items": [
+     "Anlagen: Energiewirtschaftsgesetz",
+     "Produkte: Produktsicherheit und EU-Recht",
+     "Netzanschluss: Niederspannung",
+     "Verantwortung und Haftung"
+    ],
+    "terms": [
+     {
+      "de": "Energieanlage",
+      "ar": "منشأة طاقة",
+      "en": "energy installation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Thema hat vier Bereiche.",
+     "ar": "للموضوع أربعة محاور.",
+     "en": "The topic has four areas."
+    },
+    {
+     "de": "Erstens: Anlagen. Hier gilt das Energiewirtschaftsgesetz.",
+     "ar": "أولًا: المنشآت، وهنا يسري قانون الطاقة.",
+     "en": "First: installations. Here the Energy Industry Act applies."
+    },
+    {
+     "de": "Zweitens: Produkte. Hier gelten das Produktsicherheitsgesetz und EU-Recht.",
+     "ar": "ثانيًا: المنتجات، وهنا يسري قانون سلامة المنتجات وقانون الاتحاد الأوروبي.",
+     "en": "Second: products. Here the Product Safety Act and EU law apply.",
+     "tts": "Zweitens: Produkte. Hier gelten das Produktsicherheitsgesetz und E-U-Recht."
+    },
+    {
+     "de": "Drittens: der Netzanschluss. Viertens: Verantwortung und Haftung.",
+     "ar": "ثالثًا: التوصيل بالشبكة. رابعًا: المسؤولية والضمان.",
+     "en": "Third: the grid connection. Fourth: responsibility and liability."
+    },
+    {
+     "de": "Diese vier Bereiche greifen im Alltag eines Ingenieurs oft ineinander.",
+     "ar": "وهذه المحاور الأربعة تتداخل كثيرًا في الحياة اليومية للمهندس.",
+     "en": "In an engineer's daily work these four areas often overlap."
+    },
+    {
+     "de": "Wir gehen die Bereiche der Reihe nach durch, mit einfachen Erklärungen.",
+     "ar": "سنمرّ على المحاور بالترتيب مع شروحات بسيطة.",
+     "en": "We go through the areas one by one, with simple explanations."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Energiewirtschaftsgesetz",
+    "heading": "Paragraf 49: Technische Sicherheit",
+    "items": [
+     "Energieanlagen sicher errichten",
+     "Energieanlagen sicher betreiben",
+     "Allgemein anerkannte Regeln der Technik",
+     "Gilt für Strom, Gas und mehr"
+    ],
+    "terms": [
+     {
+      "de": "Regeln der Technik",
+      "ar": "قواعد التقنية المعترف بها",
+      "en": "recognised rules of technology"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Energiewirtschaftsgesetz, kurz EnWG, steht Paragraf 49.",
+     "ar": "يحتوي قانون الطاقة، ويُختصر EnWG، على المادة التاسعة والأربعين.",
+     "en": "The Energy Industry Act, EnWG for short, contains section 49.",
+     "tts": "Im Energiewirtschaftsgesetz, kurz E-N-W-G, steht Paragraf neunundvierzig."
+    },
+    {
+     "de": "Absatz 1 verlangt: Energieanlagen müssen technisch sicher errichtet und betrieben werden.",
+     "ar": "تشترط الفقرة الأولى إنشاء منشآت الطاقة وتشغيلها بأمان تقني.",
+     "en": "Paragraph 1 requires that energy installations are built and operated in a technically safe way.",
+     "tts": "Absatz eins verlangt: Energieanlagen müssen technisch sicher errichtet und betrieben werden."
+    },
+    {
+     "de": "Dabei sind die allgemein anerkannten Regeln der Technik zu beachten.",
+     "ar": "ويجب مراعاة القواعد التقنية المعترف بها عمومًا.",
+     "en": "The generally recognised rules of technology must be observed."
+    },
+    {
+     "de": "Das Gesetz sagt also, was erreicht werden soll, nämlich Sicherheit.",
+     "ar": "فالقانون يقول ما الذي يجب تحقيقه، وهو السلامة.",
+     "en": "So the law says what must be achieved, namely safety."
+    },
+    {
+     "de": "Wie Sie das technisch erreichen, steht in den technischen Regeln.",
+     "ar": "أما كيف تحققون ذلك تقنيًا فمذكور في القواعد التقنية.",
+     "en": "How you achieve it technically is set out in the technical rules."
+    },
+    {
+     "de": "Merken Sie sich diese Reihenfolge: erst das Gesetz, dann die technischen Regeln, dann Ihre Lösung.",
+     "ar": "تذكروا هذا الترتيب: أولًا القانون، ثم القواعد التقنية، ثم حلّكم.",
+     "en": "Remember this order: first the law, then the technical rules, then your solution."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Energiewirtschaftsgesetz",
+    "heading": "Die VDE-Vermutung",
+    "items": [
+     "Absatz 2: Vermutung bei Strom",
+     "VDE-Regeln eingehalten",
+     "Dann gelten die anerkannten Regeln als erfüllt",
+     "Eine Vermutung, kein Freibrief"
+    ],
+    "terms": [
+     {
+      "de": "Vermutung",
+      "ar": "قرينة",
+      "en": "presumption"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Absatz 2 enthält eine wichtige Vermutung.",
+     "ar": "تتضمن الفقرة الثانية قرينة مهمة.",
+     "en": "Paragraph 2 contains an important presumption.",
+     "tts": "Absatz zwei enthält eine wichtige Vermutung."
+    },
+    {
+     "de": "Bei Anlagen für Strom gilt: Halten Sie die technischen Regeln des VDE ein, dann wird vermutet, dass die anerkannten Regeln der Technik erfüllt sind.",
+     "ar": "في منشآت الكهرباء: إذا التزمتم بالقواعد التقنية لجمعية VDE، فيُفترض أن قواعد التقنية المعترف بها متحققة.",
+     "en": "For electricity installations: if you follow the technical rules of the VDE, it is presumed that the recognised rules of technology are met.",
+     "tts": "Bei Anlagen für Strom gilt: Halten Sie die technischen Regeln des Fau-De-E ein, dann wird vermutet, dass die anerkannten Regeln der Technik erfüllt sind."
+    },
+    {
+     "de": "Für Gas und Wasserstoff gilt das Regelwerk des DVGW.",
+     "ar": "وبالنسبة إلى الغاز والهيدروجين تسري قواعد DVGW الخاصة بهما.",
+     "en": "For gas and hydrogen, the DVGW rules apply.",
+     "tts": "Für Gas und Wasserstoff gilt das Regelwerk des De-Fau-G-Fau-Fau-E."
+    },
+    {
+     "de": "Das ist für Sie als Ingenieur praktisch: Die Normen geben eine sichere Orientierung.",
+     "ar": "وهذا عملي لكم كمهندسين: المعايير تعطي توجيهًا آمنًا.",
+     "en": "This is practical for you as an engineer: the standards give safe guidance."
+    },
+    {
+     "de": "Aber die Vermutung bedeutet nicht, dass nichts mehr passieren kann.",
+     "ar": "لكن القرينة لا تعني أن شيئًا لن يحدث بعد ذلك.",
+     "en": "But the presumption does not mean that nothing can ever go wrong."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Normen und Recht",
+    "heading": "Normen sind keine Gesetze",
+    "items": [
+     "DIN und VDE: private Regelwerke",
+     "Empfehlungscharakter",
+     "Die Vermutung ist widerlegbar",
+     "Sie wirkt als Beweislastregel"
+    ],
+    "terms": [
+     {
+      "de": "Beweislast",
+      "ar": "عبء الإثبات",
+      "en": "burden of proof"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wichtig: DIN- und VDE-Normen sind keine Gesetze.",
+     "ar": "مهم: معايير DIN وVDE ليست قوانين.",
+     "en": "Important: DIN and VDE standards are not laws.",
+     "tts": "Wichtig: Din- und Fau-De-E-Normen sind keine Gesetze."
+    },
+    {
+     "de": "Es sind private technische Regelwerke.",
+     "ar": "إنها قواعد تقنية خاصة.",
+     "en": "They are private technical rule sets."
+    },
+    {
+     "de": "Aber wer sie beachtet, hat einen Vorteil.",
+     "ar": "لكن من يلتزم بها يملك ميزة.",
+     "en": "But whoever follows them has an advantage."
+    },
+    {
+     "de": "Die Vermutung wirkt als Beweislastregel, und sie ist widerlegbar.",
+     "ar": "تعمل القرينة كقاعدة لعبء الإثبات، ويمكن دحضها.",
+     "en": "The presumption works as a rule on the burden of proof, and it can be rebutted."
+    },
+    {
+     "de": "Wenn Sie von einer Norm abweichen, müssen Sie Ihre Lösung gut begründen.",
+     "ar": "إذا خرجتم عن معيار ما، فعليكم تبرير حلّكم جيدًا.",
+     "en": "If you deviate from a standard, you must justify your solution well."
+    },
+    {
+     "de": "Dokumentieren Sie deshalb Ihre Entscheidungen.",
+     "ar": "لذلك وثّقوا قراراتكم.",
+     "en": "So document your decisions."
+    },
+    {
+     "de": "Merken Sie sich: Eine Norm ist ein Werkzeug, aber kein Gesetz.",
+     "ar": "تذكروا: المعيار أداة وليس قانونًا.",
+     "en": "Remember: a standard is a tool, but not a law."
+    },
+    {
+     "de": "Im Streitfall zählt am Ende, ob Ihre Lösung sicher und sorgfältig war.",
+     "ar": "وعند النزاع يهمّ في النهاية أن يكون حلّكم آمنًا ودقيقًا.",
+     "en": "In a dispute, what finally counts is whether your solution was safe and careful."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Anlage oder Produkt?",
+    "heading": "Zwei Blickwinkel",
+    "items": [
+     "Anlage: errichten und betreiben",
+     "Recht: Energiewirtschaftsgesetz",
+     "Produkt: in Verkehr bringen",
+     "Recht: Produktsicherheitsgesetz, EU-Recht"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Man muss zwei Blickwinkel trennen.",
+     "ar": "يجب التمييز بين زاويتين.",
+     "en": "You must separate two viewpoints."
+    },
+    {
+     "de": "Eine Anlage wird errichtet und betrieben. Dafür ist das Energierecht wichtig.",
+     "ar": "المنشأة تُنشأ وتُشغَّل، وهنا يهمّ قانون الطاقة.",
+     "en": "An installation is built and operated. Energy law matters here."
+    },
+    {
+     "de": "Ein Produkt wird auf den Markt gebracht. Dafür ist das Produktsicherheitsrecht wichtig.",
+     "ar": "المنتج يُطرح في السوق، وهنا يهمّ قانون سلامة المنتجات.",
+     "en": "A product is placed on the market. Product safety law matters here."
+    },
+    {
+     "de": "Ein Beispiel: Ein Hersteller baut ein Gerät und verkauft es. Das ist ein Produktthema.",
+     "ar": "مثال: مصنّع يبني جهازًا ويبيعه. هذه مسألة منتج.",
+     "en": "An example: a manufacturer builds a device and sells it. That is a product issue."
+    },
+    {
+     "de": "Ein anderes Beispiel: Eine Firma baut eine Anlage beim Kunden. Das ist ein Anlagenthema.",
+     "ar": "مثال آخر: شركة تبني منشأة عند العميل. هذه مسألة منشأة.",
+     "en": "Another example: a company builds an installation at the customer's site. That is an installation issue."
+    },
+    {
+     "de": "Manchmal treffen beide Bereiche in einem Projekt zusammen.",
+     "ar": "وأحيانًا يلتقي المجالان في مشروع واحد.",
+     "en": "Sometimes both areas meet in one project."
+    },
+    {
+     "de": "Diese Trennung hilft Ihnen, die richtige Frage an die richtige Stelle zu stellen.",
+     "ar": "يساعدكم هذا الفصل على توجيه السؤال الصحيح إلى الجهة الصحيحة.",
+     "en": "This separation helps you ask the right question in the right place."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Produktsicherheitsgesetz",
+    "heading": "Das Produktsicherheitsgesetz",
+    "items": [
+     "Gesetz über die Bereitstellung von Produkten",
+     "Kurzform: Produktsicherheitsgesetz",
+     "Begriffe: Bereitstellung, Inverkehrbringen",
+     "Behörden überwachen den Markt"
+    ],
+    "terms": [
+     {
+      "de": "Inverkehrbringen",
+      "ar": "طرح المنتج في السوق لأول مرة",
+      "en": "placing on the market"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Produktsicherheitsgesetz, kurz ProdSG, regelt die Bereitstellung von Produkten auf dem Markt.",
+     "ar": "يُنظّم قانون سلامة المنتجات، ويُختصر ProdSG، توفير المنتجات في السوق.",
+     "en": "The Product Safety Act, ProdSG for short, regulates making products available on the market.",
+     "tts": "Das Produktsicherheitsgesetz, kurz Prod-S-G, regelt die Bereitstellung von Produkten auf dem Markt."
+    },
+    {
+     "de": "Inverkehrbringen heißt: Ein Produkt wird zum ersten Mal auf dem Markt bereitgestellt.",
+     "ar": "طرح المنتج في السوق يعني توفيره في السوق للمرة الأولى.",
+     "en": "Placing on the market means: a product is made available on the market for the first time."
+    },
+    {
+     "de": "Bereitstellung ist jede Abgabe im Rahmen einer Geschäftstätigkeit, mit oder ohne Bezahlung.",
+     "ar": "التوفير هو كل تسليم ضمن نشاط تجاري، بمقابل أو دون مقابل.",
+     "en": "Making available is any supply in the course of business, paid or free of charge."
+    },
+    {
+     "de": "Marktüberwachungsbehörden können Produkte vom Markt nehmen lassen.",
+     "ar": "يمكن لسلطات مراقبة السوق منع المنتجات من البقاء في السوق.",
+     "en": "Market surveillance authorities can have products taken off the market."
+    },
+    {
+     "de": "Wichtig ist die Rolle: Sind Sie Hersteller, Importeur oder Händler?",
+     "ar": "المهم هو الدور: هل أنتم مصنّع أم مستورد أم تاجر؟",
+     "en": "The role matters: are you a manufacturer, importer or dealer?"
+    },
+    {
+     "de": "Das Gesetz arbeitet also mit klaren Begriffen, und Sie sollten sie kennen.",
+     "ar": "فالقانون يعمل بمصطلحات واضحة، ويجب أن تعرفوها.",
+     "en": "So the law works with clear terms, and you should know them."
+    },
+    {
+     "de": "Diese Begriffe tauchen in Verträgen und Gesprächen immer wieder auf.",
+     "ar": "هذه المصطلحات تتكرر باستمرار في العقود والمحادثات.",
+     "en": "These terms appear again and again in contracts and conversations."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "CE-Kennzeichnung",
+    "heading": "Was die CE-Kennzeichnung bedeutet",
+    "items": [
+     "Erklärung des Herstellers",
+     "Konformität mit EU-Vorschriften",
+     "Anbringen vor dem Inverkehrbringen",
+     "Fehlende oder falsche CE ist verboten"
+    ],
+    "terms": [
+     {
+      "de": "CE-Kennzeichnung",
+      "ar": "علامة المطابقة CE",
+      "en": "CE marking"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die CE-Kennzeichnung ist keine Prüfplakette einer Behörde.",
+     "ar": "علامة CE ليست ختم فحص من جهة رسمية.",
+     "en": "The CE marking is not an inspection seal from an authority.",
+     "tts": "Die Ze-E-Kennzeichnung ist keine Prüfplakette einer Behörde."
+    },
+    {
+     "de": "Mit ihr erklärt der Hersteller: Das Produkt erfüllt die geltenden EU-Vorschriften.",
+     "ar": "بها يعلن المصنّع أن المنتج يستوفي أحكام الاتحاد الأوروبي السارية.",
+     "en": "With it, the manufacturer declares that the product meets the applicable EU rules.",
+     "tts": "Mit ihr erklärt der Hersteller: Das Produkt erfüllt die geltenden E-U-Vorschriften."
+    },
+    {
+     "de": "Nach Paragraf 7 ProdSG wird sie vor dem Inverkehrbringen angebracht.",
+     "ar": "وفق المادة 7 من ProdSG توضع قبل طرح المنتج في السوق.",
+     "en": "Under section 7 ProdSG it is affixed before placing on the market.",
+     "tts": "Nach Paragraf sieben Prod-S-G wird sie vor dem Inverkehrbringen angebracht."
+    },
+    {
+     "de": "Ein Produkt mit unberechtigter CE-Kennzeichnung darf nicht bereitgestellt werden.",
+     "ar": "لا يجوز توفير منتج يحمل علامة CE دون وجه حق.",
+     "en": "A product with an unauthorised CE marking must not be made available.",
+     "tts": "Ein Produkt mit unberechtigter Ze-E-Kennzeichnung darf nicht bereitgestellt werden."
+    },
+    {
+     "de": "Dasselbe gilt, wenn eine vorgeschriebene CE-Kennzeichnung fehlt.",
+     "ar": "والأمر نفسه إذا غابت علامة CE المطلوبة.",
+     "en": "The same applies if a required CE marking is missing.",
+     "tts": "Dasselbe gilt, wenn eine vorgeschriebene Ze-E-Kennzeichnung fehlt."
+    },
+    {
+     "de": "Das CE-Zeichen allein sagt also nichts über die Qualität im Einzelfall aus.",
+     "ar": "وعلامة CE وحدها لا تدل على الجودة في كل حالة.",
+     "en": "The CE mark alone therefore says nothing about quality in an individual case.",
+     "tts": "Das Ze-E-Zeichen allein sagt also nichts über die Qualität im Einzelfall aus."
+    },
+    {
+     "de": "Fragen Sie bei Zukaufteilen deshalb immer nach der Konformitätserklärung.",
+     "ar": "لذلك اسألوا دائمًا عن إعلان المطابقة عند شراء الأجزاء.",
+     "en": "So always ask for the declaration of conformity when buying parts."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "EU-Richtlinien",
+    "heading": "Drei EU-Rechtsakte für Elektrotechnik",
+    "items": [
+     "Niederspannung: Richtlinie 2014/35/EU",
+     "EMV: Richtlinie 2014/30/EU",
+     "Maschinen: Verordnung 2023/1230",
+     "Alte Maschinenrichtlinie: 2006/42/EG"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Für Elektrotechnik sind drei EU-Rechtsakte wichtig.",
+     "ar": "هناك ثلاثة تشريعات أوروبية مهمة للهندسة الكهربائية.",
+     "en": "Three EU acts are important for electrical engineering.",
+     "tts": "Für Elektrotechnik sind drei E-U-Rechtsakte wichtig."
+    },
+    {
+     "de": "Die Niederspannungsrichtlinie, die EMV-Richtlinie und die Maschinenregelung.",
+     "ar": "توجيه الجهد المنخفض، وتوجيه التوافق الكهرومغناطيسي، وتنظيم الآلات.",
+     "en": "The Low Voltage Directive, the EMC Directive and the machinery regulation.",
+     "tts": "Die Niederspannungsrichtlinie, die E-M-Fau-Richtlinie und die Maschinenregelung."
+    },
+    {
+     "de": "Sie liefern die Grundlage für das CE-Zeichen.",
+     "ar": "وهي الأساس الذي تقوم عليه علامة CE نفسها.",
+     "en": "They are the basis for the CE mark.",
+     "tts": "Sie liefern die Grundlage für das Ze-E-Zeichen."
+    },
+    {
+     "de": "Jeder dieser Rechtsakte hat einen eigenen Anwendungsbereich.",
+     "ar": "لكل من هذه التشريعات نطاق تطبيق خاص به.",
+     "en": "Each of these acts has its own scope."
+    },
+    {
+     "de": "Ein Produkt kann auch unter mehrere Rechtsakte gleichzeitig fallen.",
+     "ar": "وقد يخضع المنتج الواحد لأكثر من تشريع في وقت واحد.",
+     "en": "A product can also fall under several acts at the same time."
+    },
+    {
+     "de": "Die Rechtsakte der EU legen Ziele fest, und Normen helfen bei der Umsetzung.",
+     "ar": "تحدد تشريعات الاتحاد الأوروبي الأهداف، وتساعد المعايير في التنفيذ.",
+     "en": "EU acts set goals, and standards help with implementation.",
+     "tts": "Die Rechtsakte der E-U legen Ziele fest, und Normen helfen bei der Umsetzung."
+    },
+    {
+     "de": "Auf den nächsten Folien sehen wir sie einzeln an.",
+     "ar": "وفي الشرائح التالية ننظر إلى كل منها على حدة.",
+     "en": "On the next slides we look at each one."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Niederspannungsrichtlinie",
+    "heading": "Niederspannungsrichtlinie 2014/35/EU",
+    "items": [
+     "Elektrische Betriebsmittel",
+     "50 bis 1000 Volt Wechselspannung",
+     "75 bis 1500 Volt Gleichspannung",
+     "Grundlegende Sicherheitsanforderungen"
+    ],
+    "terms": [
+     {
+      "de": "Betriebsmittel",
+      "ar": "معدات كهربائية",
+      "en": "electrical equipment"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Niederspannungsrichtlinie gilt für elektrische Betriebsmittel in einem bestimmten Spannungsbereich.",
+     "ar": "يسري توجيه الجهد المنخفض على المعدات الكهربائية ضمن نطاق جهد محدد.",
+     "en": "The Low Voltage Directive applies to electrical equipment within a certain voltage range.",
+     "tts": "Die Niederspannungsrichtlinie, zweitausendvierzehn Schrägstrich fünfunddreißig E-U, gilt für elektrische Betriebsmittel in einem bestimmten Spannungsbereich."
+    },
+    {
+     "de": "Das sind 50 bis 1000 Volt bei Wechselspannung.",
+     "ar": "وهو من 50 إلى 1000 فولت في التيار المتردد.",
+     "en": "That is 50 to 1000 volts for alternating voltage.",
+     "tts": "Das sind fünfzig bis tausend Volt bei Wechselspannung."
+    },
+    {
+     "de": "Bei Gleichspannung sind es 75 bis 1500 Volt.",
+     "ar": "وفي التيار المستمر من 75 إلى 1500 فولت.",
+     "en": "For direct voltage it is 75 to 1500 volts.",
+     "tts": "Bei Gleichspannung sind es fünfundsiebzig bis fünfzehnhundert Volt."
+    },
+    {
+     "de": "Die Richtlinie nennt nur grundlegende Sicherheitsanforderungen.",
+     "ar": "يحدد التوجيه متطلبات السلامة الأساسية فقط.",
+     "en": "The directive only sets essential safety requirements."
+    },
+    {
+     "de": "Die Details stehen in harmonisierten Normen.",
+     "ar": "وتفاصيلها موجودة في المعايير المنسقة.",
+     "en": "The details are in harmonised standards."
+    },
+    {
+     "de": "Es gibt Ausnahmen, zum Beispiel für elektrische Teile von Aufzügen.",
+     "ar": "وتوجد استثناءات، مثل الأجزاء الكهربائية للمصاعد.",
+     "en": "There are exceptions, for example for the electrical parts of lifts."
+    },
+    {
+     "de": "Dieses Beispiel zeigt die Arbeitsteilung zwischen Recht und Norm.",
+     "ar": "هذا المثال يوضح تقاسم العمل بين القانون والمعيار.",
+     "en": "This example shows the division of work between law and standard."
+    },
+    {
+     "de": "Für Ihre tägliche Arbeit heißt das: Prüfen Sie zuerst die Spannung des Produkts.",
+     "ar": "وهذا يعني في عملكم اليومي: تحققوا أولًا من جهد المنتج.",
+     "en": "For your daily work this means: first check the voltage of the product."
+    },
+    {
+     "de": "Danach sehen Sie, ob die Richtlinie überhaupt anwendbar ist.",
+     "ar": "بعد ذلك ترون هل ينطبق التوجيه أصلًا.",
+     "en": "Then you see whether the directive applies at all."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wirtschaftsakteure",
+    "heading": "Hersteller, Einführer, Händler",
+    "items": [
+     "Das EMVG regelt Pflichten je nach Rolle",
+     "Hersteller tragen die Hauptverantwortung",
+     "Einführer bringen Waren aus Drittländern",
+     "Händler stellen Produkte bereit"
+    ],
+    "terms": [
+     {
+      "de": "Hersteller",
+      "ar": "مصنّع",
+      "en": "manufacturer"
+     },
+     {
+      "de": "Einführer",
+      "ar": "مستورد",
+      "en": "importer"
+     },
+     {
+      "de": "Händler",
+      "ar": "تاجر",
+      "en": "distributor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Recht unterscheidet nach Rollen.",
+     "ar": "يميّز القانون بحسب الأدوار.",
+     "en": "The law distinguishes by role."
+    },
+    {
+     "de": "Im EMVG gibt es eigene Pflichten für Hersteller, Einführer und Händler.",
+     "ar": "في EMVG واجبات خاصة بالمصنّعين والمستوردين والتجار.",
+     "en": "The EMVG has separate duties for manufacturers, importers and distributors.",
+     "tts": "Im E-M-Fau-G gibt es eigene Pflichten für Hersteller, Einführer und Händler."
+    },
+    {
+     "de": "Der Hersteller trägt in der Regel die Hauptverantwortung für die Konformität.",
+     "ar": "يتحمل المصنّع عادةً المسؤولية الرئيسية عن المطابقة.",
+     "en": "The manufacturer usually bears the main responsibility for conformity."
+    },
+    {
+     "de": "Wer ein Produkt unter eigenem Namen anbietet, sollte seine Pflichten genau prüfen.",
+     "ar": "من يعرض منتجًا باسمه الخاص عليه أن يفحص واجباته بدقة.",
+     "en": "Whoever offers a product under their own name should check their duties carefully."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "EMV",
+    "heading": "EMV-Richtlinie und EMVG",
+    "items": [
+     "Richtlinie 2014/30/EU",
+     "Deutsches Gesetz: EMVG",
+     "In Kraft seit Dezember 2016",
+     "Bundesnetzagentur überwacht den Markt"
+    ],
+    "terms": [
+     {
+      "de": "Elektromagnetische Verträglichkeit",
+      "ar": "التوافق الكهرومغناطيسي",
+      "en": "electromagnetic compatibility"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die EMV-Richtlinie betrifft die elektromagnetische Verträglichkeit.",
+     "ar": "يتعلق توجيه EMC بالتوافق الكهرومغناطيسي.",
+     "en": "The EMC Directive concerns electromagnetic compatibility.",
+     "tts": "Die E-M-Fau-Richtlinie betrifft die elektromagnetische Verträglichkeit."
+    },
+    {
+     "de": "In Deutschland setzt das EMVG sie um. Es gilt seit Dezember 2016.",
+     "ar": "في ألمانيا ينفّذه قانون EMVG ويسري منذ ديسمبر 2016 ميلادية.",
+     "en": "In Germany the EMVG implements it. It has applied since December 2016.",
+     "tts": "In Deutschland setzt das E-M-Fau-G sie um. Es gilt seit Dezember zweitausendsechzehn."
+    },
+    {
+     "de": "Die Bundesnetzagentur führt die Marktüberwachung durch.",
+     "ar": "تتولى الوكالة الاتحادية للشبكات مراقبة السوق.",
+     "en": "The Federal Network Agency carries out market surveillance."
+    },
+    {
+     "de": "Sie kann die Bereitstellung untersagen oder einen Rückruf anordnen.",
+     "ar": "ويمكنها منع توفير المنتج أو الأمر بسحبه.",
+     "en": "It can prohibit making a product available or order a recall."
+    },
+    {
+     "de": "Nationale Maßnahmen gelten zunächst nur in Deutschland.",
+     "ar": "وتسري الإجراءات الوطنية في البداية داخل ألمانيا فقط.",
+     "en": "National measures first apply only in Germany."
+    },
+    {
+     "de": "EMV-Probleme zeigen sich oft erst spät, zum Beispiel bei Störungen im Betrieb.",
+     "ar": "كثيرًا ما تظهر مشكلات التوافق متأخرة، مثل الاضطرابات أثناء التشغيل.",
+     "en": "EMC problems often show up late, for example as disturbances in operation.",
+     "tts": "E-M-Fau-Probleme zeigen sich oft erst spät, zum Beispiel bei Störungen im Betrieb."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Maschinenverordnung",
+    "heading": "Von der Richtlinie zur Verordnung",
+    "items": [
+     "Verordnung (EU) 2023/1230",
+     "Ersetzt die Maschinenrichtlinie 2006/42/EG",
+     "Gilt ab 20. Januar 2027",
+     "Bis dahin: alte Richtlinie"
+    ],
+    "terms": [
+     {
+      "de": "Maschinenverordnung",
+      "ar": "لائحة الآلات",
+      "en": "Machinery Regulation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Bei Maschinen ändert sich das Recht bald.",
+     "ar": "في مجال الآلات سيتغير القانون قريبًا.",
+     "en": "For machinery, the law is about to change."
+    },
+    {
+     "de": "Die neue Maschinenverordnung ersetzt die Maschinenrichtlinie.",
+     "ar": "ستحل لائحة الآلات الجديدة محل توجيه الآلات.",
+     "en": "The new Machinery Regulation replaces the Machinery Directive."
+    },
+    {
+     "de": "Sie gilt nach der berichtigten Fassung ab dem 20. Januar 2027.",
+     "ar": "وهي تسري، بحسب النسخة المصححة، اعتبارًا من 20 يناير 2027 ميلادية.",
+     "en": "According to the corrected version, it applies from 20 January 2027.",
+     "tts": "Sie gilt nach der berichtigten Fassung ab dem zwanzigsten Januar zweitausendsiebenundzwanzig."
+    },
+    {
+     "de": "Bis dahin wird noch nach der Richtlinie in Verkehr gebracht.",
+     "ar": "وحتى ذلك الحين يُطرح المنتج وفق التوجيه القديم.",
+     "en": "Until then, products are still placed on the market under the directive."
+    },
+    {
+     "de": "Prüfen Sie bitte den aktuellen Stand und die deutsche Begleitgesetzgebung.",
+     "ar": "يرجى التحقق من الوضع الحالي ومن التشريع الألماني المرافق.",
+     "en": "Please check the current status and the German accompanying legislation."
+    },
+    {
+     "de": "Für Hersteller von Schaltschränken und Anlagen kann das wichtig werden.",
+     "ar": "وقد يصبح هذا مهمًا لمصنّعي لوحات التحكم والمنشآت.",
+     "en": "For makers of control cabinets and plants this can become important."
+    },
+    {
+     "de": "Ob Ihr Produkt darunter fällt, hängt vom Einzelfall ab.",
+     "ar": "وهل يندرج منتجكم تحتها أم لا فيعتمد على كل حالة.",
+     "en": "Whether your product falls under it depends on the individual case."
+    },
+    {
+     "de": "Beobachten Sie deshalb die Entwicklung in Ihrer Branche.",
+     "ar": "لذلك تابعوا التطورات في قطاعكم.",
+     "en": "So follow developments in your industry."
+    },
+    {
+     "de": "Planen Sie Übergangszeiten frühzeitig in Ihren Projekten ein.",
+     "ar": "خطّطوا مبكرًا للفترات الانتقالية في مشاريعكم.",
+     "en": "Plan transition periods into your projects early."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Produktsicherheit im Wandel",
+    "heading": "Das ProdSG wird angepasst",
+    "items": [
+     "EU-Verordnung 2023/988 seit 13.12.2024",
+     "Sie ersetzt die Richtlinie 2001/95/EG",
+     "ProdSG wird daran angepasst",
+     "Produkthaftung: EU-Frist Dezember 2026"
+    ],
+    "terms": [
+     {
+      "de": "Produkthaftung",
+      "ar": "مسؤولية المنتج",
+      "en": "product liability"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auch die allgemeine Produktsicherheit ändert sich.",
+     "ar": "وتتغير كذلك السلامة العامة للمنتجات.",
+     "en": "General product safety is also changing."
+    },
+    {
+     "de": "Die EU-Verordnung 2023/988 gilt seit dem 13. Dezember 2024.",
+     "ar": "تسري لائحة الاتحاد الأوروبي 2023/988 منذ 13 ديسمبر 2024 ميلادية.",
+     "en": "EU Regulation 2023/988 has applied since 13 December 2024.",
+     "tts": "Die E-U-Verordnung zweitausenddreiundzwanzig Schrägstrich neunhundertachtundachtzig gilt seit dem dreizehnten Dezember zweitausendvierundzwanzig."
+    },
+    {
+     "de": "Das deutsche ProdSG muss daran angepasst werden.",
+     "ar": "ويجب تكييف قانون ProdSG الألماني معها.",
+     "en": "The German ProdSG must be adjusted to it.",
+     "tts": "Das deutsche Prod-S-G muss daran angepasst werden."
+    },
+    {
+     "de": "Ein Änderungsgesetz war im Verfahren. Prüfen Sie den aktuellen Stand.",
+     "ar": "كان قانون التعديل قيد الإجراءات، فتحققوا من الوضع الحالي.",
+     "en": "An amending act was in the legislative process. Check the current status."
+    },
+    {
+     "de": "Auch das Produkthaftungsrecht wird in der EU modernisiert, mit Frist bis Dezember 2026.",
+     "ar": "كما يُحدَّث قانون مسؤولية المنتج في الاتحاد الأوروبي بمهلة حتى ديسمبر 2026 ميلادية.",
+     "en": "EU product liability law is also being modernised, with a deadline of December 2026.",
+     "tts": "Auch das Produkthaftungsrecht wird in der E-U modernisiert, mit Frist bis Dezember zweitausendsechsundzwanzig."
+    },
+    {
+     "de": "Das zeigt: Produktrecht ist in Bewegung.",
+     "ar": "وهذا يبين أن قانون المنتجات في حركة مستمرة.",
+     "en": "This shows that product law is on the move."
+    },
+    {
+     "de": "Behalten Sie darum Fachportale und Behörden im Blick.",
+     "ar": "لذلك تابعوا المواقع المتخصصة والجهات الرسمية.",
+     "en": "So keep an eye on specialist portals and authorities."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzanschluss",
+    "heading": "Die Niederspannungsanschlussverordnung",
+    "items": [
+     "Kurzform: NAV",
+     "Regelt Netzanschluss und Anschlussnutzung",
+     "Gilt im Niederspannungsnetz",
+     "Für Gas gibt es die NDAV, nicht für Strom"
+    ],
+    "terms": [
+     {
+      "de": "Netzbetreiber",
+      "ar": "مشغّل الشبكة",
+      "en": "grid operator"
+     },
+     {
+      "de": "Anschlussnehmer",
+      "ar": "صاحب التوصيل",
+      "en": "connection owner"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beim Netzanschluss ist die Niederspannungsanschlussverordnung wichtig, kurz NAV.",
+     "ar": "في التوصيل بالشبكة تهمّ لائحة التوصيل بالجهد المنخفض، وتُختصر باسم NAV عادةً.",
+     "en": "For grid connection, the Low Voltage Connection Ordinance, NAV for short, is important.",
+     "tts": "Beim Netzanschluss ist die Niederspannungsanschlussverordnung wichtig, kurz N-A-Fau."
+    },
+    {
+     "de": "Sie regelt die Bedingungen für den Anschluss und die Nutzung im Niederspannungsnetz.",
+     "ar": "تنظّم شروط التوصيل والاستخدام في شبكة الجهد المنخفض.",
+     "en": "It regulates the conditions for connection and use in the low-voltage grid."
+    },
+    {
+     "de": "Die NDAV hat einen ähnlichen Namen, aber sie gilt für Gas, nicht für Strom.",
+     "ar": "لائحة NDAV اسمها مشابه لكنها للغاز لا للكهرباء.",
+     "en": "The NDAV has a similar name, but it applies to gas, not electricity.",
+     "tts": "Die N-D-A-Fau hat einen ähnlichen Namen, aber sie gilt für Gas, nicht für Strom."
+    },
+    {
+     "de": "Anschlussnehmer ist zum Beispiel der Eigentümer des angeschlossenen Grundstücks.",
+     "ar": "صاحب التوصيل هو مثلًا مالك الأرض المتصلة بالشبكة.",
+     "en": "The connection owner is, for example, the owner of the connected property."
+    },
+    {
+     "de": "Der Netzbetreiber betreibt ein öffentliches Stromnetz.",
+     "ar": "ومشغّل الشبكة يدير شبكة كهرباء عامة.",
+     "en": "The grid operator runs a public electricity network."
+    },
+    {
+     "de": "Planen Sie diese Schritte früh, denn der Anschluss kann Zeit brauchen.",
+     "ar": "خطّطوا لهذه الخطوات مبكرًا لأن التوصيل قد يستغرق وقتًا.",
+     "en": "Plan these steps early, because the connection can take time."
+    },
+    {
+     "de": "Das ist für Planer und für Installateure wichtig.",
+     "ar": "وهذا مهم للمخططين وللمركّبين.",
+     "en": "This is important for planners and for installers."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Netzanschluss",
+    "heading": "Wer ist wofür verantwortlich?",
+    "items": [
+     "Anlage hinter der Hausanschlusssicherung",
+     "Verantwortlich: der Anschlussnehmer",
+     "Installateurverzeichnis des Netzbetreibers",
+     "Eintrag nur mit Fachnachweis"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Nach Paragraf 13 NAV ist der Anschlussnehmer gegenüber dem Netzbetreiber verantwortlich.",
+     "ar": "وفق المادة 13 من NAV يتحمل صاحب التوصيل المسؤولية تجاه مشغّل الشبكة.",
+     "en": "Under section 13 NAV the connection owner is responsible towards the grid operator.",
+     "tts": "Nach Paragraf dreizehn N-A-Fau ist der Anschlussnehmer gegenüber dem Netzbetreiber verantwortlich."
+    },
+    {
+     "de": "Gemeint ist die elektrische Anlage hinter der Hausanschlusssicherung.",
+     "ar": "والمقصود المنشأة الكهربائية بعد فاصم التوصيل المنزلي.",
+     "en": "This means the electrical installation behind the house connection fuse."
+    },
+    {
+     "de": "Arbeiten am Anschluss dürfen nur der Netzbetreiber oder ein eingetragener Installationsbetrieb ausführen.",
+     "ar": "لا ينفّذ أعمال التوصيل إلا مشغّل الشبكة أو شركة تركيب مسجّلة.",
+     "en": "Connection work may only be done by the grid operator or a registered installation company."
+    },
+    {
+     "de": "Die Eintragung hängt von einem Nachweis der fachlichen Qualifikation ab.",
+     "ar": "ويتوقف التسجيل على إثبات الكفاءة المهنية.",
+     "en": "Registration depends on proof of professional qualification."
+    },
+    {
+     "de": "Der Netzbetreiber kann außerdem eigene technische Anforderungen festlegen.",
+     "ar": "ويمكن لمشغّل الشبكة أيضًا أن يضع متطلبات تقنية خاصة به.",
+     "en": "The grid operator can also set its own technical requirements."
+    },
+    {
+     "de": "Fragen Sie deshalb früh bei Ihrem Netzbetreiber nach.",
+     "ar": "لذلك اسألوا مشغّل الشبكة لديكم في وقت مبكر.",
+     "en": "So ask your grid operator early."
+    },
+    {
+     "de": "Das gilt besonders bei Erzeugungsanlagen und größeren Verbrauchern.",
+     "ar": "وهذا ينطبق خصوصًا على منشآت التوليد والمستهلكين الكبار.",
+     "en": "This applies especially to generation plants and larger consumers."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Betreiberverantwortung",
+    "heading": "Der Unternehmer ist verantwortlich",
+    "items": [
+     "DGUV Vorschrift 3, Paragraf 5",
+     "Prüfung vor der Inbetriebnahme",
+     "Prüfung nach Änderung und wiederkehrend",
+     "Durch eine Elektrofachkraft"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "فني كهرباء مؤهل",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Betreiberverantwortung, auch Unternehmerverantwortung genannt.",
+     "ar": "ننتقل إلى مسؤولية المشغّل، وتسمى أيضًا مسؤولية صاحب العمل.",
+     "en": "Now to operator responsibility, also called employer responsibility."
+    },
+    {
+     "de": "Nach DGUV Vorschrift 3, Paragraf 5, muss der Unternehmer Prüfungen veranlassen.",
+     "ar": "وفق لائحة DGUV رقم 3، المادة 5، على صاحب العمل أن يضمن إجراء الفحوص.",
+     "en": "Under DGUV Regulation 3, section 5, the employer must make sure inspections take place.",
+     "tts": "Nach De-Ge-U-Fau Vorschrift drei, Paragraf fünf, muss der Unternehmer Prüfungen veranlassen."
+    },
+    {
+     "de": "Das gilt vor der ersten Inbetriebnahme, nach Änderungen und in festen Abständen.",
+     "ar": "وذلك قبل أول تشغيل، وبعد التعديلات، وعلى فترات منتظمة.",
+     "en": "This applies before first commissioning, after changes and at regular intervals."
+    },
+    {
+     "de": "Eine Elektrofachkraft führt die Prüfung durch oder leitet sie.",
+     "ar": "يجري الفحص فني كهرباء مؤهل أو يشرف عليه.",
+     "en": "A qualified electrician carries out or leads the inspection."
+    },
+    {
+     "de": "Die Verantwortung bleibt grundsätzlich beim Unternehmer, auch bei Delegation.",
+     "ar": "وتبقى المسؤولية من حيث المبدأ على صاحب العمل، حتى عند التفويض.",
+     "en": "Responsibility basically stays with the employer, even when delegated."
+    },
+    {
+     "de": "Die Pflicht zur Mängelbeseitigung steht ebenfalls im Zusammenhang mit der Sicherheit.",
+     "ar": "وواجب إصلاح العيوب مرتبط كذلك بالسلامة.",
+     "en": "The duty to fix defects is also linked to safety."
+    },
+    {
+     "de": "Die Prüfungen müssen dokumentiert werden, damit man sie später nachweisen kann.",
+     "ar": "يجب توثيق الفحوص حتى يمكن إثباتها لاحقًا.",
+     "en": "Inspections should be documented so that they can be proven later."
+    },
+    {
+     "de": "Der Unternehmer sollte deshalb klar festlegen, wer was prüft.",
+     "ar": "لذلك ينبغي لصاحب العمل أن يحدد بوضوح من يفحص ماذا.",
+     "en": "The employer should therefore define clearly who checks what."
+    },
+    {
+     "de": "Der Begriff Betreiber meint die Person oder Firma, die die Anlage betreibt.",
+     "ar": "مصطلح المشغّل يعني الشخص أو الشركة التي تشغّل المنشأة.",
+     "en": "The term operator means the person or company that runs the installation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Haftung",
+    "heading": "Zivilrecht und Strafrecht",
+    "items": [
+     "Zivil: Schadensersatz, Paragraf 823 BGB",
+     "Zivil: Vertrag und Gewährleistung",
+     "Straf: fahrlässige Körperverletzung",
+     "Straf: fahrlässige Tötung"
+    ],
+    "terms": [
+     {
+      "de": "Fahrlässigkeit",
+      "ar": "إهمال",
+      "en": "negligence"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Bei der Haftung unterscheidet man Zivilrecht und Strafrecht.",
+     "ar": "في المسؤولية نميّز بين القانون المدني والقانون الجزائي.",
+     "en": "For liability, we distinguish civil law and criminal law."
+    },
+    {
+     "de": "Zivilrechtlich geht es um Schadensersatz, zum Beispiel nach Paragraf 823 BGB.",
+     "ar": "مدنيًا يتعلق الأمر بالتعويض، مثلًا وفق المادة 823 من القانون المدني BGB الألماني.",
+     "en": "In civil law it is about compensation, for example under section 823 BGB.",
+     "tts": "Zivilrechtlich geht es um Schadensersatz, zum Beispiel nach Paragraf achthundertdreiundzwanzig Be-Ge-Be."
+    },
+    {
+     "de": "Strafrechtlich gibt es zum Beispiel fahrlässige Körperverletzung nach Paragraf 229 StGB.",
+     "ar": "جزائيًا توجد مثلًا جريمة الإيذاء البدني بإهمال وفق المادة 229 من قانون العقوبات StGB الألماني.",
+     "en": "In criminal law there is, for example, negligent bodily harm under section 229 StGB.",
+     "tts": "Strafrechtlich gibt es zum Beispiel fahrlässige Körperverletzung nach Paragraf zweihundertneunundzwanzig S-T-G-B."
+    },
+    {
+     "de": "Dafür droht Freiheitsstrafe bis zu drei Jahren oder Geldstrafe.",
+     "ar": "وعقوبتها السجن حتى ثلاث سنوات أو الغرامة.",
+     "en": "The penalty is up to three years in prison or a fine."
+    },
+    {
+     "de": "Bei fahrlässiger Tötung nach Paragraf 222 sind es bis zu fünf Jahre oder Geldstrafe.",
+     "ar": "وفي القتل بإهمال وفق المادة 222 تصل العقوبة إلى خمس سنوات أو غرامة.",
+     "en": "For negligent homicide under section 222 it is up to five years or a fine.",
+     "tts": "Bei fahrlässiger Tötung nach Paragraf zweihundertzweiundzwanzig sind es bis zu fünf Jahre oder Geldstrafe."
+    },
+    {
+     "de": "Auch einzelne Personen können strafrechtlich verantwortlich sein.",
+     "ar": "ويمكن أن يُساءل جزائيًا أفراد بأنفسهم.",
+     "en": "Individual persons can also be criminally responsible."
+    },
+    {
+     "de": "Der Unterschied ist wichtig: Zivilrecht gleicht Schäden aus, Strafrecht bewertet persönliche Schuld.",
+     "ar": "الفرق مهم: القانون المدني يعوّض الأضرار، والقانون الجزائي يقيّم الذنب الشخصي.",
+     "en": "The difference matters: civil law compensates damage, criminal law assesses personal fault."
+    },
+    {
+     "de": "Wichtig: Ob Haftung entsteht, hängt immer vom Einzelfall ab.",
+     "ar": "مهم: ظهور المسؤولية يعتمد دائمًا على كل حالة.",
+     "en": "Important: whether liability arises always depends on the individual case."
+    },
+    {
+     "de": "Deshalb sind Sorgfalt und Dokumentation so wichtig.",
+     "ar": "لهذا تكتسب العناية والتوثيق هذه الأهمية.",
+     "en": "That is why care and documentation matter so much."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Zwei Pflichten",
+    "heading": "Gewährleistung und Verkehrssicherung",
+    "items": [
+     "Gewährleistung: gegenüber dem Auftraggeber",
+     "Grundlage: Vertrag",
+     "Verkehrssicherung: gegenüber Dritten",
+     "Grundlage: Paragraf 823 BGB"
+    ],
+    "terms": [
+     {
+      "de": "Gewährleistung",
+      "ar": "الضمان",
+      "en": "warranty"
+     },
+     {
+      "de": "Verkehrssicherungspflicht",
+      "ar": "واجب تأمين مصادر الخطر",
+      "en": "duty to safeguard against hazards"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Diese zwei Pflichten verwechselt man oft.",
+     "ar": "كثيرًا ما يُخلط بين هذين الواجبين.",
+     "en": "People often mix up these two duties."
+    },
+    {
+     "de": "Gewährleistung betrifft Mängel gegenüber dem Auftraggeber, auf Grundlage des Vertrags.",
+     "ar": "الضمان يتعلق بالعيوب تجاه صاحب العمل بناءً على العقد.",
+     "en": "Warranty concerns defects towards the client, based on the contract."
+    },
+    {
+     "de": "Beim Werkvertrag verjähren Mängelansprüche in der Regel nach zwei Jahren, bei Bauwerken nach fünf Jahren.",
+     "ar": "في عقد المقاولة تسقط دعاوى العيوب عادةً بعد سنتين، وفي المباني بعد خمس سنوات.",
+     "en": "In a contract for work, defect claims usually expire after two years, for buildings after five years."
+    },
+    {
+     "de": "Die Verkehrssicherungspflicht schützt Dritte vor Gefahren.",
+     "ar": "واجب تأمين مصادر الخطر يحمي الغير من المخاطر.",
+     "en": "The duty to safeguard protects third parties from hazards."
+    },
+    {
+     "de": "Wer eine Gefahrenquelle schafft, muss zumutbare Vorkehrungen treffen.",
+     "ar": "من ينشئ مصدر خطر عليه اتخاذ احتياطات معقولة.",
+     "en": "Whoever creates a source of danger must take reasonable precautions."
+    },
+    {
+     "de": "Sie leitet sich aus Paragraf 823 BGB ab und steht nicht ausdrücklich im Gesetz.",
+     "ar": "وهي مستمدة من المادة 823 من BGB ولا ترد صراحةً في القانون.",
+     "en": "It is derived from section 823 BGB and is not expressly written in the law.",
+     "tts": "Sie leitet sich aus Paragraf achthundertdreiundzwanzig Be-Ge-Be ab und steht nicht ausdrücklich im Gesetz."
+    },
+    {
+     "de": "Beide Pflichten können in einem Projekt gleichzeitig eine Rolle spielen.",
+     "ar": "وقد يكون للواجبين دور في مشروع واحد في الوقت نفسه.",
+     "en": "Both duties can play a role in one project at the same time."
+    },
+    {
+     "de": "Merken Sie sich: Vertrag bedeutet Auftraggeber, Verkehrssicherung bedeutet Dritte.",
+     "ar": "تذكروا: العقد يعني صاحب العمل، وتأمين مصادر الخطر يعني الغير.",
+     "en": "Remember: contract means client, safeguarding means third parties."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Praxis",
+    "heading": "Checkliste für Ihre Projekte",
+    "items": [
+     "Wer ist Hersteller, wer Betreiber?",
+     "Welche Normen und Richtlinien gelten?",
+     "Ist die CE-Kennzeichnung korrekt?",
+     "Ist der Netzanschluss mit dem Betreiber geklärt?",
+     "Sind Prüfungen und Nachweise dokumentiert?"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss eine praktische Checkliste.",
+     "ar": "وفي الختام قائمة تحقق عملية.",
+     "en": "Finally, a practical checklist."
+    },
+    {
+     "de": "Klären Sie zuerst die Rollen: Wer ist Hersteller, wer ist Betreiber?",
+     "ar": "وضّحوا أولًا الأدوار: من المصنّع ومن المشغّل؟",
+     "en": "First clarify the roles: who is the manufacturer, who is the operator?"
+    },
+    {
+     "de": "Prüfen Sie dann, welche Normen und Richtlinien gelten.",
+     "ar": "ثم تحققوا من المعايير والتوجيهات السارية.",
+     "en": "Then check which standards and directives apply."
+    },
+    {
+     "de": "Achten Sie auf die CE-Kennzeichnung und auf den Netzanschluss.",
+     "ar": "انتبهوا إلى علامة CE وإلى التوصيل بالشبكة.",
+     "en": "Pay attention to the CE marking and the grid connection.",
+     "tts": "Achten Sie auf die Ze-E-Kennzeichnung und auf den Netzanschluss."
+    },
+    {
+     "de": "Dokumentieren Sie Ihre Entscheidungen so, dass andere sie nachvollziehen können.",
+     "ar": "وثّقوا قراراتكم بحيث يستطيع الآخرون فهمها.",
+     "en": "Document your decisions so that others can follow them."
+    },
+    {
+     "de": "Kennen Sie die Grenzen Ihrer Rolle und fragen Sie bei Zweifeln nach.",
+     "ar": "اعرفوا حدود دوركم واسألوا عند الشك.",
+     "en": "Know the limits of your role and ask when in doubt."
+    },
+    {
+     "de": "Und halten Sie Prüfungen und Entscheidungen schriftlich fest.",
+     "ar": "ودوّنوا الفحوص والقرارات كتابةً.",
+     "en": "And record inspections and decisions in writing."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Quellen und Aktualität",
+    "heading": "Wo Sie den aktuellen Stand finden",
+    "items": [
+     "Gesetze: gesetze-im-internet.de",
+     "EU-Recht: EUR-Lex",
+     "Produktsicherheit: BAuA",
+     "Marktüberwachung EMV: Bundesnetzagentur"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Wo prüfen Sie den aktuellen Stand?",
+     "ar": "أين تتحققون من الوضع الحالي؟",
+     "en": "Where do you check the current status?"
+    },
+    {
+     "de": "Deutsche Gesetze finden Sie im Internetportal des Bundes, gesetze-im-internet.de.",
+     "ar": "القوانين الألمانية تجدونها في بوابة الحكومة الاتحادية، وعنوانها gesetze-im-internet.de على الإنترنت.",
+     "en": "German laws are on the federal portal gesetze-im-internet.de.",
+     "tts": "Deutsche Gesetze finden Sie im Internetportal des Bundes, gesetze minus im minus internet Punkt de."
+    },
+    {
+     "de": "EU-Recht finden Sie auf EUR-Lex.",
+     "ar": "وتشريعات الاتحاد الأوروبي تجدونها على موقع EUR-Lex الرسمي.",
+     "en": "EU law is on EUR-Lex.",
+     "tts": "E-U-Recht finden Sie auf Ör-Lex."
+    },
+    {
+     "de": "Informationen zur Produktsicherheit gibt die Bundesanstalt für Arbeitsschutz und Arbeitsmedizin.",
+     "ar": "معلومات سلامة المنتجات تقدمها الهيئة الاتحادية لسلامة العمل والطب المهني.",
+     "en": "Information on product safety comes from the Federal Institute for Occupational Safety and Health."
+    },
+    {
+     "de": "Zur Marktüberwachung bei EMV hilft die Bundesnetzagentur.",
+     "ar": "وبشأن مراقبة السوق في التوافق الكهرومغناطيسي تساعد الوكالة الاتحادية للشبكات.",
+     "en": "For EMC market surveillance, the Federal Network Agency helps.",
+     "tts": "Zur Marktüberwachung bei E-M-Fau hilft die Bundesnetzagentur."
+    },
+    {
+     "de": "Prüfen Sie bitte immer das Datum der Fassung, die Sie lesen.",
+     "ar": "تحققوا دائمًا من تاريخ النسخة التي تقرؤونها.",
+     "en": "Always check the date of the version you are reading."
+    },
+    {
+     "de": "So bleiben Ihre Informationen aktuell und verlässlich.",
+     "ar": "وهكذا تبقى معلوماتكم حديثة وموثوقة.",
+     "en": "That keeps your information current and reliable."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "EnWG Paragraf 49: sichere Anlagen",
+     "VDE-Regeln: Vermutung, widerlegbar",
+     "CE: Herstellererklärung",
+     "Unternehmer bleibt verantwortlich"
+    ],
+    "terms": []
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Energieanlagen müssen sicher sein, und VDE-Regeln begründen eine widerlegbare Vermutung.",
+     "ar": "يجب أن تكون منشآت الطاقة آمنة، وقواعد VDE تقيم قرينة يمكن دحضها.",
+     "en": "Energy installations must be safe, and VDE rules create a rebuttable presumption.",
+     "tts": "Energieanlagen müssen sicher sein, und Fau-De-E-Regeln begründen eine widerlegbare Vermutung."
+    },
+    {
+     "de": "Produkte brauchen die richtige CE-Kennzeichnung.",
+     "ar": "تحتاج المنتجات إلى علامة CE الصحيحة.",
+     "en": "Products need the correct CE marking.",
+     "tts": "Produkte brauchen die richtige Ze-E-Kennzeichnung."
+    },
+    {
+     "de": "Beim Netzanschluss gelten die Regeln der NAV.",
+     "ar": "وفي التوصيل بالشبكة تسري قواعد NAV المعروفة.",
+     "en": "For grid connection, the NAV rules apply.",
+     "tts": "Beim Netzanschluss gelten die Regeln der N-A-Fau."
+    },
+    {
+     "de": "Die Verantwortung bleibt beim Unternehmer, und Haftung gibt es zivil und strafrechtlich.",
+     "ar": "تبقى المسؤولية على صاحب العمل، والمساءلة مدنية وجزائية.",
+     "en": "Responsibility stays with the employer, and liability exists in civil and criminal law."
+    },
+    {
+     "de": "Und denken Sie daran: Das war keine Rechtsberatung, und Gesetze ändern sich.",
+     "ar": "وتذكروا: لم تكن هذه استشارة قانونية، والقوانين تتغير.",
+     "en": "And remember: this was not legal advice, and laws change."
+    },
+    {
+     "de": "Im Quiz können Sie Ihr Wissen jetzt testen.",
+     "ar": "في الاختبار يمكنكم الآن اختبار معرفتكم.",
+     "en": "In the quiz you can now test your knowledge."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "Energiewirtschaftsgesetz (EnWG)",
+   "ar": "قانون الطاقة",
+   "en": "Energy Industry Act"
+  },
+  {
+   "de": "anerkannte Regeln der Technik",
+   "ar": "قواعد التقنية المعترف بها",
+   "en": "recognised rules of technology"
+  },
+  {
+   "de": "Vermutung",
+   "ar": "قرينة",
+   "en": "presumption"
+  },
+  {
+   "de": "Produktsicherheitsgesetz (ProdSG)",
+   "ar": "قانون سلامة المنتجات",
+   "en": "Product Safety Act"
+  },
+  {
+   "de": "Inverkehrbringen",
+   "ar": "الطرح في السوق",
+   "en": "placing on the market"
+  },
+  {
+   "de": "CE-Kennzeichnung",
+   "ar": "علامة المطابقة CE",
+   "en": "CE marking"
+  },
+  {
+   "de": "Niederspannungsrichtlinie",
+   "ar": "توجيه الجهد المنخفض",
+   "en": "Low Voltage Directive"
+  },
+  {
+   "de": "Maschinenverordnung",
+   "ar": "لائحة الآلات",
+   "en": "Machinery Regulation"
+  },
+  {
+   "de": "Netzbetreiber",
+   "ar": "مشغّل الشبكة",
+   "en": "grid operator"
+  },
+  {
+   "de": "Anschlussnehmer",
+   "ar": "صاحب التوصيل",
+   "en": "connection owner"
+  },
+  {
+   "de": "Betreiberverantwortung",
+   "ar": "مسؤولية المشغّل",
+   "en": "operator responsibility"
+  },
+  {
+   "de": "Gewährleistung",
+   "ar": "الضمان",
+   "en": "warranty"
+  },
+  {
+   "de": "Verkehrssicherungspflicht",
+   "ar": "واجب تأمين مصادر الخطر",
+   "en": "duty to safeguard against hazards"
+  },
+  {
+   "de": "Fahrlässigkeit",
+   "ar": "إهمال",
+   "en": "negligence"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was wird nach Paragraf 49 EnWG bei Einhaltung der VDE-Regeln vermutet?",
+    "ar": "ماذا يُفترض وفق المادة 49 من قانون الطاقة عند الالتزام بقواعد VDE؟",
+    "en": "What does section 49 EnWG presume when VDE rules are followed?"
+   },
+   "options": [
+    {
+     "de": "Die anerkannten Regeln der Technik sind erfüllt.",
+     "ar": "قواعد التقنية المعترف بها متحققة.",
+     "en": "The recognised rules of technology are met."
+    },
+    {
+     "de": "Die Anlage ist immer fehlerfrei.",
+     "ar": "المنشأة خالية من العيوب دائمًا.",
+     "en": "The installation is always free of faults."
+    },
+    {
+     "de": "Eine Haftung ist ausgeschlossen.",
+     "ar": "المسؤولية مستبعدة.",
+     "en": "Liability is excluded."
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was bedeutet die CE-Kennzeichnung?",
+    "ar": "ماذا تعني علامة CE؟",
+    "en": "What does the CE marking mean?"
+   },
+   "options": [
+    {
+     "de": "Der Hersteller erklärt die Konformität mit EU-Vorschriften.",
+     "ar": "يعلن المصنّع المطابقة لأحكام الاتحاد الأوروبي.",
+     "en": "The manufacturer declares conformity with EU rules."
+    },
+    {
+     "de": "Eine Behörde hat das Produkt geprüft.",
+     "ar": "جهة رسمية فحصت المنتج.",
+     "en": "An authority has tested the product."
+    },
+    {
+     "de": "Das Produkt wurde in Europa hergestellt.",
+     "ar": "صُنع المنتج في أوروبا.",
+     "en": "The product was made in Europe."
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Für welchen Bereich gilt die NDAV?",
+    "ar": "على أي مجال تسري NDAV؟",
+    "en": "Which area does the NDAV cover?"
+   },
+   "options": [
+    {
+     "de": "Für Strom im Niederspannungsnetz",
+     "ar": "للكهرباء في شبكة الجهد المنخفض",
+     "en": "Electricity in the low-voltage grid"
+    },
+    {
+     "de": "Für Gas im Niederdruck",
+     "ar": "للغاز بالضغط المنخفض",
+     "en": "Low-pressure gas"
+    },
+    {
+     "de": "Für Maschinen",
+     "ar": "للآلات",
+     "en": "Machinery"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wer bleibt nach DGUV Vorschrift 3 grundsätzlich verantwortlich?",
+    "ar": "من يبقى مسؤولًا من حيث المبدأ وفق لائحة DGUV رقم 3؟",
+    "en": "Who basically stays responsible under DGUV Regulation 3?"
+   },
+   "options": [
+    {
+     "de": "Der Unternehmer",
+     "ar": "صاحب العمل",
+     "en": "The employer"
+    },
+    {
+     "de": "Nur der Hersteller",
+     "ar": "المصنّع فقط",
+     "en": "Only the manufacturer"
+    },
+    {
+     "de": "Nur die Behörde",
+     "ar": "الجهة الرسمية فقط",
+     "en": "Only the authority"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wem gegenüber besteht die Verkehrssicherungspflicht?",
+    "ar": "تجاه من يوجد واجب تأمين مصادر الخطر؟",
+    "en": "Towards whom does the duty to safeguard exist?"
+   },
+   "options": [
+    {
+     "de": "Nur gegenüber dem Auftraggeber",
+     "ar": "تجاه صاحب العمل فقط",
+     "en": "Only towards the client"
+    },
+    {
+     "de": "Gegenüber Dritten",
+     "ar": "تجاه الغير",
+     "en": "Towards third parties"
+    },
+    {
+     "de": "Nur gegenüber dem Netzbetreiber",
+     "ar": "تجاه مشغّل الشبكة فقط",
+     "en": "Only towards the grid operator"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um die fachliche Eignung: Elektrofachkraft und Grenzen der Tätigkeit.",
+  "ar": "في الفيديو التالي نتناول الكفاءة المهنية: فني الكهرباء المؤهل وحدود العمل.",
+  "en": "The next video covers professional competence: the qualified electrician and the limits of the work."
+ },
+ "stand": "2026-10-20; vor Veröffentlichung prüfen: Wortlaut EnWG §49 (Original gesetze-im-internet.de), Änderungsgesetz ProdSG/GPSR, Geltungsbeginn Maschinenverordnung (20.01.2027), deutsches Maschinen-Durchführungsgesetz, Umsetzung Produkthaftungsrichtlinie (Frist 09.12.2026), aktuelle Fassung DGUV V3 und NAV"
+}
