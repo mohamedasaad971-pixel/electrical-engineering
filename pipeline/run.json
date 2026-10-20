@@ -1,1 +1,1 @@
-{"action":"build","video":["scripts/E/01-berufsbilder.json"],"synthesize":true,"burn":true,"rev":1}
+{"action":"build","video":["scripts/E/02-normen.json","scripts/E/03-recht.json","scripts/E/04-fachkraft.json","scripts/E/05-sicherheit.json"],"synthesize":true,"burn":true,"rev":1}
