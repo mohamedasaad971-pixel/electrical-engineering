@@ -1,0 +1,1106 @@
+[
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 8,
+  "severity": "error",
+  "issue": "Elektrofachkraft für festgelegte Tätigkeiten (EFKffT) ist in docs/research/E-F01.json nicht belegt (nicht in facts), und die Aussage 'eingeschränkte Form der Elektrofachkraft' widerspricht E-F04 (S6.5: 'keine Elektrofachkraft' bzw. keine vollständige). Unbelegt und zwischen den Videos inkonsistent.",
+  "suggested_fix": "DE: Davon zu unterscheiden ist die Elektrofachkraft für festgelegte Tätigkeiten. Sie ist keine vollständige Elektrofachkraft; mehr dazu in einem späteren Video. | AR: ويختلف عن ذلك الشخص المؤهَّل لأعمال محددة (EFKffT)، وهو ليس فنيًا مؤهلًا بالكامل؛ وسنتناول ذلك في فيديو لاحق. | EN: To be distinguished from this is the Elektrofachkraft for defined tasks. It is not a full Elektrofachkraft; more on this in a later video."
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 9,
+  "severity": "error",
+  "issue": "Detailaussage zur EFKffT ('darf nur gleichartige, wiederholende Arbeiten nach einer Arbeitsanweisung ausführen') ist in der Recherche zu E-F01 nicht belegt und wird in E-F04 ausführlicher und mit Einschränkungen behandelt.",
+  "suggested_fix": "Zeile streichen (DE/AR/EN) und die Slide-Aussage auf E-F04 verschieben."
+ },
+ {
+  "video": "E-F01",
+  "scene": 10,
+  "line": 5,
+  "severity": "error",
+  "issue": "Ungenau/falsch: Nach § 13 NAV (Abs. 2) wird das ausführende Installationsunternehmen (nicht die Person, nicht der Ingenieur) in das Installateurverzeichnis des Netzbetreibers eingetragen, und die Pflicht betrifft Errichten/Erweitern/Ändern (und Instandhalten) der Anlage hinter der Hausanschlusssicherung, nicht nur 'Anschlussarbeiten'. 'Eintrag beim Netzbetreiber' liest sich wie eine persönliche Eintragung. Widerspricht auch E-F03 S17 und E-F04 S13.6 (Verzeichnis gilt für Unternehmen).",
+  "suggested_fix": "DE: Für Arbeiten an der Anlage hinter der Hausanschlusssicherung muss das ausführende Installationsunternehmen im Installateurverzeichnis des Netzbetreibers eingetragen sein. | AR: وللأعمال على المنشأة الواقعة بعد فاصم التوصيل المنزلي يجب أن تكون شركة التركيب المنفِّذة مسجَّلة في سجل المقاولين لدى مشغّل الشبكة. | EN: For work on the installation behind the house connection fuse, the executing installation company must be entered in the grid operator's installer register."
+ },
+ {
+  "video": "E-F01",
+  "scene": 4,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Betrieb des Höchstspannungsnetzes' ist nicht belegt (F9 nennt nur vier ÜNB und Regelzonen); Spannungsebenen stehen auf der dropped-Liste ('Genaue Spannungsgrenzen').",
+  "suggested_fix": "DE: Zusammen betreiben sie das Übertragungsnetz. | AR: وهم معًا يشغّلون شبكة النقل. | EN: Together they operate the transmission grid."
+ },
+ {
+  "video": "E-F01",
+  "scene": 14,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'Industrie 4.0' ist in der Recherche nicht belegt (nur erneuerbare Energien als Hochschul-Vertiefung, F3).",
+  "suggested_fix": "DE: Ein aktuelles Thema sind erneuerbare Energien. | AR: ومن المواضيع الحالية الطاقات المتجددة. | EN: One current topic is renewable energy. (TTS entsprechend anpassen)"
+ },
+ {
+  "video": "E-F01",
+  "scene": 20,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Aussage 'Er gilt für Personen mit einem technischen Studium' ist nicht belegt und berührt die gedroppten Punkte (Bachelor/Master, Landesrecht); zudem unklarer Bezug von 'Er' (steht nach dem Verweis auf Fragen an die Behörde).",
+  "suggested_fix": "DE: Die genauen Voraussetzungen regelt das jeweilige Bundesland. | AR: الشروط الدقيقة تنظّمها كل ولاية. | EN: The exact requirements are set by each federal state."
+ },
+ {
+  "video": "E-F01",
+  "scene": 1,
+  "line": 3,
+  "severity": "note",
+  "issue": "Versprechen zum Arbeitsmarkt ('So finden Sie Ihren Platz im deutschen Arbeitsmarkt') ist unbelegt; Arbeitsmarktlage steht auf der dropped-Liste.",
+  "suggested_fix": "DE: So bekommen Sie eine erste Orientierung. | AR: وهكذا تحصلون على أول توجيه. | EN: This gives you a first orientation."
+ },
+ {
+  "video": "E-F01",
+  "scene": 5,
+  "line": 3,
+  "severity": "note",
+  "issue": "Arabische Benennung des EnWG ('قانون اقتصاد الطاقة') weicht von E-F03 ('قانون الطاقة') ab; EN 'Energy Industry Act' ist konsistent.",
+  "suggested_fix": "In allen Videos einheitlich 'قانون اقتصاد الطاقة (EnWG)' verwenden."
+ },
+ {
+  "video": "E-F01",
+  "scene": 5,
+  "line": 6,
+  "severity": "note",
+  "issue": "Aussagen zu Berufseinsteigern/Kundennähe (S5.6 'deshalb interessante Arbeitgeber', S5.8) sind unbelegt und streifen die dropped-Liste (Arbeitsmarktlage); 'deshalb' ist ein Fehlschluss aus S5.5.",
+  "suggested_fix": "Zeilen 5.6 und 5.8 streichen oder neutral formulieren: 'Regionale Betreiber sind ebenfalls mögliche Arbeitgeber.'"
+ },
+ {
+  "video": "E-F01",
+  "scene": 6,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Netzbetreiber stimmen sich ab ...' ist in der Recherche nicht belegt (nur F12: gemeinsame Unterlagen zum Netzentwicklungsplan).",
+  "suggested_fix": "Zeile 6.4 und 6.5 streichen oder als Fakt mit Quelle in die Recherche aufnehmen."
+ },
+ {
+  "video": "E-F01",
+  "scene": 8,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Mehrjährige Tätigkeit allein reicht nicht' ist korrekt, wirkt aber im Zusammenspiel mit E-F04 S5.4 ('Praxis plus Schulung kann reichen') verkürzt; Quiz Q3 gleiches Muster.",
+  "suggested_fix": "DE: Mehrjährige Tätigkeit allein reicht dafür nicht aus; sie muss durch Schulung ergänzt und dokumentiert sein. | AR: ولا يكفي لذلك مجرد العمل لسنوات طويلة؛ بل يجب أن يُستكمل بتدريب وأن يكون موثّقًا. | EN: Several years of work alone are not enough; they must be supplemented by training and documented."
+ },
+ {
+  "video": "E-F01",
+  "scene": 9,
+  "line": 1,
+  "severity": "note",
+  "issue": "Formulierung 'dürfen nur ... errichtet werden' klingt wie ein allgemeines Gesetzesverbot; es ist eine Unternehmerpflicht aus der Unfallverhütungsvorschrift (siehe E-F03 S18).",
+  "suggested_fix": "DE: Nach der Unfallverhütungsvorschrift müssen elektrische Anlagen von einer Elektrofachkraft errichtet werden. | AR: وفق لائحة الوقاية من الحوادث يجب أن تُنشأ المنشآت الكهربائية بواسطة فني كهربائي مؤهل. | EN: Under the accident prevention regulation, electrical systems must be erected by an Elektrofachkraft."
+ },
+ {
+  "video": "E-F01",
+  "scene": 9,
+  "line": 4,
+  "severity": "note",
+  "issue": "Die Regel steht in DGUV Vorschrift 3 (gewerbliche UV-Träger; Vorschrift 4 für die öffentliche Hand). 'Unfallverhütungsvorschrift der Berufsgenossenschaften' ist ohne Nummer unscharf und weicht von E-F03/E-F04/E-F05 ab (dort 'DGUV Vorschrift 3'). Die Recherchedatei nennt 'DGUV Vorschrift 4'.",
+  "suggested_fix": "DE: Die Regel steht in der DGUV Vorschrift 3 (Unfallverhütungsvorschrift). | AR: وهذه القاعدة واردة في لائحة DGUV رقم 3 للوقاية من الحوادث. | EN: The rule is in DGUV Regulation 3 (accident prevention regulation). (Zeile 8.7 analog)"
+ },
+ {
+  "video": "E-F01",
+  "scene": 17,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Viele Ingenieure wechseln im Laufe ihres Berufslebens das Feld' ist unbelegt.",
+  "suggested_fix": "DE: Es ist möglich, im Laufe des Berufslebens das Feld zu wechseln. | AR: يمكن تغيير المجال خلال الحياة المهنية. | EN: It is possible to change field during one's working life."
+ },
+ {
+  "video": "E-F01",
+  "scene": 18,
+  "line": 1,
+  "severity": "note",
+  "issue": "Absolute Aussage 'In allen Feldern ... gefährliche Energie' (z. B. Mikroelektronik-Entwicklung); EN ist vorsichtiger ('potentially').",
+  "suggested_fix": "DE: In vielen Feldern arbeiten Sie mit Energie, die gefährlich sein kann. | AR: في كثير من المجالات تتعاملون مع طاقة قد تكون خطرة. | EN: In many fields you work with energy that can be dangerous."
+ },
+ {
+  "video": "E-F02",
+  "scene": 4,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Interne Inkonsistenz/Fehlzuordnung: S4.4 und Slide-Item sagen, DIN vertrete Deutschland in CENELEC (und sei Mitglied), S5.4 sagt dagegen, die DKE vertritt Deutschland bei CENELEC und IEC. Laut DKE/DIN-Seiten ist die DKE das deutsche Mitglied in IEC und CENELEC (Normenvertrag 1975 zwischen Bund und DIN). Die Recherche (F8, Bundestag Drucksache 14/8454) nennt DIN als Mitglied von CEN, CENELEC, ISO - Widerspruch zu F3.",
+  "suggested_fix": "DE: DIN ist Mitglied in CEN und ISO. Für die Elektrotechnik vertritt die DKE Deutschland. | AR: دين عضو في سين وإيزو. وفي مجال الكهروتقنية تمثل دكه ألمانيا. | EN: DIN is a member of CEN and ISO. For electrical engineering, the DKE represents Germany. | Slide-Item 4: 'Mitglied in CEN und ISO'"
+ },
+ {
+  "video": "E-F02",
+  "scene": 7,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Beispiel DIN EN 61355-1 / VDE 0040-3: E-F06 (F16) belegt, dass IEC 61355-1 durch IEC 81355-1:2024 (EN IEC 81355-1:2025) abgelöst ist; DIN führt DIN EN 61355-1:2009-03 evtl. noch als aktuell. Beispiel ist damit ein Auslaufmodell und steht in Spannung zu E-F06 S17. TTS enthält zudem 'eins-und-sechzig' statt 'einundsechzig'.",
+  "suggested_fix": "DE: Ein Beispiel ist DIN EN 61082-1 mit der VDE-Nummer 0040-1. | AR: مثال على ذلك المعيار DIN EN 61082-1 ورقمه عند فدي 0040-1. | EN: One example is DIN EN 61082-1 with the VDE number 0040-1. (belegt in E-F06 F2; Slide-Referenzen anpassen)"
+ },
+ {
+  "video": "E-F02",
+  "scene": 9,
+  "line": 11,
+  "severity": "risk",
+  "issue": "'Im Titel steht oft die Nummer der europäischen Fassung' widerspricht S12.3 und der Recherche (F11): Die Jahreszahl im Titel nennt die zugrunde liegende EN/IEC-Ausgabe, nicht eine 'Nummer'.",
+  "suggested_fix": "DE: Darum stehen im Titel oft auch Angaben zur EN- oder IEC-Fassung. | AR: ولذلك تتضمن التسمية غالبًا بيانات عن النسخة الأوروبية أو الدولية. | EN: That is why the title often also contains details of the EN or IEC version."
+ },
+ {
+  "video": "E-F02",
+  "scene": 15,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Online-Datenbank des VDE Instituts' ist in der Recherche nicht belegt.",
+  "suggested_fix": "Zeile 15.5 streichen (DE/AR/EN)."
+ },
+ {
+  "video": "E-F02",
+  "scene": 15,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Das Zeichen steht für Sicherheit bei elektrischen, mechanischen und weiteren Gefährdungen' ist nicht belegt und ein Qualitätsversprechen.",
+  "suggested_fix": "Zeile 15.6 streichen oder: DE: Das Zeichen bezieht sich auf das geprüfte Produkt. | AR: العلامة تخص المنتج الذي جرى اختباره. | EN: The mark refers to the product that was tested."
+ },
+ {
+  "video": "E-F02",
+  "scene": 17,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Definition der 'anerkannten Regeln der Technik' ist nicht in der Recherche belegt (F15 enthält nur Abgrenzung Norm/aRdT) und ist ein Rechtsbegriff - Risiko einer unpräzisen Rechtsdefinition.",
+  "suggested_fix": "DE: Anerkannte Regeln der Technik sind ein Rechtsbegriff; was genau gemeint ist, hängt vom Einzelfall ab. | AR: القواعد المعترف بها للتقنية مصطلح قانوني، وما يُقصد به بالضبط يتوقف على كل حالة. | EN: Generally acknowledged rules of technology is a legal term; what exactly is meant depends on the individual case."
+ },
+ {
+  "video": "E-F02",
+  "scene": 18,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Absolute rechtliche Aussage ('Rechtlich sicher sind Sie nur mit klaren Absprachen im Vertrag') - Rechtsberatung/Überversprechen, nicht belegt.",
+  "suggested_fix": "DE: Klare Absprachen im Vertrag schaffen Klarheit. | AR: الاتفاقات الواضحة في العقد تخلق وضوحًا. | EN: Clear agreements in the contract create clarity."
+ },
+ {
+  "video": "E-F02",
+  "scene": 18,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Vertragsgestaltungs-Anweisung ('Schreiben Sie ... in den Vertrag') ist Rechtsberatung und nicht belegt; verträgt sich nicht mit 'keine Rechtsberatung'.",
+  "suggested_fix": "DE: Im Vertrag wird eine Norm üblicherweise mit Ausgabedatum genannt; lassen Sie sich im Zweifel beraten. | AR: يُذكر المعيار عادةً في العقد مع تاريخ الإصدار؛ واستشيروا مختصًا عند الشك. | EN: In a contract a standard is usually named with its edition date; get advice if in doubt."
+ },
+ {
+  "video": "E-F02",
+  "scene": 21,
+  "line": 1,
+  "severity": "risk",
+  "issue": "Urheberrechtsaussage ('Normen sind geschützte Werke', Slide: 'urheberrechtlich geschützt') und L5 ('Foto/Screenshot ist ebenfalls ein Kopieren') sind eine rechtliche Einordnung, die nicht in der Recherche steht; dropped-Liste: statt Urheberrecht nur die allgemeine Regel 'Normen nicht kopieren'.",
+  "suggested_fix": "DE: Eine wichtige Regel zum Schluss: Normtexte werden nicht kopiert. | AR: قاعدة مهمة في الختام: لا تُنسخ نصوص المعايير. | EN: One important rule at the end: standard texts are not copied. | Slide-Item 1: 'Normtexte nicht kopieren'"
+ },
+ {
+  "video": "E-F02",
+  "scene": 21,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Rechtliche Behauptung ohne Beleg (siehe 21.1).",
+  "suggested_fix": "DE: Kopieren Sie Normtexte auch nicht als Foto oder Screenshot. | AR: ولا تنسخوا نصوص المعايير كصورة أو لقطة شاشة أيضًا. | EN: Do not copy standard texts as a photo or screenshot either."
+ },
+ {
+  "video": "E-F02",
+  "scene": 2,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Behörden, Firmen und Versicherungen achten auf Normen' ist unbelegt.",
+  "suggested_fix": "Zeile 2.5 streichen oder als allgemeine Aussage entschärfen: 'In Deutschland begegnen Ihnen Normen in vielen Dokumenten.'"
+ },
+ {
+  "video": "E-F02",
+  "scene": 4,
+  "line": 5,
+  "severity": "note",
+  "issue": "Aussagen zu Konsens-Arbeitsweise und 'Staat hat DIN nur als Organisation anerkannt' (S4.5-4.7) sind nicht in der Recherche (F8 sagt nur: anerkannt, keine hoheitlichen Befugnisse).",
+  "suggested_fix": "Zeilen 4.5 und 4.7 streichen oder belegen."
+ },
+ {
+  "video": "E-F02",
+  "scene": 5,
+  "line": 7,
+  "severity": "note",
+  "issue": "Mitarbeit von Ingenieuren in Fachgremien (S5.7/5.8) ist nur teilweise belegt (F2: Experten aus Wirtschaft, Wissenschaft, öffentliche Hand).",
+  "suggested_fix": "Zeile 5.7 streichen."
+ },
+ {
+  "video": "E-F02",
+  "scene": 6,
+  "line": 1,
+  "severity": "note",
+  "issue": "Offizielle Bezeichnung: Verband der Elektrotechnik Elektronik Informationstechnik; 'Elektro- und Informationstechnik' lässt Elektronik weg.",
+  "suggested_fix": "DE: Der VDE ist ein Verband der Elektrotechnik, Elektronik und Informationstechnik. | AR: فدي رابطة للهندسة الكهربائية والإلكترونيات وتقنية المعلومات. | EN: The VDE is an association for electrical engineering, electronics and information technology."
+ },
+ {
+  "video": "E-F02",
+  "scene": 9,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Dann gilt die IEC-Norm in Europa als EN' vereinfacht stark; belegt (F7) ist nur: IEC-Normen werden als EN übernommen.",
+  "suggested_fix": "DE: Danach wird die IEC-Norm als EN übernommen. | AR: بعد ذلك يُتبنّى معيار آي إي سي كمعيار إن. | EN: Then the IEC standard is adopted as an EN."
+ },
+ {
+  "video": "E-F02",
+  "scene": 20,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Viele Firmen haben schon Zugang zu Normen' ist unbelegt.",
+  "suggested_fix": "Zeile streichen oder: 'Fragen Sie auch Ihren Arbeitgeber, ob es Zugang zu Normen gibt.'"
+ },
+ {
+  "video": "E-F02",
+  "scene": 22,
+  "line": 7,
+  "severity": "note",
+  "issue": "NEXT/S22.7 passt nicht zu E-F03 (rechtlicher Rahmen). NEXT sagt 'Normen für Planung und Anlagen im Alltag finden und anwenden'.",
+  "suggested_fix": "DE: Im nächsten Video geht es um den rechtlichen Rahmen: Energierecht, Produktsicherheit und Haftung. | AR: في الفيديو القادم نتناول الإطار القانوني: قانون الطاقة وسلامة المنتجات والمسؤولية. | EN: The next video is about the legal framework: energy law, product safety and liability. (NEXT-Feld identisch anpassen)"
+ },
+ {
+  "video": "E-F03",
+  "scene": 15,
+  "line": 3,
+  "severity": "error",
+  "issue": "Veraltet/falsch: Das ProdSG wurde bereits angepasst - Gesetz zur Änderung des ProdSG, BGBl. 2026 I Nr. 29 (3.2.2026), in Kraft seit 19.02.2026 (Quellen: recht.bund.de, DIP 'Verkündet', Baker McKenzie 03/2026). Die Recherche (F9) und das Skript führen noch 'muss angepasst werden / war im Verfahren'.",
+  "suggested_fix": "DE: Das deutsche ProdSG wurde daran angepasst; die Änderung gilt seit dem 19. Februar 2026. | AR: وقد جرى تكييف قانون ProdSG الألماني معها، ويسري التعديل منذ 19 فبراير 2026 ميلادية. | EN: The German ProdSG has been adjusted to it; the amendment has applied since 19 February 2026. | Slide-Item 3: 'ProdSG angepasst (seit 19.02.2026)'"
+ },
+ {
+  "video": "E-F03",
+  "scene": 15,
+  "line": 4,
+  "severity": "error",
+  "issue": "'Ein Änderungsgesetz war im Verfahren' ist überholt (siehe 15.3).",
+  "suggested_fix": "DE: Prüfen Sie trotzdem immer die aktuelle Fassung. | AR: ومع ذلك تحققوا دائمًا من النسخة الحالية. | EN: Even so, always check the current version."
+ },
+ {
+  "video": "E-F03",
+  "scene": 18,
+  "line": 6,
+  "severity": "error",
+  "issue": "Gedroppter Punkt: 'Pflicht zur Mängelbeseitigung' (Wortlaut DGUV V3 § 3 laut dropped-Liste nicht belegt) steht trotzdem im Skript.",
+  "suggested_fix": "Zeile 18.6 streichen (DE/AR/EN)."
+ },
+ {
+  "video": "E-F03",
+  "scene": 5,
+  "line": null,
+  "severity": "risk",
+  "issue": "Slide-Item 'Dann gelten die anerkannten Regeln als erfüllt' ist stärker als die Zeile ('wird vermutet'); widerlegbare Vermutung, kein Freibrief.",
+  "suggested_fix": "Slide-Item: 'Dann wird die Erfüllung vermutet'"
+ },
+ {
+  "video": "E-F03",
+  "scene": 6,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Im Streitfall zählt am Ende, ob Ihre Lösung sicher und sorgfältig war' ist eine unbelegte rechtliche Zusage.",
+  "suggested_fix": "DE: Im Streitfall kommt es auf den Einzelfall an. | AR: وعند النزاع يتوقف الأمر على كل حالة. | EN: In a dispute, the individual case is decisive."
+ },
+ {
+  "video": "E-F03",
+  "scene": 11,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Beispiel 'elektrische Teile von Aufzügen' ist in der Recherche (F10: nur 'Ausnahmen u. a. in Anhang II') nicht belegt.",
+  "suggested_fix": "DE: Es gibt Ausnahmen, die in Anhang II der Richtlinie stehen. | AR: وتوجد استثناءات واردة في الملحق II من التوجيه. | EN: There are exceptions, listed in Annex II of the directive. (oder Beispiel mit Quelle in die Recherche aufnehmen)"
+ },
+ {
+  "video": "E-F03",
+  "scene": 12,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Rollenpflichten im EMVG (Hersteller/Einführer/Händler) sind in der Recherche (F11) nicht belegt.",
+  "suggested_fix": "DE: Im Produktsicherheitsrecht gibt es eigene Pflichten für Hersteller, Einführer und Händler. | AR: في قانون سلامة المنتجات واجبات خاصة بالمصنّعين والمستوردين والتجار. | EN: Product safety law has separate duties for manufacturers, importers and distributors. (Slide-Item 1 anpassen; Fakt in Recherche ergänzen)"
+ },
+ {
+  "video": "E-F03",
+  "scene": 17,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Zu eng/ungenau: Die Eintragungspflicht nach § 13 NAV betrifft das Installationsunternehmen und Errichten/Erweitern/Ändern (Instandhalten teilweise) der Anlage hinter der Hausanschlusssicherung, nicht nur 'Arbeiten am Anschluss'. Konsistenz mit E-F01 S10.5 und E-F04 S13 herstellen.",
+  "suggested_fix": "DE: Arbeiten an der Anlage hinter der Hausanschlusssicherung darf nur der Netzbetreiber oder ein in sein Installateurverzeichnis eingetragenes Installationsunternehmen ausführen. | AR: لا ينفّذ الأعمال على المنشأة بعد فاصم التوصيل المنزلي إلا مشغّل الشبكة أو شركة تركيب مسجَّلة في سجل المقاولين لديه. | EN: Work on the installation behind the house connection fuse may only be done by the grid operator or an installation company entered in its installer register."
+ },
+ {
+  "video": "E-F03",
+  "scene": 17,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Erzeugungsanlagen und größere Verbraucher' ist nicht belegt (NAV betrifft Niederspannungsanschluss allgemein; Anschluss von Erzeugungsanlagen folgt anderen Regeln).",
+  "suggested_fix": "Zeile 17.7 streichen (DE/AR/EN)."
+ },
+ {
+  "video": "E-F03",
+  "scene": 18,
+  "line": 7,
+  "severity": "risk",
+  "issue": "DE/AR sagen 'müssen dokumentiert werden', EN 'should'; Dokumentationspflicht ist in der Recherche (F17) nicht belegt.",
+  "suggested_fix": "DE: Die Prüfungen sollten dokumentiert werden, damit man sie später nachweisen kann. | AR: ينبغي توثيق الفحوص حتى يمكن إثباتها لاحقًا. | EN: (unverändert 'should')"
+ },
+ {
+  "video": "E-F03",
+  "scene": 20,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Verkürzt/irreführend: Für Elektroinstallation an Gebäuden (Bauwerk) und zugehörige Planungs-/Überwachungsleistungen gilt die 5-Jahres-Frist (§ 634a BGB), nicht die 2-Jahres-Frist; Fristbeginn mit Abnahme fehlt; 'in der Regel' verdeckt, dass der Vertrag Abweichendes regeln kann.",
+  "suggested_fix": "DE: Beim Werkvertrag verjähren Mängelansprüche nach zwei Jahren; bei einem Bauwerk und den zugehörigen Planungs- und Überwachungsleistungen nach fünf Jahren. Die Frist beginnt mit der Abnahme. | AR: في عقد المقاولة تسقط دعاوى العيوب بعد سنتين؛ وفي المبنى وخدمات التخطيط والإشراف المرتبطة به بعد خمس سنوات. وتبدأ المدة من الاستلام. | EN: In a contract for work, defect claims expire after two years; for a building and the related planning and supervision services after five years. The period starts with acceptance."
+ },
+ {
+  "video": "E-F03",
+  "scene": 23,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Zusammenfassung lässt das 'grundsätzlich' aus (S18.5/F18) - absolute Verantwortungsaussage; Quiz Q4 ('nach DGUV V3') stützt sich auf F18 (Fachliteratur, nicht V3-Paragraph).",
+  "suggested_fix": "DE: Die Verantwortung bleibt grundsätzlich beim Unternehmer, und Haftung gibt es zivil und strafrechtlich. | AR: تبقى المسؤولية من حيث المبدأ على صاحب العمل، والمساءلة مدنية وجزائية. | EN: Responsibility basically stays with the employer, and liability exists in civil and criminal law."
+ },
+ {
+  "video": "E-F03",
+  "scene": 4,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide-Item 'Gilt für Strom, Gas und mehr' - 'und mehr' unbelegt (F2 nennt Strom, Gas, Wasserstoff).",
+  "suggested_fix": "Slide-Item: 'Gilt für Strom, Gas und Wasserstoff'"
+ },
+ {
+  "video": "E-F03",
+  "scene": 5,
+  "line": 2,
+  "severity": "note",
+  "issue": "Arabische/englische Terminologie für 'anerkannte Regeln der Technik' weicht von E-F02 ab (E-F02: القواعد المعترف بها للتقنية / generally acknowledged rules of technology; E-F03: قواعد التقنية المعترف بها / recognised rules of technology).",
+  "suggested_fix": "In beiden Videos einheitlich E-F02-Terminologie verwenden."
+ },
+ {
+  "video": "E-F03",
+  "scene": 5,
+  "line": 4,
+  "severity": "note",
+  "issue": "'sichere Orientierung' überhöht für eine widerlegbare Vermutung.",
+  "suggested_fix": "DE: Das ist für Sie als Ingenieur praktisch: Die Normen geben eine wichtige Orientierung. | AR: وهذا عملي لكم كمهندسين: المعايير تعطي توجيهًا مهمًا. | EN: This is practical for you as an engineer: the standards give important guidance."
+ },
+ {
+  "video": "E-F03",
+  "scene": 9,
+  "line": 3,
+  "severity": "note",
+  "issue": "Nach der ProdSG-Änderung 2026 ist der Wortlaut/Absatz von § 7 (CE-Kennzeichnung) gegen die konsolidierte Fassung zu prüfen; § 2 (Definitionen) wurde geändert (Unionsmarkt).",
+  "suggested_fix": "Vor Veröffentlichung gegen gesetze-im-internet.de prüfen; im Text nur 'nach dem ProdSG' sagen, falls Paragraph nicht verifiziert."
+ },
+ {
+  "video": "E-F03",
+  "scene": 9,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Also' ist ein Fehlschluss aus der Herstellererklärung; Aussage zur Qualität ist unbelegt.",
+  "suggested_fix": "DE: Das CE-Zeichen ist eine Herstellererklärung, kein Qualitätsurteil im Einzelfall. | AR: علامة CE إعلان من المصنّع وليست حكمًا على الجودة في كل حالة. | EN: The CE mark is a manufacturer's declaration, not a quality judgement in an individual case."
+ },
+ {
+  "video": "E-F03",
+  "scene": 10,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Für Elektrotechnik sind drei EU-Rechtsakte wichtig' suggeriert Vollständigkeit (RED, RoHS, ...).",
+  "suggested_fix": "DE: Für Elektrotechnik sind unter anderem drei EU-Rechtsakte wichtig. | AR: من التشريعات الأوروبية المهمة للهندسة الكهربائية ثلاثة، من بين أخرى. | EN: Among others, three EU acts are important for electrical engineering."
+ },
+ {
+  "video": "E-F03",
+  "scene": 10,
+  "line": 2,
+  "severity": "note",
+  "issue": "Arabisch uneinheitlich: 'تنظيم الآلات' (S10.2) vs. 'لائحة الآلات' (S14, Glossar).",
+  "suggested_fix": "AR: توجيه الجهد المنخفض، وتوجيه التوافق الكهرومغناطيسي، ولائحة الآلات."
+ },
+ {
+  "video": "E-F03",
+  "scene": 13,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Nationale Maßnahmen gelten zunächst nur in Deutschland' und S13.6 (EMV-Probleme zeigen sich spät) sind unbelegt.",
+  "suggested_fix": "Zeilen 13.5 und 13.6 streichen."
+ },
+ {
+  "video": "E-F03",
+  "scene": 14,
+  "line": 3,
+  "severity": "note",
+  "issue": "Datum 20. Januar 2027 ist korrekt (Art. 53 VO 2023/1230; mehrere Quellen übereinstimmend). Die Formulierung 'nach der berichtigten Fassung' verunsichert unnötig und spiegelt nur eine Recherchelücke.",
+  "suggested_fix": "DE: Sie gilt ab dem 20. Januar 2027. | AR: وهي تسري اعتبارًا من 20 يناير 2027 ميلادية. | EN: It applies from 20 January 2027."
+ },
+ {
+  "video": "E-F03",
+  "scene": 14,
+  "line": 6,
+  "severity": "note",
+  "issue": "Betroffenheit von 'Schaltschrank-Herstellern' unbelegt.",
+  "suggested_fix": "Zeile streichen oder: 'Für Hersteller von Maschinen kann das wichtig werden.'"
+ },
+ {
+  "video": "E-F03",
+  "scene": 18,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Betreiberverantwortung' und 'Unternehmerverantwortung' werden gleichgesetzt; DGUV V3 spricht vom Unternehmer, ArbSchG/BetrSichV vom Arbeitgeber.",
+  "suggested_fix": "DE: Jetzt zur Verantwortung des Unternehmers, oft auch Betreiberverantwortung genannt. | AR: ننتقل إلى مسؤولية صاحب العمل، وتسمى غالبًا أيضًا مسؤولية المشغّل. | EN: Now to the employer's responsibility, often also called operator responsibility."
+ },
+ {
+  "video": "E-F04",
+  "scene": 4,
+  "line": 9,
+  "severity": "error",
+  "issue": "DE sagt 'Das Gesetz spricht von ...' - die Definition steht in der Unfallverhütungsvorschrift DGUV Vorschrift 3, nicht in einem Gesetz; EN/AR sagen korrekt 'rule/اللائحة'.",
+  "suggested_fix": "DE: Die Vorschrift spricht von Beurteilen und Gefahren erkennen. | AR: (unverändert) | EN: (unverändert)"
+ },
+ {
+  "video": "E-F04",
+  "scene": 6,
+  "line": 5,
+  "severity": "error",
+  "issue": "DE 'Sie ist keine Elektrofachkraft' weicht von EN/AR ('not a full' / 'ليس مؤهَّلًا كهربائيًا كاملًا') ab; zudem Widerspruch zu E-F01 S8.8 ('eingeschränkte Form'). Einheitliche, vorsichtige Aussage nötig.",
+  "suggested_fix": "DE: Sie ist keine vollständige Elektrofachkraft und gilt außerhalb ihres Bereichs als Laie. | AR: (unverändert) | EN: (unverändert)"
+ },
+ {
+  "video": "E-F04",
+  "scene": 9,
+  "line": 8,
+  "severity": "error",
+  "issue": "Falsch/unbelegt: Nur die EUP arbeitet nach Recherche (F9) unter Leitung und Aufsicht einer Elektrofachkraft. Die EFKffT arbeitet nach Arbeitsanweisung des Unternehmers; der Laie macht einfache Handgriffe ohne Aufsichtsbezug. Zugleich würde 'drei untere Stufen' eine formale Hierarchie suggerieren.",
+  "suggested_fix": "DE: Die EUP arbeitet unter Leitung und Aufsicht einer Elektrofachkraft. | AR: ويعمل EUP تحت إشراف وتوجيه شخص مؤهَّل كهربائيًا. | EN: The EUP works under the direction and supervision of an Elektrofachkraft."
+ },
+ {
+  "video": "E-F04",
+  "scene": 5,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Arabisch 'شهادة ماستر' kann als Master-Abschluss (M.Sc.) gelesen werden; gemeint ist der Meisterbrief (Meister). Inkonsistent zu S14 ('المايستر').",
+  "suggested_fix": "AR: المعتاد إثباتها بتدريب مهني أو بشهادة الميستر (Meister) أو الفني (Techniker) أو بشهادة هندسية."
+ },
+ {
+  "video": "E-F04",
+  "scene": 6,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Das Produktions-Beispiel (Mitarbeiter tauscht täglich dasselbe Bauteil) ist erfunden/unbelegt und könnte als Freigabe für Eingriffe in Maschinen gelesen werden.",
+  "suggested_fix": "DE: Ein Beispiel für klar begrenzte Arbeit: ein Mitarbeiter in der Produktion, der immer dieselbe Tätigkeit ausführt. Ob das zulässig ist, entscheidet der Betrieb. | AR: مثال لعمل محدود بوضوح: موظف في الإنتاج ينفّذ كل يوم النشاط نفسه. وهل هذا جائز، تقرره المنشأة. | EN: An example of clearly limited work: an employee in production who always does the same task. Whether this is permissible is decided by the company. (Zeilen 6.6-6.8 entsprechend straffen)"
+ },
+ {
+  "video": "E-F04",
+  "scene": 8,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Beispiel 'Ein- und Ausschalten einer Anlage' ist in der Recherche (F10) nicht belegt und sicherheitlich zu weit ('Anlage').",
+  "suggested_fix": "DE: Zum Beispiel das Ein- und Ausschalten eines Geräts. | AR: مثل تشغيل جهاز وإيقافه. | EN: For example, switching a device on and off."
+ },
+ {
+  "video": "E-F04",
+  "scene": 11,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'Die fachliche Verantwortung trägt die Elektrofachkraft' ist falsch verallgemeinert; nach F12 trägt die Verantwortliche Elektrofachkraft (VEFK) die fachliche Verantwortung, Organisation/Auswahl/Aufsicht bleiben beim Unternehmer/der Führungskraft.",
+  "suggested_fix": "DE: Die fachliche Verantwortung trägt die Verantwortliche Elektrofachkraft. | AR: أما المسؤولية الفنية فيتحملها المسؤول الكهربائي المؤهَّل (VEFK). | EN: The technical responsibility lies with the responsible Elektrofachkraft (VEFK)."
+ },
+ {
+  "video": "E-F04",
+  "scene": 15,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Zielgruppe sind Ingenieure aus dem Ausland: § 7 Abs. 2 HwO bezieht sich auf Hochschulabschlüsse im deutschen Hochschulsystem (HwREintrV: Hochschulen im Sinne des HRG); die Zeile suggeriert, jeder Hochschulabschluss zähle. Anerkennung ausländischer Abschlüsse steht auf der dropped-Liste von E-F01.",
+  "suggested_fix": "DE: Nach § 7 Abs. 2 HwO zählt ein Abschluss einer deutschen Hochschule in der passenden Fachrichtung. Wie ein ausländischer Abschluss behandelt wird, klären Sie mit der Handwerkskammer. | AR: وفق § 7 الفقرة 2 من HwO يُعتدّ بشهادة من جامعة ألمانية في التخصص المناسب. أما كيفية التعامل مع شهادة أجنبية فاسألوا عنها غرفة الحِرَف. | EN: Under § 7 para. 2 HwO, a degree from a German university in the matching field counts. How a foreign degree is treated, clarify with the Handwerkskammer. (Recherche F17 entsprechend ergänzen)"
+ },
+ {
+  "video": "E-F04",
+  "scene": 18,
+  "line": 2,
+  "severity": "risk",
+  "issue": "§ 49 HGB: 'alle Geschäfte' lässt die in F20 belegte Ausnahme (Grundstücke nur mit besonderer Befugnis) weg - absolute Aussage. Arabisch 'الوكيل التجاري' bedeutet Handelsvertreter/Commercial agent, nicht Prokurist (auch Quiz Q4).",
+  "suggested_fix": "DE: Ein Prokurist darf nach § 49 HGB grundsätzlich alle Geschäfte eines Handelsgewerbes führen; für Grundstücke braucht er eine besondere Befugnis. | AR: يحق لحامل التوكيل التجاري الشامل (Prokurist) وفق § 49 من HGB إجراء جميع أعمال التجارة من حيث المبدأ، وللعقارات يحتاج صلاحية خاصة. | EN: Under § 49 HGB a Prokurist may in principle conduct all business of a trade; for real estate a special authorisation is needed. | Slide-Item 2: 'Grundsätzlich alle Geschäfte'"
+ },
+ {
+  "video": "E-F04",
+  "scene": 1,
+  "line": null,
+  "severity": "note",
+  "issue": "Arabische Begriffe uneinheitlich (Elektrofachkraft: 'فنّي كهرباء مؤهَّل' / 'شخص مؤهَّل كهربائيًا'; EFKffT; Glossar) und abweichend von E-F01/E-F03/E-F05 ('فني كهرباء مؤهل').",
+  "suggested_fix": "Einheitlich 'فني كهرباء مؤهَّل (Elektrofachkraft)' und 'EFKffT: مؤهَّل لأعمال محددة فقط' in allen Videos."
+ },
+ {
+  "video": "E-F04",
+  "scene": 10,
+  "line": 2,
+  "severity": "note",
+  "issue": "Nicht ständige Anwesenheit ist in F9 für die EUP belegt, nicht für jede 'Leitung und Aufsicht'.",
+  "suggested_fix": "DE: Bei der EUP muss die Elektrofachkraft nicht ständig anwesend sein. | AR: في حالة EUP لا يلزم أن يكون المؤهَّل حاضرًا باستمرار. | EN: For the EUP, the Elektrofachkraft need not be present all the time."
+ },
+ {
+  "video": "E-F04",
+  "scene": 12,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Typische Aufgaben: Auswahl von Personen, Organisation von Unterweisungen' widerspricht F12/S11.1-11.2 (Organisation/Auswahl/Aufsicht liegen beim Unternehmer bzw. der Führungskraft).",
+  "suggested_fix": "Zeile 12.9 streichen."
+ },
+ {
+  "video": "E-F04",
+  "scene": 13,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Üblich ist mindestens eine VEFK' untertreibt F15 (Grundsätze BDEW/ZVEH: Unternehmen beschäftigt mindestens eine VEFK), Details je Netzbetreiber.",
+  "suggested_fix": "DE: Nach den Grundsätzen von BDEW und ZVEH wird mindestens eine VEFK im Unternehmen erwartet. | AR: وفق مبادئ BDEW وZVEH يُتوقع وجود VEFK واحد على الأقل في الشركة. | EN: Under the BDEW/ZVEH principles, at least one VEFK is expected in the company."
+ },
+ {
+  "video": "E-F04",
+  "scene": 16,
+  "line": 2,
+  "severity": "note",
+  "issue": "Spannung zu S3.5 ('Studium allein beantwortet die Frage nicht') und E-F05 S13.4; 'Oft gilt ein Ingenieur als Nachweis' sollte die Bedingung nennen.",
+  "suggested_fix": "DE: Ein Ingenieurabschluss kann Teil des Nachweises für die Elektrofachkraft sein. | AR: قد تكون الشهادة الهندسية جزءًا من إثبات صفة المؤهَّل كهربائيًا. | EN: An engineering degree can be part of the proof of being an Elektrofachkraft."
+ },
+ {
+  "video": "E-F04",
+  "scene": 17,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide-Item 'Hochschulstudium in Technik nötig' ist absolut, die Zeile sagt 'Meist' (F19: Voraussetzung je Land verschieden); Item 4 'kann bestraft werden' vs. Zeile 'Ordnungswidrigkeit'.",
+  "suggested_fix": "Slide: 'Meist: technisches Hochschulstudium'; 'Unbefugtes Führen kann eine Ordnungswidrigkeit sein'"
+ },
+ {
+  "video": "E-F04",
+  "scene": 17,
+  "line": 3,
+  "severity": "note",
+  "issue": "'sechzehn verschiedene Gesetze' ist zu pauschal (einige Länder regeln den Titel in Kammer- oder Baukammerngesetzen; F19 spricht von Landesgesetzen).",
+  "suggested_fix": "DE: Es gibt also in jedem der sechzehn Bundesländer eine eigene Regelung. | AR: أي توجد في كل ولاية من الولايات الست عشرة تنظيم خاص. | EN: So each of the sixteen federal states has its own regulation."
+ },
+ {
+  "video": "E-F04",
+  "scene": 18,
+  "line": 5,
+  "severity": "note",
+  "issue": "EN 'general authority' / AR 'التفويض العادي' passen nicht zum Glossar ('تفويض تجاري محدود'); Handlungsvollmacht = begrenzte kaufmännische Vollmacht.",
+  "suggested_fix": "EN: A Handlungsvollmacht (limited commercial authority) is narrower and can be restricted. | AR: أما التفويض التجاري المحدود (Handlungsvollmacht) فهو أضيق ويمكن تقييده."
+ },
+ {
+  "video": "E-F04",
+  "scene": 19,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Ein Prüfbericht trägt oft zwei Namen' ist unbelegt.",
+  "suggested_fix": "Zeile streichen."
+ },
+ {
+  "video": "E-F04",
+  "scene": 19,
+  "line": 8,
+  "severity": "note",
+  "issue": "'So schützen Sie sich und Ihr Team' ist ein Schutzversprechen ohne Beleg.",
+  "suggested_fix": "DE: So bleibt nachvollziehbar, wer was freigegeben hat. | AR: هكذا يبقى واضحًا من اعتمد ماذا. | EN: This keeps it traceable who approved what."
+ },
+ {
+  "video": "E-F05",
+  "scene": 5,
+  "line": 10,
+  "severity": "error",
+  "issue": "AR verliert die Normbezeichnung ('المعيار المذكور' ohne Nennung) - DE/AR inkonsistent, Untertitel unverständlich.",
+  "suggested_fix": "AR: معيار VDE 0105-100 يصف تشغيل المنشآت."
+ },
+ {
+  "video": "E-F05",
+  "scene": 7,
+  "line": 2,
+  "severity": "error",
+  "issue": "AR verliert Normnummer und Abschnitt ('المعيار المذكور ... السادس فاصلة اثنان').",
+  "suggested_fix": "AR: وهي مذكورة في المعيار VDE 0105-100، البند 6.2."
+ },
+ {
+  "video": "E-F05",
+  "scene": 14,
+  "line": 2,
+  "severity": "error",
+  "issue": "AR 'بالحرفين المذكورين' nennt das Kürzel AuS nicht.",
+  "suggested_fix": "AR: ويُختصر غالبًا AuS."
+ },
+ {
+  "video": "E-F05",
+  "scene": 14,
+  "line": 10,
+  "severity": "error",
+  "issue": "AR verliert 'DGUV Regel 103-011' ('القاعدة المذكورة رقم مئة وثلاثة').",
+  "suggested_fix": "AR: والقواعد المتعلقة بذلك مذكورة ضمن أمور أخرى في DGUV Regel 103-011."
+ },
+ {
+  "video": "E-F05",
+  "scene": 17,
+  "line": 1,
+  "severity": "error",
+  "issue": "AR nennt das Kürzel PSA nicht ('تُسمى اختصارًا بهذا الاسم').",
+  "suggested_fix": "AR: معدات الوقاية الشخصية تُسمى اختصارًا PSA."
+ },
+ {
+  "video": "E-F05",
+  "scene": 17,
+  "line": 4,
+  "severity": "error",
+  "issue": "AR verliert 'DGUV Information 203-077' ('منشور التأمين المذكور رقم مئتين وثلاثة').",
+  "suggested_fix": "AR: ويساعد في الاختيار الصحيح المنشور DGUV Information 203-077."
+ },
+ {
+  "video": "E-F05",
+  "scene": 19,
+  "line": 1,
+  "severity": "error",
+  "issue": "AR nennt 'BG ETEM' nicht ('هذه الهيئة').",
+  "suggested_fix": "AR: BG ETEM جهة تأمين قانوني ضد حوادث العمل."
+ },
+ {
+  "video": "E-F05",
+  "scene": 5,
+  "line": 4,
+  "severity": "risk",
+  "issue": "AR 'اللائحة الثالثة للتأمين الاجتماعي ضد الحوادث' (auch S13.3, S15.1, S22.3 'اللائحة الثالثة') weicht von E-F03/E-F04 ('لائحة DGUV رقم 3') ab und erfindet 'Sozialversicherung'.",
+  "suggested_fix": "AR: لائحة DGUV رقم 3 (Vorschrift 3) تخص المنشآت والمعدات الكهربائية. (Zeilen 13.3, 15.1, 22.3 analog: 'لائحة DGUV رقم 3')"
+ },
+ {
+  "video": "E-F05",
+  "scene": 7,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Normstand: E-DIN VDE 0105-100:2026-10 liegt als Entwurf vor (Einspruchsfrist bis 04.11.2026); gültig ist DIN VDE 0105-100:2015-10 (+A1:2017-06, Berichtigung 2020-10). Abschnittsangabe 6.2 ist an die Ausgabe 2015 gebunden und nur sekundär belegt (F1 medium); eine Quelle nennt 6.5 für andere Inhalte (A1).",
+  "suggested_fix": "DE: Sie stehen in der Norm VDE 0105-100, Ausgabe 2015, Abschnitt 6.2; ein Entwurf für eine neue Ausgabe liegt vor. | AR: وهي مذكورة في المعيار VDE 0105-100 إصدار 2015، البند 6.2؛ ويوجد مشروع إصدار جديد. | EN: They are in the standard VDE 0105-100, 2015 edition, section 6.2; a draft of a new edition exists. (STAND-Zeile ergänzen)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 8,
+  "line": 10,
+  "severity": "risk",
+  "issue": "Sicherheitsrelevante Verkürzung: Regel 2 (gegen Wiedereinschalten sichern) wird nur durch ein Verbotsschild illustriert. Ein Schild allein genügt nicht; die Sicherung gegen Wiedereinschalten muss zusätzlich erfolgen (EN 50110-1).",
+  "suggested_fix": "DE: Ein Verbotsschild gehört dazu, genügt aber allein nicht. | AR: لافتة المنع جزء من ذلك، لكنها وحدها لا تكفي. | EN: A prohibition sign is part of it, but it is not enough on its own."
+ },
+ {
+  "video": "E-F05",
+  "scene": 9,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Sicherheitsrelevante Auslassung: Regel 3 lautet 'Spannungsfreiheit allpolig feststellen'; 'allpolig' fehlt in Zeile und Slide. Ohne 'allpolig' ist die Regel unvollständig.",
+  "suggested_fix": "DE: Man muss allpolig prüfen, dass wirklich keine Spannung anliegt. | AR: يجب التحقق من جميع الأقطاب أنه لا يوجد جهد فعلًا. | EN: You must check all poles to confirm that there really is no voltage. | Zeile 9.1 / Titel: 'Spannungsfreiheit allpolig feststellen'"
+ },
+ {
+  "video": "E-F05",
+  "scene": 9,
+  "line": 4,
+  "severity": "risk",
+  "issue": "'qualifizierte Person' ist ein undefinierter Begriff (Slide: 'Nur durch qualifizierte Personen') und nicht in der Recherche belegt; Slide 'Erst messen' / 'Prüfgerät' kann zur Verwendung eines Multimeters verleiten (laut Electrosuisse ist ein zweipoliger Spannungsprüfer nach DIN EN 61243-3 erforderlich; Multimeter/Phasenprüfer erfüllen das nicht).",
+  "suggested_fix": "DE: Das macht eine dafür befähigte Person mit einem geeigneten Spannungsprüfer. | AR: ويقوم بذلك شخص مؤهل لهذا الغرض بجهاز اختبار جهد مناسب. | EN: A person who is competent for this does it with a suitable voltage tester. | Slide: 'Erst feststellen, dann arbeiten'; 'Mit geeignetem Spannungsprüfer'. (Fakt in Recherche aufnehmen)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 11,
+  "line": null,
+  "severity": "risk",
+  "issue": "Slide-Items 'Aufsicht gibt die Stelle frei' (S11) / 'Arbeitsstelle durch Aufsicht freigeben' (S12) widersprechen S10.6/S12.4 ('verantwortliche Person'); wer freigibt ist in der Recherche nicht belegt.",
+  "suggested_fix": "Slide-Items: 'Verantwortliche Person gibt die Stelle frei' / 'Arbeitsstelle durch die verantwortliche Person freigeben'"
+ },
+ {
+  "video": "E-F05",
+  "scene": 18,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Sicherheitsauslassung: Bei Hochspannung fehlt der Hinweis, Abstand zu halten (Selbstschutz); nur 'darf nur eine Elektrofachkraft abschalten' könnte als bloße Zuständigkeit gelesen werden.",
+  "suggested_fix": "DE: Bei Hochspannung halten Sie Abstand; abschalten darf nur eine autorisierte Elektrofachkraft. | AR: في الجهد العالي ابتعدوا؛ ولا يفصل التيار إلا Elektrofachkraft مخوّلة. | EN: With high voltage, keep your distance; only an authorised qualified electrician may switch off."
+ },
+ {
+  "video": "E-F05",
+  "scene": 19,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Überverallgemeinerung: Zuständig ist die BG nach Branche des Betriebs (BG ETEM u. a. für Energie/elektrische Anlagen); für den öffentlichen Dienst Unfallkassen. 'wichtiger Ansprechpartner für Sie' stimmt nicht für alle.",
+  "suggested_fix": "DE: Welche Berufsgenossenschaft zuständig ist, hängt von der Branche des Betriebs ab. | AR: وتختلف هيئة التأمين المختصة بحسب قطاع المنشأة. | EN: Which statutory accident insurer is responsible depends on the company's sector."
+ },
+ {
+  "video": "E-F05",
+  "scene": 1,
+  "line": 4,
+  "severity": "note",
+  "issue": "AR lässt 'Elektrofachkraft' lateinisch ohne arabischen Begriff (auch S13.2, S13.4, S13.6, S15.9, S18.5); Glossar nutzt 'فني كهرباء مؤهل'.",
+  "suggested_fix": "AR: كمهندس في ألمانيا ستعملون كثيرًا مع فنيين كهربائيين مؤهلين (Elektrofachkraft)."
+ },
+ {
+  "video": "E-F05",
+  "scene": 3,
+  "line": 11,
+  "severity": "note",
+  "issue": "'arc fault' bedeutet im Englischen meist Fehlerlichtbogen (AFDD); für Störlichtbogen besser arc flash / arcing fault.",
+  "suggested_fix": "EN: An arcing fault (arc flash) can also cause severe burns. (Term im Slide entsprechend)"
+ },
+ {
+  "video": "E-F05",
+  "scene": 4,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Das Gleiche gilt für Anlagen mit höherer Spannung' ist unklar/unbelegt (Spannung ist nicht in F17 als Faktor genannt).",
+  "suggested_fix": "Zeile streichen."
+ },
+ {
+  "video": "E-F05",
+  "scene": 6,
+  "line": 4,
+  "severity": "note",
+  "issue": "TTS 'Ce-E-Kennzeichen' weicht von der sonst verwendeten Aussprache 'Ze-E' ab.",
+  "suggested_fix": "TTS: Ein Ze-E-Kennzeichen ersetzt diese Beurteilung nicht."
+ },
+ {
+  "video": "E-F05",
+  "scene": 8,
+  "line": 2,
+  "severity": "note",
+  "issue": "Im gesprochenen Satz fehlt 'allseitig' (steht nur im Slide).",
+  "suggested_fix": "DE: Die Anlage wird allseitig abgeschaltet, zum Beispiel am Leitungsschutzschalter. | AR: تُفصل المنشأة من جميع الجوانب، مثلًا عند قاطع حماية الخطوط. | EN: The installation is isolated on all sides, for example at the circuit breaker."
+ },
+ {
+  "video": "E-F05",
+  "scene": 13,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide-Item 'Unterweisung regelmäßig erneuern' ist nicht in der Recherche belegt.",
+  "suggested_fix": "Slide-Item streichen oder 'Unterweisung im Betrieb'."
+ },
+ {
+  "video": "E-F05",
+  "scene": 14,
+  "line": 7,
+  "severity": "note",
+  "issue": "'In der Praxis ist das selten und gut vorbereitet' ist unbelegt; F12 gilt nur bis 1 kV AC.",
+  "suggested_fix": "Zeile streichen oder: 'Die Regeln dafür gelten bis 1 kV Wechselspannung.'"
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 2,
+  "severity": "note",
+  "issue": "EN 'operator' / AR 'صاحب المنشأة' statt Unternehmer; E-F03 verwendet employer/صاحب العمل.",
+  "suggested_fix": "EN: The employer (Unternehmer) must have installations and equipment inspected. | AR: على صاحب العمل (Unternehmer) أن يجعل المنشآت والمعدات تُفحص."
+ },
+ {
+  "video": "E-F05",
+  "scene": 15,
+  "line": 6,
+  "severity": "note",
+  "issue": "EN fügt 'and fires' hinzu (DE/AR nicht).",
+  "suggested_fix": "EN: This lowers the risk of accidents."
+ },
+ {
+  "video": "E-F05",
+  "scene": 16,
+  "line": 6,
+  "severity": "note",
+  "issue": "DE 'braucht' absolut, EN/AR 'may/قد'.",
+  "suggested_fix": "DE: Eine Werkstatt kann daher andere Fristen brauchen als ein Büro."
+ },
+ {
+  "video": "E-F06",
+  "scene": 16,
+  "line": 3,
+  "severity": "error",
+  "issue": "Falsche/inkonsistente Normangabe: 'Empfohlen wird DIN EN 81346-2' - die Ausgabe DIN EN 81346-2:2010-05 ist laut Recherche (F11) zurückgezogen; aktuell ist DIN EN IEC 81346-2:2020-10 (so auch im Slide: 'Neu: DIN EN IEC 81346-2').",
+  "suggested_fix": "DE: Zum Beispiel wurde die Norm DIN 6779-2 zurückgezogen. Empfohlen wird DIN EN IEC 81346-2. | AR: فمثلًا سُحب المعيار DIN 6779-2، ويُوصى بالمعيار DIN EN IEC 81346-2. | EN: For example, the standard DIN 6779-2 was withdrawn. DIN EN IEC 81346-2 is recommended. (TTS: Din E-En I-E-Zett ...)"
+ },
+ {
+  "video": "E-F06",
+  "scene": 2,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Ein Plan ist auch ein Vertrag' (DE/EN-Variante 'kind of contract' abweichend) ist eine unbelegte, juristisch falsche Gleichsetzung.",
+  "suggested_fix": "DE: Ein Plan gehört oft zu den Unterlagen, die dem Kunden geliefert werden. | AR: المخطط غالبًا من الوثائق التي تُسلَّم إلى العميل. | EN: A diagram is often part of the documents delivered to the customer."
+ },
+ {
+  "video": "E-F06",
+  "scene": 7,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Begriffsfehler: 'Lageplan' ist ein Geländeplan, nicht die Geräteanordnung. Die Recherche (F4) spricht von 'Anordnungs-/Installationsplan'. Slide-Item 4 ebenfalls.",
+  "suggested_fix": "DE: Ein Anordnungsplan zeigt in ähnlicher Weise, wo Geräte angeordnet sind. | AR: ويُظهر مخطط الترتيب (Anordnungsplan) بطريقة مشابهة أين تُوضع الأجهزة. | EN: An arrangement plan shows in a similar way where devices are arranged. | Slide-Item 4: 'Anordnungsplan: Anordnung der Geräte'"
+ },
+ {
+  "video": "E-F06",
+  "scene": 9,
+  "line": 3,
+  "severity": "risk",
+  "issue": "IEC-60617-Datenbank ist laut F14 abonnementpflichtig (subscription); Zeile erwähnt das nicht, 'Filtern' ist nicht belegt, und Zuschauer werden angewiesen, dort nachzuschlagen. Quiz Q4 'Aus der Datenbank' vereinfacht ebenso.",
+  "suggested_fix": "DE: Die IEC bietet die Symbole als kostenpflichtige Online-Datenbank an, mit Suche. | AR: تقدّم IEC هذه الرموز كقاعدة بيانات إلكترونية مدفوعة مع بحث. | EN: The IEC offers the symbols as a paid online database with search."
+ },
+ {
+  "video": "E-F06",
+  "scene": 10,
+  "line": 1,
+  "severity": "risk",
+  "issue": "Überclaim: IEC 61082-1 ist laut F3 ein horizontaler Standard (für Normungsgremien, IEC Guide 108); 'Wie ein Plan aufgebaut ist, regelt die Reihe IEC 61082' ist zu stark und 'Reihe' ist unpräzise (belegt ist Teil 1).",
+  "suggested_fix": "DE: Allgemeine Regeln für die Darstellung von Dokumenten der Elektrotechnik gibt IEC 61082-1 vor. | AR: القواعد العامة لتمثيل وثائق الهندسة الكهربائية يحددها IEC 61082-1. | EN: General rules for presenting electrotechnical documents are given in IEC 61082-1."
+ },
+ {
+  "video": "E-F06",
+  "scene": 10,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Deshalb sind Pläne weltweit lesbar' / S10.7 'liest sich in jedem Land ähnlich' / Slide S9 'Gleiche Symbole weltweit' sind unbelegte Überversprechen.",
+  "suggested_fix": "DE: Die Reihe ist international abgestimmt. | AR: السلسلة متفق عليها دوليًا. | EN: The series is internationally agreed. | Zeile 10.7: DE: Ein Plan, der nach diesen Regeln gezeichnet ist, ist leichter zu lesen. | AR: المخطط المرسوم بهذه القواعد أسهل قراءة. | EN: A diagram drawn by these rules is easier to read. | Slide S9 Item 2: 'International abgestimmte Symbole (IEC)'"
+ },
+ {
+  "video": "E-F06",
+  "scene": 14,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Fachleute sagen dazu: Der Plan muss navigierbar sein' ist ein unbelegtes Zitat ohne Quelle.",
+  "suggested_fix": "Zeile 14.6 streichen."
+ },
+ {
+  "video": "E-F06",
+  "scene": 15,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Zuordnung unbelegt: Die Folie/Zeile lässt A1/A2 und 13-14/21-22 aus DIN EN IEC 60445 stammen. F17 belegt 60445 nur allgemein (Kennzeichnung von Anschlüssen/Leitern); die Hilfskontaktnummern stammen herstellerseitig aus der Schaltgeräte-Normenreihe (EN 50005, laut F19 zurückgezogen). Fehlzuordnung möglich.",
+  "suggested_fix": "DE: Allgemeine Regeln für die Kennzeichnung von Anschlüssen stehen in der Norm DIN EN IEC 60445. Welche Nummern ein Gerät verwendet, steht im Datenblatt. | AR: القواعد العامة لترميز الأطراف موجودة في المعيار DIN EN IEC 60445، أما الأرقام التي يستخدمها الجهاز فتجدونها في ورقة البيانات. | EN: General rules for marking terminals are in the standard DIN EN IEC 60445. The numbers a device uses are in its data sheet. | Slide-Item 4: 'Allgemein: DIN EN IEC 60445'"
+ },
+ {
+  "video": "E-F06",
+  "scene": 1,
+  "line": 4,
+  "severity": "note",
+  "issue": "'nur wenige Minuten' ist unbelegt und 'keinen Stift' widerspricht S13.5 ('auf Papier zeichnen').",
+  "suggested_fix": "DE: Sie brauchen vor allem Aufmerksamkeit. | AR: تحتاجون قبل كل شيء إلى الانتباه. | EN: Above all you need attention."
+ },
+ {
+  "video": "E-F06",
+  "scene": 2,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Sie werden oft Pläne prüfen und freigeben' kollidiert mit E-F04 S19 (Freigabebefugnis je Betrieb).",
+  "suggested_fix": "DE: Als Ingenieur in Deutschland werden Sie oft mit Plänen arbeiten."
+ },
+ {
+  "video": "E-F06",
+  "scene": 4,
+  "line": 2,
+  "severity": "note",
+  "issue": "'Er ist einpolig' absolut (F4: single-line); S4.7 absolut, AR hat 'غالبًا'.",
+  "suggested_fix": "DE: Er ist meist einpolig. | Zeile 4.7: DE: In der Praxis finden Sie ihn oft auf der ersten Seite einer Projektmappe."
+ },
+ {
+  "video": "E-F06",
+  "scene": 5,
+  "line": 4,
+  "severity": "note",
+  "issue": "Superlativ 'das wichtigste Dokument' unbelegt (ebenso S8.7 'am meisten benutzt').",
+  "suggested_fix": "DE: Für Fehlersuche und Inbetriebnahme ist er ein zentrales Dokument. | AR: وهو وثيقة محورية للبحث عن الأعطال وللتشغيل الأولي. | EN: For troubleshooting and commissioning it is a central document. | Zeile 8.7: DE: Auf der Baustelle wird der Klemmenplan oft gebraucht."
+ },
+ {
+  "video": "E-F06",
+  "scene": 5,
+  "line": 5,
+  "severity": "note",
+  "issue": "DE 'fließt der Strom' vs. AR/EN 'wird gezeichnet'.",
+  "suggested_fix": "DE: Oft wird der Stromweg in senkrechten Strompfaden von oben nach unten gezeichnet."
+ },
+ {
+  "video": "E-F06",
+  "scene": 6,
+  "line": 3,
+  "severity": "note",
+  "issue": "EN uneinheitlich: 'split' (Zeilen), 'exploded' (Term), 'connected'; AR 'متعدد الأقطاب' (S5.2) bedeutet multipolar, gemeint allpolig.",
+  "suggested_fix": "EN einheitlich 'combined / split presentation'; AR: ذو جميع الأقطاب."
+ },
+ {
+  "video": "E-F06",
+  "scene": 8,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Auch Anschlusspläne gehören in diese Gruppe' berührt die dropped-Liste (keine Definition von Anschlussplan belegt).",
+  "suggested_fix": "DE: Die Begriffe sind in der Praxis nicht immer gleich. | AR: والمصطلحات في الممارسة ليست دائمًا واحدة. | EN: In practice the terms are not always the same."
+ },
+ {
+  "video": "E-F06",
+  "scene": 9,
+  "line": 2,
+  "severity": "note",
+  "issue": "DIN EN 60617 (Teile) als aktuelle deutsche Fassung ist nur durch eine Praktikerquelle (F15) belegt; der Status der deutschen Teile ist ungeprüft.",
+  "suggested_fix": "Status bei DIN prüfen oder 'in Deutschland als DIN EN 60617 übernommen (Status prüfen)'."
+ },
+ {
+  "video": "E-F06",
+  "scene": 11,
+  "line": 1,
+  "severity": "note",
+  "issue": "'muss' normativ formuliert, nicht belegt; S11.5 'unabhängig vom Hersteller' unbelegt.",
+  "suggested_fix": "DE: Im Plan sollte jedes Gerät einen eindeutigen Namen haben."
+ },
+ {
+  "video": "E-F06",
+  "scene": 13,
+  "line": 2,
+  "severity": "note",
+  "issue": "Vereinfachung: Nach IEC 81346 besteht eine Referenzkennzeichnung aus Vorzeichen (z. B. Bindestrich für Produktaspekt), Klassenbuchstabe(n) und Nummer; die eigene Recherche (F12) nennt Unterklassen (QA, MM). 'Buchstabe und laufende Nummer' ist eine Lernvereinfachung und steht auch in S19.3.",
+  "suggested_fix": "DE: In unserem Beispiel besteht ein Kennzeichen aus einem Buchstaben und einer laufenden Nummer. Die Norm kennt weitere Bestandteile, etwa Unterklassen mit zwei Buchstaben. | AR: في مثالنا يتكون الترميز من حرف ورقم تسلسلي، وفي المعيار عناصر أخرى مثل الفئات الفرعية بحرفين. | EN: In our example a designation consists of one letter and a running number. The standard has further parts, such as two-letter subclasses."
+ },
+ {
+  "video": "E-F06",
+  "scene": 17,
+  "line": 7,
+  "severity": "note",
+  "issue": "Absolutaussagen: 'Es gibt keinen Plan ohne Datum', S17.6 'vertrauen nur Plänen'.",
+  "suggested_fix": "DE: Ein Plan sollte immer ein Datum tragen. | Zeile 17.6: DE: Prüfer und Kunden erwarten einen klaren, aktuellen Stand."
+ },
+ {
+  "video": "E-F06",
+  "scene": 18,
+  "line": 3,
+  "severity": "note",
+  "issue": "'regelmäßig aktualisiert' unbelegt (F14: Ausgabenjahre uneinheitlich).",
+  "suggested_fix": "DE: Die Symbole stehen in einer Datenbank; prüfen Sie deren aktuellen Stand."
+ },
+ {
+  "video": "E-F06",
+  "scene": 19,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide 'Planarten: Übersicht, Strom, Installation' lässt Klemmenplan aus (S3 nennt vier).",
+  "suggested_fix": "Slide-Item: 'Planarten: Übersicht, Strom, Installation, Klemmen'"
+ },
+ {
+  "video": "E-F07",
+  "scene": 3,
+  "line": 6,
+  "severity": "error",
+  "issue": "Grammatikalisch falsch: Verben richten sich nicht nach dem Artikel/Genus (nur Adjektive, Pronomen, Endungen).",
+  "suggested_fix": "DE: Weil Adjektive, Pronomen und Endungen sich danach richten. | AR: لأن الصفات والضمائر والنهايات تتبعها. | EN: Because adjectives, pronouns and endings follow it."
+ },
+ {
+  "video": "E-F07",
+  "scene": 9,
+  "line": 5,
+  "severity": "error",
+  "issue": "Sprachfehler: 'Prüfprotokoll' hat kein Fugen-s (Prüf-protokoll); Slide-Item 4 'Fugen-s: Prüf + Protokoll' ist ebenfalls falsch. AR/EN nennen nur Leitungsschutz (korrekt) - DE/AR/EN inkonsistent.",
+  "suggested_fix": "DE: Manchmal steht ein s in der Mitte. Zum Beispiel: Leitungsschutz. | Slide-Item 4: 'Fugen-s: Leitung + s + Schutz'"
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Modellsatz 'Bitte ziehen Sie die Schraube fest' ohne Hinweis auf Freischalten kann als Anleitung zu Eingriffen verstanden werden (vgl. E-F05).",
+  "suggested_fix": "DE: Die Klemme ist locker. Die Anlage muss dafür freigeschaltet werden. | AR: الطرف مفكوك. يجب فصل الطاقة عن المنشأة لذلك. | EN: The terminal is loose. The installation must be isolated for this."
+ },
+ {
+  "video": "E-F07",
+  "scene": 8,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Sicherheitsratschlag fragwürdig: 'Fragen Sie im Team nach den Farben und Bezeichnungen' suggeriert team-spezifische Farbkodierung; Aderfarben sind genormt, Altanlagen können abweichen. Es fehlt die Warnung, sich nie allein auf Farben zu verlassen.",
+  "suggested_fix": "DE: Ein Hinweis zur Sicherheit: Verlassen Sie sich nie allein auf Farben und Bezeichnungen. Fragen Sie im Team nach. | AR: تنبيه للسلامة: لا تعتمدوا أبدًا على الألوان والتسميات وحدها، واسألوا الفريق. | EN: A safety note: never rely on colours and labels alone. Ask your team."
+ },
+ {
+  "video": "E-F07",
+  "scene": 11,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Satz 'Ist die Anlage spannungsfrei?' ohne Hinweis, dass die Antwort das Feststellen der Spannungsfreiheit nicht ersetzt (E-F05 Regel 3).",
+  "suggested_fix": "Nach 11.4 neue Zeile: DE: Wichtig: Eine Antwort ersetzt nicht das Feststellen der Spannungsfreiheit. | AR: مهم: الجواب لا يغني عن التحقق من انعدام الجهد. | EN: Important: an answer does not replace verifying the absence of voltage."
+ },
+ {
+  "video": "E-F07",
+  "scene": 15,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Der Titel 'Ingenieur' ist landesrechtlich geschützt (E-F01 S20, E-F04 S17); bei Abschlüssen aus dem Ausland ist die Einordnung offen (E-F01: 'behandeln wir hier nicht'). Das Muster 'Ich bin Elektroingenieur' (auch Slide-Quote) widerspricht dieser Vorsicht. S15.3/S15.4 modellieren konkrete Erfahrungs-/Sprachniveau-Angaben ohne Hinweis 'nur wenn es stimmt' (erst S16.5).",
+  "suggested_fix": "DE: Mein Name ist Ahmed Samir. Ich habe Elektrotechnik studiert. | AR: اسمي أحمد سمير. درست الهندسة الكهربائية. | EN: My name is Ahmed Samir. I studied electrical engineering. | Slide-Quote: 'Ich habe Elektrotechnik studiert und plane Anlagen.' | Zeile 15.1 ergänzen: DE: Das sind Beispielsätze. Sagen Sie nur, was für Sie stimmt."
+ },
+ {
+  "video": "E-F07",
+  "scene": 16,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Modellsatz 'Ich war für die Sicherheit auf der Baustelle verantwortlich' (Slide: 'Ich trage Verantwortung für Sicherheit') behauptet formale Sicherheitsverantwortung (Beauftragung, vgl. E-F04); als Interview-Vorlage riskant (Falschangabe).",
+  "suggested_fix": "DE: Und die Verantwortung? Ich habe auf die Sicherheit auf der Baustelle geachtet. | AR: وماذا عن المسؤولية؟ كنتُ أنتبه إلى السلامة في الموقع. | EN: And responsibility? I paid attention to safety on the building site. | Slide: 'Ich achte auf Sicherheit.' "
+ },
+ {
+  "video": "E-F07",
+  "scene": 18,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Dropped-Liste: konkrete Dialekt-/Regionalaussagen nicht belegt; S18.6 'Fachwörter bleiben gleich' ist absolut (Österreich/Schweiz unterscheiden sich teils).",
+  "suggested_fix": "Zeile 18.5 streichen. | DE (18.6): Fachwörter in Dokumenten sind meist einheitlicher. | AR: الكلمات المهنية في الوثائق أكثر توحيدًا في الغالب. | EN: Technical words in documents are usually more uniform."
+ },
+ {
+  "video": "E-F07",
+  "scene": 4,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Kabel ist eine isolierte Leitung' ist in der Recherche nicht belegt (F17 nur: Kabel leitet den Strom).",
+  "suggested_fix": "DE: Das Kabel, die Kabel: Ein Kabel leitet den Strom. | AR: نقول: das Kabel، die Kabel: الكبل ينقل التيار. | EN: Das Kabel, die Kabel: a cable carries current."
+ },
+ {
+  "video": "E-F07",
+  "scene": 5,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Die Sicherung hat ausgelöst' ist umgangssprachlich; bei Schmelzsicherung sagt man 'durchgebrannt'; EN übersetzt mit 'protection device'.",
+  "suggested_fix": "DE: Ein Beispiel: Der Leitungsschutzschalter hat ausgelöst. | AR: مثال: لقد فصل قاطع حماية الخطوط. | EN: An example: The circuit breaker has tripped."
+ },
+ {
+  "video": "E-F07",
+  "scene": 6,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide 'der Verteiler, -: Gerätekasten' ungenau; AR 'قاطع حماية الخط' (F07) vs. 'قاطع حماية الخطوط' (F05) uneinheitlich.",
+  "suggested_fix": "Slide: 'der Verteiler, -: Kasten oder Schrank mit Schutzgeräten und Klemmen'; AR einheitlich 'قاطع حماية الخطوط'."
+ },
+ {
+  "video": "E-F07",
+  "scene": 8,
+  "line": 2,
+  "severity": "note",
+  "issue": "TTS liest 'Das Kürzel ist: El.', Untertitel DE/AR/EN enthalten das Kürzel L nicht.",
+  "suggested_fix": "DE: Der Außenleiter führt Spannung. Kürzel: L. Im Alltag hört man auch: Phase. | AR: نقول: der Außenleiter يحمل الجهد. رمزه: L. وفي الحياة اليومية يُقال أيضًا: Phase. | EN: The Außenleiter carries voltage. Symbol: L. In everyday talk you also hear: Phase."
+ },
+ {
+  "video": "E-F07",
+  "scene": 8,
+  "line": 7,
+  "severity": "note",
+  "issue": "'muss immer angeschlossen sein' absolut (Schutzklasse II); nicht belegt.",
+  "suggested_fix": "DE: Hören Sie im Satz: Bei Geräten mit Schutzleiteranschluss muss der Schutzleiter angeschlossen sein. | AR: استمعوا في جملة: عند الأجهزة ذات وصلة موصل الحماية يجب وصل موصل الحماية. | EN: Listen in a sentence: On devices with a protective conductor connection, the protective conductor must be connected."
+ },
+ {
+  "video": "E-F07",
+  "scene": 10,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide 'Strom aus → freischalten' setzt Abschalten und Freischalten gleich; Freischalten ist Regel 1 der fünf Sicherheitsregeln (E-F05).",
+  "suggested_fix": "Slide: 'Strom aus → abschalten (Freischalten: Regel 1 der fünf Sicherheitsregeln)'"
+ },
+ {
+  "video": "E-F07",
+  "scene": 11,
+  "line": null,
+  "severity": "note",
+  "issue": "Slide-Item 4 'Nicht einschalten! Ich arbeite hier.' weicht von Zeile 11.5 ('Es wird gearbeitet') ab.",
+  "suggested_fix": "Slide-Item: 'Nicht einschalten! Es wird gearbeitet.'"
+ },
+ {
+  "video": "E-F07",
+  "scene": 11,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Sie sagen zu Kollegen oft Sie, bis man Ihnen das Du anbietet' ist verallgemeinert (auf Baustellen/in Betrieben oft sofort Du).",
+  "suggested_fix": "DE: Achten Sie darauf, ob Kollegen Sie oder Du sagen; im Zweifel beginnen Sie mit Sie. | AR: انتبهوا هل يستخدم الزملاء Sie أم Du؛ وعند الشك ابدؤوا بـ Sie. | EN: Notice whether colleagues use Sie or Du; if in doubt, start with Sie."
+ },
+ {
+  "video": "E-F07",
+  "scene": 13,
+  "line": 2,
+  "severity": "note",
+  "issue": "Fiktiver Firmenname 'Elektro Nord' kann mit realen Firmen kollidieren.",
+  "suggested_fix": "Eindeutig fiktiven Namen verwenden (z. B. 'Beispiel-Elektro GmbH')."
+ },
+ {
+  "video": "E-F07",
+  "scene": 17,
+  "line": 11,
+  "severity": "note",
+  "issue": "Reihenfolge 'Lastenheft, Pflichtenheft, Abnahme' blendet die Ausführung aus; S17.8/17.9 'schreibt der Kunde / der Auftragnehmer' absolut (F13: Auftraggeber- bzw. Auftragnehmersicht, VDI 2519).",
+  "suggested_fix": "DE: Merken Sie sich die Reihenfolge: erst Lastenheft, dann Pflichtenheft, nach der Ausführung die Abnahme. | Zeile 17.8/17.9: 'meist der Kunde' / 'meist der Auftragnehmer'"
+ }
+]
