@@ -65,7 +65,13 @@ class Tts:
                     time.sleep(2 ** attempt * 2)
                     continue
                 if r.status_code in (401, 403):
-                    raise SystemExit(f"ERROR: ElevenLabs auth failed (HTTP {r.status_code}); check the ELEVENLABS_API_KEY secret")
+                    try:
+                        j = r.json().get("detail", {})
+                        why = j.get("status") or j.get("message") or str(j)[:120] if isinstance(j, dict) else str(j)[:120]
+                    except Exception:
+                        why = "unparsed response"
+                    raise SystemExit(f"ERROR: ElevenLabs refused the request (HTTP {r.status_code}, reason: {why}); "
+                                     "401 can also mean the character quota is used up, not only a bad ELEVENLABS_API_KEY")
                 if r.status_code >= 400:
                     raise RuntimeError(f"ElevenLabs HTTP {r.status_code}: {r.text[:200]}")
                 return r
