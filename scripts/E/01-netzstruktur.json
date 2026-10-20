@@ -53,6 +53,16 @@
      "en": "Instead, we explain the structure and the key words."
     },
     {
+     "de": "Das Video richtet sich an Ingenieure, die in Deutschland arbeiten wollen.",
+     "ar": "هذا الفيديو موجّه للمهندسين الذين يريدون العمل في ألمانيا.",
+     "en": "This video is for engineers who want to work in Germany."
+    },
+    {
+     "de": "Sie hören dabei viele deutsche Fachwörter.",
+     "ar": "وستسمعون فيه كلمات فنية ألمانية كثيرة.",
+     "en": "You will hear many German technical words."
+    },
+    {
      "de": "Am Ende finden Sie ein Glossar und ein kurzes Quiz.",
      "ar": "وفي النهاية ستجدون مسردًا واختبارًا قصيرًا.",
      "en": "At the end you find a glossary and a short quiz."
@@ -128,6 +138,11 @@
      "de": "Sie erkennen dann die Rolle jeder Ebene im Gesamtsystem.",
      "ar": "وعندها تدركون دور كل مستوى في المنظومة الكاملة.",
      "en": "Then you see the role of each level in the whole system."
+    },
+    {
+     "de": "Ohne diese Kette gäbe es keine sichere Versorgung.",
+     "ar": "من دون هذه السلسلة لا يوجد إمداد آمن.",
+     "en": "Without this chain there would be no secure supply."
     },
     {
      "de": "Erzeugung und Verbrauch gehören also immer zusammen.",
@@ -360,6 +375,11 @@
      "en": "Learn them with the German articles."
     },
     {
+     "de": "Wenn Sie Pläne lesen, begegnen Ihnen diese Stationen immer wieder.",
+     "ar": "عند قراءة المخططات ستصادفون هذه المحطات مرارًا.",
+     "en": "When you read plans, you meet these stations again and again."
+    },
+    {
      "de": "Achten Sie im Beruf darauf, welche Zählweise gemeint ist.",
      "ar": "انتبهوا في العمل إلى طريقة العدّ المقصودة.",
      "en": "In your job, check which way of counting is meant."
@@ -440,6 +460,11 @@
      "en": "The four control areas grew historically."
     },
     {
+     "de": "Merken Sie sich die vier Namen und die grobe Lage.",
+     "ar": "احفظوا الأسماء الأربعة والموقع التقريبي.",
+     "en": "Remember the four names and the rough location."
+    },
+    {
      "de": "Die Grenzen folgen nicht genau den Landesgrenzen.",
      "ar": "ولا تتبع الحدود حدود الولايات بدقة.",
      "en": "The borders do not exactly follow state borders."
@@ -510,6 +535,11 @@
      "de": "Wer die Regelzone kennt, versteht auch die Verantwortung des Betreibers.",
      "ar": "من يعرف منطقة التحكم يفهم مسؤولية المشغّل أيضًا.",
      "en": "Whoever knows the control area also understands the operator's responsibility."
+    },
+    {
+     "de": "Der Gesetzgeber hat diese Aufgabe klar zugewiesen.",
+     "ar": "لقد أسند المشرّع هذه المهمة بوضوح.",
+     "en": "The legislator has assigned this task clearly."
     },
     {
      "de": "Der Gesetzestext ist öffentlich und kostenlos lesbar.",
@@ -741,6 +771,16 @@
      "en": "Important: each role has its own duties."
     },
     {
+     "de": "Sie sehen: Jede Gruppe hat ihre eigene Aufgabe.",
+     "ar": "ترون أن لكل مجموعة مهمتها الخاصة.",
+     "en": "You see: each group has its own task."
+    },
+    {
+     "de": "Zusammen halten sie das System am Laufen.",
+     "ar": "وهي معًا تُبقي المنظومة عاملة.",
+     "en": "Together they keep the system running."
+    },
+    {
      "de": "Wenn Sie Anlagen planen, sprechen Sie meist zuerst mit dem Verteilnetzbetreiber.",
      "ar": "وعند تخطيط المنشآت تتحدثون غالبًا أولًا مع مشغّل شبكة التوزيع.",
      "en": "When you plan installations, you usually talk first to the distribution operator."
@@ -805,6 +845,11 @@
      "de": "Es soll am Ende jeder Viertelstunde stimmen.",
      "ar": "ويجب أن يكون صحيحًا في نهاية كل ربع ساعة.",
      "en": "It should add up at the end of every quarter hour."
+    },
+    {
+     "de": "Ein Bilanzkreis ist also kein Kabel, sondern eine Abrechnungseinheit.",
+     "ar": "فدائرة الموازنة ليست كابلًا بل وحدة محاسبة.",
+     "en": "So a balancing group is not a cable but an accounting unit."
     },
     {
      "de": "ENTSO-E organisiert die europäische Zusammenarbeit.",
@@ -947,16 +992,6 @@
      "en": "The balancing group manager bears the costs."
     },
     {
-     "de": "Bei einem Engpass entstehen zusätzliche Kosten.",
-     "ar": "عند الاختناق تنشأ تكاليف إضافية.",
-     "en": "A bottleneck creates extra costs."
-    },
-    {
-     "de": "Auch diese Kosten werden im Netz verrechnet.",
-     "ar": "وتُحتسب هذه التكاليف أيضًا ضمن الشبكة.",
-     "en": "These costs are also settled within the grid."
-    },
-    {
      "de": "Die Preise ändern sich, deshalb nennen wir sie hier nicht.",
      "ar": "الأسعار تتغير، لذلك لا نذكرها هنا.",
      "en": "Prices change, so we do not name them here."
@@ -1039,6 +1074,16 @@
      "en": "Its tasks are set out in the Energy Industry Act."
     },
     {
+     "de": "Sie erscheint in Nachrichten und Fachtexten sehr oft.",
+     "ar": "وتظهر كثيرًا في الأخبار والنصوص المتخصصة.",
+     "en": "It appears very often in news and technical texts."
+    },
+    {
+     "de": "Ihre Webseite bietet viele Informationen auf Deutsch.",
+     "ar": "ويقدّم موقعها معلومات كثيرة بالألمانية.",
+     "en": "Its website offers a lot of information in German."
+    },
+    {
      "de": "Prüfen Sie deshalb die Begriffe in der aktuellen Quelle.",
      "ar": "لذلك تحققوا من المصطلحات في المصدر الحالي.",
      "en": "So check the terms in the current source."
@@ -1109,6 +1154,16 @@
      "de": "So wird der Netzausbau nachvollziehbar.",
      "ar": "وبذلك يصبح توسيع الشبكة قابلًا للتتبّع.",
      "en": "This makes grid expansion traceable."
+    },
+    {
+     "de": "Auch Sie als Fachleute können am Verfahren teilnehmen.",
+     "ar": "ويمكنكم كمتخصصين المشاركة في الإجراء.",
+     "en": "You as specialists can also take part in the procedure."
+    },
+    {
+     "de": "Die Konsultation ist öffentlich und gibt allen eine Chance.",
+     "ar": "الاستشارة علنية وتمنح الجميع فرصة.",
+     "en": "The consultation is public and gives everyone a chance."
     },
     {
      "de": "Die Regeln dazu ändern sich, schauen Sie also in die aktuelle Fassung.",
@@ -1315,6 +1370,16 @@
      "en": "With the right words you understand meetings better."
     },
     {
+     "de": "Merken Sie sich besonders Frequenz, Bilanzkreis und Regelzone.",
+     "ar": "احفظوا خصوصًا التردد ودائرة الموازنة ومنطقة التحكم.",
+     "en": "Remember especially frequency, balancing group and control area."
+    },
+    {
+     "de": "Diese Wörter hören Sie in jedem Netzprojekt.",
+     "ar": "هذه الكلمات ستسمعونها في كل مشروع شبكة.",
+     "en": "You hear these words in every grid project."
+    },
+    {
      "de": "Im nächsten Video geht es um den Netzanschluss.",
      "ar": "في الفيديو القادم نتناول التوصيل بالشبكة.",
      "en": "The next video is about the grid connection."
@@ -1363,6 +1428,16 @@
      "de": "Die Bundesnetzagentur beaufsichtigt die Netze.",
      "ar": "والوكالة الاتحادية للشبكات تراقب الشبكات.",
      "en": "The Federal Network Agency supervises the grids."
+    },
+    {
+     "de": "Gesetze und Normen werden überarbeitet und neu veröffentlicht.",
+     "ar": "تُراجع القوانين والمعايير وتُنشر من جديد.",
+     "en": "Laws and standards are revised and published again."
+    },
+    {
+     "de": "Auch Zuständigkeiten und Namen von Unternehmen können sich ändern.",
+     "ar": "وقد تتغير الاختصاصات وأسماء الشركات أيضًا.",
+     "en": "Responsibilities and company names can also change."
     },
     {
      "de": "ENTSO-E verbindet die Betreiber in Europa.",

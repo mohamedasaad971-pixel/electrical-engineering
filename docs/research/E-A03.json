@@ -1,0 +1,179 @@
+{
+ "video": "E-A03",
+ "stand": "2026-10-20",
+ "facts": [
+  {
+   "claim": "EEG-Zweck: Transformation zu einer nachhaltigen, treibhausgasneutralen Stromversorgung, die vollständig auf erneuerbaren Energien beruht (§ 1 Abs. 1).",
+   "source_url": "https://gesetze.legal/bund/eeg_2023/1",
+   "source_name": "gesetze.legal (Spiegel EEG 2023), mit buzer/deubner übereinstimmend",
+   "confidence": "medium",
+   "note": "Gesetzestext nur über Spiegelseiten gesehen; Fassung prüfen."
+  },
+  {
+   "claim": "Der Ausbau soll stetig, kosteneffizient, umweltverträglich und netzverträglich erfolgen (§ 1 Abs. 3).",
+   "source_url": "https://gesetze.legal/bund/eeg_2023/1",
+   "source_name": "gesetze.legal",
+   "confidence": "medium",
+   "note": "Wortlaut sinngemäß im Skript."
+  },
+  {
+   "claim": "Errichtung und Betrieb von Anlagen liegen im überragenden öffentlichen Interesse und dienen der öffentlichen Gesundheit und Sicherheit; erneuerbare Energien sollen bis zur nahezu treibhausgasneutralen Stromerzeugung als vorrangiger Belang in Schutzgüterabwägungen eingebracht werden (§ 2).",
+   "source_url": "https://gesetze.legal/bund/eeg_2023/2",
+   "source_name": "gesetze.legal / deubner-steuern",
+   "confidence": "medium",
+   "note": "Ausnahme Landes- und Bündnisverteidigung nicht erwähnt."
+  },
+  {
+   "claim": "Netzbetreiber müssen Anlagen unverzüglich und vorrangig an einem geeigneten Verknüpfungspunkt anschließen (§ 8 Abs. 1).",
+   "source_url": "https://gesetze.legal/bund/eeg_2023/8",
+   "source_name": "gesetze.legal / anwalt24",
+   "confidence": "medium",
+   "note": "Kriterium Spannungsebene/Entfernung nicht im Skript."
+  },
+  {
+   "claim": "Die Anschlusspflicht besteht auch, wenn die Abnahme erst durch Optimierung, Verstärkung oder Ausbau des Netzes (§ 12) möglich wird; Ausbau unverzüglich, Grenze wirtschaftliche Zumutbarkeit.",
+   "source_url": "https://stiftung-umweltenergierecht.de/wp-content/uploads/2024/10/Stiftung_Umweltenergierecht_04_Netzertuechtigung_Klarmann_SUER_2024-10-23-1.pdf",
+   "source_name": "Stiftung Umweltenergierecht (Stand 2024-10)",
+   "confidence": "medium",
+   "note": "Zumutbarkeit aus Sekundärquelle."
+  },
+  {
+   "claim": "Netzbetreiber benötigen Angaben des Anschlussbegehrenden, um Netzverträglichkeit zu prüfen und den Verknüpfungspunkt zu ermitteln; häufig stellt ein Installationsbetrieb den Antrag.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Netzanschluss/artikel.html",
+   "source_name": "Bundesnetzagentur, Netzanschluss EE-Anlagen",
+   "confidence": "high",
+   "note": "Primärquelle (Behörde)."
+  },
+  {
+   "claim": "Der Netzbetreiber muss einen Bearbeitungszeitplan nennen und das Prüfergebnis samt Kostenvoranschlag für den Anschluss mitteilen (§ 8 Abs. 5/6).",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Netzanschluss/artikel.html",
+   "source_name": "Bundesnetzagentur",
+   "confidence": "high",
+   "note": "Konkrete Fristen bewusst nicht genannt."
+  },
+  {
+   "claim": "Einspeisevorrang: Netzbetreiber müssen Strom aus erneuerbaren Energien unverzüglich vorrangig physikalisch abnehmen, übertragen und verteilen (§ 11 Abs. 1).",
+   "source_url": "https://www.gesetze-im-internet.de/eeg_2014/__11.html",
+   "source_name": "gesetze-im-internet.de (EEG, § 11) und Spiegelseiten",
+   "confidence": "high",
+   "note": "Vorbehalt anderer Regelungen und § 13 EnWG."
+  },
+  {
+   "claim": "Macht der Betreiber Marktprämie geltend, umfasst die Pflicht auch die kaufmännische Abnahme.",
+   "source_url": "https://gesetze.legal/bund/eeg_2023/11",
+   "source_name": "gesetze.legal / gesetze-im-internet",
+   "confidence": "medium",
+   "note": "Im Skript nur sinngemäß (anderer Partner bei Direktvermarktung); Formulierung prüfen."
+  },
+  {
+   "claim": "Betreiber können den Strom dem Netzbetreiber überlassen (Einspeisevergütung) oder an einen Direktvermarkter verkaufen (Marktprämie).",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Solaranlagen/Anmeldung_table.html",
+   "source_name": "Bundesnetzagentur, Anmeldung/Förderung Solaranlagen",
+   "confidence": "high",
+   "note": "Behördenseite."
+  },
+  {
+   "claim": "Marktprämie gleicht die Differenz zwischen Marktwert und festgelegtem (anzulegendem) Wert aus.",
+   "source_url": "https://www.enpal.de/energie-lexikon/anzulegender-wert",
+   "source_name": "Enpal Lexikon; ergänzend Bundestags-/Kanzlei-Dokumente",
+   "confidence": "medium",
+   "note": "Sekundär; im Skript nur Prinzip."
+  },
+  {
+   "claim": "Für ausschreibungspflichtige Anlagen wird der Wert im Wettbewerbsverfahren bestimmt; die Bundesnetzagentur veröffentlicht die aktuellen Fördersätze.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/EEG_Foerderung/artikel.html",
+   "source_name": "Bundesnetzagentur, EEG-Förderung",
+   "confidence": "medium",
+   "note": "Im Skript nur 'Ausschreibungen für größere Anlagen'."
+  },
+  {
+   "claim": "Förderzahlungen werden erst fällig, wenn die Anlage im Marktstammdatenregister registriert ist und alle abrechnungsrelevanten Angaben vorliegen.",
+   "source_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Solaranlagen/Anmeldung_table.html",
+   "source_name": "Bundesnetzagentur",
+   "confidence": "high",
+   "note": "Behördenseite."
+  },
+  {
+   "claim": "Registrierung im Marktstammdatenregister ist verpflichtend, auch für kleine PV-Anlagen und auch ohne Vergütung; Frist ab Inbetriebnahme (MaStRV § 5).",
+   "source_url": "https://www.gesetze-im-internet.de/mastrv/__5.html",
+   "source_name": "MaStRV § 5; Marktstammdatenregister-Hilfe",
+   "confidence": "medium",
+   "note": "Frist-Länge bewusst nicht genannt."
+  },
+  {
+   "claim": "Die Eintragung im Register ersetzt nicht die Anmeldung beim Netzbetreiber; die Registrierung darf bevollmächtigt werden, Verantwortung bleibt beim Betreiber.",
+   "source_url": "https://www.marktstammdatenregister.de/MaStRHilfe/subpages/registrierungVerpflichtendFristen.html",
+   "source_name": "Marktstammdatenregister-Hilfe; Bundesnetzagentur",
+   "confidence": "medium",
+   "note": "Aussage zur Verantwortung aus Hilfetext."
+  },
+  {
+   "claim": "Verspätete Registrierung: Zahlungen werden zurückgehalten, Anspruch kann teils entfallen; Ordnungswidrigkeit möglich.",
+   "source_url": "https://www.marktstammdatenregister.de/MaStRHilfe/subpages/registrierungVerpflichtendFristen.html",
+   "source_name": "Marktstammdatenregister-Hilfe",
+   "confidence": "medium",
+   "note": "Allgemein formuliert."
+  },
+  {
+   "claim": "Im Register werden Stammdaten (Standort, technische Daten) erfasst, keine Betriebsdaten wie Zählerstände.",
+   "source_url": "https://www.marktstammdatenregister.de/MaStRHilfe/files/regHilfen/MaStR_Flyer.pdf",
+   "source_name": "Marktstammdatenregister (Flyer)",
+   "confidence": "medium",
+   "note": "Aus Suchzusammenfassung; Flyer nicht im Volltext geprüft."
+  },
+  {
+   "claim": "Anlagen müssen technische Einrichtungen zur Abrufbarkeit der Ist-Einspeisung und zur ferngesteuerten Reduzierung der Wirkleistung haben (EEG § 9; Paragraphenverweis in Quellen uneinheitlich).",
+   "source_url": "https://www.enercity-netz.de/assets/cms/eng/partner/installateure/anmeldung-photovoltaikanlage/technische-vorgaben-zum-parag-9-eeg.pdf",
+   "source_name": "enercity Netz; VDE FNN Hinweis § 9 EEG",
+   "confidence": "medium",
+   "note": "Netzbetreiber-Quelle; Norm-/Paragraphennummer im Skript nicht genannt."
+  },
+  {
+   "claim": "Redispatch 2.0 ersetzt seit 1. Oktober 2021 das Einspeisemanagement; Rechtsgrundlage §§ 13, 13a, 14 EnWG.",
+   "source_url": "https://www.bdew.de/energie/redispatch-20/",
+   "source_name": "BDEW; VDE FNN; Bundesnetzagentur Netzengpassmanagement",
+   "confidence": "medium",
+   "note": "Im Skript ohne Datum: 'ersetzt das frühere Einspeisemanagement'."
+  },
+  {
+   "claim": "VDE-AR-N 4105 'Erzeugungsanlagen am Niederspannungsnetz' ist die Anwendungsregel von VDE FNN; Inhalte u. a. Netzanschlussgrundsätze, NA-Schutz, Messung, Betrieb, Nachweis der elektrischen Eigenschaften.",
+   "source_url": "https://www.vde.com/de/fnn/themen/tar/tar-niederspannung/erzeugungsanlagen-am-niederspannungsnetz-vde-ar-n-4105-2026",
+   "source_name": "VDE FNN",
+   "confidence": "high",
+   "note": "Herstellerseite; Normtext nicht zitiert. Ausgabe im Skript nicht genannt."
+  },
+  {
+   "claim": "Verteilnetzbetreiber veröffentlichen eigene Ergänzungen zu VDE-AR-N 4105.",
+   "source_url": "https://www.enercity-netz.de/assets/cms/eng/partner/installateure/technische-anschlussbedingungen-niederspannung/ergaenzung-zur-vde-ar-n-4105.pdf",
+   "source_name": "enercity Netz (Beispiel)",
+   "confidence": "medium",
+   "note": "Beispielhaft, deshalb 'jeder Netzbetreiber' als Verallgemeinerung leicht vorsichtig: im Skript 'hat eigene Vorgaben'."
+  },
+  {
+   "claim": "PV-Module liefern Gleichstrom; der Wechselrichter wandelt in Netz-Wechselstrom um und regelt den Arbeitspunkt.",
+   "source_url": "https://www.erlangen-hoechstadt.de/media/2691/photovoltaik-technische-funktionsweise.pdf",
+   "source_name": "Landkreis-Merkblatt / Uni-Stuttgart Grundlagenpraktikum",
+   "confidence": "medium",
+   "note": "Physikalisches Grundwissen."
+  },
+  {
+   "claim": "Windenergieanlagen mit variabler Drehzahl erzeugen variable Frequenz; ein Umrichter passt Strom an das Netz an.",
+   "source_url": "https://www.lea.tu-darmstadt.de/media/lea/medien/forschung_5/heag.pdf",
+   "source_name": "TU Darmstadt (LEA)",
+   "confidence": "medium",
+   "note": "Grundwissen; Transformator-Aussage allgemein."
+  }
+ ],
+ "dropped": [
+  "Zielwert 80 Prozent Anteil bis 2030 (zeitabhängig, nur Spiegelseiten)",
+  "Registrierungsfrist ein Monat (MaStRV § 5 Abs. 5) – Sekundär-Zusammenfassung; Frist im Skript nur als 'Frist nach der Inbetriebnahme'",
+  "Acht-Wochen-Frist Netzverträglichkeitsprüfung, Fiktionsregel § 8 Abs. 7 (Änderung 2025, unverifiziert)",
+  "Leistungsgrenzen 100 kW, 200 kW (Vergütung/Redispatch/Fernsteuerung) – widersprüchliche Quellen",
+  "Einspeisevergütungssätze, Marktprämienhöhen, Solarpaket-Details, unentgeltliche Abnahme, Balkon-PV-Regeln",
+  "Modulwirkungsgrade (Fraunhofer ISE Zitat nur sekundär), Installierte-GW-Zahlen",
+  "Änderungsgesetz vom 18.12.2025 (BGBl. 2025 I Nr. 347) – nur Spiegelseiten, Datum unverifiziert",
+  "Ausgabe VDE-AR-N 4105:2026-03 – einzelne Herstellerseite, Ausgabe im Skript nicht genannt",
+  "Genaue Paragraphennummer der Fernsteuerbarkeit (§ 9 vs. § 10b) – Quellen uneinheitlich",
+  "Negative Strompreise/§ 51-Regeln, Mieterstrom, Volleinspeisung"
+ ]
+}
