@@ -136,11 +136,6 @@
      "en": "Mechanical engineering provides frames, drives and guards."
     },
     {
-     "de": "Ein Projekt braucht klare Zuständigkeiten.",
-     "ar": "يحتاج المشروع إلى مسؤوليات واضحة.",
-     "en": "A project needs clear responsibilities."
-    },
-    {
      "de": "Die Elektrotechnik liefert Energie, Schaltschrank und Steuerung.",
      "ar": "وتقدّم الهندسة الكهربائية الطاقة وخزانة التوزيع والتحكم والتحكم الآلي.",
      "en": "Electrical engineering provides power, control cabinet and controls."
@@ -149,6 +144,11 @@
      "de": "Beide Seiten liefern Beiträge zur Risikobeurteilung.",
      "ar": "وكلا الجانبين يساهم في تقييم المخاطر.",
      "en": "Both sides contribute to the risk assessment."
+    },
+    {
+     "de": "Ein Projekt braucht klare Zuständigkeiten.",
+     "ar": "يحتاج المشروع إلى مسؤوليات واضحة.",
+     "en": "A project needs clear responsibilities."
     },
     {
      "de": "Verantwortlich für die Konformität ist der Hersteller der Maschine.",
@@ -166,14 +166,14 @@
      "en": "The operator later uses the machine in the plant."
     },
     {
-     "de": "Als Elektroingenieur arbeiten Sie deshalb eng mit dem Maschinenbau zusammen.",
-     "ar": "لذلك ستعملون كمهندسي كهرباء بتعاون وثيق مع الهندسة الميكانيكية.",
-     "en": "As an electrical engineer, you therefore work closely with mechanical engineering."
-    },
-    {
      "de": "Gute Ergebnisse entstehen, wenn beide Seiten früh miteinander sprechen.",
      "ar": "تتحقق نتائج جيدة حين يتحدث الطرفان معًا مبكرًا.",
      "en": "Good results appear when both sides talk to each other early."
+    },
+    {
+     "de": "Als Elektroingenieur arbeiten Sie deshalb eng mit dem Maschinenbau zusammen.",
+     "ar": "لذلك ستعملون كمهندسي كهرباء بتعاون وثيق مع الهندسة الميكانيكية.",
+     "en": "As an electrical engineer, you therefore work closely with mechanical engineering."
     }
    ]
   },
@@ -206,7 +206,7 @@
      "de": "Bisher gilt in der EU die Maschinenrichtlinie.",
      "ar": "حتى الآن يسري في الاتحاد الأوروبي توجيه الآلات.",
      "en": "So far, the Machinery Directive applies in the EU.",
-     "tts": "Bisher gilt in der Eu-Ü die Maschinenrichtlinie."
+     "tts": "Bisher gilt in der E-U die Maschinenrichtlinie."
     },
     {
      "de": "Eine Richtlinie wird zuerst in nationales Recht umgesetzt.",
@@ -214,14 +214,14 @@
      "en": "A directive is first transposed into national law."
     },
     {
-     "de": "Sie wird durch die Maschinenverordnung ersetzt.",
-     "ar": "وسيحل محله لائحة الآلات.",
-     "en": "It is being replaced by the Machinery Regulation."
-    },
-    {
      "de": "In Deutschland geschah das bisher über das Produktsicherheitsgesetz.",
      "ar": "وفي ألمانيا تم ذلك حتى الآن عبر قانون سلامة المنتجات.",
      "en": "In Germany, this has so far been done through the Product Safety Act."
+    },
+    {
+     "de": "Sie wird durch die Maschinenverordnung ersetzt.",
+     "ar": "وسيحل محله لائحة الآلات.",
+     "en": "It is being replaced by the Machinery Regulation."
     },
     {
      "de": "Eine Verordnung gilt in Deutschland unmittelbar.",
@@ -342,6 +342,11 @@
      "tts": "Er stellt eine Konformitätserklärung aus und bringt die Ze-E-Kennzeichnung an."
     },
     {
+     "de": "Diese Schritte gehören zusammen.",
+     "ar": "هذه الخطوات مترابطة.",
+     "en": "These steps belong together."
+    },
+    {
      "de": "Bei bestimmten Maschinen aus einer Liste im Anhang kann eine benannte Stelle nötig sein.",
      "ar": "وفي آلات معينة واردة في قائمة بالملحق قد تلزم جهة مُعيَّنة.",
      "en": "For certain machines on a list in the annex, a notified body may be needed."
@@ -351,11 +356,6 @@
      "ar": "علامة CE إعلان من المصنّع وليست ختم فحص.",
      "en": "The CE mark is a manufacturer's declaration, not an inspection badge.",
      "tts": "Die Ze-E-Kennzeichnung ist eine Herstellererklärung und keine Prüfplakette."
-    },
-    {
-     "de": "Diese Schritte gehören zusammen.",
-     "ar": "هذه الخطوات مترابطة.",
-     "en": "These steps belong together."
     },
     {
      "de": "Fehlt eine vorgeschriebene CE-Kennzeichnung, darf das Produkt nicht bereitgestellt werden.",
@@ -402,11 +402,6 @@
      "tts": "Die Grundnorm dafür ist die E-En I-So eins zwei eins null null."
     },
     {
-     "de": "Gefährdungen erkennen heißt: Was kann an der Maschine wem passieren?",
-     "ar": "تحديد الأخطار يعني: ما الذي قد يحدث في الآلة ولمن؟",
-     "en": "Identifying hazards means: what can happen at the machine, and to whom?"
-    },
-    {
      "de": "Sie legt Begriffe, Leitsätze und eine Methode fest.",
      "ar": "وهو يحدد المصطلحات والمبادئ والمنهجية.",
      "en": "It defines terms, principles and a method."
@@ -417,19 +412,24 @@
      "en": "The process consists of risk analysis, risk evaluation and risk reduction."
     },
     {
+     "de": "Gefährdungen erkennen heißt: Was kann an der Maschine wem passieren?",
+     "ar": "تحديد الأخطار يعني: ما الذي قد يحدث في الآلة ولمن؟",
+     "en": "Identifying hazards means: what can happen at the machine, and to whom?"
+    },
+    {
      "de": "Man wiederholt ihn, bis die Maßnahmen ausreichen.",
      "ar": "وتُكرَّر العملية حتى تكفي الإجراءات.",
      "en": "It is repeated until the measures are sufficient."
     },
     {
-     "de": "Die Elektrik trägt dazu bei, zum Beispiel mit Steuerung und Energieversorgung.",
-     "ar": "ويساهم الجانب الكهربائي في ذلك، مثلًا بالتحكم وإمداد الطاقة.",
-     "en": "Electrics contributes, for example with controls and power supply."
-    },
-    {
      "de": "Wie genau Sie beurteilen, regelt das Gesetz nicht im Detail.",
      "ar": "ولا ينظّم القانون بالتفصيل كيفية التقييم بالضبط.",
      "en": "The law does not regulate in detail exactly how you assess."
+    },
+    {
+     "de": "Die Elektrik trägt dazu bei, zum Beispiel mit Steuerung und Energieversorgung.",
+     "ar": "ويساهم الجانب الكهربائي في ذلك، مثلًا بالتحكم وإمداد الطاقة.",
+     "en": "Electrics contributes, for example with controls and power supply."
     },
     {
      "de": "Das Ergebnis halten Sie schriftlich fest.",
@@ -463,11 +463,6 @@
      "en": "First, one tries to remove the hazard through design itself."
     },
     {
-     "de": "Schutzmaßnahmen haben also eine klare Rangfolge.",
-     "ar": "أي أن لإجراءات الحماية ترتيب أولويات واضحًا.",
-     "en": "So protective measures have a clear order of priority."
-    },
-    {
      "de": "Dann folgen technische Schutzmaßnahmen, zum Beispiel Schutzzäune oder Lichtvorhänge.",
      "ar": "ثم تأتي إجراءات الحماية التقنية، مثل سياجات الحماية أو الستائر الضوئية.",
      "en": "Then come technical protective measures, for example guard fences or light curtains."
@@ -483,14 +478,19 @@
      "en": "The steps apply in sequence when the previous one is not enough."
     },
     {
-     "de": "Hier arbeiten Elektrik und Mechanik besonders eng zusammen.",
-     "ar": "هنا يتعاون الجانب الكهربائي والميكانيكي بشكل وثيق جدًا.",
-     "en": "Here electrics and mechanics work especially closely together."
+     "de": "Schutzmaßnahmen haben also eine klare Rangfolge.",
+     "ar": "أي أن لإجراءات الحماية ترتيب أولويات واضحًا.",
+     "en": "So protective measures have a clear order of priority."
     },
     {
      "de": "Warnschilder allein ersetzen also keine sichere Konstruktion.",
      "ar": "فاللافتات التحذيرية وحدها لا تغني عن التصميم الآمن.",
      "en": "So warning signs alone do not replace a safe design."
+    },
+    {
+     "de": "Hier arbeiten Elektrik und Mechanik besonders eng zusammen.",
+     "ar": "هنا يتعاون الجانب الكهربائي والميكانيكي بشكل وثيق جدًا.",
+     "en": "Here electrics and mechanics work especially closely together."
     }
    ]
   },
@@ -624,11 +624,6 @@
      "en": "Sources do not always use the terms consistently."
     },
     {
-     "de": "Legen Sie im Projekt deshalb genau fest, welche Funktion gemeint ist.",
-     "ar": "لذلك حدّدوا في المشروع بدقة أي وظيفة هي المقصودة.",
-     "en": "So define precisely in the project which function is meant."
-    },
-    {
      "de": "Die BG RCI verweist beim Ausschalten im Notfall auf die EN 60204-1.",
      "ar": "وتشير BG RCI عند الحديث عن فصل الطاقة في الطوارئ إلى EN 60204-1 المعروف.",
      "en": "For switching off in an emergency, BG RCI refers to EN 60204-1.",
@@ -639,6 +634,11 @@
      "ar": "أما لإيقاف الطوارئ نفسه فتشير المصادر المتخصصة إلى EN ISO 13850 المعروف.",
      "en": "For the Not-Halt itself, expert sources refer to EN ISO 13850.",
      "tts": "Für den Not-Halt selbst verweisen Fachquellen auf die E-En I-So eins drei acht fünf null."
+    },
+    {
+     "de": "Legen Sie im Projekt deshalb genau fest, welche Funktion gemeint ist.",
+     "ar": "لذلك حدّدوا في المشروع بدقة أي وظيفة هي المقصودة.",
+     "en": "So define precisely in the project which function is meant."
     }
    ]
   },
@@ -657,15 +657,15 @@
    },
    "lines": [
     {
+     "de": "Der Not-Halt ist das bekannteste Bedienelement an Maschinen.",
+     "ar": "إيقاف الطوارئ هو أشهر عنصر تشغيل في الآلات.",
+     "en": "The Not-Halt is the best-known control on machines."
+    },
+    {
      "de": "Für die Gestaltung des Not-Halts gibt es die EN ISO 13850.",
      "ar": "لتصميم إيقاف الطوارئ هناك المعيار EN ISO 13850 الخاص به.",
      "en": "For designing the Not-Halt there is EN ISO 13850.",
      "tts": "Für die Gestaltung des Not-Halts gibt es die E-En I-So eins drei acht fünf null."
-    },
-    {
-     "de": "Der Not-Halt ist das bekannteste Bedienelement an Maschinen.",
-     "ar": "إيقاف الطوارئ هو أشهر عنصر تشغيل في الآلات.",
-     "en": "The Not-Halt is the best-known control on machines."
     },
     {
      "de": "Das Befehlsgerät ist rot. Ein vorhandener Hintergrund ist gelb.",
@@ -688,6 +688,11 @@
      "en": "It does not start the machine by itself."
     },
     {
+     "de": "Bei beleuchteten Geräten muss das Bedienteil auch ohne Licht rot bleiben.",
+     "ar": "وفي الأجهزة المضاءة يجب أن يبقى الزر أحمر حتى دون إضاءة.",
+     "en": "With illuminated devices, the control element must stay red even without light."
+    },
+    {
      "de": "Ein Not-Halt ist an jedem Bedienstand vorgesehen, wenn die Risikobeurteilung ihn nicht für unnötig erklärt.",
      "ar": "يُوفَّر إيقاف الطوارئ عند كل موقع تشغيل ما لم يُبيّن تقييم المخاطر عدم الحاجة إليه.",
      "en": "A Not-Halt is provided at every operator station unless the risk assessment shows it is unnecessary."
@@ -696,11 +701,6 @@
      "de": "Ausnahmen gibt es zum Beispiel bei handgeführten Maschinen.",
      "ar": "وهناك استثناءات، مثل الآلات التي تُمسك باليد.",
      "en": "There are exceptions, for example for hand-guided machines."
-    },
-    {
-     "de": "Bei beleuchteten Geräten muss das Bedienteil auch ohne Licht rot bleiben.",
-     "ar": "وفي الأجهزة المضاءة يجب أن يبقى الزر أحمر حتى دون إضاءة.",
-     "en": "With illuminated devices, the control element must stay red even without light."
     }
    ]
   },
@@ -719,21 +719,27 @@
    },
    "lines": [
     {
+     "de": "Beim Stoppen kommt es auf die Art der Abschaltung an.",
+     "ar": "في الإيقاف تهم طريقة الفصل.",
+     "en": "When stopping, the type of shutdown matters."
+    },
+    {
      "de": "Die EN 60204-1 beschreibt auch Stopp-Kategorien.",
      "ar": "يصف EN 60204-1 أيضًا فئات التوقف.",
      "en": "EN 60204-1 also describes stop categories.",
      "tts": "Die E-En sechs null zwei null vier Strich eins beschreibt auch Stopp-Kategorien."
     },
     {
-     "de": "Beim Stoppen kommt es auf die Art der Abschaltung an.",
-     "ar": "في الإيقاف تهم طريقة الفصل.",
-     "en": "When stopping, the type of shutdown matters."
-    },
-    {
      "de": "Kategorie null: Die Energie wird sofort getrennt, die Bewegung endet ungesteuert.",
      "ar": "الفئة صفر: تُفصل الطاقة فورًا وتنتهي الحركة دون تحكم.",
      "en": "Category 0: power is cut immediately, the movement ends uncontrolled.",
      "tts": "Kategorie null: Die Energie wird sofort getrennt, die Bewegung endet ungesteuert."
+    },
+    {
+     "de": "Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt.",
+     "ar": "وكثيرًا ما تُنفَّذ الفئة صفر بفصل آمن للمحركات.",
+     "en": "Category 0 is often implemented by a safe switch-off of the drives.",
+     "tts": "Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt."
     },
     {
      "de": "Kategorie eins: Die Maschine hält gesteuert an, danach wird die Energie getrennt.",
@@ -762,12 +768,6 @@
      "de": "Wie zuverlässig die Funktion sein muss, behandelt das Video zur funktionalen Sicherheit.",
      "ar": "ومدى موثوقية الوظيفة المطلوبة يعالجه الفيديو الخاص بالأمان الوظيفي.",
      "en": "How reliable the function must be is covered in the video on functional safety."
-    },
-    {
-     "de": "Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt.",
-     "ar": "وكثيرًا ما تُنفَّذ الفئة صفر بفصل آمن للمحركات.",
-     "en": "Category 0 is often implemented by a safe switch-off of the drives.",
-     "tts": "Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt."
     }
    ]
   },
@@ -812,14 +812,19 @@
      "en": "There are fixed and movable versions."
     },
     {
-     "de": "Gitter, Abdeckungen und Verkleidungen schützen vor mechanischen Gefährdungen.",
-     "ar": "الشبكات والأغطية والهياكل الواقية تحمي من المخاطر الميكانيكية.",
-     "en": "Grilles, covers and casings protect against mechanical hazards."
+     "de": "Sie schützen vor mechanischen Gefährdungen.",
+     "ar": "وهي تحمي من المخاطر الميكانيكية.",
+     "en": "They protect against mechanical hazards."
     },
     {
      "de": "Berührungslos wirkende Schutzeinrichtungen erkennen Personen, zum Beispiel mit Lichtvorhängen.",
      "ar": "أما أجهزة الحماية دون تلامس فتكتشف الأشخاص، مثل الستائر الضوئية.",
      "en": "Electro-sensitive protective devices detect people, for example with light curtains."
+    },
+    {
+     "de": "Beide Arten schützen Personen vor Gefahrstellen.",
+     "ar": "كلا النوعين يحمي الأشخاص من مواضع الخطر.",
+     "en": "Both types protect people from danger zones."
     },
     {
      "de": "Welche Lösung passt, entscheidet die Risikobeurteilung.",
@@ -837,11 +842,6 @@
      "ar": "وللأجهزة دون تلامس هناك سلسلة IEC 61496 الخاصة بها.",
      "en": "For contactless devices there is the series IEC 61496.",
      "tts": "Für berührungslos wirkende Geräte gibt es die Reihe I-E-Ze sechs eins vier neun sechs."
-    },
-    {
-     "de": "Beide Arten schützen Personen vor Gefahrstellen.",
-     "ar": "كلا النوعين يحمي الأشخاص من مواضع الخطر.",
-     "en": "Both types protect people from danger zones."
     }
    ]
   },
@@ -885,6 +885,16 @@
      "en": "It must not be possible to reach over, under or behind the protective field."
     },
     {
+     "de": "Ein Lichtvorhang schützt nicht vor herausgeschleuderten Teilen.",
+     "ar": "والستارة الضوئية لا تحمي من الأجزاء المقذوفة من الآلة.",
+     "en": "A light curtain does not protect against ejected parts."
+    },
+    {
+     "de": "Bei Pressen schließt man Öffnungen neben dem Lichtvorhang mit festen Schutzeinrichtungen.",
+     "ar": "وفي المكابس تُسدّ الفتحات بجوار الستارة الضوئية بوسائل حماية ثابتة.",
+     "en": "On presses, openings next to the light curtain are closed with fixed guards."
+    },
+    {
      "de": "Der Abstand zur Gefahrstelle folgt der EN ISO 13855.",
      "ar": "المسافة إلى موضع الخطر تتبع المعيار EN ISO 13855 المعروف.",
      "en": "The distance to the danger zone follows EN ISO 13855.",
@@ -894,16 +904,6 @@
      "de": "Rechnen Sie dort mit der Norm, nicht mit Faustregeln.",
      "ar": "احسبوا هناك وفق المعيار لا وفق قواعد تقريبية.",
      "en": "Calculate there with the standard, not with rules of thumb."
-    },
-    {
-     "de": "Ein Lichtvorhang schützt nicht vor herausgeschleuderten Teilen.",
-     "ar": "والستارة الضوئية لا تحمي من الأجزاء المقذوفة من الآلة.",
-     "en": "A light curtain does not protect against ejected parts."
-    },
-    {
-     "de": "Bei Pressen schließt man Öffnungen neben dem Lichtvorhang mit festen Schutzeinrichtungen.",
-     "ar": "وفي المكابس تُسدّ الفتحات بجوار الستارة الضوئية بوسائل حماية ثابتة.",
-     "en": "On presses, openings next to the light curtain are closed with fixed guards."
     }
    ]
   },
@@ -1120,14 +1120,14 @@
      "en": "For the finished machine, a declaration of conformity is needed."
     },
     {
-     "de": "Die Verordnung ändert hier einiges, prüfen Sie die neuen Regeln für Ihr Projekt.",
-     "ar": "اللائحة تغيّر هنا أمورًا، فتحققوا من القواعد الجديدة لمشروعكم.",
-     "en": "The regulation changes some things here, so check the new rules for your project."
-    },
-    {
      "de": "Diese Unterscheidung bestimmt, welche Erklärung nötig ist.",
      "ar": "وهذا التمييز يحدد أي إعلان يلزم.",
      "en": "This distinction determines which declaration is needed."
+    },
+    {
+     "de": "Die Verordnung ändert hier einiges, prüfen Sie die neuen Regeln für Ihr Projekt.",
+     "ar": "اللائحة تغيّر هنا أمورًا، فتحققوا من القواعد الجديدة لمشروعكم.",
+     "en": "The regulation changes some things here, so check the new rules for your project."
     }
    ]
   },
@@ -1183,6 +1183,11 @@
      "en": "This can be the original or a translation with the original attached."
     },
     {
+     "de": "Die Konformitätserklärung liegt der Maschine bei.",
+     "ar": "ويُرفق إعلان المطابقة مع الآلة.",
+     "en": "The declaration of conformity accompanies the machine."
+    },
+    {
      "de": "Die technischen Unterlagen müssen Sie dem Kunden nicht liefern.",
      "ar": "أما الوثائق الفنية فلا يلزم تسليمها للعميل.",
      "en": "You do not have to deliver the technical documentation to the customer."
@@ -1196,11 +1201,6 @@
      "de": "Nach der Richtlinie müssen sie mindestens zehn Jahre verfügbar bleiben.",
      "ar": "وفق التوجيه يجب أن تبقى متاحة عشر سنوات على الأقل.",
      "en": "Under the directive, they must remain available for at least ten years."
-    },
-    {
-     "de": "Die Konformitätserklärung liegt der Maschine bei.",
-     "ar": "ويُرفق إعلان المطابقة مع الآلة.",
-     "en": "The declaration of conformity accompanies the machine."
     },
     {
      "de": "Prüfen Sie, welche Fristen die Verordnung vorsieht.",
@@ -1245,14 +1245,14 @@
      "en": "Standards help to implement the requirements."
     },
     {
-     "de": "Wird eine harmonisierte Norm angewendet, vermutet man die Erfüllung der davon erfassten Anforderungen.",
-     "ar": "عند تطبيق معيار منسَّق يُفترض استيفاء المتطلبات التي يغطيها.",
-     "en": "If a harmonised standard is applied, fulfilment of the requirements it covers is presumed."
-    },
-    {
      "de": "Normen sind keine Rechtsnormen, sondern technische Regeln.",
      "ar": "المعايير ليست قواعد قانونية بل قواعد تقنية.",
      "en": "Standards are not legal norms but technical rules."
+    },
+    {
+     "de": "Wird eine harmonisierte Norm angewendet, vermutet man die Erfüllung der davon erfassten Anforderungen.",
+     "ar": "عند تطبيق معيار منسَّق يُفترض استيفاء المتطلبات التي يغطيها.",
+     "en": "If a harmonised standard is applied, fulfilment of the requirements it covers is presumed."
     },
     {
      "de": "Die Liste der harmonisierten Normen ändert sich laufend.",
@@ -1263,7 +1263,7 @@
      "de": "Prüfen Sie deshalb die aktuelle Liste im Amtsblatt der EU.",
      "ar": "لذلك راجعوا القائمة الحالية في الجريدة الرسمية للاتحاد الأوروبي.",
      "en": "So check the current list in the Official Journal of the EU.",
-     "tts": "Prüfen Sie deshalb die aktuelle Liste im Amtsblatt der Eu-Ü."
+     "tts": "Prüfen Sie deshalb die aktuelle Liste im Amtsblatt der E-U."
     },
     {
      "de": "Die Anwendung einer Norm ersetzt die Risikobeurteilung nicht.",
@@ -1531,14 +1531,14 @@
    },
    "options": [
     {
-     "de": "Die Risikominderung",
-     "ar": "تخفيف المخاطر",
-     "en": "Risk reduction"
-    },
-    {
      "de": "Die Lieferfristen",
      "ar": "مهل التسليم",
      "en": "Delivery periods"
+    },
+    {
+     "de": "Die Risikominderung",
+     "ar": "تخفيف المخاطر",
+     "en": "Risk reduction"
     },
     {
      "de": "Die Prüffristen",
@@ -1546,7 +1546,7 @@
      "en": "Inspection periods"
     }
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "q": {
@@ -1561,17 +1561,17 @@
      "en": "A permanent shutdown of the plant"
     },
     {
-     "de": "Ein Stoppbefehl gegen gefährliche Bewegungen",
-     "ar": "أمر توقف ضد الحركات الخطرة",
-     "en": "A stop command against dangerous movements"
-    },
-    {
      "de": "Ein Ersatz für die fünf Sicherheitsregeln",
      "ar": "بديل عن قواعد السلامة الخمس",
      "en": "A replacement for the five safety rules"
+    },
+    {
+     "de": "Ein Stoppbefehl gegen gefährliche Bewegungen",
+     "ar": "أمر توقف ضد الحركات الخطرة",
+     "en": "A stop command against dangerous movements"
     }
    ],
-   "answer": 1
+   "answer": 2
   },
   {
    "q": {
@@ -1581,14 +1581,14 @@
    },
    "options": [
     {
-     "de": "Sie gehen immer an den Kunden",
-     "ar": "تُسلَّم دائمًا للعميل",
-     "en": "They always go to the customer"
-    },
-    {
      "de": "Sie dienen vor allem der Marktaufsicht",
      "ar": "تخدم أساسًا رقابة السوق",
      "en": "They mainly serve market surveillance"
+    },
+    {
+     "de": "Sie gehen immer an den Kunden",
+     "ar": "تُسلَّم دائمًا للعميل",
+     "en": "They always go to the customer"
     },
     {
      "de": "Sie sind nur für den Betrieb gedacht",
@@ -1596,7 +1596,7 @@
      "en": "They are meant only for operation"
     }
    ],
-   "answer": 1
+   "answer": 0
   }
  ],
  "next": {
