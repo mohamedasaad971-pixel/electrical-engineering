@@ -158,6 +158,11 @@
      "de": "Deshalb betrachten wir Technik und Regeln zusammen.",
      "ar": "لذلك ننظر إلى التقنية والقواعد معًا.",
      "en": "That is why we look at technology and rules together."
+    },
+    {
+     "de": "Zusammen bilden sie ein System, das der Netzbetreiber kennen muss.",
+     "ar": "معًا يشكّلون منظومة يجب أن يعرفها مشغّل الشبكة.",
+     "en": "Together they form a system that the grid operator must know."
     }
    ]
   },
@@ -231,6 +236,11 @@
      "de": "Das Typenschild und das Datenblatt zeigen, wofür das Gerät gebaut ist.",
      "ar": "لوحة البيانات وورقة البيانات تبيّنان الغرض الذي صُنع الجهاز له.",
      "en": "The rating plate and datasheet show what the device is built for."
+    },
+    {
+     "de": "Für Wohnhäuser sind String- und Hybridgeräte am häufigsten.",
+     "ar": "في المنازل تكون أجهزة السلاسل والأجهزة الهجينة الأكثر شيوعًا.",
+     "en": "For homes, string and hybrid devices are the most common."
     }
    ]
   },
@@ -293,6 +303,11 @@
      "de": "Im Zweifel fragen Sie den Hersteller oder die Elektrofachkraft.",
      "ar": "وعند الشك اسألوا الشركة المصنّعة أو الكهربائي المؤهَّل (Elektrofachkraft).",
      "en": "If in doubt, ask the manufacturer or the qualified electrician."
+    },
+    {
+     "de": "Diese Rollen finden Sie auch in Datenblättern wieder.",
+     "ar": "ستجدون هذه الأدوار أيضًا في أوراق البيانات.",
+     "en": "You will find these roles again in datasheets."
     }
    ]
   },
@@ -362,6 +377,11 @@
      "de": "Wichtig sind außerdem die Angaben im Datenblatt zum Betrieb und zum Schutz.",
      "ar": "ومهمة أيضًا بيانات ورقة البيانات عن التشغيل والحماية.",
      "en": "The datasheet details on operation and protection are also important."
+    },
+    {
+     "de": "Eine Nachrüstung ist mit Wechselstrom-Kopplung oft einfacher.",
+     "ar": "الإضافة اللاحقة غالبًا أسهل مع الربط عبر التيار المتناوب.",
+     "en": "Retrofitting is often easier with AC coupling."
     }
    ]
   },
@@ -429,6 +449,11 @@
      "de": "Auch Monteure am Netz sind so besser geschützt.",
      "ar": "وبذلك يكون العاملون على الشبكة أكثر أمانًا.",
      "en": "Fitters working on the grid are also better protected this way."
+    },
+    {
+     "de": "Das Prinzip kennen Sie schon: Erst freischalten, dann arbeiten.",
+     "ar": "المبدأ تعرفونه: أولًا فصل الجهد ثم العمل.",
+     "en": "You already know the principle: first isolate, then work."
     }
    ]
   },
@@ -493,6 +518,11 @@
      "de": "Manche Netzbetreiber fragen dazu ein eigenes Zertifikat ab.",
      "ar": "بعض مشغّلي الشبكة يطلبون لذلك شهادة خاصة.",
      "en": "Some grid operators ask for a separate certificate for this."
+    },
+    {
+     "de": "Er arbeitet unabhängig von der Regelung des Wechselrichters.",
+     "ar": "يعمل بشكل مستقل عن تنظيم المحوّل.",
+     "en": "It works independently of the inverter's control."
     }
    ]
   },
@@ -629,6 +659,16 @@
      "de": "Bei Arbeiten am Netz gelten weiter die fünf Sicherheitsregeln.",
      "ar": "وعند العمل على الشبكة تظل قواعد السلامة الخمس سارية.",
      "en": "When working on the grid, the five safety rules still apply."
+    },
+    {
+     "de": "Die Prüfung betrifft netzgekoppelte Wechselrichter für Solaranlagen.",
+     "ar": "يخص الاختبار المحوّلات المرتبطة بالشبكة للمنظومات الشمسية.",
+     "en": "The test concerns grid-connected inverters for solar plants."
+    },
+    {
+     "de": "Sie ist eine Norm und kein Gesetz.",
+     "ar": "وهو معيار وليس قانونًا.",
+     "en": "It is a standard and not a law."
     }
    ]
   },
@@ -696,6 +736,16 @@
      "de": "So bleibt die Spannung im Netz in einem guten Bereich.",
      "ar": "وبهذا يبقى الجهد في الشبكة ضمن نطاق جيد.",
      "en": "This keeps the voltage in the grid in a good range."
+    },
+    {
+     "de": "Diese Funktionen nennt man netzdienlich.",
+     "ar": "تسمى هذه الوظائف وظائف داعمة للشبكة.",
+     "en": "These functions are called grid-supportive."
+    },
+    {
+     "de": "Sie helfen, viele Anlagen sicher an das Netz anzuschließen.",
+     "ar": "فهي تساعد على ربط منشآت كثيرة بالشبكة بأمان.",
+     "en": "They help to connect many plants safely to the grid."
     }
    ]
   },
@@ -732,9 +782,10 @@
      "tts": "Die Fau-De-E-A-R-En vier-eins-null-null beschreibt den Anschluss ans Niederspannungsnetz allgemein."
     },
     {
-     "de": "Dazu kommen Zählerplatz, Messkonzept und weitere Unterlagen.",
-     "ar": "ويضاف إلى ذلك مكان العدّاد ومفهوم القياس ووثائق أخرى.",
-     "en": "Add to that the meter location, metering concept and further documents."
+     "de": "Der Hinweis von VDE FNN beschreibt dazu verschiedene Anschlussvarianten.",
+     "ar": "إرشاد VDE FNN يصف لذلك متغيرات ربط مختلفة.",
+     "en": "The VDE FNN note describes various connection variants for this.",
+     "tts": "Der Hinweis von Fau-De-E Ef-En-En beschreibt dazu verschiedene Anschlussvarianten."
     },
     {
      "de": "Die VDE-AR-N 4105 gilt für Erzeugungsanlagen und wird auch auf Speicher angewendet.",
@@ -762,6 +813,11 @@
      "de": "Die Regeln gelten für Planer, Errichter und Betreiber.",
      "ar": "القواعد تسري على المخططين والمنفِّذين والمشغّلين.",
      "en": "The rules apply to planners, installers and operators."
+    },
+    {
+     "de": "Im Oktober zweitausendfünfundzwanzig erschien eine gemeinsame Fassung für Erzeuger, Speicher und Verbraucher.",
+     "ar": "في أكتوبر ٢٠٢٥ صدرت نسخة مشتركة للمنتجين والمخازن والمستهلكين.",
+     "en": "In October 2025 a joint version appeared for generators, storage and consumers."
     }
    ]
   },
@@ -829,6 +885,11 @@
      "de": "Prüfen Sie Fristen und Pflichten immer auf den offiziellen Seiten.",
      "ar": "تحققوا من المواعيد والواجبات دائمًا في الصفحات الرسمية.",
      "en": "Always check deadlines and duties on the official pages."
+    },
+    {
+     "de": "Die Zertifikate bestätigen, dass das Gerät die Anforderungen erfüllt.",
+     "ar": "تؤكد الشهادات أن الجهاز يستوفي المتطلبات.",
+     "en": "The certificates confirm that the device meets the requirements."
     }
    ]
   },
@@ -896,6 +957,11 @@
      "de": "Ihre Rolle ist es, die Schnittstellen sauber zu klären.",
      "ar": "دوركم هو توضيح نقاط التماس بشكل سليم.",
      "en": "Your role is to clarify the interfaces cleanly."
+    },
+    {
+     "de": "Wer unsicher ist, holt vorher die Auskunft des Netzbetreibers ein.",
+     "ar": "من كان غير متأكد يطلب قبل ذلك معلومات من مشغّل الشبكة.",
+     "en": "Anyone who is unsure first gets information from the grid operator."
     }
    ]
   },
@@ -963,9 +1029,14 @@
      "en": "The installation itself belongs in the hands of a registered company."
     },
     {
-     "de": "Viele Netzbetreiber bieten dafür ein Online-Portal an.",
-     "ar": "كثير من مشغّلي الشبكة يوفرون لذلك بوابة إلكترونية.",
-     "en": "Many grid operators offer an online portal for this."
+     "de": "Anmelden darf nach Angabe der Bundesnetzagentur grundsätzlich jeder.",
+     "ar": "التسجيل يجوز لأي شخص من حيث المبدأ بحسب الوكالة الاتحادية للشبكات.",
+     "en": "According to the Federal Network Agency, in principle anyone may register."
+    },
+    {
+     "de": "Die Installation bleibt trotzdem Fachsache.",
+     "ar": "ومع ذلك يبقى التركيب شأنًا للمختصين.",
+     "en": "The installation nevertheless remains a matter for specialists."
     }
    ]
   },
@@ -1036,6 +1107,11 @@
      "de": "Ein Energiemanagementsystem kann mehrere Geräte im Haus gemeinsam begrenzen.",
      "ar": "يمكن لنظام إدارة الطاقة أن يحدّ عدة أجهزة في المنزل معًا.",
      "en": "An energy management system can limit several devices in the house together."
+    },
+    {
+     "de": "Das gilt für nicht öffentlich zugängliche Ladepunkte, also etwa im Haus.",
+     "ar": "وهذا يخص نقاط الشحن غير المتاحة للعموم، أي مثلًا داخل المنزل.",
+     "en": "This applies to non-public charging points, for example at home."
     }
    ]
   },
@@ -1120,6 +1196,16 @@
      "de": "Nehmen Sie im Zweifel die Herstellerangaben und die Norm zur Hand.",
      "ar": "في حال الشك ارجعوا إلى بيانات الشركة والمعيار.",
      "en": "If in doubt, use the manufacturer information and the standard."
+    },
+    {
+     "de": "Es gibt auch Sonderformen, die für Elektroautos entwickelt wurden.",
+     "ar": "وهناك أيضًا أشكال خاصة طُوّرت للسيارات الكهربائية.",
+     "en": "There are also special types developed for electric cars."
+    },
+    {
+     "de": "Ohne diese Maßnahme kann der Schutz im Fehlerfall versagen.",
+     "ar": "دون هذا الإجراء قد تفشل الحماية عند حدوث عطل.",
+     "en": "Without this measure, protection can fail in the event of a fault."
     }
    ]
   },
@@ -1181,6 +1267,11 @@
      "de": "So vermeiden Sie Verzögerungen bei der Abnahme.",
      "ar": "وبذلك تتجنبون التأخير عند الاستلام.",
      "en": "This avoids delays at acceptance."
+    },
+    {
+     "de": "Der Netzbetreiber ist dabei Ihr wichtigster Ansprechpartner.",
+     "ar": "مشغّل الشبكة هو جهة الاتصال الأهم لديكم في ذلك.",
+     "en": "The grid operator is your most important contact here."
     }
    ]
   },
@@ -1237,6 +1328,11 @@
      "de": "Am Ladepunkt sind Gleichfehlerströme im Schutzkonzept zu beachten.",
      "ar": "عند نقطة الشحن يجب مراعاة تيارات العطل المستمرة في مفهوم الحماية.",
      "en": "At the charging point, DC residual currents must be considered in the protection concept."
+    },
+    {
+     "de": "Dieser Ablauf gilt als Orientierung und kann je Netzbetreiber abweichen.",
+     "ar": "هذا المسار للاسترشاد وقد يختلف من مشغّل شبكة لآخر.",
+     "en": "This flow is a guide and may differ between grid operators."
     }
    ]
   },
@@ -1272,6 +1368,11 @@
      "de": "Sie wissen jetzt, wie Speicher, Wechselrichter und Ladepunkte zusammenhängen.",
      "ar": "أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والمحوّلات ونقاط الشحن.",
      "en": "You now know how storage, inverters and charging points fit together."
+    },
+    {
+     "de": "Wer die Begriffe kennt, spricht auf Baustellen und im Büro sicherer.",
+     "ar": "من يعرف المصطلحات يتحدث بثقة أكبر في الموقع وفي المكتب.",
+     "en": "Anyone who knows the terms speaks more confidently on site and in the office."
     },
     {
      "de": "Prüfen Sie immer die aktuelle Fassung und die Vorgaben Ihres Netzbetreibers.",

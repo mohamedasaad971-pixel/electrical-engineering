@@ -604,21 +604,6 @@
      "en": "The transmission operators keep the frequency stable."
     },
     {
-     "de": "Früher gab es in Europa mehrere getrennte Netzverbände.",
-     "ar": "في السابق كانت هناك في أوروبا اتحادات شبكات منفصلة عدة.",
-     "en": "In the past there were several separate grid associations in Europe."
-    },
-    {
-     "de": "Heute arbeiten die Betreiber eng zusammen.",
-     "ar": "واليوم يعمل المشغّلون معًا بشكل وثيق.",
-     "en": "Today the operators work closely together."
-    },
-    {
-     "de": "Alle Länder im Verbund teilen also dasselbe Schicksal.",
-     "ar": "فكل الدول في المنظومة تتشارك المصير نفسه.",
-     "en": "All countries in the system therefore share the same fate."
-    },
-    {
      "de": "Dafür setzen sie Regelenergie ein.",
      "ar": "ولذلك يستخدمون طاقة الضبط.",
      "en": "For this they use balancing power."
@@ -689,24 +674,19 @@
      "en": "Part of the fast control is shared across the whole system."
     },
     {
-     "de": "Es gibt also keine Grenze zwischen Ihrem Projekt und dem Netz.",
-     "ar": "فلا حدّ إذن بين مشروعكم والشبكة.",
-     "en": "So there is no border between your project and the grid."
+     "de": "Früher gab es in Europa mehrere getrennte Netzverbände.",
+     "ar": "في السابق كانت هناك في أوروبا اتحادات شبكات منفصلة عدة.",
+     "en": "In the past there were several separate grid associations in Europe."
     },
     {
-     "de": "Die Betreiber legen fest, wie sich Anlagen anschließen lassen.",
-     "ar": "والمشغّلون يحددون كيف تُوصَل المنشآت.",
-     "en": "The operators define how installations can connect."
+     "de": "Heute arbeiten die Betreiber eng zusammen.",
+     "ar": "واليوم يعمل المشغّلون معًا بشكل وثيق.",
+     "en": "Today the operators work closely together."
     },
     {
-     "de": "Der Verteilnetzbetreiber kennt die lokalen Bedingungen am besten.",
-     "ar": "مشغّل شبكة التوزيع هو الأعلم بالظروف المحلية.",
-     "en": "The distribution operator knows the local conditions best."
-    },
-    {
-     "de": "Er ist oft der erste Ansprechpartner für neue Anlagen.",
-     "ar": "وهو غالبًا أول جهة اتصال للمنشآت الجديدة.",
-     "en": "He is often the first contact for new installations."
+     "de": "Alle Länder im Verbund teilen also dasselbe Schicksal.",
+     "ar": "فكل الدول في المنظومة تتشارك المصير نفسه.",
+     "en": "All countries in the system therefore share the same fate."
     },
     {
      "de": "Eine Störung in einem Land kann also andere Länder betreffen.",
@@ -766,19 +746,24 @@
      "en": "This applies within their distribution tasks."
     },
     {
-     "de": "Wichtig ist: Jede Rolle hat eigene Pflichten.",
-     "ar": "المهم أن لكل دور واجباته الخاصة.",
-     "en": "Important: each role has its own duties."
+     "de": "Es gibt also keine Grenze zwischen Ihrem Projekt und dem Netz.",
+     "ar": "فلا حدّ إذن بين مشروعكم والشبكة.",
+     "en": "So there is no border between your project and the grid."
     },
     {
-     "de": "Sie sehen: Jede Gruppe hat ihre eigene Aufgabe.",
-     "ar": "ترون أن لكل مجموعة مهمتها الخاصة.",
-     "en": "You see: each group has its own task."
+     "de": "Die Betreiber legen fest, wie sich Anlagen anschließen lassen.",
+     "ar": "والمشغّلون يحددون كيف تُوصَل المنشآت.",
+     "en": "The operators define how installations can connect."
     },
     {
-     "de": "Zusammen halten sie das System am Laufen.",
-     "ar": "وهي معًا تُبقي المنظومة عاملة.",
-     "en": "Together they keep the system running."
+     "de": "Der Verteilnetzbetreiber kennt die lokalen Bedingungen am besten.",
+     "ar": "مشغّل شبكة التوزيع هو الأعلم بالظروف المحلية.",
+     "en": "The distribution operator knows the local conditions best."
+    },
+    {
+     "de": "Er ist oft der erste Ansprechpartner für neue Anlagen.",
+     "ar": "وهو غالبًا أول جهة اتصال للمنشآت الجديدة.",
+     "en": "He is often the first contact for new installations."
     },
     {
      "de": "Wenn Sie Anlagen planen, sprechen Sie meist zuerst mit dem Verteilnetzbetreiber.",
@@ -827,29 +812,19 @@
      "en": "The Federal Network Agency handles supervision and regulation."
     },
     {
-     "de": "Jeder Fehler in der Bilanz kostet am Ende Geld.",
-     "ar": "كل خطأ في الميزان يكلّف مالًا في النهاية.",
-     "en": "Every error in the balance costs money in the end."
+     "de": "Wichtig ist: Jede Rolle hat eigene Pflichten.",
+     "ar": "المهم أن لكل دور واجباته الخاصة.",
+     "en": "Important: each role has its own duties."
     },
     {
-     "de": "Darum arbeiten Händler und Erzeuger mit Prognosen.",
-     "ar": "لذلك يعمل التجار والمنتجون بالتنبؤات.",
-     "en": "That is why traders and producers work with forecasts."
+     "de": "Sie sehen: Jede Gruppe hat ihre eigene Aufgabe.",
+     "ar": "ترون أن لكل مجموعة مهمتها الخاصة.",
+     "en": "You see: each group has its own task."
     },
     {
-     "de": "Das System ist wie ein Konto für Strom.",
-     "ar": "هذا النظام يشبه حسابًا للكهرباء.",
-     "en": "The system is like an account for electricity."
-    },
-    {
-     "de": "Es soll am Ende jeder Viertelstunde stimmen.",
-     "ar": "ويجب أن يكون صحيحًا في نهاية كل ربع ساعة.",
-     "en": "It should add up at the end of every quarter hour."
-    },
-    {
-     "de": "Ein Bilanzkreis ist also kein Kabel, sondern eine Abrechnungseinheit.",
-     "ar": "فدائرة الموازنة ليست كابلًا بل وحدة محاسبة.",
-     "en": "So a balancing group is not a cable but an accounting unit."
+     "de": "Zusammen halten sie das System am Laufen.",
+     "ar": "وهي معًا تُبقي المنظومة عاملة.",
+     "en": "Together they keep the system running."
     },
     {
      "de": "ENTSO-E organisiert die europäische Zusammenarbeit.",
@@ -908,21 +883,6 @@
      "de": "Die Trennung kann rechtlich, organisatorisch und informatorisch sein.",
      "ar": "وقد يكون الفصل قانونيًا وتنظيميًا ومعلوماتيًا.",
      "en": "The separation can be legal, organisational and informational."
-    },
-    {
-     "de": "Die Regelenergie gehört zur Aufgabe der Übertragungsnetzbetreiber.",
-     "ar": "طاقة الضبط من مهام مشغّلي شبكة النقل.",
-     "en": "Balancing power is part of the transmission operators' task."
-    },
-    {
-     "de": "Die Namen stammen aus dem deutschen Regelsystem.",
-     "ar": "هذه الأسماء من نظام الضبط الألماني.",
-     "en": "The names come from the German control system."
-    },
-    {
-     "de": "Sie unterscheiden sich vor allem in der Reaktionszeit.",
-     "ar": "وتختلف أساسًا في زمن الاستجابة.",
-     "en": "They differ mainly in reaction time."
     },
     {
      "de": "Die Vorschriften stehen im Teil zwei des Energiewirtschaftsgesetzes.",
@@ -992,6 +952,31 @@
      "en": "The balancing group manager bears the costs."
     },
     {
+     "de": "Jeder Fehler in der Bilanz kostet am Ende Geld.",
+     "ar": "كل خطأ في الميزان يكلّف مالًا في النهاية.",
+     "en": "Every error in the balance costs money in the end."
+    },
+    {
+     "de": "Darum arbeiten Händler und Erzeuger mit Prognosen.",
+     "ar": "لذلك يعمل التجار والمنتجون بالتنبؤات.",
+     "en": "That is why traders and producers work with forecasts."
+    },
+    {
+     "de": "Das System ist wie ein Konto für Strom.",
+     "ar": "هذا النظام يشبه حسابًا للكهرباء.",
+     "en": "The system is like an account for electricity."
+    },
+    {
+     "de": "Es soll am Ende jeder Viertelstunde stimmen.",
+     "ar": "ويجب أن يكون صحيحًا في نهاية كل ربع ساعة.",
+     "en": "It should add up at the end of every quarter hour."
+    },
+    {
+     "de": "Ein Bilanzkreis ist also kein Kabel, sondern eine Abrechnungseinheit.",
+     "ar": "فدائرة الموازنة ليست كابلًا بل وحدة محاسبة.",
+     "en": "So a balancing group is not a cable but an accounting unit."
+    },
+    {
      "de": "Die Preise ändern sich, deshalb nennen wir sie hier nicht.",
      "ar": "الأسعار تتغير، لذلك لا نذكرها هنا.",
      "en": "Prices change, so we do not name them here."
@@ -1059,29 +1044,19 @@
      "en": "The names abroad can differ."
     },
     {
-     "de": "Die Behörde schaut auch auf Gleichbehandlung.",
-     "ar": "وتنظر الجهة أيضًا في المساواة في المعاملة.",
-     "en": "The authority also looks at equal treatment."
+     "de": "Die Regelenergie gehört zur Aufgabe der Übertragungsnetzbetreiber.",
+     "ar": "طاقة الضبط من مهام مشغّلي شبكة النقل.",
+     "en": "Balancing power is part of the transmission operators' task."
     },
     {
-     "de": "Sie beobachtet den Markt und die Netzbetreiber.",
-     "ar": "وتراقب السوق ومشغّلي الشبكات.",
-     "en": "It observes the market and the grid operators."
+     "de": "Die Namen stammen aus dem deutschen Regelsystem.",
+     "ar": "هذه الأسماء من نظام الضبط الألماني.",
+     "en": "The names come from the German control system."
     },
     {
-     "de": "Ihre Aufgaben stehen im Energiewirtschaftsgesetz.",
-     "ar": "ومهامها مذكورة في قانون الطاقة.",
-     "en": "Its tasks are set out in the Energy Industry Act."
-    },
-    {
-     "de": "Sie erscheint in Nachrichten und Fachtexten sehr oft.",
-     "ar": "وتظهر كثيرًا في الأخبار والنصوص المتخصصة.",
-     "en": "It appears very often in news and technical texts."
-    },
-    {
-     "de": "Ihre Webseite bietet viele Informationen auf Deutsch.",
-     "ar": "ويقدّم موقعها معلومات كثيرة بالألمانية.",
-     "en": "Its website offers a lot of information in German."
+     "de": "Sie unterscheiden sich vor allem in der Reaktionszeit.",
+     "ar": "وتختلف أساسًا في زمن الاستجابة.",
+     "en": "They differ mainly in reaction time."
     },
     {
      "de": "Prüfen Sie deshalb die Begriffe in der aktuellen Quelle.",
@@ -1146,26 +1121,6 @@
      "en": "The transmission operators plan this a day ahead using forecasts."
     },
     {
-     "de": "Die Betreiber verwenden dafür öffentliche Szenarien.",
-     "ar": "ويستخدم المشغّلون لذلك سيناريوهات علنية.",
-     "en": "The operators use public scenarios for this."
-    },
-    {
-     "de": "So wird der Netzausbau nachvollziehbar.",
-     "ar": "وبذلك يصبح توسيع الشبكة قابلًا للتتبّع.",
-     "en": "This makes grid expansion traceable."
-    },
-    {
-     "de": "Auch Sie als Fachleute können am Verfahren teilnehmen.",
-     "ar": "ويمكنكم كمتخصصين المشاركة في الإجراء.",
-     "en": "You as specialists can also take part in the procedure."
-    },
-    {
-     "de": "Die Konsultation ist öffentlich und gibt allen eine Chance.",
-     "ar": "الاستشارة علنية وتمنح الجميع فرصة.",
-     "en": "The consultation is public and gives everyone a chance."
-    },
-    {
      "de": "Die Regeln dazu ändern sich, schauen Sie also in die aktuelle Fassung.",
      "ar": "وقواعد ذلك تتغير، فراجعوا النسخة الحالية.",
      "en": "The rules on this change, so check the current version."
@@ -1228,19 +1183,29 @@
      "en": "Each year it publishes a monitoring report on the energy market."
     },
     {
-     "de": "Sie sollten als Ingenieur nicht raten, sondern nachfragen.",
-     "ar": "كمهندس لا تخمّنوا بل استفسروا.",
-     "en": "As an engineer you should not guess but ask."
+     "de": "Die Behörde schaut auch auf Gleichbehandlung.",
+     "ar": "وتنظر الجهة أيضًا في المساواة في المعاملة.",
+     "en": "The authority also looks at equal treatment."
     },
     {
-     "de": "Gute Fragen zeigen Fachwissen und Respekt.",
-     "ar": "الأسئلة الجيدة تُظهر المعرفة والاحترام.",
-     "en": "Good questions show expertise and respect."
+     "de": "Sie beobachtet den Markt und die Netzbetreiber.",
+     "ar": "وتراقب السوق ومشغّلي الشبكات.",
+     "en": "It observes the market and the grid operators."
     },
     {
-     "de": "Das gilt für Planung, Bau und Betrieb gleichermaßen.",
-     "ar": "وهذا ينطبق على التخطيط والبناء والتشغيل معًا.",
-     "en": "This applies equally to planning, building and operation."
+     "de": "Ihre Aufgaben stehen im Energiewirtschaftsgesetz.",
+     "ar": "ومهامها مذكورة في قانون الطاقة.",
+     "en": "Its tasks are set out in the Energy Industry Act."
+    },
+    {
+     "de": "Sie erscheint in Nachrichten und Fachtexten sehr oft.",
+     "ar": "وتظهر كثيرًا في الأخبار والنصوص المتخصصة.",
+     "en": "It appears very often in news and technical texts."
+    },
+    {
+     "de": "Ihre Webseite bietet viele Informationen auf Deutsch.",
+     "ar": "ويقدّم موقعها معلومات كثيرة بالألمانية.",
+     "en": "Its website offers a lot of information in German."
     },
     {
      "de": "Für kleinere Netzbetreiber sind teilweise die Landesbehörden zuständig.",
@@ -1305,19 +1270,24 @@
      "en": "A new cycle starts from time to time."
     },
     {
-     "de": "Merken Sie sich die Rollen, nicht die Zahlen.",
-     "ar": "احفظوا الأدوار وليس الأرقام.",
-     "en": "Remember the roles, not the numbers."
+     "de": "Die Betreiber verwenden dafür öffentliche Szenarien.",
+     "ar": "ويستخدم المشغّلون لذلك سيناريوهات علنية.",
+     "en": "The operators use public scenarios for this."
     },
     {
-     "de": "So bleibt Ihr Wissen auch in Zukunft richtig.",
-     "ar": "وهكذا تبقى معرفتكم صحيحة في المستقبل.",
-     "en": "This way your knowledge stays correct in the future."
+     "de": "So wird der Netzausbau nachvollziehbar.",
+     "ar": "وبذلك يصبح توسيع الشبكة قابلًا للتتبّع.",
+     "en": "This makes grid expansion traceable."
     },
     {
-     "de": "Wiederholen Sie die Rollen mit dem Glossar.",
-     "ar": "كرّروا الأدوار مع المسرد.",
-     "en": "Repeat the roles with the glossary."
+     "de": "Auch Sie als Fachleute können am Verfahren teilnehmen.",
+     "ar": "ويمكنكم كمتخصصين المشاركة في الإجراء.",
+     "en": "You as specialists can also take part in the procedure."
+    },
+    {
+     "de": "Die Konsultation ist öffentlich und gibt allen eine Chance.",
+     "ar": "الاستشارة علنية وتمنح الجميع فرصة.",
+     "en": "The consultation is public and gives everyone a chance."
     },
     {
      "de": "Den aktuellen Stand finden Sie auf den Seiten der Betreiber.",
@@ -1370,14 +1340,19 @@
      "en": "With the right words you understand meetings better."
     },
     {
-     "de": "Merken Sie sich besonders Frequenz, Bilanzkreis und Regelzone.",
-     "ar": "احفظوا خصوصًا التردد ودائرة الموازنة ومنطقة التحكم.",
-     "en": "Remember especially frequency, balancing group and control area."
+     "de": "Sie sollten als Ingenieur nicht raten, sondern nachfragen.",
+     "ar": "كمهندس لا تخمّنوا بل استفسروا.",
+     "en": "As an engineer you should not guess but ask."
     },
     {
-     "de": "Diese Wörter hören Sie in jedem Netzprojekt.",
-     "ar": "هذه الكلمات ستسمعونها في كل مشروع شبكة.",
-     "en": "You hear these words in every grid project."
+     "de": "Gute Fragen zeigen Fachwissen und Respekt.",
+     "ar": "الأسئلة الجيدة تُظهر المعرفة والاحترام.",
+     "en": "Good questions show expertise and respect."
+    },
+    {
+     "de": "Das gilt für Planung, Bau und Betrieb gleichermaßen.",
+     "ar": "وهذا ينطبق على التخطيط والبناء والتشغيل معًا.",
+     "en": "This applies equally to planning, building and operation."
     },
     {
      "de": "Im nächsten Video geht es um den Netzanschluss.",
@@ -1430,14 +1405,29 @@
      "en": "The Federal Network Agency supervises the grids."
     },
     {
-     "de": "Gesetze und Normen werden überarbeitet und neu veröffentlicht.",
-     "ar": "تُراجع القوانين والمعايير وتُنشر من جديد.",
-     "en": "Laws and standards are revised and published again."
+     "de": "Merken Sie sich die Rollen, nicht die Zahlen.",
+     "ar": "احفظوا الأدوار وليس الأرقام.",
+     "en": "Remember the roles, not the numbers."
     },
     {
-     "de": "Auch Zuständigkeiten und Namen von Unternehmen können sich ändern.",
-     "ar": "وقد تتغير الاختصاصات وأسماء الشركات أيضًا.",
-     "en": "Responsibilities and company names can also change."
+     "de": "So bleibt Ihr Wissen auch in Zukunft richtig.",
+     "ar": "وهكذا تبقى معرفتكم صحيحة في المستقبل.",
+     "en": "This way your knowledge stays correct in the future."
+    },
+    {
+     "de": "Wiederholen Sie die Rollen mit dem Glossar.",
+     "ar": "كرّروا الأدوار مع المسرد.",
+     "en": "Repeat the roles with the glossary."
+    },
+    {
+     "de": "Merken Sie sich besonders Frequenz, Bilanzkreis und Regelzone.",
+     "ar": "احفظوا خصوصًا التردد ودائرة الموازنة ومنطقة التحكم.",
+     "en": "Remember especially frequency, balancing group and control area."
+    },
+    {
+     "de": "Diese Wörter hören Sie in jedem Netzprojekt.",
+     "ar": "هذه الكلمات ستسمعونها في كل مشروع شبكة.",
+     "en": "You hear these words in every grid project."
     },
     {
      "de": "ENTSO-E verbindet die Betreiber in Europa.",
@@ -1488,6 +1478,16 @@
      "de": "Für konkrete Projekte fragen Sie den zuständigen Netzbetreiber und Fachleute.",
      "ar": "وللمشاريع الفعلية اسألوا مشغّل الشبكة المختص والمتخصصين.",
      "en": "For real projects, ask the responsible grid operator and experts."
+    },
+    {
+     "de": "Gesetze und Normen werden überarbeitet und neu veröffentlicht.",
+     "ar": "تُراجع القوانين والمعايير وتُنشر من جديد.",
+     "en": "Laws and standards are revised and published again."
+    },
+    {
+     "de": "Auch Zuständigkeiten und Namen von Unternehmen können sich ändern.",
+     "ar": "وقد تتغير الاختصاصات وأسماء الشركات أيضًا.",
+     "en": "Responsibilities and company names can also change."
     },
     {
      "de": "Danke fürs Zuschauen.",

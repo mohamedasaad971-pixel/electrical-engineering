@@ -46,6 +46,21 @@
      "de": "Außerdem sehen Sie, wer im Verfahren welche Rolle hat.",
      "ar": "كما سترون من له أي دور في الإجراء.",
      "en": "You will also see who has which role in the procedure."
+    },
+    {
+     "de": "Wir bleiben dabei in der Niederspannung.",
+     "ar": "سنبقى هنا في نطاق الجهد المنخفض.",
+     "en": "We stay with low voltage here."
+    },
+    {
+     "de": "Das sind Wohnhäuser, Gewerbe und kleine Anlagen.",
+     "ar": "وهي المنازل والأنشطة التجارية والمنشآت الصغيرة.",
+     "en": "These are houses, businesses and small installations."
+    },
+    {
+     "de": "Größere Anlagen sprechen wir nur kurz an.",
+     "ar": "أما المنشآت الأكبر فنتناولها باختصار فقط.",
+     "en": "We touch on larger installations only briefly."
     }
    ]
   },
@@ -156,6 +171,16 @@
      "de": "Die Arbeiten führt ein Installationsunternehmen aus.",
      "ar": "ويقوم بالأعمال شركة تركيب كهربائي.",
      "en": "The work is carried out by an installation company."
+    },
+    {
+     "de": "Jede Rolle hat im Verfahren eigene Pflichten.",
+     "ar": "لكل دور في الإجراء واجبات خاصة به.",
+     "en": "Each role has its own duties in the procedure."
+    },
+    {
+     "de": "Das ist wichtig, wenn Sie Unterlagen vorbereiten oder prüfen.",
+     "ar": "وهذا مهم عندما تُعدّون الوثائق أو تراجعونها.",
+     "en": "This matters when you prepare or review documents."
     }
    ]
   },
@@ -218,6 +243,22 @@
      "ar": "وللجهد العالي والفائق أرقام 4120 و4130.",
      "en": "High and extra-high voltage have the numbers 4120 and 4130.",
      "tts": "Hochspannung und Höchstspannung haben die Nummern vier-eins-zwei-null und vier-eins-drei-null."
+    },
+    {
+     "de": "Wir konzentrieren uns heute auf die Niederspannung.",
+     "ar": "سنركز اليوم على الجهد المنخفض.",
+     "en": "Today we focus on low voltage."
+    },
+    {
+     "de": "Die anderen Ebenen lernen Sie später im Berufsleben kennen.",
+     "ar": "وستتعرفون على المستويات الأخرى لاحقًا في حياتكم المهنية.",
+     "en": "You will meet the other levels later in your career."
+    },
+    {
+     "de": "Die Nummern beginnen alle mit vier.",
+     "ar": "كل الأرقام تبدأ بالرقم أربعة.",
+     "en": "The numbers all begin with four.",
+     "tts": "Die Nummern beginnen alle mit vier."
     }
    ]
   },
@@ -249,7 +290,7 @@
    "lines": [
     {
      "de": "Die VDE-AR-N 4100 ist die Tar Niederspannung.",
-     "ar": "VDE-AR-N 4100 هي القاعدة الفنية للتوصيل بالجهد المنخفض.",
+     "ar": "القاعدة VDE-AR-N 4100 هي القاعدة الفنية للتوصيل بالجهد المنخفض.",
      "en": "VDE-AR-N 4100 is the low-voltage Tar.",
      "tts": "Die Fau-De-E A-Er-En vier-eins-null-null ist die Tar Niederspannung."
     },
@@ -288,6 +329,21 @@
      "de": "Außerdem sind weitere Änderungen in Arbeit.",
      "ar": "كما أن هناك تعديلات أخرى قيد الإعداد.",
      "en": "Further amendments are also in progress."
+    },
+    {
+     "de": "Der Zählerplatz ist ein typisches Thema dieser Regel.",
+     "ar": "موضع العداد موضوع نموذجي في هذه القاعدة.",
+     "en": "The meter location is a typical topic of this rule."
+    },
+    {
+     "de": "Planer und Installateure sollten sie gut kennen.",
+     "ar": "ينبغي للمخطِّطين والمُركِّبين أن يعرفوها جيدًا.",
+     "en": "Planners and installers should know it well."
+    },
+    {
+     "de": "Wer die Regel nicht kennt, verliert später Zeit bei der Abnahme.",
+     "ar": "ومن لا يعرف القاعدة يضيّع وقتًا لاحقًا عند القبول.",
+     "en": "Anyone who does not know the rule loses time later at acceptance."
     }
    ]
   },
@@ -314,7 +370,7 @@
    "lines": [
     {
      "de": "Die VDE-AR-N 4105 ist die zweite wichtige Regel.",
-     "ar": "VDE-AR-N 4105 هي القاعدة المهمة الثانية.",
+     "ar": "القاعدة VDE-AR-N 4105 هي القاعدة المهمة الثانية.",
      "en": "VDE-AR-N 4105 is the second important rule.",
      "tts": "Die Fau-De-E A-Er-En vier-eins-null-fünf ist die zweite wichtige Regel."
     },
@@ -354,6 +410,22 @@
      "de": "Für sehr kleine Anlagen wurden einige Anforderungen vereinfacht.",
      "ar": "وقد بُسِّطت بعض المتطلبات للمنشآت الصغيرة جدًا.",
      "en": "Some requirements were simplified for very small systems."
+    },
+    {
+     "de": "Auch das Laden von Elektrofahrzeugen in beide Richtungen wird neu geregelt.",
+     "ar": "كما نُظِّم من جديد شحن المركبات الكهربائية في الاتجاهين.",
+     "en": "Charging electric vehicles in both directions is also newly regulated."
+    },
+    {
+     "de": "Dieses Thema vertiefen wir in einem späteren Video.",
+     "ar": "سنتوسع في هذا الموضوع في فيديو لاحق.",
+     "en": "We will look at this topic in more depth in a later video."
+    },
+    {
+     "de": "Lesen Sie im Zweifel die Hinweise des VDE zur neuen Ausgabe.",
+     "ar": "في حال الشك اقرؤوا إرشادات VDE حول الإصدار الجديد.",
+     "en": "If in doubt, read the VDE notes on the new edition.",
+     "tts": "Lesen Sie im Zweifel die Hinweise des Fau-De-E zur neuen Ausgabe."
     }
    ]
   },
@@ -411,6 +483,16 @@
      "de": "Fragen Sie im Zweifel früh Ihren Netzbetreiber.",
      "ar": "في حال الشك اسألوا مشغّل الشبكة مبكرًا.",
      "en": "If in doubt, ask your grid operator early."
+    },
+    {
+     "de": "Halten Sie das Ergebnis Ihrer Prüfung schriftlich fest.",
+     "ar": "دوّنوا نتيجة فحصكم كتابةً.",
+     "en": "Record the result of your check in writing."
+    },
+    {
+     "de": "Dann ist die Entscheidung später nachvollziehbar.",
+     "ar": "وبذلك يمكن تتبع القرار لاحقًا.",
+     "en": "Then the decision can be traced later."
     }
    ]
   },
@@ -471,6 +553,16 @@
      "de": "Deshalb sollten Sie immer die aktuelle Fassung verwenden.",
      "ar": "لذلك يجب أن تستخدموا دائمًا النسخة الحالية.",
      "en": "So you should always use the current version."
+    },
+    {
+     "de": "Als Planer sollten Sie die Regeln deshalb mit Ausgabe angeben.",
+     "ar": "لذلك ينبغي لكم كمخطِّطين ذكر القواعد مع إصدارها.",
+     "en": "As a planner you should therefore state the rules with their edition."
+    },
+    {
+     "de": "So weiß jeder, nach welchem Stand gebaut wird.",
+     "ar": "وهكذا يعرف الجميع على أي إصدار يجري البناء.",
+     "en": "Then everyone knows which version is used for construction."
     }
    ]
   },
@@ -522,15 +614,32 @@
      "en": "They make these rules specific for the respective grid area."
     },
     {
-     "de": "Deshalb gelten in Hamburg und München nicht immer dieselben Details.",
-     "ar": "لذلك لا تسري التفاصيل نفسها دائمًا في هامبورغ وميونخ.",
-     "en": "So the details in Hamburg and Munich are not always the same."
+     "de": "Deshalb gelten in verschiedenen Städten nicht immer dieselben Details.",
+     "ar": "لذلك لا تسري التفاصيل نفسها دائمًا في مدن مختلفة.",
+     "en": "So the details are not always the same in different cities."
     },
     {
      "de": "Achten Sie auf das Ausgabedatum der Tab.",
      "ar": "انتبهوا إلى تاريخ إصدار شروط التوصيل.",
      "en": "Pay attention to the issue date of the TAB.",
      "tts": "Achten Sie auf das Ausgabedatum der Tab."
+    },
+    {
+     "de": "Viele Netzbetreiber stellen die Tab als Datei auf ihrer Webseite bereit.",
+     "ar": "يوفر كثير من مشغّلي الشبكات هذه الشروط كملف على موقعهم.",
+     "en": "Many grid operators provide the TAB as a file on their website.",
+     "tts": "Viele Netzbetreiber stellen die Tab als Datei auf ihrer Webseite bereit."
+    },
+    {
+     "de": "Lesen Sie sie, bevor Sie mit der Planung beginnen.",
+     "ar": "اقرؤوها قبل أن تبدؤوا التخطيط.",
+     "en": "Read it before you start planning."
+    },
+    {
+     "de": "Gerade bei neuen Ausgaben ändern Netzbetreiber ihre Tab oft später.",
+     "ar": "وخاصة عند صدور إصدارات جديدة يعدّل مشغّلو الشبكات شروطهم غالبًا لاحقًا.",
+     "en": "Especially with new editions, grid operators often change their TAB later.",
+     "tts": "Gerade bei neuen Ausgaben ändern Netzbetreiber ihre Tab oft später."
     }
    ]
   },
@@ -610,6 +719,21 @@
      "de": "Eine Stromlieferung ist darin nicht enthalten.",
      "ar": "ولا يشمل ذلك توريد الكهرباء.",
      "en": "Electricity supply is not included."
+    },
+    {
+     "de": "Der Text der Verordnung ist frei im Internet verfügbar.",
+     "ar": "نص اللائحة متاح مجانًا على الإنترنت.",
+     "en": "The text of the ordinance is freely available on the internet."
+    },
+    {
+     "de": "Lesen Sie ihn einmal selbst.",
+     "ar": "اقرؤوه بأنفسكم مرة واحدة.",
+     "en": "Read it once yourself."
+    },
+    {
+     "de": "Wichtig sind vor allem die Begriffe und die Rollen.",
+     "ar": "المهم أساسًا هو المصطلحات والأدوار.",
+     "en": "Above all, the terms and the roles are important."
     }
    ]
   },
@@ -619,7 +743,7 @@
     "kicker": "Verantwortung",
     "heading": "Wer haftet wofür?",
     "items": [
-     "Anschlussnehmer: Anlage hinter der Hausanschlusssicherung",
+     "Anschlussnehmer: Anlage hinter dem Anschluss",
      "Anschluss nur durch eingetragene Unternehmen",
      "Eintrag im Installateurverzeichnis",
      "Nachweis der fachlichen Qualifikation"
@@ -677,6 +801,16 @@
      "de": "Dafür braucht die Firma eine nachgewiesene fachliche Qualifikation.",
      "ar": "ولذلك تحتاج الشركة إلى مؤهل فني مثبت.",
      "en": "For this, the company needs proven technical qualification."
+    },
+    {
+     "de": "Diese Verantwortung bleibt auch bestehen, wenn die Anlage vermietet ist.",
+     "ar": "وتبقى هذه المسؤولية قائمة حتى لو كانت المنشأة مؤجَّرة.",
+     "en": "This responsibility remains even if the installation is rented out."
+    },
+    {
+     "de": "Das ist wichtig für Eigentümer und Vermieter.",
+     "ar": "وهذا مهم للمالكين والمؤجِّرين.",
+     "en": "This matters for owners and landlords."
     }
    ]
   },
@@ -746,6 +880,21 @@
      "de": "Reihenfolge und Fristen unterscheiden sich je nach Netzbetreiber.",
      "ar": "يختلف الترتيب والمواعيد بحسب مشغّل الشبكة.",
      "en": "Order and deadlines differ by grid operator."
+    },
+    {
+     "de": "Bauen Sie nicht, bevor die Rückmeldung des Netzbetreibers vorliegt.",
+     "ar": "لا تبدؤوا البناء قبل صدور رد مشغّل الشبكة.",
+     "en": "Do not build before the reply of the grid operator has arrived."
+    },
+    {
+     "de": "Die Namen der Schritte sind je Netzbetreiber verschieden.",
+     "ar": "وتختلف أسماء الخطوات من مشغّل شبكة إلى آخر.",
+     "en": "The names of the steps differ from one grid operator to another."
+    },
+    {
+     "de": "Besprechen Sie den Ablauf am besten gleich zu Beginn mit dem Installateur.",
+     "ar": "والأفضل أن تناقشوا الإجراء مع المُركِّب منذ البداية.",
+     "en": "It is best to discuss the procedure with the installer right at the start."
     }
    ]
   },
@@ -803,6 +952,21 @@
      "de": "Entscheidend ist das Verfahren Ihres Netzbetreibers.",
      "ar": "والحاسم هو إجراء مشغّل الشبكة لديكم.",
      "en": "What counts is the procedure of your grid operator."
+    },
+    {
+     "de": "Fehlende Angaben führen zu Rückfragen und Verzögerungen.",
+     "ar": "النقص في البيانات يؤدي إلى استفسارات وتأخير.",
+     "en": "Missing details lead to queries and delays."
+    },
+    {
+     "de": "Prüfen Sie Ihre Unterlagen deshalb vor dem Absenden.",
+     "ar": "لذلك راجعوا وثائقكم قبل الإرسال.",
+     "en": "So check your documents before sending them."
+    },
+    {
+     "de": "Ein vollständiger Antrag beschleunigt den ganzen Ablauf.",
+     "ar": "الطلب المكتمل يسرّع الإجراء كله.",
+     "en": "A complete application speeds up the whole procedure."
     }
    ]
   },
@@ -862,14 +1026,24 @@
      "en": "Accredited bodies issue the certificates."
     },
     {
-     "de": "Der Hersteller liefert sie meist mit dem Gerät.",
-     "ar": "ويقدمها المصنّع عادةً مع الجهاز.",
-     "en": "The manufacturer usually supplies them with the device."
-    },
-    {
      "de": "Prüfen Sie, ob das Zertifikat zur Ausgabe der Regel passt.",
      "ar": "تحققوا من أن الشهادة تناسب إصدار القاعدة.",
      "en": "Check that the certificate matches the edition of the rule."
+    },
+    {
+     "de": "Zertifikate für Einheiten lassen sich in einem Register prüfen.",
+     "ar": "يمكن التحقق من شهادات الوحدات في سجل خاص.",
+     "en": "Unit certificates can be checked in a register."
+    },
+    {
+     "de": "Diese Prüfung kostet wenig Zeit und spart Ärger.",
+     "ar": "هذا الفحص لا يستغرق وقتًا طويلًا ويوفر المتاعب.",
+     "en": "This check takes little time and saves trouble."
+    },
+    {
+     "de": "Bei Zweifeln hilft ein Anruf beim Netzbetreiber.",
+     "ar": "وعند الشك يفيد اتصال بمشغّل الشبكة.",
+     "en": "If in doubt, a call to the grid operator helps."
     }
    ]
   },
@@ -942,6 +1116,21 @@
      "de": "Klären Sie das Konzept früh, sonst ändert sich später der Zählerplatz.",
      "ar": "وضّحوا المفهوم مبكرًا وإلا تغيّر موضع العداد لاحقًا.",
      "en": "Clarify the concept early, or the meter location will change later."
+    },
+    {
+     "de": "Fragen Sie auch, wer die Zähler stellt und wann.",
+     "ar": "اسألوا أيضًا من يركّب العدادات ومتى.",
+     "en": "Also ask who installs the meters and when."
+    },
+    {
+     "de": "Die Antwort beeinflusst Ihren Zeitplan.",
+     "ar": "والإجابة تؤثر في جدولكم الزمني.",
+     "en": "The answer affects your schedule."
+    },
+    {
+     "de": "Auch Speicher und Ladeeinrichtungen können das Messkonzept verändern.",
+     "ar": "كما أن المخازن ومحطات الشحن قد تغيّر مفهوم القياس.",
+     "en": "Storage and charging equipment can also change the metering concept."
     }
    ]
   },
@@ -1009,6 +1198,21 @@
      "de": "Es ersetzt nicht die Anmeldung beim Netzbetreiber.",
      "ar": "وهو لا يغني عن التسجيل لدى مشغّل الشبكة.",
      "en": "It does not replace the registration with the grid operator."
+    },
+    {
+     "de": "Das Protokoll ist ein wichtiger Nachweis für Ihre Dokumentation.",
+     "ar": "المحضر إثبات مهم لتوثيقكم.",
+     "en": "The protocol is important proof for your documentation."
+    },
+    {
+     "de": "Auch die Registrierung im Register ist Sache des Betreibers.",
+     "ar": "والتسجيل في السجل من شأن المشغّل أيضًا.",
+     "en": "Registration in the register is also a matter for the operator."
+    },
+    {
+     "de": "Danach beginnt der normale Betrieb der Anlage.",
+     "ar": "بعد ذلك يبدأ التشغيل العادي للمنشأة.",
+     "en": "After that the normal operation of the installation begins."
     }
    ]
   },
@@ -1069,14 +1273,24 @@
      "en": "The connection owner remains responsible towards the grid operator."
     },
     {
-     "de": "Als Ingenieur arbeiten Sie meist als Planer.",
-     "ar": "وكمهندس ستعملون غالبًا كمخطِّطين.",
-     "en": "As an engineer you mostly work as a planner."
+     "de": "Als Ingenieur arbeiten Sie oft als Planer.",
+     "ar": "وكمهندس ستعملون كثيرًا كمخطِّطين.",
+     "en": "As an engineer you often work as a planner."
     },
     {
      "de": "Sie sprechen dabei eng mit dem Installateur und dem Netzbetreiber.",
      "ar": "وستتواصلون عن قرب مع المُركِّب ومشغّل الشبكة.",
      "en": "You work closely with the installer and the grid operator."
+    },
+    {
+     "de": "Für Sie als Ingenieur heißt das: genau lesen und sauber dokumentieren.",
+     "ar": "ومعنى ذلك لكم كمهندسين: القراءة بدقة والتوثيق بإتقان.",
+     "en": "For you as an engineer this means: read carefully and document cleanly."
+    },
+    {
+     "de": "Der Planer sollte die Unterlagen so vorbereiten, dass der Installateur sie direkt nutzen kann.",
+     "ar": "ينبغي للمخطِّط أن يُعدّ الوثائق بحيث يستخدمها المُركِّب مباشرة.",
+     "en": "The planner should prepare the documents so that the installer can use them directly."
     }
    ]
   },
@@ -1129,6 +1343,21 @@
      "de": "So sparen Sie Rückfragen und Zeit.",
      "ar": "وهكذا توفرون الاستفسارات والوقت.",
      "en": "This saves queries and time."
+    },
+    {
+     "de": "Ein guter Planer kennt Regeln, Ablauf und Ansprechpartner.",
+     "ar": "المخطِّط الجيد يعرف القواعد والإجراء وجهات الاتصال.",
+     "en": "A good planner knows the rules, the procedure and the contacts."
+    },
+    {
+     "de": "Notieren Sie Ausgabedatum, Ansprechperson und Versionsstand jeder Unterlage.",
+     "ar": "دوّنوا تاريخ الإصدار والشخص المسؤول ورقم النسخة لكل وثيقة.",
+     "en": "Note the issue date, contact person and version of each document."
+    },
+    {
+     "de": "Das hilft bei späteren Änderungen am Projekt.",
+     "ar": "وهذا يساعد عند التعديلات اللاحقة على المشروع.",
+     "en": "This helps with later changes to the project."
     }
    ]
   },
@@ -1178,6 +1407,11 @@
      "de": "Dazu gehören Nachweise, ein Messkonzept und klare Rollen.",
      "ar": "ويتبع ذلك إثباتات ومفهوم قياس وأدوار واضحة.",
      "en": "This includes proofs, a metering concept and clear roles."
+    },
+    {
+     "de": "Mit diesem Wissen führen Sie Gespräche mit Netzbetreibern sicherer.",
+     "ar": "بهذه المعرفة ستجرون محادثاتكم مع مشغّلي الشبكات بثقة أكبر.",
+     "en": "With this knowledge you will handle talks with grid operators more confidently."
     }
    ]
   },
