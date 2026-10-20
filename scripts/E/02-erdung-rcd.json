@@ -30,7 +30,7 @@
     },
     {
      "de": "Sie sehen, was TN, TT und IT bedeuten.",
-     "ar": "سترون ما معنى TN وTT وIT.",
+     "ar": "سترون ما معنى الرموز TN وTT وIT معًا.",
      "en": "You will see what TN, TT and IT mean.",
      "tts": "Sie sehen, was Te-En, Te-Te und I-Te bedeuten."
     },
@@ -44,6 +44,16 @@
      "de": "Wir bleiben bei den Konzepten, nicht bei Zahlenwerten.",
      "ar": "سنبقى عند المفاهيم لا عند القيم العددية.",
      "en": "We stay with concepts, not with numerical values."
+    },
+    {
+     "de": "Dabei erklären wir Begriffe, die Sie in Deutschland täglich hören.",
+     "ar": "ونشرح خلال ذلك مصطلحات ستسمعونها يوميًا في ألمانيا.",
+     "en": "Along the way we explain terms you will hear daily in Germany."
+    },
+    {
+     "de": "Am Ende folgen ein Glossar und ein kurzes Quiz.",
+     "ar": "وفي النهاية يأتي مسرد واختبار قصير.",
+     "en": "At the end there are a glossary and a short quiz."
     }
    ]
   },
@@ -90,6 +100,16 @@
      "de": "Normen ändern sich; prüfen Sie immer die aktuelle Fassung.",
      "ar": "المعايير تتغير؛ تحققوا دائمًا من الصيغة الحالية.",
      "en": "Standards change; always check the current version."
+    },
+    {
+     "de": "Erdung und Schutz sind Sicherheitsfragen, keine Frage der Geschwindigkeit.",
+     "ar": "التأريض والحماية مسألتا سلامة لا مسألة سرعة.",
+     "en": "Earthing and protection are safety questions, not questions of speed."
+    },
+    {
+     "de": "Fragen Sie im Zweifel immer die verantwortliche Person.",
+     "ar": "في حال الشك اسألوا دائمًا الشخص المسؤول.",
+     "en": "If in doubt, always ask the responsible person."
     }
    ]
   },
@@ -147,6 +167,16 @@
      "de": "Wie das genau geschieht, hängt vom Netzsystem ab.",
      "ar": "وكيفية ذلك تعتمد على نظام الشبكة.",
      "en": "How exactly this happens depends on the network system."
+    },
+    {
+     "de": "Das Ziel ist immer gleich: Menschen vor einem Stromschlag schützen.",
+     "ar": "الهدف دائمًا واحد: حماية الناس من الصعق الكهربائي.",
+     "en": "The goal is always the same: protect people from electric shock."
+    },
+    {
+     "de": "Nur die Wege des Stroms unterscheiden sich von System zu System.",
+     "ar": "وتختلف فقط مسارات التيار من نظام إلى آخر.",
+     "en": "Only the paths of the current differ from system to system."
     }
    ]
   },
@@ -205,6 +235,16 @@
      "de": "N bedeutet: Die Gehäuse hängen am geerdeten Sternpunkt der Quelle.",
      "ar": "والحرف N يعني أن الأغلفة موصولة بنقطة النجمة المؤرَّضة للمصدر.",
      "en": "N means: the housings are connected to the earthed star point of the source."
+    },
+    {
+     "de": "Merken Sie sich zwei Fragen: Wie ist die Quelle geerdet, und wie sind die Gehäuse geerdet?",
+     "ar": "احفظوا سؤالين: كيف يُؤرَّض المصدر، وكيف تُؤرَّض الأغلفة؟",
+     "en": "Remember two questions: how is the source earthed, and how are the housings earthed?"
+    },
+    {
+     "de": "Das Kurzzeichen ist eine Kurzschrift für diese beiden Antworten.",
+     "ar": "الرمز اختصار لهاتين الإجابتين.",
+     "en": "The code is shorthand for these two answers."
     }
    ]
   },
@@ -240,7 +280,7 @@
     },
     {
      "de": "S heißt: separat. Neutralleiter und Schutzleiter sind getrennt.",
-     "ar": "S تعني منفصل: موصل التعادل وموصل الحماية منفصلان.",
+     "ar": "الحرف S يعني منفصل: موصل التعادل وموصل الحماية منفصلان.",
      "en": "S means separate: neutral and protective conductor are separate."
     },
     {
@@ -250,13 +290,13 @@
     },
     {
      "de": "Diesen gemeinsamen Leiter nennt man PEN-Leiter.",
-     "ar": "ويُسمى هذا الموصل المشترك موصل PEN.",
+     "ar": "ويُسمى هذا الموصل المشترك موصل الحماية والتعادل PEN معًا.",
      "en": "This common conductor is called the PEN conductor.",
      "tts": "Diesen gemeinsamen Leiter nennt man Pe-E-En-Leiter."
     },
     {
      "de": "PE ist der Schutzleiter, N der Neutralleiter.",
-     "ar": "PE هو موصل الحماية وN هو موصل التعادل.",
+     "ar": "الرمز PE هو موصل الحماية والرمز N هو موصل التعادل.",
      "en": "PE is the protective conductor, N the neutral conductor.",
      "tts": "Pe-E ist der Schutzleiter, N der Neutralleiter."
     },
@@ -265,6 +305,16 @@
      "ar": "تذكروا: PEN يعني الحماية والتعادل في موصل واحد.",
      "en": "Remember: PEN means protection and neutral in one.",
      "tts": "Merken Sie sich: Pe-E-En bedeutet Schutz und Neutral in einem."
+    },
+    {
+     "de": "Vergleichen Sie es mit einer Straße: ein Weg für alles oder zwei getrennte Wege.",
+     "ar": "قارنوا ذلك بطريق: مسار واحد لكل شيء أو مساران منفصلان.",
+     "en": "Compare it to a road: one path for everything or two separate paths."
+    },
+    {
+     "de": "Beides hat Folgen für den Schutz, wie wir gleich sehen.",
+     "ar": "ولكل منهما أثر على الحماية، كما سنرى بعد قليل.",
+     "en": "Both have consequences for protection, as we will see shortly."
     }
    ]
   },
@@ -301,13 +351,13 @@
     },
     {
      "de": "Beim TN-C-S beginnt das Netz mit einem PEN-Leiter.",
-     "ar": "وفي TN-C-S تبدأ الشبكة بموصل PEN.",
+     "ar": "وفي TN-C-S تبدأ الشبكة بموصل PEN واحد.",
      "en": "In TN-C-S the network starts with a PEN conductor.",
      "tts": "Beim Te-En-Ze-Es beginnt das Netz mit einem Pe-E-En-Leiter."
     },
     {
      "de": "In der Verbraucheranlage wird er in PE und N getrennt.",
-     "ar": "وفي منشأة المستهلك يُفصل إلى PE وN.",
+     "ar": "وفي منشأة المستهلك يُفصل إلى موصلين هما PE وN معًا.",
      "en": "In the consumer installation it is split into PE and N.",
      "tts": "In der Verbraucheranlage wird er in Pe-E und N getrennt."
     },
@@ -316,6 +366,17 @@
      "ar": "وهذا النظام TN-C-S منتشر كثيرًا في وسط أوروبا.",
      "en": "In Central Europe, TN-C-S is very common.",
      "tts": "In Mitteleuropa ist das Te-En-Ze-Es sehr verbreitet."
+    },
+    {
+     "de": "Der Weg des Fehlerstroms führt im TN-System über einen Leiter zur Quelle zurück.",
+     "ar": "في نظام TN يعود تيار العطل إلى المصدر عبر موصل.",
+     "en": "In the TN system the fault current returns to the source through a conductor.",
+     "tts": "Der Weg des Fehlerstroms führt im Te-En-System über einen Leiter zur Quelle zurück."
+    },
+    {
+     "de": "Er führt also nicht über das Erdreich.",
+     "ar": "أي أنه لا يمر عبر التربة.",
+     "en": "So it does not go through the ground."
     }
    ]
   },
@@ -366,7 +427,7 @@
     },
     {
      "de": "Hinter einem RCD ist ein PEN-Leiter nicht zulässig.",
-     "ar": "وخلف جهاز RCD لا يُسمح بموصل PEN.",
+     "ar": "ولا يُسمح بوجود موصل PEN خلف جهاز RCD في الدارة.",
      "en": "Behind an RCD, a PEN conductor is not permitted.",
      "tts": "Hinter einem Er-Ze-De ist ein Pe-E-En-Leiter nicht zulässig."
     },
@@ -374,6 +435,16 @@
      "de": "Wo und wie getrennt wird, entscheidet die Elektrofachkraft nach den Anschlussbedingungen.",
      "ar": "أما مكان الفصل وكيفيته فيقررهما الكهربائي المؤهَّل وفق شروط التوصيل.",
      "en": "Where and how it is split is decided by the qualified electrician according to the connection conditions."
+    },
+    {
+     "de": "Merken Sie sich das Wort Aufteilung: Einmal getrennt, bleibt getrennt.",
+     "ar": "احفظوا كلمة الفصل: ما إن يُفصل الموصلان حتى يبقيا منفصلين.",
+     "en": "Remember the word split: once separated, they stay separated."
+    },
+    {
+     "de": "Ein Fehler an dieser Stelle betrifft die Sicherheit der ganzen Anlage.",
+     "ar": "وأي خطأ في هذا الموضع يمس سلامة المنشأة كلها.",
+     "en": "A mistake at this point affects the safety of the whole installation."
     }
    ]
   },
@@ -399,7 +470,7 @@
    "lines": [
     {
      "de": "Nun zum TT-System.",
-     "ar": "والآن إلى نظام TT.",
+     "ar": "والآن ننتقل إلى نظام الشبكة TT هذا.",
      "en": "Now to the TT system.",
      "tts": "Nun zum Te-Te-System."
     },
@@ -433,6 +504,17 @@
      "ar": "لذلك يُستخدم في نظام TT عادةً جهاز RCD للحماية من العطل.",
      "en": "That is why a TT system usually uses an RCD as fault protection.",
      "tts": "Deshalb nutzt man im Te-Te-System üblicherweise einen Er-Ze-De als Fehlerschutz."
+    },
+    {
+     "de": "Zahlenwerte für den Erdungswiderstand nennen wir hier bewusst nicht.",
+     "ar": "لن نذكر هنا عمدًا قيم مقاومة التأريض.",
+     "en": "We deliberately give no numerical values for earthing resistance here."
+    },
+    {
+     "de": "Sie hängen von der aktuellen Norm und vom eingesetzten RCD ab.",
+     "ar": "فهي تعتمد على المعيار الحالي وعلى جهاز RCD المستخدم.",
+     "en": "They depend on the current standard and the RCD used.",
+     "tts": "Sie hängen von der aktuellen Norm und vom eingesetzten Er-Ze-De ab."
     }
    ]
   },
@@ -501,6 +583,16 @@
      "de": "Ein typisches Beispiel sind Operationsräume im Krankenhaus.",
      "ar": "ومثال نموذجي على ذلك غرف العمليات في المستشفى.",
      "en": "A typical example is operating rooms in hospitals."
+    },
+    {
+     "de": "Die genaue Frist für die Fehlerbeseitigung nennen wir hier nicht.",
+     "ar": "لن نذكر هنا المهلة الدقيقة لإصلاح العطل.",
+     "en": "We do not state the exact deadline for fixing the fault here."
+    },
+    {
+     "de": "Sie liegt im Ermessen des Betreibers; prüfen Sie die aktuelle Norm.",
+     "ar": "وهي تقع ضمن تقدير المشغّل؛ فتحققوا من المعيار الحالي.",
+     "en": "It is at the operator's discretion; check the current standard."
     }
    ]
   },
@@ -550,7 +642,7 @@
     },
     {
      "de": "Der RCD ist im TT-System üblich und ergänzt oft den Schutz im TN-System.",
-     "ar": "جهاز RCD شائع في TT وغالبًا ما يكمل الحماية في TN.",
+     "ar": "جهاز RCD شائع في نظام TT، وغالبًا ما يكمل الحماية في نظام TN.",
      "en": "The RCD is common in TT and often supplements protection in TN.",
      "tts": "Der Er-Ze-De ist im Te-Te-System üblich und ergänzt oft den Schutz im Te-En-System."
     },
@@ -558,6 +650,16 @@
      "de": "Dieses Bild hilft in Gesprächen mit Netzbetreibern und Elektrofachkräften.",
      "ar": "تساعدكم هذه الصورة في الحوار مع مشغّلي الشبكات والكهربائيين المؤهَّلين.",
      "en": "This picture helps in talks with network operators and qualified electricians."
+    },
+    {
+     "de": "Für Planer gilt eine feste Reihenfolge der Gedanken.",
+     "ar": "للمخططين ترتيب ثابت للتفكير.",
+     "en": "For planners there is a fixed order of thought."
+    },
+    {
+     "de": "Erst das Netzsystem klären, dann die Schutzeinrichtungen wählen.",
+     "ar": "أولًا يُحدَّد نظام الشبكة ثم تُختار أجهزة الحماية.",
+     "en": "First clarify the network system, then choose the protective devices."
     }
    ]
   },
@@ -598,6 +700,16 @@
      "de": "Die Netzform bestimmt, welche Schutzeinrichtungen sinnvoll sind.",
      "ar": "فشكل الشبكة يحدد أجهزة الحماية المناسبة.",
      "en": "The network type determines which protective devices make sense."
+    },
+    {
+     "de": "Das spart Zeit und verhindert Missverständnisse im Projekt.",
+     "ar": "هذا يوفر الوقت ويمنع سوء الفهم في المشروع.",
+     "en": "This saves time and prevents misunderstandings in the project."
+    },
+    {
+     "de": "Sagen Sie also klar, welches System gemeint ist.",
+     "ar": "لذلك قولوا بوضوح أي نظام تقصدون.",
+     "en": "So state clearly which system is meant."
     }
    ]
   },
@@ -653,9 +765,19 @@
     },
     {
      "de": "Die Anforderungen stehen in der Normenreihe DIN VDE 0100.",
-     "ar": "المتطلبات واردة في سلسلة المعايير DIN VDE 0100.",
+     "ar": "في سلسلة المعايير DIN VDE 0100 تجدون هذه المتطلبات.",
      "en": "The requirements are in the standard series DIN VDE 0100.",
      "tts": "Die Anforderungen stehen in der Normenreihe Din Fau-De-E null eins null null."
+    },
+    {
+     "de": "Er gilt für jedes Gebäude und ist Teil der Schutzmaßnahmen.",
+     "ar": "وهو مطلوب في كل مبنى وجزء من إجراءات الحماية.",
+     "en": "It applies to every building and is part of the protective measures."
+    },
+    {
+     "de": "Die Ausführung regelt die Norm, nicht dieses Video.",
+     "ar": "ينظّم المعيار طريقة التنفيذ، لا هذا الفيديو.",
+     "en": "The standard governs the execution, not this video."
     }
    ]
   },
@@ -701,6 +823,16 @@
      "de": "Er ist eine ergänzende Maßnahme, zum Beispiel für Bäder.",
      "ar": "وهو إجراء مكمِّل، مثلًا في الحمامات.",
      "en": "It is a supplementary measure, for example for bathrooms."
+    },
+    {
+     "de": "Merken Sie sich: Erdung geht zur Erde, Ausgleich geht zwischen den Teilen.",
+     "ar": "احفظوا: التأريض يتجه إلى الأرض والربط المتساوي الجهد يكون بين الأجزاء.",
+     "en": "Remember: earthing goes to the ground, bonding goes between the parts."
+    },
+    {
+     "de": "So vermeiden Sie ein häufiges Missverständnis.",
+     "ar": "وهكذا تتجنبون سوء فهم شائعًا.",
+     "en": "This avoids a common misunderstanding."
     }
    ]
   },
@@ -732,7 +864,7 @@
     },
     {
      "de": "Man sagt auch FI-Schalter.",
-     "ar": "ويُقال له أيضًا مفتاح FI.",
+     "ar": "ويُعرف أيضًا باسم مفتاح FI في الاستخدام اليومي.",
      "en": "It is also called an FI switch.",
      "tts": "Man sagt auch Eff-I-Schalter."
     },
@@ -766,6 +898,16 @@
      "ar": "هذا الفرق يشغّل المُطلِق فيفصل RCD الدارة.",
      "en": "This difference actuates the release and the RCD switches off.",
      "tts": "Diese Differenz betätigt den Auslöser, und der Er-Ze-De schaltet ab."
+    },
+    {
+     "de": "Er reagiert schon bei sehr kleinen Fehlerströmen.",
+     "ar": "وهو يستجيب حتى لتيارات عطل صغيرة جدًا.",
+     "en": "It reacts even to very small fault currents."
+    },
+    {
+     "de": "Konkrete Werte nennen wir hier nicht; sie stehen in den Normen.",
+     "ar": "لن نذكر هنا قيمًا محددة؛ فهي في المعايير.",
+     "en": "We give no specific values here; they are in the standards."
     }
    ]
   },
@@ -821,6 +963,16 @@
      "ar": "أما RCBO فيجمع الوظيفتين في جهاز واحد.",
      "en": "An RCBO combines both functions in one device.",
      "tts": "Ein Er-Ze-Be-O verbindet beide Funktionen in einem Gerät."
+    },
+    {
+     "de": "Planer kombinieren deshalb beide Schutzarten passend.",
+     "ar": "لذلك يجمع المخططون بين نوعي الحماية بما يناسب.",
+     "en": "Planners therefore combine both kinds of protection appropriately."
+    },
+    {
+     "de": "Welche Kombination richtig ist, entscheidet die Elektrofachkraft.",
+     "ar": "أما التركيبة الصحيحة فيقررها الكهربائي المؤهَّل.",
+     "en": "Which combination is right is decided by the qualified electrician."
     }
    ]
   },
@@ -874,13 +1026,25 @@
     },
     {
      "de": "Glatter Gleichstrom kann einen Typ A sogar blockieren.",
-     "ar": "والتيار المستمر الأملس قد يعطّل النوع A.",
+     "ar": "بل إن التيار المستمر الأملس قد يعطّل النوع A عن العمل.",
      "en": "Smooth direct current can even block a type A."
     },
     {
      "de": "Welcher Typ passt, hängt von den Geräten und der aktuellen Norm ab.",
      "ar": "يعتمد النوع المناسب على الأجهزة وعلى المعيار الحالي.",
      "en": "Which type fits depends on the equipment and the current standard."
+    },
+    {
+     "de": "Die Normen zu RCD ändern sich.",
+     "ar": "المعايير الخاصة بأجهزة RCD تتغير.",
+     "en": "The standards for RCDs change.",
+     "tts": "Die Normen zu Er-Ze-De ändern sich."
+    },
+    {
+     "de": "Darum zählt immer die aktuelle Fassung, auch für den Typ AC.",
+     "ar": "لذلك تُعتمد دائمًا الصيغة الحالية، ومنها ما يخص النوع AC.",
+     "en": "So the current version always counts, also for type AC.",
+     "tts": "Darum zählt immer die aktuelle Fassung, auch für den Typ A-Ze."
     }
    ]
   },
@@ -935,6 +1099,16 @@
      "ar": "إذا لم يفصل RCD فأبلغوا كهربائيًا مؤهَّلًا.",
      "en": "If the RCD does not trip, inform a qualified electrician.",
      "tts": "Löst der Er-Ze-De nicht aus, informieren Sie eine Elektrofachkraft."
+    },
+    {
+     "de": "Der Test ist ein Hinweis auf die Funktion, kein vollständiger Nachweis.",
+     "ar": "الاختبار مؤشر على الأداء لا إثبات كامل.",
+     "en": "The test is an indication of function, not complete proof."
+    },
+    {
+     "de": "Auch die Elektrofachkraft prüft mit geeigneten Messungen.",
+     "ar": "ويفحص الكهربائي المؤهَّل أيضًا بقياسات مناسبة.",
+     "en": "The qualified electrician also tests with suitable measurements."
     }
    ]
   },
@@ -991,7 +1165,7 @@
     },
     {
      "de": "Diese Arbeiten gehören in die Hand von Elektrofachkräften.",
-     "ar": "هذه الأعمال من اختصاص الكهربائيين المؤهَّلين (Elektrofachkräfte).",
+     "ar": "هذه الأعمال من اختصاص الكهربائيين المؤهَّلين فقط.",
      "en": "This work belongs in the hands of qualified electricians."
     }
    ]
@@ -1021,7 +1195,7 @@
     },
     {
      "de": "S heißt getrennte Leiter, C heißt gemeinsamer PEN-Leiter.",
-     "ar": "S تعني موصلين منفصلين وC تعني موصل PEN مشتركًا.",
+     "ar": "الحرف S يعني موصلين منفصلين والحرف C يعني موصل PEN مشتركًا.",
      "en": "S means separate conductors, C means a common PEN conductor.",
      "tts": "S heißt getrennte Leiter, C heißt gemeinsamer Pe-E-En-Leiter."
     },
@@ -1078,6 +1252,11 @@
      "de": "Im nächsten Video berechnen wir Leitungen.",
      "ar": "في الفيديو القادم نحسب الكابلات.",
      "en": "In the next video we calculate cables."
+    },
+    {
+     "de": "Ein Wort zum Schluss: Wer Netzsysteme versteht, spricht mit Fachleuten auf Augenhöhe.",
+     "ar": "كلمة أخيرة: من يفهم أنظمة الشبكة يتحدث مع المختصين بمستوى متكافئ.",
+     "en": "One last word: whoever understands network systems talks to specialists at eye level."
     }
    ]
   }

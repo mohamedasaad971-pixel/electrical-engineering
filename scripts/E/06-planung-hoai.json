@@ -131,6 +131,11 @@
      "en": "The scope of work is still clearly described if the contract names the phases."
     },
     {
+     "de": "Das ist für Ihre Karriere wichtig, denn Sie sprechen oft mit Architekten.",
+     "ar": "هذا مهم لمسيرتكم لأنكم ستتحدثون كثيرًا مع المعماريين.",
+     "en": "This matters for your career because you often talk with architects."
+    },
+    {
      "de": "Die Phasen der HOAI sind trotzdem die gemeinsame Sprache im Projekt.",
      "ar": "ومع ذلك تبقى مراحل HOAI هي اللغة المشتركة في المشروع.",
      "en": "The HOAI phases are still the shared language in a project.",
@@ -435,6 +440,11 @@
      "en": "This information determines the size of distributions and cables."
     },
     {
+     "de": "Notieren Sie alle Annahmen, denn sie ändern sich oft.",
+     "ar": "دوّنوا كل الافتراضات لأنها تتغير كثيرًا.",
+     "en": "Note all assumptions, because they often change."
+    },
+    {
      "de": "Der Auftraggeber entscheidet dann, welche Variante weiterverfolgt wird.",
      "ar": "ثم يقرر صاحب المشروع أي بديل يُتابَع.",
      "en": "The client then decides which variant is pursued."
@@ -642,6 +652,11 @@
      "de": "Auch Änderungen müssen sauber nachgeführt werden.",
      "ar": "ويجب أيضًا تحديث التعديلات بشكل منظم.",
      "en": "Changes also have to be tracked cleanly."
+    },
+    {
+     "de": "Fragen Sie im Zweifel vor dem Zeichnen nach dem aktuellen Planstand.",
+     "ar": "في حال الشك اسألوا قبل الرسم عن آخر حالة للمخططات.",
+     "en": "If in doubt, ask for the current plan status before drawing."
     },
     {
      "de": "Fehler in dieser Phase werden später auf der Baustelle teuer.",
@@ -934,6 +949,11 @@
      "en": "An interface list is therefore a must in everyday work."
     },
     {
+     "de": "Beispiele sind Zählerplätze, Rufanlagen und Steuerungen für Sonnenschutz und Licht.",
+     "ar": "من الأمثلة أماكن العدادات وأنظمة النداء وتحكم الحماية الشمسية والإنارة.",
+     "en": "Examples are meter locations, call systems and controls for sun shading and lighting."
+    },
+    {
      "de": "Schriftliche Abstimmungen schützen alle Beteiligten.",
      "ar": "التنسيق الكتابي يحمي جميع المشاركين.",
      "en": "Written coordination protects everyone involved."
@@ -1012,6 +1032,11 @@
      "en": "Unclear texts later lead to disputes about additional claims."
     },
     {
+     "de": "Fachlich heißt: Passt das Gerät zur Planung und zum Preis?",
+     "ar": "فنيًا يعني: هل يناسب الجهاز التخطيط والسعر؟",
+     "en": "Technically this means: does the device fit the design and the price?"
+    },
+    {
      "de": "Der Auftraggeber vergibt den Auftrag, nicht der Planer.",
      "ar": "صاحب المشروع هو من يُرسي العقد، لا المخطط.",
      "en": "The client awards the contract, not the planner."
@@ -1082,6 +1107,16 @@
      "de": "Diese Unterlagen helfen später bei der Übergabe.",
      "ar": "هذه الوثائق تفيد لاحقًا عند التسليم.",
      "en": "These documents help later at the handover."
+    },
+    {
+     "de": "Besonders wichtig ist die Prüfung vor der Inbetriebnahme.",
+     "ar": "الأهم هو الفحص قبل التشغيل الأولي.",
+     "en": "Especially important is the check before commissioning."
+    },
+    {
+     "de": "Der Betreiber erhält am Ende eine vollständige Anlagenakte.",
+     "ar": "ويتسلم المشغّل في النهاية ملف المنشأة كاملًا.",
+     "en": "In the end the operator receives a complete plant file."
     },
     {
      "de": "Am Ende sammeln Sie die Dokumentation: Pläne im Ist-Zustand und Prüfprotokolle.",
@@ -1214,6 +1249,11 @@
      "en": "A good handover makes life easier for the operator."
     },
     {
+     "de": "Auch hier zeigt sich: Gute Dokumentation macht spätere Arbeit leichter.",
+     "ar": "وهنا أيضًا يتضح أن التوثيق الجيد يسهّل العمل لاحقًا.",
+     "en": "Here too: good documentation makes later work easier."
+    },
+    {
      "de": "Der Betreiber braucht Pläne, Prüfprotokolle und Bedienungsanleitungen.",
      "ar": "يحتاج المشغّل إلى المخططات ومحاضر الفحص وأدلة التشغيل.",
      "en": "The operator needs drawings, test reports and operating manuals."
@@ -1271,9 +1311,14 @@
     },
     {
      "de": "Die genauen Inhalte stehen im Vertrag und in der HOAI.",
-     "ar": "المحتوى الدقيق مذكور في العقد وفي HOAI.",
+     "ar": "المحتوى الدقيق مذكور في العقد وفي لائحة الأتعاب HOAI نفسها.",
      "en": "The exact contents are in the contract and in the HOAI.",
      "tts": "Die genauen Inhalte stehen im Vertrag und in der Ho-A-I."
+    },
+    {
+     "de": "Jede Zeile in dieser Tabelle ist ein Ergebnis, das jemand prüft.",
+     "ar": "كل سطر في هذا الجدول نتيجة يراجعها شخص ما.",
+     "en": "Every row in this table is a result that someone checks."
     },
     {
      "de": "Gute Dokumente sparen Ihnen später viel Zeit.",
