@@ -3,6 +3,7 @@
 import json, re, sys
 
 LATIN_OR_DIGIT = re.compile(r"[A-Za-z0-9]")
+PUNCT = ".,:;!?\u060c\u061b\u061f\"'\u00ab\u00bb\u201c\u201d()[]-\u2013\u2014 "
 NEEDS_TTS = re.compile(r"\d|\b[A-ZÄÖÜ]{2,}[A-Za-zÄÖÜ0-9-]*\b|\b(?:DIN|VDE|IEC|EN|ISO)\b")
 
 def check(path):
@@ -30,7 +31,7 @@ def check(path):
         for j, ln in enumerate(sc.get("lines", []), 1):
             for l in ("de", "ar", "en"):
                 if not ln.get(l, "").strip(): errs.append(f"scene {i} line {j}: empty {l}")
-            ar = ln.get("ar", "").strip()
+            ar = ln.get("ar", "").strip().strip(PUNCT).strip()
             if ar and (LATIN_OR_DIGIT.match(ar[0]) or LATIN_OR_DIGIT.match(ar[-1])):
                 errs.append(f"scene {i} line {j}: Arabic edge Latin/digit: {ar[:20]}")
             if NEEDS_TTS.search(ln.get("de", "")) and not ln.get("tts"):

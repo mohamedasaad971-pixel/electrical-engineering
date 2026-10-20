@@ -1,0 +1,1334 @@
+[
+ {
+  "video": "E-A02",
+  "scene": 0,
+  "line": 1,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1: all three Arabic options start with Latin (VDE-AR-N ...) and two end in digits; options are identical in DE/AR/EN.",
+  "suggested_fix": "Options AR: 'القاعدة 4130 من سلسلة VDE-AR-N الفنية' | 'القاعدة 4110 لكل الحالات' | 'القاعدة 4105 من سلسلة VDE-AR-N الفنية'; DE options: 'Regel 4130 der Reihe VDE-AR-N' | 'Regel 4110 für alle Fälle' | 'Regel 4105 der Reihe VDE-AR-N'; answer stays 2."
+ },
+ {
+  "video": "E-A02",
+  "scene": 4,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin word 'Tar' (edge rule). DE field also shows the TTS spelling instead of the written abbreviation (see 4.3/10.2).",
+  "suggested_fix": "AR: تسمى القواعد الفنية للتوصيل، ويُختصر اسمها Tar وينطق «تار». | DE: Sie heißen Technische Anschlussregeln, kurz TAR. | tts: Sie heißen Technische Anschlussregeln, kurz Tar."
+ },
+ {
+  "video": "E-A02",
+  "scene": 4,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR ends with Latin 'FNN'. DE field contains phonetic 'Ef-En-En' (should be written FNN, phonetic only in tts; E-F scripts keep written abbreviations in de). FNN name differs from E-A03 17.3 ('Netztechnik und Netzbetrieb').",
+  "suggested_fix": "DE: Herausgeber ist das Forum Netztechnik/Netzbetrieb im VDE, kurz FNN. | tts: Herausgeber ist das Forum Netztechnik Netzbetrieb im Fau-De-E, kurz Ef-En-En. | AR: وناشرها منتدى تقنية الشبكات وتشغيلها (FNN) في رابطة VDE الألمانية. | EN: The publisher is the Forum for Network Technology and Operation within VDE, FNN for short."
+ },
+ {
+  "video": "E-A02",
+  "scene": 4,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits (4100) - violates edge rule.",
+  "suggested_fix": "AR: للجهد المنخفض تسري القاعدة VDE-AR-N 4100 الفنية."
+ },
+ {
+  "video": "E-A02",
+  "scene": 4,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits (4110).",
+  "suggested_fix": "AR: وللجهد المتوسط تسري القاعدة VDE-AR-N 4110 الفنية."
+ },
+ {
+  "video": "E-A02",
+  "scene": 4,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits (4130).",
+  "suggested_fix": "AR: وأرقام قواعد الجهد العالي والفائق هي 4120 و4130 على الترتيب."
+ },
+ {
+  "video": "E-A02",
+  "scene": 5,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits '2026-04'.",
+  "suggested_fix": "AR: الإصدار الحالي يحمل تاريخ 2026-04 ميلاديًا."
+ },
+ {
+  "video": "E-A02",
+  "scene": 6,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits '2026-03'.",
+  "suggested_fix": "AR: الإصدار الحالي هو إصدار 2026-03 ميلاديًا."
+ },
+ {
+  "video": "E-A02",
+  "scene": 6,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits '2018'.",
+  "suggested_fix": "AR: وهو يحل محل إصدار 2018 الأقدم."
+ },
+ {
+  "video": "E-A02",
+  "scene": 7,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits '4105'.",
+  "suggested_fix": "AR: وبحسب القدرة والتركيب قد تسري القاعدة الفنية 4110 بدل 4105 في بعض الحالات."
+ },
+ {
+  "video": "E-A02",
+  "scene": 8,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with digits '49'.",
+  "suggested_fix": "AR: وهذا منصوص عليه في المادة 49 من القانون."
+ },
+ {
+  "video": "E-A02",
+  "scene": 9,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR ends with Latin 'Tab'. DE field writes 'Tab' (should be written TAB; spoken Tab goes into tts).",
+  "suggested_fix": "AR: ويقال لها اختصارًا Tab وتنطق «تاب». | DE: Man sagt kurz TAB. | tts: Man sagt kurz Tab."
+ },
+ {
+  "video": "E-A02",
+  "scene": 9,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin 'VDE'.",
+  "suggested_fix": "AR: وهي مبنية على قواعد رابطة VDE الألمانية. (alternatively: وهي مبنية على قواعد فدي)"
+ },
+ {
+  "video": "E-A02",
+  "scene": 10,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR ends with Latin 'NAV'. DE field has phonetic 'En-A-Fau' instead of NAV (subtitle shows pronunciation hint to learners).",
+  "suggested_fix": "AR: ويقال لها اختصارًا NAV وتنطق «إن إيه فاو». | DE: Man sagt kurz NAV. | tts: Man sagt kurz En-A-Fau."
+ },
+ {
+  "video": "E-A02",
+  "scene": 15,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: الكهرباء is feminine: 'يذهب الكهرباء المولدة' is wrong.",
+  "suggested_fix": "AR: في التغذية الكاملة تذهب الكهرباء المولَّدة كلها إلى الشبكة."
+ },
+ {
+  "video": "E-A02",
+  "scene": 19,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with 'VDE-AR-N 4100' (Latin/digits).",
+  "suggested_fix": "AR: لمنشآت الاستهلاك في الجهد المنخفض تسري القاعدة VDE-AR-N 4100 الفنية."
+ },
+ {
+  "video": "E-A02",
+  "scene": 19,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with 'VDE-AR-N 4105'.",
+  "suggested_fix": "AR: ولمنشآت التوليد تسري القاعدة VDE-AR-N 4105 الفنية."
+ },
+ {
+  "video": "E-A03",
+  "scene": 7,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Mistranslation: 'Regelung' (control) rendered 'المراقبة' (monitoring/supervision).",
+  "suggested_fix": "AR: ولهذا بالذات يكون التحكم والحماية مهمين جدًا."
+ },
+ {
+  "video": "E-A03",
+  "scene": 10,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: 'تبقى ... واجب الربط' (واجب is masculine). Also 'الربط' for Anschluss clashes with TERMS (Netzanschluss = التوصيل بالشبكة) and E-A02.",
+  "suggested_fix": "AR: يبقى واجب التوصيل بالشبكة قائمًا عندئذٍ من حيث المبدأ."
+ },
+ {
+  "video": "E-A03",
+  "scene": 11,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with '(Einspeisevorrang)' (Latin at edge).",
+  "suggested_fix": "AR: والآن المبدأ الأساسي، ويسمى بالألمانية Einspeisevorrang، أي أولوية التغذية."
+ },
+ {
+  "video": "E-A03",
+  "scene": 13,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin word in parentheses (Einspeisevergütung) - TERMS: put identifier in the middle.",
+  "suggested_fix": "AR: أولًا يترك الكهرباء لمشغّل الشبكة، وهذا ما يسمى Einspeisevergütung، ويتلقى مكافأة التغذية."
+ },
+ {
+  "video": "E-A03",
+  "scene": 14,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with '(Bundesnetzagentur)'; EN keeps untranslated 'Bundesnetzagentur' although everywhere else 'Federal Network Agency' / الوكالة الاتحادية للشبكات.",
+  "suggested_fix": "AR: القيم الحالية تنشرها الوكالة الاتحادية للشبكات في ألمانيا. | EN: The Federal Network Agency publishes the current values."
+ },
+ {
+  "video": "E-A03",
+  "scene": 15,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with '(Marktstammdatenregister)'.",
+  "suggested_fix": "AR: يجب تسجيل المنشآت في سجل بيانات السوق الرئيسي، ويسمى بالألمانية Marktstammdatenregister، لدى الوكالة. | EN: Plants must be entered in the central market master data register (Marktstammdatenregister)."
+ },
+ {
+  "video": "E-A03",
+  "scene": 17,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin 'VDE FNN'; tts still contains written 'im VDE' (must be spelled 'im Fau-De-E'); FNN name differs from E-A02 4.3 ('Forum Netztechnik').",
+  "suggested_fix": "AR: وناشرها منتدى تقنية الشبكات وتشغيلها، المعروف اختصارًا VDE FNN، التابع لرابطة VDE الألمانية. | tts: Herausgeber ist das Forum Netztechnik und Netzbetrieb im Fau-De-E, kurz Fau-De-E Ef-En-En."
+ },
+ {
+  "video": "E-A03",
+  "scene": 20,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with '(Elektrofachkraft)'.",
+  "suggested_fix": "AR: وهذه مهمة الكهربائي المؤهَّل، ويسمى بالألمانية Elektrofachkraft، وحده."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "[next] Arabic NEXT starts with the Latin id 'E-A05' (edge rule) and the format ('E-A05: ...') differs from the other five videos (full sentence). The announced topic 'Netz- und Anlagenschutz' also repeats scenes 8-9 of this video; check against the real E-A05 title.",
+  "suggested_fix": "DE: Im nächsten Video geht es um die Schutztechnik. | AR: في الفيديو القادم نتناول تقنيات الحماية. | EN: The next video is about protection technology."
+ },
+ {
+  "video": "E-A04",
+  "scene": 2,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with '(Elektrofachkraft)' (also 5.8 and 14.6).",
+  "suggested_fix": "2.5 AR: العمل على التوصيل بالشبكة يقوم به الكهربائي المؤهَّل، ويسمى بالألمانية Elektrofachkraft، حصرًا. | 5.8 AR: وعند الشك اسألوا الشركة المصنّعة أو الكهربائي المؤهَّل المختص. | 14.6 AR: وهناك يعمل كهربائي مؤهَّل ملتزم بالتأهيل المطلوب."
+ },
+ {
+  "video": "E-A04",
+  "scene": 4,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Wechselrichter is rendered 'المحوّل' (= transformer) throughout (title, 1.2, 3.3, 4.x, 5.x, 6.5, 10.x, 11.1, 19.2, glossary, Q2), contradicting E-A03 ('العاكس'), E-A03 NEXT ('العاكسات') and clashing with Transformator (محوّل). Title also says 'المحولات الشمسية' and 'المركبات الكهربائية' instead of inverters/charging infrastructure.",
+  "suggested_fix": "Title AR: التخزين والعاكسات والبنية التحتية للشحن: التوصيل والحماية | 1.2: موضوعنا اليوم هو بطاريات التخزين والعاكسات ومحطات الشحن. | 3.3: العاكس يربط التيار المستمر بالتيار المتناوب. | 4.1: لنبدأ بأنواع العاكسات. | 4.2: عاكس السلاسل يحوّل التيار المستمر لصفوف كاملة من الألواح. | 4.5: العاكس الهجين يتحكم أيضًا ببطارية. | 4.6: تُستخدم العاكسات المركزية خصوصًا في المحطات الكبيرة والحقول المفتوحة والمنشآت التجارية. | 4.7: عاكس البطارية يخص المخزن فقط. | 4.9: عاكس الجزيرة يعمل دون شبكة عامة. | 4.11: في المنازل تكون عاكسات السلاسل والعاكسات الهجينة الأكثر شيوعًا. | 5.3: عاكس السلاسل يجعل تيار الألواح قابلًا للاستخدام. | 6.5: في الربط عبر التيار المتناوب يملك المخزن عاكس بطارية خاصًا به. | 10.5: لذلك يجب أن تكشف العاكسات انقطاع الشبكة وتنفصل. | 10.10: يخص الاختبار العاكسات المرتبطة بالشبكة للمنظومات الشمسية. | 11.1: العاكسات الحديثة تفعل أكثر من ضخ التيار. | 19.2: توجد عاكسات سلاسل وعاكسات هجينة وعاكسات مركزية. | 19.9: أنتم تعرفون الآن كيف ترتبط أجهزة التخزين والعاكسات ونقاط الشحن. | slide 4 term and glossary: العاكس / عاكس السلاسل / العاكس الهجين / العاكس المركزي | Q2 AR: أي عاكس يتحكم أيضًا ببطارية? options: العاكس الهجين | عاكس سلاسل بدون تخزين | عاكس مركزي"
+ },
+ {
+  "video": "E-A04",
+  "scene": 8,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line is garbled: repeats the same phrase ('حماية الشبكة والمنشأة ... إلى حماية الشبكة والمنشأة') and ends with Latin in parentheses.",
+  "suggested_fix": "AR: والآن إلى حماية الشبكة والمنشأة، وتُعرف في الألمانية اختصارًا باسم NA-Schutz، وهي مهمة جدًا."
+ },
+ {
+  "video": "E-A04",
+  "scene": 10,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin word 'Islanding'.",
+  "suggested_fix": "AR: مصطلح مهم هو تكوّن الجزيرة الكهربائية، ويقابله بالإنجليزية Islanding في الأدبيات التقنية."
+ },
+ {
+  "video": "E-A04",
+  "scene": 10,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with 'IEC 62116' (Latin+digits); DE field contains the phonetic spelling 'I-E-Ze sechs-zwei-eins-eins-sechs' instead of the written norm (tts identical).",
+  "suggested_fix": "DE: Für diese Funktion gibt es ein Prüfverfahren in der Norm IEC 62116. | tts: Für diese Funktion gibt es ein Prüfverfahren in der Norm I-E-Ze sechs-zwei-eins-eins-sechs. | AR: لهذه الوظيفة يوجد إجراء اختبار في المعيار الدولي IEC 62116 الخاص بالعاكسات."
+ },
+ {
+  "video": "E-A04",
+  "scene": 17,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin 'RCD'; DE field contains phonetic 'R-C-D' instead of RCD.",
+  "suggested_fix": "DE: Sie wird kurz RCD genannt. | tts: Sie wird kurz Er-Ze-De genannt. | AR: وتُعرف اختصارًا باسم RCD في الأوراق التقنية."
+ },
+ {
+  "video": "E-A04",
+  "scene": 17,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin 'EV-RCM'; DE shows phonetic 'E-V-R-C-M'.",
+  "suggested_fix": "DE: Für Ladepunkte gibt es dafür auch den Begriff EV-RCM. | tts: Für Ladepunkte gibt es dafür auch den Begriff E-Fau-Er-Ze-Em. | AR: وهناك لهذه الأجهزة أيضًا مصطلح EV-RCM المتداول."
+ },
+ {
+  "video": "E-A05",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "[title] AR title 'حماية الشبكة والمنظومات: القواطع والتنسيق والمفاتيح' drops 'Schutztechnik' and uses 'المنظومات' for Anlagen (elsewhere المنشآت); E-A04 NEXT announces 'Netz- und Anlagenschutz' which does not match this video.",
+  "suggested_fix": "title AR: تقنية الحماية في الشبكات والمنشآت: أجهزة الحماية والانتقائية وأجهزة القطع والوصل | E-A04 next must be updated to match (see E-A04 file)."
+ },
+ {
+  "video": "E-A05",
+  "scene": 0,
+  "line": 2,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q2 Arabic has a typo/garbled first word 'مماذا' and uses 'المُحرِّك' (motor/actuator) for Auslöser. German question 'Was schützt der thermische Auslöser' with answer 'Überlast' is also ungrammatical for the answer (it protects against overload).",
+  "suggested_fix": "DE: Wovor schützt der thermische Auslöser eines Leitungsschutzschalters? | AR: ممّ يحمي عنصر الفصل الحراري في القاطع الآلي؟ | EN: What does the thermal release of a miniature circuit breaker protect against? (options unchanged, answer 0)"
+ },
+ {
+  "video": "E-A05",
+  "scene": 14,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Schütz rendered 'الملامس' (also glossary, slide 14 term, 1.6, 14.x, 15.4, 15.8, 21.6) but E-F06/E-F07 use 'كونتاكتور/الكونتاكتور' for Schütz and E-F06 uses 'ملامس' for Schließer/Öffner (contacts). Same word for two different parts.",
+  "suggested_fix": "Use 'الكونتاكتور' everywhere: 1.6 AR: كما سنوضح الفرق بين المفصل ومفصل الحمل والكونتاكتور. | 14.1: الكونتاكتور مفتاح كهرومغناطيسي. | 14.4: نرى الكونتاكتورات غالبًا في خزانة التوزيع والتحكم. | 14.5: لكن انتبهوا: الكونتاكتور لا يحمي نفسه بنفسه. | 14.8: يُشغَّل الكونتاكتور كثيرًا جدًا وهو مصمم لذلك. | 15.4: الكونتاكتور يعمل كثيرًا وعن بُعد. | 15.8: فرع المحرك مثلًا يتكوّن من جهاز حماية وكونتاكتور ومرحّل حماية من الحمل الزائد. | 21.6: المفصل ومفصل الحمل والكونتاكتور توصل وتفصل، لكنها لا تحمي تلقائيًا. | glossary/slide term: الكونتاكتور"
+ },
+ {
+  "video": "E-A05",
+  "scene": 16,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: 'يجب أن يعمل كل حلقة' (حلقة is feminine).",
+  "suggested_fix": "AR: يجب أن تعمل كل حلقة من السلسلة بشكل موثوق."
+ },
+ {
+  "video": "E-A06",
+  "scene": 0,
+  "line": 4,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Q4 AR ends with Latin 'S' before the question mark ('كم تبلغ S؟'); DE asks 'Wie groß ist S?' (symbol only).",
+  "suggested_fix": "DE: Im Lehrbeispiel sind P gleich 60 kW und Q gleich 80 kvar. Wie groß ist die Scheinleistung? | AR: في المثال التعليمي القدرة الفعّالة ٦٠ كيلوواط والقدرة الردية ٨٠ كيلو فار. كم تبلغ القدرة الظاهرية؟ | EN: In the teaching example the active power is 60 kW and the reactive power is 80 kvar. What is the apparent power?"
+ },
+ {
+  "video": "E-A06",
+  "scene": 7,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Impedanz rendered 'ممانعة' here but 'المعاوقة' in E-A05 (glossary, slides 4, 17).",
+  "suggested_fix": "AR: يمر التيار المشوَّه عبر معاوقة الشبكة."
+ },
+ {
+  "video": "E-A06",
+  "scene": 10,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Case error: subject of 'هما' must be nominative: 'المقدارين المميّزين'.",
+  "suggested_fix": "AR: المقداران المميِّزان هما Pst لعشر دقائق وPlt لساعتين."
+ },
+ {
+  "video": "E-A06",
+  "scene": 14,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "AR line ends with Latin letter 'Q' (and 14.5 ends with 'S'; 20.6 ends with 'S').",
+  "suggested_fix": "14.4 AR: القاعدة: مربع القدرة الظاهرية يساوي مجموع مربعي القدرة الفعّالة والقدرة الردية. | 14.5 AR: معامل القدرة للمقادير الجيبية هو cos φ، ويُحسب بقسمة P على S عمليًا. | 20.6 AR: مثلث القدرة يربط بين P وQ وS في علاقة واحدة."
+ },
+ {
+  "video": "E-A06",
+  "scene": 18,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Kondensatorbatterie rendered 'بطاريات المكثفات' (= batteries); the technical term is 'بنوك المكثفات'.",
+  "suggested_fix": "AR: ينبغي فحص بنوك المكثفات بانتظام."
+ },
+ {
+  "video": "E-A01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Quiz Q5 asks 'Was ist Redispatch?' and scene 15 teaches it, but the glossary has no entry for der Redispatch (nor die Ausgleichsenergie / die Hochspannung used in scenes).",
+  "suggested_fix": "Add glossary: {de: 'der Redispatch', ar: 'إعادة الجدولة', en: 'redispatch'} and {de: 'die Ausgleichsenergie', ar: 'طاقة الموازنة', en: 'balancing energy'}"
+ },
+ {
+  "video": "E-A01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "[next] AR NEXT ends with '(E-A02)' and DE/EN carry the id too; E-A02..A05 NEXT lines have no id.",
+  "suggested_fix": "DE: Im nächsten Video geht es um den Netzanschluss. | AR: في الفيديو القادم نتناول التوصيل بالشبكة. | EN: The next video covers the grid connection."
+ },
+ {
+  "video": "E-A01",
+  "scene": 0,
+  "line": 5,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Q5 AR 'ما هو Redispatch؟' - question ends with a Latin word before the question mark.",
+  "suggested_fix": "AR: ما المقصود بإعادة الجدولة في الشبكات؟"
+ },
+ {
+  "video": "E-A01",
+  "scene": 1,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line ends with '(Bundesnetzagentur)' (Latin identifier at line end; TERMS: put identifiers in the middle).",
+  "suggested_fix": "AR: ومنها مشغّلو الشبكة والوكالة الاتحادية للشبكات (Bundesnetzagentur) في ألمانيا."
+ },
+ {
+  "video": "E-A01",
+  "scene": 6,
+  "line": 6,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Line contains 'TenneT' but has no tts, while 6.2 uses 'Tenn-T'; a German voice may read TenneT inconsistently.",
+  "suggested_fix": "tts: Tenn-T reicht von Schleswig-Holstein bis nach Bayern."
+ },
+ {
+  "video": "E-A01",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR 'الشبكة الأوروبية لمشغّلي النقل (ENTSO-E)' ends with Latin in parentheses; also 15 term 'إعادة الجدولة (Redispatch)'.",
+  "suggested_fix": "term 9 AR: اتحاد ENTSO-E الأوروبي لمشغّلي النقل | term 15 AR: إعادة الجدولة"
+ },
+ {
+  "video": "E-A01",
+  "scene": 10,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Non sequitur / confusing: 'Es gibt also keine Grenze zwischen Ihrem Projekt und dem Netz' does not follow from the previous line and is misleading for learners.",
+  "suggested_fix": "DE: Ihr Projekt trifft also früher oder später auf diesen Betreiber. | AR: فمشروعكم سيلتقي عاجلًا أو آجلًا بهذا المشغّل. | EN: So your project will meet this operator sooner or later."
+ },
+ {
+  "video": "E-A01",
+  "scene": 10,
+  "line": 10,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN 'He is often the first contact' mis-genders a company (Verteilnetzbetreiber = operator/company).",
+  "suggested_fix": "EN: It is often the first contact for new installations."
+ },
+ {
+  "video": "E-A01",
+  "scene": 11,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "11.6 and 11.7 say the same thing twice (each role/group has its own duties/task); recap becomes padded.",
+  "suggested_fix": "Delete line 11.7 (or replace by: Keiner von ihnen kann die Aufgaben der anderen ersetzen. | AR: ولا يستطيع أحد منهم أن يحل محل الآخرين. | EN: None of them can replace the others.)"
+ },
+ {
+  "video": "E-A01",
+  "scene": 13,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "DE 'meldet sich ... an' (registers) but AR 'يُسمّى لدى' (is named) and EN 'is named to' are not faithful and read oddly.",
+  "suggested_fix": "AR: وهو يُسجَّل لدى مشغّل شبكة النقل. | EN: He or she registers with the transmission system operator."
+ },
+ {
+  "video": "E-A01",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Grammar: 'die Aufsicht und Regulierungsbehörde' lacks the hyphen construction (Aufsichts- und Regulierungsbehörde).",
+  "suggested_fix": "DE: Sie ist die Aufsichts- und Regulierungsbehörde für die Netze."
+ },
+ {
+  "video": "E-A01",
+  "scene": 19,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Das Übertragungsnetz haben vier Betreiber...' is unidiomatic (haben + Betreiber for operating); AR and EN also stiffer than needed.",
+  "suggested_fix": "DE: Das Übertragungsnetz betreiben vier Unternehmen in vier Regelzonen. | AR: شبكة النقل تشغّلها أربع شركات في أربع مناطق تحكم. | EN: Four companies run the transmission grid in four control areas."
+ },
+ {
+  "video": "E-A02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary lacks die Niederspannungsanschlussverordnung (NAV) and das Marktstammdatenregister (both taught); no entry is inconsistent: TAR/TAB entries carry '(TAR)' Latin in de, fine.",
+  "suggested_fix": "Add: {de:'die Niederspannungsanschlussverordnung (NAV)', ar:'لائحة التوصيل بالجهد المنخفض', en:'Low-Voltage Connection Ordinance'}, {de:'das Marktstammdatenregister', ar:'سجل بيانات السوق الأساسية', en:'core market data register'}"
+ },
+ {
+  "video": "E-A02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN uses 'he/his/himself' for the grid operator and installer (companies/roles) in 12.6, 15.5, 16.3, 16.5, 17.4, 17.6, 19.4, Q3. Reads as gendered and inconsistent with 'the grid operator ... its'.",
+  "suggested_fix": "EN 12.6: Afterwards it replies with a confirmation or with conditions. | 15.5: ...the operator first uses the electricity itself. | 16.3: In it the installer confirms ... | 16.5: ...the grid operator can refuse the connection. | 19.4: The grid operator supplements them with its TAB. | Q3 option 2: The rules for its grid area"
+ },
+ {
+  "video": "E-A02",
+  "scene": 3,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Verb-subject agreement: 'ويقوم بالأعمال شركة تركيب' - شركة is feminine.",
+  "suggested_fix": "AR: وتقوم بالأعمال شركة تركيب كهربائي."
+ },
+ {
+  "video": "E-A02",
+  "scene": 8,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Inconsistent with E-A01 (قانون الطاقة for Energiewirtschaftsgesetz): here 'قانون قطاع الطاقة'.",
+  "suggested_fix": "AR: يشترط قانون الطاقة الألماني السلامة التقنية."
+ },
+ {
+  "video": "E-A02",
+  "scene": 10,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Es gibt das Recht' is unidiomatic.",
+  "suggested_fix": "DE: Es gewährt das Recht, über den Anschluss Strom zu entnehmen."
+ },
+ {
+  "video": "E-A02",
+  "scene": 11,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide heading 'Wer haftet wofür?' promises Haftung (= المسؤولية القانونية per TERMS) but content is about Verantwortung/Pflichten; content uses 'verantwortlich'.",
+  "suggested_fix": "Heading: Wer ist wofür verantwortlich?"
+ },
+ {
+  "video": "E-A02",
+  "scene": 12,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Anmeldung, Registrierung (step 6) and Eintrag all rendered as التسجيل - learners cannot tell step 2 from step 6.",
+  "suggested_fix": "AR 12.4: ثم يأتي الإبلاغ لدى مشغّل الشبكة. | AR 13.1: والآن إلى الإبلاغ نفسه. | AR 16.8: وهو لا يغني عن الإبلاغ لدى مشغّل الشبكة. | AR 17.5: يُنشئ المُركِّب المنشأة ويبلّغ عنها. (E-A03 16.1 already uses الإبلاغ for Anmeldung; keep التسجيل only for Registrierung.)"
+ },
+ {
+  "video": "E-A02",
+  "scene": 14,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Inconsistent with E-A04 ('حماية الشبكة والمنشأة' for NA-Schutz); 'الحماية الشبكية' is non-standard.",
+  "suggested_fix": "AR: وهناك إثبات خاص لحماية الشبكة والمنشأة."
+ },
+ {
+  "video": "E-A03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary 'das Redispatch' (neuter) contradicts E-A01 slide term 'der Redispatch'; AR 'إعادة جدولة التوليد' differs from E-A01 'إعادة الجدولة'. EnWG also named 'قانون EnWG' (11.5) vs 'قانون الطاقة' (E-A01, F03).",
+  "suggested_fix": "Glossary: {de:'der Redispatch', ar:'إعادة الجدولة', en:'redispatch'}; slide 12 term AR: إعادة الجدولة; 12.6 AR: وإطار ذلك يسمى اليوم إعادة الجدولة وهو يحل محل إدارة التغذية السابقة. 11.5 AR: هذه الأولوية ليست مطلقة؛ فتشغيل المنظومة وفق قانون الطاقة مُستثنى منها."
+ },
+ {
+  "video": "E-A03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Marktstammdatenregister rendered 'سجل بيانات السوق الرئيسي' here but 'سجل بيانات السوق الأساسية' in E-A02 (16.6, slide term); EN 'core' vs 'central'. Also 'die Inbetriebnahme' (14.3) = 'التشغيل الأول' vs F01/A02 'التشغيل الأولي'.",
+  "suggested_fix": "Use 'سجل بيانات السوق الرئيسي' / 'central market master data register' in both videos; 14.3 AR: كما تتوقف على وقت التشغيل الأولي."
+ },
+ {
+  "video": "E-A03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN uses 'he/his' for the grid operator (9.5, 9.7, 9.8, 9.9, 19.2) and for the plant operator (13.3, 13.4).",
+  "suggested_fix": "EN 9.5: With these it checks grid compatibility. | 9.7: ...which documents it needs. | 9.8: It must give you a schedule for processing. | 9.9: ...you receive its result with a cost estimate... | 19.2: It publishes supplements..."
+ },
+ {
+  "video": "E-A03",
+  "scene": 0,
+  "line": 4,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Q4 AR 'على ماذا تقوم علاوة السوق' is unnatural for 'Wofür steht'.",
+  "suggested_fix": "AR: ما المقصود بعلاوة السوق من حيث المبدأ؟"
+ },
+ {
+  "video": "E-A03",
+  "scene": 0,
+  "line": 5,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Q5 option 2 is grammatically incomplete German ('Auf Zahlen aus Videos verlassen').",
+  "suggested_fix": "DE: Sich auf Zahlen aus Videos verlassen. | AR: الاعتماد على أرقام الفيديوهات. (unchanged)"
+ },
+ {
+  "video": "E-A03",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Singular 'محاورك' addresses one person while German uses Sie-plural/formal and the video says 'ihr' to many; 'محاور' also not the established 'Ansprechpartner' rendering (جهة اتصال in E-A01).",
+  "suggested_fix": "AR: فجهة الاتصال الأولى لكم هناك هي مشغّل الشبكة المحلي."
+ },
+ {
+  "video": "E-A03",
+  "scene": 9,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'Anschluss/anschließen' translated 'الربط' (9.2, 9.3, 9.9, 8.9, 21.3) but TERMS/E-A02 use 'التوصيل بالشبكة'.",
+  "suggested_fix": "9.2 AR: يُلزم قانون EEG مشغّلي الشبكة بتوصيل المنشآت بالشبكة دون تأخير وبأولوية. | 9.3: ويتم التوصيل عند نقطة ربط مناسبة. | 9.9: وفي النهاية تتلقون نتيجته مع تقدير تكلفة التوصيل. | 8.9: من يعرف الشبكة يفهم قواعد التوصيل بصورة أفضل. | 21.3: على مشغّلي الشبكة توصيل المنشآت وتسلّم كهربائها بأولوية."
+ },
+ {
+  "video": "E-A03",
+  "scene": 9,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Betreiber' (plant operator) next to 'Netzbetreiber' is ambiguous for learners; AR 'المشغّل' unclear.",
+  "suggested_fix": "DE: Das Verfahren ist also vor allem eine Abstimmung zwischen Anlagenbetreiber, Planer und Netzbetreiber. | AR: فالإجراء إذن تنسيق بين مشغّل المنشأة والمخطِّط ومشغّل الشبكة. | EN: ...between plant operator, planner and grid operator."
+ },
+ {
+  "video": "E-A03",
+  "scene": 12,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Inconsistent with E-A01 term (see glossary finding); also Latin identifier in parentheses at line end is avoided only by the trailing clause.",
+  "suggested_fix": "See glossary finding."
+ },
+ {
+  "video": "E-A03",
+  "scene": 13,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line ends with '(Marktprämie)' - edge rule (Latin in parentheses at line end).",
+  "suggested_fix": "AR: وعندئذٍ قد يحصل على علاوة السوق (Marktprämie) إضافةً إلى ذلك."
+ },
+ {
+  "video": "E-A03",
+  "scene": 13,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide 13 lists 'Eigenverbrauch | Strom bleibt vor Ort' as a fifth row (and title says 'Zwei Wege') but it is never spoken; slide not consistent with narration.",
+  "suggested_fix": "Add after 13.8: DE: Beim Eigenverbrauch bleibt der Strom dagegen vor Ort. | AR: أما في الاستهلاك الذاتي فتبقى الكهرباء في موقعها. | EN: With self-consumption, by contrast, the power stays on site. (or delete the table row)"
+ },
+ {
+  "video": "E-A03",
+  "scene": 14,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR 'النظر في النظرة العامة' repeats the root awkwardly; 14.6-14.8 repeat 'check current version' three times.",
+  "suggested_fix": "AR: لذلك فإن الاطلاع على أحدث نظرة عامة تنشرها الجهة الرسمية واجب في مشاريعكم."
+ },
+ {
+  "video": "E-A03",
+  "scene": 17,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "tts reads 'Fau-De-E, A-Er, En, vier-eins-null-fünf' with commas (pauses) - inconsistent with E-A02 ('Fau-De-E A-Er-En').",
+  "suggested_fix": "tts: Für das Niederspannungsnetz ist es die Fau-De-E A-Er-En vier-eins-null-fünf."
+ },
+ {
+  "video": "E-A03",
+  "scene": 21,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'بصورة حديثة' is not idiomatic for 'aktuell prüfen'.",
+  "suggested_fix": "AR: ومرة أخرى: عليكم أن تتحققوا بأنفسكم من الأرقام والمُهَل في المصادر الحديثة."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Marktstammdatenregister has a third Arabic wording here ('سجل بيانات سوق الطاقة'; 1.13, 13.4, 13.6, slide term, glossary) vs E-A02 'السوق الأساسية' and E-A03 'السوق الرئيسي'. Installateurverzeichnis = 'سجل المقاولين المعتمدين' (slide 14, 14.5, glossary) vs 'سجل المُركِّبين المعتمدين' in E-A02/F04 (Auftragnehmer=المقاول is a different term).",
+  "suggested_fix": "Use 'سجل بيانات السوق الرئيسي' and 'سجل المُركِّبين المعتمدين' everywhere; 14.5 AR: يطلب مشغّلو الشبكة لذلك شركة مسجّلة في سجل المُركِّبين المعتمدين."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Anschluss/Anschlussregel rendered 'الربط/قاعدة الربط' (1.4, 11.6, 12 term, 19.8) and Anmeldung as 'التسجيل' (3.7, 9.8, 13.2, 15.2, 18.2, 18.5, 19.6) - inconsistent with E-A02 (التوصيل بالشبكة, القاعدة الفنية للتوصيل) and E-A03 (الإبلاغ).",
+  "suggested_fix": "1.4 AR: ستتعرفون على كيفية توصيل هذه الأجهزة بالشبكة. | 11.6: الإعدادات موصوفة في قاعدة التوصيل. | slide 12 term: القاعدة الفنية للتوصيل | 19.8: يجب دائمًا التحقق من قواعد التوصيل والمعايير في نسختها الحالية. | 3.7: لذلك توجد قواعد للإبلاغ والحماية والتشغيل. | 9.8: ومشغّل الشبكة يطلب غالبًا الشهادة عند الإبلاغ. | 13.2: أولًا تبلّغون عنه مشغّل الشبكة. | 15.2: يجب الإبلاغ عن كل منشأة شحن لدى مشغّل الشبكة قبل تشغيلها. | 18.2: تذكّروا الترتيب: تخطيط، إبلاغ، تنفيذ، فحص. | 18.5: ثم يأتي الإبلاغ لدى مشغّل الشبكة وفي السجل. | 19.6: يُبلَّغ عن نقاط الشحن لدى مشغّل الشبكة."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary lacks Typ A/Typ B? no; but missing der Redispatch-like terms used: die Netzdienlichkeit/netzgeführt (slide terms) and der Errichter. Errichter rendered 'المنفِّذ' while Installateur = 'المُركِّب' (E-A02) and EN 'installer' for both.",
+  "suggested_fix": "Add glossary: {de:'der Errichter', ar:'المُركِّب (الشركة المنفِّذة)', en:'installer (company building the system)'}; 13.5 AR: يملأ المُركِّب محضر التشغيل الأولي; 14.7 AR: يقوم المُركِّب بتوجيه المشغّل وتسليم الوثائق; 18.8 AR: وفي النهاية يوجّه المُركِّب المشغّل."
+ },
+ {
+  "video": "E-A04",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide 2 (quote) has a single item and a glossary term (Elektrofachkraft) that does not belong to a disclaimer slide; nearly empty. Same pattern in S20 (two items).",
+  "suggested_fix": "items: ['Nur Konzepte, keine Grenzwerte', 'Keine Planungs- oder Rechtsberatung', 'Aktuelle Normen und Netzbetreiber-Vorgaben prüfen']; move the Elektrofachkraft term to slide 14."
+ },
+ {
+  "video": "E-A04",
+  "scene": 3,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Plural-human agreement for non-human 'sie' (devices): 'يشكّلون' should be feminine singular.",
+  "suggested_fix": "AR: معًا تشكّل منظومة يجب أن يعرفها مشغّل الشبكة."
+ },
+ {
+  "video": "E-A04",
+  "scene": 4,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "4.4 'Er ist der klassische Standard' follows 4.3 (about DC in the house), so 'Er' no longer refers to the string inverter; 4.3 interrupts the type list.",
+  "suggested_fix": "Move 4.3 before 4.2 and reword: DE: Bei Modulen und Batterie liegt im Haus meist Gleichstrom vor. | AR: عند الألواح والبطارية في المنزل يوجد عادةً تيار مستمر. | EN: At the modules and the battery in the house there is usually direct current."
+ },
+ {
+  "video": "E-A04",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "tts 'Fau-De-E-A-R-En' differs from E-A02/E-A03 ('Fau-De-E A-Er-En'); 'R' should be spelled 'Er'. Same in 12.2, 12.4.",
+  "suggested_fix": "tts 8.6: Die Anwendungsregel Fau-De-E A-Er-En vier-eins-null-fünf behandelt ihn für Erzeugungsanlagen am Niederspannungsnetz. | 12.2: Die Fau-De-E A-Er-En vier-eins-null-null beschreibt den Anschluss ans Niederspannungsnetz allgemein. | 12.4: Die Fau-De-E A-Er-En vier-eins-null-fünf gilt für Erzeugungsanlagen und wird auch auf Speicher angewendet."
+ },
+ {
+  "video": "E-A04",
+  "scene": 9,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order of 9.6/9.7: '9.7 Das ist vor allem bei größeren Anlagen eine Möglichkeit' follows the certification sentence, so 'Das' wrongly refers to certification; it is the central design that suits larger plants.",
+  "suggested_fix": "Reorder 9.5, then 9.7 (DE: Der zentrale Schutz ist vor allem bei größeren Anlagen eine Möglichkeit.), then 9.6, 9.8. AR 9.7: والشكل المركزي خيار خصوصًا في المنشآت الكبيرة."
+ },
+ {
+  "video": "E-A04",
+  "scene": 10,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Die Netzfrequenz soll stabil bleiben.' is a non sequitur in the islanding explanation (the problem is that inside the island nobody controls frequency/voltage).",
+  "suggested_fix": "DE: Dort kontrolliert der Netzbetreiber Spannung und Frequenz aber nicht mehr. | AR: لكن مشغّل الشبكة لا يتحكم هناك بالجهد والتردد بعد الآن. | EN: But there the grid operator no longer controls voltage and frequency."
+ },
+ {
+  "video": "E-A04",
+  "scene": 10,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'وله يلزم' is ungrammatical/awkward.",
+  "suggested_fix": "AR: ولذلك يلزم نظام جزيرة مناسب، غالبًا مع تخزين."
+ },
+ {
+  "video": "E-A04",
+  "scene": 10,
+  "line": 11,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Sie ist eine Norm' - antecedent is 'die Prüfung' (10.10), not the standard.",
+  "suggested_fix": "DE: Die IEC 62116 ist eine Norm und kein Gesetz. | tts: Die I-E-Ze sechs-zwei-eins-eins-sechs ist eine Norm und kein Gesetz. | AR: وهذا المعيار ليس قانونًا. | EN: The IEC 62116 is a standard and not a law."
+ },
+ {
+  "video": "E-A04",
+  "scene": 15,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'صندوق الشحن' is a calque of Wallbox; the usual Arabic is 'وحدة الشحن الجدارية'.",
+  "suggested_fix": "15.1 AR: والآن إلى وحدة الشحن الجدارية، أي نقطة الشحن. | 16.6 AR: لا يجوز لمشغّل الشبكة بعد الآن تأخير توصيل وحدات الشحن الجدارية الخاصة الجديدة بسبب الحمل الزائد. | glossary AR: وحدة الشحن الجدارية"
+ },
+ {
+  "video": "E-A04",
+  "scene": 15,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Awkward: 'وبدقة أكثر ما فوق اثني عشر كيلوفولت أمبير'.",
+  "suggested_fix": "AR: تذكر الوكالة الاتحادية للشبكات لذلك نحو أحد عشر كيلوواط، وبتحديد أدق: أكثر من اثني عشر كيلوفولت أمبير."
+ },
+ {
+  "video": "E-A04",
+  "scene": 16,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'gilt ein Tausch' is unidiomatic German; AR 'ما يشبه مقايضة' vague.",
+  "suggested_fix": "DE: Seit einer Festlegung der Bundesnetzagentur von November 2023 gilt ein Tauschgeschäft. | AR: منذ قرار للوكالة الاتحادية للشبكات في نوفمبر ٢٠٢٣ تسري صيغة تبادل بين الطرفين."
+ },
+ {
+  "video": "E-A04",
+  "scene": 16,
+  "line": 7,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN 'he may' for the grid operator (company).",
+  "suggested_fix": "EN: In return, it may temporarily throttle the power draw during bottlenecks."
+ },
+ {
+  "video": "E-A05",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slides 2, 10 and 22 (quote) carry a single item - nearly empty slides.",
+  "suggested_fix": "S2 items: ['Nur Grundbegriffe, keine Zahlen','Auslegung durch geschulte Fachleute','Herstellerdaten und aktuelle Normen beachten'] | S10 items: ['Ausschaltvermögen: größter sicher abschaltbarer Kurzschlussstrom','Muss höher sein als der Kurzschlussstrom','Auch der kleinste Kurzschlussstrom zählt'] | S22 items: ['Allgemeine Information','Keine Rechts- oder Ingenieurberatung','Aktuelle Fassung prüfen']"
+ },
+ {
+  "video": "E-A05",
+  "scene": 2,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Die Auslegung von Schutz' is ungrammatical (missing article/genitive).",
+  "suggested_fix": "DE: Die Auslegung des Schutzes ist Aufgabe von geschulten Fachleuten."
+ },
+ {
+  "video": "E-A05",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Term/glossary 'القصر (الدائرة القصيرة)' uses 'الدائرة' but TERMS fixes Stromkreis = دارة كهربائية.",
+  "suggested_fix": "slide term + glossary AR: القصر (قصر الدارة)"
+ },
+ {
+  "video": "E-A05",
+  "scene": 5,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table rows are long and truncation-prone (62-ish characters: 'Ursache | Überlast: zu viele Verbraucher; Kurzschluss: Fehler'); also S15 last row.",
+  "suggested_fix": "S5 items: ['Ursache | Last zu hoch / Fehler','Strom | erhöht / sehr hoch','Gefahr | Erwärmung / Zerstörung','Schutz | verzögert / sehr schnell','Beispiel | Mehrfachsteckdose / Kabelfehler'] ; S15 last row: 'Wichtig | Schalten ist nicht Schützen'; S9 row 2: 'Leitungsschutzschalter | thermisch, magnetisch'"
+ },
+ {
+  "video": "E-A05",
+  "scene": 5,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'تمنح بعض الوقت' is a literal rendering of 'Zeit lassen'.",
+  "suggested_fix": "AR: لذلك يمكن للحماية هنا أن تتأخر قليلًا في الفصل."
+ },
+ {
+  "video": "E-A05",
+  "scene": 6,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Leitung rendered 'الكابلات والموصلات' (6.7, 6.9) but E-F07 defines Leitung = الخط الكهربائي, Kabel = الكابل, Leiter = الموصل.",
+  "suggested_fix": "6.7 AR: وهو بذلك يحمي الخطوط الكهربائية بشكل أساسي. | 6.9: وهو في التشغيل يمنع بهدوء ارتفاع حرارة الخطوط الكهربائية أكثر من اللازم. | EN 6.7: It therefore mainly protects lines."
+ },
+ {
+  "video": "E-A05",
+  "scene": 7,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Auslöser rendered 'مُحرِّك/محرّكات الفصل' (7.2, 7.3, 7.6, 8.5, 20.4): 'محرّك' means motor/actuator and clashes with the motor lines in scene 14.",
+  "suggested_fix": "7.2 AR: يجمع بين عنصرَي فصل في جهاز واحد. | 7.3: عنصر الفصل الحراري يحتوي على شريحة ثنائية المعدن. | 7.6: عنصر الفصل المغناطيسي يعمل تقريبًا دون تأخير. | 8.5: عناصر الفصل فيه غالبًا قابلة للضبط. | 20.4: وتنسّقون عناصر الفصل بعضها مع بعض. | add glossary: {de:'der Auslöser', ar:'عنصر الفصل', en:'release (trip element)'}"
+ },
+ {
+  "video": "E-A05",
+  "scene": 10,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Vorsicherung (upstream fuse) rendered 'المنصهر الاحتياطي' (= spare/back-up fuse) and EN omits Vorsicherung; confusing with Reserveschutz in scene 19.",
+  "suggested_fix": "AR: ويُسمّى ذلك عندئذٍ المنصهر الأمامي أو حماية الإسناد. | EN: This is then called an upstream fuse or back-up protection. | tts: Man spricht dann von Vorsicherung oder Bäck-app-Schutz."
+ },
+ {
+  "video": "E-A05",
+  "scene": 13,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Freischalten rendered 'الفصل الآمن للدارة' but E-F05 glossary uses 'فصل الجهد'; Trenner/Lasttrenner = 'المفصل/مفصل الحمل' - 'مفصل' also means joint/hinge, consider adding 'مفتاح'.",
+  "suggested_fix": "13.2 AR: يخدم المفصل فصل الجهد بأمان. | slide terms: مفتاح العزل (المفصل) / مفتاح فصل الحمل"
+ },
+ {
+  "video": "E-A05",
+  "scene": 17,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'خشنة' (rough) is not a technical register for 'zu grob'.",
+  "suggested_fix": "AR: الحماية البسيطة من التيار الزائد قد لا تكون دقيقة بما يكفي هنا."
+ },
+ {
+  "video": "E-A05",
+  "scene": 19,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'مشغّلو شبكات النقل' vs 'مشغّلو شبكة النقل' (E-A01 glossary).",
+  "suggested_fix": "AR: ومشغّلو شبكة النقل أيضًا يعملون بحماية رئيسية وحماية احتياطية."
+ },
+ {
+  "video": "E-A05",
+  "scene": 19,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Dann muss der Schutz trotzdem sicher erkennen' - missing object.",
+  "suggested_fix": "DE: Dann muss der Schutz den Fehler trotzdem sicher erkennen. | AR: ومع ذلك يجب أن تتعرف الحماية على العطل بأمان."
+ },
+ {
+  "video": "E-A05",
+  "scene": 19,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Idiom 'zweites Netz unter dem Seil' is unclear (safety net under a tightrope).",
+  "suggested_fix": "DE: Reserveschutz ist wie ein Sicherheitsnetz unter dem Drahtseil. | AR: الحماية الاحتياطية مثل شبكة أمان تحت حبل المشي. | EN: Back-up protection is like a safety net under a tightrope."
+ },
+ {
+  "video": "E-A06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Netzqualität is rendered both 'جودة الطاقة' (title, 1.2) and 'جودة الشبكة' (3.5, 3.6, 3.9, 3.10, 6.8, 20.2, 21.7, glossary '(جودة الشبكة)'); 'Blindleistung' = 'القدرة الردية' here but 'القدرة غير الفعالة' in E-A04 (11.2, glossary); 'Wirkleistung' = 'القدرة الفعلية' in E-A03 12.5.",
+  "suggested_fix": "Use 'جودة الطاقة' everywhere (3.5: جودة الطاقة الجيدة تعني أن الأجهزة تعمل بموثوقية ودون أحمال إضافية. | 20.2: جودة الطاقة تصف مدى نقاء الجهد والتيار. | glossary: جودة الطاقة). Use 'القدرة الردية' in E-A04 (11.2 AR: يمكنها توفير القدرة الردية ودعم الجهد بذلك; slide 11 term + glossary: القدرة الردية) and 'القدرة الفعّالة' in E-A03 12.5 (AR: ويجب أن يمكن خفض القدرة الفعّالة عن بُعد)."
+ },
+ {
+  "video": "E-A06",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide 2 (quote) has a single item; term 'die Norm' 'المعيار (Norm)' ends with Latin in parentheses.",
+  "suggested_fix": "items: ['Allgemeine Einführung','Keine Zahlenwerte aus Normen','Aktuelle Norm und Fachperson prüfen']; term AR: المعيار"
+ },
+ {
+  "video": "E-A06",
+  "scene": 5,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "5.7/5.8 ('Dazu gehören Spannungshöhe...') come after 5.6 (edition changes), so 'Dazu' has no antecedent; the list belongs after 5.3.",
+  "suggested_fix": "Reorder: 5.1, 5.2, 5.3, 5.7, 5.8, 5.4, 5.5, 5.9, 5.10, 5.11, 5.6 and change 5.7 to: DE: Dazu gehören Spannungshöhe, Frequenz, Flicker und Oberschwingungen. (unchanged text, new position)"
+ },
+ {
+  "video": "E-A06",
+  "scene": 8,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Neutralleiter rendered 'الموصل المحايد' (slide term, 8.5-8.7, glossary) but E-F07 glossary uses 'موصل التعادل'.",
+  "suggested_fix": "8.5 AR: في نظام الأسلاك الأربعة يمثّل موصل التعادل حالة خاصة. | 8.7: ولذلك قد يتعرض لحمل كبير. | slide term + glossary AR: موصل التعادل"
+ },
+ {
+  "video": "E-A06",
+  "scene": 9,
+  "line": 5,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN 9.5 says 'grid disturbances' whereas Netzrückwirkungen is 'grid feedback effects' in 3.8/7.8.",
+  "suggested_fix": "EN: Without measurement you hardly notice grid feedback effects."
+ },
+ {
+  "video": "E-A06",
+  "scene": 9,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Fragment: 'Auch die Planung hilft, mit passenden Geräten und Betriebsmitteln.'",
+  "suggested_fix": "DE: Auch die Planung hilft, wenn man passende Geräte und Betriebsmittel wählt. | AR: كما يساعد التخطيط عند اختيار أجهزة ومعدات مناسبة. | EN: Planning also helps when suitable devices and equipment are chosen."
+ },
+ {
+  "video": "E-A06",
+  "scene": 10,
+  "line": 10,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'أنظمة أخرى' for Regelwerke is vague (F02: مجموعة اللوائح).",
+  "suggested_fix": "AR: التقييمات والحدود تأتي من مجموعات لوائح أخرى."
+ },
+ {
+  "video": "E-A06",
+  "scene": 11,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الدارات القصيرة' for Kurzschlüsse but E-A05 uses 'القصر'; 11.6 uses 'الملامسات' for Schütze (see E-A05).",
+  "suggested_fix": "11.4 AR: كما تؤدي أعطال الشبكة، مثل حالات القصر، إلى هذا الهبوط. | 11.6 AR: فقد تتعطل محوّلات التردد أو الكونتاكتورات أو تنفصل."
+ },
+ {
+  "video": "E-A06",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row 'Verzerrte Spannung | Oberschwingungsströme an Impedanz' (51 chars) is truncation-prone and never spoken; narration covers only four rows.",
+  "suggested_fix": "Row text: 'Verzerrte Spannung | Strom an Impedanz' and add after 12.4: DE: Verzerrte Spannung entsteht, wenn Oberschwingungsströme durch die Netzimpedanz fließen. | AR: ويتشوّه الجهد عندما تمر التيارات التوافقية عبر معاوقة الشبكة. | EN: Distorted voltage arises when harmonic currents flow through the grid impedance."
+ },
+ {
+  "video": "E-A06",
+  "scene": 14,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Formula and symbols P, Q, S, 'cos φ' have no tts in lines 13.2, 13.3, 13.5, 14.2-14.4, 20.6; a German voice may read single capitals inconsistently.",
+  "suggested_fix": "14.4 tts: Es gilt: Es Quadrat gleich Pe Quadrat plus Ku Quadrat. | 13.2 tts: Die Wirkleistung Pe leistet die nutzbare Arbeit. | 13.3 tts: Die Blindleistung Ku leistet keine nutzbare Arbeit. | 13.5 tts: Die Scheinleistung Es ergibt sich aus beiden. | 20.6 tts: Das Leistungsdreieck verbindet Pe, Ku und Es."
+ },
+ {
+  "video": "E-A06",
+  "scene": 16,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "16.7 'Rechnen wir langsam und Schritt für Schritt' comes after the calculation steps.",
+  "suggested_fix": "Move 16.7 between 16.2 and 16.3."
+ },
+ {
+  "video": "E-A06",
+  "scene": 16,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "16.8 'obwohl die Wirkleistung kleiner ist' - smaller than what? The key point is that the current follows the apparent power (100 kVA), not the 60 kW.",
+  "suggested_fix": "DE: Merken Sie sich: Die Anlage nimmt so viel Strom auf, als hätte sie 100 Kilovoltampere, obwohl sie nur 60 Kilowatt Wirkleistung hat. | AR: تذكّروا: المنشأة تسحب من التيار ما يقابل ١٠٠ كيلو فولت أمبير مع أن قدرتها الفعّالة ٦٠ كيلوواط فقط. | EN: Remember: the plant draws as much current as for 100 kVA, although its active power is only 60 kW. | tts: Merken Sie sich: Die Anlage nimmt so viel Strom auf, als hätte sie einhundert Kilovoltampere, obwohl sie nur sechzig Kilowatt Wirkleistung hat."
+ },
+ {
+  "video": "E-A06",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'عبر الكبل' - spelling variant of الكابل used elsewhere; Zuleitung = feeder line.",
+  "suggested_fix": "AR: فيمر تيار ردي أقل عبر خط التغذية والمحوّل."
+ },
+ {
+  "video": "E-A01",
+  "scene": 4,
+  "line": 10,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "TERMS: Vorschrift = لائحة; 'القاعدة الحالية' for 'aktuelle Regel' is vague.",
+  "suggested_fix": "AR: لذلك راجعوا القيم دائمًا في اللوائح والمعايير الحالية. | DE: Darum schauen Sie die Werte immer in der aktuellen Fassung der Regeln nach."
+ },
+ {
+  "video": "E-A01",
+  "scene": 6,
+  "line": 2,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Ends with filler 'معًا' that is not in the German and implies 'together'; added only to avoid a Latin line end.",
+  "suggested_fix": "AR: أسماء هذه الشركات هي 50Hertz وAmprion وTenneT وTransnetBW كما ترون على الشريحة."
+ },
+ {
+  "video": "E-A01",
+  "scene": 9,
+  "line": 1,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "tts identical to de (unnecessary field).",
+  "suggested_fix": "Remove the tts field from this line."
+ },
+ {
+  "video": "E-A01",
+  "scene": 10,
+  "line": 3,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Tautology: 'Ihr Netzgebiet ist ein bestimmtes Gebiet.'",
+  "suggested_fix": "DE: Jeder von ihnen hat ein festes Netzgebiet. | AR: ولكل منها منطقة شبكة ثابتة. | EN: Each of them has a fixed grid area."
+ },
+ {
+  "video": "E-A01",
+  "scene": 15,
+  "line": 7,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'am Vortag' is only one detail; AR 'قبل يوم' ambiguous.",
+  "suggested_fix": "AR: ويخطط مشغّلو شبكة النقل لذلك في اليوم السابق بالاعتماد على التنبؤات."
+ },
+ {
+  "video": "E-A01",
+  "scene": 19,
+  "line": 9,
+  "severity": "note",
+  "lang": "de",
+  "issue": "19.7, 19.9 and 19.10 all repeat 'Merken Sie sich / Wiederholen Sie' - recap padded; 20.2 and 20.7 repeat the same message.",
+  "suggested_fix": "Merge 19.9 and 19.10 into one line: Wiederholen Sie besonders Frequenz, Bilanzkreis und Regelzone mit dem Glossar."
+ },
+ {
+  "video": "E-A02",
+  "scene": 0,
+  "line": 5,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Q5 distractors 'Nur den Nachbarn fragen' is not plausible (too easy).",
+  "suggested_fix": "Replace option 3 with: DE: Nur nach Gefühl entscheiden | AR: القرار بحسب الانطباع الشخصي فقط | EN: Decide by gut feeling only"
+ },
+ {
+  "video": "E-A02",
+  "scene": 9,
+  "line": 10,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "Several tts fields (9.2, 9.7, 9.8, 9.10, 18.3, 19.4) are identical to de except for the spoken 'Tab'; fine functionally but the de line should read TAB so subtitles match slide text.",
+  "suggested_fix": "de: ... TAB ... (keep tts as is)"
+ },
+ {
+  "video": "E-A02",
+  "scene": 14,
+  "line": 2,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'stören' translated as 'تضر' (harm); 'disturb' is closer.",
+  "suggested_fix": "AR: يريد مشغّل الشبكة أن يتأكد من أن الأجهزة لا تُحدث اضطرابًا في الشبكة."
+ },
+ {
+  "video": "E-A03",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Title AR lists 'والتغذية والتعويض' that the German/English title does not mention.",
+  "suggested_fix": "title AR: الطاقات المتجددة: الشمسية والرياح وقانون EEG"
+ },
+ {
+  "video": "E-A03",
+  "scene": 10,
+  "line": 5,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'الجدوى الاقتصادية المعقولة' - Zumutbarkeit is 'المعقولية الاقتصادية' (reasonableness), not feasibility.",
+  "suggested_fix": "AR: وأحد الحدود هو المعقولية الاقتصادية."
+ },
+ {
+  "video": "E-A03",
+  "scene": 13,
+  "line": 10,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'مُبلَّغ عنها' for 'angemeldet' reads oddly.",
+  "suggested_fix": "AR: كلا الطريقين يفترض أن تكون المنشأة مسجَّلة ومُبلَّغًا عنها بصورة سليمة."
+ },
+ {
+  "video": "E-A03",
+  "scene": 17,
+  "line": 2,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Filler 'المعروفة' not in German.",
+  "suggested_fix": "AR: لشبكة الجهد المنخفض هي القاعدة VDE-AR-N 4105 الفنية."
+ },
+ {
+  "video": "E-A04",
+  "scene": 0,
+  "line": 3,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Q3 distractors 'Ein Kabel liegt im Wasser' / 'Der Speicher ist leer' are implausible (too easy).",
+  "suggested_fix": "Replace with: DE: Ein Wechselrichter wird vom Netz getrennt | AR: يُفصل العاكس عن الشبكة | EN: An inverter is disconnected from the grid ; DE: Eine Batterie wird tiefentladen | AR: تفريغ البطارية بالكامل | EN: A battery is deeply discharged"
+ },
+ {
+  "video": "E-A04",
+  "scene": 5,
+  "line": 2,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'تذكّر بسيط' is not a noun phrase for 'Eselsbrücke'; DE 'Eselsbrücke' is an idiom beyond B2 for many learners.",
+  "suggested_fix": "DE: Dazu hilft eine einfache Merkhilfe für jede Aufgabe. | AR: تساعد على ذلك وسيلة تذكّر بسيطة لكل مهمة."
+ },
+ {
+  "video": "E-A04",
+  "scene": 6,
+  "line": 1,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'Speicher' is rendered three ways: 'التخزين' (6.1, 6.6, 19.3), 'جهاز التخزين' and 'المخزن' (E-A02 glossary).",
+  "suggested_fix": "Use 'المخزن' for the device: 6.1 AR: يمكن توصيل المخزن بطريقتين. | 6.6: وهذا مناسب لإضافة المخزن إلى منظومة قائمة. | 19.3: تُوصَّل المخازن عبر الربط المستمر أو الربط المتناوب."
+ },
+ {
+  "video": "E-A04",
+  "scene": 6,
+  "line": 4,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "tts fields identical to the de line (1.1, 6.4, 16.1) are unnecessary.",
+  "suggested_fix": "Remove the tts field in 1.1, 6.4, 16.1."
+ },
+ {
+  "video": "E-A04",
+  "scene": 6,
+  "line": 9,
+  "severity": "note",
+  "lang": "de",
+  "issue": "6.9 repeats 6.6 (retrofit is easier with AC coupling).",
+  "suggested_fix": "Delete 6.9."
+ },
+ {
+  "video": "E-A04",
+  "scene": 16,
+  "line": 3,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'Beide Seiten brauchen Planungssicherheit.' comes before the two sides are introduced.",
+  "suggested_fix": "Move 16.3 after 16.7."
+ },
+ {
+  "video": "E-A05",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "glossary",
+  "issue": "Glossary lacks der Auslöser, die Impedanz, das Ausschaltvermögen is present; Impedanz/Auslöser are taught but missing.",
+  "suggested_fix": "Add {de:'der Auslöser', ar:'عنصر الفصل', en:'release'}, {de:'die Impedanz', ar:'المعاوقة', en:'impedance'}"
+ },
+ {
+  "video": "E-A05",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "No tts field anywhere in this script; acceptable, but 'Back-up' (10.6) and 'Kirchhoffsche' are safe only if the voice handles the English loan word.",
+  "suggested_fix": "10.6 tts: Man spricht dann von Vorsicherung oder Bäck-app-Schutz."
+ },
+ {
+  "video": "E-A05",
+  "scene": 6,
+  "line": 4,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'عنصر المنصهر' for Sicherungseinsatz; usual term is 'خرطوشة المنصهر'.",
+  "suggested_fix": "AR: بعد ذلك يجب استبدال خرطوشة المنصهر. | 7.9: لأن أحدًا لا يحتاج إلى استبدال خرطوشة."
+ },
+ {
+  "video": "E-A05",
+  "scene": 6,
+  "line": 8,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'رخيص' is colloquial for 'günstig'.",
+  "suggested_fix": "AR: وهو متين وغير مكلف ومنتشر على نطاق واسع."
+ },
+ {
+  "video": "E-A05",
+  "scene": 12,
+  "line": 6,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'الجهاز السابق' (12.6) vs 'الجهاز في المنبع' (12.4): upstream/downstream not consistent.",
+  "suggested_fix": "12.6 AR: يجب ألا يفصل الجهاز في جهة المنبع إلا بعد ذلك. | 12.5: وبذلك يكون لدى الجهاز في جهة المصب وقت لإزالة العطل."
+ },
+ {
+  "video": "E-A05",
+  "scene": 17,
+  "line": 4,
+  "severity": "note",
+  "lang": "en",
+  "issue": "EN spelling mixes US ('summarize', 'recognizes' in E-A05) and UK ('summarise' in E-A01..A03).",
+  "suggested_fix": "Use UK spelling: 9.1 Let us summarise the three protective devices. | 21.1 Let us summarise. | 17.4 This is how the device recognises how far away the fault is."
+ },
+ {
+  "video": "E-A06",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "NEXT/Title mention 'DIN VDE 0100' and the title/kicker 'DIN EN 50160' (slide 5 heading) - if these strings are voiced anywhere, tts lacks the spelling; 9.4 tts reads the digits one by one without pauses.",
+  "suggested_fix": "9.4 tts: Gerätenormen wie E-En, sechs eins null null null, drei, zwei begrenzen Oberschwingungsströme von Geräten."
+ },
+ {
+  "video": "E-A06",
+  "scene": 8,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'Oberschwingungen tragen nicht zur Wirkleistung bei' is an oversimplification for a learning video (harmonic power is small, not zero).",
+  "suggested_fix": "DE: Wichtig: Oberschwingungen liefern kaum nutzbare Wirkleistung. | AR: مهم: التوافقيات لا تقدّم تقريبًا قدرة فعّالة مفيدة. | EN: Important: harmonics deliver hardly any useful active power."
+ },
+ {
+  "video": "E-A06",
+  "scene": 10,
+  "line": 12,
+  "severity": "note",
+  "lang": "de",
+  "issue": "10.12 repeats 10.5 (unpleasant for people) - padding.",
+  "suggested_fix": "Delete 10.12."
+ },
+ {
+  "video": "E-A06",
+  "scene": 17,
+  "line": 2,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'الظل' for tangent is ambiguous in AR; use 'ظل الزاوية'.",
+  "suggested_fix": "17.2 AR: عندئذ يكون ظل الزاوية ٠٫٧٥. | 17.7 AR: الصيغة هي: قدرة المكثف تساوي القدرة الفعّالة ضرب فرق ظلّي الزاوية. | 17.8 AR: هنا ظل الزاوية قبل التعويض ٨٠ على ٦٠ أي نحو ١٫٣٣."
+ },
+ {
+  "video": "E-A06",
+  "scene": 18,
+  "line": 10,
+  "severity": "note",
+  "lang": "de",
+  "issue": "18.7 and 18.10 both state that capacitors supply capacitive reactive power.",
+  "suggested_fix": "Delete 18.7."
+ },
+ {
+  "video": "E-A06",
+  "scene": 21,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Style: 21.8 'Das nächste Video behandelt...' differs from the 'Im nächsten Video geht es um ...' pattern of E-A02..A05.",
+  "suggested_fix": "DE: Im nächsten Video geht es um Niederspannungsinstallationen. | AR: في الفيديو القادم نتناول التركيبات الكهربائية للجهد المنخفض. | EN: The next video is about low-voltage installations."
+ }
+]
