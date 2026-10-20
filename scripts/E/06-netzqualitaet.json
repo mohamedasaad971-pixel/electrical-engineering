@@ -196,6 +196,16 @@
      "de": "Deshalb sprechen Ingenieure von Netzrückwirkungen.",
      "ar": "لذلك يتحدث المهندسون عن التأثيرات الراجعة على الشبكة.",
      "en": "That is why engineers speak of grid feedback effects."
+    },
+    {
+     "de": "Gute Netzqualität schützt Geräte, Anlagen und Produktionsprozesse.",
+     "ar": "جودة الشبكة الجيدة تحمي الأجهزة والمنشآت وعمليات الإنتاج.",
+     "en": "Good power quality protects devices, plants and production processes."
+    },
+    {
+     "de": "Schlechte Netzqualität kann dagegen Fehlfunktionen und Zusatzbelastung verursachen.",
+     "ar": "أما الجودة السيئة فقد تتسبب في أعطال وحمل إضافي.",
+     "en": "Poor power quality, however, can cause malfunctions and extra stress."
     }
    ]
   },
@@ -319,6 +329,16 @@
      "de": "Für Einbrüche gibt es in der Fachliteratur eher Richtwerte.",
      "ar": "بالنسبة للهبوط المفاجئ توجد في المراجع المتخصصة قيم إرشادية في الغالب.",
      "en": "For dips the technical literature gives rather guide values."
+    },
+    {
+     "de": "Wichtig: Die Norm beschreibt die Spannung des öffentlichen Netzes, nicht jede Kundenanlage.",
+     "ar": "مهم: المعيار يصف جهد الشبكة العامة، لا كل منشأة للعميل.",
+     "en": "Important: the standard describes the voltage of the public grid, not every customer installation."
+    },
+    {
+     "de": "Zahlenwerte entnehmen Sie bitte der gültigen Norm selbst.",
+     "ar": "القيم الرقمية خذوها من المعيار الساري نفسه.",
+     "en": "Please take numerical values from the valid standard itself."
     }
    ]
   },
@@ -459,6 +479,16 @@
      "de": "Bei fünfzig Hertz sind das zum Beispiel hundertfünfzig oder zweihundertfünfzig Hertz.",
      "ar": "عند خمسين هرتز مثلًا هذا يعني مئة وخمسين أو مئتين وخمسين هرتز.",
      "en": "At fifty hertz that means, for example, one hundred fifty or two hundred fifty hertz."
+    },
+    {
+     "de": "Das Wort dafür ist nichtlinear: Strom und Spannung sind nicht proportional.",
+     "ar": "الكلمة المناسبة هي غير خطي: التيار والجهد ليسا متناسبين.",
+     "en": "The word for this is nonlinear: current and voltage are not proportional."
+    },
+    {
+     "de": "Dann ist der Strom nicht mehr sinusförmig.",
+     "ar": "عندئذ لا يعود التيار جيبيًا.",
+     "en": "Then the current is no longer sinusoidal."
     }
    ]
   },
@@ -567,7 +597,7 @@
      "de": "Gerätenormen wie EN 61000-3-2 begrenzen Oberschwingungsströme von Geräten.",
      "ar": "معايير الأجهزة مثل EN 61000-3-2 تحدّ من التيارات التوافقية للأجهزة.",
      "en": "Product standards such as EN 61000-3-2 limit the harmonic currents of devices.",
-     "tts": "Gerätenormen wie EN einundsechzigtausend-drei-zwei begrenzen Oberschwingungsströme von Geräten."
+     "tts": "Gerätenormen wie E-En sechs eins null null null drei zwei begrenzen Oberschwingungsströme von Geräten."
     },
     {
      "de": "Ohne Messung erkennt man Netzrückwirkungen kaum.",
@@ -578,7 +608,7 @@
      "de": "Messverfahren beschreibt unter anderem die Norm IEC 61000-4-30.",
      "ar": "ويصف طرق القياس معيار IEC 61000-4-30 بين معايير أخرى.",
      "en": "Measurement methods are described, among others, in IEC 61000-4-30.",
-     "tts": "Messverfahren beschreibt unter anderem die Norm I-E-Ze einundsechzigtausend-vier-dreißig."
+     "tts": "Messverfahren beschreibt unter anderem die Norm I-E-Ze sechs eins null null null vier drei null."
     },
     {
      "de": "Auch die Planung hilft, mit passenden Geräten und Betriebsmitteln.",
@@ -650,7 +680,8 @@
     {
      "de": "Kenngrößen sind Pst für zehn Minuten und Plt für zwei Stunden.",
      "ar": "المقدارين المميّزين هما Pst لعشر دقائق وPlt لساعتين.",
-     "en": "Key values are Pst for ten minutes and Plt for two hours."
+     "en": "Key values are Pst for ten minutes and Plt for two hours.",
+     "tts": "Kenngrößen sind Pe-Es-Te für zehn Minuten und Pe-El-Te für zwei Stunden."
     },
     {
      "de": "Typische Verursacher sind Lasten mit stark schwankender Leistung.",
@@ -666,6 +697,16 @@
      "de": "Bewertungen und Grenzen kommen aus anderen Regelwerken.",
      "ar": "التقييمات والحدود تأتي من أنظمة أخرى.",
      "en": "Assessments and limits come from other rule sets."
+    },
+    {
+     "de": "Für die Praxis heißt das: Beleuchtung ist besonders empfindlich.",
+     "ar": "عمليًا هذا يعني أن الإضاءة حساسة بشكل خاص.",
+     "en": "In practice that means lighting is especially sensitive."
+    },
+    {
+     "de": "Menschen nehmen solche Helligkeitsänderungen als unangenehm wahr.",
+     "ar": "يشعر الناس بهذه التغيرات في السطوع على أنها مزعجة.",
+     "en": "People find such brightness changes unpleasant."
     }
    ]
   },
@@ -872,6 +913,16 @@
      "de": "Leitungen und Transformatoren müssen die Scheinleistung tragen.",
      "ar": "الخطوط والمحوّلات يجب أن تتحمل القدرة الظاهرية.",
      "en": "Lines and transformers must carry the apparent power."
+    },
+    {
+     "de": "Ein Beispiel: Ein Motor braucht Wirkleistung für die Welle.",
+     "ar": "مثال: المحرك يحتاج قدرة فعّالة لعمود الدوران.",
+     "en": "An example: a motor needs active power for the shaft."
+    },
+    {
+     "de": "Zusätzlich nimmt er als induktiver Verbraucher Blindleistung auf.",
+     "ar": "وهو يسحب بالإضافة إلى ذلك قدرة ردية بوصفه حِملًا حثيًا.",
+     "en": "In addition, as an inductive load, it draws reactive power."
     }
    ]
   },
@@ -1067,6 +1118,16 @@
      "de": "Der Blindanteil ist hier groß.",
      "ar": "الجزء الردي هنا كبير.",
      "en": "The reactive share is large here."
+    },
+    {
+     "de": "Der Strom ist proportional zur Scheinleistung, nicht zur Wirkleistung.",
+     "ar": "التيار يتناسب مع القدرة الظاهرية لا مع القدرة الفعّالة.",
+     "en": "The current is proportional to apparent power, not to active power."
+    },
+    {
+     "de": "Darum belastet Blindleistung Leitung und Trafo.",
+     "ar": "لذلك تحمّل القدرة الردية الخط والمحوّل.",
+     "en": "That is why reactive power loads line and transformer."
     }
    ]
   },
@@ -1215,6 +1276,16 @@
      "de": "Kondensatorbatterien sollten Sie regelmäßig kontrollieren.",
      "ar": "ينبغي فحص بطاريات المكثفات بانتظام.",
      "en": "You should check capacitor banks regularly."
+    },
+    {
+     "de": "Kondensatoren liefern kapazitive Blindleistung, Motoren brauchen induktive.",
+     "ar": "المكثفات توفّر قدرة ردية سعوية والمحركات تحتاج قدرة ردية حثية.",
+     "en": "Capacitors supply capacitive reactive power, motors need inductive."
+    },
+    {
+     "de": "Die Planung hängt von der Anlage und vom Netzbetreiber ab.",
+     "ar": "يعتمد التخطيط على المنشأة وعلى مشغّل الشبكة.",
+     "en": "Planning depends on the plant and on the grid operator."
     }
    ]
   },
