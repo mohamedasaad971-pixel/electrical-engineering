@@ -23,9 +23,19 @@
      "en": "Welcome to the third video on automation and control."
     },
     {
+     "de": "Im Video davor ging es um funktionale Sicherheit.",
+     "ar": "في الفيديو السابق تناولنا الأمان الوظيفي.",
+     "en": "The video before was about functional safety."
+    },
+    {
      "de": "Heute geht es um Maschinensicherheit.",
      "ar": "موضوعنا اليوم هو أمان الآلات.",
      "en": "Today we talk about machine safety."
+    },
+    {
+     "de": "Heute ergänzen wir das mit dem Blick auf die ganze Maschine.",
+     "ar": "واليوم نكمّل ذلك بالنظر إلى الآلة بأكملها.",
+     "en": "Today we add the view of the whole machine."
     },
     {
      "de": "Eine Maschine entsteht in Deutschland meist im Team.",
@@ -39,7 +49,7 @@
     },
     {
      "de": "Sie lernen die CE-Kennzeichnung, die Risikobeurteilung und den Not-Halt kennen.",
-     "ar": "ستتعرفون على علامة CE وتقييم المخاطر وإيقاف الطوارئ (Not-Halt).",
+     "ar": "ستتعرفون على علامة CE وتقييم المخاطر، ثم على مفهوم إيقاف الطوارئ.",
      "en": "You learn about the CE mark, the risk assessment and the emergency stop.",
      "tts": "Sie lernen die Ze-E-Kennzeichnung, die Risikobeurteilung und den Not-Halt kennen."
     },
@@ -146,9 +156,19 @@
      "en": "He must assess conformity before placing it on the market."
     },
     {
+     "de": "Der Betreiber setzt die Maschine später im Betrieb ein.",
+     "ar": "أما المشغِّل فيستخدم الآلة لاحقًا في المنشأة.",
+     "en": "The operator later uses the machine in the plant."
+    },
+    {
      "de": "Als Elektroingenieur arbeiten Sie deshalb eng mit dem Maschinenbau zusammen.",
      "ar": "لذلك ستعملون كمهندسي كهرباء بتعاون وثيق مع الهندسة الميكانيكية.",
      "en": "As an electrical engineer, you therefore work closely with mechanical engineering."
+    },
+    {
+     "de": "Gute Ergebnisse entstehen, wenn beide Seiten früh miteinander sprechen.",
+     "ar": "تتحقق نتائج جيدة حين يتحدث الطرفان معًا مبكرًا.",
+     "en": "Good results appear when both sides talk to each other early."
     }
    ]
   },
@@ -180,12 +200,23 @@
     {
      "de": "Bisher gilt in der EU die Maschinenrichtlinie.",
      "ar": "حتى الآن يسري في الاتحاد الأوروبي توجيه الآلات.",
-     "en": "So far, the Machinery Directive applies in the EU."
+     "en": "So far, the Machinery Directive applies in the EU.",
+     "tts": "Bisher gilt in der Eu-Ü die Maschinenrichtlinie."
+    },
+    {
+     "de": "Eine Richtlinie wird zuerst in nationales Recht umgesetzt.",
+     "ar": "التوجيه يُنقل أولًا إلى القانون الوطني.",
+     "en": "A directive is first transposed into national law."
     },
     {
      "de": "Sie wird durch die Maschinenverordnung ersetzt.",
      "ar": "وسيحل محله لائحة الآلات.",
      "en": "It is being replaced by the Machinery Regulation."
+    },
+    {
+     "de": "In Deutschland geschah das bisher über das Produktsicherheitsgesetz.",
+     "ar": "وفي ألمانيا تم ذلك حتى الآن عبر قانون سلامة المنتجات.",
+     "en": "In Germany, this has so far been done through the Product Safety Act."
     },
     {
      "de": "Eine Verordnung gilt in Deutschland unmittelbar.",
@@ -225,13 +256,13 @@
     },
     {
      "de": "Laut DGUV gilt die Verordnung ab dem 20. Januar 2027.",
-     "ar": "وفق DGUV تسري اللائحة اعتبارًا من 20 يناير 2027.",
+     "ar": "تسري اللائحة وفق DGUV اعتبارًا من العشرين من يناير عام ألفين وسبعة وعشرين تقريبًا.",
      "en": "According to DGUV, the regulation applies from 20 January 2027.",
      "tts": "Laut De-Ge-U-Fau gilt die Verordnung ab dem zwanzigsten Januar zweitausendsiebenundzwanzig."
     },
     {
      "de": "Bis zum 19. Januar 2027 gilt noch die Richtlinie.",
-     "ar": "وحتى 19 يناير 2027 يبقى التوجيه ساريًا.",
+     "ar": "وحتى التاسع عشر من يناير عام ألفين وسبعة وعشرين يبقى التوجيه ساريًا.",
      "en": "Until 19 January 2027, the directive still applies.",
      "tts": "Bis zum neunzehnten Januar zweitausendsiebenundzwanzig gilt noch die Richtlinie."
     },
@@ -245,6 +276,11 @@
      "de": "Maßgeblich ist immer der aktuelle amtliche Text.",
      "ar": "المرجع دائمًا هو النص الرسمي الحالي.",
      "en": "The current official text is always decisive."
+    },
+    {
+     "de": "Maschinen, die vorher in Verkehr kommen, werden noch nach der Richtlinie bewertet.",
+     "ar": "الآلات التي تُطرح في السوق قبل ذلك تُقيَّم بعدُ وفق التوجيه.",
+     "en": "Machines placed on the market earlier are still assessed under the directive."
     }
    ]
   },
@@ -307,6 +343,11 @@
      "tts": "Die Ze-E-Kennzeichnung ist eine Herstellererklärung und keine Prüfplakette."
     },
     {
+     "de": "Die Konformitätserklärung liegt der Maschine bei.",
+     "ar": "يُرفق إعلان المطابقة مع الآلة.",
+     "en": "The declaration of conformity accompanies the machine."
+    },
+    {
      "de": "Fehlt eine vorgeschriebene CE-Kennzeichnung, darf das Produkt nicht bereitgestellt werden.",
      "ar": "وإذا غابت علامة CE المطلوبة فلا يجوز توفير المنتج.",
      "en": "If a required CE mark is missing, the product must not be made available.",
@@ -366,9 +407,19 @@
      "en": "It is repeated until the measures are sufficient."
     },
     {
+     "de": "Die Elektrik trägt dazu bei, zum Beispiel mit Steuerung und Energieversorgung.",
+     "ar": "ويساهم الجانب الكهربائي في ذلك، مثلًا بالتحكم وإمداد الطاقة.",
+     "en": "Electrics contributes, for example with controls and power supply."
+    },
+    {
      "de": "Wie genau Sie beurteilen, regelt das Gesetz nicht im Detail.",
      "ar": "ولا ينظّم القانون بالتفصيل كيفية التقييم بالضبط.",
      "en": "The law does not regulate in detail exactly how you assess."
+    },
+    {
+     "de": "Das Ergebnis halten Sie schriftlich fest.",
+     "ar": "وتُدوَّن النتيجة كتابةً.",
+     "en": "You record the result in writing."
     }
    ]
   },
@@ -390,6 +441,11 @@
      "de": "Die Risikominderung folgt drei Stufen.",
      "ar": "يتبع تخفيف المخاطر ثلاث مراحل.",
      "en": "Risk reduction follows three steps."
+    },
+    {
+     "de": "Schutzmaßnahmen haben also eine klare Rangfolge.",
+     "ar": "أي أن لإجراءات الحماية ترتيب أولويات واضحًا.",
+     "en": "So protective measures have a clear order of priority."
     },
     {
      "de": "Zuerst versucht man, die Gefahr durch die Konstruktion selbst zu beseitigen.",
@@ -509,7 +565,7 @@
    "lines": [
     {
      "de": "Jetzt zu einem wichtigen Wortpaar: Not-Halt und Not-Aus.",
-     "ar": "والآن زوج مهم من المصطلحات: Not-Halt وNot-Aus.",
+     "ar": "والآن زوج مهم من المصطلحات: إيقاف الطوارئ (Not-Halt) وفصل الطاقة في الطوارئ (Not-Aus) مختلفان.",
      "en": "Now an important pair of words: Not-Halt and Not-Aus."
     },
     {
@@ -541,6 +597,18 @@
      "de": "Legen Sie im Projekt deshalb genau fest, welche Funktion gemeint ist.",
      "ar": "لذلك حدّدوا في المشروع بدقة أي وظيفة هي المقصودة.",
      "en": "So define precisely in the project which function is meant."
+    },
+    {
+     "de": "Die BG RCI verweist beim Ausschalten im Notfall auf die EN 60204-1.",
+     "ar": "وتشير BG RCI عند الحديث عن فصل الطاقة في الطوارئ إلى EN 60204-1 المعروف.",
+     "en": "For switching off in an emergency, BG RCI refers to EN 60204-1.",
+     "tts": "Die Be-Ge-Er-Ze-I verweist beim Ausschalten im Notfall auf die E-En sechs null zwei null vier Strich eins."
+    },
+    {
+     "de": "Für den Not-Halt selbst verweisen Fachquellen auf die EN ISO 13850.",
+     "ar": "أما لإيقاف الطوارئ نفسه فتشير المصادر المتخصصة إلى EN ISO 13850 المعروف.",
+     "en": "For the Not-Halt itself, expert sources refer to EN ISO 13850.",
+     "tts": "Für den Not-Halt selbst verweisen Fachquellen auf die E-En I-So eins drei acht fünf null."
     }
    ]
   },
@@ -593,6 +661,11 @@
      "de": "Ausnahmen gibt es zum Beispiel bei handgeführten Maschinen.",
      "ar": "وهناك استثناءات، مثل الآلات التي تُمسك باليد.",
      "en": "There are exceptions, for example for hand-guided machines."
+    },
+    {
+     "de": "Bei beleuchteten Geräten muss das Bedienteil auch ohne Licht rot bleiben.",
+     "ar": "وفي الأجهزة المضاءة يجب أن يبقى الزر أحمر حتى دون إضاءة.",
+     "en": "With illuminated devices, the control element must stay red even without light."
     }
    ]
   },
@@ -649,6 +722,12 @@
      "de": "Wie zuverlässig die Funktion sein muss, behandelt das Video zur funktionalen Sicherheit.",
      "ar": "ومدى موثوقية الوظيفة المطلوبة يعالجه الفيديو الخاص بالأمان الوظيفي.",
      "en": "How reliable the function must be is covered in the video on functional safety."
+    },
+    {
+     "de": "Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt.",
+     "ar": "وكثيرًا ما تُنفَّذ الفئة صفر بفصل آمن للمحركات.",
+     "en": "Category 0 is often implemented by a safe switch-off of the drives.",
+     "tts": "Kategorie null wird oft durch eine sichere Abschaltung der Antriebe umgesetzt."
     }
    ]
   },
@@ -686,6 +765,11 @@
      "de": "Trennende Schutzeinrichtungen sind zum Beispiel Schutzzäune, Abdeckungen und Gitter.",
      "ar": "أجهزة الحماية الفاصلة مثل سياجات الحماية والأغطية والشبكات.",
      "en": "Fixed separating guards are, for example, guard fences, covers and grilles."
+    },
+    {
+     "de": "Gitter, Abdeckungen und Verkleidungen schützen vor mechanischen Gefährdungen.",
+     "ar": "الشبكات والأغطية والهياكل الواقية تحمي من المخاطر الميكانيكية.",
+     "en": "Grilles, covers and casings protect against mechanical hazards."
     },
     {
      "de": "Es gibt feste und bewegliche Ausführungen.",
@@ -765,6 +849,11 @@
      "de": "Ein Lichtvorhang schützt nicht vor herausgeschleuderten Teilen.",
      "ar": "والستارة الضوئية لا تحمي من الأجزاء المقذوفة من الآلة.",
      "en": "A light curtain does not protect against ejected parts."
+    },
+    {
+     "de": "Bei Pressen schließt man Öffnungen neben dem Lichtvorhang mit festen Schutzeinrichtungen.",
+     "ar": "وفي المكابس تُسدّ الفتحات بجوار الستارة الضوئية بوسائل حماية ثابتة.",
+     "en": "On presses, openings next to the light curtain are closed with fixed guards."
     }
    ]
   },
@@ -815,6 +904,11 @@
      "en": "Isolating is only the first step."
     },
     {
+     "de": "Beim Wiedereinschalten ist die Reihenfolge umgekehrt.",
+     "ar": "وعند إعادة التشغيل يكون الترتيب معكوسًا.",
+     "en": "When switching on again, the order is reversed."
+    },
+    {
      "de": "Arbeiten an elektrischen Anlagen führt eine Elektrofachkraft aus oder jemand unter Leitung und Aufsicht einer Elektrofachkraft.",
      "ar": "يتولى الأعمال على المنشآت الكهربائية كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت قيادته وإشرافه.",
      "en": "Work on electrical installations is done by an electrically qualified person or someone under their direction and supervision."
@@ -823,6 +917,11 @@
      "de": "Die Details finden Sie im Video über elektrische Sicherheit.",
      "ar": "تفاصيل ذلك في الفيديو الخاص بالسلامة الكهربائية.",
      "en": "You find the details in the video on electrical safety."
+    },
+    {
+     "de": "Das Video zur Elektrofachkraft erklärt die Rollen genauer.",
+     "ar": "الفيديو الخاص بالكهربائي المؤهَّل يشرح الأدوار بتفصيل أكبر.",
+     "en": "The video on the qualified electrician explains the roles in more detail."
     }
    ]
   },
@@ -894,6 +993,11 @@
      "tts": "Hilfe bietet ein Interpretationspapier des Bundesarbeitsministeriums von zweitausendfünfzehn."
     },
     {
+     "de": "Die Behörde sagt selbst, dass sich keine starren Kriterien nennen lassen.",
+     "ar": "وتقول الجهة نفسها إنه لا يمكن وضع معايير جامدة.",
+     "en": "The authority itself says that no rigid criteria can be given."
+    },
+    {
      "de": "Prüfen Sie, ob es zur neuen Verordnung angepasst wurde.",
      "ar": "وتحققوا من تعديله بما يوافق اللائحة الجديدة.",
      "en": "Check whether it was adapted to the new regulation."
@@ -929,6 +1033,11 @@
      "de": "Nicht jedes Teil ist eine vollständige Maschine.",
      "ar": "ليس كل جزء آلة كاملة.",
      "en": "Not every part is a complete machine."
+    },
+    {
+     "de": "Wichtig ist die Frage: Funktioniert das Teil allein?",
+     "ar": "السؤال المهم: هل يعمل الجزء وحده؟",
+     "en": "The key question: does the part work alone?"
     },
     {
      "de": "Eine unvollständige Maschine kann allein keine bestimmte Funktion erfüllen.",
@@ -1029,6 +1138,11 @@
      "en": "Under the directive, they must remain available for at least ten years."
     },
     {
+     "de": "Die Konformitätserklärung liegt der Maschine bei.",
+     "ar": "ويُرفق إعلان المطابقة مع الآلة.",
+     "en": "The declaration of conformity accompanies the machine."
+    },
+    {
      "de": "Prüfen Sie, welche Fristen die Verordnung vorsieht.",
      "ar": "وتحققوا من المهل التي تنص عليها اللائحة.",
      "en": "Check which periods the regulation provides."
@@ -1071,6 +1185,11 @@
      "en": "Standards help to implement the requirements."
     },
     {
+     "de": "Normen sind keine Rechtsnormen, sondern technische Regeln.",
+     "ar": "المعايير ليست قواعد قانونية بل قواعد تقنية.",
+     "en": "Standards are not legal norms but technical rules."
+    },
+    {
      "de": "Wird eine harmonisierte Norm angewendet, vermutet man die Erfüllung der davon erfassten Anforderungen.",
      "ar": "عند تطبيق معيار منسَّق يُفترض استيفاء المتطلبات التي يغطيها.",
      "en": "If a harmonised standard is applied, fulfilment of the requirements it covers is presumed."
@@ -1083,7 +1202,8 @@
     {
      "de": "Prüfen Sie deshalb die aktuelle Liste im Amtsblatt der EU.",
      "ar": "لذلك راجعوا القائمة الحالية في الجريدة الرسمية للاتحاد الأوروبي.",
-     "en": "So check the current list in the Official Journal of the EU."
+     "en": "So check the current list in the Official Journal of the EU.",
+     "tts": "Prüfen Sie deshalb die aktuelle Liste im Amtsblatt der Eu-Ü."
     },
     {
      "de": "Die Anwendung einer Norm ersetzt die Risikobeurteilung nicht.",
