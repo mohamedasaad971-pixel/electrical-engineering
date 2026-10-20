@@ -301,8 +301,8 @@ def contact_sheet(paths, out, cols=4, tw=480):
         im = Image.open(p).convert("RGB").resize((tw, th), Image.LANCZOS)
         x, y = 8 + (i % cols) * (tw + 8), 8 + (i // cols) * (th + 8)
         sheet.paste(im, (x, y))
-        d.rectangle([x, y, x + 34, y + 22], fill=(0, 0, 0))
-        d.text((x + 6, y + 5), str(i + 1), fill=(255, 255, 255))
+        d.rectangle([x, y + th - 22, x + 34, y + th], fill=(0, 0, 0))
+        d.text((x + 6, y + th - 17), str(i + 1), fill=(255, 255, 255))
     sheet.save(out)
 
 

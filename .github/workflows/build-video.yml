@@ -1,0 +1,92 @@
+name: build-video
+
+on:
+  push:
+    paths:
+      - "pipeline/run.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # only needed for the optional draft release upload
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+      rev: ${{ steps.m.outputs.rev }}
+      synthesize: ${{ steps.m.outputs.synthesize }}
+      burn: ${{ steps.m.outputs.burn }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          python3 - <<'PY'
+          import json, os
+          r = json.load(open("pipeline/run.json", encoding="utf-8"))
+          if r.get("action", "build") != "build":
+              raise SystemExit("run.json action must be 'build'")
+          vids = r.get("video", [])
+          if not 1 <= len(vids) <= 4:
+              raise SystemExit("run.json: 1 to 4 videos required (got %d)" % len(vids))
+          inc = [{"script": v, "name": os.path.basename(v)[:-5]} for v in vids]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("matrix=" + json.dumps({"include": inc}) + "\n")
+              f.write("rev=%d\n" % int(r.get("rev", 1)))
+              f.write("synthesize=%s\n" % str(bool(r.get("synthesize", True))).lower())
+              f.write("burn=%s\n" % str(bool(r.get("burn", True))).lower())
+          PY
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System packages (ffmpeg, fonts)
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-ui-core fonts-noto-naskh-arabic fonts-noto-extra fontconfig
+          fc-cache -f
+          fc-match "Noto Naskh Arabic"; fc-match "Noto Sans"
+      - name: Python deps and Chromium
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Validate script
+        run: python tools/validate.py "${{ matrix.script }}"
+      - name: Build
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          args="--script ${{ matrix.script }} --rev ${{ needs.plan.outputs.rev }}"
+          if [ "${{ needs.plan.outputs.synthesize }}" = "true" ]; then args="$args --synthesize"; else args="$args --no-synthesize --silent"; fi
+          if [ "${{ needs.plan.outputs.burn }}" = "true" ]; then args="$args --burn"; else args="$args --no-burn"; fi
+          python pipeline/build.py $args
+      - name: QA summary
+        run: |
+          for d in out/*/; do python pipeline/qa.py "$d" || true; done | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Video id
+        id: vid
+        run: echo "id=$(ls out | head -1)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.vid.outputs.id }}-rev${{ needs.plan.outputs.rev }}
+          path: out/${{ steps.vid.outputs.id }}
+          retention-days: 30
+      - name: Draft release (optional)
+        if: ${{ vars.RELEASE_UPLOAD == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="build-${{ steps.vid.outputs.id }}-rev${{ needs.plan.outputs.rev }}"
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --draft --title "$tag" --notes "Automated build (media not committed to git)."
+          gh release upload "$tag" out/${{ steps.vid.outputs.id }}/* --clobber
