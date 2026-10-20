@@ -73,3 +73,24 @@ Regeln: Das deutsche Feld `de` enthält die geschriebene Abkürzung (z. B. «VDE
 | Blitzschutzzone 0A (tts) | Null A, nie «صفر ألف» |
 
 Regeln für Aussagen zur Arbeitsberechtigung: nie «nur eine Elektrofachkraft darf …» absolut; immer «Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft» im Sinn von E-F04/DGUV V3. Die fünf Sicherheitsregeln immer vollständig (mit «allpolig»).
+
+## Ergänzung (Pfad E-C, verbindlich)
+| DE | AR |
+|---|---|
+| SPS (speicherprogrammierbare Steuerung) | المتحكم المنطقي القابل للبرمجة |
+| Sensor | المستشعر |
+| Aktor | المُنفِّذ |
+| Funktionale Sicherheit | الأمان الوظيفي (nicht «السلامة الوظيفية») |
+| Sicherheitsfunktion | وظيفة الأمان |
+| Not-Halt | إيقاف الطوارئ |
+| Not-Aus | فصل الطوارئ |
+| Schutzeinrichtung | وسيلة حماية |
+| Netzwerk-Switch | المبدّل الشبكي (nie «المحوّل») |
+| IT-/OT-Sicherheit (Cybersecurity) | الأمن السيبراني (Sicherheit im Sinn von security) |
+| Maschinensicherheit (safety) | أمان الآلات |
+| Maschinenverordnung | لائحة الآلات الأوروبية |
+| Risikobeurteilung | تقييم المخاطر |
+| Prozessabbild der Eingänge / Ausgänge | صورة المدخلات / صورة المخرجات (PAE / PAA) |
+| EMV | التوافق الكهرومغناطيسي (EMC) |
+
+Strukturregeln: `glossary` ist ein Array von Objekten {de, ar, en} (nie Tripel-Arrays). Datums-tts grammatisch korrekt (z. B. «am sechsten Dezember», «am zwanzigsten Januar»). Exakte Rechtsdaten im Arabischen ohne «تقريبًا». Titel, `next`, Glossar- und Quiz-Einträge ohne Latein/Ziffer am arabischen Rand; Bezeichner in die Mitte oder mit arabischem Wort abschließen.

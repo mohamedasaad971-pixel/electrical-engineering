@@ -1,0 +1,2351 @@
+[
+ {
+  "video": "E-C01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Title AR ends with digits (\"61131-3\"), violating the edge rule.",
+  "suggested_fix": "title.ar: أساسيات الأتمتة ووحدات التحكم المبرمجة (SPS) والمعيار الدولي IEC 61131-3 للغات البرمجة"
+ },
+ {
+  "video": "E-C01",
+  "scene": 11,
+  "line": 5,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Referent error: \"Dieses heißt PAA\" follows the sentence about the PAE \"photo of the inputs\" (11.4), so it names the input image PAA. PAA is the image of the OUTPUTS.",
+  "suggested_fix": "DE: Das Prozessabbild der Ausgänge heißt kurz PAA. | AR: واختصار صورة العملية للمخارج هو PAA في الألمانية. | EN: The process image of the outputs is called PAA for short. | tts: Das Prozessabbild der Ausgänge heißt kurz Pe-A-A."
+ },
+ {
+  "video": "E-C01",
+  "scene": 7,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Slide term \"der Schütz\" is wrong: the technical term is neuter (das Schütz, pl. die Schütze); lines 7.4/7.5 already say \"das Schütz\".",
+  "suggested_fix": "term.de: das Schütz (AR الكونتاكتور, EN contactor)"
+ },
+ {
+  "video": "E-C01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q3: option 4 \"Den Schaltplan\" is accusative while the other options are nominative; question \"Wofür steht ...\" does not match the options (EN says \"hold\").",
+  "suggested_fix": "Q3 de: Was enthält das Prozessabbild der Eingänge? | ar: ماذا تحتوي صورة العملية الخاصة بالمداخل؟ | option 4 de: Der Schaltplan | ar: مخطط الدارات | en: The circuit diagram. Answer stays 1."
+ },
+ {
+  "video": "E-C01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR entries end with Latin letters inside parentheses (edge rule): SPS, VPS, CPU, KOP, FUP, AS, ST, AWL, Elektrofachkraft. TERMS E-B audits drop the Latin tag in AR (it stays in the de field).",
+  "suggested_fix": "ar: وحدة التحكم المبرمجة | التحكم الموصول بالأسلاك | وحدة المعالجة المركزية | مخطط السلّم | مخطط الكتل الوظيفية | لغة التسلسل | النص المنظَّم | قائمة التعليمات | الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-C01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "NEXT AR uses \"السلامة الوظيفية\", but E-C02 title/lines/E-C03 use \"الأمان الوظيفي\" (also PLAN). Same in line 21.7 and E-C05 4.9.",
+  "suggested_fix": "next.ar: في الفيديو القادم نتناول الأمان الوظيفي. | 21.7 ar: في الفيديو القادم نتناول الأمان الوظيفي."
+ },
+ {
+  "video": "E-C01",
+  "scene": 21,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Same terminology fix as NEXT (السلامة الوظيفية -> الأمان الوظيفي).",
+  "suggested_fix": "AR: في الفيديو القادم نتناول الأمان الوظيفي."
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Title AR ends with Latin \"PL\" (edge rule).",
+  "suggested_fix": "title.ar: الأمان الوظيفي: المعياران IEC 61508 وEN ISO 13849-1 ومصطلحا SIL وPL المرتبطان بهما"
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR entries end with Latin letters in parentheses: SIL, PL, PLr.",
+  "suggested_fix": "ar: مستوى سلامة التكامل | مستوى الأداء | مستوى الأداء المطلوب (abbreviations stay in the de field)."
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q2: all three AR options start with \"المعيار\" and END with digits/Latin (EN ISO 13849-1, IEC 61508, EN ISO 14119).",
+  "suggested_fix": "Q2 options ar: المعيار EN ISO 13849-1 الأوروبي | المعيار IEC 61508 الدولي | المعيار EN ISO 14119 الأوروبي (answer stays 1)."
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q3: AR question ends with digit (13849-1) and option 1 \"SIL\" is pure Latin; distractor \"Der Netzanschluss\" is off-topic.",
+  "suggested_fix": "Q3 ar: أي مصطلح يخص معيار الآلات EN ISO 13849-1 تحديدًا؟ | options: Der SIL = مستوى سلامة التكامل | Die Zykluszeit = زمن الدورة / The cycle time | Der Performance Level = مستوى الأداء (answer stays 2)."
+ },
+ {
+  "video": "E-C02",
+  "scene": 6,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "The de/en fields contain the spelled-out year; per rule only tts holds spelled numbers.",
+  "suggested_fix": "DE: Die zweite Ausgabe der Reihe stammt nach unseren Quellen aus dem Jahr 2010. | EN: According to our sources, the second edition of the series dates from 2010. | tts: unchanged (zweitausendzehn)."
+ },
+ {
+  "video": "E-C02",
+  "scene": 4,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Terminology clash: \"حسّاس/مُشغِّل\" for Sensor/Aktor. E-C01 uses المنفِّذ for Aktor; \"مُشغِّل/المشغّلون\" is used for Betreiber/Bediener (18.2, E-C03/05).",
+  "suggested_fix": "AR: وهي تتكون من حسّاس ووحدة تقييم ومنفِّذ."
+ },
+ {
+  "video": "E-C02",
+  "scene": 5,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Same: \"المُشغِّلات\" for actuators.",
+  "suggested_fix": "AR: وهذا ينطبق على الحسّاسات ووحدة التقييم والمنفِّذات بالقدر نفسه."
+ },
+ {
+  "video": "E-C02",
+  "scene": 17,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Not-Halt is \"زر الإيقاف الاضطراري\" here but \"إيقاف الطوارئ\" in E-C03 (slide, glossary, quiz). Glossary entry \"الإيقاف الاضطراري\" likewise.",
+  "suggested_fix": "AR: يقوم بتقييم إشارات أجهزة الأمان مثل إيقاف الطوارئ أو باب الحماية. | glossary.ar: إيقاف الطوارئ"
+ },
+ {
+  "video": "E-C02",
+  "scene": 9,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Number agreement: \"أربع مستويات\" (masculine plural noun takes \"أربعة\").",
+  "suggested_fix": "AR: هناك أربعة مستويات: من المستوى الأول الأدنى إلى المستوى الرابع الأعلى."
+ },
+ {
+  "video": "E-C02",
+  "scene": 15,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Grammar: passive voice required (\"يُحاوَل\"; present 8.2 in E-C03 uses it correctly).",
+  "suggested_fix": "AR: أولًا يُحاوَل تجنّب الخطر عبر التصميم نفسه."
+ },
+ {
+  "video": "E-C02",
+  "scene": 17,
+  "line": 10,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender: \"القناتين\" is feminine -> \"إحدى القناتين\". Also \"So\" now refers to 17.9 instead of the two-channel statement 17.6.",
+  "suggested_fix": "AR: وبذلك يُكتشف العطل في إحدى القناتين. | Move line 17.10 directly after 17.6."
+ },
+ {
+  "video": "E-C03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Title AR ends with digits \"EN 60204-1\".",
+  "suggested_fix": "title.ar: أمان الآلات: الربط مع الميكانيك وعلامة CE والمعيار EN 60204-1 لسلامة الآلة الكهربائية"
+ },
+ {
+  "video": "E-C03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "NEXT AR starts with Latin (\"E-C04\"), DE/EN contain the internal code, and the topic name differs from the E-C04 title (de title says \"Kommunikation\").",
+  "suggested_fix": "next.de: Im nächsten Video geht es um industrielle Netzwerke. | next.ar: في الفيديو القادم نتناول الشبكات الصناعية. | next.en: The next video is about industrial networks. (E-C04 title.de should then read \"Industrielle Netzwerke: PROFINET und OPC UA (Konzepte)\")"
+ },
+ {
+  "video": "E-C03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR \"علامة CE\" starts/ends with Latin (edge rule).",
+  "suggested_fix": "ar: علامة CE الأوروبية"
+ },
+ {
+  "video": "E-C03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q2 and Q4: AR questions end with Latin (\"CE\", \"Not-Halt\").",
+  "suggested_fix": "Q2 ar: ما المقصود بعلامة CE الأوروبية؟ | Q4 ar: ما المقصود بإيقاف الطوارئ (Not-Halt) تحديدًا؟"
+ },
+ {
+  "video": "E-C03",
+  "scene": 5,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Unfaithful: \"تقريبًا\" (approximately) is added to an exact legal date; \"وفق DGUV\" leaves the body unexplained.",
+  "suggested_fix": "AR: تسري اللائحة وفق هيئة التأمين ضد الحوادث DGUV اعتبارًا من العشرين من يناير عام ألفين وسبعة وعشرين."
+ },
+ {
+  "video": "E-C03",
+  "scene": 4,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Grammar: verb \"وسيحل\" is masculine before feminine subject; \"محله\" has no clear referent (DE \"Sie\" = the directive).",
+  "suggested_fix": "DE: Die Richtlinie wird durch die Maschinenverordnung ersetzt. | AR: وستحل لائحة الآلات محل توجيه الآلات. | EN: The directive is being replaced by the Machinery Regulation."
+ },
+ {
+  "video": "E-C03",
+  "scene": 6,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "\"عليها\" refers back to the declaration (feminine), not to the machine: the CE mark goes on the machine.",
+  "suggested_fix": "AR: ويصدر إعلان المطابقة ويضع علامة CE على الآلة."
+ },
+ {
+  "video": "E-C03",
+  "scene": 15,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "TERMS deviation: rule 2 must be \"تأمينها ضد إعادة التشغيل\", rule 3 \"كل الأقطاب\" (not \"جميع\"). Line also has 21 words in one run (list), poor for TTS; split into two lines.",
+  "suggested_fix": "Split. DE1: Die fünf Regeln: freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen. | AR1: القواعد الخمس: فصل الجهد، تأمينها ضد إعادة التشغيل، والتحقق من انعدام الجهد في كل الأقطاب. | EN1: The five rules: isolate, secure against reconnection, verify absence of voltage on all poles. DE2: Dazu kommen: erden und kurzschließen sowie benachbarte, unter Spannung stehende Teile abdecken oder abschranken. | AR2: ثم التأريض والتقصير، وتغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز. | EN2: Then: earth and short-circuit, and cover or fence off adjacent live parts."
+ },
+ {
+  "video": "E-C03",
+  "scene": 13,
+  "line": 2,
+  "severity": "error",
+  "lang": "en",
+  "issue": "EN \"Fixed separating guards\" contradicts 13.3 (\"fixed and movable versions\").",
+  "suggested_fix": "EN: Separating guards are, for example, guard fences, covers and grilles."
+ },
+ {
+  "video": "E-C04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR entries end with Latin parentheses or Latin words: Switch, Inbetriebnehmer, Steckverbinder, Elektrofachkraft, IT/OT.",
+  "suggested_fix": "ar: مبدّل الشبكة | مهندس التشغيل الأولي | وصلة التوصيل | الكهربائي المؤهَّل | الفصل بين تقنية المعلومات وتقنية التشغيل"
+ },
+ {
+  "video": "E-C04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q3: AR question ends with Latin \"MRP\"; DE \"Wofür steht der Ring\" does not match \"What is the ring for\" (steht für = stands for).",
+  "suggested_fix": "Q3 de: Wozu dient der Ring mit MRP? | ar: ما فائدة الحلقة مع بروتوكول التكرار في الشبكة؟ | en: What is the ring with MRP for?"
+ },
+ {
+  "video": "E-C04",
+  "scene": 3,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "SPS rendering \"وحدة التحكم (SPS)\" is a third variant (E-C01: وحدة التحكم المبرمجة).",
+  "suggested_fix": "term.ar: وحدة التحكم المبرمجة"
+ },
+ {
+  "video": "E-C04",
+  "scene": 2,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "\"أولًا\" is wrong filler (changes meaning); passive/active mix.",
+  "suggested_fix": "AR: يخطّط المتخصصون الشبكات ويضعونها في الخدمة."
+ },
+ {
+  "video": "E-C04",
+  "scene": 14,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Safety vs. security: \"Sicherheit\" here means IT security but is rendered \"الأمان\" (safety, E-C02). Same in 14.10 and slide (heading/item).",
+  "suggested_fix": "DE: Die IT-Sicherheit ist Teil der Spezifikation. | AR: الأمن السيبراني جزء من المواصفة. | EN: IT security is part of the specification. | 14.10 AR: لكن مستوى الأمن يعتمد على الإعداد. | slide heading: Informationsmodell und IT-Sicherheit; item: IT-Sicherheit: Anmeldung, Verschlüsselung"
+ },
+ {
+  "video": "E-C05",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary entries are lists [de, ar, en] instead of {\"de\",\"ar\",\"en\"} objects like every other E script (E-C01..04, 06); the renderer will not find the keys. AR entries \"النزاهة (Integrität)\", \"تقنية التشغيل (OT)\", \"قناة الاتصال (Conduit)\" also end with Latin.",
+  "suggested_fix": "Convert to dict form and add missing core terms: [{\"de\":\"das Schutzziel\",\"ar\":\"هدف الحماية\",\"en\":\"protection goal\"},{\"de\":\"die Verfügbarkeit\",\"ar\":\"التوافرية\",\"en\":\"availability\"},{\"de\":\"die Integrität\",\"ar\":\"النزاهة\",\"en\":\"integrity\"},{\"de\":\"die Vertraulichkeit\",\"ar\":\"السرية\",\"en\":\"confidentiality\"},{\"de\":\"die Betriebstechnik (OT)\",\"ar\":\"تقنية التشغيل\",\"en\":\"operational technology\"},{\"de\":\"die Zone\",\"ar\":\"المنطقة الأمنية\",\"en\":\"zone\"},{\"de\":\"das Konduit\",\"ar\":\"قناة الاتصال\",\"en\":\"conduit\"},{\"de\":\"die Segmentierung\",\"ar\":\"التقسيم الشبكي\",\"en\":\"segmentation\"},{\"de\":\"der Fernzugriff\",\"ar\":\"الوصول عن بُعد\",\"en\":\"remote access\"},{\"de\":\"das Patch-Management\",\"ar\":\"إدارة التحديثات الأمنية\",\"en\":\"patch management\"},{\"de\":\"die Härtung\",\"ar\":\"التحصين\",\"en\":\"hardening\"},{\"de\":\"die Defense in Depth\",\"ar\":\"الدفاع المتعمّق\",\"en\":\"defense in depth\"},{\"de\":\"das Schutzniveau\",\"ar\":\"مستوى الحماية\",\"en\":\"security level\"},{\"de\":\"das BSI\",\"ar\":\"المكتب الاتحادي لأمن المعلومات\",\"en\":\"Federal Office for Information Security\"},{\"de\":\"der Hersteller\",\"ar\":\"الشركة المصنِّعة\",\"en\":\"manufacturer\"},{\"de\":\"der Integrator\",\"ar\":\"مُدمِج الأنظمة\",\"en\":\"integrator\"},{\"de\":\"der Betreiber\",\"ar\":\"مشغّل المنشأة\",\"en\":\"operator\"},{\"de\":\"die Richtlinie\",\"ar\":\"التوجيه الأوروبي\",\"en\":\"directive\"},{\"de\":\"die Einrichtung\",\"ar\":\"الجهة المعنية\",\"en\":\"entity\"}]"
+ },
+ {
+  "video": "E-C05",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1 and Q5: AR questions end with Latin (\"BSI\", \"NIS2\"); Q5 options 0 and 2 end with Latin (\"VDE\", \"BSI\").",
+  "suggested_fix": "Q1 ar: ما الذي يحتل مرتبة عالية جدًا في تقنية التشغيل بحسب المكتب الاتحادي لأمن المعلومات؟ | Q5 ar: ما جوهر القانون الألماني لتطبيق توجيه NIS2 الأوروبي؟ | Q5 options ar: معيار جديد تصدره رابطة VDE الألمانية | قانون عن المقابس | الصيغة الجديدة لقانون BSI الألماني"
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Grammar: \"am fünfter Dezember\" (dative needs \"fünften\").",
+  "suggested_fix": "tts: Das Umsetzungsgesetz wurde am fünften Dezember zweitausendfünfundzwanzig verkündet."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 4,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Grammar: \"am sechster Dezember\" -> \"sechsten\".",
+  "suggested_fix": "tts: Es trat am sechsten Dezember zweitausendfünfundzwanzig in Kraft."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 7,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Grammar: \"ist der zwanzigster Oktober\" -> \"zwanzigste\".",
+  "suggested_fix": "tts: Unser Stand ist der zwanzigste Oktober zweitausendsechsundzwanzig."
+ },
+ {
+  "video": "E-C05",
+  "scene": 18,
+  "line": 4,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "\"NIS\" is not spelled in tts although NIS2 is (18.1, 20.1); the engine may read \"Niss\".",
+  "suggested_fix": "tts: Sie ersetzt die frühere En-I-Es-Richtlinie aus dem Jahr zweitausendsechzehn."
+ },
+ {
+  "video": "E-C05",
+  "scene": 4,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "\"السلامة الوظيفية\" -> path-wide \"الأمان الوظيفي\".",
+  "suggested_fix": "AR: ويضاف إليها الأمان الوظيفي للأشخاص والمنشأة."
+ },
+ {
+  "video": "E-C05",
+  "scene": 9,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "\"المحوّلات الشبكية\" for Switches: TERMS reserves \"المحوّل\" for Transformator; E-C04 uses \"مبدّل الشبكة\".",
+  "suggested_fix": "AR: الشركة المصنِّعة تطوّر منتجات مثل وحدات التحكم والمبدّلات الشبكية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 17,
+  "line": 1,
+  "severity": "error",
+  "lang": "de",
+  "issue": "\"Zum Schluss\" appears in 17.1 and again in 22.1 although scenes 18-22 follow.",
+  "suggested_fix": "DE: Jetzt einige typische Schwächen aus der Praxis. | AR: والآن بعض نقاط الضعف المتكررة في الواقع العملي. | EN: Now some typical weaknesses from practice."
+ },
+ {
+  "video": "E-C06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "NEXT AR starts with Latin \"E-D01:\" (edge rule), DE/EN carry the internal code; title wording deviates from PLAN (الألمانية المهنية للكهرباء: ورشة، ورقة بيانات، مقابلة) and from 22.7. (E-D01 is not yet in scripts/E; the E-F07 id exists as 07-fachsprache.)",
+  "suggested_fix": "next.de: Im nächsten Video geht es um die Fachsprache für Elektrotechnik: Werkstatt, Datenblatt und Gespräch. | next.ar: في الفيديو القادم نتناول الألمانية المهنية للكهرباء: الورشة وورقة البيانات والمقابلة. | next.en: The next video is about technical German for electrical engineering: workshop, datasheet and interview."
+ },
+ {
+  "video": "E-C06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1: option 3 AR ends with Latin \"(Störsenke)\".",
+  "suggested_fix": "Q1 option 2 ar: المتأثر بالاضطراب"
+ },
+ {
+  "video": "E-C06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary DE: \"die Elektromagnetische Verträglichkeit\" wrongly capitalised adjective. Glossary lacks Elektrofachkraft (used), Fachgrundnorm, Rückführbarkeit, Schirm, Burst/Surge.",
+  "suggested_fix": "de: die elektromagnetische Verträglichkeit (EMV) | add: {\"de\":\"die Fachgrundnorm\",\"ar\":\"المعيار العام للمجال\",\"en\":\"generic standard\"}, {\"de\":\"der Schirm\",\"ar\":\"الدرع\",\"en\":\"shield\"}, {\"de\":\"die Rückführbarkeit\",\"ar\":\"قابلية التتبّع\",\"en\":\"traceability\"}, {\"de\":\"die Elektrofachkraft\",\"ar\":\"الكهربائي المؤهَّل\",\"en\":\"qualified electrician\"}"
+ },
+ {
+  "video": "E-C06",
+  "scene": 13,
+  "line": 10,
+  "severity": "error",
+  "lang": "de",
+  "issue": "DE says an Elektrofachkraft only (\"gehören in die Hand einer Elektrofachkraft\"), but AR/EN add \"or someone under supervision\". TERMS: never an absolute statement; DE must match.",
+  "suggested_fix": "DE: Änderungen am Schutzleitersystem gehören in die Hand einer Elektrofachkraft oder von Personen unter deren Leitung und Aufsicht. | AR: التغييرات في منظومة موصل الحماية يتولاها الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إدارته وإشرافه."
+ },
+ {
+  "video": "E-C06",
+  "scene": 15,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "\"مختبر التركيبات\" means installations laboratory; Installationstester is a device.",
+  "suggested_fix": "AR: وجهاز اختبار التركيبات يقيس من بين ما يقيس معاوقة حلقة العطل."
+ },
+ {
+  "video": "E-C06",
+  "scene": 16,
+  "line": 2,
+  "severity": "error",
+  "lang": "de",
+  "issue": "The de field contains the spelled form \"CAT zwei, drei oder vier\"; per rule de keeps the written form (CAT II, III, IV as on the slide) and only tts spells.",
+  "suggested_fix": "DE: Sie steht in der Norm IEC 61010-1 und heißt CAT II, III oder IV. | tts: Sie steht in der Norm I-E-Ze sechs eins null eins null Strich eins und heißt Kat zwei, drei oder vier."
+ },
+ {
+  "video": "E-C06",
+  "scene": 17,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Garbled agreement/word order: \"ويجب أن تناسب عرض الحزمة للمجس والراسم الإشارة\".",
+  "suggested_fix": "AR: ويجب أن يناسب عرض الحزمة الترددية للمجس والراسم الإشارة."
+ },
+ {
+  "video": "E-C06",
+  "scene": 18,
+  "line": 5,
+  "severity": "error",
+  "lang": "de",
+  "issue": "\"Widerstand der Strombahn\" (resistance) vs EN \"impedance\" and the term Schleifenimpedanz; TERMS: Impedanz = المعاوقة.",
+  "suggested_fix": "DE: Die Schleifenimpedanz ist die Impedanz der Strombahn des Fehlerstroms. | AR: معاوقة حلقة العطل هي معاوقة مسار تيار العطل."
+ },
+ {
+  "video": "E-C06",
+  "scene": 19,
+  "line": 5,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Number read as one word (\"siebzehntausendfünfundzwanzig\"); AR \"الدولي\" is wrong for DIN EN ISO/IEC.",
+  "suggested_fix": "tts: Akkreditierte Labore arbeiten nach Din E-En I-So I-E-Ze eins sieben null zwei fünf. | AR: تعمل المختبرات المعتمدة وفق المعيار DIN EN ISO/IEC 17025 الخاص بالمختبرات."
+ },
+ {
+  "video": "E-C01",
+  "scene": 16,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "False promise: 16.9 says all five languages are now gone through one by one, but the video only treats the AWL separately next.",
+  "suggested_fix": "DE: Zuerst schauen wir uns den Sonderfall AWL genauer an. | AR: سننظر أولًا بتمعّن في حالة لغة AWL الخاصة. | EN: First we take a closer look at the special case of the AWL. | tts: Zuerst schauen wir uns den Sonderfall A-We-El genauer an."
+ },
+ {
+  "video": "E-C01",
+  "scene": 1,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard number is read as one huge word; the rest of the course (E-F/E-A/E-B, E-C02..06) reads norm numbers digit by digit.",
+  "suggested_fix": "tts: Wir betrachten den Aufbau, den Zyklus und die Sprachen der Norm I-E-Ze sechs eins eins drei eins, Teil drei."
+ },
+ {
+  "video": "E-C01",
+  "scene": 2,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard number is read as one huge word; the rest of the course (E-F/E-A/E-B, E-C02..06) reads norm numbers digit by digit.",
+  "suggested_fix": "tts: Nach der Norm Din E-En sechs eins eins drei eins, Teil eins ist eine Es-Pe-Es ein digital arbeitendes elektronisches System."
+ },
+ {
+  "video": "E-C01",
+  "scene": 15,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard number is read as one huge word; the rest of the course (E-F/E-A/E-B, E-C02..06) reads norm numbers digit by digit.",
+  "suggested_fix": "tts: Die Norm I-E-Ze sechs eins eins drei eins, Teil drei legt Programmiersprachen für Steuerungen fest."
+ },
+ {
+  "video": "E-C01",
+  "scene": 15,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard number is read as one huge word; the rest of the course (E-F/E-A/E-B, E-C02..06) reads norm numbers digit by digit.",
+  "suggested_fix": "tts: In Deutschland heißt die Übernahme Din E-En sechs eins eins drei eins, Teil drei."
+ },
+ {
+  "video": "E-C01",
+  "scene": 21,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard number is read as one huge word; the rest of the course (E-F/E-A/E-B, E-C02..06) reads norm numbers digit by digit.",
+  "suggested_fix": "tts: Die Norm I-E-Ze sechs eins eins drei eins, Teil drei nennt fünf Sprachen: Ka-O-Pe, Ef-U-Pe, A-Es, Es-Te und A-We-El."
+ },
+ {
+  "video": "E-C01",
+  "scene": 1,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: كما نتحدث عن الحسّاسات والمنفِّذات والمهن النموذجية."
+ },
+ {
+  "video": "E-C01",
+  "scene": 2,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: لكن حسّاسات المنشأة ومنفِّذاتها يجب أن تبقى موصولة."
+ },
+ {
+  "video": "E-C01",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: وحدات الدخل تستقبل الإشارات من الحسّاسات."
+ },
+ {
+  "video": "E-C01",
+  "scene": 5,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: الأجهزة النموذجية عند الدخل هي الأزرار والمفاتيح والحسّاسات."
+ },
+ {
+  "video": "E-C01",
+  "scene": 8,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: الحسّاسات تقيس الكميات الفيزيائية."
+ },
+ {
+  "video": "E-C01",
+  "scene": 8,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: مثال معروف هو الحسّاس الحثي."
+ },
+ {
+  "video": "E-C01",
+  "scene": 8,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: توجد حسّاسات لكميات كثيرة، مثل الموضع أو درجة الحرارة."
+ },
+ {
+  "video": "E-C01",
+  "scene": 8,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: لكل حسّاس ورقة بيانات ينبغي أن تقرؤوها بانتباه."
+ },
+ {
+  "video": "E-C01",
+  "scene": 9,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: فالحسّاس هو العين والمنفِّذ هو اليد."
+ },
+ {
+  "video": "E-C01",
+  "scene": 13,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: حسّاس حثي يكشف قطعة معدنية في بداية الحزام."
+ },
+ {
+  "video": "E-C01",
+  "scene": 19,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: وفق معلومات المهنة يركّبون أنظمة الحسّاسات."
+ },
+ {
+  "video": "E-C01",
+  "scene": 21,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sensor rendering \"مستشعر\" differs from E-F01/E-C02/E-C04/E-C05 (\"حسّاس\"). Use one term path-wide.",
+  "suggested_fix": "AR: الحسّاسات تقيس الكميات والمنفِّذات تحوّلها إلى أفعال."
+ },
+ {
+  "video": "E-C01",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term and glossary: \"المستشعر\" -> \"الحسّاس\" (path-wide term).",
+  "suggested_fix": "term.ar and glossary.ar: الحسّاس"
+ },
+ {
+  "video": "E-C01",
+  "scene": 12,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Off-topic line inside the cycle scene (standards names) breaks the flow; fits scene 15 instead.",
+  "suggested_fix": "Delete line 12.10 (DE/AR/EN) here; optionally re-insert after 15.6."
+ },
+ {
+  "video": "E-C01",
+  "scene": 12,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Dangling thought: a pushbutton is pressed briefly, but the consequence is never stated; 12.6 changes topic.",
+  "suggested_fix": "DE: Wird ein Taster nur kurz gedrückt, während das Programm läuft, kann die SPS ihn verpassen. | AR: إذا ضُغط زر لحظة قصيرة أثناء تشغيل البرنامج فقد لا تلتقطه وحدة التحكم المبرمجة. | EN: If a pushbutton is pressed only briefly while the program is running, the SPS can miss it. | tts: Wird ein Taster nur kurz gedrückt, während das Programm läuft, kann die Es-Pe-Es ihn verpassen."
+ },
+ {
+  "video": "E-C01",
+  "scene": 4,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Spoken \"Zentralbaugruppe\" differs from the slide term \"die Zentraleinheit (CPU)\" and 4.3.",
+  "suggested_fix": "DE: Im Kern besteht sie aus einer Zentraleinheit mit Prozessor. | AR: في جوهرها تتكون من وحدة مركزية فيها معالج. | EN: At its core, it consists of a central unit with a processor."
+ },
+ {
+  "video": "E-C01",
+  "scene": 4,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Inputs/outputs rendered \"الدخل/الخرج\" here but \"المداخل/المخارج\" in all other lines (modules stay وحدات الدخل/الخرج).",
+  "suggested_fix": "AR: تذكروا الترتيب: المداخل ثم CPU ثم المخارج."
+ },
+ {
+  "video": "E-C01",
+  "scene": 4,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Awkward filler \"هذه\" (added only to avoid Latin edge).",
+  "suggested_fix": "AR: والآن إلى بنية وحدة التحكم المبرمجة."
+ },
+ {
+  "video": "E-C01",
+  "scene": 5,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"فـ\" attached to a Latin word is typographically awkward.",
+  "suggested_fix": "AR: إذًا وحدة SPS لا ترى الآلة نفسها أبدًا، بل إشاراتها فقط."
+ },
+ {
+  "video": "E-C01",
+  "scene": 7,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Technically vague/misleading: the contactor is wired to the output module; only the CPU-to-module link runs over the bus. AR \"هذه\" is filler.",
+  "suggested_fix": "DE: Die CPU erreicht die Ausgabebaugruppe über das interne Bussystem der SPS. | AR: تصل وحدة CPU إلى وحدة الخرج عبر نظام الناقل الداخلي في وحدة التحكم. | EN: The CPU reaches the output module via the internal bus system of the SPS. | tts: Die Ze-Pe-U erreicht die Ausgabebaugruppe über das interne Bussystem der Es-Pe-Es."
+ },
+ {
+  "video": "E-C01",
+  "scene": 10,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"تُخرج المخارج\" is unclear (outputs output the outputs).",
+  "suggested_fix": "AR: الخطوة الثالثة: تُخرج القيم المحسوبة إلى المخارج."
+ },
+ {
+  "video": "E-C01",
+  "scene": 9,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"يبدّله كونتاكتور\" is unnatural for a contactor switching a motor.",
+  "suggested_fix": "AR: والمحرك أيضًا يُعدّ في كثير من الأحيان منفِّذًا في نظر التحكم، يشغّله كونتاكتور."
+ },
+ {
+  "video": "E-C01",
+  "scene": 2,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "The point of the line is the German word \"Steuerung\"; the Arabic drops it and the meaning (Steuerung vs. controller) is lost.",
+  "suggested_fix": "AR: تذكروا الكلمة الألمانية Steuerung: تعني هنا جهازًا يعالج الإشارات."
+ },
+ {
+  "video": "E-C01",
+  "scene": 2,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Term \"speicherprogrammierbar\" is not rendered; \"أي أن\" starts without an anchor.",
+  "suggested_fix": "AR: «قابلة للبرمجة في الذاكرة» تعني أن البرنامج موجود في الذاكرة ويمكن تغييره."
+ },
+ {
+  "video": "E-C01",
+  "scene": 15,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide item \"Neue Ausgabe seit 2025\" is firmer than the hedged speech (\"Laut Katalogen\", 15.5).",
+  "suggested_fix": "item: \"Neue Ausgabe laut Katalogen (2025)\""
+ },
+ {
+  "video": "E-C01",
+  "scene": 15,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الفهارس\" is ambiguous (indexes); catalogues of standards are meant.",
+  "suggested_fix": "AR: وبحسب كتالوجات المعايير يوجد إصدار جديد منذ عام 2025 للمعيار."
+ },
+ {
+  "video": "E-C01",
+  "scene": 17,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Primärbeleg\" is C1 vocabulary and the line is meta-commentary for learners.",
+  "suggested_fix": "DE: Eine Primärquelle haben wir dafür nicht geprüft. | AR: ولم نتحقق من ذلك من مصدر أصلي."
+ },
+ {
+  "video": "E-C01",
+  "scene": 17,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Clumsy filler \"تحديدًا\"; 17.8 also adds unfaithful \"تحديدًا\".",
+  "suggested_fix": "17.1 AR: وهناك لغة تستحق انتباهًا خاصًا، وهي AWL (قائمة التعليمات). | 17.8 AR: فإذا تسلّمتم مشروعًا قديمًا فقد يحتوي على برامج مكتوبة بلغة AWL القديمة."
+ },
+ {
+  "video": "E-C01",
+  "scene": 18,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table rows exceed the 50-char limit from TERMS (61 and 52 chars; truncation risk).",
+  "suggested_fix": "items: \"Elektroniker (Automatisierung) | Ausbildung\" and \"SPS-Programmierer | keine eigene Ausbildung\""
+ },
+ {
+  "video": "E-C01",
+  "scene": 18,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الدراسة المهنية\" is wrong for Ausbildung (it is vocational training, not study); \"ثلاث سنوات ونصف\" agreement.",
+  "suggested_fix": "AR: ويستغرق التدريب المهني ثلاث سنوات ونصفًا."
+ },
+ {
+  "video": "E-C01",
+  "scene": 18,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"ميكاترونيك\" as a person is unnatural; Mechatroniker is the person.",
+  "suggested_fix": "AR: وإعلانات الوظائف تطلب غالبًا تأهيلًا مهنيًا كإلكتروني أو كفني ميكاترونيكس."
+ },
+ {
+  "video": "E-C01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q4 wording: \"passt zu den Quellen\" and AR \"أي عبارة عن AWL تناسب المصادر\" are unidiomatic.",
+  "suggested_fix": "Q4 de: Welche Aussage über die AWL stimmt laut den Quellen? | ar: أي عبارة بخصوص AWL تتفق مع المصادر؟ | en: Which statement about the AWL agrees with the sources?"
+ },
+ {
+  "video": "E-C01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q5: question is loose (\"Wer arbeitet ...\") and distractors (\"Nur wer schnell arbeitet\") are not plausible.",
+  "suggested_fix": "Q5 de: Wer darf an elektrischen Anlagen arbeiten? | ar: من يجوز له العمل على المنشآت الكهربائية؟ | en: Who may work on electrical installations? | options 0: Jede Person mit Ingenieurabschluss / أي شخص حاصل على شهادة هندسية / Anyone with an engineering degree | 1: Nur der Bediener der Maschine / فقط مشغّل الآلة / Only the machine operator | 2 unchanged (answer 2)."
+ },
+ {
+  "video": "E-C02",
+  "scene": 1,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "SPS rendering inconsistent with E-C01/E-B06 (\"وحدة التحكم المبرمجة\"); mixed Arabic/Latin \"وحدة تحكم SPS\".",
+  "suggested_fix": "AR: وفي النهاية نرى مرحّلات الأمان ووحدات التحكم المبرمجة للأمان كمفهوم."
+ },
+ {
+  "video": "E-C02",
+  "scene": 17,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "SPS rendering inconsistent with E-C01/E-B06 (\"وحدة التحكم المبرمجة\"); mixed Arabic/Latin \"وحدة تحكم SPS\".",
+  "suggested_fix": "AR: طريقة أخرى هي وحدة التحكم المبرمجة للأمان."
+ },
+ {
+  "video": "E-C02",
+  "scene": 20,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "SPS rendering inconsistent with E-C01/E-B06 (\"وحدة التحكم المبرمجة\"); mixed Arabic/Latin \"وحدة تحكم SPS\".",
+  "suggested_fix": "AR: مرحّلات الأمان ووحدات التحكم المبرمجة للأمان تنفّذ الوظائف تقنيًا."
+ },
+ {
+  "video": "E-C02",
+  "scene": 17,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term and glossary \"وحدة تحكم SPS للأمان\" -> path-wide SPS rendering.",
+  "suggested_fix": "term.ar and glossary.ar: وحدة التحكم المبرمجة للأمان"
+ },
+ {
+  "video": "E-C02",
+  "scene": 19,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"قيادته\" for \"Leitung\" differs from the path-wide \"إدارته وإشرافه\" (E-F04/E-B01/E-C01).",
+  "suggested_fix": "AR: الترتيب ثابت. ويقوم بالعمل كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه."
+ },
+ {
+  "video": "E-C02",
+  "scene": 10,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Sie\" is unclear: it comes after 10.7/10.8 and no longer points to EN ISO 13849-1 (10.6).",
+  "suggested_fix": "Move to directly after 10.6 and name the subject: DE: Die EN ISO 13849-1 ging aus der älteren Norm EN 954-1 hervor und nutzt den Performance Level. | AR: وقد نشأ معيار EN ISO 13849-1 من المعيار الأقدم EN 954-1 ويستخدم مستوى الأداء. | EN: EN ISO 13849-1 grew out of the older standard EN 954-1 and uses the performance level. | tts: Die E-En I-So eins drei acht vier neun, Teil eins ging aus der älteren Norm E-En neun fünf vier, Teil eins hervor und nutzt den Performance Level."
+ },
+ {
+  "video": "E-C02",
+  "scene": 11,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Single letters a-e are not spelled in tts; the voice may read \"a\" as the article/\"ah\" and \"e\" ambiguous.",
+  "suggested_fix": "tts: Die Stufen heißen A, Be, Ze, De und E."
+ },
+ {
+  "video": "E-C02",
+  "scene": 11,
+  "line": 6,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "\"Pe-El-r\": the final r is read as a bare consonant. Spell it.",
+  "suggested_fix": "tts: Zuerst bestimmt man den erforderlichen Level, kurz Pe-El-Er."
+ },
+ {
+  "video": "E-C02",
+  "scene": 16,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "\"Pe-El-r\": the final r is read as a bare consonant. Spell it.",
+  "suggested_fix": "tts: Das ist der erforderliche Sil oder der erforderliche Pe-El-Er."
+ },
+ {
+  "video": "E-C02",
+  "scene": 5,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Grammar: \"Man nennt das ausfallsicheres Prinzip\" lacks an article.",
+  "suggested_fix": "DE: Man nennt das ein ausfallsicheres Prinzip. (slide item: Ausfallsicheres Prinzip)"
+ },
+ {
+  "video": "E-C02",
+  "scene": 14,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminology: Norm is \"المعيار\" (TERMS), not \"المواصفة\"; syntax \"وتصفها ... المواصفة\" is awkward. Same \"مواصفة\" in 13.5.",
+  "suggested_fix": "14.2 AR: ويصفها للآلات المعيار EN ISO 12100 بالتفصيل. | 13.5 AR: وإن لم يوجد اشتراط ملزم، يختار المصمم معيارًا."
+ },
+ {
+  "video": "E-C02",
+  "scene": 15,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Third step is announced only after the goal sentence 15.8, so the 3-step list is split; the card slide already lists it.",
+  "suggested_fix": "Order: 15.6, then new line \"Als dritte Stufe folgen Informationen für die Benutzer.\" (AR: المرحلة الثالثة معلومات للمستخدمين. EN: The third step is information for users.), then 15.7, 15.8, and last line \"Das Ergebnis wird dokumentiert.\" (AR: وتُوثَّق النتيجة.)"
+ },
+ {
+  "video": "E-C02",
+  "scene": 18,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Vague/unclear statement (\"Ein Fehler in der Praxis ist oft schon eine Folge davon\").",
+  "suggested_fix": "DE: Manipulation ist in der Praxis eine häufige Fehlerquelle. | AR: التلاعب مصدر شائع للأخطاء في الواقع العملي. | EN: Manipulation is a common source of errors in practice."
+ },
+ {
+  "video": "E-C02",
+  "scene": 18,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الجسور المؤقتة\" reads as bridges; Brücken = jumpers.",
+  "suggested_fix": "AR: وصلات التجاوز والمعاملات والبرنامج ممنوعة."
+ },
+ {
+  "video": "E-C02",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row exceeds the 50-char limit (52).",
+  "suggested_fix": "item: \"Lebenszyklus | Konzept bis Außerbetriebnahme\""
+ },
+ {
+  "video": "E-C02",
+  "scene": 19,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row 5 has 72 chars (truncation risk) and differs from the other scripts.",
+  "suggested_fix": "item: \"5 | Benachbarte Teile abdecken oder abschranken\""
+ },
+ {
+  "video": "E-C02",
+  "scene": 13,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide item \"Beide Normen sind harmonisiert\" is firmer than the hedged speech (\"Nach den Quellen\", 13.3).",
+  "suggested_fix": "item: \"Beide laut Quellen harmonisiert\""
+ },
+ {
+  "video": "E-C02",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide terms (S3-S6, S11, S14, S15, S17) have no articles, but E-C01 terms and all glossaries do.",
+  "suggested_fix": "terms.de: die funktionale Sicherheit | die Sicherheitsfunktion | der sichere Zustand | die Grundnorm | die Sektornorm | der Performance Level | die Risikobeurteilung | die inhärent sichere Konstruktion | das Sicherheitsrelais | die Sicherheits-SPS"
+ },
+ {
+  "video": "E-C02",
+  "scene": 3,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Lines 3.6, 3.8 and 3.9 repeat the same statement (safety is not one component); lengthens the scene without new content.",
+  "suggested_fix": "Delete 3.8 and 3.9 (DE/AR/EN); keep 3.6 and 3.7."
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "NEXT format differs from other videos (sentence pattern \"Im nächsten Video geht es um ...\" used in 21.7 and E-A/E-B).",
+  "suggested_fix": "next.de: Im nächsten Video geht es um Maschinensicherheit. | next.ar: في الفيديو القادم نتناول أمان الآلات. | next.en: The next video is about machine safety."
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q1: correct option is by far the longest (50 vs 28 chars) and distractors are absurd (colour of cabinets).",
+  "suggested_fix": "Q1 options: Dass eine Sicherheitsfunktion zuverlässig arbeitet | Dass jedes Bauteil einzeln geprüft wird | Dass die Maschine möglichst schnell läuft. ar: أن وظيفة الأمان تعمل بموثوقية | أن كل مكوّن يُفحص بمفرده | أن تعمل الآلة بأسرع ما يمكن. en accordingly (answer 0)."
+ },
+ {
+  "video": "E-C02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q5: correct option is the longest, distractors are caricatures.",
+  "suggested_fix": "Q5 option 2: de: Ich ändere nichts ohne Freigabe | ar: لا أغيّر شيئًا دون تفويض | en: I change nothing without approval (answer 2)."
+ },
+ {
+  "video": "E-C03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q3: \"Drei-Stufen-Verfahren\" is never named in the video; AR plural \"الإجراءات ذات المراحل الثلاث\" is garbled; distractors (Lieferfristen, Prüffristen) are implausible.",
+  "suggested_fix": "Q3 de: Welcher Ablauf folgt den drei Stufen: sichere Konstruktion, technische Schutzmaßnahmen, Benutzerinformation? | ar: أي عملية تتبع ثلاث مراحل: التصميم الآمن ثم إجراءات الحماية التقنية ثم إعلام المستخدمين؟ | en: Which process follows three steps: safe design, technical protective measures, user information? | options: Die Konformitätserklärung (إعلان المطابقة) | Die Risikominderung (تخفيف المخاطر) | Die Stopp-Kategorie (فئة التوقف); answer 1."
+ },
+ {
+  "video": "E-C03",
+  "scene": 15,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"قيادته\" -> path-wide \"إدارته\"; EN \"electrically qualified person\" differs from the term \"qualified electrician (Elektrofachkraft)\" used in the same scene.",
+  "suggested_fix": "AR: يتولى الأعمال على المنشآت الكهربائية كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه. | EN: Work on electrical installations is done by a qualified electrician (Elektrofachkraft) or someone under their direction and supervision."
+ },
+ {
+  "video": "E-C03",
+  "scene": 13,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Schutzeinrichtung rendered \"وسائل الحماية/الحماية\" but \"أجهزة الحماية\" in E-C02, E-B02, E-B04, E-C05, E-C06.",
+  "suggested_fix": "AR: والآن إلى أجهزة الحماية، وسنبقى عند المفهوم."
+ },
+ {
+  "video": "E-C03",
+  "scene": 3,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Schutzeinrichtung rendered \"وسائل الحماية/الحماية\" but \"أجهزة الحماية\" in E-C02, E-B02, E-B04, E-C05, E-C06.",
+  "suggested_fix": "AR: تقدّم الهندسة الميكانيكية الهيكل ووحدات الدفع وأجهزة الحماية."
+ },
+ {
+  "video": "E-C03",
+  "scene": 14,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Schutzeinrichtung rendered \"وسائل الحماية/الحماية\" but \"أجهزة الحماية\" in E-C02, E-B02, E-B04, E-C05, E-C06.",
+  "suggested_fix": "AR: وفي المكابس تُسدّ الفتحات بجوار الستارة الضوئية بأجهزة حماية ثابتة."
+ },
+ {
+  "video": "E-C03",
+  "scene": 20,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Schutzeinrichtung rendered \"وسائل الحماية/الحماية\" but \"أجهزة الحماية\" in E-C02, E-B02, E-B04, E-C05, E-C06.",
+  "suggested_fix": "AR: فئات التوقف وأجهزة الحماية تنتج عن تقييم المخاطر."
+ },
+ {
+  "video": "E-C03",
+  "scene": 3,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Duplicated \"التحكم\" and unclear \"التحكم الآلي\" for Steuerung.",
+  "suggested_fix": "AR: وتقدّم الهندسة الكهربائية الطاقة وخزانة التوزيع والتحكم ونظام التحكم."
+ },
+ {
+  "video": "E-C03",
+  "scene": 3,
+  "line": 6,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"He\" for the manufacturer (a company/role) is gendered and inconsistent; same issue was flagged in E-A audits.",
+  "suggested_fix": "EN: It must assess conformity before placing it on the market."
+ },
+ {
+  "video": "E-C03",
+  "scene": 6,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"He\" for the manufacturer (a company/role) is gendered and inconsistent; same issue was flagged in E-A audits.",
+  "suggested_fix": "EN: It carries out a risk assessment and assesses conformity."
+ },
+ {
+  "video": "E-C03",
+  "scene": 6,
+  "line": 3,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"He\" for the manufacturer (a company/role) is gendered and inconsistent; same issue was flagged in E-A audits.",
+  "suggested_fix": "EN: It prepares technical documentation and operating instructions."
+ },
+ {
+  "video": "E-C03",
+  "scene": 6,
+  "line": 4,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"He\" for the manufacturer (a company/role) is gendered and inconsistent; same issue was flagged in E-A audits.",
+  "suggested_fix": "EN: It issues a declaration of conformity and affixes the CE mark."
+ },
+ {
+  "video": "E-C03",
+  "scene": 17,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN \"incomplete machine\" differs from the slide term \"partly completed machinery\".",
+  "suggested_fix": "EN: Partly completed machinery cannot fulfil a specific function alone."
+ },
+ {
+  "video": "E-C03",
+  "scene": 20,
+  "line": 6,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN \"for currency\" is unidiomatic.",
+  "suggested_fix": "EN: Always check the key date, standards and documents for their current status."
+ },
+ {
+  "video": "E-C03",
+  "scene": 10,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"BG RCI\" is never explained (de/ar); learners cannot place it.",
+  "suggested_fix": "DE: Die BG RCI, die Berufsgenossenschaft Rohstoffe und chemische Industrie, verweist beim Ausschalten im Notfall auf die EN 60204-1. | AR: وتشير BG RCI، وهي هيئة التأمين ضد الحوادث للمواد الخام والصناعات الكيميائية، عند الحديث عن فصل الطاقة في الطوارئ إلى المعيار EN 60204-1 الخاص بالكهرباء. | tts: Die Be-Ge-Er-Ze-I, die Berufsgenossenschaft Rohstoffe und chemische Industrie, verweist beim Ausschalten im Notfall auf die E-En sechs null zwei null vier Strich eins."
+ },
+ {
+  "video": "E-C03",
+  "scene": 16,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 51 chars.",
+  "suggested_fix": "item: \"Folge | Herstellerpflichten, neue Beurteilung\""
+ },
+ {
+  "video": "E-C03",
+  "scene": 1,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Title slide has only 2 items (others 3-4); looks empty.",
+  "suggested_fix": "items: [\"Elektrik und Mechanik\", \"CE-Kennzeichnung und Risikobeurteilung\", \"Not-Halt, Schutzeinrichtungen, Dokumente\"]"
+ },
+ {
+  "video": "E-C03",
+  "scene": 1,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "1.3 and 1.4 repeat \"Heute\"; \"das\" in 1.4 has no clear referent.",
+  "suggested_fix": "DE: Dazu nehmen wir die ganze Maschine in den Blick. | AR: ولهذا ننظر إلى الآلة بأكملها. | EN: For this we look at the whole machine."
+ },
+ {
+  "video": "E-C03",
+  "scene": 19,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide term \"Normen\" (generic) wastes a term slot; the key new concept (Konformitätsvermutung) is missing.",
+  "suggested_fix": "terms: replace \"Normen\" with {\"de\":\"die Konformitätsvermutung\",\"ar\":\"افتراض المطابقة\",\"en\":\"presumption of conformity\"}"
+ },
+ {
+  "video": "E-C03",
+  "scene": 19,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Heavy nominal style for B1/B2 (\"vermutet man die Erfüllung der davon erfassten Anforderungen\").",
+  "suggested_fix": "DE: Wendet man eine harmonisierte Norm an, geht man davon aus, dass die damit abgedeckten Anforderungen erfüllt sind. | AR: عند تطبيق معيار منسَّق يُفترض أن المتطلبات التي يغطيها مستوفاة. | EN: If a harmonised standard is applied, it is assumed that the requirements it covers are met."
+ },
+ {
+  "video": "E-C03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary lacks terms taught/used: Hersteller, Betreiber, Gefährdungsbeurteilung, Konformitätsvermutung.",
+  "suggested_fix": "add: {\"de\":\"der Hersteller\",\"ar\":\"المصنِّع\",\"en\":\"manufacturer\"}, {\"de\":\"der Betreiber\",\"ar\":\"المشغِّل\",\"en\":\"operator\"}, {\"de\":\"die Gefährdungsbeurteilung\",\"ar\":\"تقييم الأخطار\",\"en\":\"hazard assessment\"}, {\"de\":\"die Konformitätsvermutung\",\"ar\":\"افتراض المطابقة\",\"en\":\"presumption of conformity\"}"
+ },
+ {
+  "video": "E-C04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Title DE says \"Industrielle Kommunikation\" while AR/EN, slide title, file name, E-C03 NEXT and PLAN say Networks; AR has \"(مفاهيم)\", DE does not.",
+  "suggested_fix": "title.de: Industrielle Netzwerke: PROFINET und OPC UA (Konzepte)"
+ },
+ {
+  "video": "E-C04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "NEXT given as title (\"Industrielle Cybersicherheit: IEC 62443 und NIS2 (Konzepte)\") unlike the sentence pattern; mismatch with C05 title wording.",
+  "suggested_fix": "next.de: Im nächsten Video geht es um industrielle Cybersicherheit. | next.ar: في الفيديو القادم نتناول الأمن السيبراني الصناعي. | next.en: The next video is about industrial cybersecurity."
+ },
+ {
+  "video": "E-C04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Core concepts of the video are missing from the glossary (PROFINET, OPC UA, MRP, der Ring) while minor items are present.",
+  "suggested_fix": "add: {\"de\":\"das PROFINET\",\"ar\":\"معيار PROFINET المفتوح للإيثرنت الصناعي\",\"en\":\"PROFINET\"}, {\"de\":\"das OPC UA\",\"ar\":\"معيار OPC UA لتبادل البيانات\",\"en\":\"OPC UA\"}, {\"de\":\"das Medienredundanzprotokoll (MRP)\",\"ar\":\"بروتوكول تكرار الوسيط الخاص بالحلقات\",\"en\":\"media redundancy protocol\"}, {\"de\":\"der Ring\",\"ar\":\"الحلقة\",\"en\":\"ring\"}"
+ },
+ {
+  "video": "E-C04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz: the correct option is the longest in Q1, Q2, Q4, Q5 and several distractors are implausible (\"Nur Internetverbindung\", \"Mehr Kabelfarben\", \"Nur zum Verlegen von Kabeln\").",
+  "suggested_fix": "Q1 option 2 de: Eine Verbindung ohne jedes Kabel | ar: اتصال بلا أي كابل | en: A connection without any cable. Q3 option 1 de: Eine höhere Datenrate im Ring | ar: معدل بيانات أعلى في الحلقة | en: A higher data rate in the ring. Q4 option 1 de: Zum Austausch beschriebener Daten | ar: لتبادل بيانات موصوفة | en: For exchanging described data; option 0 de: Zum Konfigurieren von Schaltschränken | ar: لضبط خزائن التوزيع | en: For configuring control cabinets."
+ },
+ {
+  "video": "E-C04",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses / Latin letters.",
+  "suggested_fix": "term.ar: الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-C04",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses / Latin letters.",
+  "suggested_fix": "term.ar: وحدة التحكم المبرمجة"
+ },
+ {
+  "video": "E-C04",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses / Latin letters.",
+  "suggested_fix": "term.ar: مبدّل الشبكة"
+ },
+ {
+  "video": "E-C04",
+  "scene": 16,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses / Latin letters.",
+  "suggested_fix": "term.ar: الفصل بين تقنية المعلومات وتقنية التشغيل"
+ },
+ {
+  "video": "E-C04",
+  "scene": 17,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses / Latin letters.",
+  "suggested_fix": "term.ar: وصلة التوصيل"
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses / Latin letters.",
+  "suggested_fix": "term.ar: مهندس التشغيل الأولي"
+ },
+ {
+  "video": "E-C04",
+  "scene": 4,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table rows exceed 50 chars (56 and 53).",
+  "suggested_fix": "items: \"Industrial Ethernet | Ethernet für die Industrie\" and \"Industrial Ethernet | Basis: Standard-Ethernet\""
+ },
+ {
+  "video": "E-C04",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 52 chars.",
+  "suggested_fix": "item: \"Nicht gleich | schnell ≠ Echtzeit\""
+ },
+ {
+  "video": "E-C04",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Quote-layout notice slide has only 2 items (near empty).",
+  "suggested_fix": "items: [\"Kein Ersatz für Ausbildung\", \"Aktuelle Regeln beachten\", \"Nur Konzepte, keine Zahlen\", \"Im Zweifel: Fachperson fragen\"]"
+ },
+ {
+  "video": "E-C04",
+  "scene": 2,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Double adverbs \"دائمًا أيضًا\" are clumsy.",
+  "suggested_fix": "AR: وراجعوا أيضًا قواعد شركتكم دائمًا."
+ },
+ {
+  "video": "E-C04",
+  "scene": 6,
+  "line": 6,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard numbers read as hyphenated compound numerals; course convention is digit by digit.",
+  "suggested_fix": "tts: Die Technik ist in den Normenreihen I-E-Ze sechs eins eins fünf acht und I-E-Ze sechs eins sieben acht vier eingebettet."
+ },
+ {
+  "video": "E-C04",
+  "scene": 12,
+  "line": 7,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Same number-reading convention.",
+  "suggested_fix": "tts: International ist O-Pe-Ze U-A als Normenreihe I-E-Ze sechs zwei fünf vier eins veröffentlicht."
+ },
+ {
+  "video": "E-C04",
+  "scene": 6,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Definition of the name (6.8) and of \"open\" (6.9) come after the housekeeping line 6.7; belongs right after 6.1.",
+  "suggested_fix": "Reorder: 6.1, 6.8, 6.9, 6.2 ... 6.7."
+ },
+ {
+  "video": "E-C04",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "DCP/LLDP are used without being expanded (MRP is), so the learner cannot place them.",
+  "suggested_fix": "11.3 DE: Danach wird er per DCP, dem Discovery and Configuration Protocol, auf das Gerät übertragen. | AR: بعد ذلك يُنقل إلى الجهاز عبر بروتوكول DCP للاكتشاف والإعداد. | tts: Danach wird er per De-Ze-Pe, dem Discovery and Configuration Protocol, auf das Gerät übertragen. | 11.5 DE: Außerdem nutzen die Geräte LLDP, das Link Layer Discovery Protocol. | AR: كما تستخدم الأجهزة بروتوكول LLDP لاكتشاف الجيران. | tts: Außerdem nutzen die Geräte El-El-De-Pe, das Link Layer Discovery Protocol."
+ },
+ {
+  "video": "E-C04",
+  "scene": 13,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Stray comma before parenthesis; awkward.",
+  "suggested_fix": "AR: والنموذج الثاني اسمه النشر والاشتراك (PubSub) عادةً."
+ },
+ {
+  "video": "E-C04",
+  "scene": 14,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Integrität\" rendered \"السلامة\" here but \"النزاهة\" in E-C05 (slide term, glossary).",
+  "suggested_fix": "AR: هناك تسجيل دخول وتشفير وفحص للنزاهة."
+ },
+ {
+  "video": "E-C04",
+  "scene": 14,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "14.9 (\"So kann ein Programm erkennen, was ein Wert bedeutet\") follows the certificates sentence, so \"So\" points to the wrong cause; it belongs to the information model (14.5).",
+  "suggested_fix": "Move 14.9 directly after 14.5."
+ },
+ {
+  "video": "E-C04",
+  "scene": 15,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide term \"Companion Specification\" is never spoken in the scene.",
+  "suggested_fix": "DE: PI und die OPC Foundation haben dazu gemeinsam eine Companion Specification veröffentlicht. | AR: ولذلك نشرت PI وOPC Foundation معًا مواصفة مرافقة مشتركة. | EN: PI and the OPC Foundation have jointly published a companion specification for this. | tts: Pe-I und die O-Pe-Ze Foundation haben dazu gemeinsam eine Companion Specification veröffentlicht."
+ },
+ {
+  "video": "E-C04",
+  "scene": 17,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الموصل\" for Steckverbinder collides with TERMS (موصل = Leiter: موصل التعادل/الحماية).",
+  "suggested_fix": "AR: لنلقِ نظرة أخيرة على الكابلات ووصلات التوصيل."
+ },
+ {
+  "video": "E-C04",
+  "scene": 17,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الموصل\" for Steckverbinder collides with TERMS (موصل = Leiter: موصل التعادل/الحماية).",
+  "suggested_fix": "AR: في خزانة التوزيع والتحكم تظهر غالبًا وصلة RJ45 المعروفة."
+ },
+ {
+  "video": "E-C04",
+  "scene": 17,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الموصل\" for Steckverbinder collides with TERMS (موصل = Leiter: موصل التعادل/الحماية).",
+  "suggested_fix": "AR: وعلى الآلات في الحقل تُستخدم غالبًا وصلة M12 الدائرية."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Pronoun switch: 18.2-18.7, 18.9-18.11 talk about \"er\" (the Inbetriebnehmer), 18.8 suddenly addresses \"Sie\".",
+  "suggested_fix": "DE: Änderungen im Netz spricht er immer vorher ab. | AR: وينسّق أي تغيير في الشبكة مسبقًا دائمًا. | EN: They always agree on changes to the network beforehand."
+ },
+ {
+  "video": "E-C05",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q5 DE: \"Eine neue Norm von VDE\" is ungrammatical (der VDE: \"vom VDE\"). Q1 distractors (\"Die Werbung\", \"Die Farbe\") are absurd; question \"Was steht ... weit oben\" is unidiomatic.",
+  "suggested_fix": "Q5 option 0 de: Eine neue Norm vom VDE | Q1 de: Welches Schutzziel hat in der OT laut BSI besonders hohe Priorität? options: Die Verfügbarkeit | Nur die Vertraulichkeit | Die Farbe der Geräte (answer 0)."
+ },
+ {
+  "video": "E-C05",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"BSI\" is used (4.5, 6.9, 14.2, 15.2) but first explained only in scene 19; learners do not know the acronym.",
+  "suggested_fix": "DE: In der OT steht die Verfügbarkeit laut Bundesamt für Sicherheit in der Informationstechnik, kurz BSI, sehr weit oben. | AR: في تقنية التشغيل تحتل التوافرية بحسب المكتب الاتحادي لأمن المعلومات (BSI) مرتبة عالية جدًا. | tts: In der O-Te steht die Verfügbarkeit laut Bundesamt für Sicherheit in der Informationstechnik, kurz Be-Es-I, sehr weit oben."
+ },
+ {
+  "video": "E-C05",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term SPS \"وحدة التحكم المنطقية القابلة للبرمجة (SPS)\" is a third rendering and the term is never spoken in scene 12.",
+  "suggested_fix": "terms: remove, or use ar: وحدة التحكم المبرمجة"
+ },
+ {
+  "video": "E-C05",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide term \"Stand der Technik\" is not used in the spoken lines of scene 2 (belongs to scene 20); AR calque \"الحالة الراهنة للتقنية\" ends with Latin tag.",
+  "suggested_fix": "Move term to scene 20; ar: المستوى الراهن للتقنية (20.4 ar: وفق المستوى الراهن للتقنية)."
+ },
+ {
+  "video": "E-C05",
+  "scene": 22,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Ungrammatical \"Zum Schluss noch einmal wichtig\".",
+  "suggested_fix": "DE: Zum Schluss noch einmal ein wichtiger Hinweis. | EN: Finally, one more important note."
+ },
+ {
+  "video": "E-C05",
+  "scene": 2,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Rechtsbereich\" is not a German organisational term.",
+  "suggested_fix": "DE: Bitte entscheiden Sie im Projekt immer mit Ihrer Fachabteilung und Ihrer Rechtsabteilung."
+ },
+ {
+  "video": "E-C05",
+  "scene": 6,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Ungrammatical: \"لا يجوز أن يستغني داخل المنشأة نفسه عن حمايته\"; line also sits after the summary sentence 6.8.",
+  "suggested_fix": "AR: وبحسب BSI يجب ألا يخلو داخل المنشأة نفسه من حماية خاصة به. | Move before 6.8."
+ },
+ {
+  "video": "E-C05",
+  "scene": 11,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"ذات حاجة الحماية المتشابهة\" is awkward.",
+  "suggested_fix": "AR: المنطقة الأمنية تجمع أجزاء المنشأة ذات احتياجات الحماية المتشابهة."
+ },
+ {
+  "video": "E-C05",
+  "scene": 13,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "13.4 sits between steps 1 (13.3) and 2 (13.5) and interrupts the 4-step sequence shown on the slide.",
+  "suggested_fix": "Move 13.4 after 13.6."
+ },
+ {
+  "video": "E-C05",
+  "scene": 7,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Wichtig: ... kein Ersatz für den Normtext\" interrupts the sequence of parts 2-1 / 3-2 / 3-3 / 4-1 / 4-2.",
+  "suggested_fix": "Move 7.5 behind 7.9."
+ },
+ {
+  "video": "E-C05",
+  "scene": 17,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"التشغيل الأول\" vs \"التشغيل الأولي\" (E-C04).",
+  "suggested_fix": "AR: تحتفظ الأجهزة بكلمات المرور الافتراضية من التشغيل الأولي."
+ },
+ {
+  "video": "E-C05",
+  "scene": 17,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"وصولات\" is not an established plural.",
+  "suggested_fix": "AR: هناك منافذ وصول عن بُعد لم يعد أحد يعرفها."
+ },
+ {
+  "video": "E-C05",
+  "scene": 21,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Ungrammatical agreement: \"Segmentierung, Fernzugriff und Patches braucht man mit Plan\".",
+  "suggested_fix": "DE: Segmentierung, Fernzugriff und Patches brauchen einen Plan."
+ },
+ {
+  "video": "E-C05",
+  "scene": 11,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide terms for Zone/Konduit/etc. repeat the German word in Latin parentheses (edge rule for slide items).",
+  "suggested_fix": "terms.ar: المنطقة الأمنية | قناة الاتصال; (also scene 2 الحالة..., 3 تقنية التشغيل / تقنية المعلومات, 4 النزاهة, 6 الدفاع المتعمّق / التحصين, 12 المنطقة العازلة (DMZ -> المنطقة العازلة), 13 مستوى الحماية, 14 التقسيم الشبكي, 16 إدارة التحديثات الأمنية, 18 التوجيه الأوروبي, 19 المكتب الاتحادي لأمن المعلومات, 20 الجهة المعنية)"
+ },
+ {
+  "video": "E-C05",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 52 chars.",
+  "suggested_fix": "item: \"Ziel | IT: Daten, OT: laufender Prozess\""
+ },
+ {
+  "video": "E-C05",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table rows have 51 and 52 chars.",
+  "suggested_fix": "items: \"Reihe | Cybersicherheit für Automatisierung\" and \"Teil 4-1 | Sichere Produktentwicklung\""
+ },
+ {
+  "video": "E-C05",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 52 chars.",
+  "suggested_fix": "item: \"Pufferzone (DMZ) | Übergang Büro und Anlage\""
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 62 chars (truncation risk).",
+  "suggested_fix": "item: \"Aufsicht | BSI, zuständige Bundesbehörde\""
+ },
+ {
+  "video": "E-C05",
+  "scene": 1,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Title slide has only 2 items.",
+  "suggested_fix": "items: [\"OT-Security\", \"Schutzziele und Zonen\", \"IEC 62443 und NIS2\"]"
+ },
+ {
+  "video": "E-C05",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"in diesem Pfad\" is course-planning jargon.",
+  "suggested_fix": "DE: Willkommen zum fünften Video über Automatisierung und Steuerung. | AR: مرحبًا بكم في الفيديو الخامس عن الأتمتة والتحكم. | EN: Welcome to the fifth video about automation and control."
+ },
+ {
+  "video": "E-C05",
+  "scene": 4,
+  "line": 4,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "US spelling; all other E-C scripts use British English (summarise, organisation, harmonised).",
+  "suggested_fix": "EN: The third is confidentiality: only authorised people see the data."
+ },
+ {
+  "video": "E-C05",
+  "scene": 20,
+  "line": 7,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "US spelling; all other E-C scripts use British English (summarise, organisation, harmonised).",
+  "suggested_fix": "EN: For engineers this means: technology and organisation belong together."
+ },
+ {
+  "video": "E-C05",
+  "scene": 21,
+  "line": 1,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "US spelling; all other E-C scripts use British English (summarise, organisation, harmonised).",
+  "suggested_fix": "EN: Let us summarise."
+ },
+ {
+  "video": "E-C05",
+  "scene": 1,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: ويُسمّى ذلك أيضًا OT-Security، أي أمن تقنيات التشغيل."
+ },
+ {
+  "video": "E-C05",
+  "scene": 3,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: تقنية المعلومات، ويُرمز لها IT، تشمل مثلًا حواسيب المكاتب."
+ },
+ {
+  "video": "E-C05",
+  "scene": 3,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: تقنية التشغيل (OT) تشمل وحدات التحكم والمحركات والحسّاسات."
+ },
+ {
+  "video": "E-C05",
+  "scene": 7,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: والآن ننتقل إلى سلسلة المعايير IEC 62443 وأجزائها."
+ },
+ {
+  "video": "E-C05",
+  "scene": 7,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: وتصدر في ألمانيا باسم DIN EN IEC 62443 ومعها رقم تصنيف VDE الخاص بها."
+ },
+ {
+  "video": "E-C05",
+  "scene": 8,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: لذلك تحققوا دائمًا من الإصدار السارّي، مثلًا لدى DKE الألمانية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 12,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: وبينها منطقة عازلة تُعرف باسم DMZ بين الشبكتين."
+ },
+ {
+  "video": "E-C05",
+  "scene": 15,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: توصي BSI بوضع نقاط الوصول داخل منطقة DMZ العازلة."
+ },
+ {
+  "video": "E-C05",
+  "scene": 18,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: والآن إلى الجانب الأوروبي: توجيه NIS2 الصادر عن الاتحاد."
+ },
+ {
+  "video": "E-C05",
+  "scene": 18,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: اسمه الرسمي: التوجيه الأوروبي 2022/2555 الصادر عن الاتحاد."
+ },
+ {
+  "video": "E-C05",
+  "scene": 18,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: نُشر هذا التوجيه في ديسمبر 2022 ميلادية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: وهو يحل محل توجيه NIS السابق من عام 2016 ميلادية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 18,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: انتهت المهلة المحددة لذلك في أكتوبر 2024 ميلادية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: صدر قانون التطبيق في الخامس من ديسمبر 2025 ميلادية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: ودخل حيز التنفيذ في السادس من ديسمبر 2025 ميلادية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: وجوهره هو الصيغة الجديدة لقانون BSI الألماني."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: والمكتب الاتحادي BSI هو الجهة الاتحادية المختصة."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: تاريخنا المرجعي هو 20 أكتوبر 2026 ميلادية."
+ },
+ {
+  "video": "E-C05",
+  "scene": 19,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: لذلك تحققوا لدى المكتب الاتحادي BSI من الوضع القانوني الحالي."
+ },
+ {
+  "video": "E-C05",
+  "scene": 20,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR line has no final punctuation (19 lines in this script, the others always end with a full stop) and several use fronted dates/fillers (\"لذلك\", \"الصادر عن الاتحاد\") that read unnaturally; line 19.6 starts \"و BSI\" with a stray space.",
+  "suggested_fix": "AR: وعليها التسجيل لدى BSI وتوثيق إجراءاتها."
+ },
+ {
+  "video": "E-C06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz Q5 distractors are caricatures (\"Nur wer es eilig hat\"); correct option is the longest. Q3 AR \"أي عبارة عن\" ungrammatical. Q2/Q4 have \"Was ein Kabel kostet\"/\"Nur die Gerätefarbe\".",
+  "suggested_fix": "Q5 options: Jede Person mit Ingenieurabschluss (أي شخص حاصل على شهادة هندسية) | Jeder, der das Multimeter bedienen kann (أي شخص يجيد استخدام المقياس المتعدد) | Elektrofachkraft oder unter ihrer Leitung und Aufsicht (answer 2) | Q3 ar: أي عبارة بشأن تمديد الكابلات صحيحة؟ | Q2 opt 2: Wie schnell ein Gerät startet (مدى سرعة بدء تشغيل الجهاز) | Q4 opt 2: Nur die Seriennummer (الرقم التسلسلي فقط)"
+ },
+ {
+  "video": "E-C06",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: المتأثر بالاضطراب"
+ },
+ {
+  "video": "E-C06",
+  "scene": 5,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: الانبعاث الكهرومغناطيسي | المناعة ضد الاضطرابات"
+ },
+ {
+  "video": "E-C06",
+  "scene": 6,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: النبضات العابرة السريعة | الصدمات الجهدية"
+ },
+ {
+  "video": "E-C06",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: قانون التوافق الكهرومغناطيسي"
+ },
+ {
+  "video": "E-C06",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: المنشأة الثابتة"
+ },
+ {
+  "video": "E-C06",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: المعيار العام للمجال"
+ },
+ {
+  "video": "E-C06",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: الدرع"
+ },
+ {
+  "video": "E-C06",
+  "scene": 13,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: مرشّح الشبكة"
+ },
+ {
+  "video": "E-C06",
+  "scene": 15,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: المقياس المتعدد"
+ },
+ {
+  "video": "E-C06",
+  "scene": 16,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: فئة القياس"
+ },
+ {
+  "video": "E-C06",
+  "scene": 17,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with Latin tag in parentheses.",
+  "suggested_fix": "term.ar: مجس القياس"
+ },
+ {
+  "video": "E-C06",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"المعيار الأساسي العام\" for Fachgrundnorm is too close to Grundnorm = \"المعيار الأساسي\" (E-C02) and confuses two concepts.",
+  "suggested_fix": "term.ar and 9.3 AR: المعايير العامة للمجال تُطبَّق عندما لا يوجد معيار خاص بالمنتج."
+ },
+ {
+  "video": "E-C06",
+  "scene": 15,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 52 chars.",
+  "suggested_fix": "item: \"Isolationsmessgerät | Gleichspannung, spannungsfrei\""
+ },
+ {
+  "video": "E-C06",
+  "scene": 18,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row has 51 chars.",
+  "suggested_fix": "item: \"Isolationsmessung | Gleichspannung, vom Netz\""
+ },
+ {
+  "video": "E-C06",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide term \"Messprotokoll\" is unrelated to scene 2 (belongs to scene 20, where it already appears).",
+  "suggested_fix": "terms (scene 2): []"
+ },
+ {
+  "video": "E-C06",
+  "scene": 1,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Housekeeping line 1.6 (glossary/quiz) sits before the content list 1.7; place it last.",
+  "suggested_fix": "Order: 1.2-1.5, 1.7, then 1.6."
+ },
+ {
+  "video": "E-C06",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"im Pfad\" is planning jargon.",
+  "suggested_fix": "DE: Willkommen zum sechsten und letzten Video über Automatisierung und Steuerung. | AR: مرحبًا بكم في الفيديو السادس والأخير عن الأتمتة والتحكم. | EN: Welcome to the sixth and last video about automation and control."
+ },
+ {
+  "video": "E-C06",
+  "scene": 2,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"sie\" is unclear after 2.7 (refers to the five safety rules of 2.6).",
+  "suggested_fix": "DE: Die fünf Regeln nennen wir später noch einmal vollständig. | AR: وسنذكر القواعد الخمس لاحقًا مرة أخرى كاملة. | EN: We will state the five rules in full again later."
+ },
+ {
+  "video": "E-C06",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Tautology: \"المنقولة عبر الموصلات ... عبر الكابلات والموصلات\".",
+  "suggested_fix": "AR: الاضطرابات الموصولة تنتقل عبر الكابلات والموصلات."
+ },
+ {
+  "video": "E-C06",
+  "scene": 5,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Pedagogical inconsistency: 4.4/4.5 explain capacitive/inductive coupling as fields, 5.3 and the slide row file them under \"leitungsgebunden\" without explanation.",
+  "suggested_fix": "DE: Galvanische, kapazitive und induktive Kopplung wirken meist zwischen benachbarten Leitungen; viele Fachquellen ordnen sie daher den leitungsgebundenen Störungen zu. | AR: ويؤثر الاقتران الجلفاني والسعوي والحثي غالبًا بين كابلات متجاورة، لذلك يدرجه كثير من المراجع ضمن الاضطرابات الموصولة. | EN: Galvanic, capacitive and inductive coupling mostly act between neighbouring cables, so many technical sources count them as conducted disturbances."
+ },
+ {
+  "video": "E-C06",
+  "scene": 6,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"العابرات السريعة\" differs from the slide term \"النبضات العابرة السريعة\".",
+  "suggested_fix": "AR: من الأمثلة التفريغ الكهروستاتيكي والنبضات العابرة السريعة والصدمات الجهدية."
+ },
+ {
+  "video": "E-C06",
+  "scene": 6,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "IEC 61000-4 read as \"einundsechzigtausend\"; course convention is digit by digit.",
+  "suggested_fix": "tts: Die Prüfreihe I-E-Ze sechs eins null null null Strich vier beschreibt solche Verfahren."
+ },
+ {
+  "video": "E-C06",
+  "scene": 6,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Sie\" (6.8) points to Prüfpegel from 6.5 but follows 6.6/6.7.",
+  "suggested_fix": "Move 6.8 directly after 6.5 and name it: DE: Die Prüfpegel stehen in den jeweils gültigen Normen und Datenblättern."
+ },
+ {
+  "video": "E-C06",
+  "scene": 7,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Eastern Arabic digits (\"١٤ ديسمبر ٢٠١٦\") while all other lines in the six scripts use Western digits; filler \"ميلاديًا\".",
+  "suggested_fix": "AR: أُعيدت صياغة القانون بتاريخ 14 ديسمبر 2016 ميلاديًا."
+ },
+ {
+  "video": "E-C06",
+  "scene": 7,
+  "line": 6,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "URL \"gesetze-im-internet.de\" has no tts (hyphens/\".de\" read unpredictably).",
+  "suggested_fix": "tts: Prüfen Sie immer die aktuelle Fassung auf gesetze-im-internet Punkt De."
+ },
+ {
+  "video": "E-C06",
+  "scene": 8,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Die Behörde\" is not introduced in scene 8 (Bundesnetzagentur appears only in 7.9).",
+  "suggested_fix": "DE: Die Bundesnetzagentur nennt fehlende Konformitätserklärungen unter den häufigen Mängeln. | AR: وتذكر الوكالة الاتحادية للشبكات غياب إعلانات المطابقة ضمن العيوب الشائعة. | EN: The Federal Network Agency lists missing declarations of conformity among the frequent defects."
+ },
+ {
+  "video": "E-C06",
+  "scene": 8,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Diese Regeln\" has no clear referent.",
+  "suggested_fix": "DE: Die angewendeten Regeln sind zu dokumentieren. | AR: ويجب توثيق القواعد المطبَّقة. | EN: The rules applied must be documented."
+ },
+ {
+  "video": "E-C06",
+  "scene": 9,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "EN 61000 read as \"einundsechzigtausend\"; AR filler \"هذه\".",
+  "suggested_fix": "tts: Konkrete Maßstäbe liefern harmonisierte Normen, vor allem die Reihe E-En sechs eins null null null. | AR: المعايير المنسَّقة تقدّم المقاييس المحددة، وخاصة سلسلة المعايير EN 61000 الأوروبية."
+ },
+ {
+  "video": "E-C06",
+  "scene": 13,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"يُقال\" does not render \"gilt\".",
+  "suggested_fix": "AR: وعند وجود فروق جهد في الموقع تسري القاعدة: أولًا التوضيح ثم التركيب."
+ },
+ {
+  "video": "E-C06",
+  "scene": 16,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"مدى قوة طاقة الجهود الزائدة\" is clumsy.",
+  "suggested_fix": "AR: وهي تصف مقدار الطاقة التي قد تحملها الجهود الزائدة عند موضع القياس."
+ },
+ {
+  "video": "E-C06",
+  "scene": 17,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"كابل الأرضي\" is not a standard rendering of Masseleitung (ground lead of a probe).",
+  "suggested_fix": "AR: وسلك الأرضي الطويل يعمل كهوائي."
+ },
+ {
+  "video": "E-C06",
+  "scene": 17,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Safety message contradicts 14.10: the five rules (isolating) are named for \"Netzspannung\" measurements, which are by definition live.",
+  "suggested_fix": "DE: Messungen an Netzspannung gehören zu den Arbeiten einer Elektrofachkraft und folgen den Herstellerangaben. | AR: والقياس عند جهد الشبكة من أعمال الكهربائي المؤهَّل ويتبع تعليمات الشركة المصنِّعة. | EN: Measurements on mains voltage are work for a qualified electrician and follow the manufacturer's instructions."
+ },
+ {
+  "video": "E-C06",
+  "scene": 18,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Elliptical fragment without verb; unclear who does what.",
+  "suggested_fix": "DE: Diese Messung läuft bei eingeschalteter Anlage; sie gehört in die Hand einer Elektrofachkraft oder von Personen unter deren Leitung und Aufsicht. | AR: يجري هذا القياس والمنشأة تحت الجهد، ويتولاه الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إدارته وإشرافه."
+ },
+ {
+  "video": "E-C06",
+  "scene": 19,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Normale\" (measurement standards) rendered \"المعايير الوطنية\" collides with Normen = \"المعايير\"; EN \"national standards\" likewise.",
+  "suggested_fix": "AR: والمهم قابلية التتبّع إلى المراجع القياسية الوطنية. | EN: Traceability to national measurement standards is important."
+ },
+ {
+  "video": "E-C06",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "IEC 61010-1 read as \"einundsechzigtausendzehn\".",
+  "suggested_fix": "(see DE fix above) tts: ... I-E-Ze sechs eins null eins null Strich eins ..."
+ },
+ {
+  "video": "E-C06",
+  "scene": 21,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Elliptical fragment (\"Arbeiten an Anlagen: Elektrofachkraft oder ...\").",
+  "suggested_fix": "DE: Arbeiten an Anlagen führt eine Elektrofachkraft aus oder jemand unter deren Leitung und Aufsicht, jeweils mit den fünf Sicherheitsregeln. | AR: الأعمال على المنشآت ينفذها الكهربائي المؤهَّل (Elektrofachkraft) أو من يعمل تحت إدارته وإشرافه، مع قواعد السلامة الخمس."
+ },
+ {
+  "video": "E-C06",
+  "scene": 21,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Recap omits the legal part (EMVG, CE, standards series; scenes 7-9).",
+  "suggested_fix": "Insert after 21.4: DE: Das EMVG und die EMV-Richtlinie bilden den rechtlichen Rahmen, die Normenreihen liefern die Maßstäbe. | AR: ويشكل قانون EMVG وتوجيه EMV الإطار القانوني، وتقدّم سلاسل المعايير المقاييس. | EN: The EMVG and the EMC Directive form the legal framework, the standard series provide the criteria. | tts: Das E-Em-Fau-Ge und die E-Em-Fau-Richtlinie bilden den rechtlichen Rahmen, die Normenreihen liefern die Maßstäbe."
+ },
+ {
+  "video": "E-C01",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses.",
+  "suggested_fix": "term.ar: وحدة التحكم المبرمجة"
+ },
+ {
+  "video": "E-C01",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses.",
+  "suggested_fix": "term.ar: التحكم الموصول بالأسلاك"
+ },
+ {
+  "video": "E-C01",
+  "scene": 4,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses.",
+  "suggested_fix": "term.ar: وحدة المعالجة المركزية"
+ },
+ {
+  "video": "E-C01",
+  "scene": 16,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses.",
+  "suggested_fix": "term.ar: مخطط السلّم | مخطط الكتل الوظيفية | النص المنظَّم"
+ },
+ {
+  "video": "E-C01",
+  "scene": 17,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses.",
+  "suggested_fix": "term.ar: قائمة التعليمات"
+ },
+ {
+  "video": "E-C01",
+  "scene": 20,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Slide term AR ends with a Latin tag in parentheses.",
+  "suggested_fix": "term.ar: الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-C01",
+  "scene": 15,
+  "line": 6,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"always check anew\" is unnatural.",
+  "suggested_fix": "EN: Which edition applies in your project, always check again."
+ },
+ {
+  "video": "E-C01",
+  "scene": 2,
+  "line": 8,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"Memory-programmable means\" is not an English term.",
+  "suggested_fix": "EN: \"Speicherprogrammierbar\" means: the program is stored in memory and can be changed."
+ },
+ {
+  "video": "E-C02",
+  "scene": 1,
+  "line": 0,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Intro (1.2-1.6) consists of many 5-7 word sentences with the same \"Sie lernen/Wir erklären\" pattern; monotone for TTS.",
+  "suggested_fix": "Merge 1.2-1.3: Heute geht es um funktionale Sicherheit, und Sie lernen die Grundidee kennen."
+ },
+ {
+  "video": "E-C03",
+  "scene": 7,
+  "line": 2,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Filler \"المعروف/الخاص بها\" appended only to dodge the Latin edge (7.2, 10.7, 10.8, 14.8, 13.8, 13.9, 11.2); unfaithful and unnatural.",
+  "suggested_fix": "7.2 AR: المعيار الأساسي لذلك هو EN ISO 12100 الخاص بتقييم المخاطر. | 10.8 AR: أما لإيقاف الطوارئ نفسه فتشير المصادر المتخصصة إلى المعيار EN ISO 13850 الخاص به. | 14.8 AR: المسافة إلى موضع الخطر تتبع المعيار EN ISO 13855 الخاص بالمسافات الآمنة."
+ },
+ {
+  "video": "E-C03",
+  "scene": 8,
+  "line": 6,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Two consecutive lines start with \"also\" (8.6, 8.7); filler.",
+  "suggested_fix": "8.6 DE: Schutzmaßnahmen haben eine klare Rangfolge. | 8.7 DE: Warnschilder allein ersetzen keine sichere Konstruktion."
+ },
+ {
+  "video": "E-C03",
+  "scene": 3,
+  "line": 0,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Hersteller = \"المصنِّع\" here but \"الشركة المصنِّعة\" in E-C04/05/06; Elektrische Ausrüstung = \"التجهيزات الكهربائية\" vs \"معدات كهربائية\" in E-F06 audit.",
+  "suggested_fix": "Pick one pair path-wide, e.g. المصنِّع / معدات كهربائية."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 2,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"he\" for the commissioning role (gendered).",
+  "suggested_fix": "EN: First they read the planning."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 4,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"he\" for the commissioning role (gendered).",
+  "suggested_fix": "EN: Then they check whether the real plant matches."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 6,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"he\" for the commissioning role (gendered).",
+  "suggested_fix": "EN: They document the status and every change."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 7,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"he\" for the commissioning role (gendered).",
+  "suggested_fix": "EN: And they coordinate with electrics, IT and the manufacturer."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 9,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"he\" for the commissioning role (gendered).",
+  "suggested_fix": "EN: They also pay attention to neatly labelled cables and ports."
+ },
+ {
+  "video": "E-C04",
+  "scene": 18,
+  "line": 10,
+  "severity": "note",
+  "lang": "en",
+  "issue": "\"he\" for the commissioning role (gendered).",
+  "suggested_fix": "EN: If something is unclear, they ask before changing anything."
+ },
+ {
+  "video": "E-C04",
+  "scene": 16,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Teaser for the next video inside the IT/OT scene (16.8) duplicates 21.6.",
+  "suggested_fix": "Delete 16.8 (DE/AR/EN)."
+ },
+ {
+  "video": "E-C06",
+  "scene": 4,
+  "line": 7,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Technical accuracy to verify in the facts audit: \"kapazitiv vor allem bei hohen, induktiv eher bei niedrigen Frequenzen\" is not a general rule (induced voltage grows with dI/dt, i.e. with frequency too).",
+  "suggested_fix": "Consider removing 4.7/4.8 or replace with: Die kapazitive Kopplung hängt vor allem von schnellen Spannungsänderungen ab, die induktive von schnellen Stromänderungen."
+ },
+ {
+  "video": "E-C06",
+  "scene": 15,
+  "line": 7,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Spelling: \"اقرأوا\" -> \"اقرؤوا\" (E-C01 22.7 uses اقرؤوا).",
+  "suggested_fix": "AR: اقرؤوا في كل جهاز دليل التشغيل أولًا."
+ },
+ {
+  "video": "E-C06",
+  "scene": 21,
+  "line": 1,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Missing shadda (E-C01..03 use لنلخّص).",
+  "suggested_fix": "AR: لنلخّص."
+ },
+ {
+  "video": "E-C06",
+  "scene": 2,
+  "line": 4,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Leitung und Aufsicht rendered \"إشرافه وتوجيهه\" (2.4, 13.10, 18.9, 21.8, Q5); majority of path uses \"إدارته وإشرافه\".",
+  "suggested_fix": "Replace \"إشرافه وتوجيهه\" -> \"إدارته وإشرافه\" in these lines and Q5 option 2."
+ }
+]
