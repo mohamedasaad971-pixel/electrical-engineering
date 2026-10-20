@@ -1,0 +1,626 @@
+[
+ {
+  "video": "E-B01",
+  "scene": 18,
+  "line": 4,
+  "severity": "error",
+  "issue": "Regel 3 der fünf Sicherheitsregeln ohne 'allpolig' gesprochen (Zeile) und auf der Folie; E-F05, E-B02, E-B03, E-B04, E-B05 und E-B06 sagen 'Spannungsfreiheit allpolig feststellen'. Die Regeln dürfen nie verkürzt werden.",
+  "suggested_fix": "DE: Erstens: Freischalten. Zweitens: gegen Wiedereinschalten sichern. Drittens: Spannungsfreiheit allpolig feststellen. | AR: أولًا: فصل الجهد. ثانيًا: التأمين ضد إعادة التشغيل. ثالثًا: التحقق من انعدام الجهد في جميع الأقطاب. | EN: First: isolate. Second: secure against reconnection. Third: verify absence of voltage on all poles."
+ },
+ {
+  "video": "E-B01",
+  "scene": 18,
+  "line": 0,
+  "severity": "error",
+  "issue": "Folienpunkt 3 ohne 'allpolig' (verkürzte Regel).",
+  "suggested_fix": "DE: Folienpunkt 3 = '3. Spannungsfreiheit allpolig feststellen' (Punkt 5 bleibt wie in E-F05: '5. Benachbarte Teile abdecken oder abschranken')"
+ },
+ {
+  "video": "E-B01",
+  "scene": 20,
+  "line": 6,
+  "severity": "error",
+  "issue": "Absolute Aussage 'nur eine Elektrofachkraft' widerspricht Szene 16 Zeile 4 und DGUV V3 ('oder unter deren Leitung und Aufsicht') sowie E-F04 (EFKffT, Leitung und Aufsicht). Außerdem sind die fünf Regeln hier als Arbeitsanweisung formuliert.",
+  "suggested_fix": "DE: Arbeiten an elektrischen Anlagen gehören in die Hand einer Elektrofachkraft oder erfolgen unter deren Leitung und Aufsicht, jeweils nach den fünf Sicherheitsregeln. | AR: الأعمال على المنشآت الكهربائية من اختصاص الكهربائي المؤهَّل (Elektrofachkraft) أو تُنفَّذ تحت إدارته وإشرافه، وفق قواعد السلامة الخمس. | EN: Work on electrical installations belongs in the hands of a qualified electrician or is carried out under their direction and supervision, following the five safety rules."
+ },
+ {
+  "video": "E-B01",
+  "scene": 4,
+  "line": 3,
+  "severity": "error",
+  "issue": "Die Reihe hat auch eine Gruppe 800 (Energieeffizienz, DIN VDE 0100-801; Fakt F12 der eigenen Recherche). 'Nummern 100 bis 700' und 'Gruppen 100 bis 700' (Folientitel S4, S19 L2) stellt die Reihe unvollständig als abgeschlossen dar.",
+  "suggested_fix": "DE: Die Gruppen tragen die Nummern 100 bis 700; dazu kommt eine Gruppe 800 zur Energieeffizienz. | AR: وتحمل المجموعات الأرقام من ١٠٠ حتى ٧٠٠، وتضاف إليها مجموعة ٨٠٠ الخاصة بكفاءة الطاقة. | EN: The groups carry the numbers 100 to 700; in addition there is a group 800 on energy efficiency. | TTS: Die Gruppen tragen die Nummern hundert bis siebenhundert; dazu kommt eine Gruppe achthundert zur Energieeffizienz. (Folientitel S4: 'Die Gruppen 100 bis 800'; S19 L2: 'DIN VDE 0100 ist in Gruppen gegliedert, von 100 bis 700 und dazu 800.')"
+ },
+ {
+  "video": "E-B01",
+  "scene": 7,
+  "line": 4,
+  "severity": "error",
+  "issue": "Arabischer Fachbegriff für Schutzpotentialausgleich 'التوصيل الأرضي الوقائي المتساوي الجهد' ist irreführend (suggeriert Erdung) und widerspricht E-B02 ('الربط الوقائي المتساوي الجهد').",
+  "suggested_fix": "DE: (unverändert) | AR: ويتناول الجزء ٥٤٠ التأريض وموصل الحماية والربط الوقائي المتساوي الجهد. | EN: (unverändert)"
+ },
+ {
+  "video": "E-B02",
+  "scene": 9,
+  "line": 11,
+  "severity": "error",
+  "issue": "Verstößt gegen die 'dropped'-Liste: 'Frist zur Fehlerbeseitigung im IT-System - nicht belegt' (Quelle F11 nur Herstellerseite Bender). 'Ermessen des Betreibers' ist zudem eine unbelegte Rechtsaussage.",
+  "suggested_fix": "delete (Zeile 11); Zeile 10 bleibt: 'Die genaue Frist für die Fehlerbeseitigung nennen wir hier nicht.' und ergänzend DE: Prüfen Sie die aktuelle Norm. | AR: تحققوا من المعيار الحالي. | EN: Check the current standard."
+ },
+ {
+  "video": "E-B03",
+  "scene": 9,
+  "line": 7,
+  "severity": "error",
+  "issue": "Fachlich falsch/irreführend: Es gibt zwei Bedingungen (Ib ≤ In und In ≤ Iz) plus die Auslösebedingung bei Überlast; 'alle drei Bedingungen' und 'ist das Kabel geschützt' (absolut, auch gegen Kurzschluss) stimmt nicht. Es sind drei Ströme, nicht drei Bedingungen.",
+  "suggested_fix": "DE: Nur wenn diese Reihenfolge stimmt und das Schutzgerät bei Überlast rechtzeitig auslöst, ist das Kabel vor Überlast geschützt. | AR: لا يكون الكبل محميًا من الحمل الزائد إلا إذا كان هذا الترتيب صحيحًا وفصل جهاز الحماية في الوقت المناسب عند الحمل الزائد. | EN: Only if this order holds and the protective device trips in time under overload is the cable protected against overload."
+ },
+ {
+  "video": "E-B05",
+  "scene": 14,
+  "line": 5,
+  "severity": "error",
+  "issue": "DIN 14675 hat zwei Teile; nur Teil 2 stellt Anforderungen an Fachfirmen (Fakt F14; Teil 1 = Aufbau und Betrieb, per Websuche bestätigt). Die Aussage über die ganze Norm ist falsch; ebenso Quizfrage 4 und Folienzeile.",
+  "suggested_fix": "DE: Der Teil zwei der DIN 14675 stellt Anforderungen an Fachfirmen für Brandmeldeanlagen. | AR: يضع الجزء الثاني من معيار DIN 14675 متطلبات على الشركات المتخصصة بأنظمة إنذار الحريق. | EN: Part two of DIN 14675 sets requirements for specialist firms for fire alarm systems. | TTS: Der Teil zwei der Din vierzehntausend-sechshundertfünfundsiebzig stellt Anforderungen an Fachfirmen für Brandmeldeanlagen. (Folienpunkt: 'DIN 14675-2 | Fachfirmen'; Quiz Q4: 'Was regelt DIN 14675 Teil 2?' / ماذا ينظم الجزء الثاني من معيار DIN 14675؟ / What does part 2 of DIN 14675 regulate?)"
+ },
+ {
+  "video": "E-B04",
+  "scene": 17,
+  "line": 3,
+  "severity": "error",
+  "issue": "Arabische Regel 1 'فصل التغذية' weicht von E-F05 ab ('فصل الجهد'); Regeln müssen terminologisch identisch sein. Ebenso Zeile 8. Regel 5 (Zeile 7) 'أو عزلها بحواجز' gibt 'abschranken' falsch wieder (عزل = isolieren).",
+  "suggested_fix": "AR Zeile 3: واحد: فصل الجهد. | AR Zeile 8: فصل الجهد هو الخطوة الأولى فقط من خمس، وبهذا الترتيب دائمًا. | AR Zeile 7: خمسة: تغطية الأجزاء المجاورة التي تحت الجهد أو وضع حواجز حولها. (DE/EN unverändert)"
+ },
+ {
+  "video": "E-B04",
+  "scene": 17,
+  "line": 11,
+  "severity": "error",
+  "issue": "Absolute Aussage 'Nur eine Elektrofachkraft darf diese Arbeiten ausführen' widerspricht DGUV V3 / B01 / E-F04 (auch unter Leitung und Aufsicht möglich); Zeile 12 'auch kleine Änderungen' verstärkt das.",
+  "suggested_fix": "DE: Diese Arbeiten gehören in die Hand einer Elektrofachkraft oder erfolgen unter deren Leitung und Aufsicht. | AR: هذه الأعمال من اختصاص الكهربائي المؤهَّل أو تُنفَّذ تحت إدارته وإشرافه. | EN: This work belongs in the hands of a qualified electrician or is carried out under their direction and supervision."
+ },
+ {
+  "video": "E-B04",
+  "scene": 5,
+  "line": 0,
+  "severity": "error",
+  "issue": "Arabischer Terminus für Potentialausgleich 'معادلة الجهد' (Slide-Term, Glossar, Zeilen 3,4,7,9; S8 L2; S19 L3) widerspricht E-B01/E-B02 ('الربط ... المتساوي الجهد') – gleiche Sache, drei Begriffe im Kurs.",
+  "suggested_fix": "AR überall in E-B04 ersetzen: معادلة الجهد → الربط المتساوي الجهد (Blitzschutz-Potentialausgleich = الربط المتساوي الجهد للحماية من الصواعق). Glossar: das Potentialausgleich | الربط المتساوي الجهد | equipotential bonding"
+ },
+ {
+  "video": "E-B06",
+  "scene": 19,
+  "line": 0,
+  "severity": "error",
+  "issue": "Folienpunkt 'HOAI regelt Honorar, nicht Leistung' ist zu absolut und widerspricht Szene 5 Z2 / Szene 18 Z8 ('Einzelheiten stehen in Anlage 15 der HOAI', 'Inhalte stehen ... in der HOAI'): Anlage 15 beschreibt die Grundleistungen. Fakt F4: HOAI regelt das Honorar; geschuldet ist, was der Vertrag sagt. Interne Widersprüche in der HOAI-Erklärung.",
+  "suggested_fix": "DE Folie S19: 'HOAI regelt Honorar; Leistung steht im Vertrag' | S18 L8 DE: Die genauen Inhalte stehen im Vertrag; die HOAI beschreibt die Grundleistungen als Orientierung. | AR: المحتوى الدقيق مذكور في العقد، وتصف HOAI الخدمات الأساسية كمرجع إرشادي. | EN: The exact contents are in the contract; the HOAI describes the basic services as a guide. | TTS: Die genauen Inhalte stehen im Vertrag; die Ho-A-I beschreibt die Grundleistungen als Orientierung. | S5 L2 DE: Die Grundleistungen je Phase beschreibt Anlage fünfzehn der HOAI; geschuldet ist, was im Vertrag steht. | AR: الخدمات الأساسية لكل مرحلة موصوفة في الملحق الخامس عشر من HOAI، والمستحق هو ما ورد في العقد. | EN: The basic services per phase are described in Annex fifteen of the HOAI; what is owed is what the contract says."
+ },
+ {
+  "video": "E-B01",
+  "scene": 3,
+  "line": 7,
+  "severity": "risk",
+  "issue": "DKE wird als 'Nationale Organisation für Normung' (Folie) bzw. 'Zuständig für die deutsche Normung' beschrieben – das ist die Rolle des DIN. E-F02 definiert: DIN = nationale Normungsorganisation, DKE = Fachstelle für Elektrotechnik, getragen von DIN und VDE. Kein Fakt in E-B01.",
+  "suggested_fix": "DE: Für die Elektrotechnik erarbeitet die DKE, getragen von DIN und VDE, die deutschen Normen. | AR: وفي الهندسة الكهربائية تعدّ هيئة (DKE) التي يدعمها DIN وVDE المعايير الألمانية. | EN: For electrical engineering, the DKE, supported by DIN and VDE, prepares the German standards. | TTS: Für die Elektrotechnik erarbeitet die De-Ka-E, getragen von Din und Fau-De-E, die deutschen Normen. (Folienzeile: 'DKE | Fachstelle für Elektrotechnik in DIN und VDE')"
+ },
+ {
+  "video": "E-B01",
+  "scene": 19,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Errichten dürfen Elektrofachkräfte oder Personen unter ihrer Aufsicht' lässt 'Leitung' weg (DGUV V3: Leitung und Aufsicht) und formuliert als Erlaubnis; DGUV V3 ist eine Unfallverhütungsvorschrift, keine allgemeine Erlaubnisnorm (Folientitel S16 'Wer darf errichten?' ebenso).",
+  "suggested_fix": "DE: Errichten, Ändern und Instandhalten erfolgt durch Elektrofachkräfte oder unter ihrer Leitung und Aufsicht. | AR: يقوم بالتركيب والتعديل والصيانة كهربائيون مؤهَّلون أو يتم ذلك تحت إدارتهم وإشرافهم. | EN: Erecting, changing and maintaining is done by qualified electricians or under their direction and supervision."
+ },
+ {
+  "video": "E-B01",
+  "scene": 16,
+  "line": 7,
+  "severity": "risk",
+  "issue": "Aussagen 'Ein Laie darf ... nicht' (L7), 'Begriff beschreibt Befähigung, keine Berufsbezeichnung' (L6), 'gilt immer für einen bestimmten Arbeitsbereich' (L8) stehen in keinem Fakt von E-B01 (nur F20/F21); 'immer' ist absolut. Inhalt kommt aus E-F04, ist dort aber differenzierter (EFKffT, EUP).",
+  "suggested_fix": "DE L7: Ein Laie führt keine elektrotechnischen Arbeiten selbstständig aus; Näheres im Video über die Elektrofachkraft. | AR: وغير المؤهَّل لا يُنفّذ أعمالًا كهربائية بمفرده؛ والتفاصيل في الفيديو عن الكهربائي المؤهَّل. | EN: A layperson does not carry out electrical work independently; details are in the video on the qualified electrician. | L8: delete"
+ },
+ {
+  "video": "E-B01",
+  "scene": 17,
+  "line": 2,
+  "severity": "risk",
+  "issue": "NAV wird nie ausgeschrieben (Zielgruppe kennt Abkürzung nicht). Der Geltungsumfang 'Arbeiten am Anschluss an das Niederspannungsnetz' folgt der BDEW/ZVEH-Paraphrase; der Primärtext von § 13 NAV (Abs. 2) konnte per Websuche nicht verifiziert werden (WebFetch gesperrt) – Hinweis in 'stand' nur sekundär.",
+  "suggested_fix": "DE: Nach § 13 der Niederspannungsanschlussverordnung, kurz NAV, führt der Netzbetreiber ein Installateurverzeichnis. | AR: وفق المادة ١٣ من لائحة التوصيل بشبكة الجهد المنخفض (NAV) يحتفظ مشغّل الشبكة بسجل للمركِّبين المعتمدين (Installateurverzeichnis) لديه. | EN: Under section 13 of the Low-Voltage Connection Ordinance (NAV), the network operator keeps an installer directory. | TTS: Nach Paragraf dreizehn der Niederspannungsanschlussverordnung, kurz En-A-Fau, führt der Netzbetreiber ein Installateurverzeichnis. (Wortlaut § 13 NAV vor Veröffentlichung gegen gesetze-im-internet.de prüfen)"
+ },
+ {
+  "video": "E-B01",
+  "scene": 15,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Inhalt des Prüfberichts (Besichtigung, geprüfte Stromkreise, Ergebnisse) und 'soll hervorgehen, wer wofür verantwortlich ist' stehen in keinem Fakt (F18/F19 nennen nur Besichtigen/Erproben/Messen, Bericht, Übergabe und Erstellung/Bestätigung durch EFK). Unbelegte Normaussage.",
+  "suggested_fix": "DE L2: Er enthält die Ergebnisse der Besichtigung, des Erprobens und des Messens. | AR: ويتضمن نتائج المعاينة والاختبار والقياس. | EN: It contains the results of inspecting, testing and measuring. | L4: delete (und Folienpunkte 'Geprüfte Stromkreise nennen', 'Verantwortliche erkennbar' ersetzen durch 'Ergebnisse festhalten')"
+ },
+ {
+  "video": "E-B02",
+  "scene": 6,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Er führt also nicht über das Erdreich' (und L7/L9) ist absolut und in keinem Fakt belegt; physikalisch fließt im TN-System der Fehlerstrom im Wesentlichen über den Schutz-/PEN-Leiter, ein Teil kann aber über Erde fließen.",
+  "suggested_fix": "DE: Er fließt also im Wesentlichen über Leiter und nicht hauptsächlich über das Erdreich. | AR: أي أنه يعود في الأساس عبر الموصلات وليس بصورة رئيسية عبر التربة. | EN: So it flows back mainly through conductors, not mainly through the ground."
+ },
+ {
+  "video": "E-B02",
+  "scene": 2,
+  "line": 4,
+  "severity": "risk",
+  "issue": "Absolute Aussage 'Arbeiten an Anlagen machen nur Elektrofachkräfte' ignoriert 'unter Leitung und Aufsicht' (DGUV V3, E-F04, B01). Gleiche Problematik S17 L6/S18 L8 (milder).",
+  "suggested_fix": "DE: Arbeiten an Anlagen gehören in die Hand von Elektrofachkräften oder erfolgen unter deren Leitung und Aufsicht. | AR: الأعمال على المنشآت من اختصاص الكهربائيين المؤهَّلين (Elektrofachkräfte) أو تُنفَّذ تحت إدارتهم وإشرافهم. | EN: Work on installations belongs in the hands of qualified electricians or is carried out under their direction and supervision."
+ },
+ {
+  "video": "E-B02",
+  "scene": 12,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Er gilt für jedes Gebäude' ist absolut und nicht im Fakt (F14/F15 sagen nur: DIN VDE 0100-410 fordert ihn). Unbelegte Pflichtaussage.",
+  "suggested_fix": "DE: Er ist Teil der Schutzmaßnahmen nach der Normenreihe. | AR: وهو جزء من إجراءات الحماية وفق سلسلة المعايير. | EN: It is part of the protective measures under the standard series."
+ },
+ {
+  "video": "E-B03",
+  "scene": 19,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Das gilt auch, wenn Sie als Ingenieur nur planen' – die fünf Sicherheitsregeln gelten für Personen, die Arbeiten an Anlagen ausführen; wer nur plant, arbeitet nicht an der Anlage. Fachlich/sicherheitsrechtlich irreführend (gleiche Problematik E-B06 S16 L7).",
+  "suggested_fix": "DE: Auch als planender Ingenieur sollten Sie die Regeln kennen, denn Ihre Planung muss sicheres Arbeiten ermöglichen. | AR: وحتى كمهندس تكتفون بالتخطيط ينبغي أن تعرفوا هذه القواعد، لأن تخطيطكم يجب أن يتيح العمل بأمان. | EN: Even as a planning engineer you should know these rules, because your design must make safe work possible."
+ },
+ {
+  "video": "E-B03",
+  "scene": 18,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Die Verantwortung liegt bei der Elektrofachkraft, die prüft und freigibt' ist eine Rechts-/Haftungsaussage ohne Fakt; Verantwortung folgt Vertrag, Aufgabenverteilung (Planer, Unternehmer, VEFK) – widerspricht auch dem Kursansatz (kein Rechtsrat).",
+  "suggested_fix": "DE: Wer prüft und freigibt, richtet sich nach Aufgabenverteilung und Vertrag; die Arbeiten und Messungen selbst gehören in qualifizierte Hände. | AR: من يفحص ويعتمد يتحدد بتوزيع المهام والعقد؛ أما الأعمال والقياسات نفسها فمكانها أيدٍ مؤهَّلة. | EN: Who checks and approves depends on the allocation of tasks and the contract; the work and measurements themselves belong in qualified hands. (Folienpunkt: 'Zuständigkeiten: im Vertrag klären')"
+ },
+ {
+  "video": "E-B03",
+  "scene": 7,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Das Ergebnis ist kleiner als der Tabellenwert' ist nicht immer richtig: Umrechnungsfaktoren können auch >1 sein (z. B. kühlere Umgebung); F3 sagt nur 'multipliziert'. Gleiches S20 L3 'senken die Strombelastbarkeit' und Folienpunkt S7.",
+  "suggested_fix": "DE: Bei Häufung oder warmer Umgebung ist das Ergebnis kleiner als der Tabellenwert. | AR: عند التجميع أو البيئة الدافئة تكون النتيجة أصغر من قيمة الجدول. | EN: With grouping or a warm environment the result is smaller than the table value. | S20 L3 DE: Ungünstige Verlegeart, Wärme und Häufung senken die Strombelastbarkeit. | AR: طريقة التمديد غير المناسبة والحرارة والتجميع تخفض السعة التيارية. | EN: An unfavourable installation method, heat and grouping reduce the current-carrying capacity."
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'blankem Stahl' ist nicht belegt (F20: 'nicht isolierte Leiter'); das Material (verzinkter Stahl, Edelstahl, Kupfer ...) ist nicht im Fakt und 'blank' ist technisch missverständlich.",
+  "suggested_fix": "DE: Er besteht aus nicht isolierten Leitern im Fundament. | AR: ويتكوّن من موصلات غير معزولة داخل الأساس. | EN: It consists of uninsulated conductors in the foundation."
+ },
+ {
+  "video": "E-B04",
+  "scene": 14,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'Ob Blitzschutz Pflicht ist, regelt das Baurecht' (und Quizfrage 4 'Wer regelt ...?' mit Antwort Baurecht) ist exklusiv formuliert; Fakt F17 beschreibt nur 'Landesbauordnungen verlangen sinngemäß'. Daneben können Vertrag, Versicherer, Betreiber, Sonderbauverordnungen oder DIN VDE 0100-443 relevant sein.",
+  "suggested_fix": "DE: Ob Blitzschutz Pflicht ist, ergibt sich vor allem aus dem Baurecht der Länder. | AR: كون الحماية من الصواعق إلزامية يُستمد في المقام الأول من قانون البناء في الولايات. | EN: Whether lightning protection is mandatory results mainly from the building law of the federal states. | Quiz Q4 DE: Woraus ergibt sich in Deutschland vor allem, wann Blitzschutz verlangt wird? | AR: مما يُستمد في ألمانيا في المقام الأول وقت طلب الحماية من الصواعق؟ | EN: What mainly determines in Germany when lightning protection is required?"
+ },
+ {
+  "video": "E-B04",
+  "scene": 18,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'ohne Verzögerung' (Zeile und Folienpunkt 'Mängel ohne Verzögerung beheben') ist eine Rechtspflicht-Aussage, die F22 nicht stützt (nur: Betreiber muss die Beseitigung veranlassen; Fristen gedroppt).",
+  "suggested_fix": "DE: Werden Mängel gefunden, muss der Betreiber die Beseitigung veranlassen. | AR: وإذا وُجدت عيوب فعلى المشغّل أن يطلب معالجتها. | EN: If defects are found, the operator must have them corrected. (Folienpunkt: 'Mängel beheben lassen')"
+ },
+ {
+  "video": "E-B04",
+  "scene": 12,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Ein Typ-drei-Gerät allein ersetzt keine vorgeschaltete Stufe' ist eine absolute Planungsregel ohne Fakt und steht in Spannung zur gedroppten Aussage, Typ 1 sei 'in jedem Fall vorgeschrieben'.",
+  "suggested_fix": "DE: Welche Stufen nötig sind, legt die Planung nach Norm und Herstellerangaben fest. | AR: أي المراحل تلزم تحددها أعمال التخطيط وفق المعيار وتعليمات المصنّع. | EN: Which stages are needed is decided in planning according to the standard and the manufacturer's instructions."
+ },
+ {
+  "video": "E-B05",
+  "scene": 5,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'Rettungswege sind Flure und Treppenräume' ist zu eng/absolut (Rettungswege umfassen auch Ausgänge, Außentreppen usw.); F2 spricht nur von 'notwendigen Treppenräumen und Fluren' im MLAR-Kontext.",
+  "suggested_fix": "DE: Zu den Rettungswegen gehören notwendige Flure und Treppenräume. | AR: من مسارات الإخلاء الممرات الإلزامية وبيوت السلالم. | EN: Escape routes include required corridors and stairwells."
+ },
+ {
+  "video": "E-B05",
+  "scene": 11,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Begriffshierarchie falsch gesetzt: 'Notbeleuchtung' ist der Oberbegriff (Sicherheitsbeleuchtung + Ersatzbeleuchtung, DIN EN 1838); Sicherheitsbeleuchtung ist ein Teil davon, kein Synonym. Glossar/Slide-Terms entsprechend (E-A/E-F: Sicherheitsbeleuchtung).",
+  "suggested_fix": "DE: Dafür gibt es die Sicherheitsbeleuchtung. Sie ist ein Teil der Notbeleuchtung, im Alltag sagt man oft nur Notbeleuchtung. | AR: لذلك توجد إضاءة الأمان، وهي جزء من الإضاءة الطارئة، وغالبًا ما يقال في الحياة اليومية الإضاءة الطارئة فقط. | EN: For this there is safety lighting. It is part of emergency lighting; in everyday speech people often just say emergency lighting."
+ },
+ {
+  "video": "E-B05",
+  "scene": 15,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Folienzeilen 'Aufzüge | Fahrt zur Haltestelle', 'Lüftung | abschalten oder umstellen', 'Feststellanlagen | Türen schließen', 'Rauch- und Wärmeabzug | öffnen' sind konkrete Verhaltensaussagen, die F16 nicht belegt (nur Aufzählung der gesteuerten Anlagen; Aufzugs-Brandfallsteuerung (VDI 6017/EN 81-73) steht auf der dropped-Liste). Die Art der Steuerung legt das Brandschutzkonzept fest (Z6).",
+  "suggested_fix": "DE Folienzeilen: 'Rauch- und Wärmeabzug | wird angesteuert' / 'Aufzüge | wird angesteuert' / 'Lüftung | wird angesteuert' / 'Feststellanlagen | werden angesteuert' / 'Art | laut Brandschutzkonzept' / 'Dokument | Brandfallsteuermatrix' (max. 6 Zeilen)"
+ },
+ {
+  "video": "E-B05",
+  "scene": 16,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Die Prüfung machen anerkannte Prüfsachverständige' ist absolut; F20/F21: Prüfpflichten und Prüfer sind nach Landesrecht verschieden (Prüfsachverständige, Sachverständige, Arbeitsstätten: befähigte Personen). Widerspricht auch Z2 'Ob und wie regelt das Landesrecht'.",
+  "suggested_fix": "DE: Die Prüfung machen je nach Land anerkannte Prüfsachverständige. | AR: ويقوم بالفحص، بحسب الولاية، خبراء فحص معتمدون. | EN: Depending on the state, the inspection is done by recognised inspection experts."
+ },
+ {
+  "video": "E-B05",
+  "scene": 17,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'nur in die Hand von Elektrofachkräften' ignoriert 'unter Leitung und Aufsicht' (DGUV V3, B01, E-F04). Z6 (Sicherheitsstromquelle kann weiter einspeisen) ist plausibel, aber in keinem Fakt belegt.",
+  "suggested_fix": "DE: Solche Arbeiten gehören in die Hand von Elektrofachkräften oder erfolgen unter deren Leitung und Aufsicht. | AR: مثل هذه الأعمال من اختصاص الكهربائيين المؤهَّلين (Elektrofachkräfte) أو تُنفَّذ تحت إدارتهم وإشرافهم. | EN: Such work belongs in the hands of qualified electricians or is carried out under their direction and supervision."
+ },
+ {
+  "video": "E-B05",
+  "scene": 12,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Eine Norm allein macht noch keine Pflicht' ist eine verkürzte Rechtsaussage (ob und wie eine Norm verbindlich wird, hängt von Baurecht/Einführung, Vertrag, ASR/Arbeitsschutzrecht und allgemein anerkannten Regeln der Technik ab) – nicht in den Fakten und Rechtsberatungsgrenze.",
+  "suggested_fix": "DE: Ob eine Norm verbindlich wird, hängt zum Beispiel vom Baurecht und vom Vertrag ab. | AR: وما إذا كان المعيار ملزمًا يتوقف مثلًا على قانون البناء وعلى العقد. | EN: Whether a standard becomes binding depends, for example, on building law and the contract."
+ },
+ {
+  "video": "E-B06",
+  "scene": 9,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Schaltpläne/Stromlaufpläne 'für jeden Schaltschrank' als Grundleistung der Phase 5 (Z3, Folie, S18 Z4 'Phase fünf liefert Schaltpläne') sind in F10 nicht belegt (nur Schlitz-/Durchbruchspläne, Prüfen der Montage-/Werkstattpläne); der Inhalt der Grundleistungen ist gedroppt. In der Praxis erstellt die ausführende Firma Schaltschrank-Schaltpläne oft selbst (Werkstattplanung).",
+  "suggested_fix": "DE: Dazu gehören je nach Vertrag Anlagenschemata, Schaltpläne und Verteilerpläne. | AR: ومنها، بحسب العقد، مخططات المنظومات ومخططات الدارات ومخططات التوزيع. | EN: Depending on the contract, these include system schematics, circuit diagrams and distribution plans. | S18 L4 DE: Phase fünf liefert Schlitzpläne und, je nach Vertrag, Schaltpläne. | AR: المرحلة الخامسة تقدم مخططات المجاري وبحسب العقد مخططات الدارات. | EN: Phase five delivers slot plans and, depending on the contract, circuit diagrams. (Folienpunkte S9/S18: 'Schaltpläne je nach Vertrag')"
+ },
+ {
+  "video": "E-B06",
+  "scene": 16,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'Prüfen und Messen darf nur eine Elektrofachkraft' ist absolut (DGUV V3: Elektrofachkraft oder unter Leitung und Aufsicht; EUP mit Prüfgeräten) und kollidiert mit Szene 15 Z3 ('Dazu gehören Funktionsprüfungen und Messungen', Planer überwacht). L7 'gilt auch für Sie als Planer' siehe E-B03.",
+  "suggested_fix": "DE: Prüfen und Messen an Anlagen gehört in die Hand einer Elektrofachkraft oder erfolgt unter deren Leitung und Aufsicht. | AR: الفحص والقياس على المنشآت من اختصاص الكهربائي المؤهَّل (Elektrofachkraft) أو يتمان تحت إدارته وإشرافه. | EN: Testing and measuring on installations belongs in the hands of a qualified electrician or is done under their direction and supervision. | L7 DE: Das sollten Sie als Planer auf der Baustelle kennen, auch wenn Sie nicht selbst an der Anlage arbeiten. | AR: وينبغي أن تعرفوا ذلك كمخططين في الموقع حتى لو لم تعملوا بأنفسكم على المنشأة. | EN: As a planner on site you should know this, even if you do not work on the installation yourself. | S15 L3 DE: Dazu gehört das Überwachen von Funktionsprüfungen und Messungen vor der Inbetriebnahme. | AR: ومن ذلك الإشراف على اختبارات الوظائف والقياسات قبل التشغيل. | EN: This includes supervising function tests and measurements before commissioning."
+ },
+ {
+  "video": "E-B06",
+  "scene": 17,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Die Firmen müssen sie dann beseitigen' ist eine Rechtsaussage (Mängelansprüche, Verjährung) ohne Fakt; Verjährungsfristen/Rechtsfragen stehen auf der dropped-Liste.",
+  "suggested_fix": "DE: Die Beseitigung wird dann von den Firmen verlangt, soweit der Vertrag das vorsieht. | AR: ثم تُطلب معالجتها من الشركات بقدر ما ينص عليه العقد. | EN: The companies are then asked to remedy them, as far as the contract provides."
+ },
+ {
+  "video": "E-B06",
+  "scene": 12,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Das gilt vor allem für Treppenräume und Flure' (nach 'Länder führen sie getrennt ein') behauptet, die uneinheitliche Einführung betreffe vor allem diese Bereiche – nicht belegt (F2 nennt nur, dass MLAR u. a. Treppenräume/Flure behandelt).",
+  "suggested_fix": "DE: Sie behandelt unter anderem Leitungen in notwendigen Treppenräumen und Fluren. | AR: وهي تتناول من بين ما تتناوله الكابلات في بيوت السلالم والممرات الإلزامية. | EN: Among other things it covers cables in required stairwells and corridors."
+ },
+ {
+  "video": "E-B01",
+  "scene": 18,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Beim Wiedereinschalten gilt die umgekehrte Reihenfolge' steht nicht in den E-B01-Fakten (F24); steht nur in E-F05. Konsistent, aber hier unbelegt und eine Verfahrensaussage.",
+  "suggested_fix": "delete (oder Verweis: DE: Das Wiedereinschalten erklärt das Video über elektrische Sicherheit. | AR: أما إعادة التشغيل فيشرحها الفيديو عن السلامة الكهربائية. | EN: Re-energising is explained in the video on electrical safety.)"
+ },
+ {
+  "video": "E-B01",
+  "scene": 2,
+  "line": 7,
+  "severity": "note",
+  "issue": "Schutzgüter 'Menschen, Nutztiere und Sachwerte' (S2 L2/L7/L8, S11 L9) stehen in keinem Fakt (F1 nur Planung/Errichtung/Prüfung). Inhaltlich entspricht das dem Anwendungsziel der HD 60364-1, ist aber unbelegt.",
+  "suggested_fix": "Quellenhinweis in docs/research/E-B01.json ergänzen (HD 60364-1 / DIN VDE 0100-100) oder L7/L8 streichen"
+ },
+ {
+  "video": "E-B01",
+  "scene": 13,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Dabei bleibt der Basisschutz zusätzlich nötig' (Schutztrennung) ist technisch plausibel, aber in keinem Fakt belegt (F17: nur Aufzählung, Grenzwerte gedroppt).",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-B01",
+  "scene": 7,
+  "line": 4,
+  "severity": "note",
+  "issue": "Teiltitel 540: Aktuelle Ausgabe DIN VDE 0100-540:2024-06 heißt 'Erdungsanlagen und Schutzleiter' (Websuche); die Formulierung 'Erdung, Schutzleiter und Schutzpotentialausgleichsleiter' stammt aus ersetzten Ausgaben (F8 der eigenen Recherche). Die Zeile sagt 'behandelt', nicht 'Titel' – kein Fehler, aber nicht als Titel zitieren.",
+  "suggested_fix": "DE: Teil 540 behandelt Erdung und Schutzleiter, dazu gehört auch der Schutzpotentialausgleich. (Titel nicht zitieren; Ausgabe prüfen)"
+ },
+ {
+  "video": "E-B01",
+  "scene": 9,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Die Reihe deckt also auch moderne Anlagen wie Photovoltaik ab' ist Verallgemeinerung; F11 belegt nur Teil 712 (PV-Stromversorgungssysteme).",
+  "suggested_fix": "DE: Teil 712 behandelt Photovoltaik-Stromversorgungssysteme. | AR: ويتناول الجزء ٧١٢ منظومات التغذية بالخلايا الكهروضوئية. | EN: Part 712 covers photovoltaic power supply systems."
+ },
+ {
+  "video": "E-B02",
+  "scene": 14,
+  "line": 11,
+  "severity": "note",
+  "issue": "'Er schützt Menschen bei Fehlerströmen gegen Erde' (und L9 'reagiert schon bei sehr kleinen Fehlerströmen') ist ohne Einschränkung formuliert, in keinem Fakt (F18/F19 nur Prinzip, Grenzwerte gedroppt). Ein RCD verringert die Gefahr, ist aber kein vollständiger Schutz (z. B. L–N-Berührung, siehe S15).",
+  "suggested_fix": "DE: Er soll bei Fehlerströmen gegen Erde, zum Beispiel bei Isolationsfehlern, die Gefahr für Menschen verringern. | AR: وهو يهدف إلى تقليل الخطر على الناس عند تيارات العطل نحو الأرض، مثلًا عند أعطال العزل. | EN: It is meant to reduce the danger to people from fault currents to earth, for example from insulation faults."
+ },
+ {
+  "video": "E-B02",
+  "scene": 10,
+  "line": 5,
+  "severity": "note",
+  "issue": "'ergänzt oft den Schutz im TN-System' (und Folienzeile 'im TN oft ergänzend') ist unbelegt; die Pflicht/Zusatzschutz-Aussagen zum RCD stehen auf der dropped-Liste ('Pflicht von RCD im Haushalt').",
+  "suggested_fix": "DE: Der RCD ist im TT-System als Fehlerschutz üblich. | AR: جهاز RCD شائع في نظام TT للحماية من العطل. | EN: The RCD is common in TT as fault protection. | TTS: Der Er-Ze-De ist im Te-Te-System als Fehlerschutz üblich. (Folienzeile: 'RCD | im TT üblich')"
+ },
+ {
+  "video": "E-B02",
+  "scene": 7,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Wo und wie getrennt wird, entscheidet die Elektrofachkraft' – Ort der PEN-Aufteilung ist auf der dropped-Liste (Quellen uneinheitlich); die Anschlussbedingungen des Netzbetreibers sind maßgeblich.",
+  "suggested_fix": "DE: Wo und wie getrennt wird, richtet sich nach den Anschlussbedingungen des Netzbetreibers. | AR: أما مكان الفصل وكيفيته فيتبعان شروط التوصيل لدى مشغّل الشبكة. | EN: Where and how it is split depends on the connection conditions of the grid operator."
+ },
+ {
+  "video": "E-B02",
+  "scene": 12,
+  "line": 4,
+  "severity": "note",
+  "issue": "'So treten keine gefährlichen Spannungen ... auf' ist absolut; F14: 'damit ... ausgeschlossen werden sollen'.",
+  "suggested_fix": "DE: So sollen keine gefährlichen Spannungen zwischen berührbaren Teilen auftreten. | AR: وبذلك يُراد ألا تظهر جهود خطرة بين الأجزاء التي يمكن لمسها. | EN: This is meant to prevent dangerous voltages between touchable parts."
+ },
+ {
+  "video": "E-B02",
+  "scene": 6,
+  "line": 6,
+  "severity": "note",
+  "issue": "'sehr verbreitet' – F5/Rechercheauftrag: 'häufig/verbreitete Form', keine Verbreitungsgrade.",
+  "suggested_fix": "DE: In Mitteleuropa ist das TN-C-S verbreitet. | AR: وهذا النظام TN-C-S منتشر في وسط أوروبا. | EN: In Central Europe, TN-C-S is common."
+ },
+ {
+  "video": "E-B02",
+  "scene": 17,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Jeder RCD hat eine Prüftaste' (absolut) und L6 (RCD löst nicht aus: Elektrofachkraft informieren) sind nicht in den Fakten (F23 nur Funktion der Prüftaste). Sicherheitsrat plausibel, aber unbelegt.",
+  "suggested_fix": "DE: Ein RCD hat in der Regel eine Prüftaste. | AR: لجهاز RCD عادةً زر اختبار. | EN: An RCD usually has a test button."
+ },
+ {
+  "video": "E-B02",
+  "scene": 18,
+  "line": 10,
+  "severity": "note",
+  "issue": "Wiedereinschalten in umgekehrter Reihenfolge ist in den E-B02-Fakten (F24) nicht enthalten (nur Reihenfolge 1 bis 5); konsistent mit E-F05.",
+  "suggested_fix": "keep, aber Quelle E-F05 in research/E-B02.json F24 ergänzen oder Zeile streichen"
+ },
+ {
+  "video": "E-B02",
+  "scene": 4,
+  "line": 2,
+  "severity": "note",
+  "issue": "'also am Transformator' macht aus 'Quelle' ein Synonym für Transformator (Quelle kann auch Generator sein); TERMS erlaubt Transformator, aber F1 sagt nur 'Spannungsquelle'.",
+  "suggested_fix": "DE: Der erste Buchstabe beschreibt die Erdung an der Quelle, zum Beispiel am Transformator. | AR: يصف الحرف الأول التأريض عند المصدر، مثلًا عند المحوّل. | EN: The first letter describes earthing at the source, for example at the transformer."
+ },
+ {
+  "video": "E-B03",
+  "scene": 10,
+  "line": 11,
+  "severity": "note",
+  "issue": "'Das Kabel muss ... noch mehr tragen können' ist ungenau (Iz ≥ In ≥ Ib, nicht 'mehr').",
+  "suggested_fix": "DE: Die Strombelastbarkeit des Kabels muss nach allen Faktoren mindestens den Nennstrom des Schutzgeräts erreichen. | AR: ويجب أن تبلغ السعة التيارية للكبل بعد تطبيق كل المعاملات التيار الاسمي لجهاز الحماية على الأقل. | EN: After all factors, the current-carrying capacity of the cable must reach at least the rated current of the protective device."
+ },
+ {
+  "video": "E-B03",
+  "scene": 14,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Die Energie des Schutzgeräts' ist unscharf; F12: Durchlasswert I²t der Schutzeinrichtung muss unter k²·S² bleiben. Konzept korrekt, Wortwahl ('Energie') ungenau.",
+  "suggested_fix": "DE: Vereinfacht gilt: Der Durchlasswert I-Quadrat-t des Schutzgeräts muss kleiner sein als k Quadrat mal S Quadrat. | AR: ببساطة: يجب أن تكون قيمة I²t التي يمرّرها جهاز الحماية أقل من k تربيع ضرب S تربيع. | EN: Simply put: the let-through value I²t of the protective device must be smaller than k squared times S squared. | TTS: Vereinfacht gilt: Der Durchlasswert I-Quadrat-Te des Schutzgeräts muss kleiner sein als K Quadrat mal Es Quadrat."
+ },
+ {
+  "video": "E-B03",
+  "scene": 3,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Ziel der Leitungsberechnung ist der Schutz vor zu viel Wärme' (F19) wird als Gesamtziel gesagt, aber die vier Prüfungen enthalten den Spannungsfall (Funktionskriterium, nicht thermisch) – interner Widerspruch. Außerdem steht L6 ('Alle vier Prüfungen') vor 'Viertens' (L7).",
+  "suggested_fix": "DE: Ein Hauptziel der Leitungsberechnung ist der Schutz vor zu viel Wärme; dazu kommt der Spannungsfall. | AR: من الأهداف الرئيسية لحساب الكبلات الحماية من الحرارة الزائدة، ويضاف إليها هبوط الجهد. | EN: A main goal of cable sizing is protection against too much heat; voltage drop comes on top. (Zeilen 6 und 7 tauschen)"
+ },
+ {
+  "video": "E-B03",
+  "scene": 8,
+  "line": 4,
+  "severity": "note",
+  "issue": "DIN VDE 0298-4: F5 sagt, Ausgabe 2013-06 sei zurückgezogen, Nachfolger nicht ermittelt; Websuche zeigt eine Ausgabe 2023-06 (Herstellerangabe). Zeile nennt 'üblicherweise' ohne Ausgabehinweis.",
+  "suggested_fix": "DE: Die Strombelastbarkeit stützt sich üblicherweise auf DIN VDE 0298-4; die gültige Ausgabe müssen Sie prüfen. | AR: تستند السعة التيارية عادةً إلى DIN VDE 0298-4، ويجب التحقق من الإصدار الساري. | EN: Current-carrying capacity usually relies on DIN VDE 0298-4; you must check the valid edition."
+ },
+ {
+  "video": "E-B03",
+  "scene": 11,
+  "line": 6,
+  "severity": "note",
+  "issue": "Verweis auf 'Faktor zwei' kommt vor der Formel (die erst in S12 L4 genannt wird); die Drehstrom-Aussage F16 braucht die Einfachformel zuerst.",
+  "suggested_fix": "S11 L6 nach S12 L4 verschieben oder DE: Die Formel für Wechselstrom enthält den Faktor zwei; wir zeigen sie gleich. Bei Drehstrom wird dieser Faktor durch Wurzel drei ersetzt."
+ },
+ {
+  "video": "E-B03",
+  "scene": 17,
+  "line": 11,
+  "severity": "note",
+  "issue": "'Fällt ein Schritt durch, wählen Sie einen größeren Querschnitt' gilt nicht allgemein (Überlast: anderes Schutzgerät; Kurzschlussnachweis: u. U. kleineres Schutzgerät); ebenso S15 L9. Unbelegte Planungsregel.",
+  "suggested_fix": "DE: Fällt ein Schritt durch, passen Sie Querschnitt, Schutzgerät oder Verlegung an und rechnen neu. | AR: إذا فشلت خطوة، تعدّلون المقطع أو جهاز الحماية أو التمديد وتعيدون الحساب. | EN: If a step fails, you adjust the cross-section, the protective device or the installation and recalculate."
+ },
+ {
+  "video": "E-B03",
+  "scene": 6,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Besonders in gedämmten Wänden ist das Risiko hoch' / Folie 'besonders kritisch' – qualitative Verstärkung ohne Fakt.",
+  "suggested_fix": "DE: In gedämmten Bereichen kann die Strombelastbarkeit besonders stark sinken. | AR: في المناطق المعزولة حراريًا قد تنخفض السعة التيارية بشدة. | EN: In insulated areas the current-carrying capacity can drop particularly strongly."
+ },
+ {
+  "video": "E-B04",
+  "scene": 13,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Einige Fälle: Schutz immer nötig' ist absolut (F16: 'in bestimmten Fällen ... ohne Berechnung erforderlich'); L6 verbindet 'ohne Berechnung' mit neuen Wohngebäuden ungenau (F16: Ausgabe 2016-10 verlangt für neue Wohngebäude den Schutz der Versorgungsleitungen); L8 'in den letzten Jahren überarbeitet' unbelegt.",
+  "suggested_fix": "Folie: 'Einige Fälle: Schutz ohne Berechnung' | L6 DE: Für neue Wohngebäude verlangt eine Ausgabe der Norm den Schutz der Stromversorgungsleitungen. | AR: وفي المباني السكنية الجديدة تشترط إحدى طبعات المعيار حماية خطوط التغذية الكهربائية. | EN: For new residential buildings, one edition of the standard requires protection of the power supply lines. | L8: delete"
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 10,
+  "severity": "note",
+  "issue": "'Spätere Änderungen sind oft schwierig und teuer' – Kosten stehen auf der dropped-Liste ('Kosten, Versicherungs- und Haftungsfragen').",
+  "suggested_fix": "DE: Spätere Änderungen sind oft schwierig. | AR: والتعديلات اللاحقة غالبًا ما تكون صعبة. | EN: Later changes are often difficult."
+ },
+ {
+  "video": "E-B04",
+  "scene": 5,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Das schützt vor Funkenüberschlägen und Bränden' und L9 'Ohne Potentialausgleich können Schutzgeräte ihre Arbeit nicht gut erledigen' sind unbelegt (F8 nennt nur Verbinden; F15 nennt Erdung als Voraussetzung, nicht Potentialausgleich) und absolut.",
+  "suggested_fix": "L8 DE: Das kann helfen, gefährliche Spannungsunterschiede und Funkenüberschläge zu vermeiden. | AR: وهذا قد يساعد على تجنب فروق الجهد الخطرة والقفزات الشرارية. | EN: This can help to avoid dangerous voltage differences and flashovers. | L9: delete"
+ },
+ {
+  "video": "E-B04",
+  "scene": 2,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Oft sind es die kleinen, kurzen Spannungsspitzen im Alltag' ist eine Häufigkeitsaussage ohne Fakt; Fakt F7/F16 nennt nur atmosphärische Einflüsse und Schaltvorgänge.",
+  "suggested_fix": "DE: Auch kleine, kurze Spannungsspitzen im Alltag können Schäden verursachen. | AR: وقد تسبب القمم الجهدية الصغيرة القصيرة في الحياة اليومية أضرارًا أيضًا. | EN: Even small, short voltage peaks in everyday life can cause damage."
+ },
+ {
+  "video": "E-B04",
+  "scene": 18,
+  "line": 2,
+  "severity": "note",
+  "issue": "'Abnahmeprotokoll' ist ein rechtlich besetzter Begriff (Abnahme nach Werkvertragsrecht) und nicht in F22 (dort: Erstprüfung bei Fertigstellung); 'Prüfbericht'/'Prüfprotokoll' wäre konsistent mit B01/B05.",
+  "suggested_fix": "DE: Danach wird das Ergebnis in einem Prüfprotokoll festgehalten. | AR: ثم تُدوَّن النتيجة في محضر الفحص. | EN: Afterwards the result is recorded in an inspection report."
+ },
+ {
+  "video": "E-B04",
+  "scene": 9,
+  "line": 1,
+  "severity": "note",
+  "issue": "Reihe wird 'DIN EN 62305' genannt; die neuen Teile 3 und 4 laufen laut F2/F3 und Websuche als DIN EN IEC 62305-3/-4 (Teil 3: 2025-10 bestätigt). Bezeichnung auf Folie/Titel ungenau.",
+  "suggested_fix": "DE: In Deutschland gilt die Normenreihe DIN EN 62305, neuere Teile erscheinen als DIN EN IEC 62305. | AR: تُطبَّق في ألمانيا سلسلة المعايير DIN EN 62305، وتصدر الأجزاء الأحدث باسم DIN EN IEC 62305 ضمن السلسلة نفسها. | EN: In Germany the series DIN EN 62305 applies; newer parts are published as DIN EN IEC 62305. | TTS: ... Din E-En zwei sechs drei null fünf, neuere Teile erscheinen als Din E-En I-E-Ze zwei sechs drei null fünf."
+ },
+ {
+  "video": "E-B04",
+  "scene": 11,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Die Namen sind nicht einheitlich' (L7), 'Je näher am Gerät, desto feiner der Schutz' (L11) und Folienpunkt 'Typ 1 ... am Hausanschluss' (F13: 'Hauptstromversorgung') sind unbelegt/leicht abweichend; Quiz Q2 'Am Hausanschluss'.",
+  "suggested_fix": "L7: delete | L11: DE: Typ drei sitzt am nächsten am Endgerät. | Folie/Quiz: 'Typ 1: Blitzstromableiter in der Hauptstromversorgung' / 'In der Hauptstromversorgung, möglichst vor dem Zähler'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 8,
+  "line": 7,
+  "severity": "note",
+  "issue": "'EMV-gerechtes Schutzkonzept' (L7), 'Datenleitungen und Antennenleitungen' (L10), S7 L10 'weltweit genutzt', S10 L8 'Beuth Verlag oder über Ihren Arbeitgeber' sind unbelegt (kein Fakt); S10 L8 nennt nur einen Verlag.",
+  "suggested_fix": "L7, L10 (S8) und S7 L10: delete | S10 L8 DE: Sie erhalten die Normen bei den Normenverlagen oder über Ihren Arbeitgeber. | AR: تحصلون على المعايير من دور نشر المعايير أو عبر جهة عملكم. | EN: You get the standards from the standards publishers or through your employer."
+ },
+ {
+  "video": "E-B04",
+  "scene": 15,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienpunkt 'Abstimmung mit der Behörde' (und L5 'zuständige Stelle') unterstellt Behördenabstimmung für die Risikoanalyse; F18 sagt nur 'Risikoanalyse nach DIN EN 62305-2 kann herangezogen werden'.",
+  "suggested_fix": "Folie: 'Ergebnis früh abstimmen'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 4,
+  "line": 0,
+  "severity": "note",
+  "issue": "AR 'خبير الحماية من الصواعق' für Blitzschutzfachkraft: E-F-Reihe verlangt für Fachkräfte konsequent 'مؤهَّل' (TERMS: Elektrofachkraft nie 'فني'; Fachkraft-Konzept = Qualifikation), 'خبير' impliziert Sachverständigen-Status (vgl. Prüfsachverständiger).",
+  "suggested_fix": "AR (Glossar, S4 Term, S15, S16): المتخصص المؤهَّل في الحماية من الصواعق (Blitzschutzfachkraft)"
+ },
+ {
+  "video": "E-B05",
+  "scene": 14,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Eine Fachfirma braucht dafür einen entsprechenden Nachweis ihrer Kompetenz' ist Normaussage ohne Fakt (F14 nennt nur 'Anforderungen').",
+  "suggested_fix": "DE: Die Anforderungen an die Fachfirma regelt der Teil zwei der Norm. | AR: متطلبات الشركة المتخصصة ينظمها الجزء الثاني من المعيار. | EN: The requirements for the specialist firm are set by part two of the standard."
+ },
+ {
+  "video": "E-B05",
+  "scene": 13,
+  "line": 0,
+  "severity": "note",
+  "issue": "'Melder: erkennen Rauch oder Wärme' (Folie und L2) ist unvollständig (auch Flamme, Handmelder u. a.) und nicht in den Fakten.",
+  "suggested_fix": "Folie: 'Melder: erkennen z. B. Rauch oder Wärme' | L2 DE: Melder erkennen zum Beispiel Rauch oder Wärme. | AR: تكشف الكواشف مثلًا الدخان أو الحرارة. | EN: Detectors sense, for example, smoke or heat."
+ },
+ {
+  "video": "E-B05",
+  "scene": 10,
+  "line": 2,
+  "severity": "note",
+  "issue": "'Sie fällt nicht aus, wenn das Netz ausfällt' ist absolut formuliert (Soll-Anforderung, nicht Garantie).",
+  "suggested_fix": "DE: Sie soll auch bei Netzausfall weiter versorgen. | AR: ويجب أن تواصل التغذية حتى عند انقطاع الشبكة. | EN: It is meant to keep supplying even when the mains fails."
+ },
+ {
+  "video": "E-B05",
+  "scene": 5,
+  "line": 3,
+  "severity": "note",
+  "issue": "Folienpunkt 'Leitungen erhöhen die Brandlast' ist absolut (Z3 'können ... bedeuten' ist korrekt); beide nicht in den Fakten.",
+  "suggested_fix": "Folie: 'Leitungen können die Brandlast erhöhen'"
+ },
+ {
+  "video": "E-B05",
+  "scene": 8,
+  "line": 2,
+  "severity": "note",
+  "issue": "'Der Stromfluss bleibt im Brand nicht unterbrochen' ohne zeitliche Begrenzung; Funktionserhalt gilt nur für die geforderte Dauer (F6).",
+  "suggested_fix": "DE: Gemeint ist: Der Stromfluss bleibt im Brand für die geforderte Dauer nicht unterbrochen. | AR: المقصود: لا ينقطع مرور التيار أثناء الحريق طوال المدة المطلوبة. | EN: It means the current flow is not interrupted during a fire for the required duration."
+ },
+ {
+  "video": "E-B05",
+  "scene": 18,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folie 'Prüfsachverständige: Abnahme und Prüfung': 'Abnahme' ist ein vertragsrechtlicher Begriff (Auftraggeber); Prüfsachverständige führen Prüfungen durch (F21).",
+  "suggested_fix": "Folie: 'Prüfsachverständige: Prüfung'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 12,
+  "line": 5,
+  "severity": "note",
+  "issue": "Terminologie widerspricht E-B05: Sicherheitsbeleuchtung hier AR 'إنارة الطوارئ' (E-B05: إضاءة الأمان; Notbeleuchtung = الإضاءة الطارئة); EN 'functional integrity' (E-B05: functional endurance); Leitungsanlage AR 'منشآت الكابلات' (E-B05: منظومة الكابلات); Funktionserhalt AR 'الحفاظ على وظيفة الكابلات' (E-B05: الحفاظ على الوظيفة). Betrifft S4 L5, S12 L2/L4/L5.",
+  "suggested_fix": "AR S4 L5/S12 L5: إضاءة الأمان | S12 L2-L3: منظومات الكابلات | S12 L4-L5: الحفاظ على الوظيفة (Funktionserhalt) | EN: functional endurance"
+ },
+ {
+  "video": "E-B06",
+  "scene": 6,
+  "line": 11,
+  "severity": "note",
+  "issue": "AR für Auftraggeber 'صاحب المشروع' allein (S6 L11, S13 Term/L6, S14 L11, Glossar, Quiz, NEXT) weicht von TERMS ab ('الجهة المُشغِّلة للمشروع (صاحب المشروع)'); E-B01/E-B05 verwenden die Langform.",
+  "suggested_fix": "AR (Glossar und erste Verwendung je Szene): الجهة المُشغِّلة للمشروع (صاحب المشروع)"
+ },
+ {
+  "video": "E-B06",
+  "scene": 13,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Eine Schnittstellenliste ist deshalb Pflicht im Alltag' – 'Pflicht' suggeriert eine rechtliche Verpflichtung; unbelegt.",
+  "suggested_fix": "DE: Eine Schnittstellenliste ist deshalb im Alltag sehr hilfreich. | AR: لذلك فإن قائمة نقاط التماس مفيدة جدًا في العمل اليومي. | EN: An interface list is therefore very helpful in everyday work."
+ },
+ {
+  "video": "E-B06",
+  "scene": 15,
+  "line": 10,
+  "severity": "note",
+  "issue": "'vollständige Anlagenakte' (und S15 L2/L3 Planer führt Prüfungen aus) überzeichnet die Grundleistung; F12 nennt Objektüberwachung mit Dokumentation und Funktionsprüfungen/Messungen/Werksabnahmen als Grundleistungen (Überwachung, nicht Ausführung).",
+  "suggested_fix": "DE: Der Betreiber erhält am Ende die Anlagendokumentation. | AR: ويتسلم المشغّل في النهاية وثائق المنشأة. | EN: In the end the operator receives the installation documentation."
+ },
+ {
+  "video": "E-B06",
+  "scene": 20,
+  "line": 3,
+  "severity": "note",
+  "issue": "'Auch über eine Änderung der HOAI wird diskutiert' stützt sich nur auf F22 (low confidence, Blogs/Verbände; Zeitplan gedroppt). Besser neutral formulieren.",
+  "suggested_fix": "DE: Die HOAI kann sich künftig ändern. | AR: قد تتغير لائحة HOAI مستقبلًا. | EN: The HOAI may change in the future. | TTS: Die Ho-A-I kann sich künftig ändern."
+ }
+]

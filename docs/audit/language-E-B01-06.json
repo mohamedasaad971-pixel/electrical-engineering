@@ -1,0 +1,1568 @@
+[
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "title.ar endet mit Ziffern (DIN VDE 0100).",
+  "suggested_fix": "منشآت الجهد المنخفض: نظرة عامة على سلسلة معايير DIN VDE 0100 الألمانية"
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "next.ar endet mit lateinischem '(RCD)'.",
+  "suggested_fix": "في الفيديو القادم نتناول أنظمة التأريض وأجهزة (RCD) الحماية من التيار المتبقي."
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossar 'die Elektrofachkraft' AR endet mit '(Elektrofachkraft)' (lateinisch am Rand).",
+  "suggested_fix": "الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz-Optionen Q1 und Q5 AR enden mit Ziffern ('المجموعة 400'); auch westliche statt in den Zeilen benutzte östliche Ziffern.",
+  "suggested_fix": "Q1: 'المجموعة ٤٠٠ من السلسلة' / 'المجموعة ٥٠٠ من السلسلة' / 'المجموعة ٦٠٠ من السلسلة'; Q5: 'المجموعة ٧٠٠ من السلسلة' / 'المجموعة ١٠٠ من السلسلة' / 'المجموعة ٥٠٠ من السلسلة'"
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q3: alle drei AR-Optionen enden mit Ziffern ('في DIN VDE 0100-600').",
+  "suggested_fix": "'في معيار DIN VDE 0100-600 نفسه' / 'في معيار DIN VDE 0105-100 نفسه' / 'في معيار DIN VDE 0100-712 نفسه'"
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q4: Option 'هيئة DKE' endet mit lateinischen Buchstaben.",
+  "suggested_fix": "هيئة DKE للتقييس"
+ },
+ {
+  "video": "E-B01",
+  "scene": 7,
+  "line": 6,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "RCD als 'Er-Ce-De' gebuchstabiert; E-B02 und TERMS (CE = Ze-E) nutzen 'Ze'.",
+  "suggested_fix": "Erdung und Schutzleiter erklären wir dort zusammen mit dem Thema Er-Ze-De."
+ },
+ {
+  "video": "E-B01",
+  "scene": 20,
+  "line": 7,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Wie 7.6: 'Er-Ce-De' statt 'Er-Ze-De'.",
+  "suggested_fix": "Im nächsten Video geht es um Erdungssysteme und Er-Ze-De."
+ },
+ {
+  "video": "E-B02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "title.ar endet mit lateinischem 'RCD'.",
+  "suggested_fix": "أنظمة التأريض والحماية من الصعق (TN وTT وIT) وجهاز الحماية من تيار العطل"
+ },
+ {
+  "video": "E-B02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "next.ar endet mit '(Leitungsberechnung)' (lateinisch, und deutsches Wort im AR-Text).",
+  "suggested_fix": "في الفيديو القادم نتناول حساب مقاطع الكابلات والموصلات."
+ },
+ {
+  "video": "E-B02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossar-AR endet lateinisch: 'جهاز الحماية من تيار العطل (RCD)' und 'الكهربائي المؤهَّل (Elektrofachkraft)'.",
+  "suggested_fix": "'جهاز الحماية من تيار العطل' bzw. 'الكهربائي المؤهَّل'"
+ },
+ {
+  "video": "E-B02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz-Fragen Q1, Q2, Q5 AR enden mit TN / TN-C / RCD.",
+  "suggested_fix": "Q1: 'ماذا يصف الحرف الأول من رمز نظام TN تحديدًا؟' ; Q2: 'ماذا يعني الحرف C في اسم النظام TN-C تحديدًا؟' ; Q5: 'ما الذي ينطبق على زر الاختبار الموجود في جهاز RCD نفسه؟'"
+ },
+ {
+  "video": "E-B02",
+  "scene": 2,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide-Term S2 endet mit '(Elektrofachkraft)'.",
+  "suggested_fix": "الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-B02",
+  "scene": 14,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide-Term S14 endet mit '(RCD)'.",
+  "suggested_fix": "جهاز الحماية من تيار العطل"
+ },
+ {
+  "video": "E-B02",
+  "scene": 16,
+  "line": 1,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "tts = de-Zeile; 'RCDs' wird nicht gebuchstabiert (TTS liest 'Rcds').",
+  "suggested_fix": "Er-Ze-Des gibt es in verschiedenen Typen."
+ },
+ {
+  "video": "E-B03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1: alle drei AR-Optionen beginnen und enden mit lateinischen Buchstaben ('Ib ≤ In ≤ Iz').",
+  "suggested_fix": "'تيار التشغيل ≤ التيار الاسمي ≤ السعة التيارية' / 'التيار الاسمي ≤ تيار التشغيل ≤ السعة التيارية' / 'السعة التيارية ≤ التيار الاسمي ≤ تيار التشغيل'"
+ },
+ {
+  "video": "E-B03",
+  "scene": 3,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Logische Reihenfolge gestört: 3.6 ('Alle vier Prüfungen ...') steht vor 3.7 'Viertens'.",
+  "suggested_fix": "Zeilen 3.6 und 3.7 tauschen (3.7 'Viertens: ...' direkt nach 3.5, danach 'Alle vier Prüfungen müssen gleichzeitig bestanden werden.')"
+ },
+ {
+  "video": "E-B03",
+  "scene": 4,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "de-Feld enthält die gesprochene Schreibung 'I-Z' statt der geschriebenen Abkürzung; tts ist identisch (kein tts-Nutzen). Betrifft 4.4, 9.2, 9.3, 9.4, 9.5, 10.8 (de und en).",
+  "suggested_fix": "4.4 de: 'Man schreibt sie Iz.' tts: 'Man schreibt sie I-Zett.' en: 'It is written Iz.'; 9.2 de: 'Erstens den Betriebsstrom Ib. ...' tts: '... I-Be ...'; 9.3 de '... Nennstrom In ...' tts '... I-En ...'; 9.4 de '... Strombelastbarkeit Iz ...' tts '... I-Zett ...'; 9.5 de: 'Die Reihenfolge lautet: Ib kleiner gleich In kleiner gleich Iz.' tts: 'Die Reihenfolge lautet: I-Be kleiner gleich I-En kleiner gleich I-Zett.'; 10.8 de 'Das ist unser Betriebsstrom Ib.' tts 'I-Be'; en jeweils Ib/In/Iz"
+ },
+ {
+  "video": "E-B03",
+  "scene": 16,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Genus: 'تبيّن ذلك منحنى' – منحنى ist maskulin; außerdem unklarer Satzbau.",
+  "suggested_fix": "وهل تكفي ٤٦٠ أمبير؟ يبيّن ذلك منحنى الفصل الخاص بجهاز الحماية."
+ },
+ {
+  "video": "E-B03",
+  "scene": 16,
+  "line": 9,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Grammatik: 'gehört ... zur Unterlage' – Plural 'Unterlagen' gemeint.",
+  "suggested_fix": "Die Kennlinie des Schutzgeräts gehört deshalb immer zu den Unterlagen."
+ },
+ {
+  "video": "E-B03",
+  "scene": 20,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'التحمل' für Belastbarkeit weicht vom Glossar ab (Strombelastbarkeit = السعة التيارية).",
+  "suggested_fix": "يجب أن يجتاز الكابل أربعة فحوص: السعة التيارية، والحمل الزائد، وهبوط الجهد، والقصر الكهربائي."
+ },
+ {
+  "video": "E-B04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossar 'die Elektrofachkraft' AR endet mit '(Elektrofachkraft)'.",
+  "suggested_fix": "الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-B04",
+  "scene": 2,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Unvollständiger Satz: 'وغالبًا تكون القمم الجهدية ...' (kein Prädikat); 'القمم الجهدية' ist ungebräuchlich (Spannungsspitzen = ذروات الجهد).",
+  "suggested_fix": "2.6 'هذه الذروات في الجهد قد تتلف الأجهزة أو تدمّرها.'; 2.8 'وغالبًا ما تكون ذروات الجهد الصغيرة والقصيرة في الحياة اليومية هي السبب.'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 4,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Genus: 'وتحدد التفاصيل خبير' (Verb fem., Subjekt mask.).",
+  "suggested_fix": "ويحدد خبير الحماية من الصواعق التفاصيل وفق المعيار."
+ },
+ {
+  "video": "E-B04",
+  "scene": 5,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Potentialausgleich als 'معادلة الجهد' – im Pfad (B01, B02) 'الربط المتساوي الجهد'. Betrifft Term S5, 5.3-5.9, 8.2, 19.3, Glossar.",
+  "suggested_fix": "Term: 'الربط المتساوي الجهد'; 5.3 'من العناصر المهمة الربط المتساوي الجهد وأجهزة الحماية من الجهد الزائد.'; 5.4 'في الربط المتساوي الجهد نصل الأجزاء المعدنية ببعضها.'; 5.7 'يمنع الربط المتساوي الجهد فروق الجهد الخطرة.'; 5.9 'وبدون الربط المتساوي الجهد لا تؤدي أجهزة الحماية عملها جيدًا.'; 8.2 'ومنها التأريض والربط المتساوي الجهد.'; 19.3 'وفي الداخل يؤمّن الربط المتساوي الجهد وأجهزة الحماية السلامة.'; S5 Item DE bleibt; Glossar: 'الربط المتساوي الجهد'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 7,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'المنطقة صفر ألف': 'ألف' bedeutet 'tausend', nicht Buchstabe A. Ebenso 'صفر باء' und 'المنطقة واحد'.",
+  "suggested_fix": "7.3: 'المنطقة 0A خارجية ويمكن أن تُصاب مباشرة.'; 7.4: 'المنطقة 0B محمية من الضربات المباشرة لكن المجال يؤثر فيها كاملًا.'; 7.5: 'في المنطقة ١ يكون التيار والمجال أصغر بالفعل.'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 9,
+  "line": 1,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Zifferndreher: 62305 wird 'zwei sechs drei null fünf' gesprochen (=26305). Richtig: sechs zwei drei null fünf.",
+  "suggested_fix": "In Deutschland gilt die Normenreihe Din E-En sechs zwei drei null fünf."
+ },
+ {
+  "video": "E-B04",
+  "scene": 13,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Präposition: 'Bei manchen Fällen' -> 'In manchen Fällen'.",
+  "suggested_fix": "In manchen Fällen ist der Schutz auch ohne Berechnung nötig."
+ },
+ {
+  "video": "E-B04",
+  "scene": 13,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Ungrammatisch: 'أي طبعة تسري عليكم التحقق منه في المشروع'.",
+  "suggested_fix": "عليكم التحقق في المشروع من الإصدار الساري."
+ },
+ {
+  "video": "E-B04",
+  "scene": 17,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Falsche Bezugsform: 'وتنطبق عليه' (Arbeiten = Plural/feminin).",
+  "suggested_fix": "وتسري عليها قواعد السلامة الخمس الواردة في الفيديو عن السلامة الكهربائية."
+ },
+ {
+  "video": "E-B04",
+  "scene": 17,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Freischalten als 'فصل التغذية' – im ganzen Pfad (E-F05, B01-B03, B05, B06) 'فصل الجهد'. 17.8 gleiches.",
+  "suggested_fix": "17.3: 'واحد: فصل الجهد.'; 17.8: 'فصل الجهد هو الخطوة الأولى فقط من خمس، وبهذا الترتيب دائمًا.'; Quiz Q5 Opt. 0: 'فصل الجهد وحده يكفي'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 17,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Abschranken als 'عزلها بحواجز' (isolieren) weicht von E-F05/B01 ('إحاطتها بحواجز') ab.",
+  "suggested_fix": "خمسة: تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز."
+ },
+ {
+  "video": "E-B05",
+  "scene": 4,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide-Terms enden mit lateinischem Klammerwort: S4 '(Sonderbau)', S5 '(Rettungsweg)', S6 '(Leitungsanlage)', S8 '(Funktionserhalt)', S10 '(Sicherheitsstromversorgung)', S11 '(Sicherheitsbeleuchtung)', S12 '(Vornorm)', S13 '(Brandmeldeanlage)' und '(Aufschaltung)', S14 '(Fachfirma)', S15 '(Brandfallsteuerung)', S16 '(Prüfsachverständiger)', S17 '(Elektrofachkraft)'.",
+  "suggested_fix": "Klammerzusätze streichen: 'منشأة خاصة', 'مسار الإخلاء', 'منظومة الكابلات', 'الحفاظ على الوظيفة', 'مصدر الطاقة لأغراض الأمان', 'إضاءة الأمان', 'معيار تمهيدي', 'نظام إنذار الحريق', 'الربط بفرقة الإطفاء', 'شركة متخصصة', 'التحكم في حالة الحريق', 'خبير فحص معتمد', 'الكهربائي المؤهَّل'"
+ },
+ {
+  "video": "E-B05",
+  "scene": 4,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q4 AR endet mit 'DIN 14675؟'.",
+  "suggested_fix": "ما الذي ينظمه معيار DIN 14675 بالتحديد؟"
+ },
+ {
+  "video": "E-B05",
+  "scene": 4,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'ووصوفاتكم' ist keine korrekte Pluralform (Beschreibungen).",
+  "suggested_fix": "وينطبق ذلك أيضًا على رسوماتكم ووثائق الوصف الفني الخاصة بكم."
+ },
+ {
+  "video": "E-B05",
+  "scene": 5,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Genus/Syntax: 'وتُعد المرور عبر' (مرور maskulin, Verb fem.).",
+  "suggested_fix": "وتُعد عمليات تمرير الكابلات عبر الجدران والأسقف موضوعًا مهمًا أيضًا."
+ },
+ {
+  "video": "E-B05",
+  "scene": 12,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "Normnummern als Großzahlen ausgesprochen ('eintausendachthundertachtunddreißig', 'fünfzigtausend-einhundertzweiundsiebzig'); uneinheitlich zu B01 (ziffernweise) und mit Bindestrichen.",
+  "suggested_fix": "12.2: 'Die Norm Din E-En eins acht drei acht legt die lichttechnischen Anforderungen fest.'; 12.3: 'Die Norm Din E-En fünf null eins sieben zwei, auch Fau-De-E null eins null acht Strich eins null null, betrifft die Anlagentechnik.'; 12.4: 'Dazu kommt die Vornorm Din Fau-De-E Vau null eins null acht Strich eins null null Strich eins mit Ergänzungen.'"
+ },
+ {
+  "video": "E-B05",
+  "scene": 14,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "tts enthält Ziffern '0833' (nicht ausgeschrieben).",
+  "suggested_fix": "Die Reihe Din Fau-De-E null acht drei drei heißt Gefahrenmeldeanlagen für Brand, Einbruch und Überfall."
+ },
+ {
+  "video": "E-B05",
+  "scene": 17,
+  "line": 3,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Zeile mit 21 Wörtern (>20), schlecht sprechbar.",
+  "suggested_fix": "Die fünf Regeln: freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen. Dann erden und kurzschließen, zuletzt benachbarte, unter Spannung stehende Teile abdecken oder abschranken."
+ },
+ {
+  "video": "E-B06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "next.ar beginnt mit 'E-C01:' und endet mit '(SPS)' (lateinisch an beiden Rändern); next.de weicht vom Muster 'Im nächsten Video ...' ab.",
+  "suggested_fix": "next.de: 'Im nächsten Video geht es um Automatisierung und SPS.' next.ar: 'في الفيديو القادم نتناول الأتمتة ووحدات التحكم المبرمجة (SPS) بالتفصيل.' next.en: 'The next video is about automation and PLCs.'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1 AR endet mit 'HOAI؟'.",
+  "suggested_fix": "ماذا تنظّم لائحة HOAI للأتعاب؟"
+ },
+ {
+  "video": "E-B06",
+  "scene": 4,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Terminologie weicht von E-B05 ab: Beleuchtung = 'الإنارة' (B05: 'الإضاءة'), Sicherheitsbeleuchtung = 'إنارة الطوارئ' (B05: 'إضاءة الأمان', 'الإضاءة الطارئة' = Notbeleuchtung). Betrifft 4.2, 4.5, 12.5, 13.10.",
+  "suggested_fix": "4.2 'أولًا الجهد المنخفض مع لوحات التوزيع والكابلات والإضاءة.'; 4.5 'كما أن الطاقة الاحتياطية ومنظومات التغذية غير المنقطعة (USV) وإضاءة الأمان مهام نموذجية.'; 12.5 'الحفاظ على الوظيفة مهم لإضاءة الأمان ومنظومات الأمان الأخرى.'; 13.10 '... وتحكم الحماية الشمسية والإضاءة.'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 5,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Term-Inkonsistenz: Leistungsphase = 'مرحلة الأداء' (5.1, Glossar), Titel-AR sagt 'مراحل الخدمة'.",
+  "suggested_fix": "Überall 'مراحل الخدمة': 5.1 'لنموذج الخدمة تسع مراحل خدمة.'; Term/Glossar: 'مرحلة الخدمة'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 11,
+  "line": 1,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "HLS = Heizung, Lüftung, Sanitär (nicht Kälte); 'التدفئة والتهوية والتبريد' ist falsch. Auch de erklärt das Kürzel nie.",
+  "suggested_fix": "de: 'Mit der HLS, also Heizung, Lüftung und Sanitär, stimmen Sie die elektrische Versorgung ab.' tts: 'Mit der Ha-El-Es, also Heizung, Lüftung und Sanitär, ...' ar: 'مع قسم التدفئة والتهوية والصحيات (HLS) تنسقون التغذية الكهربائية.' en: 'With the HVAC and plumbing discipline (HLS) you coordinate the electrical supply.'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 12,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Leitungsanlagen = 'منشآت الكابلات' (12.2, 12.3) vs 'منظومات الكابلات' in E-B05; Richtlinie = 'التوجيه' (ok) vs B05 'إرشاد/التعليمات'.",
+  "suggested_fix": "12.2: 'وهي التوجيه النموذجي لمنظومات الكابلات.'; 12.3: 'تصف متطلبات الحماية من الحريق لمنظومات الكابلات.'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 12,
+  "line": 4,
+  "severity": "error",
+  "lang": "en",
+  "issue": "'functional integrity' (12.4, 12.5) vs E-B05 'functional endurance'.",
+  "suggested_fix": "12.4: 'This concerns, for example, escape routes and functional endurance.'; 12.5: 'Functional endurance matters for safety lighting and other safety systems.'"
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Q5 DE/AR: 'besondere Räume wie Baustellen' – Baustellen sind keine Räume; AR 'تسري إضافةً على' ist falsch (إضافةً إلى).",
+  "suggested_fix": "de: 'Welche Gruppe gilt zusätzlich für besondere Bereiche wie Baustellen?' ar: 'أي مجموعة تسري إضافةً إلى المجموعات الأخرى على الأماكن الخاصة مثل مواقع البناء؟'"
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "RCD uneinheitlich: B01 'الحماية من التيار المتبقي', B02 'جهاز الحماية من تيار العطل'. Eine Variante im ganzen Pfad verwenden (B02-Variante).",
+  "suggested_fix": "next.ar und 7.6/20.7 ar: 'أجهزة الحماية من تيار العطل (RCD)' bzw. 'مع موضوع جهاز الحماية من تيار العطل (RCD) أيضًا'"
+ },
+ {
+  "video": "E-B01",
+  "scene": 1,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Terminologie: 'تركيبات الجهد المنخفض' hier, sonst 'منشآت الجهد المنخفض' (Titel, Glossar) – uneinheitlich.",
+  "suggested_fix": "موضوعنا اليوم هو سلسلة المعايير المعروفة بـ DIN VDE 0100 الخاصة بمنشآت الجهد المنخفض."
+ },
+ {
+  "video": "E-B01",
+  "scene": 3,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'بحد ذاتها' ist unnatürlich/füllt; Satz übersetzt 'ist die deutsche Normenreihe' nicht sauber.",
+  "suggested_fix": "سلسلة DIN VDE 0100 هي السلسلة الألمانية للمعايير."
+ },
+ {
+  "video": "E-B01",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Objekt-Voranstellung ('Die frühere Gruppe 300 führen neuere Übersichten ...') ist schwer zu hören, TTS stolpert.",
+  "suggested_fix": "Neuere Übersichten führen die frühere Gruppe 300 nicht mehr als eigene Gruppe. (tts: '... Gruppe dreihundert ...')"
+ },
+ {
+  "video": "E-B01",
+  "scene": 7,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Schutzpotentialausgleich: 'التوصيل الأرضي الوقائي المتساوي الجهد' suggeriert Erdung; gebräuchlich ist 'الربط الوقائي المتساوي الجهد'.",
+  "suggested_fix": "ويتناول الجزء ٥٤٠ التأريض وموصل الحماية والربط الوقائي المتساوي الجهد."
+ },
+ {
+  "video": "E-B01",
+  "scene": 11,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Reihenfolge verwirrend: 11.6/11.7 erklären beide Ebenen, stehen aber zwischen Namen der 1. und 2. Ebene. Besser: Name+Erklärung je Ebene.",
+  "suggested_fix": "11.6 'Dabei betrachtet man zuerst den fehlerfreien Zustand der Anlage.' 11.7 'Die zweite Ebene heißt Fehlerschutz.' 11.8 'Dabei fragt man, was bei einem Fehler geschieht.' (AR/EN entsprechend umstellen)"
+ },
+ {
+  "video": "E-B01",
+  "scene": 12,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Grammatisch holprig: 'Schutz gegen direktes und bei indirektem Berühren'.",
+  "suggested_fix": "Alte Namen waren Schutz gegen direktes Berühren und Schutz bei indirektem Berühren."
+ },
+ {
+  "video": "E-B01",
+  "scene": 13,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "13.9 und 13.11 sagen fast dasselbe (Welche Maßnahme ... passt/sinnvoll ist); 13.10 dazwischen. Redundanz, TTS-Monotonie.",
+  "suggested_fix": "13.11 streichen; 13.9: 'Welche Maßnahme passt, entscheidet die Planung nach der Norm und nach Art der Anlage.'"
+ },
+ {
+  "video": "E-B01",
+  "scene": 16,
+  "line": 3,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "'Meant are erecting...' ist kein natürliches Englisch.",
+  "suggested_fix": "This means erecting, modifying and maintaining."
+ },
+ {
+  "video": "E-B01",
+  "scene": 16,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'وغير المؤهَّل' ohne Bezugsnomen; TERMS: Laie = شخص غير مؤهَّل.",
+  "suggested_fix": "والشخص غير المؤهَّل (Laie) لا يجوز له تنفيذ أعمال كهربائية بمفرده."
+ },
+ {
+  "video": "E-B02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distraktoren Q1 ('Art des Verbrauchers', 'Leitungslänge') und Q4 ('Temperatur', 'Leitungslänge') sind zu offensichtlich falsch und wiederholen sich; 'Leitungslänge' kommt zweimal vor.",
+  "suggested_fix": "Q1 Option 0 -> 'Die Anzahl der Phasen' (ar 'عدد الأطوار'); Q4 Option 0 -> 'Durch die Spannung am Gehäuse' (ar 'بجهد الغلاف')"
+ },
+ {
+  "video": "E-B02",
+  "scene": 2,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'machen' ist umgangssprachlich für Arbeiten an Anlagen.",
+  "suggested_fix": "Arbeiten an Anlagen führen nur Elektrofachkräfte aus."
+ },
+ {
+  "video": "E-B02",
+  "scene": 4,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Einzelbuchstaben T, I, N, S, C im de-Text ohne tts; TTS liest uneinheitlich (z. B. 'C' als 'tse'/'ke'). Ebenso 4.5, 4.6, 5.2, 5.3, 19.2, 19.3, 19.8; in 5.5/6.2 bleibt 'N' ungesprochen-buchstabiert.",
+  "suggested_fix": "4.4: 'Te kommt aus dem Französischen und meint Erde: direkt geerdet.' 4.5: 'I steht für ...' -> 'I' bleibt; 4.6 'En bedeutet: ...'; 5.2 'Es heißt: separat.'; 5.3 'Ze heißt: combined.'; 19.2 'Die Buchstaben Te, I und En beschreiben ...'; 19.3 'Es heißt getrennte Leiter, Ze heißt gemeinsamer Pe-E-En-Leiter.'; 19.8 'Wiederholen Sie darum die Buchstaben Te, I, En, Es und Ze mit eigenen Worten.'; 5.5 'Pe-E ist der Schutzleiter, En der Neutralleiter.'"
+ },
+ {
+  "video": "E-B02",
+  "scene": 7,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Unversehrtheit' ist C1-Niveau.",
+  "suggested_fix": "Darum muss er immer intakt sein."
+ },
+ {
+  "video": "E-B02",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المؤرِّض' für Erder ist ungebräuchlich; Standard: 'قطب التأريض'. Betrifft Term S8, 8.3, 8.4, 9.4, 10.3, Glossar (Erder, Anlagenerder).",
+  "suggested_fix": "Term: 'قطب التأريض'; 8.3: 'وللمنشأة أيضًا قطب تأريض خاص بها، أي قطب تأريض المنشأة.'; 8.4: 'تُوصَل الأغلفة بقطب تأريض المنشأة لا بنقطة النجمة.'; 9.4: 'وللأغلفة قطب تأريض خاص بها.'; 10.3: 'في TT يكون للمصدر وللمنشأة قطبا تأريض منفصلان.'; Glossar: 'قطب التأريض' / 'قطب تأريض المنشأة'"
+ },
+ {
+  "video": "E-B02",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Satzbau holprig.",
+  "suggested_fix": "ولهذا المسار غالبًا مقاومة عالية."
+ },
+ {
+  "video": "E-B02",
+  "scene": 9,
+  "line": 11,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Sie liegt im Ermessen des Betreibers' ist fachlich und sprachlich riskant (Frist ist normativ geregelt).",
+  "suggested_fix": "Sie ergibt sich aus der Norm und den Betriebsbedingungen; prüfen Sie die aktuelle Fassung."
+ },
+ {
+  "video": "E-B02",
+  "scene": 12,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'metallene Versorgungssysteme' = metallische Versorgungsleitungen/Rohre (Wasser, Gas); 'أنظمة التغذية المعدنية' unklar, EN ebenso.",
+  "suggested_fix": "AR: 'ومنها موصلات الحماية وموصل التأريض وأنابيب التغذية المعدنية.' EN: 'These include protective conductors, earthing conductors and metallic supply pipes.' DE: 'Dazu zählen Schutzleiter, Erdungsleiter und metallene Versorgungsleitungen.'"
+ },
+ {
+  "video": "E-B02",
+  "scene": 14,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المُطلِق' für Auslöser ist ungebräuchlich/unklar.",
+  "suggested_fix": "هذا الفرق يشغّل وحدة الفصل (المُحرِّر) فيفصل RCD الدارة."
+ },
+ {
+  "video": "E-B02",
+  "scene": 15,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الدائرة القصيرة' weicht von Pfad-Term 'القصر الكهربائي' (B03, B06, E-A05, E-F07) und TERMS 'دارة' ab.",
+  "suggested_fix": "القاطع الآلي يحمي من الحمل الزائد ومن القصر الكهربائي."
+ },
+ {
+  "video": "E-B02",
+  "scene": 15,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Außenleiter wörtlich 'الموصل الخارجي'; besser 'موصل الطور' (E-F07 nennt 'الطور'); 'الدائرة القصيرة' -> 'القصر الكهربائي'.",
+  "suggested_fix": "عند حدوث قصر كهربائي بين موصل الطور وموصل التعادل يسري التيار نفسه ذهابًا وإيابًا."
+ },
+ {
+  "video": "E-B02",
+  "scene": 16,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Unnatürliche Formulierung 'مخصص من بين ما يخصص له'.",
+  "suggested_fix": "النوع F مخصص أيضًا، ضمن استخدامات أخرى، لمحوّلات التردد أحادية الطور."
+ },
+ {
+  "video": "E-B03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Uneinheitlich 'الكبل/الكبلات' (B03) vs 'الكابل/الكابلات' (B01, B02, Titel-next B02). Pfadweit eine Schreibung wählen ('الكابل').",
+  "suggested_fix": "Titel/Glossar/alle Zeilen in B03: 'الكبل' -> 'الكابل', 'الكبلات' -> 'الكابلات' (title.ar: 'حساب الكابلات: المقطع وهبوط الجهد والحماية من القصر')"
+ },
+ {
+  "video": "E-B03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'أرقام مختلقة' (erfunden) klingt nach Fälschung; besser 'افتراضية'. Betrifft 1.6, 2.4, 10.1, 16.1, 20.5.",
+  "suggested_fix": "1.6: 'وفي النهاية نحسب مثالًا تعليميًا صغيرًا بأرقام افتراضية.'; 2.4: 'الأرقام في المثال افتراضية وهدفها التعلم فقط.'; 10.1: 'والآن مثال تعليمي بأرقام افتراضية.'; 16.1: 'مثال تعليمي قصير آخر، بأرقام افتراضية أيضًا.'; 20.5: 'الأمثلة في هذا الفيديو كانت بأرقام افتراضية.'"
+ },
+ {
+  "video": "E-B03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "EN 'conversion factor' für Umrechnungsfaktor: im Kontext Strombelastbarkeit ist 'correction factor' (derating factor) üblich; auch Slide-Term S7.",
+  "suggested_fix": "en: 'correction factor'"
+ },
+ {
+  "video": "E-B03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distraktoren zu schwach/Antwort an Länge erkennbar: Q2 richtige Option ist die längste; Q3 'Das Kabel wird billiger' / 'Die Spannung steigt' offensichtlich falsch. Q5 stellt zwei Fragen in einer.",
+  "suggested_fix": "Q2 Optionen: 'Häufung und warme Umgebung' / 'Ein größerer Querschnitt' / 'Eine kürzere Leitung' (ar: 'التجميع والبيئة الدافئة' / 'مقطع أكبر' / 'كابل أقصر'); Q3 Option 2: 'Die Spannung am Verbraucher steigt' -> 'Der Strom wird kleiner'; Q5: 'Welcher Schritt steht bei den fünf Sicherheitsregeln an erster Stelle?' mit Optionen 'Freischalten' / 'Erden und Kurzschließen' / 'Spannungsfreiheit feststellen' (ar: 'فصل الجهد' / 'التأريض وتوصيل الأطراف بدارة قصر' / 'التحقق من انعدام الجهد')"
+ },
+ {
+  "video": "E-B03",
+  "scene": 2,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Echte Auslegung machen Sie' umgangssprachlich.",
+  "suggested_fix": "Eine echte Auslegung führen Sie mit der gültigen Norm und mit qualifizierten Fachleuten durch."
+ },
+ {
+  "video": "E-B03",
+  "scene": 8,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'تلعب دورًا' ist Calque.",
+  "suggested_fix": "هذه نظرة عامة على المعايير ذات الصلة."
+ },
+ {
+  "video": "E-B03",
+  "scene": 8,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Teilnummern uneinheitlich: B03 'null-einhundert, Teil fünfhundertzwanzig' vs B01 'null eins null null Strich fünf zwei null'. Betrifft 8.2, 8.4, 8.5, 15.7.",
+  "suggested_fix": "8.2 tts: 'Die Norm Din Fau-De-E null eins null null Strich fünf zwei null behandelt Kabel- und Leitungssysteme, auch den Spannungsfall.'; 8.4: '... Din Fau-De-E null drei zwei neun acht Strich vier' -> 'Din Fau-De-E null zwei neun acht Strich vier'; 8.5: 'Din Fau-De-E null eins null null Strich vier drei null'; 15.7: '... null eins null null Strich vier eins null ...'"
+ },
+ {
+  "video": "E-B03",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "de-Feld spricht Zahlen aus ('Teil vierhundertzehn', 'Beiblatt zwei', 'zweitausenddreiundzwanzig'); de soll Ziffern/Abkürzungen tragen, nur tts Wörter. Gleiches in 10.3-10.8, 12.2-12.8, 16.2-16.7 (de wörtlich = tts).",
+  "suggested_fix": "8.3 de: 'Dazu gibt es ein Beiblatt 2 als Anwendungshilfe, Ausgabe 2023.'; 8.6 de: 'Abschaltzeiten für den Schlagschutz stehen in Teil 410, die Erstprüfung in Teil 600.' (tts bleibt ausgeschrieben); 10.3 de: 'Ein Verbraucher hat 2300 Watt Wirkleistung.' usw."
+ },
+ {
+  "video": "E-B03",
+  "scene": 10,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Sie merken:' unidiomatisch (Imperativ erwartet).",
+  "suggested_fix": "Merken Sie sich: Erst der Strom, dann das Kabel, dann das Schutzgerät."
+ },
+ {
+  "video": "E-B03",
+  "scene": 10,
+  "line": 11,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Mehrdeutig/unklar: 'noch mehr tragen können' (Iz ≥ In ist gemeint).",
+  "suggested_fix": "Die Strombelastbarkeit des Kabels muss nach allen Faktoren mindestens so groß sein wie der Nennstrom. (ar: 'ويجب أن تكون السعة التيارية للكابل، بعد تطبيق كل المعاملات، مساوية للتيار الاسمي على الأقل.')"
+ },
+ {
+  "video": "E-B03",
+  "scene": 11,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Reihenfolge: 11.6 spricht vom 'Faktor zwei', die Formel mit Faktor zwei kommt erst in 12.4.",
+  "suggested_fix": "11.6 in Szene 12 hinter 12.4 verschieben (als 12.5)."
+ },
+ {
+  "video": "E-B03",
+  "scene": 12,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Einheit fehlt bei 56 (Leitwert); Lernende verstehen die Zahl nicht.",
+  "suggested_fix": "Für Kupfer nehmen wir hier vereinfacht sechsundfünfzig Meter pro Ohm und Quadratmillimeter an. (ar: 'للنحاس نفترض هنا بشكل مبسط القيمة ٥٦ متر لكل أوم ومليمتر مربع.')"
+ },
+ {
+  "video": "E-B03",
+  "scene": 13,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'يزعج الأجهزة' (stören = annoy).",
+  "suggested_fix": "هبوط الجهد الكبير قد يؤثر في الأجهزة أو يضعف أداءها."
+ },
+ {
+  "video": "E-B03",
+  "scene": 14,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Fachlich/sprachlich ungenau: 'Die Energie des Schutzgeräts' – gemeint ist die Durchlassenergie (I²t).",
+  "suggested_fix": "Vereinfacht gilt: Die Durchlassenergie des Schutzgeräts muss kleiner sein als k Quadrat mal S Quadrat."
+ },
+ {
+  "video": "E-B03",
+  "scene": 14,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Einzelbuchstaben k und S ohne tts.",
+  "suggested_fix": "Vereinfacht gilt: Die Durchlassenergie des Schutzgeräts muss kleiner sein als Ka Quadrat mal Es Quadrat."
+ },
+ {
+  "video": "E-B03",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'بالنسبة للأرض' ist falsche Präposition.",
+  "suggested_fix": "الجهد بالنسبة إلى الأرض هو ٢٣٠ فولت."
+ },
+ {
+  "video": "E-B03",
+  "scene": 16,
+  "line": 10,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الصانع' für Hersteller weicht von B02 ('الشركة المصنِّعة') ab.",
+  "suggested_fix": "هذا المنحنى توفره الشركة المصنّعة."
+ },
+ {
+  "video": "E-B03",
+  "scene": 19,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Querverweis 'E-F05' im de-Text; tts uneinheitlich ('E-F-null-fünf' vs B02 'E-Eff-null-fünf'). Besser inhaltlich verweisen.",
+  "suggested_fix": "de: 'Dann gelten die fünf Sicherheitsregeln aus dem Video über elektrische Sicherheit.' ar: 'عندئذ تسري قواعد السلامة الخمس الواردة في الفيديو عن السلامة الكهربائية كاملة.' (tts = de)"
+ },
+ {
+  "video": "E-B03",
+  "scene": 19,
+  "line": 6,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "'cover or barrier neighbouring live parts' – Verb falsch.",
+  "suggested_fix": "Five: cover or fence off neighbouring live parts."
+ },
+ {
+  "video": "E-B03",
+  "scene": 19,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Pleonasmus 'qualifizierte Elektrofachkraft'.",
+  "suggested_fix": "Diese Arbeiten gehören in die Hand einer Elektrofachkraft."
+ },
+ {
+  "video": "E-B03",
+  "scene": 20,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'النسخة' statt 'الصيغة/الإصدار' (B01/B02: الصيغة).",
+  "suggested_fix": "القوانين والمعايير تتغير. تحققوا دائمًا من الصيغة الحالية."
+ },
+ {
+  "video": "E-B04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "B04 schreibt 'كبل/كبلات' (2.4, 8.3, 8.10, 12.8, 7.x ...), restliche Dateien (B01, B02, B05, B06, E-F/E-A) 'كابل'.",
+  "suggested_fix": "Alle 'كبلات' -> 'كابلات', 'كبل' -> 'كابل' (z. B. 2.4: 'مجاله الكهرومغناطيسي يولّد جهودًا في الكابلات.')"
+ },
+ {
+  "video": "E-B04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "next.de enthält internen Code '(E-B05)' und weicht vom gesprochenen 20.5 ab.",
+  "suggested_fix": "Im nächsten Video geht es um Brandschutz, Notbeleuchtung und Gefahrenmeldeanlagen."
+ },
+ {
+  "video": "E-B04",
+  "scene": 1,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المؤهَّلين' ohne Bezugsnomen für 'Fachkräften' (TERMS: Elektrofachkraft nicht als 'مؤهَّل' allein).",
+  "suggested_fix": "هذا يساعدكم في الحديث مع المخططين والمختصين في ألمانيا."
+ },
+ {
+  "video": "E-B04",
+  "scene": 2,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Elliptisch: 'Oft sind es die kleinen, kurzen Spannungsspitzen im Alltag.'",
+  "suggested_fix": "Oft sind es die kleinen, kurzen Spannungsspitzen im Alltag, die Schäden verursachen."
+ },
+ {
+  "video": "E-B04",
+  "scene": 3,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Fehlendes Subjekt: 'وفي الداخل يدور حول ...'",
+  "suggested_fix": "وفي الداخل يدور الأمر حول توزيع الجهود داخل المبنى."
+ },
+ {
+  "video": "E-B04",
+  "scene": 4,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'Fangeinrichtung' als 'أداة الالتقاط' ist ungewohnt gegenüber 'منظومة التأريض'; besser 'منظومة الالتقاط' (Term S4, 4.2, 4.6, Glossar, Quiz Q1).",
+  "suggested_fix": "'منظومة الالتقاط' (4.2: 'أولًا منظومة الالتقاط، وهي تلتقط الصاعقة.')"
+ },
+ {
+  "video": "E-B04",
+  "scene": 5,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'القفزات الشرارية' (Funkenüberschlag) unklar.",
+  "suggested_fix": "وهذا يحمي من التفريغات الشرارية ومن الحرائق."
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 7,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "'Din achtzehntausendvierzehn' – Normnummern werden ziffernweise gesprochen (B01 Konvention).",
+  "suggested_fix": "Die Ausführung richtet sich nach Din eins acht null eins vier und den Vorgaben des Netzbetreibers."
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المعيار المذكور' verweist auf nichts; DIN 18014 wird im AR nicht genannt (ebenso 9.1, 13.1, 10.5 'المعهد الألماني للمعايير ... اتحاد الكهروتقنيين').",
+  "suggested_fix": "6.7: 'ويتبع التنفيذ المعيار DIN 18014 ومتطلبات مشغّل الشبكة.'; 9.1: 'تُطبَّق في ألمانيا سلسلة المعايير DIN EN 62305 كاملةً.'; 13.1: 'على منشآت الجهد المنخفض تنطبق سلسلة DIN VDE 0100 كاملةً.'; 10.5: 'اسألوا DIN أو VDE أو الجهة المُشغِّلة للمشروع (صاحب المشروع).'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 7,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "'the DIN standard 18014' unnatürlich.",
+  "suggested_fix": "The design follows DIN 18014 and the grid operator's requirements."
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'التقنيات المنزلية' für Haustechnik unpassend (Gebäudetechnik).",
+  "suggested_fix": "يمس التأريض الهيكل الإنشائي والكهرباء وتقنيات المبنى معًا."
+ },
+ {
+  "video": "E-B04",
+  "scene": 6,
+  "line": 11,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'لا موقع البناء فقط' verfälscht 'nicht erst auf die Baustelle'.",
+  "suggested_fix": "هذه الأسئلة مكانها مرحلة التخطيط، وليس بعد الوصول إلى موقع البناء."
+ },
+ {
+  "video": "E-B04",
+  "scene": 7,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "de enthält 'Zone null A', 'Typ eins' usw. als ausgeschriebene Wörter (= tts); de soll Schreibung 'Zone 0A', 'Typ 1' tragen. Betrifft 7.3-7.5, 11.2-11.6, 11.10, 12.2, 12.6, 19.5.",
+  "suggested_fix": "7.3 de: 'Zone 0A ist außen und kann direkt getroffen werden.' tts: 'Zone null A ist außen ...'; 11.2 de: 'Typ 1 ist der Blitzstromableiter.' tts bleibt 'Typ eins ...'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Folie S8 nennt 'Trennschnittstellen', die in den Zeilen nirgends erklärt werden.",
+  "suggested_fix": "Slide-Item ersetzen durch 'Trennstellen und Messpunkte' nur wenn gesprochen; sonst Item 'Datenleitungen mitdenken' (entspricht 8.10)"
+ },
+ {
+  "video": "E-B04",
+  "scene": 10,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "B04 mischt 'الطبعة/طبعات' (10.2-10.4, 13.7) und 'النسخة' (20.2); Pfad nutzt 'الإصدار' (Ausgabe) und 'الصيغة' (Fassung).",
+  "suggested_fix": "10.2 'بعض الأجزاء صدرت لها إصدارات جديدة.'; 10.3 'وقد تُسحب الإصدارات الأقدم عندئذٍ.'; 10.4 'لذلك تحققوا دائمًا من الإصدار الحالي لكل جزء.'; 20.2 'تحققوا قبل كل تطبيق من الصيغة الحالية.'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 16,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الأعمال المختلفة' für Gewerke unklar; B06 nutzt 'الاختصاصات'.",
+  "suggested_fix": "تعاون الاختصاصات المختلفة يوفّر الوقت ويقلل الأخطاء."
+ },
+ {
+  "video": "E-B04",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Normenblättern' ungewöhnlich; gemeint Beiblätter (vgl. 10.6).",
+  "suggested_fix": "Die Fristen stehen in den ergänzenden Beiblättern zur Norm."
+ },
+ {
+  "video": "E-B04",
+  "scene": 19,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'نوصلها ونؤرضها' – 'leiten' ist 'توجيه/تفريغ', nicht 'توصيل'.",
+  "suggested_fix": "في الخارج نلتقط الصاعقة ونوجّهها إلى الأرض ونؤرِّضها."
+ },
+ {
+  "video": "E-B04",
+  "scene": 19,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Merken Sie sich außerdem die Namen der Normenreihe' – im Recap wird kein Name genannt; unklar.",
+  "suggested_fix": "Merken Sie sich außerdem den Namen der Normenreihe: DIN EN 62305. tts: '... Din E-En sechs zwei drei null fünf.'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 20,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Ausblick auf nächstes Video steht mitten im Schlussblock (20.5), vor Dank/Wunsch; wie in B01-B03 ans Ende.",
+  "suggested_fix": "Zeile 20.5 nach 20.7 verschieben."
+ },
+ {
+  "video": "E-B04",
+  "scene": 20,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Grammatik/Satzbau: 'gilt ... das Projekt und der Standort' (Subjekt Plural, Verb Singular).",
+  "suggested_fix": "Für Ihre Arbeit in Deutschland zählen immer das Projekt und der Standort."
+ },
+ {
+  "video": "E-B05",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "B05 benutzt 'النسخة' für Fassung (2.7, 6.8, 7.5, 7.8, 20.3); B01/B02 'الصيغة', Ausgabe = 'الإصدار'.",
+  "suggested_fix": "'النسخة' -> 'الصيغة' (2.7: 'ما يهم في عملكم دائمًا هو الصيغة السارية في المشروع.'; 7.5 'لذلك قد تبقى صيغة أقدم معتمدة في ولاية ما.'; 20.3 'تحققوا قبل كل مشروع من الصيغة الحالية في الولاية المعنية.')"
+ },
+ {
+  "video": "E-B05",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Q3 fragt 'Wer' aber richtige Option ist ein Dokument ('Das Brandschutzkonzept') – Frage und Optionen passen nicht; 'Der Bauherr allein' implausibel. Q2 hat 4 Optionen, die anderen 3 (uneinheitlich); Option 'Nie' trivial.",
+  "suggested_fix": "Q3 de: 'Was legt die Art der Brandfallsteuerung fest?' ar: 'ما الذي يحدد نوع التحكم في حالة الحريق؟'; Optionen (Antwort bleibt Index 3): 'Der Hersteller' / 'Der Stromanbieter' / 'Die Farbe der Kabel' (ar: 'لون الكابلات') / 'Das Brandschutzkonzept'; Q2: Option 'Nie' (ar 'أبدًا') streichen und answer bleibt 0"
+ },
+ {
+  "video": "E-B05",
+  "scene": 2,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'قانون لوائح البناء' ist holprig.",
+  "suggested_fix": "تشريعات البناء من اختصاص الولايات."
+ },
+ {
+  "video": "E-B05",
+  "scene": 2,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Logische Reihenfolge: 2.9 ('Diese Werte ...') bezieht sich auf 2.6 (Zeiten und Abstände), steht aber nach 2.8.",
+  "suggested_fix": "Zeile 2.9 direkt hinter 2.6 verschieben."
+ },
+ {
+  "video": "E-B05",
+  "scene": 5,
+  "line": 11,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'abplanen' unidiomatisch; AR meint 'abstimmen'.",
+  "suggested_fix": "Stimmen Sie diese Wege deshalb früh mit dem Brandschutz ab."
+ },
+ {
+  "video": "E-B05",
+  "scene": 6,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'إرشاد ... التعليمات النموذجية' – Richtlinie uneinheitlich (إرشاد/توجيه/تعليمات); gleiches in 3.4, 6.6, 7.1, 20.2; B06 12.2 nutzt 'التوجيه'.",
+  "suggested_fix": "6.1: 'من الإرشادات المهمة المعروفة باسم Muster-Leitungsanlagen-Richtlinie، أي التوجيه النموذجي لمنظومات الكابلات.' -> einheitlich 'التوجيه' (Richtlinie): 6.6 'هي توجيه نموذجي وليست قانونًا.'"
+ },
+ {
+  "video": "E-B05",
+  "scene": 8,
+  "line": 6,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "'Din viertausendeinhundertzwei, Teil zwölf' – ziffernweise sprechen.",
+  "suggested_fix": "Für Kabel gibt es eine Prüfnorm, die Din vier eins null zwei Strich eins zwei."
+ },
+ {
+  "video": "E-B05",
+  "scene": 9,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المنظومات ذات الحفاظ على الوظيفة' ungrammatisch/klobig.",
+  "suggested_fix": "تُعلَّم المنظومات التي يُشترط لها الحفاظ على الوظيفة وتُوثَّق."
+ },
+ {
+  "video": "E-B05",
+  "scene": 9,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'Monteur' als 'الفني' – TERMS meidet 'فني' für qualifizierte Personen; besser 'المركِّب'.",
+  "suggested_fix": "ويجب على المركِّب الالتزام بتعليمات التركيب بدقة."
+ },
+ {
+  "video": "E-B05",
+  "scene": 10,
+  "line": 4,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "'null-eins-null-null, Teil fünf-sechzig' – uneinheitlich, 560 falsch gelesen.",
+  "suggested_fix": "Die Norm Din Fau-De-E null eins null null Strich fünf sechs null behandelt Einrichtungen für Sicherheitszwecke und ihre Stromquellen."
+ },
+ {
+  "video": "E-B05",
+  "scene": 10,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'تجهيزات أغراض الأمان ومصادر كهربائها' holprig.",
+  "suggested_fix": "يتناول معيار DIN VDE 0100-560 تجهيزات الأمان ومصادر تغذيتها بالطاقة."
+ },
+ {
+  "video": "E-B05",
+  "scene": 13,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الإطفاء' allein/'الإطفاء المختصة' (13.10, 18.4, Term S13 'الربط بالإطفاء') ist unvollständig/ungrammatisch.",
+  "suggested_fix": "13.5: 'وكثيرًا ما يُربط النظام بفرقة الإطفاء.'; 13.10: 'اسألوا فرقة الإطفاء المختصة مبكرًا.'; 18.4: 'تحدد فرقة الإطفاء شروط الربط والوصول.'; Term/Glossar: 'الربط بفرقة الإطفاء'"
+ },
+ {
+  "video": "E-B05",
+  "scene": 14,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "tts: 'null-acht-drei-drei, Teil zwei' mit Bindestrichen.",
+  "suggested_fix": "Teil zwei, Din Fau-De-E null acht drei drei Strich zwei, betrifft Brandmeldeanlagen."
+ },
+ {
+  "video": "E-B05",
+  "scene": 14,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "'vierzehntausend-sechshundertfünfundsiebzig' – ziffernweise.",
+  "suggested_fix": "Die Din eins vier sechs sieben fünf stellt Anforderungen an Fachfirmen für Brandmeldeanlagen."
+ },
+ {
+  "video": "E-B05",
+  "scene": 15,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'تهوية الدخان والحرارة' für Rauch- und Wärmeabzug verwechselbar mit 'التهوية'.",
+  "suggested_fix": "من الأمثلة شفط الدخان والحرارة والمصاعد والتهوية."
+ },
+ {
+  "video": "E-B05",
+  "scene": 16,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المنظومات الأمنية التقنية' (security) ≠ sicherheitstechnische Anlagen (safety).",
+  "suggested_fix": "يجب فحص المنظومات التقنية للأمان."
+ },
+ {
+  "video": "E-B05",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Holprig: 'وهل ذلك وكيفه'.",
+  "suggested_fix": "وجوب الفحص وكيفيته يحدده قانون الولاية."
+ },
+ {
+  "video": "E-B05",
+  "scene": 17,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Interner Code 'E-F05' im de-Text, tts uneinheitlich ('E-F-null-fünf' hier und B03; 'E-Eff-null-fünf' in B02).",
+  "suggested_fix": "de: 'Es gelten die fünf Sicherheitsregeln aus dem Video über elektrische Sicherheit.' ar: 'تسري قواعد السلامة الخمس من فيديو السلامة الكهربائية.' (tts = de)"
+ },
+ {
+  "video": "E-B05",
+  "scene": 19,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Dann' ohne Bezug; Schlusssatz wirkt angehängt.",
+  "suggested_fix": "So können Sie das Wissen im Alltag anwenden."
+ },
+ {
+  "video": "E-B06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "HOAI mit 'Ho-A-I' gebuchstabiert; E-B05 und TERMS-Konvention (H = 'Ha') verlangen 'Ha-O-A-I'. Betrifft 1.3, 2.1, 2.3, 2.10, 3.1, 5.2, 18.8, 19.2, 20.3.",
+  "suggested_fix": "Überall 'Ha-O-A-I' (z. B. 1.3: 'Sie lernen, wie die Ha-O-A-I diese Arbeit in Phasen gliedert.')"
+ },
+ {
+  "video": "E-B06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Auftraggeber nur als 'صاحب المشروع' (6.11, 13.6, 14.11, Term S13, Glossar, Quiz); TERMS: 'الجهة المُشغِّلة للمشروع (صاحب المشروع)'.",
+  "suggested_fix": "Term S13/Glossar/Quiz Q4: 'الجهة المُشغِّلة للمشروع (صاحب المشروع)' bzw. in Quiz-Option 'الجهة المُشغِّلة للمشروع'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Q5: Distraktoren ('Nur das Honorar', 'Keine Abstimmung') offensichtlich falsch, richtige Option ist die längste; Q4 Option 'Der Netzbetreiber' trivial.",
+  "suggested_fix": "Q5 Optionen: 'Abstimmung zu Schlitzen und Durchbrüchen' / 'Die Preisliste der Firmen' / 'Das Leistungsverzeichnis des Bauherrn' (ar: 'التنسيق بشأن الشقوق والفتحات' / 'قائمة أسعار الشركات' / 'جدول بنود صاحب البناء')"
+ },
+ {
+  "video": "E-B06",
+  "scene": 2,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Westliche Ziffern '2021' im AR, während B01/B03 östliche Ziffern nutzen; 'نسخة' statt 'صيغة'.",
+  "suggested_fix": "ومنذ صيغة ٢٠٢١ تُتفق الأتعاب عمومًا بحرية."
+ },
+ {
+  "video": "E-B06",
+  "scene": 2,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Logik/Satzbau unklar: 'Dann ist der Umfang ... trotzdem klar beschrieben' passt nicht zum Beispiel 2.7; 'trotzdem' doppelt (2.8, 2.10).",
+  "suggested_fix": "Dann ist der Umfang der Arbeit klar beschrieben, wenn der Vertrag die Phasen nennt. (ar: 'عندها يكون نطاق العمل واضحًا إذا ذكر العقد المراحل.')"
+ },
+ {
+  "video": "E-B06",
+  "scene": 3,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Zirkulär/unverständlich: 'للتجهيزات التقنية في المبنى لدى HOAI نموذج خدمة اسمه التجهيزات التقنية'; 'Leistungsbild' als 'نموذج خدمة' ungewöhnlich.",
+  "suggested_fix": "لدى HOAI، بالنسبة لتقنيات المباني، وصفٌ للخدمات اسمه «التجهيزات التقنية»."
+ },
+ {
+  "video": "E-B06",
+  "scene": 3,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "'plant groups' – Anlagengruppen sind hier 'system groups/installation groups'.",
+  "suggested_fix": "It covers eight groups of installations."
+ },
+ {
+  "video": "E-B06",
+  "scene": 3,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "TGA wird nicht erklärt.",
+  "suggested_fix": "In vielen Büros heißt das Ganze kurz TGA, also Technische Gebäudeausrüstung. (tts: '... kurz Te-Ge-A, also Technische Gebäudeausrüstung.')"
+ },
+ {
+  "video": "E-B06",
+  "scene": 5,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Reihenfolge: Phase neun (5.10) steht erst nach Zitat-/Merksätzen 5.7-5.9; Aufzählung der Phasen sollte zusammenhängen.",
+  "suggested_fix": "5.10 hinter 5.6 verschieben (dann 5.7-5.9 als Merksätze)."
+ },
+ {
+  "video": "E-B06",
+  "scene": 6,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Doppelung 'Schon jetzt ... früh'.",
+  "suggested_fix": "Schon in dieser Phase sprechen Sie mit dem Netzbetreiber."
+ },
+ {
+  "video": "E-B06",
+  "scene": 9,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المجاري' für Schlitze ist mehrdeutig (Abwasser); betrifft 9.5, 10.5, 18.4, Quiz Q5.",
+  "suggested_fix": "'الشقوق': 9.5 'وتهمّنا أيضًا مخططات الفتحات والشقوق.'; 10.5 'وفي الجدران والأسقف تحتاجون إلى شقوق وفتحات.'; 18.4 '... ومخططات الشقوق.'; Q5 Opt.: 'التنسيق بشأن الشقوق والفتحات'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 10,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'المناور' (Lichtschächte) für Installationsschächte ungeeignet.",
+  "suggested_fix": "كما يجب تخطيط الفتحات الرأسية لخطوط التغذية الرأسية مبكرًا."
+ },
+ {
+  "video": "E-B06",
+  "scene": 12,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'بيوت الدرج' (12.7) vs 'بيوت السلالم' (B05); 12.1 AR holprig; 12.9/12.10 'النسخة'.",
+  "suggested_fix": "12.1: 'كلمة مهمة هنا هي MLAR الخاصة بالحماية من الحريق.'; 12.7: 'وهذا ينطبق خصوصًا على بيوت السلالم والممرات.'; 12.9/12.10: 'الصيغة السارية'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 13,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Ausblick auf das nächste Video steht mitten in der Schnittstellenszene (zwischen 13.4 und 13.6) und wiederholt sich in 20.9.",
+  "suggested_fix": "Zeile 13.5 streichen."
+ },
+ {
+  "video": "E-B06",
+  "scene": 15,
+  "line": 10,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "15.10 und 15.11 beginnen beide mit 'am Ende' und wiederholen Übergabe/Dokumentation (auch 15.8).",
+  "suggested_fix": "15.10: 'Der Betreiber erhält eine vollständige Anlagenakte.' 15.11: 'Dazu gehören Pläne im Ist-Zustand und Prüfprotokolle.'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 16,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'وضع حواجز حولها' weicht von E-F05 ('إحاطتها بحواجز') ab; 16.4 'على جميع الأقطاب' vs 'في جميع الأقطاب'.",
+  "suggested_fix": "خمسة: تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز."
+ },
+ {
+  "video": "E-B06",
+  "scene": 16,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Komma-Splice; zwei Aussagen.",
+  "suggested_fix": "Alle fünf Regeln gelten in dieser Reihenfolge. Das Video zur Sicherheit erklärt sie genau."
+ },
+ {
+  "video": "E-B06",
+  "scene": 19,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide-Item 'Neun Phasen, Phase fünf ist Plan' unklar.",
+  "suggested_fix": "Neun Phasen, Phase fünf: Ausführungspläne"
+ },
+ {
+  "video": "E-B06",
+  "scene": 20,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Dank (20.8) steht vor dem Ausblick (20.9); Schlussreihenfolge umdrehen.",
+  "suggested_fix": "20.9 vor 20.8 stellen."
+ },
+ {
+  "video": "E-B01",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Sehr häufiges 'also' als Satzfüller (2.6-2.8, 9.7, 9.9, 10.8, 14.9 ...) macht den Sprechrhythmus monoton.",
+  "suggested_fix": "Mindestens in 2.7, 2.8, 9.9 und 10.8 'also' streichen."
+ },
+ {
+  "video": "E-B01",
+  "scene": 4,
+  "line": 9,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Zusammenfassung 'Merken Sie sich die Reihenfolge' (4.9) steht vor 4.10/4.11 (Gruppe 700, Struktur international); Recap sollte am Ende der Szene stehen.",
+  "suggested_fix": "Zeilen 4.10 und 4.11 vor 4.9 verschieben."
+ },
+ {
+  "video": "E-B01",
+  "scene": 17,
+  "line": 4,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "ZVEH als 'Zet-Fau-E-Ha' gebuchstabiert; gebräuchlicher 'Zett' (Duden-Buchstabenname). TERMS-Regel 'Ze' gilt nur für C.",
+  "suggested_fix": "Die Grundsätze von Be-De-E-We und Zett-Fau-E-Ha nennen Anforderungen für die Eintragung."
+ },
+ {
+  "video": "E-B01",
+  "scene": 17,
+  "line": 5,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'eine Verantwortliche Elektrofachkraft' – Adjektiv klein, außer als feststehender Titel (VEFK).",
+  "suggested_fix": "Dazu zählen die Handwerksrolle und eine verantwortliche Elektrofachkraft mit Sachkundenachweis."
+ },
+ {
+  "video": "E-B02",
+  "scene": 1,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "1.8 wiederholt 1.6 ('in Deutschland' zweimal); Redundanz.",
+  "suggested_fix": "1.8 streichen."
+ },
+ {
+  "video": "E-B02",
+  "scene": 6,
+  "line": 9,
+  "severity": "note",
+  "lang": "de",
+  "issue": "6.9 wiederholt 6.7 (Fehlerstrom kehrt über Leiter zur Quelle zurück).",
+  "suggested_fix": "6.9 streichen oder durch 'Darum ist der Schutzleiter im TN-System so wichtig.' ersetzen."
+ },
+ {
+  "video": "E-B02",
+  "scene": 15,
+  "line": 4,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Slide-Item S15 'Kurzschluss L–N' nutzt L/N ohne Erklärung (L = Außenleiter); AR im Quiz Q5 Option 2 'الدائرة القصيرة' -> 'القصر الكهربائي'.",
+  "suggested_fix": "Kurzschluss Außenleiter-N: kein Differenzstrom (Quiz Q5 Opt. 2 ar: 'تحمي من القصر الكهربائي')"
+ },
+ {
+  "video": "E-B02",
+  "scene": 18,
+  "line": 3,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Zeilen 18.3–18.6 in B02 und B01 18.4–18.5 sollten wortgleich mit E-F05 sein (Konsistenz der Regelformulierungen, vor allem AR).",
+  "suggested_fix": "Wortlaut mit E-F05 abgleichen"
+ },
+ {
+  "video": "E-B02",
+  "scene": 19,
+  "line": 7,
+  "severity": "note",
+  "lang": "de",
+  "issue": "19.7 'Dazu kommt ein Grundsatz' passt nicht in eine Zusammenfassung und wirkt als Füller.",
+  "suggested_fix": "Wiederholen Sie die Buchstaben mit eigenen Worten: Wer ein Kurzzeichen erklären kann, hat es verstanden."
+ },
+ {
+  "video": "E-B03",
+  "scene": 7,
+  "line": 0,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Slide-Term und Zeilen: 'التجميع' allein ist mehrdeutig.",
+  "suggested_fix": "Term 'Häufung' ar: 'تجميع الكابلات'; 7.2 ar: 'وهذا ما يسمى تجميع الكابلات.'"
+ },
+ {
+  "video": "E-B03",
+  "scene": 15,
+  "line": 3,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'Der Widerstand dieser Schleife heißt Schleifenimpedanz' – Impedanz ist der Wechselstromwiderstand, nicht jeder Widerstand.",
+  "suggested_fix": "Der Wechselstromwiderstand dieser Schleife heißt Schleifenimpedanz."
+ },
+ {
+  "video": "E-B04",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "quiz",
+  "issue": "Q1 richtige Option jeweils zuerst und mit Abstand die detaillierteste; Distraktoren ('Nur Schirmung') evident falsch.",
+  "suggested_fix": "Q1 Option 2: 'Nur Schirmung und Abschirmung der Leitungen' -> 'Nur Potentialausgleich und Schutzgeräte' (ar: 'الربط المتساوي الجهد وأجهزة الحماية فقط')"
+ },
+ {
+  "video": "E-B04",
+  "scene": 7,
+  "line": 8,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Mehrdeutig: 'الحِمل' (Belastung) kann mit 'الحمل الزائد' verwechselt werden.",
+  "suggested_fix": "كلما ارتفع الرقم قلّ الإجهاد على المنشأة."
+ },
+ {
+  "video": "E-B04",
+  "scene": 9,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'trägt sie zusätzlich eine VDE-Nummer' ok, aber AR 'رقمًا من اتحاد الكهروتقنيين' verschweigt Kürzel.",
+  "suggested_fix": "وفي ألمانيا تحمل أيضًا رقم VDE إضافيًا."
+ },
+ {
+  "video": "E-B04",
+  "scene": 11,
+  "line": 10,
+  "severity": "note",
+  "lang": "de",
+  "issue": "11.10 wiederholt 11.1/11.2 (Typ 1,2,3 beschreiben Stufen); Redundanz.",
+  "suggested_fix": "11.10 streichen oder ersetzen: 'Merken Sie sich: Typ 1 außen am Eingang, Typ 3 am Gerät.'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 14,
+  "line": 1,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Landesbauordnung/Baurecht: 'قانون البناء' und 'لائحة البناء الولائية' wechseln; Quiz Q4 nennt beides.",
+  "suggested_fix": "14.1: 'كون الحماية من الصواعق إلزامية يحدده قانون البناء في الولايات.'"
+ },
+ {
+  "video": "E-B04",
+  "scene": 16,
+  "line": 6,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'المشغّل' für Betreiber kollidiert mit 'مشغّل الشبكة' und 'الجهة المُشغِّلة للمشروع' (Auftraggeber).",
+  "suggested_fix": "والمشغّل (مالك المنشأة) مسؤول عن معالجة العيوب."
+ },
+ {
+  "video": "E-B04",
+  "scene": 20,
+  "line": 0,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Slide S20 (Zeile 0) nutzt Layout 'quote' mit Listenpunkten; kein Zitat. besser 'summary' oder 'bullets' (konsistent mit B02/B05/B06).",
+  "suggested_fix": "layout: 'bullets'"
+ },
+ {
+  "video": "E-B05",
+  "scene": 1,
+  "line": 7,
+  "severity": "note",
+  "lang": "en",
+  "issue": "'functional endurance' – in E-B06 12.4/12.5 steht 'functional integrity'; im Pfad einen Begriff verwenden.",
+  "suggested_fix": "Einheitlich 'functional endurance' (B06 12.4/12.5 anpassen)"
+ },
+ {
+  "video": "E-B05",
+  "scene": 8,
+  "line": 6,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'Fluchtweg' (5.7) vs 'Rettungsweg' beide teils als 'مسار الهروب/الإخلاء'; ok, aber 12.6 'مسارات الهروب والإخلاء' verdoppelt.",
+  "suggested_fix": "Beibehalten; in 5.7 de besser 'Rettungsweg' statt 'Fluchtweg' für konsistente Terminologie"
+ },
+ {
+  "video": "E-B05",
+  "scene": 14,
+  "line": 4,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Jahreszahl ausgeschrieben im de-Feld; AR schreibt sie als Wort, andere Zeilen nutzen Ziffern.",
+  "suggested_fix": "de: 'Eine neue Fassung ist im Jahr 2022 erschienen.' ar: 'ظهرت صيغة جديدة في عام ٢٠٢٢.' tts bleibt ausgeschrieben"
+ },
+ {
+  "video": "E-B05",
+  "scene": 17,
+  "line": 0,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Slide-Titel S17 'Fünf Sicherheitsregeln aus E-F05' und Quiz Q5 nennen den internen Code.",
+  "suggested_fix": "heading: 'Die fünf Sicherheitsregeln'; Quiz Q5 Opt. 2 de: 'Die fünf Sicherheitsregeln in fester Reihenfolge' ar: 'قواعد السلامة الخمس بترتيب ثابت'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 7,
+  "line": 1,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'التصميم' für Entwurfsplanung kollidiert mit allgemeinem 'design'; Glossar/Term.",
+  "suggested_fix": "تخطيط التصميم"
+ },
+ {
+  "video": "E-B06",
+  "scene": 9,
+  "line": 4,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Kabeltrassen: 'مسارات الكابلات' (7.6, 10.4) vs 'الحوامل' (9.4) – gleichen Begriff nutzen.",
+  "suggested_fix": "9.4: 'وتضاف مسارات الكابلات وحوامل الكابلات.'"
+ },
+ {
+  "video": "E-B06",
+  "scene": 17,
+  "line": 8,
+  "severity": "note",
+  "lang": "de",
+  "issue": "'Auch hier gilt' (17.6) und 'Auch hier zeigt sich' (17.8) kurz hintereinander.",
+  "suggested_fix": "17.8: 'Gute Dokumentation macht spätere Arbeit leichter.'"
+ }
+]
