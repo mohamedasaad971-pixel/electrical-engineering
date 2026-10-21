@@ -58,7 +58,7 @@
     },
     {
      "de": "Erstens: Typenschild und Datenblatt lesen, mit der Schutzart IP.",
-     "ar": "أولًا: قراءة لوحة البيانات وورقة البيانات مع درجة الحماية IP.",
+     "ar": "أولًا: قراءة لوحة البيانات وورقة البيانات مع درجة الحماية (IP) فيهما.",
      "en": "First: reading the rating plate and data sheet, including the IP degree of protection.",
      "tts": "Erstens: Typenschild und Datenblatt lesen, mit der Schutzart I-Pe."
     },
@@ -131,6 +131,16 @@
      "tts": "Oft finden Sie auch eine Seriennummer und das Ze-E-Zeichen."
     },
     {
+     "de": "Ein Beispiel für den Alltag: Sie stehen vor einem Motor und müssen wissen, ob er zum Netz passt.",
+     "ar": "مثال من الحياة اليومية: تقفون أمام محرك وعليكم أن تعرفوا هل يناسب الشبكة.",
+     "en": "An everyday example: you stand in front of a motor and must know whether it suits the supply."
+    },
+    {
+     "de": "Dann vergleichen Sie die Nennspannung auf dem Schild mit der Spannung der Anlage.",
+     "ar": "عندها تقارنون الجهد الاسمي على اللوحة بجهد المنشأة.",
+     "en": "Then you compare the rated voltage on the plate with the voltage of the system."
+    },
+    {
      "de": "Es gibt kein einheitliches Schema. Jeder Hersteller gestaltet das Schild anders.",
      "ar": "لا يوجد نموذج موحد. فكل شركة تصمم اللوحة بطريقتها.",
      "en": "There is no uniform layout. Each manufacturer designs the plate differently."
@@ -189,8 +199,19 @@
     },
     {
      "de": "In Normen heißt der Nennwert oft Bemessungswert.",
-     "ar": "في المعايير تُسمّى القيمة الاسمية غالبًا قيمة التصميم المقررة (Bemessungswert).",
+     "ar": "في المعايير تُسمّى القيمة الاسمية غالبًا القيمة المقررة للتصميم (Bemessungswert) هنا.",
      "en": "In standards the rated value is often called Bemessungswert."
+    },
+    {
+     "de": "Ein Beispielsatz: Welche Nennleistung hat dieser Motor?",
+     "ar": "جملة نموذجية: ما القدرة الاسمية لهذا المحرك؟",
+     "en": "A sample sentence: What is the rated power of this motor?"
+    },
+    {
+     "de": "Und die Antwort: Laut Typenschild fünf Komma fünf Kilowatt.",
+     "ar": "والجواب: حسب لوحة البيانات خمسة فاصل خمسة كيلوواط.",
+     "en": "And the answer: according to the rating plate, five point five kilowatts.",
+     "tts": "Und die Antwort: Laut Typenschild fünf Komma fünf Kilowatt."
     },
     {
      "de": "Der Hersteller legt diese Werte fest. Achten Sie auf jede Einheit.",
@@ -227,7 +248,7 @@
     },
     {
      "de": "Der IP-Code ist in der Norm DIN EN 60529 beschrieben.",
-     "ar": "رمز IP موصوف في المعيار DIN EN 60529.",
+     "ar": "الرمز (IP) موصوف في المعيار DIN EN 60529 الحالي.",
      "en": "The IP code is described in the standard DIN EN 60529.",
      "tts": "Der I-Pe-Code ist in der Norm Din E-En sechzigtausendfünfhundertneunundzwanzig beschrieben."
     },
@@ -280,13 +301,13 @@
     },
     {
      "de": "IP54 bedeutet: staubgeschützt und geschützt gegen Spritzwasser.",
-     "ar": "IP54 تعني: محمي من الغبار ومن رذاذ الماء.",
+     "ar": "المثال الأول (IP54) يعني: محمي من الغبار ومن رذاذ الماء.",
      "en": "IP54 means: dust-protected and protected against splashing water.",
      "tts": "I-Pe fünf vier bedeutet: staubgeschützt und geschützt gegen Spritzwasser."
     },
     {
      "de": "IP65 bedeutet: staubdicht und geschützt gegen Strahlwasser.",
-     "ar": "IP65 تعني: كتيم للغبار ومحمي من نفاثات الماء.",
+     "ar": "المثال الثاني (IP65) يعني: كتيم للغبار ومحمي من نفاثات الماء.",
      "en": "IP65 means: dust-tight and protected against water jets.",
      "tts": "I-Pe sechs fünf bedeutet: staubdicht und geschützt gegen Strahlwasser."
     },
@@ -295,6 +316,11 @@
      "ar": "في IPX4 يغيب الرقم الأول. والحرف X يعني: لا توجد بيانات عن الغبار.",
      "en": "With IPX4 the first digit is missing. The X means: no information on dust.",
      "tts": "Bei I-Pe-X-vier fehlt die erste Ziffer. Das X heißt: keine Angabe zu Staub."
+    },
+    {
+     "de": "Ein Beispielsatz im Gespräch: Welche Schutzart hat das Gehäuse?",
+     "ar": "جملة نموذجية في الحوار: ما درجة حماية الغلاف؟",
+     "en": "A sample sentence in conversation: What degree of protection does the enclosure have?"
     },
     {
      "de": "Staubgeschützt heißt: Etwas Staub darf eindringen, aber nicht so viel, dass es stört.",
@@ -414,13 +440,18 @@
     },
     {
      "de": "Ab einer bestimmten Höhe nennen manche Hersteller eine Leistungsminderung, auf Englisch Derating.",
-     "ar": "وابتداءً من ارتفاع معيّن يذكر بعض المصنعين تخفيضًا للقدرة، ويسمى بالإنجليزية Derating.",
+     "ar": "وابتداءً من ارتفاع معيّن يذكر بعض المصنعين تخفيضًا للقدرة، ويسمى بالإنجليزية Derating أيضًا.",
      "en": "Above a certain altitude some manufacturers state a power reduction, called derating."
     },
     {
      "de": "Die Zahlen sind von Produkt zu Produkt verschieden.",
      "ar": "الأرقام تختلف من منتج إلى آخر.",
      "en": "The numbers differ from product to product."
+    },
+    {
+     "de": "Fragen Sie im Zweifel: Gilt dieser Wert bei dieser Temperatur?",
+     "ar": "وإذا ساورتكم شكوك فاسألوا: هل تسري هذه القيمة عند درجة الحرارة هذه؟",
+     "en": "In doubt, ask: Does this value apply at this temperature?"
     },
     {
      "de": "Verlassen Sie sich nie auf Beispiele aus einem Video, sondern auf das Datenblatt.",
@@ -513,6 +544,16 @@
      "en": "And clarify responsibility: Who is responsible for this?"
     },
     {
+     "de": "Wichtig ist der Ton: Sagen Sie bitte und danke, und sprechen Sie ruhig.",
+     "ar": "المهم هو النبرة: قولوا من فضلكم وشكرًا، وتحدثوا بهدوء.",
+     "en": "The tone matters: say please and thank you, and speak calmly."
+    },
+    {
+     "de": "Im Zweifel beginnen Sie mit Sie, bis Kollegen Ihnen das Du anbieten.",
+     "ar": "وعند الشك ابدؤوا بصيغة Sie إلى أن يعرض عليكم الزملاء صيغة (Du) للمخاطبة.",
+     "en": "If in doubt, begin with Sie until colleagues offer you the Du."
+    },
+    {
      "de": "Wiederholen Sie die Antwort mit eigenen Worten. So gibt es weniger Missverständnisse.",
      "ar": "أعيدوا الإجابة بكلماتكم. هكذا تقل سوء الفهم.",
      "en": "Repeat the answer in your own words. That reduces misunderstandings."
@@ -538,9 +579,9 @@
      "en": "At the end of the shift you hand the work over to your colleagues."
     },
     {
-     "de": "Das ist keine Vorschrift aus dem Video, sondern eine gute Praxis. Sagen Sie klar, was erledigt ist.",
-     "ar": "هذه ليست لائحة من الفيديو بل ممارسة جيدة. قولوا بوضوح ما الذي أُنجز.",
-     "en": "This is not a rule from the video but good practice. Say clearly what is done."
+     "de": "Das ist eine gute Praxis, keine feste Vorschrift. Sagen Sie klar, was erledigt ist.",
+     "ar": "هذه ممارسة جيدة وليست لائحة ثابتة. قولوا بوضوح ما الذي أُنجز.",
+     "en": "This is good practice, not a fixed rule. Say clearly what is done."
     },
     {
      "de": "Zum Beispiel: Die Leitung zum Verteiler ist verlegt, aber noch nicht geprüft.",
@@ -556,6 +597,16 @@
      "de": "Sagen Sie außerdem, wer erreichbar ist.",
      "ar": "وقولوا أيضًا من يمكن الوصول إليه.",
      "en": "Also say who can be reached."
+    },
+    {
+     "de": "Ein guter Satz zum Schluss: Haben Sie noch Fragen zur Anlage?",
+     "ar": "جملة جيدة في الختام: هل لديكم أسئلة أخرى عن المنشأة؟",
+     "en": "A good closing sentence: Do you have any more questions about the system?"
+    },
+    {
+     "de": "Bedanken Sie sich bei den Kollegen. Das schafft Vertrauen im Team.",
+     "ar": "اشكروا الزملاء. فهذا يبني الثقة داخل الفريق.",
+     "en": "Thank your colleagues. That builds trust in the team."
     },
     {
      "de": "Schreiben Sie wichtige Punkte zusätzlich auf. Gesprochene Worte gehen leicht verloren.",
@@ -608,6 +659,16 @@
      "de": "Sagen Sie auch, ob eine Gefahr besteht, etwa Brandgeruch oder Wasser.",
      "ar": "وقولوا أيضًا إن كان هناك خطر، كرائحة حريق أو ماء.",
      "en": "Also say if there is danger, such as a smell of burning or water."
+    },
+    {
+     "de": "Bleiben Sie ruhig und sprechen Sie in kurzen Sätzen.",
+     "ar": "ابقوا هادئين وتحدثوا بجمل قصيرة.",
+     "en": "Stay calm and speak in short sentences."
+    },
+    {
+     "de": "Warten Sie auf die Bestätigung, bevor Sie auflegen.",
+     "ar": "انتظروا التأكيد قبل إنهاء المكالمة.",
+     "en": "Wait for confirmation before you hang up."
     },
     {
      "de": "Fragen Sie am Ende: Habe ich alles richtig gemeldet?",
@@ -701,13 +762,23 @@
     },
     {
      "de": "Zum Buchstabieren gibt es eine Buchstabiertafel. In der neuen Fassung heißt es A wie Aachen, B wie Berlin.",
-     "ar": "للتهجئة توجد جدول تهجئة. وفي الصيغة الجديدة يقال A مثل Aachen وB مثل Berlin.",
+     "ar": "للتهجئة يوجد جدول تهجئة. وفي الصيغة الجديدة يقال A مثل Aachen وB مثل Berlin عندئذٍ.",
      "en": "For spelling there is a spelling alphabet. In the new version it is A as in Aachen, B as in Berlin."
     },
     {
      "de": "Die ältere Fassung sagt Anton und Berta. Beides hören Sie noch.",
      "ar": "الصيغة الأقدم تقول Anton وBerta. وتسمعون الاثنين ما زال.",
      "en": "The older version says Anton and Berta. You still hear both."
+    },
+    {
+     "de": "Bei schlechter Verbindung sagen Sie: Die Verbindung ist schlecht. Ich rufe zurück.",
+     "ar": "عند سوء الاتصال قولوا: الاتصال سيئ. سأعاود الاتصال.",
+     "en": "With a bad connection say: The connection is bad. I will call back."
+    },
+    {
+     "de": "Fragen Sie bei Zahlen ruhig nach: Können Sie die Nummer wiederholen?",
+     "ar": "اسألوا بهدوء عند الأرقام: هل يمكنكم إعادة الرقم؟",
+     "en": "For numbers, feel free to ask: Can you repeat the number?"
     },
     {
      "de": "Sagen Sie am Ende: Ich fasse kurz zusammen.",
@@ -741,13 +812,18 @@
     },
     {
      "de": "Die Anrede lautet: Sehr geehrte Frau Weber oder Sehr geehrter Herr Becker.",
-     "ar": "التحية: Sehr geehrte Frau Weber أو Sehr geehrter Herr Becker.",
+     "ar": "التحية تكون: Sehr geehrte Frau Weber أو Sehr geehrter Herr Becker حسب المتلقي.",
      "en": "The salutation is: Sehr geehrte Frau Weber or Sehr geehrter Herr Becker."
     },
     {
      "de": "Schreiben Sie kurze Absätze. Eine Bitte pro Absatz ist leicht zu lesen.",
      "ar": "اكتبوا فقرات قصيرة. طلب واحد في كل فقرة يسهّل القراءة.",
      "en": "Write short paragraphs. One request per paragraph is easy to read."
+    },
+    {
+     "de": "Ein Beispielsatz: Im Anhang finden Sie das Datenblatt.",
+     "ar": "جملة نموذجية: تجدون ورقة البيانات في المرفق.",
+     "en": "A sample sentence: You will find the data sheet in the attachment."
     },
     {
      "de": "Erwähnen Sie einen Anhang auch im Text.",
@@ -761,7 +837,7 @@
     },
     {
      "de": "Abkürzungen wie MfG sollten Sie vermeiden.",
-     "ar": "وتجنبوا الاختصارات مثل MfG.",
+     "ar": "وتجنبوا الاختصارات مثل MfG في الرسائل.",
      "en": "Avoid abbreviations such as MfG.",
      "tts": "Abkürzungen wie Em-Ef-Ge sollten Sie vermeiden."
     }
@@ -922,6 +998,11 @@
      "en": "At the end ask two questions about the position, for example about the team."
     },
     {
+     "de": "Sprechen Sie ehrlich. Nennen Sie nur Projekte, bei denen Sie wirklich mitgearbeitet haben.",
+     "ar": "تحدثوا بصدق. اذكروا فقط المشاريع التي شاركتم فيها فعلًا.",
+     "en": "Be honest. Name only projects you really worked on."
+    },
+    {
      "de": "Üben Sie die Antworten laut. Lernen Sie sie nicht Wort für Wort auswendig.",
      "ar": "تدربوا على الإجابات بصوت عالٍ. ولا تحفظوها كلمة بكلمة.",
      "en": "Practise the answers aloud. Do not memorise them word for word."
@@ -972,6 +1053,11 @@
      "de": "Gemeint ist: Die Stelle ist für alle Geschlechter offen.",
      "ar": "والمقصود أن الوظيفة مفتوحة لكل الأجناس.",
      "en": "The meaning: the position is open to all genders."
+    },
+    {
+     "de": "Achtung: Lesen Sie jede Anzeige genau. Begriffe können je nach Betrieb etwas Anderes meinen.",
+     "ar": "انتبهوا: اقرؤوا كل إعلان بدقة. فقد تعني المصطلحات أمورًا مختلفة بحسب المؤسسة.",
+     "en": "Note: read every advertisement carefully. Terms can mean different things at different companies."
     },
     {
      "de": "Berufserfahrung heißt: Sie haben schon in der Praxis gearbeitet.",
@@ -1027,12 +1113,12 @@
     },
     {
      "de": "Reisebereitschaft heißt: Sie sind bereit zu dienstlichen Reisen. Der Umfang steht in der Anzeige.",
-     "ar": "Reisebereitschaft تعني استعدادكم لسفرات العمل، ويُذكر نطاقها في الإعلان.",
+     "ar": "استعداد السفر (Reisebereitschaft) يعني استعدادكم لسفرات العمل، ويُذكر نطاقها في الإعلان.",
      "en": "Reisebereitschaft means you are ready for business travel. The scope is in the advertisement."
     },
     {
      "de": "Elektrofachkraft gesucht heißt: Der Betrieb braucht Ausbildung, Kenntnisse und Erfahrung für diese Aufgaben.",
-     "ar": "Elektrofachkraft gesucht تعني أن المؤسسة تحتاج تعليمًا ومعرفة وخبرة لهذه المهام.",
+     "ar": "عبارة (Elektrofachkraft gesucht) تعني أن المؤسسة تحتاج تعليمًا ومعرفة وخبرة لهذه المهام.",
      "en": "Elektrofachkraft gesucht means the company needs training, knowledge and experience for these tasks."
     },
     {
@@ -1062,7 +1148,7 @@
     },
     {
      "de": "Sie können Typenschild und Datenblatt lesen und die Schutzart IP erklären.",
-     "ar": "يمكنكم قراءة لوحة البيانات وورقة البيانات وشرح درجة الحماية IP.",
+     "ar": "يمكنكم قراءة لوحة البيانات وورقة البيانات وشرح درجة الحماية (IP) بوضوح.",
      "en": "You can read a rating plate and data sheet and explain the IP degree of protection.",
      "tts": "Sie können Typenschild und Datenblatt lesen und die Schutzart I-Pe erklären."
     },
@@ -1078,7 +1164,7 @@
     },
     {
      "de": "Sie bereiten Antworten mit der STAR-Methode vor.",
-     "ar": "وتحضّرون إجاباتكم بطريقة STAR.",
+     "ar": "وتحضّرون إجاباتكم بطريقة (STAR) المنظمة.",
      "en": "You prepare answers with the STAR method.",
      "tts": "Sie bereiten Antworten mit der Star-Methode vor."
     },
