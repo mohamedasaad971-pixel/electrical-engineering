@@ -1,0 +1,200 @@
+{
+ "video": "E-D03",
+ "facts": [
+  {
+   "claim": "Werkvertrag (§ 631 BGB): Der Unternehmer schuldet die Herstellung des versprochenen Werks, der Besteller die vereinbarte Vergütung; Gegenstand kann auch ein durch Arbeit herbeizuführender Erfolg sein.",
+   "source_url": "https://www.buzer.de/631_BGB.htm",
+   "source_name": "buzer.de / gesetze-im-internet.de (§ 631 BGB)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Bauvertrag (§ 650a BGB) betrifft Herstellung, Wiederherstellung, Beseitigung oder Umbau eines Bauwerks; es gilt das allgemeine Werkvertragsrecht, ergänzt durch §§ 650b ff. BGB.",
+   "source_url": "https://dejure.org/gesetze/BGB/650a.html",
+   "source_name": "dejure.org § 650a BGB",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "§ 650b BGB: Verlangt der Besteller eine Änderung, sollen sich die Parteien zunächst einigen; der Unternehmer erstellt ein Angebot über Mehr- oder Minderkosten (bei Änderung des Werkerfolgs nur, wenn die Ausführung zumutbar ist). Einigen sie sich nicht, kann der Besteller die Änderung unter bestimmten Voraussetzungen in Textform anordnen.",
+   "source_url": "https://dejure.org/gesetze/BGB/650b.html",
+   "source_name": "dejure.org / rewis.io / NWB (§ 650b BGB)",
+   "confidence": "medium",
+   "note": "Die 30-Tage-Frist wird nicht im Video genannt (dropped). Eingeführt durch die Bauvertragsreform, in Kraft seit 1.1.2018."
+  },
+  {
+   "claim": "§ 633 BGB: Das Werk ist frei von Sachmängeln, wenn es die vereinbarte Beschaffenheit hat; fehlt eine Vereinbarung, zählt die nach dem Vertrag vorausgesetzte, sonst die gewöhnliche Verwendung.",
+   "source_url": "https://www.gesetze-im-internet.de/bgb/__633.html",
+   "source_name": "gesetze-im-internet.de (§ 633 BGB)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "§ 650p BGB: Beim Architekten- oder Ingenieurvertrag schuldet der Unternehmer die Leistungen, die nach dem Stand von Planung und Ausführung zur Erreichung der vereinbarten Planungs- und Überwachungsziele erforderlich sind; sind wesentliche Ziele noch offen, erstellt er zunächst eine Planungsgrundlage mit Kosteneinschätzung, der der Besteller zustimmt.",
+   "source_url": "https://www.gesetze-im-internet.de/bgb/__650p.html",
+   "source_name": "gesetze-im-internet.de (§ 650p BGB)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die HOAI regelt das Honorar; welche Leistungen geschuldet sind, ergibt sich aus Vertrag und Werkvertragsrecht. Seit 2021 gibt es grundsätzlich keine verbindlichen Mindest- und Höchstsätze, das Honorar wird grundsätzlich frei vereinbart.",
+   "source_url": "https://www.hoai.de/gesetze-recht/bgb/bgb-ab-2018/",
+   "source_name": "hoai.de; Übernahme aus Recherche E-B06",
+   "confidence": "medium",
+   "note": "Übernommen aus E-B06 (konsistent mit dem Video 06-planung-hoai). Keine Honorarzahlen."
+  },
+  {
+   "claim": "Die HOAI gliedert die Technische Ausrüstung in neun Leistungsphasen; Phase 8 ist Objektüberwachung und Dokumentation, Phase 9 Objektbetreuung (Begehung vor Ablauf der Gewährleistungsfristen).",
+   "source_url": "https://dejure.org/gesetze/HOAI/55.html",
+   "source_name": "dejure.org § 55 HOAI; Recherche E-B06",
+   "confidence": "high",
+   "note": "Nur als Verweis auf das Video E-B06 verwendet."
+  },
+  {
+   "claim": "Die VOB/B ist kein Gesetz, sondern gilt rechtlich als Allgemeine Geschäftsbedingungen (§ 305 BGB) und nur, wenn die Parteien sie wirksam vereinbaren.",
+   "source_url": "https://www.roedl.com/insights/vereinbarung-vobb/",
+   "source_name": "Rödl & Partner; alpha-recht.de; esche.de",
+   "confidence": "high",
+   "note": "Mehrere übereinstimmende Anwaltsseiten."
+  },
+  {
+   "claim": "Bei öffentlichen Bauaufträgen ist die Vereinbarung der VOB/B regelmäßig vorgeschrieben.",
+   "source_url": "https://www.roedl.com/insights/vereinbarung-vobb/",
+   "source_name": "Rödl & Partner; kanzlei-herfurtner.de",
+   "confidence": "medium",
+   "note": "Im Video: 'häufig vereinbart'."
+  },
+  {
+   "claim": "VOB/B § 2 Abs. 5 und 6: Die VOB/B unterscheidet geänderte Leistung (neuer Preis) und zusätzliche Leistung (besondere Vergütung); bei zusätzlichen Leistungen soll der Auftragnehmer den Anspruch vor Beginn der Ausführung ankündigen.",
+   "source_url": "https://vergabescanner.de/blog/nachtraege-vob-b-paragraph-2/",
+   "source_name": "vergabescanner.de; baugrid.de; bauprofessor.de",
+   "confidence": "medium",
+   "note": "Nur Ratgeber-Quellen, Wortlaut nicht geprüft; im Video nur als Konzept ('ankündigen')."
+  },
+  {
+   "claim": "Zusätzliche Vergütung setzt eine vertragliche Änderung oder die Anordnung durch einen bevollmächtigten Vertreter des Auftraggebers voraus; eine bloße Aufforderung des Architekten genügt nach einem Urteil nicht; der bauleitende Architekt darf in der Regel die Ausführung überwachen, aber nicht den Vertrag ändern.",
+   "source_url": "https://www.bbik.de/artikel/nachtraege-im-bauvertrag-warum-eine-blosse-leistungsaufforderung-durch-den-architekten-keine-nachtragsbeauftragung-darstellt/",
+   "source_name": "bbik.de (OLG Brandenburg 10 U 100/23); bauprofessor.de",
+   "confidence": "medium",
+   "note": "Im Video allgemein: 'Vollmacht prüfen'. Kein Urteil zitiert."
+  },
+  {
+   "claim": "Nachträge sollten möglichst sofort schriftlich angemeldet bzw. mündliche Freigaben am selben Tag schriftlich bestätigt werden; ein Nachtragsangebot zeigt zusätzliche und entfallende Leistungen sowie Auswirkungen auf Termine.",
+   "source_url": "https://www.virtic.com/lexikon/nachtrag/",
+   "source_name": "virtic.com; baunex.ch; handwerkpro.com",
+   "confidence": "medium",
+   "note": "Praxisempfehlung, keine Rechtspflicht behauptet."
+  },
+  {
+   "claim": "Bedenkenanmeldung nach § 4 Abs. 3 VOB/B: Der Auftragnehmer meldet Bedenken gegen die vorgesehene Ausführung, gegen die Güte vom Auftraggeber gelieferter Stoffe oder gegen Leistungen anderer Unternehmer; sie soll unverzüglich, schriftlich und möglichst vor Arbeitsbeginn erfolgen. Die Anzeige gehört an den Auftraggeber (nicht nur an den Architekten); wegen der Beweislast empfiehlt sich ein nachweisbarer Zugang.",
+   "source_url": "https://www.lb-consult.com/ratgeber/bedenkenanzeige-vob",
+   "source_name": "lb-consult.com; bauprofessor.de; brennecke-rechtsanwaelte.de; saleo-recht.de",
+   "confidence": "medium",
+   "note": "Wortlaut VOB/B nicht direkt geprüft."
+  },
+  {
+   "claim": "Abnahme (§ 640 BGB): Der Besteller ist verpflichtet, das vertragsmäßig hergestellte Werk abzunehmen; wegen unwesentlicher Mängel kann er die Abnahme nicht verweigern. Nimmt er ein mangelhaftes Werk in Kenntnis des Mangels ab, behält er bestimmte Mängelrechte nur, wenn er sie bei der Abnahme vorbehält (§ 640 Abs. 3).",
+   "source_url": "https://www.gesetze-im-internet.de/bgb/__640.html",
+   "source_name": "gesetze-im-internet.de (§ 640 BGB)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Mit der Abnahme beginnt das besondere Gewährleistungsrecht (§§ 634 ff. BGB) und die Verjährungsfrist läuft an; die Beweislast für Mängel wechselt grundsätzlich auf den Besteller.",
+   "source_url": "https://www.juraforum.de/lexikon/abnahme",
+   "source_name": "juraforum.de; jurahilfe.de; BGH VII ZR 301/13 (Fundstelle über Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Keine Fristen im Video genannt."
+  },
+  {
+   "claim": "Ein Abnahmeprotokoll hält festgestellte Mängel und Beseitigungsfristen fest; eine Mängelliste sollte so präzise sein, dass der Mangel auch nach Wochen noch zugeordnet werden kann; ein Bautagebuch hält den Baufortschritt fortlaufend fest.",
+   "source_url": "https://bautagebuch.org/blog/abnahmeprotokoll-nach-vob",
+   "source_name": "bautagebuch.org; nachweismeister.de; myxbuild.com",
+   "confidence": "medium",
+   "note": "Praxisquellen von Softwareanbietern."
+  },
+  {
+   "claim": "Elektrofachkraft: Errichten, Ändern und Instandhalten elektrischer Anlagen erfolgt nach DGUV Vorschrift 3 durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht; Elektrofachkraft ist eine Befähigung für einen bestimmten Arbeitsbereich, keine Berufsbezeichnung.",
+   "source_url": "https://www.elektrofachkraft.de/qualifikation/anforderungen-an-in-der-elektrotechnik-taetige",
+   "source_name": "Recherche E-F04 (DGUV Vorschrift 3); elektrofachkraft.de",
+   "confidence": "high",
+   "note": "Übernommen aus docs/research/E-F04.json."
+  },
+  {
+   "claim": "Die fünf Sicherheitsregeln (Freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken) gelten in dieser Reihenfolge; die Arbeitsstelle wird erst freigegeben, wenn alle fünf erfüllt sind.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Recherche E-F05; Hessische Bildungsverwaltung",
+   "confidence": "medium",
+   "note": "Paraphrase; Normwortlaut nicht zitiert."
+  },
+  {
+   "claim": "Bauleiter und Objektüberwacher sind rechtlich verschiedene Rollen: Objektüberwachung ist eine HOAI-Leistung (Phase 8) und vertraglich geregelt; die Rolle des Bauleiters ist öffentlich-rechtlich geprägt, folgt den Landesbauordnungen und kann vom Planer oder vom ausführenden Unternehmen gestellt werden; der Bauleiter der Firma sorgt für den ordnungsgemäßen Ablauf der Arbeiten. Der Bauleiter einer Elektrofirma führt Monteure, meldet Änderungen und Mehrungen, nimmt an Baubesprechungen teil und koordiniert mit anderen Gewerken.",
+   "source_url": "https://de.wikipedia.org/wiki/Bauleitung",
+   "source_name": "bau-master.com; arge-baurecht.com; Wikipedia 'Bauleitung' (über Suchzusammenfassung); elektro.net",
+   "confidence": "medium",
+   "note": "Landesrecht nicht vertieft; Video sagt nur 'im Vertrag und Landesrecht prüfen'."
+  },
+  {
+   "claim": "Bauzeitenplan: stimmt den zeitlichen Ablauf der Gewerke ab; Balkenplan zeigt Leistungen als Balken auf einer Zeitachse (meist Kalenderwochen); Abhängigkeiten und Pufferzeiten sind typische Bestandteile; die Bauleitung erstellt, pflegt und steuert den Plan; eine gesetzliche Pflicht besteht nicht, er wird aber häufig Vertragsbestandteil, die Verbindlichkeit hängt vom Vertrag ab. Viele Verzögerungen entstehen an den Übergaben zwischen Gewerken; früh klären, welche Arbeiten aufeinander aufbauen.",
+   "source_url": "https://www.projektpro.com/blog/bauzeitenplan",
+   "source_name": "projektpro.com; weka.de; rum-architekten.de",
+   "confidence": "medium",
+   "note": "Ratgeberquellen; Verbindlichkeit bewusst offen formuliert."
+  },
+  {
+   "claim": "Elektroplanung: frühe Abstimmung mit dem Netzbetreiber, mit der Architektur (Schächte, Technikflächen) und mit dem Brandschutzkonzept; Schnittstelle zur Gebäudeautomation (Anlagengruppe 8).",
+   "source_url": "https://dejure.org/gesetze/HOAI/53.html",
+   "source_name": "Recherche E-B06 (dejure.org § 53 HOAI u. a.)",
+   "confidence": "medium",
+   "note": "Übernommen aus E-B06."
+  },
+  {
+   "claim": "Vor der Inbetriebnahme prüft eine Elektrofachkraft die Anlage, das Ergebnis gehört in ein Protokoll; Anforderungen an den Inhalt beschreibt die Normenreihe DIN VDE 0100 Teil 600.",
+   "source_url": "https://www.elektrofachkraft.de/pruefung/inbetriebnahmeprotokoll",
+   "source_name": "elektrofachkraft.de; e-check.gmbh",
+   "confidence": "medium",
+   "note": "Normtext nicht zitiert; Ausgabe prüfen."
+  },
+  {
+   "claim": "Ein Prüfplan sollte alle nötigen Prüfungen, Zeitpläne, Zuständigkeiten und Prüfgeräte festlegen; Kontroll- und Freigabepläne mit Prüfkategorien werden im Anlagenbau empfohlen.",
+   "source_url": "https://blog.kevox.de/das-pruefprotokoll-fuer-elektrische-anlagen/",
+   "source_name": "Suchzusammenfassung (Praxisquellen, Prüfhandbuch-Beispiele)",
+   "confidence": "medium",
+   "note": "Keine Norm für 'Prüfplan' im Bau gefunden; Video: 'ein Prüfplan legt typischerweise fest'."
+  },
+  {
+   "claim": "ISO 9001 trägt den Titel 'Quality management systems – Requirements' (Qualitätsmanagementsysteme – Anforderungen); ISO veröffentlichte die neue Ausgabe ISO 9001:2026 am 16. September 2026 als Nachfolgerin der Ausgabe 2015.",
+   "source_url": "https://www.iso.org/news/2026/09/ISO9001-2026",
+   "source_name": "ISO news 16 September 2026",
+   "confidence": "high",
+   "note": "EN ISO 9001:2026 listet den 15.9.2026; DIN-Fassung nicht verifiziert, daher im Video nur 'ISO 9001'."
+  },
+  {
+   "claim": "Laut Berichten betont die Ausgabe 2026 Qualitätskultur und ethisches Verhalten der obersten Leitung, trennt Risiken und Chancen und verschärft das Änderungsmanagement; es bleibt eine Weiterentwicklung der bestehenden Struktur.",
+   "source_url": "https://www.dinmedia.de/de/themenseiten/managementsysteme/qualitaetsmanagement/revision-der-iso9001",
+   "source_name": "DIN Media; TÜV; DEKRA (Suchzusammenfassungen)",
+   "confidence": "medium",
+   "note": "Im Video nur grob ('Risiken und Chancen', 'Qualitätskultur')."
+  }
+ ],
+ "dropped": [
+  "Frist von 30 Tagen im Verfahren nach § 650b BGB (Zahl, Rechtsfrage)",
+  "Abnahmefristen: 12 bzw. 6 Werktage (VOB/B § 12) und 'angemessene Frist' (§ 640 Abs. 2 BGB) – Fristen, uneinheitliche Rechtslage",
+  "Verjährungsfristen für Mängelansprüche (Rechtsfrage; E-F03 nennt sie bereits, hier bewusst nicht wiederholt)",
+  "Haftungsbefreiung des Auftragnehmers durch Bedenkenanmeldung (§ 13 Abs. 3 VOB/B) – rechtliche Wirkung",
+  "Schriftformpflicht bei Bedenken im BGB-Vertrag: Quellen widersprüchlich",
+  "Ob und wie Bedenken ohne VOB/B im BGB-Vertrag angezeigt werden müssen (Hinweispflicht): nicht verifiziert",
+  "Empfehlung, bei Bedenken keine eigene Lösung vorzuschlagen (Einzelquelle)",
+  "Aktuelle VOB-Ausgabe (2016/2019) und unbestätigte VOB/A-Ausgabe 2026 (nur dejure.org)",
+  "Übergangsfrist ISO 9001:2026 bis 30.9.2029 (Zertifizierer-Angaben, nicht amtlich)",
+  "Status der DIN-EN-ISO-9001:2026-Fassung in Deutschland",
+  "Genaue Bauleiter-Pflichten nach den Landesbauordnungen (je Land verschieden)",
+  "Verbindlichkeit einzelner Termine (Vertragstermine vs. Kontrollfristen): vom Vertrag abhängig",
+  "Abnahmefiktion, förmliche Abnahme, Teilabnahme (§ 650s BGB) und Verbraucherhinweis in Textform",
+  "Einzelne Wirksamkeitsfragen der VOB/B-Einbeziehung (Inhaltskontrolle, isolierte Klauseln)",
+  "Vertragsstrafen, Behinderungsanzeigen, Sicherheiten, Zahlungspläne",
+  "Pflicht zur Bestellung einer Verantwortlichen Elektrofachkraft (Quellen widersprüchlich, siehe E-F04)",
+  "Inhalt und Pflicht eines Bautagebuchs nach VOB (nur Praxisquellen)",
+  "Preise, Honorare, Prozentsätze, Rechtsprechung im Detail"
+ ]
+}

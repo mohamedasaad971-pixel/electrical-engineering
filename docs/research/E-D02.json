@@ -1,0 +1,174 @@
+{
+ "video": "E-D02",
+ "stand": "2026-10-21",
+ "facts": [
+  {
+   "claim": "Die Erstprüfung nach DIN VDE 0100-600 erfolgt nach Fertigstellung und vor der ersten Nutzung durch eine befähigte Elektrofachkraft.",
+   "source_url": "https://forum-verlag.com/blog-es/din-vde-0100-600",
+   "source_name": "Forum Verlag (Fachbeitrag)",
+   "confidence": "medium",
+   "note": "Fachverlag, Normtext nicht frei; im Video paraphrasiert. Ausgabe 2017-06 laut E-B01."
+  },
+  {
+   "claim": "Kernelemente der Erstprüfung sind Besichtigen, Erproben und Messen; damit wird festgestellt, ob die übrigen Teile der Reihe DIN VDE 0100 eingehalten sind.",
+   "source_url": "https://forum-verlag.com/blog-es/din-vde-0100-600",
+   "source_name": "Forum Verlag",
+   "confidence": "medium",
+   "note": "Deckt sich mit E-B01 und E-C06."
+  },
+  {
+   "claim": "Das Prüfprotokoll enthält Angaben zu den geprüften Anlagenteilen, Name und Anschrift von Auftraggeber und Auftragnehmer, eingesetzte Mess- und Prüfgeräte, Prüfer, Datum, Unterschrift und die Bewertung der Messwerte.",
+   "source_url": "https://forum-verlag.com/blog-es/pruefprotokoll",
+   "source_name": "Forum Verlag (Mindestangaben)",
+   "confidence": "medium",
+   "note": "Mindestangaben als typischer Inhalt, nicht als Normzitat."
+  },
+  {
+   "claim": "Der Prüfbericht wird von den für Planung, Errichtung und Prüfung verantwortlichen Personen dem Auftraggeber übergeben und von einer Elektrofachkraft erstellt oder bestätigt.",
+   "source_url": "https://www.weka.de/elektrosicherheit/erstpruefung-nach-din-vde-0100-600/",
+   "source_name": "WEKA / E-B01",
+   "confidence": "medium",
+   "note": "Übernommen aus Recherche E-B01."
+  },
+  {
+   "claim": "Nach DGUV Vorschrift 3 §5 muss der Unternehmer Anlagen vor der ersten Inbetriebnahme und nach einer Änderung durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht prüfen lassen und in bestimmten Zeitabständen wiederholt prüfen lassen.",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/dguv/3/5.htm",
+   "source_name": "BGN Branchenwissen (Abdruck DGUV V3 §5)",
+   "confidence": "medium",
+   "note": "Wie E-F05."
+  },
+  {
+   "claim": "Die Fristen wiederkehrender Prüfungen müssen so bemessen sein, dass entstehende Mängel rechtzeitig festgestellt werden.",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/dguv/3/5.htm",
+   "source_name": "BGN Branchenwissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Verbindliche feste Intervalle nennt die Vorschrift nicht; der Arbeitgeber legt Art, Umfang und Fristen im Rahmen der Gefährdungsbeurteilung fest und lässt sich dabei von einer Elektrofachkraft beraten.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/43894",
+   "source_name": "KomNet NRW (Stand 2024)",
+   "confidence": "medium",
+   "note": "Richtwert-Zahlen bewusst verworfen (siehe dropped)."
+  },
+  {
+   "claim": "Die Ergebnisse der Erstprüfung sind die Basis für spätere wiederkehrende Prüfungen; fehlen sie samt Messwerten, kann der Umfang der wiederkehrenden Prüfung dem der Erstprüfung entsprechen.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/43894",
+   "source_name": "KomNet NRW",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Es empfiehlt sich, neben der Errichterbescheinigung auch Prüfprotokolle mit Messwerten und Schaltpläne aufzubewahren.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/43894",
+   "source_name": "KomNet NRW",
+   "confidence": "medium",
+   "note": "Empfehlung, keine Fristangabe."
+  },
+  {
+   "claim": "Langfristig aufbewahrte Prüfergebnisse machen Zustandsveränderungen sichtbar und können Prüffristen bestätigen oder korrigieren (DGUV Information 203-071, Abschnitt Dokumentation).",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/dguv/203_071/8.htm",
+   "source_name": "BGN Branchenwissen (DGUV I 203-071)",
+   "confidence": "medium",
+   "note": "Dokument bezieht sich primär auf Betriebsmittel; hier nur als Prinzip."
+  },
+  {
+   "claim": "§14 Abs. 7 BetrSichV verlangt Aufzeichnungen über Prüfungen mit Art und Umfang; Art, Umfang und Fristen legt der Arbeitgeber nach §3 Abs. 6 BetrSichV fest.",
+   "source_url": "https://www.komnet.nrw.de/_sitetools/dialog/22151",
+   "source_name": "KomNet NRW",
+   "confidence": "medium",
+   "note": "Paragrafennummern nur sekundär; im Skript ohne Nummern: 'die Betriebssicherheitsverordnung verlangt Aufzeichnungen'."
+  },
+  {
+   "claim": "Zu den Übergabeunterlagen zählen Anschlussklemmen-, Leitungs-, Kabel- und Schaltpläne, Prüfprotokolle, Herstellerbescheinigungen und CE-Nachweise.",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800744701_PROBE_01.pdf",
+   "source_name": "VDE VERLAG (Leseprobe, Abnahmevorbereitung)",
+   "confidence": "medium",
+   "note": "Leseprobe eines Fachbuchs."
+  },
+  {
+   "claim": "In Ausschreibungen wird eine Dokumentation verlangt, die den realisierten Zustand (As-built) beschreibt, einschließlich Schaltplänen, Stromlaufplänen sowie Verteilungsplänen.",
+   "source_url": "https://evergabe.de/unterlagen/931646/download/2032535?id=3153487",
+   "source_name": "evergabe.de (Ausschreibungsunterlage)",
+   "confidence": "medium",
+   "note": "Einzelne Ausschreibung; nur als Praxisbeispiel 'oft vertraglich gefordert'."
+  },
+  {
+   "claim": "Typische Messpunkte der Erstprüfung: Durchgängigkeit von Schutz- und Potentialausgleichsleitern, Isolationswiderstand, RCD-Prüfung, Schleifenimpedanz, Spannung, Frequenz und Phasenfolge (Drehfeld).",
+   "source_url": "https://www.vde-verlag.de/buecher/leseprobe/9783800748129_PROBE_01.pdf",
+   "source_name": "VDE VERLAG (Leseprobe)",
+   "confidence": "medium",
+   "note": "Qualitative Liste; Grenzwerte nicht verwendet."
+  },
+  {
+   "claim": "Bei der RCD-Prüfung werden Auslösestrom und Auslösezeit dokumentiert.",
+   "source_url": "https://www.whk-controlling.de/wissen/vde-0100-600-pruefprotokoll-excel-vorlage",
+   "source_name": "WHK (Protokollvorlage)",
+   "confidence": "medium",
+   "note": "Vorlage, keine Norm."
+  },
+  {
+   "claim": "Ein Prüfprotokoll gliedert sich praktisch in Anlagendaten, Sichtprüfung, Erproben und Messen sowie Bewertung; dazu Prüfer, Datum, Netzform und das verwendete Messgerät mit Typ und Nummer.",
+   "source_url": "https://www.whk-controlling.de/wissen/vde-0100-600-pruefprotokoll-excel-vorlage",
+   "source_name": "WHK (Protokollvorlage)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Isolationsmessung erfolgt mit Gleichspannung an einer vom Netz getrennten Anlage; Messergebnis besteht aus Messwert und Messunsicherheit; Kalibrierung ist auf nationale Normale rückführbar; typische Protokollinhalte: Objekt, Datum, Prüfgrundlage, Messwerte, Messgerät, nächster Termin.",
+   "source_url": "https://publikationen.dguv.de/",
+   "source_name": "Eigene Recherche E-C06 (docs/research/E-C06.json)",
+   "confidence": "medium",
+   "note": "Konsistenz mit E-C06."
+  },
+  {
+   "claim": "Errichten, Ändern und Instandhalten elektrischer Anlagen erfolgt nach DGUV Vorschrift 3 durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/dguv/3/5.htm",
+   "source_name": "Recherche E-F04 / E-B01",
+   "confidence": "medium",
+   "note": "Konsistenz mit E-F04."
+  },
+  {
+   "claim": "Fünf Sicherheitsregeln: freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+   "source_url": "https://djaco.bildung.hessen.de/materialien/beruf/elektrotechnik/grundstufe/sicherheitsregeln/loes_sicherheitsregeln.pdf",
+   "source_name": "Recherche E-F05",
+   "confidence": "medium",
+   "note": "Konsistenz mit E-F05; Normwortlaut nicht geprüft."
+  },
+  {
+   "claim": "DIN EN IEC/IEEE 82079-1 'Erstellen von Gebrauchsanleitungen' (Ausgabe 2020-04, auf Basis IEC/IEEE 82079-1:2019) enthält allgemeine Grundsätze für Anleitungen von Produkten aller Art; die Ausgabe 2013-06 ist zurückgezogen.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-82079-1/186186508",
+   "source_name": "DIN Media",
+   "confidence": "medium",
+   "note": "Genaue Ausgabe vor Veröffentlichung prüfen."
+  },
+  {
+   "claim": "Stromlaufplan, Klemmenplan, Verdrahtungsplan, Installationsplan und Übersichtsschaltplan sind unterschiedliche Dokumentarten; die Referenzkennzeichnung verbindet ein Objekt über mehrere Dokumente.",
+   "source_url": "https://www.vde-verlag.de/",
+   "source_name": "Recherche E-F06 (docs/research/E-F06.json)",
+   "confidence": "medium",
+   "note": "Konsistenz mit E-F06 (DIN EN 61082-1, DIN EN IEC 81346)."
+  },
+  {
+   "claim": "Übersichten nennen neben dem Prüfbericht auch Übergabebericht und Zustandsbericht als Dokumente.",
+   "source_url": "https://content.voltimum.com/de/127008/231045_seite_170-173_kor.pdf",
+   "source_name": "Voltimum (Übersicht)",
+   "confidence": "low",
+   "note": "Nur als Wort 'Übergabeprotokoll' mit Inhalt 'Liste der übergebenen Unterlagen' sinngemäß; keine Rechtswirkung behauptet."
+  }
+ ],
+ "dropped": [
+  "Konkrete Richtwerte für Prüffristen (von einem Monat bis vier Jahre, je nach Quelle) - uneinheitlich, Sekundärquellen",
+  "Grenzwert Isolationswiderstand (Leseprobe nennt Richtwert) - Zahl nicht verifiziert, bewusst nicht genannt",
+  "Gesetzliche Aufbewahrungsfrist für Prüfprotokolle/Anlagendokumentation - keine verbindliche Angabe gefunden",
+  "Rechtliche Wirkung der Abnahme (Gewährleistung, Beweislast, VOB/BGB) - Rechtsberatung, nicht Teil des Videos",
+  "Format der Bestandsdokumentation (Papier plus Ursprungsformate) - nur eine Auftraggeber-Vorgabe (Hamburg Wasser ZTV)",
+  "Österreichisches WKO-Merkblatt zur Anlagendokumentation - nicht deutsches Recht",
+  "Inhalt/Pflicht von Prüfplaketten und Kennzeichnung - nur Betriebsmittel, Quellen widersprüchlich",
+  "Forumsbehauptung, ein Protokoll ohne bestimmte Messungen sei 'nicht normkonform' - unbelegt",
+  "Verhältnis DGUV Vorschrift 3 zu BetrSichV (gelten nebeneinander) - nur eine Sekundärquelle",
+  "Spannungsgrenzen des Geltungsbereichs DIN VDE 0100-600 - bewusst nicht genannt",
+  "Checklisten-Anhänge der DIN EN IEC/IEEE 82079-1 - Inhalt der aktuellen Ausgabe nicht geprüft",
+  "Wörtlicher Mindestinhalt des Prüfberichts im Nationalen Anhang der DIN VDE 0100-600 - Normtext nicht frei"
+ ]
+}

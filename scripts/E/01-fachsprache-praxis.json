@@ -1,0 +1,1368 @@
+{
+ "id": "E-D01",
+ "title": {
+  "de": "Fachsprache in der Praxis: Datenblatt, Baustelle, Interview",
+  "ar": "الألمانية المهنية للكهرباء: ورشة وورقة بيانات ومقابلة",
+  "en": "Technical German in Practice: Workshop, Data Sheet, Interview"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "Fachsprache in der Praxis",
+    "heading": "Ihr Berufsalltag auf Deutsch",
+    "items": [
+     "Datenblatt, Baustelle, Interview"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zu diesem Video über Fachsprache in der Praxis.",
+     "ar": "مرحبًا بكم في هذا الفيديو عن الألمانية المهنية في الممارسة العملية.",
+     "en": "Welcome to this video about technical German in practice."
+    },
+    {
+     "de": "Im letzten Sprachvideo ging es um Wörter wie Kabel, Schütz und Schutzleiter.",
+     "ar": "في الفيديو اللغوي السابق تناولنا كلمات مثل الكابل والكونتاكتور وموصل الحماية.",
+     "en": "The last language video covered words such as cable, contactor and protective conductor."
+    },
+    {
+     "de": "Heute üben wir keine neuen Vokabellisten, sondern Situationen.",
+     "ar": "اليوم لن نتدرب على قوائم مفردات جديدة بل على مواقف.",
+     "en": "Today we do not practise new vocabulary lists but situations."
+    },
+    {
+     "de": "Sie lesen ein Typenschild, sprechen auf der Baustelle und bereiten ein Interview vor.",
+     "ar": "ستقرؤون لوحة بيانات، وتتحدثون في موقع العمل، وتستعدون لمقابلة.",
+     "en": "You read a rating plate, speak on site and prepare for an interview."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Überblick",
+    "heading": "Das erwartet Sie heute",
+    "items": [
+     "Datenblatt und Typenschild lesen",
+     "Gespräche in Werkstatt und Baustelle",
+     "Telefon und E-Mail",
+     "Vorstellungsgespräch und Stellenanzeigen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wir haben vier Blöcke.",
+     "ar": "لدينا أربع فقرات.",
+     "en": "We have four blocks."
+    },
+    {
+     "de": "Erstens: Typenschild und Datenblatt lesen, mit der Schutzart IP.",
+     "ar": "أولًا: قراءة لوحة البيانات وورقة البيانات مع درجة الحماية IP.",
+     "en": "First: reading the rating plate and data sheet, including the IP degree of protection.",
+     "tts": "Erstens: Typenschild und Datenblatt lesen, mit der Schutzart I-Pe."
+    },
+    {
+     "de": "Zweitens: Gespräche auf der Baustelle, also Rückfragen, Übergabe und Störungsmeldung.",
+     "ar": "ثانيًا: الحوارات في موقع العمل، أي الاستفسارات والتسليم وبلاغ العطل.",
+     "en": "Second: conversations on site, meaning questions, handover and fault reports."
+    },
+    {
+     "de": "Drittens: Telefon und E-Mail.",
+     "ar": "ثالثًا: الهاتف والبريد الإلكتروني.",
+     "en": "Third: telephone and email."
+    },
+    {
+     "de": "Viertens: das Vorstellungsgespräch und die Stellenanzeige.",
+     "ar": "رابعًا: مقابلة التعريف بالنفس وإعلان الوظيفة.",
+     "en": "Fourth: the job interview and the job advertisement."
+    },
+    {
+     "de": "Alle Zahlen in den Beispielen sind ausgedacht. Wir markieren sie als Beispiel.",
+     "ar": "كل الأرقام في الأمثلة مختلقة، وسنشير إليها بأنها مثال.",
+     "en": "All numbers in the examples are invented. We mark them as examples."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Typenschild",
+    "heading": "Was auf dem Typenschild steht",
+    "items": [
+     "Hersteller: Wer hat das Gerät gebaut?",
+     "Typ: Name oder Modell des Geräts",
+     "Nennwerte: Spannung, Strom, Leistung",
+     "Seriennummer: Kennzeichen des Geräts"
+    ],
+    "terms": [
+     {
+      "de": "das Typenschild",
+      "ar": "لوحة البيانات",
+      "en": "rating plate"
+     },
+     {
+      "de": "der Nennwert",
+      "ar": "القيمة الاسمية",
+      "en": "rated value"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Typenschild sitzt am Gerät. Es zeigt die wichtigsten Angaben auf einen Blick.",
+     "ar": "توجد لوحة البيانات على الجهاز. وهي تعرض أهم المعلومات بنظرة واحدة.",
+     "en": "The rating plate sits on the device. It shows the key data at a glance."
+    },
+    {
+     "de": "Typischerweise steht dort der Hersteller.",
+     "ar": "عادةً يُذكر فيها الشركة المصنعة.",
+     "en": "Typically the manufacturer is listed there."
+    },
+    {
+     "de": "Dazu kommen der Typ und die Nennwerte.",
+     "ar": "ثم النوع والقيم الاسمية.",
+     "en": "Then come the type and the rated values."
+    },
+    {
+     "de": "Oft finden Sie auch eine Seriennummer und das CE-Zeichen.",
+     "ar": "وغالبًا تجدون أيضًا رقمًا تسلسليًا وعلامة المطابقة الأوروبية.",
+     "en": "You often also find a serial number and the CE mark.",
+     "tts": "Oft finden Sie auch eine Seriennummer und das Ze-E-Zeichen."
+    },
+    {
+     "de": "Es gibt kein einheitliches Schema. Jeder Hersteller gestaltet das Schild anders.",
+     "ar": "لا يوجد نموذج موحد. فكل شركة تصمم اللوحة بطريقتها.",
+     "en": "There is no uniform layout. Each manufacturer designs the plate differently."
+    },
+    {
+     "de": "Lesen Sie deshalb immer in Ruhe.",
+     "ar": "لذلك اقرؤوها دائمًا بهدوء.",
+     "en": "So always read it calmly."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Beispiel",
+    "heading": "Nennwerte lesen: ein Beispiel",
+    "items": [
+     "Gerät | Motor (Beispiel, ausgedacht)",
+     "Nennspannung | 400 V (Beispiel)",
+     "Nennstrom | 11 A (Beispiel)",
+     "Nennleistung | 5,5 kW (Beispiel)",
+     "Frequenz | 50 Hz (Beispiel)",
+     "Schutzart | IP54 (Beispiel)"
+    ],
+    "terms": [
+     {
+      "de": "der Bemessungswert",
+      "ar": "القيمة المقررة للتصميم",
+      "en": "rated value (standard term)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hier ein ausgedachtes Beispiel für die Nennwerte eines Motors.",
+     "ar": "هذا مثال مختلق للقيم الاسمية لمحرك.",
+     "en": "Here is an invented example of the rated values of a motor."
+    },
+    {
+     "de": "Die Nennspannung ist vierhundert Volt.",
+     "ar": "الجهد الاسمي أربعمئة فولت.",
+     "en": "The rated voltage is four hundred volts.",
+     "tts": "Die Nennspannung ist vierhundert Volt."
+    },
+    {
+     "de": "Der Nennstrom ist elf Ampere und die Nennleistung fünf Komma fünf Kilowatt.",
+     "ar": "التيار الاسمي أحد عشر أمبيرًا والقدرة الاسمية خمسة فاصل خمسة كيلوواط.",
+     "en": "The rated current is eleven amperes and the rated power five point five kilowatts.",
+     "tts": "Der Nennstrom ist elf Ampere und die Nennleistung fünf Komma fünf Kilowatt."
+    },
+    {
+     "de": "Die Frequenz ist fünfzig Hertz. Alle Werte sind nur ein Beispiel.",
+     "ar": "التردد خمسون هرتزًا. كل هذه القيم مجرد مثال.",
+     "en": "The frequency is fifty hertz. All values are only an example.",
+     "tts": "Die Frequenz ist fünfzig Hertz. Alle Werte sind nur ein Beispiel."
+    },
+    {
+     "de": "In Normen heißt der Nennwert oft Bemessungswert.",
+     "ar": "في المعايير تُسمّى القيمة الاسمية غالبًا قيمة التصميم المقررة (Bemessungswert).",
+     "en": "In standards the rated value is often called Bemessungswert."
+    },
+    {
+     "de": "Der Hersteller legt diese Werte fest. Achten Sie auf jede Einheit.",
+     "ar": "الشركة المصنعة هي التي تحدد هذه القيم. انتبهوا إلى كل وحدة.",
+     "en": "The manufacturer sets these values. Watch every unit."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Schutzart",
+    "heading": "Die Schutzart IP verstehen",
+    "items": [
+     "IP: Kürzel der Schutzart",
+     "Erste Ziffer: feste Fremdkörper, Berührung",
+     "Zweite Ziffer: Wasser",
+     "X: für diese Ziffer keine Angabe"
+    ],
+    "terms": [
+     {
+      "de": "die Schutzart",
+      "ar": "درجة الحماية",
+      "en": "degree of protection (IP)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auf vielen Schildern steht eine Schutzart, zum Beispiel IP54.",
+     "ar": "على لوحات كثيرة تظهر درجة حماية، مثل IP54 مثلًا.",
+     "en": "Many plates show a degree of protection, for example IP54.",
+     "tts": "Auf vielen Schildern steht eine Schutzart, zum Beispiel I-Pe fünf vier."
+    },
+    {
+     "de": "Der IP-Code ist in der Norm DIN EN 60529 beschrieben.",
+     "ar": "رمز IP موصوف في المعيار DIN EN 60529.",
+     "en": "The IP code is described in the standard DIN EN 60529.",
+     "tts": "Der I-Pe-Code ist in der Norm Din E-En sechzigtausendfünfhundertneunundzwanzig beschrieben."
+    },
+    {
+     "de": "Er besteht aus den Buchstaben IP und zwei Ziffern.",
+     "ar": "يتكوّن من الحرفين IP ورقمين.",
+     "en": "It consists of the letters IP and two digits.",
+     "tts": "Er besteht aus den Buchstaben I-Pe und zwei Ziffern."
+    },
+    {
+     "de": "Die erste Ziffer sagt etwas über feste Fremdkörper und Berührung.",
+     "ar": "يخبرنا الرقم الأول عن الأجسام الصلبة الغريبة والملامسة.",
+     "en": "The first digit tells you about solid foreign objects and contact."
+    },
+    {
+     "de": "Die zweite Ziffer sagt etwas über Wasser.",
+     "ar": "ويخبرنا الرقم الثاني عن الماء.",
+     "en": "The second digit tells you about water."
+    },
+    {
+     "de": "Eine Null bedeutet: kein Schutz.",
+     "ar": "الصفر يعني عدم وجود حماية.",
+     "en": "A zero means no protection."
+    },
+    {
+     "de": "Steht ein X, dann macht der Hersteller für diese Ziffer keine Angabe.",
+     "ar": "وإذا ظهر الحرف X فالشركة المصنعة لا تعطي بيانًا لهذا الرقم.",
+     "en": "If an X appears, the manufacturer gives no information for that digit."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "IP-Beispiele",
+    "heading": "Beispiele für Schutzarten",
+    "items": [
+     "IP54 | staubgeschützt, Spritzwasser",
+     "IP65 | staubdicht, Strahlwasser",
+     "IPX4 | keine Angabe zu Staub, Spritzwasser",
+     "Erste Ziffer 5 | staubgeschützt",
+     "Erste Ziffer 6 | staubdicht"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Drei Beispiele helfen beim Merken.",
+     "ar": "ثلاثة أمثلة تساعد على الحفظ.",
+     "en": "Three examples help you remember."
+    },
+    {
+     "de": "IP54 bedeutet: staubgeschützt und geschützt gegen Spritzwasser.",
+     "ar": "IP54 تعني: محمي من الغبار ومن رذاذ الماء.",
+     "en": "IP54 means: dust-protected and protected against splashing water.",
+     "tts": "I-Pe fünf vier bedeutet: staubgeschützt und geschützt gegen Spritzwasser."
+    },
+    {
+     "de": "IP65 bedeutet: staubdicht und geschützt gegen Strahlwasser.",
+     "ar": "IP65 تعني: كتيم للغبار ومحمي من نفاثات الماء.",
+     "en": "IP65 means: dust-tight and protected against water jets.",
+     "tts": "I-Pe sechs fünf bedeutet: staubdicht und geschützt gegen Strahlwasser."
+    },
+    {
+     "de": "Bei IPX4 fehlt die erste Ziffer. Das X heißt: keine Angabe zu Staub.",
+     "ar": "في IPX4 يغيب الرقم الأول. والحرف X يعني: لا توجد بيانات عن الغبار.",
+     "en": "With IPX4 the first digit is missing. The X means: no information on dust.",
+     "tts": "Bei I-Pe-X-vier fehlt die erste Ziffer. Das X heißt: keine Angabe zu Staub."
+    },
+    {
+     "de": "Staubgeschützt heißt: Etwas Staub darf eindringen, aber nicht so viel, dass es stört.",
+     "ar": "محمي من الغبار يعني: قد يدخل بعض الغبار لكن ليس بقدر يعيق العمل.",
+     "en": "Dust-protected means: some dust may enter, but not enough to disturb operation."
+    },
+    {
+     "de": "Staubdicht heißt: Unter den Prüfbedingungen dringt kein Staub ein.",
+     "ar": "وكتيم للغبار يعني: لا يدخل أي غبار في ظروف الاختبار.",
+     "en": "Dust-tight means: no dust enters under the test conditions."
+    },
+    {
+     "de": "Die vollständige Tabelle steht in der aktuellen Norm und im Datenblatt.",
+     "ar": "الجدول الكامل موجود في المعيار الحالي وفي ورقة البيانات.",
+     "en": "The full table is in the current standard and the data sheet."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Verwechslung",
+    "heading": "Schutzart ist nicht Schutzklasse",
+    "items": [
+     "Schutzart IP: Fremdkörper, Berührung, Wasser",
+     "Schutzklasse I: mit Schutzleiteranschluss",
+     "Schutzklasse II: verstärkte Isolierung",
+     "Schutzklasse III: Schutzkleinspannung"
+    ],
+    "terms": [
+     {
+      "de": "die Schutzklasse",
+      "ar": "فئة الحماية",
+      "en": "protection class"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein häufiger Fehler: Man verwechselt Schutzart und Schutzklasse.",
+     "ar": "خطأ شائع: الخلط بين درجة الحماية وفئة الحماية.",
+     "en": "A common mistake: mixing up degree of protection and protection class."
+    },
+    {
+     "de": "Die Schutzart IP betrifft Fremdkörper, Berührung und Wasser.",
+     "ar": "درجة الحماية IP تتعلق بالأجسام الغريبة والملامسة والماء.",
+     "en": "The IP degree of protection concerns foreign objects, contact and water.",
+     "tts": "Die Schutzart I-Pe betrifft Fremdkörper, Berührung und Wasser."
+    },
+    {
+     "de": "Die Schutzklasse betrifft den Schutz bei gefährlicher Berührungsspannung.",
+     "ar": "أما فئة الحماية فتتعلق بالوقاية من جهد الملامسة الخطر.",
+     "en": "The protection class concerns protection against dangerous touch voltage."
+    },
+    {
+     "de": "Klasse eins hat einen Schutzleiteranschluss.",
+     "ar": "الفئة الأولى لها توصيل بموصل الحماية.",
+     "en": "Class one has a protective conductor connection."
+    },
+    {
+     "de": "Klasse zwei hat eine verstärkte Isolierung.",
+     "ar": "الفئة الثانية لها عزل معزَّز.",
+     "en": "Class two has reinforced insulation."
+    },
+    {
+     "de": "Klasse drei arbeitet mit Schutzkleinspannung.",
+     "ar": "والفئة الثالثة تعمل بجهد منخفض وقائي.",
+     "en": "Class three works with protective extra-low voltage."
+    },
+    {
+     "de": "Im Datenblatt stehen oft beide Angaben. Lesen Sie sie getrennt.",
+     "ar": "غالبًا تُذكر الإفادتان في ورقة البيانات. اقرؤوهما كلًّا على حدة.",
+     "en": "Often both appear in the data sheet. Read them separately."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Datenblatt",
+    "heading": "Umgebungsbedingungen im Datenblatt",
+    "items": [
+     "Umgebungstemperatur | Bereich für den Betrieb",
+     "Luftfeuchte | oft ohne Betauung angegeben",
+     "Aufstellhöhe | ab einer Höhe evtl. Derating",
+     "Schutzart | IP-Angabe des Gehäuses",
+     "Verschmutzungsgrad | Maß für Verschmutzung"
+    ],
+    "terms": [
+     {
+      "de": "die Umgebungstemperatur",
+      "ar": "درجة حرارة المحيط",
+      "en": "ambient temperature"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Datenblatt finden Sie auch die Umgebungsbedingungen.",
+     "ar": "في ورقة البيانات تجدون أيضًا ظروف المحيط.",
+     "en": "The data sheet also contains the ambient conditions."
+    },
+    {
+     "de": "Die Umgebungstemperatur zeigt, in welchem Bereich das Gerät arbeiten darf.",
+     "ar": "تبيّن درجة حرارة المحيط النطاق الذي يعمل فيه الجهاز.",
+     "en": "The ambient temperature shows the range in which the device may operate."
+    },
+    {
+     "de": "Bei der Luftfeuchte steht oft: ohne Betauung.",
+     "ar": "وفي الرطوبة يُذكر غالبًا: دون تكثّف.",
+     "en": "For humidity it often says: non-condensing."
+    },
+    {
+     "de": "Auch die Aufstellhöhe kann wichtig sein.",
+     "ar": "كما قد يكون ارتفاع التركيب مهمًا.",
+     "en": "The installation altitude can also matter."
+    },
+    {
+     "de": "Ab einer bestimmten Höhe nennen manche Hersteller eine Leistungsminderung, auf Englisch Derating.",
+     "ar": "وابتداءً من ارتفاع معيّن يذكر بعض المصنعين تخفيضًا للقدرة، ويسمى بالإنجليزية Derating.",
+     "en": "Above a certain altitude some manufacturers state a power reduction, called derating."
+    },
+    {
+     "de": "Die Zahlen sind von Produkt zu Produkt verschieden.",
+     "ar": "الأرقام تختلف من منتج إلى آخر.",
+     "en": "The numbers differ from product to product."
+    },
+    {
+     "de": "Verlassen Sie sich nie auf Beispiele aus einem Video, sondern auf das Datenblatt.",
+     "ar": "لا تعتمدوا أبدًا على أمثلة من فيديو بل على ورقة البيانات.",
+     "en": "Never rely on examples from a video; rely on the data sheet."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Lesetechnik",
+    "heading": "So lesen Sie ein Datenblatt",
+    "items": [
+     "Typ und Ausführung prüfen",
+     "Einheiten und Bedingungen beachten",
+     "Fußnoten nicht überspringen",
+     "Aktuelle Version verwenden"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Datenblatt ist lang. Gehen Sie in vier Schritten vor.",
+     "ar": "ورقة البيانات طويلة. تقدموا في أربع خطوات.",
+     "en": "A data sheet is long. Proceed in four steps."
+    },
+    {
+     "de": "Erstens: Prüfen Sie, ob Typ und Ausführung zu Ihrem Gerät passen.",
+     "ar": "أولًا: تحققوا من أن النوع والطراز يناسبان جهازكم.",
+     "en": "First: check that type and version match your device."
+    },
+    {
+     "de": "Zweitens: Achten Sie auf Einheiten und Bedingungen. Ein Wert gilt oft nur bei einer bestimmten Temperatur.",
+     "ar": "ثانيًا: انتبهوا إلى الوحدات والشروط. فالقيمة كثيرًا ما تسري عند درجة حرارة معينة فقط.",
+     "en": "Second: watch units and conditions. A value often applies only at a certain temperature."
+    },
+    {
+     "de": "Drittens: Lesen Sie die Fußnoten.",
+     "ar": "ثالثًا: اقرؤوا الحواشي.",
+     "en": "Third: read the footnotes."
+    },
+    {
+     "de": "Viertens: Nutzen Sie die aktuelle Version vom Hersteller.",
+     "ar": "رابعًا: استخدموا النسخة الحالية من الشركة المصنعة.",
+     "en": "Fourth: use the current version from the manufacturer."
+    },
+    {
+     "de": "Wenn etwas unklar ist, fragen Sie den Hersteller oder einen Kollegen.",
+     "ar": "وإذا كان شيء غير واضح فاسألوا الشركة المصنعة أو زميلًا.",
+     "en": "If something is unclear, ask the manufacturer or a colleague."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Rückfragen",
+    "heading": "Rückfragen auf der Baustelle",
+    "items": [
+     "Meinen Sie diesen Verteiler?",
+     "Habe ich richtig verstanden: ...?",
+     "Bis wann soll das fertig sein?",
+     "Wer ist dafür zuständig?"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auf der Baustelle ist Nachfragen ein Zeichen von Sorgfalt.",
+     "ar": "في موقع العمل يدل الاستفسار على العناية والدقة.",
+     "en": "On site, asking questions shows care."
+    },
+    {
+     "de": "Zeigen Sie zuerst auf das Gerät und fragen Sie: Meinen Sie diesen Verteiler?",
+     "ar": "أشيروا أولًا إلى الجهاز واسألوا: هل تقصدون هذه اللوحة التوزيعية؟",
+     "en": "First point to the device and ask: Do you mean this distribution board?"
+    },
+    {
+     "de": "Fassen Sie die Aufgabe zusammen: Habe ich richtig verstanden, dass ich die Leitung prüfen soll?",
+     "ar": "لخّصوا المهمة: هل فهمت جيدًا أنني مطالب بفحص الخط؟",
+     "en": "Summarise the task: Have I understood correctly that I should check the line?"
+    },
+    {
+     "de": "Fragen Sie nach dem Termin: Bis wann soll das fertig sein?",
+     "ar": "اسألوا عن الموعد: إلى متى يجب أن ينتهي هذا؟",
+     "en": "Ask about the deadline: By when should this be finished?"
+    },
+    {
+     "de": "Und klären Sie die Zuständigkeit: Wer ist dafür zuständig?",
+     "ar": "واستوضحوا المسؤولية: من المسؤول عن ذلك؟",
+     "en": "And clarify responsibility: Who is responsible for this?"
+    },
+    {
+     "de": "Wiederholen Sie die Antwort mit eigenen Worten. So gibt es weniger Missverständnisse.",
+     "ar": "أعيدوا الإجابة بكلماتكم. هكذا تقل سوء الفهم.",
+     "en": "Repeat the answer in your own words. That reduces misunderstandings."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Übergabe",
+    "heading": "Übergabe an die Kollegen",
+    "items": [
+     "Was ist erledigt?",
+     "Was ist noch offen?",
+     "Wo gibt es ein Risiko?",
+     "Wer ist erreichbar?"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Ende der Schicht übergeben Sie die Arbeit an Ihre Kollegen.",
+     "ar": "في نهاية الوردية تسلّمون العمل إلى زملائكم.",
+     "en": "At the end of the shift you hand the work over to your colleagues."
+    },
+    {
+     "de": "Das ist keine Vorschrift aus dem Video, sondern eine gute Praxis. Sagen Sie klar, was erledigt ist.",
+     "ar": "هذه ليست لائحة من الفيديو بل ممارسة جيدة. قولوا بوضوح ما الذي أُنجز.",
+     "en": "This is not a rule from the video but good practice. Say clearly what is done."
+    },
+    {
+     "de": "Zum Beispiel: Die Leitung zum Verteiler ist verlegt, aber noch nicht geprüft.",
+     "ar": "مثلًا: الخط إلى لوحة التوزيع جرى تمديده لكنه لم يُفحص بعد.",
+     "en": "For example: the line to the distribution board is laid but not yet tested."
+    },
+    {
+     "de": "Sagen Sie auch, was offen ist und wo es ein Risiko gibt.",
+     "ar": "وقولوا أيضًا ما الذي بقي مفتوحًا وأين يوجد خطر.",
+     "en": "Also say what is still open and where there is a risk."
+    },
+    {
+     "de": "Sagen Sie außerdem, wer erreichbar ist.",
+     "ar": "وقولوا أيضًا من يمكن الوصول إليه.",
+     "en": "Also say who can be reached."
+    },
+    {
+     "de": "Schreiben Sie wichtige Punkte zusätzlich auf. Gesprochene Worte gehen leicht verloren.",
+     "ar": "دوّنوا النقاط المهمة أيضًا. فالكلام المنطوق يضيع بسهولة.",
+     "en": "Also write down important points. Spoken words are easily lost."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Störungsmeldung",
+    "heading": "Eine Störung melden",
+    "items": [
+     "Ort: Wo ist das Problem?",
+     "Anlage: Welches Gerät ist betroffen?",
+     "Beobachtung: Was ist passiert?",
+     "Sicherheit: Besteht Gefahr?"
+    ],
+    "terms": [
+     {
+      "de": "die Störungsmeldung",
+      "ar": "بلاغ العطل",
+      "en": "fault report"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wenn eine Anlage ausfällt, melden Sie die Störung kurz und genau.",
+     "ar": "عندما يتعطل جهاز أبلغوا عن العطل بإيجاز ودقة.",
+     "en": "If a system fails, report the fault briefly and precisely."
+    },
+    {
+     "de": "Nennen Sie den Ort und die Anlage.",
+     "ar": "اذكروا المكان والجهاز.",
+     "en": "Name the location and the system."
+    },
+    {
+     "de": "Beschreiben Sie, was Sie gesehen oder gehört haben.",
+     "ar": "صفوا ما رأيتموه أو سمعتموه.",
+     "en": "Describe what you saw or heard."
+    },
+    {
+     "de": "Ein Beispiel: Hier ist Ahmed. Im Keller ist der Leitungsschutzschalter ausgelöst. Die Pumpe läuft nicht.",
+     "ar": "مثال: هنا أحمد. في القبو فصل القاطع الآلي والمضخة لا تعمل.",
+     "en": "An example: This is Ahmed. In the basement the circuit breaker tripped. The pump is not running."
+    },
+    {
+     "de": "Sagen Sie auch, ob eine Gefahr besteht, etwa Brandgeruch oder Wasser.",
+     "ar": "وقولوا أيضًا إن كان هناك خطر، كرائحة حريق أو ماء.",
+     "en": "Also say if there is danger, such as a smell of burning or water."
+    },
+    {
+     "de": "Fragen Sie am Ende: Habe ich alles richtig gemeldet?",
+     "ar": "واسألوا في النهاية: هل أبلغت عن كل شيء بشكل صحيح؟",
+     "en": "At the end ask: Did I report everything correctly?"
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Sicherheit",
+    "heading": "Meldung ersetzt keine Sicherheitsregeln",
+    "items": [
+     "1 Freischalten",
+     "2 Gegen Wiedereinschalten sichern",
+     "3 Spannungsfreiheit allpolig feststellen",
+     "4 Erden und Kurzschließen; 5 Abdecken"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wichtig: Eine Meldung am Telefon macht die Anlage nicht spannungsfrei.",
+     "ar": "مهم: بلاغ هاتفي لا يجعل المنشأة خالية من الجهد.",
+     "en": "Important: a phone report does not make the system voltage-free."
+    },
+    {
+     "de": "Vor Arbeiten gelten die fünf Sicherheitsregeln, eine nach der anderen.",
+     "ar": "قبل العمل تسري قواعد السلامة الخمس واحدة بعد الأخرى.",
+     "en": "Before work, the five safety rules apply, one after the other."
+    },
+    {
+     "de": "Erstens freischalten. Zweitens gegen Wiedereinschalten sichern.",
+     "ar": "أولًا فصل الجهد. ثانيًا تأمينها ضد إعادة التشغيل.",
+     "en": "First isolate. Second secure against reconnection."
+    },
+    {
+     "de": "Drittens die Spannungsfreiheit allpolig feststellen.",
+     "ar": "ثالثًا التحقق من انعدام الجهد في كل الأقطاب.",
+     "en": "Third verify absence of voltage on all poles."
+    },
+    {
+     "de": "Viertens erden und kurzschließen. Fünftens benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "رابعًا التأريض والتقصير. خامسًا تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Fourth earth and short-circuit. Fifth cover or barrier adjacent live parts."
+    },
+    {
+     "de": "Diese Arbeiten führt eine Elektrofachkraft aus oder eine Person unter Leitung und Aufsicht einer Elektrofachkraft.",
+     "ar": "هذه الأعمال ينفذها الكهربائي المؤهَّل (Elektrofachkraft) أو شخص يعمل تحت إدارة وإشراف كهربائي مؤهَّل.",
+     "en": "An electrically skilled person carries out this work, or someone under the direction and supervision of one."
+    },
+    {
+     "de": "Wenn Sie unsicher sind, sagen Sie: Ich warte auf die Elektrofachkraft.",
+     "ar": "وإن كنتم غير متأكدين فقولوا: سأنتظر الكهربائي المؤهَّل.",
+     "en": "If you are unsure, say: I will wait for the electrically skilled person."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Telefon",
+    "heading": "Telefonieren im Beruf",
+    "items": [
+     "Name und Firma nennen",
+     "Anliegen in einem Satz sagen",
+     "Wichtiges wiederholen",
+     "Namen buchstabieren"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Telefon fehlt das Bild. Sprechen Sie deshalb besonders klar.",
+     "ar": "على الهاتف تغيب الصورة. لذلك تحدثوا بوضوح خاص.",
+     "en": "On the phone there is no picture. So speak especially clearly."
+    },
+    {
+     "de": "Nennen Sie zuerst Ihren Namen und Ihre Firma.",
+     "ar": "اذكروا أولًا اسمكم وشركتكم.",
+     "en": "First state your name and company."
+    },
+    {
+     "de": "Dann sagen Sie Ihr Anliegen in einem Satz.",
+     "ar": "ثم قولوا غرضكم في جملة واحدة.",
+     "en": "Then state your request in one sentence."
+    },
+    {
+     "de": "Wiederholen Sie Zahlen, Termine und Namen.",
+     "ar": "كرروا الأرقام والمواعيد والأسماء.",
+     "en": "Repeat numbers, dates and names."
+    },
+    {
+     "de": "Zum Buchstabieren gibt es eine Buchstabiertafel. In der neuen Fassung heißt es A wie Aachen, B wie Berlin.",
+     "ar": "للتهجئة توجد جدول تهجئة. وفي الصيغة الجديدة يقال A مثل Aachen وB مثل Berlin.",
+     "en": "For spelling there is a spelling alphabet. In the new version it is A as in Aachen, B as in Berlin."
+    },
+    {
+     "de": "Die ältere Fassung sagt Anton und Berta. Beides hören Sie noch.",
+     "ar": "الصيغة الأقدم تقول Anton وBerta. وتسمعون الاثنين ما زال.",
+     "en": "The older version says Anton and Berta. You still hear both."
+    },
+    {
+     "de": "Sagen Sie am Ende: Ich fasse kurz zusammen.",
+     "ar": "وقولوا في النهاية: سأوجز باختصار.",
+     "en": "At the end say: Let me summarise briefly."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "E-Mail",
+    "heading": "Eine E-Mail im Beruf",
+    "items": [
+     "Betreff: kurz und konkret",
+     "Anrede: Sehr geehrte Frau ...",
+     "Text: kurze Absätze",
+     "Gruß: Mit freundlichen Grüßen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Eine berufliche E-Mail folgt einem festen Aufbau.",
+     "ar": "البريد المهني له بنية ثابتة.",
+     "en": "A professional email follows a fixed structure."
+    },
+    {
+     "de": "Der Betreff ist kurz, zum Beispiel: Rückfrage zum Datenblatt.",
+     "ar": "الموضوع قصير، مثلًا: استفسار عن ورقة البيانات.",
+     "en": "The subject is short, for example: query about the data sheet."
+    },
+    {
+     "de": "Die Anrede lautet: Sehr geehrte Frau Weber oder Sehr geehrter Herr Becker.",
+     "ar": "التحية: Sehr geehrte Frau Weber أو Sehr geehrter Herr Becker.",
+     "en": "The salutation is: Sehr geehrte Frau Weber or Sehr geehrter Herr Becker."
+    },
+    {
+     "de": "Schreiben Sie kurze Absätze. Eine Bitte pro Absatz ist leicht zu lesen.",
+     "ar": "اكتبوا فقرات قصيرة. طلب واحد في كل فقرة يسهّل القراءة.",
+     "en": "Write short paragraphs. One request per paragraph is easy to read."
+    },
+    {
+     "de": "Erwähnen Sie einen Anhang auch im Text.",
+     "ar": "اذكروا المرفق أيضًا في النص.",
+     "en": "Also mention an attachment in the text."
+    },
+    {
+     "de": "Schließen Sie mit der vollen Grußformel: Mit freundlichen Grüßen, und dann Ihr Name.",
+     "ar": "اختموا بصيغة التحية الكاملة: Mit freundlichen Grüßen ثم اسمكم.",
+     "en": "Close with the full closing: Mit freundlichen Grüßen, then your name."
+    },
+    {
+     "de": "Abkürzungen wie MfG sollten Sie vermeiden.",
+     "ar": "وتجنبوا الاختصارات مثل MfG.",
+     "en": "Avoid abbreviations such as MfG.",
+     "tts": "Abkürzungen wie Em-Ef-Ge sollten Sie vermeiden."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Interview",
+    "heading": "Ablauf eines Vorstellungsgesprächs",
+    "items": [
+     "Begrüßung | Hand geben, kurzer Smalltalk",
+     "Unternehmen | Die Firma stellt sich vor",
+     "Selbstvorstellung | Ihr Weg in zwei Minuten",
+     "Fragen | Fachliche und persönliche Fragen",
+     "Abschluss | Ihre eigenen Fragen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Vorstellungsgespräch hat meist mehrere Phasen. Die Reihenfolge kann sich ändern.",
+     "ar": "لمقابلة التعريف عادةً عدة مراحل. وقد يتغير الترتيب.",
+     "en": "A job interview usually has several phases. The order can change."
+    },
+    {
+     "de": "Zuerst kommen Begrüßung und kurzer Smalltalk.",
+     "ar": "أولًا التحية والحديث القصير.",
+     "en": "First come greeting and short small talk."
+    },
+    {
+     "de": "Dann stellt sich oft das Unternehmen vor.",
+     "ar": "ثم تقدّم الشركة نفسها غالبًا.",
+     "en": "Then the company often introduces itself."
+    },
+    {
+     "de": "Danach stellen Sie sich vor: Ausbildung, Projekte, Motivation.",
+     "ar": "بعد ذلك تعرّفون بأنفسكم: التعليم والمشاريع والدافع.",
+     "en": "Then you introduce yourself: education, projects, motivation."
+    },
+    {
+     "de": "Es folgen Fragen zu Fach und Person.",
+     "ar": "تليها أسئلة عن الاختصاص والشخص.",
+     "en": "Questions on subject and person follow."
+    },
+    {
+     "de": "Am Ende fragt man oft: Haben Sie noch Fragen?",
+     "ar": "وفي النهاية يُسأل غالبًا: هل لديكم أسئلة أخرى؟",
+     "en": "At the end you are often asked: Do you have any questions?"
+    },
+    {
+     "de": "Bereiten Sie dafür eigene Fragen vor. Das zeigt Interesse.",
+     "ar": "جهّزوا أسئلتكم الخاصة لذلك. فهذا يُظهر الاهتمام.",
+     "en": "Prepare your own questions for that. It shows interest."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Antwortaufbau",
+    "heading": "Antworten strukturieren mit STAR",
+    "items": [
+     "Situation: Worum ging es?",
+     "Aufgabe: Was war Ihr Ziel?",
+     "Handlung: Was haben Sie getan?",
+     "Ergebnis: Was kam heraus?"
+    ],
+    "terms": [
+     {
+      "de": "das Ergebnis",
+      "ar": "النتيجة",
+      "en": "result"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Viele Fragen beginnen mit: Erzählen Sie von einem Projekt.",
+     "ar": "تبدأ أسئلة كثيرة بعبارة: حدّثنا عن مشروع.",
+     "en": "Many questions begin: Tell us about a project."
+    },
+    {
+     "de": "Dafür gibt es die STAR-Methode. Sie hat vier Teile.",
+     "ar": "لذلك توجد طريقة STAR وهي من أربعة أجزاء.",
+     "en": "For this there is the STAR method. It has four parts.",
+     "tts": "Dafür gibt es die Star-Methode. Sie hat vier Teile."
+    },
+    {
+     "de": "Situation: Worum ging es? Zum Beispiel ein Schaltschrank für eine Pumpenanlage.",
+     "ar": "الموقف: ما الموضوع؟ مثلًا خزانة توزيع وتحكم لمحطة مضخات.",
+     "en": "Situation: what was it about? For example a control cabinet for a pump system."
+    },
+    {
+     "de": "Aufgabe: Was war Ihr Ziel?",
+     "ar": "المهمة: ما هو هدفكم؟",
+     "en": "Task: what was your goal?"
+    },
+    {
+     "de": "Handlung: Was haben Sie persönlich getan?",
+     "ar": "الإجراء: ماذا فعلتم أنتم شخصيًا؟",
+     "en": "Action: what did you personally do?"
+    },
+    {
+     "de": "Ergebnis: Was kam heraus? Was haben Sie gelernt?",
+     "ar": "النتيجة: ماذا حدث؟ وماذا تعلمتم؟",
+     "en": "Result: what came out of it? What did you learn?"
+    },
+    {
+     "de": "Situation und Aufgabe dürfen Sie auch tauschen. Sprechen Sie nur über Wahres.",
+     "ar": "يمكنكم تبديل الموقف والمهمة. وتحدثوا فقط عمّا هو حقيقي.",
+     "en": "You may swap situation and task. Speak only about what is true."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Fragen",
+    "heading": "Typische Fragen und Antwortidee",
+    "items": [
+     "Stellen Sie sich vor. | Ausbildung, Projekte, Ziel",
+     "Ein Projekt? | Antwort mit STAR",
+     "Eine Schwierigkeit? | Problem, Lösung, Lehre",
+     "Teamarbeit? | Ihre Rolle konkret nennen",
+     "Haben Sie Fragen? | Zwei Fragen zur Stelle"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hier sind fünf typische Fragen und eine Idee für die Antwort.",
+     "ar": "هذه خمسة أسئلة شائعة مع فكرة للإجابة.",
+     "en": "Here are five typical questions and an idea for the answer."
+    },
+    {
+     "de": "Stellen Sie sich bitte vor. Nennen Sie Ausbildung, Projekte und Ziel.",
+     "ar": "عرّف بنفسك من فضلك. اذكر التعليم والمشاريع والهدف.",
+     "en": "Please introduce yourself. State education, projects and goal."
+    },
+    {
+     "de": "Erzählen Sie von einem Projekt. Nutzen Sie die vier STAR-Schritte.",
+     "ar": "حدّثنا عن مشروع. استخدم خطوات STAR الأربع.",
+     "en": "Tell us about a project. Use the four STAR steps.",
+     "tts": "Erzählen Sie von einem Projekt. Nutzen Sie die vier Star-Schritte."
+    },
+    {
+     "de": "Bei einer Schwierigkeit nennen Sie Problem, Lösung und Lehre.",
+     "ar": "عند سؤال عن صعوبة اذكروا المشكلة والحل والدرس.",
+     "en": "For a difficulty, state problem, solution and lesson."
+    },
+    {
+     "de": "Bei Teamarbeit sagen Sie genau, welche Rolle Sie hatten.",
+     "ar": "عند سؤال عن العمل الجماعي قولوا بدقة ما كان دوركم.",
+     "en": "For teamwork, say exactly what role you had."
+    },
+    {
+     "de": "Zum Schluss stellen Sie zwei Fragen zur Stelle, zum Beispiel zum Team.",
+     "ar": "وفي الختام اطرحوا سؤالين عن الوظيفة، مثلًا عن الفريق.",
+     "en": "At the end ask two questions about the position, for example about the team."
+    },
+    {
+     "de": "Üben Sie die Antworten laut. Lernen Sie sie nicht Wort für Wort auswendig.",
+     "ar": "تدربوا على الإجابات بصوت عالٍ. ولا تحفظوها كلمة بكلمة.",
+     "en": "Practise the answers aloud. Do not memorise them word for word."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Stellenanzeige",
+    "heading": "Begriffe in der Stellenanzeige",
+    "items": [
+     "Aufgaben | Was Sie täglich tun",
+     "Ihr Profil | Was der Betrieb erwartet",
+     "Wir bieten | Was der Betrieb anbietet",
+     "(m/w/d) | männlich, weiblich, divers",
+     "Berufserfahrung | Zeit in der Praxis"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Eine Stellenanzeige hat meist drei Teile.",
+     "ar": "لإعلان الوظيفة عادةً ثلاثة أجزاء.",
+     "en": "A job advertisement usually has three parts."
+    },
+    {
+     "de": "Unter Aufgaben steht, was Sie täglich tun.",
+     "ar": "تحت المهام ما ستفعلونه يوميًا.",
+     "en": "Under Aufgaben you see what you do every day."
+    },
+    {
+     "de": "Unter Ihr Profil steht, was der Betrieb erwartet, zum Beispiel Berufserfahrung.",
+     "ar": "تحت ملفكم ما تتوقعه المؤسسة، مثل الخبرة المهنية.",
+     "en": "Under Ihr Profil you see what the company expects, for example work experience."
+    },
+    {
+     "de": "Unter Wir bieten steht, was der Betrieb anbietet.",
+     "ar": "تحت نقدّم ما تعرضه المؤسسة.",
+     "en": "Under Wir bieten you see what the company offers."
+    },
+    {
+     "de": "Hinter dem Titel steht oft m/w/d. Das heißt: männlich, weiblich, divers.",
+     "ar": "بعد المسمّى غالبًا m/w/d أي ذكر وأنثى ومتنوع.",
+     "en": "After the title there is often m/w/d. It means: male, female, diverse.",
+     "tts": "Hinter dem Titel steht oft em, we, de. Das heißt: männlich, weiblich, divers."
+    },
+    {
+     "de": "Gemeint ist: Die Stelle ist für alle Geschlechter offen.",
+     "ar": "والمقصود أن الوظيفة مفتوحة لكل الأجناس.",
+     "en": "The meaning: the position is open to all genders."
+    },
+    {
+     "de": "Berufserfahrung heißt: Sie haben schon in der Praxis gearbeitet.",
+     "ar": "الخبرة المهنية تعني أنكم عملتم سابقًا في الممارسة.",
+     "en": "Berufserfahrung means: you have already worked in practice."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Anforderungen",
+    "heading": "Bereitschaft und Elektrofachkraft",
+    "items": [
+     "Bereitschaftsdienst: Ort vom Betrieb vorgegeben",
+     "Rufbereitschaft: erreichbar, Ort frei",
+     "Reisebereitschaft: dienstliche Reisen",
+     "Elektrofachkraft gesucht: Voraussetzungen prüfen"
+    ],
+    "terms": [
+     {
+      "de": "die Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل",
+      "en": "electrically skilled person"
+     },
+     {
+      "de": "die Rufbereitschaft",
+      "ar": "الاستعداد عند الطلب",
+      "en": "on-call standby"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Manche Begriffe in Anzeigen brauchen eine genaue Erklärung.",
+     "ar": "بعض المصطلحات في الإعلانات تحتاج إلى شرح دقيق.",
+     "en": "Some terms in advertisements need a precise explanation."
+    },
+    {
+     "de": "Bei Bereitschaftsdienst bestimmt der Arbeitgeber, wo Sie sich aufhalten.",
+     "ar": "في Bereitschaftsdienst يحدد صاحب العمل مكان وجودكم.",
+     "en": "With Bereitschaftsdienst the employer decides where you stay."
+    },
+    {
+     "de": "Bei Rufbereitschaft wählen Sie den Ort selbst, müssen aber erreichbar sein.",
+     "ar": "وفي Rufbereitschaft تختارون المكان بأنفسكم لكن يجب أن تكونوا متاحين.",
+     "en": "With Rufbereitschaft you choose the place yourself but must be reachable."
+    },
+    {
+     "de": "Die Regeln zu Arbeitszeit und Bezahlung stehen im Vertrag und in Gesetzen. Fragen Sie nach.",
+     "ar": "قواعد وقت العمل والأجر في العقد والقوانين. اسألوا عنها.",
+     "en": "Rules on working time and pay are in the contract and laws. Ask about them."
+    },
+    {
+     "de": "Reisebereitschaft heißt: Sie sind bereit zu dienstlichen Reisen. Der Umfang steht in der Anzeige.",
+     "ar": "Reisebereitschaft تعني استعدادكم لسفرات العمل، ويُذكر نطاقها في الإعلان.",
+     "en": "Reisebereitschaft means you are ready for business travel. The scope is in the advertisement."
+    },
+    {
+     "de": "Elektrofachkraft gesucht heißt: Der Betrieb braucht Ausbildung, Kenntnisse und Erfahrung für diese Aufgaben.",
+     "ar": "Elektrofachkraft gesucht تعني أن المؤسسة تحتاج تعليمًا ومعرفة وخبرة لهذه المهام.",
+     "en": "Elektrofachkraft gesucht means the company needs training, knowledge and experience for these tasks."
+    },
+    {
+     "de": "Der Betrieb prüft, ob Sie die Voraussetzungen erfüllen. Fragen Sie im Gespräch genau nach.",
+     "ar": "والمؤسسة تتحقق من استيفائكم الشروط. اسألوا بدقة في المقابلة.",
+     "en": "The company checks whether you meet the requirements. Ask precisely in the interview."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das haben Sie gelernt",
+    "items": [
+     "Typenschild, Nennwerte, Schutzart IP",
+     "Rückfragen, Übergabe, Störungsmeldung",
+     "Telefon und E-Mail",
+     "Interview mit STAR; Stellenanzeigen lesen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Sie können Typenschild und Datenblatt lesen und die Schutzart IP erklären.",
+     "ar": "يمكنكم قراءة لوحة البيانات وورقة البيانات وشرح درجة الحماية IP.",
+     "en": "You can read a rating plate and data sheet and explain the IP degree of protection.",
+     "tts": "Sie können Typenschild und Datenblatt lesen und die Schutzart I-Pe erklären."
+    },
+    {
+     "de": "Sie wissen, wie man auf der Baustelle nachfragt, übergibt und eine Störung meldet.",
+     "ar": "تعرفون كيف تستفسرون في الموقع وتسلّمون العمل وتبلغون عن عطل.",
+     "en": "You know how to ask questions on site, hand over work and report a fault."
+    },
+    {
+     "de": "Sie kennen Aufbau von Telefonat und E-Mail.",
+     "ar": "وتعرفون بنية المكالمة والبريد الإلكتروني.",
+     "en": "You know the structure of a call and an email."
+    },
+    {
+     "de": "Sie bereiten Antworten mit der STAR-Methode vor.",
+     "ar": "وتحضّرون إجاباتكم بطريقة STAR.",
+     "en": "You prepare answers with the STAR method.",
+     "tts": "Sie bereiten Antworten mit der Star-Methode vor."
+    },
+    {
+     "de": "Und Sie verstehen Begriffe wie Berufserfahrung, Bereitschaft und Elektrofachkraft gesucht.",
+     "ar": "وتفهمون مصطلحات مثل الخبرة المهنية والاستعداد وبحث عن كهربائي مؤهَّل.",
+     "en": "And you understand terms such as work experience, standby and electrically skilled person wanted."
+    },
+    {
+     "de": "Im nächsten Video geht es um Dokumentation und Übergabe.",
+     "ar": "في الفيديو القادم نتناول التوثيق والتسليم.",
+     "en": "The next video is about documentation and handover."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Bitte prüfen Sie die aktuelle Fassung",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Datenblatt des Herstellers gilt",
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Noch ein wichtiger Hinweis zum Schluss.",
+     "ar": "وأخيرًا تنبيه مهم.",
+     "en": "One last important note."
+    },
+    {
+     "de": "Gesetze, Normen und Datenblätter ändern sich.",
+     "ar": "القوانين والمعايير وأوراق البيانات تتغير.",
+     "en": "Laws, standards and data sheets change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung, bevor Sie arbeiten.",
+     "ar": "راجعوا دائمًا النسخة الحالية قبل العمل.",
+     "en": "Always check the current version before you work."
+    },
+    {
+     "de": "Dieses Video gibt allgemeine Informationen. Es ist keine Rechtsberatung und keine Fachberatung.",
+     "ar": "يقدم هذا الفيديو معلومات عامة. وليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "This video gives general information. It is not legal or engineering advice."
+    },
+    {
+     "de": "Alle Zahlen in den Beispielen waren ausgedacht.",
+     "ar": "كل الأرقام في الأمثلة كانت مختلقة.",
+     "en": "All numbers in the examples were invented."
+    },
+    {
+     "de": "Viel Erfolg beim Üben!",
+     "ar": "بالتوفيق في التدرب!",
+     "en": "Good luck practising!"
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "das Typenschild, die Typenschilder",
+   "ar": "لوحة البيانات",
+   "en": "rating plate"
+  },
+  {
+   "de": "das Datenblatt, die Datenblätter",
+   "ar": "ورقة البيانات",
+   "en": "data sheet"
+  },
+  {
+   "de": "der Nennwert, die Nennwerte",
+   "ar": "القيمة الاسمية",
+   "en": "rated value"
+  },
+  {
+   "de": "der Bemessungswert, die Bemessungswerte",
+   "ar": "القيمة المقررة للتصميم",
+   "en": "rated value (standard term)"
+  },
+  {
+   "de": "die Nennspannung, die Nennspannungen",
+   "ar": "الجهد الاسمي",
+   "en": "rated voltage"
+  },
+  {
+   "de": "der Nennstrom, die Nennströme",
+   "ar": "التيار الاسمي",
+   "en": "rated current"
+  },
+  {
+   "de": "die Schutzart, die Schutzarten",
+   "ar": "درجة الحماية",
+   "en": "degree of protection"
+  },
+  {
+   "de": "die Schutzklasse, die Schutzklassen",
+   "ar": "فئة الحماية",
+   "en": "protection class"
+  },
+  {
+   "de": "die Umgebungstemperatur, die Umgebungstemperaturen",
+   "ar": "درجة حرارة المحيط",
+   "en": "ambient temperature"
+  },
+  {
+   "de": "die Aufstellhöhe, die Aufstellhöhen",
+   "ar": "ارتفاع التركيب",
+   "en": "installation altitude"
+  },
+  {
+   "de": "die Störungsmeldung, die Störungsmeldungen",
+   "ar": "بلاغ العطل",
+   "en": "fault report"
+  },
+  {
+   "de": "die Übergabe, die Übergaben",
+   "ar": "التسليم",
+   "en": "handover"
+  },
+  {
+   "de": "die Rückfrage, die Rückfragen",
+   "ar": "الاستفسار",
+   "en": "follow-up question"
+  },
+  {
+   "de": "das Vorstellungsgespräch, die Vorstellungsgespräche",
+   "ar": "مقابلة التعريف بالنفس (مقابلة العمل)",
+   "en": "job interview"
+  },
+  {
+   "de": "die Stellenanzeige, die Stellenanzeigen",
+   "ar": "إعلان الوظيفة",
+   "en": "job advertisement"
+  },
+  {
+   "de": "die Berufserfahrung",
+   "ar": "الخبرة المهنية",
+   "en": "work experience"
+  },
+  {
+   "de": "die Rufbereitschaft",
+   "ar": "الاستعداد عند الطلب",
+   "en": "on-call standby"
+  },
+  {
+   "de": "die Elektrofachkraft, die Elektrofachkräfte",
+   "ar": "الكهربائي المؤهَّل",
+   "en": "electrically skilled person"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was beschreibt die zweite Ziffer im IP-Code?",
+    "ar": "ماذا يصف الرقم الثاني في رمز IP؟",
+    "en": "What does the second digit of the IP code describe?"
+   },
+   "options": [
+    {
+     "de": "Wasser",
+     "ar": "الماء",
+     "en": "Water"
+    },
+    {
+     "de": "Staub",
+     "ar": "الغبار",
+     "en": "Dust"
+    },
+    {
+     "de": "Temperatur",
+     "ar": "درجة الحرارة",
+     "en": "Temperature"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was bedeutet IPX4?",
+    "ar": "ماذا يعني IPX4؟",
+    "en": "What does IPX4 mean?"
+   },
+   "options": [
+    {
+     "de": "Staubdicht, ohne Wasserschutz",
+     "ar": "كتيم للغبار دون حماية من الماء",
+     "en": "Dust-tight, no water protection"
+    },
+    {
+     "de": "Beide Ziffern sind null",
+     "ar": "كلا الرقمين صفر",
+     "en": "Both digits are zero"
+    },
+    {
+     "de": "Keine Angabe zu Staub, Schutz gegen Spritzwasser",
+     "ar": "لا بيان عن الغبار وحماية من رذاذ الماء",
+     "en": "No information on dust, protection against splashing water"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wofür steht der Buchstabe T in STAR?",
+    "ar": "لماذا يرمز الحرف T في STAR؟",
+    "en": "What does the letter T in STAR stand for?"
+   },
+   "options": [
+    {
+     "de": "Termin",
+     "ar": "الموعد",
+     "en": "Deadline"
+    },
+    {
+     "de": "Aufgabe",
+     "ar": "المهمة",
+     "en": "Task"
+    },
+    {
+     "de": "Team",
+     "ar": "الفريق",
+     "en": "Team"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wer führt Arbeiten nach den fünf Sicherheitsregeln aus?",
+    "ar": "من ينفذ الأعمال وفق قواعد السلامة الخمس؟",
+    "en": "Who carries out work under the five safety rules?"
+   },
+   "options": [
+    {
+     "de": "Jeder, der Zeit hat",
+     "ar": "أي شخص لديه وقت",
+     "en": "Anyone who has time"
+    },
+    {
+     "de": "Eine Elektrofachkraft oder eine Person unter ihrer Leitung und Aufsicht",
+     "ar": "كهربائي مؤهَّل أو شخص تحت إدارته وإشرافه",
+     "en": "An electrically skilled person or someone under their direction and supervision"
+    },
+    {
+     "de": "Nur der Kunde",
+     "ar": "العميل وحده",
+     "en": "Only the customer"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was ist bei Rufbereitschaft typisch?",
+    "ar": "ما الشائع في Rufbereitschaft؟",
+    "en": "What is typical for Rufbereitschaft?"
+   },
+   "options": [
+    {
+     "de": "Der Arbeitgeber legt den Aufenthaltsort fest",
+     "ar": "صاحب العمل يحدد مكان الوجود",
+     "en": "The employer sets the location"
+    },
+    {
+     "de": "Man darf nie das Haus verlassen",
+     "ar": "لا يجوز مغادرة البيت أبدًا",
+     "en": "You may never leave home"
+    },
+    {
+     "de": "Man muss erreichbar sein, der Ort ist frei",
+     "ar": "يجب أن تكون متاحًا والمكان حر",
+     "en": "You must be reachable, the place is free"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um Dokumentation und Übergabe.",
+  "ar": "في الفيديو القادم نتناول التوثيق والتسليم.",
+  "en": "The next video is about documentation and handover."
+ },
+ "stand": "2026-10-21; vor Build prüfen: aktuelle Ausgabe DIN EN 60529 (Ziffernskala, Bedeutung X, 5/6/4), Schutzklassen DIN EN 61140, DGUV Vorschrift 3 (Elektrofachkraft), Bereitschaftsdienst/Rufbereitschaft (ArbZG, nur sekundär belegt), DIN 5009 (Fassung 2022), Duden/DWDS für Artikel und Plural"
+}

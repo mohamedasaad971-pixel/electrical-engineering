@@ -1,0 +1,1679 @@
+{
+ "id": "E-D02",
+ "title": {
+  "de": "Dokumentation und Übergabe: Anlagendokumentation, Messprotokolle, Prüfberichte",
+  "ar": "الوثائق والتسليم: توثيق المنشأة، ومحاضر القياس، وتقارير الفحص",
+  "en": "Documentation and Handover: Installation Records, Measurement Reports, Test Reports"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-D02 · Markt und Praxis",
+    "heading": "Dokumentation und Übergabe",
+    "items": [
+     "Anlagendokumentation",
+     "Erstprüfung und Messprotokolle",
+     "Übergabe und Betreiber"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum zweiten Video im Bereich Markt und Praxis.",
+     "ar": "مرحبًا بكم في الفيديو الثاني من قسم السوق والممارسة.",
+     "en": "Welcome to the second video in the market and practice section."
+    },
+    {
+     "de": "Heute geht es um Dokumentation und Übergabe elektrischer Anlagen.",
+     "ar": "موضوعنا اليوم هو توثيق المنشآت الكهربائية وتسليمها.",
+     "en": "Today we cover documentation and handover of electrical installations."
+    },
+    {
+     "de": "In Deutschland gehört zu jeder Anlage ein Paket aus Unterlagen.",
+     "ar": "في ألمانيا يرافق كل منشأة حزمة من المستندات.",
+     "en": "In Germany, every installation comes with a package of documents."
+    },
+    {
+     "de": "Pläne, Prüfprotokolle und Anleitungen gehören dazu.",
+     "ar": "تشمل المخططات ومحاضر الفحص والتعليمات.",
+     "en": "Plans, test reports and instructions are part of it."
+    },
+    {
+     "de": "Sie lernen, was darin steht und wer dafür verantwortlich ist.",
+     "ar": "ستتعلمون ما يوجد فيها ومن المسؤول عنها.",
+     "en": "You will learn what is in it and who is responsible."
+    },
+    {
+     "de": "Das Video richtet sich an Ingenieure, die in Deutschland mit Anlagen arbeiten.",
+     "ar": "الفيديو موجّه إلى المهندسين الذين يعملون في ألمانيا على المنشآت.",
+     "en": "The video is for engineers who work with installations in Germany."
+    },
+    {
+     "de": "Am Ende finden Sie ein Glossar und ein kurzes Quiz.",
+     "ar": "وفي النهاية ستجدون مسردًا واختبارًا قصيرًا.",
+     "en": "At the end you will find a glossary and a short quiz."
+    },
+    {
+     "de": "Wir gehen Schritt für Schritt vor und erklären die wichtigen Wörter.",
+     "ar": "سنتقدم خطوة بخطوة ونشرح المصطلحات المهمة.",
+     "en": "We go step by step and explain the important words."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine Orientierung",
+    "items": [
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung",
+     "Aktuelle Fassungen prüfen",
+     "Verträge regeln Details"
+    ],
+    "terms": [
+     {
+      "de": "Betreiber",
+      "ar": "مشغّل المنشأة (Betreiber)",
+      "en": "operator"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein Hinweis.",
+     "ar": "أولًا، ملاحظة.",
+     "en": "First, a note."
+    },
+    {
+     "de": "Dieses Video gibt allgemeine Informationen.",
+     "ar": "يقدّم هذا الفيديو معلومات عامة.",
+     "en": "This video gives general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is neither legal nor engineering advice."
+    },
+    {
+     "de": "Was genau übergeben werden muss, regelt oft der Vertrag.",
+     "ar": "ما يجب تسليمه بالتحديد يحدده العقد غالبًا.",
+     "en": "What exactly must be handed over is often set by the contract."
+    },
+    {
+     "de": "Fragen Sie im Zweifel Ihre verantwortliche Elektrofachkraft.",
+     "ar": "في حال الشك اسألوا الكهربائي المؤهَّل (Elektrofachkraft) المسؤول لديكم.",
+     "en": "If in doubt, ask your responsible qualified electrician."
+    },
+    {
+     "de": "Normen und Vorschriften nennen wir nur mit Namen.",
+     "ar": "نذكر المعايير واللوائح بأسمائها فقط.",
+     "en": "We name standards and regulations only by name."
+    },
+    {
+     "de": "Den genauen Wortlaut lesen Sie in der aktuellen Ausgabe.",
+     "ar": "أما النص الدقيق فتقرؤونه في الإصدار الحالي.",
+     "en": "You read the exact wording in the current edition."
+    },
+    {
+     "de": "Sicherheit und Sorgfalt gehen vor Geschwindigkeit.",
+     "ar": "السلامة والدقة قبل السرعة.",
+     "en": "Safety and care come before speed."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Warum dokumentieren?",
+    "heading": "Wozu die Unterlagen dienen",
+    "items": [
+     "Nachweis: Was wurde gebaut und geprüft?",
+     "Betrieb: Wie wird die Anlage bedient?",
+     "Änderung: Was ist schon vorhanden?",
+     "Prüfung: Womit vergleicht man später?"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Dokumentation ist kein Papierkram ohne Zweck.",
+     "ar": "التوثيق ليس أوراقًا بلا هدف.",
+     "en": "Documentation is not paperwork without purpose."
+    },
+    {
+     "de": "Sie ist ein Nachweis dafür, was gebaut und geprüft wurde.",
+     "ar": "إنه دليل على ما تم بناؤه وفحصه.",
+     "en": "It is proof of what was built and tested."
+    },
+    {
+     "de": "Der Betreiber braucht sie, um die Anlage sicher zu bedienen.",
+     "ar": "يحتاجها المشغّل لتشغيل المنشأة بأمان.",
+     "en": "The operator needs it to run the installation safely."
+    },
+    {
+     "de": "Wer später ändert, muss den Bestand kennen.",
+     "ar": "من يعدّل لاحقًا عليه أن يعرف الوضع القائم.",
+     "en": "Whoever changes it later must know the existing state."
+    },
+    {
+     "de": "Und bei jeder späteren Prüfung dient sie als Vergleich.",
+     "ar": "وعند كل فحص لاحق تكون مرجعًا للمقارنة.",
+     "en": "And at every later inspection it serves as a reference."
+    },
+    {
+     "de": "Ein gutes Beispiel ist eine spätere Erweiterung der Anlage.",
+     "ar": "مثال جيد هو توسعة المنشأة لاحقًا.",
+     "en": "A good example is a later extension of the installation."
+    },
+    {
+     "de": "Ohne Unterlagen muss jemand zuerst alles neu aufnehmen.",
+     "ar": "وبلا مستندات يضطر أحدهم إلى إعادة تسجيل كل شيء أولًا.",
+     "en": "Without documents, someone must first survey everything again."
+    },
+    {
+     "de": "Das kostet Zeit und birgt Risiken.",
+     "ar": "وهذا يستهلك الوقت وينطوي على مخاطر.",
+     "en": "That costs time and carries risks."
+    },
+    {
+     "de": "Gute Unterlagen schützen auch Sie selbst.",
+     "ar": "الوثائق الجيدة تحميكم أنتم أيضًا.",
+     "en": "Good documents also protect you."
+    },
+    {
+     "de": "Denn sie zeigen, was Sie wann getan haben.",
+     "ar": "فهي تُظهر ما فعلتموه ومتى.",
+     "en": "They show what you did and when."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Anlagendokumentation",
+    "heading": "Pläne in der Dokumentation",
+    "items": [
+     "Übersichtsschaltplan",
+     "Stromlaufplan",
+     "Klemmenplan",
+     "Verdrahtungsplan",
+     "Installationsplan"
+    ],
+    "terms": [
+     {
+      "de": "Klemmenplan",
+      "ar": "مخطط الأطراف",
+      "en": "terminal diagram"
+     },
+     {
+      "de": "Stromlaufplan",
+      "ar": "مخطط مسار التيار",
+      "en": "circuit diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Video über Schaltpläne haben Sie die Dokumentarten gesehen.",
+     "ar": "في فيديو مخططات الدارات رأيتم أنواع المستندات.",
+     "en": "In the video on circuit diagrams you saw the document types."
+    },
+    {
+     "de": "Der Übersichtsschaltplan zeigt die Struktur der Anlage.",
+     "ar": "يعرض مخطط النظرة العامة بنية المنشأة.",
+     "en": "The overview diagram shows the structure of the installation."
+    },
+    {
+     "de": "Der Stromlaufplan zeigt die Funktion mit allen Leitern.",
+     "ar": "يعرض مخطط مسار التيار الوظيفة مع جميع الموصلات.",
+     "en": "The circuit diagram shows the function with all conductors."
+    },
+    {
+     "de": "Im Klemmenplan sehen Sie die Belegung der Klemmen.",
+     "ar": "في مخطط الأطراف ترون توزيع الأطراف.",
+     "en": "In the terminal diagram you see the terminal assignment."
+    },
+    {
+     "de": "Der Verdrahtungsplan zeigt die leitenden Verbindungen.",
+     "ar": "يعرض مخطط توصيل الأسلاك الوصلات الموصِّلة.",
+     "en": "The wiring diagram shows the conductive connections."
+    },
+    {
+     "de": "Der Installationsplan zeigt die Lage der Geräte im Grundriss.",
+     "ar": "يعرض مخطط التركيب موقع الأجهزة على المسقط.",
+     "en": "The installation plan shows the position of devices on the floor plan."
+    },
+    {
+     "de": "Jeder Plan hat eine eigene Aufgabe.",
+     "ar": "لكل مخطط مهمته الخاصة.",
+     "en": "Each plan has its own task."
+    },
+    {
+     "de": "Gute Dokumentation verbindet sie durch klare Kennzeichen.",
+     "ar": "والتوثيق الجيد يربطها بتمييز واضح.",
+     "en": "Good documentation links them through clear designations."
+    },
+    {
+     "de": "So finden Sie ein Gerät in jedem Dokument wieder.",
+     "ar": "هكذا تجدون الجهاز نفسه في كل مستند.",
+     "en": "This way you find a device again in every document."
+    },
+    {
+     "de": "Prüfen Sie, ob jeder Plan dieselben Gerätenamen verwendet.",
+     "ar": "تحقّقوا من أن كل مخطط يستخدم أسماء الأجهزة نفسها.",
+     "en": "Check that every plan uses the same device names."
+    },
+    {
+     "de": "Das ist eine typische Aufgabe in der Qualitätskontrolle.",
+     "ar": "هذه مهمة نموذجية في مراقبة الجودة.",
+     "en": "This is a typical task in quality control."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Revisionsunterlagen",
+    "heading": "Plan, As-built und Revision",
+    "items": [
+     "Planungsstand | So war es geplant",
+     "As-built | So wurde es wirklich gebaut",
+     "Revision | Änderungen mit Stand und Datum",
+     "Referenzkennzeichen | Verbinden alle Dokumente",
+     "Aktuell halten | Jede Änderung nachtragen"
+    ],
+    "terms": [
+     {
+      "de": "As-built",
+      "ar": "كما نُفِّذ فعليًا (As-built)",
+      "en": "as-built"
+     },
+     {
+      "de": "Revisionsstand",
+      "ar": "حالة المراجعة",
+      "en": "revision status"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Auf der Baustelle ändert sich oft etwas.",
+     "ar": "في الموقع يتغير شيء ما غالبًا.",
+     "en": "On site, something often changes."
+    },
+    {
+     "de": "Die Planung ist deshalb nicht automatisch der Endstand.",
+     "ar": "لذلك ليس المخطط هو الوضع النهائي تلقائيًا.",
+     "en": "So the design is not automatically the final state."
+    },
+    {
+     "de": "Als As-built bezeichnet man den tatsächlich ausgeführten Zustand.",
+     "ar": "يُقصد بـ As-built الوضع المنفَّذ فعليًا.",
+     "en": "As-built means the state that was actually executed."
+    },
+    {
+     "de": "In Ausschreibungen wird er häufig ausdrücklich verlangt.",
+     "ar": "وكثيرًا ما يُطلب صراحةً في المناقصات.",
+     "en": "Tenders often demand it explicitly."
+    },
+    {
+     "de": "Jede Änderung braucht einen Revisionsstand mit Datum.",
+     "ar": "كل تعديل يحتاج إلى حالة مراجعة مع تاريخ.",
+     "en": "Every change needs a revision status with a date."
+    },
+    {
+     "de": "Die Referenzkennzeichen müssen in allen Dokumenten gleich sein.",
+     "ar": "يجب أن تكون الترميزات المرجعية متطابقة في جميع المستندات.",
+     "en": "Reference designations must be identical in all documents."
+    },
+    {
+     "de": "Ein typischer Fall ist eine verlegte Leitung.",
+     "ar": "حالة نموذجية هي خط تم نقل مساره.",
+     "en": "A typical case is a rerouted cable."
+    },
+    {
+     "de": "Dann stimmt der Plan nicht mehr mit der Wirklichkeit überein.",
+     "ar": "عندها لا يطابق المخطط الواقع.",
+     "en": "Then the plan no longer matches reality."
+    },
+    {
+     "de": "Die Dokumentation muss diesen Unterschied zeigen.",
+     "ar": "ويجب أن تُظهر الوثائق هذا الفرق.",
+     "en": "The documentation must show this difference."
+    },
+    {
+     "de": "Wer das ignoriert, verliert später viel Zeit bei der Fehlersuche.",
+     "ar": "من يتجاهل ذلك يخسر لاحقًا وقتًا كثيرًا في البحث عن الأعطال.",
+     "en": "Whoever ignores this loses much time later when troubleshooting."
+    },
+    {
+     "de": "Klären Sie früh, wer die Pläne nachführt.",
+     "ar": "وضّحوا مبكرًا من يحدّث المخططات.",
+     "en": "Clarify early who updates the plans."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Weitere Unterlagen",
+    "heading": "Was noch zum Paket gehört",
+    "items": [
+     "Kabel- und Leitungspläne",
+     "Prüfprotokolle mit Messwerten",
+     "Herstellerbescheinigungen",
+     "CE-Nachweise der Geräte",
+     "Anleitungen der Hersteller"
+    ],
+    "terms": [
+     {
+      "de": "Herstellerbescheinigung",
+      "ar": "شهادة الشركة المصنِّعة",
+      "en": "manufacturer certificate"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Neben den Plänen gibt es weitere Unterlagen.",
+     "ar": "إلى جانب المخططات توجد مستندات أخرى.",
+     "en": "Besides the plans, there are further documents."
+    },
+    {
+     "de": "Dazu zählen Kabel- und Leitungspläne.",
+     "ar": "منها مخططات الكابلات والخطوط.",
+     "en": "These include cable and line plans."
+    },
+    {
+     "de": "Auch Prüfprotokolle gehören dazu.",
+     "ar": "ومحاضر الفحص منها أيضًا.",
+     "en": "Test reports are part of it too."
+    },
+    {
+     "de": "Hinzu kommen Herstellerbescheinigungen und CE-Nachweise.",
+     "ar": "وتُضاف شهادات الشركات المصنِّعة وإثباتات المطابقة لعلامة CE للأجهزة.",
+     "en": "Manufacturer certificates and CE evidence are added.",
+     "tts": "Hinzu kommen Herstellerbescheinigungen und Ze-E-Nachweise."
+    },
+    {
+     "de": "Der Vertrag legt fest, in welcher Form Sie liefern.",
+     "ar": "يحدد العقد الشكل الذي تسلّمون به.",
+     "en": "The contract defines the form in which you deliver."
+    },
+    {
+     "de": "Prüfen Sie diese Vorgaben früh im Projekt.",
+     "ar": "راجعوا هذه المتطلبات مبكرًا في المشروع.",
+     "en": "Check these requirements early in the project."
+    },
+    {
+     "de": "Vollständigkeit ist hier wichtiger als schöne Optik.",
+     "ar": "الاكتمال هنا أهم من المظهر الجميل.",
+     "en": "Completeness matters more here than nice looks."
+    },
+    {
+     "de": "Eine Liste hilft, nichts zu vergessen.",
+     "ar": "القائمة تساعد على ألا ننسى شيئًا.",
+     "en": "A list helps you forget nothing."
+    },
+    {
+     "de": "Hängen Sie sie an Ihren Projektplan.",
+     "ar": "أرفقوها بخطة مشروعكم.",
+     "en": "Attach it to your project plan."
+    },
+    {
+     "de": "Auch Fotos der Verteiler können nützlich sein.",
+     "ar": "وقد تفيد أيضًا صور لوحات التوزيع.",
+     "en": "Photos of the distribution boards can also be useful."
+    },
+    {
+     "de": "Halten Sie Datum und Ort der Aufnahme fest.",
+     "ar": "دوّنوا تاريخ ومكان التقاط الصورة.",
+     "en": "Note the date and place of each photo."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Erstprüfung",
+    "heading": "Die Erstprüfung",
+    "items": [
+     "Neu, erweitert oder geändert",
+     "Vor der ersten Nutzung",
+     "Durch eine befähigte Elektrofachkraft",
+     "Ergebnis: Bericht für den Auftraggeber"
+    ],
+    "terms": [
+     {
+      "de": "Erstprüfung",
+      "ar": "الفحص الأولي",
+      "en": "initial inspection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Erstprüfung.",
+     "ar": "والآن إلى الفحص الأولي.",
+     "en": "Now to the initial inspection."
+    },
+    {
+     "de": "Sie gilt für neue, erweiterte oder geänderte Anlagen.",
+     "ar": "ينطبق على المنشآت الجديدة أو الموسَّعة أو المعدَّلة.",
+     "en": "It applies to new, extended or modified installations."
+    },
+    {
+     "de": "Sie findet vor der ersten Nutzung statt.",
+     "ar": "ويجري قبل الاستخدام الأول.",
+     "en": "It takes place before first use."
+    },
+    {
+     "de": "Die Reihe DIN VDE 0100 beschreibt sie im Teil 600.",
+     "ar": "تصفه سلسلة DIN VDE 0100 في الجزء المخصص للفحوص.",
+     "en": "The DIN VDE 0100 series describes it in part 600.",
+     "tts": "Die Reihe Din Fau-De-E null eins null null beschreibt sie im Teil sechshundert."
+    },
+    {
+     "de": "Eine befähigte Elektrofachkraft führt sie durch.",
+     "ar": "يجريه كهربائي مؤهَّل ومخوَّل بذلك.",
+     "en": "A competent qualified electrician carries it out."
+    },
+    {
+     "de": "Den Text der Norm geben wir hier nicht wieder.",
+     "ar": "لا نعيد هنا نص المعيار.",
+     "en": "We do not reproduce the text of the standard here."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Ausgabe.",
+     "ar": "راجعوا دائمًا الإصدار الحالي.",
+     "en": "Always check the current edition."
+    },
+    {
+     "de": "Ist die Prüfung kaum noch möglich, kann sie schon beim Bau stattfinden.",
+     "ar": "وإذا صار الفحص صعبًا لاحقًا، فقد يجري أثناء البناء.",
+     "en": "If testing becomes hardly possible later, it can take place during construction."
+    },
+    {
+     "de": "Auch Erweiterungen und Änderungen werden geprüft.",
+     "ar": "وتُفحص أيضًا التوسعات والتعديلات.",
+     "en": "Extensions and changes are inspected as well."
+    },
+    {
+     "de": "Der Bericht geht an den Auftraggeber.",
+     "ar": "يُسلَّم التقرير إلى الجهة المُشغِّلة للمشروع.",
+     "en": "The report goes to the client."
+    },
+    {
+     "de": "Die Elektrofachkraft erstellt oder bestätigt ihn.",
+     "ar": "ويعدّه الكهربائي المؤهَّل أو يصادق عليه.",
+     "en": "The qualified electrician prepares or confirms it."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Drei Schritte",
+    "heading": "Besichtigen, Erproben, Messen",
+    "items": [
+     "Besichtigen: Ist alles richtig gebaut?",
+     "Erproben: Funktioniert alles wie vorgesehen?",
+     "Messen: Stimmen die Werte?",
+     "Bewerten: Ergebnis im Protokoll"
+    ],
+    "terms": [
+     {
+      "de": "Besichtigen",
+      "ar": "المعاينة البصرية",
+      "en": "visual inspection"
+     },
+     {
+      "de": "Erproben",
+      "ar": "الاختبار الوظيفي",
+      "en": "functional testing"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Erstprüfung hat drei Kernschritte.",
+     "ar": "للفحص الأولي ثلاث خطوات أساسية.",
+     "en": "The initial inspection has three core steps."
+    },
+    {
+     "de": "Beim Besichtigen prüfen Sie, ob die Anlage richtig gebaut ist.",
+     "ar": "في المعاينة البصرية تتحققون من سلامة بناء المنشأة.",
+     "en": "When inspecting, you check whether the installation is built correctly."
+    },
+    {
+     "de": "Beim Erproben testen Sie die Funktion.",
+     "ar": "في الاختبار الوظيفي تجرّبون الوظيفة.",
+     "en": "When testing, you check the function."
+    },
+    {
+     "de": "Beim Messen ermitteln Sie die Werte mit Messgeräten.",
+     "ar": "وفي القياس تحصلون على القيم بأجهزة القياس.",
+     "en": "When measuring, you determine the values with instruments."
+    },
+    {
+     "de": "Am Ende bewerten Sie das Ergebnis und halten es im Protokoll fest.",
+     "ar": "وفي النهاية تقيّمون النتيجة وتدوّنونها في المحضر.",
+     "en": "At the end you assess the result and record it in the report."
+    },
+    {
+     "de": "Erst dann folgt die Messung.",
+     "ar": "وبعد ذلك فقط يأتي القياس.",
+     "en": "Only then does the measurement follow."
+    },
+    {
+     "de": "Der Grund ist einfach: Offensichtliche Fehler erkennt man ohne Messgerät.",
+     "ar": "والسبب بسيط: الأخطاء الواضحة تُكتشف دون جهاز قياس.",
+     "en": "The reason is simple: obvious errors are found without an instrument."
+    },
+    {
+     "de": "Das spart Zeit und schützt die Geräte.",
+     "ar": "وهذا يوفّر الوقت ويحمي الأجهزة.",
+     "en": "This saves time and protects the devices."
+    },
+    {
+     "de": "Bewerten heißt: Passt das Ergebnis zu den Anforderungen?",
+     "ar": "التقييم يعني: هل تلائم النتيجة المتطلبات؟",
+     "en": "Assessing means: does the result meet the requirements?"
+    },
+    {
+     "de": "Wenn nicht, wird der Fehler behoben und neu geprüft.",
+     "ar": "وإن لم تلائمها يُصلَح الخطأ ويُعاد الفحص.",
+     "en": "If not, the fault is fixed and tested again."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Sicherheit",
+    "heading": "Sicherheit beim Prüfen",
+    "items": [
+     "1. Freischalten",
+     "2. Gegen Wiedereinschalten sichern",
+     "3. Spannungsfreiheit allpolig feststellen",
+     "4. Erden und kurzschließen",
+     "5. Benachbarte Teile abdecken oder abschranken"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Prüfen und Messen ist Arbeit an elektrischen Anlagen.",
+     "ar": "الفحص والقياس عمل على المنشآت الكهربائية.",
+     "en": "Testing and measuring is work on electrical installations."
+    },
+    {
+     "de": "Dafür gilt: Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft.",
+     "ar": "وهنا ينطبق: كهربائي مؤهَّل أو تحت إدارة وإشراف كهربائي مؤهَّل.",
+     "en": "The rule is: qualified electrician, or under the direction and supervision of one."
+    },
+    {
+     "de": "Bei Arbeiten an der Anlage gelten die fünf Sicherheitsregeln.",
+     "ar": "عند العمل على المنشأة تنطبق قواعد السلامة الخمس.",
+     "en": "When working on the installation, the five safety rules apply."
+    },
+    {
+     "de": "Erstens: freischalten. Zweitens: gegen Wiedereinschalten sichern.",
+     "ar": "أولًا: فصل الجهد. ثانيًا: تأمينها ضد إعادة التشغيل.",
+     "en": "First: isolate. Second: secure against reconnection."
+    },
+    {
+     "de": "Drittens: Spannungsfreiheit allpolig feststellen.",
+     "ar": "ثالثًا: التحقق من انعدام الجهد في كل الأقطاب.",
+     "en": "Third: verify absence of voltage on all poles."
+    },
+    {
+     "de": "Viertens: erden und kurzschließen. Fünftens: benachbarte Teile abdecken oder abschranken.",
+     "ar": "رابعًا: التأريض والتقصير. خامسًا: تغطية الأجزاء المجاورة أو إحاطتها بحواجز.",
+     "en": "Fourth: earth and short-circuit. Fifth: cover or fence off neighbouring parts."
+    },
+    {
+     "de": "Das ist die Ordnung aus Video fünf. Lernen Sie alle fünf Regeln.",
+     "ar": "هذا هو الترتيب من الفيديو الخامس. احفظوا القواعد الخمس كلها.",
+     "en": "This is the order from video five. Learn all five rules."
+    },
+    {
+     "de": "Ein Hinweis: Nicht jeder Prüfschritt läuft im spannungsfreien Zustand.",
+     "ar": "تنبيه: ليست كل خطوة فحص تجري دون جهد.",
+     "en": "A note: not every test step runs de-energized."
+    },
+    {
+     "de": "Welche Arbeiten erlaubt sind, regelt der Betrieb.",
+     "ar": "ما الأعمال المسموح بها تحدده المنشأة.",
+     "en": "Which work is allowed is set by the company."
+    },
+    {
+     "de": "Als Ingenieur arbeiten Sie hier nur nach Freigabe und Unterweisung.",
+     "ar": "وكمهندس تعملون هنا بعد الموافقة والتوجيه والتعليمات (Unterweisung) فقط.",
+     "en": "As an engineer you work here only after approval and instruction."
+    },
+    {
+     "de": "Notieren Sie auch, wer die Anlage freigegeben hat.",
+     "ar": "دوّنوا أيضًا من أعطى الإذن للعمل على المنشأة.",
+     "en": "Also note who released the installation for work."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Messprotokoll",
+    "heading": "Was ein Messprotokoll enthält",
+    "items": [
+     "Durchgängigkeit | Schutz- und Potentialausgleich",
+     "Isolationswiderstand | Messwerte je Stromkreis",
+     "RCD | Auslösestrom und Auslösezeit",
+     "Schleifenimpedanz | Messwert je Stromkreis",
+     "Spannung | Frequenz und Phasenfolge",
+     "Messgerät | Typ, Nummer, Prüfstatus"
+    ],
+    "terms": [
+     {
+      "de": "Messprotokoll",
+      "ar": "محضر القياس",
+      "en": "measurement report"
+     },
+     {
+      "de": "Schleifenimpedanz",
+      "ar": "معاوقة حلقة العطل",
+      "en": "loop impedance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Messprotokoll hält die gemessenen Werte fest.",
+     "ar": "يدوّن محضر القياس القيم المقيسة.",
+     "en": "The measurement report records the measured values."
+    },
+    {
+     "de": "Typisch sind die Durchgängigkeit von Schutzleiter und Potentialausgleich.",
+     "ar": "من المعتاد قياس استمرارية موصل الحماية والربط المتساوي الجهد.",
+     "en": "Typical is continuity of the protective conductor and equipotential bonding."
+    },
+    {
+     "de": "Dazu kommt der Isolationswiderstand.",
+     "ar": "يضاف إليه مقاومة العزل.",
+     "en": "Insulation resistance is added."
+    },
+    {
+     "de": "Bei Fehlerstrom-Schutzeinrichtungen notiert man Auslösestrom und Auslösezeit.",
+     "ar": "وفي وسائل الحماية من التيار المتبقي يُدوَّن تيار الفصل وزمن الفصل.",
+     "en": "For residual current devices, you note tripping current and tripping time.",
+     "tts": "Bei Fehlerstrom-Schutzeinrichtungen notiert man Auslösestrom und Auslösezeit."
+    },
+    {
+     "de": "Auch die Schleifenimpedanz wird gemessen und eingetragen.",
+     "ar": "كما تُقاس معاوقة حلقة العطل وتُسجَّل.",
+     "en": "The loop impedance is also measured and entered."
+    },
+    {
+     "de": "Spannung, Frequenz und Phasenfolge ergänzen die Liste.",
+     "ar": "يكمل القائمةَ الجهدُ والتردد وتسلسل الأطوار.",
+     "en": "Voltage, frequency and phase sequence complete the list."
+    },
+    {
+     "de": "Grenzwerte nennen wir hier nicht. Sie stehen in den aktuellen Normen.",
+     "ar": "لا نذكر هنا الحدود. فهي في المعايير الحالية.",
+     "en": "We name no limit values here. They are in the current standards."
+    },
+    {
+     "de": "Jeder Stromkreis bekommt eine eigene Zeile.",
+     "ar": "كل دارة كهربائية تحصل على سطر خاص.",
+     "en": "Every circuit gets its own line."
+    },
+    {
+     "de": "So lassen sich Werte später leicht vergleichen.",
+     "ar": "هكذا يسهل لاحقًا مقارنة القيم.",
+     "en": "This makes values easy to compare later."
+    },
+    {
+     "de": "Ein Protokoll ohne Messwerte hilft bei der nächsten Prüfung wenig.",
+     "ar": "محضر بلا قيم قياس يفيد قليلًا في الفحص التالي.",
+     "en": "A report without measured values helps little at the next inspection."
+    },
+    {
+     "de": "Die Reihenfolge der Spalten sollte immer gleich sein.",
+     "ar": "يُفضَّل أن يكون ترتيب الأعمدة ثابتًا دائمًا.",
+     "en": "The order of the columns should always be the same."
+    },
+    {
+     "de": "Das erleichtert die Kontrolle durch Dritte.",
+     "ar": "وهذا يسهّل المراجعة من طرف آخرين.",
+     "en": "That makes review by third parties easier."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Messgeräte",
+    "heading": "Messgeräte und Messunsicherheit",
+    "items": [
+     "Gerät: Typ und Nummer notieren",
+     "Kalibrierung: Rückführbar auf Normale",
+     "Messunsicherheit: Wert plus Bereich",
+     "Messkategorie: Gerät passt zum Messort"
+    ],
+    "terms": [
+     {
+      "de": "Messunsicherheit",
+      "ar": "عدم اليقين في القياس",
+      "en": "measurement uncertainty"
+     },
+     {
+      "de": "Kalibrierung",
+      "ar": "المعايرة",
+      "en": "calibration"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Messwert ist nur so gut wie das Messgerät.",
+     "ar": "قيمة القياس بقدر جودة جهاز القياس.",
+     "en": "A measured value is only as good as the instrument."
+    },
+    {
+     "de": "Deshalb steht das Messgerät im Protokoll, mit Typ und Nummer.",
+     "ar": "لذلك يُذكر جهاز القياس في المحضر مع نوعه ورقمه.",
+     "en": "So the instrument is listed in the report, with type and number."
+    },
+    {
+     "de": "Die Kalibrierung muss auf nationale Normale rückführbar sein.",
+     "ar": "يجب أن تكون المعايرة قابلة للتتبّع إلى المعايير الوطنية.",
+     "en": "Calibration must be traceable to national standards."
+    },
+    {
+     "de": "Jedes Ergebnis hat eine Messunsicherheit.",
+     "ar": "لكل نتيجة عدم يقين في القياس.",
+     "en": "Every result has a measurement uncertainty."
+    },
+    {
+     "de": "Die Isolationsmessung erfolgt an einer vom Netz getrennten Anlage.",
+     "ar": "يُجرى قياس العزل على منشأة مفصولة عن الشبكة.",
+     "en": "Insulation measurement takes place on an installation disconnected from the grid."
+    },
+    {
+     "de": "Die Messkategorie zeigt, wo ein Gerät eingesetzt werden darf.",
+     "ar": "تبيّن فئة القياس أين يجوز استخدام الجهاز.",
+     "en": "The measurement category shows where an instrument may be used."
+    },
+    {
+     "de": "Messleitungen müssen zur Messaufgabe passen.",
+     "ar": "يجب أن تلائم أسلاك القياس مهمة القياس.",
+     "en": "Test leads must suit the measuring task."
+    },
+    {
+     "de": "Ein Multimeter ersetzt kein Isolationsmessgerät.",
+     "ar": "المقياس المتعدد لا يغني عن جهاز قياس العزل.",
+     "en": "A multimeter does not replace an insulation tester."
+    },
+    {
+     "de": "Tragen Sie auch das Datum der letzten Kalibrierung ein.",
+     "ar": "سجّلوا أيضًا تاريخ آخر معايرة.",
+     "en": "Also enter the date of the last calibration."
+    },
+    {
+     "de": "So sieht jeder, ob das Gerät geeignet war.",
+     "ar": "هكذا يرى الجميع هل كان الجهاز مناسبًا.",
+     "en": "So everyone can see whether the instrument was suitable."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Prüfprotokoll",
+    "heading": "Das Prüfprotokoll",
+    "items": [
+     "Objekt und Anlagenteile",
+     "Auftraggeber und Auftragnehmer",
+     "Prüfer, Datum, Unterschrift",
+     "Prüfgrundlage und Messgeräte",
+     "Bewertung und nächster Termin"
+    ],
+    "terms": [
+     {
+      "de": "Prüfprotokoll",
+      "ar": "محضر الفحص",
+      "en": "test report"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Prüfprotokoll fasst die Prüfung zusammen.",
+     "ar": "يلخّص محضر الفحص عملية الفحص.",
+     "en": "The test report summarizes the inspection."
+    },
+    {
+     "de": "Es nennt das Objekt und die geprüften Anlagenteile.",
+     "ar": "يذكر الموضوع وأجزاء المنشأة المفحوصة.",
+     "en": "It names the object and the inspected parts."
+    },
+    {
+     "de": "Name und Anschrift von Auftraggeber und Auftragnehmer stehen darin.",
+     "ar": "وفيه اسم وعنوان الجهة المُشغِّلة للمشروع والمقاول.",
+     "en": "The names and addresses of client and contractor are in it."
+    },
+    {
+     "de": "Dazu kommen Prüfer, Datum und Unterschrift.",
+     "ar": "ويضاف الفاحص والتاريخ والتوقيع.",
+     "en": "Inspector, date and signature are added."
+    },
+    {
+     "de": "Wichtig ist auch die Bewertung der Messwerte.",
+     "ar": "ومن المهم أيضًا تقييم قيم القياس.",
+     "en": "The assessment of the measured values is also important."
+    },
+    {
+     "de": "Bei wiederkehrenden Prüfungen kommt der nächste Termin hinzu.",
+     "ar": "وفي الفحوص الدورية يُضاف موعد الفحص التالي.",
+     "en": "For recurring inspections, the next date is added."
+    },
+    {
+     "de": "Das Protokoll muss auch ohne Sie verständlich sein.",
+     "ar": "يجب أن يكون المحضر مفهومًا حتى بغيابكم.",
+     "en": "The report must be understandable even without you."
+    },
+    {
+     "de": "Schreiben Sie lesbar, vollständig und mit Datum.",
+     "ar": "اكتبوا بوضوح وبشكل كامل مع التاريخ.",
+     "en": "Write legibly, completely and with a date."
+    },
+    {
+     "de": "Die Inhalte sind typisch, die genaue Form legt die Prüfgrundlage fest.",
+     "ar": "المحتويات نموذجية، أما الشكل الدقيق فتحدده مرجعية الفحص.",
+     "en": "The contents are typical; the exact form is set by the test basis."
+    },
+    {
+     "de": "Die Prüfgrundlage nennt, nach welchen Regeln geprüft wurde.",
+     "ar": "تذكر مرجعية الفحص القواعد التي جرى الفحص وفقها.",
+     "en": "The test basis names the rules according to which testing was done."
+    },
+    {
+     "de": "Eine Unterschrift ohne Namen reicht nicht.",
+     "ar": "التوقيع دون اسم لا يكفي.",
+     "en": "A signature without a name is not enough."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Verantwortung",
+    "heading": "Wer prüft, wer unterschreibt",
+    "items": [
+     "Prüfen | Elektrofachkraft, befähigt",
+     "Mitarbeit | Unter Leitung und Aufsicht",
+     "Ingenieur | Koordiniert und kontrolliert",
+     "Unterschrift | Nur im Rahmen der Befugnis",
+     "Betreiber | Bleibt verantwortlich"
+    ],
+    "terms": [
+     {
+      "de": "Befugnis",
+      "ar": "الصلاحية",
+      "en": "authority"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wer darf eigentlich prüfen und unterschreiben?",
+     "ar": "من يحق له الفحص والتوقيع؟",
+     "en": "Who may actually test and sign?"
+    },
+    {
+     "de": "Die Prüfung führt eine befähigte Elektrofachkraft durch.",
+     "ar": "يجري الفحص كهربائي مؤهَّل ومخوَّل.",
+     "en": "A competent qualified electrician carries out the inspection."
+    },
+    {
+     "de": "Andere Personen helfen unter ihrer Leitung und Aufsicht.",
+     "ar": "ويساعد آخرون تحت إدارتها وإشرافها.",
+     "en": "Others help under their direction and supervision."
+    },
+    {
+     "de": "Als Ingenieur koordinieren und kontrollieren Sie oft die Unterlagen.",
+     "ar": "وكمهندس غالبًا ما تنسّقون المستندات وتراجعونها.",
+     "en": "As an engineer, you often coordinate and review the documents."
+    },
+    {
+     "de": "Unterschreiben dürfen Sie nur im Rahmen Ihrer Befugnis.",
+     "ar": "لا توقّعون إلا ضمن حدود صلاحيتكم.",
+     "en": "You may sign only within your authority."
+    },
+    {
+     "de": "Klären Sie diese Befugnis im Unternehmen vorher.",
+     "ar": "وضّحوا هذه الصلاحية داخل الشركة مسبقًا.",
+     "en": "Clarify this authority in the company beforehand."
+    },
+    {
+     "de": "Die Verantwortung bleibt immer nachvollziehbar.",
+     "ar": "تبقى المسؤولية قابلة للتتبّع دائمًا.",
+     "en": "Responsibility always remains traceable."
+    },
+    {
+     "de": "Name und Datum zeigen, wer was geprüft hat.",
+     "ar": "يبيّن الاسم والتاريخ من فحص ماذا.",
+     "en": "Name and date show who tested what."
+    },
+    {
+     "de": "Das gilt für Elektrofachkräfte genauso wie für Ingenieure.",
+     "ar": "وينطبق ذلك على الكهربائيين المؤهَّلين كما على المهندسين.",
+     "en": "This applies to qualified electricians as well as engineers."
+    },
+    {
+     "de": "Fragen Sie bei Unsicherheit nach, bevor Sie unterschreiben.",
+     "ar": "اسألوا عند عدم اليقين قبل أن توقّعوا.",
+     "en": "Ask when unsure before you sign."
+    },
+    {
+     "de": "Das schützt Sie und Ihr Unternehmen.",
+     "ar": "هذا يحميكم ويحمي شركتكم.",
+     "en": "That protects you and your company."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Übergabe",
+    "heading": "Übergabeprotokoll und Abnahme",
+    "items": [
+     "Übergabeliste: Alle Unterlagen aufführen",
+     "Einweisung: Betreiber lernt die Bedienung",
+     "Restpunkte: Offene Mängel notieren",
+     "Vertrag: Regelt die Rechtsfolgen"
+    ],
+    "terms": [
+     {
+      "de": "Übergabeprotokoll",
+      "ar": "محضر التسليم",
+      "en": "handover report"
+     },
+     {
+      "de": "Abnahme",
+      "ar": "الاستلام (Abnahme)",
+      "en": "acceptance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Ende des Projekts steht die Übergabe.",
+     "ar": "في نهاية المشروع يأتي التسليم.",
+     "en": "At the end of the project comes the handover."
+    },
+    {
+     "de": "Das Übergabeprotokoll führt alle übergebenen Unterlagen auf.",
+     "ar": "يسرد محضر التسليم جميع المستندات المسلَّمة.",
+     "en": "The handover report lists all documents handed over."
+    },
+    {
+     "de": "Oft gibt es eine Einweisung für den Betreiber.",
+     "ar": "وغالبًا توجد تعليمات تشغيل للمشغّل.",
+     "en": "There is often an instruction session for the operator."
+    },
+    {
+     "de": "Offene Punkte werden im Protokoll notiert.",
+     "ar": "تُدوَّن النقاط المفتوحة في المحضر.",
+     "en": "Open points are noted in the report."
+    },
+    {
+     "de": "Welche Folgen die Abnahme rechtlich hat, regelt der Vertrag.",
+     "ar": "أما الآثار القانونية للاستلام فيحددها العقد.",
+     "en": "What legal consequences the acceptance has is set by the contract."
+    },
+    {
+     "de": "Dazu geben wir hier keine Rechtsberatung.",
+     "ar": "ولا نقدّم هنا استشارة قانونية حول ذلك.",
+     "en": "We give no legal advice on this here."
+    },
+    {
+     "de": "Eine Checkliste hilft bei jeder Übergabe.",
+     "ar": "قائمة التحقق تساعد في كل تسليم.",
+     "en": "A checklist helps with every handover."
+    },
+    {
+     "de": "Sind alle Pläne, Protokolle und Anleitungen vollständig?",
+     "ar": "هل المخططات والمحاضر والأدلة كاملة؟",
+     "en": "Are all plans, reports and instructions complete?"
+    },
+    {
+     "de": "Haben beide Seiten die Liste unterschrieben?",
+     "ar": "هل وقّع الطرفان على القائمة؟",
+     "en": "Have both sides signed the list?"
+    },
+    {
+     "de": "Eine Einweisung sollte praktisch an der Anlage stattfinden.",
+     "ar": "ينبغي أن يجري التدريب عمليًا عند المنشأة.",
+     "en": "An instruction session should take place practically at the installation."
+    },
+    {
+     "de": "Der Betreiber stellt dabei Fragen und notiert Besonderheiten.",
+     "ar": "يطرح المشغّل أسئلة ويدوّن الخصوصيات.",
+     "en": "The operator asks questions and notes special features."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Anleitung",
+    "heading": "Betriebsanleitung und Bedienung",
+    "items": [
+     "Bedienung im Normalbetrieb",
+     "Verhalten bei Störungen",
+     "Hinweise zur Instandhaltung",
+     "Verständlich und vollständig",
+     "Für den Betreiber geschrieben"
+    ],
+    "terms": [
+     {
+      "de": "Betriebsanleitung",
+      "ar": "دليل التشغيل",
+      "en": "operating instructions"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zur Übergabe gehört auch eine Betriebsanleitung.",
+     "ar": "يدخل في التسليم أيضًا دليل التشغيل.",
+     "en": "Operating instructions are also part of the handover."
+    },
+    {
+     "de": "Sie erklärt die Bedienung im Normalbetrieb.",
+     "ar": "يشرح التشغيل في الوضع العادي.",
+     "en": "They explain operation in normal mode."
+    },
+    {
+     "de": "Sie sagt, wie man bei Störungen vorgeht.",
+     "ar": "ويبيّن كيفية التصرف عند الأعطال.",
+     "en": "They say how to proceed during faults."
+    },
+    {
+     "de": "Auch Hinweise zur Instandhaltung gehören hinein.",
+     "ar": "وتُدرج فيه أيضًا إرشادات الصيانة.",
+     "en": "Maintenance notes belong in it too."
+    },
+    {
+     "de": "Für Anleitungen gibt es die Norm DIN EN IEC/IEEE 82079-1.",
+     "ar": "وللأدلة يوجد المعيار DIN EN IEC/IEEE 82079-1 المعني بإعداد الأدلة.",
+     "en": "For instructions there is the standard DIN EN IEC/IEEE 82079-1.",
+     "tts": "Für Anleitungen gibt es die Norm Din E-En I-E-Ze I-Triple-E achtzig-zwei-null-sieben-neun Strich eins."
+    },
+    {
+     "de": "Schreiben Sie klar für Menschen ohne Vorwissen.",
+     "ar": "اكتبوا بوضوح لأشخاص بلا معرفة سابقة.",
+     "en": "Write clearly for people without prior knowledge."
+    },
+    {
+     "de": "Gute Anleitungen reduzieren Bedienfehler.",
+     "ar": "الأدلة الجيدة تقلل أخطاء التشغيل.",
+     "en": "Good instructions reduce operating errors."
+    },
+    {
+     "de": "Sie enthalten auch Warnhinweise, kurz und eindeutig.",
+     "ar": "وتتضمن أيضًا تحذيرات قصيرة وواضحة.",
+     "en": "They also contain warnings, short and unambiguous."
+    },
+    {
+     "de": "Bilder, Tabellen und Schaltpläne unterstützen den Text.",
+     "ar": "تدعم الصور والجداول والمخططات النص.",
+     "en": "Pictures, tables and diagrams support the text."
+    },
+    {
+     "de": "Eine gute Anleitung nennt auch Ansprechpartner.",
+     "ar": "الدليل الجيد يذكر أيضًا جهات الاتصال.",
+     "en": "A good manual also names contact persons."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Wiederkehrende Prüfung",
+    "heading": "Prüfungen im Betrieb",
+    "items": [
+     "Grundlage | DGUV Vorschrift 3 und weitere",
+     "Zeitpunkt | Vor Inbetriebnahme, nach Änderung",
+     "Wiederholung | In bestimmten Zeitabständen",
+     "Fristen | Mängel rechtzeitig erkennen",
+     "Durchführung | Elektrofachkraft oder unter Aufsicht"
+    ],
+    "terms": [
+     {
+      "de": "wiederkehrende Prüfung",
+      "ar": "الفحص الدوري",
+      "en": "recurring inspection"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Mit der Übergabe endet die Prüfung nicht.",
+     "ar": "لا ينتهي الفحص بالتسليم.",
+     "en": "The inspection does not end with handover."
+    },
+    {
+     "de": "Nach der Vorschrift DGUV V3 müssen Anlagen auch wiederholt geprüft werden.",
+     "ar": "وفق لائحة الوقاية من الحوادث رقم ٣ يجب فحص المنشآت دوريًا.",
+     "en": "Under DGUV V3, installations must also be inspected repeatedly.",
+     "tts": "Nach der Vorschrift De-Ge-U-Fau Fau-drei müssen Anlagen auch wiederholt geprüft werden."
+    },
+    {
+     "de": "Die Prüfung vor der ersten Inbetriebnahme und nach Änderungen kommt hinzu.",
+     "ar": "ويضاف الفحص قبل التشغيل الأول وبعد التعديلات.",
+     "en": "Inspection before first commissioning and after changes is added."
+    },
+    {
+     "de": "Eine Elektrofachkraft oder jemand unter ihrer Aufsicht führt sie durch.",
+     "ar": "يجريه كهربائي مؤهَّل أو شخص تحت إشرافه.",
+     "en": "A qualified electrician or someone under supervision carries it out."
+    },
+    {
+     "de": "Der Unternehmer lässt diese Prüfungen veranlassen.",
+     "ar": "ويكلّف صاحب المنشأة بإجراء هذه الفحوص.",
+     "en": "The employer has these inspections arranged."
+    },
+    {
+     "de": "Auch Änderungen an der Anlage lösen eine neue Prüfung aus.",
+     "ar": "التعديلات على المنشأة تستدعي أيضًا فحصًا جديدًا.",
+     "en": "Changes to the installation also trigger a new inspection."
+    },
+    {
+     "de": "Dann ändern sich auch Pläne und Protokolle.",
+     "ar": "عندها تتغير المخططات والمحاضر أيضًا.",
+     "en": "Then plans and reports change as well."
+    },
+    {
+     "de": "So bleibt die Dokumentation aktuell.",
+     "ar": "هكذا تبقى الوثائق محدّثة.",
+     "en": "This keeps the documentation up to date."
+    },
+    {
+     "de": "Die Dokumentation der Erstprüfung ist dafür die Vergleichsbasis.",
+     "ar": "وتشكّل وثائق الفحص الأولي أساس المقارنة لذلك.",
+     "en": "The documentation of the initial inspection is the basis of comparison for this."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Prüffristen",
+    "heading": "Fristen: das Prinzip",
+    "items": [
+     "Keine feste Zahl für alle Fälle",
+     "Festlegung per Gefährdungsbeurteilung",
+     "Beratung durch Elektrofachkraft",
+     "Erstprüfung als Basis",
+     "Fristen bei Bedarf anpassen"
+    ],
+    "terms": [
+     {
+      "de": "Gefährdungsbeurteilung",
+      "ar": "تقييم المخاطر",
+      "en": "risk assessment"
+     },
+     {
+      "de": "Prüffrist",
+      "ar": "مدة الفحص الدوري",
+      "en": "inspection interval"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie oft muss man wiederholt prüfen?",
+     "ar": "كم مرة يجب إعادة الفحص؟",
+     "en": "How often must one repeat the inspection?"
+    },
+    {
+     "de": "Eine feste Zahl für alle Fälle gibt es nicht.",
+     "ar": "لا يوجد رقم ثابت لجميع الحالات.",
+     "en": "There is no fixed number for all cases."
+    },
+    {
+     "de": "Der Arbeitgeber legt die Fristen in der Gefährdungsbeurteilung fest.",
+     "ar": "يحدد صاحب العمل المدد في تقييم المخاطر.",
+     "en": "The employer sets the intervals in the risk assessment."
+    },
+    {
+     "de": "Die Fristen müssen Mängel rechtzeitig erkennen lassen.",
+     "ar": "يجب أن تتيح المدد اكتشاف العيوب في الوقت المناسب.",
+     "en": "The intervals must allow defects to be found in time."
+    },
+    {
+     "de": "Dabei hilft die Beratung durch eine Elektrofachkraft.",
+     "ar": "وهنا تفيد استشارة كهربائي مؤهَّل.",
+     "en": "Advice from a qualified electrician helps here."
+    },
+    {
+     "de": "Richtwerte aus dem Internet ersetzen diese Beurteilung nicht.",
+     "ar": "لا تغني القيم الإرشادية من الإنترنت عن هذا التقييم.",
+     "en": "Guide values from the internet do not replace this assessment."
+    },
+    {
+     "de": "Dabei zählen Art der Nutzung und Umgebung.",
+     "ar": "وهنا تُحتسب طبيعة الاستخدام والبيئة.",
+     "en": "Type of use and environment count here."
+    },
+    {
+     "de": "Eine staubige Werkstatt ist anders als ein Büro.",
+     "ar": "الورشة المغبرة تختلف عن المكتب.",
+     "en": "A dusty workshop differs from an office."
+    },
+    {
+     "de": "Die Ergebnisse früherer Prüfungen helfen, Fristen zu bestätigen oder anzupassen.",
+     "ar": "وتساعد نتائج الفحوص السابقة على تأكيد المدد أو تعديلها.",
+     "en": "Results of earlier inspections help confirm or adjust intervals."
+    },
+    {
+     "de": "Fachleute beraten Sie bei der Auswahl, die Entscheidung trifft der Betrieb.",
+     "ar": "يستشيركم المختصون في الاختيار، والقرار للمنشأة.",
+     "en": "Specialists advise you on the choice; the company decides."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Betreiber",
+    "heading": "Archivierung und Verantwortung",
+    "items": [
+     "Aufbewahren: Pläne und Protokolle sichern",
+     "Vergleichen: Erstwerte für spätere Prüfungen",
+     "Aktualisieren: Änderungen nachtragen",
+     "Auffindbar: Ordnung und Zugriff regeln"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nach der Übergabe liegt die Anlage beim Betreiber.",
+     "ar": "بعد التسليم تصبح المنشأة عند المشغّل.",
+     "en": "After handover, the installation belongs to the operator."
+    },
+    {
+     "de": "Er sollte Pläne und Prüfprotokolle mit Messwerten aufbewahren.",
+     "ar": "ينبغي له حفظ المخططات ومحاضر الفحص مع قيم القياس.",
+     "en": "He should keep plans and test reports with measured values."
+    },
+    {
+     "de": "Fehlen die Erstwerte, kann eine spätere Prüfung aufwendiger werden.",
+     "ar": "وإذا غابت القيم الأولى، قد يصبح الفحص اللاحق أكثر كلفة وجهدًا.",
+     "en": "If the initial values are missing, a later inspection can become more extensive."
+    },
+    {
+     "de": "Die Betriebssicherheitsverordnung verlangt Aufzeichnungen über Prüfungen.",
+     "ar": "وتتطلب لائحة السلامة التشغيلية تسجيل الفحوص.",
+     "en": "The Operational Safety Ordinance requires records of inspections."
+    },
+    {
+     "de": "Wie lange Sie aufbewahren müssen, klären Sie im Einzelfall.",
+     "ar": "أما مدة الحفظ المطلوبة فتوضّحونها في كل حالة على حدة.",
+     "en": "How long you must keep records, you clarify case by case."
+    },
+    {
+     "de": "Als Ingenieur sollten Sie dem Betreiber das früh sagen.",
+     "ar": "وكمهندس ينبغي أن تخبروا المشغّل بذلك مبكرًا.",
+     "en": "As an engineer you should tell the operator early."
+    },
+    {
+     "de": "Eine klare Ablage spart später viel Suche.",
+     "ar": "الحفظ المنظّم يوفّر الكثير من البحث لاحقًا.",
+     "en": "Clear filing saves a lot of searching later."
+    },
+    {
+     "de": "Papier und digitale Dateien müssen zusammenpassen.",
+     "ar": "يجب أن تتطابق النسخ الورقية والملفات الرقمية.",
+     "en": "Paper and digital files must match."
+    },
+    {
+     "de": "Die Verantwortung für den sicheren Betrieb bleibt beim Betreiber.",
+     "ar": "تبقى المسؤولية عن التشغيل الآمن على عاتق المشغّل.",
+     "en": "Responsibility for safe operation stays with the operator."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Übergabepaket auf einen Blick",
+    "items": [
+     "Pläne, As-built, Revisionsstand",
+     "Erstprüfung: Besichtigen, Erproben, Messen",
+     "Mess- und Prüfprotokoll",
+     "Betriebsanleitung und Übergabeprotokoll",
+     "Betreiber: archivieren, wiederkehrend prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "نلخّص.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "Zur Dokumentation gehören Pläne im tatsächlichen Stand.",
+     "ar": "تشمل الوثائق مخططات بوضعها الفعلي.",
+     "en": "Documentation includes plans in their actual state."
+    },
+    {
+     "de": "Die Erstprüfung besteht aus Besichtigen, Erproben und Messen.",
+     "ar": "يتكوّن الفحص الأولي من المعاينة والاختبار والقياس.",
+     "en": "The initial inspection consists of inspecting, testing and measuring."
+    },
+    {
+     "de": "Messprotokoll und Prüfprotokoll halten alle Ergebnisse fest.",
+     "ar": "يسجّل محضر القياس ومحضر الفحص جميع النتائج.",
+     "en": "The measurement report and test report record all results."
+    },
+    {
+     "de": "Betriebsanleitung und Übergabeprotokoll schließen das Paket ab.",
+     "ar": "يختتم دليل التشغيل ومحضر التسليم الحزمة.",
+     "en": "Operating instructions and handover report complete the package."
+    },
+    {
+     "de": "Der Betreiber archiviert und lässt wiederkehrend prüfen.",
+     "ar": "ويحفظ المشغّل الوثائق ويكلّف بالفحوص الدورية.",
+     "en": "The operator archives and has recurring inspections carried out."
+    },
+    {
+     "de": "Merken Sie sich das Wort Paket.",
+     "ar": "تذكّروا كلمة حزمة.",
+     "en": "Remember the word package."
+    },
+    {
+     "de": "Ohne Pläne, Messwerte und Anleitung ist die Übergabe unvollständig.",
+     "ar": "بدون مخططات وقيم قياس ودليل يكون التسليم ناقصًا.",
+     "en": "Without plans, measured values and instructions, the handover is incomplete."
+    },
+    {
+     "de": "Und bei jeder Arbeit an der Anlage gelten die fünf Sicherheitsregeln.",
+     "ar": "وعند أي عمل على المنشأة تنطبق قواعد السلامة الخمس.",
+     "en": "And for any work on the installation, the five safety rules apply."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zum Schluss",
+    "heading": "Aktuelle Fassungen prüfen",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Aktuelle Fassung prüfen",
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وأخيرًا، ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Gesetze, Vorschriften und Normen ändern sich.",
+     "ar": "القوانين واللوائح والمعايير تتغير.",
+     "en": "Laws, regulations and standards change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung.",
+     "ar": "راجعوا دائمًا النسخة الحالية.",
+     "en": "Always check the current version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا هندسية.",
+     "en": "It is not legal or engineering advice."
+    },
+    {
+     "de": "Im Zweifel fragen Sie Ihre verantwortliche Elektrofachkraft.",
+     "ar": "في حال الشك اسألوا الكهربائي المؤهَّل المسؤول لديكم.",
+     "en": "If in doubt, ask your responsible qualified electrician."
+    },
+    {
+     "de": "Bleiben Sie neugierig und sicher.",
+     "ar": "ابقوا فضوليين وآمنين.",
+     "en": "Stay curious and safe."
+    },
+    {
+     "de": "Im nächsten Video geht es um Projektarbeit, Verträge und Qualität.",
+     "ar": "في الفيديو القادم نتناول العمل في المشروع والعقود والجودة.",
+     "en": "The next video covers project work, contracts and quality."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Anlagendokumentation",
+   "ar": "توثيق المنشأة",
+   "en": "installation documentation"
+  },
+  {
+   "de": "der Schaltplan",
+   "ar": "مخطط الدارات",
+   "en": "circuit diagram"
+  },
+  {
+   "de": "der Klemmenplan",
+   "ar": "مخطط الأطراف",
+   "en": "terminal diagram"
+  },
+  {
+   "de": "der Revisionsstand",
+   "ar": "حالة المراجعة",
+   "en": "revision status"
+  },
+  {
+   "de": "die Erstprüfung",
+   "ar": "الفحص الأولي",
+   "en": "initial inspection"
+  },
+  {
+   "de": "das Besichtigen",
+   "ar": "المعاينة البصرية",
+   "en": "visual inspection"
+  },
+  {
+   "de": "das Erproben",
+   "ar": "الاختبار الوظيفي",
+   "en": "functional testing"
+  },
+  {
+   "de": "das Messprotokoll",
+   "ar": "محضر القياس",
+   "en": "measurement report"
+  },
+  {
+   "de": "das Prüfprotokoll",
+   "ar": "محضر الفحص",
+   "en": "test report"
+  },
+  {
+   "de": "die Messunsicherheit",
+   "ar": "عدم اليقين في القياس",
+   "en": "measurement uncertainty"
+  },
+  {
+   "de": "das Übergabeprotokoll",
+   "ar": "محضر التسليم",
+   "en": "handover report"
+  },
+  {
+   "de": "die Abnahme",
+   "ar": "الاستلام (Abnahme)",
+   "en": "acceptance"
+  },
+  {
+   "de": "die Betriebsanleitung",
+   "ar": "دليل التشغيل",
+   "en": "operating instructions"
+  },
+  {
+   "de": "die wiederkehrende Prüfung",
+   "ar": "الفحص الدوري",
+   "en": "recurring inspection"
+  },
+  {
+   "de": "die Gefährdungsbeurteilung",
+   "ar": "تقييم المخاطر",
+   "en": "risk assessment"
+  },
+  {
+   "de": "der Betreiber",
+   "ar": "مشغّل المنشأة",
+   "en": "operator"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was bedeutet As-built?",
+    "ar": "ماذا يعني As-built؟",
+    "en": "What does as-built mean?"
+   },
+   "options": [
+    {
+     "de": "Der ursprünglich geplante Zustand",
+     "ar": "الوضع المخطط في البداية",
+     "en": "The originally planned state"
+    },
+    {
+     "de": "Der tatsächlich ausgeführte Zustand",
+     "ar": "الوضع المنفَّذ فعليًا",
+     "en": "The state actually executed"
+    },
+    {
+     "de": "Ein Preisangebot",
+     "ar": "عرض سعر",
+     "en": "A price quote"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Welche drei Kernschritte hat die Erstprüfung?",
+    "ar": "ما الخطوات الأساسية الثلاث للفحص الأولي؟",
+    "en": "Which three core steps does the initial inspection have?"
+   },
+   "options": [
+    {
+     "de": "Besichtigen, Erproben, Messen",
+     "ar": "المعاينة والاختبار والقياس",
+     "en": "Inspect, test, measure"
+    },
+    {
+     "de": "Planen, Bestellen, Liefern",
+     "ar": "التخطيط والطلب والتوريد",
+     "en": "Plan, order, deliver"
+    },
+    {
+     "de": "Bohren, Fräsen, Schweißen",
+     "ar": "الثقب والتفريز واللحام",
+     "en": "Drill, mill, weld"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was steht typischerweise im Messprotokoll?",
+    "ar": "ماذا يرد عادةً في محضر القياس؟",
+    "en": "What is typically in the measurement report?"
+   },
+   "options": [
+    {
+     "de": "Nur der Firmenname",
+     "ar": "اسم الشركة فقط",
+     "en": "Only the company name"
+    },
+    {
+     "de": "Nur die Rechnung",
+     "ar": "الفاتورة فقط",
+     "en": "Only the invoice"
+    },
+    {
+     "de": "Messwerte und das verwendete Messgerät",
+     "ar": "قيم القياس وجهاز القياس المستخدم",
+     "en": "Measured values and the instrument used"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wer legt die Fristen wiederkehrender Prüfungen fest?",
+    "ar": "من يحدد مدد الفحوص الدورية؟",
+    "en": "Who sets the intervals of recurring inspections?"
+   },
+   "options": [
+    {
+     "de": "Der Arbeitgeber per Gefährdungsbeurteilung",
+     "ar": "صاحب العمل عبر تقييم المخاطر",
+     "en": "The employer through a risk assessment"
+    },
+    {
+     "de": "Ein fester Wert für alle Anlagen",
+     "ar": "قيمة ثابتة لجميع المنشآت",
+     "en": "A fixed value for all installations"
+    },
+    {
+     "de": "Der Hersteller allein",
+     "ar": "الشركة المصنِّعة وحدها",
+     "en": "The manufacturer alone"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was gilt bei Arbeiten an einer Anlage vor dem Prüfen?",
+    "ar": "ماذا ينطبق عند العمل على منشأة قبل الفحص؟",
+    "en": "What applies when working on an installation before testing?"
+   },
+   "options": [
+    {
+     "de": "Nur Regel eins ist nötig",
+     "ar": "القاعدة الأولى وحدها كافية",
+     "en": "Only rule one is needed"
+    },
+    {
+     "de": "Sicherheitsregeln sind freiwillig",
+     "ar": "قواعد السلامة اختيارية",
+     "en": "Safety rules are optional"
+    },
+    {
+     "de": "Alle fünf Sicherheitsregeln gelten",
+     "ar": "تنطبق قواعد السلامة الخمس كلها",
+     "en": "All five safety rules apply"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video: Projektarbeit, Verträge und Qualität",
+  "ar": "في الفيديو القادم: العمل في المشروع والعقود والجودة",
+  "en": "Next video: project work, contracts and quality"
+ },
+ "stand": "2026-10-21; prüfen: aktuelle Ausgabe DIN VDE 0100-600 (2017-06, Entwurf 2025-12) und Mindestinhalt Prüfbericht, DGUV Vorschrift 3 §5 und DGUV Information 203-071, BetrSichV-Aufzeichnungspflicht (Paragrafen nur sekundär), DIN EN IEC/IEEE 82079-1 (2020-04); bewusst nicht genannt: Prüffristen-Richtwerte, Grenzwerte, Aufbewahrungsfristen, Rechtsfolgen der Abnahme"
+}

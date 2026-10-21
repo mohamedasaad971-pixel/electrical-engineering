@@ -1,0 +1,195 @@
+{
+ "video": "E-D01",
+ "stand": "2026-10-21",
+ "facts": [
+  {
+   "claim": "Die Schutzart (IP-Code) nach DIN EN 60529 besteht aus den Buchstaben IP und zwei Kennziffern.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/schutz/schutzarten--ip-code-152990",
+   "source_name": "Baunetz Wissen, Schutzarten – IP-Code",
+   "confidence": "medium",
+   "note": "Norm selbst kostenpflichtig; mehrere Sekundärquellen stimmen überein (auch Wikipedia IP code, BGN)."
+  },
+  {
+   "claim": "Die erste Kennziffer beschreibt den Schutz gegen feste Fremdkörper und den Berührungsschutz (Skala 0 bis 6).",
+   "source_url": "https://vorschriften.bgn-branchenwissen.de/daten/asi/a3_10_0/4.htm",
+   "source_name": "BGN Branchenwissen, IP-Code",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die zweite Kennziffer beschreibt den Schutz gegen Wasser; 0 bedeutet kein Schutz.",
+   "source_url": "https://en.wikipedia.org/wiki/IP_code",
+   "source_name": "Wikipedia IP code (Sekundärquelle) / Galaxus",
+   "confidence": "medium",
+   "note": "Obergrenze der Skala (8 oder 9) je nach Ausgabe; im Video nicht genannt."
+  },
+  {
+   "claim": "Erste Ziffer 5 bedeutet staubgeschützt (Staub kann eindringen, aber nicht in schädlicher Menge); 6 bedeutet staubdicht.",
+   "source_url": "https://www.kiwa.com/de/de/serviceart/testen/ip-xx-prufung-gegen-das-eindringen-von-festen-fremdkorpern-und-staub-bis-ip-6x/",
+   "source_name": "Kiwa, IP-Prüfung feste Fremdkörper",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Zweite Ziffer 4 bedeutet Schutz gegen Spritzwasser aus allen Richtungen.",
+   "source_url": "https://www.electropedia.org/cdd/iec62683/iec62683.nsf/0/8885CB50C65D47BBC12584EC006DC0E4",
+   "source_name": "IEC Electropedia / Herstellerangaben",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "IP65 wird als staubdicht und gegen Strahlwasser aus beliebigem Winkel geschützt beschrieben.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/schutz/schutzarten--ip-code-152990",
+   "source_name": "Baunetz Wissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Ein X an Stelle einer Ziffer bedeutet, dass für diese Ziffer keine Angabe gemacht wird (z. B. IPX4).",
+   "source_url": "https://en.wikipedia.org/wiki/IP_code",
+   "source_name": "Wikipedia IP code",
+   "confidence": "medium",
+   "note": "Quellen formulieren 'nicht angegeben' bzw. 'nicht genug Daten'; im Video nur 'keine Angabe'."
+  },
+  {
+   "claim": "Schutzklasse (I, II, III) und Schutzart (IP) sind verschiedene Dinge: Schutzklassen betreffen den Schutz gegen gefährliche Berührungsspannung, IP betrifft Fremdkörper, Berührung und Wasser.",
+   "source_url": "https://www.sanier.de/elektroinstallation/beleuchtung/schutzart-und-schutzklasse-welche-unterschiede-gibt-es",
+   "source_name": "Sanier.de / Baunetz Wissen Schutzklassen",
+   "confidence": "medium",
+   "note": "Schutzklassen nach DIN EN 61140; Symbole nicht verwendet (Klasse I/III dünn belegt)."
+  },
+  {
+   "claim": "Schutzklasse I: Schutzleiteranschluss; II: verstärkte Isolierung; III: Schutzkleinspannung.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/schutz/schutzklassen-152980",
+   "source_name": "Baunetz Wissen, Schutzklassen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Bemessungs-/Nennwerte (z. B. Spannung, Strom) legt der Hersteller fest und gibt sie auf dem Typenschild oder in den technischen Daten an.",
+   "source_url": "https://www.forum-media.at/unterweisungelektrosicherheit/inhalt/Nennstrom/2016246",
+   "source_name": "FM Forum, Nennstrom",
+   "confidence": "medium",
+   "note": "Normbegriff 'Bemessungswert'; umgangssprachlich 'Nennwert'. Im Video beide genannt, Beispielwerte als Beispiel markiert."
+  },
+  {
+   "claim": "Der Bemessungsstrom ist der Strom, für den ein Betriebsmittel unter festgelegten Bedingungen ausgelegt ist.",
+   "source_url": "https://www.baunetzwissen.de/glossar/b/bemessungsstrom-10326128",
+   "source_name": "Baunetz Wissen Glossar",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Typenschilder nennen typischerweise Hersteller, Typ/Modell, Leistungsdaten, Seriennummer und oft das CE-Zeichen; es gibt kein einheitliches Schema.",
+   "source_url": "https://infosys.beckhoff.com/content/1031/af1000_ba/17956451979.html",
+   "source_name": "Beckhoff Infosys (Herstellerdoku) und Q&A-Quellen",
+   "confidence": "medium",
+   "note": "Nur 'typischerweise' formulieren; keine Pflichtangabenliste behaupten."
+  },
+  {
+   "claim": "Datenblätter nennen Betriebs- und Umgebungsbedingungen wie Umgebungstemperatur, relative Luftfeuchte ohne Betauung, Aufstellhöhe, Verschmutzungsgrad, Überspannungskategorie und Schutzart.",
+   "source_url": "https://infosys.beckhoff.com/content/1031/ax8000_ba/7918316683.html",
+   "source_name": "Beckhoff Infosys; Baumer; Weidmüller",
+   "confidence": "medium",
+   "note": "Konkrete Zahlen unterscheiden sich je Produkt; im Video nur ausgedachte Beispiele, als Beispiel gekennzeichnet."
+  },
+  {
+   "claim": "Ab größerer Aufstellhöhe kann ein Hersteller Leistungsreduzierung (Derating) angeben; Zahlen stehen im jeweiligen Datenblatt.",
+   "source_url": "https://infosys.beckhoff.com/content/1031/ax8000_ba/7918316683.html",
+   "source_name": "Beckhoff Infosys",
+   "confidence": "medium",
+   "note": "Keine Zahlen im Video."
+  },
+  {
+   "claim": "Elektrofachkraft nach DGUV Vorschrift 3 (§ 2): Person, die aufgrund fachlicher Ausbildung, Kenntnisse und Erfahrung Gefahren beurteilen und übertragene Arbeiten ausführen kann; Nachweis ist zu dokumentieren.",
+   "source_url": "https://www.bgn.de/praevention-arbeitshilfen/praxishilfen-service/vorschriften-und-arbeitssicherheitsinformationen/unfallverhuetungsvorschriften/DGUV_Vorschrift_3-1.pdf",
+   "source_name": "BGN, DGUV Vorschrift 3 mit Durchführungsanweisung",
+   "confidence": "medium",
+   "note": "Wortlaut nicht zitiert; Paraphrase wie E-F04."
+  },
+  {
+   "claim": "Die Elektrofachkraft ist kein Ausbildungsberuf; ein elektrotechnischer Abschluss allein sagt noch nicht automatisch aus, dass die Voraussetzungen im Betrieb erfüllt sind.",
+   "source_url": "https://www.weka.de/elektrosicherheit/welche-ausbildungsberufe-gelten-als-elektrofachkraft/",
+   "source_name": "WEKA Elektrosicherheit",
+   "confidence": "medium",
+   "note": "Im Video abgeschwächt: 'Der Betrieb prüft, ob die Voraussetzungen erfüllt sind'."
+  },
+  {
+   "claim": "Stellenanzeigen nutzen (m/w/d) für männlich, weiblich, divers; das AGG verbietet Benachteiligung wegen des Geschlechts.",
+   "source_url": "https://karrierebibel.de/m-w-d-in-stellenanzeigen/",
+   "source_name": "Karrierebibel; Heuking",
+   "confidence": "medium",
+   "note": "Keine Rechtsberatung; nur Bedeutung der Abkürzung."
+  },
+  {
+   "claim": "Typische Abschnitte einer Stellenanzeige sind Aufgaben, Ihr Profil (Anforderungen) und Wir bieten.",
+   "source_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12254-2-233832-S",
+   "source_name": "Bundesagentur für Arbeit, Jobbörse (Beispielanzeigen)",
+   "confidence": "medium",
+   "note": "Üblich, nicht genormt."
+  },
+  {
+   "claim": "Reisebereitschaft meint die Bereitschaft zu dienstlichen Reisen; der Umfang steht in der jeweiligen Anzeige. Führerschein Klasse B wird oft für Fahrten zu Einsatzorten verlangt.",
+   "source_url": "https://www.stepstone.de/jobs/reisebereitschaft",
+   "source_name": "StepStone Jobbeispiele",
+   "confidence": "medium",
+   "note": "Gebrauchsbeschreibung aus Anzeigen, nicht amtlich."
+  },
+  {
+   "claim": "Bei Bereitschaftsdienst bestimmt der Arbeitgeber den Aufenthaltsort; bei Rufbereitschaft kann die Person den Ort wählen, muss aber erreichbar und einsatzbereit sein. Einordnung als Arbeitszeit und Bezahlung sind Sache von Gesetz, Tarif- und Arbeitsvertrag.",
+   "source_url": "https://karrierebibel.de/rufbereitschaft/",
+   "source_name": "Karrierebibel; Lexware; OMR (mehrere Quellen)",
+   "confidence": "medium",
+   "note": "ArbZG-Wortlaut nicht geprüft; Vergütung/Arbeitszeitfolgen bewusst nicht im Video."
+  },
+  {
+   "claim": "Das Vorstellungsgespräch läuft meist in Phasen: Begrüßung und Smalltalk, Vorstellung des Unternehmens, Selbstvorstellung des Bewerbers, Fragen, Abschluss; Reihenfolge kann variieren.",
+   "source_url": "https://www.randstad.de/karriere/bewerbungsratgeber/vorstellungsgespraech/",
+   "source_name": "Randstad; Uni Köln Leitfaden; medi-karriere",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die STAR-Methode gliedert Antworten in Situation, Aufgabe (Task), Handlung (Action) und Ergebnis (Result); die Reihenfolge von Situation und Aufgabe ist flexibel.",
+   "source_url": "https://karrierebibel.de/star-methode/",
+   "source_name": "Karrierebibel, STAR-Methode",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Es wird empfohlen, eigene Fragen an das Unternehmen vorzubereiten; sie zeigen Interesse.",
+   "source_url": "https://www.randstad.de/karriere/bewerbungsratgeber/vorstellungsgespraech/",
+   "source_name": "Randstad; STEPSTONE",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Geschäftliche E-Mails: kurzer Betreff, formelle Anrede (Sehr geehrte Frau/Sehr geehrter Herr), ausgeschriebene Grußformel (z. B. Mit freundlichen Grüßen), Anhänge im Text erwähnen.",
+   "source_url": "https://karrierebibel.de/e-mail-schreiben/",
+   "source_name": "Karrierebibel; heise; Lingoda; Deutsche Handwerks-Zeitung",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Für das Buchstabieren am Telefon gibt es die Buchstabiertafel nach DIN 5009; die Fassung 2022 verwendet Städtenamen (A wie Aachen, B wie Berlin), die ältere Anton, Berta.",
+   "source_url": "https://en.wikipedia.org/wiki/DIN_5009",
+   "source_name": "Wikipedia DIN 5009; Wirtschaftsdeutsch",
+   "confidence": "medium",
+   "note": "Im Video nur die Städtenamen als Beispiel, Nennung der Norm ohne Ausgabeangabe."
+  }
+ ],
+ "dropped": [
+  "Konkrete Pflichtangaben für Typenschilder (ProdSG, Niederspannungsrichtlinie): Suche lieferte keine Rechtsquelle",
+  "Obergrenze der zweiten IP-Ziffer (8 oder 9, 9K) und genaue Prüfbedingungen (Wassermengen, Druck): Quellen widersprechen sich",
+  "IPX7-Prüfdetails (30 Minuten, 1 m): nur Sekundärquellen, nicht verwendet",
+  "Genaue Maßangaben der ersten Ziffern (12,5 mm, 2,5 mm, 1 mm): Quellen weichen ab (12 vs. 12,5 mm), nicht verwendet",
+  "Symbole der Schutzklassen I und III (IEC 60417): dünn belegt",
+  "Wortlaut ArbZG zu Bereitschaftsdienst und Rufbereitschaft, Vergütung, Arbeitszeitfolgen: nicht geprüft",
+  "Pflicht zu (m/w/d) in Stellenanzeigen: Quellen widersprechen sich (StepStone vs. Karrierebibel)",
+  "Gehalt, Arbeitsmarkt, Anerkennung ausländischer Abschlüsse, Visa: außerhalb des Themas",
+  "Typische Interviewfragen speziell für Elektroingenieure in Deutschland: nur englische/generische Quellen, daher nur allgemeine Fragen (Projekt, Team, Herausforderung)",
+  "Konkrete Zahlen für Temperatur, Feuchte, Höhenabminderung aus Beckhoff/Weidmüller: produktspezifisch, nicht übernommen",
+  "Pflichtfelder einer Störungsmeldung (Ort, Zeit, Fehlerbild): keine Quelle; im Video als praktische Empfehlung, nicht als Vorschrift",
+  "Übergabe-Inhalte (Fabrico, Einzelquelle low): nicht als Fakt; Übergabe/Störungsmeldung im Video nur als praktische Gesprächsempfehlung ('Nennen Sie Ort, Anlage, Beobachtung')"
+ ]
+}
