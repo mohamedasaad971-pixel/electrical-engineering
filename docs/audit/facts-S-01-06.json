@@ -1,0 +1,714 @@
+[
+ {
+  "video": "S-01",
+  "scene": 1,
+  "line": 3,
+  "severity": "error",
+  "issue": "Arabic line contains leaked production note ('في وسط الجملة' = 'in the middle of the sentence').",
+  "suggested_fix": "AR: وكمثال نذكر برنامج Eplan."
+ },
+ {
+  "video": "S-01",
+  "scene": 10,
+  "line": 1,
+  "severity": "error",
+  "issue": "Wrong gender: 'den Schütz' (it is 'das Schütz'; slide 5.5 uses 'ein Schütz').",
+  "suggested_fix": "DE: 'Erinnern Sie sich an das Schütz im Stromlaufplan.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "issue": "NEXT Arabic is garbled ('ومنهما TIA Portal وCODESYS للتحكم').",
+  "suggested_fix": "AR: في الفيديو القادم نتناول بيئتي البرمجة TIA Portal وCODESYS للمتحكمات المنطقية القابلة للبرمجة.  (note: begins/ends Arabic, Latin in the middle)"
+ },
+ {
+  "video": "S-02",
+  "scene": 4,
+  "line": 3,
+  "severity": "error",
+  "issue": "Back-reference 'wie im ersten Video' is wrong: this is the second video of the software series and the first (S-01) is about Eplan; the I/O-module content is in E-C01. Same in 6.8 and 17.8.",
+  "suggested_fix": "4.3 DE: 'wie im Video E-C01' | AR: 'كما في الفيديو E-C01 وسط الجملة' ; 6.8 DE: 'Das kennen Sie aus dem Video E-C01.' ; 17.8 DE: 'Arbeiten Sie die Beispiele aus dem Video E-C01 mit eigenen Zahlen durch.' (TTS: E-Ze-null-eins)"
+ },
+ {
+  "video": "S-03",
+  "scene": 3,
+  "line": 9,
+  "severity": "error",
+  "issue": "Arabic gender error 'هذه الفحص'.",
+  "suggested_fix": "AR: وغالبًا ما يُسمى هذا الفحص فحص ن ناقص واحد."
+ },
+ {
+  "video": "S-04",
+  "scene": 1,
+  "line": 6,
+  "severity": "error",
+  "issue": "'Das Video dauert nur wenige Minuten' is false (21 scenes) and unnecessary.",
+  "suggested_fix": "delete 1.6 (and AR/EN)"
+ },
+ {
+  "video": "S-04",
+  "scene": 12,
+  "line": 4,
+  "severity": "error",
+  "issue": "Nonsensical sentence: 'Sie lesen und schreiben Skripte, und das ist gut für Ihre Fachsprache.'",
+  "suggested_fix": "DE: 'Sie lesen und schreiben Skripte; das trainiert Ihr Verständnis der Rechenabläufe.' | AR: 'تقرؤون النصوص البرمجية وتكتبونها، وهذا يدرّب فهمكم لمسار الحساب.' | EN: 'You read and write scripts; this trains your understanding of the calculation steps.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 1,
+  "line": 6,
+  "severity": "error",
+  "issue": "'Ein bekanntes Beispiel in Deutschland ist DIALux' (also 18.1 AR 'المعروف') - spread/popularity claim in Germany; research dropped list explicitly excludes 'Verbreitung von DIALux in Deutschland'.",
+  "suggested_fix": "DE: 'Ein Beispiel ist DIALux.' | AR: 'ومن الأمثلة برنامج DIALux للتخطيط.' | EN: 'One example is DIALux.' (TTS: Ein Beispiel ist Dialux.) ; 18.1 AR: 'والآن إلى المثال، وهو برنامج DIALux.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 16,
+  "line": 7,
+  "severity": "error",
+  "issue": "'Wer die Technische Regel einhält, erfüllt damit die Anforderungen der Verordnung' is an absolute legal statement. The ASR text gives a presumption (Vermutungswirkung: the employer can assume the requirements are met); not in facts, and it amounts to legal advice.",
+  "suggested_fix": "DE: 'Wer die Technische Regel anwendet, kann davon ausgehen, dass die damit konkretisierten Anforderungen der Verordnung erfüllt sind. Gleichwertige andere Lösungen sind möglich.' | AR: 'من يطبّق القاعدة الفنية يمكنه افتراض أن متطلبات اللائحة التي توضّحها قد تحققت، وتوجد حلول أخرى مكافئة.' | EN: 'Whoever applies the technical rule can assume that the requirements of the ordinance it specifies are met. Equivalent other solutions are possible.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 16,
+  "line": 2,
+  "severity": "error",
+  "issue": "'Veröffentlicht wird diese Regel von der BAuA' is imprecise: ASR are determined by the Ausschuss für Arbeitsstätten and announced by the BMAS in the GMBl (GMBl 2023, S. 679 per BAuA); BAuA hosts them. 'diese Regel' also lacks an antecedent after 16.1 (about the standard).",
+  "suggested_fix": "DE: 'Die Technischen Regeln für Arbeitsstätten, kurz ASR, werden im Gemeinsamen Ministerialblatt bekannt gemacht; die BAuA stellt sie bereit.' | AR: 'تُنشر القواعد الفنية لأماكن العمل (ASR) في الجريدة الوزارية المشتركة، وتتيحها الهيئة الاتحادية للحماية المهنية والطب المهني (BAuA).' | EN: 'The Technical Rules for Workplaces (ASR) are announced in the Joint Ministerial Gazette; BAuA makes them available.' (TTS: A-Es-Er, Be-A-U-A)"
+ },
+ {
+  "video": "S-05",
+  "scene": 15,
+  "line": 3,
+  "severity": "error",
+  "issue": "'Der Titel lautet vollständig' but the title is incomplete; verified title: 'Licht und Beleuchtung - Beleuchtung von Arbeitsstätten - Teil 1: Arbeitsstätten in Innenräumen'.",
+  "suggested_fix": "DE: 'Der Titel lautet vollständig: Licht und Beleuchtung, Beleuchtung von Arbeitsstätten, Teil eins: Arbeitsstätten in Innenräumen.' | AR: 'العنوان الكامل: الضوء والإضاءة، إضاءة أماكن العمل، الجزء الأول: أماكن العمل الداخلية.' | EN: 'The full title is: Light and lighting, lighting of work places, part 1: indoor work places.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 2,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Das ist der Hauptgrund, warum Firmen ... einsetzen' - unsupported absolute claim about market behaviour.",
+  "suggested_fix": "DE: 'Das ist ein wichtiger Grund, warum Firmen im Schaltanlagenbau solche Programme einsetzen.' | AR: 'وهذا سبب مهم لاستخدام الشركات هذه البرامج في بناء لوحات التوزيع.' | EN: 'This is one important reason why companies in switchgear building use such programs.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 5,
+  "line": 2,
+  "severity": "risk",
+  "issue": "'Viele Programme nutzen die Sichtweisen der Reihe IEC 81346' generalises one vendor-help page (fact 2 is a single Eplan help page, medium).",
+  "suggested_fix": "DE: 'Manche Programme nutzen dafür die Sichtweisen der Reihe IEC 81346, zum Beispiel in der Hilfe eines Herstellers beschrieben: Funktion, Ort und Produkt.' | AR: 'تستخدم بعض البرامج لذلك زوايا النظر في سلسلة IEC 81346 وسط الجملة، كما في مساعدة إحدى الشركات: الوظيفة والموقع والمنتج.' | EN: 'Some programs use the aspects of the IEC 81346 series for this, as described in one vendor help: function, location and product.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 12,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Die Listen passen immer zum aktuellen Stand der Zeichnung' - absolute/marketing-like, and contradicts 4.6 and 13.8 (lists must be regenerated, data must be correct).",
+  "suggested_fix": "DE: 'Der Vorteil: Nach dem Neuerzeugen passen die Listen zum aktuellen Stand der Daten.' | AR: 'الميزة: بعد إعادة التوليد تطابق القوائم الحالة الراهنة للبيانات.' | EN: 'The advantage: after regenerating, the lists match the current state of the data.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 12,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide/table lists Kabelliste, Geräteliste, Inhaltsverzeichnis as reports; no fact in S-01.json supports these (only Stückliste, Klemmenplan; Kabelplan from a low-confidence source). Generic but unsourced feature list.",
+  "suggested_fix": "Reduce table to 'Stückliste | Teile und Mengen', 'Klemmenplan | Belegung der Klemmen', 'Weitere | je nach Programm' and delete lines 12.5/12.6 or mark 'je nach Programm'"
+ },
+ {
+  "video": "S-01",
+  "scene": 18,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'teures Programm' is an implicit price statement/characterisation of commercial products (rule: no price claims without dated primary source).",
+  "suggested_fix": "DE: 'Sie müssen nicht gleich ein kostenpflichtiges Programm kaufen, um zu üben.' | AR: 'لا يلزمكم شراء برنامج مدفوع للتدرب.' | EN: 'You do not have to buy a commercial program to practise.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 18,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Comparison 'Freie Programme haben oft weniger Bibliotheken und Auswertungen als kommerzielle' is unsupported by any fact.",
+  "suggested_fix": "DE: 'Funktionsumfang und Bibliotheken unterscheiden sich je nach Programm; prüfen Sie das selbst.' | AR: 'يختلف نطاق الوظائف والمكتبات من برنامج إلى آخر، فتحققوا بأنفسكم.' | EN: 'Scope and libraries differ from program to program; check for yourself.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 18,
+  "line": 3,
+  "severity": "risk",
+  "issue": "QElectroTech cross-reference and parts-list capability is sourced only from the 0.7 manual (old); dropped list excludes parts-list scope of 0.100. Stated as present capability.",
+  "suggested_fix": "DE: 'Laut älterem Handbuch kann es zum Beispiel Querverweise und eine Nomenklatur erzeugen; prüfen Sie den Umfang in Ihrer Version.' | AR: 'بحسب دليل أقدم يمكنه مثلًا إنشاء إحالات مرجعية وجدول تسمية، فتحققوا من النطاق في إصداركم.' | EN: 'According to an older manual it can create cross-references and a nomenclature; check the scope in your version.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 7,
+  "line": 6,
+  "severity": "risk",
+  "issue": "IEC 61131-3 section presents the 2013 edition (five languages) as the current state. E-C01 (scene 21.6) and docs/research/E-C01.json state a 4th edition (May 2025, EN IEC 61131-3:2025) replaces it and AWL is, per secondary sources, no longer included. S-02 says only 'veraltet seit 2013' - inconsistent with E-C01; primary source missing. Slide row 'Anweisungsliste' too.",
+  "suggested_fix": "DE: 'Die Anweisungsliste gilt seit der Ausgabe 2013 als veraltet. Laut Quellen ist sie in der neuen Ausgabe von 2025 nicht mehr enthalten; Werkzeuge können sie weiter anbieten.' | AR: 'تُعد قائمة التعليمات قديمة منذ إصدار عام 2013، وبحسب المصادر لم تعد في الإصدار الجديد لعام 2025، وقد تدعمها الأدوات مع ذلك.' | EN: 'The instruction list has been considered outdated since the 2013 edition. According to sources it is no longer in the new 2025 edition; tools may still support it.' (TTS: zweitausenddreizehn / zweitausendfünfundzwanzig)"
+ },
+ {
+  "video": "S-02",
+  "scene": 11,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Table rows 'Vorteil | Eng abgestimmt | Ein Werkzeug, viele Geräte' (and summary slide items 'Hersteller: eng abgestimmt', 'Unabhängig: ein Werkzeug, viele Geräte') are marketing-like advantages, unsupported, and contradict 11.8/11.9 (neutral, not every device programmable). Also 'Geräte | Eigene Steuerungen' for TIA is unverified.",
+  "suggested_fix": "Replace row with 'Hinweis | Gerätebindung unterschiedlich' ; summary items: 'Zwei Ansätze, gleiche Aufgabe' ; DE: 'Beide Ansätze haben Stärken und Grenzen; welche zählen, hängt vom Projekt ab.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 11,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'Das TIA Portal ist DIE Engineering-Umgebung von Siemens' implies the only one; fact 8 only says Siemens describes TIA Portal as an engineering environment.",
+  "suggested_fix": "DE: 'Das TIA Portal ist eine Engineering-Umgebung von Siemens.' | AR: 'بيئة TIA Portal هي إحدى بيئات الهندسة التي تقدمها سيمنز.' | EN: 'The TIA Portal is an engineering environment from Siemens.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 14,
+  "line": 6,
+  "severity": "risk",
+  "issue": "TIA Portal multi-user and version-control interface are sourced only from third-party blogs (DMC, Copia); research note says to phrase as 'Herstellerumgebungen bieten Mehrbenutzer-Funktionen'. Add-on/licence status unverified.",
+  "suggested_fix": "DE: 'Auch Herstellerumgebungen wie das TIA Portal bieten laut Fachquellen Mehrbenutzer-Funktionen und Schnittstellen für externe Versionsverwaltung; prüfen Sie Umfang und Lizenz beim Hersteller.' | AR: 'وتوفر بيئات الشركات مثل TIA Portal بحسب مصادر متخصصة وظائف تعدد المستخدمين وواجهات للإدارة الخارجية للإصدارات، فتحققوا من النطاق والترخيص لدى الشركة.' | EN: 'According to trade sources, vendor environments such as the TIA Portal offer multi-user functions and interfaces for external version control; check scope and licence with the vendor.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 9,
+  "line": 6,
+  "severity": "risk",
+  "issue": "Five safety rules are invoked ('alle fünf Sicherheitsregeln') but never listed; project rule: rules complete incl. allpolig wherever referenced.",
+  "suggested_fix": "Add after 9.6: DE: 'Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen, erden und kurzschließen, benachbarte unter Spannung stehende Teile abdecken oder abschranken.' | AR: 'فصل الجهد، تأمينها ضد إعادة التشغيل، التحقق من انعدام الجهد في كل الأقطاب، التأريض والتقصير، تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.' | EN: 'Isolate, secure against reconnection, verify absence of voltage on all poles, earth and short-circuit, cover or fence off adjacent live parts.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 2,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'Die SPS selbst hat keine Bildschirmoberfläche für die Entwicklung' is absolute (some controllers have local programming interfaces/web servers).",
+  "suggested_fix": "DE: 'Die SPS selbst hat meist keine Bildschirmoberfläche für die Entwicklung.' | AR: 'لا تملك SPS نفسها غالبًا واجهة شاشة للتطوير.' | EN: 'The SPS itself usually has no screen interface for development.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 19,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide card 'Beide: Lastfluss, Kurzschluss, Schutz' is a feature list of two commercial products taken from manufacturer marketing (research note: not to be used as feature list); 'Zwei bekannte Beispiele' (19.2) is an unsupported popularity claim.",
+  "suggested_fix": "Slide item: 'Laut Hersteller: ähnliche Aufgaben' ; 19.2 DE: 'Zwei Beispiele sind ETAP und DIgSILENT PowerFactory.' | AR: 'من الأمثلة برنامجا ETAP وDIgSILENT PowerFactory.' | EN: 'Two examples are ETAP and DIgSILENT PowerFactory.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 3,
+  "line": 11,
+  "severity": "risk",
+  "issue": "'Rechnen kostet wenig' is an unsupported cost claim (and conflicts with 'no prices' and commercial licences).",
+  "suggested_fix": "delete 3.11 or DE: 'Ein Fehler im Netz kann sehr teuer werden.' | AR: 'وقد يكون الخطأ في الشبكة مكلفًا جدًا.' | EN: 'A fault in the grid can become very expensive.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 9,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'Anlagen mit Wechselrichter tragen zum Kurzschlussstrom bei' has no fact (facts: external grid, generators, lines, transformers) and, placed under 'nach IEC 60909', implies the standard treats inverter plants fully (a known open point).",
+  "suggested_fix": "DE: 'Auch Generatoren tragen zum Kurzschlussstrom bei; bei Anlagen mit Wechselrichter hängt das vom Modell ab.' | AR: 'تسهم المولّدات أيضًا في تيار القصر، أما المنشآت ذات العاكس فيعتمد الأمر على النموذج.' | EN: 'Generators also contribute to the short-circuit current; for plants with inverters it depends on the model.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 12,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Slide row 'Ergebnis | Einstellwerte als Vorschlag' claims software delivers setting proposals; not supported by facts (ETAP: TCC overlay and selectivity analysis).",
+  "suggested_fix": "Replace with 'Ergebnis | Bild der Staffelung zur Bewertung'"
+ },
+ {
+  "video": "S-03",
+  "scene": 4,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Netzanschluss' is used for the external grid / reference node (pandapower ext_grid), but in the series (E-A01, E-A02, TERMS) 'Netzanschluss' means the customer's connection to the grid. Slack definition has no primary source (dropped list: only 'Bezugsknoten' as textbook term).",
+  "suggested_fix": "DE: 'Dazu kommt das externe Netz, auch Bezugsknoten genannt.' | AR: 'ويضاف إلى ذلك الشبكة الخارجية، وتسمى أيضًا عقدة المرجع.' | EN: 'In addition there is the external grid, also called the reference node.' (adapt 4.10, 4.11, 7.4, slide rows, 17.4 and glossary 'Netzanschluss' accordingly)"
+ },
+ {
+  "video": "S-04",
+  "scene": 10,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Der Rechenkern geht auf SPICE zurück' is not supported: facts only say LTspice is a SPICE-type simulator and SPICE came from Berkeley; LTspice's engine is a separate Analog Devices/Linear Technology development.",
+  "suggested_fix": "DE: 'Es arbeitet nach dem SPICE-Prinzip; SPICE ist ein Programm aus Berkeley aus den siebziger Jahren.' | AR: 'يعمل وفق مبدأ SPICE، وهو برنامج من بيركلي في السبعينيات.' | EN: 'It works on the SPICE principle; SPICE is a program from Berkeley from the seventies.'"
+ },
+ {
+  "video": "S-04",
+  "scene": 1,
+  "line": 5,
+  "severity": "risk",
+  "issue": "LTspice is proprietary freeware (not free/open-source software); DE 'freie Werkzeuge ... LTspice und Octave', 20.5 and summary slide 'LTspice, Octave, Scilab: freie Beispiele' blur 'kostenlos' and 'frei'. Octave (GPL) and Scilab are free software; LTspice only free of charge per manufacturer.",
+  "suggested_fix": "DE: 'Wir nennen auch kostenlose und freie Werkzeuge, zum Beispiel LTspice (laut Hersteller kostenlos) und Octave (freie Software).' | AR: 'كما سنذكر أدوات مجانية وحرة، مثل LTspice (مجاني بحسب الشركة) وOctave (برنامج حر).' | EN: 'We also name free-of-charge and free tools, for example LTspice (free of charge according to the manufacturer) and Octave (free software).' ; 20.5 and slide: 'kostenlose und freie Beispiele'"
+ },
+ {
+  "video": "S-04",
+  "scene": 10,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'Ein bekanntes Beispiel' / AR 'الشهير' (also 12.3 'المعروفة', 13.8 'الشهير', 18.9) are popularity claims; facts list 'verbreitet' as dropped.",
+  "suggested_fix": "DE: 'Ein Beispiel ist LTspice.' | AR: 'من الأمثلة برنامج LTspice.' | EN: 'One example is LTspice.' (remove 'الشهير/المعروف' elsewhere)"
+ },
+ {
+  "video": "S-04",
+  "scene": 10,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'Die Hilfe des Programms erklärt die Befehle gut' - unsupported evaluative claim about a named product.",
+  "suggested_fix": "delete 10.7"
+ },
+ {
+  "video": "S-04",
+  "scene": 19,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Im Zweifel messen Sie nach' - measuring on installations is work covered by the Elektrofachkraft rule; the video never mentions it. TERMS: always 'Elektrofachkraft oder unter Leitung und Aufsicht'.",
+  "suggested_fix": "DE: 'Im Zweifel prüfen Sie nach oder fragen eine erfahrene Kollegin. Messungen an elektrischen Anlagen führt eine Elektrofachkraft aus oder jemand unter deren Leitung und Aufsicht, mit den fünf Sicherheitsregeln.' | AR: 'وعند الشك راجعوا أو اسألوا زميلة ذات خبرة. وتُجرى القياسات على المنشآت الكهربائية بيد كهربائي مؤهَّل (Elektrofachkraft) أو تحت إدارته وإشرافه.' | EN: 'In doubt, check again or ask an experienced colleague. Measurements on electrical installations are done by a qualified electrician or under their direction and supervision.'"
+ },
+ {
+  "video": "S-04",
+  "scene": 0,
+  "line": 0,
+  "severity": "risk",
+  "issue": "NEXT Arabic 'خطوة بخطوة' promises a step-by-step tutorial (conflicts with concepts-only rule).",
+  "suggested_fix": "AR: الفيديو التالي: تخطيط الإضاءة مع DIALux"
+ },
+ {
+  "video": "S-05",
+  "scene": 18,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'Laut Hersteller kostenlos, auch beruflich' omits the material limit verified at DIAL/DIALux: since 1 March 2024 the free version only supports luminaires of DIALux members; other manufacturers need a paid option (Unlock Non-Members or Pro). Slide says only 'Auswahl kann begrenzt sein'. Cause given ('Deshalb') is correct but vague for professional users.",
+  "suggested_fix": "DE: 'Laut Hersteller ist die Nutzung kostenlos, auch beruflich. Seit März 2024 stehen in der kostenlosen Version aber nur Leuchten von DIALux-Mitgliedern zur Verfügung; für andere Hersteller gibt es eine kostenpflichtige Option.' | AR: 'بحسب الشركة المصنّعة الاستخدام مجاني حتى للأغراض المهنية، لكن منذ مارس 2024 لا تتوفر في النسخة المجانية إلا وحدات إنارة الشركات الأعضاء في DIALux، ولغيرها خيار مدفوع.' | EN: 'According to the manufacturer, use is free, also professionally. Since March 2024, however, the free version only offers luminaires of DIALux members; for other manufacturers there is a paid option.' (slide row 'Leuchten | nur Mitglieder, sonst kostenpflichtig')"
+ },
+ {
+  "video": "S-05",
+  "scene": 1,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Die Planung übernehmen heute Programme' wrongly shifts planning to software and contradicts 3.6/3.7 (responsibility stays with the planner).",
+  "suggested_fix": "DE: 'Bei der Planung helfen heute Programme, die das Licht berechnen.' | AR: 'وتساعد في التخطيط اليوم برامج تحسب الضوء.' | EN: 'Today programs that calculate the light help with planning.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 1,
+  "line": 4,
+  "severity": "risk",
+  "issue": "'in fast jedem Bauprojekt' unsupported absolute.",
+  "suggested_fix": "DE: 'Wer in Deutschland arbeitet, begegnet dieser Aufgabe häufig in Bauprojekten.' | AR: 'من يعمل في ألمانيا يصادف هذه المهمة كثيرًا في مشاريع البناء.' | EN: 'Anyone working in Germany often meets this task in building projects.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 18,
+  "line": 9,
+  "severity": "risk",
+  "issue": "Radiance is a lighting simulation engine, not a norm-reporting planning tool with luminaire data catalogue; slide heading 'DIALux und freie Alternativen' / row 'Frei | Radiance' presents it as free alternative. 'eher für Fachleute' is opinion. Open-source status per US DOE is fine.",
+  "suggested_fix": "DE: 'Frei und offen ist die Lichtsimulation Radiance. Sie ersetzt aber keine Planungssoftware mit Bericht und Leuchtendatenbank.' | AR: 'وRadiance محاكاة ضوئية حرة ومفتوحة، لكنها لا تحل محل برنامج تخطيط بتقارير وقاعدة بيانات وحدات إنارة.' | EN: 'Radiance is a free and open lighting simulation. It does not replace planning software with report and luminaire database.' (slide 'Frei | Radiance: Simulation, kein Komplettersatz')"
+ },
+ {
+  "video": "S-05",
+  "scene": 20,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Safety slide merges rules 4 and 5 into one bullet and line 20.6 drops 'unter Spannung stehende' from rule 5; TERMS: rules always complete, never merged on slides. 20.2 alone ('macht eine Elektrofachkraft') is absolute until 20.3; EN keeps 'Elektrofachkraft' instead of 'qualified electrician'.",
+  "suggested_fix": "Slide 5 bullets: 'Freischalten' / 'Gegen Wiedereinschalten sichern' / 'Spannungsfreiheit allpolig feststellen' / 'Erden und Kurzschließen' / 'Benachbarte unter Spannung stehende Teile abdecken oder abschranken' ; 20.6 DE: 'Dann erden und kurzschließen und benachbarte unter Spannung stehende Teile abdecken oder abschranken.' | AR: 'ثم التأريض والتقصير وتغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.' ; merge 20.2+20.3: 'Arbeiten an elektrischen Leuchten und Anlagen führt eine Elektrofachkraft aus oder jemand unter deren Leitung und Aufsicht.' EN: 'a qualified electrician'"
+ },
+ {
+  "video": "S-06",
+  "scene": 16,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Duplicates S-01 scene 18 (QElectroTech and free alternatives, GPL, practice with motor start); also S-06 scenes 2,5,8,9 re-teach S-01 core (one data base, parts list/terminal diagram/cross-references from data, data quality) and scene 11 repeats S-01 scenes 5/8/9 (IEC 81346, 61082, designation). S-06 research notes that S-01 was not available when writing.",
+  "suggested_fix": "Shorten S-06 scenes 2/8/9/11 to a short recap with reference to S-01 and E-F06; keep only the CAD-specific content (layer/block/attribute, DXF/DWG, IEC 60617, AutoCAD-type toolset) and replace scene 16 with LibreCAD/ODA only: DE: 'QElectroTech kennen Sie aus S-01. Hier ergänzen wir LibreCAD als freies 2D-Zeichenprogramm.' | AR: 'برنامج QElectroTech عرفتموه في S-01 وسط الكلام، وهنا نضيف LibreCAD كبرنامج رسم ثنائي الأبعاد حر.' | EN: 'You know QElectroTech from S-01. Here we add LibreCAD as a free 2D drawing program.'"
+ },
+ {
+  "video": "S-06",
+  "scene": 15,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Comparison favouring one vendor class without any fact: 'pure control projects: a standalone electrical system often brings advantages' disadvantages the AutoCAD toolset; slide item 'Reine Steuerungsprojekte: Elektro-System' likewise; 15.2 'CAD-Basis hilft' also unsupported. Reads like a purchase recommendation.",
+  "suggested_fix": "DE: 'Welcher Ansatz besser passt, hängt von Aufgabe, Kunde und Team ab. Eine allgemeine Rangfolge gibt es nicht.' | AR: 'أي أسلوب أنسب يعتمد على المهمة والعميل والفريق، ولا يوجد ترتيب عام.' | EN: 'Which approach fits better depends on task, customer and team. There is no general ranking.' (also slide items 1-2: 'Aufgabe und Kundenvorgabe zählen' / 'Team und Dateiformate zählen'; delete lines 15.2 and 15.4)"
+ },
+ {
+  "video": "S-06",
+  "scene": 14,
+  "line": 7,
+  "severity": "risk",
+  "issue": "'System mit zentraler Projektdatenbank' / slide 'Zeichnungsdatei oder Projektdatenbank' characterises (unnamed, but identifiable) products without a supporting fact; research notes only a .wdp project file for the AutoCAD toolset and no database statement for the other approach. Also 14.1 calls S-01 'ein eigenständiges Elektro-System' although S-01 deliberately makes no product classification.",
+  "suggested_fix": "DE: 'Auf der anderen Seite stehen Systeme, die von Anfang an für Elektroplanung gebaut sind.' | AR: 'وعلى الجانب الآخر توجد أنظمة بُنيت منذ البداية للتخطيط الكهربائي.' | EN: 'On the other side are systems built for electrical planning from the start.' (slide row 'Unterschied | Ausgangspunkt: Zeichnung oder Elektro-System')"
+ },
+ {
+  "video": "S-06",
+  "scene": 5,
+  "line": 2,
+  "severity": "risk",
+  "issue": "Over-generalisation: 'Die Form des Schaltzeichens ist ein Block / Kennzeichen sind Attribute' and 11.5/11.6 'Das gilt für jedes Werkzeug, ob mit CAD-Basis oder ohne' are only true for CAD-based toolsets; S-01 6.7 says other programs name things differently and QElectroTech stores symbols as XML elements. No fact supports it for non-CAD-based tools.",
+  "suggested_fix": "DE: 'In CAD-basierten Lösungen baut ein Elektro-Symbol auf Block und Attributen auf. Andere Systeme speichern dieselben Daten anders.' | AR: 'في الحلول القائمة على CAD يعتمد الرمز الكهربائي على الكتلة والسمات، أما الأنظمة الأخرى فتخزّن البيانات نفسها بطريقة مختلفة.' | EN: 'In CAD-based solutions an electrical symbol builds on block and attributes. Other systems store the same data differently.' (11.6: delete or replace with 'Auch andere Werkzeuge führen eine Kennzeichnung als Datenfeld.')"
+ },
+ {
+  "video": "S-06",
+  "scene": 11,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'Das gilt für jedes Werkzeug' is absolute and unsupported (see scene 5).",
+  "suggested_fix": "DE: 'Das gilt in ähnlicher Form für viele Werkzeuge.' | AR: 'وهذا ينطبق بشكل مشابه على كثير من الأدوات.' | EN: 'This applies in a similar form to many tools.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 4,
+  "line": 9,
+  "severity": "note",
+  "issue": "Spoken source attribution to an unnamed 'Fachmedium' (low-confidence ki-syndikat) is odd and weak; the principle is supported by vendor help (facts 3-4).",
+  "suggested_fix": "delete 4.9"
+ },
+ {
+  "video": "S-01",
+  "scene": 7,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Auch das Programm kann den Stand im Schriftfeld automatisch ausgeben' is a capability claim without a fact.",
+  "suggested_fix": "DE: 'Manche Programme können den Stand im Schriftfeld ausgeben; prüfen Sie das in Ihrem Programm.' | AR: 'بعض البرامج قد تطبع الحالة في إطار العنوان، فتحققوا في برنامجكم.' | EN: 'Some programs can output the status in the title block; check your program.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 1,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Konzepte, die in fast jedem Programm gleich sind' (DE) vs 'تتشابه' (AR); S-01 6.7 itself says tools differ.",
+  "suggested_fix": "DE: 'Wir erklären Konzepte, die in vielen Programmen ähnlich sind.'"
+ },
+ {
+  "video": "S-01",
+  "scene": 9,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Gute Regeln im Team sind wichtiger als jede Funktion' is an absolute opinion.",
+  "suggested_fix": "DE: 'Gute Regeln im Team sind sehr wichtig.' "
+ },
+ {
+  "video": "S-01",
+  "scene": 17,
+  "line": 4,
+  "severity": "note",
+  "issue": "Safety text correct and complete (allpolig, Elektrofachkraft oder unter Leitung und Aufsicht). AR 17.6 'تأمينها' has no antecedent (same wording in TERMS, accepted).",
+  "suggested_fix": "none"
+ },
+ {
+  "video": "S-01",
+  "scene": 14,
+  "line": 3,
+  "severity": "note",
+  "issue": "Verdrahter AR 'فني التسليك' - TERMS forbids 'فني' only for Elektrofachkraft; acceptable but suggest neutral word.",
+  "suggested_fix": "AR: 'والعامل المسؤول عن التسليك في بناء الخزائن يعمل بها.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 14,
+  "line": 5,
+  "severity": "note",
+  "issue": "CODESYS SVN is a separate add-on in CODESYS Online Help; 'CODESYS bietet' may imply it is included (licence questions were dropped).",
+  "suggested_fix": "DE: 'Für CODESYS gibt es dafür eine Anbindung an das System SVN; Umfang und Lizenz prüfen.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 1,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Konzepte, die in allen Werkzeugen ähnlich sind' absolute (contradicts 2.6, 13.2).",
+  "suggested_fix": "DE: '... die in vielen Werkzeugen ähnlich sind.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 10,
+  "line": 2,
+  "severity": "note",
+  "issue": "TIA simulation is in Siemens help via a separate simulation product (S7-PLCSIM); 'ohne zusätzliche Hardware' may suggest nothing extra is needed.",
+  "suggested_fix": "DE: '... eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware; dafür kann zusätzliche Software nötig sein.' | AR: '... دون عتاد إضافي، وقد تلزم برمجيات إضافية.' | EN: '... without extra hardware; extra software may be needed.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 16,
+  "line": 2,
+  "severity": "note",
+  "issue": "OpenPLC: 'nach IEC 61131-3' asserts conformity; source is a 2022 secondary article; licence verified only as GPL-3.0 for the runtime (editor licence not confirmed). Slide 'Zum Lernen geeignet' is an unsupported suitability claim.",
+  "suggested_fix": "DE: 'OpenPLC ist laut Projekt eine freie Open-Source-Suite auf Basis von IEC 61131-3.' | AR: 'مشروع OpenPLC بحسب المشروع حزمة مفتوحة المصدر ومجانية قائمة على IEC 61131-3 وسط الجملة.' | EN: 'According to the project, OpenPLC is a free open-source suite based on IEC 61131-3.' (slide: 'Zum Üben gedacht, Einsatz prüfen')"
+ },
+ {
+  "video": "S-02",
+  "scene": 9,
+  "line": 5,
+  "severity": "note",
+  "issue": "EN keeps 'Elektrofachkraft' in 9.5/9.8 while TERMS (E-D) requires 'qualified electrician'; AR 'لائحة الوقاية رقم ثلاثة (DGUV V3)' differs from TERMS 'لائحة الوقاية من الحوادث رقم ٣'.",
+  "suggested_fix": "EN: '... by a qualified electrician or under their direction and supervision.' | AR: 'وفق لائحة الوقاية من الحوادث رقم ثلاثة (DGUV V3)'"
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "issue": "NEXT/19.7 TTS 'E-Te-A-Pe' for ETAP is a spelling pronunciation; the product is spoken like a word ('E-Täp' as used in S-03 19.2). Slide kicker naming differs ('Software-Serie' vs 'Software').",
+  "suggested_fix": "TTS: 'E-Täp'"
+ },
+ {
+  "video": "S-02",
+  "scene": 17,
+  "line": 6,
+  "severity": "note",
+  "issue": "Garbled grammar: 'Nutzen Sie die offiziellen Hilfen der Hersteller und Lizenzbedingungen für Testversionen.'",
+  "suggested_fix": "DE: 'Nutzen Sie die offiziellen Hilfen der Hersteller und beachten Sie die Lizenzbedingungen für Testversionen.'"
+ },
+ {
+  "video": "S-02",
+  "scene": 7,
+  "line": 3,
+  "severity": "note",
+  "issue": "AR 'مخطط الوظائف' for Funktionsplan differs from E-C01 'مخطط الكتل الوظيفية'.",
+  "suggested_fix": "AR: 'ويربط مخطط الكتل الوظيفية الكتل بخطوط.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 17,
+  "line": 0,
+  "severity": "note",
+  "issue": "Slide 'Kurzschlussrechnung nach IEC 60909' and 17.7: pandapower documents IEC 60909 with limitations (e.g. no two-pole-with-earth fault); 'nach' implies full conformity.",
+  "suggested_fix": "Slide: 'Zusatz | Kurzschlussrechnung nach IEC 60909 (laut Dokumentation)' ; 17.7 DE: 'Laut Dokumentation ist auch eine Kurzschlussrechnung nach IEC 60909 möglich, mit Einschränkungen.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 19,
+  "line": 2,
+  "severity": "note",
+  "issue": "Brand 'DIgSILENT PowerFactory' and company facts were taken from vendor pages (2026); no check whether DIgSILENT remains independent - spoken statement is only location, acceptable.",
+  "suggested_fix": "none"
+ },
+ {
+  "video": "S-03",
+  "scene": 15,
+  "line": 0,
+  "severity": "note",
+  "issue": "Slide bullet 'Arbeit an Anlagen: nur mit Qualifikation' is an absolute that conflicts with TERMS (never 'nur ...'); safety text 15.3-15.6 itself is correct and complete.",
+  "suggested_fix": "Slide: 'Arbeit an Anlagen: Elektrofachkraft oder unter deren Leitung und Aufsicht'"
+ },
+ {
+  "video": "S-03",
+  "scene": 16,
+  "line": 6,
+  "severity": "note",
+  "issue": "'ein guter Einstieg' / 20.8 'Zum Lernen genügt ein offenes Werkzeug' evaluative/absolute; 20.2 'Konzepte sind in jedem Programm gleich' absolute.",
+  "suggested_fix": "16.6 DE: 'Für Lehre, Forschung und eigene Studien wird es häufig genutzt.' is also unsourced -> 'Für eigene Studien kann es ein Einstieg sein.' ; 20.8 DE: 'Zum Lernen kann ein offenes Werkzeug genügen.' ; 20.2 DE: 'Die Konzepte sind in vielen Programmen ähnlich.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 18,
+  "line": 4,
+  "severity": "note",
+  "issue": "AR 'محوّلات' for converters collides with TERMS (المحوّل = Transformator).",
+  "suggested_fix": "AR: 'توجد أدوات تحويل لصيغ التبادل الخاصة ببرامج أخرى.'"
+ },
+ {
+  "video": "S-03",
+  "scene": 16,
+  "line": 3,
+  "severity": "note",
+  "issue": "pandapower licence: PyPI classifier BSD (3-clause per badge); one aggregator shows 'other' (research note). Not independently confirmed by my search; sentence is correctly hedged ('selbst lesen').",
+  "suggested_fix": "none"
+ },
+ {
+  "video": "S-03",
+  "scene": 12,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Ohne richtige Kurzschlussströme ist jede Koordination wertlos' absolute tone.",
+  "suggested_fix": "DE: 'Ohne richtige Kurzschlussströme ist eine Koordination nicht belastbar.'"
+ },
+ {
+  "video": "S-04",
+  "scene": 19,
+  "line": 7,
+  "severity": "note",
+  "issue": "'So arbeiten Teams in Deutschland zuverlässig zusammen' and 20.7 'im deutschen Berufsalltag oft wichtiger' are unsupported generalisations about Germany.",
+  "suggested_fix": "19.7 DE: 'So bleibt Ihre Arbeit nachvollziehbar.' ; 20.7 delete"
+ },
+ {
+  "video": "S-04",
+  "scene": 12,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Wer diese Sprache lernt' is ambiguous (follows Scilab, which is not MATLAB-like); 13.8 'Octave und Scilab sind freie Alternativen zu MATLAB' unqualified; 13.5 'Darum' non-sequitur.",
+  "suggested_fix": "12.7 DE: 'Wer die Grundideen dieser Sprachen lernt, kann sich später leichter umstellen.' ; 13.8 DE: 'Octave und Scilab sind freie Alternativen, mit Einschränkungen bei der Kompatibilität.'"
+ },
+ {
+  "video": "S-04",
+  "scene": 4,
+  "line": 6,
+  "severity": "note",
+  "issue": "Order: 4.6 'Ihre Bausteine sind Blöcke' follows 4.5 and now refers to the wrong subject.",
+  "suggested_fix": "Move 4.6 before 4.5"
+ },
+ {
+  "video": "S-04",
+  "scene": 15,
+  "line": 5,
+  "severity": "note",
+  "issue": "AR gender 'تصل الجهد' (should be 'يصل الجهد').",
+  "suggested_fix": "AR: بعد ميلي ثانية يصل الجهد إلى نحو ثلاثة وستين بالمئة من القيمة النهائية."
+ },
+ {
+  "video": "S-04",
+  "scene": 16,
+  "line": 8,
+  "severity": "note",
+  "issue": "'ist alles plausibel' absolute.",
+  "suggested_fix": "DE: 'Liegt die Kurve nach einer Millisekunde bei gut drei Volt, spricht das für ein plausibles Ergebnis.'"
+ },
+ {
+  "video": "S-04",
+  "scene": 18,
+  "line": 4,
+  "severity": "note",
+  "issue": "Non-sequitur ('Das gilt besonders für Wärme, Alterung ...') after capacitor losses; unsupported.",
+  "suggested_fix": "DE: 'Hinzu kommen Einflüsse von Wärme, Alterung und Mechanik.'"
+ },
+ {
+  "video": "S-04",
+  "scene": 12,
+  "line": 9,
+  "severity": "note",
+  "issue": "Octave GPL and LTspice 'kostenlos' hold per search (LTspice: proprietary freeware, commercial use reported allowed; check EULA, which script advises). Scilab is GPL-compatible free software (owner left out, correct).",
+  "suggested_fix": "none"
+ },
+ {
+  "video": "S-05",
+  "scene": 8,
+  "line": 6,
+  "severity": "note",
+  "issue": "ZVEI attribution (test colours weakly saturated) is not in S-05.json (fact only: ZVEI criticises Ra's significance, names TM-30). My check of the ZVEI position paper 'Farbwiedergabe nach TM-30-15' (2017) confirms: Ra uses 8 unsaturated test colours. Add the source to the research file; keep dated.",
+  "suggested_fix": "DE: 'Der Verband ZVEI kritisiert in einem Positionspapier von 2017, dass diese Testfarben wenig gesättigt sind.' | AR: 'تنتقد جمعية ZVEI في ورقة موقف عام 2017 أن ألوان الاختبار هذه قليلة التشبع.' | EN: 'In a 2017 position paper, the association ZVEI criticises that these test colours are weakly saturated.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 8,
+  "line": 2,
+  "severity": "note",
+  "issue": "8.2 (wire colours) interrupts 8.1->8.3 so 'Beide haben dieselbe Farbtemperatur' loses its referent; example unsupported.",
+  "suggested_fix": "Move 8.2 after 8.8 or delete; 8.3 DE: 'Beide Lichtquellen haben dieselbe Farbtemperatur.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 19,
+  "line": 3,
+  "severity": "note",
+  "issue": "'Planen Sie lieber mit Reserven bei Wartung und Verschmutzung' is vague engineering advice that may conflict with the project maintenance factor/energy requirements.",
+  "suggested_fix": "DE: 'Begründen Sie den Wartungsfaktor und halten Sie ihn im Bericht fest.' | AR: 'برّروا معامل الصيانة ودوّنوه في التقرير.' | EN: 'Justify the maintenance factor and record it in the report.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 17,
+  "line": 7,
+  "severity": "note",
+  "issue": "AR 'إضاءة الأمان' - E-B05 uses it only with the German word in brackets; TERMS: Notbeleuchtung/Sicherheitsbeleuchtung = إضاءة الطوارئ. 'Land' ambiguous (Bundesland).",
+  "suggested_fix": "DE: 'Prüfen Sie, welche Regeln im Bundesland des Projekts für die Sicherheitsbeleuchtung gelten.' | AR: 'تحققوا من القواعد السارية على إضاءة الطوارئ (Sicherheitsbeleuchtung) في الولاية الاتحادية للمشروع.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 13,
+  "line": 5,
+  "severity": "note",
+  "issue": "Terminology: Raumwirkungsgrad AR 'كفاءة الغرفة' (13.5) vs Wirkungsgradverfahren AR 'معامل الاستفادة' (19.6); EN 'efficiency method' vs 'room efficiency'.",
+  "suggested_fix": "19.6 AR: 'أعيدوا حساب النتيجة تقريبيًا بطريقة كفاءة الغرفة (Wirkungsgradverfahren) وسط الجملة.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 5,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Die wichtigste Größe in der Planung' (and 15.1 'wichtigste Norm') superlatives; 6.2 argues the eye sees luminance.",
+  "suggested_fix": "DE: 'Eine zentrale Größe in der Planung ist die Beleuchtungsstärke.' ; 15.1 'Eine zentrale Norm ... ist DIN EN 12464-1.'"
+ },
+ {
+  "video": "S-05",
+  "scene": 15,
+  "line": 2,
+  "severity": "note",
+  "issue": "Verified: DIN EN 12464-1:2021-11 per DIN Media (research); ASR A3.4 title 'Beleuchtung und Sichtverbindung', edition 5 May 2023 replaces April 2011 (BAuA) - correct. Currency of DIN edition on spoken date not re-checked by me; script says 'aktuelle' - add 'Stand Oktober 2026'.",
+  "suggested_fix": "DE: 'Die deutsche Ausgabe ist vom November 2021 (Stand Oktober 2026).' (TTS: zweitausendeinundzwanzig; Stand Oktober zweitausendsechsundzwanzig)"
+ },
+ {
+  "video": "S-05",
+  "scene": 12,
+  "line": 6,
+  "severity": "note",
+  "issue": "'Er liefert sie als Datei' - 'Er' ambiguous (Hersteller) after 12.5; EN 'He'.",
+  "suggested_fix": "DE: 'Der Hersteller liefert sie als Datei ...' | EN: 'The manufacturer supplies it as a file ...'"
+ },
+ {
+  "video": "S-06",
+  "scene": 8,
+  "line": 10,
+  "severity": "note",
+  "issue": "'Ändern Sie den Plan, ändern sich die Listen mit' is unqualified; S-01 13.8/4.6 correctly say lists must be regenerated and data must be right. Inconsistent within the series.",
+  "suggested_fix": "DE: 'Ändern Sie den Plan, müssen Sie die Listen neu erzeugen und prüfen.' | AR: 'إذا غيّرتم المخطط فأعيدوا توليد القوائم وراجعوها.' | EN: 'If you change the plan, regenerate and check the lists.'"
+ },
+ {
+  "video": "S-06",
+  "scene": 1,
+  "line": 6,
+  "severity": "note",
+  "issue": "Incoherent line ('Die Reihe war eine Auswahl, und jeder wählt den passenden Weg') and 1.7 spoken video IDs 'Es null fünf / Es null eins'; S-01 does not teach 'Ansätze', so the back-reference is wrong.",
+  "suggested_fix": "delete 1.6; 1.7 DE: 'Im ersten Video der Software-Reihe ging es um Elektro-CAD am Beispiel Eplan.' | AR: 'في أول فيديو من سلسلة البرامج تناولنا الرسم الكهربائي بمثال Eplan.' | EN: 'The first video of the software series covered electrical CAD with Eplan as an example.'"
+ },
+ {
+  "video": "S-06",
+  "scene": 10,
+  "line": 5,
+  "severity": "note",
+  "issue": "DIN EN 60617 naming is only supported by a low-quality practice source; IEC 60617 DB facts verified (IEC webstore: parts 2-13, about 1900 symbols, subscription; edition label 2024/2026 differs across listings). Script is correctly edition-neutral.",
+  "suggested_fix": "keep; optional hedge: DE: 'Im Alltag heißt die deutsche Fassung meist DIN EN 60617; den aktuellen Status prüfen Sie im Normenkatalog.'"
+ },
+ {
+  "video": "S-06",
+  "scene": 12,
+  "line": 5,
+  "severity": "note",
+  "issue": "LoC statement is dated (~2020) but spoken in the present tense; user rule requires dated primary-source claims.",
+  "suggested_fix": "DE: 'Nach Angaben der Library of Congress (Stand etwa 2020) veröffentlicht Autodesk keine DWG-Spezifikation.' | AR: 'بحسب مكتبة الكونغرس (حوالي عام 2020) لم تنشر Autodesk مواصفات صيغة DWG.' | EN: 'According to the Library of Congress (as of about 2020), Autodesk publishes no DWG specification.'"
+ },
+ {
+  "video": "S-06",
+  "scene": 13,
+  "line": 5,
+  "severity": "note",
+  "issue": "ODA File Converter is described as 'frei erhältlich'; terms of use unchecked (research flags 'Lizenzbedingungen prüfen'); AR 'محوّلات' collides with TERMS (المحوّل = transformer).",
+  "suggested_fix": "AR: 'توجد برامج متاحة مجانًا للتحميل تحوّل الملفات بين DWG وDXF (أدوات تحويل).' ; keep 13.8 licence hint"
+ },
+ {
+  "video": "S-06",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "issue": "TTS inconsistency across series: CAD spoken 'Ze-A-De' (S-06) vs 'Kad' (S-01) vs 'Auto-Käd' (S-05); AutoCAD is a product name and should be 'Auto-Käd'. Arabic uses 'E-CAD' (S-06) vs 'برنامج الرسم الكهربائي' (S-01).",
+  "suggested_fix": "S-06 TTS: use 'Käd' / 'Elektro-Käd' / 'Auto-Käd' consistently; AR: use 'برنامج الرسم الكهربائي' consistently"
+ },
+ {
+  "video": "S-06",
+  "scene": 16,
+  "line": 6,
+  "severity": "note",
+  "issue": "Evaluative claims 'guter Weg', slide 'Beide: gut zum Üben der Konzepte' not supported by facts (QElectroTech/LibreCAD capabilities: QET=XML, LibreCAD=2D, DWG limited). GPL statements verified (QET GPL v2+, LibreCAD GPLv2).",
+  "suggested_fix": "DE: 'Freie Programme sind eine Möglichkeit, Grundlagen kostenlos zu üben.' | AR: 'البرامج الحرة إحدى الطرق لتجربة الأساسيات دون مقابل.' | EN: 'Free programs are one way to practise the basics at no cost.'"
+ },
+ {
+  "video": "S-06",
+  "scene": 2,
+  "line": 7,
+  "severity": "note",
+  "issue": "Motor start 'mit Schutzschalter' differs from E-F06/S-01 example (Sicherung F1, Schütz Q1, Relais K1, Motor M1); AR 'قاطع حماية' not in TERMS.",
+  "suggested_fix": "DE: 'Ein Beispiel ist ein Motorstart mit Sicherung, Schütz und Motor.' | AR: 'مثال على ذلك تشغيل محرك بمنصهر وكونتاكتور ومحرك.' | EN: 'One example is a motor start with fuse, contactor and motor.' (same in 7.8)"
+ }
+]
