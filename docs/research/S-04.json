@@ -149,6 +149,14 @@
   "Aussage, welches Werkzeug in deutschen Firmen verbreitet ist: nicht belegt.",
   "Behauptung, Octave laufe jedes MATLAB-Skript unverändert: falsch/unbelegt; nur 'weitgehend ähnlich'.",
   "Eigentümer/Entwicklerfirma von Scilab: Quellen uneinheitlich, weggelassen.",
-  "Genaue Urheberschaft von SPICE (Nagel/Pederson/Rohrer): Quellen uneinheitlich."
- ]
+  "Genaue Urheberschaft von SPICE (Nagel/Pederson/Rohrer): Quellen uneinheitlich.",
+  "LTspice-Rechenkern 'geht auf SPICE zurück': nicht belegt, nur 'arbeitet nach dem SPICE-Prinzip'.",
+  "Bekanntheit/Verbreitung von LTspice, MATLAB ('bekannt', 'berühmt'): nicht belegt, entfernt.",
+  "Aussage, die Hilfe von LTspice erkläre die Befehle gut: nicht belegt, entfernt.",
+  "Aussagen zur Arbeitsweise von Teams in Deutschland / Berufsalltag in Deutschland: nicht belegt, entfernt.",
+  "Octave und Scilab als unqualifizierte Alternativen zu MATLAB: nur mit Hinweis auf Kompatibilitätsgrenzen.",
+  "Videodauer 'nur wenige Minuten': falsch, entfernt.",
+  "'Alles plausibel' bei Übereinstimmung mit der Handrechnung: nur 'spricht für ein plausibles Ergebnis'."
+ ],
+ "stand_note": "Abgeschwächt am 2026-10-21 nach Audit; Kommerziell/Lizenz von MATLAB/Simulink und Freeware-Status von LTspice vor Veröffentlichung am Primärquell prüfen."
 }
