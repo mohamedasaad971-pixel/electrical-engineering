@@ -180,6 +180,12 @@
   "Aussagen zur IEC-60617-Konformität der QElectroTech-Sammlung (nicht belegt)",
   "Konkrete Hinweise zu EPLAN-Funktionen im Detail (Vergleich bleibt konzeptuell; S-01 lag im Repo nicht vor)",
   "Ausgabejahr IEC 60617 DB (2024 vs. 2026 widersprüchlich)",
-  "Genaue DXF-Dateiformatdetails (Gruppencodes) über die Konzeptebene hinaus"
+  "Genaue DXF-Dateiformatdetails (Gruppencodes) über die Konzeptebene hinaus",
+  "Rangfolge oder Empfehlung 'Elektro-System besser für reine Steuerungsprojekte' bzw. 'CAD-Basis hilft bei gemischten Zeichnungen' (kein belegter Vergleich)",
+  "Allgemeinaussagen 'gilt für jedes Werkzeug' zu Block/Attribut und Kennzeichnung (nur für CAD-basierte Lösungen belegt)",
+  "Aussage 'Datenbank-Projektsystem' für nicht-CAD-basierte Elektro-Systeme (keine Quelle)",
+  "Aussage 'gute Bauteildaten sparen Zeit bei Einkauf und Fertigung' und 'Änderung im Plan ändert die Listen automatisch' (nicht belegt, ohne Prüfhinweis)",
+  "Bewertung 'guter Weg' / 'Beide gut zum Üben' für QElectroTech und LibreCAD; Aussage zur Vollständigkeit der Symbole 'hängt von der Version ab'",
+  "Detailwiederholungen zu QElectroTech (XML, Exportformate, Sammlungen) aus dem Eplan-Video: im Skript nur als Verweis"
  ]
 }
