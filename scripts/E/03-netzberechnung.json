@@ -1,0 +1,1578 @@
+{
+ "id": "S-03",
+ "title": {
+  "de": "Netzberechnung am Rechner: Netzmodell, Lastfluss, Kurzschluss, Schutzkoordination",
+  "ar": "حساب الشبكات بالحاسوب: نموذج الشبكة وتدفق الحمل والقصر الكهربائي وتنسيق الحماية",
+  "en": "Grid Calculation on the Computer: Grid Model, Load Flow, Short Circuit, Protection Coordination"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "S-03 · Software",
+    "heading": "Netzberechnung am Rechner",
+    "items": [
+     "Netzmodell, Lastfluss, Kurzschluss",
+     "Schutzkoordination und Grenzen",
+     "pandapower als offenes Werkzeug"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum dritten Video der Software-Reihe.",
+     "ar": "مرحبًا بكم في الفيديو الثالث من سلسلة البرمجيات.",
+     "en": "Welcome to the third video of the software series."
+    },
+    {
+     "de": "Heute geht es um Netzberechnung am Rechner.",
+     "ar": "موضوعنا اليوم هو حساب الشبكات بالحاسوب.",
+     "en": "Today we talk about grid calculation on the computer."
+    },
+    {
+     "de": "Sie lernen, was ein Netzmodell ist.",
+     "ar": "ستتعرفون على معنى نموذج الشبكة.",
+     "en": "You learn what a grid model is."
+    },
+    {
+     "de": "Dann sehen wir, was Lastfluss und Kurzschlussrechnung berechnen.",
+     "ar": "ثم سنرى ما الذي يحسبه تدفق الحمل وحساب القصر الكهربائي.",
+     "en": "Then we see what load flow and short-circuit calculation compute."
+    },
+    {
+     "de": "Außerdem sprechen wir über Schutzkoordination und über die Grenzen von Modellen.",
+     "ar": "كما سنتحدث عن تنسيق الحماية وعن حدود النماذج.",
+     "en": "We also talk about protection coordination and the limits of models."
+    },
+    {
+     "de": "Zum Schluss lernen Sie pandapower kennen, eine offene Python-Bibliothek.",
+     "ar": "وفي الختام ستتعرفون على المكتبة المفتوحة المصدر pandapower المكتوبة بلغة بايثون.",
+     "en": "Finally you get to know pandapower, an open Python library.",
+     "tts": "Zum Schluss lernen Sie Pandapauer kennen, eine offene Paiton-Bibliothek."
+    },
+    {
+     "de": "Das Video ist eine Einführung für Ingenieure, die in Deutschland arbeiten wollen.",
+     "ar": "هذا الفيديو مدخل للمهندسين الذين يريدون العمل في ألمانيا.",
+     "en": "This video is an introduction for engineers who want to work in Germany."
+    },
+    {
+     "de": "Am Ende finden Sie ein Glossar und ein kurzes Quiz.",
+     "ar": "وفي النهاية ستجدون مسردًا واختبارًا قصيرًا.",
+     "en": "At the end you will find a glossary and a short quiz."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur Konzepte, keine Bedienung",
+    "items": [
+     "Keine Bildschirmaufnahme von Programmen",
+     "Keine Preise, keine Marktaussagen",
+     "Kein Produkt wird empfohlen",
+     "Fachleute prüfen jede echte Rechnung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video zeigt keine Bedienung von Programmen.",
+     "ar": "هذا الفيديو لا يعرض طريقة تشغيل أي برنامج.",
+     "en": "This video does not show how to operate any program."
+    },
+    {
+     "de": "Wir erklären nur die Konzepte dahinter.",
+     "ar": "نشرح فقط المفاهيم التي تقف خلفها.",
+     "en": "We only explain the concepts behind them."
+    },
+    {
+     "de": "Wir nennen keine Preise und keine Marktanteile.",
+     "ar": "ولا نذكر أسعارًا ولا حصصًا في السوق.",
+     "en": "We name no prices and no market shares."
+    },
+    {
+     "de": "Und wir empfehlen kein Produkt.",
+     "ar": "ولا نوصي بأي منتج.",
+     "en": "And we do not recommend any product."
+    },
+    {
+     "de": "Eine echte Netzberechnung gehört in die Hand von geschulten Fachleuten.",
+     "ar": "الحساب الفعلي للشبكة مهمة متخصصين مؤهلين.",
+     "en": "A real grid calculation belongs in the hands of trained specialists."
+    },
+    {
+     "de": "Besprechen Sie Ergebnisse immer mit erfahrenen Fachleuten.",
+     "ar": "ناقشوا النتائج دائمًا مع مختصين ذوي خبرة.",
+     "en": "Always discuss results with experienced specialists."
+    },
+    {
+     "de": "Wir bleiben bewusst bei Begriffen und ohne schwere Rechnung.",
+     "ar": "نبقى عمدًا عند المصطلحات ودون حسابات معقدة.",
+     "en": "We deliberately stay with terms and without heavy calculation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum rechnen?",
+    "heading": "Warum man Netze berechnet",
+    "items": [
+     "Planen, bevor gebaut wird",
+     "Prüfen, ob das Netz reicht",
+     "Fehler im Voraus erkennen",
+     "Entscheidungen begründen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Warum berechnet man ein Netz überhaupt?",
+     "ar": "لماذا نحسب الشبكة أصلًا؟",
+     "en": "Why do we calculate a grid at all?"
+    },
+    {
+     "de": "Ein Netz kann man nicht einfach ausprobieren.",
+     "ar": "لا يمكن تجربة الشبكة ببساطة.",
+     "en": "You cannot simply try out a grid."
+    },
+    {
+     "de": "Fehler wären gefährlich und teuer.",
+     "ar": "فالأخطاء ستكون خطيرة ومكلفة.",
+     "en": "Mistakes would be dangerous and expensive."
+    },
+    {
+     "de": "Darum rechnet man vorher am Rechner.",
+     "ar": "لذلك نحسب مسبقًا على الحاسوب.",
+     "en": "So you calculate beforehand on the computer."
+    },
+    {
+     "de": "Typische Fragen sind: Reicht die Leitung für eine neue Last?",
+     "ar": "ومن الأسئلة المعتادة: هل يكفي الخط لحمل جديد؟",
+     "en": "Typical questions are: Is the line enough for a new load?"
+    },
+    {
+     "de": "Hält die Spannung am Ende der Leitung?",
+     "ar": "هل يبقى الجهد مقبولًا في نهاية الخط؟",
+     "en": "Does the voltage hold at the end of the line?"
+    },
+    {
+     "de": "Wie groß wird der Strom bei einem Fehler?",
+     "ar": "وما مقدار التيار عند حدوث عطل؟",
+     "en": "How large will the current be in a fault?"
+    },
+    {
+     "de": "Auch Ausfälle kann man durchspielen, zum Beispiel den Ausfall einer Leitung.",
+     "ar": "ويمكن أيضًا محاكاة حالات الخروج من الخدمة، مثل خروج أحد الخطوط.",
+     "en": "You can also play through failures, for example the failure of a line."
+    },
+    {
+     "de": "Diese Prüfung nennt man oft n-minus-eins-Prüfung.",
+     "ar": "وغالبًا ما تُسمى هذه الفحص فحص ن ناقص واحد.",
+     "en": "This check is often called an n-minus-one check.",
+     "tts": "Diese Prüfung nennt man oft En-minus-eins-Prüfung."
+    },
+    {
+     "de": "Auch neue Ladepunkte oder Erzeugungsanlagen kann man vorab untersuchen.",
+     "ar": "كما يمكن دراسة نقاط الشحن الجديدة أو منشآت التوليد مسبقًا.",
+     "en": "New charging points or generation plants can also be examined in advance."
+    },
+    {
+     "de": "Rechnen kostet wenig. Ein Fehler im Netz kostet viel.",
+     "ar": "الحساب يكلّف قليلًا، أما الخطأ في الشبكة فيكلّف كثيرًا.",
+     "en": "Calculating costs little. A fault in the grid costs a lot."
+    },
+    {
+     "de": "Auf solche Fragen antwortet die Netzberechnung.",
+     "ar": "وهذه الأسئلة تجيب عنها حسابات الشبكة.",
+     "en": "Grid calculation answers such questions."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Netzmodell",
+    "heading": "Die Bausteine des Netzmodells",
+    "items": [
+     "Knoten | Punkt, an dem Elemente zusammentreffen",
+     "Leitung | Verbindung zwischen zwei Knoten",
+     "Transformator | koppelt zwei Spannungsebenen",
+     "Last | Verbraucher am Knoten",
+     "Erzeuger | speist am Knoten ein",
+     "Netzanschluss | Verbindung zum übergeordneten Netz"
+    ],
+    "terms": [
+     {
+      "de": "Knoten",
+      "ar": "العقدة",
+      "en": "node (bus)"
+     },
+     {
+      "de": "Netzmodell",
+      "ar": "نموذج الشبكة",
+      "en": "grid model"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jede Berechnung beginnt mit einem Netzmodell.",
+     "ar": "كل حساب يبدأ بنموذج للشبكة.",
+     "en": "Every calculation starts with a grid model."
+    },
+    {
+     "de": "Das Modell ist eine vereinfachte Abbildung des echten Netzes.",
+     "ar": "النموذج تمثيل مبسّط للشبكة الحقيقية.",
+     "en": "The model is a simplified image of the real grid."
+    },
+    {
+     "de": "Der wichtigste Baustein ist der Knoten.",
+     "ar": "أهم لبنة هي العقدة.",
+     "en": "The most important building block is the node."
+    },
+    {
+     "de": "Dort treffen Leitungen, Lasten und Erzeuger zusammen, zum Beispiel eine Sammelschiene.",
+     "ar": "فيها تلتقي الخطوط والأحمال والمولدات، مثل قضيب التجميع.",
+     "en": "Lines, loads and generators meet there, for example a busbar."
+    },
+    {
+     "de": "Leitungen verbinden zwei Knoten.",
+     "ar": "الخطوط تصل بين عقدتين.",
+     "en": "Lines connect two nodes."
+    },
+    {
+     "de": "Transformatoren verbinden zwei Spannungsebenen.",
+     "ar": "المحولات تصل بين مستويين من الجهد.",
+     "en": "Transformers connect two voltage levels."
+    },
+    {
+     "de": "Lasten und Erzeuger sitzen an den Knoten.",
+     "ar": "الأحمال والمولدات توجد عند العقد.",
+     "en": "Loads and generators sit at the nodes."
+    },
+    {
+     "de": "Dazu kommt der Netzanschluss zum übergeordneten Netz.",
+     "ar": "ويضاف إلى ذلك التوصيل بالشبكة الأعلى.",
+     "en": "In addition there is the grid connection to the higher-level grid."
+    },
+    {
+     "de": "Man wählt den Detailgrad passend zur Frage.",
+     "ar": "ويُختار مستوى التفصيل بما يناسب السؤال المطروح.",
+     "en": "You choose the level of detail to match the question."
+    },
+    {
+     "de": "Der Netzanschluss bildet das übergeordnete Netz ab.",
+     "ar": "يمثّل التوصيل بالشبكة الشبكةَ الأعلى مستوى.",
+     "en": "The grid connection represents the higher-level grid."
+    },
+    {
+     "de": "Im Lastfluss dient er oft als Referenz für Spannung und Ausgleich.",
+     "ar": "وفي تدفق الحمل يعمل غالبًا كمرجع للجهد وللموازنة.",
+     "en": "In the load flow it often serves as a reference for voltage and balance."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Netzmodell",
+    "heading": "Welche Daten jeder Baustein braucht",
+    "items": [
+     "Leitung: Länge, Leitertyp, Impedanz",
+     "Transformator: Nennleistung, Übersetzung, Impedanz",
+     "Last: Wirkleistung und Blindleistung",
+     "Erzeuger: Einspeiseleistung, Anlagentyp"
+    ],
+    "terms": [
+     {
+      "de": "Impedanz",
+      "ar": "المعاوقة",
+      "en": "impedance"
+     },
+     {
+      "de": "Wechselrichter",
+      "ar": "العاكس",
+      "en": "inverter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Für jeden Baustein braucht das Modell Daten.",
+     "ar": "لكل لبنة يحتاج النموذج إلى بيانات.",
+     "en": "The model needs data for every building block."
+    },
+    {
+     "de": "Bei der Leitung sind das Länge, Leitertyp und Impedanz.",
+     "ar": "في الخط هي الطول ونوع الموصل والمعاوقة.",
+     "en": "For a line these are length, conductor type and impedance."
+    },
+    {
+     "de": "Beim Transformator sind es Nennleistung, Übersetzung und Impedanz.",
+     "ar": "وفي المحوّل هي القدرة الاسمية ونسبة التحويل والمعاوقة.",
+     "en": "For a transformer they are rated power, ratio and impedance."
+    },
+    {
+     "de": "Die Last wird als Wirkleistung und Blindleistung angegeben.",
+     "ar": "يُعطى الحمل كقدرة فعالة وقدرة غير فعالة.",
+     "en": "The load is given as active power and reactive power."
+    },
+    {
+     "de": "Beim Erzeuger zählt, wie viel er einspeist.",
+     "ar": "وفي المولّد المهم مقدار ما يغذّي به.",
+     "en": "For a generator it matters how much it feeds in."
+    },
+    {
+     "de": "Das kann eine Photovoltaikanlage mit Wechselrichter sein.",
+     "ar": "وقد يكون محطة شمسية مع عاكس.",
+     "en": "This can be a photovoltaic system with an inverter."
+    },
+    {
+     "de": "Diese Daten kommen aus Datenblättern, Plänen und Messungen.",
+     "ar": "هذه البيانات تأتي من أوراق البيانات والمخططات والقياسات.",
+     "en": "This data comes from data sheets, drawings and measurements."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Lastfluss",
+    "heading": "Lastfluss: Was wird berechnet?",
+    "items": [
+     "Spannung an jedem Knoten",
+     "Strom und Leistung auf Leitungen",
+     "Belastung von Transformatoren",
+     "Verluste im Netz"
+    ],
+    "terms": [
+     {
+      "de": "Lastfluss",
+      "ar": "تدفق الحمل",
+      "en": "load flow (power flow)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt der Lastfluss.",
+     "ar": "الآن نصل إلى تدفق الحمل.",
+     "en": "Now comes the load flow."
+    },
+    {
+     "de": "Er beschreibt den normalen Betrieb des Netzes.",
+     "ar": "وهو يصف التشغيل الاعتيادي للشبكة.",
+     "en": "It describes the normal operation of the grid."
+    },
+    {
+     "de": "Das Programm bestimmt die Spannung an jedem Knoten.",
+     "ar": "يحدد البرنامج الجهد عند كل عقدة.",
+     "en": "The program determines the voltage at every node."
+    },
+    {
+     "de": "Es bestimmt auch Strom und Leistung auf jeder Leitung.",
+     "ar": "ويحدد أيضًا التيار والقدرة على كل خط.",
+     "en": "It also determines current and power on every line."
+    },
+    {
+     "de": "Dazu kommen die Belastung der Transformatoren und die Verluste.",
+     "ar": "ويُضاف إلى ذلك تحميل المحولات والفقد.",
+     "en": "In addition come the loading of transformers and the losses."
+    },
+    {
+     "de": "Das Grundprinzip ist die Leistungsbilanz an jedem Knoten.",
+     "ar": "المبدأ الأساسي هو توازن القدرة عند كل عقدة.",
+     "en": "The basic principle is the power balance at every node."
+    },
+    {
+     "de": "Was hineinfließt, muss herausfließen.",
+     "ar": "ما يدخل يجب أن يخرج.",
+     "en": "What flows in must flow out."
+    },
+    {
+     "de": "Das Programm löst das mit einem iterativen Verfahren.",
+     "ar": "ويحل البرنامج ذلك بطريقة تكرارية.",
+     "en": "The program solves this with an iterative method."
+    },
+    {
+     "de": "Das Programm startet mit einer Schätzung und verbessert sie Schritt für Schritt.",
+     "ar": "يبدأ البرنامج بتقدير أولي ويحسّنه خطوة بعد خطوة.",
+     "en": "The program starts with an estimate and improves it step by step."
+    },
+    {
+     "de": "Das Ergebnis gilt immer nur für die gerechnete Situation.",
+     "ar": "النتيجة صالحة دائمًا للحالة المحسوبة فقط.",
+     "en": "The result always applies only to the calculated situation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Lastfluss",
+    "heading": "Lastfluss: Eingaben und Ergebnisse",
+    "items": [
+     "Eingabe | Netzmodell mit Leitungen, Trafos",
+     "Eingabe | Lasten und Einspeisungen",
+     "Eingabe | Referenz: das übergeordnete Netz",
+     "Ergebnis | Spannungen an den Knoten",
+     "Ergebnis | Auslastung von Leitung, Trafo",
+     "Ergebnis | Verluste"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was geben Sie ein, und was bekommen Sie zurück?",
+     "ar": "ماذا تُدخلون وماذا تحصلون عليه؟",
+     "en": "What do you enter, and what do you get back?"
+    },
+    {
+     "de": "Sie geben das Netzmodell ein, also Leitungen und Transformatoren.",
+     "ar": "تُدخلون نموذج الشبكة أي الخطوط والمحولات.",
+     "en": "You enter the grid model, that is lines and transformers."
+    },
+    {
+     "de": "Dazu kommen die Lasten und die Einspeisungen für eine bestimmte Situation.",
+     "ar": "ثم الأحمال والتغذيات لحالة محددة.",
+     "en": "Then come the loads and feed-ins for a specific situation."
+    },
+    {
+     "de": "Das übergeordnete Netz dient als Referenz für Spannung und Ausgleich.",
+     "ar": "وتُستخدم الشبكة الأعلى كمرجع للجهد وللموازنة.",
+     "en": "The higher-level grid serves as a reference for voltage and balance."
+    },
+    {
+     "de": "Als Ergebnis erhalten Sie die Spannungen an den Knoten.",
+     "ar": "وكنتيجة تحصلون على الجهود عند العقد.",
+     "en": "As a result you get the voltages at the nodes."
+    },
+    {
+     "de": "Außerdem sehen Sie, wie stark Leitungen und Transformatoren ausgelastet sind.",
+     "ar": "كما ترون مدى تحميل الخطوط والمحولات.",
+     "en": "You also see how heavily lines and transformers are loaded."
+    },
+    {
+     "de": "Ein Ergebnis ist zuerst nur eine Zahl in einer Tabelle.",
+     "ar": "النتيجة في البداية مجرد رقم في جدول.",
+     "en": "A result is at first just a number in a table."
+    },
+    {
+     "de": "Wichtig ist die gerechnete Situation.",
+     "ar": "المهم هو الحالة التي جرى حسابها.",
+     "en": "The calculated situation matters."
+    },
+    {
+     "de": "Starke Einspeisung bei wenig Last ist etwas anderes als hohe Last ohne Einspeisung.",
+     "ar": "التغذية القوية مع حمل قليل تختلف عن حمل عالٍ دون تغذية.",
+     "en": "Strong feed-in with little load is different from high load without feed-in."
+    },
+    {
+     "de": "Ob ein Wert zulässig ist, hängt von den geltenden Vorgaben und vom Netzbetreiber ab.",
+     "ar": "وكون القيمة مسموحة أم لا يعتمد على المتطلبات السارية وعلى مشغّل الشبكة.",
+     "en": "Whether a value is permissible depends on the applicable requirements and the network operator."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Kurzschluss",
+    "heading": "Kurzschlussrechnung: Was wird berechnet?",
+    "items": [
+     "Kurzschlussstrom an der Fehlerstelle",
+     "Verschiedene Fehlerarten",
+     "Größter und kleinster Wert",
+     "Grundlage für Schutz und Geräte"
+    ],
+    "terms": [
+     {
+      "de": "Kurzschlussrechnung",
+      "ar": "حساب القصر الكهربائي",
+      "en": "short-circuit calculation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die zweite große Rechnung ist die Kurzschlussrechnung.",
+     "ar": "الحساب الكبير الثاني هو حساب القصر الكهربائي.",
+     "en": "The second big calculation is the short-circuit calculation."
+    },
+    {
+     "de": "Sie beschreibt einen Fehlerfall, nicht den Normalbetrieb.",
+     "ar": "وهو يصف حالة عطل لا التشغيل الاعتيادي.",
+     "en": "It describes a fault case, not normal operation."
+    },
+    {
+     "de": "Das Programm nimmt an, dass an einem Knoten ein Kurzschluss auftritt.",
+     "ar": "يفترض البرنامج حدوث قصر كهربائي عند عقدة ما.",
+     "en": "The program assumes a short circuit occurs at a node."
+    },
+    {
+     "de": "Dann berechnet es den Strom an der Fehlerstelle.",
+     "ar": "ثم يحسب التيار عند موضع العطل.",
+     "en": "Then it calculates the current at the fault location."
+    },
+    {
+     "de": "Man betrachtet verschiedene Fehlerarten, zum Beispiel dreipolig oder einpolig mit Erde.",
+     "ar": "وتُدرس أنواع مختلفة من الأعطال، مثل ثلاثي الأقطاب أو أحادي القطب مع الأرض.",
+     "en": "Different fault types are considered, for example three-pole or single-pole to earth."
+    },
+    {
+     "de": "Der Fehlerort kann an jedem Knoten liegen.",
+     "ar": "قد يقع موضع العطل عند أي عقدة.",
+     "en": "The fault location can be at any node."
+    },
+    {
+     "de": "Das Programm rechnet darum oft alle wichtigen Knoten durch.",
+     "ar": "لذلك كثيرًا ما يحسب البرنامج كل العقد المهمة.",
+     "en": "So the program often calculates all important nodes."
+    },
+    {
+     "de": "Das Ergebnis ist die Grundlage für den Schutz und für die Auswahl der Geräte.",
+     "ar": "والنتيجة أساس للحماية ولاختيار الأجهزة.",
+     "en": "The result is the basis for protection and for selecting equipment."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Kurzschluss",
+    "heading": "Kurzschluss: Eingaben und Ergebnisse",
+    "items": [
+     "Eingabe | Netzmodell mit allen Impedanzen",
+     "Eingabe | Beitrag der Einspeisungen",
+     "Eingabe | Fehlerort und Fehlerart",
+     "Ergebnis | Kurzschlussstrom am Fehlerort",
+     "Ergebnis | Vergleich mit dem Ausschaltvermögen",
+     "Verfahren | in der Regel nach IEC 60909"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was braucht die Kurzschlussrechnung?",
+     "ar": "ماذا يحتاج حساب القصر الكهربائي؟",
+     "en": "What does the short-circuit calculation need?"
+    },
+    {
+     "de": "Sie braucht das Netzmodell mit allen Impedanzen.",
+     "ar": "يحتاج إلى نموذج الشبكة بكل المعاوقات.",
+     "en": "It needs the grid model with all impedances."
+    },
+    {
+     "de": "Auch Generatoren und Anlagen mit Wechselrichter tragen zum Kurzschlussstrom bei.",
+     "ar": "كما تسهم المولّدات والمنشآت ذات العاكس في تيار القصر.",
+     "en": "Generators and plants with inverters also contribute to the short-circuit current."
+    },
+    {
+     "de": "Dazu legen Sie Fehlerort und Fehlerart fest.",
+     "ar": "ثم تحددون موضع العطل ونوعه.",
+     "en": "You also define the fault location and fault type."
+    },
+    {
+     "de": "Als Verfahren dient häufig die Norm IEC 60909, in der aktuellen Fassung.",
+     "ar": "وكثيرًا ما تُستخدم طريقة المعيار IEC 60909 بنسخته الحالية.",
+     "en": "A common method is the standard IEC 60909, in its current version.",
+     "tts": "Als Verfahren dient häufig die Norm I-E-Ze sechs null neun null neun, in der aktuellen Fassung."
+    },
+    {
+     "de": "Das Ergebnis vergleichen Sie mit dem Ausschaltvermögen der Schaltgeräte.",
+     "ar": "وتقارنون النتيجة بقدرة القطع لأجهزة التوصيل.",
+     "en": "You compare the result with the breaking capacity of the switchgear."
+    },
+    {
+     "de": "Ohne vollständige Daten stimmt das Ergebnis nicht.",
+     "ar": "من دون بيانات كاملة لن تكون النتيجة صحيحة.",
+     "en": "Without complete data the result is not correct."
+    },
+    {
+     "de": "Die Norm legt das Rechenverfahren fest.",
+     "ar": "يحدد المعيار طريقة الحساب.",
+     "en": "The standard defines the calculation method."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Kurzschluss",
+    "heading": "Größter und kleinster Kurzschlussstrom",
+    "items": [
+     "Größter Wert: Geräte müssen ihn beherrschen",
+     "Kleinster Wert: Schutz muss noch auslösen",
+     "Schwache Einspeisung: kleiner Strom",
+     "Starke Einspeisung: großer Strom"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Man rechnet oft zwei Fälle.",
+     "ar": "غالبًا ما يُحسب حالتان.",
+     "en": "Often two cases are calculated."
+    },
+    {
+     "de": "Der erste Fall ist der größte Kurzschlussstrom.",
+     "ar": "الحالة الأولى هي أكبر تيار قصر.",
+     "en": "The first case is the largest short-circuit current."
+    },
+    {
+     "de": "Die Schaltgeräte müssen ihn sicher abschalten können.",
+     "ar": "يجب أن تستطيع أجهزة التوصيل فصله بأمان.",
+     "en": "The switchgear must be able to switch it off safely."
+    },
+    {
+     "de": "Der zweite Fall ist der kleinste Kurzschlussstrom.",
+     "ar": "والحالة الثانية هي أصغر تيار قصر.",
+     "en": "The second case is the smallest short-circuit current."
+    },
+    {
+     "de": "Auch dann muss der Schutz noch auslösen.",
+     "ar": "وحتى عندها يجب أن تعمل الحماية.",
+     "en": "Even then the protection must still trip."
+    },
+    {
+     "de": "Bei schwacher Einspeisung ist der Fehlerstrom klein.",
+     "ar": "عند تغذية ضعيفة يكون تيار العطل صغيرًا.",
+     "en": "With weak feed-in the fault current is small."
+    },
+    {
+     "de": "Das Modell muss beide Fälle abbilden können.",
+     "ar": "ويجب أن يتمكن النموذج من تمثيل الحالتين.",
+     "en": "The model must be able to represent both cases."
+    },
+    {
+     "de": "Beide Werte gehören in die Dokumentation der Rechnung.",
+     "ar": "وكلتا القيمتين تُدرجان في توثيق الحساب.",
+     "en": "Both values belong in the documentation of the calculation."
+    },
+    {
+     "de": "Starke Netze liefern mehr Kurzschlussstrom als schwache Netze.",
+     "ar": "الشبكات القوية تعطي تيار قصر أكبر من الشبكات الضعيفة.",
+     "en": "Strong grids deliver more short-circuit current than weak grids."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schutzkoordination",
+    "heading": "Schutzkoordination als Konzept",
+    "items": [
+     "Mehrere Schutzgeräte hintereinander",
+     "Nur der Fehlerort soll abschalten",
+     "Einstellwerte aufeinander abstimmen",
+     "Ergebnis: ein Staffelplan"
+    ],
+    "terms": [
+     {
+      "de": "Schutzkoordination",
+      "ar": "تنسيق الحماية",
+      "en": "protection coordination"
+     },
+     {
+      "de": "Selektivität",
+      "ar": "الانتقائية",
+      "en": "selectivity"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Schutzkoordination.",
+     "ar": "والآن إلى تنسيق الحماية.",
+     "en": "Now to protection coordination."
+    },
+    {
+     "de": "Im Netz stehen viele Schutzgeräte hintereinander.",
+     "ar": "في الشبكة توجد أجهزة حماية كثيرة متتالية.",
+     "en": "In the grid, many protective devices stand in series."
+    },
+    {
+     "de": "Bei einem Fehler soll nur das Gerät direkt vor dem Fehler abschalten.",
+     "ar": "عند حدوث عطل يجب أن يفصل الجهاز الأقرب قبل العطل فقط.",
+     "en": "In a fault only the device directly before the fault should switch off."
+    },
+    {
+     "de": "Der Rest der Anlage bleibt in Betrieb. Das nennt man Selektivität.",
+     "ar": "ويبقى باقي المنشأة في الخدمة. وهذا ما يسمى الانتقائية.",
+     "en": "The rest of the installation stays in operation. This is called selectivity."
+    },
+    {
+     "de": "Dafür müssen die Einstellwerte aufeinander abgestimmt sein.",
+     "ar": "ولهذا يجب تنسيق قيم الضبط فيما بينها.",
+     "en": "For this the settings must be coordinated with each other."
+    },
+    {
+     "de": "Grundlage sind die Kurzschlussströme aus der Rechnung.",
+     "ar": "الأساس هو تيارات القصر من الحساب.",
+     "en": "The basis is the short-circuit currents from the calculation."
+    },
+    {
+     "de": "Das Ergebnis ist oft ein Staffelplan.",
+     "ar": "والنتيجة غالبًا خطة تدريج.",
+     "en": "The result is often a grading plan."
+    },
+    {
+     "de": "Die Rechnung liefert dafür die Zahlen, die Abstimmung bleibt Ingenieurarbeit.",
+     "ar": "الحساب يوفّر الأرقام، أما التنسيق فيبقى عملًا هندسيًا.",
+     "en": "The calculation provides the numbers, the coordination remains engineering work."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Schutzkoordination",
+    "heading": "Wie Software dabei hilft",
+    "items": [
+     "Kennlinie | Auslösezeit über dem Strom",
+     "Überlagerung | Kennlinien mehrerer Geräte",
+     "Prüfung | Bleibt ein Abstand zwischen Geräten?",
+     "Prüfung | Passt die Kennlinie zum Kurzschlussstrom?",
+     "Ergebnis | Einstellwerte als Vorschlag",
+     "Bewertung | immer durch Fachleute"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Software hilft bei der Schutzkoordination mit Kennlinien.",
+     "ar": "تساعد البرمجيات في تنسيق الحماية عبر المنحنيات.",
+     "en": "Software helps with protection coordination using curves."
+    },
+    {
+     "de": "Eine Kennlinie zeigt, wie schnell ein Gerät bei welchem Strom auslöst.",
+     "ar": "يبيّن المنحنى مدى سرعة فصل الجهاز عند كل تيار.",
+     "en": "A curve shows how fast a device trips at which current."
+    },
+    {
+     "de": "Das Programm legt die Kennlinien mehrerer Geräte übereinander.",
+     "ar": "يضع البرنامج منحنيات عدة أجهزة فوق بعضها.",
+     "en": "The program lays the curves of several devices on top of each other."
+    },
+    {
+     "de": "So sieht man, ob zwischen den Geräten ein Abstand bleibt.",
+     "ar": "وهكذا يُرى هل يبقى فاصل بين الأجهزة.",
+     "en": "So you can see whether a gap remains between the devices."
+    },
+    {
+     "de": "Man prüft auch, ob die Kennlinie zum Kurzschlussstrom passt.",
+     "ar": "ويُفحص أيضًا هل يناسب المنحنى تيار القصر.",
+     "en": "You also check whether the curve fits the short-circuit current."
+    },
+    {
+     "de": "Die Einstellungen bewerten aber immer Fachleute, mit Herstellerdaten.",
+     "ar": "لكن تقييم الإعدادات يقوم به دائمًا مختصون بالاعتماد على بيانات المصنّعين.",
+     "en": "But specialists always judge the settings, using manufacturer data."
+    },
+    {
+     "de": "Ohne richtige Kurzschlussströme ist jede Koordination wertlos.",
+     "ar": "من دون تيارات قصر صحيحة يفقد أي تنسيق قيمته.",
+     "en": "Without correct short-circuit currents, any coordination is worthless."
+    },
+    {
+     "de": "Das Programm zeigt Bilder, aber den Schutz verantworten Menschen.",
+     "ar": "يعرض البرنامج رسومًا، لكن المسؤولية عن الحماية يتحملها البشر.",
+     "en": "The program shows pictures, but people are responsible for the protection."
+    },
+    {
+     "de": "Die Rechnung liefert die Zahlen, die Abstimmung ist Ingenieurarbeit.",
+     "ar": "الحساب يعطي الأرقام، أما التنسيق فعمل هندسي.",
+     "en": "The calculation delivers the numbers, the coordination is engineering work."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Grenzen",
+    "heading": "Grenzen von Modellen",
+    "items": [
+     "Vereinfachung: Das Modell ist nicht das Netz",
+     "Datenqualität: falsche Daten, falsches Ergebnis",
+     "Annahmen: Last und Einspeisung ändern sich",
+     "Software: Ergebnis ist nicht automatisch richtig"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jedes Modell hat Grenzen.",
+     "ar": "لكل نموذج حدوده.",
+     "en": "Every model has limits."
+    },
+    {
+     "de": "Das Modell ist eine Vereinfachung und nicht das echte Netz.",
+     "ar": "النموذج تبسيط وليس الشبكة الحقيقية.",
+     "en": "The model is a simplification and not the real grid."
+    },
+    {
+     "de": "Die wichtigste Grenze ist die Datenqualität.",
+     "ar": "أهم حد هو جودة البيانات.",
+     "en": "The most important limit is data quality."
+    },
+    {
+     "de": "Falsche Eingangsdaten ergeben ein falsches Ergebnis, auch wenn es genau aussieht.",
+     "ar": "البيانات المدخلة الخاطئة تعطي نتيجة خاطئة حتى لو بدت دقيقة.",
+     "en": "Wrong input data gives a wrong result, even if it looks precise."
+    },
+    {
+     "de": "Auch die Annahmen zählen. Last und Einspeisung ändern sich ständig.",
+     "ar": "وتؤثر الافتراضات أيضًا. فالحمل والتغذية يتغيران باستمرار.",
+     "en": "Assumptions count too. Load and feed-in change all the time."
+    },
+    {
+     "de": "Und Software rechnet nur, was man ihr eingibt.",
+     "ar": "والبرنامج يحسب فقط ما نُدخله إليه.",
+     "en": "And software only calculates what you enter into it."
+    },
+    {
+     "de": "Ein Beispiel: Im Plan ist ein falscher Kabeltyp eingetragen.",
+     "ar": "مثال: في المخطط نوع كابل مدوَّن خطأً.",
+     "en": "An example: a wrong cable type is entered in the drawing."
+    },
+    {
+     "de": "Dann stimmt die Impedanz nicht, und das Ergebnis täuscht.",
+     "ar": "عندها لا تكون المعاوقة صحيحة وتصبح النتيجة مضلِّلة.",
+     "en": "Then the impedance is wrong, and the result deceives."
+    },
+    {
+     "de": "Auch ein alter Planstand ist ein Risiko.",
+     "ar": "كما أن مخططًا قديمًا يمثل خطرًا أيضًا.",
+     "en": "An outdated drawing status is also a risk."
+    },
+    {
+     "de": "Messwerte helfen, das Modell zu überprüfen.",
+     "ar": "تساعد قيم القياس في التحقق من النموذج.",
+     "en": "Measured values help to check the model."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grenzen",
+    "heading": "Ergebnisse prüfen und dokumentieren",
+    "items": [
+     "Ergebnis auf Plausibilität prüfen",
+     "Mit Messwerten vergleichen",
+     "Annahmen und Datenstand festhalten",
+     "Rechnung nachvollziehbar machen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie gehen Sie mit diesen Grenzen um?",
+     "ar": "كيف تتعاملون مع هذه الحدود؟",
+     "en": "How do you deal with these limits?"
+    },
+    {
+     "de": "Prüfen Sie jedes Ergebnis auf Plausibilität.",
+     "ar": "افحصوا كل نتيجة من حيث معقوليتها.",
+     "en": "Check every result for plausibility."
+    },
+    {
+     "de": "Fragen Sie: Passt das zu meiner Erfahrung?",
+     "ar": "اسألوا: هل يتفق هذا مع خبرتي؟",
+     "en": "Ask: Does this fit my experience?"
+    },
+    {
+     "de": "Vergleichen Sie, wenn möglich, mit Messwerten aus dem Netz.",
+     "ar": "وقارنوا، إن أمكن، بقيم قياس من الشبكة.",
+     "en": "If possible, compare with measured values from the grid."
+    },
+    {
+     "de": "Halten Sie Annahmen und den Stand der Daten schriftlich fest.",
+     "ar": "دوّنوا الافتراضات وتاريخ البيانات كتابةً.",
+     "en": "Record assumptions and the data status in writing."
+    },
+    {
+     "de": "So kann eine andere Person die Rechnung nachvollziehen.",
+     "ar": "وهكذا يستطيع شخص آخر تتبّع الحساب.",
+     "en": "That way another person can follow the calculation."
+    },
+    {
+     "de": "Notieren Sie auch, welche Software und welche Version Sie benutzt haben.",
+     "ar": "دوّنوا أيضًا أي برنامج وأي إصدار استخدمتم.",
+     "en": "Also note which software and which version you used."
+    },
+    {
+     "de": "Eine Rechnung, die niemand versteht, hilft niemandem.",
+     "ar": "حساب لا يفهمه أحد لا يفيد أحدًا.",
+     "en": "A calculation that nobody understands helps nobody."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Sicherheit",
+    "heading": "Das Modell ersetzt keine Sicherheit",
+    "items": [
+     "Rechnung ist nicht Freischalten",
+     "Arbeit an Anlagen: nur mit Qualifikation",
+     "Fünf Sicherheitsregeln immer vollständig",
+     "Modell und Anlage können abweichen"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein wichtiger Sicherheitshinweis.",
+     "ar": "تنبيه مهم يخص السلامة.",
+     "en": "An important safety note."
+    },
+    {
+     "de": "Ein Rechenergebnis macht eine Anlage nicht spannungsfrei.",
+     "ar": "نتيجة الحساب لا تجعل المنشأة خالية من الجهد.",
+     "en": "A calculation result does not make an installation voltage-free."
+    },
+    {
+     "de": "Arbeiten an elektrischen Anlagen macht eine Elektrofachkraft oder jemand unter Leitung und Aufsicht einer Elektrofachkraft.",
+     "ar": "الأعمال على المنشآت الكهربائية يقوم بها الكهربائي المؤهَّل (Elektrofachkraft) أو شخص تحت إشرافه وتوجيهه.",
+     "en": "Work on electrical installations is done by a qualified electrician or someone under the direction and supervision of a qualified electrician."
+    },
+    {
+     "de": "Dabei gelten immer alle fünf Sicherheitsregeln in dieser Reihenfolge.",
+     "ar": "وتسري دائمًا القواعد الخمس للسلامة كلها بهذا الترتيب.",
+     "en": "All five safety rules always apply, in this order."
+    },
+    {
+     "de": "Erstens freischalten, zweitens gegen Wiedereinschalten sichern, drittens allpolig die Spannungsfreiheit feststellen.",
+     "ar": "أولًا فصل الجهد، ثانيًا تأمينها ضد إعادة التشغيل، ثالثًا التحقق من خلو الجهد عن كل الأقطاب.",
+     "en": "First isolate, second secure against reconnection, third verify absence of voltage on all poles."
+    },
+    {
+     "de": "Viertens erden und kurzschließen, fünftens benachbarte unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "رابعًا التأريض والتقصير، خامسًا إحاطة الأجزاء المجاورة التي عليها جهد بحواجز أو تغطيتها.",
+     "en": "Fourth earth and short-circuit, fifth cover or fence off neighbouring live parts."
+    },
+    {
+     "de": "Das Modell kann von der Anlage abweichen. Verlassen Sie sich vor Ort nie nur auf das Modell.",
+     "ar": "وقد يختلف النموذج عن المنشأة. لا تعتمدوا في الموقع على النموذج وحده أبدًا.",
+     "en": "The model can differ from the installation. On site, never rely on the model alone."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "pandapower",
+    "heading": "pandapower: offene Python-Bibliothek",
+    "items": [
+     "Quelloffen unter BSD-Lizenz",
+     "Aufbauend auf Python und pandas",
+     "Netze als Tabellen gespeichert",
+     "Entwickelt in Kassel"
+    ],
+    "terms": [
+     {
+      "de": "quelloffen",
+      "ar": "مفتوح المصدر",
+      "en": "open source"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zu einem frei verfügbaren Werkzeug: pandapower.",
+     "ar": "والآن نتعرف على أداة (pandapower) متاحة مجانًا.",
+     "en": "Now to a freely available tool: pandapower.",
+     "tts": "Nun zu einem frei verfügbaren Werkzeug: Pandapauer."
+    },
+    {
+     "de": "Es ist eine quelloffene Bibliothek für die Programmiersprache Python.",
+     "ar": "وهي مكتبة مفتوحة المصدر للغة البرمجة بايثون.",
+     "en": "It is an open-source library for the Python programming language.",
+     "tts": "Es ist eine quelloffene Bibliothek für die Programmiersprache Paiton."
+    },
+    {
+     "de": "Sie steht unter einer BSD-Lizenz, die Sie vor der Nutzung selbst lesen sollten.",
+     "ar": "وهي تحت رخصة BSD ويجب أن تقرؤوها بأنفسكم قبل الاستخدام.",
+     "en": "It is under a BSD licence, which you should read yourself before use.",
+     "tts": "Sie steht unter einer Be-Es-De-Lizenz, die Sie vor der Nutzung selbst lesen sollten."
+    },
+    {
+     "de": "Das Netz wird in Tabellen gespeichert, zum Beispiel für Knoten, Leitungen, Transformatoren und Lasten.",
+     "ar": "تُخزَّن الشبكة في جداول، مثل جداول العقد والخطوط والمحولات والأحمال.",
+     "en": "The grid is stored in tables, for example for nodes, lines, transformers and loads."
+    },
+    {
+     "de": "Entwickelt wurde sie an der Universität Kassel und am Fraunhofer-Institut in Kassel.",
+     "ar": "وقد طُوّرت في جامعة كاسل وفي معهد فراونهوفر في كاسل.",
+     "en": "It was developed at the University of Kassel and the Fraunhofer Institute in Kassel."
+    },
+    {
+     "de": "Für Lehre, Forschung und eigene Studien ist das ein guter Einstieg.",
+     "ar": "وهي مدخل جيد للتعليم والبحث والدراسات الشخصية.",
+     "en": "For teaching, research and your own studies it is a good start."
+    },
+    {
+     "de": "Wer Python kennt, kann Rechnungen automatisieren und wiederholen.",
+     "ar": "ومن يعرف بايثون يستطيع أتمتة الحسابات وتكرارها.",
+     "en": "If you know Python, you can automate and repeat calculations.",
+     "tts": "Wer Paiton kennt, kann Rechnungen automatisieren und wiederholen."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "pandapower",
+    "heading": "pandapower: Der Ablauf im Überblick",
+    "items": [
+     "Schritt 1 | leeres Netz anlegen",
+     "Schritt 2 | Knoten, Leitungen, Trafos ergänzen",
+     "Schritt 3 | Lasten, Erzeuger, Netzanschluss ergänzen",
+     "Schritt 4 | Lastfluss rechnen",
+     "Schritt 5 | Ergebnistabellen lesen",
+     "Zusatz | Kurzschlussrechnung nach IEC 60909"
+    ]
+   },
+   "lines": [
+    {
+     "de": "So läuft eine Berechnung mit pandapower ab.",
+     "ar": "هكذا يجري الحساب باستخدام مكتبة pandapower في خطواتها الرئيسية.",
+     "en": "This is how a calculation with pandapower works.",
+     "tts": "So läuft eine Berechnung mit Pandapauer ab."
+    },
+    {
+     "de": "Zuerst legen Sie ein leeres Netz an.",
+     "ar": "أولًا تنشئون شبكة فارغة.",
+     "en": "First you create an empty network."
+    },
+    {
+     "de": "Dann ergänzen Sie Knoten, Leitungen und Transformatoren.",
+     "ar": "ثم تضيفون العقد والخطوط والمحولات.",
+     "en": "Then you add nodes, lines and transformers."
+    },
+    {
+     "de": "Danach folgen Lasten, Erzeuger und der Netzanschluss.",
+     "ar": "بعد ذلك الأحمال والمولدات والتوصيل بالشبكة.",
+     "en": "After that come loads, generators and the grid connection."
+    },
+    {
+     "de": "Nun starten Sie den Lastfluss. Standardmäßig nutzt er das Newton-Raphson-Verfahren.",
+     "ar": "ثم تشغّلون تدفق الحمل. وهو يستخدم افتراضيًا طريقة نيوتن–رافسون.",
+     "en": "Now you start the load flow. By default it uses the Newton-Raphson method."
+    },
+    {
+     "de": "Die Ergebnisse stehen danach in Tabellen.",
+     "ar": "وتظهر النتائج بعد ذلك في جداول.",
+     "en": "The results are then in tables."
+    },
+    {
+     "de": "Eine Kurzschlussrechnung nach IEC 60909 ist ebenfalls möglich.",
+     "ar": "كما يمكن إجراء حساب القصر الكهربائي وفق المعيار IEC 60909 أيضًا.",
+     "en": "A short-circuit calculation according to IEC 60909 is also possible.",
+     "tts": "Eine Kurzschlussrechnung nach I-E-Ze sechs null neun null neun ist ebenfalls möglich."
+    },
+    {
+     "de": "Die Dokumentation erklärt jedes Element mit seinen Parametern.",
+     "ar": "يشرح التوثيق كل عنصر مع معاملاته.",
+     "en": "The documentation explains each element with its parameters."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "pandapower",
+    "heading": "Was pandapower kann und was nicht",
+    "items": [
+     "Kann: Lastfluss und Kurzschlussrechnung",
+     "Kann: optimaler Lastfluss und weitere Analysen",
+     "Konverter: Austausch mit anderen Formaten",
+     "Grenze: nicht jede Einstellung wird übertragen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was kann pandapower, und wo liegen die Grenzen?",
+     "ar": "ماذا يستطيع pandapower وأين حدوده؟",
+     "en": "What can pandapower do, and where are its limits?",
+     "tts": "Was kann Pandapauer, und wo liegen die Grenzen?"
+    },
+    {
+     "de": "Es rechnet Lastfluss und Kurzschluss.",
+     "ar": "فهو يحسب تدفق الحمل والقصر الكهربائي.",
+     "en": "It calculates load flow and short circuit."
+    },
+    {
+     "de": "Dazu kommen weitere Analysen, zum Beispiel ein optimaler Lastfluss.",
+     "ar": "وتُضاف تحليلات أخرى، مثل تدفق الحمل الأمثل.",
+     "en": "There are further analyses, for example an optimal load flow."
+    },
+    {
+     "de": "Es gibt Konverter für Austauschformate anderer Programme.",
+     "ar": "توجد محوّلات لصيغ التبادل الخاصة ببرامج أخرى.",
+     "en": "There are converters for exchange formats of other programs."
+    },
+    {
+     "de": "Nicht jede Einstellung lässt sich aber dabei übertragen.",
+     "ar": "لكن لا يمكن نقل كل إعداد بهذه الطريقة.",
+     "en": "But not every setting can be transferred this way."
+    },
+    {
+     "de": "Die Dokumentation gehört zur jeweiligen Version. Prüfen Sie also, welche Version Sie nutzen.",
+     "ar": "والتوثيق خاص بكل إصدار. لذا تحققوا من الإصدار الذي تستخدمونه.",
+     "en": "The documentation belongs to each version. So check which version you use."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Beispiele",
+    "heading": "Kommerzielle Programme als Beispiele",
+    "items": [
+     "ETAP: Analyse und Betrieb von Netzen",
+     "PowerFactory: Software von DIgSILENT",
+     "Beide: Lastfluss, Kurzschluss, Schutz",
+     "Hinweis: Beispiele, keine Empfehlung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt auch kommerzielle Programme.",
+     "ar": "توجد أيضًا برامج تجارية.",
+     "en": "There are also commercial programs."
+    },
+    {
+     "de": "Zwei bekannte Beispiele sind ETAP und DIgSILENT PowerFactory.",
+     "ar": "ومن الأمثلة المعروفة برنامجا ETAP وDIgSILENT PowerFactory معًا.",
+     "en": "Two well-known examples are ETAP and DIgSILENT PowerFactory.",
+     "tts": "Zwei bekannte Beispiele sind E-Täp und Di-Sailent Pauer-Fäkteri."
+    },
+    {
+     "de": "ETAP kommt von der Firma Operation Technology in Kalifornien.",
+     "ar": "يأتي ETAP من شركة Operation Technology في كاليفورنيا.",
+     "en": "ETAP comes from the company Operation Technology in California.",
+     "tts": "E-Täp kommt von der Firma Operation Technology in Kalifornien."
+    },
+    {
+     "de": "DIgSILENT ist ein Unternehmen aus Gomaringen bei Tübingen.",
+     "ar": "وDIgSILENT شركة من غوماريغن قرب توبنغن.",
+     "en": "DIgSILENT is a company from Gomaringen near Tübingen.",
+     "tts": "Di-Sailent ist ein Unternehmen aus Gomaringen bei Tübingen."
+    },
+    {
+     "de": "Nach Angaben der Hersteller rechnen solche Programme ähnliche Aufgaben wie in diesem Video.",
+     "ar": "وحسب بيانات المصنّعين تقوم هذه البرامج بمهام مشابهة لما في هذا الفيديو.",
+     "en": "According to the manufacturers, such programs handle similar tasks to those in this video."
+    },
+    {
+     "de": "Das sind Beispiele und keine Empfehlung.",
+     "ar": "هذه أمثلة وليست توصية.",
+     "en": "These are examples, not a recommendation."
+    },
+    {
+     "de": "Zu Preisen und Verbreitung machen wir bewusst keine Aussage.",
+     "ar": "ولا نقدم عمدًا أي قول عن الأسعار أو الانتشار.",
+     "en": "We deliberately make no statement about prices or market spread."
+    },
+    {
+     "de": "Es gibt außerdem weitere Programme am Markt.",
+     "ar": "وتوجد فضلًا عن ذلك برامج أخرى في السوق.",
+     "en": "There are also other programs on the market."
+    },
+    {
+     "de": "Prüfen Sie Funktionen immer bei den Herstellern selbst.",
+     "ar": "تحققوا من الوظائف دائمًا لدى المصنّعين أنفسهم.",
+     "en": "Always check functions with the manufacturers themselves."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Ihre Praxis",
+    "heading": "Was Sie als Ingenieur mitnehmen",
+    "items": [
+     "Konzepte zählen mehr als Bedienung",
+     "Eingangsdaten prüfen",
+     "Ergebnisse plausibilisieren",
+     "Arbeitgeber und Netzbetreiber fragen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Was bedeutet das für Ihre Arbeit in Deutschland?",
+     "ar": "ماذا يعني ذلك لعملكم في ألمانيا؟",
+     "en": "What does this mean for your work in Germany?"
+    },
+    {
+     "de": "Die Konzepte sind in jedem Programm gleich.",
+     "ar": "المفاهيم هي نفسها في كل برنامج.",
+     "en": "The concepts are the same in every program."
+    },
+    {
+     "de": "Welches Programm eine Firma nutzt, erfahren Sie dort.",
+     "ar": "أما البرنامج الذي تستخدمه الشركة فتعرفونه هناك.",
+     "en": "Which program a company uses, you learn there."
+    },
+    {
+     "de": "Wichtiger als die Bedienung ist das Verständnis.",
+     "ar": "الفهم أهم من طريقة التشغيل.",
+     "en": "Understanding is more important than operation."
+    },
+    {
+     "de": "Prüfen Sie immer die Eingangsdaten.",
+     "ar": "افحصوا دائمًا البيانات المدخلة.",
+     "en": "Always check the input data."
+    },
+    {
+     "de": "Prüfen Sie die Ergebnisse auf Plausibilität.",
+     "ar": "افحصوا النتائج من حيث المعقولية.",
+     "en": "Check the results for plausibility."
+    },
+    {
+     "de": "Und fragen Sie im Zweifel den Netzbetreiber oder die erfahrene Kollegin.",
+     "ar": "واسألوا عند الشك مشغّل الشبكة أو الزميلة ذات الخبرة.",
+     "en": "And if in doubt, ask the network operator or the experienced colleague."
+    },
+    {
+     "de": "Zum Lernen genügt ein offenes Werkzeug.",
+     "ar": "للتعلّم تكفي أداة مفتوحة.",
+     "en": "For learning, an open tool is enough."
+    },
+    {
+     "de": "Für Projekte nutzen Sie, was Ihr Team vorgibt.",
+     "ar": "وفي المشاريع تستخدمون ما يحدده فريقكم.",
+     "en": "In projects you use what your team specifies."
+    },
+    {
+     "de": "Dokumentieren Sie, was Sie angenommen haben.",
+     "ar": "وثّقوا ما افترضتموه.",
+     "en": "Document what you assumed."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Modell: Knoten, Leitungen, Trafo, Last, Erzeuger",
+     "Lastfluss: Normalbetrieb",
+     "Kurzschluss: Fehlerfall",
+     "Schutzkoordination: nur der Fehlerort schaltet ab",
+     "Datenqualität bestimmt die Aussagekraft"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Ein Netzmodell besteht aus Knoten, Leitungen, Transformatoren, Lasten und Erzeugern.",
+     "ar": "يتكوّن نموذج الشبكة من عقد وخطوط ومحولات وأحمال ومولدات.",
+     "en": "A grid model consists of nodes, lines, transformers, loads and generators."
+    },
+    {
+     "de": "Der Lastfluss zeigt Spannungen und Belastungen im Normalbetrieb.",
+     "ar": "يُظهر تدفق الحمل الجهود والتحميل في التشغيل الاعتيادي.",
+     "en": "The load flow shows voltages and loading in normal operation."
+    },
+    {
+     "de": "Die Kurzschlussrechnung zeigt Fehlerströme im Fehlerfall.",
+     "ar": "ويُظهر حساب القصر الكهربائي تيارات العطل في حالة العطل.",
+     "en": "The short-circuit calculation shows fault currents in a fault case."
+    },
+    {
+     "de": "Die Schutzkoordination stimmt Geräte so ab, dass nur der Fehlerort abschaltet.",
+     "ar": "ويضبط تنسيق الحماية الأجهزة بحيث يفصل موضع العطل وحده.",
+     "en": "Protection coordination tunes devices so that only the fault location switches off."
+    },
+    {
+     "de": "Die Datenqualität bestimmt, wie viel ein Ergebnis wert ist.",
+     "ar": "وجودة البيانات تحدد قيمة النتيجة.",
+     "en": "Data quality determines how much a result is worth."
+    },
+    {
+     "de": "pandapower ist ein offenes Werkzeug zum Lernen. ETAP und PowerFactory sind kommerzielle Beispiele.",
+     "ar": "أداة pandapower مفتوحة للتعلّم. أما ETAP وPowerFactory فمثالان تجاريان.",
+     "en": "pandapower is an open tool for learning. ETAP and PowerFactory are commercial examples.",
+     "tts": "Pandapauer ist ein offenes Werkzeug zum Lernen. E-Täp und Pauer-Fäkteri sind kommerzielle Beispiele."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zum Schluss",
+    "heading": "Aktuelle Fassungen prüfen",
+    "items": [
+     "Allgemeine Information",
+     "Keine Rechts- oder Ingenieurberatung",
+     "Aktuelle Fassungen prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss noch eine wichtige Bitte.",
+     "ar": "وأخيرًا، طلب مهم.",
+     "en": "Finally, an important request."
+    },
+    {
+     "de": "Gesetze, Normen und Software-Versionen ändern sich.",
+     "ar": "القوانين والمعايير وإصدارات البرمجيات تتغير.",
+     "en": "Laws, standards and software versions change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung.",
+     "ar": "تحققوا دائمًا من النسخة الحالية.",
+     "en": "Always check the current version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is not legal advice and not engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um Simulation, zum Beispiel mit MATLAB, Simulink und LTspice.",
+     "ar": "في الفيديو القادم نتناول المحاكاة، مثلًا باستخدام MATLAB وSimulink وLTspice معًا.",
+     "en": "The next video is about simulation, for example with MATLAB, Simulink and LTspice.",
+     "tts": "Im nächsten Video geht es um Simulation, zum Beispiel mit Mät-Läb, Simu-Link und El-Ti-Spice."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "der Knoten",
+   "ar": "العقدة",
+   "en": "node (bus)"
+  },
+  {
+   "de": "das Netzmodell",
+   "ar": "نموذج الشبكة",
+   "en": "grid model"
+  },
+  {
+   "de": "die Leitung",
+   "ar": "الخط",
+   "en": "line"
+  },
+  {
+   "de": "der Transformator",
+   "ar": "المحوّل",
+   "en": "transformer"
+  },
+  {
+   "de": "die Last",
+   "ar": "الحمل",
+   "en": "load"
+  },
+  {
+   "de": "der Erzeuger",
+   "ar": "المولّد",
+   "en": "generator"
+  },
+  {
+   "de": "der Netzanschluss",
+   "ar": "التوصيل بالشبكة",
+   "en": "grid connection"
+  },
+  {
+   "de": "der Lastfluss",
+   "ar": "تدفق الحمل",
+   "en": "load flow"
+  },
+  {
+   "de": "die Kurzschlussrechnung",
+   "ar": "حساب القصر الكهربائي",
+   "en": "short-circuit calculation"
+  },
+  {
+   "de": "der Kurzschlussstrom",
+   "ar": "تيار القصر",
+   "en": "short-circuit current"
+  },
+  {
+   "de": "die Impedanz",
+   "ar": "المعاوقة",
+   "en": "impedance"
+  },
+  {
+   "de": "die Schutzkoordination",
+   "ar": "تنسيق الحماية",
+   "en": "protection coordination"
+  },
+  {
+   "de": "die Selektivität",
+   "ar": "الانتقائية",
+   "en": "selectivity"
+  },
+  {
+   "de": "die Kennlinie",
+   "ar": "المنحنى المميِّز",
+   "en": "characteristic curve"
+  },
+  {
+   "de": "die Datenqualität",
+   "ar": "جودة البيانات",
+   "en": "data quality"
+  },
+  {
+   "de": "die Plausibilität",
+   "ar": "المعقولية",
+   "en": "plausibility"
+  },
+  {
+   "de": "quelloffen",
+   "ar": "مفتوح المصدر",
+   "en": "open source"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was beschreibt der Lastfluss?",
+    "ar": "ماذا يصف تدفق الحمل؟",
+    "en": "What does the load flow describe?"
+   },
+   "options": [
+    {
+     "de": "Den Fehlerfall im Netz",
+     "ar": "حالة العطل في الشبكة",
+     "en": "The fault case in the grid"
+    },
+    {
+     "de": "Den normalen Betrieb mit Spannungen und Belastungen",
+     "ar": "التشغيل الاعتيادي بجهوده وتحميله",
+     "en": "Normal operation with voltages and loadings"
+    },
+    {
+     "de": "Die Preise von Software",
+     "ar": "أسعار البرمجيات",
+     "en": "The prices of software"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wofür braucht man den größten Kurzschlussstrom?",
+    "ar": "لماذا نحتاج إلى أكبر تيار قصر؟",
+    "en": "What is the largest short-circuit current needed for?"
+   },
+   "options": [
+    {
+     "de": "Für die Wahl der Farbe der Leitung",
+     "ar": "لاختيار لون الخط",
+     "en": "For choosing the colour of the line"
+    },
+    {
+     "de": "Um die Spannung im Normalbetrieb zu prüfen",
+     "ar": "لفحص الجهد في التشغيل الاعتيادي",
+     "en": "To check the voltage in normal operation"
+    },
+    {
+     "de": "Um zu prüfen, ob Schaltgeräte ihn beherrschen",
+     "ar": "لفحص قدرة أجهزة التوصيل على تحمّله",
+     "en": "To check whether switchgear can handle it"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was bedeutet Selektivität?",
+    "ar": "ما معنى الانتقائية؟",
+    "en": "What does selectivity mean?"
+   },
+   "options": [
+    {
+     "de": "Nur der Bereich mit dem Fehler wird abgeschaltet",
+     "ar": "يُفصل فقط المقطع الذي فيه العطل",
+     "en": "Only the area with the fault is switched off"
+    },
+    {
+     "de": "Alle Geräte schalten gleichzeitig ab",
+     "ar": "تفصل كل الأجهزة في وقت واحد",
+     "en": "All devices switch off at the same time"
+    },
+    {
+     "de": "Das Programm wählt automatisch die Farbe",
+     "ar": "يختار البرنامج اللون تلقائيًا",
+     "en": "The program chooses the colour automatically"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was ist die wichtigste Grenze eines Netzmodells?",
+    "ar": "ما أهم حد لنموذج الشبكة؟",
+    "en": "What is the most important limit of a grid model?"
+   },
+   "options": [
+    {
+     "de": "Die Bildschirmgröße",
+     "ar": "حجم الشاشة",
+     "en": "The screen size"
+    },
+    {
+     "de": "Die Datenqualität",
+     "ar": "جودة البيانات",
+     "en": "The data quality"
+    },
+    {
+     "de": "Der Name des Programms",
+     "ar": "اسم البرنامج",
+     "en": "The name of the program"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was stimmt über pandapower?",
+    "ar": "ما الصحيح عن pandapower؟",
+    "en": "What is true about pandapower?"
+   },
+   "options": [
+    {
+     "de": "Es ist ein kommerzielles Programm nur für Windows",
+     "ar": "برنامج تجاري لنظام ويندوز فقط",
+     "en": "It is a commercial program for Windows only"
+    },
+    {
+     "de": "Es ersetzt die Prüfung durch Fachleute",
+     "ar": "يغني عن فحص المختصين",
+     "en": "It replaces review by specialists"
+    },
+    {
+     "de": "Es ist eine quelloffene Python-Bibliothek",
+     "ar": "مكتبة بايثون مفتوحة المصدر",
+     "en": "It is an open-source Python library"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Simulation mit MATLAB/Simulink und LTspice",
+  "ar": "المحاكاة باستخدام برنامجي MATLAB/Simulink وLTspice للدارات",
+  "en": "Simulation with MATLAB/Simulink and LTspice"
+ },
+ "stand": "2026-10-21; prüfen: aktuelle pandapower-Version und Lizenzdatei (BSD), Funktionsumfang laut Dokumentation der genutzten Version (Fehlerarten der Kurzschlussrechnung, Konverter), IEC 60909-0 / DIN EN 60909-0 (VDE 0102): Entwurf 2026-04, Endfassung und Ausgabedatum; Herstellerangaben zu ETAP (Operation Technology, Inc.) und DIgSILENT PowerFactory (Funktionen, Firmenangaben); Sicherheitsregeln (DIN VDE 0105-100) und DGUV Vorschrift 3 wie in E-F05/E-F04; Selektivitätsbegriffe wie in E-A05"
+}

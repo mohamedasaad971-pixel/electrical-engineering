@@ -1,0 +1,1504 @@
+{
+ "id": "S-04",
+ "title": {
+  "de": "Simulation in der Elektrotechnik: Modell, Solver, Ergebnisse prüfen",
+  "ar": "المحاكاة في الهندسة الكهربائية: النموذج والحل العددي وفحص النتائج",
+  "en": "Simulation in Electrical Engineering: Model, Solver, Checking Results"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "S-04 · Software",
+    "heading": "Simulation in der Elektrotechnik",
+    "items": [
+     "Modell, Parameter, Zeitschritt",
+     "Ergebnisse prüfen",
+     "Freie und kommerzielle Werkzeuge"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum vierten Video der Software-Reihe.",
+     "ar": "مرحبًا بكم في الفيديو الرابع من سلسلة البرمجيات.",
+     "en": "Welcome to the fourth video of the software series."
+    },
+    {
+     "de": "Heute geht es um Simulation in der Elektrotechnik.",
+     "ar": "موضوعنا اليوم هو المحاكاة في الهندسة الكهربائية.",
+     "en": "Today we talk about simulation in electrical engineering."
+    },
+    {
+     "de": "Wir sprechen über Konzepte, nicht über Knöpfe und Menüs.",
+     "ar": "سنتحدث عن المفاهيم، لا عن الأزرار والقوائم.",
+     "en": "We talk about concepts, not buttons and menus."
+    },
+    {
+     "de": "Sie lernen, was ein Modell ist und was ein Solver macht.",
+     "ar": "ستتعلمون ما هو النموذج وماذا يفعل الحل العددي (Solver) في الحساب.",
+     "en": "You learn what a model is and what a solver does."
+    },
+    {
+     "de": "Wir nennen auch freie Werkzeuge, zum Beispiel LTspice und Octave.",
+     "ar": "كما سنذكر أدوات مجانية، مثل برنامج LTspice وبرنامج Octave أيضًا.",
+     "en": "We also name free tools, for example LTspice and Octave.",
+     "tts": "Wir nennen auch freie Werkzeuge, zum Beispiel El-Ti-Spais und Octave."
+    },
+    {
+     "de": "Das Video dauert nur wenige Minuten, aber der Stoff ist wichtig.",
+     "ar": "الفيديو قصير، لكن المادة مهمة.",
+     "en": "The video is short, but the content is important."
+    },
+    {
+     "de": "Denn in Projekten begegnen Ihnen Simulationen sehr oft.",
+     "ar": "فالمحاكاة تصادفكم كثيرًا في المشاريع.",
+     "en": "Because in projects you meet simulations very often."
+    },
+    {
+     "de": "Am Ende prüfen wir ein einfaches Beispiel in Worten.",
+     "ar": "وفي النهاية نفحص مثالًا بسيطًا بالكلمات.",
+     "en": "At the end we check a simple example in words."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Konzepte statt Produktwerbung",
+    "items": [
+     "Keine Bedienung einzelner Programme",
+     "Keine Preise, keine Rangliste",
+     "Bedingungen selbst prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein Hinweis zu diesem Video.",
+     "ar": "أولًا، ملاحظة حول هذا الفيديو.",
+     "en": "First, a note about this video."
+    },
+    {
+     "de": "Wir zeigen keine Oberfläche eines kommerziellen Programms.",
+     "ar": "لن نعرض واجهة أي برنامج تجاري.",
+     "en": "We do not show the interface of any commercial program."
+    },
+    {
+     "de": "Wir nennen keine Preise und keine Marktanteile.",
+     "ar": "ولن نذكر أسعارًا ولا حصصًا سوقية.",
+     "en": "We name no prices and no market shares."
+    },
+    {
+     "de": "Wir sprechen auch keine Empfehlung für ein Produkt aus.",
+     "ar": "ولا نوصي بمنتج معيّن.",
+     "en": "We also do not recommend any product."
+    },
+    {
+     "de": "Lizenzbedingungen und Versionen ändern sich oft.",
+     "ar": "شروط الترخيص والإصدارات تتغير كثيرًا.",
+     "en": "Licence terms and versions change often."
+    },
+    {
+     "de": "So bleibt das Video neutral und für alle Zuschauer nützlich.",
+     "ar": "وهكذا يبقى الفيديو محايدًا ومفيدًا لجميع المشاهدين.",
+     "en": "This keeps the video neutral and useful for all viewers."
+    },
+    {
+     "de": "Die Konzepte gelten für fast jedes Programm.",
+     "ar": "المفاهيم تنطبق على أي برنامج تقريبًا.",
+     "en": "The concepts apply to almost every program."
+    },
+    {
+     "de": "Prüfen Sie diese Punkte immer auf der Seite des Herstellers.",
+     "ar": "تحققوا من هذه النقاط دائمًا في صفحة الجهة المصنِّعة.",
+     "en": "Always check these points on the manufacturer's page."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wozu Simulation?",
+    "heading": "Wozu simuliert man?",
+    "items": [
+     "Entwurf vor dem Aufbau testen",
+     "Fehler früh finden",
+     "Grenzfälle gefahrlos prüfen",
+     "Varianten schnell vergleichen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Warum simuliert man überhaupt?",
+     "ar": "لماذا نقوم بالمحاكاة أصلًا؟",
+     "en": "Why do we simulate at all?"
+    },
+    {
+     "de": "Ein Test am echten Aufbau kostet Zeit und Material.",
+     "ar": "الاختبار على التركيب الفعلي يكلّف وقتًا ومواد.",
+     "en": "A test on the real setup costs time and material."
+    },
+    {
+     "de": "In der Simulation können Sie einen Entwurf vorher testen.",
+     "ar": "في المحاكاة يمكنكم اختبار التصميم مسبقًا.",
+     "en": "In simulation you can test a design beforehand."
+    },
+    {
+     "de": "Sie finden Fehler früh, bevor Bauteile bestellt sind.",
+     "ar": "تجدون الأخطاء مبكرًا، قبل طلب القطع.",
+     "en": "You find errors early, before parts are ordered."
+    },
+    {
+     "de": "Auch gefährliche Fälle lassen sich gefahrlos prüfen.",
+     "ar": "كما يمكن فحص الحالات الخطرة دون أي خطر.",
+     "en": "Even dangerous cases can be checked without risk."
+    },
+    {
+     "de": "Besonders bei teuren oder gefährlichen Anlagen ist das ein großer Vorteil.",
+     "ar": "وهذه ميزة كبيرة خاصة في المنشآت الغالية أو الخطرة.",
+     "en": "Especially for expensive or dangerous installations this is a big advantage."
+    },
+    {
+     "de": "Und Sie können viele Varianten schnell vergleichen.",
+     "ar": "ويمكنكم مقارنة متغيرات كثيرة بسرعة.",
+     "en": "And you can compare many variants quickly."
+    },
+    {
+     "de": "Aber ein Ergebnis ist immer nur so gut wie das Modell.",
+     "ar": "لكن النتيجة جيدة بقدر جودة النموذج فقط.",
+     "en": "But a result is only as good as the model."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Zwei Arten",
+    "heading": "Schaltungs- und Systemsimulation",
+    "items": [
+     "Frage | Schaltung: Spannungen und Ströme",
+     "Bausteine | Bauteile mit Knoten und Zweigen",
+     "Frage | System: Verhalten im Ganzen",
+     "Bausteine | Blöcke mit Ein- und Ausgängen",
+     "Beispiel | Filter gegenüber Regelkreis"
+    ],
+    "terms": [
+     {
+      "de": "die Simulation",
+      "ar": "المحاكاة",
+      "en": "simulation"
+     },
+     {
+      "de": "das Modell",
+      "ar": "النموذج",
+      "en": "model"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Man unterscheidet zwei Arten der Simulation.",
+     "ar": "نميّز بين نوعين من المحاكاة.",
+     "en": "We distinguish two kinds of simulation."
+    },
+    {
+     "de": "Die Schaltungssimulation fragt nach Spannungen und Strömen.",
+     "ar": "محاكاة الدارات تسأل عن الجهود والتيارات.",
+     "en": "Circuit simulation asks about voltages and currents."
+    },
+    {
+     "de": "Ihre Bausteine sind Bauteile, Knoten und Zweige.",
+     "ar": "لبناتها هي القطع والعقد والفروع.",
+     "en": "Its building blocks are components, nodes and branches."
+    },
+    {
+     "de": "Die Systemsimulation betrachtet das Verhalten im Ganzen.",
+     "ar": "محاكاة الأنظمة تنظر إلى السلوك ككل.",
+     "en": "System simulation looks at the behaviour as a whole."
+    },
+    {
+     "de": "Beide Arten nutzen dieselben Grundideen: Modell, Parameter und Solver.",
+     "ar": "كلا النوعين يستخدم الأفكار الأساسية نفسها: النموذج والمعاملات والحل العددي.",
+     "en": "Both kinds use the same basic ideas: model, parameters and solver."
+    },
+    {
+     "de": "Ihre Bausteine sind Blöcke mit Eingängen und Ausgängen.",
+     "ar": "لبناتها هي كتل لها مداخل ومخارج.",
+     "en": "Its building blocks are blocks with inputs and outputs."
+    },
+    {
+     "de": "Beide Arten können sich ergänzen.",
+     "ar": "يمكن للنوعين أن يكمّلا بعضهما.",
+     "en": "Both kinds can complement each other."
+    },
+    {
+     "de": "Zuerst prüft man eine Schaltung, dann baut man sie in ein größeres System ein.",
+     "ar": "نفحص دارة أولًا، ثم ندمجها في نظام أكبر.",
+     "en": "First you check a circuit, then you build it into a larger system."
+    },
+    {
+     "de": "Ein Filter ist ein Fall für die Schaltung, ein Regelkreis eher für das System.",
+     "ar": "المرشّح حالة لمحاكاة الدارة، أما حلقة التحكم فأقرب إلى النظام.",
+     "en": "A filter is a case for the circuit, a control loop rather for the system."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Das Modell",
+    "heading": "Was ist ein Modell?",
+    "items": [
+     "Vereinfachung: Nur das Wichtige bleibt",
+     "Gleichungen: Das Verhalten in Zahlen",
+     "Eingänge: Quellen und Störungen",
+     "Ausgänge: Größen, die Sie auswerten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jede Simulation beginnt mit einem Modell.",
+     "ar": "كل محاكاة تبدأ بنموذج.",
+     "en": "Every simulation starts with a model."
+    },
+    {
+     "de": "Ein Modell ist eine bewusste Vereinfachung der Wirklichkeit.",
+     "ar": "النموذج تبسيط مقصود للواقع.",
+     "en": "A model is a deliberate simplification of reality."
+    },
+    {
+     "de": "Es beschreibt das Verhalten mit Gleichungen.",
+     "ar": "وهو يصف السلوك بمعادلات.",
+     "en": "It describes the behaviour with equations."
+    },
+    {
+     "de": "Eingänge sind zum Beispiel Quellen oder Störungen.",
+     "ar": "المداخل هي مثلًا المصادر أو الاضطرابات.",
+     "en": "Inputs are, for example, sources or disturbances."
+    },
+    {
+     "de": "Ausgänge sind die Größen, die Sie später auswerten.",
+     "ar": "المخارج هي الكميات التي ستقيّمونها لاحقًا.",
+     "en": "Outputs are the quantities you evaluate later."
+    },
+    {
+     "de": "Ein gutes Modell ist so einfach wie möglich und so genau wie nötig.",
+     "ar": "النموذج الجيد بسيط قدر الإمكان ودقيق بالقدر اللازم.",
+     "en": "A good model is as simple as possible and as exact as necessary."
+    },
+    {
+     "de": "Der Aufwand hängt von der Frage ab, die Sie beantworten wollen.",
+     "ar": "الجهد المطلوب يعتمد على السؤال الذي تريدون الإجابة عنه.",
+     "en": "The effort depends on the question you want to answer."
+    },
+    {
+     "de": "Was nicht im Modell steht, kann die Simulation nicht zeigen.",
+     "ar": "ما ليس في النموذج لا تستطيع المحاكاة إظهاره.",
+     "en": "What is not in the model, the simulation cannot show."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Parameter",
+    "heading": "Parameter: Zahlen im Modell",
+    "items": [
+     "Widerstand, Kapazität, Induktivität",
+     "Quellenspannung, Frequenz",
+     "Anfangswerte",
+     "Einheiten sauber prüfen"
+    ],
+    "terms": [
+     {
+      "de": "der Parameter",
+      "ar": "المعامل",
+      "en": "parameter"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Modell enthält Parameter.",
+     "ar": "النموذج يحتوي على معاملات.",
+     "en": "A model contains parameters."
+    },
+    {
+     "de": "Parameter sind die Zahlenwerte, zum Beispiel Widerstand oder Kapazität.",
+     "ar": "المعاملات هي القيم العددية، مثل المقاومة أو السعة.",
+     "en": "Parameters are the numerical values, for example resistance or capacitance."
+    },
+    {
+     "de": "Auch Quellenspannung und Frequenz sind Parameter.",
+     "ar": "وجهد المصدر والتردد أيضًا معاملات.",
+     "en": "Source voltage and frequency are parameters too."
+    },
+    {
+     "de": "Dazu kommen Anfangswerte, etwa die Spannung am Kondensator zu Beginn.",
+     "ar": "وتُضاف القيم الابتدائية، مثل جهد المكثف في البداية.",
+     "en": "Initial values are added, such as the capacitor voltage at the start."
+    },
+    {
+     "de": "Prüfen Sie Einheiten sehr genau.",
+     "ar": "تحققوا من الوحدات بدقة شديدة.",
+     "en": "Check units very carefully."
+    },
+    {
+     "de": "Ein Fehler um den Faktor tausend ist schnell passiert.",
+     "ar": "خطأ بمعامل ألف يحدث بسهولة.",
+     "en": "A mistake by a factor of a thousand happens quickly."
+    },
+    {
+     "de": "Auch die Wahl des Modells für ein Bauteil ist eine Entscheidung.",
+     "ar": "واختيار نموذج القطعة قرار هندسي أيضًا.",
+     "en": "Choosing the model for a component is also a decision."
+    },
+    {
+     "de": "Notieren Sie, woher Ihre Zahlen kommen, etwa aus dem Datenblatt.",
+     "ar": "دوّنوا مصدر أرقامكم، مثلًا من ورقة البيانات.",
+     "en": "Note where your numbers come from, for example from the data sheet."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Solver",
+    "heading": "Solver und Zeitschritt",
+    "items": [
+     "Solver: Rechenverfahren für die Gleichungen",
+     "Zeitschritt: Abstand der Rechenpunkte",
+     "Klein: genauer, aber langsamer",
+     "Groß: schneller, aber ungenauer"
+    ],
+    "terms": [
+     {
+      "de": "der Solver",
+      "ar": "الحل العددي (Solver)",
+      "en": "solver"
+     },
+     {
+      "de": "der Zeitschritt",
+      "ar": "الخطوة الزمنية",
+      "en": "time step"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun kommt der Solver.",
+     "ar": "والآن نأتي إلى الحل العددي (Solver) نفسه.",
+     "en": "Now comes the solver."
+    },
+    {
+     "de": "Der Solver ist das Rechenverfahren, das die Gleichungen löst.",
+     "ar": "الحل العددي هو طريقة الحساب التي تحل المعادلات.",
+     "en": "The solver is the calculation method that solves the equations."
+    },
+    {
+     "de": "Er rechnet nicht kontinuierlich, sondern in kleinen Zeitschritten.",
+     "ar": "هو لا يحسب باستمرار، بل بخطوات زمنية صغيرة.",
+     "en": "It does not calculate continuously but in small time steps."
+    },
+    {
+     "de": "Ein kleiner Zeitschritt ist genauer, aber langsamer.",
+     "ar": "الخطوة الزمنية الصغيرة أدق لكنها أبطأ.",
+     "en": "A small time step is more exact but slower."
+    },
+    {
+     "de": "Das gilt für Schaltungen genauso wie für Regelkreise.",
+     "ar": "وهذا ينطبق على الدارات كما ينطبق على حلقات التحكم.",
+     "en": "This applies to circuits as well as to control loops."
+    },
+    {
+     "de": "Ein großer Zeitschritt ist schneller, kann aber schnelle Vorgänge übersehen.",
+     "ar": "الخطوة الكبيرة أسرع لكنها قد تُفوّت الظواهر السريعة.",
+     "en": "A large time step is faster but can miss fast events."
+    },
+    {
+     "de": "Der Solver arbeitet mit Näherungen, nicht mit der exakten Formel.",
+     "ar": "الحل العددي يعمل بتقريبات لا بالصيغة الدقيقة.",
+     "en": "The solver works with approximations, not with the exact formula."
+    },
+    {
+     "de": "Meist wählt das Programm den Zeitschritt für Sie, aber Sie sollten ihn kontrollieren.",
+     "ar": "غالبًا يختار البرنامج الخطوة عنكم، لكن عليكم مراقبتها.",
+     "en": "Usually the program chooses the time step for you, but you should control it."
+    },
+    {
+     "de": "Das ist immer ein Kompromiss.",
+     "ar": "وهذا دائمًا حل وسط.",
+     "en": "It is always a compromise."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Zeitschritt",
+    "heading": "Fester oder variabler Zeitschritt",
+    "items": [
+     "Fest | Gleicher Abstand im ganzen Lauf",
+     "Variabel | Schrittweite passt sich an",
+     "Schnelle Änderung | Variabel: kleinere Schritte",
+     "Langsame Änderung | Variabel: größere Schritte",
+     "Hinweis | Gerätecode braucht oft festen Schritt"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt zwei Strategien für den Zeitschritt.",
+     "ar": "هناك استراتيجيتان للخطوة الزمنية.",
+     "en": "There are two strategies for the time step."
+    },
+    {
+     "de": "Beim festen Zeitschritt bleibt der Abstand im ganzen Lauf gleich.",
+     "ar": "في الخطوة الثابتة يبقى الفاصل نفسه طوال التشغيل.",
+     "en": "With a fixed time step the interval stays the same during the whole run."
+    },
+    {
+     "de": "Beim variablen Zeitschritt passt der Solver die Schrittweite an.",
+     "ar": "وفي الخطوة المتغيرة يكيّف الحل العددي حجم الخطوة.",
+     "en": "With a variable time step the solver adapts the step size."
+    },
+    {
+     "de": "Bei schnellen Änderungen wählt er kleinere Schritte, bei langsamen größere.",
+     "ar": "عند التغيرات السريعة يختار خطوات أصغر، وعند البطيئة أكبر.",
+     "en": "For fast changes it chooses smaller steps, for slow ones larger steps."
+    },
+    {
+     "de": "Das spart oft Rechenzeit bei ähnlicher Genauigkeit.",
+     "ar": "وهذا يوفّر غالبًا وقت الحساب مع دقة مماثلة.",
+     "en": "This often saves computing time at similar accuracy."
+    },
+    {
+     "de": "Wenn man später Code für ein Gerät erzeugt, braucht man meist einen festen Zeitschritt.",
+     "ar": "وإذا ولّدتم لاحقًا شيفرة لجهاز، فتحتاجون عادةً إلى خطوة ثابتة.",
+     "en": "If you later generate code for a device, you usually need a fixed time step."
+    },
+    {
+     "de": "Die Wahl hängt vom Modell und vom Ziel ab.",
+     "ar": "الاختيار يعتمد على النموذج وعلى الهدف.",
+     "en": "The choice depends on the model and the goal."
+    },
+    {
+     "de": "Probieren Sie bei Zweifeln einen kleineren Schritt und vergleichen Sie die Kurven.",
+     "ar": "عند الشك جرّبوا خطوة أصغر وقارنوا المنحنيات.",
+     "en": "If in doubt, try a smaller step and compare the curves."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Analysearten",
+    "heading": "Welche Frage stellen Sie?",
+    "items": [
+     "Arbeitspunkt: Gleichwerte im Ruhezustand",
+     "Zeitbereich: Verlauf über die Zeit",
+     "Frequenzbereich: Verhalten über der Frequenz"
+    ],
+    "terms": [
+     {
+      "de": "der Arbeitspunkt",
+      "ar": "نقطة العمل",
+      "en": "operating point"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Eine Schaltungssimulation kann verschiedene Fragen beantworten.",
+     "ar": "محاكاة الدارات تجيب عن أسئلة مختلفة.",
+     "en": "A circuit simulation can answer different questions."
+    },
+    {
+     "de": "Die Arbeitspunktanalyse zeigt die Gleichwerte im Ruhezustand.",
+     "ar": "تحليل نقطة العمل يبيّن القيم المستمرة في حالة السكون.",
+     "en": "The operating point analysis shows the DC values at rest."
+    },
+    {
+     "de": "Die Analyse im Zeitbereich zeigt den Verlauf über die Zeit.",
+     "ar": "التحليل الزمني يبيّن التغير عبر الزمن.",
+     "en": "The time-domain analysis shows the course over time."
+    },
+    {
+     "de": "Eine Frage, ein passender Analysetyp.",
+     "ar": "سؤال واحد، ونوع تحليل مناسب.",
+     "en": "One question, one fitting analysis type."
+    },
+    {
+     "de": "Die Analyse im Frequenzbereich zeigt das Verhalten über der Frequenz.",
+     "ar": "التحليل الترددي يبيّن السلوك بدلالة التردد.",
+     "en": "The frequency-domain analysis shows the behaviour over frequency."
+    },
+    {
+     "de": "Die Frequenzanalyse arbeitet um den Arbeitspunkt herum.",
+     "ar": "التحليل الترددي يعمل حول نقطة العمل.",
+     "en": "The frequency analysis works around the operating point."
+    },
+    {
+     "de": "Wählen Sie die Analyse passend zu Ihrer Frage.",
+     "ar": "اختاروا التحليل المناسب لسؤالكم.",
+     "en": "Choose the analysis that fits your question."
+    },
+    {
+     "de": "Für unser Beispiel mit dem Spannungssprung brauchen wir den Zeitbereich.",
+     "ar": "لمثالنا مع قفزة الجهد نحتاج إلى المجال الزمني.",
+     "en": "For our example with the voltage step we need the time domain."
+    },
+    {
+     "de": "Ist der Arbeitspunkt falsch, ist auch das Ergebnis falsch.",
+     "ar": "وإذا كانت نقطة العمل خاطئة، فالنتيجة خاطئة أيضًا.",
+     "en": "If the operating point is wrong, the result is wrong too."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Freies Werkzeug",
+    "heading": "LTspice: Schaltungssimulator",
+    "items": [
+     "Hersteller: Analog Devices",
+     "Basis: Rechenkern nach SPICE-Art",
+     "Enthält Schaltplan und Kurvenansicht",
+     "Nach Herstellerangabe kostenlos"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein bekanntes Beispiel ist LTspice.",
+     "ar": "من الأمثلة المعروفة برنامج LTspice الشهير.",
+     "en": "A well-known example is LTspice.",
+     "tts": "Ein bekanntes Beispiel ist El-Ti-Spais."
+    },
+    {
+     "de": "Es ist ein Schaltungssimulator des Herstellers Analog Devices.",
+     "ar": "وهو محاكي دارات تنتجه شركة Analog Devices المصنِّعة.",
+     "en": "It is a circuit simulator from the manufacturer Analog Devices."
+    },
+    {
+     "de": "Der Hersteller bietet es nach eigener Angabe kostenlos an.",
+     "ar": "تقدّمه الشركة مجانًا حسب إعلانها.",
+     "en": "The manufacturer offers it free of charge by its own statement."
+    },
+    {
+     "de": "Das Programm enthält Schaltplaneingabe und eine Ansicht für die Kurven.",
+     "ar": "يتضمن البرنامج إدخال المخطط وعرضًا للمنحنيات.",
+     "en": "The program contains schematic entry and a view for the curves."
+    },
+    {
+     "de": "Der Rechenkern geht auf SPICE zurück, ein Programm aus Berkeley aus den siebziger Jahren.",
+     "ar": "نواة الحساب تعود إلى SPICE، وهو برنامج من بيركلي في السبعينيات.",
+     "en": "The calculation core goes back to SPICE, a program from Berkeley in the seventies.",
+     "tts": "Der Rechenkern geht auf Spais zurück, ein Programm aus Berkeley aus den siebziger Jahren."
+    },
+    {
+     "de": "Lesen Sie trotzdem die aktuellen Nutzungsbedingungen auf der Herstellerseite.",
+     "ar": "ومع ذلك اقرؤوا شروط الاستخدام الحالية في صفحة الشركة.",
+     "en": "Still, read the current terms of use on the manufacturer's page."
+    },
+    {
+     "de": "Auch die Hilfe des Programms erklärt die Befehle gut.",
+     "ar": "كما أن مساعدة البرنامج تشرح الأوامر جيدًا.",
+     "en": "The help of the program also explains the commands well."
+    },
+    {
+     "de": "Die Ergebnisse müssen Sie trotzdem selbst bewerten.",
+     "ar": "ومع ذلك عليكم تقييم النتائج بأنفسكم.",
+     "en": "You still have to judge the results yourself."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Systemsimulation",
+    "heading": "MATLAB und Simulink als Konzept",
+    "items": [
+     "MATLAB: Rechnen mit Zahlen und Skripten",
+     "Simulink: Modell aus Blöcken",
+     "Hersteller: MathWorks",
+     "Kommerzielle Software mit Lizenz"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Systemsimulation.",
+     "ar": "والآن إلى محاكاة الأنظمة.",
+     "en": "Now to system simulation."
+    },
+    {
+     "de": "MATLAB ist eine Umgebung zum Rechnen mit Zahlen und Skripten.",
+     "ar": "بيئة MATLAB مخصصة للحساب بالأرقام والنصوص البرمجية.",
+     "en": "MATLAB is an environment for calculating with numbers and scripts.",
+     "tts": "Mätläb ist eine Umgebung zum Rechnen mit Zahlen und Skripten."
+    },
+    {
+     "de": "Simulink baut darauf auf. Dort bauen Sie ein Modell aus Blöcken.",
+     "ar": "برنامج Simulink يعتمد عليه، وهناك تبنون نموذجًا من كتل.",
+     "en": "Simulink builds on it. There you build a model from blocks."
+    },
+    {
+     "de": "So lassen sich Regelkreise, Filter und Antriebe als Blockbild beschreiben.",
+     "ar": "هكذا يمكن وصف حلقات التحكم والمرشحات والمحركات كمخطط كتل.",
+     "en": "This way control loops, filters and drives can be described as a block diagram."
+    },
+    {
+     "de": "In jedem Zeitschritt berechnet jeder Block seine Ausgänge aus seinen Eingängen.",
+     "ar": "في كل خطوة زمنية تحسب كل كتلة مخارجها من مداخلها.",
+     "en": "In each time step every block calculates its outputs from its inputs."
+    },
+    {
+     "de": "Danach wählt der Solver den nächsten Zeitschritt.",
+     "ar": "بعد ذلك يختار الحل العددي الخطوة الزمنية التالية.",
+     "en": "Then the solver chooses the next time step."
+    },
+    {
+     "de": "Der Hersteller beschreibt Simulink als Umgebung für Simulation und modellbasierten Entwurf.",
+     "ar": "تصف الشركة Simulink بأنه بيئة للمحاكاة والتصميم المعتمد على النماذج.",
+     "en": "The manufacturer describes Simulink as an environment for simulation and model-based design."
+    },
+    {
+     "de": "Solche Modelle können kontinuierliche und zeitdiskrete Teile enthalten.",
+     "ar": "يمكن أن تحتوي هذه النماذج على أجزاء مستمرة وأخرى متقطعة زمنيًا.",
+     "en": "Such models can contain continuous and discrete-time parts."
+    },
+    {
+     "de": "Beides sind Produkte des Herstellers MathWorks und brauchen eine Lizenz.",
+     "ar": "كلاهما منتجان للشركة MathWorks ويحتاجان إلى ترخيص.",
+     "en": "Both are products of the manufacturer MathWorks and need a licence."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Freie Alternativen",
+    "heading": "Octave und Scilab",
+    "items": [
+     "Octave: freie Software, MATLAB-ähnliche Sprache",
+     "Scilab: frei, quelloffen, mit Xcos",
+     "Xcos: Blockmodelle wie bei Simulink",
+     "Nicht alles ist 1:1 übertragbar"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt auch freie Alternativen.",
+     "ar": "هناك أيضًا بدائل مجانية.",
+     "en": "There are also free alternatives."
+    },
+    {
+     "de": "GNU Octave ist freie Software unter der GPL.",
+     "ar": "برنامج GNU Octave حر بموجب رخصة GPL العامة.",
+     "en": "GNU Octave is free software under the GPL.",
+     "tts": "Gnu Octave ist freie Software unter der Ge-Pe-El."
+    },
+    {
+     "de": "Seine Sprache ist der von MATLAB weitgehend ähnlich.",
+     "ar": "لغته مشابهة إلى حد كبير للغة MATLAB المعروفة.",
+     "en": "Its language is largely similar to that of MATLAB.",
+     "tts": "Seine Sprache ist der von Mätläb weitgehend ähnlich."
+    },
+    {
+     "de": "Sie lesen und schreiben Skripte, und das ist gut für Ihre Fachsprache.",
+     "ar": "تقرؤون النصوص البرمجية وتكتبونها، وهذا مفيد للغتكم التقنية.",
+     "en": "You read and write scripts, and that is good for your technical language."
+    },
+    {
+     "de": "Aber die Kompatibilität ist nicht vollständig.",
+     "ar": "لكن التوافق ليس كاملًا.",
+     "en": "But the compatibility is not complete."
+    },
+    {
+     "de": "Scilab ist ebenfalls frei und quelloffen.",
+     "ar": "برنامج Scilab حر أيضًا ومفتوح المصدر.",
+     "en": "Scilab is also free and open source."
+    },
+    {
+     "de": "Wer diese Sprache lernt, kann sich später leichter umstellen.",
+     "ar": "من يتعلم هذه اللغة يسهل عليه الانتقال لاحقًا.",
+     "en": "Whoever learns this language can switch more easily later."
+    },
+    {
+     "de": "Klären Sie vor einem Projekt, welche Dateien Ihre Firma verwendet.",
+     "ar": "قبل المشروع اسألوا أي ملفات تستخدمها شركتكم.",
+     "en": "Before a project, clarify which files your company uses."
+    },
+    {
+     "de": "Dazu gehört Xcos, ein grafischer Editor für Blockmodelle.",
+     "ar": "ومعه Xcos، وهو محرر رسومي للنماذج المكوّنة من كتل.",
+     "en": "It includes Xcos, a graphical editor for block models."
+    },
+    {
+     "de": "Für den Lernstoff reichen solche Werkzeuge oft aus. Prüfen Sie aber Ihren Anwendungsfall.",
+     "ar": "لأغراض التعلم تكفي هذه الأدوات غالبًا، لكن افحصوا حالتكم الخاصة.",
+     "en": "For learning, such tools are often enough. But check your use case."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Überblick",
+    "heading": "Werkzeuge im Vergleich der Konzepte",
+    "items": [
+     "LTspice | Schaltung, Zeit und Frequenz",
+     "MATLAB | Zahlen, Skripte, Auswertung",
+     "Simulink | Blockmodelle, Systeme",
+     "Octave | freie, MATLAB-ähnliche Sprache",
+     "Scilab, Xcos | frei, mit Blockmodellen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir die Werkzeuge kurz zusammen.",
+     "ar": "لنلخّص الأدوات بإيجاز.",
+     "en": "Let us summarise the tools briefly."
+    },
+    {
+     "de": "LTspice ist für Schaltungen gedacht.",
+     "ar": "برنامج LTspice مخصص للدارات.",
+     "en": "LTspice is meant for circuits.",
+     "tts": "El-Ti-Spais ist für Schaltungen gedacht."
+    },
+    {
+     "de": "MATLAB dient dem Rechnen, den Skripten und der Auswertung.",
+     "ar": "برنامج MATLAB يخدم الحساب والنصوص البرمجية والتقييم.",
+     "en": "MATLAB serves calculation, scripts and evaluation.",
+     "tts": "Mätläb dient dem Rechnen, den Skripten und der Auswertung."
+    },
+    {
+     "de": "Simulink und Xcos arbeiten mit Blockmodellen.",
+     "ar": "برنامجا Simulink وXcos يعملان بنماذج الكتل.",
+     "en": "Simulink and Xcos work with block models."
+    },
+    {
+     "de": "Darum lohnt es sich, mit einem freien Werkzeug zu üben.",
+     "ar": "لذلك يستحق الأمر التدرب بأداة مجانية.",
+     "en": "So it is worth practising with a free tool."
+    },
+    {
+     "de": "Wichtig ist das Verständnis der Konzepte, nicht der Name des Programms.",
+     "ar": "المهم هو فهم المفاهيم لا اسم البرنامج.",
+     "en": "What matters is understanding the concepts, not the name of the program."
+    },
+    {
+     "de": "Wer das Konzept versteht, findet sich schnell in jedem Werkzeug zurecht.",
+     "ar": "من يفهم المفهوم يتأقلم سريعًا مع أي أداة.",
+     "en": "Whoever understands the concept quickly finds their way in any tool."
+    },
+    {
+     "de": "Octave und Scilab sind freie Alternativen zu MATLAB.",
+     "ar": "برنامجا Octave وScilab بديلان مجانيان لبرنامج MATLAB الشهير.",
+     "en": "Octave and Scilab are free alternatives to MATLAB.",
+     "tts": "Octave und Scilab sind freie Alternativen zu Mätläb."
+    },
+    {
+     "de": "Das ist keine Rangliste und keine Kaufempfehlung.",
+     "ar": "هذه ليست قائمة ترتيب ولا توصية بالشراء.",
+     "en": "This is not a ranking and not a purchase recommendation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Beispiel in Worten",
+    "heading": "Beispiel: RC-Glied mit Spannungssprung",
+    "items": [
+     "Quelle springt von null auf fünf Volt",
+     "Widerstand: zehn Kilohm",
+     "Kondensator: hundert Nanofarad",
+     "Ausgang: Spannung am Kondensator",
+     "Alle Werte sind erfunden"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt ein einfaches Beispiel, nur in Worten.",
+     "ar": "والآن مثال بسيط، بالكلمات فقط.",
+     "en": "Now a simple example, in words only."
+    },
+    {
+     "de": "Alle Werte sind erfundene Beispielwerte.",
+     "ar": "كل القيم أمثلة مُختلقة.",
+     "en": "All values are made-up example values."
+    },
+    {
+     "de": "Ein RC-Glied besteht aus einem Widerstand und einem Kondensator.",
+     "ar": "دارة RC تتكون من مقاومة ومكثف.",
+     "en": "An RC circuit consists of a resistor and a capacitor.",
+     "tts": "Ein Er-Ze-Glied besteht aus einem Widerstand und einem Kondensator."
+    },
+    {
+     "de": "Der Widerstand hat zehn Kilohm, der Kondensator hundert Nanofarad.",
+     "ar": "المقاومة عشرة كيلو أوم، والمكثف مئة نانوفاراد.",
+     "en": "The resistor has ten kilohms, the capacitor one hundred nanofarads."
+    },
+    {
+     "de": "Die Quelle springt plötzlich von null auf fünf Volt.",
+     "ar": "المصدر يقفز فجأة من صفر إلى خمسة فولت.",
+     "en": "The source suddenly jumps from zero to five volts."
+    },
+    {
+     "de": "Wir fragen: Wie verläuft die Spannung am Kondensator?",
+     "ar": "نسأل: كيف يتغير الجهد على المكثف؟",
+     "en": "We ask: how does the voltage across the capacitor develop?"
+    },
+    {
+     "de": "Ein Simulationsprogramm ist hier nur ein Taschenrechner mit Grafik.",
+     "ar": "برنامج المحاكاة هنا مجرد آلة حاسبة برسومات.",
+     "en": "A simulation program is here just a calculator with graphics."
+    },
+    {
+     "de": "Das Beispiel ist einfach genug, um es im Kopf nachzurechnen.",
+     "ar": "المثال بسيط بما يكفي لنحسبه ذهنيًا.",
+     "en": "The example is simple enough to calculate in your head."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Erwartung",
+    "heading": "Was wir erwarten",
+    "items": [
+     "Zeitkonstante | Widerstand mal Kapazität",
+     "Hier | eine Millisekunde",
+     "Nach einer Zeitkonstante | etwa 63 Prozent",
+     "Nach fünf Zeitkonstanten | fast der Endwert",
+     "Verlauf | weicher Anstieg, kein Sprung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst rechnen wir von Hand.",
+     "ar": "أولًا نحسب يدويًا.",
+     "en": "First we calculate by hand."
+    },
+    {
+     "de": "Die Zeitkonstante ist Widerstand mal Kapazität.",
+     "ar": "الثابت الزمني هو المقاومة مضروبة في السعة.",
+     "en": "The time constant is resistance times capacitance."
+    },
+    {
+     "de": "Zehn Kilohm mal hundert Nanofarad ergibt eine Millisekunde.",
+     "ar": "عشرة كيلو أوم ضرب مئة نانوفاراد يساوي ميلي ثانية واحدة.",
+     "en": "Ten kilohms times one hundred nanofarads gives one millisecond."
+    },
+    {
+     "de": "Die Ausgangsgröße ist die Kondensatorspannung, nicht der Strom.",
+     "ar": "الكمية الخارجة هي جهد المكثف لا التيار.",
+     "en": "The output quantity is the capacitor voltage, not the current."
+    },
+    {
+     "de": "Nach einer Millisekunde erreicht die Spannung etwa dreiundsechzig Prozent des Endwerts.",
+     "ar": "بعد ميلي ثانية تصل الجهد إلى نحو ثلاثة وستين بالمئة من القيمة النهائية.",
+     "en": "After one millisecond the voltage reaches about sixty-three percent of the final value."
+    },
+    {
+     "de": "Das sind gut drei Volt von fünf Volt.",
+     "ar": "أي أكثر من ثلاثة فولت من خمسة.",
+     "en": "That is a good three volts out of five volts."
+    },
+    {
+     "de": "Diese Handrechnung ist unser Maßstab für die Simulation.",
+     "ar": "هذا الحساب اليدوي هو معيارنا للمحاكاة.",
+     "en": "This hand calculation is our benchmark for the simulation."
+    },
+    {
+     "de": "Der Anstieg ist am Anfang steil und wird dann flacher.",
+     "ar": "الارتفاع حاد في البداية ثم يصبح أكثر انبساطًا.",
+     "en": "The rise is steep at the start and then gets flatter."
+    },
+    {
+     "de": "Nach fünf Millisekunden ist die Spannung fast beim Endwert.",
+     "ar": "بعد خمس ميلي ثوانٍ يصبح الجهد قرب القيمة النهائية.",
+     "en": "After five milliseconds the voltage is almost at the final value."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Zeitschritt im Beispiel",
+    "heading": "Der Zeitschritt im Beispiel",
+    "items": [
+     "Gesamtdauer: einige Millisekunden",
+     "Schritt viel kleiner als eine Millisekunde",
+     "Zu großer Schritt: Kurve wirkt eckig",
+     "Zu kleiner Schritt: viele Daten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt lassen wir den Computer rechnen.",
+     "ar": "والآن نترك الحاسوب يحسب.",
+     "en": "Now we let the computer calculate."
+    },
+    {
+     "de": "Die Gesamtdauer sollte einige Millisekunden betragen.",
+     "ar": "يجب أن تكون المدة الكلية عدة ميلي ثوانٍ.",
+     "en": "The total duration should be a few milliseconds."
+    },
+    {
+     "de": "Der Zeitschritt muss viel kleiner sein als eine Millisekunde.",
+     "ar": "يجب أن تكون الخطوة الزمنية أصغر بكثير من ميلي ثانية.",
+     "en": "The time step must be much smaller than one millisecond."
+    },
+    {
+     "de": "Ist der Schritt zu groß, wirkt die Kurve eckig und ungenau.",
+     "ar": "إذا كانت الخطوة كبيرة جدًا، يبدو المنحنى مضلّعًا وغير دقيق.",
+     "en": "If the step is too large, the curve looks angular and inaccurate."
+    },
+    {
+     "de": "Ist der Schritt zu klein, entstehen unnötig viele Daten.",
+     "ar": "وإذا كانت صغيرة جدًا، تنتج بيانات كثيرة بلا داعٍ.",
+     "en": "If the step is too small, unnecessarily much data is created."
+    },
+    {
+     "de": "Die Ausgangsspannung steigt weich an und nähert sich fünf Volt.",
+     "ar": "ينمو جهد الخرج بنعومة ويقترب من خمسة فولت.",
+     "en": "The output voltage rises smoothly and approaches five volts."
+    },
+    {
+     "de": "Vergleichen Sie jetzt das Ergebnis mit der Handrechnung.",
+     "ar": "قارنوا الآن النتيجة بالحساب اليدوي.",
+     "en": "Now compare the result with the hand calculation."
+    },
+    {
+     "de": "Liegt die Kurve nach einer Millisekunde bei gut drei Volt, ist alles plausibel.",
+     "ar": "إذا كان المنحنى عند ميلي ثانية بأكثر من ثلاثة فولت فكل شيء معقول.",
+     "en": "If the curve is at a good three volts after one millisecond, everything is plausible."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Ergebnisse prüfen",
+    "heading": "Plausibilität und Grenzfälle",
+    "items": [
+     "Handrechnung: Stimmt die Größenordnung?",
+     "Einheiten: Volt, Ampere, Sekunden",
+     "Grenzfall: Widerstand gegen null",
+     "Grenzfall: Kapazität sehr groß"
+    ],
+    "terms": [
+     {
+      "de": "die Plausibilität",
+      "ar": "المعقولية",
+      "en": "plausibility"
+     },
+     {
+      "de": "der Grenzfall",
+      "ar": "الحالة الحدية",
+      "en": "limit case"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Ergebnis aus dem Computer ist nicht automatisch richtig.",
+     "ar": "نتيجة الحاسوب ليست صحيحة تلقائيًا.",
+     "en": "A result from the computer is not automatically correct."
+    },
+    {
+     "de": "Prüfen Sie zuerst die Plausibilität mit einer Handrechnung.",
+     "ar": "افحصوا أولًا المعقولية بحساب يدوي.",
+     "en": "First check plausibility with a hand calculation."
+    },
+    {
+     "de": "Stimmt die Größenordnung? Stimmen die Einheiten?",
+     "ar": "هل رتبة المقدار صحيحة؟ وهل الوحدات صحيحة؟",
+     "en": "Is the order of magnitude right? Are the units right?"
+    },
+    {
+     "de": "Sie können die Rechnung auch mit einem anderen Werkzeug wiederholen und beide Kurven vergleichen.",
+     "ar": "يمكنكم أيضًا تكرار الحساب بأداة أخرى ومقارنة المنحنيين.",
+     "en": "You can also repeat the calculation with another tool and compare both curves."
+    },
+    {
+     "de": "Danach testen Sie Grenzfälle.",
+     "ar": "بعد ذلك اختبروا الحالات الحدية.",
+     "en": "Then you test limit cases."
+    },
+    {
+     "de": "Ein zweiter Weg zum selben Ergebnis erhöht das Vertrauen.",
+     "ar": "طريق ثانٍ إلى النتيجة نفسها يزيد الثقة.",
+     "en": "A second way to the same result increases confidence."
+    },
+    {
+     "de": "Prüfen Sie auch, ob die Kurve zum Endwert läuft.",
+     "ar": "افحصوا أيضًا هل يتجه المنحنى نحو القيمة النهائية.",
+     "en": "Also check whether the curve runs to the final value."
+    },
+    {
+     "de": "Diese kleinen Tests sparen später viel Ärger.",
+     "ar": "هذه الاختبارات الصغيرة توفّر الكثير من المتاعب لاحقًا.",
+     "en": "These small tests save a lot of trouble later."
+    },
+    {
+     "de": "Was passiert, wenn der Widerstand fast null wird? Die Spannung folgt fast sofort.",
+     "ar": "ماذا يحدث إذا اقتربت المقاومة من الصفر؟ يتبع الجهد المصدر تقريبًا فورًا.",
+     "en": "What happens if the resistance becomes almost zero? The voltage follows almost immediately."
+    },
+    {
+     "de": "Und bei sehr großer Kapazität? Der Anstieg wird sehr langsam.",
+     "ar": "وماذا عن سعة كبيرة جدًا؟ يصبح الارتفاع بطيئًا جدًا.",
+     "en": "And with a very large capacitance? The rise becomes very slow."
+    },
+    {
+     "de": "Passt das Verhalten nicht, suchen Sie den Fehler im Modell.",
+     "ar": "إذا لم يتوافق السلوك، فابحثوا عن الخطأ في النموذج.",
+     "en": "If the behaviour does not fit, look for the error in the model."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Modell und Realität",
+    "heading": "Modell ist nicht Realität",
+    "items": [
+     "Bauteile haben Toleranzen",
+     "Reale Kondensatoren haben Verluste",
+     "Leitungen und Störungen fehlen",
+     "Messung bleibt wichtig"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Modell ist nicht die Wirklichkeit.",
+     "ar": "النموذج ليس هو الواقع.",
+     "en": "The model is not reality."
+    },
+    {
+     "de": "Echte Bauteile haben Toleranzen.",
+     "ar": "القطع الحقيقية لها تفاوتات.",
+     "en": "Real components have tolerances."
+    },
+    {
+     "de": "Ein echter Kondensator hat auch Verluste und Leckströme.",
+     "ar": "المكثف الحقيقي له أيضًا فواقد وتيارات تسرّب.",
+     "en": "A real capacitor also has losses and leakage currents."
+    },
+    {
+     "de": "Das gilt besonders für Wärme, Alterung und mechanische Einflüsse.",
+     "ar": "وينطبق ذلك خاصة على الحرارة والتقادم والتأثيرات الميكانيكية.",
+     "en": "This applies especially to heat, ageing and mechanical influences."
+    },
+    {
+     "de": "Leitungen, Störungen und Temperatur fehlen im einfachen Modell.",
+     "ar": "الأسلاك والاضطرابات ودرجة الحرارة غائبة عن النموذج البسيط.",
+     "en": "Wires, disturbances and temperature are missing in the simple model."
+    },
+    {
+     "de": "Bei einer Anwendung mit Sicherheitsbezug reicht Simulation allein nie aus.",
+     "ar": "في تطبيق متعلق بالأمان لا تكفي المحاكاة وحدها أبدًا.",
+     "en": "In a safety-related application, simulation alone is never enough."
+    },
+    {
+     "de": "Dann sind Prüfung, Messung und Freigabe nach den geltenden Regeln nötig.",
+     "ar": "عندها يلزم الفحص والقياس والاعتماد وفق القواعد السارية.",
+     "en": "Then testing, measurement and approval under the applicable rules are needed."
+    },
+    {
+     "de": "Deshalb ersetzt Simulation die Messung nicht.",
+     "ar": "لذلك لا تحل المحاكاة محل القياس.",
+     "en": "So simulation does not replace measurement."
+    },
+    {
+     "de": "Sie zeigt, was nach Ihren Annahmen passiert, nicht was sicher passiert.",
+     "ar": "إنها تبيّن ما يحدث وفق افتراضاتكم، لا ما سيحدث حتمًا.",
+     "en": "It shows what happens under your assumptions, not what will certainly happen."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Gute Praxis",
+    "heading": "Gute Praxis im Berufsalltag",
+    "items": [
+     "Annahmen aufschreiben",
+     "Versionen der Modelle speichern",
+     "Ergebnisse für Kollegen nachvollziehbar machen",
+     "Im Zweifel messen und fragen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Berufsalltag zählt Nachvollziehbarkeit.",
+     "ar": "في العمل اليومي تهمّ إمكانية التتبّع.",
+     "en": "In daily work, traceability counts."
+    },
+    {
+     "de": "Schreiben Sie Ihre Annahmen und Parameter auf.",
+     "ar": "اكتبوا افتراضاتكم ومعاملاتكم.",
+     "en": "Write down your assumptions and parameters."
+    },
+    {
+     "de": "Speichern Sie Versionen Ihrer Modelle mit Datum.",
+     "ar": "احفظوا إصدارات نماذجكم مع التاريخ.",
+     "en": "Save versions of your models with a date."
+    },
+    {
+     "de": "Kollegen sollten Ihr Ergebnis wiederholen können.",
+     "ar": "يجب أن يتمكن الزملاء من إعادة نتيجتكم.",
+     "en": "Colleagues should be able to repeat your result."
+    },
+    {
+     "de": "Sagen Sie klar, was das Modell nicht abbildet.",
+     "ar": "قولوا بوضوح ما لا يمثّله النموذج.",
+     "en": "State clearly what the model does not represent."
+    },
+    {
+     "de": "Das hilft Ihnen auch selbst, wenn Sie nach Monaten zurückkehren.",
+     "ar": "وهذا يفيدكم أنتم أيضًا عندما تعودون بعد أشهر.",
+     "en": "This also helps you when you come back after months."
+    },
+    {
+     "de": "So arbeiten Teams in Deutschland zuverlässig zusammen.",
+     "ar": "هكذا تعمل الفرق في ألمانيا معًا بموثوقية.",
+     "en": "This is how teams in Germany work together reliably."
+    },
+    {
+     "de": "Im Zweifel messen Sie nach oder fragen eine erfahrene Kollegin.",
+     "ar": "وعند الشك قيسوا من جديد أو اسألوا زميلة ذات خبرة.",
+     "en": "In doubt, measure again or ask an experienced colleague."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Modell: bewusste Vereinfachung",
+     "Parameter und Einheiten prüfen",
+     "Solver und Zeitschritt: Kompromiss",
+     "Plausibilität und Grenzfälle testen",
+     "LTspice, Octave, Scilab: freie Beispiele"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Ein Modell ist eine bewusste Vereinfachung mit Parametern.",
+     "ar": "النموذج تبسيط مقصود له معاملات.",
+     "en": "A model is a deliberate simplification with parameters."
+    },
+    {
+     "de": "Der Solver rechnet in Zeitschritten, und die Schrittweite ist ein Kompromiss.",
+     "ar": "الحل العددي يحسب بخطوات زمنية، وحجمها حل وسط.",
+     "en": "The solver calculates in time steps, and the step size is a compromise."
+    },
+    {
+     "de": "Prüfen Sie Ergebnisse mit Handrechnung und Grenzfällen.",
+     "ar": "افحصوا النتائج بالحساب اليدوي والحالات الحدية.",
+     "en": "Check results with hand calculation and limit cases."
+    },
+    {
+     "de": "LTspice, Octave und Scilab sind Beispiele für freie Werkzeuge.",
+     "ar": "برامج LTspice وOctave وScilab أمثلة لأدوات مجانية.",
+     "en": "LTspice, Octave and Scilab are examples of free tools.",
+     "tts": "El-Ti-Spais, Octave und Scilab sind Beispiele für freie Werkzeuge."
+    },
+    {
+     "de": "Dann können Sie Ihre Ergebnisse vor Kollegen sicher erklären.",
+     "ar": "عندها تستطيعون شرح نتائجكم أمام الزملاء بثقة.",
+     "en": "Then you can confidently explain your results to colleagues."
+    },
+    {
+     "de": "Das ist im deutschen Berufsalltag oft wichtiger als die schönste Kurve.",
+     "ar": "وهذا غالبًا أهم في العمل الألماني من أجمل منحنى.",
+     "en": "In German working life this is often more important than the nicest curve."
+    },
+    {
+     "de": "Und denken Sie daran: Das Modell ist nicht die Wirklichkeit.",
+     "ar": "وتذكّروا: النموذج ليس هو الواقع.",
+     "en": "And remember: the model is not reality."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schlusshinweis",
+    "heading": "Rechtlicher und fachlicher Hinweis",
+    "items": [
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung",
+     "Versionen und Lizenzen prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وفي الختام، ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Software, Lizenzen, Gesetze und Normen ändern sich.",
+     "ar": "البرمجيات والتراخيص والقوانين والمعايير تتغير.",
+     "en": "Software, licences, laws and standards change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Version und die aktuellen Bedingungen.",
+     "ar": "تحققوا دائمًا من الإصدار الحالي والشروط الحالية.",
+     "en": "Always check the current version and current terms."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Fachberatung im Einzelfall.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة فنية لحالة بعينها.",
+     "en": "It is neither legal advice nor engineering advice for a specific case."
+    },
+    {
+     "de": "Bitte fragen Sie bei Unsicherheit eine fachkundige Person aus Ihrem Unternehmen.",
+     "ar": "عند عدم اليقين اسألوا شخصًا مختصًا في شركتكم.",
+     "en": "When unsure, please ask a competent person in your company."
+    },
+    {
+     "de": "Vielen Dank fürs Zuschauen. Lösen Sie jetzt das kurze Quiz.",
+     "ar": "شكرًا للمشاهدة. حلّوا الآن الاختبار القصير.",
+     "en": "Thank you for watching. Now solve the short quiz."
+    },
+    {
+     "de": "Im nächsten Video geht es um Beleuchtungsplanung mit DIALux.",
+     "ar": "في الفيديو القادم نتناول تخطيط الإضاءة مع برنامج DIALux المتخصص.",
+     "en": "In the next video we look at lighting design with DIALux.",
+     "tts": "Im nächsten Video geht es um Beleuchtungsplanung mit DIALux."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Simulation",
+   "ar": "المحاكاة",
+   "en": "simulation"
+  },
+  {
+   "de": "das Modell",
+   "ar": "النموذج",
+   "en": "model"
+  },
+  {
+   "de": "der Parameter",
+   "ar": "المعامل",
+   "en": "parameter"
+  },
+  {
+   "de": "der Solver",
+   "ar": "الحل العددي (Solver)",
+   "en": "solver"
+  },
+  {
+   "de": "der Zeitschritt",
+   "ar": "الخطوة الزمنية",
+   "en": "time step"
+  },
+  {
+   "de": "der Arbeitspunkt",
+   "ar": "نقطة العمل",
+   "en": "operating point"
+  },
+  {
+   "de": "die Zeitkonstante",
+   "ar": "الثابت الزمني",
+   "en": "time constant"
+  },
+  {
+   "de": "die Sprungantwort",
+   "ar": "استجابة القفزة",
+   "en": "step response"
+  },
+  {
+   "de": "die Plausibilität",
+   "ar": "المعقولية",
+   "en": "plausibility"
+  },
+  {
+   "de": "der Grenzfall",
+   "ar": "الحالة الحدية",
+   "en": "limit case"
+  },
+  {
+   "de": "der Spannungssprung",
+   "ar": "قفزة الجهد",
+   "en": "voltage step"
+  },
+  {
+   "de": "der Kondensator",
+   "ar": "المكثف",
+   "en": "capacitor"
+  },
+  {
+   "de": "der Widerstand",
+   "ar": "المقاومة",
+   "en": "resistor"
+  },
+  {
+   "de": "das Blockmodell",
+   "ar": "نموذج الكتل",
+   "en": "block model"
+  },
+  {
+   "de": "die Toleranz",
+   "ar": "التفاوت",
+   "en": "tolerance"
+  },
+  {
+   "de": "die Annahme",
+   "ar": "الافتراض",
+   "en": "assumption"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was macht ein Solver?",
+    "ar": "ماذا يفعل الحل العددي؟",
+    "en": "What does a solver do?"
+   },
+   "options": [
+    {
+     "de": "Er zeichnet den Schaltplan.",
+     "ar": "يرسم المخطط.",
+     "en": "It draws the schematic."
+    },
+    {
+     "de": "Er verkauft die Lizenz.",
+     "ar": "يبيع الترخيص.",
+     "en": "It sells the licence."
+    },
+    {
+     "de": "Er löst die Modellgleichungen in Zeitschritten.",
+     "ar": "يحل معادلات النموذج بخطوات زمنية.",
+     "en": "It solves the model equations in time steps."
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was ist ein Modell?",
+    "ar": "ما هو النموذج؟",
+    "en": "What is a model?"
+   },
+   "options": [
+    {
+     "de": "Eine bewusste Vereinfachung der Wirklichkeit",
+     "ar": "تبسيط مقصود للواقع",
+     "en": "A deliberate simplification of reality"
+    },
+    {
+     "de": "Die genaue Kopie der Wirklichkeit",
+     "ar": "نسخة دقيقة من الواقع",
+     "en": "An exact copy of reality"
+    },
+    {
+     "de": "Ein Messgerät",
+     "ar": "جهاز قياس",
+     "en": "A measuring instrument"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was prüfen Sie zuerst bei einem Ergebnis?",
+    "ar": "ما الذي تفحصونه أولًا في النتيجة؟",
+    "en": "What do you check first in a result?"
+   },
+   "options": [
+    {
+     "de": "Die Farbe der Kurve",
+     "ar": "لون المنحنى",
+     "en": "The colour of the curve"
+    },
+    {
+     "de": "Die Plausibilität, zum Beispiel mit Handrechnung",
+     "ar": "المعقولية، مثلًا بالحساب اليدوي",
+     "en": "Plausibility, for example by hand calculation"
+    },
+    {
+     "de": "Den Namen des Programms",
+     "ar": "اسم البرنامج",
+     "en": "The name of the program"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was gilt für LTspice nach diesem Video?",
+    "ar": "ما الذي ينطبق على LTspice بحسب هذا الفيديو؟",
+    "en": "What applies to LTspice according to this video?"
+   },
+   "options": [
+    {
+     "de": "Es ist ein Systemsimulator von MathWorks.",
+     "ar": "محاكي أنظمة من MathWorks.",
+     "en": "It is a system simulator from MathWorks."
+    },
+    {
+     "de": "Es ist ein Rechner nur für Regelkreise.",
+     "ar": "حاسبة لحلقات التحكم فقط.",
+     "en": "It is a calculator only for control loops."
+    },
+    {
+     "de": "Es ist ein Schaltungssimulator von Analog Devices.",
+     "ar": "محاكي دارات من Analog Devices.",
+     "en": "It is a circuit simulator from Analog Devices."
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was zeigt das Beispiel nach einer Zeitkonstante?",
+    "ar": "ماذا يبيّن المثال بعد ثابت زمني واحد؟",
+    "en": "What does the example show after one time constant?"
+   },
+   "options": [
+    {
+     "de": "Etwa dreiundsechzig Prozent des Endwerts",
+     "ar": "نحو ثلاثة وستين بالمئة من القيمة النهائية",
+     "en": "About sixty-three percent of the final value"
+    },
+    {
+     "de": "Schon den vollen Endwert",
+     "ar": "القيمة النهائية كاملة",
+     "en": "Already the full final value"
+    },
+    {
+     "de": "Noch gar keine Änderung",
+     "ar": "لا تغيّر إطلاقًا",
+     "en": "No change at all"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "next": {
+  "de": "S-05: Beleuchtungsplanung mit DIALux",
+  "ar": "الفيديو التالي: تخطيط الإضاءة مع DIALux خطوة بخطوة",
+  "en": "S-05: Lighting design with DIALux"
+ },
+ "stand": "2026-10-21; prüfen: LTspice-Nutzungsbedingungen und Download-Seite, Octave/Scilab-Seiten, Lizenzmodell von MATLAB/Simulink beim Hersteller."
+}

@@ -1,0 +1,1429 @@
+{
+ "id": "S-02",
+ "title": {
+  "de": "TIA Portal und CODESYS: SPS-Programmierumgebungen im Überblick",
+  "ar": "برمجيات المتحكمات: بيئات برمجة SPS بين الأدوات الخاصة بالشركات والأدوات المستقلة",
+  "en": "TIA Portal and CODESYS: PLC Programming Environments Compared in Concept"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "S-02 · Software-Serie",
+    "heading": "Engineering-Tools für die SPS",
+    "items": [
+     "Was ein Engineering-Tool leistet",
+     "Herstellerabhängig oder unabhängig",
+     "Versionsverwaltung und Backup",
+     "Freie Alternativen und Simulatoren"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum zweiten Video der Software-Serie.",
+     "ar": "مرحبًا بكم في الفيديو الثاني من سلسلة البرمجيات.",
+     "en": "Welcome to the second video of the software series."
+    },
+    {
+     "de": "Heute geht es um die Programmierumgebungen für die SPS.",
+     "ar": "موضوع اليوم هو بيئات البرمجة الخاصة بالمتحكم المنطقي القابل للبرمجة، أي SPS في ألمانيا.",
+     "en": "Today is about the programming environments for the SPS.",
+     "tts": "Heute geht es um die Programmierumgebungen für die Es-Pe-Es."
+    },
+    {
+     "de": "Sie sehen dabei keine Bildschirmaufnahmen kommerzieller Programme.",
+     "ar": "لن ترون هنا تسجيلات شاشة لأي برنامج تجاري.",
+     "en": "You will not see screen recordings of commercial programs."
+    },
+    {
+     "de": "Wir erklären nur die Konzepte, die in allen Werkzeugen ähnlich sind.",
+     "ar": "نشرح فقط المفاهيم المتشابهة في جميع الأدوات.",
+     "en": "We only explain the concepts that are similar in all tools."
+    },
+    {
+     "de": "Als Beispiele nennen wir das TIA Portal und CODESYS.",
+     "ar": "وكأمثلة نذكر برنامج TIA Portal وكذلك برنامج CODESYS معًا.",
+     "en": "As examples we name the TIA Portal and CODESYS.",
+     "tts": "Als Beispiele nennen wir das Tia Portal und Kodesis."
+    },
+    {
+     "de": "Das ist keine Empfehlung und kein Vergleich nach Qualität.",
+     "ar": "وهذا ليس توصية ولا مقارنة من حيث الجودة.",
+     "en": "This is no recommendation and no ranking by quality."
+    },
+    {
+     "de": "Eine SPS führt das Programm aus, das Sie vorher auf den Rechner geschrieben haben.",
+     "ar": "تنفذ SPS البرنامج الذي كتبتموه سابقًا على الحاسوب.",
+     "en": "An SPS runs the program that you wrote on the computer beforehand.",
+     "tts": "Eine Es-Pe-Es führt das Programm aus, das Sie vorher auf den Rechner geschrieben haben."
+    },
+    {
+     "de": "Dazwischen liegt der Schritt des Ladens in die Steuerung.",
+     "ar": "وبينهما خطوة التحميل إلى وحدة التحكم.",
+     "en": "In between lies the step of loading into the controller."
+    },
+    {
+     "de": "Am Ende kennen Sie die Aufgaben eines Engineering-Tools und die Unterschiede der Ansätze.",
+     "ar": "وفي النهاية ستعرفون مهام أداة الهندسة والفروق بين الأساليب المختلفة.",
+     "en": "At the end you know the tasks of an engineering tool and the differences between the approaches."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundidee",
+    "heading": "Was ist ein Engineering-Tool?",
+    "items": [
+     "Programm am Rechner erstellen",
+     "Steuerung konfigurieren",
+     "Programm laden und prüfen",
+     "Projekt dokumentieren"
+    ],
+    "terms": [
+     {
+      "de": "die Engineering-Software",
+      "ar": "برنامج الهندسة والتطوير",
+      "en": "engineering software"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die SPS selbst hat keine Bildschirmoberfläche für die Entwicklung.",
+     "ar": "لا تملك SPS نفسها واجهة شاشة للتطوير.",
+     "en": "The SPS itself has no screen interface for development.",
+     "tts": "Die Es-Pe-Es selbst hat keine Bildschirmoberfläche für die Entwicklung."
+    },
+    {
+     "de": "Ihr Programm entsteht auf einem Rechner, in einer Engineering-Software.",
+     "ar": "ينشأ برنامجها على حاسوب، داخل برنامج هندسي.",
+     "en": "Its program is created on a computer, in engineering software."
+    },
+    {
+     "de": "Man nennt sie auch Programmierumgebung oder Entwicklungsumgebung.",
+     "ar": "وتسمى أيضًا بيئة البرمجة أو بيئة التطوير.",
+     "en": "It is also called a programming environment or development environment."
+    },
+    {
+     "de": "Sie hilft beim Planen, Programmieren, Laden und Prüfen.",
+     "ar": "تساعد في التخطيط والبرمجة والتحميل والفحص.",
+     "en": "It helps with planning, programming, loading and testing."
+    },
+    {
+     "de": "Außerdem hilft sie bei der Dokumentation des Projekts.",
+     "ar": "وتساعد أيضًا في توثيق المشروع.",
+     "en": "It also helps document the project."
+    },
+    {
+     "de": "Wichtig: Die Bedienung unterscheidet sich je nach Werkzeug.",
+     "ar": "والمهم أن طريقة التشغيل تختلف من أداة إلى أخرى.",
+     "en": "Important: operation differs from tool to tool."
+    },
+    {
+     "de": "Die Engineering-Software ist also das Bindeglied zwischen Idee und Anlage.",
+     "ar": "فبرنامج الهندسة هو حلقة الوصل بين الفكرة والمنشأة.",
+     "en": "The engineering software is thus the link between idea and plant."
+    },
+    {
+     "de": "Sie müssen dafür nicht jede Taste kennen, aber den Ablauf verstehen.",
+     "ar": "ليس عليكم معرفة كل زر، لكن عليكم فهم التسلسل.",
+     "en": "You do not need to know every button, but you must understand the flow."
+    },
+    {
+     "de": "Die Konzepte dahinter bleiben aber sehr ähnlich.",
+     "ar": "لكن المفاهيم الكامنة وراءها تبقى متشابهة جدًا.",
+     "en": "The concepts behind it stay very similar."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Fünf Aufgaben",
+    "heading": "Was ein Werkzeug leistet",
+    "items": [
+     "Hardware: Geräte und Baugruppen anlegen",
+     "Variablen: Namen und Datentypen",
+     "Bausteine: Programm gliedern",
+     "Online und Simulation: prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fast jedes Werkzeug erfüllt fünf Aufgaben.",
+     "ar": "تؤدي كل أداة تقريبًا خمس مهام.",
+     "en": "Almost every tool fulfills five tasks."
+    },
+    {
+     "de": "Erstens: Sie legen die Hardware fest, also Steuerung und Baugruppen.",
+     "ar": "أولًا: تحددون العتاد، أي وحدة التحكم والوحدات الملحقة.",
+     "en": "First: you define the hardware, that is the controller and modules."
+    },
+    {
+     "de": "Zweitens: Sie verwalten Variablen mit Namen und Datentypen.",
+     "ar": "ثانيًا: تديرون المتغيرات بأسمائها وأنواع بياناتها.",
+     "en": "Second: you manage variables with names and data types."
+    },
+    {
+     "de": "Drittens: Sie gliedern das Programm in Bausteine.",
+     "ar": "ثالثًا: تقسمون البرنامج إلى وحدات برمجية.",
+     "en": "Third: you divide the program into blocks."
+    },
+    {
+     "de": "Viertens und fünftens: Online-Diagnose und Simulation.",
+     "ar": "رابعًا وخامسًا: التشخيص المباشر والمحاكاة.",
+     "en": "Fourth and fifth: online diagnostics and simulation."
+    },
+    {
+     "de": "Die Reihenfolge ist in der Praxis oft ähnlich, aber nicht starr.",
+     "ar": "والترتيب في الواقع العملي متشابه غالبًا، لكنه ليس جامدًا.",
+     "en": "The order in practice is often similar, but not rigid."
+    },
+    {
+     "de": "Jede Aufgabe hat im Alltag eigene Fehlerquellen, auf die wir kurz hinweisen.",
+     "ar": "لكل مهمة في العمل اليومي مصادر أخطاء خاصة بها، ننبّه إليها باختصار.",
+     "en": "Each task has its own sources of error in daily work, which we briefly point out."
+    },
+    {
+     "de": "Diese fünf Aufgaben schauen wir uns nacheinander an.",
+     "ar": "سنتناول هذه المهام الخمس واحدة تلو الأخرى.",
+     "en": "We look at these five tasks one after another."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufgabe 1",
+    "heading": "Hardwarekonfiguration",
+    "items": [
+     "Steuerung auswählen",
+     "Ein- und Ausgabebaugruppen anlegen",
+     "Parameter einstellen",
+     "Netzwerk und Geräte einbinden"
+    ],
+    "terms": [
+     {
+      "de": "die Hardwarekonfiguration",
+      "ar": "تهيئة العتاد",
+      "en": "hardware configuration"
+     },
+     {
+      "de": "die Baugruppe",
+      "ar": "الوحدة (الملحقة)",
+      "en": "module"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst bilden Sie die reale Anlage im Projekt ab.",
+     "ar": "أولًا تمثّلون المنشأة الفعلية داخل المشروع.",
+     "en": "First you model the real plant in the project."
+    },
+    {
+     "de": "Sie wählen die Steuerung und fügen die Baugruppen hinzu.",
+     "ar": "تختارون وحدة التحكم وتضيفون الوحدات الملحقة.",
+     "en": "You select the controller and add the modules."
+    },
+    {
+     "de": "Das sind zum Beispiel Eingabe- und Ausgabebaugruppen, wie im ersten Video.",
+     "ar": "مثل وحدات المدخلات والمخرجات، كما في الفيديو الأول.",
+     "en": "These are, for example, input and output modules, as in the first video."
+    },
+    {
+     "de": "Danach stellen Sie Parameter ein, etwa Adressen oder Signalarten.",
+     "ar": "ثم تضبطون المعاملات، مثل العناوين أو أنواع الإشارات.",
+     "en": "Then you set parameters, such as addresses or signal types."
+    },
+    {
+     "de": "Auch Netzwerke und weitere Geräte binden Sie hier ein, mehr dazu im Video über Industrienetzwerke.",
+     "ar": "وتربطون هنا أيضًا الشبكات والأجهزة الأخرى، وللمزيد راجعوا فيديو الشبكات الصناعية.",
+     "en": "You also integrate networks and other devices here, see the video on industrial networks."
+    },
+    {
+     "de": "Fehler in dieser Stufe zeigen sich später oft erst bei der Inbetriebnahme.",
+     "ar": "وتظهر الأخطاء في هذه المرحلة غالبًا لاحقًا عند التشغيل التجريبي.",
+     "en": "Errors at this stage often show up later during commissioning."
+    },
+    {
+     "de": "Vergleichen Sie darum Konfiguration und Schaltplan sorgfältig.",
+     "ar": "لذلك قارنوا التهيئة بمخطط الدارات بعناية.",
+     "en": "So compare configuration and circuit diagram carefully."
+    },
+    {
+     "de": "Wichtig: Die Konfiguration im Projekt muss zur echten Hardware passen.",
+     "ar": "والمهم أن تطابق التهيئة في المشروع العتاد الحقيقي.",
+     "en": "Important: the configuration in the project must match the real hardware."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufgabe 2",
+    "heading": "Variablen und Symbolik",
+    "items": [
+     "Symbolische Namen statt Adressen",
+     "Datentypen festlegen",
+     "Zuordnung zu Ein- und Ausgängen",
+     "Verständlich benennen"
+    ],
+    "terms": [
+     {
+      "de": "die Symbolik",
+      "ar": "الترميز الرمزي (الأسماء بدل العناوين)",
+      "en": "symbolic naming"
+     },
+     {
+      "de": "der Datentyp",
+      "ar": "نوع البيانات",
+      "en": "data type"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Eingang hat eine Adresse, zum Beispiel am Eingang acht.",
+     "ar": "للمدخل عنوان، مثلًا عند المدخل الثامن.",
+     "en": "An input has an address, for example at input eight.",
+     "tts": "Ein Eingang hat eine Adresse, zum Beispiel am Eingang acht."
+    },
+    {
+     "de": "Mit der Symbolik geben Sie dieser Adresse einen Namen.",
+     "ar": "وبالترميز الرمزي تعطون هذا العنوان اسمًا.",
+     "en": "With symbolic naming you give this address a name."
+    },
+    {
+     "de": "Statt der Adresse lesen Sie dann Motor_Ein oder Sensor_Tür.",
+     "ar": "فبدل العنوان تقرؤون اسمًا مثل «تشغيل المحرك» أو «مستشعر الباب».",
+     "en": "Instead of the address you then read Motor_Ein or Sensor_Tür.",
+     "tts": "Statt der Adresse lesen Sie dann Motor-Ein oder Sensor-Tür."
+    },
+    {
+     "de": "Das macht Programme lesbar, auch für Kolleginnen und Kollegen.",
+     "ar": "وهذا يجعل البرامج مقروءة، حتى للزملاء.",
+     "en": "This makes programs readable, also for colleagues."
+    },
+    {
+     "de": "Jede Variable bekommt einen Datentyp, etwa Bit, Ganzzahl oder Gleitkommazahl.",
+     "ar": "ولكل متغير نوع بيانات، مثل البت أو العدد الصحيح أو العدد العشري.",
+     "en": "Each variable gets a data type, such as bit, integer or floating-point number."
+    },
+    {
+     "de": "Das Werkzeug prüft dann, ob Typen zusammenpassen.",
+     "ar": "ثم تتحقق الأداة من توافق الأنواع.",
+     "en": "The tool then checks whether types fit together."
+    },
+    {
+     "de": "In einer Liste sehen Sie alle Variablen mit Namen, Typ und Adresse.",
+     "ar": "وفي قائمة ترون كل المتغيرات باسمها ونوعها وعنوانها.",
+     "en": "In a list you see all variables with name, type and address."
+    },
+    {
+     "de": "Das ist die Brücke zwischen Programm und Verdrahtung.",
+     "ar": "وهذه هي الجسر بين البرنامج والتوصيلات.",
+     "en": "This is the bridge between program and wiring."
+    },
+    {
+     "de": "Einheitliche Namensregeln im Team verhindern Missverständnisse.",
+     "ar": "وقواعد التسمية الموحدة داخل الفريق تمنع سوء الفهم.",
+     "en": "Uniform naming rules in the team prevent misunderstandings."
+    },
+    {
+     "de": "Gute Namen sparen später viel Zeit bei der Fehlersuche.",
+     "ar": "والأسماء الجيدة توفر وقتًا كبيرًا لاحقًا عند البحث عن الأعطال.",
+     "en": "Good names save a lot of time later when troubleshooting."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufgabe 3",
+    "heading": "Programmbausteine",
+    "items": [
+     "Programm in Bausteine gliedern",
+     "Funktion und Funktionsbaustein",
+     "Wiederverwenden statt kopieren",
+     "Sprachen nach IEC 61131-3"
+    ],
+    "terms": [
+     {
+      "de": "der Baustein",
+      "ar": "الوحدة البرمجية",
+      "en": "program block"
+     },
+     {
+      "de": "der Funktionsbaustein",
+      "ar": "وحدة الدالة الوظيفية",
+      "en": "function block"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein großes Programm gliedern Sie in Bausteine.",
+     "ar": "تقسمون البرنامج الكبير إلى وحدات برمجية.",
+     "en": "You divide a large program into blocks."
+    },
+    {
+     "de": "Jeder Baustein löst eine kleine, klar benannte Aufgabe.",
+     "ar": "وكل وحدة تحل مهمة صغيرة وواضحة الاسم.",
+     "en": "Each block solves a small, clearly named task."
+    },
+    {
+     "de": "Ein Funktionsbaustein hat einen eigenen Speicher, eine einfache Funktion meist nicht.",
+     "ar": "لوحدة الدالة الوظيفية ذاكرتها الخاصة، أما الدالة البسيطة فغالبًا لا ذاكرة لها.",
+     "en": "A function block has its own memory, a simple function usually does not."
+    },
+    {
+     "de": "So können Sie einen Baustein mehrfach verwenden, zum Beispiel für mehrere gleiche Motoren.",
+     "ar": "وهكذا يمكنكم استخدام الوحدة مرات عدة، مثلًا لعدة محركات متماثلة.",
+     "en": "So you can use a block several times, for example for several identical motors."
+    },
+    {
+     "de": "Die Sprachen dafür legt die Norm IEC 61131-3 fest.",
+     "ar": "أما لغات البرمجة فيحددها المعيار الدولي IEC 61131-3 للغات.",
+     "en": "The languages for this are defined by the standard IEC 61131-3.",
+     "tts": "Die Sprachen dafür legt die Norm I-E-Ze sechs eins eins drei eins, Teil drei fest."
+    },
+    {
+     "de": "Ein gut gegliedertes Programm lässt sich leichter testen und warten.",
+     "ar": "والبرنامج المنظّم جيدًا أسهل في الاختبار والصيانة.",
+     "en": "A well-structured program is easier to test and maintain."
+    },
+    {
+     "de": "Kommentare im Baustein erklären, warum etwas so programmiert wurde.",
+     "ar": "وتشرح التعليقات داخل الوحدة سبب البرمجة بهذا الشكل.",
+     "en": "Comments in a block explain why something was programmed this way."
+    },
+    {
+     "de": "Das kennen Sie aus dem ersten Video der Reihe.",
+     "ar": "وقد تعرفتم عليها في الفيديو الأول من السلسلة.",
+     "en": "You know this from the first video of the series."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Sprachen",
+    "heading": "Die Sprachen der Norm im Überblick",
+    "items": [
+     "Kontaktplan | grafisch, wie ein Stromlaufplan",
+     "Funktionsplan | grafisch, mit Funktionsblöcken",
+     "Ablaufsprache | grafisch, für Schrittketten",
+     "Strukturierter Text | textuell, wie eine Hochsprache",
+     "Anweisungsliste | textuell, in Ausgabe 2013 veraltet"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Norm kennt grafische und textuelle Sprachen.",
+     "ar": "يعرف المعيار لغات رسومية ولغات نصية.",
+     "en": "The standard knows graphical and textual languages."
+    },
+    {
+     "de": "Kontaktplan sieht aus wie ein Stromlaufplan mit Kontakten und Spulen.",
+     "ar": "مخطط السلّم يشبه مخطط الدارات بملامساته وملفاته.",
+     "en": "Ladder diagram looks like a circuit diagram with contacts and coils."
+    },
+    {
+     "de": "Der Funktionsplan verbindet Funktionsblöcke durch Linien.",
+     "ar": "ويربط مخطط الوظائف الكتل الوظيفية بخطوط.",
+     "en": "The function block diagram connects function blocks with lines."
+    },
+    {
+     "de": "Die Ablaufsprache beschreibt Schritte und Übergänge.",
+     "ar": "وتصف لغة التسلسل الخطوات والانتقالات.",
+     "en": "Sequential function chart describes steps and transitions."
+    },
+    {
+     "de": "Strukturierter Text ähnelt einer klassischen Programmiersprache.",
+     "ar": "أما النص المهيكل فيشبه لغة برمجة تقليدية.",
+     "en": "Structured text resembles a classic programming language."
+    },
+    {
+     "de": "Die Anweisungsliste gilt seit der Ausgabe 2013 als veraltet.",
+     "ar": "وتُعد قائمة التعليمات قديمة منذ إصدار عام 2013 للمعيار.",
+     "en": "The instruction list has been considered outdated since the 2013 edition.",
+     "tts": "Die Anweisungsliste gilt seit der Ausgabe zweitausenddreizehn als veraltet."
+    },
+    {
+     "de": "Welche Sprache Sie wählen, hängt von Aufgabe und Team ab.",
+     "ar": "واختياركم للغة يتوقف على المهمة والفريق.",
+     "en": "Which language you choose depends on the task and the team."
+    },
+    {
+     "de": "Prüfen Sie immer, welche Ausgabe Ihr Werkzeug unterstützt.",
+     "ar": "تحققوا دائمًا من الإصدار الذي تدعمه أداتكم.",
+     "en": "Always check which edition your tool supports."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufgabe 4",
+    "heading": "Online-Diagnose",
+    "items": [
+     "Verbindung zur Steuerung",
+     "Betriebszustand und Fehler ansehen",
+     "Signalwerte beobachten",
+     "Änderungen nur mit Befugnis"
+    ],
+    "terms": [
+     {
+      "de": "die Online-Diagnose",
+      "ar": "التشخيص المباشر (متصلًا)",
+      "en": "online diagnostics"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Online heißt: Das Werkzeug ist mit der echten Steuerung verbunden.",
+     "ar": "«متصل» تعني أن الأداة موصولة بوحدة التحكم الحقيقية.",
+     "en": "Online means: the tool is connected to the real controller."
+    },
+    {
+     "de": "Sie sehen den Betriebszustand und mögliche Fehlermeldungen.",
+     "ar": "ترون حالة التشغيل ورسائل الأعطال المحتملة.",
+     "en": "You see the operating state and possible error messages."
+    },
+    {
+     "de": "Sie beobachten Signalwerte, während die Anlage läuft.",
+     "ar": "وتراقبون قيم الإشارات أثناء تشغيل المنشأة.",
+     "en": "You watch signal values while the plant is running."
+    },
+    {
+     "de": "So finden Sie zum Beispiel einen Sensor, der nicht schaltet.",
+     "ar": "وهكذا تجدون مثلًا مستشعرًا لا يعمل.",
+     "en": "This way you find, for example, a sensor that does not switch."
+    },
+    {
+     "de": "Das Werkzeug zeigt dabei auch, ob das Projekt zur Steuerung passt.",
+     "ar": "وتُظهر الأداة أيضًا هل يطابق المشروع وحدة التحكم.",
+     "en": "The tool also shows whether the project matches the controller."
+    },
+    {
+     "de": "Die Hilfe der Werkzeuge erklärt Fehlermeldungen meist genauer.",
+     "ar": "وتشرح مساعدة الأدوات رسائل الأعطال عادةً بتفصيل أكبر.",
+     "en": "The help of the tools usually explains error messages in more detail."
+    },
+    {
+     "de": "Notieren Sie, was Sie gesehen haben, bevor jemand etwas ändert.",
+     "ar": "دوّنوا ما رأيتموه قبل أن يغيّر أحد شيئًا.",
+     "en": "Note what you saw before anyone changes anything."
+    },
+    {
+     "de": "Beobachten ist etwas anderes als Verändern.",
+     "ar": "المراقبة شيء والتعديل شيء آخر.",
+     "en": "Observing is something different from changing."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Sicherheit",
+    "heading": "Online ändern: Vorsicht",
+    "items": [
+     "Befugnis: Nur qualifizierte Personen",
+     "Folgen: Anlage kann sich bewegen",
+     "Sicherheitsregeln: Fünf Regeln gelten",
+     "Zugriff: Fernzugriff nur mit Konzept"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Eingriff in eine laufende Steuerung ist nicht harmlos.",
+     "ar": "التدخل في وحدة تحكم قيد التشغيل ليس أمرًا بسيطًا.",
+     "en": "An intervention in a running controller is not harmless."
+    },
+    {
+     "de": "Ein geänderter Wert kann einen Antrieb starten oder stoppen.",
+     "ar": "قد تؤدي قيمة معدّلة إلى تشغيل محرك أو إيقافه.",
+     "en": "A changed value can start or stop a drive."
+    },
+    {
+     "de": "Menschen an der Maschine können dabei gefährdet werden.",
+     "ar": "وقد يتعرض الأشخاص قرب الآلة للخطر.",
+     "en": "People at the machine can be endangered."
+    },
+    {
+     "de": "Änderungen an einer echten Anlage gehören in die Hände qualifizierter Personen mit Befugnis.",
+     "ar": "التعديلات على منشأة حقيقية تخص أشخاصًا مؤهلين لديهم تفويض.",
+     "en": "Changes to a real plant belong in the hands of qualified people with authorization."
+    },
+    {
+     "de": "Arbeiten an elektrischen Anlagen erfolgen nach DGUV Vorschrift 3 durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht.",
+     "ar": "تُنفَّذ الأعمال على المنشآت الكهربائية وفق لائحة الوقاية رقم ثلاثة (DGUV V3) على يد كهربائي مؤهَّل أو تحت إشرافه وتوجيهه.",
+     "en": "Work on electrical installations follows DGUV Vorschrift 3 and is done by an Elektrofachkraft or under their direction and supervision.",
+     "tts": "Arbeiten an elektrischen Anlagen erfolgen nach De-Ge-U-Fau Vorschrift drei durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht."
+    },
+    {
+     "de": "Wer elektrisch arbeitet, beachtet alle fünf Sicherheitsregeln, wie in unserem Sicherheitsvideo.",
+     "ar": "ومن يعمل كهربائيًا يلتزم بقواعد الأمان الخمس جميعها، كما في فيديو السلامة لدينا.",
+     "en": "Whoever works electrically follows all five safety rules, as in our safety video."
+    },
+    {
+     "de": "Hier gilt die Regel: Erst verstehen, dann handeln.",
+     "ar": "هنا القاعدة: افهموا أولًا ثم تصرفوا.",
+     "en": "Here the rule applies: understand first, then act."
+    },
+    {
+     "de": "Im Zweifel fragen Sie die verantwortliche Elektrofachkraft.",
+     "ar": "وعند الشك اسألوا الكهربائي المؤهَّل (Elektrofachkraft) المسؤول.",
+     "en": "In doubt, ask the responsible Elektrofachkraft."
+    },
+    {
+     "de": "Fernzugriff braucht ein Sicherheitskonzept, mehr dazu im Video zur Industrie-Cybersicherheit.",
+     "ar": "والوصول عن بُعد يحتاج إلى مفهوم أمني، وللمزيد راجعوا فيديو الأمن السيبراني الصناعي.",
+     "en": "Remote access needs a security concept, see the video on industrial cybersecurity."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Aufgabe 5",
+    "heading": "Simulation",
+    "items": [
+     "Test am Rechner ohne Anlage",
+     "Programmlogik früh prüfen",
+     "Fehler ohne Gefahr finden",
+     "Grenzen der Simulation kennen"
+    ],
+    "terms": [
+     {
+      "de": "die Simulation",
+      "ar": "المحاكاة",
+      "en": "simulation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Mit einer Simulation testen Sie das Programm ohne echte Steuerung.",
+     "ar": "بالمحاكاة تختبرون البرنامج دون وحدة تحكم حقيقية.",
+     "en": "With a simulation you test the program without a real controller."
+    },
+    {
+     "de": "Ein Beispiel: Die Hilfe des TIA Portals beschreibt eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware.",
+     "ar": "مثال: تصف مساعدة TIA Portal محاكاة تجري على الحاسوب مباشرة دون عتاد إضافي.",
+     "en": "One example: the help of the TIA Portal describes a simulation directly on the computer, without extra hardware.",
+     "tts": "Ein Beispiel: Die Hilfe des Tia Portals beschreibt eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware."
+    },
+    {
+     "de": "Nicht jedes Gerät lässt sich simulieren.",
+     "ar": "ليس كل جهاز قابلًا للمحاكاة.",
+     "en": "Not every device can be simulated."
+    },
+    {
+     "de": "Auch CODESYS bietet Steuerungen als Software für den Rechner an.",
+     "ar": "كما يوفر CODESYS وحدات تحكم كبرمجيات تعمل على الحاسوب.",
+     "en": "CODESYS also offers controllers as software for the computer.",
+     "tts": "Auch Kodesis bietet Steuerungen als Software für den Rechner an."
+    },
+    {
+     "de": "So prüfen Sie die Logik früh und ohne Gefahr für Menschen.",
+     "ar": "وهكذا تفحصون المنطق مبكرًا ودون خطر على الأشخاص.",
+     "en": "So you check the logic early and without danger to people."
+    },
+    {
+     "de": "Aber: Eine Simulation ersetzt keine Inbetriebnahme an der echten Anlage.",
+     "ar": "لكن المحاكاة لا تغني عن التشغيل التجريبي على المنشأة الحقيقية.",
+     "en": "But a simulation does not replace commissioning at the real plant."
+    },
+    {
+     "de": "Simulation eignet sich auch gut für Schulungen und Tests von Programmteilen.",
+     "ar": "والمحاكاة مناسبة أيضًا للتدريب ولاختبار أجزاء البرنامج.",
+     "en": "Simulation is also well suited for training and testing parts of a program."
+    },
+    {
+     "de": "Sie können Eingänge von Hand setzen und die Reaktion der Ausgänge ansehen.",
+     "ar": "يمكنكم ضبط المدخلات يدويًا ومشاهدة استجابة المخارج.",
+     "en": "You can set inputs by hand and watch the reaction of the outputs."
+    },
+    {
+     "de": "Echte Sensoren, Verdrahtung und Netzwerke verhalten sich oft anders.",
+     "ar": "فالمستشعرات الحقيقية والتوصيلات والشبكات تتصرف غالبًا بشكل مختلف.",
+     "en": "Real sensors, wiring and networks often behave differently."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Zwei Ansätze",
+    "heading": "Herstellerabhängig oder unabhängig",
+    "items": [
+     "Frage | Herstellerabhängig | Unabhängig",
+     "Beispiel | TIA Portal | CODESYS",
+     "Anbieter | Steuerungshersteller | Softwarefirma",
+     "Geräte | Eigene Steuerungen | Geräte mit Laufzeit",
+     "Vorteil | Eng abgestimmt | Ein Werkzeug, viele Geräte"
+    ],
+    "terms": [
+     {
+      "de": "herstellerunabhängig",
+      "ar": "مستقل عن الشركة المصنّعة",
+      "en": "vendor-independent"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt zwei grundsätzliche Ansätze.",
+     "ar": "هناك أسلوبان أساسيان.",
+     "en": "There are two basic approaches."
+    },
+    {
+     "de": "Beim ersten liefert der Steuerungshersteller auch das Werkzeug.",
+     "ar": "في الأول تقدّم الشركة المصنّعة لوحدة التحكم الأداة أيضًا.",
+     "en": "In the first, the controller manufacturer also supplies the tool."
+    },
+    {
+     "de": "Das TIA Portal ist die Engineering-Umgebung von Siemens.",
+     "ar": "بيئة الهندسة الخاصة بشركة سيمنز هي TIA Portal الذي نذكره كمثال.",
+     "en": "The TIA Portal is the engineering environment of Siemens.",
+     "tts": "Das Tia Portal ist die Engineering-Umgebung von Siemens."
+    },
+    {
+     "de": "Beim zweiten Ansatz kommt das Werkzeug von einer Softwarefirma.",
+     "ar": "وفي الثاني تأتي الأداة من شركة برمجيات.",
+     "en": "In the second approach the tool comes from a software company."
+    },
+    {
+     "de": "CODESYS beschreibt sich selbst als herstellerunabhängig nach IEC 61131-3.",
+     "ar": "يصف برنامج CODESYS نفسه بأنه مستقل عن الشركات المصنّعة وفق IEC 61131-3 للغات.",
+     "en": "CODESYS describes itself as vendor-independent according to IEC 61131-3.",
+     "tts": "Kodesis beschreibt sich selbst als herstellerunabhängig nach I-E-Ze sechs eins eins drei eins, Teil drei."
+    },
+    {
+     "de": "Gerätehersteller bauen dazu die Laufzeitumgebung in ihre Steuerungen ein.",
+     "ar": "وتدمج الشركات المصنّعة للأجهزة بيئة التشغيل في وحدات التحكم لديها.",
+     "en": "Device manufacturers build the runtime into their controllers."
+    },
+    {
+     "de": "Beide Ansätze lösen dieselbe Aufgabe auf unterschiedlichen Wegen.",
+     "ar": "يحل الأسلوبان المهمة نفسها بطريقتين مختلفتين.",
+     "en": "Both approaches solve the same task in different ways."
+    },
+    {
+     "de": "Die Wahl sagt nichts darüber, welche Lösung technisch besser ist.",
+     "ar": "والاختيار لا يخبرنا أي حل أفضل من الناحية التقنية.",
+     "en": "The choice says nothing about which solution is technically better."
+    },
+    {
+     "de": "Unabhängig heißt nicht, dass jedes Gerät damit programmierbar ist.",
+     "ar": "«مستقل» لا يعني أن كل جهاز يمكن برمجته بها.",
+     "en": "Independent does not mean that every device can be programmed with it."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Einordnung",
+    "heading": "Wie wählt man ein Werkzeug?",
+    "items": [
+     "Kunde und Projekt geben es oft vor",
+     "Vorhandene Steuerungen zählen",
+     "Kenntnisse im Team zählen",
+     "Keine Rangliste in diesem Video"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Welches Werkzeug ist das beste? Diese Frage lässt sich so nicht beantworten.",
+     "ar": "أي أداة هي الأفضل؟ لا يمكن الإجابة عن هذا السؤال بهذا الشكل.",
+     "en": "Which tool is the best? This question cannot be answered like that."
+    },
+    {
+     "de": "Zu Marktanteilen nennen wir keine Zahlen, weil wir sie hier nicht belegen.",
+     "ar": "لا نذكر أرقامًا عن الحصص السوقية لأننا لا نوثقها هنا.",
+     "en": "We give no figures on market shares, because we do not verify them here."
+    },
+    {
+     "de": "In der Praxis legt oft der Kunde oder die vorhandene Anlage das Werkzeug fest.",
+     "ar": "وفي الواقع العملي غالبًا ما يحدد العميل أو المنشأة القائمة الأداة.",
+     "en": "In practice the customer or the existing plant often determines the tool."
+    },
+    {
+     "de": "Auch die Erfahrung im Team spielt eine Rolle.",
+     "ar": "وللخبرة داخل الفريق دور أيضًا.",
+     "en": "Experience in the team also plays a role."
+    },
+    {
+     "de": "Der Rat: Lernen Sie zuerst die gemeinsamen Konzepte.",
+     "ar": "النصيحة: تعلموا أولًا المفاهيم المشتركة.",
+     "en": "The advice: learn the common concepts first."
+    },
+    {
+     "de": "Diese Entscheidung treffen Sie selten allein.",
+     "ar": "وهذا القرار نادرًا ما تتخذونه وحدكم.",
+     "en": "You rarely make this decision alone."
+    },
+    {
+     "de": "Fragen Sie im Zweifel nach, welches Werkzeug im Projekt vorgesehen ist.",
+     "ar": "وعند الشك اسألوا أي أداة مقرّرة في المشروع.",
+     "en": "In doubt, ask which tool is planned for the project."
+    },
+    {
+     "de": "Wer die Konzepte versteht, wechselt leichter das Werkzeug.",
+     "ar": "ومن يفهم المفاهيم ينتقل بسهولة أكبر بين الأدوات.",
+     "en": "Whoever understands the concepts changes tools more easily."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Austausch",
+    "heading": "Portierbarkeit zwischen Werkzeugen",
+    "items": [
+     "IEC 61131-3 vereinheitlicht Sprachen",
+     "Herstellerspezifische Erweiterungen",
+     "PLCopen XML als Austauschformat",
+     "Nacharbeit und neuer Test"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Norm vereinheitlicht die Sprachen, aber nicht jedes Detail.",
+     "ar": "يوحّد المعيار اللغات، لكن ليس كل تفصيل.",
+     "en": "The standard unifies the languages, but not every detail."
+    },
+    {
+     "de": "Sprachumfang und Erweiterungen unterscheiden sich je nach Hersteller.",
+     "ar": "ويختلف نطاق اللغة والإضافات من شركة إلى أخرى.",
+     "en": "Language scope and extensions differ by manufacturer."
+    },
+    {
+     "de": "Für den Austausch gibt es das Format PLCopen XML.",
+     "ar": "وللتبادل يوجد تنسيق اسمه PLCopen XML المعروف.",
+     "en": "For exchange there is the format PLCopen XML.",
+     "tts": "Für den Austausch gibt es das Format Pe-El-Ze-open Iks-Em-El."
+    },
+    {
+     "de": "Es ist als IEC 61131-10 veröffentlicht.",
+     "ar": "وقد نُشر هذا التنسيق بوصفه المعيار IEC 61131-10 الدولي.",
+     "en": "It is published as IEC 61131-10.",
+     "tts": "Es ist als I-E-Ze sechs eins eins drei eins, Teil zehn veröffentlicht."
+    },
+    {
+     "de": "Es beschreibt Konfiguration, Datentypen und Bausteine in den Sprachen der Norm.",
+     "ar": "ويصف التهيئة وأنواع البيانات والوحدات البرمجية بلغات المعيار.",
+     "en": "It describes configuration, data types and blocks in the languages of the standard."
+    },
+    {
+     "de": "Doch Hersteller müssen nicht jede Funktion unterstützen.",
+     "ar": "لكن الشركات المصنّعة غير ملزمة بدعم كل وظيفة.",
+     "en": "But manufacturers do not have to support every function."
+    },
+    {
+     "de": "Planen Sie diese Nacharbeit im Projekt ein.",
+     "ar": "خطّطوا لهذا العمل الإضافي داخل المشروع.",
+     "en": "Plan this rework into the project."
+    },
+    {
+     "de": "Testen Sie importierte Bausteine zuerst in der Simulation.",
+     "ar": "اختبروا الوحدات المستوردة أولًا في المحاكاة.",
+     "en": "Test imported blocks first in the simulation."
+    },
+    {
+     "de": "Nach einem Import brauchen Sie deshalb oft Handarbeit und einen neuen Test.",
+     "ar": "لذلك تحتاجون غالبًا بعد الاستيراد إلى عمل يدوي واختبار جديد.",
+     "en": "After an import you therefore often need manual work and a new test."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Konzept",
+    "heading": "Versionsverwaltung",
+    "items": [
+     "Stände mit Datum und Autor speichern",
+     "Änderungen vergleichen",
+     "Alten Stand wiederherstellen",
+     "Teamarbeit ohne Überschreiben"
+    ],
+    "terms": [
+     {
+      "de": "die Versionsverwaltung",
+      "ar": "إدارة الإصدارات",
+      "en": "version control"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Programme ändern sich über Jahre.",
+     "ar": "تتغير البرامج على مدى سنوات.",
+     "en": "Programs change over the years."
+    },
+    {
+     "de": "Eine Versionsverwaltung speichert jeden Stand mit Datum und Autor.",
+     "ar": "يحفظ نظام إدارة الإصدارات كل نسخة مع تاريخها وكاتبها.",
+     "en": "Version control stores every state with date and author."
+    },
+    {
+     "de": "Sie können zwei Stände vergleichen und sehen, was sich geändert hat.",
+     "ar": "يمكنكم مقارنة نسختين ورؤية ما الذي تغيّر.",
+     "en": "You can compare two states and see what has changed."
+    },
+    {
+     "de": "Bei einem Fehler holen Sie einen älteren, funktionierenden Stand zurück.",
+     "ar": "وعند حدوث خطأ تستعيدون نسخة أقدم كانت تعمل.",
+     "en": "In case of an error you restore an older, working state."
+    },
+    {
+     "de": "CODESYS bietet dafür eine Anbindung an das System SVN.",
+     "ar": "يوفر برنامج CODESYS لذلك ربطًا مع نظام SVN لإدارة الإصدارات.",
+     "en": "CODESYS offers a connection to the system SVN for this.",
+     "tts": "Kodesis bietet dafür eine Anbindung an das System Es-Fau-En."
+    },
+    {
+     "de": "Das TIA Portal bietet eine Mehrbenutzer-Funktion und eine Schnittstelle für externe Versionsverwaltung.",
+     "ar": "ويوفر TIA Portal وظيفة تعدد المستخدمين وواجهة لإدارة الإصدارات الخارجية.",
+     "en": "The TIA Portal offers a multi-user function and an interface for external version control.",
+     "tts": "Das Tia Portal bietet eine Mehrbenutzer-Funktion und eine Schnittstelle für externe Versionsverwaltung."
+    },
+    {
+     "de": "Fragen Sie im Team, welche Regeln für Dateinamen und Stände gelten.",
+     "ar": "اسألوا الفريق عن قواعد أسماء الملفات والنسخ.",
+     "en": "Ask in the team which rules apply to file names and states."
+    },
+    {
+     "de": "Schreiben Sie bei jedem Stand kurz, was Sie geändert haben und warum.",
+     "ar": "اكتبوا عند كل نسخة بإيجاز ما غيّرتموه ولماذا.",
+     "en": "For each state, briefly write what you changed and why."
+    },
+    {
+     "de": "Ob und wie das geht, hängt von Werkzeug und Version ab.",
+     "ar": "وإمكانية ذلك وطريقته تتوقفان على الأداة والإصدار.",
+     "en": "Whether and how this works depends on tool and version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Konzept",
+    "heading": "Backup und Archiv",
+    "items": [
+     "Projektstand regelmäßig sichern",
+     "Programm in der Steuerung ist nicht genug",
+     "Sicherung an zweitem Ort",
+     "Rückspielen üben"
+    ],
+    "terms": [
+     {
+      "de": "das Backup",
+      "ar": "النسخ الاحتياطي",
+      "en": "backup"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Backup ist etwas anderes als Versionsverwaltung.",
+     "ar": "النسخ الاحتياطي يختلف عن إدارة الإصدارات.",
+     "en": "A backup is something different from version control."
+    },
+    {
+     "de": "Es sichert den Projektstand, falls ein Rechner ausfällt.",
+     "ar": "يحفظ حالة المشروع إذا تعطل الحاسوب.",
+     "en": "It secures the project state in case a computer fails."
+    },
+    {
+     "de": "Das Programm in der Steuerung allein reicht oft nicht.",
+     "ar": "وكثيرًا ما لا يكفي البرنامج الموجود في وحدة التحكم وحده.",
+     "en": "The program in the controller alone is often not enough."
+    },
+    {
+     "de": "Denn Namen und Kommentare können dabei verloren gehen, und Sie brauchen das Projekt für Änderungen.",
+     "ar": "فالأسماء والتعليقات قد تضيع، وتحتاجون المشروع لإجراء التعديلات.",
+     "en": "Names and comments can be lost, and you need the project for changes."
+    },
+    {
+     "de": "Bewahren Sie eine Kopie an einem zweiten Ort auf.",
+     "ar": "احتفظوا بنسخة في مكان ثانٍ.",
+     "en": "Keep a copy in a second place."
+    },
+    {
+     "de": "Archivierung und Versionsstände regeln die Werkzeuge unterschiedlich.",
+     "ar": "وتتعامل الأدوات مع الأرشفة والنسخ بطرق مختلفة.",
+     "en": "Tools handle archiving and version states differently."
+    },
+    {
+     "de": "So können Sie nach einem Ausfall schnell weiterarbeiten.",
+     "ar": "وهكذا تستطيعون المتابعة بسرعة بعد أي عطل.",
+     "en": "This way you can continue working quickly after a failure."
+    },
+    {
+     "de": "Ein Backup ohne Test des Zurückspielens gibt nur ein trügerisches Gefühl von Sicherheit.",
+     "ar": "نسخة احتياطية دون تجربة استرجاعها تعطي إحساسًا زائفًا بالأمان.",
+     "en": "A backup without a restore test gives only a false sense of security."
+    },
+    {
+     "de": "Üben Sie das Zurückspielen, bevor es ein Notfall ist, und klären Sie Befugnisse mit dem Betreiber.",
+     "ar": "تدرّبوا على الاسترجاع قبل أن تقع حالة طارئة، واتفقوا على الصلاحيات مع المشغّل.",
+     "en": "Practice restoring before it is an emergency, and clarify authority with the operator."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Freie Alternative",
+    "heading": "OpenPLC",
+    "items": [
+     "Freie Open-Source-Suite",
+     "Editor und Runtime",
+     "Läuft zum Beispiel auf dem Raspberry Pi",
+     "Zum Lernen geeignet, Einsatz prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Open Source",
+      "ar": "مفتوح المصدر",
+      "en": "open source"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt auch freie Alternativen, zum Beispiel OpenPLC.",
+     "ar": "توجد أيضًا بدائل مجانية، مثل مشروع OpenPLC المعروف.",
+     "en": "There are also free alternatives, for example OpenPLC.",
+     "tts": "Es gibt auch freie Alternativen, zum Beispiel Open-Pe-El-Ze."
+    },
+    {
+     "de": "OpenPLC ist eine freie Open-Source-Suite nach IEC 61131-3.",
+     "ar": "مشروع OpenPLC حزمة مفتوحة المصدر ومجانية وفق IEC 61131-3 للغات.",
+     "en": "OpenPLC is a free open-source suite according to IEC 61131-3.",
+     "tts": "Open-Pe-El-Ze ist eine freie Open-Source-Suite nach I-E-Ze sechs eins eins drei eins, Teil drei."
+    },
+    {
+     "de": "Sie besteht aus zwei Teilen, dem Editor und der Runtime.",
+     "ar": "وتتكون من جزأين، المحرر وبيئة التشغيل.",
+     "en": "It consists of two parts, the editor and the runtime."
+    },
+    {
+     "de": "Der Editor läuft auf Ihrem Rechner, dort schreiben Sie das Programm.",
+     "ar": "يعمل المحرر على حاسوبكم، وفيه تكتبون البرنامج.",
+     "en": "The editor runs on your computer, where you write the program."
+    },
+    {
+     "de": "Die Runtime führt es aus, etwa auf einem Raspberry Pi.",
+     "ar": "وتنفذه بيئة التشغيل، مثلًا على لوحة Raspberry Pi الصغيرة.",
+     "en": "The runtime executes it, for example on a Raspberry Pi."
+    },
+    {
+     "de": "Der Quellcode ist öffentlich einsehbar.",
+     "ar": "والشيفرة المصدرية متاحة للاطلاع العام.",
+     "en": "The source code is publicly viewable."
+    },
+    {
+     "de": "Wir sagen nichts über Eignung für Industrieanlagen.",
+     "ar": "ولا نحكم على ملاءمتها للمنشآت الصناعية.",
+     "en": "We say nothing about suitability for industrial plants."
+    },
+    {
+     "de": "Weil sich solche Projekte weiterentwickeln, können sich Funktionen ändern.",
+     "ar": "ولأن مشاريع كهذه تتطور، قد تتغير الوظائف.",
+     "en": "Because such projects keep developing, functions can change."
+    },
+    {
+     "de": "Prüfen Sie Lizenz und aktuellen Stand auf der Projektseite.",
+     "ar": "تحققوا من الترخيص والحالة الراهنة في صفحة المشروع.",
+     "en": "Check license and current status on the project page."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Lernweg",
+    "heading": "Lernen mit Simulatoren",
+    "items": [
+     "Kleine Aufgaben am Rechner üben",
+     "Ampel, Förderband, Tank",
+     "Erst Konzept, dann Werkzeug",
+     "Kein Ersatz für Praxis"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Lernen brauchen Sie nicht sofort eine Anlage.",
+     "ar": "للتعلم لا تحتاجون إلى منشأة فورًا.",
+     "en": "To learn you do not need a plant right away."
+    },
+    {
+     "de": "Beginnen Sie mit kleinen Aufgaben am Rechner.",
+     "ar": "ابدؤوا بمهام صغيرة على الحاسوب.",
+     "en": "Start with small tasks on the computer."
+    },
+    {
+     "de": "Programmieren Sie eine Ampel, ein Förderband oder eine Tanksteuerung.",
+     "ar": "برمجوا إشارة مرور أو سيرًا ناقلًا أو تحكمًا في خزان.",
+     "en": "Program a traffic light, a conveyor belt or a tank control."
+    },
+    {
+     "de": "Testen Sie das Programm in der Simulation.",
+     "ar": "اختبروا البرنامج في المحاكاة.",
+     "en": "Test the program in the simulation."
+    },
+    {
+     "de": "Lernen Sie erst das Konzept und dann die Bedienung eines Werkzeugs.",
+     "ar": "تعلموا المفهوم أولًا ثم طريقة تشغيل الأداة.",
+     "en": "Learn the concept first and then the operation of a tool."
+    },
+    {
+     "de": "Nutzen Sie die offiziellen Hilfen der Hersteller und Lizenzbedingungen für Testversionen.",
+     "ar": "استخدموا مساعدات الشركات الرسمية والتزموا بشروط الترخيص للنسخ التجريبية.",
+     "en": "Use the official help of the manufacturers and mind the license terms of trial versions."
+    },
+    {
+     "de": "Ein Lernprojekt dokumentieren Sie am besten wie ein echtes Projekt.",
+     "ar": "والأفضل أن توثقوا مشروع التعلم كما تفعلون مع مشروع حقيقي.",
+     "en": "You should document a learning project like a real project."
+    },
+    {
+     "de": "Arbeiten Sie die Aufgaben aus dem ersten Video mit eigenen Beispielen durch.",
+     "ar": "أعيدوا العمل على مهام الفيديو الأول بأمثلتكم الخاصة.",
+     "en": "Work through the tasks from the first video with your own examples."
+    },
+    {
+     "de": "Für den Beruf zählt später die Erfahrung an echten Anlagen, unter Anleitung.",
+     "ar": "وفي المهنة تُحسب لاحقًا الخبرة على منشآت حقيقية وتحت التوجيه.",
+     "en": "For the profession, experience on real plants counts later, under guidance."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Fünf Aufgaben eines Engineering-Tools",
+     "Hersteller: eng abgestimmt",
+     "Unabhängig: ein Werkzeug, viele Geräte",
+     "Versionen und Backup sichern Arbeit",
+     "Online ändern nur mit Befugnis"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "Ein Engineering-Tool konfiguriert Hardware, verwaltet Variablen und gliedert Bausteine.",
+     "ar": "تهيّئ أداة الهندسة العتاد، وتدير المتغيرات، وتنظّم الوحدات البرمجية.",
+     "en": "An engineering tool configures hardware, manages variables and structures blocks."
+    },
+    {
+     "de": "Dazu kommen Online-Diagnose und Simulation.",
+     "ar": "ويضاف إلى ذلك التشخيص المباشر والمحاكاة.",
+     "en": "Added to this are online diagnostics and simulation."
+    },
+    {
+     "de": "Es gibt herstellerabhängige und herstellerunabhängige Ansätze.",
+     "ar": "هناك أساليب تابعة للشركة المصنّعة وأخرى مستقلة عنها.",
+     "en": "There are manufacturer-dependent and manufacturer-independent approaches."
+    },
+    {
+     "de": "Die Norm IEC 61131-3 verbindet sie, doch Portierung braucht Prüfung.",
+     "ar": "يربط المعيار IEC 61131-3 بينها، لكن النقل يحتاج إلى فحص.",
+     "en": "The standard IEC 61131-3 connects them, but porting needs checking.",
+     "tts": "Die Norm I-E-Ze sechs eins eins drei eins, Teil drei verbindet sie, doch Portierung braucht Prüfung."
+    },
+    {
+     "de": "Versionsverwaltung und Backup schützen Ihre Arbeit.",
+     "ar": "وإدارة الإصدارات والنسخ الاحتياطي تحميان عملكم.",
+     "en": "Version control and backup protect your work."
+    },
+    {
+     "de": "Und: Änderungen an echten Anlagen gehören in qualifizierte Hände.",
+     "ar": "وتذكروا أن التعديلات على المنشآت الحقيقية تخص أيادي مؤهَّلة.",
+     "en": "And: changes to real plants belong in qualified hands."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Hinweis",
+    "heading": "Wichtiger Hinweis",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Gültige Fassung immer prüfen",
+     "Allgemeine Information",
+     "Keine Rechts- oder Fachberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وفي الختام ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Gesetze und Normen ändern sich, ebenso Programme, Versionen und Lizenzen.",
+     "ar": "تتغير القوانين والمعايير، وكذلك البرامج والإصدارات والتراخيص.",
+     "en": "Laws and standards change, and so do programs, versions and licenses."
+    },
+    {
+     "de": "Prüfen Sie deshalb immer die aktuell gültige Fassung.",
+     "ar": "لذلك تحققوا دائمًا من النسخة السارية حاليًا.",
+     "en": "So always check the currently valid version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ersetzt keine Rechtsberatung und keine Fachberatung.",
+     "ar": "ولا يحل محل الاستشارة القانونية أو الهندسية.",
+     "en": "It does not replace legal advice or engineering advice."
+    },
+    {
+     "de": "Wir zeigen keine Oberfläche eines Programms und sprechen keine Empfehlung aus.",
+     "ar": "لا نعرض واجهة أي برنامج ولا نصدر أي توصية.",
+     "en": "We show no interface of any program and make no recommendation."
+    },
+    {
+     "de": "Im nächsten Video geht es um Netzberechnung mit ETAP, DIgSILENT und pandapower.",
+     "ar": "في الفيديو القادم نتناول حسابات الشبكات الكهربائية.",
+     "en": "The next video is about grid calculation with ETAP, DIgSILENT and pandapower.",
+     "tts": "Im nächsten Video geht es um Netzberechnung mit E-Te-A-Pe, Di-Ig-Silent und Pandapower."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "die Engineering-Software",
+   "ar": "برنامج الهندسة والتطوير",
+   "en": "engineering software"
+  },
+  {
+   "de": "die Programmierumgebung",
+   "ar": "بيئة البرمجة",
+   "en": "programming environment"
+  },
+  {
+   "de": "die Hardwarekonfiguration",
+   "ar": "تهيئة العتاد",
+   "en": "hardware configuration"
+  },
+  {
+   "de": "die Baugruppe",
+   "ar": "الوحدة الملحقة",
+   "en": "module"
+  },
+  {
+   "de": "die Symbolik",
+   "ar": "الترميز الرمزي",
+   "en": "symbolic naming"
+  },
+  {
+   "de": "der Datentyp",
+   "ar": "نوع البيانات",
+   "en": "data type"
+  },
+  {
+   "de": "der Baustein",
+   "ar": "الوحدة البرمجية",
+   "en": "program block"
+  },
+  {
+   "de": "der Funktionsbaustein",
+   "ar": "وحدة الدالة الوظيفية",
+   "en": "function block"
+  },
+  {
+   "de": "die Online-Diagnose",
+   "ar": "التشخيص المباشر",
+   "en": "online diagnostics"
+  },
+  {
+   "de": "die Simulation",
+   "ar": "المحاكاة",
+   "en": "simulation"
+  },
+  {
+   "de": "die Laufzeitumgebung",
+   "ar": "بيئة التشغيل",
+   "en": "runtime"
+  },
+  {
+   "de": "herstellerunabhängig",
+   "ar": "مستقل عن الشركة المصنّعة",
+   "en": "vendor-independent"
+  },
+  {
+   "de": "die Versionsverwaltung",
+   "ar": "إدارة الإصدارات",
+   "en": "version control"
+  },
+  {
+   "de": "das Backup",
+   "ar": "النسخ الاحتياطي",
+   "en": "backup"
+  },
+  {
+   "de": "die Portierbarkeit",
+   "ar": "قابلية النقل بين الأدوات",
+   "en": "portability"
+  },
+  {
+   "de": "die Inbetriebnahme",
+   "ar": "التشغيل التجريبي",
+   "en": "commissioning"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was ist keine Kernaufgabe eines Engineering-Tools?",
+    "ar": "ما الذي ليس مهمة أساسية لأداة الهندسة؟",
+    "en": "What is not a core task of an engineering tool?"
+   },
+   "options": [
+    {
+     "de": "Hardware konfigurieren",
+     "ar": "تهيئة العتاد",
+     "en": "Configure hardware"
+    },
+    {
+     "de": "Netzentgelte berechnen",
+     "ar": "احتساب رسوم الشبكة",
+     "en": "Calculate grid fees"
+    },
+    {
+     "de": "Variablen verwalten",
+     "ar": "إدارة المتغيرات",
+     "en": "Manage variables"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was bedeutet Symbolik bei Variablen?",
+    "ar": "ماذا يعني الترميز الرمزي للمتغيرات؟",
+    "en": "What does symbolic naming of variables mean?"
+   },
+   "options": [
+    {
+     "de": "Namen statt reiner Adressen",
+     "ar": "أسماء بدل العناوين المجردة",
+     "en": "Names instead of plain addresses"
+    },
+    {
+     "de": "Verschlüsselte Programme",
+     "ar": "برامج مشفّرة",
+     "en": "Encrypted programs"
+    },
+    {
+     "de": "Nur Grafiken",
+     "ar": "رسومات فقط",
+     "en": "Graphics only"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was gilt für Änderungen an einer laufenden Anlage?",
+    "ar": "ماذا ينطبق على التعديلات في منشأة قيد التشغيل؟",
+    "en": "What applies to changes at a running plant?"
+   },
+   "options": [
+    {
+     "de": "Jeder darf sie ausprobieren",
+     "ar": "يجوز لأي شخص تجربتها",
+     "en": "Anyone may try them"
+    },
+    {
+     "de": "Sie sind immer ungefährlich",
+     "ar": "هي دائمًا آمنة",
+     "en": "They are always harmless"
+    },
+    {
+     "de": "Nur qualifizierte Personen mit Befugnis",
+     "ar": "فقط أشخاص مؤهلون لديهم تفويض",
+     "en": "Only qualified people with authorization"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was heißt herstellerunabhängig bei CODESYS?",
+    "ar": "ماذا يعني الاستقلال عن الشركة المصنّعة في CODESYS؟",
+    "en": "What does vendor-independent mean for CODESYS?"
+   },
+   "options": [
+    {
+     "de": "Jedes Gerät ist programmierbar",
+     "ar": "كل جهاز قابل للبرمجة",
+     "en": "Every device is programmable"
+    },
+    {
+     "de": "Das Werkzeug kommt von einer Softwarefirma",
+     "ar": "الأداة تأتي من شركة برمجيات",
+     "en": "The tool comes from a software company"
+    },
+    {
+     "de": "Es braucht nie eine Laufzeit",
+     "ar": "لا تحتاج أبدًا إلى بيئة تشغيل",
+     "en": "It never needs a runtime"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was leistet eine Simulation nicht?",
+    "ar": "ما الذي لا تحققه المحاكاة؟",
+    "en": "What does a simulation not do?"
+   },
+   "options": [
+    {
+     "de": "Logik früh prüfen",
+     "ar": "فحص المنطق مبكرًا",
+     "en": "Check logic early"
+    },
+    {
+     "de": "Fehler ohne Gefahr finden",
+     "ar": "إيجاد الأخطاء دون خطر",
+     "en": "Find errors without danger"
+    },
+    {
+     "de": "Die Inbetriebnahme ersetzen",
+     "ar": "أن تحل محل التشغيل التجريبي",
+     "en": "Replace commissioning"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video: Netzberechnung mit ETAP, DIgSILENT und pandapower.",
+  "ar": "في الفيديو القادم: حسابات الشبكات الكهربائية بالبرامج المتخصصة.",
+  "en": "Next video: grid calculation with ETAP, DIgSILENT and pandapower."
+ },
+ "stand": "2026-10-21; prüfen: IEC 61131-3 Ausgabe 2025 (EN IEC 61131-3:2025) und Status AWL; IEC 61131-10 (PLCopen XML, Ausgabe 2019); Selbstbeschreibung CODESYS Group (herstellerunabhängig); TIA-Portal-Hilfe zur Simulation (V20) und Multiuser/VCI-Funktionen (Sekundärquellen); CODESYS SVN; OpenPLC (Editor, Runtime, Lizenz, Plattformen nur sekundär 2022); DGUV Vorschrift 3 und fünf Sicherheitsregeln gegen DIN VDE 0105-100; BSI-Empfehlung Fernwartung; entfernt: Marktanteile, Preise, Lizenz-/Testzeiten, Geräte-/Herstellerzahlen, Versionsnummern, Menü-/Oberflächenbeschreibungen"
+}

@@ -1,0 +1,1533 @@
+{
+ "id": "S-06",
+ "title": {
+  "de": "CAD für elektrische Steuerungsplanung",
+  "ar": "برامج CAD لتخطيط أنظمة التحكم الكهربائية",
+  "en": "CAD for electrical control planning"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "S-06 · Software",
+    "heading": "CAD für die Steuerungsplanung",
+    "items": [
+     "Zeichnen oder Planen mit Daten",
+     "Layer, Blöcke, Attribute",
+     "DXF, DWG und IEC 60617"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum letzten Video der Software-Reihe.",
+     "ar": "أهلًا بكم في الفيديو الأخير من سلسلة البرامج.",
+     "en": "Welcome to the last video of the software series."
+    },
+    {
+     "de": "Heute geht es um CAD für die Planung elektrischer Steuerungen.",
+     "ar": "موضوعنا اليوم هو برامج الرسم والتصميم (CAD) في تخطيط أنظمة التحكم الكهربائية.",
+     "en": "Today is about CAD for planning electrical controls.",
+     "tts": "Heute geht es um Ze-A-De für die Planung elektrischer Steuerungen."
+    },
+    {
+     "de": "Wir zeigen keine Programmoberfläche und keine Werbung.",
+     "ar": "لن نعرض واجهة أي برنامج ولن نقدّم أي دعاية.",
+     "en": "We show no program interface and no advertising."
+    },
+    {
+     "de": "Wir erklären nur Konzepte, mit eigenen Beispielen.",
+     "ar": "نشرح المفاهيم فقط، بأمثلة من إعدادنا.",
+     "en": "We explain concepts only, with our own examples."
+    },
+    {
+     "de": "Am Ende wissen Sie, wann welcher Ansatz zu Ihrer Aufgabe passt.",
+     "ar": "وفي النهاية ستعرفون متى يناسب كل أسلوب مهمتكم.",
+     "en": "At the end you know when which approach fits your task."
+    },
+    {
+     "de": "Die Reihe war eine Auswahl, und jeder wählt den passenden Weg.",
+     "ar": "كانت السلسلة اختيارًا، ويختار كل مهندس الطريق المناسب له.",
+     "en": "The series was a selection, and everyone chooses the fitting path."
+    },
+    {
+     "de": "Das Video davor war S-05. Das Thema Ansätze kennen Sie aus S-01.",
+     "ar": "الفيديو السابق في السلسلة هو S-05، وقد تعرفتم على أسلوب آخر في الفيديو S-01 الأول.",
+     "en": "The video before was S-05. You know the topic of approaches from S-01.",
+     "tts": "Das Video davor war Es null fünf. Das Thema Ansätze kennen Sie aus Es null eins."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Zwei Arten von Werkzeugen",
+    "heading": "Zeichnen oder Planen",
+    "items": [
+     "Allgemeines CAD | Geometrie: Linien, Kreise, Text",
+     "Elektro-CAD | Symbole mit Daten und Logik",
+     "Verdrahtung | Nur Linien oder echte Verbindungen",
+     "Ergebnis | Zeichnung oder Datenmodell",
+     "Auswertung | Von Hand oder automatisch"
+    ],
+    "terms": [
+     {
+      "de": "Schaltplan",
+      "ar": "مخطط الدارات",
+      "en": "circuit diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Allgemeines CAD erzeugt vor allem Geometrie.",
+     "ar": "يُنتج برنامج الرسم العام الأشكال الهندسية في المقام الأول.",
+     "en": "General CAD mainly creates geometry.",
+     "tts": "Allgemeines Ze-A-De erzeugt vor allem Geometrie."
+    },
+    {
+     "de": "Es kennt Linien, Kreise und Text, aber keine Schaltung.",
+     "ar": "يعرف الخطوط والدوائر والنصوص، لكنه لا يعرف الدارة.",
+     "en": "It knows lines, circles and text, but no circuit."
+    },
+    {
+     "de": "Elektro-CAD arbeitet dagegen auf Datenbasis.",
+     "ar": "أما برنامج الرسم الكهربائي (E-CAD) فيعمل على أساس البيانات.",
+     "en": "Electrical CAD, in contrast, works on a data basis.",
+     "tts": "Elektro-Ze-A-De arbeitet dagegen auf Datenbasis."
+    },
+    {
+     "de": "Ein Symbol ist dort ein Bauteil mit Eigenschaften.",
+     "ar": "الرمز هناك هو مكوّن له خصائص.",
+     "en": "A symbol there is a component with properties."
+    },
+    {
+     "de": "Aus dem Plan entstehen dann Listen, ohne dass Sie jede Zeile tippen.",
+     "ar": "ومن المخطط تُنتَج قوائم دون أن تكتبوا كل سطر بأنفسكم.",
+     "en": "Lists then come from the plan without typing every line."
+    },
+    {
+     "de": "Im reinen Zeichenprogramm sind das nur Striche und Beschriftungen.",
+     "ar": "في برنامج الرسم الخالص ليست هذه سوى خطوط وكتابات.",
+     "en": "In a pure drawing program these are only strokes and labels."
+    },
+    {
+     "de": "Ein Beispiel ist ein Motorstart mit Schutzschalter, Schütz und Motor.",
+     "ar": "مثال على ذلك تشغيل محرك بقاطع حماية وكونتاكتور ومحرك.",
+     "en": "One example is a motor start with a protective switch, contactor and motor."
+    },
+    {
+     "de": "Für die Planung von Steuerungen ist dieser Unterschied entscheidend.",
+     "ar": "هذا الفرق حاسم في تخطيط أنظمة التحكم.",
+     "en": "For planning controls this difference is decisive."
+    },
+    {
+     "de": "Das ist der Kern dieses Videos.",
+     "ar": "هذا هو جوهر هذا الفيديو.",
+     "en": "That is the core of this video."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Allgemeines CAD",
+    "heading": "Layer: Ordnung in der Zeichnung",
+    "items": [
+     "Layer sortieren Objekte in Gruppen",
+     "Farbe und Linientyp können vom Layer kommen",
+     "Layer lassen sich ausblenden",
+     "Ordnung ist Disziplin, kein Automatismus"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beginnen wir mit Grundlagen, die in jedem CAD-Programm vorkommen.",
+     "ar": "نبدأ بأساسيات تجدونها في كل برنامج CAD مهما كان.",
+     "en": "We start with basics found in every CAD program.",
+     "tts": "Beginnen wir mit Grundlagen, die in jedem Ze-A-De-Programm vorkommen."
+    },
+    {
+     "de": "Das erste Konzept ist der Layer, auf Deutsch die Ebene.",
+     "ar": "المفهوم الأول هو الـ Layer، أي الطبقة بالعربية.",
+     "en": "The first concept is the layer."
+    },
+    {
+     "de": "Ein Layer ordnet Objekte in Gruppen, zum Beispiel Leitungen oder Text.",
+     "ar": "تنظّم الطبقة العناصر في مجموعات، مثل الخطوط أو النصوص.",
+     "en": "A layer sorts objects into groups, for example lines or text."
+    },
+    {
+     "de": "Eigenschaften wie Farbe und Linientyp können vom Layer übernommen werden.",
+     "ar": "يمكن أن تُؤخذ خصائص مثل اللون ونوع الخط من الطبقة.",
+     "en": "Properties like color and line type can be taken from the layer."
+    },
+    {
+     "de": "Außerdem lassen sich Layer ausblenden, wenn die Zeichnung zu voll wird.",
+     "ar": "ويمكن أيضًا إخفاء الطبقات عندما يزدحم الرسم.",
+     "en": "Layers can also be hidden when the drawing gets too full."
+    },
+    {
+     "de": "Diese Regeln sollten im Team gleich sein, sonst wird der Austausch mühsam.",
+     "ar": "ينبغي أن تكون هذه القواعد موحدة في الفريق، وإلا صار التبادل مرهقًا.",
+     "en": "These rules should be the same in the team, otherwise exchange becomes tiring."
+    },
+    {
+     "de": "Viele Teams legen dafür eigene Layer-Regeln fest.",
+     "ar": "كثير من الفرق تضع قواعدها الخاصة للطبقات.",
+     "en": "Many teams set their own layer rules for this."
+    },
+    {
+     "de": "Im reinen CAD sagt ein Layer aber nichts über die Technik aus.",
+     "ar": "لكن الطبقة في الرسم العام لا تقول شيئًا عن الجانب التقني.",
+     "en": "In pure CAD, however, a layer says nothing about the technology.",
+     "tts": "Im reinen Ze-A-De sagt ein Layer aber nichts über die Technik aus."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Allgemeines CAD",
+    "heading": "Blöcke und Attribute",
+    "items": [
+     "Block: wiederverwendbare Gruppe von Objekten",
+     "Attribut: Datenfeld am Block",
+     "Beispiele: Teilenummer, Kommentar",
+     "Attribute können unsichtbar sein"
+    ],
+    "terms": [
+     {
+      "de": "Block",
+      "ar": "كتلة",
+      "en": "block"
+     },
+     {
+      "de": "Attribut",
+      "ar": "سمة",
+      "en": "attribute"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das zweite Konzept ist der Block.",
+     "ar": "المفهوم الثاني هو الـ Block، أي الكتلة.",
+     "en": "The second concept is the block."
+    },
+    {
+     "de": "Ein Block fasst mehrere Objekte zu einer wiederverwendbaren Einheit zusammen.",
+     "ar": "تجمع الكتلة عدة عناصر في وحدة قابلة لإعادة الاستخدام.",
+     "en": "A block combines several objects into one reusable unit."
+    },
+    {
+     "de": "Das dritte Konzept ist das Attribut.",
+     "ar": "المفهوم الثالث هو الـ Attribute، أي السمة.",
+     "en": "The third concept is the attribute."
+    },
+    {
+     "de": "Ein Attribut hängt ein Datenfeld an einen Block.",
+     "ar": "تُلحِق السمة حقل بيانات بالكتلة.",
+     "en": "An attribute attaches a data field to a block."
+    },
+    {
+     "de": "Typische Beispiele sind eine Teilenummer oder ein Kommentar.",
+     "ar": "من الأمثلة المعتادة رقم القطعة أو تعليق.",
+     "en": "Typical examples are a part number or a comment."
+    },
+    {
+     "de": "Ein Block kann mehrere Attribute tragen, jedes mit einem eigenen Namen.",
+     "ar": "يمكن أن تحمل الكتلة عدة سمات، لكل منها اسمها.",
+     "en": "A block can carry several attributes, each with its own name."
+    },
+    {
+     "de": "Ein unsichtbares Attribut ist nützlich, weil nicht jede Angabe im Plan stehen soll.",
+     "ar": "السمة غير المرئية مفيدة، لأن ليس كل بيان ينبغي أن يظهر في المخطط.",
+     "en": "An invisible attribute is useful, because not every detail should appear in the plan."
+    },
+    {
+     "de": "Wer Blöcke sauber nutzt, hat weniger Arbeit und weniger Fehler.",
+     "ar": "من يستخدم الكتل بشكل منظم يقلّ عمله وتقلّ أخطاؤه.",
+     "en": "Whoever uses blocks cleanly has less work and fewer errors."
+    },
+    {
+     "de": "Manche Attribute sind unsichtbar, die Daten sind trotzdem da.",
+     "ar": "بعض السمات غير مرئية، لكن بياناتها موجودة مع ذلك.",
+     "en": "Some attributes are invisible, but the data is still there."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Vom CAD zum Elektro-CAD",
+    "heading": "Was ein Elektro-Symbol ist",
+    "items": [
+     "Block: die Form des Schaltzeichens",
+     "Attribute: Kennzeichen, Typ, Hersteller",
+     "Anschlusspunkte: hier darf eine Leitung enden",
+     "Regeln: das Programm kennt die Zusammenhänge"
+    ],
+    "terms": [
+     {
+      "de": "Schaltzeichen",
+      "ar": "رمز كهربائي",
+      "en": "graphical symbol"
+     },
+     {
+      "de": "Betriebsmittel",
+      "ar": "معدات كهربائية",
+      "en": "electrical equipment"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Elektro-Symbol baut auf genau diesen Konzepten auf.",
+     "ar": "يعتمد الرمز الكهربائي على هذه المفاهيم نفسها.",
+     "en": "An electrical symbol builds on exactly these concepts."
+    },
+    {
+     "de": "Die Form des Schaltzeichens ist ein Block.",
+     "ar": "شكل الرمز الكهربائي هو كتلة.",
+     "en": "The shape of the graphical symbol is a block."
+    },
+    {
+     "de": "Kennzeichen, Typ und Hersteller sind Attribute.",
+     "ar": "الترميز والنوع والمُصنِّع هي سمات.",
+     "en": "Designation, type and manufacturer are attributes."
+    },
+    {
+     "de": "Dazu kommen Anschlusspunkte, an denen eine Leitung enden darf.",
+     "ar": "وتُضاف نقاط توصيل يمكن أن ينتهي عندها الخط.",
+     "en": "Then come connection points where a line may end."
+    },
+    {
+     "de": "Das Programm kennt dadurch, was mit was verbunden ist.",
+     "ar": "وهكذا يعرف البرنامج ما المتصل بماذا.",
+     "en": "The program thus knows what is connected to what."
+    },
+    {
+     "de": "Es hat Daten, Anschlüsse und einen Platz in den Auswertungen.",
+     "ar": "له بيانات ونقاط توصيل ومكان في التقارير.",
+     "en": "It has data, connections and a place in the evaluations."
+    },
+    {
+     "de": "Ein Schütz ist also nicht nur ein Rechteck mit einem Namen.",
+     "ar": "فالكونتاكتور إذن ليس مجرد مستطيل له اسم.",
+     "en": "A contactor is therefore not just a rectangle with a name."
+    },
+    {
+     "de": "Die Zeichnung wird zum Datenmodell.",
+     "ar": "يتحول الرسم إلى نموذج بيانات.",
+     "en": "The drawing becomes a data model."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Bauteildaten",
+    "heading": "Katalog und Bauteildatenbank",
+    "items": [
+     "Typ wählen statt Daten tippen",
+     "Hersteller-Artikel aus einer Datenbank",
+     "Projektspezifische Kataloge sind möglich",
+     "Gepflegte Daten sind der Wert"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wichtig sind die Bauteildaten.",
+     "ar": "المهم هو بيانات المكوّنات.",
+     "en": "The component data matters."
+    },
+    {
+     "de": "Statt jeden Wert zu tippen, wählen Sie einen Artikel aus einem Katalog.",
+     "ar": "بدلًا من كتابة كل قيمة، تختارون قطعة من كتالوج.",
+     "en": "Instead of typing every value, you choose an article from a catalog."
+    },
+    {
+     "de": "Solche Elektro-Programme können dafür eine Datenbank nutzen.",
+     "ar": "يمكن لهذه البرامج الكهربائية استخدام قاعدة بيانات لذلك.",
+     "en": "Such electrical programs can use a database for this."
+    },
+    {
+     "de": "Manche erlauben auch einen eigenen Katalog pro Projekt.",
+     "ar": "وبعضها يسمح أيضًا بكتالوج خاص بكل مشروع.",
+     "en": "Some also allow a catalog of its own per project."
+    },
+    {
+     "de": "Der Wert liegt in sauber gepflegten Daten.",
+     "ar": "القيمة تكمن في بيانات مُدارة بعناية.",
+     "en": "The value lies in cleanly maintained data."
+    },
+    {
+     "de": "Wer die Daten selbst pflegt, sollte feste Regeln dafür aufstellen.",
+     "ar": "من يدير البيانات بنفسه ينبغي أن يضع لها قواعد ثابتة.",
+     "en": "Whoever maintains the data himself should set fixed rules for it."
+    },
+    {
+     "de": "Sie enthalten oft Typ, Hersteller und Artikelnummer.",
+     "ar": "وهي تتضمن غالبًا النوع والمُصنِّع ورقم القطعة.",
+     "en": "They often contain type, manufacturer and article number."
+    },
+    {
+     "de": "Gute Bauteildaten sparen Zeit bei Einkauf und Fertigung.",
+     "ar": "بيانات المكوّنات الجيدة توفّر الوقت في الشراء والتصنيع.",
+     "en": "Good component data saves time in purchasing and production."
+    },
+    {
+     "de": "Schlechte Daten erzeugen schlechte Listen, auch bei bester Software.",
+     "ar": "البيانات السيئة تنتج قوائم سيئة، حتى مع أفضل برنامج.",
+     "en": "Bad data creates bad lists, even with the best software."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Verdrahtungslogik",
+    "heading": "Leitungen mit Bedeutung",
+    "items": [
+     "Eine Leitung verbindet Anschlusspunkte",
+     "Das Programm kann Leitungen nummerieren",
+     "Nummern projektweit vergeben",
+     "Kennzeichnungsformat festlegen"
+    ],
+    "terms": [
+     {
+      "de": "Querverweis",
+      "ar": "إحالة مرجعية",
+      "en": "cross-reference"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Verdrahtungslogik.",
+     "ar": "ننتقل الآن إلى منطق التوصيل.",
+     "en": "Now to the wiring logic."
+    },
+    {
+     "de": "Im Elektro-CAD ist eine Leitung mehr als eine Linie.",
+     "ar": "الخط في E-CAD أكثر من مجرد خط.",
+     "en": "In electrical CAD, a line is more than a line.",
+     "tts": "Im Elektro-Ze-A-De ist eine Leitung mehr als eine Linie."
+    },
+    {
+     "de": "Sie verbindet zwei Anschlusspunkte, und das Programm weiß das.",
+     "ar": "يصل بين نقطتي توصيل، والبرنامج يعرف ذلك.",
+     "en": "It connects two connection points, and the program knows it."
+    },
+    {
+     "de": "Darum kann es Leitungen automatisch nummerieren, auch über das ganze Projekt.",
+     "ar": "لذلك يمكنه ترقيم الخطوط تلقائيًا، وعلى مستوى المشروع كله.",
+     "en": "So it can number lines automatically, even across the whole project."
+    },
+    {
+     "de": "Auch das Format der Bauteilkennzeichen wird festgelegt, etwa aus Blattnummer und Zähler.",
+     "ar": "كما يُحدَّد شكل ترميز المكوّنات، مثلًا من رقم الورقة ورقم تسلسلي.",
+     "en": "The format of component designations is also set, for example from sheet number and counter."
+    },
+    {
+     "de": "Die Regeln legen Sie selbst fest, meist im Projekt.",
+     "ar": "القواعد تحددونها بأنفسكم، وغالبًا ضمن المشروع.",
+     "en": "You set the rules yourself, usually in the project."
+    },
+    {
+     "de": "Jede Verbindung dort bekommt eine Nummer, und die Nummer erscheint in den Listen.",
+     "ar": "كل وصلة هناك تأخذ رقمًا، ويظهر الرقم في القوائم.",
+     "en": "Each connection there gets a number, and the number appears in the lists."
+    },
+    {
+     "de": "Stellen Sie sich einen Motorstart vor, mit Schutzschalter, Schütz und Motor.",
+     "ar": "تخيّلوا تشغيل محرك بقاطع حماية وكونتاكتور ومحرك.",
+     "en": "Imagine a motor start with protective switch, contactor and motor."
+    },
+    {
+     "de": "So entsteht ein Zusammenhang, den eine reine Zeichnung nicht kennt.",
+     "ar": "وهكذا ينشأ ترابط لا يعرفه الرسم الخالص.",
+     "en": "This creates a connection that a pure drawing does not know."
+    },
+    {
+     "de": "Ein sauberes Regelwerk spart später viel Korrektur.",
+     "ar": "وجود قواعد منظّمة يوفّر الكثير من التصحيح لاحقًا.",
+     "en": "Clean rules save a lot of correction later."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Automatische Auswertungen",
+    "heading": "Was aus dem Plan entsteht",
+    "items": [
+     "Stückliste: Bauteile mit Typ und Anzahl",
+     "Klemmenplan: Belegung der Klemmen",
+     "Querverweise: Spule und Kontakte finden",
+     "Verdrahtungsliste: Quelle und Ziel"
+    ],
+    "terms": [
+     {
+      "de": "Klemmenplan",
+      "ar": "مخطط الأطراف",
+      "en": "terminal diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommt der Nutzen für den Alltag.",
+     "ar": "والآن تأتي الفائدة في العمل اليومي.",
+     "en": "Now comes the benefit in daily work."
+    },
+    {
+     "de": "Aus dem Datenmodell entstehen Auswertungen automatisch.",
+     "ar": "من نموذج البيانات تنتج التقارير تلقائيًا.",
+     "en": "Evaluations come from the data model automatically."
+    },
+    {
+     "de": "Typisch sind die Stückliste und der Klemmenplan.",
+     "ar": "النموذجي هو قائمة المواد ومخطط الأطراف.",
+     "en": "Typical are the parts list and the terminal diagram."
+    },
+    {
+     "de": "Dazu kommen Querverweise, die eine Spule mit ihren Kontakten verbinden.",
+     "ar": "وتُضاف الإحالات المرجعية التي تربط الملف بملامساته.",
+     "en": "Then come cross-references that link a coil with its contacts."
+    },
+    {
+     "de": "Auch eine Verdrahtungsliste mit Quelle und Ziel ist üblich.",
+     "ar": "وقائمة التوصيل بالمصدر والوجهة شائعة أيضًا.",
+     "en": "A wiring list with source and target is also common."
+    },
+    {
+     "de": "Die Querverweise helfen später bei der Fehlersuche.",
+     "ar": "والإحالات المرجعية تفيد لاحقًا في البحث عن الأعطال.",
+     "en": "The cross-references help later in fault finding."
+    },
+    {
+     "de": "Der Klemmenplan hilft dem Bau der Schaltschränke.",
+     "ar": "مخطط الأطراف يفيد في بناء خزائن التوزيع والتحكم.",
+     "en": "The terminal diagram helps in building the control cabinets."
+    },
+    {
+     "de": "Die Stückliste hilft dem Einkauf.",
+     "ar": "قائمة المواد تفيد قسم الشراء.",
+     "en": "The parts list helps purchasing."
+    },
+    {
+     "de": "Alle drei Listen kommen aus demselben Datenmodell.",
+     "ar": "القوائم الثلاث كلها تأتي من نموذج البيانات نفسه.",
+     "en": "All three lists come from the same data model."
+    },
+    {
+     "de": "Ändern Sie den Plan, ändern sich die Listen mit.",
+     "ar": "إذا غيّرتم المخطط تتغير القوائم معه.",
+     "en": "If you change the plan, the lists change with it."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Grenzen",
+    "heading": "Automatik ersetzt keine Prüfung",
+    "items": [
+     "Daten | Fehler in den Daten bleiben Fehler",
+     "Regeln | Falsche Regeln, falsche Nummern",
+     "Norm | Das Programm kennt nicht Ihre Vorgaben",
+     "Prüfung | Ein Mensch prüft Plan und Listen",
+     "Verantwortung | Bleibt bei den Fachleuten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Automatik hat Grenzen.",
+     "ar": "للأتمتة حدود.",
+     "en": "Automation has limits."
+    },
+    {
+     "de": "Falsche Daten führen zu falschen Listen.",
+     "ar": "البيانات الخاطئة تقود إلى قوائم خاطئة.",
+     "en": "Wrong data leads to wrong lists."
+    },
+    {
+     "de": "Falsche Regeln führen zu falschen Nummern.",
+     "ar": "والقواعد الخاطئة تقود إلى أرقام خاطئة.",
+     "en": "Wrong rules lead to wrong numbers."
+    },
+    {
+     "de": "Das Programm kennt nicht automatisch die Vorgaben Ihres Kunden.",
+     "ar": "لا يعرف البرنامج تلقائيًا متطلبات عميلكم.",
+     "en": "The program does not automatically know your customer's requirements."
+    },
+    {
+     "de": "Darum prüft immer ein Mensch den Plan und die Listen.",
+     "ar": "لذلك يراجع إنسان دائمًا المخطط والقوائم.",
+     "en": "So a person always checks the plan and the lists."
+    },
+    {
+     "de": "Ein Bauteil ohne Typ kann die Stückliste unvollständig machen.",
+     "ar": "مكوّن بلا نوع قد يجعل قائمة المواد ناقصة.",
+     "en": "A component without a type can make the parts list incomplete."
+    },
+    {
+     "de": "Prüfen Sie auch, ob alle Bauteile einen Typ aus dem Katalog haben.",
+     "ar": "تحققوا أيضًا من أن لكل مكوّن نوعًا من الكتالوج.",
+     "en": "Also check whether all components have a type from the catalog."
+    },
+    {
+     "de": "Hier liegt der Unterschied zwischen einem Werkzeug und einer Arbeitsweise.",
+     "ar": "هنا الفرق بين أداة وأسلوب عمل.",
+     "en": "Here lies the difference between a tool and a way of working."
+    },
+    {
+     "de": "Die Verantwortung bleibt bei den Fachleuten im Projekt.",
+     "ar": "وتبقى المسؤولية على المختصين في المشروع.",
+     "en": "The responsibility stays with the specialists in the project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Normsymbole",
+    "heading": "Schaltzeichen und IEC 60617",
+    "items": [
+     "Schaltzeichen sind genormt",
+     "IEC 60617 liegt als Datenbank vor",
+     "Zugang per Abonnement",
+     "Wir zeigen keine Symbole aus der Norm"
+    ],
+    "terms": [
+     {
+      "de": "Normen",
+      "ar": "المعايير",
+      "en": "standards"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Schaltzeichen sind genormt, damit alle sie gleich lesen.",
+     "ar": "الرموز الكهربائية موحَّدة كي يقرأها الجميع بالطريقة نفسها.",
+     "en": "Graphical symbols are standardized so that everyone reads them the same way."
+    },
+    {
+     "de": "Die Reihe IEC 60617 gibt es als Online-Datenbank.",
+     "ar": "سلسلة IEC 60617 متوفرة كقاعدة بيانات على الإنترنت.",
+     "en": "The series IEC 60617 exists as an online database.",
+     "tts": "Die Reihe I-E-Ze sechs null sechs eins sieben gibt es als Online-Datenbank."
+    },
+    {
+     "de": "Sie enthält die Teile zwei bis dreizehn mit etwa tausendneunhundert Symbolen.",
+     "ar": "تضم الأجزاء من 2 إلى 13 مع نحو 1900 رمز.",
+     "en": "It contains parts two to thirteen with about nineteen hundred symbols."
+    },
+    {
+     "de": "Der Zugang läuft über ein Abonnement des Herausgebers.",
+     "ar": "الوصول يتم عبر اشتراك لدى الناشر.",
+     "en": "Access runs through a subscription from the publisher."
+    },
+    {
+     "de": "Im Alltag heißt die deutsche Fassung oft DIN EN 60617.",
+     "ar": "وفي العمل اليومي تُسمّى النسخة الألمانية غالبًا DIN EN 60617 في الشركات.",
+     "en": "In daily work, the German version is often called DIN EN 60617.",
+     "tts": "Im Alltag heißt die deutsche Fassung oft Din E-En sechs null sechs eins sieben."
+    },
+    {
+     "de": "Wir zeigen hier keine Symbole aus der Norm.",
+     "ar": "لن نعرض هنا رموزًا من المعيار.",
+     "en": "We show no symbols from the standard here."
+    },
+    {
+     "de": "Fragen Sie, welche Ausgabe Ihr Kunde verlangt.",
+     "ar": "اسألوا أي إصدار يطلبه عميلكم.",
+     "en": "Ask which edition your customer requires."
+    },
+    {
+     "de": "Datenbank bedeutet hier eine Sammlung, die der Herausgeber pflegt.",
+     "ar": "قاعدة البيانات هنا هي مجموعة يتولى الناشر تحديثها.",
+     "en": "Database here means a collection maintained by the publisher."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Ausgabe.",
+     "ar": "تحققوا دائمًا من الإصدار الحالي.",
+     "en": "Always check the current edition."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Dokumentstruktur",
+    "heading": "Kennzeichnung und Planregeln",
+    "items": [
+     "IEC 61082-1: Regeln für Dokumente",
+     "IEC 81346: Referenzkennzeichnung",
+     "Die Kennzeichnung führt durch die Dokumente",
+     "Mehr dazu in E-F06"
+    ],
+    "terms": [
+     {
+      "de": "Referenzkennzeichnung",
+      "ar": "ترميز مرجعي",
+      "en": "reference designation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein CAD-Programm erzwingt keine Norm von allein.",
+     "ar": "برنامج CAD لا يفرض معيارًا من تلقاء نفسه.",
+     "en": "A CAD program does not enforce a standard on its own.",
+     "tts": "Ein Ze-A-De-Programm erzwingt keine Norm von allein."
+    },
+    {
+     "de": "Die Regeln für Dokumente stehen in DIN EN 61082-1.",
+     "ar": "قواعد الوثائق مذكورة في DIN EN 61082-1 بالتفصيل.",
+     "en": "The rules for documents are in DIN EN 61082-1.",
+     "tts": "Die Regeln für Dokumente stehen in Din E-En sechs eins null acht zwei Strich eins."
+    },
+    {
+     "de": "Die Referenzkennzeichnung folgt der Reihe IEC 81346.",
+     "ar": "يتبع ترميز المرجع سلسلة IEC 81346 أيضًا.",
+     "en": "Reference designation follows the series IEC 81346.",
+     "tts": "Die Referenzkennzeichnung folgt der Reihe I-E-Ze acht eins drei vier sechs."
+    },
+    {
+     "de": "Die Kennzeichnung am Bauteil führt Sie durch alle Dokumente.",
+     "ar": "ترميز المكوّن يقودكم عبر جميع الوثائق.",
+     "en": "The designation on the component leads you through all documents."
+    },
+    {
+     "de": "Im Elektro-CAD wird sie zu einem Attribut.",
+     "ar": "وفي E-CAD تصبح سمة.",
+     "en": "In electrical CAD it becomes an attribute.",
+     "tts": "Im Elektro-Ze-A-De wird sie zu einem Attribut."
+    },
+    {
+     "de": "Das gilt für jedes Werkzeug, ob mit CAD-Basis oder ohne.",
+     "ar": "وهذا ينطبق على كل أداة، سواء قامت على CAD أم لا.",
+     "en": "This applies to every tool, with a CAD base or without.",
+     "tts": "Das gilt für jedes Werkzeug, ob mit Ze-A-De-Basis oder ohne."
+    },
+    {
+     "de": "Schreiben Sie vor dem Projekt Kennzeichnung und Layer-Regeln auf.",
+     "ar": "دوّنوا قواعد الترميز والطبقات قبل بدء المشروع.",
+     "en": "Before the project, write down designation and layer rules."
+    },
+    {
+     "de": "Mehr dazu finden Sie im Video E-F06.",
+     "ar": "ستجدون المزيد في الفيديو E-F06 من هذه السلسلة.",
+     "en": "You find more in the video E-F06.",
+     "tts": "Mehr dazu finden Sie im Video E Eff null sechs."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Datenübernahme",
+    "heading": "DXF und DWG im Vergleich",
+    "items": [
+     "DXF | Austauschformat mit Datenpaaren",
+     "DXF | Als Text oder binär",
+     "DWG | Eigenes Format von Autodesk",
+     "DWG | Spezifikation nicht von Autodesk",
+     "Praxis | Eigene Dateien immer testen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zeichnungen wandern oft zwischen Programmen.",
+     "ar": "تنتقل الرسومات كثيرًا بين البرامج.",
+     "en": "Drawings often move between programs."
+    },
+    {
+     "de": "Dafür gibt es zwei bekannte Formate: DXF und DWG.",
+     "ar": "لذلك يوجد صيغتان معروفتان هما DXF وDWG معًا.",
+     "en": "There are two well-known formats for this: DXF and DWG.",
+     "tts": "Dafür gibt es zwei bekannte Formate: De-Iks-Eff und De-We-Ge."
+    },
+    {
+     "de": "DXF speichert die Zeichnung als Datenpaare, entweder als Text oder binär.",
+     "ar": "يخزّن DXF الرسم كأزواج بيانات، إما نصيًا أو ثنائيًا.",
+     "en": "DXF stores the drawing as data pairs, either as text or binary.",
+     "tts": "De-Iks-Eff speichert die Zeichnung als Datenpaare, entweder als Text oder binär."
+    },
+    {
+     "de": "DWG ist das eigene Format von Autodesk.",
+     "ar": "صيغة DWG هي الصيغة الخاصة بشركة Autodesk نفسها.",
+     "en": "DWG is the own format of Autodesk.",
+     "tts": "De-We-Ge ist das eigene Format von Autodesk."
+    },
+    {
+     "de": "Nach Angaben der Library of Congress veröffentlicht Autodesk keine DWG-Spezifikation.",
+     "ar": "بحسب مكتبة الكونغرس، لا تنشر Autodesk مواصفات صيغة DWG رسميًا.",
+     "en": "According to the Library of Congress, Autodesk publishes no DWG specification.",
+     "tts": "Nach Angaben der Library of Congress veröffentlicht Autodesk keine De-We-Ge-Spezifikation."
+    },
+    {
+     "de": "Der Austausch über DXF ist praktisch, aber nicht immer ohne Verluste.",
+     "ar": "التبادل عبر DXF عملي، لكنه ليس دائمًا بلا فقد.",
+     "en": "Exchange via DXF is practical, but not always without loss.",
+     "tts": "Der Austausch über De-Iks-Eff ist praktisch, aber nicht immer ohne Verluste."
+    },
+    {
+     "de": "Laut Fachquellen ist die Dokumentation von DXF nicht in allen Teilen vollständig.",
+     "ar": "بحسب مصادر متخصصة، توثيق DXF ليس كاملًا في كل أجزائه.",
+     "en": "According to technical sources, the DXF documentation is not complete in all parts.",
+     "tts": "Laut Fachquellen ist die Dokumentation von De-Iks-Eff nicht in allen Teilen vollständig."
+    },
+    {
+     "de": "Beide Formate begegnen Ihnen im Projekt oft schon beim ersten Datenaustausch.",
+     "ar": "ستواجهون الصيغتين في المشروع غالبًا عند أول تبادل للبيانات.",
+     "en": "You often meet both formats in a project at the first data exchange."
+    },
+    {
+     "de": "Andere Programme lesen DWG deshalb über eigene Bibliotheken.",
+     "ar": "لذلك تقرأ برامج أخرى DWG عبر مكتبات خاصة بها.",
+     "en": "Other programs therefore read DWG through libraries of their own.",
+     "tts": "Andere Programme lesen De-We-Ge deshalb über eigene Bibliotheken."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Datenübernahme",
+    "heading": "Austausch in der Praxis",
+    "items": [
+     "Layer, Blöcke, Attribute prüfen",
+     "Eine Testdatei vor dem Projekt",
+     "Frei erhältliche Umwandlungsprogramme",
+     "Daten bleiben nicht immer vollständig"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nicht alles, was Sie sehen, muss beim Austausch erhalten bleiben.",
+     "ar": "ليس كل ما ترونه يبقى محفوظًا عند التبادل.",
+     "en": "Not everything you see must survive the exchange."
+    },
+    {
+     "de": "Prüfen Sie nach dem Import Layer, Blöcke und Attribute.",
+     "ar": "تحققوا بعد الاستيراد من الطبقات والكتل والسمات.",
+     "en": "After import, check layers, blocks and attributes."
+    },
+    {
+     "de": "Erst wenn die Attribute da sind, hat das Symbol noch seine Daten.",
+     "ar": "فقط إذا بقيت السمات، يحتفظ الرمز ببياناته.",
+     "en": "Only if the attributes are there does the symbol still have its data."
+    },
+    {
+     "de": "Machen Sie vorher eine Testdatei, bevor das echte Projekt startet.",
+     "ar": "أنشئوا ملف اختبار قبل أن يبدأ المشروع الفعلي.",
+     "en": "Make a test file before the real project starts."
+    },
+    {
+     "de": "Es gibt frei erhältliche Programme, die DWG und DXF umwandeln.",
+     "ar": "توجد برامج متاحة مجانًا تحوّل بين DWG وDXF وتسمّى محوّلات.",
+     "en": "There are freely available programs that convert DWG and DXF.",
+     "tts": "Es gibt frei erhältliche Programme, die De-We-Ge und De-Iks-Eff umwandeln."
+    },
+    {
+     "de": "Vergleichen Sie Stückzahlen und Kennzeichen vor und nach dem Austausch.",
+     "ar": "قارنوا الأعداد والترميز قبل التبادل وبعده.",
+     "en": "Compare quantities and designations before and after the exchange."
+    },
+    {
+     "de": "Ein Import ist erst gelungen, wenn auch die Daten stimmen.",
+     "ar": "الاستيراد ينجح فقط إذا كانت البيانات صحيحة أيضًا.",
+     "en": "An import is only successful when the data is right too."
+    },
+    {
+     "de": "Lesen Sie deren Lizenzbedingungen für Ihren Einsatz.",
+     "ar": "اقرأوا شروط ترخيصها لاستخدامكم.",
+     "en": "Read their license terms for your use."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Vergleich",
+    "heading": "Zwei Ansätze in der Planung",
+    "items": [
+     "Ansatz A | Allgemeines CAD mit Elektro-Aufsatz",
+     "Ansatz B | Eigenständiges Elektro-System",
+     "Gemeinsam | Symbole, Daten, Auswertungen",
+     "Unterschied | Zeichnungsdatei oder Projektdatenbank",
+     "Wahl | Hängt von Aufgabe und Team ab"
+    ]
+   },
+   "lines": [
+    {
+     "de": "In S-01 haben Sie ein eigenständiges Elektro-System kennengelernt.",
+     "ar": "في الفيديو S-01 تعرّفتم على نظام كهربائي مستقل.",
+     "en": "In S-01 you got to know a standalone electrical system.",
+     "tts": "In Es null eins haben Sie ein eigenständiges Elektro-System kennengelernt."
+    },
+    {
+     "de": "Hier betrachten wir den Weg über ein allgemeines CAD.",
+     "ar": "هنا ننظر في الطريق عبر برنامج CAD عام.",
+     "en": "Here we look at the route via a general CAD.",
+     "tts": "Hier betrachten wir den Weg über ein allgemeines Ze-A-De."
+    },
+    {
+     "de": "Der Elektro-Teil kommt als Erweiterung in ein vorhandenes CAD.",
+     "ar": "يأتي الجزء الكهربائي كإضافة إلى برنامج CAD قائم.",
+     "en": "The electrical part comes as an extension to an existing CAD.",
+     "tts": "Der Elektro-Teil kommt als Erweiterung in ein vorhandenes Ze-A-De."
+    },
+    {
+     "de": "Ein Hersteller bietet das zum Beispiel als Werkzeugsatz innerhalb von AutoCAD an.",
+     "ar": "تقدّم إحدى الشركات ذلك مثلًا كحزمة أدوات داخل AutoCAD نفسه.",
+     "en": "One vendor offers this, for example, as a toolset inside AutoCAD.",
+     "tts": "Ein Hersteller bietet das zum Beispiel als Werkzeugsatz innerhalb von Auto-Ze-A-De an."
+    },
+    {
+     "de": "Lizenz und Umfang ändern sich, prüfen Sie die Herstellerseite.",
+     "ar": "الترخيص والنطاق يتغيران، فراجعوا صفحة الشركة.",
+     "en": "License and scope change, so check the vendor page."
+    },
+    {
+     "de": "Beide Wege führen zu Plänen und Listen, nur die Arbeitsweise ist anders.",
+     "ar": "كلا الطريقين يقود إلى مخططات وقوائم، وإنما تختلف طريقة العمل.",
+     "en": "Both ways lead to plans and lists, only the way of working differs."
+    },
+    {
+     "de": "Auf der anderen Seite steht ein System mit zentraler Projektdatenbank.",
+     "ar": "وعلى الجانب الآخر نظام بقاعدة بيانات مشروع مركزية.",
+     "en": "On the other side stands a system with a central project database."
+    },
+    {
+     "de": "Eine Aussage zu Marktanteilen oder Preisen machen wir bewusst nicht.",
+     "ar": "لا نذكر عمدًا أي شيء عن الحصص السوقية أو الأسعار.",
+     "en": "We deliberately make no statement on market shares or prices."
+    },
+    {
+     "de": "Das ist keine Empfehlung, nur ein Beispiel für den Ansatz.",
+     "ar": "هذه ليست توصية، بل مثال على الأسلوب.",
+     "en": "This is not a recommendation, only an example of the approach."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Entscheidung",
+    "heading": "Wann passt welcher Ansatz",
+    "items": [
+     "Gemischte Zeichnungen: CAD-Basis hilft",
+     "Reine Steuerungsprojekte: Elektro-System",
+     "Kundenvorgabe zählt zuerst",
+     "Teamwissen und Daten zählen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Welcher Ansatz passt, hängt von Ihrer Aufgabe ab.",
+     "ar": "أي أسلوب يناسب يعتمد على مهمتكم.",
+     "en": "Which approach fits depends on your task."
+    },
+    {
+     "de": "Wenn Sie Zeichnungen mit Grundrissen und Details mischen, hilft eine CAD-Basis.",
+     "ar": "إذا مزجتم رسومات المساقط والتفاصيل، تفيد قاعدة CAD عامة.",
+     "en": "If you mix drawings with floor plans and details, a CAD base helps.",
+     "tts": "Wenn Sie Zeichnungen mit Grundrissen und Details mischen, hilft eine Ze-A-De-Basis."
+    },
+    {
+     "de": "Bei reinen Steuerungsprojekten bringt ein eigenständiges Elektro-System oft Vorteile.",
+     "ar": "في مشاريع التحكم الخالصة يقدّم نظام كهربائي مستقل مزايا غالبًا.",
+     "en": "For pure control projects, a standalone electrical system often brings advantages."
+    },
+    {
+     "de": "Das ist eine Faustregel, kein Naturgesetz.",
+     "ar": "هذه قاعدة عامة، وليست قانونًا ثابتًا.",
+     "en": "This is a rule of thumb, not a law of nature."
+    },
+    {
+     "de": "Oft entscheidet der Kunde, weil er Dateien und Format vorgibt.",
+     "ar": "غالبًا يقرر العميل لأنه يحدد الملفات والصيغة.",
+     "en": "Often the customer decides, because he specifies files and format."
+    },
+    {
+     "de": "Planen Sie deshalb Zeit für Einarbeitung und Tests ein.",
+     "ar": "لذلك خصصوا وقتًا للتعلّم والاختبارات.",
+     "en": "So plan time for training and tests."
+    },
+    {
+     "de": "Bei einem anderen Kundenformat kann ein Wechsel nötig werden.",
+     "ar": "قد يصبح التغيير لازمًا عند صيغة أخرى يطلبها العميل.",
+     "en": "With another customer format, a switch may become necessary."
+    },
+    {
+     "de": "Das Ziel bleibt gleich: ein Plan, den andere sicher lesen können.",
+     "ar": "الهدف واحد: مخطط يستطيع الآخرون قراءته بأمان.",
+     "en": "The goal stays the same: a plan that others can read safely."
+    },
+    {
+     "de": "Danach zählen das Wissen im Team und die Qualität der Bauteildaten.",
+     "ar": "بعد ذلك تهم معرفة الفريق وجودة بيانات المكوّنات.",
+     "en": "After that, the knowledge in the team and the quality of component data count."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Freie Alternativen",
+    "heading": "Zwei freie Programme",
+    "items": [
+     "QElectroTech: freie Software für Schaltpläne",
+     "LibreCAD: freies 2D-Zeichenprogramm",
+     "Beide: Lizenz GPL, frei nutzbar",
+     "Beide: gut zum Üben der Konzepte"
+    ],
+    "terms": [
+     {
+      "de": "Lizenz",
+      "ar": "رخصة",
+      "en": "license"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wenn Sie üben möchten, gibt es freie Programme.",
+     "ar": "إذا أردتم التدرّب، توجد برامج مجانية.",
+     "en": "If you want to practice, there are free programs."
+    },
+    {
+     "de": "QElectroTech ist freie Software zum Zeichnen von Schaltplänen.",
+     "ar": "برنامج QElectroTech هو برنامج حر لرسم مخططات الدارات.",
+     "en": "QElectroTech is free software for drawing circuit diagrams.",
+     "tts": "Kju-Elektro-Tech ist freie Software zum Zeichnen von Schaltplänen."
+    },
+    {
+     "de": "LibreCAD ist ein freies Programm für allgemeines Zeichnen in 2D.",
+     "ar": "برنامج LibreCAD هو برنامج حر للرسم العام ثنائي الأبعاد.",
+     "en": "LibreCAD is a free program for general 2D drawing.",
+     "tts": "Libre-Ze-A-De ist ein freies Programm für allgemeines Zeichnen in Zwei-De."
+    },
+    {
+     "de": "Beide stehen unter einer GPL-Lizenz.",
+     "ar": "كلاهما مرخّص برخصة GPL الحرة.",
+     "en": "Both are under a GPL license.",
+     "tts": "Beide stehen unter einer Ge-Pe-El-Lizenz."
+    },
+    {
+     "de": "Beachten Sie die Lizenzbedingungen, wenn Sie Ergebnisse beruflich nutzen.",
+     "ar": "انتبهوا إلى شروط الترخيص إذا استخدمتم النتائج مهنيًا.",
+     "en": "Note the license terms if you use results professionally."
+    },
+    {
+     "de": "Freie Programme sind ein guter Weg, Grundlagen kostenlos zu lernen.",
+     "ar": "البرامج الحرة طريق جيد لتعلّم الأساسيات دون مقابل.",
+     "en": "Free programs are a good way to learn the basics at no cost."
+    },
+    {
+     "de": "Für die Praxis im Betrieb gelten dann die Vorgaben Ihrer Firma.",
+     "ar": "وفي العمل الفعلي تسري متطلبات شركتكم.",
+     "en": "In daily company work, your firm's requirements then apply."
+    },
+    {
+     "de": "Damit lernen Sie Layer, Symbole und Plan-Struktur ohne Lizenzkosten.",
+     "ar": "وبهما تتعلمون الطبقات والرموز وبنية المخطط دون تكاليف ترخيص.",
+     "en": "With them you learn layers, symbols and plan structure without license costs."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Freie Alternativen",
+    "heading": "Was sie können und was nicht",
+    "items": [
+     "QElectroTech | Pläne und Elemente als XML",
+     "QElectroTech | Export nach DXF, PDF, SVG",
+     "LibreCAD | DXF als natives Format",
+     "LibreCAD | DWG nur eingeschränkt lesbar",
+     "Beide | Norm-Konformität selbst prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "QElectroTech speichert Pläne und Elemente im XML-Format.",
+     "ar": "يحفظ QElectroTech المخططات والعناصر بصيغة XML المعروفة.",
+     "en": "QElectroTech stores diagrams and elements in XML format.",
+     "tts": "Kju-Elektro-Tech speichert Pläne und Elemente im Iks-Em-El-Format."
+    },
+    {
+     "de": "Es besitzt Sammlungen von Elementen, auch pro Projekt.",
+     "ar": "ولديه مجموعات من العناصر، ولكل مشروع مجموعته أيضًا.",
+     "en": "It has collections of elements, also one per project."
+    },
+    {
+     "de": "Der Export nach DXF, PDF und SVG wird beschrieben.",
+     "ar": "يُذكر أن التصدير إلى DXF وPDF وSVG ممكن.",
+     "en": "Export to DXF, PDF and SVG is described.",
+     "tts": "Der Export nach De-Iks-Eff, Pe-De-Eff und Es-Fau-Ge wird beschrieben."
+    },
+    {
+     "de": "LibreCAD nutzt DXF als natives Format.",
+     "ar": "يستخدم LibreCAD الصيغة DXF كصيغة أصلية.",
+     "en": "LibreCAD uses DXF as its native format.",
+     "tts": "Libre-Ze-A-De nutzt De-Iks-Eff als natives Format."
+    },
+    {
+     "de": "DWG liest es nur eingeschränkt, also testen Sie Ihre Dateien.",
+     "ar": "يقرأ DWG بشكل محدود، لذلك اختبروا ملفاتكم.",
+     "en": "It reads DWG only in a limited way, so test your files.",
+     "tts": "De-We-Ge liest es nur eingeschränkt, also testen Sie Ihre Dateien."
+    },
+    {
+     "de": "Für berufliche Pläne klären Sie die Normkonformität vor Beginn.",
+     "ar": "للمخططات المهنية، وضّحوا مطابقة المعايير قبل البدء.",
+     "en": "For professional plans, clarify standard conformity before you start."
+    },
+    {
+     "de": "Wie vollständig die Symbole sind, hängt von der Version ab.",
+     "ar": "مدى اكتمال الرموز يعتمد على الإصدار.",
+     "en": "How complete the symbols are depends on the version."
+    },
+    {
+     "de": "Ob die Symbole Ihrer Norm entsprechen, prüfen Sie selbst.",
+     "ar": "وهل تطابق الرموز معياركم، تتحققون منه بأنفسكم.",
+     "en": "Whether the symbols meet your standard, you check yourself."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Einstieg",
+    "heading": "So gehen Sie vor",
+    "items": [
+     "Konzepte zuerst, Programm später",
+     "Mit kleinem Beispielprojekt üben",
+     "Kennzeichnungsregeln früh festlegen",
+     "Listen immer gegenprüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie steigen Sie praktisch ein?",
+     "ar": "كيف تبدؤون عمليًا؟",
+     "en": "How do you start in practice?"
+    },
+    {
+     "de": "Lernen Sie zuerst die Konzepte, das Programm kommt danach.",
+     "ar": "تعلّموا المفاهيم أولًا، ثم البرنامج.",
+     "en": "Learn the concepts first, the program comes after."
+    },
+    {
+     "de": "Üben Sie mit einem kleinen Beispielprojekt, zum Beispiel einem Motorstart.",
+     "ar": "تدرّبوا على مشروع صغير، مثل تشغيل محرك.",
+     "en": "Practice with a small sample project, for example a motor start."
+    },
+    {
+     "de": "Legen Sie die Regeln für die Kennzeichnung früh fest.",
+     "ar": "حدّدوا قواعد الترميز مبكرًا.",
+     "en": "Set the rules for designation early."
+    },
+    {
+     "de": "Prüfen Sie jede automatisch erzeugte Liste gegen den Plan.",
+     "ar": "راجعوا كل قائمة مُنتَجة تلقائيًا مقابل المخطط.",
+     "en": "Check every automatically created list against the plan."
+    },
+    {
+     "de": "Halten Sie Dateinamen und Revisionsstände geordnet.",
+     "ar": "حافظوا على أسماء الملفات وحالات المراجعة منظمة.",
+     "en": "Keep file names and revision statuses in order."
+    },
+    {
+     "de": "Klären Sie mit dem Kunden, welches Dateiformat er erwartet.",
+     "ar": "اتفقوا مع العميل على صيغة الملف التي يتوقعها.",
+     "en": "Clarify with the customer which file format he expects."
+    },
+    {
+     "de": "Fangen Sie klein an, und erweitern Sie Schritt für Schritt.",
+     "ar": "ابدؤوا صغيرًا، ثم وسّعوا خطوة بعد خطوة.",
+     "en": "Start small and expand step by step."
+    },
+    {
+     "de": "So wird aus dem Werkzeug ein sicherer Helfer.",
+     "ar": "هكذا تتحول الأداة إلى مساعد موثوق.",
+     "en": "This turns the tool into a reliable helper."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das nehmen Sie mit",
+    "items": [
+     "Allgemeines CAD: Geometrie",
+     "Elektro-CAD: Symbole, Daten, Logik",
+     "Layer, Blöcke, Attribute als Basis",
+     "DXF/DWG testen, IEC 60617 prüfen",
+     "Freie Programme zum Üben"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "نلخّص ما سبق.",
+     "en": "Let us summarize."
+    },
+    {
+     "de": "Allgemeines CAD zeichnet Geometrie, Elektro-CAD arbeitet mit Symbolen, Daten und Logik.",
+     "ar": "برنامج الرسم العام يرسم الأشكال، وبرنامج E-CAD يعمل بالرموز والبيانات والمنطق.",
+     "en": "General CAD draws geometry, electrical CAD works with symbols, data and logic.",
+     "tts": "Allgemeines Ze-A-De zeichnet Geometrie, Elektro-Ze-A-De arbeitet mit Symbolen, Daten und Logik."
+    },
+    {
+     "de": "Layer, Blöcke und Attribute sind die gemeinsame Basis.",
+     "ar": "الطبقات والكتل والسمات هي الأساس المشترك.",
+     "en": "Layers, blocks and attributes are the common basis."
+    },
+    {
+     "de": "Beim Datenaustausch testen Sie DXF und DWG mit eigenen Dateien.",
+     "ar": "عند تبادل البيانات، اختبروا DXF وDWG بملفاتكم.",
+     "en": "For data exchange, test DXF and DWG with your own files.",
+     "tts": "Beim Datenaustausch testen Sie De-Iks-Eff und De-We-Ge mit eigenen Dateien."
+    },
+    {
+     "de": "Bei Schaltzeichen prüfen Sie die aktuelle Ausgabe von IEC 60617.",
+     "ar": "بالنسبة للرموز الكهربائية، تحققوا من الإصدار الحالي من IEC 60617 دائمًا.",
+     "en": "For graphical symbols, check the current edition of IEC 60617.",
+     "tts": "Bei Schaltzeichen prüfen Sie die aktuelle Ausgabe von I-E-Ze sechs null sechs eins sieben."
+    },
+    {
+     "de": "Wichtiger als jedes Programm ist, dass Sie Pläne lesen und prüfen können.",
+     "ar": "الأهم من أي برنامج أن تستطيعوا قراءة المخططات ومراجعتها.",
+     "en": "More important than any program is that you can read and check plans."
+    },
+    {
+     "de": "Bauteildaten und Regeln machen aus einer Zeichnung ein nutzbares Modell.",
+     "ar": "بيانات المكوّنات والقواعد تحوّل الرسم إلى نموذج صالح للاستخدام.",
+     "en": "Component data and rules turn a drawing into a usable model."
+    },
+    {
+     "de": "Zum Üben nutzen Sie freie Programme.",
+     "ar": "للتدرّب استخدموا برامج حرة.",
+     "en": "For practice, use free programs."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Normen und Gesetze ändern sich",
+    "items": [
+     "Aktuelle Ausgaben selbst prüfen",
+     "Allgemeine Information, keine Beratung",
+     "Alle Reihen: Software und Planung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وفي الختام ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Normen, Gesetze und Programme ändern sich.",
+     "ar": "المعايير والقوانين والبرامج تتغير.",
+     "en": "Standards, laws and programs change."
+    },
+    {
+     "de": "Prüfen Sie daher immer die aktuellen Ausgaben und Herstellerangaben.",
+     "ar": "لذا تحققوا دائمًا من الإصدارات الحالية ومن بيانات الشركات.",
+     "en": "So always check the current editions and vendor information."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information.",
+     "ar": "هذا الفيديو معلومات عامة.",
+     "en": "This video is general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is neither legal advice nor engineering advice."
+    },
+    {
+     "de": "Fragen Sie im Zweifel Ihre Vorgesetzten oder eine zuständige Fachperson.",
+     "ar": "عند الشك اسألوا مسؤولكم أو مختصًا في الأمر.",
+     "en": "If in doubt, ask your superiors or a competent specialist."
+    },
+    {
+     "de": "Wir erwähnen Produkte nur als Beispiele, ohne Empfehlung.",
+     "ar": "نذكر المنتجات كأمثلة فقط دون توصية.",
+     "en": "We mention products only as examples, without recommendation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Ausblick",
+    "heading": "Das Ende der Software-Reihe",
+    "items": [
+     "Kein weiteres Video angekündigt",
+     "Alle Videos: Kursübersicht",
+     "Konzepte vor Werkzeugen",
+     "Viel Erfolg in Deutschland"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Damit endet die Software-Reihe.",
+     "ar": "وبهذا تنتهي سلسلة البرامج.",
+     "en": "This ends the software series."
+    },
+    {
+     "de": "Ein weiteres Video ist zurzeit nicht angekündigt.",
+     "ar": "لا يوجد حاليًا فيديو آخر معلن.",
+     "en": "No further video is announced at the moment."
+    },
+    {
+     "de": "Alle Videos des Kurses finden Sie in der Kursübersicht.",
+     "ar": "ستجدون جميع فيديوهات الدورة في نظرة الدورة العامة.",
+     "en": "You find all videos of the course in the course overview."
+    },
+    {
+     "de": "Denken Sie daran: Konzepte sind wichtiger als ein einzelnes Werkzeug.",
+     "ar": "تذكّروا: المفاهيم أهم من أي أداة بعينها.",
+     "en": "Remember: concepts matter more than any single tool."
+    },
+    {
+     "de": "Wiederholen Sie bei Bedarf die Videos der Reihe, besonders die Grundlagen zu Plänen.",
+     "ar": "كرّروا فيديوهات السلسلة عند الحاجة، خصوصًا أساسيات المخططات.",
+     "en": "Repeat the videos of the series if needed, especially the plan basics."
+    },
+    {
+     "de": "Danke fürs Zuschauen und viel Erfolg bei Ihrem Weg nach Deutschland.",
+     "ar": "شكرًا للمتابعة، ونتمنى لكم النجاح في طريقكم إلى ألمانيا.",
+     "en": "Thank you for watching, and good luck on your way to Germany."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "das CAD-Programm",
+   "ar": "برنامج الرسم الهندسي",
+   "en": "CAD program"
+  },
+  {
+   "de": "der Layer (die Ebene)",
+   "ar": "الطبقة",
+   "en": "layer"
+  },
+  {
+   "de": "der Block",
+   "ar": "الكتلة",
+   "en": "block"
+  },
+  {
+   "de": "das Attribut",
+   "ar": "السمة",
+   "en": "attribute"
+  },
+  {
+   "de": "das Schaltzeichen",
+   "ar": "رمز كهربائي",
+   "en": "graphical symbol"
+  },
+  {
+   "de": "der Schaltplan",
+   "ar": "مخطط الدارات",
+   "en": "circuit diagram"
+  },
+  {
+   "de": "die Bauteildatenbank",
+   "ar": "قاعدة بيانات المكوّنات",
+   "en": "component database"
+  },
+  {
+   "de": "die Stückliste",
+   "ar": "قائمة المواد",
+   "en": "parts list"
+  },
+  {
+   "de": "der Klemmenplan",
+   "ar": "مخطط الأطراف",
+   "en": "terminal diagram"
+  },
+  {
+   "de": "der Querverweis",
+   "ar": "إحالة مرجعية",
+   "en": "cross-reference"
+  },
+  {
+   "de": "die Referenzkennzeichnung",
+   "ar": "ترميز مرجعي",
+   "en": "reference designation"
+  },
+  {
+   "de": "das Datenmodell",
+   "ar": "نموذج البيانات",
+   "en": "data model"
+  },
+  {
+   "de": "das Austauschformat",
+   "ar": "صيغة التبادل",
+   "en": "exchange format"
+  },
+  {
+   "de": "die Verdrahtungsliste",
+   "ar": "قائمة التوصيل",
+   "en": "wiring list"
+  },
+  {
+   "de": "die Lizenz",
+   "ar": "رخصة",
+   "en": "license"
+  },
+  {
+   "de": "die Normen",
+   "ar": "المعايير",
+   "en": "standards"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was unterscheidet Elektro-CAD von allgemeinem CAD?",
+    "ar": "ما الذي يميّز E-CAD عن الرسم العام؟",
+    "en": "What distinguishes electrical CAD from general CAD?"
+   },
+   "options": [
+    {
+     "de": "Es zeichnet nur Linien.",
+     "ar": "يرسم خطوطًا فقط.",
+     "en": "It only draws lines."
+    },
+    {
+     "de": "Symbole tragen Daten und Verbindungslogik.",
+     "ar": "الرموز تحمل بيانات ومنطق توصيل.",
+     "en": "Symbols carry data and connection logic."
+    },
+    {
+     "de": "Es braucht keine Prüfung.",
+     "ar": "لا يحتاج إلى مراجعة.",
+     "en": "It needs no checking."
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was ist ein Attribut?",
+    "ar": "ما هي السمة؟",
+    "en": "What is an attribute?"
+   },
+   "options": [
+    {
+     "de": "Ein Datenfeld an einem Block",
+     "ar": "حقل بيانات في كتلة",
+     "en": "A data field on a block"
+    },
+    {
+     "de": "Eine Linienfarbe",
+     "ar": "لون خط",
+     "en": "A line color"
+    },
+    {
+     "de": "Ein Dateiformat",
+     "ar": "صيغة ملف",
+     "en": "A file format"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was sollten Sie beim Datenaustausch tun?",
+    "ar": "ماذا ينبغي أن تفعلوا عند تبادل البيانات؟",
+    "en": "What should you do for data exchange?"
+   },
+   "options": [
+    {
+     "de": "Nichts prüfen",
+     "ar": "لا تتحققوا من شيء",
+     "en": "Check nothing"
+    },
+    {
+     "de": "Nur die Farbe prüfen",
+     "ar": "تحققوا من اللون فقط",
+     "en": "Check only the color"
+    },
+    {
+     "de": "Mit einer Testdatei prüfen",
+     "ar": "اختبروا بملف تجريبي",
+     "en": "Check with a test file"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wie liegt IEC 60617 laut Webshop vor?",
+    "ar": "كيف تتوفر IEC 60617 بحسب متجر الناشر؟",
+    "en": "How is IEC 60617 offered in the web shop?"
+   },
+   "options": [
+    {
+     "de": "Als freies Plakat",
+     "ar": "كملصق مجاني",
+     "en": "As a free poster"
+    },
+    {
+     "de": "Als Datenbank im Abonnement",
+     "ar": "كقاعدة بيانات باشتراك",
+     "en": "As a subscription database"
+    },
+    {
+     "de": "Nur auf Papier",
+     "ar": "على الورق فقط",
+     "en": "On paper only"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was gilt für freie Programme wie LibreCAD?",
+    "ar": "ماذا ينطبق على البرامج الحرة مثل LibreCAD؟",
+    "en": "What applies to free programs like LibreCAD?"
+   },
+   "options": [
+    {
+     "de": "DWG immer perfekt",
+     "ar": "DWG دائمًا مثالية",
+     "en": "DWG always perfect"
+    },
+    {
+     "de": "Norm-Konformität nie prüfen",
+     "ar": "لا تتحققوا من المطابقة أبدًا",
+     "en": "Never check conformity"
+    },
+    {
+     "de": "Dateien vorher testen",
+     "ar": "اختبروا الملفات مسبقًا",
+     "en": "Test files beforehand"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Das war das letzte Video der Software-Reihe. Alle Videos finden Sie in der Kursübersicht.",
+  "ar": "كان هذا آخر فيديو في سلسلة البرامج. ستجدون كل الفيديوهات في نظرة الدورة العامة.",
+  "en": "This was the last video of the software series. You find all videos in the course overview."
+ },
+ "stand": "2026-10-21; prüfen: IEC 60617 DB Ausgabe, DIN EN 60617 Status, DIN EN 61082-1 und DIN EN IEC 81346-2 Ausgaben, Autodesk-Angebot des Elektro-Werkzeugsatzes (Lizenzform), QElectroTech/LibreCAD Version, DWG-Unterstützung und Exportformate, ODA File Converter Lizenz"
+}

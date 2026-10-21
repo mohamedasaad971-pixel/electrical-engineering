@@ -1,0 +1,154 @@
+{
+ "video": "S-04",
+ "facts": [
+  {
+   "claim": "LTspice ist ein SPICE-Schaltungssimulator von Analog Devices und wird vom Hersteller als kostenlos angeboten.",
+   "source_url": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+   "source_name": "Analog Devices, LTspice-Seite",
+   "confidence": "high",
+   "note": "Lizenz-/Nutzungsbedingungen im Video nicht bewertet; Hinweis 'Bedingungen prüfen'."
+  },
+  {
+   "claim": "LTspice enthält Schaltplaneingabe (Schematic Capture) und einen Wellenform-Betrachter.",
+   "source_url": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+   "source_name": "Analog Devices, LTspice-Seite",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "LTspice wird für Windows und macOS angeboten (Versionsnummern wechseln, daher nicht genannt).",
+   "source_url": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+   "source_name": "Analog Devices, LTspice-Seite",
+   "confidence": "medium",
+   "note": "Zwischengespeicherte Seiten zeigten abweichende Versionen; keine Version im Video."
+  },
+  {
+   "claim": "SPICE steht für Simulation Program with Integrated Circuit Emphasis und entstand an der University of California, Berkeley (IEEE-Meilenstein 1969-1970).",
+   "source_url": "https://ethw.org/Milestones:SPICE_(Simulation_Program_with_Integrated_Circuit_Emphasis),_1969-1970",
+   "source_name": "ETHW / IEEE Milestones",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "SPICE wurde 1973 öffentlich vorgestellt und als Public-Domain-Programm freigegeben; es wurde zum weltweiten Standard der Schaltungssimulation.",
+   "source_url": "https://princetonacm.hosting2.acm.org/downloads/SPICEtext.pdf",
+   "source_name": "ACM Princeton, SPICE-Text",
+   "confidence": "medium",
+   "note": "Details zur Urheberschaft in Quellen uneinheitlich; im Video nur 'Berkeley, siebziger Jahre'."
+  },
+  {
+   "claim": "In LTspice gibt es u. a. Transientenanalyse (Zeitbereich), AC-Analyse (Frequenzgang) und Arbeitspunktanalyse (DC operating point).",
+   "source_url": "https://mil.ufl.edu/4924/docs/analog_files/ltguide.pdf",
+   "source_name": "Universitäts-LTspice-Leitfaden (UFL)",
+   "confidence": "medium",
+   "note": "Hochschulunterlage, keine Herstellerdokumentation."
+  },
+  {
+   "claim": "Ein zu großer maximaler Zeitschritt kann schnelle Vorgänge übersehen, ein zu kleiner verlangsamt die Rechnung; SPICE wählt den Zeitschritt normalerweise selbst.",
+   "source_url": "https://www.analog.com/en/resources/technical-articles/ltspice-speed-up-your-simulations.html",
+   "source_name": "Analog Devices / Hochschulleitfaden / Forum",
+   "confidence": "medium",
+   "note": "Teilweise Forenbeleg; als Konzept formuliert."
+  },
+  {
+   "claim": "Die AC-Analyse ist um den Arbeitspunkt linearisiert und setzt einen gültigen DC-Arbeitspunkt voraus; Probleme beim Arbeitspunkt zeigen sich als Konvergenzschwierigkeiten.",
+   "source_url": "https://www.analog.com/en/resources/technical-articles/ltspice-speed-up-your-simulations.html",
+   "source_name": "Analog Devices Technical Article / Forum",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Simulink ist eine Blockdiagramm-Umgebung für Mehrdomänen-Simulation und Model-Based Design vom Hersteller MathWorks.",
+   "source_url": "https://www.mathworks.com/help/simulink/gs/product-description.html",
+   "source_name": "MathWorks, Simulink Product Description",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Simulink arbeitet eng mit MATLAB zusammen; MATLAB-Algorithmen lassen sich in Modelle einbinden.",
+   "source_url": "https://www.mathworks.com/help/simulink/gs/product-description.html",
+   "source_name": "MathWorks, Simulink Product Description",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "In Simulink berechnet bei jedem Zeitschritt jeder Block seine Ausgänge aus seinen Eingängen; der Solver wählt dann den nächsten Zeitschritt.",
+   "source_url": "https://uk.mathworks.com/discovery/block-diagram.html",
+   "source_name": "MathWorks, What Is a Block Diagram?",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Es gibt Solver mit festem und mit variablem Zeitschritt; variabel verkleinert Schritte bei schnellen Änderungen und vergrößert sie bei langsamen.",
+   "source_url": "https://www.mathworks.com/help/simulink/gui/type.html",
+   "source_name": "MathWorks, Solver Type",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Variable Schrittweite kann bei Unstetigkeiten weniger Schritte für ähnliche Genauigkeit brauchen; Codegenerierung verlangt einen Solver mit festem Zeitschritt.",
+   "source_url": "https://www.mathworks.com/help/simulink/gui/type.html",
+   "source_name": "MathWorks, Solver Type",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Simulink deckt zeitkontinuierliche, zeitdiskrete, hybride und ereignisdiskrete Systeme ab.",
+   "source_url": "https://www.mathworks.com/help/simulink/gs/product-description.html",
+   "source_name": "MathWorks, Simulink Product Description",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "GNU Octave ist freie Software unter der GNU General Public License, für numerische Rechnungen gedacht und weitgehend MATLAB-ähnlich in der Sprache.",
+   "source_url": "https://wiki.octave.org",
+   "source_name": "GNU Octave Wiki / Octave-Dokumentation",
+   "confidence": "medium",
+   "note": "Kompatibilität nicht vollständig; im Video ausdrücklich so formuliert. Primärquelle octave.org prüfen."
+  },
+  {
+   "claim": "Die Octave-Kompatibilität mit MATLAB ist nicht vollständig.",
+   "source_url": "https://en.wikibooks.org/wiki/MATLAB_Programming/GNU_Octave",
+   "source_name": "Wikibooks, MATLAB Programming/GNU Octave",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Scilab ist ein freies, quelloffenes Programm für numerische Berechnungen; Xcos ist der grafische Editor für Systemmodelle und liegt Scilab bei.",
+   "source_url": "https://packages.debian.org/sid/scilab",
+   "source_name": "Debian-Paketseite Scilab",
+   "confidence": "medium",
+   "note": "Offizielle Scilab-Seite nicht abgerufen; vor Veröffentlichung prüfen."
+  },
+  {
+   "claim": "RC-Glied: Zeitkonstante tau = R mal C; Einheit Sekunde.",
+   "source_url": "https://miniwebtool.com/de/rc-zeitkonstanten-rechner/",
+   "source_name": "Lern-/Rechnerseiten (mehrere übereinstimmend)",
+   "confidence": "medium",
+   "note": "Standardphysik, mehrere Quellen identisch."
+  },
+  {
+   "claim": "Bei der Sprungantwort lädt sich der Kondensator nach einer Zeitkonstante auf rund 63 Prozent des Endwerts, nach fünf Zeitkonstanten auf rund 99 Prozent.",
+   "source_url": "https://www.tutorchase.com/notes/ap/physics-2%3A-algebra/3-8-4-time-constant-in-rc-circuits",
+   "source_name": "TutorChase u. a.",
+   "confidence": "medium",
+   "note": "Ideale Bauteile ohne Leckstrom/ESR."
+  },
+  {
+   "claim": "Ladeverlauf: U(t) = U0 mal (1 minus e hoch minus t durch tau); Rechenbeispiel im Video ist erfunden und als Beispiel gekennzeichnet.",
+   "source_url": "https://miniwebtool.com/de/rc-zeitkonstanten-rechner/",
+   "source_name": "Lern-/Rechnerseiten",
+   "confidence": "medium",
+   "note": ""
+  }
+ ],
+ "dropped": [
+  "Preise/Lizenzkosten von MATLAB/Simulink und Marktanteile: nicht verifiziert, nicht genannt.",
+  "Aktuelle Versionsnummern von LTspice, Octave, Scilab: ändern sich, nicht genannt.",
+  "Konkrete Funktionslisten/Toolboxen kommerzieller Produkte: Marketing, nicht übernommen.",
+  "Aussage, welches Werkzeug in deutschen Firmen verbreitet ist: nicht belegt.",
+  "Behauptung, Octave laufe jedes MATLAB-Skript unverändert: falsch/unbelegt; nur 'weitgehend ähnlich'.",
+  "Eigentümer/Entwicklerfirma von Scilab: Quellen uneinheitlich, weggelassen.",
+  "Genaue Urheberschaft von SPICE (Nagel/Pederson/Rohrer): Quellen uneinheitlich."
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "video": "S-05",
+ "stand": "2026-10-21",
+ "facts": [
+  {
+   "claim": "DIALux evo wird von der DIAL GmbH (Lüdenscheid) entwickelt.",
+   "source_url": "https://dial.de/en/dialux/",
+   "source_name": "DIAL GmbH (dial.de)",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "DIALux evo ist laut Hersteller für private, schulische und kommerzielle Zwecke kostenlos nutzbar; die Entwicklung wird im Wesentlichen durch Mitgliedsbeiträge von Leuchtenherstellern finanziert.",
+   "source_url": "https://www.dialux.com/en-GB/dialux-business-model",
+   "source_name": "DIALux business model (dialux.com)",
+   "confidence": "high",
+   "note": "Stand 2026-10-21; im Video nur 'laut Hersteller' und 'Bedingungen prüfen'."
+  },
+  {
+   "claim": "Seit 1. März 2024 sind in der kostenlosen Version nur Leuchten von DIALux-Mitgliedern verfügbar; für Leuchten anderer Hersteller gibt es eine kostenpflichtige Option.",
+   "source_url": "https://www.dial.de/en-GB/news/dialux-evo-exclusively-with-luminaires-from-dialux-members",
+   "source_name": "DIAL GmbH News",
+   "confidence": "medium",
+   "note": "Im Video nur als Hinweis: 'die Leuchtenauswahl kann begrenzt sein', keine Preise."
+  },
+  {
+   "claim": "DIALux evo kann DWG-Pläne und IFC-Modelle importieren; seit evo 13 werden Räume aus dem IFC-Modell übernommen.",
+   "source_url": "https://www.dial.de/en-GB/news/dialux-evo-13-2-even-stronger-in-ifc-based-planning",
+   "source_name": "DIAL GmbH News (evo 13.x)",
+   "confidence": "medium",
+   "note": "Nur als Konzept: 'Pläne und Gebäudemodelle können importiert werden'."
+  },
+  {
+   "claim": "DIN EN 12464-1:2021-11 ist die deutsche Fassung der EN 12464-1:2021 'Licht und Beleuchtung – Beleuchtung von Arbeitsstätten – Teil 1: Arbeitsstätten in Innenräumen' und ersetzt die Ausgabe 2011-08.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-12464-1/334047306",
+   "source_name": "DIN Media",
+   "confidence": "high",
+   "note": "Stand 2026-10-21 laut DIN-Katalog gültig."
+  },
+  {
+   "claim": "Die Norm EN 12464-1 deckt Quantität und Qualität der Beleuchtung an Innenarbeitsplätzen ab, einschließlich Bildschirmarbeit; Außenarbeitsplätze und Notbeleuchtung sind ausgenommen (dafür EN 12464-2 bzw. EN 1838).",
+   "source_url": "https://iteh.es/catalog/standards/cen/53fc4ff7-e7df-4ebd-a730-0d5f0ea888e0/en-12464-1-2021",
+   "source_name": "iTeh / CEN-Katalog",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "EN 12464-1 regelt keine Sicherheits- und Gesundheitsanforderungen im Sinn des Arbeitsschutzrechts; diese können in anderen Vorschriften stehen. In Deutschland ist parallel die ASR A3.4 zu beachten.",
+   "source_url": "https://umwelt-online.de/recht/arbeitss/arbst.vo/arbst.rl/a3_4.htm",
+   "source_name": "umwelt-online; DGUV-Publikationen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die ASR A3.4 'Beleuchtung und Sichtverbindung' liegt in der Ausgabe Mai 2023 vor (GMBl 2023, S. 679); sie konkretisiert die Arbeitsstättenverordnung.",
+   "source_url": "https://www.baua.de/DE/Angebote/Regelwerk/ASR/ASR-A3-4.html",
+   "source_name": "BAuA",
+   "confidence": "high",
+   "note": "Fassung bei BAuA prüfen."
+  },
+  {
+   "claim": "Die Sicherheitsbeleuchtung für Flucht- und Rettungswege ist in der ASR A2.3 geregelt; die ASR A3.4/7 wurde aufgehoben.",
+   "source_url": "https://www.baua.de/DE/Angebote/Regelwerk/ASR/ASR-A3-4.html",
+   "source_name": "BAuA; DGUV",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DIN EN 1838 legt die lichttechnischen Anforderungen der Notbeleuchtung fest; DIN EN 50172 (VDE 0108-100) betrifft Sicherheitsbeleuchtungsanlagen.",
+   "source_url": "docs/research/E-B05.json",
+   "source_name": "Eigene Recherche E-B05",
+   "confidence": "medium",
+   "note": "Inhalt im Video nur verweisen auf E-B05."
+  },
+  {
+   "claim": "Der Lichtstrom wird in Lumen angegeben; die Beleuchtungsstärke ist Lichtstrom pro Fläche (E = Φ/A), 1 Lux = 1 Lumen pro Quadratmeter.",
+   "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/beleuchtung/lichttechnische-groessen-und-einheiten-1638141",
+   "source_name": "BauNetz Wissen",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Die Lichtstärke (Candela) ist der Lichtstrom pro Raumwinkel.",
+   "source_url": "https://www.baunetzwissen.de/licht/fachwissen/lichttechnische-groessen/allgemeiner-ueberblick-lichttechnische-groessen-5554950",
+   "source_name": "BauNetz Wissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Leuchtdichte (Candela pro Quadratmeter) beschreibt den vom Auge wahrgenommenen Helligkeitseindruck und ist für Kontrast und Blendung entscheidend.",
+   "source_url": "https://www.baunetzwissen.de/licht/fachwissen/lichttechnische-groessen/leuchtdichte-5532362",
+   "source_name": "BauNetz Wissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "UGR (Unified Glare Rating) wurde 1995 von der CIE zur Bewertung der psychologischen Blendung in Innenräumen entwickelt; die Skala reicht von 10 bis 30, niedrigere Werte bedeuten weniger Blendung.",
+   "source_url": "https://dial.de/en-GB/news/no-glare-from-artificial-light-what-is-behind-the-ugr-method",
+   "source_name": "DIAL GmbH; CIE",
+   "confidence": "medium",
+   "note": "Keine Grenzwerte nennen."
+  },
+  {
+   "claim": "Das UGR-Verfahren kann die Blendung durch LED-Leuchten mit stark ungleichmäßiger Leuchtdichte unterschätzen (CIE-Bewertung).",
+   "source_url": "https://cie.co.at/publications/discomfort-caused-glare-luminaires-non-uniform-source-luminance",
+   "source_name": "CIE",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Der Farbwiedergabeindex Ra vergleicht rechnerisch eine Lichtquelle mit einer Referenzlichtquelle gleicher Farbtemperatur anhand von acht Testfarben; 100 ist der Höchstwert.",
+   "source_url": "https://www.baunetzwissen.de/licht/fachwissen/lichttechnische-groessen/farbwiedergabe-und-farbwiedergabeindex-5551180",
+   "source_name": "BauNetz Wissen; ZVEI-Positionspapier",
+   "confidence": "medium",
+   "note": "ZVEI kritisiert Aussagekraft von Ra, nennt TM-30 als Ergänzung."
+  },
+  {
+   "claim": "Der Reflexionsgrad gibt an, welcher Anteil des Lichtstroms von einer Fläche zurückgeworfen wird; dunkle Räume brauchen für dasselbe Beleuchtungsniveau mehr Licht.",
+   "source_url": "https://www.baunetzwissen.de/licht/fachwissen/lichttechnische-groessen/reflexionsgrad-5555404",
+   "source_name": "BauNetz Wissen",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Der Wartungsfaktor setzt sich aus Lampenlebensdauer-, Lampenlichtstrom-, Leuchtenwartungs- und Raumflächen-Wartungsfaktor zusammen und ist nie größer als eins.",
+   "source_url": "https://www.forum-media.at/facilitymanagement/inhalt/Wartung/2056548",
+   "source_name": "FM Forum",
+   "confidence": "medium",
+   "note": "Keine Zahlenwerte nennen."
+  },
+  {
+   "claim": "Beim Wirkungsgradverfahren ergibt sich die mittlere Beleuchtungsstärke aus Lichtstrom, Raumwirkungsgrad und Nutzfläche; der Raumwirkungsgrad hängt u. a. von Reflexionsgraden und Raumindex ab.",
+   "source_url": "https://www.spektrum.de/lexikon/optik/beleuchtungsberechnung/332",
+   "source_name": "Spektrum Lexikon der Optik",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Die Tabellen der EN 12464-1 enthalten u. a. Wartungswert der Beleuchtungsstärke, Gleichmäßigkeit U0, UGR und Ra; die Ausgabe 2021 differenziert die Gleichmäßigkeitsanforderung nach Sehaufgabe, Tätigkeitsbereich und Raumzone.",
+   "source_url": "https://www.licht.de/fileadmin/Publikationen_Downloads/Weitere/2403_LF60_Leitfaden_DIN_EN_12464-1.pdf",
+   "source_name": "licht.de Leitfaden (licht.forum 60)",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "EULUMDAT (Dateiendung .ldt) ist ein Dateiformat für Lichtstärkeverteilungen von Leuchten, in Europa verbreitet; das IES-Format (IESNA LM-63) ist das nordamerikanische Gegenstück.",
+   "source_url": "https://en.wikipedia.org/wiki/EULUMDAT",
+   "source_name": "Wikipedia; AGi32-Dokumentation",
+   "confidence": "medium",
+   "note": "Nur als Konzept; Aufbau nicht erklären."
+  },
+  {
+   "claim": "DIN EN 13032-1:2012-06 behandelt Messung und Darstellung photometrischer Daten von Lampen und Leuchten und beschreibt ein CEN-Dateiformat für den elektronischen Datenaustausch.",
+   "source_url": "https://www.dinmedia.de/de/norm/din-en-13032-1/151136565",
+   "source_name": "DIN Media",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "Radiance ist eine frei verfügbare Open-Source-Lichtsimulation, getragen u. a. vom Lawrence Berkeley National Laboratory und vom US-Energieministerium.",
+   "source_url": "https://www.energy.gov/eere/buildings/downloads/radiance",
+   "source_name": "US DOE",
+   "confidence": "medium",
+   "note": "Lizenzdetails nicht nennen."
+  },
+  {
+   "claim": "RELUX Informatik AG (Schweiz) bietet ReluxDesktop als Basissoftware zur Lichtplanung an; Angaben Dritter zum Gratisumfang widersprechen sich.",
+   "source_url": "https://relux.com/blog/tag/update-2026-54",
+   "source_name": "RELUX Informatik AG",
+   "confidence": "low",
+   "note": "Nur als 'weitere Hersteller bieten eigene Programme'; keine Aussage zu Kosten."
+  }
+ ],
+ "dropped": [
+  "Konkrete Lux-Anforderungen (z. B. 500 Lux Büro) – nur Sekundärquellen, Tabellen der Norm nicht geprüft",
+  "Aktuelle DIALux-evo-Versionsnummer (14.0 laut Download-Seite) – schnell veränderlich",
+  "Preise von DIALux Pro / 'Unlock Non-Members' – ändern sich, nicht Ziel des Videos",
+  "Funktionen der automatischen Leuchtenplatzierung und Pro-Funktionen (BIM-Export) – Herstellerwerbung, nicht genannt",
+  "Marktanteil oder Verbreitung von DIALux in Deutschland – keine Primärquelle",
+  "Empfohlene Ra-Werte (z. B. Ra über 90) – Sekundärquelle, abweichend von Normanforderungen",
+  "UGR-Stufen und Grenzwerte je Tätigkeit – Normtabellen nicht geprüft",
+  "Typische Zahlenwerte für Reflexionsgrade und Wartungsfaktoren – Sekundärquellen, projektabhängig",
+  "Aufbau und Felder der EULUMDAT-/IES-Dateien – nur Konzept erklärt",
+  "Kosten der Normen (DIN-Shop) – ändern sich"
+ ]
+}

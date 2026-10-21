@@ -1,0 +1,1583 @@
+{
+ "id": "S-05",
+ "title": {
+  "de": "DIALux: Lichtplanung am Rechner",
+  "ar": "تخطيط الإنارة بالحاسوب: مثال برنامج DIALux للتخطيط",
+  "en": "DIALux: Lighting Design on the Computer"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "S-05 · Software-Reihe",
+    "heading": "Lichtplanung am Rechner",
+    "items": [
+     "Grundgrößen der Lichttechnik",
+     "Planungsablauf in fünf Schritten",
+     "Normen und Arbeitsschutz",
+     "DIALux als Beispiel"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum Video über Lichtplanung am Rechner.",
+     "ar": "مرحبًا بكم في الفيديو عن تخطيط الإنارة بالحاسوب.",
+     "en": "Welcome to the video on lighting design on the computer."
+    },
+    {
+     "de": "Jedes Gebäude braucht gutes Licht.",
+     "ar": "كل مبنى يحتاج إلى إضاءة جيدة.",
+     "en": "Every building needs good light."
+    },
+    {
+     "de": "Im Büro, in der Werkstatt und in der Halle sehen Menschen nur bei guter Beleuchtung gut.",
+     "ar": "في المكتب والورشة والقاعة لا يرى الناس جيدًا إلا مع إضاءة جيدة.",
+     "en": "In the office, workshop and hall people only see well with good lighting."
+    },
+    {
+     "de": "Wer in Deutschland arbeitet, begegnet dieser Aufgabe in fast jedem Bauprojekt.",
+     "ar": "من يعمل في ألمانيا يصادف هذه المهمة في كل مشروع بناء تقريبًا.",
+     "en": "Anyone working in Germany meets this task in almost every building project."
+    },
+    {
+     "de": "Die Planung übernehmen heute Programme, die das Licht berechnen.",
+     "ar": "وتتولى التخطيط اليوم برامج تحسب الضوء.",
+     "en": "Today programs that calculate the light do the planning."
+    },
+    {
+     "de": "Ein bekanntes Beispiel in Deutschland ist DIALux.",
+     "ar": "ومن الأمثلة المعروفة في ألمانيا برنامج DIALux للتخطيط.",
+     "en": "A well-known example in Germany is DIALux.",
+     "tts": "Ein bekanntes Beispiel in Deutschland ist Dialux."
+    },
+    {
+     "de": "Wir lernen heute aber das Konzept, nicht die Bedienung eines Programms.",
+     "ar": "لكننا نتعلم اليوم المفهوم لا طريقة تشغيل برنامج.",
+     "en": "But today we learn the concept, not how to operate a program."
+    },
+    {
+     "de": "Am Ende kennen Sie die Begriffe und den Ablauf einer Lichtplanung.",
+     "ar": "في النهاية ستعرفون المصطلحات ومسار تخطيط الإنارة.",
+     "en": "At the end you know the terms and the workflow of lighting design."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur Konzepte, keine Werbung",
+    "items": [
+     "Keine Bedienung einer Software",
+     "Keine Empfehlung für ein Produkt",
+     "Keine Rechts- oder Ingenieurberatung",
+     "Aktuelle Fassungen immer prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Lichtplanung",
+      "ar": "تخطيط الإنارة",
+      "en": "lighting design"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video zeigt keine Programmoberfläche.",
+     "ar": "لا يعرض هذا الفيديو واجهة أي برنامج.",
+     "en": "This video shows no program interface."
+    },
+    {
+     "de": "Wir nennen weder Preise noch Marktanteile.",
+     "ar": "لا نذكر أسعارًا ولا حصصًا سوقية.",
+     "en": "We name neither prices nor market shares."
+    },
+    {
+     "de": "Wir erklären die Ideen hinter der Lichtplanung.",
+     "ar": "نشرح الأفكار الكامنة وراء تخطيط الإنارة.",
+     "en": "We explain the ideas behind lighting design."
+    },
+    {
+     "de": "Die Software ist nur ein Beispiel und keine Empfehlung.",
+     "ar": "البرنامج مجرد مثال وليس توصية.",
+     "en": "The software is just an example, not a recommendation."
+    },
+    {
+     "de": "Außerdem ist es keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "كما أنه ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is also neither legal advice nor engineering advice."
+    },
+    {
+     "de": "Normen und Regeln ändern sich, prüfen Sie immer die aktuelle Fassung.",
+     "ar": "المعايير واللوائح تتغير، فتحققوا دائمًا من النسخة الحالية.",
+     "en": "Standards and rules change, so always check the current version."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Warum am Rechner?",
+    "heading": "Warum Lichtplanung am Rechner?",
+    "items": [
+     "Rechnen: Licht an vielen Stellen im Raum",
+     "Vergleichen: Varianten schnell prüfen",
+     "Nachweisen: Ergebnis als Bericht",
+     "Abstimmen: Pläne importieren"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Warum plant man Licht mit einem Programm?",
+     "ar": "لماذا نخطط الإنارة ببرنامج؟",
+     "en": "Why do we plan light with a program?"
+    },
+    {
+     "de": "Erstens kann es rechnen, wie hell es an vielen Stellen im Raum wird.",
+     "ar": "أولًا، يمكنه حساب مقدار الإضاءة في أماكن كثيرة من الغرفة.",
+     "en": "First, it can calculate how bright it gets at many places in the room."
+    },
+    {
+     "de": "Zweitens können Sie Varianten schnell vergleichen.",
+     "ar": "ثانيًا، يمكنكم مقارنة البدائل بسرعة.",
+     "en": "Second, you can compare variants quickly."
+    },
+    {
+     "de": "Drittens entsteht ein Bericht, der das Ergebnis nachweist.",
+     "ar": "ثالثًا، يُنتج تقريرًا يثبت النتيجة.",
+     "en": "Third, a report is produced that documents the result."
+    },
+    {
+     "de": "Viertens können viele Programme Pläne und Gebäudemodelle importieren.",
+     "ar": "رابعًا، تستطيع برامج كثيرة استيراد المخططات ونماذج المباني.",
+     "en": "Fourth, many programs can import plans and building models."
+    },
+    {
+     "de": "Dabei bleibt die Verantwortung beim Planer.",
+     "ar": "وتبقى المسؤولية على عاتق المخطط.",
+     "en": "The responsibility stays with the planner."
+    },
+    {
+     "de": "Das Programm ersetzt aber nicht Ihr Fachwissen.",
+     "ar": "لكن البرنامج لا يحل محل معرفتكم المهنية.",
+     "en": "But the program does not replace your expertise."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Grundgrößen",
+    "heading": "Lichtstrom und Lichtstärke",
+    "items": [
+     "Lichtstrom | Lichtleistung der Lampe, in Lumen",
+     "Lichtstärke | Lichtstrom pro Raumwinkel, in Candela",
+     "Merksatz | Lampe gibt Licht ab, Leuchte lenkt es"
+    ],
+    "terms": [
+     {
+      "de": "Lichtstrom",
+      "ar": "التدفق الضوئي",
+      "en": "luminous flux"
+     },
+     {
+      "de": "Lichtstärke",
+      "ar": "الشدة الضوئية",
+      "en": "luminous intensity"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zu den Grundgrößen der Lichttechnik.",
+     "ar": "والآن إلى المقادير الأساسية في تقنية الإضاءة.",
+     "en": "Now to the basic quantities of lighting engineering."
+    },
+    {
+     "de": "Der Lichtstrom sagt, wie viel Licht eine Quelle abgibt.",
+     "ar": "التدفق الضوئي يبيّن مقدار الضوء الذي يصدره المصدر.",
+     "en": "The luminous flux tells how much light a source emits."
+    },
+    {
+     "de": "Er wird in Lumen angegeben.",
+     "ar": "ويُقاس باللومن.",
+     "en": "It is given in lumens."
+    },
+    {
+     "de": "Die Lichtstärke beschreibt den Lichtstrom in eine bestimmte Richtung.",
+     "ar": "الشدة الضوئية تصف التدفق الضوئي في اتجاه معيّن.",
+     "en": "Luminous intensity describes the flux in a certain direction."
+    },
+    {
+     "de": "Genauer gesagt ist sie der Lichtstrom pro Raumwinkel, in Candela.",
+     "ar": "وبدقة هي التدفق الضوئي لكل زاوية مجسمة، بوحدة الشمعة.",
+     "en": "More precisely it is the flux per solid angle, in candela."
+    },
+    {
+     "de": "Eine Leuchte lenkt das Licht der Lampe in bestimmte Richtungen.",
+     "ar": "وحدة الإنارة توجّه ضوء المصباح إلى اتجاهات معيّنة.",
+     "en": "A luminaire directs the light of the lamp into certain directions."
+    },
+    {
+     "de": "Für die Planung brauchen wir beide Größen, denn sie verbinden Lampe, Leuchte und Raum.",
+     "ar": "نحتاج إلى المقدارين في التخطيط لأنهما يربطان المصباح ووحدة الإنارة والغرفة.",
+     "en": "For planning we need both quantities, because they connect lamp, luminaire and room."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundgrößen",
+    "heading": "Beleuchtungsstärke",
+    "items": [
+     "Lichtstrom pro Fläche",
+     "Einheit: Lux",
+     "Ein Lux ist ein Lumen pro Quadratmeter",
+     "Wert gilt für eine Bezugsfläche"
+    ],
+    "terms": [
+     {
+      "de": "Beleuchtungsstärke",
+      "ar": "الاستضاءة",
+      "en": "illuminance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die wichtigste Größe in der Planung ist die Beleuchtungsstärke.",
+     "ar": "أهم مقدار في التخطيط هو الاستضاءة.",
+     "en": "The most important quantity in planning is illuminance."
+    },
+    {
+     "de": "Ein Beispiel macht es klar: Dasselbe Licht ist auf einer großen Fläche schwächer.",
+     "ar": "مثال يوضح ذلك: الضوء نفسه يكون أضعف على مساحة أكبر.",
+     "en": "An example makes it clear: the same light is weaker on a larger area."
+    },
+    {
+     "de": "Sie sagt, wie viel Licht auf eine Fläche trifft.",
+     "ar": "تبيّن مقدار الضوء الساقط على سطح.",
+     "en": "It tells how much light falls on a surface."
+    },
+    {
+     "de": "Rechnerisch ist sie der Lichtstrom geteilt durch die Fläche.",
+     "ar": "حسابيًا هي التدفق الضوئي مقسومًا على المساحة.",
+     "en": "Mathematically it is the luminous flux divided by the area."
+    },
+    {
+     "de": "Die Einheit heißt Lux: ein Lux ist ein Lumen pro Quadratmeter.",
+     "ar": "الوحدة هي اللوكس: واحد لوكس يساوي لومن لكل متر مربع.",
+     "en": "The unit is lux: one lux is one lumen per square metre."
+    },
+    {
+     "de": "Mehr Lichtstrom auf derselben Fläche bedeutet mehr Lux.",
+     "ar": "تدفق ضوئي أكبر على المساحة نفسها يعني لوكسات أكثر.",
+     "en": "More luminous flux on the same area means more lux."
+    },
+    {
+     "de": "Normen verlangen Werte für eine bestimmte Fläche, zum Beispiel für den Arbeitsplatz.",
+     "ar": "تطلب المعايير قيمًا لسطح محدد، مثل مكان العمل.",
+     "en": "Standards require values for a certain area, for example the workplace."
+    },
+    {
+     "de": "Konkrete Zahlen entnehmen Sie immer der aktuellen Norm.",
+     "ar": "أما الأرقام الدقيقة فخذوها دائمًا من المعيار الحالي.",
+     "en": "Always take concrete numbers from the current standard."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Grundgrößen",
+    "heading": "Leuchtdichte und Blendung",
+    "items": [
+     "Leuchtdichte: Helligkeitseindruck",
+     "Einheit: Candela pro Quadratmeter",
+     "Wichtig für Kontrast",
+     "Zu hohe Leuchtdichte blendet"
+    ],
+    "terms": [
+     {
+      "de": "Leuchtdichte",
+      "ar": "اللمعان",
+      "en": "luminance"
+     },
+     {
+      "de": "Blendung",
+      "ar": "الإبهار",
+      "en": "glare"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Beleuchtungsstärke misst Licht auf einer Fläche.",
+     "ar": "الاستضاءة تقيس الضوء الساقط على سطح.",
+     "en": "Illuminance measures light on a surface."
+    },
+    {
+     "de": "Das Auge sieht aber die Leuchtdichte.",
+     "ar": "لكن العين ترى اللمعان.",
+     "en": "But the eye sees luminance."
+    },
+    {
+     "de": "Sie beschreibt den Helligkeitseindruck einer leuchtenden oder beleuchteten Fläche.",
+     "ar": "وهو يصف انطباع السطوع لسطح مضيء أو مُضاء.",
+     "en": "It describes the brightness impression of a luminous or lit surface."
+    },
+    {
+     "de": "Ihre Einheit ist Candela pro Quadratmeter.",
+     "ar": "وحدته الشمعة لكل متر مربع.",
+     "en": "Its unit is candela per square metre."
+    },
+    {
+     "de": "Sie entscheidet über Kontrast und über Blendung.",
+     "ar": "وهو يحدد التباين والإبهار.",
+     "en": "It decides contrast and glare."
+    },
+    {
+     "de": "Hohe Leuchtdichten im Blickfeld stören beim Lesen und am Bildschirm.",
+     "ar": "اللمعان المرتفع في مجال الرؤية يزعج أثناء القراءة وأمام الشاشة.",
+     "en": "High luminances in the field of view disturb when reading and at the screen."
+    },
+    {
+     "de": "Blendung entsteht, wenn helle Flächen im Blickfeld stören.",
+     "ar": "ينشأ الإبهار عندما تزعج الأسطح الساطعة مجال الرؤية.",
+     "en": "Glare occurs when bright surfaces in the field of view disturb."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Blendung bewerten",
+    "heading": "UGR und Farbwiedergabe",
+    "items": [
+     "UGR: Maß für Blendung im Innenraum",
+     "UGR: Skala von zehn bis dreißig",
+     "UGR: niedriger Wert, weniger Blendung",
+     "Ra: Farbwiedergabeindex, Höchstwert hundert"
+    ],
+    "terms": [
+     {
+      "de": "Farbwiedergabe",
+      "ar": "إظهار الألوان",
+      "en": "colour rendering"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Für die Blendung im Innenraum gibt es das UGR-Verfahren.",
+     "ar": "توجد طريقة UGR لقياس الإبهار داخل المباني.",
+     "en": "For glare indoors there is the UGR method.",
+     "tts": "Für die Blendung im Innenraum gibt es das U-Ge-Er-Verfahren."
+    },
+    {
+     "de": "Die internationale Beleuchtungskommission hat es im Jahr neunzehnhundertfünfundneunzig entwickelt.",
+     "ar": "طورت اللجنة الدولية للإضاءة هذه الطريقة عام ١٩٩٥.",
+     "en": "The international lighting commission developed it in 1995.",
+     "tts": "Die internationale Beleuchtungskommission hat es im Jahr neunzehnhundertfünfundneunzig entwickelt."
+    },
+    {
+     "de": "Die Skala reicht von zehn bis dreißig.",
+     "ar": "يمتد المقياس من عشرة إلى ثلاثين.",
+     "en": "The scale runs from ten to thirty.",
+     "tts": "Die Skala reicht von zehn bis dreißig."
+    },
+    {
+     "de": "Ein niedriger Wert bedeutet weniger Blendung.",
+     "ar": "القيمة المنخفضة تعني إبهارًا أقل.",
+     "en": "A low value means less glare."
+    },
+    {
+     "de": "Das gilt zum Beispiel am Bildschirmarbeitsplatz, wo helle Leuchten stören.",
+     "ar": "وهذا ينطبق مثلًا على مكان العمل أمام الشاشة حيث تزعج الوحدات الساطعة.",
+     "en": "This applies, for example, at a screen workplace where bright luminaires disturb."
+    },
+    {
+     "de": "Bei LED-Leuchten mit sehr ungleichmäßiger Leuchtdichte kann das Verfahren Blendung unterschätzen.",
+     "ar": "وعند وحدات إنارة LED ذات لمعان غير متجانس جدًا قد تقلل الطريقة من تقدير الإبهار.",
+     "en": "With LED luminaires of very uneven luminance the method can underestimate glare.",
+     "tts": "Bei Ell-E-De-Leuchten mit sehr ungleichmäßiger Leuchtdichte kann das Verfahren Blendung unterschätzen."
+    },
+    {
+     "de": "Die Farbwiedergabe beschreibt, wie natürlich Farben unter einer Lichtquelle aussehen.",
+     "ar": "إظهار الألوان يصف مدى طبيعية الألوان تحت مصدر ضوئي.",
+     "en": "Colour rendering describes how natural colours look under a light source."
+    },
+    {
+     "de": "Dafür gibt es den Index Ra, der höchstens hundert erreicht.",
+     "ar": "ولذلك يوجد المؤشر Ra الذي يبلغ حده الأقصى مئة.",
+     "en": "For this there is the index Ra, which reaches at most one hundred.",
+     "tts": "Dafür gibt es den Index Er-A, der höchstens hundert erreicht."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Farbwiedergabe",
+    "heading": "Was sagt der Index Ra?",
+    "items": [
+     "Vergleich mit einer Referenzlichtquelle",
+     "Acht Testfarben",
+     "Höchstwert: hundert",
+     "Ergänzende Verfahren existieren"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Index Ra vergleicht eine Lichtquelle mit einer Referenzlichtquelle.",
+     "ar": "المؤشر Ra يقارن مصدرًا ضوئيًا بمصدر مرجعي.",
+     "en": "The index Ra compares a light source with a reference source.",
+     "tts": "Der Index Er-A vergleicht eine Lichtquelle mit einer Referenzlichtquelle."
+    },
+    {
+     "de": "Denken Sie in der Werkstatt an Aderfarben, die zuverlässig erkennbar sein müssen.",
+     "ar": "فكروا في الورشة بألوان الأسلاك التي يجب أن تكون قابلة للتمييز بوثوق.",
+     "en": "In the workshop think of wire colours, which must be reliably recognisable."
+    },
+    {
+     "de": "Beide haben dieselbe Farbtemperatur.",
+     "ar": "ولهما درجة حرارة اللون نفسها.",
+     "en": "Both have the same colour temperature."
+    },
+    {
+     "de": "Die Rechnung nutzt acht Testfarben.",
+     "ar": "يستخدم الحساب ثماني ألوان اختبار.",
+     "en": "The calculation uses eight test colours.",
+     "tts": "Die Rechnung nutzt acht Testfarben."
+    },
+    {
+     "de": "Hundert ist der beste Wert.",
+     "ar": "مئة هي أفضل قيمة.",
+     "en": "One hundred is the best value.",
+     "tts": "Hundert ist der beste Wert."
+    },
+    {
+     "de": "Der Verband ZVEI kritisiert, dass diese Testfarben wenig gesättigt sind.",
+     "ar": "تنتقد جمعية ZVEI أن ألوان الاختبار هذه قليلة التشبع.",
+     "en": "The association ZVEI criticises that these test colours are weakly saturated.",
+     "tts": "Der Verband Zet-Fau-E-I kritisiert, dass diese Testfarben wenig gesättigt sind."
+    },
+    {
+     "de": "Für Räume, in denen Farben wichtig sind, reicht eine einzelne Zahl deshalb oft nicht.",
+     "ar": "لذلك لا يكفي رقم واحد غالبًا في الغرف التي تهم فيها الألوان.",
+     "en": "For rooms where colours matter, a single number is therefore often not enough."
+    },
+    {
+     "de": "Deshalb gibt es ergänzende Verfahren. In der Praxis zählt auch der Eindruck im Raum.",
+     "ar": "لذلك توجد طرق مكمّلة. وفي الممارسة يهم أيضًا الانطباع داخل الغرفة.",
+     "en": "So there are supplementary methods. In practice the impression in the room also counts."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Planungsablauf",
+    "heading": "Der Planungsablauf in fünf Schritten",
+    "items": [
+     "Raum: Geometrie und Nutzung",
+     "Flächen: Reflexionsgrade, Wartung",
+     "Leuchten: Daten aus Dateien",
+     "Berechnung und Auswertung"
+    ],
+    "terms": [
+     {
+      "de": "Planungsablauf",
+      "ar": "مسار التخطيط",
+      "en": "planning workflow"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Ablauf einer Lichtplanung ist in fast allen Programmen ähnlich.",
+     "ar": "مسار تخطيط الإنارة متشابه تقريبًا في معظم البرامج.",
+     "en": "The workflow of lighting design is similar in almost all programs."
+    },
+    {
+     "de": "Wir gehen die fünf Schritte nun nacheinander durch.",
+     "ar": "سنمر على الخطوات الخمس الآن واحدة تلو الأخرى.",
+     "en": "We now go through the five steps one after another."
+    },
+    {
+     "de": "Schritt eins: Sie legen den Raum an.",
+     "ar": "الخطوة الأولى: تنشئون الغرفة.",
+     "en": "Step one: you create the room."
+    },
+    {
+     "de": "Die Menüs unterscheiden sich von Programm zu Programm, die Logik bleibt gleich.",
+     "ar": "تختلف القوائم من برنامج إلى آخر لكن المنطق يبقى نفسه.",
+     "en": "The menus differ from program to program, the logic stays the same."
+    },
+    {
+     "de": "Schritt zwei: Sie legen Oberflächen und Wartung fest.",
+     "ar": "الخطوة الثانية: تحددون الأسطح والصيانة.",
+     "en": "Step two: you define surfaces and maintenance."
+    },
+    {
+     "de": "Schritt drei: Sie wählen Leuchten mit ihren Daten.",
+     "ar": "الخطوة الثالثة: تختارون وحدات الإنارة مع بياناتها.",
+     "en": "Step three: you select luminaires with their data."
+    },
+    {
+     "de": "Schritt vier: Das Programm rechnet.",
+     "ar": "الخطوة الرابعة: يقوم البرنامج بالحساب.",
+     "en": "Step four: the program calculates."
+    },
+    {
+     "de": "Schritt fünf: Sie werten die Ergebnisse aus.",
+     "ar": "الخطوة الخامسة: تقيّمون النتائج.",
+     "en": "Step five: you evaluate the results."
+    },
+    {
+     "de": "Wichtig: Jeder Schritt beeinflusst die späteren Schritte.",
+     "ar": "المهم أن كل خطوة تؤثر في الخطوات اللاحقة.",
+     "en": "Important: each step influences the later steps."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schritt 1",
+    "heading": "Der Raum",
+    "items": [
+     "Länge, Breite, Höhe",
+     "Nutzung und Sehaufgabe",
+     "Bezugsfläche, zum Beispiel Arbeitsplatz",
+     "Pläne oder Modelle importieren"
+    ],
+    "terms": [
+     {
+      "de": "Sehaufgabe",
+      "ar": "المهمة البصرية",
+      "en": "visual task"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im ersten Schritt beschreiben Sie den Raum.",
+     "ar": "في الخطوة الأولى تصفون الغرفة.",
+     "en": "In the first step you describe the room."
+    },
+    {
+     "de": "Dazu brauchen Sie genaue Maße aus dem Plan oder aus dem Aufmaß.",
+     "ar": "تحتاجون لذلك إلى قياسات دقيقة من المخطط أو من القياس في الموقع.",
+     "en": "For this you need exact dimensions from the plan or from a site survey."
+    },
+    {
+     "de": "Dazu gehören Länge, Breite und Höhe.",
+     "ar": "يشمل ذلك الطول والعرض والارتفاع.",
+     "en": "This includes length, width and height."
+    },
+    {
+     "de": "Viele Programme können dafür Pläne oder Gebäudemodelle importieren.",
+     "ar": "تستطيع برامج كثيرة استيراد المخططات أو نماذج المباني لهذا الغرض.",
+     "en": "Many programs can import plans or building models for this.",
+     "tts": "Viele Programme können dafür Pläne oder Gebäudemodelle importieren."
+    },
+    {
+     "de": "Dann legen Sie die Nutzung fest, also die Sehaufgabe.",
+     "ar": "ثم تحددون الاستخدام، أي المهمة البصرية.",
+     "en": "Then you define the use, that is the visual task."
+    },
+    {
+     "de": "Ein Fehler bei der Raumhöhe verändert später das gesamte Ergebnis.",
+     "ar": "خطأ في ارتفاع الغرفة يغيّر لاحقًا النتيجة كلها.",
+     "en": "A mistake in the room height changes the whole result later."
+    },
+    {
+     "de": "Lesen am Schreibtisch braucht anderes Licht als Lagerarbeit.",
+     "ar": "القراءة على المكتب تحتاج إلى إضاءة تختلف عن العمل في المخزن.",
+     "en": "Reading at a desk needs different light than warehouse work."
+    },
+    {
+     "de": "Außerdem bestimmen Sie die Fläche, auf der später gerechnet wird.",
+     "ar": "كما تحددون السطح الذي سيجري عليه الحساب لاحقًا.",
+     "en": "You also define the area on which the calculation will be done."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Schritt 2",
+    "heading": "Reflexionsgrade und Wartung",
+    "items": [
+     "Reflexionsgrad | Anteil des zurückgeworfenen Lichts",
+     "Heller Raum | weniger Licht nötig",
+     "Dunkler Raum | mehr Licht nötig",
+     "Wartungsfaktor | Alterung und Verschmutzung",
+     "Wert | nie größer als eins"
+    ],
+    "terms": [
+     {
+      "de": "Reflexionsgrad",
+      "ar": "معامل الانعكاس",
+      "en": "reflectance"
+     },
+     {
+      "de": "Wartungsfaktor",
+      "ar": "معامل الصيانة",
+      "en": "maintenance factor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im zweiten Schritt legen Sie die Oberflächen fest.",
+     "ar": "في الخطوة الثانية تحددون الأسطح.",
+     "en": "In the second step you define the surfaces."
+    },
+    {
+     "de": "Decke, Wände und Boden werfen Licht unterschiedlich stark zurück.",
+     "ar": "السقف والجدران والأرض تعكس الضوء بدرجات مختلفة.",
+     "en": "Ceiling, walls and floor reflect light with different strength."
+    },
+    {
+     "de": "Dieser Anteil heißt Reflexionsgrad.",
+     "ar": "تسمى هذه النسبة معامل الانعكاس.",
+     "en": "This share is called reflectance."
+    },
+    {
+     "de": "Auch Wände und Decken altern, deshalb sinkt ihr Reflexionsgrad mit der Zeit.",
+     "ar": "كما أن الجدران والسقف تتقادم، لذلك ينخفض معامل انعكاسها مع الزمن.",
+     "en": "Walls and ceilings also age, so their reflectance falls over time."
+    },
+    {
+     "de": "Ein dunkler Raum braucht für dieselbe Helligkeit mehr Licht.",
+     "ar": "الغرفة الداكنة تحتاج إلى ضوء أكثر لنفس مستوى السطوع.",
+     "en": "A dark room needs more light for the same brightness."
+    },
+    {
+     "de": "Dazu kommt der Wartungsfaktor.",
+     "ar": "ويضاف إلى ذلك معامل الصيانة.",
+     "en": "Then comes the maintenance factor."
+    },
+    {
+     "de": "Er berücksichtigt, dass Lampen altern und Leuchten und Wände schmutzig werden.",
+     "ar": "فهو يراعي أن المصابيح تتقادم وأن وحدات الإنارة والجدران تتسخ.",
+     "en": "It considers that lamps age and luminaires and walls get dirty."
+    },
+    {
+     "de": "Er ist nie größer als eins. Realistische Werte hängen vom Projekt ab.",
+     "ar": "لا يزيد أبدًا عن واحد. والقيم الواقعية تعتمد على المشروع.",
+     "en": "It is never larger than one. Realistic values depend on the project."
+    },
+    {
+     "de": "Fragen Sie im Zweifel den Auftraggeber oder prüfen Sie die Angaben in der Norm.",
+     "ar": "إذا كان لديكم شك فاسألوا صاحب المشروع أو راجعوا المعيار.",
+     "en": "If in doubt, ask the client or check the standard."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schritt 3",
+    "heading": "Leuchtendaten: IES und EULUMDAT",
+    "items": [
+     "Lichtverteilung der Leuchte",
+     "Dateiformate für den Austausch",
+     "EULUMDAT: verbreitet in Europa",
+     "IES: Gegenstück aus Nordamerika"
+    ],
+    "terms": [
+     {
+      "de": "Leuchtendaten",
+      "ar": "بيانات وحدة الإنارة",
+      "en": "luminaire data"
+     },
+     {
+      "de": "Lichtverteilung",
+      "ar": "توزيع الضوء",
+      "en": "light distribution"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im dritten Schritt wählen Sie Leuchten.",
+     "ar": "في الخطوة الثالثة تختارون وحدات الإنارة.",
+     "en": "In the third step you select luminaires."
+    },
+    {
+     "de": "Das Programm muss wissen, wie jede Leuchte ihr Licht verteilt.",
+     "ar": "يجب أن يعرف البرنامج كيف توزّع كل وحدة إنارة ضوءها.",
+     "en": "The program must know how each luminaire distributes its light."
+    },
+    {
+     "de": "Jede Leuchte hat eigene Daten, denn Linsen und Reflektoren lenken das Licht anders.",
+     "ar": "لكل وحدة إنارة بياناتها الخاصة لأن العدسات والعاكسات توجّه الضوء بشكل مختلف.",
+     "en": "Every luminaire has its own data, because lenses and reflectors direct the light differently."
+    },
+    {
+     "de": "Diese Lichtverteilung misst der Hersteller im Labor.",
+     "ar": "يقيس المصنّع توزيع الضوء هذا في المختبر.",
+     "en": "The manufacturer measures this light distribution in the laboratory."
+    },
+    {
+     "de": "Ohne diese Datei kann das Programm die Leuchte nicht richtig berechnen.",
+     "ar": "بدون هذا الملف لا يستطيع البرنامج حساب وحدة الإنارة بشكل صحيح.",
+     "en": "Without this file the program cannot calculate the luminaire correctly."
+    },
+    {
+     "de": "Er liefert sie als Datei, zum Beispiel im Format EULUMDAT.",
+     "ar": "ويقدمها كملف، مثلًا بصيغة EULUMDAT المعروفة.",
+     "en": "He supplies it as a file, for example in the format EULUMDAT.",
+     "tts": "Er liefert sie als Datei, zum Beispiel im Format Eu-lum-dat."
+    },
+    {
+     "de": "Dieses Format ist in Europa verbreitet.",
+     "ar": "هذه الصيغة منتشرة في أوروبا.",
+     "en": "This format is common in Europe."
+    },
+    {
+     "de": "Das nordamerikanische Gegenstück heißt IES.",
+     "ar": "أما في أمريكا الشمالية فالصيغة المقابلة اسمها IES ومعروفة هناك.",
+     "en": "The North American counterpart is called IES.",
+     "tts": "Das nordamerikanische Gegenstück heißt I-E-Es."
+    },
+    {
+     "de": "Die Messung und der Datenaustausch sind auch in einer Europäischen Norm beschrieben.",
+     "ar": "والقياس وتبادل البيانات موصوفان أيضًا في معيار أوروبي.",
+     "en": "Measurement and data exchange are also described in a European standard."
+    },
+    {
+     "de": "Nutzen Sie möglichst die aktuellen Daten direkt vom Hersteller.",
+     "ar": "استخدموا قدر الإمكان البيانات الحالية مباشرة من المصنّع.",
+     "en": "Use the current data directly from the manufacturer if possible."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schritt 4",
+    "heading": "Die Berechnung",
+    "items": [
+     "Eingaben: Raum, Flächen, Leuchten",
+     "Mittelwert über die Nutzfläche",
+     "Verteilung der Werte im Raum",
+     "Ergebnis ist ein Modell"
+    ],
+    "terms": [
+     {
+      "de": "Gleichmäßigkeit",
+      "ar": "انتظام الإضاءة",
+      "en": "uniformity"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im vierten Schritt rechnet das Programm.",
+     "ar": "في الخطوة الرابعة يقوم البرنامج بالحساب.",
+     "en": "In the fourth step the program calculates."
+    },
+    {
+     "de": "Es nutzt Ihre Eingaben: Raum, Oberflächen und Leuchtendaten.",
+     "ar": "يستخدم مدخلاتكم: الغرفة والأسطح وبيانات وحدات الإنارة.",
+     "en": "It uses your inputs: room, surfaces and luminaire data."
+    },
+    {
+     "de": "Das Programm kennt dann die Geometrie, die Flächen und alle Leuchten.",
+     "ar": "عندها يعرف البرنامج الهندسة والأسطح وكل وحدات الإنارة.",
+     "en": "The program then knows the geometry, the surfaces and all luminaires."
+    },
+    {
+     "de": "Einfache Verfahren liefern einen Mittelwert der Beleuchtungsstärke.",
+     "ar": "الطرق البسيطة تعطي متوسطًا للاستضاءة.",
+     "en": "Simple methods give a mean value of the illuminance."
+    },
+    {
+     "de": "Dafür nutzen sie Lichtstrom, Raumwirkungsgrad und Nutzfläche.",
+     "ar": "وتستخدم لذلك التدفق الضوئي وكفاءة الغرفة والمساحة المفيدة.",
+     "en": "For this they use luminous flux, room efficiency and usable area."
+    },
+    {
+     "de": "Der Raumwirkungsgrad hängt von den Reflexionsgraden und der Raumform ab.",
+     "ar": "وتعتمد كفاءة الغرفة على معاملات الانعكاس وشكل الغرفة.",
+     "en": "The room efficiency depends on the reflectances and the room shape."
+    },
+    {
+     "de": "Normen verlangen aber auch eine gleichmäßige Verteilung.",
+     "ar": "لكن المعايير تطلب أيضًا توزيعًا متجانسًا.",
+     "en": "But standards also require an even distribution."
+    },
+    {
+     "de": "Das Ergebnis bleibt ein Modell und ist keine Messung im fertigen Raum.",
+     "ar": "تبقى النتيجة نموذجًا وليست قياسًا في الغرفة المنجزة.",
+     "en": "The result remains a model and is no measurement in the finished room."
+    },
+    {
+     "de": "Deshalb prüfen Sie wichtige Ergebnisse später im Gebäude selbst.",
+     "ar": "لذلك تتحققون من النتائج المهمة لاحقًا في المبنى نفسه.",
+     "en": "So you check important results later in the building itself."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Schritt 5",
+    "heading": "Die Auswertung",
+    "items": [
+     "Beleuchtungsstärke | Wartungswert prüfen",
+     "Gleichmäßigkeit | Verteilung prüfen",
+     "Blendung | UGR prüfen",
+     "Farbwiedergabe | Ra prüfen",
+     "Dokumentation | Bericht und Leuchtenliste"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im fünften Schritt werten Sie die Ergebnisse aus.",
+     "ar": "في الخطوة الخامسة تقيّمون النتائج.",
+     "en": "In the fifth step you evaluate the results."
+    },
+    {
+     "de": "Sie vergleichen sie mit den Anforderungen der Norm.",
+     "ar": "تقارنونها بمتطلبات المعيار.",
+     "en": "You compare them with the requirements of the standard."
+    },
+    {
+     "de": "Zuerst prüfen Sie, ob das Modell plausibel ist.",
+     "ar": "أولًا تتحققون من معقولية النموذج.",
+     "en": "First you check whether the model is plausible."
+    },
+    {
+     "de": "Die Tabellen der Norm nennen unter anderem den Wartungswert der Beleuchtungsstärke.",
+     "ar": "تذكر جداول المعيار، من بين أمور أخرى، القيمة المطلوبة للاستضاءة عند الصيانة.",
+     "en": "The tables of the standard name, among others, the maintained value of illuminance."
+    },
+    {
+     "de": "Außerdem nennen sie Gleichmäßigkeit, Blendungsbewertung und Farbwiedergabe.",
+     "ar": "كما تذكر الانتظام وتقييم الإبهار وإظهار الألوان.",
+     "en": "They also name uniformity, glare rating and colour rendering."
+    },
+    {
+     "de": "Sind Werte nicht erfüllt, ändern Sie Leuchten oder Anordnung und rechnen neu.",
+     "ar": "إذا لم تتحقق القيم، تغيّرون وحدات الإنارة أو ترتيبها وتعيدون الحساب.",
+     "en": "If values are not met, you change luminaires or layout and recalculate."
+    },
+    {
+     "de": "Am Ende erstellen Sie einen Bericht mit Leuchtenliste.",
+     "ar": "وفي النهاية تعدّون تقريرًا مع قائمة وحدات الإنارة.",
+     "en": "At the end you create a report with a luminaire list."
+    },
+    {
+     "de": "Das Ziel ist ein nachvollziehbarer Nachweis für Auftraggeber und Prüfer.",
+     "ar": "الهدف إثبات واضح لصاحب المشروع وللجهة المراجعة.",
+     "en": "The goal is a traceable proof for client and reviewers."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Normen",
+    "heading": "DIN EN 12464-1 für Arbeitsstätten",
+    "items": [
+     "Titel: Beleuchtung von Arbeitsstätten, Innenräume",
+     "Ausgabe: November zweitausendeinundzwanzig",
+     "Inhalt: Menge und Qualität des Lichts",
+     "Grenze: Notbeleuchtung ausgenommen"
+    ],
+    "terms": [
+     {
+      "de": "Arbeitsstätte",
+      "ar": "مكان العمل",
+      "en": "workplace"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die wichtigste Norm für Arbeitsstätten in Innenräumen ist DIN EN 12464-1.",
+     "ar": "أهم معيار لأماكن العمل الداخلية هو DIN EN 12464-1 في ألمانيا.",
+     "en": "The most important standard for indoor workplaces is DIN EN 12464-1.",
+     "tts": "Die wichtigste Norm für Arbeitsstätten in Innenräumen ist Din E-En zwölftausendvierhundertvierundsechzig, Teil eins."
+    },
+    {
+     "de": "Die aktuelle deutsche Ausgabe ist vom November zweitausendeinundzwanzig.",
+     "ar": "الإصدار الألماني الحالي صدر في نوفمبر ٢٠٢١.",
+     "en": "The current German edition is from November 2021.",
+     "tts": "Die aktuelle deutsche Ausgabe ist vom November zweitausendeinundzwanzig."
+    },
+    {
+     "de": "Der Titel lautet vollständig: Licht und Beleuchtung, Beleuchtung von Arbeitsstätten, Teil eins.",
+     "ar": "العنوان الكامل: الضوء والإضاءة، إضاءة أماكن العمل، الجزء الأول.",
+     "en": "The full title is: light and lighting, lighting of work places, part one."
+    },
+    {
+     "de": "Sie ersetzt die Ausgabe von zweitausendelf.",
+     "ar": "وهي تحل محل إصدار ٢٠١١.",
+     "en": "It replaces the edition of 2011.",
+     "tts": "Sie ersetzt die Ausgabe von zweitausendelf."
+    },
+    {
+     "de": "Sie behandelt Menge und Qualität der Beleuchtung, auch bei Bildschirmarbeit.",
+     "ar": "تتناول كمية الإضاءة ونوعيتها، بما في ذلك العمل على الشاشات.",
+     "en": "It covers quantity and quality of lighting, including screen work."
+    },
+    {
+     "de": "Außenarbeitsplätze und Notbeleuchtung gehören nicht dazu.",
+     "ar": "أماكن العمل الخارجية وإضاءة الطوارئ لا تدخل فيها.",
+     "en": "Outdoor workplaces and emergency lighting are not part of it."
+    },
+    {
+     "de": "Die Zahlen für Beleuchtungsstärke, Blendung und Farbwiedergabe stehen in den Tabellen der Norm.",
+     "ar": "الأرقام الخاصة بالاستضاءة والإبهار وإظهار الألوان موجودة في جداول المعيار.",
+     "en": "The numbers for illuminance, glare and colour rendering are in the tables of the standard."
+    },
+    {
+     "de": "Wir zitieren den Normtext nicht. Die Norm kaufen Sie beim Normenverlag.",
+     "ar": "لا نقتبس نص المعيار. وتحصلون على المعيار من دار النشر المختصة.",
+     "en": "We do not quote the standard text. You obtain the standard from the standards publisher."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Arbeitsschutz",
+    "heading": "Norm und Arbeitsstättenverordnung",
+    "items": [
+     "Norm: Planungsgrundlage für Beleuchtung",
+     "ASR A3.4: Beleuchtung und Sichtverbindung",
+     "Ausgabe Mai zweitausenddreiundzwanzig",
+     "Beides parallel beachten"
+    ],
+    "terms": [
+     {
+      "de": "Arbeitsstättenverordnung",
+      "ar": "لائحة أماكن العمل",
+      "en": "Workplace Ordinance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Norm regelt keinen Arbeitsschutz im rechtlichen Sinn.",
+     "ar": "المعيار لا ينظم الحماية المهنية بالمعنى القانوني.",
+     "en": "The standard does not regulate occupational safety in the legal sense."
+    },
+    {
+     "de": "Veröffentlicht wird diese Regel von der Bundesanstalt für Arbeitsschutz und Arbeitsmedizin.",
+     "ar": "تنشر هذه القاعدة الهيئة الاتحادية للحماية المهنية والطب المهني.",
+     "en": "This rule is published by the Federal Institute for Occupational Safety and Health."
+    },
+    {
+     "de": "Dafür gibt es in Deutschland die Arbeitsstättenverordnung.",
+     "ar": "لذلك توجد في ألمانيا لائحة أماكن العمل.",
+     "en": "For this Germany has the Workplace Ordinance."
+    },
+    {
+     "de": "Die Technische Regel A3.4 konkretisiert sie bei der Beleuchtung.",
+     "ar": "القاعدة الفنية A3.4 توضّحها فيما يخص الإضاءة.",
+     "en": "The technical rule A3.4 specifies it for lighting.",
+     "tts": "Die Technische Regel A-Es-Er A drei Punkt vier konkretisiert sie bei der Beleuchtung."
+    },
+    {
+     "de": "Ihr Titel lautet Beleuchtung und Sichtverbindung.",
+     "ar": "عنوانها: الإضاءة والاتصال البصري.",
+     "en": "Its title is lighting and visual connection."
+    },
+    {
+     "de": "Die aktuelle Ausgabe ist vom Mai zweitausenddreiundzwanzig.",
+     "ar": "الإصدار الحالي صدر في مايو ٢٠٢٣.",
+     "en": "The current edition is from May 2023.",
+     "tts": "Die aktuelle Ausgabe ist vom Mai zweitausenddreiundzwanzig."
+    },
+    {
+     "de": "Wer die Technische Regel einhält, erfüllt damit die Anforderungen der Verordnung.",
+     "ar": "من يلتزم بالقاعدة الفنية يفي بمتطلبات اللائحة.",
+     "en": "Whoever follows the technical rule meets the requirements of the ordinance."
+    },
+    {
+     "de": "In der Praxis beachten Sie Norm und Regel nebeneinander.",
+     "ar": "وفي الممارسة تراعون المعيار والقاعدة معًا.",
+     "en": "In practice you observe standard and rule side by side."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Notbeleuchtung",
+    "heading": "Abgrenzung zur Notbeleuchtung",
+    "items": [
+     "Normale Beleuchtung: dieses Video",
+     "Notbeleuchtung: eigene Normen",
+     "Rettungswege: eigene Regeln",
+     "Details im Video E-B05"
+    ],
+    "terms": [
+     {
+      "de": "Notbeleuchtung",
+      "ar": "إضاءة الطوارئ",
+      "en": "emergency lighting"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wichtig ist die Abgrenzung zur Notbeleuchtung.",
+     "ar": "من المهم التمييز عن إضاءة الطوارئ.",
+     "en": "The distinction from emergency lighting is important."
+    },
+    {
+     "de": "Sie folgt eigenen Normen und eigenen Regeln.",
+     "ar": "فهي تخضع لمعايير ولوائح خاصة بها.",
+     "en": "It follows its own standards and rules."
+    },
+    {
+     "de": "Für Flucht- und Rettungswege gibt es zum Beispiel die Technische Regel A2.3.",
+     "ar": "لمسارات الهروب والإنقاذ توجد مثلًا القاعدة الفنية A2.3 الخاصة بها.",
+     "en": "For escape and rescue routes there is, for example, the technical rule A2.3.",
+     "tts": "Für Flucht- und Rettungswege gibt es zum Beispiel die Technische Regel A-Es-Er A zwei Punkt drei."
+    },
+    {
+     "de": "Die Norm für die Lichttechnik der Notbeleuchtung ist DIN EN 1838.",
+     "ar": "معيار الخصائص الضوئية لإضاءة الطوارئ هو DIN EN 1838 الأوروبي.",
+     "en": "The standard for the lighting properties of emergency lighting is DIN EN 1838.",
+     "tts": "Die Norm für die Lichttechnik der Notbeleuchtung ist Din E-En eintausendachthundertachtunddreißig."
+    },
+    {
+     "de": "Die Details dazu behandeln wir im Video E-B05.",
+     "ar": "نتناول تفاصيلها في الفيديو E-B05 المخصص لذلك.",
+     "en": "We cover the details in video E-B05.",
+     "tts": "Die Details dazu behandeln wir im Video E-B-null-fünf."
+    },
+    {
+     "de": "Rechnen Sie Notbeleuchtung nie mit den Annahmen der normalen Beleuchtung.",
+     "ar": "لا تحسبوا إضاءة الطوارئ أبدًا بافتراضات الإضاءة العادية.",
+     "en": "Never calculate emergency lighting with the assumptions of normal lighting."
+    },
+    {
+     "de": "Prüfen Sie, welche Regeln im Land des Projekts für Sicherheitsbeleuchtung gelten.",
+     "ar": "تحققوا من القواعد السارية على إضاءة الأمان في ولاية المشروع.",
+     "en": "Check which rules for safety lighting apply in the state of the project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Beispiel",
+    "heading": "DIALux und freie Alternativen",
+    "items": [
+     "DIALux | Programm der DIAL GmbH",
+     "Kosten | laut Hersteller kostenlos nutzbar",
+     "Leuchten | Auswahl kann begrenzt sein",
+     "Weitere | Programme anderer Hersteller",
+     "Frei | Radiance, offene Simulation"
+    ],
+    "terms": [
+     {
+      "de": "Alternative",
+      "ar": "بديل",
+      "en": "alternative"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zum Beispiel DIALux.",
+     "ar": "والآن إلى المثال، وهو برنامج DIALux المعروف.",
+     "en": "Now to the example DIALux.",
+     "tts": "Nun zum Beispiel Dialux."
+    },
+    {
+     "de": "Es stammt von der DIAL GmbH aus Lüdenscheid.",
+     "ar": "وهو من إنتاج شركة DIAL GmbH من لودنشايد.",
+     "en": "It comes from DIAL GmbH in Lüdenscheid.",
+     "tts": "Es stammt von der Dial G-m-b-H aus Lüdenscheid."
+    },
+    {
+     "de": "Laut Hersteller ist die Nutzung kostenlos, auch beruflich.",
+     "ar": "بحسب الشركة المصنّعة الاستخدام مجاني حتى للأغراض المهنية.",
+     "en": "According to the manufacturer, use is free, also professionally."
+    },
+    {
+     "de": "Die Entwicklung finanzieren vor allem Leuchtenhersteller.",
+     "ar": "ويموّل التطوير أساسًا مصنّعو وحدات الإنارة.",
+     "en": "The development is financed mainly by luminaire manufacturers."
+    },
+    {
+     "de": "Deshalb kann die Auswahl an Leuchten begrenzt sein.",
+     "ar": "لذلك قد يكون اختيار وحدات الإنارة محدودًا.",
+     "en": "So the choice of luminaires can be limited."
+    },
+    {
+     "de": "Die Bedingungen ändern sich, prüfen Sie sie beim Hersteller.",
+     "ar": "الشروط تتغير، فتحققوا منها لدى الشركة المصنّعة.",
+     "en": "The conditions change, so check them with the manufacturer."
+    },
+    {
+     "de": "Auch andere Hersteller bieten Lichtplanungsprogramme an.",
+     "ar": "كما تقدّم شركات أخرى برامج لتخطيط الإنارة.",
+     "en": "Other vendors also offer lighting design programs."
+    },
+    {
+     "de": "Ein kostenloses Programm ist kein Freibrief für schlechte Planung.",
+     "ar": "البرنامج المجاني ليس رخصة للتخطيط السيئ.",
+     "en": "A free program is no free pass for poor planning."
+    },
+    {
+     "de": "Frei und offen ist die Simulation Radiance. Sie ist eher für Fachleute.",
+     "ar": "ومحاكاة Radiance حرة ومفتوحة، وهي أقرب إلى المتخصصين.",
+     "en": "The simulation Radiance is free and open. It is rather for specialists."
+    },
+    {
+     "de": "Die Lichtplanung selbst bleibt immer Ihre fachliche Entscheidung.",
+     "ar": "يبقى تخطيط الإنارة نفسه قرارًا مهنيًا منكم دائمًا.",
+     "en": "The lighting design itself always remains your professional decision."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Qualität",
+    "heading": "Ergebnisse kritisch prüfen",
+    "items": [
+     "Eingaben: Fehler stecken meist im Modell",
+     "Herstellerdaten: aktuelle Dateien nutzen",
+     "Plausibilität: Ergebnis grob nachrechnen",
+     "Praxis: Messung im fertigen Raum"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Programm rechnet genau, aber nur mit Ihren Eingaben.",
+     "ar": "البرنامج يحسب بدقة لكن بمدخلاتكم فقط.",
+     "en": "A program calculates exactly, but only with your inputs."
+    },
+    {
+     "de": "Falsche Reflexionsgrade führen zu falschen Ergebnissen.",
+     "ar": "معاملات انعكاس خاطئة تؤدي إلى نتائج خاطئة.",
+     "en": "Wrong reflectances lead to wrong results."
+    },
+    {
+     "de": "Planen Sie deshalb lieber mit Reserven bei Wartung und Verschmutzung.",
+     "ar": "لذلك خططوا بهوامش أمان للصيانة والاتساخ.",
+     "en": "So rather plan with reserves for maintenance and dirt."
+    },
+    {
+     "de": "Nutzen Sie die aktuellen Leuchtendaten direkt vom Hersteller.",
+     "ar": "استخدموا بيانات وحدات الإنارة الحالية مباشرة من المصنّع.",
+     "en": "Use the current luminaire data directly from the manufacturer."
+    },
+    {
+     "de": "Ein Programmergebnis ersetzt keine Prüfung durch Fachleute vor Ort.",
+     "ar": "نتيجة البرنامج لا تغني عن فحص المختصين في الموقع.",
+     "en": "A program result does not replace inspection by specialists on site."
+    },
+    {
+     "de": "Rechnen Sie das Ergebnis grob nach, mit dem Wirkungsgradverfahren.",
+     "ar": "أعيدوا حساب النتيجة تقريبيًا بطريقة معامل الاستفادة.",
+     "en": "Check the result roughly with the efficiency method."
+    },
+    {
+     "de": "Im fertigen Raum kann eine Messung die Planung bestätigen.",
+     "ar": "في الغرفة المنجزة يمكن لقياس أن يؤكد التخطيط.",
+     "en": "In the finished room a measurement can confirm the design."
+    },
+    {
+     "de": "Beim Einbau und bei Arbeiten an Leuchten gelten die fünf Sicherheitsregeln.",
+     "ar": "عند التركيب والعمل على وحدات الإنارة تسري قواعد السلامة الخمس.",
+     "en": "During installation and work on luminaires the five safety rules apply."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Sicherheit",
+    "heading": "Arbeiten an Leuchten",
+    "items": [
+     "Freischalten",
+     "Gegen Wiedereinschalten sichern",
+     "Spannungsfreiheit allpolig feststellen",
+     "Erden, kurzschließen, abdecken oder abschranken"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Planung am Rechner ist ungefährlich, die Ausführung nicht.",
+     "ar": "التخطيط بالحاسوب غير خطِر، أما التنفيذ فخطِر.",
+     "en": "Planning on the computer is harmless, the execution is not."
+    },
+    {
+     "de": "Arbeiten an elektrischen Leuchten und Anlagen macht eine Elektrofachkraft.",
+     "ar": "يقوم بالأعمال على وحدات الإنارة والمنشآت الكهربائية كهربائي مؤهَّل.",
+     "en": "Work on electrical luminaires and installations is done by an Elektrofachkraft."
+    },
+    {
+     "de": "Oder die Arbeit geschieht unter Leitung und Aufsicht einer Elektrofachkraft.",
+     "ar": "أو يجري العمل تحت إدارة وإشراف كهربائي مؤهَّل.",
+     "en": "Or the work is done under the direction and supervision of an Elektrofachkraft."
+    },
+    {
+     "de": "Es gelten die fünf Sicherheitsregeln in fester Reihenfolge.",
+     "ar": "تسري قواعد السلامة الخمس بترتيب ثابت.",
+     "en": "The five safety rules apply in a fixed order."
+    },
+    {
+     "de": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen.",
+     "ar": "فصل الجهد، وتأمينها ضد إعادة التشغيل، والتحقق من انعدام الجهد في كل الأقطاب.",
+     "en": "Isolate, secure against reconnection, verify absence of voltage on all poles."
+    },
+    {
+     "de": "Dann erden und kurzschließen und benachbarte Teile abdecken oder abschranken.",
+     "ar": "ثم التأريض والتقصير وتغطية الأجزاء المجاورة أو إحاطتها بحواجز.",
+     "en": "Then earth and short-circuit and cover or fence off neighbouring parts."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das Wichtigste in Kürze",
+    "items": [
+     "Größen: Lumen, Lux, Candela pro Quadratmeter",
+     "Blendung und Farbwiedergabe prüfen",
+     "Ablauf: Raum bis Auswertung in fünf Schritten",
+     "Normen und Hersteller-Daten aktuell halten"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "نلخّص ما سبق.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Lichtplanung nutzt Lichtstrom, Beleuchtungsstärke und Leuchtdichte.",
+     "ar": "يستخدم تخطيط الإنارة التدفق الضوئي والاستضاءة واللمعان.",
+     "en": "Lighting design uses luminous flux, illuminance and luminance."
+    },
+    {
+     "de": "Merken Sie sich die Reihenfolge: erst verstehen, dann rechnen, dann prüfen.",
+     "ar": "احفظوا الترتيب: أولًا الفهم ثم الحساب ثم الفحص.",
+     "en": "Remember the order: first understand, then calculate, then check."
+    },
+    {
+     "de": "Dazu kommen die Bewertung von Blendung und Farbwiedergabe.",
+     "ar": "ويضاف إليها تقييم الإبهار وإظهار الألوان.",
+     "en": "Added to this are the assessment of glare and colour rendering."
+    },
+    {
+     "de": "Der Ablauf: Raum, Flächen, Leuchtendaten, Berechnung, Auswertung.",
+     "ar": "المسار: الغرفة، الأسطح، بيانات وحدات الإنارة، الحساب، التقييم.",
+     "en": "The workflow: room, surfaces, luminaire data, calculation, evaluation."
+    },
+    {
+     "de": "Mit diesen Begriffen verstehen Sie Lichtberichte und können gezielt Fragen stellen.",
+     "ar": "بهذه المصطلحات تفهمون تقارير الإنارة وتستطيعون طرح الأسئلة بشكل موجه.",
+     "en": "With these terms you understand lighting reports and can ask targeted questions."
+    },
+    {
+     "de": "Die Norm für Innenarbeitsplätze ist DIN EN 12464-1, ergänzt durch die Technische Regel A3.4.",
+     "ar": "معيار أماكن العمل الداخلية هو DIN EN 12464-1 مع القاعدة الفنية A3.4 المكمّلة.",
+     "en": "The standard for indoor workplaces is DIN EN 12464-1, complemented by technical rule A3.4.",
+     "tts": "Die Norm für Innenarbeitsplätze ist Din E-En zwölftausendvierhundertvierundsechzig, Teil eins, ergänzt durch die Technische Regel A-Es-Er A drei Punkt vier."
+    },
+    {
+     "de": "Für Notbeleuchtung gilt das Video E-B05.",
+     "ar": "أما إضاءة الطوارئ ففي الفيديو E-B05 الخاص بها.",
+     "en": "For emergency lighting see video E-B05.",
+     "tts": "Für Notbeleuchtung gilt das Video E-B-null-fünf."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schlusshinweis",
+    "heading": "Normen ändern sich",
+    "items": [
+     "Gesetze und Normen ändern sich",
+     "Aktuelle Fassungen prüfen",
+     "Allgemeine Information",
+     "Keine Rechts- oder Ingenieurberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وفي الختام ملاحظة مهمة.",
+     "en": "Finally, an important note."
+    },
+    {
+     "de": "Gesetze, Normen und Software ändern sich.",
+     "ar": "القوانين والمعايير والبرامج تتغير.",
+     "en": "Laws, standards and software change."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Fassung und die Bedingungen des Herstellers.",
+     "ar": "تحققوا دائمًا من النسخة الحالية وشروط الشركة المصنّعة.",
+     "en": "Always check the current version and the conditions of the manufacturer."
+    },
+    {
+     "de": "Dieses Video gibt allgemeine Informationen.",
+     "ar": "يقدم هذا الفيديو معلومات عامة.",
+     "en": "This video gives general information."
+    },
+    {
+     "de": "Es ist keine Rechtsberatung und keine Ingenieurberatung.",
+     "ar": "وهو ليس استشارة قانونية ولا استشارة هندسية.",
+     "en": "It is neither legal advice nor engineering advice."
+    },
+    {
+     "de": "Als Nächstes folgt AutoCAD Electrical. Viel Erfolg beim Lernen.",
+     "ar": "وفي الفيديو التالي: AutoCAD Electrical. بالتوفيق في التعلم.",
+     "en": "Next comes AutoCAD Electrical. Good luck with your studies.",
+     "tts": "Als Nächstes folgt Auto-Käd Elektrikal. Viel Erfolg beim Lernen."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "das Lichtplanungsprogramm",
+   "ar": "برنامج تخطيط الإنارة",
+   "en": "lighting design program"
+  },
+  {
+   "de": "der Lichtstrom",
+   "ar": "التدفق الضوئي",
+   "en": "luminous flux"
+  },
+  {
+   "de": "die Lichtstärke",
+   "ar": "الشدة الضوئية",
+   "en": "luminous intensity"
+  },
+  {
+   "de": "die Beleuchtungsstärke",
+   "ar": "الاستضاءة",
+   "en": "illuminance"
+  },
+  {
+   "de": "die Leuchtdichte",
+   "ar": "اللمعان",
+   "en": "luminance"
+  },
+  {
+   "de": "die Blendung",
+   "ar": "الإبهار",
+   "en": "glare"
+  },
+  {
+   "de": "die Farbwiedergabe",
+   "ar": "إظهار الألوان",
+   "en": "colour rendering"
+  },
+  {
+   "de": "der Reflexionsgrad",
+   "ar": "معامل الانعكاس",
+   "en": "reflectance"
+  },
+  {
+   "de": "der Wartungsfaktor",
+   "ar": "معامل الصيانة",
+   "en": "maintenance factor"
+  },
+  {
+   "de": "die Leuchte",
+   "ar": "وحدة الإنارة",
+   "en": "luminaire"
+  },
+  {
+   "de": "die Lichtverteilung",
+   "ar": "توزيع الضوء",
+   "en": "light distribution"
+  },
+  {
+   "de": "die Gleichmäßigkeit",
+   "ar": "انتظام الإضاءة",
+   "en": "uniformity"
+  },
+  {
+   "de": "die Sehaufgabe",
+   "ar": "المهمة البصرية",
+   "en": "visual task"
+  },
+  {
+   "de": "die Arbeitsstätte",
+   "ar": "مكان العمل",
+   "en": "workplace"
+  },
+  {
+   "de": "die Notbeleuchtung",
+   "ar": "إضاءة الطوارئ",
+   "en": "emergency lighting"
+  },
+  {
+   "de": "die Auswertung",
+   "ar": "التقييم",
+   "en": "evaluation"
+  },
+  {
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل",
+   "en": "qualified electrician"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was gibt die Beleuchtungsstärke an?",
+    "ar": "ماذا تبيّن الاستضاءة؟",
+    "en": "What does illuminance state?"
+   },
+   "options": [
+    {
+     "de": "Das Licht, das eine Lampe abgibt",
+     "ar": "الضوء الذي يصدره المصباح",
+     "en": "The light a lamp emits"
+    },
+    {
+     "de": "Den Lichtstrom pro Fläche",
+     "ar": "التدفق الضوئي لكل مساحة",
+     "en": "Luminous flux per area"
+    },
+    {
+     "de": "Die Farbe des Lichts",
+     "ar": "لون الضوء",
+     "en": "The colour of light"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was beschreibt die Leuchtdichte?",
+    "ar": "ماذا يصف اللمعان؟",
+    "en": "What does luminance describe?"
+   },
+   "options": [
+    {
+     "de": "Den Helligkeitseindruck einer Fläche",
+     "ar": "انطباع السطوع لسطح",
+     "en": "The brightness impression of a surface"
+    },
+    {
+     "de": "Die Kosten einer Leuchte",
+     "ar": "تكلفة وحدة الإنارة",
+     "en": "The cost of a luminaire"
+    },
+    {
+     "de": "Die Lebensdauer einer Lampe",
+     "ar": "عمر المصباح",
+     "en": "The life of a lamp"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Wofür dienen EULUMDAT-Dateien?",
+    "ar": "فيمَ تُستخدم ملفات EULUMDAT في التخطيط؟",
+    "en": "What are EULUMDAT files used for?"
+   },
+   "options": [
+    {
+     "de": "Für Rechnungen",
+     "ar": "للفواتير",
+     "en": "For invoices"
+    },
+    {
+     "de": "Für Schaltpläne",
+     "ar": "لمخططات الدارات",
+     "en": "For wiring diagrams"
+    },
+    {
+     "de": "Für die Lichtverteilung von Leuchten",
+     "ar": "لتوزيع الضوء من وحدات الإنارة",
+     "en": "For the light distribution of luminaires"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was gilt für die Notbeleuchtung?",
+    "ar": "ماذا ينطبق على إضاءة الطوارئ؟",
+    "en": "What applies to emergency lighting?"
+   },
+   "options": [
+    {
+     "de": "Sie folgt eigenen Normen und Regeln",
+     "ar": "تخضع لمعايير ولوائح خاصة",
+     "en": "It follows its own standards and rules"
+    },
+    {
+     "de": "Sie ist Teil der normalen Berechnung",
+     "ar": "هي جزء من الحساب العادي",
+     "en": "It is part of the normal calculation"
+    },
+    {
+     "de": "Sie braucht keine Planung",
+     "ar": "لا تحتاج إلى تخطيط",
+     "en": "It needs no planning"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was sollten Sie nach der Berechnung tun?",
+    "ar": "ماذا ينبغي أن تفعلوا بعد الحساب؟",
+    "en": "What should you do after the calculation?"
+   },
+   "options": [
+    {
+     "de": "Nichts, das Programm hat immer recht",
+     "ar": "لا شيء، فالبرنامج دائمًا على صواب",
+     "en": "Nothing, the program is always right"
+    },
+    {
+     "de": "Nur die Farbe der Leuchte wählen",
+     "ar": "اختيار لون الوحدة فقط",
+     "en": "Only choose the colour of the luminaire"
+    },
+    {
+     "de": "Die Ergebnisse prüfen und mit den Anforderungen vergleichen",
+     "ar": "فحص النتائج ومقارنتها بالمتطلبات",
+     "en": "Check the results and compare them with the requirements"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um AutoCAD Electrical.",
+  "ar": "في الفيديو القادم نتناول برنامج AutoCAD Electrical للمخططات الكهربائية.",
+  "en": "The next video is about AutoCAD Electrical."
+ },
+ "stand": "2026-10-21; prüfen: DIN EN 12464-1 (Ausgabe 2021-11), ASR A3.4 (Mai 2023), ASR A2.3, DIN EN 1838, DIN EN 13032-1; DIALux-Nutzungsbedingungen und Leuchtenauswahl der kostenlosen Version beim Hersteller; Lux-, UGR- und Ra-Anforderungen nur aus der aktuellen Norm"
+}

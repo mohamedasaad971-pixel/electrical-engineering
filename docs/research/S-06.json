@@ -1,0 +1,185 @@
+{
+ "video": "S-06",
+ "stand": "2026-10-21",
+ "facts": [
+  {
+   "claim": "Layer (Ebenen) dienen in AutoCAD dazu, Zeichnungsobjekte zu ordnen; Eigenschaften wie Farbe und Linientyp lassen sich pro Objekt oder über Layer steuern, Objekte können die Layer-Eigenschaften übernehmen (ByLayer), und Objekte lassen sich über Layer ausblenden.",
+   "source_url": "https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-OnBoarding/files/ACD_FOUNDATIONS_MAIN8.html",
+   "source_name": "Autodesk Help (AutoCAD Onboarding 2026), Layer-Kapitel; LAYER-Befehl-Doku",
+   "confidence": "high",
+   "note": "Allgemeines CAD-Konzept; im Video ohne Oberfläche."
+  },
+  {
+   "claim": "Ein Attribut ist ein Etikett (Tag), das Daten an einen Block hängt, z. B. Teilenummern, Preise, Kommentare; ein Block kann mehrere Attribute mit unterschiedlichen Tags tragen.",
+   "source_url": "https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-LT/files/GUID-67A2DDAD-2217-412F-8AEF-D4495192F45B.htm",
+   "source_name": "Autodesk Help: About Defining and Attaching Block Attributes",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Attribut-Modi: unsichtbar, konstant, mit Bestätigung (Verify) und voreingestellt (Preset); Reihenfolge der Abfragen lässt sich ändern.",
+   "source_url": "https://help.autodesk.com/cloudhelp/2027/ENU/AutoCAD-LT/files/GUID-92A7CE9D-2E1C-415E-A1BF-5CB35D5E2D38.htm",
+   "source_name": "Autodesk Help: Attribute Definition Dialog Box",
+   "confidence": "high",
+   "note": "Im Video nur: Attribute können unsichtbar sein."
+  },
+  {
+   "claim": "DXF gibt es laut Autodesk als ASCII-Textdarstellung und als Binärform; beide speichern dieselben Datenpaare (Gruppencode, Wert); binär ist etwa 25 Prozent kompakter.",
+   "source_url": "https://help.autodesk.com/cloudhelp/2024/ENU/AutoCAD-DXF/files/GUID-FC1C3C69-DBC2-49E4-893A-000D6538C0FE.htm",
+   "source_name": "Autodesk Help: About Binary DXF Files",
+   "confidence": "high",
+   "note": "Prozentzahl nicht im Video."
+  },
+  {
+   "claim": "DXF ist eine getaggte Datenrepräsentation von Zeichnungsinformationen: jedem Wert geht ein Gruppencode voraus, der den Typ angibt; Autodesk veröffentlicht eine DXF-Referenz (nach Angaben Dritter unvollständig, z. B. bei manchen Objekttypen).",
+   "source_url": "https://ezdxf.readthedocs.io/en/stable/concepts/dxf.html",
+   "source_name": "ezdxf-Dokumentation; Library of Congress FDD",
+   "confidence": "medium",
+   "note": "Unvollständigkeit nur sekundär belegt; im Video nur 'nicht alles ist dokumentiert' als Prüfhinweis."
+  },
+  {
+   "claim": "Autodesk hat nach Angaben der Library of Congress keine DWG-Spezifikation veröffentlicht; die Open Design Alliance veröffentlicht eine durch Reverse Engineering entstandene Spezifikation für DWG.",
+   "source_url": "https://loc.gov/preservation/digital/formats/fdd/fdd000446.shtml",
+   "source_name": "Library of Congress, Digital Formats",
+   "confidence": "medium",
+   "note": "Stand der Quelle ca. 2020; Formulierung im Video vorsichtig."
+  },
+  {
+   "claim": "Der ODA File Converter der Open Design Alliance ist ein frei erhältliches Programm zur Umwandlung zwischen DWG- und DXF-Versionen (Batch-Betrieb, Audit-Option).",
+   "source_url": "https://www.opendesign.com/guestfiles/oda_file_converter.md",
+   "source_name": "Open Design Alliance, ODA File Converter",
+   "confidence": "medium",
+   "note": "Lizenzbedingungen vor Einsatz prüfen; im Video nur 'frei erhältliches Umwandlungsprogramm'."
+  },
+  {
+   "claim": "LibreCAD ist ein freies 2D-CAD-Programm unter GPLv2, basiert auf der Community-Edition von QCAD, nutzt DXF als natives Format, kann laut README DXF/DWG lesen und DXF/PDF/SVG schreiben.",
+   "source_url": "https://github.com/LibreCAD/LibreCAD",
+   "source_name": "LibreCAD GitHub README; Wikipedia LibreCAD",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "DWG-Lesen in LibreCAD geschieht über die Bibliothek libdxfrw; Quellen sehen die DWG-Unterstützung als eingeschränkt, daher gilt DXF als verlässlicher Austauschweg und eigene Dateien sollten getestet werden.",
+   "source_url": "https://www.techspot.com/news/94962-librecad-free-solid-alternative-autocad.html",
+   "source_name": "TechSpot; Wikipedia LibreCAD",
+   "confidence": "medium",
+   "note": "Nutzerhinweis: Dateien testen."
+  },
+  {
+   "claim": "LibreCAD ist ausschließlich 2D; es gibt keine elektrotechnische Projektlogik (Querverweise, Stücklisten) als Kernfunktion.",
+   "source_url": "https://github.com/LibreCAD/LibreCAD",
+   "source_name": "LibreCAD GitHub README",
+   "confidence": "medium",
+   "note": "Zweiter Teil ist Schlussfolgerung aus Funktionsbeschreibung (2D-Zeichenprogramm); im Video als 'Zeichenprogramm' formuliert."
+  },
+  {
+   "claim": "QElectroTech ist freie Software unter GPL (v2 oder später), zum Zeichnen elektrischer Schaltpläne; Schaltpläne (.qet) und Elemente (.elmt) werden als XML gespeichert.",
+   "source_url": "https://manpages.ubuntu.com/manpages/noble/fr.UTF-8/man1/qelectrotech.1.html",
+   "source_name": "QElectroTech Man-Page; Mageia-Paketliste",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "claim": "QElectroTech kann Schaltpläne nach DXF, PDF, JPG, PNG und SVG exportieren.",
+   "source_url": "https://www.linuxlinks.com/qelectrotech-design-electric-diagrams-free-qt-based-software/",
+   "source_name": "LinuxLinks; QElectroTech-Handbuch",
+   "confidence": "medium",
+   "note": "Sekundärquelle, älterer Stand; Exportformate in der aktuellen Version prüfen."
+  },
+  {
+   "claim": "QElectroTech hat eine Elementsammlung (Symbole) mit der mitgelieferten QET-Sammlung, einer Benutzersammlung und einer Projektsammlung; die Projektsammlung liegt in der Projektdatei, die QET-Sammlung ist nur lesbar.",
+   "source_url": "https://download.qelectrotech.org/qet/manual_0.7/build/element/collection/project_collection.html",
+   "source_name": "QElectroTech Handbuch 0.7, Element Collections",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Es wird nicht behauptet, dass die QET-Elemente IEC 60617 vollständig abbilden; die Zeichen sind eine Community-Sammlung.",
+   "source_url": "https://download.qelectrotech.org/qet/manual_0.7/build/element/collection/default_collection.html",
+   "source_name": "QElectroTech Handbuch 0.7",
+   "confidence": "low",
+   "note": "Quelle sagt nichts zur IEC-Konformität; deshalb im Video keine Konformitätsaussage, sondern Prüfhinweis."
+  },
+  {
+   "claim": "IEC 60617 ist als Online-Datenbank (IEC 60617 DB) erhältlich, die Teile 2 bis 13 mit rund 1900 Symbolen umfasst, per Abonnement; Symbole lassen sich u. a. als GIF, DWG und EPS exportieren. Ausgabe-Angaben unterscheiden sich (2024/2026), also aktuelle Ausgabe im Webshop prüfen.",
+   "source_url": "https://webstore.iec.ch/publication/2723",
+   "source_name": "IEC Webstore, IEC 60617 DB",
+   "confidence": "medium",
+   "note": "Preis und Ausgabejahr nicht im Video."
+  },
+  {
+   "claim": "Die deutsche Fassung der Norm für Schaltzeichen wird in der Praxis als DIN EN 60617 (früher DIN 40700) bezeichnet.",
+   "source_url": "https://www.fachwerte.de/wissen/elektro-symbole-installationsplan.html",
+   "source_name": "Fachwerte (Praxisquelle); siehe E-F06-Recherche",
+   "confidence": "medium",
+   "note": "Gleiche Quelle wie E-F06; Status DIN EN 60617 im Video nicht als aktuell zugesichert."
+  },
+  {
+   "claim": "DIN EN 61082-1:2015-10 (VDE 0040-1) beruht auf IEC 61082-1:2014 und regelt die Erstellung von Dokumenten in der Elektrotechnik.",
+   "source_url": "https://www.dinmedia.de/en/standard/din-en-61082-1/235350315",
+   "source_name": "DIN Media",
+   "confidence": "high",
+   "note": "Wie E-F06."
+  },
+  {
+   "claim": "IEC 81346-1:2022 legt Grundsätze zur Strukturierung von Systemen und Referenzkennzeichnung fest; DIN EN IEC 81346-2:2020-10 klassifiziert Objekte mit Kennbuchstaben.",
+   "source_url": "https://webstore.iec.ch/publication/64021",
+   "source_name": "IEC Webstore; AFNOR; siehe E-F06-Recherche",
+   "confidence": "high",
+   "note": "Entwurf Edition 3 von IEC 81346-2: Status nicht im Video."
+  },
+  {
+   "claim": "Eine Referenzkennzeichnung am Bauteil ist der Schlüssel, um Informationen über dieses Objekt in verschiedenen Dokumenten zu finden.",
+   "source_url": "https://www.iso.org/standard/82229.html",
+   "source_name": "ISO 81346-1 Übersicht",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "claim": "Elektro-CAD arbeitet datenbankbasiert und erzeugt Auswertungen wie Stücklisten, Verdrahtungslisten und Klemmenpläne aus dem Schaltplanmodell, während reines Zeichnen vor allem Geometrie erzeugt.",
+   "source_url": "https://www.solidworks.com/de/solution/what-is-ecad",
+   "source_name": "SOLIDWORKS (Hersteller-Erklärung); Lehrerfortbildung BW, CAD-Technik (PDF)",
+   "confidence": "medium",
+   "note": "Herstellernahe Quelle; im Video allgemein als Konzept ohne Produktlob."
+  },
+  {
+   "claim": "Typische E-CAD-Funktionen in Lehrmaterial sind Querverweise, Kontaktspiegel, Abbruchstellen und Zielverdrahtung.",
+   "source_url": "https://lehrerfortbildung-bw.de/s_bs/berufsbezogen/elektrotechnik/modulfortbildungen/modul_etechnik/module/module_2016/praez_e72_cad_technik.pdf",
+   "source_name": "Lehrerfortbildung Baden-Württemberg, Modul E-Technik",
+   "confidence": "medium",
+   "note": "Dort am Beispiel EPLAN; im Video produktneutral."
+  },
+  {
+   "claim": "AutoCAD Electrical ist als Werkzeugsatz (Toolset) innerhalb von AutoCAD verfügbar, laut Herstellerseite mit Symbolbibliothek, automatischer Drahtnummerierung, Bauteilkennzeichnung und Berichten.",
+   "source_url": "https://www.autodesk.com/de/products/autocad/included-toolsets/autocad-electrical",
+   "source_name": "Autodesk Produktseite",
+   "confidence": "medium",
+   "note": "Herstellerseite = Marketing; keine Zahlen, keine Preise, keine Marktaussage im Video. Lizenzmodell kann sich ändern."
+  },
+  {
+   "claim": "In AutoCAD Electrical werden Projekteinstellungen in einer Projektdatei (.wdp) gespeichert; Bauteil-Tag-Formate werden aus Parametern wie Familiencode, laufender Nummer, Blattnummer und Zeichnungsnummer aufgebaut; Drahtnummern lassen sich projektweit vergeben.",
+   "source_url": "https://help.autodesk.com/cloudhelp/2025/ENU/AutoCAD-Electrical/files/GUID-FD3F36A0-01B7-44D2-8B73-81721934A6BD.htm",
+   "source_name": "Autodesk Help: About the .WDP File; Wire Tagging (Project-Wide)",
+   "confidence": "medium",
+   "note": "Im Video allgemein: Projektdatei, Kennzeichnungsformat, projektweite Nummerierung."
+  },
+  {
+   "claim": "AutoCAD Electrical kann Katalogdaten aus einer Datenbank (Lookup-Datenbank, auch projektspezifisch) für Bauteile nutzen.",
+   "source_url": "https://help.autodesk.com/cloudhelp/2025/ENU/AutoCAD-Electrical/files/GUID-E60FDE25-3CF0-492F-AFD2-C30DA9DCCDA7.htm",
+   "source_name": "Autodesk Help: AutoCAD Electrical Toolset Quick Reference",
+   "confidence": "medium",
+   "note": ""
+  }
+ ],
+ "dropped": [
+  "Preise, Lizenzmodelle, Abo-Kosten von AutoCAD/Electrical, IEC 60617 DB, EPLAN und anderen (volatil, nicht verifiziert)",
+  "Marktanteile oder 'Standard in Deutschland' für ein Programm (keine verlässliche, datierte Quelle)",
+  "Zahl der Symbole in der AutoCAD-Electrical-Bibliothek (65.000+; Marketingangabe)",
+  "Aktuelle Versionsnummern von QElectroTech und LibreCAD (Quellen widersprüchlich)",
+  "Genaue Verlustfreiheit bei DWG/DXF-Konvertierung (nur Hinweis: testen)",
+  "Aussagen zur IEC-60617-Konformität der QElectroTech-Sammlung (nicht belegt)",
+  "Konkrete Hinweise zu EPLAN-Funktionen im Detail (Vergleich bleibt konzeptuell; S-01 lag im Repo nicht vor)",
+  "Ausgabejahr IEC 60617 DB (2024 vs. 2026 widersprüchlich)",
+  "Genaue DXF-Dateiformatdetails (Gruppencodes) über die Konzeptebene hinaus"
+ ]
+}

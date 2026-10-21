@@ -1,0 +1,1459 @@
+{
+ "id": "S-01",
+ "title": {
+  "de": "Elektro-CAD: Schaltpläne am Beispiel Eplan",
+  "ar": "برنامج Eplan مثالًا: المخططات الكهربائية",
+  "en": "Electrical CAD: circuit diagrams, with Eplan as an example"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "S-01 · Software",
+    "heading": "Elektro-CAD für Schaltanlagen",
+    "items": [
+     "Wofür man es braucht",
+     "Projekt, Seiten, Kennzeichen",
+     "Auswertungen und Zusammenarbeit"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum ersten Video der Software-Reihe.",
+     "ar": "أهلًا بكم في أول فيديو من سلسلة البرامج.",
+     "en": "Welcome to the first video of the software series."
+    },
+    {
+     "de": "Es geht um Elektro-CAD für Schaltanlagen und Maschinen.",
+     "ar": "موضوعنا برامج الرسم الكهربائي لخزائن التوزيع والآلات.",
+     "en": "It is about electrical CAD for switchgear and machines.",
+     "tts": "Es geht um Elektro-Kad für Schaltanlagen und Maschinen."
+    },
+    {
+     "de": "Als Beispiel nennen wir das Programm Eplan.",
+     "ar": "وكمثال نذكر برنامج Eplan في وسط الجملة.",
+     "en": "As an example we name the program Eplan."
+    },
+    {
+     "de": "Wir zeigen aber keine Programmoberfläche und keine fremden Pläne.",
+     "ar": "لكننا لا نعرض واجهة أي برنامج ولا مخططات الآخرين.",
+     "en": "But we show no program interface and no foreign diagrams."
+    },
+    {
+     "de": "Sie sehen nur unsere eigenen, einfachen Skizzen.",
+     "ar": "سترون فقط رسومنا البسيطة الخاصة بنا.",
+     "en": "You only see our own simple sketches."
+    },
+    {
+     "de": "Wir erklären Konzepte, die in fast jedem Programm gleich sind.",
+     "ar": "نشرح مفاهيم تتشابه في معظم البرامج.",
+     "en": "We explain concepts that are similar in almost every program."
+    },
+    {
+     "de": "Dieses Video gibt keine Empfehlung für ein Produkt.",
+     "ar": "هذا الفيديو لا يوصي بأي منتج.",
+     "en": "This video recommends no product."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Warum Elektro-CAD",
+    "heading": "Wozu braucht man ein Elektro-CAD?",
+    "items": [
+     "Pläne als verbundene Daten",
+     "Einheitliche Kennzeichnung",
+     "Automatische Listen und Auswertungen",
+     "Änderungen an einer Stelle",
+     "Dokumentation für Kunde und Prüfer"
+    ],
+    "terms": [
+     {
+      "de": "Elektro-CAD",
+      "ar": "برنامج الرسم الكهربائي",
+      "en": "electrical CAD"
+     },
+     {
+      "de": "Schaltschrank",
+      "ar": "خزانة التوزيع والتحكم",
+      "en": "control cabinet"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Schaltplan kann man auch mit einem Zeichenprogramm malen.",
+     "ar": "يمكن رسم مخطط الدارات ببرنامج رسم عادي.",
+     "en": "You can also draw a circuit diagram with a simple drawing program."
+    },
+    {
+     "de": "Bei größeren Anlagen wird das aber schnell unübersichtlich.",
+     "ar": "لكن ذلك يصبح فوضويًا بسرعة في المنشآت الكبيرة.",
+     "en": "With larger installations this quickly becomes confusing."
+    },
+    {
+     "de": "Ein Elektro-CAD speichert nicht nur Linien, sondern Daten.",
+     "ar": "برنامج الرسم الكهربائي لا يحفظ خطوطًا فقط بل بيانات.",
+     "en": "An electrical CAD stores not only lines but data.",
+     "tts": "Ein Elektro-Kad speichert nicht nur Linien, sondern Daten."
+    },
+    {
+     "de": "Jedes Bauteil hat einen Namen, einen Artikel und Anschlüsse.",
+     "ar": "لكل مكوّن اسم وصنف وأطراف.",
+     "en": "Every component has a name, an article and connections."
+    },
+    {
+     "de": "Daraus kann das Programm Listen erzeugen, ohne dass man sie von Hand schreibt.",
+     "ar": "ومنها يولّد البرنامج قوائم دون كتابتها يدويًا.",
+     "en": "From this the program can create lists without writing them by hand."
+    },
+    {
+     "de": "Das spart Zeit und verringert Tippfehler.",
+     "ar": "وهذا يوفر الوقت ويقلل أخطاء الكتابة.",
+     "en": "This saves time and reduces typing errors."
+    },
+    {
+     "de": "Das ist der Hauptgrund, warum Firmen im Schaltanlagenbau solche Programme einsetzen.",
+     "ar": "وهذا هو السبب الرئيسي لاستخدام الشركات هذه البرامج في بناء لوحات التوزيع.",
+     "en": "This is the main reason companies in switchgear building use such programs."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Landschaft der Programme",
+    "heading": "Beispiele, keine Empfehlung",
+    "items": [
+     "Eplan: kommerzielles Elektro-CAD",
+     "QElectroTech: freie Open-Source-Software",
+     "KiCad: frei, für Platinen",
+     "Weitere Hersteller: eigene Produkte"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Es gibt viele Programme für elektrische Pläne.",
+     "ar": "توجد برامج كثيرة للمخططات الكهربائية.",
+     "en": "There are many programs for electrical diagrams."
+    },
+    {
+     "de": "Eplan ist ein Beispiel für ein kommerzielles Elektro-CAD für Schaltanlagen und Maschinen.",
+     "ar": "برنامج Eplan مثال على برنامج رسم كهربائي تجاري للوحات التوزيع والآلات.",
+     "en": "Eplan is an example of a commercial electrical CAD for switchgear and machines.",
+     "tts": "Eplan ist ein Beispiel für ein kommerzielles Elektro-Kad für Schaltanlagen und Maschinen."
+    },
+    {
+     "de": "QElectroTech ist ein Beispiel für freie Software zum Zeichnen von Schaltplänen.",
+     "ar": "برنامج QElectroTech مثال على برنامج حر لرسم مخططات الدارات.",
+     "en": "QElectroTech is an example of free software for drawing circuit diagrams.",
+     "tts": "Kju-Elektro-Tech ist ein Beispiel für freie Software zum Zeichnen von Schaltplänen."
+    },
+    {
+     "de": "KiCad ist freie Software, aber für elektronische Leiterplatten gedacht.",
+     "ar": "وبرنامج KiCad برنامج حر لكنه مخصص للوحات الإلكترونية المطبوعة.",
+     "en": "KiCad is free software, but intended for electronic circuit boards.",
+     "tts": "Kikad ist freie Software, aber für elektronische Leiterplatten gedacht."
+    },
+    {
+     "de": "Daneben gibt es weitere Hersteller mit eigenen Programmen.",
+     "ar": "وهناك شركات أخرى لها برامجها الخاصة.",
+     "en": "Besides these there are other vendors with their own programs."
+    },
+    {
+     "de": "Wir sagen nicht, welches Programm das beste ist oder wie verbreitet es ist.",
+     "ar": "لا نقول أي برنامج هو الأفضل ولا مدى انتشاره.",
+     "en": "We do not say which program is best or how widespread it is."
+    },
+    {
+     "de": "Dafür haben wir keine belastbare Quelle. Fragen Sie in Ihrer Firma, was dort genutzt wird.",
+     "ar": "ليس لدينا مصدر موثوق لذلك، فاسألوا في شركتكم عما يُستخدم هناك.",
+     "en": "We have no reliable source for that. Ask in your company what is used there."
+    },
+    {
+     "de": "Auch Preise nennen wir nicht, denn sie ändern sich und hängen vom Vertrag ab.",
+     "ar": "ولا نذكر الأسعار أيضًا لأنها تتغير وتعتمد على العقد.",
+     "en": "We also name no prices, because they change and depend on the contract."
+    },
+    {
+     "de": "Für Ihr Berufsleben zählt vor allem, dass Sie die Konzepte verstehen.",
+     "ar": "المهم لحياتكم المهنية أن تفهموا المفاهيم.",
+     "en": "For your career it mainly matters that you understand the concepts."
+    },
+    {
+     "de": "Wer ein Programm verstanden hat, lernt das nächste viel schneller.",
+     "ar": "من فهم برنامجًا واحدًا يتعلم التالي أسرع بكثير.",
+     "en": "Whoever has understood one program learns the next much faster."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Das Prinzip",
+    "heading": "Eine Datenbasis, viele Ansichten",
+    "items": [
+     "Bauteile und Verbindungen als Daten",
+     "Seiten sind Ansichten dieser Daten",
+     "Listen entstehen aus denselben Daten",
+     "Eine Änderung wirkt überall",
+     "Daten müssen sauber gepflegt sein"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das wichtigste Prinzip heißt: eine Datenbasis, viele Ansichten.",
+     "ar": "المبدأ الأهم: قاعدة بيانات واحدة وعدة عروض.",
+     "en": "The most important principle is: one data base, many views."
+    },
+    {
+     "de": "Das Projekt enthält Bauteile, Anschlüsse und Verbindungen als Daten.",
+     "ar": "يحتوي المشروع على المكوّنات والأطراف والوصلات كبيانات.",
+     "en": "The project contains components, connections and links as data."
+    },
+    {
+     "de": "Eine Zeichnung ist nur eine Ansicht dieser Daten.",
+     "ar": "والرسم ليس إلا عرضًا لهذه البيانات.",
+     "en": "A drawing is only a view of this data."
+    },
+    {
+     "de": "Eine Liste ist eine andere Ansicht derselben Daten.",
+     "ar": "والقائمة عرض آخر للبيانات نفسها.",
+     "en": "A list is another view of the same data."
+    },
+    {
+     "de": "Ändern Sie einen Artikel, dann ändert sich auch die Liste.",
+     "ar": "إذا غيّرتم صنفًا فستتغير القائمة أيضًا.",
+     "en": "If you change an article, the list changes too."
+    },
+    {
+     "de": "Das gilt aber nur, wenn die Daten stimmen.",
+     "ar": "لكن هذا صحيح فقط إذا كانت البيانات سليمة.",
+     "en": "But this is only true if the data is correct."
+    },
+    {
+     "de": "Darum ist Datenpflege eine echte Aufgabe im Projekt und kein Nebenjob.",
+     "ar": "لذلك فإن العناية بالبيانات مهمة حقيقية في المشروع وليست عملًا جانبيًا.",
+     "en": "So data care is a real task in the project and not a side job."
+    },
+    {
+     "de": "Wer die Daten im Griff hat, hat auch die Dokumentation im Griff.",
+     "ar": "من يتحكم بالبيانات يتحكم بالوثائق أيضًا.",
+     "en": "Whoever has the data under control also has the documentation under control."
+    },
+    {
+     "de": "Ein Fachmedium beschreibt diese gemeinsame Datenbasis. Wir nennen das Prinzip deshalb nur allgemein.",
+     "ar": "وصفت مصادر مهنية هذه القاعدة المشتركة، ولذلك نذكر المبدأ بشكل عام فقط.",
+     "en": "A trade source describes this shared data base. So we state the principle only in general terms."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Projektstruktur",
+    "heading": "Struktur eines Projekts",
+    "items": [
+     "Funktion | Wozu gehört das Teil?",
+     "Ort | Wo steht oder sitzt es?",
+     "Produkt | Welches Betriebsmittel ist es?",
+     "Seiten | Wie sind die Blätter geordnet?",
+     "Vorlage | Gleiche Regeln für alle Projekte"
+    ],
+    "terms": [
+     {
+      "de": "Projektvorlage",
+      "ar": "قالب المشروع",
+      "en": "project template"
+     },
+     {
+      "de": "Betriebsmittel",
+      "ar": "معدات كهربائية",
+      "en": "electrical equipment"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Projekt braucht eine Struktur, sonst findet niemand etwas.",
+     "ar": "يحتاج المشروع إلى بنية وإلا لن يجد أحد شيئًا.",
+     "en": "A project needs a structure, otherwise nobody finds anything."
+    },
+    {
+     "de": "Viele Programme nutzen dafür die Sichtweisen der Reihe IEC 81346: Funktion, Ort und Produkt.",
+     "ar": "تستخدم برامج كثيرة لذلك زوايا النظر في سلسلة IEC 81346 وهي: الوظيفة والموقع والمنتج.",
+     "en": "Many programs use the aspects of the IEC 81346 series for this: function, location and product.",
+     "tts": "Viele Programme nutzen dafür die Sichtweisen der Reihe I-E-Ze einundachtzig-dreihundertsechsundvierzig: Funktion, Ort und Produkt."
+    },
+    {
+     "de": "Die Funktion sagt, zu welcher Aufgabe ein Teil gehört, zum Beispiel zum Antrieb einer Pumpe.",
+     "ar": "الوظيفة تبيّن لأي مهمة ينتمي الجزء، مثل تشغيل مضخة.",
+     "en": "The function says which task a part belongs to, for example driving a pump."
+    },
+    {
+     "de": "Der Ort sagt, wo es steht, zum Beispiel im Schaltschrank oder im Feld.",
+     "ar": "والموقع يبيّن أين يوجد، مثل داخل الخزانة أو في الحقل.",
+     "en": "The location says where it is, for example in the control cabinet or in the field."
+    },
+    {
+     "de": "Das Produkt ist das Betriebsmittel selbst, zum Beispiel ein Schütz.",
+     "ar": "والمنتج هو المعدة نفسها، مثل الكونتاكتور.",
+     "en": "The product is the equipment itself, for example a contactor."
+    },
+    {
+     "de": "Wie ein Projekt aufgebaut ist, legt oft die Projektvorlage fest.",
+     "ar": "وغالبًا ما يحدد قالب المشروع كيف يُبنى.",
+     "en": "How a project is built is often defined by the project template."
+    },
+    {
+     "de": "Fragen Sie im Team nach der Vorlage, bevor Sie die erste Seite anlegen.",
+     "ar": "اسألوا الفريق عن القالب قبل إنشاء الصفحة الأولى.",
+     "en": "Ask your team about the template before you create the first page."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Seiten und Seitentypen",
+    "heading": "Welche Seiten gibt es?",
+    "items": [
+     "Deckblatt und Inhaltsverzeichnis",
+     "Stromlaufplan: vom Anwender gezeichnet",
+     "Übersicht: Aufbau der Anlage",
+     "Auswertung: vom Programm erzeugt"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Projekt besteht aus vielen Seiten, ähnlich wie ein Ordner.",
+     "ar": "يتكون المشروع من صفحات كثيرة، مثل ملف مجلد.",
+     "en": "A project consists of many pages, like a folder."
+    },
+    {
+     "de": "Jede Seite hat einen Seitentyp. Er sagt, was auf der Seite steht.",
+     "ar": "لكل صفحة نوع يبيّن ما تحتويه.",
+     "en": "Every page has a page type. It says what is on the page."
+    },
+    {
+     "de": "Am Anfang stehen meist Deckblatt und Inhaltsverzeichnis.",
+     "ar": "في البداية يأتي عادةً الغلاف وفهرس المحتويات.",
+     "en": "At the beginning there are usually a cover page and a table of contents."
+    },
+    {
+     "de": "Dann folgen die Pläne, die der Anwender selbst zeichnet, zum Beispiel Stromlaufpläne und Übersichtspläne.",
+     "ar": "ثم تأتي المخططات التي يرسمها المستخدم بنفسه، مثل مخطط مسار التيار ومخطط النظرة العامة.",
+     "en": "Then come the diagrams the user draws, for example schematics and overview diagrams."
+    },
+    {
+     "de": "Dazu kommen Seiten, die das Programm selbst erzeugt, nämlich Auswertungen.",
+     "ar": "وتضاف صفحات يولّدها البرنامج بنفسه وهي التقارير.",
+     "en": "Then there are pages the program creates itself, namely reports."
+    },
+    {
+     "de": "In der Hilfe eines Herstellers heißen sie interaktive und automatische Seiten.",
+     "ar": "وفي مساعدة إحدى الشركات تُسمى صفحات تفاعلية وصفحات تلقائية.",
+     "en": "In one vendor's help they are called interactive and automatic pages."
+    },
+    {
+     "de": "Andere Programme nennen es anders. Das Prinzip bleibt gleich.",
+     "ar": "وتسميها برامج أخرى بأسماء مختلفة، لكن المبدأ واحد.",
+     "en": "Other programs name it differently. The principle stays the same."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Ordnung im Projekt",
+    "heading": "Nummerierung und Revision",
+    "items": [
+     "Seitennummern folgen der Struktur",
+     "Schriftfeld mit Datum und Autor",
+     "Revisionsstand bei jeder Änderung",
+     "Alte Stände klar kennzeichnen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Pläne brauchen eine feste Ordnung.",
+     "ar": "تحتاج المخططات إلى ترتيب ثابت.",
+     "en": "Diagrams need a fixed order."
+    },
+    {
+     "de": "Die Seitennummern folgen meist der Projektstruktur.",
+     "ar": "وأرقام الصفحات تتبع غالبًا بنية المشروع.",
+     "en": "Page numbers usually follow the project structure."
+    },
+    {
+     "de": "Im Schriftfeld stehen Projekt, Seite, Datum und Bearbeiter.",
+     "ar": "في إطار العنوان يظهر المشروع والصفحة والتاريخ والمحرر.",
+     "en": "The title block shows project, page, date and editor."
+    },
+    {
+     "de": "Wie in Video E-F06 gilt: Jeder Plan braucht einen Revisionsstand.",
+     "ar": "وكما في الفيديو E-F06 لكل مخطط حالة مراجعة.",
+     "en": "As in video E-F06: every diagram needs a revision status.",
+     "tts": "Wie in Video E-Eff-null-sechs gilt: Jeder Plan braucht einen Revisionsstand."
+    },
+    {
+     "de": "Wenn Sie etwas ändern, erhöhen Sie den Stand und notieren die Änderung.",
+     "ar": "عند التعديل ارفعوا حالة المراجعة ودوّنوا التغيير.",
+     "en": "When you change something, raise the status and note the change."
+    },
+    {
+     "de": "Auch das Programm kann den Stand im Schriftfeld automatisch ausgeben.",
+     "ar": "ويمكن للبرنامج أيضًا أن يطبع الحالة تلقائيًا في إطار العنوان.",
+     "en": "The program can also output the status in the title block automatically."
+    },
+    {
+     "de": "So wissen Montage und Service, welcher Plan gilt.",
+     "ar": "فيعرف فريقا التركيب والصيانة أي مخطط هو المعتمد.",
+     "en": "Then assembly and service know which diagram applies."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Betriebsmittelkennzeichnung",
+    "heading": "Unser Beispiel: Motorstart",
+    "items": [
+     "F1: Sicherung",
+     "Q1: Schütz",
+     "K1: Relais",
+     "M1: Motor"
+    ],
+    "terms": [
+     {
+      "de": "Kennbuchstabe",
+      "ar": "حرف الترميز",
+      "en": "letter code"
+     },
+     {
+      "de": "Referenzkennzeichnung",
+      "ar": "ترميز مرجعي",
+      "en": "reference designation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Kennzeichnung der Betriebsmittel.",
+     "ar": "والآن إلى ترميز المعدات.",
+     "en": "Now to the designation of equipment."
+    },
+    {
+     "de": "Wir bleiben bei unserem einfachen Beispiel aus Video E-F06.",
+     "ar": "نبقى مع مثالنا البسيط من الفيديو E-F06 السابق.",
+     "en": "We stay with our simple example from video E-F06.",
+     "tts": "Wir bleiben bei unserem einfachen Beispiel aus Video E-Eff-null-sechs."
+    },
+    {
+     "de": "Die Sicherung heißt F1, das Schütz Q1, das Relais K1 und der Motor M1.",
+     "ar": "المنصهر F1 والكونتاكتور Q1 والمرحل K1 والمحرك M1 على التوالي.",
+     "en": "The fuse is F1, the contactor Q1, the relay K1 and the motor M1.",
+     "tts": "Die Sicherung heißt Eff eins, das Schütz Ku eins, das Relais Ka eins und der Motor Emm eins."
+    },
+    {
+     "de": "Der Buchstabe sagt, was das Teil tut. Die Nummer zählt weiter.",
+     "ar": "الحرف يبيّن وظيفة الجزء والرقم يتسلسل.",
+     "en": "The letter says what the part does. The number counts on."
+    },
+    {
+     "de": "Ein zweiter Motor heißt dann M2.",
+     "ar": "والمحرك الثاني يصبح M2 في هذه الحالة.",
+     "en": "A second motor is then called M2.",
+     "tts": "Ein zweiter Motor heißt dann Emm zwei."
+    },
+    {
+     "de": "Das ist eine Lernhilfe. Im Projekt gilt die Ausgabe der Norm, die dort festgelegt ist.",
+     "ar": "هذا للتعلم فقط، وفي المشروع يسري إصدار المعيار المحدد هناك.",
+     "en": "This is a learning aid. In a project the edition of the standard defined there applies."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Eindeutigkeit",
+    "heading": "Ein Name, ein Gerät",
+    "items": [
+     "Jedes Betriebsmittel hat ein Kennzeichen",
+     "Kennzeichen steht im Plan und am Gerät",
+     "Doppelte Namen vermeiden",
+     "Prüfen Sie Ihr Programm"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Kennzeichen ist der Schlüssel zu allen Informationen.",
+     "ar": "الترميز هو مفتاح كل المعلومات.",
+     "en": "The designation is the key to all information."
+    },
+    {
+     "de": "Mit Q1 finden Sie das Schütz im Plan, in der Liste und im Schrank.",
+     "ar": "بواسطة Q1 تجدون الكونتاكتور في المخطط وفي القائمة وفي الخزانة.",
+     "en": "With Q1 you find the contactor in the diagram, in the list and in the cabinet.",
+     "tts": "Mit Ku eins finden Sie das Schütz im Plan, in der Liste und im Schrank."
+    },
+    {
+     "de": "Wenn zwei Geräte denselben Namen tragen, entstehen Fehler.",
+     "ar": "إذا حمل جهازان الاسم نفسه فستقع أخطاء.",
+     "en": "If two devices carry the same name, errors occur."
+    },
+    {
+     "de": "Dann bestellt der Einkauf vielleicht das falsche Teil.",
+     "ar": "وقد يطلب قسم المشتريات القطعة الخاطئة.",
+     "en": "Then purchasing may order the wrong part."
+    },
+    {
+     "de": "Prüfen Sie selbst, ob Ihr Programm doppelte Kennzeichen meldet.",
+     "ar": "تحققوا بأنفسكم هل يبلغ برنامجكم عن ترميز مكرر.",
+     "en": "Check yourself whether your program reports duplicate designations."
+    },
+    {
+     "de": "Gute Regeln im Team sind wichtiger als jede Funktion.",
+     "ar": "القواعد الجيدة في الفريق أهم من أي ميزة.",
+     "en": "Good rules in the team matter more than any function."
+    },
+    {
+     "de": "Schreiben Sie diese Regeln in eine kurze Anleitung für das Projekt.",
+     "ar": "دوّنوا هذه القواعد في دليل قصير للمشروع.",
+     "en": "Write these rules into a short guide for the project."
+    },
+    {
+     "de": "Dann arbeiten alle Kollegen gleich, auch neue Kollegen aus dem Ausland.",
+     "ar": "فيعمل كل الزملاء بالطريقة نفسها، ومنهم الجدد القادمون من الخارج.",
+     "en": "Then all colleagues work the same way, also new colleagues from abroad."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Querverweise",
+    "heading": "Spule hier, Kontakte dort",
+    "items": [
+     "Bauteil in mehreren Teilen gezeichnet",
+     "Spule und Kontakte auf anderen Seiten",
+     "Querverweis zeigt den Ort",
+     "Gleiches Kennzeichen an allen Teilen"
+    ],
+    "terms": [
+     {
+      "de": "Querverweis",
+      "ar": "إحالة مرجعية",
+      "en": "cross-reference"
+     },
+     {
+      "de": "Schütz",
+      "ar": "كونتاكتور",
+      "en": "contactor"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Erinnern Sie sich an den Schütz im Stromlaufplan.",
+     "ar": "تذكروا الكونتاكتور في مخطط مسار التيار.",
+     "en": "Remember the contactor in the schematic."
+    },
+    {
+     "de": "Die Spule liegt im Steuerstromkreis, die Kontakte liegen im Laststromkreis.",
+     "ar": "الملف في دارة التحكم والملامسات في دارة الحمل.",
+     "en": "The coil is in the control circuit, the contacts are in the load circuit."
+    },
+    {
+     "de": "Manchmal liegen sie sogar auf verschiedenen Seiten.",
+     "ar": "وأحيانًا تقع في صفحات مختلفة.",
+     "en": "Sometimes they are even on different pages."
+    },
+    {
+     "de": "Ein Querverweis zeigt dann, wo die anderen Teile sind.",
+     "ar": "فتبيّن الإحالة المرجعية أين الأجزاء الأخرى.",
+     "en": "A cross-reference then shows where the other parts are."
+    },
+    {
+     "de": "Alle Teile tragen dasselbe Kennzeichen, zum Beispiel Q1.",
+     "ar": "وتحمل كل الأجزاء الترميز نفسه، مثل Q1 للكونتاكتور.",
+     "en": "All parts carry the same designation, for example Q1.",
+     "tts": "Alle Teile tragen dasselbe Kennzeichen, zum Beispiel Ku eins."
+    },
+    {
+     "de": "Ein Elektro-CAD kann solche Verweise aus den Daten erzeugen.",
+     "ar": "ويمكن لبرنامج الرسم الكهربائي توليد هذه الإحالات من البيانات.",
+     "en": "An electrical CAD can create such references from the data.",
+     "tts": "Ein Elektro-Kad kann solche Verweise aus den Daten erzeugen."
+    },
+    {
+     "de": "QElectroTech beschreibt in seinem Handbuch ein ähnliches Prinzip mit Haupt- und Folgeelementen.",
+     "ar": "ويصف دليل QElectroTech مبدأ مشابهًا بعنصر رئيسي وعناصر تابعة.",
+     "en": "The QElectroTech manual describes a similar principle with master and slave elements.",
+     "tts": "Kju-Elektro-Tech beschreibt in seinem Handbuch ein ähnliches Prinzip mit Haupt- und Folgeelementen."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Querverweise im Alltag",
+    "heading": "Verweise prüfen und pflegen",
+    "items": [
+     "Nach Änderungen Verweise kontrollieren",
+     "Zusätzlicher Kontakt: neuer Verweis",
+     "Gelöschte Teile: Verweis aktualisieren",
+     "Im Team: gleiche Darstellung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Querverweise helfen nur, wenn sie aktuell sind.",
+     "ar": "الإحالات المرجعية مفيدة فقط إذا كانت محدّثة.",
+     "en": "Cross-references only help if they are up to date."
+    },
+    {
+     "de": "Fügen Sie einen Kontakt hinzu, muss er im Verweis erscheinen.",
+     "ar": "إذا أضفتم ملامسًا فيجب أن يظهر في الإحالة.",
+     "en": "If you add a contact, it must appear in the reference."
+    },
+    {
+     "de": "Löschen Sie ein Bauteil, dürfen keine toten Verweise bleiben.",
+     "ar": "وإذا حذفتم مكوّنًا فلا يجوز أن تبقى إحالات ميتة.",
+     "en": "If you delete a component, no dead references may remain."
+    },
+    {
+     "de": "Das Programm kann viel automatisch, aber nicht alles.",
+     "ar": "يقوم البرنامج بالكثير تلقائيًا لكن ليس بكل شيء.",
+     "en": "The program does a lot automatically, but not everything."
+    },
+    {
+     "de": "Lesen Sie den Plan nach einer Änderung einmal vollständig durch.",
+     "ar": "اقرأوا المخطط كاملًا مرة بعد كل تعديل.",
+     "en": "Read the diagram through completely once after a change."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Auswertungen",
+    "heading": "Aus den Daten entstehen Listen",
+    "items": [
+     "Stückliste | Teile und Mengen",
+     "Klemmenplan | Belegung der Klemmen",
+     "Kabelliste | Kabel mit Quelle und Ziel",
+     "Inhaltsverzeichnis | Seiten des Projekts",
+     "Geräteliste | Betriebsmittel mit Kennzeichen"
+    ],
+    "terms": [
+     {
+      "de": "Stückliste",
+      "ar": "قائمة المواد",
+      "en": "parts list"
+     },
+     {
+      "de": "Klemmenplan",
+      "ar": "مخطط الأطراف",
+      "en": "terminal diagram"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt kommen die Auswertungen.",
+     "ar": "والآن إلى التقارير.",
+     "en": "Now come the reports."
+    },
+    {
+     "de": "Auswertungen werden aus den Projektdaten erzeugt, nicht von Hand gezeichnet.",
+     "ar": "تُولَّد التقارير من بيانات المشروع ولا تُرسم يدويًا.",
+     "en": "Reports are created from the project data, not drawn by hand."
+    },
+    {
+     "de": "Die Stückliste zeigt, welche Teile in welcher Menge gebraucht werden.",
+     "ar": "قائمة المواد تبيّن أي القطع تلزم وبأي كمية.",
+     "en": "The parts list shows which parts are needed in which quantity."
+    },
+    {
+     "de": "Der Klemmenplan zeigt, welcher Draht an welcher Klemme liegt.",
+     "ar": "ومخطط الأطراف يبيّن أي سلك يتصل بأي طرف.",
+     "en": "The terminal diagram shows which wire is on which terminal."
+    },
+    {
+     "de": "Eine Kabelliste nennt Kabel, Quelle und Ziel.",
+     "ar": "وقائمة الكابلات تذكر الكابل ومصدره ووجهته.",
+     "en": "A cable list names cables, source and destination."
+    },
+    {
+     "de": "Dazu kommt das Inhaltsverzeichnis des Projekts.",
+     "ar": "ويضاف إليها فهرس محتويات المشروع.",
+     "en": "Add to this the table of contents of the project."
+    },
+    {
+     "de": "Der große Vorteil: Die Listen passen immer zum aktuellen Stand der Zeichnung.",
+     "ar": "الميزة الكبرى: القوائم تطابق دائمًا الحالة الراهنة للرسم.",
+     "en": "The big advantage: the lists always match the current state of the drawing."
+    },
+    {
+     "de": "Ohne Elektro-CAD müssten Sie dafür Tabellen von Hand pflegen.",
+     "ar": "وبدون برنامج الرسم الكهربائي عليكم إدارة جداول يدويًا.",
+     "en": "Without an electrical CAD you would have to maintain tables by hand.",
+     "tts": "Ohne Elektro-Kad müssten Sie dafür Tabellen von Hand pflegen."
+    },
+    {
+     "de": "Welche Auswertungen es gibt und wie sie heißen, hängt vom Programm ab.",
+     "ar": "أنواع التقارير وأسماؤها تختلف حسب البرنامج.",
+     "en": "Which reports exist and what they are called depends on the program."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Stückliste",
+    "heading": "Von der Stückliste zur Bestellung",
+    "items": [
+     "Artikelnummer, Menge, Hersteller",
+     "Grundlage für den Einkauf",
+     "Grundlage für die Kalkulation",
+     "Gerätedaten vom Hersteller"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die Stückliste ist die Grundlage für den Einkauf.",
+     "ar": "قائمة المواد هي أساس الشراء.",
+     "en": "The parts list is the basis for purchasing."
+    },
+    {
+     "de": "Sie nennt Artikelnummer, Hersteller und Menge.",
+     "ar": "تذكر رقم الصنف والشركة المصنعة والكمية.",
+     "en": "It names article number, manufacturer and quantity."
+    },
+    {
+     "de": "Diese Daten kommen aus der Artikelverwaltung des Projekts.",
+     "ar": "وتأتي هذه البيانات من إدارة الأصناف في المشروع.",
+     "en": "This data comes from the article management of the project."
+    },
+    {
+     "de": "Viele Hersteller stellen Gerätedaten bereit, die man in das Projekt übernehmen kann.",
+     "ar": "وتوفّر شركات كثيرة بيانات الأجهزة التي يمكن نقلها إلى المشروع.",
+     "en": "Many manufacturers provide device data that can be taken into the project."
+    },
+    {
+     "de": "Prüfen Sie diese Daten trotzdem, denn sie können veraltet sein.",
+     "ar": "ومع ذلك تحققوا من هذه البيانات فقد تكون قديمة.",
+     "en": "Check this data anyway, because it can be outdated."
+    },
+    {
+     "de": "Ein falscher Artikel in der Liste ist ein falsches Teil im Schrank.",
+     "ar": "صنف خاطئ في القائمة يعني قطعة خاطئة في الخزانة.",
+     "en": "A wrong article in the list is a wrong part in the cabinet."
+    },
+    {
+     "de": "Auch Liefertermine hängen von der Stückliste ab.",
+     "ar": "وتتوقف مواعيد التوريد أيضًا على قائمة المواد.",
+     "en": "Delivery dates also depend on the parts list."
+    },
+    {
+     "de": "Die Liste muss deshalb nach jeder Änderung neu erzeugt werden.",
+     "ar": "لذلك يجب توليد القائمة من جديد بعد كل تعديل.",
+     "en": "The list must therefore be created again after every change."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Klemmenplan",
+    "heading": "Vom Klemmenplan zur Verdrahtung",
+    "items": [
+     "Klemme für Klemme dokumentiert",
+     "Nummer im Plan gleich Nummer am Gerät",
+     "Wichtig für Schaltschrankbau",
+     "Wichtig für Inbetriebnahme und Service"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Der Klemmenplan ist besonders wichtig auf der Baustelle.",
+     "ar": "مخطط الأطراف مهم جدًا في الموقع.",
+     "en": "The terminal diagram is especially important on site."
+    },
+    {
+     "de": "Hier steht Klemme für Klemme, welcher Draht dort endet.",
+     "ar": "هنا يُذكر طرفًا طرفًا أي سلك ينتهي عنده.",
+     "en": "Here it says terminal by terminal which wire ends there."
+    },
+    {
+     "de": "Der Verdrahter im Schaltschrankbau arbeitet damit.",
+     "ar": "وفني التسليك في بناء الخزائن يعمل بها.",
+     "en": "The wiring technician in cabinet building works with it."
+    },
+    {
+     "de": "Später nutzt ihn der Service bei der Fehlersuche.",
+     "ar": "ولاحقًا يستخدمه فريق الصيانة في البحث عن الأعطال.",
+     "en": "Later service uses it for troubleshooting."
+    },
+    {
+     "de": "Die Nummer im Plan muss mit der Nummer an der Klemme übereinstimmen.",
+     "ar": "يجب أن يطابق الرقم في المخطط الرقم على الطرف.",
+     "en": "The number in the diagram must match the number on the terminal."
+    },
+    {
+     "de": "Ändert die Montage etwas vor Ort, muss der Plan angepasst werden.",
+     "ar": "وإذا تغير شيء في الموقع فيجب تعديل المخطط.",
+     "en": "If assembly changes something on site, the diagram must be updated."
+    },
+    {
+     "de": "Ein guter Klemmenplan spart bei der Inbetriebnahme viel Zeit.",
+     "ar": "مخطط أطراف جيد يوفر وقتًا كبيرًا عند التشغيل التجريبي.",
+     "en": "A good terminal diagram saves a lot of time during commissioning."
+    },
+    {
+     "de": "Er ist eine Auswertung. Die Grundlage bleiben die Daten im Projekt.",
+     "ar": "وهو تقرير، وأساسه تبقى بيانات المشروع.",
+     "en": "It is a report. The basis remains the data in the project."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Datenqualität",
+    "heading": "Auswertung ist nur so gut wie die Daten",
+    "items": [
+     "Falsche Eingabe, falsche Liste",
+     "Kennzeichen und Artikel prüfen",
+     "Vier-Augen-Prinzip im Team",
+     "Stichproben am echten Schrank"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Eine Auswertung ist nur so gut wie die Daten im Projekt.",
+     "ar": "التقرير بجودة بيانات المشروع فقط.",
+     "en": "A report is only as good as the data in the project."
+    },
+    {
+     "de": "Ein Tippfehler im Artikel erscheint in jeder Liste.",
+     "ar": "خطأ كتابي في الصنف يظهر في كل قائمة.",
+     "en": "A typing error in an article appears in every list."
+    },
+    {
+     "de": "Auch ein vergessenes Kabel fehlt dann in der Kabelliste.",
+     "ar": "وكذلك كابل منسي يغيب عن قائمة الكابلات.",
+     "en": "A forgotten cable then also misses in the cable list."
+    },
+    {
+     "de": "Der Fehler fällt oft erst bei der Montage auf. Dann wird er teuer.",
+     "ar": "وكثيرًا ما يظهر الخطأ عند التركيب فقط، وحينها يكلف الكثير.",
+     "en": "The error is often noticed only during assembly. Then it becomes expensive."
+    },
+    {
+     "de": "Darum prüft man Kennzeichen und Artikel vor der Freigabe.",
+     "ar": "لذلك تُراجع الأسماء والأصناف قبل الاعتماد.",
+     "en": "So designations and articles are checked before release."
+    },
+    {
+     "de": "Eine zweite Person sollte den Plan lesen. Das nennt man Vier-Augen-Prinzip.",
+     "ar": "ينبغي أن يقرأ شخص ثانٍ المخطط، وهذا مبدأ العينين الأربع.",
+     "en": "A second person should read the diagram. This is the four-eyes principle."
+    },
+    {
+     "de": "Vergleichen Sie bei der Abnahme Stichproben im Plan mit dem echten Schrank.",
+     "ar": "قارنوا عند التسليم عينات من المخطط مع الخزانة الفعلية.",
+     "en": "At handover compare samples in the diagram with the real cabinet."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Zusammenarbeit",
+    "heading": "Mechanik, Fertigung, Service",
+    "items": [
+     "Mechanik: Aufbau und Platz im Schrank",
+     "Fertigung: Verdrahten nach Plan",
+     "Einkauf: Teile aus der Stückliste",
+     "Service: Fehlersuche mit dem Plan"
+    ],
+    "terms": [
+     {
+      "de": "Schnittstelle",
+      "ar": "الواجهة التنسيقية",
+      "en": "interface"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Elektroplan wird nie allein benutzt.",
+     "ar": "لا يُستخدم المخطط الكهربائي وحده أبدًا.",
+     "en": "An electrical diagram is never used alone."
+    },
+    {
+     "de": "Die Mechanik braucht den Platz im Schrank und die Größe der Geräte.",
+     "ar": "الميكانيك يحتاج إلى المساحة في الخزانة وأحجام الأجهزة.",
+     "en": "Mechanics needs the space in the cabinet and the size of the devices."
+    },
+    {
+     "de": "Manche Programme bieten dafür einen 3D-Aufbau des Schranks.",
+     "ar": "وتوفر بعض البرامج لذلك تصميمًا ثلاثي الأبعاد للخزانة.",
+     "en": "Some programs offer a 3D layout of the cabinet for this.",
+     "tts": "Manche Programme bieten dafür einen Drei-De-Aufbau des Schranks."
+    },
+    {
+     "de": "Die Fertigung verdrahtet nach Plan und Klemmenliste.",
+     "ar": "والتصنيع يسلّك حسب المخطط وقائمة الأطراف.",
+     "en": "Production wires according to the diagram and terminal list."
+    },
+    {
+     "de": "Der Einkauf bestellt nach der Stückliste.",
+     "ar": "والمشتريات تطلب حسب قائمة المواد.",
+     "en": "Purchasing orders from the parts list."
+    },
+    {
+     "de": "Klären Sie die Schnittstelle früh: Wer liefert welche Daten in welchem Format?",
+     "ar": "حدّدوا الواجهة التنسيقية مبكرًا: من يسلّم أي بيانات وبأي صيغة؟",
+     "en": "Clarify the interface early: who delivers which data in which format?"
+    },
+    {
+     "de": "Das ist keine reine Softwarefrage, sondern Projektarbeit.",
+     "ar": "وهذه ليست مسألة برمجية فقط بل عمل مشروع.",
+     "en": "That is not only a software question but project work."
+    },
+    {
+     "de": "Auch Datenformate und Dateinamen sollten Sie früh festlegen.",
+     "ar": "وينبغي تحديد صيغ البيانات وأسماء الملفات مبكرًا أيضًا.",
+     "en": "You should also define data formats and file names early."
+    },
+    {
+     "de": "Der Service braucht am Ende den Plan im Stand des gebauten Schranks.",
+     "ar": "وفريق الصيانة يحتاج في النهاية المخطط بحالة الخزانة المبنية فعلًا.",
+     "en": "In the end service needs the diagram in the state of the cabinet as built."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Sicherheit",
+    "heading": "Der Plan ersetzt keine Sicherheitsregeln",
+    "items": [
+     "Freischalten",
+     "Gegen Wiedereinschalten sichern",
+     "Spannungsfreiheit allpolig feststellen",
+     "Erden und Kurzschließen",
+     "Benachbarte Teile abdecken oder abschranken"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein wichtiger Hinweis zur Sicherheit.",
+     "ar": "ملاحظة مهمة عن السلامة.",
+     "en": "An important note on safety."
+    },
+    {
+     "de": "Ein Plan ist kein Beweis dafür, dass eine Anlage spannungsfrei ist.",
+     "ar": "المخطط ليس دليلًا على أن المنشأة خالية من الجهد.",
+     "en": "A diagram is no proof that an installation is de-energized."
+    },
+    {
+     "de": "Die Anlage kann vom Plan abweichen. Prüfen Sie vor Ort.",
+     "ar": "قد تختلف المنشأة عن المخطط، لذا افحصوا في الموقع.",
+     "en": "The installation may differ from the diagram. Check on site."
+    },
+    {
+     "de": "Arbeiten an elektrischen Anlagen führt eine Elektrofachkraft aus oder jemand unter ihrer Leitung und Aufsicht.",
+     "ar": "ينفّذ الأعمال على المنشآت الكهربائية كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه.",
+     "en": "Work on electrical installations is done by a qualified electrician or someone under their direction and supervision."
+    },
+    {
+     "de": "Dabei gelten alle fünf Sicherheitsregeln in dieser Reihenfolge.",
+     "ar": "وتسري هنا كل قواعد السلامة الخمس بهذا الترتيب.",
+     "en": "All five safety rules apply here in this order."
+    },
+    {
+     "de": "Erstens: Freischalten. Zweitens: gegen Wiedereinschalten sichern.",
+     "ar": "أولًا: فصل الجهد. ثانيًا: تأمينها ضد إعادة التشغيل.",
+     "en": "First: disconnect. Second: secure against reconnection."
+    },
+    {
+     "de": "Drittens: Spannungsfreiheit allpolig feststellen. Viertens: erden und kurzschließen.",
+     "ar": "ثالثًا: التحقق من انعدام الجهد في كل الأقطاب. رابعًا: التأريض والتقصير.",
+     "en": "Third: verify absence of voltage on all poles. Fourth: earth and short-circuit."
+    },
+    {
+     "de": "Fünftens: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "خامسًا: تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Fifth: cover or fence off adjacent live parts."
+    },
+    {
+     "de": "Das Video ersetzt keine Ausbildung und keine Unterweisung.",
+     "ar": "هذا الفيديو لا يغني عن التأهيل ولا عن التوجيه والتعليمات (Unterweisung) في العمل.",
+     "en": "This video replaces neither training nor instruction."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Freie Alternativen",
+    "heading": "Freie Programme zum Üben",
+    "items": [
+     "QElectroTech: Schaltpläne, Open Source",
+     "KiCad: Schaltplan und Platine",
+     "Grenzen: Funktionsumfang und Bibliotheken",
+     "Version und Lizenz selbst prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Open Source",
+      "ar": "مفتوح المصدر",
+      "en": "open source"
+     },
+     {
+      "de": "Leiterplatte",
+      "ar": "لوحة الدارات المطبوعة",
+      "en": "circuit board"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Sie müssen nicht gleich ein teures Programm kaufen, um zu üben.",
+     "ar": "لا يلزمكم شراء برنامج غالٍ للتدرب.",
+     "en": "You do not have to buy an expensive program to practise."
+    },
+    {
+     "de": "QElectroTech ist laut seiner Webseite freie Open-Source-Software zum Zeichnen von Schaltplänen.",
+     "ar": "برنامج QElectroTech بحسب موقعه برنامج حر مفتوح المصدر لرسم مخططات الدارات.",
+     "en": "According to its website QElectroTech is free open-source software for drawing circuit diagrams.",
+     "tts": "Kju-Elektro-Tech ist laut seiner Webseite freie Open-Source-Software zum Zeichnen von Schaltplänen."
+    },
+    {
+     "de": "Es kann zum Beispiel Querverweise und eine Stückliste erzeugen, wie das Handbuch beschreibt.",
+     "ar": "ويمكنه مثلًا إنشاء إحالات مرجعية وقائمة مواد كما يصف دليله.",
+     "en": "It can create cross-references and a parts list, as its manual describes."
+    },
+    {
+     "de": "KiCad ist ebenfalls frei und bietet Schaltplan und Leiterplattenentwurf.",
+     "ar": "و KiCad حر أيضًا ويوفر مخطط الدارات وتصميم اللوحة المطبوعة.",
+     "en": "KiCad is also free and offers schematic and circuit board design.",
+     "tts": "Kikad ist ebenfalls frei und bietet Schaltplan und Leiterplattenentwurf."
+    },
+    {
+     "de": "Es ist aber für Elektronik gedacht, nicht für Schaltschrank-Dokumentation.",
+     "ar": "لكنه مخصص للإلكترونيات لا لتوثيق خزائن التوزيع.",
+     "en": "But it is intended for electronics, not for control cabinet documentation."
+    },
+    {
+     "de": "Freie Programme haben oft weniger Bibliotheken und Auswertungen als kommerzielle.",
+     "ar": "وللبرامج الحرة غالبًا مكتبات وتقارير أقل من التجارية.",
+     "en": "Free programs often have fewer libraries and reports than commercial ones."
+    },
+    {
+     "de": "Prüfen Sie Version, Lizenz und Umfang auf der offiziellen Webseite.",
+     "ar": "تحققوا من الإصدار والترخيص والإمكانات على الموقع الرسمي.",
+     "en": "Check version, licence and scope on the official website."
+    },
+    {
+     "de": "Zum Üben der Konzepte reichen sie oft völlig aus.",
+     "ar": "وللتدرب على المفاهيم تكفي غالبًا تمامًا.",
+     "en": "For practising the concepts they are often completely sufficient."
+    },
+    {
+     "de": "Zeichnen Sie damit unser Beispiel aus dem Motorstart nach.",
+     "ar": "ارسموا بها مثال تشغيل المحرك الذي عرضناه.",
+     "en": "Redraw our motor start example with it."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Legal lernen",
+    "heading": "So lernen Sie legal",
+    "items": [
+     "Herstellerschulungen, auch mit Zertifikat",
+     "Bildungslizenzen für Studierende",
+     "Testversionen beim Hersteller anfragen",
+     "Freie Programme für Konzepte",
+     "Nie unlizenzierte Kopien nutzen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Wie lernen Sie ein Elektro-CAD legal?",
+     "ar": "كيف تتعلمون برنامج رسم كهربائي بطريقة قانونية؟",
+     "en": "How do you learn an electrical CAD legally?",
+     "tts": "Wie lernen Sie ein Elektro-Kad legal?"
+    },
+    {
+     "de": "Hersteller bieten Schulungen an, vor Ort und online, teils mit Zertifikat.",
+     "ar": "تقدم الشركات دورات حضورية وعبر الإنترنت، وأحيانًا بشهادة.",
+     "en": "Vendors offer training, on site and online, partly with a certificate."
+    },
+    {
+     "de": "Für Studierende gibt es oft Bildungslizenzen, zum Beispiel für das Studium.",
+     "ar": "وللطلاب غالبًا تراخيص تعليمية مثل ترخيص أثناء الدراسة.",
+     "en": "For students there are often educational licences, for example during studies."
+    },
+    {
+     "de": "Sie gelten meist nur für Lernzwecke und nicht für kommerzielle Arbeit.",
+     "ar": "وهي غالبًا للتعلم فقط وليست للعمل التجاري.",
+     "en": "They usually apply only for learning and not for commercial work."
+    },
+    {
+     "de": "Fragen Sie beim Hersteller auch nach Testversionen und deren Bedingungen.",
+     "ar": "واسألوا الشركة أيضًا عن النسخ التجريبية وشروطها.",
+     "en": "Also ask the vendor about trial versions and their conditions."
+    },
+    {
+     "de": "Konkrete Bedingungen ändern sich. Lesen Sie die aktuellen Angaben des Herstellers.",
+     "ar": "الشروط الدقيقة تتغير، فاقرأوا معلومات الشركة الحالية.",
+     "en": "Exact conditions change. Read the vendor's current information."
+    },
+    {
+     "de": "Nutzen Sie niemals Raubkopien. Das ist illegal und gefährdet Ihre Karriere.",
+     "ar": "لا تستخدموا نسخًا مقرصنة أبدًا، فهذا غير قانوني ويهدد مسيرتكم.",
+     "en": "Never use pirated copies. It is illegal and endangers your career."
+    },
+    {
+     "de": "Auch in einem Bewerbungsgespräch hilft es, die Konzepte erklären zu können.",
+     "ar": "وفي مقابلة العمل يفيد أيضًا أن تستطيعوا شرح المفاهيم.",
+     "en": "In a job interview it also helps to be able to explain the concepts."
+    },
+    {
+     "de": "Sie müssen dafür nicht jede Schaltfläche kennen.",
+     "ar": "ولا يلزمكم لذلك معرفة كل زر في البرنامج.",
+     "en": "You do not need to know every button for that."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Das nehmen Sie mit",
+    "items": [
+     "Eine Datenbasis, viele Ansichten",
+     "Struktur, Seiten, Kennzeichen",
+     "Querverweise und Auswertungen",
+     "Datenqualität prüfen",
+     "Legal lernen, Versionen prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Ein Elektro-CAD arbeitet mit einer Datenbasis und vielen Ansichten.",
+     "ar": "برنامج الرسم الكهربائي يعمل بقاعدة بيانات واحدة وعروض كثيرة.",
+     "en": "An electrical CAD works with one data base and many views.",
+     "tts": "Ein Elektro-Kad arbeitet mit einer Datenbasis und vielen Ansichten."
+    },
+    {
+     "de": "Projektstruktur, Seitentypen und Kennzeichen geben Ordnung.",
+     "ar": "بنية المشروع وأنواع الصفحات والترميز تمنح النظام.",
+     "en": "Project structure, page types and designations give order."
+    },
+    {
+     "de": "Querverweise verbinden die Teile eines Geräts.",
+     "ar": "والإحالات المرجعية تربط أجزاء الجهاز الواحد.",
+     "en": "Cross-references connect the parts of a device."
+    },
+    {
+     "de": "Stücklisten und Klemmenpläne sind Auswertungen aus den Daten.",
+     "ar": "قوائم المواد ومخططات الأطراف تقارير من البيانات.",
+     "en": "Parts lists and terminal diagrams are reports from the data."
+    },
+    {
+     "de": "Mechanik, Fertigung und Einkauf brauchen diese Daten.",
+     "ar": "والميكانيك والتصنيع والمشتريات تحتاج هذه البيانات.",
+     "en": "Mechanics, production and purchasing need this data."
+    },
+    {
+     "de": "Und denken Sie immer an die Sicherheit: Der Plan ersetzt keine Prüfung vor Ort.",
+     "ar": "وتذكروا السلامة دائمًا: المخطط لا يغني عن الفحص في الموقع.",
+     "en": "And always think of safety: the diagram does not replace a check on site."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "quote",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Normen und Software ändern sich",
+    "items": [
+     "Aktuelle Ausgaben und Versionen prüfen",
+     "Allgemeine Information, keine Beratung",
+     "Keine Rechts- oder Ingenieurberatung"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zum Schluss ein wichtiger Hinweis.",
+     "ar": "وأخيرًا ملاحظة مهمة.",
+     "en": "Finally an important note."
+    },
+    {
+     "de": "Gesetze, Normen und Programme ändern sich.",
+     "ar": "القوانين والمعايير والبرامج تتغير.",
+     "en": "Laws, standards and programs change."
+    },
+    {
+     "de": "Prüfen Sie vor jedem Projekt die aktuellen Ausgaben und Versionen.",
+     "ar": "تحققوا قبل كل مشروع من الإصدارات الحالية.",
+     "en": "Check the current editions and versions before every project."
+    },
+    {
+     "de": "Lizenzbedingungen und Angebote der Hersteller ändern sich ebenfalls.",
+     "ar": "وتتغير كذلك شروط التراخيص وعروض الشركات.",
+     "en": "Licence terms and vendor offers also change."
+    },
+    {
+     "de": "Dieses Video ist allgemeine Information und keine Rechts- oder Ingenieurberatung.",
+     "ar": "هذا الفيديو معلومات عامة وليس استشارة قانونية أو هندسية.",
+     "en": "This video is general information and not legal or engineering advice."
+    },
+    {
+     "de": "Im nächsten Video geht es um Programmierumgebungen für Steuerungen.",
+     "ar": "في الفيديو القادم نتناول بيئات البرمجة للمتحكمات.",
+     "en": "The next video is about programming environments for controllers."
+    },
+    {
+     "de": "Viel Erfolg beim Lernen.",
+     "ar": "بالتوفيق في التعلم.",
+     "en": "Good luck with your learning."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "das Elektro-CAD",
+   "ar": "برنامج الرسم الكهربائي",
+   "en": "electrical CAD"
+  },
+  {
+   "de": "der Schaltplan",
+   "ar": "مخطط الدارات",
+   "en": "circuit diagram"
+  },
+  {
+   "de": "die Datenbasis",
+   "ar": "قاعدة البيانات",
+   "en": "data base"
+  },
+  {
+   "de": "die Projektstruktur",
+   "ar": "بنية المشروع",
+   "en": "project structure"
+  },
+  {
+   "de": "der Seitentyp",
+   "ar": "نوع الصفحة",
+   "en": "page type"
+  },
+  {
+   "de": "das Betriebsmittel",
+   "ar": "معدات كهربائية",
+   "en": "electrical equipment"
+  },
+  {
+   "de": "die Referenzkennzeichnung",
+   "ar": "ترميز مرجعي",
+   "en": "reference designation"
+  },
+  {
+   "de": "der Querverweis",
+   "ar": "إحالة مرجعية",
+   "en": "cross-reference"
+  },
+  {
+   "de": "die Auswertung",
+   "ar": "التقرير (الاستخراج)",
+   "en": "report (evaluation)"
+  },
+  {
+   "de": "die Stückliste",
+   "ar": "قائمة المواد",
+   "en": "parts list"
+  },
+  {
+   "de": "der Klemmenplan",
+   "ar": "مخطط الأطراف",
+   "en": "terminal diagram"
+  },
+  {
+   "de": "die Kabelliste",
+   "ar": "قائمة الكابلات",
+   "en": "cable list"
+  },
+  {
+   "de": "die Revision",
+   "ar": "المراجعة",
+   "en": "revision"
+  },
+  {
+   "de": "die Projektvorlage",
+   "ar": "قالب المشروع",
+   "en": "project template"
+  },
+  {
+   "de": "die Schnittstelle",
+   "ar": "الواجهة التنسيقية",
+   "en": "interface"
+  },
+  {
+   "de": "die Bildungslizenz",
+   "ar": "ترخيص تعليمي",
+   "en": "educational licence"
+  },
+  {
+   "de": "das Vier-Augen-Prinzip",
+   "ar": "مبدأ العينين الأربع",
+   "en": "four-eyes principle"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Was ist das Hauptprinzip eines Elektro-CAD?",
+    "ar": "ما المبدأ الأساسي لبرنامج الرسم الكهربائي؟",
+    "en": "What is the main principle of an electrical CAD?"
+   },
+   "options": [
+    {
+     "de": "Eine Datenbasis mit vielen Ansichten",
+     "ar": "قاعدة بيانات واحدة وعروض كثيرة",
+     "en": "One data base with many views"
+    },
+    {
+     "de": "Nur Linien ohne Daten",
+     "ar": "خطوط فقط بلا بيانات",
+     "en": "Only lines without data"
+    },
+    {
+     "de": "Jede Liste wird von Hand geschrieben",
+     "ar": "كل قائمة تُكتب يدويًا",
+     "en": "Every list is written by hand"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was ist eine Stückliste?",
+    "ar": "ما هي قائمة المواد؟",
+    "en": "What is a parts list?"
+   },
+   "options": [
+    {
+     "de": "Eine Zeichnung der Wege im Gebäude",
+     "ar": "رسم لمسارات المبنى",
+     "en": "A drawing of routes in the building"
+    },
+    {
+     "de": "Eine Auswertung mit Teilen und Mengen",
+     "ar": "تقرير بالقطع والكميات",
+     "en": "A report with parts and quantities"
+    },
+    {
+     "de": "Eine Sicherheitsregel",
+     "ar": "قاعدة سلامة",
+     "en": "A safety rule"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wozu dient ein Querverweis?",
+    "ar": "ما فائدة الإحالة المرجعية؟",
+    "en": "What is a cross-reference for?"
+   },
+   "options": [
+    {
+     "de": "Er ersetzt den Revisionsstand",
+     "ar": "يحل محل حالة المراجعة",
+     "en": "It replaces the revision status"
+    },
+    {
+     "de": "Er zeigt den Preis eines Teils",
+     "ar": "يبيّن سعر القطعة",
+     "en": "It shows the price of a part"
+    },
+    {
+     "de": "Er zeigt, wo andere Teile desselben Geräts liegen",
+     "ar": "يبيّن مكان الأجزاء الأخرى للجهاز نفسه",
+     "en": "It shows where other parts of the same device are"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Was gilt für Arbeiten an elektrischen Anlagen?",
+    "ar": "ماذا يسري على الأعمال في المنشآت الكهربائية؟",
+    "en": "What applies to work on electrical installations?"
+   },
+   "options": [
+    {
+     "de": "Der Plan beweist die Spannungsfreiheit",
+     "ar": "المخطط يثبت انعدام الجهد",
+     "en": "The diagram proves absence of voltage"
+    },
+    {
+     "de": "Die fünf Sicherheitsregeln gelten, der Plan ersetzt sie nicht",
+     "ar": "القواعد الخمس تسري والمخطط لا يغني عنها",
+     "en": "The five safety rules apply, the diagram does not replace them"
+    },
+    {
+     "de": "Nur die ersten zwei Regeln sind nötig",
+     "ar": "تكفي أول قاعدتين فقط",
+     "en": "Only the first two rules are needed"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Wie lernen Sie ein Elektro-CAD legal?",
+    "ar": "كيف تتعلمون برنامج الرسم الكهربائي قانونيًا؟",
+    "en": "How do you learn an electrical CAD legally?"
+   },
+   "options": [
+    {
+     "de": "Mit Raubkopien",
+     "ar": "بنسخ مقرصنة",
+     "en": "With pirated copies"
+    },
+    {
+     "de": "Gar nicht",
+     "ar": "لا تتعلمون",
+     "en": "Not at all"
+    },
+    {
+     "de": "Mit Schulungen, Bildungslizenzen und freier Software",
+     "ar": "بدورات وتراخيص تعليمية وبرامج حرة",
+     "en": "With training, educational licences and free software"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video geht es um TIA Portal und CODESYS, zwei Programmierumgebungen für Steuerungen.",
+  "ar": "في الفيديو القادم نتناول بيئتي البرمجة للمتحكمات المنطقية، ومنهما TIA Portal وCODESYS للتحكم.",
+  "en": "The next video covers TIA Portal and CODESYS, two programming environments for PLCs."
+ },
+ "stand": "2026-10-21; prüfen: aktuelle Ausgaben IEC 81346-1/-2 und DIN EN 61082-1, Funktionen und Lizenz-/Bildungsbedingungen von Eplan, QElectroTech (Version, Funktionsumfang) und KiCad, Bezeichnung von Seitentypen und Strukturen in Herstellerhilfen (nur ältere/andere Plattformversion belegt), fünf Sicherheitsregeln gegen Primärquelle (siehe E-F05)"
+}

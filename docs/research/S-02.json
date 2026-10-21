@@ -1,0 +1,171 @@
+{
+ "video": "S-02",
+ "facts": [
+  {
+   "claim": "IEC 61131-3 legt die Programmiersprachen für speicherprogrammierbare Steuerungen fest; die deutsche Fassung ist DIN EN 61131-3.",
+   "source_url": "https://www.dke.de/de/normen-standards/dokument?id=7042975&type=dke%7Cdokument",
+   "source_name": "DKE Normenkatalog",
+   "confidence": "medium",
+   "note": "Übernommen aus E-C01; Normtext nicht zitiert."
+  },
+  {
+   "claim": "Die Ausgabe 2013 nennt fünf Sprachen: KOP, FUP/FBS, ST, AWL und AS; ST und AWL sind textuell, KOP, FUP und AS grafisch.",
+   "source_url": "https://control-panels.org/blog/plc-programming-languages-iec-61131",
+   "source_name": "Fachblog (mit E-C01 abgeglichen)",
+   "confidence": "medium",
+   "note": "Wie E-C01."
+  },
+  {
+   "claim": "Mehrere Hersteller bieten Programmierwerkzeuge für die IEC-Sprachen an; Sprachumfang und herstellerspezifische Erweiterungen unterscheiden sich.",
+   "source_url": "https://control-panels.org/blog/plc-programming-languages-iec-61131",
+   "source_name": "Fachblogs (uneinheitlich)",
+   "confidence": "medium",
+   "note": "Nur allgemein verwendet, keine Herstellerzuordnung."
+  },
+  {
+   "claim": "CODESYS wird von der CODESYS Group (Sitz Kempten, Deutschland) hergestellt und als herstellerunabhängige Automatisierungssoftware nach IEC 61131-3 beschrieben.",
+   "source_url": "https://codesys.com/company.html",
+   "source_name": "CODESYS Group, Firmenseite",
+   "confidence": "high",
+   "note": "Selbstbeschreibung des Herstellers; im Video als 'beschreibt sich als' formuliert."
+  },
+  {
+   "claim": "CODESYS besteht im Kern aus einer Entwicklungsumgebung (Development System) und einer Laufzeitumgebung (CODESYS Control), die Gerätehersteller in ihre Hardware einbauen.",
+   "source_url": "https://codesys.com/company.html",
+   "source_name": "CODESYS Group; Renesas-Partnerseite",
+   "confidence": "medium",
+   "note": "Zahlen zu Geräten/Herstellern stark abweichend: gedroppt."
+  },
+  {
+   "claim": "CODESYS unterstützt die Sprachen ST, KOP, FUP und AS nach IEC 61131-3.",
+   "source_url": "https://www.renesas.com/en/design-resources/partners/codesys",
+   "source_name": "Renesas Partnerseite",
+   "confidence": "medium",
+   "note": "Nicht jede Sprachliste vollständig geprüft; nur 'unterstützt Sprachen der Norm'."
+  },
+  {
+   "claim": "Gerätehersteller wählen, ob und wie sie CODESYS in ihre Steuerungen einbinden; dadurch wird dieselbe Entwicklungsumgebung für Geräte verschiedener Hersteller genutzt.",
+   "source_url": "https://codesys.com/company.html",
+   "source_name": "CODESYS Group",
+   "confidence": "medium",
+   "note": "Herstellerunabhängig heißt nicht: jedes Gerät lässt sich damit programmieren."
+  },
+  {
+   "claim": "Siemens beschreibt das TIA Portal als Engineering-Umgebung, in der Hardware und Software eines Projekts in einer simulierten Umgebung getestet werden können; die Simulation läuft auf dem Programmiergerät/PC, ohne zusätzliche Hardware.",
+   "source_url": "https://docs.tia.siemens.cloud/r/en-us/v20/using-online-and-diagnostics-functions/simulating-devices-with-s7-plcsim/simulation-of-devices",
+   "source_name": "Siemens TIA Portal V20 Hilfe",
+   "confidence": "high",
+   "note": "Nur Konzept; Hilfe gilt für V20."
+  },
+  {
+   "claim": "Der Simulationsbutton ist nur aktiv, wenn das gewählte Gerät die Simulation unterstützt.",
+   "source_url": "https://docs.tia.siemens.cloud/r/en-us/v20/using-online-and-diagnostics-functions/simulating-devices-with-s7-plcsim/simulation-of-devices",
+   "source_name": "Siemens TIA Portal V20 Hilfe",
+   "confidence": "high",
+   "note": "Allgemein: nicht jedes Gerät ist simulierbar."
+  },
+  {
+   "claim": "Das TIA Portal bietet eine Online- und Diagnoseansicht mit Status von Geräten und Kommunikation.",
+   "source_url": "https://docs.tia.siemens.cloud/r/en-us/v20/using-online-and-diagnostics-functions/simulating-devices-with-s7-plcsim/simulation-of-devices",
+   "source_name": "Siemens TIA Portal V20 Hilfe (Bereich Online- und Diagnosefunktionen)",
+   "confidence": "medium",
+   "note": "Konzept 'Online-Diagnose' allgemein; Oberfläche nicht beschrieben."
+  },
+  {
+   "claim": "Das TIA Portal bietet eine Mehrbenutzer-Funktion (Multiuser Engineering): Mehrere Personen arbeiten über lokale Sitzungen an einem Serverprojekt; Änderungen werden eingecheckt.",
+   "source_url": "https://www.dmcinfo.com/blog/23572/leveraging-siemens-multiuser-engineering-for-tia-portal/",
+   "source_name": "DMC Inc. (Integrator-Blog)",
+   "confidence": "medium",
+   "note": "Sekundär; im Video nur als 'Herstellerumgebungen bieten Mehrbenutzer-Funktionen'."
+  },
+  {
+   "claim": "Ein Serverprojekt lässt sich nicht wie ein normales Projekt archivieren; zusätzlich werden lokale Sitzungen als Backup exportiert/archiviert. Die Zahl gespeicherter Versionen ist einstellbar (Quellen nennen unterschiedliche Standardwerte).",
+   "source_url": "https://www.dmcinfo.com/blog/19725/restoring-an-older-version-of-a-siemens-multiuser-project/",
+   "source_name": "DMC Inc.",
+   "confidence": "low",
+   "note": "Zahlen gedroppt; nur 'Archivierung und Versionen sind je Werkzeug unterschiedlich geregelt'."
+  },
+  {
+   "claim": "Für das TIA Portal gibt es eine Version-Control-Schnittstelle (VCI); externe Git-Werkzeuge arbeiten damit über exportierte Dateien.",
+   "source_url": "https://docs.copia.io/docs/git-based-source-control/supported-vendors/siemens/s7tiaportal",
+   "source_name": "Copia Automation Dokumentation",
+   "confidence": "medium",
+   "note": "Drittanbieter; nur als Konzept 'Export in Textformate für externe Versionsverwaltung'."
+  },
+  {
+   "claim": "CODESYS bietet eine Subversion-(SVN)-Anbindung, die Revisionen archiviert, wiederherstellt, einen Änderungsverlauf führt und Stände vergleichen kann.",
+   "source_url": "https://content.helpme-codesys.com/en/CODESYS%20SVN/_svn_cmd_compare_with_revision.html",
+   "source_name": "CODESYS Online Help (CODESYS SVN)",
+   "confidence": "high",
+   "note": "Lizenzfragen und Menünamen gedroppt."
+  },
+  {
+   "claim": "IEC 61131-10 (PLCopen XML) beschreibt ein XML-Austauschformat für Konfiguration, Datentypen und Bausteine in IL, ST, KOP, FUP und AS; es entstand bei PLCopen und wurde als IEC 61131-10:2019 veröffentlicht.",
+   "source_url": "https://plcopen.org/node/519",
+   "source_name": "PLCopen",
+   "confidence": "high",
+   "note": "Edition 2019; Stand prüfen."
+  },
+  {
+   "claim": "Der Austausch über PLCopen XML garantiert keine vollständige Portierbarkeit: Hersteller müssen nicht alle Funktionen unterstützen; nach dem Import kann Handarbeit und erneuter Test nötig sein.",
+   "source_url": "https://www.plcopen.org/sites/default/files/downloads/plcopen_xml_exchange.pdf",
+   "source_name": "PLCopen XML Exchange",
+   "confidence": "medium",
+   "note": "Sinngemäß."
+  },
+  {
+   "claim": "OpenPLC ist eine freie Open-Source-Suite nach IEC 61131-3 aus zwei Teilen: Editor (läuft auf dem Rechner) und Runtime.",
+   "source_url": "https://www.cnx-software.com/2022/12/18/openplc-open-source-programmable-logic-controller-suite-arduino-esp8266-esp32-raspberry-pi/",
+   "source_name": "CNX Software (Artikel 2022)",
+   "confidence": "medium",
+   "note": "Sekundär, 2022; Projektseite nicht abrufbar."
+  },
+  {
+   "claim": "Die OpenPLC-Runtime läuft u. a. auf Raspberry Pi und weiteren Plattformen; der Quellcode liegt öffentlich auf GitHub.",
+   "source_url": "https://www.cnx-software.com/2022/12/18/openplc-open-source-programmable-logic-controller-suite-arduino-esp8266-esp32-raspberry-pi/",
+   "source_name": "CNX Software",
+   "confidence": "medium",
+   "note": "Boardliste gedroppt (veränderlich)."
+  },
+  {
+   "claim": "CODESYS stellt hardwareunabhängige Soft-PLCs für Windows und Linux bereit; damit lassen sich Anwendungen am PC ohne Steuerungshardware testen.",
+   "source_url": "https://www.automationworld.com/supplier-news/news/22525910/codesys-using-virtual-controllers-for-rapid-resolution-of-delivery-issues",
+   "source_name": "Automation World (Herstellerbeitrag)",
+   "confidence": "medium",
+   "note": "Lizenz-/Zeitlimits gedroppt."
+  },
+  {
+   "claim": "Simulation und Wirklichkeit unterscheiden sich: In einer Simulation sind z. B. externe Kommunikationspartner nicht ohne Weiteres verfügbar (Forum zu CODESYS V2).",
+   "source_url": "https://forge.codesys.com/forge/talk/CODESYS-V2/thread/d7303edeb8/",
+   "source_name": "CODESYS Forge (Forum)",
+   "confidence": "low",
+   "note": "Nur als allgemeine Vorsicht 'Simulation ersetzt keine Inbetriebnahme' formuliert."
+  },
+  {
+   "claim": "BSI-Empfehlung 'Fernwartung im industriellen Umfeld' (Version 2.0, 11.07.2018): direkte Internetanbindung von SPS und veraltete Modems entsprechen nicht dem Stand der Technik.",
+   "source_url": "https://www.allianz-fuer-cybersicherheit.de/SharedDocs/Downloads/Webs/ACS/DE/BSI-CS/BSI-CS_108.pdf",
+   "source_name": "Allianz für Cybersicherheit / BSI-CS 108",
+   "confidence": "medium",
+   "note": "Version prüfen; im Video nur 'Fernzugriff auf Steuerungen braucht Konzept, siehe OT-Security-Video'."
+  },
+  {
+   "claim": "Arbeiten an elektrischen Anlagen erfolgen nach DGUV Vorschrift 3 durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht; die fünf Sicherheitsregeln gelten vollständig (freischalten; gegen Wiedereinschalten sichern; Spannungsfreiheit allpolig feststellen; erden und kurzschließen; benachbarte unter Spannung stehende Teile abdecken oder abschranken).",
+   "source_url": "https://medien.bgetem.de/medienportal/artikel/U1owMDE-/s108-arbeiten-an-elektrischen-anlagen-bf.pdf/@@download/file",
+   "source_name": "BG ETEM; Hessische Bildungsverwaltung (E-F05)",
+   "confidence": "medium",
+   "note": "Aus E-F05/E-F04 übernommen; Normwortlaut nicht geprüft."
+  }
+ ],
+ "dropped": [
+  "Marktanteile, 'meistgenutzt in Deutschland' für TIA Portal/CODESYS/andere (keine Primärquelle)",
+  "Preise, Lizenzmodelle, Testzeiten, Zeitlimits von Demo-Runtimes (veränderlich)",
+  "Anzahl Geräte/Hersteller mit CODESYS (Quellen: 400/500/1000+, Eigenangaben)",
+  "Konkrete TIA-Portal-Versionsnummern, Menünamen, Oberflächenelemente (kein Abbild kommerzieller UI)",
+  "Standardanzahl gespeicherter Multiuser-Versionen (3 vs 10, Quellen widersprechen sich)",
+  "Liste unterstützter OpenPLC-Boards und Lizenztext (nur Sekundärquellen)",
+  "Behauptung 'OpenPLC ist industrietauglich/zertifiziert' (nicht belegt)",
+  "Abgrenzung IND.3.2 im ICS-Security-Kompendium vs. IT-Grundschutz (unklar)",
+  "Vollständige Sprachliste je Hersteller (Blog-Tabellen widersprüchlich)",
+  "Aussagen, Programme ließen sich verlustfrei zwischen Herstellern portieren (widerlegt durch PLCopen-Hinweise)"
+ ]
+}
