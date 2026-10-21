@@ -169,6 +169,17 @@
   "Verhältnis DGUV Vorschrift 3 zu BetrSichV (gelten nebeneinander) - nur eine Sekundärquelle",
   "Spannungsgrenzen des Geltungsbereichs DIN VDE 0100-600 - bewusst nicht genannt",
   "Checklisten-Anhänge der DIN EN IEC/IEEE 82079-1 - Inhalt der aktuellen Ausgabe nicht geprüft",
-  "Wörtlicher Mindestinhalt des Prüfberichts im Nationalen Anhang der DIN VDE 0100-600 - Normtext nicht frei"
+  "Wörtlicher Mindestinhalt des Prüfberichts im Nationalen Anhang der DIN VDE 0100-600 - Normtext nicht frei",
+  "Absolute Aussagen 'zu jeder Anlage gehört ein Unterlagenpaket' / 'ohne Pläne, Messwerte und Anleitung ist die Übergabe unvollständig' - nur 'in der Regel', Umfang laut Vertrag",
+  "Inhalte der Einweisung für den Betreiber (praktisch an der Anlage, Fragen, Besonderheiten) und 'offene Mängel' - kein Fakt; Rechtsfolgen berührt",
+  "Inhalte einer Betriebsanleitung (Normalbetrieb, Störungen, Instandhaltung, Warnhinweise, Ansprechpartner) - nicht belegt; 82079-1 gilt für Produktanleitungen",
+  "Geltungsbereich der Erstprüfung 'neue, erweiterte oder geänderte Anlagen' als Normaussage und 'kann schon beim Bau stattfinden'",
+  "Pflicht 'jede Änderung braucht einen Revisionsstand mit Datum' - nur Empfehlung",
+  "'Eine Unterschrift ohne Namen reicht nicht' und 'Prüfstatus' des Messgeräts im Protokoll - nicht belegt",
+  "'Ein Multimeter ersetzt kein Isolationsmessgerät' - nicht belegt",
+  "'Nicht jeder Prüfschritt läuft im spannungsfreien Zustand' - nicht belegt, Sicherheitsrisiko",
+  "Begründung der Reihenfolge Besichtigen/Erproben/Messen ('spart Zeit und schützt die Geräte') - nicht belegt",
+  "Rechtliche Schutzwirkung guter Unterlagen ('schützt Sie und Ihr Unternehmen') und 'Verantwortung bleibt beim Betreiber' als absolute Rechtsaussage - nur 'in der Regel'",
+  "Wer die Anlage 'freigegeben' hat / Name einer Verantwortlichen Elektrofachkraft - nicht belegt (Pflicht zur Bestellung strittig)"
  ]
 }
