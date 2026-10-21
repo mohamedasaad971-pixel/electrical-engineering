@@ -59,11 +59,11 @@
    "note": "Schutzklassen nach DIN EN 61140; Symbole nicht verwendet (Klasse I/III dünn belegt)."
   },
   {
-   "claim": "Schutzklasse I: Schutzleiteranschluss; II: verstärkte Isolierung; III: Schutzkleinspannung.",
+   "claim": "Schutzklasse I: Schutzleiteranschluss; II: doppelte oder verstärkte Isolierung; III: Schutzkleinspannung.",
    "source_url": "https://www.baunetzwissen.de/elektro/fachwissen/schutz/schutzklassen-152980",
    "source_name": "Baunetz Wissen, Schutzklassen",
    "confidence": "medium",
-   "note": ""
+   "note": "Audit: Klasse II = doppelte oder verstärkte Isolierung (vorher nur verstärkte); vor Build gegen DIN EN 61140 prüfen."
   },
   {
    "claim": "Bemessungs-/Nennwerte (z. B. Spannung, Strom) legt der Hersteller fest und gibt sie auf dem Typenschild oder in den technischen Daten an.",
@@ -140,7 +140,7 @@
    "source_url": "https://karrierebibel.de/rufbereitschaft/",
    "source_name": "Karrierebibel; Lexware; OMR (mehrere Quellen)",
    "confidence": "medium",
-   "note": "ArbZG-Wortlaut nicht geprüft; Vergütung/Arbeitszeitfolgen bewusst nicht im Video."
+   "note": "ArbZG-Wortlaut nicht geprüft; Vergütung/Arbeitszeitfolgen bewusst nicht im Video. Video sagt: Ort wählbar, aber erreichbar und einsatzbereit (nicht \"Ort frei\")."
   },
   {
    "claim": "Das Vorstellungsgespräch läuft meist in Phasen: Begrüßung und Smalltalk, Vorstellung des Unternehmens, Selbstvorstellung des Bewerbers, Fragen, Abschluss; Reihenfolge kann variieren.",
@@ -190,6 +190,11 @@
   "Typische Interviewfragen speziell für Elektroingenieure in Deutschland: nur englische/generische Quellen, daher nur allgemeine Fragen (Projekt, Team, Herausforderung)",
   "Konkrete Zahlen für Temperatur, Feuchte, Höhenabminderung aus Beckhoff/Weidmüller: produktspezifisch, nicht übernommen",
   "Pflichtfelder einer Störungsmeldung (Ort, Zeit, Fehlerbild): keine Quelle; im Video als praktische Empfehlung, nicht als Vorschrift",
-  "Übergabe-Inhalte (Fabrico, Einzelquelle low): nicht als Fakt; Übergabe/Störungsmeldung im Video nur als praktische Gesprächsempfehlung ('Nennen Sie Ort, Anlage, Beobachtung')"
- ]
+  "Übergabe-Inhalte (Fabrico, Einzelquelle low): nicht als Fakt; Übergabe/Störungsmeldung im Video nur als praktische Gesprächsempfehlung ('Nennen Sie Ort, Anlage, Beobachtung')",
+  "Zeitangabe 'zwei Minuten' für die Selbstvorstellung und 'Hand geben' bei der Begrüßung: nicht belegt, widerspricht E-F07 (20 Sekunden); entfernt",
+  "'Zwei Fragen zur Stelle' und 'fünf typische Fragen': Zahl/Typizität nicht belegt; jetzt 'eigene Fragen' und 'mögliche Fragen'",
+  "Praxisbehauptungen zur Buchstabiertafel ('in der neuen Fassung', 'beides hören Sie noch'): nur noch 'neuere/ältere Fassung' und 'beide Formen sind bekannt'",
+  "Sie/Du-Hinweis, 'Bitte und Danke', Telefon- und E-Mail-Standardsätze (Anrede, Gruß, 'Verbindung ist schlecht'): doppeln E-F07, durch Verweis ersetzt"
+ ],
+ "stand_note": "2026-10-21: Rufbereitschaft, Schutzklasse II, Buchstabiertafel, Fragenliste abgeschwächt (siehe docs/audit/applied-E-D01.md)"
 }
