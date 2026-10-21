@@ -1,6 +1,6 @@
 {
  "video": "S-05",
- "stand": "2026-10-21",
+ "stand": "2026-10-21 (Audit angewendet 2026-10-21)",
  "facts": [
   {
    "claim": "DIALux evo wird von der DIAL GmbH (Lüdenscheid) entwickelt.",
@@ -181,6 +181,14 @@
   "UGR-Stufen und Grenzwerte je Tätigkeit – Normtabellen nicht geprüft",
   "Typische Zahlenwerte für Reflexionsgrade und Wartungsfaktoren – Sekundärquellen, projektabhängig",
   "Aufbau und Felder der EULUMDAT-/IES-Dateien – nur Konzept erklärt",
-  "Kosten der Normen (DIN-Shop) – ändern sich"
+  "Kosten der Normen (DIN-Shop) – ändern sich",
+  "Aussage 'DIALux ist in Deutschland bekannt/verbreitet' – entfernt (keine Primärquelle)",
+  "Absolute Aussage 'wer die ASR einhält, erfüllt die Verordnung' und 'gleichwertige Lösungen möglich' – nur als 'kann in der Regel davon ausgehen' formuliert, Vermutungswirkung vor Veröffentlichung an Primärquelle prüfen",
+  "'Radiance ersetzt keine Planungssoftware' / 'eher für Fachleute' – nicht belegt, entfernt",
+  "Beispiel Aderfarben in der Werkstatt zu Ra – nicht belegt, entfernt",
+  "ZVEI-Positionspapier 2017 (Jahresangabe) – Quelle nicht in der Recherche, nicht genannt",
+  "'in fast jedem Bauprojekt' und 'Planung übernehmen Programme' – unbelegte Absolutaussagen, abgeschwächt bzw. entfernt",
+  "Reserven bei Wartung/Verschmutzung einplanen – ersetzt durch 'Wartungsfaktor begründen und im Bericht festhalten'",
+  "ZVEI-Kritik an den Testfarben des Ra-Index (nur aus Audit-Recherche, nicht in den Fakten): aus dem Skript entfernt"
  ]
 }
