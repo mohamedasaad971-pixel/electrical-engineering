@@ -1,0 +1,91 @@
+name: preserve-existing-video-artifacts
+on:
+  push:
+    paths:
+      - ".github/workflows/preserve-existing-video-artifacts.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: preserve-existing-video-artifacts
+  cancel-in-progress: false
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Preserve and verify complete artifacts in draft releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: python
+        run: |
+          import hashlib, json, os, pathlib, re, subprocess, tempfile, urllib.request, zipfile
+          repo = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+          def api(path):
+              result = subprocess.run(["gh", "api", path], check=True, capture_output=True, text=True)
+              return json.loads(result.stdout)
+          def pages(path, key=None):
+              items = []
+              for page in range(1, 1000):
+                  data = api(path + ("&" if "?" in path else "?") + f"per_page=100&page={page}")
+                  batch = data[key] if key else data
+                  items.extend(batch)
+                  if len(batch) < 100: return items
+              raise RuntimeError("Pagination limit")
+          artifacts = pages(f"repos/{repo}/actions/artifacts", "artifacts")
+          prefix = r"(?:E-[A-Z][0-9]+|S-[0-9]+)" if repo.endswith("/electrical-engineering") else r"M-[A-Z][0-9]+"
+          selected = [a for a in artifacts if re.fullmatch(prefix + r"-rev[0-9]+", a["name"]) and not a["expired"]]
+          assert selected, "No live video artifacts"
+          receipt = {"repository": repo, "source_commit": os.environ["GITHUB_SHA"], "artifacts": [], "expired": [{"id":a["id"],"name":a["name"]} for a in artifacts if a["expired"]]}
+          releases = {r["tag_name"]: r for r in pages(f"repos/{repo}/releases")}
+          for a in selected:
+              tag = f"archive-{a['name']}-{a['id']}"
+              with tempfile.TemporaryDirectory() as td:
+                  archive = pathlib.Path(td) / (a["name"] + ".zip")
+                  with archive.open("wb") as out:
+                      subprocess.run(["gh", "api", f"repos/{repo}/actions/artifacts/{a['id']}/zip"], stdout=out, check=True)
+                  digest = "sha256:" + hashlib.file_digest(archive.open("rb"), "sha256").hexdigest()
+                  if a.get("digest"): assert a["digest"] == digest, "Source ZIP digest mismatch"
+                  with zipfile.ZipFile(archive) as z:
+                      assert z.testzip() is None, "Invalid ZIP"
+                      members = [{"path":i.filename,"size":i.file_size,"sha256":hashlib.sha256(z.read(i)).hexdigest()} for i in z.infolist() if not i.is_dir()]
+                  assert any(m["path"].endswith(".mp4") for m in members), "Artifact has no video"
+                  record = {"artifact_id":a["id"],"artifact_name":a["name"],"source_run":a["workflow_run"]["id"],"source_expires_at":a["expires_at"],"zip_size":archive.stat().st_size,"zip_digest":digest,"files":members}
+                  manifest = pathlib.Path(td) / "preservation-manifest.json"
+                  manifest.write_text(json.dumps(record, ensure_ascii=False, indent=2))
+                  release = releases.get(tag)
+                  if release:
+                      assert release["draft"] and not release["published_at"], "Refusing published release"
+                  else:
+                      subprocess.run(["gh","release","create",tag,"--repo",repo,"--draft","--target",os.environ["GITHUB_SHA"],"--title",a["name"] + " — preserved archive","--notes","Complete original Actions artifact. Cloud copy only; no audio generation. Not published."],check=True)
+                      releases = {r["tag_name"]:r for r in pages(f"repos/{repo}/releases")}
+                      release = releases[tag]
+                  for file in [archive, manifest]:
+                      expected = "sha256:" + hashlib.file_digest(file.open("rb"), "sha256").hexdigest()
+                      existing = next((x for x in release["assets"] if x["name"] == file.name),None)
+                      if existing:
+                          assert existing["size"] == file.stat().st_size and existing.get("digest") == expected, "Existing asset mismatch"
+                      else:
+                          subprocess.run(["gh","release","upload",tag,str(file),"--repo",repo],check=True)
+                  verified = api(f"repos/{repo}/releases/{release['id']}")
+                  assert verified["draft"] and not verified["published_at"]
+                  for file in [archive, manifest]:
+                      asset = next(x for x in verified["assets"] if x["name"] == file.name)
+                      assert asset["state"] == "uploaded" and asset["size"] == file.stat().st_size
+                      assert asset["digest"] == "sha256:" + hashlib.file_digest(file.open("rb"), "sha256").hexdigest()
+                  record.update({"release_id":verified["id"],"draft":verified["draft"],"verified":True})
+                  receipt["artifacts"].append(record)
+                  print(f"VERIFIED {a['name']} artifact={a['id']} files={len(members)} bytes={archive.stat().st_size}",flush=True)
+          pathlib.Path("preservation-receipt.json").write_text(json.dumps(receipt,ensure_ascii=False,indent=2))
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as out:
+              out.write(f"Verified {len(selected)} complete video artifact archives in draft releases. No build, TTS, publication or Mac downloads.\n")
+          print("ALL_VERIFIED",len(selected),flush=True)
+          
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: preservation-receipt
+          path: preservation-receipt.json
+          retention-days: 90
