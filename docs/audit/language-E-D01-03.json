@@ -1,0 +1,965 @@
+[
+ {
+  "video": "E-D01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1, Q2, Q3 and Q5 questions in Arabic end with Latin letters or digits (IP, IPX4, STAR, Rufbereitschaft); edge rule violated. Q3 also uses 'لماذا' (why) for 'Wofür steht'.",
+  "suggested_fix": "Q1 ar: ماذا يصف الرقم الثاني في الرمز IP عادةً؟ | Q2 ar: ماذا يعني IPX4 على لوحة البيانات؟ | Q3 ar: ماذا يمثل الحرف T في طريقة STAR للإجابة؟ | Q5 ar: ما الذي يميّز Rufbereitschaft عادةً؟"
+ },
+ {
+  "video": "E-D01",
+  "scene": 20,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong subject/meaning: 'Der Betrieb braucht Ausbildung, Kenntnisse und Erfahrung' – the company does not need training; it looks for a person who has it. Misleads learners about what the job ad means. AR/EN repeat the error.",
+  "suggested_fix": "DE: Elektrofachkraft gesucht heißt: Der Betrieb sucht eine Person mit Ausbildung, Kenntnissen und Erfahrung für diese Aufgaben. | AR: عبارة (Elektrofachkraft gesucht) تعني أن المؤسسة تبحث عن شخص لديه تعليم ومعرفة وخبرة لهذه المهام. | EN: Elektrofachkraft gesucht means the company is looking for a person with training, knowledge and experience for these tasks."
+ },
+ {
+  "video": "E-D01",
+  "scene": 21,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Missing article/ungrammatical: 'Sie kennen Aufbau von Telefonat und E-Mail.'",
+  "suggested_fix": "DE: Sie kennen den Aufbau eines Telefonats und einer E-Mail. | AR/EN unchanged."
+ },
+ {
+  "video": "E-D01",
+  "scene": 21,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'gesucht' rendered as 'بحث عن كهربائي مؤهَّل' (a search for...), which is ungrammatical in this list of nouns.",
+  "suggested_fix": "AR: وتفهمون مصطلحات مثل الخبرة المهنية والاستعداد ومطلوب كهربائي مؤهَّل."
+ },
+ {
+  "video": "E-D01",
+  "scene": 3,
+  "line": 2,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: passive verb 'يُذكر' with feminine subject 'الشركة المصنعة'.",
+  "suggested_fix": "AR: عادةً تُذكر فيها الشركة المصنعة."
+ },
+ {
+  "video": "E-D01",
+  "scene": 10,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Agreement: 'تقل سوء الفهم' – 'سوء الفهم' is masculine.",
+  "suggested_fix": "AR: أعيدوا الإجابة بكلماتكم. هكذا يقلّ سوء الفهم."
+ },
+ {
+  "video": "E-D01",
+  "scene": 14,
+  "line": 6,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Ungrammatical Arabic: 'وتسمعون الاثنين ما زال'.",
+  "suggested_fix": "AR: الصيغة الأقدم تقول Anton وBerta. وما زلتم تسمعون الصيغتين."
+ },
+ {
+  "video": "E-D01",
+  "scene": 13,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Slide: five safety rules incomplete/shortened: card 4 reads '4 Erden und Kurzschließen; 5 Abdecken' – rule 5 lacks 'oder Abschranken' (TERMS E-B: rules always complete); two rules squeezed into one card.",
+  "suggested_fix": "items: [\"1 Freischalten; 2 Gegen Wiedereinschalten sichern\", \"3 Spannungsfreiheit allpolig feststellen\", \"4 Erden und Kurzschließen\", \"5 Benachbarte Teile abdecken oder abschranken\"]"
+ },
+ {
+  "video": "E-D01",
+  "scene": 17,
+  "line": 2,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Pedagogy: STAR is explained with the German words Situation, Aufgabe, Handlung, Ergebnis, which spell S-A-H-E, not STAR; the quiz then asks 'T in STAR' = Aufgabe. A learner cannot derive this from the video; the English origin (Situation, Task, Action, Result) is never said.",
+  "suggested_fix": "Insert after 17.2: DE: STAR kommt aus dem Englischen: Situation, Task, Action, Result. Im Deutschen sagen wir Situation, Aufgabe, Handlung, Ergebnis. | AR: STAR مأخوذة من الإنجليزية: Situation وTask وAction وResult، وبالألمانية: الموقف والمهمة والإجراء والنتيجة. | EN: STAR comes from English: Situation, Task, Action, Result. In German we say Situation, Aufgabe, Handlung, Ergebnis. | tts: Star kommt aus dem Englischen: Situation, Task, Action, Result. Im Deutschen sagen wir Situation, Aufgabe, Handlung, Ergebnis."
+ },
+ {
+  "video": "E-D02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1 Arabic question ends with Latin letters ('As-built').",
+  "suggested_fix": "Q1 ar: ماذا يعني مصطلح As-built في الوثائق؟"
+ },
+ {
+  "video": "E-D02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR 'الاستلام (Abnahme)' ends with Latin letters in parentheses (edge rule); also differs from E-F07 'الاستلام الرسمي'.",
+  "suggested_fix": "ar: الاستلام الرسمي"
+ },
+ {
+  "video": "E-D02",
+  "scene": 14,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term 'الاستلام (Abnahme)' ends with Latin letters; inconsistent with E-F07 ('الاستلام الرسمي') and E-D03 ('الاستلام').",
+  "suggested_fix": "terms[1].ar: الاستلام الرسمي"
+ },
+ {
+  "video": "E-D02",
+  "scene": 2,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term 'مشغّل المنشأة (Betreiber)' ends with Latin letters.",
+  "suggested_fix": "terms[0].ar: مشغّل المنشأة | and terms[0].de: der Betreiber"
+ },
+ {
+  "video": "E-D02",
+  "scene": 5,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term 'كما نُفِّذ فعليًا (As-built)' ends with Latin letters.",
+  "suggested_fix": "terms[0].ar: الوضع المنفَّذ فعليًا | and terms[0].de: das As-built"
+ },
+ {
+  "video": "E-D02",
+  "scene": 15,
+  "line": 5,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "TTS number wrong: 'achtzig-zwei-null-sieben-neun' reads 80 (eighty); the number is 82079 (digit-wise convention used in all earlier scripts: 'sechs eins eins drei eins'). 'I-Triple-E' is English; German voice should say I-Tripel-E.",
+  "suggested_fix": "tts: Für Anleitungen gibt es die Norm Din E-En I-E-Ze I-Tripel-E acht zwei null sieben neun Strich eins."
+ },
+ {
+  "video": "E-D02",
+  "scene": 8,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Logical contradiction: 8.5 says 'Am Ende bewerten Sie das Ergebnis', then 8.6 'Erst dann folgt die Messung' – the measurement is thereby placed after the assessment. Intended: measuring only after inspecting and testing.",
+  "suggested_fix": "DE: Die Messung folgt erst nach dem Besichtigen und Erproben. | AR: يأتي القياس بعد المعاينة والاختبار الوظيفي فقط. | EN: Measuring only follows after inspecting and testing."
+ },
+ {
+  "video": "E-D02",
+  "scene": 17,
+  "line": 10,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'يستشيركم المختصون' means 'the specialists consult you' – the opposite of 'Fachleute beraten Sie'.",
+  "suggested_fix": "AR: يقدّم لكم المختصون المشورة في الاختيار، والقرار للمنشأة."
+ },
+ {
+  "video": "E-D02",
+  "scene": 16,
+  "line": 4,
+  "severity": "error",
+  "lang": "de",
+  "issue": "TERMS E-B: work authorisation must always read 'Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft'; here shortened to 'oder jemand unter ihrer Aufsicht' (also slide row 5 on S16 is truncated and has 51 characters, limit 50).",
+  "suggested_fix": "DE: Eine Elektrofachkraft oder eine Person unter Leitung und Aufsicht einer Elektrofachkraft führt sie durch. | AR: يجريه كهربائي مؤهَّل أو شخص تحت إدارة وإشراف كهربائي مؤهَّل. | EN: A qualified electrician, or a person under the direction and supervision of one, carries it out. | S16 item 5: \"Durchführung | Elektrofachkraft oder unter Leitung\""
+ },
+ {
+  "video": "E-D02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q4 'Wer legt ... fest?' has the option 'Ein fester Wert für alle Anlagen' (not a person) – question/option mismatch; also a structurally implausible distractor.",
+  "suggested_fix": "Q4 de: Wie werden die Fristen wiederkehrender Prüfungen festgelegt? | ar: كيف تُحدَّد مدد الفحوص الدورية؟ | en: How are the intervals of recurring inspections determined? | options: 'Durch den Arbeitgeber mit einer Gefährdungsbeurteilung' / 'Durch einen festen Wert für alle Anlagen' / 'Durch den Hersteller allein' (AR: من صاحب العمل عبر تقييم المخاطر / بقيمة ثابتة لجميع المنشآت / من الشركة المصنِّعة وحدها); answer stays 0"
+ },
+ {
+  "video": "E-D02",
+  "scene": 10,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Agreement: 'يضاف إليه مقاومة العزل' – feminine subject, masculine verb, and 'إليه' has no referent.",
+  "suggested_fix": "AR: وتُضاف إلى ذلك مقاومة العزل."
+ },
+ {
+  "video": "E-D02",
+  "scene": 10,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Terminology inconsistent with E-B02 ('جهاز الحماية من تيار العطل') and E-F07; 'التيار المتبقي' is not used anywhere else.",
+  "suggested_fix": "AR: وفي أجهزة الحماية من تيار العطل (RCD) يُدوَّن تيار الفصل وزمن الفصل."
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR entries end with Latin letters in parentheses (edge rule): 'مدير الموقع (Bauleiter)', 'الكهربائي المؤهَّل (Elektrofachkraft)', 'الاختصاص (Gewerk)', 'ملحق التعديل (Nachtrag)', 'الإخطار بالتحفظات (Bedenkenanmeldung)', 'نقطة التنسيق بين الاختصاصات (Schnittstelle)'. Schnittstelle also deviates from 'نقاط التماس' in E-B04/B06/A04.",
+  "suggested_fix": "ar values: مدير الموقع | الكهربائي المؤهَّل | الاختصاص | ملحق التعديل | الإخطار بالتحفظات | نقطة التماس"
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz Q1 Arabic question ends with Latin letters ('VOB؟').",
+  "suggested_fix": "Q1 ar: متى تسري شروط VOB الجزء ب؟"
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term 'الكهربائي المؤهَّل (Elektrofachkraft)' ends with Latin letters.",
+  "suggested_fix": "terms[0].ar: الكهربائي المؤهَّل"
+ },
+ {
+  "video": "E-D03",
+  "scene": 10,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term 'ملحق التعديل (Nachtrag)' ends with Latin letters.",
+  "suggested_fix": "terms[0].ar: ملحق التعديل"
+ },
+ {
+  "video": "E-D03",
+  "scene": 12,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term 'الإخطار بالتحفظات (Bedenkenanmeldung)' ends with Latin letters.",
+  "suggested_fix": "terms[0].ar: الإخطار بالتحفظات"
+ },
+ {
+  "video": "E-D03",
+  "scene": 20,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide terms end with Latin letters: 'نقطة التنسيق بين الاختصاصات (Schnittstelle)' and 'الاختصاص (Gewerk)'; term inconsistent with earlier 'نقاط التماس'.",
+  "suggested_fix": "terms: {de: die Schnittstelle, ar: نقطة التماس, en: interface}, {de: das Gewerk, ar: الاختصاص (المهنة الفنية), en: trade}"
+ },
+ {
+  "video": "E-D03",
+  "scene": 3,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'الطالب' means 'student' in Arabic; Besteller (the party ordering the work) is misunderstood. Same problem in 6.4.",
+  "suggested_fix": "3.3 AR: ويُسمّى في القانون غالبًا Besteller، أي الجهة الطالبة للعمل. | 6.4 AR: والجهة الطالبة تدفع الأجر المتفق عليه."
+ },
+ {
+  "video": "E-D03",
+  "scene": 20,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "'المناور' (light wells) is wrong for 'Schächte' (vertical service shafts); E-B06 uses 'الفتحات الرأسية'.",
+  "suggested_fix": "AR: مع العمارة تنسّقون الفتحات الرأسية ومساحات المعدات الفنية."
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 0,
+  "severity": "error",
+  "lang": "de",
+  "issue": "TERMS E-B: authorisation formula shortened on slide: 'Elektrofachkraft oder unter ihrer Aufsicht' lacks 'Leitung und'.",
+  "suggested_fix": "items[0]: \"Elektrofachkraft oder unter Leitung und Aufsicht\""
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Rule 4 translated 'القصر الكهربائي' while E-F05 and all other scripts (incl. E-D01/D02) say 'التقصير' for the rule wording; inconsistency within the E-D trilogy.",
+  "suggested_fix": "AR: ثالثًا التحقق من انعدام الجهد في كل الأقطاب، رابعًا التأريض والتقصير."
+ },
+ {
+  "video": "E-D03",
+  "scene": 21,
+  "line": 9,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Next-video pointer missing in the spoken script (E-D02, most earlier scripts speak it); `next` mentions EPLAN but the narrator never does.",
+  "suggested_fix": "Replace 21.9 by two lines: DE: Im nächsten Video beginnt die Softwareserie mit EPLAN und der Elektroplanung am Rechner. | AR: في الفيديو القادم تبدأ سلسلة البرمجيات مع برنامج EPLAN والتخطيط الكهربائي على الحاسوب. | EN: In the next video the software series begins with EPLAN and electrical planning on the computer. | tts: Im nächsten Video beginnt die Softwareserie mit E-Plan und der Elektroplanung am Rechner. ; then DE: Vielen Dank fürs Zuschauen. (AR: شكرًا على المتابعة.)"
+ },
+ {
+  "video": "E-D01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Title: 'Baustelle' in DE, but AR says 'ورشة' (workshop) and EN 'Workshop'; the video mostly deals with Baustelle, Datenblatt and Interview (workshop = E-F07).",
+  "suggested_fix": "title.ar: الألمانية المهنية للكهرباء: ورقة البيانات وموقع العمل والمقابلة | title.en: Technical German in Practice: Data Sheet, Building Site, Interview"
+ },
+ {
+  "video": "E-D01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Elektrofachkraft EN is 'electrically skilled person' in E-D01 (slide term, 13.6, 13.7, 20.6, 21.6, quiz, glossary) but 'qualified electrician' in E-F04/F05, E-B and E-C.",
+  "suggested_fix": "Use 'qualified electrician' everywhere in E-D01 (e.g. 13.6 EN: A qualified electrician carries out this work, or a person under the direction and supervision of one.)"
+ },
+ {
+  "video": "E-D01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Vorstellungsgespräch AR 'مقابلة التعريف بالنفس (مقابلة العمل)' (also 2.5, 16.1) is unnatural; E-F03/E-F07 use 'مقابلة التوظيف'/'مقابلة العمل'.",
+  "suggested_fix": "glossary ar: مقابلة العمل | 2.5 AR: رابعًا: مقابلة العمل وإعلان الوظيفة. | 16.1 AR: لمقابلة العمل عادةً عدة مراحل. وقد يتغير الترتيب."
+ },
+ {
+  "video": "E-D01",
+  "scene": 10,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Duplication with E-F07: Rückfragen ('Habe ich richtig verstanden?'), Sie/Du advice, 'Bitte und Danke' (F07 scenes 11-12), telephone (F07 S13) and e-mail (F07 S14: Sehr geehrte Frau Weber/Herr Becker, Mit freundlichen Grüßen, Betreff, 'Die Verbindung ist schlecht') overlap almost literally; interview introduction also overlaps F07 S15/16. Violates 'no duplication of E-F07 vocabulary scenes'.",
+  "suggested_fix": "Keep D01 only for new content and add a back-reference. 10.1 DE: Zu höflichem Nachfragen kennen Sie schon Sätze aus dem letzten Sprachvideo. Hier geht es um Aufgaben auf der Baustelle. | AR: عبارات الاستفسار المهذب تعرفونها من الفيديو اللغوي السابق، وهنا نركّز على المهام في موقع العمل. | EN: You already know polite follow-up questions from the last language video. Here we focus on tasks on site. Replace S10 items by e.g. \"Wer gibt mir die Freigabe?\", \"Welcher Plan gilt?\", \"Bis wann soll das fertig sein?\", \"Wer ist dafür zuständig?\"; drop 10.7 (Sie/Du, already in F07 11.8) and 14.7 (F07 13.10); in S15 replace 15.3/15.7 by Anhang, Betreff and 'MfG' only, referring back: 'Anrede und Gruß kennen Sie schon aus dem letzten Sprachvideo.'"
+ },
+ {
+  "video": "E-D01",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide item 'Gespräche in Werkstatt und Baustelle' is ungrammatical (preposition/article); spoken 2.3 mentions only Baustelle.",
+  "suggested_fix": "items[1]: \"Gespräche in der Werkstatt und auf der Baustelle\""
+ },
+ {
+  "video": "E-D01",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR adds filler 'هنا' and is clumsy: '...القيمة المقررة للتصميم (Bemessungswert) هنا.' Also EN/AR gloss Nennwert and Bemessungswert both as 'rated value' (IEC: Nennwert = nominal, Bemessungswert = rated); 'القيمة المقررة للتصميم' is a loose paraphrase.",
+  "suggested_fix": "AR: في المعايير تُسمّى القيمة الاسمية غالبًا القيمة المقنَّنة (Bemessungswert). | EN: In standards the nominal value is often called the Bemessungswert (rated value). | glossary: Nennwert en 'nominal value', Nennspannung 'nominal voltage', Nennstrom 'nominal current', Bemessungswert ar 'القيمة المقنَّنة' en 'rated value (standard term)'; slide S3 term Nennwert en 'nominal value'"
+ },
+ {
+  "video": "E-D01",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR 'الرمز (IP) موصوف في المعيار DIN EN 60529 الحالي' adds 'الحالي' not in DE and starts the number string in Latin mid-line (fine) but loses clarity.",
+  "suggested_fix": "AR: رمز IP موصوف في المعيار DIN EN 60529."
+ },
+ {
+  "video": "E-D01",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "TTS reads the standard number as 'sechzigtausendfünfhundertneunundzwanzig'; all earlier scripts read standard numbers digit by digit.",
+  "suggested_fix": "tts: Der I-Pe-Code ist in der Norm Din E-En sechs null fünf zwei neun beschrieben."
+ },
+ {
+  "video": "E-D01",
+  "scene": 5,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'مثل IP54 مثلًا' is redundant.",
+  "suggested_fix": "AR: على لوحات كثيرة تظهر درجة حماية، مثل IP54."
+ },
+ {
+  "video": "E-D01",
+  "scene": 7,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الإفادتان' (statements) is awkward for 'beide Angaben'.",
+  "suggested_fix": "AR: غالبًا تُذكر المعلومتان في ورقة البيانات. اقرؤوهما كلًّا على حدة."
+ },
+ {
+  "video": "E-D01",
+  "scene": 7,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Schutzkleinspannung (SELV) rendered 'جهد منخفض وقائي'; the term is 'الجهد المنخفض جدًا الوقائي'.",
+  "suggested_fix": "AR: والفئة الثالثة تعمل بجهد منخفض جدًا وقائي."
+ },
+ {
+  "video": "E-D01",
+  "scene": 8,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide row uses an abbreviation and vague wording 'ab einer Höhe evtl. Derating' (not spoken as such).",
+  "suggested_fix": "items[2]: \"Aufstellhöhe | Ab einer Höhe weniger Leistung\""
+ },
+ {
+  "video": "E-D01",
+  "scene": 8,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'ويسمى بالإنجليزية Derating أيضًا' – 'أيضًا' unfaithful, grammar slightly off; English word read by German TTS without hint.",
+  "suggested_fix": "AR: وابتداءً من ارتفاع معيّن يذكر بعض المصنعين تخفيضًا للقدرة، ويُعرف بالإنجليزية باسم Derating. | tts: Ab einer bestimmten Höhe nennen manche Hersteller eine Leistungsminderung, auf Englisch Dirating."
+ },
+ {
+  "video": "E-D01",
+  "scene": 10,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'اللوحة التوزيعية' deviates from the established 'لوحة التوزيع' (E-F07).",
+  "suggested_fix": "AR: أشيروا أولًا إلى الجهاز واسألوا: هل تقصدون لوحة التوزيع هذه؟"
+ },
+ {
+  "video": "E-D01",
+  "scene": 10,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الخط' for Leitung – E-F07 uses 'الخط الكهربائي'; 'مطالب' unusual.",
+  "suggested_fix": "AR: لخّصوا المهمة: هل فهمت جيدًا أنه مطلوب مني فحص الخط الكهربائي؟"
+ },
+ {
+  "video": "E-D01",
+  "scene": 12,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Anlage translated as 'جهاز' (device) in 12.1/12.2 but as 'المنشأة' in 11.x and 13.x; also slide item 'Anlage: Welches Gerät ist betroffen?' mixes Anlage and Gerät.",
+  "suggested_fix": "12.1 AR: عندما تتعطل منشأة أبلغوا عن العطل بإيجاز ودقة. | 12.2 AR: اذكروا المكان والمنشأة. | S12 item 2: \"Anlage: Welche Anlage oder welches Gerät?\""
+ },
+ {
+  "video": "E-D01",
+  "scene": 12,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Telephone idiom: 'Hier ist Ahmed.' is informal; E-F07 teaches 'hier spricht ...'; no company named although 14.2 demands name and company.",
+  "suggested_fix": "DE: Ein Beispiel: Hier spricht Ahmed von der Beispiel-Elektro GmbH. Im Keller hat der Leitungsschutzschalter ausgelöst. Die Pumpe läuft nicht. | AR: مثال: معكم أحمد من شركة Beispiel-Elektro GmbH. في القبو فصل القاطع الآلي والمضخة لا تعمل. | EN: An example: This is Ahmed from Beispiel-Elektro GmbH. In the basement the circuit breaker tripped. The pump is not running."
+ },
+ {
+  "video": "E-D01",
+  "scene": 14,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'بوضوح خاص' is not idiomatic.",
+  "suggested_fix": "AR: على الهاتف تغيب الصورة. لذلك تحدثوا بوضوح أكبر."
+ },
+ {
+  "video": "E-D01",
+  "scene": 14,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR '... وB مثل Berlin عندئذٍ.' – 'عندئذٍ' superfluous and misleading; letters A/B have no tts hint.",
+  "suggested_fix": "AR: للتهجئة يوجد جدول التهجئة. وفي الصيغة الجديدة يقال A مثل Aachen وB مثل Berlin. | tts: Zum Buchstabieren gibt es eine Buchstabiertafel. In der neuen Fassung heißt es A wie Aachen, Be wie Berlin."
+ },
+ {
+  "video": "E-D01",
+  "scene": 14,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Pedagogy: 14.2 asks for 'Name und Firma' but no model sentence is given; 14.9 AR 'سأوجز باختصار' redundant.",
+  "suggested_fix": "Add after 14.2: DE: Zum Beispiel: Guten Tag, hier spricht Ahmed von der Firma Beispiel-Elektro. | AR: مثلًا: يوم سعيد، معكم أحمد من شركة Beispiel-Elektro. | EN: For example: Good day, this is Ahmed from the company Beispiel-Elektro. | 14.9 AR: وقولوا في النهاية: سألخّص الأمر بإيجاز."
+ },
+ {
+  "video": "E-D01",
+  "scene": 17,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'Situation und Aufgabe dürfen Sie auch tauschen' is questionable method advice (STAR order is fixed); more usual is to combine them.",
+  "suggested_fix": "DE: Situation und Aufgabe dürfen Sie auch zusammen nennen. Sprechen Sie nur über Wahres. | AR: يمكنكم ذكر الموقف والمهمة معًا. وتحدثوا فقط عمّا هو حقيقي. | EN: You may also state situation and task together. Speak only about what is true."
+ },
+ {
+  "video": "E-D01",
+  "scene": 18,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Sie-form lost: 18.2/18.3 AR use singular masculine imperatives ('عرّف بنفسك', 'اذكر', 'استخدم'), while all other lines use plural; EN/DE address the learner formally.",
+  "suggested_fix": "18.2 AR: عرّفوا بأنفسكم من فضلكم. اذكروا التعليم والمشاريع والهدف. | 18.3 AR: حدّثونا عن مشروع. استخدموا خطوات STAR الأربع."
+ },
+ {
+  "video": "E-D01",
+  "scene": 19,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Section headers in 19.2-19.4 are not translated: 'تحت ملفكم', 'تحت نقدّم' are meaningless to a reader who sees the German headings; 'الأجناس' in 19.6 means 'races/species'.",
+  "suggested_fix": "19.3 AR: تحت بند Ihr Profil، أي ما يُطلب منكم، يُذكر ما تتوقعه المؤسسة، مثل الخبرة المهنية. | 19.4 AR: تحت بند Wir bieten، أي ما نقدمه لكم، يُذكر ما تعرضه المؤسسة. | 19.6 AR: والمقصود أن الوظيفة مفتوحة لجميع الجنسين."
+ },
+ {
+  "video": "E-D01",
+  "scene": 19,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "TTS 'em, we, de' unclear for letter spelling.",
+  "suggested_fix": "tts: Hinter dem Titel steht oft Em-We-De. Das heißt: männlich, weiblich, divers."
+ },
+ {
+  "video": "E-D01",
+  "scene": 20,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Bereitschaftsdienst has no Arabic gloss at all (only Rufbereitschaft in the term box and glossary); AR 20.5 'سفرات' colloquial.",
+  "suggested_fix": "20.2 AR: في مناوبة الحضور (Bereitschaftsdienst) يحدد صاحب العمل مكان وجودكم. | 20.5 AR: استعداد السفر (Reisebereitschaft) يعني استعدادكم لرحلات العمل، ويُذكر نطاقها في الإعلان. | S20 terms: add {de: der Bereitschaftsdienst, ar: مناوبة الحضور, en: on-site standby duty} in place of Elektrofachkraft or glossary"
+ },
+ {
+  "video": "E-D01",
+  "scene": 21,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Structure: next-video pointer (21.7) comes before the disclaimer scene 22; in other scripts the pointer closes the video (E-D02 20.8).",
+  "suggested_fix": "Move disclaimer scene before the summary or move line 21.7 to the end of scene 22 (after 22.5), before 'Viel Erfolg beim Üben!'."
+ },
+ {
+  "video": "E-D01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distractors weak: Q4 'Jeder, der Zeit hat' / 'Nur der Kunde'; Q4 in AR 'تحت إدارته وإشرافه' fine. Q5 option 3 AR 'والمكان حر' unidiomatic.",
+  "suggested_fix": "Q4 options: 'Jeder mit Elektro-Studium' (AR: كل من درس هندسة كهربائية) / 'Eine Elektrofachkraft oder eine Person unter ihrer Leitung und Aufsicht' / 'Nur der Kunde bei der Abnahme'. Q5 opt3 ar: يجب أن تكون متاحًا، والمكان من اختيارك"
+ },
+ {
+  "video": "E-D01",
+  "scene": 16,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Target group are engineers: 'Ausbildung' alone suggests vocational training only.",
+  "suggested_fix": "DE: Danach stellen Sie sich vor: Studium oder Ausbildung, Projekte, Motivation. | AR: بعد ذلك تعرّفون بأنفسكم: الدراسة أو التأهيل المهني والمشاريع والدافع. | EN: Then you introduce yourself: studies or training, projects, motivation."
+ },
+ {
+  "video": "E-D02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Quiz Q1 asks about As-built but the glossary has no entry; glossary also lacks plural forms (D01/F07 give them) and slide terms lack articles (Betreiber, Klemmenplan, Stromlaufplan, As-built, Revisionsstand, Erstprüfung, Messprotokoll, ...).",
+  "suggested_fix": "Add glossary {de: das As-built, die As-built-Stände, ar: الوضع المنفَّذ فعليًا, en: as-built (state as executed)}; give plurals e.g. 'das Prüfprotokoll, die Prüfprotokolle', 'der Betreiber, die Betreiber'; slide terms: 'der Klemmenplan', 'der Stromlaufplan', 'der Revisionsstand', 'die Erstprüfung', 'das Messprotokoll', 'die Schleifenimpedanz', 'die Messunsicherheit', 'die Kalibrierung', 'das Prüfprotokoll', 'die Befugnis', 'das Übergabeprotokoll', 'die Betriebsanleitung', 'die Gefährdungsbeurteilung', 'die Prüffrist'"
+ },
+ {
+  "video": "E-D02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distractors implausible (Q1 'Ein Preisangebot', Q2 'Bohren, Fräsen, Schweißen', Q3 'Nur der Firmenname'/'Nur die Rechnung') – too easy; Q5 phrasing 'vor dem Prüfen' vague.",
+  "suggested_fix": "Q1 distractor 3: 'Der geplante Zustand nach der letzten Revision' (AR: الوضع المخطط بعد آخر مراجعة); Q2 options 2/3: 'Planen, Prüfen, Abnehmen' / 'Messen, Bewerten, Archivieren'; Q3 options 1/2: 'Nur Auftraggeber und Datum' / 'Nur der Gerätepreis'; Q5 de: Was gilt bei Arbeiten an elektrischen Anlagen? ar: ماذا ينطبق عند العمل على المنشآت الكهربائية؟ en: What applies when working on electrical installations?"
+ },
+ {
+  "video": "E-D02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "next/title consistency: `next` uses a different pattern ('Im nächsten Video: Projektarbeit, Verträge und Qualität') than D01 and the spoken 20.8; E-D03 title says 'Qualitätsmanagement', not 'Qualität'.",
+  "suggested_fix": "next.de: Im nächsten Video geht es um Projektarbeit, Verträge und Qualitätsmanagement. | next.ar: في الفيديو القادم نتناول العمل في المشروع والعقود وإدارة الجودة. | next.en: The next video covers project work, contracts and quality management. | 20.8 DE/AR/EN analogously (… und Qualitätsmanagement / وإدارة الجودة / and quality management)"
+ },
+ {
+  "video": "E-D02",
+  "scene": 9,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "9.2 is a sentence fragment ('Dafür gilt: Elektrofachkraft oder unter Leitung und Aufsicht einer Elektrofachkraft.'); 9.7 'Video fünf' does not tell the learner which video.",
+  "suggested_fix": "9.2 DE: Diese Arbeiten führt eine Elektrofachkraft aus oder eine Person unter Leitung und Aufsicht einer Elektrofachkraft. | AR: هذه الأعمال ينفذها كهربائي مؤهَّل أو شخص تحت إدارة وإشراف كهربائي مؤهَّل. | EN: A qualified electrician carries out this work, or a person under the direction and supervision of one. | 9.7 DE: Das ist die Ordnung aus dem Video über Elektrosicherheit. Lernen Sie alle fünf Regeln. | AR: هذا هو الترتيب من فيديو السلامة الكهربائية. احفظوا القواعد الخمس كلها. | EN: This is the order from the video on electrical safety. Learn all five rules."
+ },
+ {
+  "video": "E-D02",
+  "scene": 7,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "'befähigte Elektrofachkraft' (also 13.2, S7/S13 slides) blends 'befähigte Person' (BetrSichV) and Elektrofachkraft; TERMS defines only Elektrofachkraft; EN 'competent qualified electrician' awkward.",
+  "suggested_fix": "7.5 DE: Eine Elektrofachkraft führt sie durch, oder eine Person unter ihrer Leitung und Aufsicht. | AR: يجريها كهربائي مؤهَّل أو شخص تحت إدارته وإشرافه. | EN: A qualified electrician carries it out, or a person under their direction and supervision. | 13.2 DE: Die Prüfung führt eine Elektrofachkraft durch. | AR: يجري الفحص كهربائي مؤهَّل. | EN: A qualified electrician carries out the inspection. | S7 item 3: \"Durch eine Elektrofachkraft\"; S13 row 1: \"Prüfen | Elektrofachkraft\""
+ },
+ {
+  "video": "E-D02",
+  "scene": 7,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Unclear sentence: 'Ist die Prüfung kaum noch möglich, kann sie schon beim Bau stattfinden.' (what is 'kaum möglich'?).",
+  "suggested_fix": "DE: Sind Teile später nicht mehr zugänglich, prüft man sie schon während des Baus. | AR: وإذا تعذّر الوصول إلى أجزاء لاحقًا، فتُفحص أثناء البناء. | EN: If parts will not be accessible later, they are inspected during construction."
+ },
+ {
+  "video": "E-D02",
+  "scene": 7,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR drops the information 'Teil 600' (DE/EN/tts say it).",
+  "suggested_fix": "AR: تصفه سلسلة المعايير DIN VDE 0100 في الجزء 600."
+ },
+ {
+  "video": "E-D02",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الوصلات الموصِّلة' is odd; E-F06 renders the same sentence 'التوصيلات الكهربائية'. 4.8 'تمييز' vs E-F06 'الترميز' for Kennzeichen.",
+  "suggested_fix": "4.5 AR: يعرض مخطط توصيل الأسلاك التوصيلات الكهربائية بين الأجهزة. | 4.8 AR: والتوثيق الجيد يربطها بترميز واضح."
+ },
+ {
+  "video": "E-D02",
+  "scene": 5,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "English term 'As-built' will be read with German phonetics; no tts.",
+  "suggested_fix": "tts: Als Es-Bilt bezeichnet man den tatsächlich ausgeführten Zustand."
+ },
+ {
+  "video": "E-D02",
+  "scene": 6,
+  "line": 8,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN 'A list helps you forget nothing.' is not English; AR uses first person plural 'ننسى' although the video addresses the viewer.",
+  "suggested_fix": "EN: A list helps you not to forget anything. | AR: القائمة تساعدكم على ألا تنسوا شيئًا."
+ },
+ {
+  "video": "E-D02",
+  "scene": 9,
+  "line": 8,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "US spelling 'de-energized' (also 12.1 'summarizes', 19.1 'summarize'); rest of the series uses British 'summarise'/'organisation'.",
+  "suggested_fix": "9.8 EN: A note: not every test step is carried out de-energised. | 12.1 EN: The test report sums up the inspection. | 19.1 EN: Let us summarise."
+ },
+ {
+  "video": "E-D02",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'Normale' (measurement standards) rendered 'المعايير الوطنية' = Normen; E-C06 says 'المراجع القياسية الوطنية'; EN 'national standards' ambiguous.",
+  "suggested_fix": "DE: Die Kalibrierung muss auf nationale Normale rückführbar sein. | AR: يجب أن تكون المعايرة قابلة للتتبّع إلى المراجع القياسية الوطنية. | EN: Calibration must be traceable to national measurement standards."
+ },
+ {
+  "video": "E-D02",
+  "scene": 12,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الموضوع' for Objekt (12.2) is vague; 12.4 'ويضاف الفاحص' omits the name.",
+  "suggested_fix": "12.2 AR: يذكر موضوع الفحص وأجزاء المنشأة المفحوصة. | 12.4 AR: ويُضاف اسم الفاحص والتاريخ والتوقيع."
+ },
+ {
+  "video": "E-D02",
+  "scene": 14,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Einweisung is translated 'تعليمات تشغيل' (14.3, easily confused with 'دليل التشغيل') and 'التدريب' (14.10); neither equals Unterweisung (TERMS).",
+  "suggested_fix": "14.3 AR: وغالبًا يجري تدريب للمشغّل على التشغيل (Einweisung). | 14.10 AR: ينبغي أن يجري هذا التدريب عمليًا عند المنشأة. | S14 item 2 unchanged."
+ },
+ {
+  "video": "E-D02",
+  "scene": 10,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الحدود' for Grenzwerte; 10.12 'من طرف آخرين' is a calque.",
+  "suggested_fix": "10.7 AR: لا نذكر هنا القيم الحدّية. فهي في المعايير الحالية. | 10.12 AR: وهذا يسهّل المراجعة من قبل أطراف ثالثة."
+ },
+ {
+  "video": "E-D02",
+  "scene": 8,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "8.1 announces 'drei Kernschritte' but the slide shows four cards (Bewerten) and 8.5 adds a fourth step.",
+  "suggested_fix": "8.1 DE: Die Erstprüfung hat drei Kernschritte und ein Ergebnis. | AR: للفحص الأولي ثلاث خطوات أساسية ثم نتيجة. | EN: The initial inspection has three core steps and a result."
+ },
+ {
+  "video": "E-D02",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN 'Operational Safety Ordinance' differs from 'Industrial Safety Ordinance' used in E-F05/E-C03.",
+  "suggested_fix": "EN: The Industrial Safety Ordinance requires records of inspections."
+ },
+ {
+  "video": "E-D02",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "1.1 introduces the section 'Markt und Praxis', which E-D01 never names; E-D03 calls it 'Berufsalltag' (inconsistent section naming across the trilogy).",
+  "suggested_fix": "Use one name in all three: 'Markt und Praxis'. E-D03 1.1 DE: Willkommen zum dritten Video im Bereich Markt und Praxis. AR: مرحبًا بكم في الفيديو الثالث من قسم السوق والممارسة. EN: Welcome to the third video in the market and practice section."
+ },
+ {
+  "video": "E-D02",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Disclaimer repeated: Scene 2 and Scene 20 both state the same content (not legal/engineering advice, check the current edition) with almost identical lines – fine in principle, but 20.4 AR lacks a verb.",
+  "suggested_fix": "20.4 AR: يقدّم هذا الفيديو معلومات عامة. | 19.1 AR: لنلخّص. | 19.8 AR: من دون مخططات وقيم قياس ودليل يكون التسليم ناقصًا."
+ },
+ {
+  "video": "E-D02",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "16.2 AR omits 'auch', and 16.9 'لذلك' dangles.",
+  "suggested_fix": "16.2 AR: وفق لائحة الوقاية من الحوادث رقم ٣ يجب فحص المنشآت أيضًا بصورة دورية. | 16.9 AR: وتشكّل وثائق الفحص الأولي أساس المقارنة في ذلك."
+ },
+ {
+  "video": "E-D03",
+  "scene": 12,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Line ends with an (Arabic-Indic) digit '٣' – if the validator counts Arabic-Indic digits this fails the edge rule; safer to end with a word.",
+  "suggested_fix": "AR: الجزء ب من VOB ينظّم ذلك في الفقرة ٣ من المادة ٤ الخاصة بالتنفيذ."
+ },
+ {
+  "video": "E-D03",
+  "scene": 17,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Line ends with Arabic-Indic digits '٦٠٠' (edge rule risk) and 'DIN VDE 0100' mid-sentence; Teil should be introduced.",
+  "suggested_fix": "AR: متطلباته تصفها، في جزئها ٦٠٠، سلسلة المعايير DIN VDE 0100 للجهد المنخفض."
+ },
+ {
+  "video": "E-D03",
+  "scene": 6,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Unternehmer in the BGB means the Auftragnehmer; in E-D02 16.5 and TERMS 'Unternehmer' = owner/employer (صاحب المنشأة). Learners are not told. 'مدين' (debtor) for 'schuldet' (also 7.1, 21.2) sounds like financial debt.",
+  "suggested_fix": "6.3 DE: Im Werkvertrag heißt der Auftragnehmer Unternehmer. Er schuldet das versprochene Werk. | AR: في عقد المقاولة يُسمّى المقاول (Unternehmer) في القانون. وهو ملتزم بتنفيذ العمل الموعود به. | EN: In a contract for work, the contractor is called Unternehmer. He owes the promised work. | 7.1 AR: في عقد المقاولة أنتم ملتزمون بنتيجة وليس بوقت عمل فقط. | 21.2 AR: الأدوار والعقد يحددان من يلتزم بماذا."
+ },
+ {
+  "video": "E-D03",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Opening inconsistent with E-D02: 'dritten Video über den Berufsalltag' vs E-D02 'Markt und Praxis'.",
+  "suggested_fix": "DE: Willkommen zum dritten Video im Bereich Markt und Praxis. | AR: مرحبًا بكم في الفيديو الثالث من قسم السوق والممارسة. | EN: Welcome to the third video in the market and practice section."
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Title AR 'عقود المقاول، أوامر التغيير، إدارة الجودة' mismatches DE ('Verträge, Änderungen, Qualitätsmanagement'): 'عقود المقاول' is narrower, 'أوامر التغيير' ≠ Änderungen.",
+  "suggested_fix": "title.ar: العمل في المشروع: العقود والتغييرات وإدارة الجودة"
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary has no plurals and slide terms lack articles (Auftraggeber, Mangel, Nachtrag, Abnahme, Gewährleistung, Schnittstelle ...), unlike E-D01; Gewerk AR 'الاختصاص' fine.",
+  "suggested_fix": "glossary: 'der Auftraggeber, die Auftraggeber', 'der Auftragnehmer, die Auftragnehmer', 'der Planer, die Planer', 'der Bauleiter, die Bauleiter', 'das Gewerk, die Gewerke', 'der Werkvertrag, die Werkverträge', 'der Mangel, die Mängel', 'der Nachtrag, die Nachträge', 'die Bedenkenanmeldung, die Bedenkenanmeldungen', 'die Abnahme, die Abnahmen', 'der Prüfplan, die Prüfpläne', 'der Bauzeitenplan, die Bauzeitenpläne', 'die Schnittstelle, die Schnittstellen'; slide terms: 'der Auftraggeber', 'der Mangel', 'der Nachtrag', 'die Abnahme', 'die Gewährleistung', 'das Qualitätsmanagement', 'der Prüfplan', 'die Dokumentation', 'der Bauzeitenplan'"
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Missing glossary entries for words taught as key terms: Besteller, Vollmacht, Mängelliste, Bauvertrag.",
+  "suggested_fix": "Add {de: der Besteller, die Besteller, ar: الجهة الطالبة للعمل, en: orderer (client)}, {de: die Vollmacht, die Vollmachten, ar: التفويض, en: power of attorney}, {de: die Mängelliste, die Mängellisten, ar: قائمة العيوب, en: defect list}"
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distractors implausible (Q3 'Der Planer wechselt', Q5 'Nur den Preis' / 'Nur die Farbe der Kabel', Q4 'Nur der Auftraggeber'); Q3 question vague ('Was passiert mit der Abnahme?').",
+  "suggested_fix": "Q3 de: Welche Folge hat die Abnahme? ar: ما نتيجة الاستلام الرسمي؟ en: What is the consequence of acceptance? options: 'Der Vertrag endet ohne weitere Folgen' / 'Die Bedenkenanmeldung entfällt immer' / 'Gewährleistungsrecht beginnt, Beweislast wechselt meist'. Q5 options 1/2: 'Nur den Preis und das Datum' (AR: السعر والتاريخ فقط) / 'Nur die Reihenfolge der Plan-Revisionen' (AR: ترتيب مراجعات المخططات فقط). Q4 option 3: 'Nur der Planer' (AR: المخطِّط وحده)"
+ },
+ {
+  "video": "E-D03",
+  "scene": 3,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "The long compound 'الجهة المُشغِّلة للمشروع (صاحب المشروع)' repeats ~30 times in subtitles (mandatory first mention, but heavy for line length and TTS-aligned subtitles).",
+  "suggested_fix": "Keep the full wording at first use (3.2) and use 'صاحب المشروع' for later repeats (e.g. 6.10, 9.1, 9.5, 10.3, 10.7, 11.5, 12.2, 12.4, 14.2, 14.7, 15.1, 17.8)."
+ },
+ {
+  "video": "E-D03",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Objektüberwachung translated 'الإشراف على المنشأة' (supervision of the installation) – it is supervision of the execution; EN 'Object supervision' is not natural.",
+  "suggested_fix": "AR: أما الإشراف على التنفيذ (Objektüberwachung) من قبل المخطِّط فهو أمر آخر. | EN: Construction supervision (Objektüberwachung) by the planner is something different."
+ },
+ {
+  "video": "E-D03",
+  "scene": 11,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Contradicts 3.5: 3.5 says the planner supervises 'nur, wenn der Vertrag das vorsieht'; 11.4 says 'meist'.",
+  "suggested_fix": "DE: Ein Planer überwacht oft die Ausführung, ändert aber den Vertrag nicht allein. | AR: المخطِّط يشرف في كثير من الأحيان على التنفيذ لكنه لا يغيّر العقد بمفرده. | EN: A planner often supervises the work, but does not change the contract alone."
+ },
+ {
+  "video": "E-D03",
+  "scene": 8,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AGB rendered 'شروط الأعمال العامة' (also slide term and 8.3) – not a standard Arabic expression.",
+  "suggested_fix": "8.3 AR: وهي قانونيًا بمنزلة الشروط العامة للتعاقد. | S8 terms[0].ar: الشروط العامة للتعاقد"
+ },
+ {
+  "video": "E-D03",
+  "scene": 19,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Bauzeitenplan AR 'جدول زمن البناء' unnatural; Balkenplan AR 'مخططًا بالأعمدة' (bar chart) – in construction it is a time-bar (Gantt) chart.",
+  "suggested_fix": "term ar: الجدول الزمني للبناء | 19.2 AR: الجدول الزمني للبناء ينسّق الاختصاصات زمنيًا مع بعضها. | 19.3 AR: وغالبًا يكون مخطط أشرطة زمنية حسب الأسابيع التقويمية."
+ },
+ {
+  "video": "E-D03",
+  "scene": 12,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'وأفضل ذلك قبل بدء العمل' is clumsy.",
+  "suggested_fix": "AR: ينبغي أن يكون التنبيه كتابيًا وقابلًا للإثبات، ويُفضَّل أن يكون قبل بدء العمل."
+ },
+ {
+  "video": "E-D03",
+  "scene": 13,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'الأنابيب الفارغة' / 'لخطوطكم' for Leerrohre/Leitungen; EN fine.",
+  "suggested_fix": "AR: كغياب الشقوق أو مواسير التمديد الفارغة (Leerrohre) لكابلاتكم."
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR redundant ('بمعناه ... وفق مضمونها'); EN 'This is the sense of DGUV Regulation 3' is stilted.",
+  "suggested_fix": "AR: هذا ما تنص عليه من حيث المعنى لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) الألمانية. | EN: In essence, this is what DGUV Regulation 3 says."
+ },
+ {
+  "video": "E-D03",
+  "scene": 10,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'قد تطلب ... التغيير' weakens 'anordnen' (to order).",
+  "suggested_fix": "AR: وإن لم تنجح فقد تأمر الجهة المُشغِّلة للمشروع بالتغيير بشروط معينة."
+ },
+ {
+  "video": "E-D03",
+  "scene": 6,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "'تحويره' for Umbau is unidiomatic.",
+  "suggested_fix": "AR: عقد البناء يتعلق بإنشاء مبنى أو تحويله أو إعادة بنائه."
+ },
+ {
+  "video": "E-D03",
+  "scene": 21,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Summary omits two taught blocks announced in 1.3/1.6: Schnittstellen (S20) and Elektrofachkraft/Sicherheitsregeln (S5).",
+  "suggested_fix": "Insert after 21.5: DE: An Schnittstellen zwischen den Gewerken entstehen die meisten Verzögerungen. | AR: معظم التأخيرات تنشأ عند نقاط التماس بين الاختصاصات. | EN: Most delays arise at the interfaces between trades. And after 21.3 DE: Bei Arbeiten an elektrischen Anlagen gelten Elektrofachkraft und die fünf Sicherheitsregeln. AR: وعند العمل على المنشآت الكهربائية يلزم الكهربائي المؤهَّل وقواعد السلامة الخمس. EN: For work on electrical installations, a qualified electrician and the five safety rules apply. Slide: add item \"Schnittstellen früh klären\" (replace 'Prüfpläne, Dokumente, Termine' by 'Prüfpläne, Dokumente, Termine, Schnittstellen')."
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN uses 'protocol(s)' for Protokoll (4.10, 14.5, 14.9, 17.5, 18.4) while E-D02 and earlier scripts use 'report'.",
+  "suggested_fix": "4.10 EN: A signature under drawings or reports has consequences. | 14.5 EN: An acceptance report records defects and dates for fixing them. | 14.9 EN: Prepare acceptance with test reports and documents. | 17.5 EN: The result belongs in a report. | 18.4 EN: Test and acceptance reports show the state at handover."
+ },
+ {
+  "video": "E-D03",
+  "scene": 16,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Pedagogy: the ISO 9001 scene (S16) is thin for a title claiming 'Qualitätsmanagement' (no audit/certification, no link to the learner's role).",
+  "suggested_fix": "Add after 16.8: DE: Firmen lassen ihr System oft von einer unabhängigen Stelle zertifizieren. | AR: وكثيرًا ما تطلب الشركات من جهة مستقلة اعتماد نظامها. | EN: Companies often have their system certified by an independent body. | DE: Für Sie heißt das: Sie arbeiten nach festgelegten Abläufen und dokumentieren nachvollziehbar. | AR: ومعنى ذلك لكم أنكم تعملون وفق إجراءات محددة وتوثّقون بشكل يمكن تتبعه. | EN: For you this means: you work to defined processes and document traceably."
+ },
+ {
+  "video": "E-D03",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide item 2 'Leistung nach Stand des Projekts' and 'Planungs- und Überwachungsziele' are vague and not mentioned by the narrator.",
+  "suggested_fix": "items: [\"Ziele: Planung und Überwachung\", \"Geschuldet: Leistungen für die Ziele\", \"Planungsgrundlage mit Kosteneinschätzung\", \"Leistungsphasen als Orientierung\"]"
+ },
+ {
+  "video": "E-D01",
+  "scene": 1,
+  "line": 0,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Slide S1: only one item on title slide (acceptable for layout title); no recap of E-F07 in slide.",
+  "suggested_fix": "No change required."
+ },
+ {
+  "video": "E-D01",
+  "scene": 5,
+  "line": 0,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "Single-letter tts hint: 'IPX4' tts 'I-Pe-X-vier' is correct; 'X' alone fine. Unnecessary tts fields exist for lines without digits/abbreviations (4.2, 4.3, 4.4, 4.7) – harmless, but cannot diverge from de.",
+  "suggested_fix": "Optional: delete tts on 4.2, 4.3, 4.4, 4.7 to reduce maintenance."
+ },
+ {
+  "video": "E-D02",
+  "scene": 5,
+  "line": 3,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Ambiguity: 'As-built' is an English loanword; keep as is (also used in AR with Latin in mid-line only).",
+  "suggested_fix": "No change required beyond the edge fixes above."
+ },
+ {
+  "video": "E-D03",
+  "scene": 16,
+  "line": 5,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "16.5 AR 'في سبتمبر ٢٠٢٦' fine mid-line; stand says publication 16.09.2026 – exact date not used, correct. TTS 'zweitausendsechsundzwanzig' is grammatically correct.",
+  "suggested_fix": "No change required."
+ },
+ {
+  "video": "E-D03",
+  "scene": 12,
+  "line": 0,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "'Bedenken' rendered 'التحفظات' (reservations); in construction law it is closer to 'الاعتراضات/التنبيهات الفنية', but consistent usage within the video is acceptable.",
+  "suggested_fix": "Optional: add '(Hinweis auf Bedenken)' gloss in 12.1 AR: ...أي الإخطار بالتحفظات، أو التنبيه إلى المخاطر."
+ }
+]

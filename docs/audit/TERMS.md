@@ -94,3 +94,17 @@ Regeln für Aussagen zur Arbeitsberechtigung: nie «nur eine Elektrofachkraft da
 | EMV | التوافق الكهرومغناطيسي (EMC) |
 
 Strukturregeln: `glossary` ist ein Array von Objekten {de, ar, en} (nie Tripel-Arrays). Datums-tts grammatisch korrekt (z. B. «am sechsten Dezember», «am zwanzigsten Januar»). Exakte Rechtsdaten im Arabischen ohne «تقريبًا». Titel, `next`, Glossar- und Quiz-Einträge ohne Latein/Ziffer am arabischen Rand; Bezeichner in die Mitte oder mit arabischem Wort abschließen.
+
+## Ergänzung (Pfad E-D, verbindlich)
+| DE | AR |
+|---|---|
+| Kurzschließen (Sicherheitsregel 4: Erden und Kurzschließen) | التأريض والتقصير (التقصير = Kurzschließen der Leiter) |
+| Kurzschluss (Fehlerfall) | القصر الكهربائي |
+| Besteller / Auftraggeber | الجهة الطالبة للعمل (صاحب المشروع) |
+| Schnittstelle | الواجهة التنسيقية |
+| Schacht / Schächte | مجرى / مجاري التمديدات (nie «المناور») |
+| Elektrofachkraft (EN) | qualified electrician (nie «electrically skilled person») |
+| RCD (AR) | قاطع التيار المتبقي (RCD) – im Satzinneren, wie E-B02 |
+| Rufbereitschaft | الجاهزية عند الطلب (Aufenthaltsort frei, aber einsatzbereit) |
+
+Regeln: Arabische Quizfragen/-optionen, Folienbegriffe und Glossar enden nicht mit lateinischen Buchstaben; die deutsche Klammer gehört in die Mitte oder entfällt. Sicherheitsregeln auf Folien immer vollständig (nie «5 Abdecken»). Rechtsfolgen von Abnahme/Gewährleistung: «ergeben sich aus dem Gesetz (BGB) und/oder VOB/B, falls vereinbart, sowie dem Vertrag», nie «regelt der Vertrag» allein.
