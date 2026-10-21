@@ -1,1 +1,1 @@
-{"action":"build","video":["scripts/E/02-dokumentation-uebergabe.json","scripts/E/03-projektarbeit-vertraege.json"],"synthesize":true,"burn":true,"rev":1}
+{"action":"build","video":["scripts/E/01-eplan.json","scripts/E/02-tia-codesys.json","scripts/E/03-netzberechnung.json","scripts/E/04-simulation.json"],"synthesize":true,"burn":true,"rev":1}
