@@ -108,3 +108,16 @@ Strukturregeln: `glossary` ist ein Array von Objekten {de, ar, en} (nie Tripel-A
 | Rufbereitschaft | الجاهزية عند الطلب (Aufenthaltsort frei, aber einsatzbereit) |
 
 Regeln: Arabische Quizfragen/-optionen, Folienbegriffe und Glossar enden nicht mit lateinischen Buchstaben; die deutsche Klammer gehört in die Mitte oder entfällt. Sicherheitsregeln auf Folien immer vollständig (nie «5 Abdecken»). Rechtsfolgen von Abnahme/Gewährleistung: «ergeben sich aus dem Gesetz (BGB) und/oder VOB/B, falls vereinbart, sowie dem Vertrag», nie «regelt der Vertrag» allein.
+
+## Ergänzung (Softwareserie S, verbindlich)
+| DE | AR / Regel |
+|---|---|
+| CAD (tts) | Ze-A-De (in allen Skripten gleich) |
+| GmbH (tts) | Ge-Em-Be-Ha |
+| Freeware / kostenlos | «مجاني (حسب الشركة المصنّعة)» – nie «مفتوح المصدر» für Freeware wie LTspice; «مفتوح المصدر» nur für belegte Open-Source-Lizenz (z. B. pandapower, OpenPLC-Runtime) |
+| Beleuchtungsplanung / Lichtplanung | تخطيط الإضاءة (ein Begriff in allen Titeln und next-Zeilen) |
+| Notbeleuchtung | إضاءة الطوارئ (nie «إضاءة الأمان») |
+| Elektrofachkraft (EN) | qualified electrician |
+| Schütz | الكونتاكتور (maskulin im Arabischen: هذا الكونتاكتور; deutsch: das Schütz) |
+
+Regeln: Videos werden mit Titel genannt, nie mit internen IDs («S-05», «E-C01») im gesprochenen Text oder in tts. `next` nennt den tatsächlichen Titel des nächsten Videos (Reihenfolge S-01 EPLAN → S-02 SPS-Umgebungen → S-03 Netzberechnung → S-04 Simulation → S-05 Lichtplanung → S-06 CAD für Steuerungsplanung → Serienende). Keine Werbe-/Wertungsaussagen («teuer», «bekanntes Beispiel in Deutschland»). Rechtsaussagen zu Technischen Regeln: «Vermutungswirkung»/«in der Regel», nie «wer die Regel einhält, erfüllt die Verordnung». LTspice, DIALux, OpenPLC usw. nur mit belegten Lizenz-/Einschränkungsangaben aus der Recherche. IEC 61131-3: aktueller Stand wie in der SPS-Grundlagen-Folge (Ausgabe 2025 ohne AWL, nach Quellenlage), 2013 nur als historischer Stand.

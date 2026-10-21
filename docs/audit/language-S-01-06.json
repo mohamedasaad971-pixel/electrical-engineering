@@ -1,0 +1,1595 @@
+[
+ {
+  "video": "S-01",
+  "scene": 1,
+  "line": 3,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Literal meta text leaked into the Arabic line: \"في وسط الجملة\" (\"in the middle of the sentence\") is a restructuring note, not content; DE says only \"As an example we name the program Eplan\".",
+  "suggested_fix": "وكمثال نذكر هنا برنامج Eplan بالاسم فقط."
+ },
+ {
+  "video": "S-01",
+  "scene": 10,
+  "line": 1,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong gender: \"das Schütz\" (neuter, as used in 5.5, 9.2 and TERMS), not \"den Schütz\".",
+  "suggested_fix": "Erinnern Sie sich an das Schütz im Stromlaufplan."
+ },
+ {
+  "video": "S-01",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "`next` Arabic is garbled and unfaithful: \"بيئتي البرمجة ... ومنهما TIA Portal وCODESYS للتحكم\" (dual+\"منهما\" makes no sense; \"للتحكم\" is a filler appended only to avoid ending in Latin). DE says: TIA Portal and CODESYS are two programming environments for PLCs.",
+  "suggested_fix": "في الفيديو القادم نتناول TIA Portal وCODESYS، وهما بيئتا برمجة للمتحكمات المنطقية."
+ },
+ {
+  "video": "S-02",
+  "scene": 5,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: \"الجسر\" is masculine, so \"وهذه هي الجسر\" is wrong.",
+  "suggested_fix": "وهذا هو الجسر بين البرنامج والتوصيلات."
+ },
+ {
+  "video": "S-03",
+  "scene": 3,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender/demonstrative error \"هذه الفحص\" (الفحص is masculine) and awkward naming of n-1.",
+  "suggested_fix": "وغالبًا ما يُسمى هذا الفحص فحص «ن ناقص واحد»."
+ },
+ {
+  "video": "S-04",
+  "scene": 15,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Gender agreement: \"الجهد\" is masculine, so \"تصل الجهد\" is wrong.",
+  "suggested_fix": "بعد ميلي ثانية يصل الجهد إلى نحو ثلاثة وستين بالمئة من القيمة النهائية."
+ },
+ {
+  "video": "S-05",
+  "scene": 8,
+  "line": 4,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Number-noun agreement: \"ثماني ألوان\" is wrong; numerals 3-10 take the opposite gender (لون is masculine, so ثمانية).",
+  "suggested_fix": "يستخدم الحساب ثمانية ألوان اختبار."
+ },
+ {
+  "video": "S-05",
+  "scene": 8,
+  "line": 3,
+  "severity": "error",
+  "lang": "de",
+  "issue": "\"Beide haben dieselbe Farbtemperatur\" has no antecedent: 8.1 names one light source and one reference source, 8.2 talks about wire colours. The listener cannot know what \"beide\" means; the Ra concept (same colour temperature, different colour rendering) is never set up.",
+  "suggested_fix": "Replace 8.2/8.3 (in this order): 8.2 \"Zwei Lichtquellen können dieselbe Farbtemperatur haben und Farben trotzdem unterschiedlich zeigen.\" / 8.3 \"Denken Sie in der Werkstatt an Aderfarben, die zuverlässig erkennbar sein müssen.\" (adapt AR/EN accordingly)"
+ },
+ {
+  "video": "S-05",
+  "scene": 12,
+  "line": 6,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Reference order: 12.5 \"Ohne diese Datei\" comes before the file is introduced (12.6 \"Er liefert sie als Datei\"), and \"Er\" in 12.6 refers back to 12.4 across 12.5. EN \"He supplies it\" is also wrong for a manufacturer.",
+  "suggested_fix": "Swap 12.5 and 12.6. DE 12.6: \"Der Hersteller liefert sie als Datei, zum Beispiel im Format EULUMDAT.\" EN: \"The manufacturer supplies it as a file, for example in the format EULUMDAT.\" AR: \"ويقدمها المصنّع كملف، مثلًا بصيغة EULUMDAT المعروفة.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 5,
+  "line": 2,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Order/reference: 5.2 \"Ein Beispiel macht es klar\" appears before anything is defined, and 5.3 \"Sie sagt, wie viel Licht...\" then loses its antecedent (Beleuchtungsstärke from 5.1).",
+  "suggested_fix": "Move 5.2 to after 5.6 (after the definition and unit) and keep 5.1 -> 5.3 -> 5.4 -> 5.5 -> 5.6 -> 5.2 -> 5.7 -> 5.8."
+ },
+ {
+  "video": "S-04",
+  "scene": 4,
+  "line": 5,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Order/reference: 4.5 (\"Beide Arten nutzen dieselben Grundideen\") sits between the circuit and the system description, so \"Ihre Bausteine sind Blöcke...\" in 4.6 now reads as referring to both kinds.",
+  "suggested_fix": "Move 4.5 after 4.6 (4.4 -> 4.6 -> 4.5 -> 4.7)."
+ },
+ {
+  "video": "S-04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "glossary",
+  "issue": "Glossary AR \"الحل العددي (Solver)\" ends with Latin letters (also slide terms of scene 7). Also \"الحل العددي\" means \"numerical solution\"; the tool is a \"solver\".",
+  "suggested_fix": "ar: \"المحلِّل العددي\" (apply the same word in slide terms and in lines 1.4, 4.5, 7.1-7.9, 8.3, 11.6, 20.3, quiz 1). Keep \"Solver\" only mid-sentence in 1.4 and 7.1."
+ },
+ {
+  "video": "S-04",
+  "scene": 7,
+  "line": 0,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Slide term AR \"الحل العددي (Solver)\" ends in Latin letters.",
+  "suggested_fix": "المحلِّل العددي"
+ },
+ {
+  "video": "S-04",
+  "scene": 0,
+  "line": 4,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz 4 (LTspice): question AR ends with Latin letters before \"؟\"; option 1 ends with \"MathWorks\" and option 3 ends with \"Analog Devices\" (Latin edge).",
+  "suggested_fix": "q: \"ما الذي ينطبق على برنامج LTspice بحسب هذا الفيديو؟\" / opt0: \"محاكي أنظمة تنتجه شركة MathWorks المصنّعة\" / opt2: \"محاكي دارات تنتجه شركة Analog Devices المصنّعة\""
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 4,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz 4 question AR ends with Latin \"CODESYS\" before \"؟\".",
+  "suggested_fix": "ماذا يعني أن CODESYS مستقل عن الشركة المصنّعة؟"
+ },
+ {
+  "video": "S-03",
+  "scene": 0,
+  "line": 5,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz 5 question AR \"ما الصحيح عن pandapower؟\" ends with Latin letters.",
+  "suggested_fix": "أي عبارة عن pandapower صحيحة؟"
+ },
+ {
+  "video": "S-06",
+  "scene": 0,
+  "line": 5,
+  "severity": "error",
+  "lang": "quiz",
+  "issue": "Quiz 5: question AR ends with Latin \"LibreCAD\"; option 1 AR starts with Latin \"DWG\".",
+  "suggested_fix": "q AR: \"ما الذي ينطبق على البرامج الحرة لرسم المخططات، مثل LibreCAD هذا؟\" still ends Latin, so use: \"ما الذي ينطبق على البرامج الحرة لرسم المخططات؟\" (DE: \"Was gilt für freie Programme zum Zeichnen von Plänen, zum Beispiel LibreCAD?\" keeps the name inside the German sentence only). Option 1 AR: \"قراءة ملفات DWG دائمًا مثالية\" (DE: \"DWG-Dateien immer perfekt lesbar\")."
+ },
+ {
+  "video": "S-04",
+  "scene": 11,
+  "line": 9,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Grammar: \"كلاهما منتجان\" is wrong (كلا takes a singular predicate).",
+  "suggested_fix": "كلاهما من منتجات شركة MathWorks، وكلاهما يحتاج إلى ترخيص."
+ },
+ {
+  "video": "S-06",
+  "scene": 11,
+  "line": 8,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Factual/wording error: \"من هذه السلسلة\" claims E-F06 belongs to the software series; it is a video of the foundation path.",
+  "suggested_fix": "ستجدون المزيد في الفيديو E-F06 عن الرسومات والمخططات."
+ },
+ {
+  "video": "S-06",
+  "scene": 12,
+  "line": 4,
+  "severity": "error",
+  "lang": "en",
+  "issue": "Ungrammatical EN: \"the own format of Autodesk\".",
+  "suggested_fix": "DWG is Autodesk's own format."
+ },
+ {
+  "video": "S-03",
+  "scene": 15,
+  "line": 5,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "Safety rule 3 mis-worded: \"خلو الجهد عن كل الأقطاب\" is wrong; S-01/S-05/TERMS wording is \"التحقق من انعدام الجهد في كل الأقطاب\" (allpolig).",
+  "suggested_fix": "أولًا فصل الجهد، ثانيًا تأمينها ضد إعادة التشغيل، ثالثًا التحقق من انعدام الجهد في كل الأقطاب."
+ },
+ {
+  "video": "S-05",
+  "scene": 17,
+  "line": 7,
+  "severity": "error",
+  "lang": "ar",
+  "issue": "TERMS: Notbeleuchtung/Sicherheitsbeleuchtung = \"إضاءة الطوارئ\"; \"إضاءة الأمان\" breaks the fixed term. DE \"im Land des Projekts\" is also ambiguous (country vs Bundesland).",
+  "suggested_fix": "DE: \"Prüfen Sie, welche Regeln im Bundesland des Projekts für Sicherheitsbeleuchtung gelten.\" AR: \"تحققوا من القواعد السارية على إضاءة الطوارئ في ولاية المشروع.\""
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "en",
+  "issue": "EN keeps \"Elektrofachkraft\" untranslated in 9.5 and 9.8; TERMS requires \"qualified electrician\" (never an untranslated or \"electrically skilled person\" form).",
+  "suggested_fix": "9.5 EN: \"Work on electrical installations follows DGUV Vorschrift 3 and is done by a qualified electrician or under their direction and supervision.\" 9.8 EN: \"In doubt, ask the responsible qualified electrician.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 20,
+  "line": 2,
+  "severity": "error",
+  "lang": "en",
+  "issue": "EN keeps \"Elektrofachkraft\" untranslated in 20.2 and 20.3 (TERMS: \"qualified electrician\").",
+  "suggested_fix": "20.2 EN: \"Work on electrical luminaires and installations is done by a qualified electrician.\" 20.3 EN: \"Or the work is done under the direction and supervision of a qualified electrician.\""
+ },
+ {
+  "video": "S-02",
+  "scene": 4,
+  "line": 3,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Wrong cross-reference: \"wie im ersten Video\" (also 6.8 \"aus dem ersten Video der Reihe\", 17.8) points to S-01 (EPLAN), which does not cover I/O modules, comments or PLC exercises. The relevant video is the SPS basics video E-C01.",
+  "suggested_fix": "4.3 DE: \"Das sind zum Beispiel Eingabe- und Ausgabebaugruppen, wie im Video E-C01.\" tts: \"...wie im Video E-Ze-null-eins.\" AR: \"مثل وحدات المدخلات والمخرجات، كما في الفيديو E-C01 عن أساسيات الأتمتة.\" Same fix for 6.8 and 17.8 (name E-C01)."
+ },
+ {
+  "video": "S-06",
+  "scene": 1,
+  "line": 7,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Internal IDs spoken to the viewer (\"Das Video davor war S-05 ... aus S-01\", tts \"Es null fünf\"): meaningless for the audience; AR \"وقد تعرفتم على أسلوب آخر في الفيديو S-01 الأول\" is also unfaithful and unclear. Line 1.6 \"Die Reihe war eine Auswahl\" (past tense inside the last video) is also odd.",
+  "suggested_fix": "Replace 1.6/1.7 with: DE 1.6 \"Die Reihe ist eine Auswahl, und jeder wählt den passenden Weg.\" DE 1.7 \"Im ersten Video der Reihe haben Sie ein eigenständiges Elektro-CAD kennengelernt, heute sehen wir den Weg über ein allgemeines CAD.\" AR 1.7: \"في أول فيديو من السلسلة تعرّفتم على برنامج رسم كهربائي مستقل، واليوم ننظر في الطريق عبر برنامج رسم عام.\" (remove tts \"Es null ...\")"
+ },
+ {
+  "video": "S-06",
+  "scene": 14,
+  "line": 1,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Internal ID \"S-01\" spoken (tts \"Es null eins\"); viewers do not know the IDs.",
+  "suggested_fix": "In Teil 1 der Reihe haben Sie ein eigenständiges Elektro-System kennengelernt. (remove tts; AR: \"في الفيديو الأول من السلسلة تعرّفتم على نظام كهربائي مستقل.\")"
+ },
+ {
+  "video": "S-06",
+  "scene": 8,
+  "line": 3,
+  "severity": "error",
+  "lang": "de",
+  "issue": "Duplicates S-01 (scenes 12-14: Stückliste, Klemmenplan, Querverweise, Einkauf/Verdrahter/Service, \"Änderung -> Listen ändern sich mit\") almost sentence for sentence, plus the same Motorstart example (S-01 scene 8). S-06 must add the CAD-vs-Elektro-CAD view, not repeat lists.",
+  "suggested_fix": "Compress scene 8 to 4 lines that only point back: \"Aus dem Datenmodell entstehen dieselben Auswertungen wie im ersten Video: Stückliste, Klemmenplan, Querverweise.\" + 1 line on the Verdrahtungsliste + 1 line \"Im reinen CAD müssten Sie sie von Hand führen.\" Remove 8.6-8.9. Likewise shorten scenes 16-17 (QElectroTech was already covered in S-01 scene 18; add LibreCAD only)."
+ },
+ {
+  "video": "S-04",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "next",
+  "issue": "Next-pointer does not match S-05 title: DE \"Beleuchtungsplanung\" vs S-05 \"Lichtplanung am Rechner\"; prefix \"S-05:\" (internal ID) is used only here; AR adds \"خطوة بخطوة\", which the conceptual video does not promise; line 21.8 uses the same wrong title.",
+  "suggested_fix": "next.de: \"Im nächsten Video geht es um Lichtplanung am Rechner mit DIALux.\" next.en: \"In the next video: lighting design on the computer with DIALux.\" next.ar: \"في الفيديو القادم: تخطيط الإنارة بالحاسوب، برنامج DIALux مثالًا\" (also change 21.8 accordingly)."
+ },
+ {
+  "video": "S-05",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "next",
+  "issue": "Next-pointer (and 22.6) say \"AutoCAD Electrical\", but S-06 is titled \"CAD für elektrische Steuerungsplanung\" and never names AutoCAD Electrical (only \"AutoCAD\" in 14.4). Title/next chain mismatch.",
+  "suggested_fix": "next.de: \"Im nächsten Video geht es um CAD für elektrische Steuerungsplanung, zum Beispiel mit AutoCAD Electrical.\" next.en: \"The next video is about CAD for electrical control planning, for example with AutoCAD Electrical.\" next.ar: \"في الفيديو القادم نتناول برنامج AutoCAD Electrical مثالًا على برامج CAD لتخطيط أنظمة التحكم الكهربائية.\" Align 22.6 and S-06 14.4 (\"... innerhalb von AutoCAD an, bekannt als AutoCAD Electrical\")."
+ },
+ {
+  "video": "S-05",
+  "scene": 18,
+  "line": 2,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "tts \"G-m-b-H\" will be read as English letter names with pauses; German abbreviation GmbH is read \"Ge-Em-Be-Ha\".",
+  "suggested_fix": "Es stammt von der Dial Ge-Em-Be-Ha aus Lüdenscheid."
+ },
+ {
+  "video": "S-06",
+  "scene": 0,
+  "line": 0,
+  "severity": "error",
+  "lang": "tts",
+  "issue": "CAD is spelled three different ways across the series: S-01 \"Kad\", S-05 \"Auto-Käd\", S-06 \"Ze-A-De\" / \"Auto-Ze-A-De\" / \"Libre-Ze-A-De\" (16 lines: 1.2, 2.1, 2.3, 3.1, 3.8, 7.2, 11.1, 11.5, 11.6, 14.2-14.4, 15.2, 16.3, 17.4, 19.2). Pick one reading.",
+  "suggested_fix": "Use \"Käd\" everywhere: S-06 \"Ze-A-De\" -> \"Käd\" (\"Elektro-Käd\", \"Auto-Käd\", \"Libre-Käd\", \"Käd-Programm\", \"Käd-Basis\"); S-01 tts \"Elektro-Kad\" -> \"Elektro-Käd\" (lines 1.2, 2.3, 3.2, 10.6, 12.8, 19.1, 20.2)."
+ },
+ {
+  "video": "S-01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Product is written \"Eplan\" but is EPLAN (earlier video 03-projektarbeit and TERMS usage \"EPLAN\"); no tts anywhere for the product name (1.3, 3.2, slides, title).",
+  "suggested_fix": "Write \"EPLAN\" in de/ar/en (title, 1.3, 3.2, slide 3) and add tts \"E-Plan\" in 1.3 and 3.2 (e.g. \"Als Beispiel nennen wir das Programm E-Plan.\")."
+ },
+ {
+  "video": "S-01",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"زوايا النظر\" is an unusual rendering of \"Sichtweisen\"/aspects (EN says aspects).",
+  "suggested_fix": "تستخدم برامج كثيرة لذلك الجوانب المعتمدة في سلسلة IEC 81346 وهي: الوظيفة والموقع والمنتج."
+ },
+ {
+  "video": "S-01",
+  "scene": 7,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR lacks a verb (\"وكما في الفيديو E-F06 لكل مخطط حالة مراجعة\") and reads fragmentary.",
+  "suggested_fix": "وكما في الفيديو E-F06: يلزم لكل مخطط حالة مراجعة."
+ },
+ {
+  "video": "S-01",
+  "scene": 4,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Weak logic: \"Ein Fachmedium beschreibt ... Wir nennen das Prinzip deshalb nur allgemein\" is a non sequitur for learners; AR switches to plural \"مصادر\".",
+  "suggested_fix": "Delete 4.9 (end the scene on 4.8) or: \"Fachquellen beschreiben diese gemeinsame Datenbasis, wir halten das Prinzip hier allgemein.\""
+ },
+ {
+  "video": "S-01",
+  "scene": 6,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"مثل ملف مجلد\" is garbled.",
+  "suggested_fix": "يتكوّن المشروع من صفحات كثيرة، كما يضم المجلد أوراقًا كثيرة."
+ },
+ {
+  "video": "S-01",
+  "scene": 6,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Andere Programme nennen es anders\" - \"es\" has no referent (pages/page types are plural).",
+  "suggested_fix": "Andere Programme nennen sie anders. Das Prinzip bleibt gleich."
+ },
+ {
+  "video": "S-01",
+  "scene": 15,
+  "line": 3,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"misses in the cable list\" is ungrammatical.",
+  "suggested_fix": "A forgotten cable is then also missing from the cable list."
+ },
+ {
+  "video": "S-01",
+  "scene": 15,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الأسماء\" for \"Kennzeichen\" is inconsistent with \"الترميز\" used for Kennzeichen/Referenzkennzeichnung everywhere else.",
+  "suggested_fix": "لذلك يُراجَع الترميز والأصناف قبل الاعتماد."
+ },
+ {
+  "video": "S-01",
+  "scene": 16,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Term drift: \"Klemmenliste\" here vs \"Klemmenplan\" on the slide/glossary; AR \"قائمة الأطراف\" vs \"مخطط الأطراف\".",
+  "suggested_fix": "DE: \"Die Fertigung verdrahtet nach Plan und Klemmenplan.\" AR: \"والتصنيع يسلّك حسب المخطط ومخطط الأطراف.\" EN: \"Production wires according to the diagram and the terminal diagram.\""
+ },
+ {
+  "video": "S-01",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"و KiCad\" - detached \"و\" before a Latin word; use the same pattern as 3.4.",
+  "suggested_fix": "وبرنامج KiCad حر أيضًا ويوفر مخطط الدارات وتصميم اللوحة المطبوعة."
+ },
+ {
+  "video": "S-01",
+  "scene": 18,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"تكفي غالبًا تمامًا\" is clumsy (غالبًا + تمامًا).",
+  "suggested_fix": "وهي كافية غالبًا للتدرب على المفاهيم."
+ },
+ {
+  "video": "S-01",
+  "scene": 19,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"مثل ترخيص أثناء الدراسة\" is unclear.",
+  "suggested_fix": "وللطلاب غالبًا تراخيص تعليمية، مثلًا أثناء الدراسة."
+ },
+ {
+  "video": "S-01",
+  "scene": 14,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Inbetriebnahme\" is rendered \"التشغيل التجريبي\" here and in S-02 (4.6, 10.6, glossary, quiz 5), but all earlier videos use \"التشغيل الأولي\".",
+  "suggested_fix": "مخطط أطراف جيد يوفر وقتًا كبيرًا عند التشغيل الأولي."
+ },
+ {
+  "video": "S-01",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Series name \"سلسلة البرامج\" (S-01, S-06) vs \"سلسلة البرمجيات\" (S-02, S-03, S-04). Use one name for the same \"Software-Reihe\".",
+  "suggested_fix": "أهلًا بكم في أول فيديو من سلسلة البرمجيات. (and S-06 1.1, 21.1, next -> \"سلسلة البرمجيات\")"
+ },
+ {
+  "video": "S-01",
+  "scene": 1,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Schaltanlagen\" is rendered as \"خزائن التوزيع\" here but as \"لوحات التوزيع\" in 2.7 and 3.2; \"خزانة التوزيع والتحكم\" is the TERMS term for Schaltschrank only.",
+  "suggested_fix": "موضوعنا برامج الرسم الكهربائي للوحات التوزيع والآلات."
+ },
+ {
+  "video": "S-01",
+  "scene": 12,
+  "line": 6,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "Unidiomatic: \"Add to this the table of contents of the project.\"",
+  "suggested_fix": "The project's table of contents is added."
+ },
+ {
+  "video": "S-01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary AR \"معدات كهربائية\" is plural for the singular entry \"das Betriebsmittel\".",
+  "suggested_fix": "معدّة كهربائية (same in slide terms of scene 5; S-06 glossary/slide too)"
+ },
+ {
+  "video": "S-01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz: distractors are throw-away (\"Gar nicht\"/\"لا تتعلمون\", \"Nur Linien ohne Daten\", \"Eine Sicherheitsregel\"); Quiz 3 correct answer is the longest option in several questions, so the pattern is guessable.",
+  "suggested_fix": "Replace Q5 options: \"Nur mit Raubkopien\" / \"Nur mit einer teuren Vollversion\" / \"Mit Schulungen, Bildungslizenzen und freier Software\"; Q2 wrong answers e.g. \"Er zeigt den Preis eines Teils\" -> \"Er nummeriert die Seiten des Projekts\"."
+ },
+ {
+  "video": "S-01",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Title AR is a loose calque (\"برنامج Eplan مثالًا: المخططات الكهربائية\").",
+  "suggested_fix": "المخططات الكهربائية بالحاسوب: برنامج EPLAN مثالًا"
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Title AR is long (≈80 characters), says \"بيئات برمجة SPS\" with an unexplained Latin abbreviation, and EN title \"Compared in Concept\" contradicts 1.6/12.1 (\"no ranking\"); DE says \"im Überblick\".",
+  "suggested_fix": "ar: \"بيئات برمجة المتحكمات: TIA Portal وCODESYS نموذجًا\" / en: \"TIA Portal and CODESYS: PLC Programming Environments at a Glance\""
+ },
+ {
+  "video": "S-02",
+  "scene": 1,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR 1.2 \"أي SPS في ألمانيا\" is padding and Latin abbreviation instead of TERMS term; EN keeps \"SPS\" in 1.2, 1.7, 2.1 (series EN uses \"PLC\").",
+  "suggested_fix": "1.2 AR: \"موضوع اليوم هو بيئات البرمجة الخاصة بالمتحكم المنطقي القابل للبرمجة.\" 1.2 EN: \"Today is about the programming environments for the PLC (called SPS in Germany).\" 1.7 AR: \"يشغّل المتحكم المنطقي القابل للبرمجة البرنامج الذي كتبتموه سابقًا على الحاسوب.\" 1.7 EN: \"A PLC runs the program that you wrote on the computer beforehand.\" 2.1 AR: \"لا يملك المتحكم المنطقي القابل للبرمجة نفسه واجهة شاشة للتطوير.\" 2.1 EN: \"The PLC itself has no screen interface for development.\""
+ },
+ {
+  "video": "S-02",
+  "scene": 1,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Padded AR (\"وكذلك برنامج CODESYS معًا\").",
+  "suggested_fix": "نذكر هنا برنامجي TIA Portal وCODESYS كمثالين."
+ },
+ {
+  "video": "S-02",
+  "scene": 6,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR ends with the filler \"للغات\" to avoid a Latin ending (same trick in 11.5, 16.2).",
+  "suggested_fix": "أما لغات البرمجة فيحددها معيار IEC 61131-3 الدولي."
+ },
+ {
+  "video": "S-02",
+  "scene": 11,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR ends with filler \"للغات\"; unfaithful to \"nach IEC 61131-3\".",
+  "suggested_fix": "يصف برنامج CODESYS نفسه بأنه مستقل عن الشركات المصنّعة ويتوافق مع معيار IEC 61131-3 الدولي."
+ },
+ {
+  "video": "S-02",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR ends with filler \"للغات\".",
+  "suggested_fix": "مشروع OpenPLC حزمة مجانية مفتوحة المصدر وفق معيار IEC 61131-3 الدولي."
+ },
+ {
+  "video": "S-02",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Convoluted AR (\"... هي TIA Portal الذي نذكره كمثال\").",
+  "suggested_fix": "برنامج TIA Portal هو بيئة الهندسة لدى شركة سيمنز."
+ },
+ {
+  "video": "S-02",
+  "scene": 7,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Series terminology: Stromlaufplan = \"مخطط مسار التيار\" in all earlier videos (E-F06); Funktionsplan = \"مخطط الكتل الوظيفية\" and Strukturierter Text = \"النص المنظَّم\" (E-C01). S-02 uses مخطط الدارات / مخطط الوظائف / النص المهيكل.",
+  "suggested_fix": "7.2: \"مخطط السلّم يشبه مخطط مسار التيار بملامساته وملفاته.\" 7.3: \"ويربط مخطط الكتل الوظيفية الكتل بخطوط.\" 7.5: \"أما النص المنظَّم فيشبه لغة برمجة تقليدية.\""
+ },
+ {
+  "video": "S-02",
+  "scene": 6,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"وحدة الدالة الوظيفية\" (glossary, slide, 6.3) is redundant and collides with the FBD blocks of 7.3.",
+  "suggested_fix": "\"كتلة وظيفية\" (6.3: \"للكتلة الوظيفية ذاكرتها الخاصة، أما الدالة البسيطة فغالبًا لا ذاكرة لها.\"; also glossary and slide term)"
+ },
+ {
+  "video": "S-02",
+  "scene": 5,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الترميز الرمزي\" (symbolic naming) is tautological and clashes with \"ترميز مرجعي\" (S-01). Used in glossary, slide terms, 5.2 and quiz 2.",
+  "suggested_fix": "\"التسمية الرمزية\" (5.2: \"وبالتسمية الرمزية تعطون هذا العنوان اسمًا.\"; glossary: \"التسمية الرمزية (الأسماء بدل العناوين)\"; quiz: \"ماذا تعني التسمية الرمزية للمتغيرات؟\")"
+ },
+ {
+  "video": "S-02",
+  "scene": 9,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR uses \"رقم ثلاثة\" and \"إشرافه وتوجيهه\" while TERMS has \"رقم ٣\" and earlier videos uniformly \"إدارته وإشرافه\" for Leitung und Aufsicht (also S-03 15.3).",
+  "suggested_fix": "تُنفَّذ الأعمال على المنشآت الكهربائية وفق لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) على يد كهربائي مؤهَّل أو تحت إدارته وإشرافه."
+ },
+ {
+  "video": "S-02",
+  "scene": 9,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Safety rules are called \"قواعد الأمان الخمس\" here but \"قواعد السلامة الخمس\" elsewhere (S-01, S-03, S-05).",
+  "suggested_fix": "ومن يعمل كهربائيًا يلتزم بقواعد السلامة الخمس جميعها، كما في فيديو السلامة لدينا."
+ },
+ {
+  "video": "S-02",
+  "scene": 12,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"اسألوا أي أداة مقرّرة\" is ungrammatical (أي is object of nothing). Same pattern in S-04 12.8 and S-06 10.7.",
+  "suggested_fix": "وعند الشك اسألوا عن الأداة المقرّرة في المشروع."
+ },
+ {
+  "video": "S-02",
+  "scene": 17,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Syntax error: \"Nutzen Sie die offiziellen Hilfen ... und Lizenzbedingungen für Testversionen\" - Lizenzbedingungen are not something to \"use\".",
+  "suggested_fix": "Nutzen Sie die offiziellen Hilfen der Hersteller und beachten Sie die Lizenzbedingungen für Testversionen."
+ },
+ {
+  "video": "S-02",
+  "scene": 18,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"أيادي مؤهَّلة\" is colloquial/odd.",
+  "suggested_fix": "وتذكروا أن التعديلات على المنشآت الحقيقية تقتصر على أشخاص مؤهَّلين."
+ },
+ {
+  "video": "S-02",
+  "scene": 19,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR omits the tool names that DE/EN announce; next.ar likewise (\"بالبرامج المتخصصة\"); tool names would end the sentence in Latin, so restructure.",
+  "suggested_fix": "19.7 AR: \"في الفيديو القادم نتناول حساب الشبكات الكهربائية، ومعه أدوات ETAP وDIgSILENT وpandapower كأمثلة.\" next.ar: \"في الفيديو القادم: حساب الشبكات الكهربائية، ومعه أدوات ETAP وDIgSILENT وpandapower كأمثلة.\""
+ },
+ {
+  "video": "S-02",
+  "scene": 19,
+  "line": 7,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "ETAP/DIgSILENT tts differs from S-03 (S-02 \"E-Te-A-Pe\", \"Di-Ig-Silent\"; S-03 \"E-Täp\", \"Di-Sailent\"). DIgSILENT is pronounced \"dig-silent\" (\"Dig-Sailent\").",
+  "suggested_fix": "Use one reading in S-02 19.7, S-03 19.2-19.4 and 21.7: \"E-Täp\" and \"Dig-Sailent\" (Pandapauer, Pauer-Fäkteri unchanged)."
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN spelling mixes with the rest of the series: S-02 uses US (\"fulfills\", \"summarize\", \"license\", \"authorization\", \"Practice restoring\"), S-01/S-03/S-04/S-05 and earlier videos use UK (\"summarise\", \"licence\", \"practise\").",
+  "suggested_fix": "3.1 \"fulfils\"; 9.4 \"authorisation\"; 15.9 \"Practise restoring\"; 16.9 \"licence\"; 17.6 \"licence terms\"; 18.1 \"Let us summarise.\"; 19.2 \"licences\". Same for S-06 (colour, licence, catalogue, practise, summarise)."
+ },
+ {
+  "video": "S-02",
+  "scene": 16,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "\"Raspberry Pi\" has no tts; a German voice reads \"Pi\" as \"Pi\".",
+  "suggested_fix": "Die Runtime führt es aus, etwa auf einem Raspberri Pai. (tts)"
+ },
+ {
+  "video": "S-02",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Row 7 slide items exceed 50 characters (52): \"Strukturierter Text | textuell, wie eine Hochsprache\", \"Anweisungsliste | textuell, in Ausgabe 2013 veraltet\".",
+  "suggested_fix": "\"Strukturierter Text | textuell, wie Hochsprache\" and \"Anweisungsliste | textuell, seit 2013 veraltet\""
+ },
+ {
+  "video": "S-02",
+  "scene": 11,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide item \"Vorteil | Eng abgestimmt | Ein Werkzeug, viele Geräte\" is 53 characters (truncation risk).",
+  "suggested_fix": "Vorteil | Eng abgestimmt | Ein Tool, viele Geräte"
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary entry \"herstellerunabhängig\" has no article (adjective).",
+  "suggested_fix": "de: \"die Herstellerunabhängigkeit\", ar: \"الاستقلال عن الشركة المصنّعة\" (quiz 4 uses the same wording)"
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary \"Baugruppe\" AR \"الوحدة الملحقة\" next to Baustein \"الوحدة البرمجية\" is confusable; E-C01 uses \"وحدة الدخل/الخرج\".",
+  "suggested_fix": "\"الوحدة العتادية\""
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz 1 negative question with an absurd distractor (\"Netzentgelte berechnen\"); Quiz 4 correct answer is only weakly tied to the lesson.",
+  "suggested_fix": "Q1 option 2 DE: \"Schutzeinstellungen für ein Netz berechnen\" (AR: \"احتساب إعدادات حماية الشبكة\"); Q4 correct option: \"Das Werkzeug ist nicht an einen Steuerungshersteller gebunden\"."
+ },
+ {
+  "video": "S-02",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Software-Serie\" (S-02) vs \"Software-Reihe\" (S-01, S-03...).",
+  "suggested_fix": "DE: \"Willkommen zum zweiten Video der Software-Reihe.\" (also kicker \"S-02 · Software\")"
+ },
+ {
+  "video": "S-03",
+  "scene": 4,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: 4.9 (Detailgrad) interrupts the Netzanschluss explanation (4.8, 4.10, 4.11).",
+  "suggested_fix": "Move 4.9 to the end of the scene (after 4.11)."
+ },
+ {
+  "video": "S-03",
+  "scene": 8,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"ثلاثي الأقطاب / أحادي القطب\" confuses poles with phases for fault types.",
+  "suggested_fix": "وتُدرس أنواع مختلفة من الأعطال، مثل القصر ثلاثي الطور أو أحادي الطور مع الأرض."
+ },
+ {
+  "video": "S-03",
+  "scene": 9,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Schaltgeräte\" = \"أجهزة التوصيل\" (also 10.3, quiz 2): clashes with TERMS \"التوصيل بالشبكة\" (Netzanschluss); 05-schutztechnik uses \"أجهزة القطع والوصل\".",
+  "suggested_fix": "9.6: \"وتقارنون النتيجة بقدرة القطع لأجهزة القطع والوصل.\" 10.3: \"يجب أن تستطيع أجهزة القطع والوصل فصله بأمان.\" quiz 2: \"لفحص قدرة أجهزة القطع والوصل على تحمّله\""
+ },
+ {
+  "video": "S-03",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الجهاز الأقرب قبل العطل\" is ambiguous.",
+  "suggested_fix": "عند حدوث عطل يجب أن يفصل فقط الجهاز الواقع مباشرة قبل موضع العطل."
+ },
+ {
+  "video": "S-03",
+  "scene": 11,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Staffelplan\" is not in the glossary and \"خطة تدريج\" is vague.",
+  "suggested_fix": "Add glossary entry {\"de\":\"der Staffelplan\",\"ar\":\"مخطط التدريج\",\"en\":\"grading plan\"}; 11.7 AR: \"والنتيجة غالبًا مخطط تدريج.\""
+ },
+ {
+  "video": "S-03",
+  "scene": 12,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "12.9 repeats 11.8 almost verbatim.",
+  "suggested_fix": "Delete 12.9 or replace with: \"Die Einstellwerte prüft am Ende immer eine Fachperson.\""
+ },
+ {
+  "video": "S-03",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row is 51 characters: \"Prüfung | Passt die Kennlinie zum Kurzschlussstrom?\"",
+  "suggested_fix": "Prüfung | Passt die Kennlinie zum Fehlerstrom?"
+ },
+ {
+  "video": "S-03",
+  "scene": 17,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row is 52 characters: \"Schritt 3 | Lasten, Erzeuger, Netzanschluss ergänzen\".",
+  "suggested_fix": "Schritt 3 | Lasten, Erzeuger, Anschluss ergänzen"
+ },
+ {
+  "video": "S-03",
+  "scene": 13,
+  "line": 8,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"the result deceives\" is unidiomatic.",
+  "suggested_fix": "Then the impedance is wrong, and the result is misleading."
+ },
+ {
+  "video": "S-03",
+  "scene": 4,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "\"simplified image\" for \"Abbildung\".",
+  "suggested_fix": "The model is a simplified representation of the real grid."
+ },
+ {
+  "video": "S-03",
+  "scene": 7,
+  "line": 10,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN \"network operator\" (also 20.7) vs \"grid\" used throughout; Netzbetreiber = grid operator.",
+  "suggested_fix": "Whether a value is permissible depends on the applicable requirements and the grid operator. (20.7: \"...ask the grid operator or the experienced colleague.\")"
+ },
+ {
+  "video": "S-03",
+  "scene": 15,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Word order/verb: \"Arbeiten ... macht eine Elektrofachkraft\" is clumsy; AR \"إشرافه وتوجيهه\" differs from the standard \"إدارته وإشرافه\".",
+  "suggested_fix": "DE: \"Arbeiten an elektrischen Anlagen führt eine Elektrofachkraft aus oder jemand unter Leitung und Aufsicht einer Elektrofachkraft.\" AR: \"الأعمال على المنشآت الكهربائية يقوم بها الكهربائي المؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه.\""
+ },
+ {
+  "video": "S-03",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"محوّلات\" for Konverter collides with Transformator = المحوّل (TERMS).",
+  "suggested_fix": "توجد أدوات تحويل لصيغ التبادل الخاصة ببرامج أخرى."
+ },
+ {
+  "video": "S-03",
+  "scene": 19,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Padded AR with \"معًا\".",
+  "suggested_fix": "ومن الأمثلة المعروفة هنا برنامجا ETAP وDIgSILENT PowerFactory التجاريان."
+ },
+ {
+  "video": "S-03",
+  "scene": 19,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"ولا نقدم عمدًا أي قول\" is unnatural.",
+  "suggested_fix": "ولا نقدّم عمدًا أي معلومات عن الأسعار أو الانتشار."
+ },
+ {
+  "video": "S-03",
+  "scene": 22,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Padded AR (\"... معًا\"); tts \"El-Ti-Spice\" can be read \"Spitse\".",
+  "suggested_fix": "AR: \"في الفيديو القادم نتناول المحاكاة، ومعها أدوات MATLAB وSimulink وLTspice كأمثلة.\" tts: \"... Mät-Läb, Simu-Link und El-Ti-Spais.\" (same in S-03 next)"
+ },
+ {
+  "video": "S-03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "next",
+  "issue": "`next` formats differ across the series (S-01 full sentence, S-02 \"Im nächsten Video: ...\", S-03 noun phrase, S-04 \"S-05: ...\"). AR next ends with filler \"للدارات\".",
+  "suggested_fix": "S-03 next.de: \"Im nächsten Video geht es um Simulation mit MATLAB, Simulink und LTspice.\" next.ar: \"في الفيديو القادم: المحاكاة، ومعها أدوات MATLAB وSimulink وLTspice كأمثلة.\" next.en: \"The next video is about simulation with MATLAB, Simulink and LTspice.\""
+ },
+ {
+  "video": "S-03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary \"quelloffen\" has no article; \"المنحنى المميِّز\" (glossary) vs \"المنحنى\" in 12.x.",
+  "suggested_fix": "de: \"die Quelloffenheit\" ar: \"المصدر المفتوح\"; use \"المنحنى المميِّز\" at first mention in 12.2."
+ },
+ {
+  "video": "S-03",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distractors are absurd (\"Die Farbe der Leitung\", \"Die Preise von Software\", \"Die Bildschirmgröße\", \"Der Name des Programms\", \"Das Programm wählt automatisch die Farbe\"); learners can answer without knowing the content.",
+  "suggested_fix": "Q1 wrong: \"Für die Wahl des Leitungstyps\" / \"Um die Spannung im Normalbetrieb zu prüfen\"; Q3 wrong: \"Alle Geräte schalten gleichzeitig ab\" is good, replace colour option with \"Nur das Gerät am Anfang des Netzes schaltet ab\"; Q4 wrong options: \"Die Anzahl der Knoten\" / \"Die Schriftart der Ergebnisse\" -> e.g. \"Die Anzahl der Leitungen\" / \"Die Rechengeschwindigkeit\"."
+ },
+ {
+  "video": "S-03",
+  "scene": 3,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "DE spells the abbreviation \"n-minus-eins-Prüfung\" in `de`; the written form belongs in `de`, spelled form in tts.",
+  "suggested_fix": "de: \"(n-1)-Prüfung\" with tts \"En-minus-eins-Prüfung\" (EN: \"(n-1) check\")"
+ },
+ {
+  "video": "S-03",
+  "scene": 2,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Scene 2 (and 22) repeat a disclaimer that is already in 1.x; scene 22 slide heading and third bullet are identical (\"Aktuelle Fassungen prüfen\").",
+  "suggested_fix": "Slide 22 items: \"Allgemeine Information\", \"Keine Rechts- oder Ingenieurberatung\", \"Normen und Software ändern sich\""
+ },
+ {
+  "video": "S-04",
+  "scene": 1,
+  "line": 6,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Factual/consistency: \"Das Video dauert nur wenige Minuten\" is not true for a 10-16 minute video; AR silently drops it.",
+  "suggested_fix": "1.6 DE: \"Das Thema ist wichtig, denn in Projekten begegnen Ihnen Simulationen sehr oft.\" (merge with 1.7; delete 1.7)"
+ },
+ {
+  "video": "S-04",
+  "scene": 1,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Padded AR; and DE/EN call LTspice \"frei\" while the video says \"kostenlos nach Herstellerangabe\" (freeware, not free software): \"frei\" is wrong for LTspice but right for Octave/Scilab. Same in slide 20 and 20.5.",
+  "suggested_fix": "1.5 DE: \"Wir nennen auch kostenlose und freie Werkzeuge, zum Beispiel LTspice und Octave.\" AR: \"كما سنذكر أدوات مجانية، مثل برنامجي LTspice وOctave كمثالين.\" (20.5: \"Beispiele für kostenlose oder freie Werkzeuge\")"
+ },
+ {
+  "video": "S-04",
+  "scene": 4,
+  "line": 9,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Regelkreis\" = \"حلقة التحكم\" (4.9, 7.5, 11.4, 17, quiz 4); TERMS: Regelung = التنظيم/الضبط (nicht \"المراقبة\"/control wording).",
+  "suggested_fix": "\"حلقة التنظيم\" (e.g. 4.9: \"المرشّح حالة لمحاكاة الدارة، أما حلقة التنظيم فأقرب إلى النظام.\"); apply in 4.9, 7.5, 11.4, scene 17 and quiz 4 slide text"
+ },
+ {
+  "video": "S-04",
+  "scene": 6,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"معامل\" is used for both Parameter and Faktor (\"خطأ بمعامل ألف\").",
+  "suggested_fix": "خطأ بعامل ألف يحدث بسهولة."
+ },
+ {
+  "video": "S-04",
+  "scene": 9,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: 9.4 \"Eine Frage, ein passender Analysetyp\" splits the time-domain and frequency-domain descriptions.",
+  "suggested_fix": "Move 9.4 to before 9.7."
+ },
+ {
+  "video": "S-04",
+  "scene": 10,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide card \"Basis: Rechenkern nach SPICE-Art\" is awkward; kicker \"Freies Werkzeug\" is wrong (LTspice is free of charge, not open).",
+  "suggested_fix": "Kicker: \"Kostenloses Werkzeug\"; item: \"Basis: SPICE-Rechenkern\""
+ },
+ {
+  "video": "S-04",
+  "scene": 10,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Double \"aus\" (\"ein Programm aus Berkeley aus den siebziger Jahren\").",
+  "suggested_fix": "Der Rechenkern geht auf SPICE zurück, ein Programm der Universität Berkeley aus den siebziger Jahren."
+ },
+ {
+  "video": "S-04",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"baut darauf auf ... bauen Sie\" repeats the verb.",
+  "suggested_fix": "Simulink baut darauf auf. Dort erstellen Sie ein Modell aus Blöcken."
+ },
+ {
+  "video": "S-04",
+  "scene": 12,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Stilted: \"ist der von MATLAB weitgehend ähnlich\".",
+  "suggested_fix": "Seine Sprache ähnelt der von MATLAB weitgehend."
+ },
+ {
+  "video": "S-04",
+  "scene": 12,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Non sequitur: scripts being \"gut für Ihre Fachsprache\" (technical language).",
+  "suggested_fix": "Sie lesen und schreiben Skripte, und das trainiert technisches Denken.  AR: \"تقرؤون النصوص البرمجية وتكتبونها، وهذا ينمّي التفكير التقني.\""
+ },
+ {
+  "video": "S-04",
+  "scene": 12,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"اسألوا أي ملفات\" ungrammatical; Xcos (12.9) comes after unrelated 12.7-12.8 although it belongs to Scilab (12.6).",
+  "suggested_fix": "AR 12.8: \"قبل المشروع اسألوا عن الملفات التي تستخدمها شركتكم.\" Order: 12.6, 12.9, 12.7, 12.8."
+ },
+ {
+  "video": "S-04",
+  "scene": 13,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: \"Darum lohnt es sich...\" (13.5) comes before the free alternatives are named (13.8), so \"darum\" has no basis.",
+  "suggested_fix": "Move 13.8 before 13.5."
+ },
+ {
+  "video": "S-04",
+  "scene": 14,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"أمثلة مُختلقة\" has a negative connotation (fabricated/false).",
+  "suggested_fix": "كل القيم أمثلة افتراضية من وضعنا."
+ },
+ {
+  "video": "S-04",
+  "scene": 14,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "`de` spells numbers in words (\"zehn Kilohm\", \"hundert Nanofarad\") and lines 15.3, 15.5, 7.x of S-05 do the same; convention in earlier videos: digits in `de`, spelled form only in tts. Slide items too (\"von null auf fünf Volt\").",
+  "suggested_fix": "de: \"Der Widerstand hat 10 kΩ, der Kondensator 100 nF.\" tts: \"Der Widerstand hat zehn Kilohm, der Kondensator hundert Nanofarad.\" Slide: \"Quelle springt von 0 V auf 5 V\", \"Widerstand: 10 kΩ\", \"Kondensator: 100 nF\"."
+ },
+ {
+  "video": "S-04",
+  "scene": 17,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: 17.5 \"Danach testen Sie Grenzfälle\" sits between the second-tool tip and its examples; Grenzfall examples are 17.9-17.10.",
+  "suggested_fix": "Move 17.5 to directly before 17.9."
+ },
+ {
+  "video": "S-04",
+  "scene": 18,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Non sequitur: \"Das gilt besonders für Wärme...\" (what does \"das\" refer to?).",
+  "suggested_fix": "Dazu kommen Einflüsse von Wärme, Alterung und mechanischer Belastung."
+ },
+ {
+  "video": "S-04",
+  "scene": 21,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: the quiz call-to-action precedes the next-video line.",
+  "suggested_fix": "Move 21.7 to the very end, after 21.8."
+ },
+ {
+  "video": "S-04",
+  "scene": 21,
+  "line": 8,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "tts identical to de: \"DIALux\" will be read inconsistently; S-05 uses \"Dialux\".",
+  "suggested_fix": "tts: \"Im nächsten Video geht es um Lichtplanung am Rechner mit Di-A-Lux.\" (use \"Di-A-Lux\" in S-05 1.6 and 18.1 too)"
+ },
+ {
+  "video": "S-04",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Product names without tts: Simulink (11.3, 11.7, 13.4), MathWorks (11.9, quiz), Scilab (12.6), Xcos (12.9, 13.4), Analog Devices (10.2).",
+  "suggested_fix": "Simulink -> \"Simu-Link\", MathWorks -> \"Mäth-Wörks\", Scilab -> \"Sai-Läb\", Xcos -> \"Iks-Kos\", Analog Devices -> \"Änalog Dewaisis\""
+ },
+ {
+  "video": "S-04",
+  "scene": 4,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table slide repeats the first-column keys (\"Frage\", \"Bausteine\" twice), so rows read as duplicates and the table is hard to scan.",
+  "suggested_fix": "Frage | Schaltung: Spannungen und Ströme ... -> use \"Schaltung | Spannungen und Ströme; Bauteile, Knoten, Zweige\" and \"System | Verhalten im Ganzen; Blöcke mit Ein-/Ausgängen\""
+ },
+ {
+  "video": "S-04",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distractors are throw-aways (\"Er verkauft die Lizenz\", \"Die Farbe der Kurve\", \"Den Namen des Programms\", \"Noch gar keine Änderung\").",
+  "suggested_fix": "Q1 wrong: \"Er wählt die Bauteile aus\" / \"Er speichert die Kurven als PDF\"; Q3 wrong: \"Die Kurvenfarbe\" -> \"Die Länge der Leitung im Modell\"."
+ },
+ {
+  "video": "S-04",
+  "scene": 2,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الجهة المصنِّعة\" vs \"الشركة المصنّعة\" used everywhere else.",
+  "suggested_fix": "تحققوا من هذه النقاط دائمًا في صفحة الشركة المصنّعة."
+ },
+ {
+  "video": "S-04",
+  "scene": 15,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: the benchmark sentence 15.7 interrupts the hand calculation (15.8-15.9 continue it).",
+  "suggested_fix": "Move 15.7 to the end of the scene (after 15.9)."
+ },
+ {
+  "video": "S-04",
+  "scene": 16,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Missing subject: \"وإذا كانت صغيرة جدًا\".",
+  "suggested_fix": "وإذا كانت الخطوة صغيرة جدًا، تنتج بيانات كثيرة بلا داعٍ."
+ },
+ {
+  "video": "S-05",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Title AR ends with filler \"للتخطيط\" (and 1.6 likewise).",
+  "suggested_fix": "Title ar: \"تخطيط الإنارة بالحاسوب: برنامج DIALux مثالًا\"; 1.6 AR: \"ومن الأمثلة المعروفة في ألمانيا برنامج DIALux لتخطيط الإنارة.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 1,
+  "line": 1,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Series numbering missing (S-02..S-04 say \"zum zweiten/dritten/vierten Video der Software-Reihe\").",
+  "suggested_fix": "DE: \"Willkommen zum fünften Video der Software-Reihe.\" AR: \"مرحبًا بكم في الفيديو الخامس من سلسلة البرمجيات.\" EN: \"Welcome to the fifth video of the software series.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 3,
+  "line": 6,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"المخطط\" for Planer collides with \"مخطط\" (diagram).",
+  "suggested_fix": "وتبقى المسؤولية على عاتق مخطِّط الإنارة."
+ },
+ {
+  "video": "S-05",
+  "scene": 4,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row 51 characters: \"Lichtstärke | Lichtstrom pro Raumwinkel, in Candela\".",
+  "suggested_fix": "Lichtstärke | Lichtstrom je Raumwinkel, in Candela  (or \"Lichtstärke | Lichtstrom pro Raumwinkel (cd)\")"
+ },
+ {
+  "video": "S-05",
+  "scene": 4,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"الشمعة\" for candela (also 6.4) is outdated/ambiguous; technical AR uses \"كانديلا\".",
+  "suggested_fix": "AR 4.5: \"وبدقة هي التدفق الضوئي لكل زاوية مجسمة، بوحدة الكانديلا.\" AR 6.4: \"وحدته الكانديلا لكل متر مربع.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 7,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "`de` spells years and numbers in words (also 7.3, 8.4, 8.5, 15.2, 15.4, 16.6) with identical tts; AR uses Arabic-Indic digits only in this video (7.2, 15.2, 15.4, 16.6) while the other five use Western digits. Slide items also spelled out (\"Ausgabe: November zweitausendeinundzwanzig\", \"Skala von zehn bis dreißig\", \"Höchstwert hundert\").",
+  "suggested_fix": "7.2 de: \"... im Jahr 1995 entwickelt.\" (tts: neunzehnhundertfünfundneunzig); slide: \"Ausgabe: November 2021\", \"Ausgabe Mai 2023\", \"UGR: Skala von 10 bis 30\", \"Ra: Farbwiedergabeindex, Höchstwert 100\"; AR: use Western digits consistently"
+ },
+ {
+  "video": "S-05",
+  "scene": 7,
+  "line": 5,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Das gilt zum Beispiel am Bildschirmarbeitsplatz\" - unclear antecedent.",
+  "suggested_fix": "Besonders wichtig ist das am Bildschirmarbeitsplatz, wo helle Leuchten stören."
+ },
+ {
+  "video": "S-05",
+  "scene": 9,
+  "line": 4,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "9.4 (menus differ) is stuck after step one.",
+  "suggested_fix": "Move 9.4 to follow 9.1."
+ },
+ {
+  "video": "S-05",
+  "scene": 11,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Table row 51 characters: \"Reflexionsgrad | Anteil des zurückgeworfenen Lichts\".",
+  "suggested_fix": "Reflexionsgrad | Anteil des reflektierten Lichts"
+ },
+ {
+  "video": "S-05",
+  "scene": 12,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"العاكسات\" (reflectors) clashes with TERMS \"العاكس\" = Wechselrichter.",
+  "suggested_fix": "لكل وحدة إنارة بياناتها الخاصة لأن العدسات والعواكس الضوئية توجّه الضوء بشكل مختلف."
+ },
+ {
+  "video": "S-05",
+  "scene": 13,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "13.2 and 13.3 say the same (\"nutzt Ihre Eingaben\" / \"kennt dann ... alle Leuchten\").",
+  "suggested_fix": "Merge: \"Das Programm kennt dann Raum, Oberflächen und alle Leuchten.\" and delete 13.3."
+ },
+ {
+  "video": "S-05",
+  "scene": 13,
+  "line": 5,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Raumwirkungsgrad\" = \"كفاءة الغرفة\" (13.5/13.6) vs \"معامل الاستفادة\" in 19.6; EN \"room efficiency\".",
+  "suggested_fix": "Use \"معامل استفادة الغرفة\" in 13.5-13.6, \"طريقة معامل الاستفادة\" in 19.6; EN \"room utilisation factor\"."
+ },
+ {
+  "video": "S-05",
+  "scene": 14,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: 14.2 \"Sie vergleichen sie mit den Anforderungen\" precedes 14.3 \"Zuerst prüfen Sie, ob das Modell plausibel ist\".",
+  "suggested_fix": "Swap 14.2 and 14.3."
+ },
+ {
+  "video": "S-05",
+  "scene": 15,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide (\"Titel: Beleuchtung von Arbeitsstätten, Innenräume\") and spoken title (15.3) differ; EN \"work places\" vs \"workplaces\".",
+  "suggested_fix": "Slide item: \"Titel: Beleuchtung von Arbeitsstätten, Teil 1\" ; EN 15.3: \"The full title is: light and lighting, lighting of workplaces, part one.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 15,
+  "line": 1,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "Standard numbers are read as full numerals (\"zwölftausendvierhundertvierundsechzig\", \"eintausendachthundertachtunddreißig\") while all other videos read standard numbers digit by digit (\"sechs eins eins drei eins\").",
+  "suggested_fix": "15.1/17.4/21.7 tts: \"Din E-En eins zwei vier sechs vier, Teil eins\" and \"Din E-En eins acht drei acht\""
+ },
+ {
+  "video": "S-05",
+  "scene": 16,
+  "line": 1,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Arbeitsschutz is rendered \"الحماية المهنية\" (16.1, 16.2); earlier videos use \"سلامة العمل\" (Bundesanstalt für Arbeitsschutz und Arbeitsmedizin = الهيئة الاتحادية لسلامة العمل والطب المهني).",
+  "suggested_fix": "16.1: \"المعيار لا ينظم سلامة العمل بالمعنى القانوني.\" 16.2: \"تنشر هذه القاعدة الهيئة الاتحادية لسلامة العمل والطب المهني.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 16,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: 16.2 \"diese Regel\" refers to the Technische Regel which is introduced only in 16.3-16.4.",
+  "suggested_fix": "Order: 16.1, 16.3, 16.4, 16.5, 16.2, 16.6."
+ },
+ {
+  "video": "S-05",
+  "scene": 16,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Legal wording is absolute (\"erfüllt damit die Anforderungen\"); the correct statement is a presumption (Vermutungswirkung).",
+  "suggested_fix": "Wer die Technische Regel einhält, kann davon ausgehen, dass er die Anforderungen der Verordnung erfüllt. AR: \"من يلتزم بالقاعدة الفنية يمكنه افتراض أنه يفي بمتطلبات اللائحة.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 18,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"رخصة\" suggests licence; DE means \"Freibrief\" = excuse.",
+  "suggested_fix": "البرنامج المجاني ليس مبررًا للتخطيط السيئ."
+ },
+ {
+  "video": "S-05",
+  "scene": 18,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Inverted, stiff DE; Radiance has no tts.",
+  "suggested_fix": "Radiance ist eine freie, offene Simulationssoftware. Sie richtet sich eher an Fachleute. tts: \"Rädiens ist eine freie, offene Simulationssoftware.\""
+ },
+ {
+  "video": "S-05",
+  "scene": 20,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide merges safety rules 4 and 5 into one bullet (\"Erden, kurzschließen, abdecken oder abschranken\"); TERMS requires the five rules complete and distinguishable on slides.",
+  "suggested_fix": "Items: \"Freischalten\" / \"Gegen Wiedereinschalten sichern\" / \"Spannungsfreiheit allpolig feststellen\" / \"Erden und Kurzschließen\" / \"Benachbarte Teile abdecken oder abschranken\""
+ },
+ {
+  "video": "S-05",
+  "scene": 20,
+  "line": 2,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "\"Arbeiten ... macht eine Elektrofachkraft\" is clumsy; 20.2 AR reads as an absolute statement before 20.3 relativises it.",
+  "suggested_fix": "20.2 DE: \"Arbeiten an elektrischen Leuchten und Anlagen führt eine Elektrofachkraft aus.\" 20.3 DE: \"Oder jemand führt sie unter Leitung und Aufsicht einer Elektrofachkraft aus.\" (combine in one sentence if possible)"
+ },
+ {
+  "video": "S-05",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Distractors weak/absurd (\"Für Rechnungen\", \"Die Lebensdauer einer Lampe\", \"Nichts, das Programm hat immer recht\").",
+  "suggested_fix": "Q3 wrong: \"Für Rechnungen\" -> \"Für die Reflexionsgrade der Wände\", \"Für Schaltpläne\" -> \"Für die Kabelquerschnitte\"; Q2 wrong: \"Die Kosten einer Leuchte\" -> \"Die Lichtmenge einer Lampe in Lumen\""
+ },
+ {
+  "video": "S-06",
+  "scene": 14,
+  "line": 14,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "S-05 announces AutoCAD Electrical, but S-06 never names the product (only \"AutoCAD\" in 14.4); chain/title mismatch (see S-05 next).",
+  "suggested_fix": "14.4 DE: \"Ein Hersteller bietet das zum Beispiel als Werkzeugsatz innerhalb von AutoCAD an, bekannt als AutoCAD Electrical.\" tts: \"... innerhalb von Auto-Käd an, bekannt als Auto-Käd Elektrikal.\" AR: \"تقدّم إحدى الشركات ذلك مثلًا كحزمة أدوات داخل برنامج AutoCAD نفسه، وتُعرف بحزمة AutoCAD Electrical هذه.\" (Arabic ends in Arabic word; check wording with AR reviewer)"
+ },
+ {
+  "video": "S-06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN spelling is US (color, catalog, license, practice, summarize); series standard is UK.",
+  "suggested_fix": "3.4 \"colour\"; 6.2 \"catalogue\"; 16.1 \"practise\"; 16.4/16.5/16.8/14.5/13.8 \"licence\"; 19.1 \"Let us summarise.\"; quiz \"colour\""
+ },
+ {
+  "video": "S-06",
+  "scene": 1,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"(CAD)\" in AR parentheses and \"E-CAD\" (2.3, 7.2, 11.5, 19.2, quiz 1) is an invented abbreviation (DE says Elektro-CAD); S-01 uses \"برنامج الرسم الكهربائي\".",
+  "suggested_fix": "Use \"برنامج الرسم الكهربائي\" instead of \"E-CAD\" in 2.3, 7.2, 11.5, 19.2, quiz 1; 1.2 AR: \"موضوعنا اليوم هو برامج الرسم والتصميم بالحاسوب (CAD) في تخطيط أنظمة التحكم الكهربائية.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 3,
+  "line": 2,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "EN drops \"auf Deutsch die Ebene\"; AR changes the claim to \"الطبقة بالعربية\".",
+  "suggested_fix": "DE keep. AR: \"المفهوم الأول هو الـ Layer، ويسمى بالألمانية Ebene، أي الطبقة.\" EN: \"The first concept is the layer, in German 'Ebene'.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 4,
+  "line": 9,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "4.9 repeats 4.7 (invisible attributes).",
+  "suggested_fix": "Delete 4.9."
+ },
+ {
+  "video": "S-06",
+  "scene": 6,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"Artikel\" = \"قطعة\" here but \"صنف\" in S-01 (Stückliste, Artikelverwaltung); EN \"article\" is not idiomatic (\"item\").",
+  "suggested_fix": "AR: \"بدلًا من كتابة كل قيمة، تختارون صنفًا من كتالوج.\" EN: \"... you choose an item from a catalogue.\" (6.6 EN \"himself\" -> \"themselves\")"
+ },
+ {
+  "video": "S-06",
+  "scene": 7,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "AR merges Leitung and Linie into one word (\"الخط ... أكثر من مجرد خط\"), losing the point of the sentence; elsewhere \"Leitung\" = موصل/وصلة.",
+  "suggested_fix": "7.2 AR: \"الموصل في برنامج الرسم الكهربائي أكثر من مجرد خط مرسوم.\" 7.4 AR: \"لذلك يمكنه ترقيم الموصلات تلقائيًا، وعلى مستوى المشروع كله.\" 5.4: \"... ينتهي عندها الموصل.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 7,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide term \"Querverweis\" is not mentioned in scene 7 (also \"Betriebsmittel\" in scene 5, \"Normen\" in scene 10 not used as such).",
+  "suggested_fix": "Slide 7 terms: {\"de\":\"Anschlusspunkt\",\"ar\":\"نقطة التوصيل\",\"en\":\"connection point\"}"
+ },
+ {
+  "video": "S-06",
+  "scene": 8,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"النموذجي هو قائمة المواد\" is awkward; EN \"Evaluations\" should be \"reports\" (S-01 glossary \"report (evaluation)\").",
+  "suggested_fix": "AR: \"ومن أشهرها قائمة المواد ومخطط الأطراف.\" EN 8.2: \"Reports come from the data model automatically.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 9,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide row \"Norm | Das Programm kennt nicht Ihre Vorgaben\" has unnatural word order.",
+  "suggested_fix": "Norm | Das Programm kennt Ihre Vorgaben nicht"
+ },
+ {
+  "video": "S-06",
+  "scene": 9,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Non sequitur: \"Hier liegt der Unterschied zwischen einem Werkzeug und einer Arbeitsweise.\"",
+  "suggested_fix": "Ein Werkzeug allein sichert keine Qualität, entscheidend ist die Arbeitsweise. AR: \"الأداة وحدها لا تضمن الجودة، فالحاسم هو أسلوب العمل.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 10,
+  "line": 3,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "`de` spells \"zwei bis dreizehn\", \"tausendneunhundert\" in words (convention: digits in de, words in tts); AR then shows digits (\"من 2 إلى 13\", \"1900\") in the same line.",
+  "suggested_fix": "de: \"Sie enthält die Teile 2 bis 13 mit etwa 1900 Symbolen.\" tts: \"Sie enthält die Teile zwei bis dreizehn mit etwa eintausendneunhundert Symbolen.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 10,
+  "line": 7,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"اسألوا أي إصدار\" ungrammatical.",
+  "suggested_fix": "اسألوا عن الإصدار الذي يطلبه عميلكم."
+ },
+ {
+  "video": "S-06",
+  "scene": 11,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"ترميز المرجع\" differs from the glossary term \"ترميز مرجعي / الترميز المرجعي\"; 11.2 ends with filler \"بالتفصيل\".",
+  "suggested_fix": "11.3: \"يتبع الترميز المرجعي سلسلة IEC 81346 الدولية.\" 11.2: \"قواعد الوثائق مذكورة في معيار DIN EN 61082-1 الألماني.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 12,
+  "line": 2,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Padded AR \"هما DXF وDWG معًا\".",
+  "suggested_fix": "لذلك يوجد صيغتان معروفتان هما DXF وDWG للرسومات."
+ },
+ {
+  "video": "S-06",
+  "scene": 12,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide row \"DWG | Spezifikation nicht von Autodesk\" is ambiguous (reads as: specification is by someone else).",
+  "suggested_fix": "DWG | Autodesk veröffentlicht keine Spezifikation"
+ },
+ {
+  "video": "S-06",
+  "scene": 12,
+  "line": 5,
+  "severity": "improve",
+  "lang": "tts",
+  "issue": "\"Library of Congress\" read with German phonetics; quoting an American institution in a German sentence.",
+  "suggested_fix": "tts: \"Nach Angaben der Bibliothek des US-Kongresses (Lai-brä-ri of Kongress) veröffentlicht Autodesk keine De-We-Ge-Spezifikation.\" or DE: \"Nach Angaben der US-Kongressbibliothek ...\""
+ },
+ {
+  "video": "S-06",
+  "scene": 13,
+  "line": 3,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Clumsy: \"Erst wenn die Attribute da sind, hat das Symbol noch seine Daten.\"",
+  "suggested_fix": "Nur wenn die Attribute erhalten bleiben, behält das Symbol seine Daten. AR: \"إذا بقيت السمات فقط يحتفظ الرمز ببياناته.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 13,
+  "line": 8,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: \"deren Lizenzbedingungen\" (13.8) is separated from \"Programme\" (13.5) by 13.6-13.7.",
+  "suggested_fix": "Move 13.8 directly after 13.5. AR 13.5: \"توجد برامج متاحة مجانًا لتحويل DWG وDXF.\" (drop \"وتسمّى محوّلات\", cf. TERMS Transformator)"
+ },
+ {
+  "video": "S-06",
+  "scene": 14,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Slide row 51 characters: \"Unterschied | Zeichnungsdatei oder Projektdatenbank\".",
+  "suggested_fix": "Unterschied | Zeichnungsdatei oder Datenbank"
+ },
+ {
+  "video": "S-06",
+  "scene": 16,
+  "line": 7,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Order: 16.8 \"Damit lernen Sie...\" should follow 16.6 (free programs); 16.7 (company requirements) interrupts.",
+  "suggested_fix": "Order: 16.6, 16.8, 16.7. Also QElectroTech repeats S-01 scene 18; shorten 16.2/17.1-17.3 to a pointer."
+ },
+ {
+  "video": "S-06",
+  "scene": 17,
+  "line": 8,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "Awkward AR for \"Ob die Symbole Ihrer Norm entsprechen, prüfen Sie selbst\".",
+  "suggested_fix": "أما مطابقة الرموز لمعياركم فتتحققون منها بأنفسكم."
+ },
+ {
+  "video": "S-06",
+  "scene": 18,
+  "line": 7,
+  "severity": "improve",
+  "lang": "en",
+  "issue": "Gendered \"he expects\"/\"he specifies\" (15.5) for the customer.",
+  "suggested_fix": "18.7 EN: \"Clarify with the customer which file format is expected.\" 15.5 EN: \"Often the customer decides, because the customer specifies files and format.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 20,
+  "line": 0,
+  "severity": "improve",
+  "lang": "de",
+  "issue": "Quote layout with a meaningless third bullet \"Alle Reihen: Software und Planung\".",
+  "suggested_fix": "Items: \"Aktuelle Ausgaben selbst prüfen\", \"Allgemeine Information, keine Beratung\", \"Produkte nur als Beispiele\""
+ },
+ {
+  "video": "S-06",
+  "scene": 21,
+  "line": 3,
+  "severity": "improve",
+  "lang": "ar",
+  "issue": "\"نظرة الدورة العامة\" (also next) is not an Arabic expression for \"Kursübersicht\".",
+  "suggested_fix": "ستجدون جميع فيديوهات الدورة في صفحة الدورة الرئيسية. next.ar: \"كان هذا آخر فيديو في سلسلة البرمجيات. ستجدون كل الفيديوهات في صفحة الدورة الرئيسية.\""
+ },
+ {
+  "video": "S-06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "quiz",
+  "issue": "Quiz 1 is ambiguous: option 1 \"Es zeichnet nur Linien\" can be read as describing general CAD; Q4 \"laut Webshop\" - a webshop is never mentioned in the video; distractors are throw-aways.",
+  "suggested_fix": "Q1: \"Was kann Elektro-CAD, was allgemeines CAD nicht kann?\" options: \"Linien und Kreise zeichnen\" / \"Symbole mit Daten und Verbindungslogik verwalten\" / \"Dateien im DXF-Format speichern\". Q4: \"Wie wird IEC 60617 laut diesem Video angeboten?\" AR: \"كيف تُقدَّم IEC 60617 بحسب هذا الفيديو؟\""
+ },
+ {
+  "video": "S-06",
+  "scene": 0,
+  "line": 0,
+  "severity": "improve",
+  "lang": "glossary",
+  "issue": "Glossary AR \"رخصة\" for Lizenz (also S-03 \"رخصة BSD\") vs \"ترخيص\" in S-01/S-02/S-04.",
+  "suggested_fix": "Use \"ترخيص\" consistently; glossary \"das Betriebsmittel\" -> singular \"معدّة كهربائية\"."
+ },
+ {
+  "video": "S-03",
+  "scene": 1,
+  "line": 6,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "\"Paiton\" yields an English-sounding reading; German \"Python\" is read \"Püton\" by most voices.",
+  "suggested_fix": "Zum Schluss lernen Sie Pandapauer kennen, eine offene Pü-ton-Bibliothek. (check by ear; apply to 16.2, 16.7)"
+ },
+ {
+  "video": "S-05",
+  "scene": 17,
+  "line": 5,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "\"E-B-null-fünf\": letter B should be \"Be\" in German spelling.",
+  "suggested_fix": "E-Be-null-fünf  (also 21.8; S-04/S-05 use E-B..., S-01 uses E-Eff-null-sechs)"
+ },
+ {
+  "video": "S-02",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "ar",
+  "issue": "Some Arabic digits/Western digits mix: S-02 7.6 uses \"2013\" (Western) while TERMS shows Arabic-Indic digits in \"رقم ٣\"; S-05 uses Arabic-Indic. Pick one system for all videos.",
+  "suggested_fix": "Use Western digits (majority of the course: 205 lines vs 82)."
+ },
+ {
+  "video": "S-02",
+  "scene": 5,
+  "line": 1,
+  "severity": "note",
+  "lang": "tts",
+  "issue": "tts identical to de (5.1) - redundant but harmless; same for S-05 7.3, 8.4, 8.5, 10.4, 15.2, 15.4, 16.6.",
+  "suggested_fix": "Remove duplicate tts fields where equal to de."
+ },
+ {
+  "video": "S-04",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "lang": "glossary",
+  "issue": "Glossary entry \"die Sprungantwort / استجابة القفزة\" is never used in the spoken lines (the example speaks of \"Spannungssprung\" only).",
+  "suggested_fix": "Either add one sentence in 15.x (\"Dieser Verlauf heißt Sprungantwort.\") or delete the entry."
+ },
+ {
+  "video": "S-03",
+  "scene": 22,
+  "line": 0,
+  "severity": "note",
+  "lang": "de",
+  "issue": "Slide 22 heading and last bullet are identical (\"Aktuelle Fassungen prüfen\").",
+  "suggested_fix": "Third bullet: \"Normen und Software ändern sich\""
+ }
+]
