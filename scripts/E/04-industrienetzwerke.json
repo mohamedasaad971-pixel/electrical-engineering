@@ -1,7 +1,7 @@
 {
  "id": "E-C04",
  "title": {
-  "de": "Industrielle Kommunikation: PROFINET und OPC UA",
+  "de": "Industrielle Netzwerke: PROFINET und OPC UA (Konzepte)",
   "ar": "الشبكات الصناعية: PROFINET وOPC UA (مفاهيم)",
   "en": "Industrial networks: PROFINET and OPC UA (concepts)"
  },
@@ -18,9 +18,9 @@
     ],
     "terms": [
      {
-      "de": "Industrielle Kommunikation",
-      "ar": "الاتصال الصناعي",
-      "en": "industrial communication"
+      "de": "Industrielle Netzwerke",
+      "ar": "الشبكات الصناعية",
+      "en": "industrial networks"
      }
     ]
    },
@@ -70,17 +70,19 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Nur eine Orientierung",
     "items": [
      "Kein Ersatz für Ausbildung",
-     "Aktuelle Regeln beachten"
+     "Aktuelle Regeln beachten",
+     "Nur Konzepte, keine Zahlen",
+     "Im Zweifel: Fachperson fragen"
     ],
     "terms": [
      {
       "de": "Elektrofachkraft",
-      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "ar": "الكهربائي المؤهَّل",
       "en": "qualified electrician"
      }
     ]
@@ -103,12 +105,12 @@
     },
     {
      "de": "Netzwerke werden von Fachleuten geplant und in Betrieb genommen.",
-     "ar": "تخطّط الشبكات ويشغّلها المتخصصون أولًا.",
+     "ar": "يخطّط المتخصصون الشبكات ويضعونها في الخدمة.",
      "en": "Networks are planned and commissioned by specialists."
     },
     {
      "de": "Arbeiten an elektrischen Anlagen führt eine Elektrofachkraft aus oder jemand unter ihrer Leitung und Aufsicht.",
-     "ar": "أما الأعمال على المنشآت الكهربائية فينفذها كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه.",
+     "ar": "أما الأعمال على المنشآت الكهربائية فينفذها الكهربائي المؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه.",
      "en": "Work on electrical installations is done by an Elektrofachkraft or by someone under their direction and supervision."
     },
     {
@@ -118,7 +120,7 @@
     },
     {
      "de": "Prüfen Sie außerdem immer die Regeln Ihres Betriebs.",
-     "ar": "وراجعوا دائمًا أيضًا قواعد شركتكم.",
+     "ar": "وراجعوا أيضًا قواعد شركتكم دائمًا.",
      "en": "Also always check the rules of your company."
     }
    ]
@@ -130,9 +132,9 @@
     "heading": "Warum Maschinen ein Netzwerk brauchen",
     "items": [
      "Steuerung, Sensoren, Antriebe",
-     "Viele Signale, wenig Kabel",
-     "Diagnose aus der Ferne",
-     "Zentrale Daten für Auswertung"
+     "Geräte über ein Netzwerk verbunden",
+     "Daten für Wartung und Auswertung",
+     "Klare Namen und Dokumentation"
     ],
     "terms": [
      {
@@ -142,7 +144,7 @@
      },
      {
       "de": "Steuerung (SPS)",
-      "ar": "وحدة التحكم (SPS)",
+      "ar": "المتحكم المنطقي القابل للبرمجة",
       "en": "controller (PLC)"
      }
     ]
@@ -155,33 +157,18 @@
     },
     {
      "de": "Es gibt eine Steuerung, Sensoren, Antriebe und Ein- und Ausgabemodule.",
-     "ar": "هناك وحدة تحكم وحساسات ومحركات ووحدات دخل وخرج.",
+     "ar": "هناك وحدة تحكم ومستشعرات ومحركات ووحدات دخل وخرج.",
      "en": "There is a controller, sensors, drives and input and output modules."
     },
     {
-     "de": "Früher ging für jedes Signal ein eigenes Kabel in den Schaltschrank.",
-     "ar": "في الماضي كان لكل إشارة كابل خاص إلى خزانة التوزيع والتحكم.",
-     "en": "In the past, every signal had its own cable into the control cabinet."
-    },
-    {
-     "de": "Heute teilen sich viele Geräte eine gemeinsame Verbindung.",
-     "ar": "واليوم تتشارك أجهزة كثيرة اتصالًا واحدًا.",
-     "en": "Today many devices share one connection."
-    },
-    {
-     "de": "Das spart Verdrahtung und macht Fehler besser sichtbar.",
-     "ar": "وهذا يوفّر التوصيلات ويجعل الأعطال أوضح.",
-     "en": "This saves wiring and makes faults easier to see."
+     "de": "Heute sind viele Geräte über ein Netzwerk verbunden.",
+     "ar": "واليوم ترتبط أجهزة كثيرة عبر شبكة.",
+     "en": "Today many devices are connected through a network."
     },
     {
      "de": "Außerdem lassen sich Daten für Wartung und Auswertung nutzen.",
      "ar": "كما يمكن استخدام البيانات للصيانة والتحليل.",
      "en": "Data can also be used for maintenance and analysis."
-    },
-    {
-     "de": "Auch die Fehlersuche wird einfacher, weil man Geräte im Netz sehen kann.",
-     "ar": "ويصبح البحث عن الأعطال أسهل لأن الأجهزة تظهر في الشبكة.",
-     "en": "Troubleshooting also becomes easier because devices can be seen in the network."
     },
     {
      "de": "Dafür braucht man aber klare Namen, Adressen und eine saubere Dokumentation.",
@@ -197,9 +184,9 @@
     "heading": "Feldbus und Industrial Ethernet",
     "items": [
      "Feldbus | Serielle Bussysteme für die Feldebene",
-     "Industrial Ethernet | Ethernet-Technik für die Industrie",
-     "Feldbus | Oft eigene Kabel und Anschlusstechnik",
-     "Industrial Ethernet | Standard-Ethernet als Grundlage",
+     "Industrial Ethernet | Ethernet für die Industrie",
+     "Feldbus | Klassisch, z. B. PROFIBUS DP",
+     "Industrial Ethernet | Basis: Standard-Ethernet",
      "Beides | Verbindet Steuerung und Feldgeräte"
     ],
     "terms": [
@@ -228,7 +215,7 @@
     },
     {
      "de": "Es verbindet die Steuerung mit Sensoren und Antrieben.",
-     "ar": "يربط وحدة التحكم بالحساسات والمحركات.",
+     "ar": "يربط وحدة التحكم بالمستشعرات والمحركات.",
      "en": "It connects the controller with sensors and drives."
     },
     {
@@ -273,11 +260,11 @@
    "slide": {
     "layout": "bullets",
     "kicker": "Klassiker",
-    "heading": "PROFIBUS: der serielle Vorgänger",
+    "heading": "PROFIBUS: der klassische Feldbus",
     "items": [
      "Serieller Feldbus",
      "Basis: RS-485",
-     "Weiterentwicklung: PROFINET",
+     "Zeitlich früher als PROFINET",
      "Bleibt in Anlagen verbreitet"
     ]
    },
@@ -319,19 +306,14 @@
      "tts": "Profibus ist trotzdem in vielen Anlagen weiter im Einsatz."
     },
     {
-     "de": "Sie treffen es also vor allem bei Modernisierungen an.",
-     "ar": "لذلك ستصادفونه خصوصًا في مشاريع التحديث.",
-     "en": "So you will meet it mostly in modernisation projects."
+     "de": "Sie treffen es also in vielen Bestandsanlagen an.",
+     "ar": "لذلك ستصادفونه في كثير من المنشآت القائمة.",
+     "en": "So you will meet it in many existing plants."
     },
     {
-     "de": "Bei Modernisierungen treffen alte und neue Technik oft aufeinander.",
-     "ar": "وفي مشاريع التحديث تلتقي التقنية القديمة بالجديدة كثيرًا.",
-     "en": "In modernisation projects, old and new technology often meet."
-    },
-    {
-     "de": "Wie man mit alten Teilen umgeht, klärt die Planung der Anlage.",
-     "ar": "وكيفية التعامل مع الأجزاء القديمة يحددها تخطيط المنشأة.",
-     "en": "How to deal with old parts is clarified by the planning of the plant."
+     "de": "Wie man mit Bestandsanlagen umgeht, klärt die Planung der Anlage.",
+     "ar": "وكيفية التعامل مع المنشآت القائمة يحددها تخطيط المنشأة.",
+     "en": "How to deal with existing plants is clarified by the planning of the plant."
     }
    ]
   },
@@ -386,22 +368,12 @@
      "de": "Die Technik ist in den Normenreihen IEC 61158 und IEC 61784 eingebettet.",
      "ar": "والتقنية مدرجة في سلسلتي المعايير IEC 61158 وIEC 61784 الدوليتين.",
      "en": "The technology is embedded in the IEC 61158 and IEC 61784 series of standards.",
-     "tts": "Die Technik ist in den Normenreihen I-E-Ze einundsechzig-einhundertachtundfünfzig und I-E-Ze einundsechzig-siebenhundertvierundachtzig eingebettet."
+     "tts": "Die Technik ist in den Normenreihen I-E-Ze sechs eins eins fünf acht und I-E-Ze sechs eins sieben acht vier eingebettet."
     },
     {
      "de": "Prüfen Sie für Details immer die aktuellen Fassungen.",
      "ar": "وللتفاصيل راجعوا دائمًا الإصدارات الحالية.",
      "en": "For details, always check the current versions."
-    },
-    {
-     "de": "Der Name steht für Process Field Network.",
-     "ar": "والاسم يعني شبكة حقل العمليات.",
-     "en": "The name stands for Process Field Network."
-    },
-    {
-     "de": "Man spricht von einem offenen Standard, weil die Spezifikation verfügbar ist.",
-     "ar": "ويسمى معيارًا مفتوحًا لأن المواصفة متاحة.",
-     "en": "It is called an open standard because the specification is available."
     }
    ]
   },
@@ -412,7 +384,7 @@
     "heading": "Echtzeit heißt vorhersagbar",
     "items": [
      "Echtzeit | Antwort innerhalb einer festen Frist",
-     "Nicht gleich | schnell und Echtzeit sind verschieden",
+     "Nicht gleich | schnell ≠ Echtzeit",
      "Hart | Keine Frist darf verpasst werden",
      "Weich | Seltene Überschreitung ist tolerierbar",
      "Büro-Ethernet | Allein oft nicht ausreichend"
@@ -502,7 +474,7 @@
     "terms": [
      {
       "de": "Switch",
-      "ar": "مبدّل الشبكة (Switch)",
+      "ar": "المبدّل الشبكي",
       "en": "switch"
      }
     ]
@@ -648,9 +620,9 @@
    },
    "lines": [
     {
-     "de": "Möchten Sie Ausfälle abfangen, nutzen Sie einen Ring.",
-     "ar": "إذا أردتم تحمّل الأعطال فاستخدموا حلقة.",
-     "en": "If you want to absorb failures, use a ring."
+     "de": "Um Ausfälle einer Verbindung abzufangen, kann man einen Ring nutzen.",
+     "ar": "لتحمّل تعطل أحد الاتصالات يمكن استخدام حلقة.",
+     "en": "To absorb the failure of a connection, a ring can be used."
     },
     {
      "de": "Dafür gibt es das Medienredundanzprotokoll, kurz MRP.",
@@ -733,10 +705,10 @@
      "en": "You define the name in the engineering tool."
     },
     {
-     "de": "Danach wird er per DCP auf das Gerät übertragen.",
-     "ar": "بعد ذلك يُنقل إلى الجهاز عبر بروتوكول DCP المخصص لذلك.",
-     "en": "Then it is transferred to the device via DCP.",
-     "tts": "Danach wird er per De-Ze-Pe auf das Gerät übertragen."
+     "de": "Danach wird er per DCP, dem Discovery and Configuration Protocol, auf das Gerät übertragen.",
+     "ar": "بعد ذلك يُنقل إلى الجهاز عبر بروتوكول DCP للاكتشاف والإعداد.",
+     "en": "Then it is transferred to the device via DCP, the Discovery and Configuration Protocol.",
+     "tts": "Danach wird er per De-Ze-Pe, dem Discovery and Configuration Protocol, auf das Gerät übertragen."
     },
     {
      "de": "Beim Hochlauf setzt die Steuerung die IP-Adressen.",
@@ -745,10 +717,10 @@
      "tts": "Beim Hochlauf setzt die Steuerung die I-Pe-Adressen."
     },
     {
-     "de": "Außerdem nutzen die Geräte LLDP.",
-     "ar": "كما تستخدم الأجهزة بروتوكول LLDP أيضًا.",
-     "en": "The devices also use LLDP.",
-     "tts": "Außerdem nutzen die Geräte El-El-De-Pe."
+     "de": "Außerdem nutzen die Geräte LLDP, das Link Layer Discovery Protocol.",
+     "ar": "كما تستخدم الأجهزة بروتوكول LLDP لاكتشاف الجيران.",
+     "en": "The devices also use LLDP, the Link Layer Discovery Protocol.",
+     "tts": "Außerdem nutzen die Geräte El-El-De-Pe, das Link Layer Discovery Protocol."
     },
     {
      "de": "Damit melden sie Nachbarn ihren Namen und ihren Port.",
@@ -816,11 +788,6 @@
      "tts": "O-Pe-Ze U-A ist plattformunabhängig."
     },
     {
-     "de": "Es läuft vom kleinen Gerät bis zur Cloud-Umgebung.",
-     "ar": "يعمل من الجهاز الصغير إلى بيئة السحابة.",
-     "en": "It runs from a small device up to a cloud environment."
-    },
-    {
      "de": "Die Architektur ist serviceorientiert.",
      "ar": "وبنيته موجّهة نحو الخدمات.",
      "en": "The architecture is service oriented."
@@ -835,12 +802,7 @@
      "de": "International ist OPC UA als Normenreihe IEC 62541 veröffentlicht.",
      "ar": "وعالميًا نُشر OPC UA كسلسلة معايير IEC 62541 الدولية.",
      "en": "Internationally, OPC UA is published as the IEC 62541 series of standards.",
-     "tts": "International ist O-Pe-Ze U-A als Normenreihe I-E-Ze zweiundsechzig-fünfhunderteinundvierzig veröffentlicht."
-    },
-    {
-     "de": "Die Spezifikation wird von der Organisation gepflegt und veröffentlicht.",
-     "ar": "وتتولى المؤسسة صيانة المواصفة ونشرها.",
-     "en": "The organisation maintains and publishes the specification."
+     "tts": "International ist O-Pe-Ze U-A als Normenreihe I-E-Ze sechs zwei fünf vier eins veröffentlicht."
     },
     {
      "de": "Es dient dem Austausch von Daten zwischen Maschinen und Systemen.",
@@ -898,7 +860,7 @@
     },
     {
      "de": "Das zweite Modell heißt Publish-Subscribe, kurz PubSub.",
-     "ar": "والنموذج الثاني اسمه النشر والاشتراك، (PubSub) كما يُختصر.",
+     "ar": "والنموذج الثاني اسمه النشر والاشتراك (PubSub) عادةً.",
      "en": "The second model is called publish-subscribe, PubSub for short.",
      "tts": "Das zweite Modell heißt Publish-Subscribe, kurz Pab-Sab."
     },
@@ -928,11 +890,11 @@
    "slide": {
     "layout": "cards",
     "kicker": "OPC UA",
-    "heading": "Informationsmodell und Sicherheit",
+    "heading": "Informationsmodell und IT-Sicherheit",
     "items": [
      "Adressraum: Daten, Alarme, Historie",
      "Typen: Server beschreiben ihre Objekte",
-     "Sicherheit: Anmeldung, Verschlüsselung",
+     "IT-Sicherheit: Anmeldung, Verschlüsselung",
      "Zertifikate: Vertrauen wird geprüft"
     ],
     "terms": [
@@ -971,13 +933,19 @@
      "en": "This is called an information model."
     },
     {
-     "de": "Sicherheit ist Teil der Spezifikation.",
-     "ar": "الأمان جزء من المواصفة.",
-     "en": "Security is part of the specification."
+     "de": "So kann ein Programm erkennen, was ein Wert bedeutet.",
+     "ar": "وهكذا يستطيع البرنامج أن يعرف ماذا تعني القيمة.",
+     "en": "This way a program can recognise what a value means."
+    },
+    {
+     "de": "Die IT-Sicherheit ist Teil der Spezifikation.",
+     "ar": "الأمن السيبراني جزء من المواصفة.",
+     "en": "IT security is part of the specification.",
+     "tts": "Die I-Te-Sicherheit ist Teil der Spezifikation."
     },
     {
      "de": "Es gibt Anmeldung, Verschlüsselung und Integritätsprüfung.",
-     "ar": "هناك تسجيل دخول وتشفير وفحص للسلامة.",
+     "ar": "هناك تسجيل دخول وتشفير وفحص للنزاهة.",
      "en": "There is authentication, encryption and integrity checking."
     },
     {
@@ -986,13 +954,8 @@
      "en": "Trust between applications is based on certificates."
     },
     {
-     "de": "So kann ein Programm erkennen, was ein Wert bedeutet.",
-     "ar": "وهكذا يستطيع البرنامج أن يعرف ماذا تعني القيمة.",
-     "en": "This way a program can recognise what a value means."
-    },
-    {
      "de": "Wie sicher es ist, hängt aber von der Konfiguration ab.",
-     "ar": "لكن مستوى الأمان يعتمد على الإعداد.",
+     "ar": "لكن مستوى الأمن يعتمد على الإعداد.",
      "en": "How secure it is depends on the configuration."
     }
    ]
@@ -1007,7 +970,7 @@
      "OPC UA | Daten zwischen Systemen",
      "PROFINET | Steuern auf Feldebene",
      "OPC UA | Auswertung, Diagnose, Anbindung",
-     "Beides | ergänzt sich, kein Entweder-oder"
+     "Beides | oft ergänzend (Companion Specification)"
     ],
     "terms": [
      {
@@ -1042,10 +1005,10 @@
      "en": "Typical uses are analysis, diagnostics and connecting higher-level systems."
     },
     {
-     "de": "PI und die OPC Foundation haben dazu gemeinsam eine Spezifikation veröffentlicht.",
-     "ar": "ولذلك نشرت PI وOPC Foundation معًا مواصفة مشتركة.",
-     "en": "PI and the OPC Foundation have jointly published a specification for this.",
-     "tts": "Pe-I und die O-Pe-Ze Foundation haben dazu gemeinsam eine Spezifikation veröffentlicht."
+     "de": "PI und die OPC Foundation haben dazu gemeinsam eine Companion Specification veröffentlicht.",
+     "ar": "ولذلك نشرت PI وOPC Foundation معًا مواصفة مرافقة مشتركة.",
+     "en": "PI and the OPC Foundation have jointly published a companion specification for this.",
+     "tts": "Pe-I und die O-Pe-Ze Foundation haben dazu gemeinsam eine Companion Specification veröffentlicht."
     },
     {
      "de": "Sie bildet Geräteinformationen von PROFINET in OPC UA ab.",
@@ -1057,16 +1020,6 @@
      "de": "Ein Beispiel sind Seriennummer und Firmware-Version.",
      "ar": "ومن الأمثلة الرقم التسلسلي وإصدار البرنامج الثابت.",
      "en": "Examples are serial number and firmware version."
-    },
-    {
-     "de": "Dadurch kann ein Gateway oder eine Steuerung die Daten anbieten.",
-     "ar": "وهكذا يمكن لبوابة أو وحدة تحكم أن تقدّم البيانات.",
-     "en": "This allows a gateway or a controller to offer the data."
-    },
-    {
-     "de": "Auch Wartungspläne lassen sich damit besser vorbereiten.",
-     "ar": "كما يمكن بذلك تحضير خطط الصيانة بشكل أفضل.",
-     "en": "Maintenance plans can also be prepared better this way."
     }
    ]
   },
@@ -1084,7 +1037,7 @@
     "terms": [
      {
       "de": "Trennung IT/OT",
-      "ar": "الفصل بين IT وOT",
+      "ar": "الفصل بين تقنية المعلومات وتقنية التشغيل",
       "en": "IT/OT separation"
      }
     ]
@@ -1114,10 +1067,10 @@
      "en": "The two worlds have different goals."
     },
     {
-     "de": "In der OT zählen Verfügbarkeit und vorhersagbares Verhalten.",
-     "ar": "في OT تهم الجاهزية والسلوك القابل للتنبؤ.",
-     "en": "In OT, availability and predictable behaviour count.",
-     "tts": "In der O-Te zählen Verfügbarkeit und vorhersagbares Verhalten."
+     "de": "In der OT hat die Verfügbarkeit oft hohe Priorität.",
+     "ar": "في OT تحظى التوافرية غالبًا بأولوية عالية.",
+     "en": "In OT, availability often has a high priority.",
+     "tts": "In der O-Te hat die Verfügbarkeit oft hohe Priorität."
     },
     {
      "de": "Häufig steht dazwischen eine industrielle DMZ.",
@@ -1129,11 +1082,6 @@
      "de": "Dann gibt es kein direktes Routing zwischen Büro- und Anlagennetz.",
      "ar": "وعندها لا يوجد توجيه مباشر بين شبكة المكاتب وشبكة المنشأة.",
      "en": "Then there is no direct routing between office and plant network."
-    },
-    {
-     "de": "Im nächsten Video vertiefen wir die Sicherheit dieser Netze.",
-     "ar": "وفي الفيديو القادم نتعمق في أمن هذه الشبكات.",
-     "en": "In the next video we go deeper into the security of these networks."
     },
     {
      "de": "Eine Anbindung der Anlage ans Büronetz braucht eine bewusste Planung.",
@@ -1154,16 +1102,16 @@
     "kicker": "Kabel",
     "heading": "Kabel und Steckverbinder im Überblick",
     "items": [
-     "Kabel | Geschirmtes Industrie-Ethernet-Kabel",
-     "RJ45 | Typisch im Schaltschrank",
-     "M12 | Robust, für Maschinen im Feld",
+     "Kabel | Industrie-Ethernet-Kabel",
+     "RJ45 | Bauform im Schaltschrank möglich",
+     "M12 | Runde Bauform mit Codierungen",
      "M12 | Codierung muss zum Einsatz passen",
      "Montage | Richtlinie der PI beachten"
     ],
     "terms": [
      {
       "de": "Steckverbinder",
-      "ar": "الموصل (Steckverbinder)",
+      "ar": "وصلة التوصيل",
       "en": "connector"
      }
     ]
@@ -1171,25 +1119,25 @@
    "lines": [
     {
      "de": "Noch ein Blick auf Kabel und Steckverbinder.",
-     "ar": "لنلقِ نظرة أخيرة على الكابلات والموصلات.",
+     "ar": "لنلقِ نظرة أخيرة على الكابلات ووصلات التوصيل.",
      "en": "One more look at cables and connectors."
     },
     {
-     "de": "Im Industrienetz nutzt man robuste Ethernet-Kabel.",
-     "ar": "في الشبكات الصناعية تُستخدم كابلات إيثرنت متينة.",
-     "en": "Industrial networks use robust Ethernet cables."
+     "de": "Im Industrienetz nutzt man dafür geeignete Ethernet-Kabel.",
+     "ar": "في الشبكات الصناعية تُستخدم كابلات إيثرنت مناسبة لذلك.",
+     "en": "Industrial networks use suitable Ethernet cables for this."
     },
     {
-     "de": "Im Schaltschrank sieht man oft den RJ45-Stecker.",
-     "ar": "في خزانة التوزيع والتحكم يظهر غالبًا موصل RJ45 المعروف.",
-     "en": "In the control cabinet you often see the RJ45 connector.",
-     "tts": "Im Schaltschrank sieht man oft den Er-Jott-fünfundvierzig-Stecker."
+     "de": "Im Schaltschrank kann man den RJ45-Stecker finden.",
+     "ar": "وفي خزانة التوزيع والتحكم قد تجدون وصلة RJ45 المعروفة.",
+     "en": "In the control cabinet you may find the RJ45 connector.",
+     "tts": "Im Schaltschrank kann man den Er-Jott-fünfundvierzig-Stecker finden."
     },
     {
-     "de": "An Maschinen im Feld verwendet man häufig M12.",
-     "ar": "وعلى الآلات في الحقل يُستخدم غالبًا موصل M12 الدائري.",
-     "en": "On machines in the field, M12 is often used.",
-     "tts": "An Maschinen im Feld verwendet man häufig Em-zwölf."
+     "de": "Daneben gibt es den runden M12-Steckverbinder.",
+     "ar": "وإلى جانبها توجد وصلة M12 الدائرية.",
+     "en": "There is also the round M12 connector.",
+     "tts": "Daneben gibt es den runden Em-zwölf-Steckverbinder."
     },
     {
      "de": "M12 gibt es mit verschiedenen Codierungen und Polzahlen.",
@@ -1244,7 +1192,7 @@
     "terms": [
      {
       "de": "Inbetriebnehmer",
-      "ar": "مهندس التشغيل الأولي (Inbetriebnehmer)",
+      "ar": "مهندس التشغيل الأولي",
       "en": "commissioning engineer"
      }
     ]
@@ -1258,7 +1206,7 @@
     {
      "de": "Er liest zuerst die Planung.",
      "ar": "يقرأ أولًا التخطيط.",
-     "en": "First he reads the planning."
+     "en": "First they read the planning."
     },
     {
      "de": "Dort stehen Topologie, Gerätenamen und Adressen.",
@@ -1268,7 +1216,7 @@
     {
      "de": "Dann prüft er, ob die reale Anlage dazu passt.",
      "ar": "ثم يتحقق من أن المنشأة الفعلية تطابقها.",
-     "en": "Then he checks whether the real plant matches."
+     "en": "Then they check whether the real plant matches."
     },
     {
      "de": "Fehler zeigen sich oft als falscher Name oder falscher Port.",
@@ -1278,28 +1226,28 @@
     {
      "de": "Er dokumentiert den Stand und jede Änderung.",
      "ar": "ويوثّق الحالة وكل تغيير.",
-     "en": "He documents the status and every change."
+     "en": "They document the status and every change."
     },
     {
      "de": "Und er stimmt sich mit Elektrik, IT und Hersteller ab.",
      "ar": "ويتنسّق مع فريق الكهرباء وIT والشركة المصنّعة.",
-     "en": "And he coordinates with electrics, IT and the manufacturer.",
+     "en": "And they coordinate with electrics, IT and the manufacturer.",
      "tts": "Und er stimmt sich mit Elektrik, I-Te und Hersteller ab."
     },
     {
-     "de": "Änderungen im Netz sprechen Sie immer vorher ab.",
-     "ar": "وتنسّقون أي تغيير في الشبكة مسبقًا دائمًا.",
-     "en": "You always agree on changes to the network beforehand."
+     "de": "Änderungen im Netz spricht er immer vorher ab.",
+     "ar": "وينسّق دائمًا أي تغيير في الشبكة مسبقًا.",
+     "en": "They always agree on changes to the network beforehand."
     },
     {
      "de": "Dabei achtet er auch auf ordentlich beschriftete Kabel und Ports.",
      "ar": "وينتبه أيضًا إلى كابلات ومنافذ موسومة بشكل منظم.",
-     "en": "He also pays attention to neatly labelled cables and ports."
+     "en": "They also pay attention to neatly labelled cables and ports."
     },
     {
      "de": "Bei Unklarheiten fragt er nach, bevor er etwas ändert.",
      "ar": "وعند وجود غموض يسأل قبل أن يغيّر أي شيء.",
-     "en": "If something is unclear, he asks before he changes anything."
+     "en": "If something is unclear, they ask before changing anything."
     },
     {
      "de": "So bleibt die Dokumentation für alle Beteiligten nachvollziehbar.",
@@ -1336,7 +1284,7 @@
     },
     {
      "de": "Arbeiten an der elektrischen Anlage führt eine Elektrofachkraft aus oder jemand unter ihrer Leitung und Aufsicht.",
-     "ar": "ينفّذ الأعمال على المنشأة الكهربائية كهربائي مؤهَّل أو شخص تحت إدارته وإشرافه.",
+     "ar": "ينفّذ الأعمال على المنشأة الكهربائية الكهربائي المؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه.",
      "en": "Work on the electrical installation is done by an Elektrofachkraft or by someone under their direction and supervision."
     },
     {
@@ -1417,9 +1365,9 @@
      "tts": "I-Te und O-Te trennen Sie mit klaren Regeln."
     },
     {
-     "de": "Vor Arbeiten an der Anlage gelten immer die fünf Sicherheitsregeln.",
-     "ar": "وقبل أي عمل على المنشأة تسري دائمًا قواعد السلامة الخمس.",
-     "en": "Before work on the plant, the five safety rules always apply."
+     "de": "Vor Arbeiten an der Anlage gelten die fünf Sicherheitsregeln.",
+     "ar": "قبل الأعمال على المنشأة تسري قواعد السلامة الخمس.",
+     "en": "Before work on the plant, the five safety rules apply."
     },
     {
      "de": "Wiederholen Sie diese Begriffe, bis Sie sie im Gespräch sicher nutzen.",
@@ -1435,11 +1383,12 @@
   },
   {
    "slide": {
-    "layout": "quote",
+    "layout": "bullets",
     "kicker": "Wichtiger Hinweis",
     "heading": "Regeln ändern sich",
     "items": [
      "Aktuelle Fassungen prüfen",
+     "Gesetze, Normen und Spezifikationen ändern sich",
      "Allgemeine Information",
      "Keine Rechts- oder Fachberatung"
     ]
@@ -1480,6 +1429,16 @@
  ],
  "glossary": [
   {
+   "de": "das PROFINET",
+   "ar": "معيار PROFINET المفتوح للإيثرنت الصناعي",
+   "en": "PROFINET"
+  },
+  {
+   "de": "das OPC UA",
+   "ar": "معيار OPC UA لتبادل البيانات",
+   "en": "OPC UA"
+  },
+  {
    "de": "der Feldbus",
    "ar": "ناقل الحقل",
    "en": "fieldbus"
@@ -1495,9 +1454,9 @@
    "en": "real time"
   },
   {
-   "de": "deterministisch",
-   "ar": "حتمي (يمكن التنبؤ به)",
-   "en": "deterministic"
+   "de": "der Determinismus",
+   "ar": "الحتمية (إمكانية التنبؤ)",
+   "en": "determinism"
   },
   {
    "de": "die Topologie",
@@ -1510,8 +1469,18 @@
    "en": "redundancy"
   },
   {
+   "de": "das Medienredundanzprotokoll (MRP)",
+   "ar": "بروتوكول تكرار الوسيط الخاص بالحلقات",
+   "en": "media redundancy protocol"
+  },
+  {
+   "de": "der Ring",
+   "ar": "الحلقة",
+   "en": "ring"
+  },
+  {
    "de": "der Switch",
-   "ar": "مبدّل الشبكة (Switch)",
+   "ar": "المبدّل الشبكي",
    "en": "switch"
   },
   {
@@ -1526,7 +1495,7 @@
   },
   {
    "de": "der Inbetriebnehmer",
-   "ar": "مهندس التشغيل الأولي (Inbetriebnehmer)",
+   "ar": "مهندس التشغيل الأولي",
    "en": "commissioning engineer"
   },
   {
@@ -1536,7 +1505,7 @@
   },
   {
    "de": "der Steckverbinder",
-   "ar": "الموصل (Steckverbinder)",
+   "ar": "وصلة التوصيل",
    "en": "connector"
   },
   {
@@ -1551,12 +1520,12 @@
   },
   {
    "de": "die Elektrofachkraft",
-   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "ar": "الكهربائي المؤهَّل",
    "en": "qualified electrician"
   },
   {
    "de": "die Trennung von IT und OT",
-   "ar": "الفصل بين IT وOT",
+   "ar": "الفصل بين تقنية المعلومات وتقنية التشغيل",
    "en": "IT/OT separation"
   }
  ],
@@ -1574,14 +1543,14 @@
      "en": "Simply as fast as possible"
     },
     {
-     "de": "Antwort innerhalb einer festgelegten Zeit",
-     "ar": "استجابة خلال مدة محددة مسبقًا",
+     "de": "Antwort in festgelegter Zeit",
+     "ar": "استجابة خلال مدة محددة",
      "en": "Answer within a defined time"
     },
     {
-     "de": "Nur Internetverbindung",
-     "ar": "اتصال بالإنترنت فقط",
-     "en": "Only an internet connection"
+     "de": "Eine Verbindung ohne jedes Kabel",
+     "ar": "اتصال بلا أي كابل",
+     "en": "A connection without any cable"
     }
    ],
    "answer": 1
@@ -1594,39 +1563,39 @@
    },
    "options": [
     {
-     "de": "Ein einzelnes Protokoll",
-     "ar": "بروتوكول واحد",
-     "en": "A single protocol"
+     "de": "Ein einzelnes Ethernet-Protokoll",
+     "ar": "بروتوكول إيثرنت واحد",
+     "en": "A single Ethernet protocol"
     },
     {
-     "de": "Ein Kabeltyp",
-     "ar": "نوع كابل",
-     "en": "A cable type"
+     "de": "Ein spezieller Kabeltyp",
+     "ar": "نوع كابل خاص",
+     "en": "A special cable type"
     },
     {
-     "de": "Ein Sammelbegriff für Ethernet-basierte Protokolle",
-     "ar": "مصطلح جامع لبروتوكولات قائمة على الإيثرنت",
-     "en": "An umbrella term for Ethernet-based protocols"
+     "de": "Ein Sammelbegriff für Protokolle",
+     "ar": "مصطلح جامع لبروتوكولات",
+     "en": "An umbrella term for protocols"
     }
    ],
    "answer": 2
   },
   {
    "q": {
-    "de": "Wofür steht der Ring mit MRP?",
-    "ar": "ما دور الحلقة مع MRP؟",
+    "de": "Wozu dient der Ring mit MRP?",
+    "ar": "ما فائدة الحلقة المستخدمة مع بروتوكول تكرار الوسيط؟",
     "en": "What is the ring with MRP for?"
    },
    "options": [
     {
-     "de": "Redundanz bei Ausfall einer Verbindung",
-     "ar": "التكرار عند تعطل أحد الاتصالات",
+     "de": "Redundanz bei Verbindungsausfall",
+     "ar": "التكرار عند تعطل اتصال",
      "en": "Redundancy if a connection fails"
     },
     {
-     "de": "Mehr Kabelfarben",
-     "ar": "ألوان كابلات أكثر",
-     "en": "More cable colours"
+     "de": "Eine höhere Datenrate im Ring",
+     "ar": "معدل بيانات أعلى في الحلقة",
+     "en": "A higher data rate in the ring"
     },
     {
      "de": "Verschlüsselung der Daten",
@@ -1644,14 +1613,14 @@
    },
    "options": [
     {
-     "de": "Nur zum Verlegen von Kabeln",
-     "ar": "لتمديد الكابلات فقط",
-     "en": "Only for laying cables"
+     "de": "Zum Konfigurieren von Schaltschränken",
+     "ar": "لضبط خزائن التوزيع",
+     "en": "For configuring control cabinets"
     },
     {
-     "de": "Zum Austausch verständlich beschriebener Daten zwischen Systemen",
-     "ar": "لتبادل بيانات موصوفة بشكل مفهوم بين الأنظمة",
-     "en": "For exchanging clearly described data between systems"
+     "de": "Zum Austausch beschriebener Daten",
+     "ar": "لتبادل بيانات موصوفة",
+     "en": "For exchanging described data"
     },
     {
      "de": "Zum Ersetzen der Sicherheitsregeln",
@@ -1669,28 +1638,28 @@
    },
    "options": [
     {
-     "de": "Nur Freischalten genügt",
+     "de": "Nur das Freischalten genügt",
      "ar": "يكفي فصل الجهد فقط",
      "en": "Isolating alone is enough"
     },
     {
-     "de": "Ein Netzwerkscan genügt",
-     "ar": "يكفي فحص الشبكة",
-     "en": "A network scan is enough"
+     "de": "Ein Netzwerkscan allein genügt",
+     "ar": "يكفي فحص الشبكة وحده",
+     "en": "A network scan alone is enough"
     },
     {
-     "de": "Alle fünf Sicherheitsregeln in fester Reihenfolge",
-     "ar": "قواعد السلامة الخمس كلها بترتيب ثابت",
-     "en": "All five safety rules in a fixed order"
+     "de": "Die fünf Sicherheitsregeln der Reihe nach",
+     "ar": "قواعد السلامة الخمس بالترتيب",
+     "en": "The five safety rules in order"
     }
    ],
    "answer": 2
   }
  ],
  "next": {
-  "de": "Industrielle Cybersicherheit: IEC 62443 und NIS2 (Konzepte)",
-  "ar": "الأمن السيبراني الصناعي: IEC 62443 وNIS2 (مفاهيم)",
-  "en": "Industrial cybersecurity: IEC 62443 and NIS2 (concepts)"
+  "de": "Im nächsten Video geht es um industrielle Cybersicherheit.",
+  "ar": "في الفيديو القادم نتناول الأمن السيبراني الصناعي.",
+  "en": "The next video is about industrial cybersecurity."
  },
- "stand": "2026-10-20; prüfen: aktuelle PROFINET-Spezifikation und Montagerichtlinie (PI), IEC 61158/61784 und IEC 62541 (Ausgaben), Companion Specification PROFINET (OPC Foundation), M12-/RJ45-Vorgaben; Purdue/DMZ nur als Konzept (Anbieterquellen); Sicherheitsregeln gegen DIN VDE 0105-100 (sekundär belegt); entfernt: Zeit-/Zykluswerte, Conformance Classes, Kabelkategorien, Längen"
+ "stand": "2026-10-20; prüfen: aktuelle PROFINET-Spezifikation und Montagerichtlinie (PI), IEC 61158/61784 und IEC 62541 (Ausgaben), Companion Specification PROFINET (OPC Foundation), M12-/RJ45-Vorgaben; Purdue/DMZ nur als Konzept (Anbieterquellen); Sicherheitsregeln gegen DIN VDE 0105-100 (sekundär belegt); entfernt: Zeit-/Zykluswerte, Conformance Classes, Kabelkategorien, Längen; im Audit abgeschwächt/entfernt: Herleitung des Namens PROFINET, Begründung \"offen\", Cloud-Aussage zu OPC UA, Gateway-/Wartungsplan-Aussage, \"geschirmtes\" Kabel und \"RJ45 typisch\", Aussagen zu Verdrahtungsersparnis; PROFIBUS nur als \"klassischer Feldbus\", kein formaler Ersatz"
 }

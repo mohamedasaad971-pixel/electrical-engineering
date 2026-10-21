@@ -190,6 +190,15 @@
   "Ausgabestände von IEC 62541-6 (Ausgabe 2025, EN-Übernahme 2026) – nur Sekundärquelle",
   "Kritik am Purdue-Modell/statische DMZ – Einzelquelle",
   "Port-Mirroring-Risiken bei Failsafe-Systemen – Einzelfall aus Forum",
-  "Ethernet-APL – nicht recherchiert"
+  "Ethernet-APL – nicht recherchiert",
+  "Herleitung des Namens PROFINET (Process Field Network) – nicht belegt",
+  "Begründung \"offen, weil Spezifikation verfügbar\" – nicht belegt",
+  "OPC UA \"vom kleinen Gerät bis zur Cloud\" – Marketingaussage",
+  "Gateway/Steuerung als Anbieter der PROFINET-Geräteinformationen und Wartungspläne – nicht in Companion-Specification-Quelle",
+  "\"Geschirmtes\" Industrie-Ethernet-Kabel, RJ45 \"typisch\" im Schaltschrank, M12 \"robust\" – Kabelspezifikation nicht belegt",
+  "Verdrahtungsersparnis, bessere Fehlersichtbarkeit, \"gemeinsame Verbindung\" – nicht belegt",
+  "Feldbus \"oft eigene Kabel/Anschlusstechnik\" – nicht belegt",
+  "Altes und neues Zusammentreffen \"vor allem bei Modernisierungen\" – nicht belegt",
+  "\"Beides ergänzt sich, kein Entweder-oder\" als absolute Aussage – nur gemeinsame Companion Specification belegt"
  ]
 }

@@ -190,6 +190,17 @@
   "Sicherheitsaussagen zu Netz-Masse am Oszilloskop (Trenntransformator, Differenztastkopf): nicht durch Quelle belegt.",
   "Messzeiten und Prüfverfahren für EMV-Labormessungen (Absorberkammer, CISPR): keine Quelle gefunden.",
   "Frequenzbereiche, bei denen leitungsgebundene bzw. gestrahlte Messungen beginnen (Quellen uneinheitlich).",
-  "EMVG-Betreiberpflicht zur Dokumentation (Paragraph nur über Sekundärquelle); Aussage im Skript nur allgemein."
+  "EMVG-Betreiberpflicht zur Dokumentation (Paragraph nur über Sekundärquelle); Aussage im Skript nur allgemein.",
+  "Zuordnung kapazitiver Kopplung zu hohen und induktiver Kopplung zu niedrigen Frequenzen (nicht belegt, fachlich fragwürdig).",
+  "Aussage, ein Schirm halte auch magnetische Felder fern (für niederfrequente Magnetfelder überzogen, nicht belegt).",
+  "Aussage, das Fünf-Leiter-System TN-S werde bei Neuinstallationen mit Informationstechnik genannt.",
+  "Aussage, Reihe EN 61000 bestehe aus harmonisierten Normen (Listenstatus uneinheitlich).",
+  "Aussage, die Norm DIN VDE 0100-444 richte sich an Planer, Errichter und Betreiber, und Planer dokumentierten die angewendeten Regeln.",
+  "Aussage, die Regeln der Anlagenerrichtung seien rechtlich zu dokumentieren (Pflicht nicht belegt).",
+  "Aussage, Kabel kreuzen und kurze Wege kosteten kaum Geld und Planung entscheide mehr als das Material.",
+  "Begründung, eine lange Masseleitung wirke wie eine Antenne (vereinfacht, nicht belegt).",
+  "Aussage, Kalibrierscheine akkreditierter Labore enthielten typischerweise die Messunsicherheit.",
+  "Wortlaut des EMVG-Titels und Definition Betriebsmittel als Geräte und ortsfeste Anlagen (nicht als eigener Fakt belegt).",
+  "Aussage, Messungen an Netzspannung folgten den fünf Sicherheitsregeln (Messen unter Spannung ist Sonderfall; Sicherheitsaussagen zum Oszilloskop nicht belegt)."
  ]
 }

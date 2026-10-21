@@ -181,6 +181,9 @@
   "Anzahl der sieben Grundanforderungen (Foundational Requirements) und Ausgabejahre der Teile: nur Sekundärquellen, im Video nicht genannt.",
   "Aussage 'IEC 62443 erfüllt NIS2 automatisch': nicht belegt, im Video ausdrücklich nicht behauptet.",
   "Patch-Fristen oder Zahlenwerte für Wartungsfenster: nicht belegt.",
-  "Cyber Resilience Act (EU) und Maschinenverordnung: nicht recherchiert, nicht im Video."
+  "Cyber Resilience Act (EU) und Maschinenverordnung: nicht recherchiert, nicht im Video.",
+  "Gruppierung der Teile in vier Gruppen (Allgemeines, Richtlinien/Verfahren, System, Produkte): in keinem Fakt belegt, aus dem Video entfernt; Reihe nur nach Rollen/Themen (Teile 2-1, 2-4, 3-2, 3-3, 4-1, 4-2) beschrieben.",
+  "Protokollierung von Fernzugängen ('wer den Zugang wann benutzt hat'), Vertragsregelung für Fernzugriff und Rollenverteilung beim Patchen ('Hersteller informiert, Betreiber entscheidet mit dem Integrator'): nicht belegt, entfernt oder allgemein formuliert.",
+  "Lange Lebensdauer von OT-Anlagen, 'häufiges Einfallstor' Fernzugriff, 'typische Fehler' (flaches Netz, Standard-Passwörter) als Häufigkeitsaussagen: nicht belegt, nur noch als 'möglich/kann' formuliert; klassische Schutzziele (Vertraulichkeit, Integrität) und Gefährdung von Menschen als allgemeines Fachwissen, kein Fakt der Recherche."
  ]
 }
