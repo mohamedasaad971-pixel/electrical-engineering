@@ -1,1 +1,1 @@
-{"action":"build","video":["scripts/E/04-industrienetzwerke.json","scripts/E/05-ot-security.json","scripts/E/06-emv-messtechnik.json","scripts/E/01-fachsprache-praxis.json"],"synthesize":true,"burn":true,"rev":1}
+{"action":"build","video":["scripts/E/02-dokumentation-uebergabe.json","scripts/E/03-projektarbeit-vertraege.json"],"synthesize":true,"burn":true,"rev":1}
