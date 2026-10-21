@@ -105,7 +105,7 @@
    "source_url": "https://assets2.euchner.de/uploads/Safety-of-Machinery-2012.pdf",
    "source_name": "Euchner 'Safety of Machinery' (2012), ZVEI",
    "confidence": "medium",
-   "note": "Ältere Quelle (2012); Harmonisierungsstatus ist zu prüfen. Im Video allgemein mit Prüfhinweis."
+   "note": "Ältere Quelle (2012); Harmonisierungsstatus ist zu prüfen. Im Video allgemein mit Prüfhinweis. Im Video abgeschwächt: \"nach älteren Quellen\", Maschinenverordnung als möglicher Änderungsgrund, Stand prüfen."
   },
   {
    "claim": "Aus der Risikobeurteilung ergibt sich, ob und in welchem Maß ein Risiko an einer Maschine vermindert werden muss.",
@@ -203,6 +203,35 @@
   {
    "claim": "ISO 26262 (Automobil) als Sektornorm",
    "reason": "Nur als Beispiel aus Sekundärquelle; im Video 'weitere Branchen' ohne Normnummer."
+  },
+  {
+   "claim": "Ein SIL gilt nie für ein Gerät allein",
+   "reason": "Absolutaussage; Fakt nur: SIL bezieht sich auf eine Sicherheitsfunktion."
+  },
+  {
+   "claim": "Bediener umgehen Schutztüren, um schneller zu arbeiten",
+   "reason": "Motiv nicht belegt; nur: Schutztüren werden häufig umgangen."
+  },
+  {
+   "claim": "IEC 61508 sei die wichtigste Grundnorm; Schutzziele solcher Normen seien allgemein gehalten",
+   "reason": "Superlativ/Aussage nicht belegt; nur: Grundnorm."
+  },
+  {
+   "claim": "Dieses Beispiel finden Sie in vielen Fabriken; Fehler in der Praxis seien oft Folge von Manipulation",
+   "reason": "Nicht belegt."
+  },
+  {
+   "claim": "Zweikanaligkeit lässt Fehler in einem Kanal automatisch auffallen",
+   "reason": "Nicht belegt; nur: zwei Kanäle ermöglichen das Erkennen von Fehlern."
+  },
+  {
+   "claim": "Brücken, Parameter und Programm sind tabu (absolut)",
+   "reason": "Ersetzt durch: nur mit Freigabe ändern."
+  },
+  {
+   "claim": "Maschinenverordnung gilt ab 2027 / Verhältnis zu harmonisierten Normen",
+   "reason": "Nicht in den verifizierten Fakten; Video nennt nur den Prüfhinweis."
   }
- ]
+ ],
+ "stand_note": "Harmonisierung und Konformitätsvermutung im Video abgeschwächt (Quelle 2012)."
 }

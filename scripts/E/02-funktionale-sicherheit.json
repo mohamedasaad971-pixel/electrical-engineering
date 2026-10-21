@@ -2,7 +2,7 @@
  "id": "E-C02",
  "title": {
   "de": "Funktionale Sicherheit: IEC 61508, EN ISO 13849-1, SIL und PL",
-  "ar": "الأمان الوظيفي: المعيار IEC 61508 والمعيار EN ISO 13849-1 وSIL وPL",
+  "ar": "الأمان الوظيفي: المعياران IEC 61508 وEN ISO 13849-1 ومصطلحا SIL وPL المرتبطان بهما",
   "en": "Functional Safety: IEC 61508, EN ISO 13849-1, SIL and PL"
  },
  "scenes": [
@@ -24,14 +24,9 @@
      "en": "Welcome to the second video on industrial safety technology."
     },
     {
-     "de": "Heute geht es um funktionale Sicherheit.",
-     "ar": "موضوعنا اليوم هو الأمان الوظيفي.",
-     "en": "Today we talk about functional safety."
-    },
-    {
-     "de": "Sie lernen die Grundidee kennen.",
-     "ar": "ستتعرفون على الفكرة الأساسية.",
-     "en": "You will learn the basic idea."
+     "de": "Heute geht es um funktionale Sicherheit, und Sie lernen die Grundidee kennen.",
+     "ar": "موضوعنا اليوم هو الأمان الوظيفي، وستتعرفون على الفكرة الأساسية.",
+     "en": "Today we talk about functional safety, and you will learn the basic idea."
     },
     {
      "de": "Sie hören von der Norm IEC 61508 und ihren Sektornormen.",
@@ -52,7 +47,7 @@
     },
     {
      "de": "Zum Schluss sehen wir Sicherheitsrelais und Sicherheits-SPS als Konzept.",
-     "ar": "وفي النهاية نرى مرحّلات الأمان ووحدات التحكم SPS للأمان كمفهوم.",
+     "ar": "وفي النهاية نرى مرحّلات الأمان والمتحكمات المنطقية القابلة للبرمجة للأمان كمفهوم.",
      "en": "Finally we look at safety relays and safety PLCs as a concept.",
      "tts": "Zum Schluss sehen wir Sicherheitsrelais und Sicherheits-Es-Pe-Es als Konzept."
     }
@@ -121,7 +116,7 @@
     ],
     "terms": [
      {
-      "de": "funktionale Sicherheit",
+      "de": "die funktionale Sicherheit",
       "ar": "الأمان الوظيفي",
       "en": "functional safety"
      }
@@ -162,16 +157,6 @@
      "de": "Fachleute sprechen dann von Sicherheitsfunktionen und nicht von einzelnen Geräten.",
      "ar": "يتحدث المتخصصون هنا عن وظائف الأمان لا عن أجهزة منفردة.",
      "en": "Specialists then speak of safety functions, not of single devices."
-    },
-    {
-     "de": "Sicherheit ist hier also eine geplante Eigenschaft des ganzen Systems.",
-     "ar": "فالأمان هنا خاصية مخطَّطة للنظام كله.",
-     "en": "Safety here is a planned property of the whole system."
-    },
-    {
-     "de": "Sie entsteht durch eine Funktion, die zuverlässig arbeitet.",
-     "ar": "بل ينشأ من وظيفة تعمل بموثوقية.",
-     "en": "It comes from a function that works reliably."
     }
    ]
   },
@@ -188,8 +173,8 @@
     ],
     "terms": [
      {
-      "de": "Sicherheitsfunktion",
-      "ar": "وظيفة أمان",
+      "de": "die Sicherheitsfunktion",
+      "ar": "وظيفة الأمان",
       "en": "safety function"
      }
     ]
@@ -222,7 +207,7 @@
     },
     {
      "de": "Sie besteht aus Sensor, Auswertung und Aktor.",
-     "ar": "وهي تتكون من حسّاس ووحدة تقييم ومُشغِّل.",
+     "ar": "وهي تتكون من مستشعر ووحدة تقييم ومُنفِّذ.",
      "en": "It consists of a sensor, evaluation and an actuator."
     },
     {
@@ -236,9 +221,9 @@
      "en": "For each hazard there is then a clear function."
     },
     {
-     "de": "Dieses Beispiel finden Sie in vielen Fabriken.",
-     "ar": "ستجدون هذا المثال في مصانع كثيرة.",
-     "en": "You will find this example in many factories."
+     "de": "Dieses vereinfachte Beispiel zeigt nur das Prinzip.",
+     "ar": "هذا المثال مبسّط ويوضح المبدأ فقط.",
+     "en": "This simplified example only shows the principle."
     },
     {
      "de": "Es zeigt gut, was eine Sicherheitsfunktion leistet.",
@@ -259,13 +244,13 @@
     "heading": "Sicherer Zustand",
     "items": [
      "Fehler dürfen nicht gefährlich werden",
-     "Im Fehlerfall: sicherer Stopp",
+     "Im Fehlerfall: sicherer Zustand",
      "Draht- oder Spannungsverlust bedenken",
      "Ausfallsicheres Prinzip"
     ],
     "terms": [
      {
-      "de": "sicherer Zustand",
+      "de": "der sichere Zustand",
       "ar": "الحالة الآمنة",
       "en": "safe state"
      }
@@ -309,11 +294,11 @@
     },
     {
      "de": "Das gilt für Sensoren, Auswertung und Aktoren gleichermaßen.",
-     "ar": "وهذا ينطبق على الحسّاسات ووحدة التقييم والمُشغِّلات بالقدر نفسه.",
+     "ar": "وهذا ينطبق على المستشعرات ووحدة التقييم والمُنفِّذات بالقدر نفسه.",
      "en": "This applies equally to sensors, evaluation and actuators."
     },
     {
-     "de": "Man nennt das ausfallsicheres Prinzip.",
+     "de": "Man nennt das ein ausfallsicheres Prinzip.",
      "ar": "يسمى هذا مبدأ الأمان عند العطل.",
      "en": "This is called the fail-safe principle."
     }
@@ -332,12 +317,12 @@
     ],
     "terms": [
      {
-      "de": "Grundnorm",
+      "de": "die Grundnorm",
       "ar": "المعيار الأساسي",
       "en": "basic standard"
      },
      {
-      "de": "Sektornorm",
+      "de": "die Sektornorm",
       "ar": "المعيار القطاعي",
       "en": "sector standard"
      }
@@ -345,10 +330,10 @@
    },
    "lines": [
     {
-     "de": "Die wichtigste Grundnorm heißt IEC 61508.",
-     "ar": "أهم معيار أساسي هو IEC 61508 في هذا المجال.",
-     "en": "The most important basic standard is IEC 61508.",
-     "tts": "Die wichtigste Grundnorm heißt I-E-Ze sechs eins fünf null acht."
+     "de": "Die Grundnorm heißt IEC 61508.",
+     "ar": "المعيار الأساسي هو معيار IEC 61508 في هذا المجال.",
+     "en": "The basic standard is IEC 61508.",
+     "tts": "Die Grundnorm heißt I-E-Ze sechs eins fünf null acht."
     },
     {
      "de": "Sie behandelt elektrische, elektronische und programmierbare elektronische Systeme.",
@@ -371,20 +356,15 @@
      "en": "It is the basis for sector standards."
     },
     {
-     "de": "Die zweite Ausgabe der Reihe stammt nach unseren Quellen aus dem Jahr zweitausendzehn.",
+     "de": "Die zweite Ausgabe der Reihe stammt nach unseren Quellen aus dem Jahr 2010.",
      "ar": "الإصدار الثاني من السلسلة يعود بحسب مصادرنا إلى عام ألفين وعشرة.",
-     "en": "According to our sources, the second edition of the series dates from the year two thousand ten.",
+     "en": "According to our sources, the second edition of the series dates from 2010.",
      "tts": "Die zweite Ausgabe der Reihe stammt nach unseren Quellen aus dem Jahr zweitausendzehn."
     },
     {
      "de": "Viele Branchen nutzen diese Norm als gemeinsame Sprache.",
      "ar": "كثير من القطاعات تستخدم هذا المعيار كلغة مشتركة.",
      "en": "Many industries use this standard as a common language."
-    },
-    {
-     "de": "Auch die Schutzziele solcher Normen sind allgemein gehalten.",
-     "ar": "وأهداف الحماية في هذه المعايير عامة أيضًا.",
-     "en": "The protection goals of such standards are also kept general."
     },
     {
      "de": "Prüfen Sie immer, welche Ausgabe heute gilt.",
@@ -403,7 +383,7 @@
      "Teil eins | Allgemeine Anforderungen, Lebenszyklus",
      "Teil zwei | Hardware",
      "Teil drei | Software",
-     "Lebenszyklus | Vom Konzept bis zur Außerbetriebnahme"
+     "Lebenszyklus | Konzept bis Außerbetriebnahme"
     ]
    },
    "lines": [
@@ -527,7 +507,7 @@
     ],
     "terms": [
      {
-      "de": "SIL",
+      "de": "der SIL",
       "ar": "مستوى سلامة التكامل",
       "en": "safety integrity level"
      }
@@ -553,7 +533,7 @@
     },
     {
      "de": "Es gibt vier Stufen: von SIL eins, der niedrigsten, bis SIL vier, der höchsten.",
-     "ar": "هناك أربع مستويات: من المستوى الأول الأدنى إلى المستوى الرابع الأعلى.",
+     "ar": "هناك أربعة مستويات: من المستوى الأول الأدنى إلى المستوى الرابع الأعلى.",
      "en": "There are four levels: from SIL one, the lowest, to SIL four, the highest.",
      "tts": "Es gibt vier Stufen: von Sil eins, der niedrigsten, bis Sil vier, der höchsten."
     },
@@ -574,10 +554,10 @@
      "en": "Important: a higher value means a higher requirement for the function."
     },
     {
-     "de": "Ein SIL gilt nie für ein Gerät allein, sondern für die ganze Kette.",
-     "ar": "ولا ينطبق SIL على جهاز وحده بل على السلسلة كلها.",
-     "en": "A SIL never applies to one device alone, but to the whole chain.",
-     "tts": "Ein Sil gilt nie für ein Gerät allein, sondern für die ganze Kette."
+     "de": "Ein SIL bezieht sich auf die ganze Sicherheitsfunktion, nicht nur auf ein einzelnes Gerät.",
+     "ar": "يرتبط SIL بوظيفة الأمان كاملةً لا بجهاز منفرد فقط.",
+     "en": "A SIL relates to the whole safety function, not just to a single device.",
+     "tts": "Ein Sil bezieht sich auf die ganze Sicherheitsfunktion, nicht nur auf ein einzelnes Gerät."
     },
     {
      "de": "Das Wort Integrität meint hier: Man kann sich auf die Funktion verlassen.",
@@ -633,9 +613,15 @@
     },
     {
      "de": "Die andere heißt EN ISO 13849-1.",
-     "ar": "والمعيار الآخر هو EN ISO 13849-1 أيضًا.",
+     "ar": "والآخر معيار EN ISO 13849-1 أيضًا.",
      "en": "The other is EN ISO 13849-1.",
      "tts": "Die andere heißt E-En I-So eins drei acht vier neun, Teil eins."
+    },
+    {
+     "de": "Die EN ISO 13849-1 ging aus der älteren Norm EN 954-1 hervor und nutzt den Performance Level.",
+     "ar": "وقد نشأ معيار EN ISO 13849-1 من المعيار الأقدم EN 954-1 ويستخدم مستوى الأداء.",
+     "en": "EN ISO 13849-1 grew out of the older standard EN 954-1 and uses the performance level.",
+     "tts": "Die E-En I-So eins drei acht vier neun, Teil eins ging aus der älteren Norm E-En neun fünf vier, Teil eins hervor und nutzt den Performance Level."
     },
     {
      "de": "Die Wahl der Norm hängt vom Anwendungsbereich ab.",
@@ -646,12 +632,6 @@
      "de": "Andere Branchen haben wieder eigene Sektornormen.",
      "ar": "وللقطاعات الأخرى معاييرها القطاعية الخاصة.",
      "en": "Other industries again have their own sector standards."
-    },
-    {
-     "de": "Sie ging aus der älteren Norm EN 954-1 hervor und nutzt den Performance Level.",
-     "ar": "وقد نشأ من المعيار الأقدم EN 954-1 ويستخدم مستوى الأداء.",
-     "en": "It grew out of the older standard EN 954-1 and uses the performance level.",
-     "tts": "Sie ging aus der älteren Norm E-En neun fünf vier, Teil eins hervor und nutzt den Performance Level."
     }
    ]
   },
@@ -668,7 +648,7 @@
     ],
     "terms": [
      {
-      "de": "Performance Level",
+      "de": "der Performance Level",
       "ar": "مستوى الأداء",
       "en": "performance level"
      }
@@ -702,13 +682,13 @@
      "de": "Die Stufen heißen a, b, c, d und e.",
      "ar": "تُسمى المستويات a وb وc وd وe بهذا الترتيب.",
      "en": "The levels are called a, b, c, d and e.",
-     "tts": "Die Stufen heißen a, b, c, d und e."
+     "tts": "Die Stufen heißen A, Be, Ze, De und E."
     },
     {
      "de": "Zuerst bestimmt man den erforderlichen Level, kurz PLr.",
      "ar": "أولًا يُحدَّد المستوى المطلوب، ويُرمز له بالرمز PLr اختصارًا.",
      "en": "First you determine the required level, PLr for short.",
-     "tts": "Zuerst bestimmt man den erforderlichen Level, kurz Pe-El-r."
+     "tts": "Zuerst bestimmt man den erforderlichen Level, kurz Pe-El-Er."
     },
     {
      "de": "Wichtig: Der PL gehört, wie der SIL, zu einer Sicherheitsfunktion.",
@@ -717,9 +697,9 @@
      "tts": "Wichtig: Der Pe-El gehört, wie der Sil, zu einer Sicherheitsfunktion."
     },
     {
-     "de": "Der Level sagt also etwas über die Güte der Funktion, nicht über die Gefahr selbst.",
-     "ar": "فالمستوى يخبرنا عن جودة الوظيفة لا عن الخطر نفسه.",
-     "en": "So the level says something about the quality of the function, not about the hazard itself."
+     "de": "Der erforderliche Level folgt aus der Risikoabschätzung, der erreichte Level beschreibt die Güte der Funktion.",
+     "ar": "المستوى المطلوب ينتج عن تقدير المخاطر، أما المستوى المحقَّق فيصف جودة الوظيفة.",
+     "en": "The required level follows from the risk estimation; the achieved level describes the quality of the function."
     },
     {
      "de": "Danach ermittelt man den erreichten Level des Entwurfs.",
@@ -762,7 +742,7 @@
     },
     {
      "de": "Der PL kommt aus EN ISO 13849-1.",
-     "ar": "يأتي المصطلح PL من EN ISO 13849-1 وحده.",
+     "ar": "يأتي المصطلح PL من معيار EN ISO 13849-1 للآلات.",
      "en": "The PL comes from EN ISO 13849-1.",
      "tts": "Der Pe-El kommt aus E-En I-So eins drei acht vier neun, Teil eins."
     },
@@ -795,7 +775,7 @@
     "heading": "Welche Norm gilt für mein Projekt?",
     "items": [
      "Oft schreibt eine Produktnorm vor",
-     "Beide Normen sind harmonisiert",
+     "Beide laut Quellen harmonisiert",
      "Eine Norm vollständig anwenden",
      "Anforderungen nicht mischen"
     ]
@@ -817,13 +797,13 @@
      "en": "According to the sources, both machinery standards are harmonised."
     },
     {
-     "de": "Das gibt eine Vermutung der Konformität mit den Schutzzielen der Maschinenrichtlinie.",
-     "ar": "وهذا يعطي افتراض المطابقة لأهداف الحماية في توجيه الآلات.",
-     "en": "This gives a presumption of conformity with the protection goals of the Machinery Directive."
+     "de": "Das gibt nach älteren Quellen eine Vermutung der Konformität mit der Maschinenrichtlinie; die neue Maschinenverordnung kann das ändern, prüfen Sie den aktuellen Stand.",
+     "ar": "وهذا يعطي بحسب مصادر أقدم افتراض المطابقة مع توجيه الآلات؛ وقد تغيّر لائحة الآلات الأوروبية الجديدة ذلك، فتحققوا من الوضع الحالي.",
+     "en": "According to older sources, this gives a presumption of conformity with the Machinery Directive; the new Machinery Regulation may change this, so check the current status."
     },
     {
      "de": "Gilt keine Vorgabe, wählt der Konstrukteur eine Norm.",
-     "ar": "وإن لم توجد مواصفة ملزمة، يختار المصمم معيارًا.",
+     "ar": "وإن لم يوجد اشتراط ملزم، يختار المصمم معيارًا.",
      "en": "If no requirement applies, the designer chooses a standard."
     },
     {
@@ -861,7 +841,7 @@
     ],
     "terms": [
      {
-      "de": "Risikobeurteilung",
+      "de": "die Risikobeurteilung",
       "ar": "تقييم المخاطر",
       "en": "risk assessment"
      }
@@ -875,7 +855,7 @@
     },
     {
      "de": "Für Maschinen beschreibt sie die Norm EN ISO 12100.",
-     "ar": "وتصفها للآلات المواصفة EN ISO 12100 بالتفصيل.",
+     "ar": "ويصفها للآلات المعيار EN ISO 12100 بالتفصيل.",
      "en": "For machinery the standard EN ISO 12100 describes it.",
      "tts": "Für Maschinen beschreibt sie die Norm E-En I-So eins zwei eins null null."
     },
@@ -929,7 +909,7 @@
     ],
     "terms": [
      {
-      "de": "inhärent sichere Konstruktion",
+      "de": "die inhärent sichere Konstruktion",
       "ar": "التصميم الآمن بطبيعته",
       "en": "inherently safe design"
      }
@@ -948,7 +928,7 @@
     },
     {
      "de": "Zuerst versucht man, die Gefahr durch die Konstruktion zu vermeiden.",
-     "ar": "أولًا يُحاول تجنّب الخطر عبر التصميم نفسه.",
+     "ar": "أولًا يُحاوَل تجنّب الخطر عبر التصميم نفسه.",
      "en": "First you try to avoid the hazard through the design itself."
     },
     {
@@ -967,6 +947,11 @@
      "en": "These include safety functions of the control system."
     },
     {
+     "de": "Als dritte Stufe folgen Informationen für die Benutzer.",
+     "ar": "المرحلة الثالثة معلومات للمستخدمين.",
+     "en": "The third step is information for users."
+    },
+    {
      "de": "Jede Stufe hat ihre Aufgabe und ersetzt die andere nicht.",
      "ar": "لكل مرحلة مهمتها ولا تحل إحداها محل الأخرى.",
      "en": "Each step has its task and does not replace the other."
@@ -977,9 +962,9 @@
      "en": "The goal is that hazards do not arise in the first place."
     },
     {
-     "de": "Als dritte Stufe folgen Informationen für die Benutzer. Das Ergebnis wird dokumentiert.",
-     "ar": "المرحلة الثالثة معلومات للمستخدمين. وتُوثَّق النتيجة.",
-     "en": "The third step is information for users. The result is documented."
+     "de": "Das Ergebnis wird dokumentiert.",
+     "ar": "وتُوثَّق النتيجة.",
+     "en": "The result is documented."
     }
    ]
   },
@@ -1015,7 +1000,7 @@
      "de": "Das ist der erforderliche SIL oder der erforderliche PLr.",
      "ar": "وهي مستوى SIL المطلوب أو مستوى PLr المطلوب.",
      "en": "This is the required SIL or the required PLr.",
-     "tts": "Das ist der erforderliche Sil oder der erforderliche Pe-El-r."
+     "tts": "Das ist der erforderliche Sil oder der erforderliche Pe-El-Er."
     },
     {
      "de": "Danach entwirft man die Steuerung passend dazu.",
@@ -1052,13 +1037,13 @@
     ],
     "terms": [
      {
-      "de": "Sicherheitsrelais",
+      "de": "das Sicherheitsrelais",
       "ar": "مرحّل الأمان",
       "en": "safety relay"
      },
      {
-      "de": "Sicherheits-SPS",
-      "ar": "وحدة تحكم SPS للأمان",
+      "de": "die Sicherheits-SPS",
+      "ar": "المتحكم المنطقي القابل للبرمجة للأمان",
       "en": "safety PLC"
      }
     ]
@@ -1076,12 +1061,12 @@
     },
     {
      "de": "Es wertet Signale von Sicherheitsgeräten aus, zum Beispiel von Not-Halt oder Schutztür.",
-     "ar": "يقوم بتقييم إشارات أجهزة الأمان مثل زر الإيقاف الاضطراري أو باب الحماية.",
+     "ar": "يقوم بتقييم إشارات أجهزة الأمان مثل إيقاف الطوارئ أو باب الحماية.",
      "en": "It evaluates signals from safety devices, for example emergency stop or guard door."
     },
     {
      "de": "Ein anderer Weg ist eine Sicherheits-SPS.",
-     "ar": "طريقة أخرى هي وحدة تحكم SPS للأمان.",
+     "ar": "طريقة أخرى هي المتحكم المنطقي القابل للبرمجة للأمان.",
      "en": "Another way is a safety PLC.",
      "tts": "Ein anderer Weg ist eine Sicherheits-Es-Pe-Es."
     },
@@ -1094,6 +1079,11 @@
      "de": "Beide arbeiten üblicherweise zweikanalig.",
      "ar": "وكلاهما يعمل عادةً بقناتين.",
      "en": "Both usually work with two channels."
+    },
+    {
+     "de": "Zwei Kanäle ermöglichen es, Fehler zu erkennen.",
+     "ar": "وتتيح القناتان اكتشاف الأعطال.",
+     "en": "Two channels make it possible to detect faults."
     },
     {
      "de": "Das Gerät allein macht noch keine Sicherheit.",
@@ -1109,11 +1099,6 @@
      "de": "Dazu gehört auch, dass im Fehlerfall ein sicherer Zustand erreicht wird.",
      "ar": "ومن ذلك أيضًا بلوغ حالة آمنة عند العطل.",
      "en": "This also includes reaching a safe state in the case of a fault."
-    },
-    {
-     "de": "So fällt ein Fehler in einem Kanal auf.",
-     "ar": "وبذلك يُكتشف العطل في أحد القناتين.",
-     "en": "So a fault in one channel is noticed."
     }
    ]
   },
@@ -1136,9 +1121,9 @@
      "en": "A common problem is manipulation."
     },
     {
-     "de": "Bediener umgehen Schutztüren manchmal, um schneller zu arbeiten.",
-     "ar": "يتجاوز المشغّلون أحيانًا أبواب الحماية ليعملوا أسرع.",
-     "en": "Operators sometimes bypass guard doors to work faster."
+     "de": "Bediener umgehen Schutztüren manchmal.",
+     "ar": "يتجاوز المشغّلون أحيانًا أبواب الحماية.",
+     "en": "Operators sometimes bypass guard doors."
     },
     {
      "de": "Damit verliert die Sicherheitsfunktion ihre Wirkung.",
@@ -1162,19 +1147,14 @@
      "en": "As an engineer you never change safety functions without approval."
     },
     {
-     "de": "Ein Fehler in der Praxis ist oft schon eine Folge davon.",
-     "ar": "وكثير من الأخطاء العملية نتيجة لذلك.",
-     "en": "A fault in practice is often already a result of this."
-    },
-    {
      "de": "Sprechen Sie Probleme offen an.",
      "ar": "تحدثوا عن المشكلات بصراحة.",
      "en": "Raise problems openly."
     },
     {
-     "de": "Brücken, Parameter und Programm sind tabu.",
-     "ar": "الجسور المؤقتة والمعاملات والبرنامج ممنوعة.",
-     "en": "Jumpers, parameters and programs are off limits."
+     "de": "Brücken, Parameter und Programm ändern Sie nur mit Freigabe.",
+     "ar": "وصلات التجاوز والمعاملات والبرنامج لا تُغيَّر إلا بتفويض.",
+     "en": "Jumpers, parameters and programs are changed only with approval."
     }
    ]
   },
@@ -1188,7 +1168,7 @@
      "2 | Gegen Wiedereinschalten sichern",
      "3 | Spannungsfreiheit allpolig feststellen",
      "4 | Erden und Kurzschließen",
-     "5 | Benachbarte, unter Spannung stehende Teile abdecken oder abschranken"
+     "5 | Unter Spannung stehende Nachbarteile abdecken"
     ]
    },
    "lines": [
@@ -1230,7 +1210,7 @@
     },
     {
      "de": "Die Reihenfolge ist fest. Arbeiten führt eine Elektrofachkraft aus oder jemand unter ihrer Leitung und Aufsicht.",
-     "ar": "الترتيب ثابت. ويقوم بالعمل كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت قيادته وإشرافه.",
+     "ar": "الترتيب ثابت. ويقوم بالعمل كهربائي مؤهَّل (Elektrofachkraft) أو شخص تحت إدارته وإشرافه.",
      "en": "The order is fixed. Work is done by a qualified electrician or by someone under their direction and supervision."
     }
    ]
@@ -1272,13 +1252,13 @@
      "tts": "Für Maschinen gibt es I-E-Ze sechs zwei null sechs eins und E-En I-So eins drei acht vier neun, Teil eins mit dem Pe-El."
     },
     {
-     "de": "Am Anfang steht immer die Risikobeurteilung.",
-     "ar": "في البداية دائمًا يأتي تقييم المخاطر.",
-     "en": "The risk assessment always comes first."
+     "de": "Am Anfang steht die Risikobeurteilung.",
+     "ar": "في البداية يأتي تقييم المخاطر.",
+     "en": "The risk assessment comes first."
     },
     {
      "de": "Sicherheitsrelais und Sicherheits-SPS setzen Funktionen technisch um.",
-     "ar": "مرحّلات الأمان ووحدات SPS للأمان تنفّذ الوظائف تقنيًا.",
+     "ar": "مرحّلات الأمان والمتحكمات المنطقية القابلة للبرمجة للأمان تنفّذ الوظائف تقنيًا.",
      "en": "Safety relays and safety PLCs implement functions technically.",
      "tts": "Sicherheitsrelais und Sicherheits-Es-Pe-Es setzen Funktionen technisch um."
     },
@@ -1388,17 +1368,17 @@
   },
   {
    "de": "der SIL (Safety Integrity Level)",
-   "ar": "مستوى سلامة التكامل (SIL)",
+   "ar": "مستوى سلامة التكامل",
    "en": "safety integrity level"
   },
   {
    "de": "der PL (Performance Level)",
-   "ar": "مستوى الأداء (PL)",
+   "ar": "مستوى الأداء",
    "en": "performance level"
   },
   {
    "de": "der erforderliche Performance Level (PLr)",
-   "ar": "مستوى الأداء المطلوب (PLr)",
+   "ar": "مستوى الأداء المطلوب",
    "en": "required performance level"
   },
   {
@@ -1418,7 +1398,7 @@
   },
   {
    "de": "die Sicherheits-SPS",
-   "ar": "وحدة تحكم SPS للأمان",
+   "ar": "المتحكم المنطقي القابل للبرمجة للأمان",
    "en": "safety PLC"
   },
   {
@@ -1428,7 +1408,7 @@
   },
   {
    "de": "der Not-Halt",
-   "ar": "الإيقاف الاضطراري",
+   "ar": "إيقاف الطوارئ",
    "en": "emergency stop"
   },
   {
@@ -1451,14 +1431,14 @@
      "en": "That a safety function works reliably"
     },
     {
-     "de": "Nur die Isolierung der Kabel",
-     "ar": "عزل الكابلات فقط",
-     "en": "Only cable insulation"
+     "de": "Dass jedes Bauteil einzeln geprüft wird",
+     "ar": "أن كل مكوّن يُفحص بمفرده",
+     "en": "That every component is tested individually"
     },
     {
-     "de": "Die Farbe von Schaltschränken",
-     "ar": "لون خزائن التوزيع والتحكم",
-     "en": "The colour of control cabinets"
+     "de": "Dass die Maschine möglichst schnell läuft",
+     "ar": "أن تعمل الآلة بأسرع ما يمكن",
+     "en": "That the machine runs as fast as possible"
     }
    ],
    "answer": 0
@@ -1472,17 +1452,17 @@
    "options": [
     {
      "de": "EN ISO 13849-1",
-     "ar": "المعيار EN ISO 13849-1",
+     "ar": "المعيار EN ISO 13849-1 الأوروبي",
      "en": "EN ISO 13849-1"
     },
     {
      "de": "IEC 61508",
-     "ar": "المعيار IEC 61508",
+     "ar": "المعيار IEC 61508 الدولي",
      "en": "IEC 61508"
     },
     {
      "de": "EN ISO 14119",
-     "ar": "المعيار EN ISO 14119",
+     "ar": "المعيار EN ISO 14119 الأوروبي",
      "en": "EN ISO 14119"
     }
    ],
@@ -1491,19 +1471,19 @@
   {
    "q": {
     "de": "Welcher Begriff gehört zur EN ISO 13849-1?",
-    "ar": "أي مصطلح يخص EN ISO 13849-1؟",
+    "ar": "أي مصطلح يخص معيار الآلات EN ISO 13849-1 تحديدًا؟",
     "en": "Which term belongs to EN ISO 13849-1?"
    },
    "options": [
     {
      "de": "Der SIL",
-     "ar": "SIL",
+     "ar": "مستوى سلامة التكامل",
      "en": "The SIL"
     },
     {
-     "de": "Der Netzanschluss",
-     "ar": "التوصيل بالشبكة",
-     "en": "The grid connection"
+     "de": "Die Zykluszeit",
+     "ar": "زمن الدورة",
+     "en": "The cycle time"
     },
     {
      "de": "Der Performance Level",
@@ -1556,18 +1536,18 @@
      "en": "I change parameters without approval"
     },
     {
-     "de": "Ich verändere Sicherheitsfunktionen nie ohne Freigabe",
-     "ar": "لا أغيّر وظائف الأمان أبدًا دون تفويض",
-     "en": "I never change safety functions without approval"
+     "de": "Ich ändere nichts ohne Freigabe",
+     "ar": "لا أغيّر شيئًا دون تفويض",
+     "en": "I change nothing without approval"
     }
    ],
    "answer": 2
   }
  ],
  "next": {
-  "de": "Als Nächstes: Maschinensicherheit",
-  "ar": "التالي: أمان الآلات",
-  "en": "Next: Machine safety"
+  "de": "Im nächsten Video geht es um Maschinensicherheit.",
+  "ar": "في الفيديو القادم نتناول أمان الآلات.",
+  "en": "The next video is about machine safety."
  },
- "stand": "2026-10-20; prüfen: aktuelle Ausgaben von IEC 61508, IEC/EN 62061, EN ISO 13849-1, EN ISO 12100, EN ISO 14119; Harmonisierungsstatus; Maschinenverordnung; Arbeitsberechtigung gemäß E-F04"
+ "stand": "2026-10-20; prüfen: aktuelle Ausgaben von IEC 61508, IEC/EN 62061, EN ISO 13849-1, EN ISO 12100, EN ISO 14119; Harmonisierungsstatus; Maschinenverordnung; Arbeitsberechtigung gemäß E-F04; abgeschwächt: Harmonisierung/Konformitätsvermutung (Maschinenverordnung), Jahr der zweiten Ausgabe von IEC 61508"
 }

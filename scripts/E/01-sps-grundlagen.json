@@ -2,7 +2,7 @@
  "id": "E-C01",
  "title": {
   "de": "Grundlagen der Automatisierung und SPS: Aufbau, Zyklus, Sensoren, Aktoren, IEC 61131-3",
-  "ar": "أساسيات الأتمتة ووحدات التحكم المبرمجة (SPS) والمعيار IEC 61131-3",
+  "ar": "أساسيات الأتمتة والمتحكم المنطقي القابل للبرمجة (SPS) والمعيار الدولي IEC 61131-3 للغات البرمجة",
   "en": "Automation Basics and the SPS (PLC): Structure, Cycle, Sensors, Actuators, IEC 61131-3"
  },
  "scenes": [
@@ -26,7 +26,7 @@
     },
     {
      "de": "Heute lernen Sie die Grundlagen der speicherprogrammierbaren Steuerung, kurz SPS.",
-     "ar": "اليوم ستتعرفون على أساسيات وحدة التحكم المبرمجة، واختصارها SPS، في ألمانيا.",
+     "ar": "اليوم ستتعرفون على أساسيات المتحكم المنطقي القابل للبرمجة، واختصاره SPS في ألمانيا.",
      "en": "Today you learn the basics of the programmable logic controller, called SPS in German.",
      "tts": "Heute lernen Sie die Grundlagen der speicherprogrammierbaren Steuerung, kurz Es-Pe-Es."
     },
@@ -40,7 +40,7 @@
      "de": "Wir betrachten den Aufbau, den Zyklus und die Sprachen der Norm IEC 61131-3.",
      "ar": "سنتناول البنية والدورة ولغات البرمجة في المعيار IEC 61131-3 الدولي.",
      "en": "We look at the structure, the cycle and the languages of the standard IEC 61131-3.",
-     "tts": "Wir betrachten den Aufbau, den Zyklus und die Sprachen der Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei."
+     "tts": "Wir betrachten den Aufbau, den Zyklus und die Sprachen der Norm I-E-Ze sechs eins eins drei eins, Teil drei."
     },
     {
      "de": "Außerdem sprechen wir über Sensoren, Aktoren und typische Berufe.",
@@ -83,7 +83,7 @@
     "terms": [
      {
       "de": "die SPS",
-      "ar": "وحدة التحكم المبرمجة (SPS)",
+      "ar": "المتحكم المنطقي القابل للبرمجة",
       "en": "programmable logic controller"
      }
     ]
@@ -98,7 +98,7 @@
      "de": "Nach der Norm DIN EN 61131-1 ist eine SPS ein digital arbeitendes elektronisches System.",
      "ar": "وفق المعيار DIN EN 61131-1 فإن SPS نظام إلكتروني يعمل رقميًا.",
      "en": "According to the standard DIN EN 61131-1, an SPS is a digitally working electronic system.",
-     "tts": "Nach der Norm Din E-En einundsechzigtausendeinhunderteinunddreißig, Teil eins ist eine Es-Pe-Es ein digital arbeitendes elektronisches System."
+     "tts": "Nach der Norm Din E-En sechs eins eins drei eins, Teil eins ist eine Es-Pe-Es ein digital arbeitendes elektronisches System."
     },
     {
      "de": "Es ist für den Einsatz in der Industrie gedacht.",
@@ -112,7 +112,7 @@
     },
     {
      "de": "Merken Sie sich das Wort Steuerung: Es meint hier ein Gerät, das Signale verarbeitet.",
-     "ar": "تذكروا كلمة التحكم: تعني هنا جهازًا يعالج الإشارات.",
+     "ar": "تذكروا الكلمة الألمانية Steuerung: تعني هنا جهازًا يعالج الإشارات.",
      "en": "Remember the word Steuerung: here it means a device that processes signals."
     },
     {
@@ -127,8 +127,8 @@
     },
     {
      "de": "Speicherprogrammierbar heißt: Das Programm liegt im Speicher und lässt sich ändern.",
-     "ar": "أي أن البرنامج موجود في الذاكرة ويمكن تغييره.",
-     "en": "Memory-programmable means: the program is in memory and can be changed."
+     "ar": "«قابلة للبرمجة في الذاكرة» تعني أن البرنامج موجود في الذاكرة ويمكن تغييره.",
+     "en": "\"Speicherprogrammierbar\" means: the program is stored in memory and can be changed."
     },
     {
      "de": "Die Sensoren und Aktoren der Anlage müssen aber weiterhin angeschlossen werden.",
@@ -151,7 +151,7 @@
     "terms": [
      {
       "de": "die verbindungsprogrammierte Steuerung (VPS)",
-      "ar": "التحكم الموصول بالأسلاك (VPS)",
+      "ar": "التحكم الموصول بالأسلاك",
       "en": "hard-wired control"
      }
     ]
@@ -212,7 +212,7 @@
     "terms": [
      {
       "de": "die Zentraleinheit (CPU)",
-      "ar": "وحدة المعالجة المركزية (CPU)",
+      "ar": "وحدة المعالجة المركزية",
       "en": "central processing unit"
      }
     ]
@@ -220,14 +220,14 @@
    "lines": [
     {
      "de": "Jetzt der Aufbau einer SPS.",
-     "ar": "الآن بنية وحدة التحكم SPS هذه.",
+     "ar": "والآن إلى بنية المتحكم المنطقي القابل للبرمجة.",
      "en": "Now the structure of an SPS.",
      "tts": "Jetzt der Aufbau einer Es-Pe-Es."
     },
     {
-     "de": "Im Kern besteht sie aus einer Zentralbaugruppe mit Prozessor.",
+     "de": "Im Kern besteht sie aus einer Zentraleinheit mit Prozessor.",
      "ar": "في جوهرها تتكون من وحدة مركزية فيها معالج.",
-     "en": "At its core, it consists of a central module with a processor."
+     "en": "At its core, it consists of a central unit with a processor."
     },
     {
      "de": "Der Prozessor heißt auch CPU.",
@@ -252,7 +252,7 @@
     },
     {
      "de": "Merken Sie sich die Reihenfolge: Eingänge, CPU, Ausgänge.",
-     "ar": "تذكروا الترتيب: الدخل ثم CPU ثم الخرج.",
+     "ar": "تذكروا الترتيب: المداخل ثم وحدة CPU ثم المخارج.",
      "en": "Remember the order: inputs, CPU, outputs.",
      "tts": "Merken Sie sich die Reihenfolge: Eingänge, Ze-Pe-U, Ausgänge."
     },
@@ -315,10 +315,10 @@
      "en": "But it can also be analog, that is, a measured value."
     },
     {
-     "de": "Die SPS sieht also nie die Maschine selbst, sondern nur ihre Signale.",
-     "ar": "فـ SPS لا ترى الآلة نفسها أبدًا، بل إشاراتها فقط.",
-     "en": "So the SPS never sees the machine itself, only its signals.",
-     "tts": "Die Es-Pe-Es sieht also nie die Maschine selbst, sondern nur ihre Signale."
+     "de": "Die SPS sieht die Maschine nur über ihre Signale.",
+     "ar": "ترى وحدة SPS الآلة من خلال إشاراتها فقط.",
+     "en": "The SPS sees the machine only through its signals.",
+     "tts": "Die Es-Pe-Es sieht die Maschine nur über ihre Signale."
     },
     {
      "de": "Die Eingabebaugruppe nimmt das Signal auf und gibt es weiter.",
@@ -341,7 +341,7 @@
      "Prozessor und Programmspeicher",
      "Anwenderprogramm wird abgearbeitet",
      "Bussystem verbindet die Baugruppen",
-     "Betriebssystem ergänzt die Abläufe"
+     "CPU entscheidet, bewegt aber selbst nichts"
     ],
     "terms": [
      {
@@ -381,11 +381,6 @@
      "tts": "Ein Bussystem verbindet die Ze-Pe-U mit den Baugruppen."
     },
     {
-     "de": "Zusätzlich laufen Funktionen des Betriebssystems.",
-     "ar": "وإضافة إلى ذلك تعمل وظائف نظام التشغيل.",
-     "en": "In addition, functions of the operating system run."
-    },
-    {
      "de": "Wichtig: Die CPU entscheidet, aber sie bewegt selbst nichts.",
      "ar": "المهم أن CPU تقرر لكنها لا تحرّك شيئًا بنفسها.",
      "en": "Important: the CPU decides, but it moves nothing itself.",
@@ -411,7 +406,7 @@
       "en": "output module"
      },
      {
-      "de": "der Schütz",
+      "de": "das Schütz",
       "ar": "الكونتاكتور",
       "en": "contactor"
      }
@@ -448,12 +443,6 @@
      "de": "So wird aus einem kleinen Signal eine große Wirkung.",
      "ar": "وهكذا تتحول إشارة صغيرة إلى تأثير كبير.",
      "en": "So a small signal becomes a large effect."
-    },
-    {
-     "de": "Die Verbindung läuft dabei über das Bussystem der SPS.",
-     "ar": "ويتم الاتصال عبر نظام الناقل في وحدة SPS هذه.",
-     "en": "The connection runs over the bus system of the SPS.",
-     "tts": "Die Verbindung läuft dabei über das Bussystem der Es-Pe-Es."
     },
     {
      "de": "Typische Geräte am Ausgang sind Schütze, Relais und Ventile.",
@@ -573,7 +562,7 @@
     },
     {
      "de": "Auch ein Motor ist aus Sicht der Steuerung oft ein Aktor, den ein Schütz schaltet.",
-     "ar": "والمحرك أيضًا يُعدّ في كثير من الأحيان منفِّذًا في نظر التحكم، يبدّله كونتاكتور.",
+     "ar": "والمحرك أيضًا يُعدّ في كثير من الأحيان منفِّذًا في نظر التحكم، يشغّله كونتاكتور.",
      "en": "From the controller's point of view, a motor is also often an actuator that a contactor switches."
     }
    ]
@@ -621,7 +610,7 @@
     },
     {
      "de": "Dritter Schritt: Sie gibt die Ausgänge aus.",
-     "ar": "الخطوة الثالثة: تُخرج المخارج.",
+     "ar": "الخطوة الثالثة: تُخرج القيم المحسوبة إلى المخارج.",
      "en": "Step three: it writes the outputs."
     },
     {
@@ -694,10 +683,10 @@
      "en": "The process image is like a photo of the inputs for the whole program run."
     },
     {
-     "de": "Dieses heißt PAA.",
-     "ar": "ويُرمز لهذه الصورة بالرمز PAA أيضًا.",
-     "en": "This is called PAA.",
-     "tts": "Dieses heißt Pe-A-A."
+     "de": "Das Prozessabbild der Ausgänge heißt kurz PAA.",
+     "ar": "واختصار صورة العملية للمخارج هو PAA في الألمانية.",
+     "en": "The process image of the outputs is called PAA for short.",
+     "tts": "Das Prozessabbild der Ausgänge heißt kurz Pe-A-A."
     },
     {
      "de": "Die Zykluszeit ist die Zeit für einen kompletten Durchlauf.",
@@ -747,11 +736,6 @@
      "tts": "Erst im nächsten Zyklus sieht die Es-Pe-Es die Änderung."
     },
     {
-     "de": "Stellen Sie sich vor, ein Taster wird kurz gedrückt, während das Programm läuft.",
-     "ar": "تخيلوا أن زرًا ضُغط لحظة قصيرة أثناء تشغيل البرنامج.",
-     "en": "Imagine a pushbutton is pressed briefly while the program is running."
-    },
-    {
      "de": "Die Ausgänge werden erst nach dem Ende des Programms übergeben.",
      "ar": "ولا تُسلَّم المخارج إلا بعد انتهاء البرنامج.",
      "en": "The outputs are only handed over after the program ends."
@@ -770,11 +754,6 @@
      "de": "Die Zahlen sind je nach Gerät sehr unterschiedlich.",
      "ar": "والأرقام تختلف كثيرًا بحسب الجهاز.",
      "en": "The numbers differ greatly depending on the device."
-    },
-    {
-     "de": "Als Ingenieur sollten Sie die Namen der Normen kennen, auch ohne den Text auswendig zu lernen.",
-     "ar": "كمهندس ينبغي أن تعرفوا أسماء المعايير حتى دون حفظ نصها.",
-     "en": "As an engineer, you should know the names of the standards, even without learning the text by heart."
     }
    ]
   },
@@ -833,9 +812,9 @@
      "en": "The contactor switches the motor, and the belt starts."
     },
     {
-     "de": "Das Beispiel ist vereinfacht und zeigt nur das Prinzip.",
-     "ar": "المثال مبسَّط ويوضح المبدأ فقط.",
-     "en": "The example is simplified and shows only the principle."
+     "de": "Das Beispiel ist erdacht und vereinfacht; Sicherheitsfunktionen sind hier nicht gezeigt.",
+     "ar": "المثال افتراضي ومبسّط، ووظائف الأمان غير معروضة هنا.",
+     "en": "The example is made up and simplified; safety functions are not shown here."
     }
    ]
   },
@@ -878,9 +857,9 @@
      "en": "Both types exist at inputs and at outputs."
     },
     {
-     "de": "Die Norm spricht ausdrücklich von digitalen oder analogen Signalen.",
-     "ar": "والمعيار يتحدث صراحة عن إشارات رقمية أو تماثلية.",
-     "en": "The standard explicitly speaks of digital or analog signals."
+     "de": "Sinngemäß spricht die Norm von digitalen oder analogen Signalen.",
+     "ar": "ومن حيث المعنى يتحدث المعيار عن إشارات رقمية أو تماثلية.",
+     "en": "In essence, the standard speaks of digital or analog signals."
     }
    ]
   },
@@ -892,7 +871,7 @@
     "items": [
      "Programmiersprachen für SPS",
      "Deutsche Fassung: DIN EN 61131-3",
-     "Neue Ausgabe seit 2025",
+     "Neue Ausgabe laut Katalogen (2025)",
      "Gültige Ausgabe immer prüfen"
     ],
     "terms": [
@@ -913,13 +892,13 @@
      "de": "Die Norm IEC 61131-3 legt Programmiersprachen für Steuerungen fest.",
      "ar": "المعيار IEC 61131-3 يحدد لغات البرمجة لوحدات التحكم.",
      "en": "The standard IEC 61131-3 defines programming languages for controllers.",
-     "tts": "Die Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei legt Programmiersprachen für Steuerungen fest."
+     "tts": "Die Norm I-E-Ze sechs eins eins drei eins, Teil drei legt Programmiersprachen für Steuerungen fest."
     },
     {
      "de": "In Deutschland heißt die Übernahme DIN EN 61131-3.",
      "ar": "وفي ألمانيا يحمل المعيار المعتمد الاسم DIN EN 61131-3 رسميًا.",
      "en": "In Germany, the adopted version is called DIN EN 61131-3.",
-     "tts": "In Deutschland heißt die Übernahme Din E-En einundsechzigtausendeinhunderteinunddreißig, Teil drei."
+     "tts": "In Deutschland heißt die Übernahme Din E-En sechs eins eins drei eins, Teil drei."
     },
     {
      "de": "Eine ältere Ausgabe stammt aus dem Jahr 2013.",
@@ -929,14 +908,14 @@
     },
     {
      "de": "Laut Katalogen gibt es seit 2025 eine neue Ausgabe.",
-     "ar": "وبحسب الفهارس يوجد إصدار جديد منذ عام 2025 للمعيار.",
+     "ar": "وبحسب كتالوجات المعايير يوجد إصدار جديد منذ عام 2025 للمعيار.",
      "en": "According to catalogues, there has been a new edition since 2025.",
      "tts": "Laut Katalogen gibt es seit zweitausendfünfundzwanzig eine neue Ausgabe."
     },
     {
      "de": "Welche Ausgabe in Ihrem Projekt gilt, prüfen Sie immer neu.",
      "ar": "أيّ إصدار يسري في مشروعكم، تحققوا منه دائمًا من جديد.",
-     "en": "Which edition applies in your project, always check anew."
+     "en": "Which edition applies in your project, always check again."
     }
    ]
   },
@@ -955,17 +934,17 @@
     "terms": [
      {
       "de": "der Kontaktplan (KOP)",
-      "ar": "مخطط السلّم (KOP)",
+      "ar": "مخطط السلّم",
       "en": "ladder diagram"
      },
      {
       "de": "der Funktionsplan (FUP)",
-      "ar": "مخطط الكتل الوظيفية (FUP)",
+      "ar": "مخطط الكتل الوظيفية",
       "en": "function block diagram"
      },
      {
       "de": "der Strukturierte Text (ST)",
-      "ar": "النص المنظَّم (ST)",
+      "ar": "النص المنظَّم",
       "en": "structured text"
      }
     ]
@@ -1019,11 +998,6 @@
      "en": "Graphical languages show the program as a picture, textual ones as text."
     },
     {
-     "de": "Wir gehen die fünf Sprachen jetzt der Reihe nach durch.",
-     "ar": "سنمر الآن على اللغات الخمس واحدة بعد أخرى.",
-     "en": "We now go through the five languages one by one."
-    },
-    {
      "de": "Die Reihenfolge ist keine Rangliste.",
      "ar": "والترتيب ليس تصنيفًا للأفضلية.",
      "en": "The order is not a ranking."
@@ -1039,12 +1013,12 @@
      "2013: als veraltet eingestuft",
      "2025: laut Quellen nicht mehr enthalten",
      "Altanlagen: AWL kann noch vorkommen",
-     "Neue Projekte: KOP, FUP, ST, AS"
+     "Neue Projekte: Ausgabe und Vorgaben prüfen"
     ],
     "terms": [
      {
       "de": "die Anweisungsliste (AWL)",
-      "ar": "قائمة التعليمات (AWL)",
+      "ar": "قائمة التعليمات",
       "en": "instruction list"
      }
     ]
@@ -1052,7 +1026,7 @@
    "lines": [
     {
      "de": "Eine Sprache verdient besondere Aufmerksamkeit: die AWL.",
-     "ar": "هناك لغة واحدة تستحق انتباهًا خاصًا هي AWL تحديدًا.",
+     "ar": "وهناك لغة تستحق انتباهًا خاصًا، وهي AWL (قائمة التعليمات).",
      "en": "One language deserves special attention: the AWL.",
      "tts": "Eine Sprache verdient besondere Aufmerksamkeit: die A-We-El."
     },
@@ -1069,7 +1043,7 @@
      "tts": "Laut Fachquellen steht sie in der Ausgabe von zweitausendfünfundzwanzig nicht mehr in der Norm."
     },
     {
-     "de": "Einen Primärbeleg haben wir dafür nicht geprüft.",
+     "de": "Eine Primärquelle haben wir dafür nicht geprüft.",
      "ar": "ولم نتحقق من ذلك من مصدر أصلي.",
      "en": "We did not check a primary source for this."
     },
@@ -1085,13 +1059,14 @@
      "tts": "In älteren Anlagen begegnet Ihnen A-We-El daher noch."
     },
     {
-     "de": "Für neue Projekte planen Sie mit den anderen vier Sprachen.",
-     "ar": "وللمشاريع الجديدة خططوا باللغات الأربع الأخرى.",
-     "en": "For new projects, plan with the other four languages."
+     "de": "Ob AWL in neuen Projekten verwendet wird, richtet sich nach der gültigen Ausgabe und den Projektvorgaben.",
+     "ar": "واستخدام AWL في المشاريع الجديدة يتبع الإصدار الساري ومتطلبات المشروع.",
+     "en": "Whether AWL is used in new projects depends on the valid edition and the project requirements.",
+     "tts": "Ob A-We-El in neuen Projekten verwendet wird, richtet sich nach der gültigen Ausgabe und den Projektvorgaben."
     },
     {
      "de": "Übernehmen Sie ein altes Projekt, kann es also Programme in AWL enthalten.",
-     "ar": "فإذا تسلّمتم مشروعًا قديمًا فقد يحتوي على برامج مكتوبة بلغة AWL تحديدًا.",
+     "ar": "فإذا تسلّمتم مشروعًا قديمًا فقد يحتوي على برامج مكتوبة بلغة AWL القديمة.",
      "en": "If you take over an old project, it may therefore contain programs in AWL.",
      "tts": "Übernehmen Sie ein altes Projekt, kann es also Programme in A-We-El enthalten."
     }
@@ -1103,10 +1078,10 @@
     "kicker": "Berufe",
     "heading": "Typische Berufsbilder",
     "items": [
-     "Elektroniker Automatisierungs- und Systemtechnik | Ausbildung",
-     "SPS-Programmierer | Tätigkeit, kein Ausbildungsberuf",
+     "Elektroniker (Automatisierung) | Ausbildung",
+     "SPS-Programmierer | keine eigene Ausbildung",
      "Techniker Automatisierungstechnik | Fortbildung",
-     "Mechatroniker | oft genannter Einstieg"
+     "Mechatroniker | in Stellenanzeigen genannt"
     ]
    },
    "lines": [
@@ -1124,7 +1099,7 @@
     },
     {
      "de": "Die Ausbildung dauert dreieinhalb Jahre.",
-     "ar": "وتستغرق الدراسة المهنية ثلاث سنوات ونصف.",
+     "ar": "ويستغرق التدريب المهني ثلاث سنوات ونصفًا.",
      "en": "The training takes three and a half years."
     },
     {
@@ -1135,7 +1110,7 @@
     },
     {
      "de": "Stellenanzeigen verlangen dafür häufig eine Ausbildung als Elektroniker oder Mechatroniker.",
-     "ar": "وإعلانات الوظائف تطلب غالبًا تأهيلًا مهنيًا كإلكتروني أو ميكاترونيك.",
+     "ar": "وإعلانات الوظائف تطلب غالبًا تأهيلًا مهنيًا كإلكتروني أو كفني ميكاترونيكس.",
      "en": "Job ads often require training as an electronics technician or mechatronics technician."
     },
     {
@@ -1220,12 +1195,12 @@
      "2 Gegen Wiedereinschalten sichern",
      "3 Spannungsfreiheit allpolig feststellen",
      "4 Erden und Kurzschließen",
-     "5 Benachbarte Teile abdecken oder abschranken"
+     "5 Benachbarte Spannungsteile abdecken/abschranken"
     ],
     "terms": [
      {
       "de": "die Elektrofachkraft",
-      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "ar": "الكهربائي المؤهَّل",
       "en": "qualified electrician"
      }
     ]
@@ -1257,9 +1232,9 @@
      "en": "One: isolate. Two: secure against reconnection. Three: verify absence of voltage on all poles."
     },
     {
-     "de": "Vier: erden und kurzschließen. Fünf: benachbarte Teile abdecken oder abschranken.",
-     "ar": "أربعة: التأريض والتقصير. خمسة: تغطية الأجزاء المجاورة أو إحاطتها بحواجز.",
-     "en": "Four: earth and short-circuit. Five: cover or fence off neighbouring parts."
+     "de": "Vier: erden und kurzschließen. Fünf: benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "أربعة: التأريض والتقصير. خمسة: تغطية الأجزاء المجاورة الواقعة تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Four: earth and short-circuit. Five: cover or fence off neighbouring live parts."
     },
     {
      "de": "Die Arbeitsstelle wird erst freigegeben, wenn alle fünf Regeln erfüllt sind.",
@@ -1323,10 +1298,10 @@
      "en": "Sensors detect quantities, actuators turn them into actions."
     },
     {
-     "de": "Die Norm IEC 61131-3 nennt fünf Sprachen: KOP, FUP, AS, ST und AWL.",
-     "ar": "يذكر المعيار IEC 61131-3 خمس لغات: KOP وFUP وAS وST وAWL كما رأينا.",
-     "en": "The standard IEC 61131-3 names five languages: KOP, FUP, AS, ST and AWL.",
-     "tts": "Die Norm I-E-Ze einundsechzigtausendeinhunderteinunddreißig, Teil drei nennt fünf Sprachen: Ka-O-Pe, Ef-U-Pe, A-Es, Es-Te und A-We-El."
+     "de": "Die Ausgabe 2013 der Norm IEC 61131-3 nennt fünf Sprachen: KOP, FUP, AS, ST und AWL.",
+     "ar": "يذكر إصدار 2013 من المعيار IEC 61131-3 خمس لغات هي: KOP وFUP وAS وST وAWL كما رأينا.",
+     "en": "The 2013 edition of the standard IEC 61131-3 names five languages: KOP, FUP, AS, ST and AWL.",
+     "tts": "Die Ausgabe zweitausenddreizehn der Norm I-E-Ze sechs eins eins drei eins, Teil drei nennt fünf Sprachen: Ka-O-Pe, Ef-U-Pe, A-Es, Es-Te und A-We-El."
     },
     {
      "de": "Die AWL ist veraltet und laut Quellen nicht mehr Teil der neuen Ausgabe.",
@@ -1336,7 +1311,7 @@
     },
     {
      "de": "Im nächsten Video geht es um funktionale Sicherheit.",
-     "ar": "في الفيديو القادم نتناول السلامة الوظيفية.",
+     "ar": "في الفيديو القادم نتناول الأمان الوظيفي.",
      "en": "The next video is about functional safety."
     },
     {
@@ -1410,17 +1385,17 @@
   },
   {
    "de": "die speicherprogrammierbare Steuerung (SPS)",
-   "ar": "وحدة التحكم المبرمجة (SPS)",
+   "ar": "المتحكم المنطقي القابل للبرمجة",
    "en": "programmable logic controller"
   },
   {
    "de": "die verbindungsprogrammierte Steuerung (VPS)",
-   "ar": "التحكم الموصول بالأسلاك (VPS)",
+   "ar": "التحكم الموصول بالأسلاك",
    "en": "hard-wired control"
   },
   {
    "de": "die Zentraleinheit (CPU)",
-   "ar": "وحدة المعالجة المركزية (CPU)",
+   "ar": "وحدة المعالجة المركزية",
    "en": "central processing unit"
   },
   {
@@ -1460,27 +1435,27 @@
   },
   {
    "de": "der Kontaktplan (KOP)",
-   "ar": "مخطط السلّم (KOP)",
+   "ar": "مخطط السلّم",
    "en": "ladder diagram"
   },
   {
    "de": "der Funktionsplan (FUP)",
-   "ar": "مخطط الكتل الوظيفية (FUP)",
+   "ar": "مخطط الكتل الوظيفية",
    "en": "function block diagram"
   },
   {
    "de": "die Ablaufsprache (AS)",
-   "ar": "لغة التسلسل (AS)",
+   "ar": "لغة التسلسل",
    "en": "sequential function chart"
   },
   {
    "de": "der Strukturierte Text (ST)",
-   "ar": "النص المنظَّم (ST)",
+   "ar": "النص المنظَّم",
    "en": "structured text"
   },
   {
    "de": "die Anweisungsliste (AWL)",
-   "ar": "قائمة التعليمات (AWL)",
+   "ar": "قائمة التعليمات",
    "en": "instruction list"
   },
   {
@@ -1490,7 +1465,7 @@
   },
   {
    "de": "die Elektrofachkraft",
-   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "ar": "الكهربائي المؤهَّل",
    "en": "qualified electrician"
   }
  ],
@@ -1547,8 +1522,8 @@
   },
   {
    "q": {
-    "de": "Wofür steht das Prozessabbild der Eingänge?",
-    "ar": "ماذا تمثل صورة العملية للمداخل؟",
+    "de": "Was enthält das Prozessabbild der Eingänge?",
+    "ar": "ماذا تحتوي صورة العملية الخاصة بالمداخل؟",
     "en": "What does the process image of the inputs hold?"
    },
    "options": [
@@ -1568,7 +1543,7 @@
      "en": "The power supply"
     },
     {
-     "de": "Den Schaltplan",
+     "de": "Der Schaltplan",
      "ar": "مخطط الدارات",
      "en": "The circuit diagram"
     }
@@ -1577,9 +1552,9 @@
   },
   {
    "q": {
-    "de": "Welche Aussage zur AWL passt zu den Quellen?",
-    "ar": "أي عبارة عن AWL تناسب المصادر؟",
-    "en": "Which statement about the AWL fits the sources?"
+    "de": "Welche Aussage über die AWL stimmt laut den Quellen?",
+    "ar": "أي عبارة بخصوص AWL تتفق مع المصادر؟",
+    "en": "Which statement about the AWL agrees with the sources?"
    },
    "options": [
     {
@@ -1607,20 +1582,20 @@
   },
   {
    "q": {
-    "de": "Wer arbeitet an elektrischen Anlagen?",
-    "ar": "من يعمل على المنشآت الكهربائية؟",
-    "en": "Who works on electrical installations?"
+    "de": "Wer darf an elektrischen Anlagen arbeiten?",
+    "ar": "من يجوز له العمل على المنشآت الكهربائية؟",
+    "en": "Who may work on electrical installations?"
    },
    "options": [
     {
-     "de": "Jeder ohne Voraussetzungen",
-     "ar": "أي شخص دون شروط",
-     "en": "Anyone without requirements"
+     "de": "Jede Person mit Ingenieurabschluss",
+     "ar": "أي شخص حاصل على شهادة هندسية",
+     "en": "Anyone with an engineering degree"
     },
     {
-     "de": "Nur wer schnell arbeitet",
-     "ar": "فقط من يعمل بسرعة",
-     "en": "Only those who work fast"
+     "de": "Nur der Bediener der Maschine",
+     "ar": "فقط مشغّل الآلة",
+     "en": "Only the machine operator"
     },
     {
      "de": "Elektrofachkraft oder unter deren Leitung und Aufsicht",
@@ -1633,8 +1608,8 @@
  ],
  "next": {
   "de": "Im nächsten Video geht es um funktionale Sicherheit.",
-  "ar": "في الفيديو القادم نتناول السلامة الوظيفية.",
+  "ar": "في الفيديو القادم نتناول الأمان الوظيفي.",
   "en": "The next video covers functional safety."
  },
- "stand": "2026-10-20; prüfen: Wegfall der AWL in IEC 61131-3 Edition 4 (2025) nur sekundär belegt, Status der deutschen Übernahme EN IEC 61131-3:2025 bzw. DIN-Fassung, DIN EN 61131-1 (SPS-Definition nur sinngemäß), Berufsbezeichnungen und Ausbildungsdauer (ElekAusbV, BERUFENET), Fünf Sicherheitsregeln gegen DIN VDE 0105-100"
+ "stand": "2026-10-20; prüfen: Wegfall der AWL in IEC 61131-3 Edition 4 (2025) nur sekundär belegt, Status der deutschen Übernahme EN IEC 61131-3:2025 bzw. DIN-Fassung, DIN EN 61131-1 (SPS-Definition nur sinngemäß), Berufsbezeichnungen und Ausbildungsdauer (ElekAusbV, BERUFENET), Fünf Sicherheitsregeln gegen DIN VDE 0105-100; Normtext-Aussagen (digital/analog, AWL) nur sinngemäß; Regel 5 mit \"unter Spannung stehende Teile\" (DIN VDE 0105-100) gegen Primärquelle prüfen"
 }

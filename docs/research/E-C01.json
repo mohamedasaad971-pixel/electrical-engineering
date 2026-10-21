@@ -1,6 +1,6 @@
 {
  "video": "E-C01",
- "stand": "2026-10-20",
+ "stand": "2026-10-20 (Audit angewendet)",
  "facts": [
   {
    "claim": "Nach DIN EN 61131-1 ist eine SPS ein digital arbeitendes elektronisches System für den Industrieeinsatz mit programmierbarem Speicher für Anwenderprogramme, das Maschinen oder Prozesse über digitale oder analoge Ein- und Ausgangssignale steuert.",
@@ -175,6 +175,12 @@
   "Historischer Übergang von Relais zur SPS 1975 bis 1990 (Einzelquelle, Jahreszahlen)",
   "Ausbildungsvergütungen (veränderlich)",
   "Details zum Beruf Mechatroniker (Suchergebnisse ohne Details)",
-  "VDE-Nummer zu DIN EN 61131-3 (keine Quelle gefunden)"
+  "VDE-Nummer zu DIN EN 61131-3 (keine Quelle gefunden)",
+  "Aussage, die Norm spreche ausdrücklich/wörtlich von digitalen oder analogen Signalen (Normtext nicht geprüft; nur sinngemäß)",
+  "Betriebssystem der CPU / Betriebssystemfunktionen (nicht belegt)",
+  "Verbindung CPU-Schütz über das Bussystem (Bus nur zwischen CPU und Baugruppen belegt)",
+  "Empfehlung, in neuen Projekten mit den anderen vier Sprachen zu planen (nicht belegt)",
+  "Mechatroniker als \"Einstieg\" (nur: in Stellenanzeigen genannt)",
+  "Absolute Aussage, die SPS sehe nie die Maschine selbst"
  ]
 }
