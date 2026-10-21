@@ -1,0 +1,1615 @@
+{
+ "id": "E-D03",
+ "title": {
+  "de": "Projektarbeit: Verträge, Änderungen, Qualitätsmanagement",
+  "ar": "العمل في المشروع: عقود المقاول، أوامر التغيير، إدارة الجودة",
+  "en": "Project work: contracts, changes, quality management"
+ },
+ "scenes": [
+  {
+   "slide": {
+    "layout": "title",
+    "kicker": "E-D03 · Projektarbeit",
+    "heading": "Projektarbeit und Verträge",
+    "items": [
+     "Rollen im Projekt",
+     "Verträge, Änderungen, Bedenken",
+     "Abnahme und Qualitätsmanagement"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Willkommen zum dritten Video über den Berufsalltag.",
+     "ar": "مرحبًا بكم في الفيديو الثالث عن الحياة المهنية اليومية.",
+     "en": "Welcome to the third video about everyday professional life."
+    },
+    {
+     "de": "Heute geht es um die Arbeit im Projekt.",
+     "ar": "موضوعنا اليوم هو العمل ضمن المشروع.",
+     "en": "Today we look at working in a project."
+    },
+    {
+     "de": "Sie lernen die Rollen auf der Baustelle und im Planungsbüro kennen.",
+     "ar": "ستتعرفون على الأدوار في موقع البناء وفي مكتب التخطيط.",
+     "en": "You learn the roles on the construction site and in the planning office."
+    },
+    {
+     "de": "Wir sprechen über Verträge, Änderungen und Bedenken.",
+     "ar": "سنتحدث عن العقود والتغييرات والتحفظات.",
+     "en": "We talk about contracts, changes and concerns."
+    },
+    {
+     "de": "Danach folgen Abnahme, Gewährleistung und Qualitätsmanagement.",
+     "ar": "بعد ذلك الاستلام والضمان وإدارة الجودة.",
+     "en": "Then come acceptance, warranty and quality management."
+    },
+    {
+     "de": "Am Ende sehen Sie, wie Termine und Schnittstellen zusammenpassen.",
+     "ar": "وفي النهاية سترون كيف تنسجم المواعيد ونقاط التنسيق بين الاختصاصات.",
+     "en": "At the end you see how schedules and interfaces fit together."
+    },
+    {
+     "de": "Es gibt wieder ein Glossar und ein kurzes Quiz.",
+     "ar": "وكالعادة يوجد مسرد واختبار قصير.",
+     "en": "There is again a glossary and a short quiz."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Wichtiger Hinweis",
+    "heading": "Nur eine allgemeine Orientierung",
+    "items": [
+     "Keine Rechtsberatung",
+     "Keine Ingenieurberatung im Einzelfall",
+     "Der konkrete Vertrag entscheidet",
+     "Aktuelle Fassungen prüfen"
+    ],
+    "terms": [
+     {
+      "de": "Auftraggeber",
+      "ar": "الجهة المُشغِّلة للمشروع (صاحب المشروع)",
+      "en": "client (owner)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Zuerst ein wichtiger Hinweis.",
+     "ar": "أولًا، ملاحظة مهمة.",
+     "en": "First, an important note."
+    },
+    {
+     "de": "Dieses Video ist keine Rechtsberatung.",
+     "ar": "هذا الفيديو ليس استشارة قانونية.",
+     "en": "This video is not legal advice."
+    },
+    {
+     "de": "Es ersetzt auch keine Beratung durch Fachleute im Einzelfall.",
+     "ar": "ولا يغني أيضًا عن استشارة المختصين في الحالة الفردية.",
+     "en": "It also does not replace advice from experts in an individual case."
+    },
+    {
+     "de": "Vertragsrecht ist komplex und ändert sich.",
+     "ar": "قانون العقود معقّد ويتغير.",
+     "en": "Contract law is complex and it changes."
+    },
+    {
+     "de": "Im Einzelfall entscheidet immer der konkrete Vertrag.",
+     "ar": "في كل حالة يحسم العقد المحدد الأمر دائمًا.",
+     "en": "In each case, the concrete contract decides."
+    },
+    {
+     "de": "Bei Streit helfen Fachleute für Baurecht.",
+     "ar": "وعند النزاع يساعدكم المختصون في قانون البناء.",
+     "en": "In a dispute, specialists in construction law can help."
+    },
+    {
+     "de": "Wir nennen hier keine Fristen und keine Beträge.",
+     "ar": "لن نذكر هنا مددًا ولا مبالغ.",
+     "en": "We do not name deadlines or amounts here."
+    },
+    {
+     "de": "Alles bleibt auf der Ebene von Begriffen und Abläufen.",
+     "ar": "كل شيء يبقى على مستوى المفاهيم والإجراءات.",
+     "en": "Everything stays at the level of concepts and processes."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Rollen",
+    "heading": "Wer macht was im Projekt?",
+    "items": [
+     "Auftraggeber: bestellt und bezahlt das Werk",
+     "Planer: plant und überwacht nach Vertrag",
+     "Bauleiter: steuert die Arbeiten vor Ort",
+     "Auftragnehmer: führt die Leistung aus"
+    ],
+    "terms": [
+     {
+      "de": "Auftraggeber",
+      "ar": "الجهة المُشغِّلة للمشروع (صاحب المشروع)",
+      "en": "client (owner)"
+     },
+     {
+      "de": "Auftragnehmer",
+      "ar": "المقاول",
+      "en": "contractor"
+     },
+     {
+      "de": "Planer",
+      "ar": "المخطِّط",
+      "en": "planner"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Projekt sind viele Rollen beteiligt.",
+     "ar": "تشارك في المشروع أدوار كثيرة.",
+     "en": "Many roles take part in a project."
+    },
+    {
+     "de": "Der Auftraggeber bestellt die Leistung und bezahlt sie.",
+     "ar": "الجهة المُشغِّلة للمشروع (صاحب المشروع) تطلب الخدمة وتدفع ثمنها.",
+     "en": "The client orders the service and pays for it."
+    },
+    {
+     "de": "Im Gesetz heißt er oft Besteller.",
+     "ar": "ويُسمّى في القانون غالبًا Besteller أي الطالب.",
+     "en": "In the law, he is often called the orderer."
+    },
+    {
+     "de": "Der Planer entwickelt die Lösung und beschreibt sie in Plänen.",
+     "ar": "المخطِّط يطوّر الحل ويصفه في مخططات.",
+     "en": "The planner develops the solution and describes it in drawings."
+    },
+    {
+     "de": "Er überwacht die Ausführung nur, wenn der Vertrag das vorsieht.",
+     "ar": "ولا يشرف على التنفيذ إلا إذا نصّ العقد على ذلك.",
+     "en": "He supervises the execution only if the contract provides for it."
+    },
+    {
+     "de": "Der Auftragnehmer baut oder installiert die Anlage.",
+     "ar": "المقاول يبني المنشأة أو يركّبها.",
+     "en": "The contractor builds or installs the system."
+    },
+    {
+     "de": "Der Bauleiter steuert die Arbeiten vor Ort.",
+     "ar": "مدير الموقع يدير الأعمال في الموقع.",
+     "en": "The site manager steers the work on site."
+    },
+    {
+     "de": "Jede Rolle hat eigene Pflichten aus ihrem Vertrag.",
+     "ar": "لكل دور واجباته الخاصة المستمدة من عقده.",
+     "en": "Each role has its own duties from its contract."
+    },
+    {
+     "de": "Manchmal übernimmt eine Person mehrere Rollen.",
+     "ar": "أحيانًا يتولى شخص واحد عدة أدوار.",
+     "en": "Sometimes one person takes several roles."
+    },
+    {
+     "de": "Dann trennen Sie die Aufgaben trotzdem im Kopf und auf dem Papier.",
+     "ar": "عندها افصلوا المهام مع ذلك في الذهن وعلى الورق.",
+     "en": "Then you still separate the tasks in your head and on paper."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Bauleiter",
+    "heading": "Bauleiter: ein Wort, mehrere Rollen",
+    "items": [
+     "Bauleiter der ausführenden Firma",
+     "Objektüberwachung durch den Planer",
+     "Rollen nach dem Recht der Länder",
+     "Im Vertrag steht die genaue Aufgabe"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Das Wort Bauleiter wird im Alltag sehr unterschiedlich benutzt.",
+     "ar": "كلمة مدير الموقع (Bauleiter) تُستعمل في الحياة اليومية بمعانٍ مختلفة جدًا.",
+     "en": "The word site manager is used in very different ways in daily life."
+    },
+    {
+     "de": "Oft meint man den Bauleiter der ausführenden Firma.",
+     "ar": "غالبًا يُقصد مدير الموقع في الشركة المنفِّذة.",
+     "en": "Often people mean the site manager of the executing company."
+    },
+    {
+     "de": "Er sorgt dafür, dass die Arbeiten ordentlich ablaufen.",
+     "ar": "هو يحرص على سير الأعمال بشكل سليم.",
+     "en": "He makes sure the work runs properly."
+    },
+    {
+     "de": "Er koordiniert Monteure und die Zusammenarbeit mit anderen Gewerken.",
+     "ar": "وينسّق المركّبين والتعاون مع الاختصاصات الأخرى.",
+     "en": "He coordinates fitters and the cooperation with other trades."
+    },
+    {
+     "de": "Etwas anderes ist die Objektüberwachung durch den Planer.",
+     "ar": "أما الإشراف على المنشأة من المخطِّط فهو أمر آخر.",
+     "en": "Object supervision by the planner is something different."
+    },
+    {
+     "de": "Sie ist eine Leistung aus der HOAI und hängt vom Vertrag ab.",
+     "ar": "وهي خدمة واردة في HOAI وتتوقف على العقد.",
+     "en": "It is a service from the HOAI and depends on the contract.",
+     "tts": "Sie ist eine Leistung aus der Ha-O-A-I und hängt vom Vertrag ab."
+    },
+    {
+     "de": "Außerdem kennt das Bauordnungsrecht der Länder eigene Rollen.",
+     "ar": "كما يعرف قانون البناء في الولايات أدوارًا خاصة به.",
+     "en": "In addition, building regulations of the states have their own roles."
+    },
+    {
+     "de": "Fragen Sie deshalb immer: Wer ist hier mit welcher Aufgabe gemeint?",
+     "ar": "لذلك اسألوا دائمًا: من المقصود هنا وبأي مهمة؟",
+     "en": "So always ask: who is meant here, with which task?"
+    },
+    {
+     "de": "Fragen Sie im Zweifel, wer für die Arbeit verantwortlich ist.",
+     "ar": "اسألوا عند الشك من المسؤول عن العمل.",
+     "en": "If in doubt, ask who is responsible for the work."
+    },
+    {
+     "de": "Eine Unterschrift unter Plänen oder Protokollen hat Folgen.",
+     "ar": "للتوقيع على المخططات أو المحاضر نتائج.",
+     "en": "A signature under drawings or protocols has consequences."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Elektrofachkraft",
+    "heading": "Wer darf elektrisch arbeiten?",
+    "items": [
+     "Elektrofachkraft oder unter ihrer Aufsicht",
+     "Befähigung, keine Berufsbezeichnung",
+     "Fünf Sicherheitsregeln immer vollständig"
+    ],
+    "terms": [
+     {
+      "de": "Elektrofachkraft",
+      "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+      "en": "qualified electrician"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Elektrofachkraft im Projekt.",
+     "ar": "والآن إلى الكهربائي المؤهَّل (Elektrofachkraft) في المشروع.",
+     "en": "Now to the qualified electrician in the project."
+    },
+    {
+     "de": "Errichten, Ändern und Instandhalten elektrischer Anlagen erfolgt durch eine Elektrofachkraft oder unter ihrer Leitung und Aufsicht.",
+     "ar": "إنشاء المنشآت الكهربائية وتعديلها وصيانتها يتم عبر كهربائي مؤهَّل أو تحت إدارته وإشرافه.",
+     "en": "Erecting, changing and maintaining electrical installations is done by a qualified electrician or under that person's direction and supervision."
+    },
+    {
+     "de": "So steht es sinngemäß in der DGUV Vorschrift drei.",
+     "ar": "هذا ما ورد بمعناه في لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) وفق مضمونها.",
+     "en": "This is the sense of DGUV Regulation 3.",
+     "tts": "So steht es sinngemäß in der De-Ge-U-Fau Vorschrift drei."
+    },
+    {
+     "de": "Elektrofachkraft ist eine Befähigung für einen Arbeitsbereich, keine Berufsbezeichnung.",
+     "ar": "الكهربائي المؤهَّل صفة تأهيل لمجال عمل محدد وليس مسمى وظيفيًا.",
+     "en": "Qualified electrician is a competence for a work area, not a job title."
+    },
+    {
+     "de": "Bei Arbeiten an der Anlage gelten die fünf Sicherheitsregeln.",
+     "ar": "عند العمل على المنشأة تسري قواعد السلامة الخمس.",
+     "en": "For work on the installation, the five safety rules apply."
+    },
+    {
+     "de": "Erstens freischalten, zweitens gegen Wiedereinschalten sichern.",
+     "ar": "أولًا فصل الجهد، ثانيًا تأمينها ضد إعادة التشغيل.",
+     "en": "First isolate, second secure against reconnection."
+    },
+    {
+     "de": "Drittens Spannungsfreiheit allpolig feststellen, viertens erden und kurzschließen.",
+     "ar": "ثالثًا التحقق من انعدام الجهد في كل الأقطاب، رابعًا التأريض والقصر الكهربائي.",
+     "en": "Third verify absence of voltage on all poles, fourth earth and short-circuit."
+    },
+    {
+     "de": "Fünftens benachbarte, unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "خامسًا إحاطة الأجزاء المجاورة التي تحت الجهد بحواجز أو تغطيتها.",
+     "en": "Fifth cover or fence off adjacent live parts."
+    },
+    {
+     "de": "Alle fünf Regeln gelten vollständig und in dieser Reihenfolge.",
+     "ar": "كل القواعد الخمس تسري كاملةً وبهذا الترتيب.",
+     "en": "All five rules apply completely and in this order."
+    },
+    {
+     "de": "Anlagen müssen sicher und im Betrieb zuverlässig sein.",
+     "ar": "يجب أن تكون المنشآت آمنة وموثوقة في التشغيل.",
+     "en": "Installations must be safe and reliable in operation."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Vertragsarten",
+    "heading": "Vertragsarten im Überblick",
+    "items": [
+     "Werkvertrag (BGB) | Erfolg wird geschuldet",
+     "Bauvertrag (BGB) | Werkvertrag für Bauwerke",
+     "Ingenieurvertrag (BGB) | Planung, Überwachung",
+     "VOB Teil B | nur wenn vereinbart",
+     "HOAI | regelt das Honorar, nicht den Vertrag"
+    ],
+    "terms": [
+     {
+      "de": "Werkvertrag",
+      "ar": "عقد المقاولة",
+      "en": "contract for work"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zu den Vertragsarten, nur im Überblick.",
+     "ar": "ننتقل الآن إلى أنواع العقود، بنظرة عامة فقط.",
+     "en": "Now to the contract types, only as an overview."
+    },
+    {
+     "de": "Die Grundlage ist der Werkvertrag im Bürgerlichen Gesetzbuch.",
+     "ar": "الأساس هو عقد المقاولة في القانون المدني الألماني.",
+     "en": "The basis is the contract for work in the Civil Code."
+    },
+    {
+     "de": "Der Unternehmer schuldet das versprochene Werk.",
+     "ar": "المقاول مدين بالعمل الموعود.",
+     "en": "The contractor owes the promised work."
+    },
+    {
+     "de": "Der Besteller zahlt die vereinbarte Vergütung.",
+     "ar": "والطالب يدفع الأجر المتفق عليه.",
+     "en": "The orderer pays the agreed remuneration."
+    },
+    {
+     "de": "Ein Bauvertrag betrifft die Herstellung oder den Umbau eines Bauwerks.",
+     "ar": "عقد البناء يتعلق بإنشاء مبنى أو تحويره.",
+     "en": "A construction contract concerns building or converting a structure."
+    },
+    {
+     "de": "Dafür gelten die Werkvertragsregeln plus Sonderregeln.",
+     "ar": "تسري عليه قواعد عقد المقاولة مع قواعد خاصة.",
+     "en": "The contract-for-work rules apply, plus special rules."
+    },
+    {
+     "de": "Für Planer gibt es den Architekten- und Ingenieurvertrag.",
+     "ar": "وللمخطِّطين يوجد عقد المهندس المعماري والمهندس.",
+     "en": "For planners there is the architect and engineer contract."
+    },
+    {
+     "de": "Die HOAI regelt das Honorar, nicht den Inhalt des Vertrags.",
+     "ar": "لائحة HOAI تنظّم الأتعاب وليس مضمون العقد.",
+     "en": "The HOAI regulates the fee, not the content of the contract.",
+     "tts": "Die Ha-O-A-I regelt das Honorar, nicht den Inhalt des Vertrags."
+    },
+    {
+     "de": "Prüfen Sie im Vertrag, wer welche Pflicht übernimmt.",
+     "ar": "افحصوا في العقد من يتولى أي واجب.",
+     "en": "Check in the contract who takes which duty."
+    },
+    {
+     "de": "Das gilt für Auftraggeber, Planer und Auftragnehmer gleichermaßen.",
+     "ar": "وهذا ينطبق على الجهة المُشغِّلة للمشروع والمخطِّط والمقاول على حد سواء.",
+     "en": "This applies to client, planner and contractor alike."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Werkvertrag",
+    "heading": "Werkvertrag: der Erfolg zählt",
+    "items": [
+     "Geschuldet ist das fertige Werk",
+     "Mangel: Abweichung von der Beschaffenheit",
+     "Vereinbarte Beschaffenheit zuerst",
+     "Sonst: übliche Verwendung"
+    ],
+    "terms": [
+     {
+      "de": "Mangel",
+      "ar": "العيب",
+      "en": "defect"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Beim Werkvertrag schulden Sie einen Erfolg, nicht nur Arbeitszeit.",
+     "ar": "في عقد المقاولة أنتم مدينون بنتيجة وليس بوقت عمل فقط.",
+     "en": "In a contract for work you owe a result, not only working time."
+    },
+    {
+     "de": "Das Werk muss frei von Mängeln sein.",
+     "ar": "يجب أن يكون العمل خاليًا من العيوب.",
+     "en": "The work must be free of defects."
+    },
+    {
+     "de": "Ein Mangel liegt vor, wenn die vereinbarte Beschaffenheit fehlt.",
+     "ar": "يوجد عيب إذا لم تتوفر الصفات المتفق عليها.",
+     "en": "A defect exists if the agreed quality is missing."
+    },
+    {
+     "de": "Fehlt eine Vereinbarung, zählt die vorausgesetzte oder die gewöhnliche Verwendung.",
+     "ar": "وإذا لم يوجد اتفاق فالمعتبر هو الاستعمال المفترض أو المعتاد.",
+     "en": "Without an agreement, the assumed or the usual use counts."
+    },
+    {
+     "de": "Darum sind klare Angaben im Vertrag so wichtig.",
+     "ar": "لذلك فإن البيانات الواضحة في العقد مهمة جدًا.",
+     "en": "So clear statements in the contract are very important."
+    },
+    {
+     "de": "Dazu gehören zum Beispiel Leistungsverzeichnis, Pläne und technische Anforderungen.",
+     "ar": "ومنها مثلًا بيان الأعمال والمخططات والمتطلبات الفنية.",
+     "en": "These include, for example, the bill of quantities, drawings and technical requirements."
+    },
+    {
+     "de": "Unklare Wörter führen später zu Streit.",
+     "ar": "الكلمات الغامضة تؤدي لاحقًا إلى خلاف.",
+     "en": "Unclear words lead to disputes later."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "VOB Teil B",
+    "heading": "VOB Teil B: nur bei Vereinbarung",
+    "items": [
+     "Kein Gesetz, sondern Vertragsbedingungen",
+     "Gilt nur, wenn vereinbart",
+     "Öffentliche Auftraggeber: häufig vereinbart",
+     "Sonst gilt das Bürgerliche Gesetzbuch"
+    ],
+    "terms": [
+     {
+      "de": "Allgemeine Geschäftsbedingungen",
+      "ar": "شروط الأعمال العامة",
+      "en": "general terms and conditions"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Die VOB Teil B ist kein Gesetz.",
+     "ar": "الجزء ب من VOB ليس قانونًا.",
+     "en": "VOB Part B is not a law.",
+     "tts": "Die Fau-O-Be Teil Be ist kein Gesetz."
+    },
+    {
+     "de": "Es sind vorformulierte Vertragsbedingungen für Bauleistungen.",
+     "ar": "إنها شروط تعاقدية مصاغة مسبقًا لأعمال البناء.",
+     "en": "They are pre-formulated contract terms for construction services."
+    },
+    {
+     "de": "Rechtlich zählen sie wie Allgemeine Geschäftsbedingungen.",
+     "ar": "وهي قانونيًا بمنزلة شروط الأعمال العامة.",
+     "en": "Legally they count like general terms and conditions."
+    },
+    {
+     "de": "Sie gelten nur, wenn die Parteien sie vereinbaren.",
+     "ar": "لا تسري إلا إذا اتفق الطرفان عليها.",
+     "en": "They apply only if the parties agree on them."
+    },
+    {
+     "de": "Bei öffentlichen Auftraggebern ist das häufig der Fall.",
+     "ar": "وهذا شائع عند الجهات العامة المُشغِّلة للمشاريع.",
+     "en": "With public clients this is often the case."
+    },
+    {
+     "de": "Ohne diese Vereinbarung gilt das Bürgerliche Gesetzbuch.",
+     "ar": "وبدون هذا الاتفاق يسري القانون المدني.",
+     "en": "Without this agreement, the Civil Code applies."
+    },
+    {
+     "de": "Prüfen Sie deshalb zuerst: Ist die VOB Teil B vereinbart?",
+     "ar": "لذلك افحصوا أولًا: هل اتُّفق على الجزء ب من VOB تعاقديًا؟",
+     "en": "So check first: is VOB Part B agreed?",
+     "tts": "Prüfen Sie deshalb zuerst: Ist die Fau-O-Be Teil Be vereinbart?"
+    },
+    {
+     "de": "Auch die Fassung kann sich ändern; achten Sie auf die vereinbarte Ausgabe.",
+     "ar": "وقد تتغير النسخة أيضًا؛ انتبهوا إلى الإصدار المتفق عليه.",
+     "en": "The version can also change; watch the agreed edition."
+    },
+    {
+     "de": "Das klingt einfach, ist es in der Praxis aber oft nicht.",
+     "ar": "يبدو ذلك بسيطًا لكنه في الواقع العملي كثيرًا ما لا يكون كذلك.",
+     "en": "That sounds simple, but in practice it often is not."
+    },
+    {
+     "de": "Fragen Sie im Zweifel Fachleute für Baurecht.",
+     "ar": "اسألوا عند الشك المختصين في قانون البناء.",
+     "en": "If in doubt, ask specialists in construction law."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Planervertrag",
+    "heading": "Planervertrag und HOAI",
+    "items": [
+     "Planungs- und Überwachungsziele",
+     "Leistung nach Stand des Projekts",
+     "Planungsgrundlage mit Kosteneinschätzung",
+     "Leistungsphasen als Orientierung"
+    ],
+    "terms": [
+     {
+      "de": "Leistungsphase",
+      "ar": "مرحلة خدمة",
+      "en": "service phase"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Als Planer haben Sie einen Ingenieurvertrag mit dem Auftraggeber.",
+     "ar": "كمخطِّط لديكم عقد هندسي مع الجهة المُشغِّلة للمشروع.",
+     "en": "As a planner you have an engineer contract with the client."
+    },
+    {
+     "de": "Geschuldet sind die Leistungen, die für die vereinbarten Ziele nötig sind.",
+     "ar": "المستحق هو الخدمات اللازمة لتحقيق الأهداف المتفق عليها.",
+     "en": "What is owed are the services needed for the agreed goals."
+    },
+    {
+     "de": "Die Ziele betreffen Planung und Überwachung.",
+     "ar": "وتتعلق الأهداف بالتخطيط والإشراف.",
+     "en": "The goals concern planning and supervision."
+    },
+    {
+     "de": "Sind wesentliche Ziele noch offen, erstellt man zuerst eine Planungsgrundlage.",
+     "ar": "وإذا بقيت أهداف أساسية مفتوحة تُعدّ أولًا أرضية للتخطيط.",
+     "en": "If essential goals are still open, you first prepare a planning basis."
+    },
+    {
+     "de": "Der Auftraggeber stimmt ihr zu, zusammen mit einer Kosteneinschätzung.",
+     "ar": "وتوافق عليها الجهة المُشغِّلة للمشروع مع تقدير للتكاليف.",
+     "en": "The client approves it, together with a cost estimate."
+    },
+    {
+     "de": "Die neun Leistungsphasen kennen Sie aus dem Video zur Elektroplanung.",
+     "ar": "مراحل الخدمة التسع تعرفونها من فيديو التخطيط الكهربائي.",
+     "en": "You know the nine service phases from the video on electrical planning."
+    },
+    {
+     "de": "Sie sind eine Orientierung; geschuldet ist der Inhalt des Vertrags.",
+     "ar": "هي مرجع إرشادي؛ والمستحق هو مضمون العقد.",
+     "en": "They are an orientation; what is owed is the content of the contract."
+    },
+    {
+     "de": "Das Honorar wird grundsätzlich frei vereinbart.",
+     "ar": "الأتعاب تُتفق بحرية من حيث المبدأ.",
+     "en": "The fee is in principle agreed freely."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Änderungen",
+    "heading": "Änderungen und Nachträge",
+    "items": [
+     "Änderungswunsch: Auftraggeber will etwas anderes",
+     "Angebot: Mehr- oder Minderkosten klären",
+     "Einigung: Vertrag wird angepasst",
+     "Schriftlich: Änderung festhalten"
+    ],
+    "terms": [
+     {
+      "de": "Nachtrag",
+      "ar": "ملحق التعديل (Nachtrag)",
+      "en": "addendum (change order)"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Im Projekt ändert sich fast immer etwas.",
+     "ar": "في المشروع يتغير شيء ما دائمًا تقريبًا.",
+     "en": "In a project something almost always changes."
+    },
+    {
+     "de": "Ein Nachtrag hält eine solche Änderung im Vertrag fest.",
+     "ar": "ملحق التعديل (Nachtrag) يثبّت هذا التغيير في العقد.",
+     "en": "An addendum records such a change in the contract."
+    },
+    {
+     "de": "Typisch ist ein Änderungswunsch des Auftraggebers.",
+     "ar": "النموذجي هو طلب تغيير من الجهة المُشغِّلة للمشروع.",
+     "en": "Typical is a change request from the client."
+    },
+    {
+     "de": "Oder eine Leistung fehlt im Vertrag, wird aber gebraucht.",
+     "ar": "أو أن خدمة غير مذكورة في العقد لكنها مطلوبة.",
+     "en": "Or a service is missing in the contract but is needed."
+    },
+    {
+     "de": "Dann erstellt der Auftragnehmer ein Angebot über Mehr- oder Minderkosten.",
+     "ar": "عندها يعدّ المقاول عرضًا بالتكاليف الإضافية أو المخفّضة.",
+     "en": "Then the contractor prepares an offer for additional or reduced costs."
+    },
+    {
+     "de": "Im Bauvertrag nach Bürgerlichem Gesetzbuch versucht man zuerst eine Einigung.",
+     "ar": "في عقد البناء وفق القانون المدني تُحاوَل التسوية بالاتفاق أولًا.",
+     "en": "In a construction contract under the Civil Code, one first tries to agree."
+    },
+    {
+     "de": "Gelingt sie nicht, kann der Auftraggeber die Änderung unter Voraussetzungen anordnen.",
+     "ar": "وإن لم تنجح فقد تطلب الجهة المُشغِّلة للمشروع التغيير بشروط معينة.",
+     "en": "If that fails, the client can order the change under conditions."
+    },
+    {
+     "de": "Die VOB Teil B unterscheidet geänderte und zusätzliche Leistungen.",
+     "ar": "الجزء ب من VOB يميّز بين الخدمات المعدّلة والإضافية.",
+     "en": "VOB Part B distinguishes changed and additional services.",
+     "tts": "Die Fau-O-Be Teil Be unterscheidet geänderte und zusätzliche Leistungen."
+    },
+    {
+     "de": "Wichtig ist, dass beide Seiten den Stand der Änderung kennen.",
+     "ar": "المهم أن يعرف الطرفان وضع التغيير.",
+     "en": "What matters is that both sides know the state of the change."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Praxis",
+    "heading": "Änderungen sauber dokumentieren",
+    "items": [
+     "Nicht nur mündlich auf der Baustelle",
+     "Vollmacht des Anordnenden prüfen",
+     "Kosten und Termine mitdenken",
+     "Beauftragung schriftlich bestätigen lassen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Hier passieren in der Praxis die meisten Fehler.",
+     "ar": "هنا تقع معظم الأخطاء في الواقع العملي.",
+     "en": "This is where most mistakes happen in practice."
+    },
+    {
+     "de": "Eine mündliche Zusage auf der Baustelle reicht oft nicht aus.",
+     "ar": "الوعد الشفهي في موقع البناء كثيرًا ما لا يكفي.",
+     "en": "A verbal promise on site is often not enough."
+    },
+    {
+     "de": "Nicht jede Person darf den Vertrag ändern.",
+     "ar": "ليس كل شخص يحق له تعديل العقد.",
+     "en": "Not every person may change the contract."
+    },
+    {
+     "de": "Ein Planer überwacht meist die Ausführung, ändert aber den Vertrag nicht allein.",
+     "ar": "المخطِّط يشرف غالبًا على التنفيذ لكنه لا يغيّر العقد بمفرده.",
+     "en": "A planner usually supervises the work, but does not change the contract alone."
+    },
+    {
+     "de": "Prüfen Sie, wer eine Vollmacht des Auftraggebers hat.",
+     "ar": "افحصوا من لديه تفويض من الجهة المُشغِّلة للمشروع.",
+     "en": "Check who has a power of attorney from the client."
+    },
+    {
+     "de": "Beschreiben Sie die Änderung und ihre Folgen für Kosten und Termine.",
+     "ar": "صفوا التغيير وآثاره على التكاليف والمواعيد.",
+     "en": "Describe the change and its effect on costs and schedule."
+    },
+    {
+     "de": "Melden Sie Mehrleistungen früh an, bevor Sie sie ausführen.",
+     "ar": "أبلغوا عن الأعمال الإضافية مبكرًا قبل تنفيذها.",
+     "en": "Announce additional work early, before you carry it out."
+    },
+    {
+     "de": "Lassen Sie sich die Beauftragung schriftlich bestätigen.",
+     "ar": "اطلبوا تأكيد التكليف كتابةً.",
+     "en": "Have the order confirmed in writing."
+    },
+    {
+     "de": "Nur so bleibt später nachvollziehbar, was vereinbart wurde.",
+     "ar": "بهذا فقط يبقى واضحًا لاحقًا ما الذي اتُّفق عليه.",
+     "en": "Only this keeps it clear later what was agreed."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Bedenken",
+    "heading": "Bedenkenanmeldung als Konzept",
+    "items": [
+     "Zweck | Risiko früh melden",
+     "Anlass | Planung, Material, Vorleistung",
+     "Empfänger | Auftraggeber, nicht nur Planer",
+     "Form | schriftlich und nachweisbar",
+     "Zeitpunkt | möglichst vor Arbeitsbeginn",
+     "Wirkung | hängt von Vertrag und Fall ab"
+    ],
+    "terms": [
+     {
+      "de": "Bedenkenanmeldung",
+      "ar": "الإخطار بالتحفظات (Bedenkenanmeldung)",
+      "en": "notice of concerns"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Jetzt zur Bedenkenanmeldung.",
+     "ar": "والآن نتناول مفهوم Bedenkenanmeldung أي الإخطار بالتحفظات.",
+     "en": "Now to the notice of concerns."
+    },
+    {
+     "de": "Sie ist eine Warnung des Auftragnehmers an den Auftraggeber.",
+     "ar": "هو تحذير من المقاول إلى الجهة المُشغِّلة للمشروع.",
+     "en": "It is a warning from the contractor to the client."
+    },
+    {
+     "de": "Anlass sind Zweifel an der geplanten Ausführung.",
+     "ar": "السبب هو شكوك في التنفيذ المخطط.",
+     "en": "The reason is doubt about the planned execution."
+    },
+    {
+     "de": "Oder Zweifel an Material, das der Auftraggeber liefert.",
+     "ar": "أو شكوك في مواد توفرها الجهة المُشغِّلة للمشروع.",
+     "en": "Or doubt about material that the client supplies."
+    },
+    {
+     "de": "Oder an der Vorleistung eines anderen Unternehmers.",
+     "ar": "أو في العمل السابق لمقاول آخر.",
+     "en": "Or about the preliminary work of another contractor."
+    },
+    {
+     "de": "Die VOB Teil B regelt dies in Paragraf vier, Absatz drei.",
+     "ar": "الجزء ب من VOB ينظّم ذلك في المادة ٤ الفقرة ٣.",
+     "en": "VOB Part B regulates this in paragraph four, subsection three.",
+     "tts": "Die Fau-O-Be Teil Be regelt dies in Paragraf vier, Absatz drei."
+    },
+    {
+     "de": "Der Hinweis soll schriftlich und nachweisbar sein, am besten vor Arbeitsbeginn.",
+     "ar": "ينبغي أن يكون التنبيه كتابيًا وقابلًا للإثبات وأفضل ذلك قبل بدء العمل.",
+     "en": "The notice should be in writing and provable, best before work starts."
+    },
+    {
+     "de": "Nur den Planer zu informieren, kann zu wenig sein.",
+     "ar": "قد لا يكفي إبلاغ المخطِّط وحده.",
+     "en": "Informing only the planner can be too little."
+    },
+    {
+     "de": "Welche rechtliche Wirkung das hat, hängt vom Vertrag und vom Fall ab.",
+     "ar": "أما الأثر القانوني فيتوقف على العقد وعلى الحالة.",
+     "en": "Which legal effect this has depends on the contract and the case."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Praxisbeispiele",
+    "heading": "Bedenken: Beispiele aus der Praxis",
+    "items": [
+     "Vorleistung passt nicht",
+     "Planung scheint nicht ausführbar",
+     "Sachlich und mit Bezug zum Plan",
+     "Sicherheit geht vor Termin"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Beispiel ist eine Vorleistung, die nicht passt.",
+     "ar": "مثال على ذلك عمل سابق لا يتوافق.",
+     "en": "One example is preliminary work that does not fit."
+    },
+    {
+     "de": "Etwa fehlende Schlitze oder Leerrohre für Ihre Leitungen.",
+     "ar": "كغياب الشقوق أو الأنابيب الفارغة لخطوطكم.",
+     "en": "For example missing slots or empty conduits for your cables."
+    },
+    {
+     "de": "Ein zweites Beispiel ist eine Planung, die Sie für nicht ausführbar halten.",
+     "ar": "ومثال ثانٍ تخطيط ترونه غير قابل للتنفيذ.",
+     "en": "A second example is a design you think cannot be built."
+    },
+    {
+     "de": "Beschreiben Sie das Problem sachlich und mit Bezug auf Plan oder Position.",
+     "ar": "صفوا المشكلة بموضوعية مع الإشارة إلى المخطط أو البند.",
+     "en": "Describe the problem objectively and refer to the drawing or item."
+    },
+    {
+     "de": "Fotos oder Skizzen helfen bei der Nachvollziehbarkeit.",
+     "ar": "الصور أو الرسوم التوضيحية تساعد على سهولة التتبع.",
+     "en": "Photos or sketches help traceability."
+    },
+    {
+     "de": "Bei Sicherheitsfragen warten Sie nicht auf einen Termin.",
+     "ar": "في أمور السلامة لا تنتظروا موعدًا.",
+     "en": "With safety questions you do not wait for an appointment."
+    },
+    {
+     "de": "Sind die fünf Sicherheitsregeln nicht vollständig umgesetzt, beginnt die Arbeit an der Anlage nicht.",
+     "ar": "وإذا لم تُنفَّذ قواعد السلامة الخمس كاملةً فلا يبدأ العمل على المنشأة.",
+     "en": "If the five safety rules are not fully implemented, work on the installation does not start."
+    },
+    {
+     "de": "Sprechen Sie sofort mit der verantwortlichen Person.",
+     "ar": "تحدثوا فورًا مع الشخص المسؤول.",
+     "en": "Speak at once with the responsible person."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Abnahme",
+    "heading": "Abnahme: Übergabe des Werks",
+    "items": [
+     "Pflicht | vertragsmäßiges Werk abnehmen",
+     "Kleine Mängel | kein Grund zur Verweigerung",
+     "Bekannte Mängel | bei Abnahme vorbehalten",
+     "Wirkung | Gewährleistungsrecht beginnt",
+     "Beweislast | wechselt meist zum Auftraggeber",
+     "Protokoll | Mängel und Termine festhalten"
+    ],
+    "terms": [
+     {
+      "de": "Abnahme",
+      "ar": "الاستلام",
+      "en": "acceptance"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Am Ende kommt die Abnahme.",
+     "ar": "في النهاية يأتي الاستلام.",
+     "en": "At the end comes acceptance."
+    },
+    {
+     "de": "Der Auftraggeber ist verpflichtet, das vertragsmäßige Werk abzunehmen.",
+     "ar": "الجهة المُشغِّلة للمشروع ملزمة باستلام العمل المطابق للعقد.",
+     "en": "The client is obliged to accept the work made according to the contract."
+    },
+    {
+     "de": "Wegen unwesentlicher Mängel darf er die Abnahme nicht verweigern.",
+     "ar": "ولا يجوز لها رفض الاستلام بسبب عيوب غير جوهرية.",
+     "en": "He may not refuse acceptance because of minor defects."
+    },
+    {
+     "de": "Kennt er einen Mangel, muss er seine Rechte bei der Abnahme vorbehalten.",
+     "ar": "وإذا عرفت عيبًا فعليها أن تحتفظ بحقوقها عند الاستلام.",
+     "en": "If he knows of a defect, he must reserve his rights at acceptance."
+    },
+    {
+     "de": "Ein Abnahmeprotokoll hält Mängel und Termine zur Beseitigung fest.",
+     "ar": "محضر الاستلام يوثّق العيوب ومواعيد معالجتها.",
+     "en": "An acceptance protocol records defects and dates for fixing them."
+    },
+    {
+     "de": "Mit der Abnahme beginnt das besondere Gewährleistungsrecht.",
+     "ar": "مع الاستلام يبدأ نظام الضمان الخاص.",
+     "en": "With acceptance, the special warranty law begins."
+    },
+    {
+     "de": "Auch die Beweislast für Mängel geht dann meist auf den Auftraggeber über.",
+     "ar": "كما ينتقل عبء إثبات العيوب عندها غالبًا إلى الجهة المُشغِّلة للمشروع.",
+     "en": "The burden of proof for defects then usually passes to the client."
+    },
+    {
+     "de": "Wie Fristen im Detail laufen, sagt der Vertrag; wir nennen hier keine.",
+     "ar": "كيف تجري المدد بالتفصيل يحدده العقد؛ ولن نذكر أي مدة هنا.",
+     "en": "How deadlines run in detail is set by the contract; we name none here."
+    },
+    {
+     "de": "Bereiten Sie die Abnahme mit Prüfprotokollen und Unterlagen vor.",
+     "ar": "حضّروا للاستلام بمحاضر الفحص والمستندات.",
+     "en": "Prepare acceptance with test protocols and documents."
+    },
+    {
+     "de": "Das vermeidet Streit und Verzögerungen am Ende.",
+     "ar": "وهذا يتجنب الخلاف والتأخير في النهاية.",
+     "en": "This avoids disputes and delays at the end."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Gewährleistung",
+    "heading": "Gewährleistung und Mängelliste",
+    "items": [
+     "Mängel gegenüber dem Auftraggeber",
+     "Beginn mit der Abnahme",
+     "Mängelliste: genau beschreiben",
+     "Begehung vor Ende der Frist"
+    ],
+    "terms": [
+     {
+      "de": "Gewährleistung",
+      "ar": "الضمان",
+      "en": "warranty"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Gewährleistung betrifft Mängel gegenüber dem Auftraggeber.",
+     "ar": "الضمان يتعلق بالعيوب تجاه الجهة المُشغِّلة للمشروع.",
+     "en": "Warranty concerns defects towards the client."
+    },
+    {
+     "de": "Sie beruht auf dem Vertrag.",
+     "ar": "وهو يستند إلى العقد.",
+     "en": "It is based on the contract."
+    },
+    {
+     "de": "Das Gewährleistungsrecht beginnt mit der Abnahme.",
+     "ar": "نظام الضمان يبدأ بالاستلام.",
+     "en": "Warranty law begins with acceptance."
+    },
+    {
+     "de": "Die Länge der Fristen ist eine Rechtsfrage und steht hier nicht.",
+     "ar": "طول المدد مسألة قانونية ولا نذكره هنا.",
+     "en": "The length of deadlines is a legal question and not stated here."
+    },
+    {
+     "de": "Eine Mängelliste sammelt alle offenen Punkte.",
+     "ar": "قائمة العيوب تجمع كل النقاط المفتوحة.",
+     "en": "A defect list collects all open points."
+    },
+    {
+     "de": "Beschreiben Sie jeden Punkt so genau, dass man ihn nach Wochen noch zuordnen kann.",
+     "ar": "صفوا كل نقطة بدقة تكفي لتمييزها بعد أسابيع.",
+     "en": "Describe each point so precisely that it can still be identified after weeks."
+    },
+    {
+     "de": "Vor Ablauf der Gewährleistung begehen Planer die Anlage oft noch einmal.",
+     "ar": "وقبل انتهاء الضمان يعاين المخطِّطون المنشأة غالبًا مرة أخرى.",
+     "en": "Before the warranty ends, planners often inspect the system once more."
+    },
+    {
+     "de": "Die Beseitigung wird verlangt, soweit der Vertrag das vorsieht.",
+     "ar": "ويُطلب إصلاحها بقدر ما ينص عليه العقد.",
+     "en": "Fixing is demanded as far as the contract provides for it."
+    },
+    {
+     "de": "Solche Mängel entstehen oft an Schnittstellen zwischen Gewerken.",
+     "ar": "مثل هذه العيوب تنشأ غالبًا عند نقاط التنسيق بين الاختصاصات.",
+     "en": "Such defects often arise at interfaces between trades."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "cards",
+    "kicker": "Qualitätsmanagement",
+    "heading": "Qualitätsmanagement und ISO 9001",
+    "items": [
+     "Ziel: Qualität planbar machen",
+     "Prozesse: Abläufe festlegen",
+     "Risiken: früh erkennen",
+     "Verbesserung: aus Fehlern lernen"
+    ],
+    "terms": [
+     {
+      "de": "Qualitätsmanagement",
+      "ar": "إدارة الجودة",
+      "en": "quality management"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Qualitätsmanagement macht gute Arbeit planbar und nachweisbar.",
+     "ar": "إدارة الجودة تجعل العمل الجيد قابلًا للتخطيط والإثبات.",
+     "en": "Quality management makes good work plannable and provable."
+    },
+    {
+     "de": "Die bekannte Norm dafür heißt ISO 9001.",
+     "ar": "المعيار المعروف لذلك يحمل الرقم ISO 9001 دوليًا.",
+     "en": "The well-known standard for it is ISO 9001.",
+     "tts": "Die bekannte Norm dafür heißt I-So neun null null eins."
+    },
+    {
+     "de": "Ihr Titel lautet: Qualitätsmanagementsysteme, Anforderungen.",
+     "ar": "وعنوانه: أنظمة إدارة الجودة، المتطلبات.",
+     "en": "Its title is: Quality management systems, requirements."
+    },
+    {
+     "de": "Sie beschreibt Anforderungen an das Managementsystem einer Organisation.",
+     "ar": "وهو يصف متطلبات نظام الإدارة في المنظمة.",
+     "en": "It describes requirements for the management system of an organisation."
+    },
+    {
+     "de": "Im September 2026 wurde eine neue Ausgabe veröffentlicht.",
+     "ar": "في سبتمبر ٢٠٢٦ نُشر إصدار جديد.",
+     "en": "A new edition was published in September 2026.",
+     "tts": "Im September zweitausendsechsundzwanzig wurde eine neue Ausgabe veröffentlicht."
+    },
+    {
+     "de": "Berichten zufolge betont sie Qualitätskultur sowie Risiken und Chancen.",
+     "ar": "وبحسب التقارير فهو يركّز على ثقافة الجودة وعلى المخاطر والفرص.",
+     "en": "According to reports, it stresses quality culture as well as risks and opportunities."
+    },
+    {
+     "de": "Welche Ausgabe Ihre Firma anwendet, fragen Sie im Betrieb.",
+     "ar": "أي إصدار تطبّقه شركتكم اسألوا عنه داخل الشركة.",
+     "en": "Which edition your company uses, ask in the company."
+    },
+    {
+     "de": "Das System hilft, Abläufe verbindlich festzulegen.",
+     "ar": "يساعد النظام على تحديد الإجراءات بشكل ملزم.",
+     "en": "The system helps to define processes in a binding way."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Prüfplan",
+    "heading": "Prüfplan: wer prüft was und wann?",
+    "items": [
+     "Welche Prüfungen sind nötig?",
+     "Wer ist zuständig?",
+     "Mit welchen Prüfgeräten?",
+     "Wann im Terminplan?",
+     "Wo steht das Ergebnis?"
+    ],
+    "terms": [
+     {
+      "de": "Prüfplan",
+      "ar": "خطة الفحص",
+      "en": "test plan"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Ein Prüfplan legt typischerweise fest, welche Prüfungen nötig sind.",
+     "ar": "خطة الفحص تحدد عادةً الفحوص اللازمة.",
+     "en": "A test plan typically defines which tests are needed."
+    },
+    {
+     "de": "Er nennt Zuständigkeiten, Prüfgeräte und Zeitpunkte.",
+     "ar": "وتذكر المسؤوليات وأجهزة الفحص والأوقات.",
+     "en": "It names responsibilities, test equipment and times."
+    },
+    {
+     "de": "So werden Prüfungen nicht vergessen.",
+     "ar": "وهكذا لا تُنسى الفحوص.",
+     "en": "So tests are not forgotten."
+    },
+    {
+     "de": "Vor der Inbetriebnahme prüft eine Elektrofachkraft die Anlage.",
+     "ar": "قبل التشغيل يفحص كهربائي مؤهَّل المنشأة.",
+     "en": "Before commissioning, a qualified electrician tests the installation."
+    },
+    {
+     "de": "Das Ergebnis gehört in ein Protokoll.",
+     "ar": "ونتيجة الفحص تُدوَّن في محضر.",
+     "en": "The result belongs in a protocol."
+    },
+    {
+     "de": "Anforderungen dazu beschreibt die Normenreihe DIN VDE 0100, Teil 600.",
+     "ar": "متطلباته تصفها سلسلة المعايير DIN VDE 0100 الجزء ٦٠٠.",
+     "en": "The standard series DIN VDE 0100, part 600, describes requirements for it.",
+     "tts": "Anforderungen dazu beschreibt die Normenreihe Din Fau-De-E null eins null null, Teil sechshundert."
+    },
+    {
+     "de": "Prüfen Sie immer die aktuelle Ausgabe.",
+     "ar": "افحصوا دائمًا الإصدار الحالي.",
+     "en": "Always check the current edition."
+    },
+    {
+     "de": "Auch Vorgaben des Auftraggebers gehören in den Prüfplan.",
+     "ar": "كما تُدرج في خطة الفحص اشتراطات الجهة المُشغِّلة للمشروع.",
+     "en": "Requirements of the client also belong in the test plan."
+    },
+    {
+     "de": "Dokumentieren Sie die Prüfung, bevor die Anlage übergeben wird.",
+     "ar": "وثّقوا الفحص قبل تسليم المنشأة.",
+     "en": "Document the test before the installation is handed over."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Dokumentation",
+    "heading": "Dokumentation im Projekt",
+    "items": [
+     "Bautagebuch",
+     "Änderungen und Bedenken schriftlich",
+     "Prüf- und Abnahmeprotokolle",
+     "Pläne nach Stand und Datum"
+    ],
+    "terms": [
+     {
+      "de": "Dokumentation",
+      "ar": "التوثيق",
+      "en": "documentation"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Gute Dokumentation schützt alle Beteiligten.",
+     "ar": "التوثيق الجيد يحمي جميع المشاركين.",
+     "en": "Good documentation protects everyone involved."
+    },
+    {
+     "de": "Ein Bautagebuch hält den Baufortschritt fortlaufend fest.",
+     "ar": "يوثّق يومية الموقع تقدّم البناء بشكل متواصل.",
+     "en": "A site diary records the construction progress continuously."
+    },
+    {
+     "de": "Änderungen und Bedenken schreiben Sie nachvollziehbar auf.",
+     "ar": "اكتبوا التغييرات والتحفظات بشكل يمكن تتبعه.",
+     "en": "Write down changes and concerns in a traceable way."
+    },
+    {
+     "de": "Prüf- und Abnahmeprotokolle zeigen den Zustand bei der Übergabe.",
+     "ar": "محاضر الفحص والاستلام تُظهر الحالة عند التسليم.",
+     "en": "Test and acceptance protocols show the state at handover."
+    },
+    {
+     "de": "Ordnen Sie Pläne nach Stand und Datum.",
+     "ar": "رتّبوا المخططات حسب الإصدار والتاريخ.",
+     "en": "Sort drawings by revision and date."
+    },
+    {
+     "de": "Das Video über Dokumente und Übergabe zeigt dazu mehr.",
+     "ar": "فيديو الوثائق والتسليم يعرض المزيد عن ذلك.",
+     "en": "The video about documents and handover shows more."
+    },
+    {
+     "de": "Gute Dokumente sind kurz, datiert und eindeutig.",
+     "ar": "الوثائق الجيدة قصيرة ومؤرَّخة وواضحة.",
+     "en": "Good documents are short, dated and clear."
+    },
+    {
+     "de": "Bei Streit helfen dann Fotos, Datum und Namen der Beteiligten.",
+     "ar": "وعند النزاع تساعد الصور والتاريخ وأسماء المشاركين.",
+     "en": "In a dispute, photos, dates and names of those involved help."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "table",
+    "kicker": "Termine",
+    "heading": "Terminplanung im Projekt",
+    "items": [
+     "Bauzeitenplan | stimmt Gewerke zeitlich ab",
+     "Balkenplan | Balken auf einer Zeitachse",
+     "Vorgänge | bauen aufeinander auf",
+     "Puffer | für Lieferung und kritische Arbeiten",
+     "Bauleitung | pflegt und steuert den Plan",
+     "Vertrag | kann Termine verbindlich machen"
+    ],
+    "terms": [
+     {
+      "de": "Bauzeitenplan",
+      "ar": "جدول زمن البناء",
+      "en": "construction schedule"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Nun zur Terminplanung.",
+     "ar": "والآن إلى تخطيط المواعيد.",
+     "en": "Now to schedule planning."
+    },
+    {
+     "de": "Ein Bauzeitenplan stimmt die Gewerke zeitlich aufeinander ab.",
+     "ar": "جدول زمن البناء ينسّق الاختصاصات زمنيًا مع بعضها.",
+     "en": "A construction schedule coordinates the trades in time."
+    },
+    {
+     "de": "Häufig ist er ein Balkenplan nach Kalenderwochen.",
+     "ar": "وغالبًا يكون مخططًا بالأعمدة حسب الأسابيع التقويمية.",
+     "en": "Often it is a bar chart by calendar weeks."
+    },
+    {
+     "de": "Eine gesetzliche Pflicht dafür gibt es nicht.",
+     "ar": "لا يوجد واجب قانوني لذلك.",
+     "en": "There is no legal duty for it."
+    },
+    {
+     "de": "Oft wird er aber Vertragsbestandteil.",
+     "ar": "لكنه كثيرًا ما يصبح جزءًا من العقد.",
+     "en": "But often it becomes part of the contract."
+    },
+    {
+     "de": "Ob Termine verbindlich sind, hängt dann vom Vertrag ab.",
+     "ar": "وهل المواعيد ملزمة يتوقف عندئذٍ على العقد.",
+     "en": "Whether dates are binding then depends on the contract."
+    },
+    {
+     "de": "Die Bauleitung pflegt den Plan und steuert bei Abweichungen nach.",
+     "ar": "إدارة الموقع تحدّث الجدول وتصحّح المسار عند الانحرافات.",
+     "en": "The site management maintains the plan and corrects course when things deviate."
+    },
+    {
+     "de": "Planen Sie Puffer für Lieferzeiten und kritische Arbeiten ein.",
+     "ar": "ضعوا في الحسبان مهلًا احتياطية لأوقات التوريد والأعمال الحرجة.",
+     "en": "Plan buffers for delivery times and critical work."
+    },
+    {
+     "de": "Ein Plan, den niemand pflegt, hilft niemandem.",
+     "ar": "جدول لا يحدّثه أحد لا يفيد أحدًا.",
+     "en": "A plan that nobody maintains helps nobody."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "bullets",
+    "kicker": "Schnittstellen",
+    "heading": "Schnittstellen zwischen den Gewerken",
+    "items": [
+     "Rohbau: Schlitze, Schächte, Leerrohre",
+     "Brandschutz: früh abgleichen",
+     "Netzbetreiber: Netzanschluss früh klären",
+     "Automation und HLS: Signale abstimmen"
+    ],
+    "terms": [
+     {
+      "de": "Schnittstelle",
+      "ar": "نقطة التنسيق بين الاختصاصات (Schnittstelle)",
+      "en": "interface"
+     },
+     {
+      "de": "Gewerk",
+      "ar": "الاختصاص (Gewerk)",
+      "en": "trade"
+     }
+    ]
+   },
+   "lines": [
+    {
+     "de": "Viele Verzögerungen entstehen an den Übergaben zwischen Gewerken.",
+     "ar": "تحدث تأخيرات كثيرة عند التسليم بين الاختصاصات.",
+     "en": "Many delays arise at the handovers between trades."
+    },
+    {
+     "de": "Klären Sie früh, welche Arbeiten aufeinander aufbauen.",
+     "ar": "وضّحوا مبكرًا أي الأعمال يبنى بعضها على بعض.",
+     "en": "Clarify early which work builds on which."
+    },
+    {
+     "de": "Mit der Architektur stimmen Sie Schächte und Technikflächen ab.",
+     "ar": "مع العمارة تنسّقون المناور ومساحات التقنية.",
+     "en": "With the architecture you coordinate shafts and technical areas."
+    },
+    {
+     "de": "Die Elektroplanung gleichen Sie früh mit dem Brandschutzkonzept ab.",
+     "ar": "وتطابقون التخطيط الكهربائي مبكرًا مع مفهوم الحماية من الحريق.",
+     "en": "You align the electrical design early with the fire protection concept."
+    },
+    {
+     "de": "Mit dem Netzbetreiber sprechen Sie früh über den Netzanschluss.",
+     "ar": "ومع مشغّل الشبكة تتحدثون مبكرًا عن التوصيل بالشبكة.",
+     "en": "You talk early with the grid operator about the grid connection."
+    },
+    {
+     "de": "Mit Automation und HLS klären Sie Signale und Zuständigkeiten.",
+     "ar": "ومع الأتمتة ومع التدفئة والتهوية والصرف الصحي توضّحون الإشارات والمسؤوليات.",
+     "en": "With automation and HVAC you clarify signals and responsibilities.",
+     "tts": "Mit Automation und Ha-El-Es klären Sie Signale und Zuständigkeiten."
+    },
+    {
+     "de": "Halten Sie Absprachen in Protokollen fest.",
+     "ar": "دوّنوا الاتفاقات في محاضر.",
+     "en": "Record agreements in minutes."
+    },
+    {
+     "de": "Jede Verzögerung bei einer Vorleistung trifft das nächste Gewerk.",
+     "ar": "كل تأخير في عمل سابق يؤثر على الاختصاص التالي.",
+     "en": "Every delay in preliminary work hits the next trade."
+    }
+   ]
+  },
+  {
+   "slide": {
+    "layout": "summary",
+    "kicker": "Zusammenfassung",
+    "heading": "Zusammenfassung und Hinweis",
+    "items": [
+     "Rollen und Vertrag klären",
+     "Änderungen und Bedenken schriftlich",
+     "Abnahme und Gewährleistung nach Vertrag",
+     "Prüfpläne, Dokumente, Termine",
+     "Aktuelle Fassungen prüfen"
+    ]
+   },
+   "lines": [
+    {
+     "de": "Fassen wir zusammen.",
+     "ar": "لنلخّص.",
+     "en": "Let us summarise."
+    },
+    {
+     "de": "Rollen und Vertrag bestimmen, wer was schuldet.",
+     "ar": "الأدوار والعقد يحددان من مدين بماذا.",
+     "en": "Roles and contract determine who owes what."
+    },
+    {
+     "de": "Änderungen und Bedenken gehören in nachvollziehbare schriftliche Form.",
+     "ar": "التغييرات والتحفظات مكانها شكل كتابي يمكن تتبعه.",
+     "en": "Changes and concerns belong in a traceable written form."
+    },
+    {
+     "de": "Abnahme und Gewährleistung folgen dem Vertrag.",
+     "ar": "الاستلام والضمان يتبعان العقد.",
+     "en": "Acceptance and warranty follow the contract."
+    },
+    {
+     "de": "Qualität entsteht durch Prüfpläne, Dokumentation und gute Termine.",
+     "ar": "الجودة تنشأ من خطط الفحص والتوثيق والمواعيد الجيدة.",
+     "en": "Quality comes from test plans, documentation and good schedules."
+    },
+    {
+     "de": "Gesetze, Verträge und Normen ändern sich; prüfen Sie immer die aktuelle Fassung.",
+     "ar": "القوانين والعقود والمعايير تتغير؛ افحصوا دائمًا النسخة الحالية.",
+     "en": "Laws, contracts and standards change; always check the current version."
+    },
+    {
+     "de": "Dieses Video ist eine allgemeine Information und keine Rechts- oder Ingenieurberatung.",
+     "ar": "هذا الفيديو معلومات عامة وليس استشارة قانونية أو هندسية.",
+     "en": "This video is general information and not legal or engineering advice."
+    },
+    {
+     "de": "Merken Sie sich: Der Vertrag entscheidet, und Schriftliches schafft Klarheit.",
+     "ar": "تذكروا: العقد هو الحاسم، والكتابة تصنع الوضوح.",
+     "en": "Remember: the contract decides, and written records create clarity."
+    },
+    {
+     "de": "Vielen Dank fürs Zuschauen.",
+     "ar": "شكرًا على المتابعة.",
+     "en": "Thank you for watching."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "de": "der Auftraggeber",
+   "ar": "الجهة المُشغِّلة للمشروع (صاحب المشروع)",
+   "en": "client (owner)"
+  },
+  {
+   "de": "der Auftragnehmer",
+   "ar": "المقاول",
+   "en": "contractor"
+  },
+  {
+   "de": "der Planer",
+   "ar": "المخطِّط",
+   "en": "planner"
+  },
+  {
+   "de": "der Bauleiter",
+   "ar": "مدير الموقع (Bauleiter)",
+   "en": "site manager"
+  },
+  {
+   "de": "die Elektrofachkraft",
+   "ar": "الكهربائي المؤهَّل (Elektrofachkraft)",
+   "en": "qualified electrician"
+  },
+  {
+   "de": "das Gewerk",
+   "ar": "الاختصاص (Gewerk)",
+   "en": "trade"
+  },
+  {
+   "de": "der Werkvertrag",
+   "ar": "عقد المقاولة",
+   "en": "contract for work"
+  },
+  {
+   "de": "der Mangel",
+   "ar": "العيب",
+   "en": "defect"
+  },
+  {
+   "de": "der Nachtrag",
+   "ar": "ملحق التعديل (Nachtrag)",
+   "en": "addendum (change order)"
+  },
+  {
+   "de": "die Bedenkenanmeldung",
+   "ar": "الإخطار بالتحفظات (Bedenkenanmeldung)",
+   "en": "notice of concerns"
+  },
+  {
+   "de": "die Abnahme",
+   "ar": "الاستلام",
+   "en": "acceptance"
+  },
+  {
+   "de": "die Gewährleistung",
+   "ar": "الضمان",
+   "en": "warranty"
+  },
+  {
+   "de": "das Qualitätsmanagement",
+   "ar": "إدارة الجودة",
+   "en": "quality management"
+  },
+  {
+   "de": "der Prüfplan",
+   "ar": "خطة الفحص",
+   "en": "test plan"
+  },
+  {
+   "de": "die Dokumentation",
+   "ar": "التوثيق",
+   "en": "documentation"
+  },
+  {
+   "de": "der Bauzeitenplan",
+   "ar": "جدول زمن البناء",
+   "en": "construction schedule"
+  },
+  {
+   "de": "die Schnittstelle",
+   "ar": "نقطة التنسيق بين الاختصاصات (Schnittstelle)",
+   "en": "interface"
+  }
+ ],
+ "quiz": [
+  {
+   "q": {
+    "de": "Wann gilt die VOB Teil B?",
+    "ar": "متى يسري الجزء ب من VOB؟",
+    "en": "When does VOB Part B apply?"
+   },
+   "options": [
+    {
+     "de": "Immer automatisch",
+     "ar": "دائمًا تلقائيًا",
+     "en": "Always automatically"
+    },
+    {
+     "de": "Nur wenn sie vereinbart ist",
+     "ar": "فقط إذا اتُّفق عليه",
+     "en": "Only if it is agreed"
+    },
+    {
+     "de": "Nur bei Privatkunden",
+     "ar": "فقط مع العملاء الأفراد",
+     "en": "Only with private customers"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was ist eine Bedenkenanmeldung?",
+    "ar": "ما هو الإخطار بالتحفظات؟",
+    "en": "What is a notice of concerns?"
+   },
+   "options": [
+    {
+     "de": "Warnung des Auftragnehmers an den Auftraggeber",
+     "ar": "تحذير من المقاول إلى الجهة المُشغِّلة للمشروع",
+     "en": "Warning from the contractor to the client"
+    },
+    {
+     "de": "Rechnung für Mehrkosten",
+     "ar": "فاتورة بتكاليف إضافية",
+     "en": "Invoice for extra costs"
+    },
+    {
+     "de": "Prüfbericht der Elektrofachkraft",
+     "ar": "تقرير فحص من الكهربائي المؤهَّل",
+     "en": "Test report by the qualified electrician"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "q": {
+    "de": "Was passiert mit der Abnahme?",
+    "ar": "ماذا يحدث مع الاستلام؟",
+    "en": "What happens with acceptance?"
+   },
+   "options": [
+    {
+     "de": "Der Vertrag endet ohne Folgen",
+     "ar": "ينتهي العقد دون آثار",
+     "en": "The contract ends without consequences"
+    },
+    {
+     "de": "Der Planer wechselt",
+     "ar": "يتغير المخطِّط",
+     "en": "The planner changes"
+    },
+    {
+     "de": "Gewährleistungsrecht beginnt, Beweislast wechselt meist",
+     "ar": "يبدأ نظام الضمان وينتقل عبء الإثبات غالبًا",
+     "en": "Warranty law begins, burden of proof usually shifts"
+    }
+   ],
+   "answer": 2
+  },
+  {
+   "q": {
+    "de": "Wer darf Arbeiten an elektrischen Anlagen ausführen?",
+    "ar": "من يجوز له تنفيذ الأعمال على المنشآت الكهربائية؟",
+    "en": "Who may carry out work on electrical installations?"
+   },
+   "options": [
+    {
+     "de": "Jeder mit Ingenieurtitel",
+     "ar": "كل من يحمل لقب مهندس",
+     "en": "Anyone with an engineering title"
+    },
+    {
+     "de": "Elektrofachkraft oder unter ihrer Leitung und Aufsicht",
+     "ar": "كهربائي مؤهَّل أو تحت إدارته وإشرافه",
+     "en": "A qualified electrician or under that person's direction and supervision"
+    },
+    {
+     "de": "Nur der Auftraggeber",
+     "ar": "الجهة المُشغِّلة للمشروع فقط",
+     "en": "Only the client"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "q": {
+    "de": "Was legt ein Prüfplan typischerweise fest?",
+    "ar": "ماذا تحدد خطة الفحص عادةً؟",
+    "en": "What does a test plan typically define?"
+   },
+   "options": [
+    {
+     "de": "Nur den Preis",
+     "ar": "السعر فقط",
+     "en": "Only the price"
+    },
+    {
+     "de": "Nur die Farbe der Kabel",
+     "ar": "لون الكابلات فقط",
+     "en": "Only the colour of the cables"
+    },
+    {
+     "de": "Prüfungen, Zuständigkeiten und Zeitpunkte",
+     "ar": "الفحوص والمسؤوليات والأوقات",
+     "en": "Tests, responsibilities and times"
+    }
+   ],
+   "answer": 2
+  }
+ ],
+ "next": {
+  "de": "Im nächsten Video beginnt die Softwareserie: EPLAN und die Elektroplanung am Rechner.",
+  "ar": "في الفيديو القادم تبدأ سلسلة البرمجيات: برنامج EPLAN والتخطيط الكهربائي على الحاسوب.",
+  "en": "The next video starts the software series: EPLAN and electrical planning on the computer."
+ },
+ "stand": "2026-10-21; vor Veröffentlichung prüfen: Wortlaut §§ 631, 633, 640, 650a, 650b, 650p BGB (gesetze-im-internet.de), geltende Fassung der VOB/B und § 4 Abs. 3 und § 2 Abs. 5/6 (nur Ratgeberquellen), Bauleiter-Rollen nach Landesbauordnung, ISO 9001:2026 (Veröffentlichung 16.09.2026) und Status der DIN-EN-Fassung, DIN VDE 0100-600 Ausgabe, HOAI-Fassung, DGUV Vorschrift 3, fünf Sicherheitsregeln (E-F05); bewusst keine Fristen genannt"
+}
