@@ -1,1 +1,1 @@
-{"action":"build","video":["scripts/E/05-dialux.json","scripts/E/06-autocad-electrical.json"],"synthesize":true,"burn":true,"rev":1}
+{"action": "build", "video": ["scripts/E/05-dialux.json", "scripts/E/06-autocad-electrical.json"], "synthesize": true, "burn": true, "rev": 2}
