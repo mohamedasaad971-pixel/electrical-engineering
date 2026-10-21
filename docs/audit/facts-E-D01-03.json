@@ -1,0 +1,394 @@
+[
+ {
+  "video": "E-D02",
+  "scene": 14,
+  "line": 5,
+  "severity": "error",
+  "issue": "Falsch/irreführend und im Widerspruch zu E-D03 S14 und Fakt (§ 640 BGB): Die rechtlichen Folgen der Abnahme (Beginn der Mängelrechte/Verjährung, Beweislast) ergeben sich aus Gesetz (BGB) bzw. VOB/B und Vertrag, nicht allein aus dem Vertrag. Rechtsfolgen der Abnahme stehen auf der dropped-Liste (Rechtsberatung).",
+  "suggested_fix": "DE: Welche Folgen die Abnahme rechtlich hat, hängt von Gesetz und Vertrag ab. | AR: أما الآثار القانونية للاستلام فتتوقف على القانون والعقد. | EN: What legal consequences acceptance has depends on the law and the contract."
+ },
+ {
+  "video": "E-D02",
+  "scene": 14,
+  "line": 0,
+  "severity": "error",
+  "issue": "Folienpunkt 'Vertrag: Regelt die Rechtsfolgen' wiederholt dieselbe Falschaussage.",
+  "suggested_fix": "DE: Folienpunkt 4 = 'Gesetz und Vertrag: Rechtsfolgen' (Karte, ≤50 Zeichen)"
+ },
+ {
+  "video": "E-D02",
+  "scene": 15,
+  "line": 5,
+  "severity": "error",
+  "issue": "TTS falsch: 'achtzig-zwei-null-sieben-neun' liest 82079 als achtzig, zwei, null, sieben, neun. Zahl muss gemäß TERMS ausgeschrieben werden; außerdem 'I-Triple-E' nicht im deutschen Buchstabierstil.",
+  "suggested_fix": "TTS: Für Anleitungen gibt es die Norm Din E-En I-E-Ze I-E-E-E zweiundachtzigtausendneunundsiebzig Strich eins."
+ },
+ {
+  "video": "E-D02",
+  "scene": 8,
+  "line": 6,
+  "severity": "error",
+  "issue": "Zeile steht nach 'Am Ende bewerten Sie ...' und sagt 'Erst dann folgt die Messung': suggeriert, gemessen werde nach der Bewertung; der Bezug (Besichtigen/Erproben vor Messen) fehlt, und die Reihenfolge ist nicht durch die Fakten belegt. Verwirrend für Lernende.",
+  "suggested_fix": "DE: Zuerst besichtigen Sie, dann erproben Sie, und danach folgt die Messung. | AR: تعاينون أولًا ثم تختبرون، وبعد ذلك يأتي القياس. | EN: First you inspect, then you test, and after that comes the measurement. (Zeile direkt hinter L4 platzieren oder L6-L8 vor L5 stellen; L7/L8 'spart Zeit und schützt die Geräte' streichen, nicht belegt)"
+ },
+ {
+  "video": "E-D03",
+  "scene": 14,
+  "line": 8,
+  "severity": "error",
+  "issue": "'Wie Fristen im Detail laufen, sagt der Vertrag': Fristen (u. a. Verjährung) ergeben sich zunächst aus dem Gesetz, VOB/B oder Vertrag; Aussage ist zu absolut und widerspricht S15 L4 ('Rechtsfrage') und E-F03 (nennt gesetzliche Fristen).",
+  "suggested_fix": "DE: Wie Fristen im Detail laufen, hängt von Gesetz und Vertrag ab; wir nennen hier keine. | AR: كيف تجري المدد بالتفصيل يتوقف على القانون والعقد؛ ولن نذكر أي مدة هنا. | EN: How deadlines run in detail depends on the law and the contract; we name none here."
+ },
+ {
+  "video": "E-D03",
+  "scene": 21,
+  "line": 4,
+  "severity": "error",
+  "issue": "'Abnahme und Gewährleistung folgen dem Vertrag' (und Folienpunkt 'nach Vertrag'): ignoriert die gesetzlichen Regeln (§§ 640, 634 ff. BGB), die S14 selbst nennt; Selbstwiderspruch.",
+  "suggested_fix": "DE: Abnahme und Gewährleistung folgen Gesetz und Vertrag. | AR: الاستلام والضمان يتبعان القانون والعقد. | EN: Acceptance and warranty follow the law and the contract. (Folie: 'Abnahme und Gewährleistung: Gesetz und Vertrag')"
+ },
+ {
+  "video": "E-D03",
+  "scene": 15,
+  "line": 2,
+  "severity": "risk",
+  "issue": "'Sie [Gewährleistung] beruht auf dem Vertrag.' Mängelrechte beim Werkvertrag folgen aus dem Gesetz (§§ 633-634 BGB) und ggf. VOB/B; absolute Aussage. (E-F03 sagt ebenfalls 'Grundlage: Vertrag', dort ebenfalls zu verkürzt.)",
+  "suggested_fix": "DE: Sie ergibt sich aus Gesetz und Vertrag. | AR: وهو ينشأ من القانون والعقد. | EN: It arises from the law and the contract."
+ },
+ {
+  "video": "E-D03",
+  "scene": 15,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Die Beseitigung wird verlangt, soweit der Vertrag das vorsieht': Nacherfüllung ist gesetzlicher Mängelrecht-Anspruch; Aussage unbelegt und rechtlich verkürzt.",
+  "suggested_fix": "DE: Ob und wie eine Beseitigung verlangt werden kann, hängt von Gesetz und Vertrag ab. | AR: وإمكانية المطالبة بالإصلاح وكيفيتها تتوقف على القانون والعقد. | EN: Whether and how fixing can be demanded depends on the law and the contract."
+ },
+ {
+  "video": "E-D03",
+  "scene": 14,
+  "line": 4,
+  "severity": "risk",
+  "issue": "§ 640 Abs. 3 BGB betrifft nur bestimmte Mängelrechte; 'muss seine Rechte vorbehalten' ist absolut (Fakt: 'behält bestimmte Mängelrechte nur, wenn ...'). Auch unklar, dass die Szene BGB-Recht beschreibt (bei VOB/B gelten Abweichungen).",
+  "suggested_fix": "DE: Kennt er einen Mangel, behält er bestimmte Mängelrechte nur, wenn er sie bei der Abnahme vorbehält. | AR: وإذا عرف عيبًا فلا يحتفظ ببعض حقوق العيوب إلا إذا تحفّظ عليها عند الاستلام. | EN: If he knows of a defect, he keeps certain defect rights only if he reserves them at acceptance. (Folie Zeile 3: 'Bekannte Mängel | Rechte bei Abnahme vorbehalten'; Kicker 'Abnahme nach BGB')"
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 10,
+  "severity": "risk",
+  "issue": "'Anlagen müssen sicher und im Betrieb zuverlässig sein.' steht in keinem Fakt, wirkt als Rechtsaussage (EnWG-Anforderung) ohne Quelle und steht ohne Bezug am Szenenende.",
+  "suggested_fix": "delete"
+ },
+ {
+  "video": "E-D03",
+  "scene": 11,
+  "line": 1,
+  "severity": "risk",
+  "issue": "'Hier passieren in der Praxis die meisten Fehler.' unbelegte Superlativ-Aussage.",
+  "suggested_fix": "DE: Hier entstehen in der Praxis leicht Missverständnisse. | AR: هنا تنشأ في الواقع العملي سوء فهم بسهولة. | EN: This is where misunderstandings easily arise in practice."
+ },
+ {
+  "video": "E-D03",
+  "scene": 11,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'Nur so bleibt später nachvollziehbar ...' absolut; Nachweisbarkeit ist Praxisempfehlung, nicht Rechtspflicht (Fakt: 'Praxisempfehlung').",
+  "suggested_fix": "DE: So bleibt später besser nachvollziehbar, was vereinbart wurde. | AR: هكذا يسهل لاحقًا معرفة ما اتُّفق عليه. | EN: This makes it easier later to see what was agreed."
+ },
+ {
+  "video": "E-D03",
+  "scene": 19,
+  "line": 4,
+  "severity": "risk",
+  "issue": "'Eine gesetzliche Pflicht dafür gibt es nicht.' Absolute Rechtsaussage, nur aus Ratgebern (Fakt hat confidence medium; z. B. öffentliche Aufträge/Vertragsfristen können Terminpläne verlangen).",
+  "suggested_fix": "DE: Eine allgemeine gesetzliche Pflicht dafür kennen wir nicht; das Wichtigste steht im Vertrag. | AR: لا نعرف واجبًا قانونيًا عامًا لذلك؛ والأهم مذكور في العقد. | EN: We know of no general legal duty for it; the key points are in the contract."
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Folienpunkt 1 'Elektrofachkraft oder unter ihrer Aufsicht' verkürzt die Formel (fehlt 'Leitung und'); Pflichtformulierung gemäß E-F04/TERMS.",
+  "suggested_fix": "DE: 'Elektrofachkraft oder unter Leitung und Aufsicht' (Folienpunkt 1)"
+ },
+ {
+  "video": "E-D02",
+  "scene": 1,
+  "line": 3,
+  "severity": "risk",
+  "issue": "'gehört zu jeder Anlage ein Paket aus Unterlagen' absolute Aussage; Fakten sprechen von typischen/vertraglich geforderten Unterlagen, Umfang regelt oft der Vertrag (S2 L4).",
+  "suggested_fix": "DE: In Deutschland gehört zu einer Anlage in der Regel ein Paket aus Unterlagen. | AR: في ألمانيا يرافق المنشأة عادةً حزمة من المستندات. | EN: In Germany, an installation usually comes with a package of documents."
+ },
+ {
+  "video": "E-D02",
+  "scene": 19,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Ohne ... ist die Übergabe unvollständig' absolut; widerspricht S2/S6 (Vertrag regelt Umfang) und der Aussage zur Abnahmewirkung.",
+  "suggested_fix": "DE: Ohne Pläne, Messwerte und Anleitung ist die Übergabe in der Regel unvollständig; der Vertrag legt die Details fest. | AR: بدون مخططات وقيم قياس ودليل يكون التسليم عادةً ناقصًا، والعقد يحدد التفاصيل. | EN: Without plans, measured values and instructions the handover is usually incomplete; the contract sets the details."
+ },
+ {
+  "video": "E-D02",
+  "scene": 14,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Übergabe-Inhalte (Einweisung für den Betreiber, Restpunkte/offene Mängel, Einweisung 'an der Anlage', S14 L10-11) stehen in keinem Fakt (nur 'Übergabeprotokoll = Liste der übergebenen Unterlagen', confidence low). 'Mängel' berührt außerdem Rechtsfolgen der Abnahme (dropped).",
+  "suggested_fix": "DE (L3): Oft gibt es eine Einweisung für den Betreiber, der Vertrag legt das fest. | L10-L11 und Folienkarte 'Restpunkte: Offene Mängel notieren' streichen bzw. ersetzen durch 'Restpunkte: Offene Punkte notieren' | AR: وغالبًا توجد تعليمات تشغيل للمشغّل، والعقد يحدد ذلك. | EN: There is often an instruction session for the operator; the contract sets this."
+ },
+ {
+  "video": "E-D02",
+  "scene": 15,
+  "line": 8,
+  "severity": "risk",
+  "issue": "Inhalte einer Betriebsanleitung (Warnhinweise, Ansprechpartner, Normalbetrieb/Störung/Instandhaltung, S15 L2-4, L8, L10 und Folie) sind nicht in den Fakten (82079-1: nur 'allgemeine Grundsätze'; Ausgabe laut Recherche vor Veröffentlichung zu prüfen). Norm gilt für Produktanleitungen; Gleichsetzung mit Anlagen-Betriebsanleitung ungeprüft.",
+  "suggested_fix": "DE: Sie sollte typischerweise Hinweise zur Bedienung enthalten; Umfang und Form legt der Vertrag fest. | AR: ينبغي أن يتضمن عادةً إرشادات للتشغيل، والعقد يحدد النطاق والشكل. | EN: It should typically contain operating instructions; scope and form are set by the contract. (L8 und L10 streichen)"
+ },
+ {
+  "video": "E-D02",
+  "scene": 7,
+  "line": 2,
+  "severity": "risk",
+  "issue": "'Sie gilt für neue, erweiterte oder geänderte Anlagen' und L8 'kann schon beim Bau stattfinden' sind nicht in den Fakten (dropped: Normtext/Geltungsbereich bewusst nicht genannt). L8 'kaum noch möglich' ist zudem sachlich ungenau (Teile nicht mehr zugänglich).",
+  "suggested_fix": "DE (L2): Sie findet nach Fertigstellung statt, auch Erweiterungen und Änderungen werden geprüft. | L8 streichen | AR: تجري بعد الاكتمال، وتُفحص أيضًا التوسعات والتعديلات. | EN: It takes place after completion; extensions and changes are inspected as well."
+ },
+ {
+  "video": "E-D02",
+  "scene": 5,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'Jede Änderung braucht einen Revisionsstand mit Datum' absolut/nicht in Fakten (Revisionsstand-Praxis); als Pflicht formuliert.",
+  "suggested_fix": "DE: Es empfiehlt sich, jede Änderung mit Revisionsstand und Datum festzuhalten. | AR: يُستحسن توثيق كل تعديل بحالة مراجعة وتاريخ. | EN: It is advisable to record every change with a revision status and date."
+ },
+ {
+  "video": "E-D02",
+  "scene": 12,
+  "line": 11,
+  "severity": "risk",
+  "issue": "'Eine Unterschrift ohne Namen reicht nicht.' absolute Aussage, nicht belegt (Fakt: nur typische Angaben; dropped: 'nicht normkonform' unbelegt).",
+  "suggested_fix": "DE: Zum Protokoll gehören typischerweise Name, Datum und Unterschrift. | AR: يتضمن المحضر عادةً الاسم والتاريخ والتوقيع. | EN: A report typically includes name, date and signature."
+ },
+ {
+  "video": "E-D02",
+  "scene": 11,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Ein Multimeter ersetzt kein Isolationsmessgerät' nicht in Fakten; pauschal.",
+  "suggested_fix": "DE: Für die Isolationsmessung braucht man ein dafür geeignetes Messgerät. | AR: لقياس العزل يلزم جهاز مناسب لذلك. | EN: For insulation measurement you need a suitable instrument."
+ },
+ {
+  "video": "E-D02",
+  "scene": 9,
+  "line": 8,
+  "severity": "risk",
+  "issue": "'Nicht jeder Prüfschritt läuft im spannungsfreien Zustand' ist nicht belegt und steht neben den fünf Regeln ohne Einordnung; kann als Erlaubnis missverstanden werden (Sicherheitsrisiko). Zusätzlich fehlt 'unter Spannung stehende' in Regel 5 (L6).",
+  "suggested_fix": "DE: Ein Hinweis: Welche Prüfschritte unter Spannung nötig sind und wie, regeln Norm und Betrieb; dafür sind Sie als Ingenieur nicht ohne Freigabe zuständig. | L6: ... benachbarte, unter Spannung stehende Teile abdecken oder abschranken. | AR: ... تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز. | EN: A note: which test steps need voltage, and how, is set by the standards and the company."
+ },
+ {
+  "video": "E-D02",
+  "scene": 17,
+  "line": 2,
+  "severity": "risk",
+  "issue": "'Eine feste Zahl für alle Fälle gibt es nicht': Die Durchführungsanweisung zu DGUV V3 § 5 enthält Richtwerte (Tabelle 1A, z. B. 4 Jahre ortsfeste Anlagen, 6 Monate RCD; nur sekundär verifiziert). Aussage kann Lernende irreführen; zugleich dürfen Zahlen laut dropped nicht genannt werden.",
+  "suggested_fix": "DE: Eine verbindliche feste Zahl für alle Fälle nennt die Vorschrift nicht. | AR: لا تذكر اللائحة رقمًا ملزمًا ثابتًا لجميع الحالات. | EN: The regulation names no binding fixed number for all cases."
+ },
+ {
+  "video": "E-D02",
+  "scene": 18,
+  "line": 9,
+  "severity": "risk",
+  "issue": "'Die Verantwortung ... bleibt beim Betreiber' (auch Folie S13 'Betreiber | Bleibt verantwortlich') ist Rechtsaussage ohne Fakt, absolut.",
+  "suggested_fix": "DE: Die Verantwortung für den sicheren Betrieb liegt in der Regel beim Betreiber. | AR: تقع المسؤولية عن التشغيل الآمن عادةً على المشغّل. | EN: Responsibility for safe operation usually lies with the operator."
+ },
+ {
+  "video": "E-D02",
+  "scene": 13,
+  "line": 11,
+  "severity": "risk",
+  "issue": "'Das schützt Sie und Ihr Unternehmen' / S3 L9 'Gute Unterlagen schützen auch Sie selbst' impliziert rechtlichen Schutz (Haftungsfrage, kein Fakt).",
+  "suggested_fix": "DE (S13 L11): Das hilft, Fehler zu vermeiden. | AR: هذا يساعد على تجنب الأخطاء. | EN: That helps avoid mistakes. (S3 L9-L10 ebenso: 'Gute Unterlagen helfen auch Ihnen, nachzuvollziehen, was Sie wann getan haben.')"
+ },
+ {
+  "video": "E-D01",
+  "scene": 20,
+  "line": 3,
+  "severity": "risk",
+  "issue": "Rufbereitschaft: 'Ort selbst wählen' / Quiz 'der Ort ist frei' / Folie 'Ort frei' ist absolut; Fakt: Ort wählbar, aber erreichbar UND einsatzbereit. In der Praxis muss der Einsatzort in angemessener Zeit erreichbar sein.",
+  "suggested_fix": "DE: Bei Rufbereitschaft wählen Sie den Ort selbst, müssen aber erreichbar und einsatzbereit sein. | AR: وفي Rufbereitschaft تختارون المكان بأنفسكم لكن يجب أن تكونوا متاحين وجاهزين للعمل. | EN: With Rufbereitschaft you choose the place yourself but must be reachable and ready for work. | Quiz-Option: 'Man muss erreichbar und einsatzbereit sein, der Ort ist wählbar' | AR: يجب أن تكون متاحًا وجاهزًا والمكان قابل للاختيار | Folie: 'Rufbereitschaft: erreichbar, Ort wählbar'"
+ },
+ {
+  "video": "E-D01",
+  "scene": 13,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Folienpunkt 4 'Erden und Kurzschließen; 5 Abdecken' verkürzt Regel 5 (fehlt 'benachbarte Teile abdecken oder abschranken'); Regeln dürfen nie verkürzt werden. 'Slide mit zwei Regeln in einem Punkt' weicht von E-F05 ab.",
+  "suggested_fix": "DE: Folie 5 Punkte: '1 Freischalten' | '2 Gegen Wiedereinschalten sichern' | '3 Spannungsfreiheit allpolig feststellen' | '4 Erden und Kurzschließen' | '5 Nachbarteile abdecken/abschranken' (Layout bullets statt cards)"
+ },
+ {
+  "video": "E-D01",
+  "scene": 16,
+  "line": 0,
+  "severity": "risk",
+  "issue": "Folie 'Selbstvorstellung | Ihr Weg in zwei Minuten': Zahl nicht in Fakten, widerspricht E-F07 ('Vorstellung in 20 Sekunden'). Auch 'Hand geben' nicht in Fakten.",
+  "suggested_fix": "DE: 'Selbstvorstellung | Ihr Weg in kurzen Worten' und 'Begrüßung | Begrüßung, kurzer Smalltalk'"
+ },
+ {
+  "video": "E-D01",
+  "scene": 18,
+  "line": 6,
+  "severity": "risk",
+  "issue": "'zwei Fragen zur Stelle' (Folie + Zeile) und 'fünf typische Fragen': Zahlen/Typizität nicht in Fakten (dropped: typische Interviewfragen für Elektroingenieure). Als typisch für Elektroingenieure in Deutschland darf nichts behauptet werden.",
+  "suggested_fix": "DE: Zum Schluss stellen Sie eigene Fragen zur Stelle, zum Beispiel zum Team. | AR: وفي الختام اطرحوا أسئلتكم الخاصة عن الوظيفة، مثلًا عن الفريق. | EN: At the end ask your own questions about the position, for example about the team. | Folie: 'Haben Sie Fragen? | Eigene Fragen zur Stelle'; L1: 'Hier sind fünf Fragen, wie sie oft vorkommen, mit einer Idee für die Antwort.'"
+ },
+ {
+  "video": "E-D01",
+  "scene": 7,
+  "line": 5,
+  "severity": "risk",
+  "issue": "Schutzklasse II ist 'doppelte oder verstärkte Isolierung'; nur 'verstärkte' ist unvollständig (Fakt hat dieselbe Verkürzung). Fachlich ungenau.",
+  "suggested_fix": "DE: Klasse zwei hat doppelte oder verstärkte Isolierung. | AR: الفئة الثانية لها عزل مزدوج أو معزَّز. | EN: Class two has double or reinforced insulation. | Folie: 'Schutzklasse II: doppelte/verstärkte Isolierung'"
+ },
+ {
+  "video": "E-D01",
+  "scene": 14,
+  "line": 5,
+  "severity": "risk",
+  "issue": "'In der neuen Fassung' / L6 'Beides hören Sie noch': Praxisbehauptung ohne Fakt; Norm nicht genannt, Fassung 2022 laut Fakt. 'Beides hören Sie noch' unbelegt.",
+  "suggested_fix": "DE: Die ältere Fassung sagt Anton und Berta. Beide Formen kommen vor. | AR: الصيغة الأقدم تقول Anton وBerta. وقد تصادفون الصيغتين. | EN: The older version says Anton and Berta. Both forms can occur."
+ },
+ {
+  "video": "E-D02",
+  "scene": 2,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Ihre verantwortliche Elektrofachkraft' (auch S20 L6) setzt eine Verantwortliche Elektrofachkraft (VEFK) voraus; Pflicht zur Bestellung ist laut E-D03-dropped/E-F04 strittig.",
+  "suggested_fix": "DE: Fragen Sie im Zweifel eine Elektrofachkraft in Ihrem Betrieb. | AR: في حال الشك اسألوا كهربائيًا مؤهَّلًا (Elektrofachkraft) في منشأتكم. | EN: If in doubt, ask a qualified electrician in your company."
+ },
+ {
+  "video": "E-D02",
+  "scene": 10,
+  "line": 0,
+  "severity": "note",
+  "issue": "Folienüberschrift 'Was ein Messprotokoll enthält' wirkt wie Mindestinhalt (Fakten: nur typische Inhalte); 'Prüfstatus' beim Messgerät nicht in Fakten.",
+  "suggested_fix": "DE: Überschrift 'Was ein Messprotokoll typischerweise enthält' (44 Zeichen); Zeile 6: 'Messgerät | Typ und Nummer'"
+ },
+ {
+  "video": "E-D02",
+  "scene": 4,
+  "line": 0,
+  "severity": "note",
+  "issue": "EN 'circuit diagram' für Stromlaufplan kollidiert mit Glossar 'der Schaltplan = circuit diagram' und E-F06 ('schematic (Stromlaufplan)').",
+  "suggested_fix": "EN: Stromlaufplan = 'schematic (Stromlaufplan)'; L3 EN: 'The schematic shows the function with all conductors.'"
+ },
+ {
+  "video": "E-D02",
+  "scene": 18,
+  "line": 4,
+  "severity": "note",
+  "issue": "EN 'Operational Safety Ordinance' weicht von E-F05 ('Industrial Safety Ordinance') ab; Terminologie vereinheitlichen. Paragrafen nicht genannt (gut).",
+  "suggested_fix": "EN: The Industrial Safety Ordinance (BetrSichV) requires records of inspections."
+ },
+ {
+  "video": "E-D02",
+  "scene": 7,
+  "line": 5,
+  "severity": "note",
+  "issue": "AR 'مخوَّل' (befugt) gibt 'befähigt' nicht wieder (auch S13 L2).",
+  "suggested_fix": "AR: يجريه كهربائي مؤهَّل ذو كفاءة في الفحص."
+ },
+ {
+  "video": "E-D02",
+  "scene": 16,
+  "line": 2,
+  "severity": "note",
+  "issue": "TTS 'Fau-drei' uneinheitlich zu E-F05 ('De-Ge-U-Fau Vorschrift drei').",
+  "suggested_fix": "TTS: Nach der Vorschrift De-Ge-U-Fau Vorschrift drei müssen Anlagen auch wiederholt geprüft werden."
+ },
+ {
+  "video": "E-D02",
+  "scene": 1,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Markt und Praxis' (Kicker S1, L1) suggeriert Marktinhalt; Video behandelt Praxis. Außerhalb des Umfangs (Arbeitsmarkt) liegt nichts vor, daher nur Namenswahl.",
+  "suggested_fix": "DE: Willkommen zum zweiten Video im Bereich Praxis. | Kicker: 'E-D02 · Praxis' | AR: مرحبًا بكم في الفيديو الثاني من قسم الممارسة. | EN: Welcome to the second video in the practice section."
+ },
+ {
+  "video": "E-D01",
+  "scene": 5,
+  "line": 2,
+  "severity": "note",
+  "issue": "AR 'DIN EN 60529 الحالي' / 'in der aktuellen Norm': keine Ausgabe geprüft; 'الحالي' streichen.",
+  "suggested_fix": "AR: الرمز (IP) موصوف في المعيار DIN EN 60529."
+ },
+ {
+  "video": "E-D01",
+  "scene": 13,
+  "line": 6,
+  "severity": "note",
+  "issue": "Elektrofachkraft: EN 'electrically skilled person' weicht von allen anderen Skripten ab (17 Dateien: 'qualified electrician'); auch Glossar, Quiz, S20.",
+  "suggested_fix": "EN: replace 'electrically skilled person' by 'qualified electrician' (L6, L7, quiz, glossary, S20 term, S21 L6)"
+ },
+ {
+  "video": "E-D01",
+  "scene": 10,
+  "line": 7,
+  "severity": "note",
+  "issue": "'Im Zweifel beginnen Sie mit Sie' und S10/S11/S14/S15 duplizieren E-F07 (Sie/Du, Telefon, E-Mail, Rückfragen, 'Habe ich richtig verstanden', Anrede 'Sehr geehrte Frau Weber', 'Mit freundlichen Grüßen'); Kern von E-D01 sollte Typenschild/Datenblatt/Interview/Anzeige sein. Sie/Du-Hinweis nicht in Fakten.",
+  "suggested_fix": "DE: S10 L7 streichen; S14/S15 auf Neues (Buchstabiertafel DIN 5009, Betreff/Anhang) beschränken und bei Wiederholung auf 'Wie im Sprachvideo davor' verweisen."
+ },
+ {
+  "video": "E-D01",
+  "scene": 8,
+  "line": 5,
+  "severity": "note",
+  "issue": "'Ab einer bestimmten Höhe' / Derating ok. AR 'ويسمى بالإنجليزية Derating أيضًا' endet mit 'أيضًا' korrekt; keine Zahl. Hinweis: 'Verschmutzungsgrad | Maß für Verschmutzung' tautologisch.",
+  "suggested_fix": "DE (Folie): 'Verschmutzungsgrad | Einstufung der Umgebung'"
+ },
+ {
+  "video": "E-D03",
+  "scene": 5,
+  "line": 8,
+  "severity": "note",
+  "issue": "AR/EN Regel 4: 'التأريض والقصر الكهربائي' weicht von E-F05/D01/D02 ('التأريض والتقصير') ab; Regel 5 AR vertauscht Reihenfolge abdecken/abschranken.",
+  "suggested_fix": "AR: رابعًا التأريض والتقصير. | خامسًا تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز. (S5 L7 ebenso)"
+ },
+ {
+  "video": "E-D03",
+  "scene": 11,
+  "line": 4,
+  "severity": "note",
+  "issue": "'Ein Planer überwacht meist die Ausführung' widerspricht S3 L5 ('nur wenn der Vertrag das vorsieht') und E-B06.",
+  "suggested_fix": "DE: Ein Planer überwacht die Ausführung, wenn der Vertrag das vorsieht, ändert aber den Vertrag nicht allein. | AR: يشرف المخطِّط على التنفيذ إذا نصّ العقد على ذلك لكنه لا يغيّر العقد بمفرده. | EN: A planner supervises the work if the contract provides for it, but does not change the contract alone."
+ },
+ {
+  "video": "E-D03",
+  "scene": 15,
+  "line": 9,
+  "severity": "note",
+  "issue": "'Solche Mängel entstehen oft an Schnittstellen' nicht in Fakten (Fakt: Verzögerungen entstehen an Übergaben).",
+  "suggested_fix": "DE: Auch Mängel können an Schnittstellen zwischen Gewerken entstehen. | AR: وقد تنشأ العيوب أيضًا عند نقاط التنسيق بين الاختصاصات. | EN: Defects can also arise at interfaces between trades."
+ },
+ {
+  "video": "E-D03",
+  "scene": 18,
+  "line": 1,
+  "severity": "note",
+  "issue": "'Gute Dokumentation schützt alle Beteiligten' (auch Folie/L8) impliziert Rechtsschutz; als Praxisempfehlung formulieren.",
+  "suggested_fix": "DE: Gute Dokumentation hilft allen Beteiligten, den Stand nachzuvollziehen. | AR: التوثيق الجيد يساعد جميع المشاركين على تتبع الوضع. | EN: Good documentation helps everyone involved follow the state of affairs."
+ },
+ {
+  "video": "E-D03",
+  "scene": 20,
+  "line": 8,
+  "severity": "note",
+  "issue": "'Jede Verzögerung ... trifft das nächste Gewerk' absolut.",
+  "suggested_fix": "DE: Eine Verzögerung bei einer Vorleistung kann das nächste Gewerk treffen. | AR: قد يؤثر التأخير في عمل سابق على الاختصاص التالي. | EN: A delay in preliminary work can hit the next trade."
+ },
+ {
+  "video": "E-D03",
+  "scene": 0,
+  "line": 0,
+  "severity": "note",
+  "issue": "Nächstes Video 'beginnt die Softwareserie: EPLAN' ist nicht durch Plan/Status belegt (PROJECT-STATUS: S-01..S-06 nur 'geplant'; Reihenfolge offen). ISO 9001:2026 (16.09.2026, 'Qualitätskultur', 'Risiken und Chancen getrennt') per Websuche (iso.org, DNV) bestätigt; Formulierung 'Berichten zufolge' ok.",
+  "suggested_fix": "DE: Im nächsten Video beginnt die Softwareserie. | AR: في الفيديو القادم تبدأ سلسلة البرمجيات. | EN: The next video starts the software series."
+ }
+]
