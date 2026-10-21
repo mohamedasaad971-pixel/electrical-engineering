@@ -2,14 +2,14 @@
  "id": "S-02",
  "title": {
   "de": "TIA Portal und CODESYS: SPS-Programmierumgebungen im Überblick",
-  "ar": "برمجيات المتحكمات: بيئات برمجة SPS بين الأدوات الخاصة بالشركات والأدوات المستقلة",
-  "en": "TIA Portal and CODESYS: PLC Programming Environments Compared in Concept"
+  "ar": "بيئات برمجة المتحكمات: TIA Portal وCODESYS نموذجًا",
+  "en": "TIA Portal and CODESYS: PLC Programming Environments at a Glance"
  },
  "scenes": [
   {
    "slide": {
     "layout": "title",
-    "kicker": "S-02 · Software-Serie",
+    "kicker": "S-02 · Software-Reihe",
     "heading": "Engineering-Tools für die SPS",
     "items": [
      "Was ein Engineering-Tool leistet",
@@ -20,14 +20,14 @@
    },
    "lines": [
     {
-     "de": "Willkommen zum zweiten Video der Software-Serie.",
+     "de": "Willkommen zum zweiten Video der Software-Reihe.",
      "ar": "مرحبًا بكم في الفيديو الثاني من سلسلة البرمجيات.",
      "en": "Welcome to the second video of the software series."
     },
     {
      "de": "Heute geht es um die Programmierumgebungen für die SPS.",
-     "ar": "موضوع اليوم هو بيئات البرمجة الخاصة بالمتحكم المنطقي القابل للبرمجة، أي SPS في ألمانيا.",
-     "en": "Today is about the programming environments for the SPS.",
+     "ar": "موضوع اليوم هو بيئات البرمجة الخاصة بالمتحكم المنطقي القابل للبرمجة.",
+     "en": "Today is about the programming environments for the PLC (called SPS in Germany).",
      "tts": "Heute geht es um die Programmierumgebungen für die Es-Pe-Es."
     },
     {
@@ -36,13 +36,13 @@
      "en": "You will not see screen recordings of commercial programs."
     },
     {
-     "de": "Wir erklären nur die Konzepte, die in allen Werkzeugen ähnlich sind.",
-     "ar": "نشرح فقط المفاهيم المتشابهة في جميع الأدوات.",
-     "en": "We only explain the concepts that are similar in all tools."
+     "de": "Wir erklären nur die Konzepte, die in vielen Werkzeugen ähnlich sind.",
+     "ar": "نشرح فقط المفاهيم المتشابهة في كثير من الأدوات.",
+     "en": "We only explain the concepts that are similar in many tools."
     },
     {
      "de": "Als Beispiele nennen wir das TIA Portal und CODESYS.",
-     "ar": "وكأمثلة نذكر برنامج TIA Portal وكذلك برنامج CODESYS معًا.",
+     "ar": "نذكر هنا برنامجي TIA Portal وCODESYS كمثالين.",
      "en": "As examples we name the TIA Portal and CODESYS.",
      "tts": "Als Beispiele nennen wir das Tia Portal und Kodesis."
     },
@@ -53,8 +53,8 @@
     },
     {
      "de": "Eine SPS führt das Programm aus, das Sie vorher auf den Rechner geschrieben haben.",
-     "ar": "تنفذ SPS البرنامج الذي كتبتموه سابقًا على الحاسوب.",
-     "en": "An SPS runs the program that you wrote on the computer beforehand.",
+     "ar": "يشغّل المتحكم المنطقي القابل للبرمجة البرنامج الذي كتبتموه سابقًا على الحاسوب.",
+     "en": "A PLC runs the program that you wrote on the computer beforehand.",
      "tts": "Eine Es-Pe-Es führt das Programm aus, das Sie vorher auf den Rechner geschrieben haben."
     },
     {
@@ -90,10 +90,10 @@
    },
    "lines": [
     {
-     "de": "Die SPS selbst hat keine Bildschirmoberfläche für die Entwicklung.",
-     "ar": "لا تملك SPS نفسها واجهة شاشة للتطوير.",
-     "en": "The SPS itself has no screen interface for development.",
-     "tts": "Die Es-Pe-Es selbst hat keine Bildschirmoberfläche für die Entwicklung."
+     "de": "Die SPS selbst hat meist keine Bildschirmoberfläche für die Entwicklung.",
+     "ar": "لا يملك المتحكم المنطقي القابل للبرمجة نفسه غالبًا واجهة شاشة للتطوير.",
+     "en": "The PLC itself usually has no screen interface for development.",
+     "tts": "Die Es-Pe-Es selbst hat meist keine Bildschirmoberfläche für die Entwicklung."
     },
     {
      "de": "Ihr Programm entsteht auf einem Rechner, in einer Engineering-Software.",
@@ -153,11 +153,11 @@
     {
      "de": "Fast jedes Werkzeug erfüllt fünf Aufgaben.",
      "ar": "تؤدي كل أداة تقريبًا خمس مهام.",
-     "en": "Almost every tool fulfills five tasks."
+     "en": "Almost every tool fulfils five tasks."
     },
     {
      "de": "Erstens: Sie legen die Hardware fest, also Steuerung und Baugruppen.",
-     "ar": "أولًا: تحددون العتاد، أي وحدة التحكم والوحدات الملحقة.",
+     "ar": "أولًا: تحددون العتاد، أي وحدة التحكم والوحدات العتادية.",
      "en": "First: you define the hardware, that is the controller and modules."
     },
     {
@@ -211,7 +211,7 @@
      },
      {
       "de": "die Baugruppe",
-      "ar": "الوحدة (الملحقة)",
+      "ar": "الوحدة العتادية",
       "en": "module"
      }
     ]
@@ -224,13 +224,14 @@
     },
     {
      "de": "Sie wählen die Steuerung und fügen die Baugruppen hinzu.",
-     "ar": "تختارون وحدة التحكم وتضيفون الوحدات الملحقة.",
+     "ar": "تختارون وحدة التحكم وتضيفون الوحدات العتادية.",
      "en": "You select the controller and add the modules."
     },
     {
-     "de": "Das sind zum Beispiel Eingabe- und Ausgabebaugruppen, wie im ersten Video.",
-     "ar": "مثل وحدات المدخلات والمخرجات، كما في الفيديو الأول.",
-     "en": "These are, for example, input and output modules, as in the first video."
+     "de": "Das sind zum Beispiel Eingabe- und Ausgabebaugruppen, wie im Video zu den Grundlagen der Automatisierung und SPS.",
+     "ar": "مثل وحدات المدخلات والمخرجات، كما في فيديو أساسيات الأتمتة والمتحكم المنطقي القابل للبرمجة.",
+     "en": "These are, for example, input and output modules, as in the video on automation basics and the PLC.",
+     "tts": "Das sind zum Beispiel Eingabe- und Ausgabebaugruppen, wie im Video zu den Grundlagen der Automatisierung und Es-Pe-Es."
     },
     {
      "de": "Danach stellen Sie Parameter ein, etwa Adressen oder Signalarten.",
@@ -273,7 +274,7 @@
     "terms": [
      {
       "de": "die Symbolik",
-      "ar": "الترميز الرمزي (الأسماء بدل العناوين)",
+      "ar": "التسمية الرمزية (الأسماء بدل العناوين)",
       "en": "symbolic naming"
      },
      {
@@ -287,12 +288,11 @@
     {
      "de": "Ein Eingang hat eine Adresse, zum Beispiel am Eingang acht.",
      "ar": "للمدخل عنوان، مثلًا عند المدخل الثامن.",
-     "en": "An input has an address, for example at input eight.",
-     "tts": "Ein Eingang hat eine Adresse, zum Beispiel am Eingang acht."
+     "en": "An input has an address, for example at input eight."
     },
     {
      "de": "Mit der Symbolik geben Sie dieser Adresse einen Namen.",
-     "ar": "وبالترميز الرمزي تعطون هذا العنوان اسمًا.",
+     "ar": "وبالتسمية الرمزية تعطون هذا العنوان اسمًا.",
      "en": "With symbolic naming you give this address a name."
     },
     {
@@ -323,7 +323,7 @@
     },
     {
      "de": "Das ist die Brücke zwischen Programm und Verdrahtung.",
-     "ar": "وهذه هي الجسر بين البرنامج والتوصيلات.",
+     "ar": "وهذا هو الجسر بين البرنامج والتوصيلات.",
      "en": "This is the bridge between program and wiring."
     },
     {
@@ -357,7 +357,7 @@
      },
      {
       "de": "der Funktionsbaustein",
-      "ar": "وحدة الدالة الوظيفية",
+      "ar": "كتلة وظيفية",
       "en": "function block"
      }
     ]
@@ -375,7 +375,7 @@
     },
     {
      "de": "Ein Funktionsbaustein hat einen eigenen Speicher, eine einfache Funktion meist nicht.",
-     "ar": "لوحدة الدالة الوظيفية ذاكرتها الخاصة، أما الدالة البسيطة فغالبًا لا ذاكرة لها.",
+     "ar": "للكتلة الوظيفية ذاكرتها الخاصة، أما الدالة البسيطة فغالبًا لا ذاكرة لها.",
      "en": "A function block has its own memory, a simple function usually does not."
     },
     {
@@ -385,7 +385,7 @@
     },
     {
      "de": "Die Sprachen dafür legt die Norm IEC 61131-3 fest.",
-     "ar": "أما لغات البرمجة فيحددها المعيار الدولي IEC 61131-3 للغات.",
+     "ar": "أما لغات البرمجة فيحددها معيار IEC 61131-3 الدولي.",
      "en": "The languages for this are defined by the standard IEC 61131-3.",
      "tts": "Die Sprachen dafür legt die Norm I-E-Ze sechs eins eins drei eins, Teil drei fest."
     },
@@ -400,9 +400,9 @@
      "en": "Comments in a block explain why something was programmed this way."
     },
     {
-     "de": "Das kennen Sie aus dem ersten Video der Reihe.",
-     "ar": "وقد تعرفتم عليها في الفيديو الأول من السلسلة.",
-     "en": "You know this from the first video of the series."
+     "de": "Kommentare helfen besonders bei der Wartung nach Jahren.",
+     "ar": "وتساعد التعليقات خصوصًا في الصيانة بعد سنوات.",
+     "en": "Comments help especially with maintenance after years."
     }
    ]
   },
@@ -415,8 +415,8 @@
      "Kontaktplan | grafisch, wie ein Stromlaufplan",
      "Funktionsplan | grafisch, mit Funktionsblöcken",
      "Ablaufsprache | grafisch, für Schrittketten",
-     "Strukturierter Text | textuell, wie eine Hochsprache",
-     "Anweisungsliste | textuell, in Ausgabe 2013 veraltet"
+     "Strukturierter Text | textuell, wie Hochsprache",
+     "Anweisungsliste | textuell, gilt als veraltet"
     ]
    },
    "lines": [
@@ -427,12 +427,12 @@
     },
     {
      "de": "Kontaktplan sieht aus wie ein Stromlaufplan mit Kontakten und Spulen.",
-     "ar": "مخطط السلّم يشبه مخطط الدارات بملامساته وملفاته.",
+     "ar": "مخطط السلّم يشبه مخطط مسار التيار بملامساته وملفاته.",
      "en": "Ladder diagram looks like a circuit diagram with contacts and coils."
     },
     {
      "de": "Der Funktionsplan verbindet Funktionsblöcke durch Linien.",
-     "ar": "ويربط مخطط الوظائف الكتل الوظيفية بخطوط.",
+     "ar": "ويربط مخطط الكتل الوظيفية الكتل بخطوط.",
      "en": "The function block diagram connects function blocks with lines."
     },
     {
@@ -442,14 +442,14 @@
     },
     {
      "de": "Strukturierter Text ähnelt einer klassischen Programmiersprache.",
-     "ar": "أما النص المهيكل فيشبه لغة برمجة تقليدية.",
+     "ar": "أما النص المنظَّم فيشبه لغة برمجة تقليدية.",
      "en": "Structured text resembles a classic programming language."
     },
     {
-     "de": "Die Anweisungsliste gilt seit der Ausgabe 2013 als veraltet.",
-     "ar": "وتُعد قائمة التعليمات قديمة منذ إصدار عام 2013 للمعيار.",
-     "en": "The instruction list has been considered outdated since the 2013 edition.",
-     "tts": "Die Anweisungsliste gilt seit der Ausgabe zweitausenddreizehn als veraltet."
+     "de": "Die Anweisungsliste gilt seit der Ausgabe 2013 als veraltet. Laut Quellen ist sie in der neuen Ausgabe von 2025 nicht mehr enthalten; Werkzeuge können sie weiter anbieten.",
+     "ar": "تُعد قائمة التعليمات قديمة منذ إصدار عام 2013، وبحسب المصادر لم تعد في الإصدار الجديد لعام 2025، وقد تدعمها الأدوات مع ذلك.",
+     "en": "The instruction list has been considered outdated since the 2013 edition. According to sources it is no longer in the new 2025 edition; tools may still support it.",
+     "tts": "Die Anweisungsliste gilt seit der Ausgabe zweitausenddreizehn als veraltet. Laut Quellen ist sie in der neuen Ausgabe von zweitausendfünfundzwanzig nicht mehr enthalten; Werkzeuge können sie weiter anbieten."
     },
     {
      "de": "Welche Sprache Sie wählen, hängt von Aufgabe und Team ab.",
@@ -556,18 +556,23 @@
     {
      "de": "Änderungen an einer echten Anlage gehören in die Hände qualifizierter Personen mit Befugnis.",
      "ar": "التعديلات على منشأة حقيقية تخص أشخاصًا مؤهلين لديهم تفويض.",
-     "en": "Changes to a real plant belong in the hands of qualified people with authorization."
+     "en": "Changes to a real plant belong in the hands of qualified people with authorisation."
     },
     {
      "de": "Arbeiten an elektrischen Anlagen erfolgen nach DGUV Vorschrift 3 durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht.",
-     "ar": "تُنفَّذ الأعمال على المنشآت الكهربائية وفق لائحة الوقاية رقم ثلاثة (DGUV V3) على يد كهربائي مؤهَّل أو تحت إشرافه وتوجيهه.",
-     "en": "Work on electrical installations follows DGUV Vorschrift 3 and is done by an Elektrofachkraft or under their direction and supervision.",
+     "ar": "تُنفَّذ الأعمال على المنشآت الكهربائية وفق لائحة الوقاية من الحوادث رقم ٣ (DGUV V3) على يد كهربائي مؤهَّل أو تحت إدارته وإشرافه.",
+     "en": "Work on electrical installations follows DGUV Vorschrift 3 and is done by a qualified electrician or under their direction and supervision.",
      "tts": "Arbeiten an elektrischen Anlagen erfolgen nach De-Ge-U-Fau Vorschrift drei durch eine Elektrofachkraft oder unter deren Leitung und Aufsicht."
     },
     {
      "de": "Wer elektrisch arbeitet, beachtet alle fünf Sicherheitsregeln, wie in unserem Sicherheitsvideo.",
-     "ar": "ومن يعمل كهربائيًا يلتزم بقواعد الأمان الخمس جميعها، كما في فيديو السلامة لدينا.",
+     "ar": "ومن يعمل كهربائيًا يلتزم بقواعد السلامة الخمس جميعها، كما في فيديو السلامة لدينا.",
      "en": "Whoever works electrically follows all five safety rules, as in our safety video."
+    },
+    {
+     "de": "Freischalten, gegen Wiedereinschalten sichern, Spannungsfreiheit allpolig feststellen, erden und kurzschließen, benachbarte unter Spannung stehende Teile abdecken oder abschranken.",
+     "ar": "فصل الجهد، تأمينها ضد إعادة التشغيل، التحقق من انعدام الجهد في كل الأقطاب، التأريض والتقصير، تغطية الأجزاء المجاورة التي ما زالت تحت الجهد أو إحاطتها بحواجز.",
+     "en": "Isolate, secure against reconnection, verify absence of voltage on all poles, earth and short-circuit, cover or fence off adjacent live parts."
     },
     {
      "de": "Hier gilt die Regel: Erst verstehen, dann handeln.",
@@ -577,7 +582,7 @@
     {
      "de": "Im Zweifel fragen Sie die verantwortliche Elektrofachkraft.",
      "ar": "وعند الشك اسألوا الكهربائي المؤهَّل (Elektrofachkraft) المسؤول.",
-     "en": "In doubt, ask the responsible Elektrofachkraft."
+     "en": "In doubt, ask the responsible qualified electrician."
     },
     {
      "de": "Fernzugriff braucht ein Sicherheitskonzept, mehr dazu im Video zur Industrie-Cybersicherheit.",
@@ -612,10 +617,10 @@
      "en": "With a simulation you test the program without a real controller."
     },
     {
-     "de": "Ein Beispiel: Die Hilfe des TIA Portals beschreibt eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware.",
-     "ar": "مثال: تصف مساعدة TIA Portal محاكاة تجري على الحاسوب مباشرة دون عتاد إضافي.",
-     "en": "One example: the help of the TIA Portal describes a simulation directly on the computer, without extra hardware.",
-     "tts": "Ein Beispiel: Die Hilfe des Tia Portals beschreibt eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware."
+     "de": "Ein Beispiel: Die Hilfe des TIA Portals beschreibt eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware; dafür kann zusätzliche Software nötig sein.",
+     "ar": "مثال: تصف مساعدة TIA Portal محاكاة تجري على الحاسوب مباشرة دون عتاد إضافي، وقد تلزم برمجيات إضافية.",
+     "en": "One example: the help of the TIA Portal describes a simulation directly on the computer, without extra hardware; extra software may be needed.",
+     "tts": "Ein Beispiel: Die Hilfe des Tia Portals beschreibt eine Simulation direkt auf dem Rechner, ohne zusätzliche Hardware; dafür kann zusätzliche Software nötig sein."
     },
     {
      "de": "Nicht jedes Gerät lässt sich simulieren.",
@@ -664,14 +669,13 @@
      "Frage | Herstellerabhängig | Unabhängig",
      "Beispiel | TIA Portal | CODESYS",
      "Anbieter | Steuerungshersteller | Softwarefirma",
-     "Geräte | Eigene Steuerungen | Geräte mit Laufzeit",
-     "Vorteil | Eng abgestimmt | Ein Werkzeug, viele Geräte"
+     "Geräte | Je nach Produkt | Geräte mit Laufzeit"
     ],
     "terms": [
      {
-      "de": "herstellerunabhängig",
-      "ar": "مستقل عن الشركة المصنّعة",
-      "en": "vendor-independent"
+      "de": "die Herstellerunabhängigkeit",
+      "ar": "الاستقلال عن الشركة المصنّعة",
+      "en": "vendor independence"
      }
     ]
    },
@@ -687,10 +691,10 @@
      "en": "In the first, the controller manufacturer also supplies the tool."
     },
     {
-     "de": "Das TIA Portal ist die Engineering-Umgebung von Siemens.",
-     "ar": "بيئة الهندسة الخاصة بشركة سيمنز هي TIA Portal الذي نذكره كمثال.",
-     "en": "The TIA Portal is the engineering environment of Siemens.",
-     "tts": "Das Tia Portal ist die Engineering-Umgebung von Siemens."
+     "de": "Das TIA Portal ist eine Engineering-Umgebung von Siemens.",
+     "ar": "بيئة TIA Portal هي إحدى بيئات الهندسة التي تقدمها سيمنز.",
+     "en": "The TIA Portal is an engineering environment from Siemens.",
+     "tts": "Das Tia Portal ist eine Engineering-Umgebung von Siemens."
     },
     {
      "de": "Beim zweiten Ansatz kommt das Werkzeug von einer Softwarefirma.",
@@ -699,7 +703,7 @@
     },
     {
      "de": "CODESYS beschreibt sich selbst als herstellerunabhängig nach IEC 61131-3.",
-     "ar": "يصف برنامج CODESYS نفسه بأنه مستقل عن الشركات المصنّعة وفق IEC 61131-3 للغات.",
+     "ar": "يصف برنامج CODESYS نفسه بأنه مستقل عن الشركات المصنّعة وفق معيار IEC 61131-3 الدولي.",
      "en": "CODESYS describes itself as vendor-independent according to IEC 61131-3.",
      "tts": "Kodesis beschreibt sich selbst als herstellerunabhängig nach I-E-Ze sechs eins eins drei eins, Teil drei."
     },
@@ -770,7 +774,7 @@
     },
     {
      "de": "Fragen Sie im Zweifel nach, welches Werkzeug im Projekt vorgesehen ist.",
-     "ar": "وعند الشك اسألوا أي أداة مقرّرة في المشروع.",
+     "ar": "وعند الشك اسألوا عن الأداة المقرّرة في المشروع.",
      "en": "In doubt, ask which tool is planned for the project."
     },
     {
@@ -883,16 +887,16 @@
      "en": "In case of an error you restore an older, working state."
     },
     {
-     "de": "CODESYS bietet dafür eine Anbindung an das System SVN.",
-     "ar": "يوفر برنامج CODESYS لذلك ربطًا مع نظام SVN لإدارة الإصدارات.",
-     "en": "CODESYS offers a connection to the system SVN for this.",
-     "tts": "Kodesis bietet dafür eine Anbindung an das System Es-Fau-En."
+     "de": "Für CODESYS gibt es dafür eine Anbindung an das System SVN; Umfang und Lizenz prüfen.",
+     "ar": "يوجد لبرنامج CODESYS ربط مع نظام SVN لإدارة الإصدارات؛ وعليكم التحقق من النطاق والترخيص.",
+     "en": "For CODESYS there is a connection to the system SVN for this; check scope and licence.",
+     "tts": "Für Kodesis gibt es dafür eine Anbindung an das System Es-Fau-En; Umfang und Lizenz prüfen."
     },
     {
-     "de": "Das TIA Portal bietet eine Mehrbenutzer-Funktion und eine Schnittstelle für externe Versionsverwaltung.",
-     "ar": "ويوفر TIA Portal وظيفة تعدد المستخدمين وواجهة لإدارة الإصدارات الخارجية.",
-     "en": "The TIA Portal offers a multi-user function and an interface for external version control.",
-     "tts": "Das Tia Portal bietet eine Mehrbenutzer-Funktion und eine Schnittstelle für externe Versionsverwaltung."
+     "de": "Auch Herstellerumgebungen wie das TIA Portal bieten laut Fachquellen Mehrbenutzer-Funktionen und Schnittstellen für externe Versionsverwaltung; prüfen Sie Umfang und Lizenz beim Hersteller.",
+     "ar": "وتوفر بيئات الشركات مثل TIA Portal بحسب مصادر متخصصة وظائف تعدد المستخدمين وواجهات للإدارة الخارجية للإصدارات، فتحققوا من النطاق والترخيص لدى الشركة.",
+     "en": "According to trade sources, vendor environments such as the TIA Portal offer multi-user functions and interfaces for external version control; check scope and licence with the vendor.",
+     "tts": "Auch Herstellerumgebungen wie das Tia Portal bieten laut Fachquellen Mehrbenutzer-Funktionen und Schnittstellen für externe Versionsverwaltung; prüfen Sie Umfang und Lizenz beim Hersteller."
     },
     {
      "de": "Fragen Sie im Team, welche Regeln für Dateinamen und Stände gelten.",
@@ -974,7 +978,7 @@
     {
      "de": "Üben Sie das Zurückspielen, bevor es ein Notfall ist, und klären Sie Befugnisse mit dem Betreiber.",
      "ar": "تدرّبوا على الاسترجاع قبل أن تقع حالة طارئة، واتفقوا على الصلاحيات مع المشغّل.",
-     "en": "Practice restoring before it is an emergency, and clarify authority with the operator."
+     "en": "Practise restoring before it is an emergency, and clarify authority with the operator."
     }
    ]
   },
@@ -987,7 +991,7 @@
      "Freie Open-Source-Suite",
      "Editor und Runtime",
      "Läuft zum Beispiel auf dem Raspberry Pi",
-     "Zum Lernen geeignet, Einsatz prüfen"
+     "Zum Üben gedacht, Einsatz prüfen"
     ],
     "terms": [
      {
@@ -1005,10 +1009,10 @@
      "tts": "Es gibt auch freie Alternativen, zum Beispiel Open-Pe-El-Ze."
     },
     {
-     "de": "OpenPLC ist eine freie Open-Source-Suite nach IEC 61131-3.",
-     "ar": "مشروع OpenPLC حزمة مفتوحة المصدر ومجانية وفق IEC 61131-3 للغات.",
-     "en": "OpenPLC is a free open-source suite according to IEC 61131-3.",
-     "tts": "Open-Pe-El-Ze ist eine freie Open-Source-Suite nach I-E-Ze sechs eins eins drei eins, Teil drei."
+     "de": "OpenPLC ist laut Fachquellen eine freie Open-Source-Suite auf Basis von IEC 61131-3.",
+     "ar": "بحسب المصادر المتخصصة، مشروع OpenPLC حزمة مجانية مفتوحة المصدر قائمة على معيار IEC 61131-3 الدولي.",
+     "en": "According to trade sources, OpenPLC is a free open-source suite based on IEC 61131-3.",
+     "tts": "Open-Pe-El-Ze ist laut Fachquellen eine freie Open-Source-Suite auf Basis von I-E-Ze sechs eins eins drei eins, Teil drei."
     },
     {
      "de": "Sie besteht aus zwei Teilen, dem Editor und der Runtime.",
@@ -1023,7 +1027,8 @@
     {
      "de": "Die Runtime führt es aus, etwa auf einem Raspberry Pi.",
      "ar": "وتنفذه بيئة التشغيل، مثلًا على لوحة Raspberry Pi الصغيرة.",
-     "en": "The runtime executes it, for example on a Raspberry Pi."
+     "en": "The runtime executes it, for example on a Raspberry Pi.",
+     "tts": "Die Runtime führt es aus, etwa auf einem Raspberri Pai."
     },
     {
      "de": "Der Quellcode ist öffentlich einsehbar.",
@@ -1043,7 +1048,7 @@
     {
      "de": "Prüfen Sie Lizenz und aktuellen Stand auf der Projektseite.",
      "ar": "تحققوا من الترخيص والحالة الراهنة في صفحة المشروع.",
-     "en": "Check license and current status on the project page."
+     "en": "Check licence and current status on the project page."
     }
    ]
   },
@@ -1086,9 +1091,9 @@
      "en": "Learn the concept first and then the operation of a tool."
     },
     {
-     "de": "Nutzen Sie die offiziellen Hilfen der Hersteller und Lizenzbedingungen für Testversionen.",
+     "de": "Nutzen Sie die offiziellen Hilfen der Hersteller und beachten Sie die Lizenzbedingungen für Testversionen.",
      "ar": "استخدموا مساعدات الشركات الرسمية والتزموا بشروط الترخيص للنسخ التجريبية.",
-     "en": "Use the official help of the manufacturers and mind the license terms of trial versions."
+     "en": "Use the official help of the manufacturers and observe the licence terms of trial versions."
     },
     {
      "de": "Ein Lernprojekt dokumentieren Sie am besten wie ein echtes Projekt.",
@@ -1096,9 +1101,9 @@
      "en": "You should document a learning project like a real project."
     },
     {
-     "de": "Arbeiten Sie die Aufgaben aus dem ersten Video mit eigenen Beispielen durch.",
-     "ar": "أعيدوا العمل على مهام الفيديو الأول بأمثلتكم الخاصة.",
-     "en": "Work through the tasks from the first video with your own examples."
+     "de": "Arbeiten Sie die Aufgaben mit eigenen Beispielen und Zahlen durch.",
+     "ar": "أعيدوا العمل على هذه المهام بأمثلتكم وأرقامكم الخاصة.",
+     "en": "Work through the tasks with your own examples and numbers."
     },
     {
      "de": "Für den Beruf zählt später die Erfahrung an echten Anlagen, unter Anleitung.",
@@ -1114,8 +1119,7 @@
     "heading": "Das Wichtigste in Kürze",
     "items": [
      "Fünf Aufgaben eines Engineering-Tools",
-     "Hersteller: eng abgestimmt",
-     "Unabhängig: ein Werkzeug, viele Geräte",
+     "Zwei Ansätze, gleiche Aufgabe",
      "Versionen und Backup sichern Arbeit",
      "Online ändern nur mit Befugnis"
     ]
@@ -1124,7 +1128,7 @@
     {
      "de": "Fassen wir zusammen.",
      "ar": "لنلخّص.",
-     "en": "Let us summarize."
+     "en": "Let us summarise."
     },
     {
      "de": "Ein Engineering-Tool konfiguriert Hardware, verwaltet Variablen und gliedert Bausteine.",
@@ -1154,7 +1158,7 @@
     },
     {
      "de": "Und: Änderungen an echten Anlagen gehören in qualifizierte Hände.",
-     "ar": "وتذكروا أن التعديلات على المنشآت الحقيقية تخص أيادي مؤهَّلة.",
+     "ar": "وتذكروا أن التعديلات على المنشآت الحقيقية تقتصر على أشخاص مؤهَّلين.",
      "en": "And: changes to real plants belong in qualified hands."
     }
    ]
@@ -1180,7 +1184,7 @@
     {
      "de": "Gesetze und Normen ändern sich, ebenso Programme, Versionen und Lizenzen.",
      "ar": "تتغير القوانين والمعايير، وكذلك البرامج والإصدارات والتراخيص.",
-     "en": "Laws and standards change, and so do programs, versions and licenses."
+     "en": "Laws and standards change, and so do programs, versions and licences."
     },
     {
      "de": "Prüfen Sie deshalb immer die aktuell gültige Fassung.",
@@ -1203,10 +1207,10 @@
      "en": "We show no interface of any program and make no recommendation."
     },
     {
-     "de": "Im nächsten Video geht es um Netzberechnung mit ETAP, DIgSILENT und pandapower.",
-     "ar": "في الفيديو القادم نتناول حسابات الشبكات الكهربائية.",
-     "en": "The next video is about grid calculation with ETAP, DIgSILENT and pandapower.",
-     "tts": "Im nächsten Video geht es um Netzberechnung mit E-Te-A-Pe, Di-Ig-Silent und Pandapower."
+     "de": "Im nächsten Video geht es um die Netzberechnung am Rechner mit ETAP, DIgSILENT und pandapower.",
+     "ar": "في الفيديو القادم نتناول حساب الشبكات الكهربائية، ومعه أدوات ETAP وDIgSILENT وpandapower كأمثلة.",
+     "en": "The next video is about grid calculation on the computer with ETAP, DIgSILENT and pandapower.",
+     "tts": "Im nächsten Video geht es um die Netzberechnung am Rechner mit E-Täp, Dig-Sailent und Pandapauer."
     }
    ]
   }
@@ -1229,12 +1233,12 @@
   },
   {
    "de": "die Baugruppe",
-   "ar": "الوحدة الملحقة",
+   "ar": "الوحدة العتادية",
    "en": "module"
   },
   {
    "de": "die Symbolik",
-   "ar": "الترميز الرمزي",
+   "ar": "التسمية الرمزية (الأسماء بدل العناوين)",
    "en": "symbolic naming"
   },
   {
@@ -1249,7 +1253,7 @@
   },
   {
    "de": "der Funktionsbaustein",
-   "ar": "وحدة الدالة الوظيفية",
+   "ar": "كتلة وظيفية",
    "en": "function block"
   },
   {
@@ -1268,9 +1272,9 @@
    "en": "runtime"
   },
   {
-   "de": "herstellerunabhängig",
-   "ar": "مستقل عن الشركة المصنّعة",
-   "en": "vendor-independent"
+   "de": "die Herstellerunabhängigkeit",
+   "ar": "الاستقلال عن الشركة المصنّعة",
+   "en": "vendor independence"
   },
   {
    "de": "die Versionsverwaltung",
@@ -1307,9 +1311,9 @@
      "en": "Configure hardware"
     },
     {
-     "de": "Netzentgelte berechnen",
-     "ar": "احتساب رسوم الشبكة",
-     "en": "Calculate grid fees"
+     "de": "Schutzeinstellungen für ein Netz berechnen",
+     "ar": "احتساب إعدادات حماية الشبكة",
+     "en": "Calculate protection settings for a grid"
     },
     {
      "de": "Variablen verwalten",
@@ -1322,7 +1326,7 @@
   {
    "q": {
     "de": "Was bedeutet Symbolik bei Variablen?",
-    "ar": "ماذا يعني الترميز الرمزي للمتغيرات؟",
+    "ar": "ماذا تعني التسمية الرمزية للمتغيرات؟",
     "en": "What does symbolic naming of variables mean?"
    },
    "options": [
@@ -1364,7 +1368,7 @@
     {
      "de": "Nur qualifizierte Personen mit Befugnis",
      "ar": "فقط أشخاص مؤهلون لديهم تفويض",
-     "en": "Only qualified people with authorization"
+     "en": "Only qualified people with authorisation"
     }
    ],
    "answer": 2
@@ -1372,7 +1376,7 @@
   {
    "q": {
     "de": "Was heißt herstellerunabhängig bei CODESYS?",
-    "ar": "ماذا يعني الاستقلال عن الشركة المصنّعة في CODESYS؟",
+    "ar": "ماذا يعني أن CODESYS مستقل عن الشركة المصنّعة؟",
     "en": "What does vendor-independent mean for CODESYS?"
    },
    "options": [
@@ -1382,9 +1386,9 @@
      "en": "Every device is programmable"
     },
     {
-     "de": "Das Werkzeug kommt von einer Softwarefirma",
-     "ar": "الأداة تأتي من شركة برمجيات",
-     "en": "The tool comes from a software company"
+     "de": "Das Werkzeug ist nicht an einen Steuerungshersteller gebunden",
+     "ar": "الأداة غير مرتبطة بشركة مصنّعة لوحدات التحكم",
+     "en": "The tool is not tied to one controller manufacturer"
     },
     {
      "de": "Es braucht nie eine Laufzeit",
@@ -1421,9 +1425,9 @@
   }
  ],
  "next": {
-  "de": "Im nächsten Video: Netzberechnung mit ETAP, DIgSILENT und pandapower.",
-  "ar": "في الفيديو القادم: حسابات الشبكات الكهربائية بالبرامج المتخصصة.",
-  "en": "Next video: grid calculation with ETAP, DIgSILENT and pandapower."
+  "de": "Im nächsten Video: Netzberechnung am Rechner mit ETAP, DIgSILENT und pandapower.",
+  "ar": "في الفيديو القادم: حساب الشبكات الكهربائية بالحاسوب، ومعه أدوات ETAP وDIgSILENT وpandapower كأمثلة.",
+  "en": "Next video: grid calculation on the computer with ETAP, DIgSILENT and pandapower."
  },
- "stand": "2026-10-21; prüfen: IEC 61131-3 Ausgabe 2025 (EN IEC 61131-3:2025) und Status AWL; IEC 61131-10 (PLCopen XML, Ausgabe 2019); Selbstbeschreibung CODESYS Group (herstellerunabhängig); TIA-Portal-Hilfe zur Simulation (V20) und Multiuser/VCI-Funktionen (Sekundärquellen); CODESYS SVN; OpenPLC (Editor, Runtime, Lizenz, Plattformen nur sekundär 2022); DGUV Vorschrift 3 und fünf Sicherheitsregeln gegen DIN VDE 0105-100; BSI-Empfehlung Fernwartung; entfernt: Marktanteile, Preise, Lizenz-/Testzeiten, Geräte-/Herstellerzahlen, Versionsnummern, Menü-/Oberflächenbeschreibungen"
+ "stand": "2026-10-21; prüfen: IEC 61131-3 Ausgabe 2025 (EN IEC 61131-3:2025) und Status AWL; IEC 61131-10 (PLCopen XML, Ausgabe 2019); Selbstbeschreibung CODESYS Group (herstellerunabhängig); TIA-Portal-Hilfe zur Simulation (V20) und Multiuser/VCI-Funktionen (Sekundärquellen); CODESYS SVN; OpenPLC (Editor, Runtime, Lizenz, Plattformen nur sekundär 2022); DGUV Vorschrift 3 und fünf Sicherheitsregeln gegen DIN VDE 0105-100; BSI-Empfehlung Fernwartung; entfernt: Marktanteile, Preise, Lizenz-/Testzeiten, Geräte-/Herstellerzahlen, Versionsnummern, Menü-/Oberflächenbeschreibungen; abgeschwächt/entfernt (Audit): 'DIE Engineering-Umgebung', Vorteils-Zeilen 'eng abgestimmt'/'ein Werkzeug, viele Geräte', 'eigene Steuerungen' für TIA, OpenPLC 'nach IEC' und 'zum Lernen geeignet' (jetzt 'laut Fachquellen', 'zum Üben gedacht'), absolute Aussagen zu SPS-Oberfläche und Konzepten; TIA-Mehrbenutzer/VCI nur 'laut Fachquellen', Lizenz prüfen; SIMATIC-Simulation ggf. zusätzliche Software; AWL-Wegfall in Ausgabe 2025 nur nach Sekundärquellen; Wortlaut der fünf Sicherheitsregeln (allpolig) gegen DIN VDE 0105-100 prüfen"
 }

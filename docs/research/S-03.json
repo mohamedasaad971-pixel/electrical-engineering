@@ -1,29 +1,161 @@
 {
  "video": "S-03",
- "stand": "2026-10-21",
+ "stand": "2026-10-21; abgeschwächt: Kurzschlussbeitrag von Wechselrichteranlagen, IEC-60909-Umfang in pandapower, Herstellerangaben",
  "facts": [
-  {"claim": "pandapower ist ein quelloffenes, Python-basiertes Werkzeug zur Modellierung, Analyse und Optimierung von elektrischen Energiesystemen.", "source_url": "https://pypi.org/project/pandapower/", "source_name": "PyPI pandapower", "confidence": "high", "note": "Direkt abgerufen. Versionsnummer (3.5.6, 7.10.2026) nicht im Video."},
-  {"claim": "pandapower steht unter einer BSD-Lizenz (BSD 3-Clause laut Badge).", "source_url": "https://pypi.org/project/pandapower/", "source_name": "PyPI pandapower", "confidence": "high", "note": "Im Video nur 'BSD-Lizenz, quelloffen'. Ein Aggregator zeigte 'other'; Lizenzdatei im Repository prüfen."},
-  {"claim": "pandapower baut auf der Datenbibliothek pandas auf; Netze werden als Tabellen (DataFrames) je Elementtyp gespeichert (z. B. bus, line, trafo, load).", "source_url": "https://pandapower.readthedocs.io/en/v1.5.0/getting_started/introduction.html", "source_name": "pandapower Dokumentation (Einführung)", "confidence": "high", "note": "Konzept in neueren Versionen unverändert; Dokumentationsversion abgleichen."},
-  {"claim": "Zu den dokumentierten Elementen gehören Bus, Line, Trafo, Load, Sgen (statischer Generator) und Ext_grid (externes Netz/Slack).", "source_url": "https://pandapower.readthedocs.io/en/v3.5.0/_sources/elements.rst.txt", "source_name": "pandapower Dokumentation (Elemente)", "confidence": "high", "note": "Über Suchzusammenfassung."},
-  {"claim": "Ein Netz wird mit create_empty_network begonnen, Elemente werden mit create-Funktionen ergänzt; der Lastfluss wird mit runpp berechnet, Ergebnisse stehen in res-Tabellen (z. B. res_bus).", "source_url": "https://pandapower.readthedocs.io/en/v1.5.0/getting_started/introduction.html", "source_name": "pandapower Dokumentation (Einführung)", "confidence": "high", "note": "Im Video nur als Ablauf: Netz aufbauen, rechnen, Ergebnisse lesen; keine Code-Details."},
-  {"claim": "Der Standard-Algorithmus des Lastflusses (runpp) in pandapower ist das Newton-Raphson-Verfahren.", "source_url": "https://pandapower.readthedocs.io/en/latest/powerflow/ac.html", "source_name": "pandapower Dokumentation (Balanced AC Power Flow)", "confidence": "high", "note": "Im Video nur 'iteratives Verfahren'."},
-  {"claim": "pandapower deckt Lastfluss, optimalen Lastfluss, Zustandsschätzung, topologische Graphsuche und Kurzschlussberechnung nach IEC 60909 ab.", "source_url": "https://arxiv.org/abs/1709.06743v3", "source_name": "Thurner et al., IEEE Trans. Power Systems 2018 (arXiv)", "confidence": "high", "note": "Wissenschaftliche Referenzveröffentlichung; Funktionsumfang kann sich seit 2018 geändert haben."},
-  {"claim": "pandapower wurde an der Universität Kassel und am Fraunhofer-Institut (IWES, heute IEE) in Kassel entwickelt; die Lastfluss-Lösung basierte ursprünglich auf PYPOWER.", "source_url": "https://arxiv.org/abs/1709.06743v3", "source_name": "Thurner et al. (arXiv)", "confidence": "high", "note": "Institutsname: heute Fraunhofer IEE."},
-  {"claim": "Die Kurzschlussberechnung in pandapower folgt IEC 60909 (Ersatzspannungsquelle an der Fehlerstelle bzw. Überlagerungsverfahren); unterstützt werden dreipoliger, zweipoliger und einpoliger Fehler (Erdkurzschluss); zweipoliger Fehler mit Erde ist nicht verfügbar.", "source_url": "https://pandapower.readthedocs.io/en/latest/shortcircuit/currents.html", "source_name": "pandapower Dokumentation (Short-Circuit Currents)", "confidence": "high", "note": "Über Suchzusammenfassung; Fehlerarten je Version prüfen."},
-  {"claim": "In der pandapower-Kurzschlussrechnung werden Lasten und Shunts gemäß Norm vernachlässigt; berücksichtigt werden u. a. externes Netz, Generatoren, Leitungen und Transformatoren.", "source_url": "https://pandapower.readthedocs.io/en/latest/shortcircuit/currents.html", "source_name": "pandapower Dokumentation (Short-Circuit Currents)", "confidence": "medium", "note": "Über Suchzusammenfassung; im Video nur 'viele Details wie Lasten spielen bei der Norm-Kurzschlussrechnung eine kleine Rolle' wird NICHT verwendet (zu detailliert)."},
-  {"claim": "pandapower bietet Konverter für MATPOWER, PYPOWER und PowerFactory; nicht alle PowerFactory-Einstellungen sind importierbar, und dort muss ein Lastfluss berechenbar sein.", "source_url": "https://pandapower.readthedocs.io/en/latest/converter/powerfactory.html", "source_name": "pandapower Dokumentation (Converter)", "confidence": "medium", "note": "Im Video nur: 'Es gibt Konverter; nicht alles lässt sich übertragen'."},
-  {"claim": "DIgSILENT GmbH ist ein privat geführtes, unabhängiges Software- und Beratungsunternehmen mit Sitz in Gomaringen bei Tübingen; PowerFactory ist das Hauptprodukt.", "source_url": "https://www.digsilent.de/en/company.html", "source_name": "DIgSILENT GmbH, Firmenseite", "confidence": "high", "note": "Nur als Beispiel genannt, keine Bewertung."},
-  {"claim": "Laut Herstellerseite deckt PowerFactory Lastfluss, Kurzschlussberechnung (u. a. nach IEC 60909 / VDE), Schutzkoordination (Überstrom-, Differential-, Distanzschutz) und Oberschwingungsanalysen ab.", "source_url": "https://www.digsilent.de/en/industrial-systems.html", "source_name": "DIgSILENT, Industrial Systems", "confidence": "medium", "note": "Herstellerangabe (Marketing); im Video nicht als Merkmalsliste, sondern nur 'solche Programme berechnen ähnliche Aufgaben'."},
-  {"claim": "Operation Technology, Inc. (ETAP) ist ein privates Unternehmen mit Sitz in Irvine, Kalifornien; ETAP bietet Software zur Analyse und zum Betrieb elektrischer Energiesysteme.", "source_url": "https://etap.com/etap-celebrating-30-years", "source_name": "ETAP, Pressemitteilung 30 Jahre", "confidence": "medium", "note": "Nur als Beispiel genannt. Marktführer-Aussage des Herstellers NICHT übernommen."},
-  {"claim": "Laut Herstellerseite bietet ETAP ein Modul zur Schutzkoordination auf Basis von Zeit-Strom-Kennlinien (Selektivitätsanalyse), das mit der Kurzschlussrechnung verbunden ist.", "source_url": "https://etap.com/product/overcurrent-protection-selectivity", "source_name": "ETAP, Protection & Coordination", "confidence": "medium", "note": "Herstellerangabe; keine Funktionsliste im Video."},
-  {"claim": "Lastflussberechnung bestimmt Knotenspannungen und Leistungsflüsse über die Betriebsmittel; Grundprinzip ist die Leistungsbilanz in jedem Knoten. Ergebnisse zeigen mögliche Grenzwertverletzungen und kritische Lastsituationen.", "source_url": "https://www.tugraz.at/institute/iean/forschung/forschungsgebiete/uebertragung-und-verteilung-elektrischer-energie/netzberechnung-in-uebertragungsnetzen", "source_name": "TU Graz, Institut für Elektrische Anlagen und Netze", "confidence": "medium", "note": "Aus Suchzusammenfassung mehrerer Hochschulquellen (u. a. Ostfalia, TU Graz)."},
-  {"claim": "EN 60909-0 (IEC 60909-0:2016) 'Kurzschlussströme in Drehstromnetzen – Teil 0: Berechnung der Ströme' gilt für Nieder- und Hochspannungsnetze mit 50 Hz oder 60 Hz; Ausgabe 2016-06 als Fassung in DKE-Listen.", "source_url": "https://dinmedia.de/en/standard/iec-60909-0/250449341", "source_name": "DIN Media / DKE", "confidence": "medium", "note": "Ein Entwurf DIN EN IEC 60909-0 (VDE 0102):2026-04 mit Einspruchsfrist bis 2026-05-06 wurde gefunden; Status der Endfassung nicht geprüft. Im Video nur 'IEC 60909, aktuelle Fassung prüfen'."},
-  {"claim": "Selektivität bedeutet, dass nur der fehlerbetroffene Netzteil abgetrennt wird und gesunde Teile unter Spannung bleiben; Arten: Strom-, Zeit-, logische, richtungsabhängige und differentielle Selektivität.", "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:198803b4-66ca-4db9-8494-6fe876e06342/pti-protection-coordination-datasheet-de.pdf", "source_name": "Siemens PTI Datenblatt / Netzschutz-Leitfaden (Suchzusammenfassung)", "confidence": "medium", "note": "Im Video nur Strom- und Zeitstaffelung, konsistent mit scripts/E/05-schutztechnik.json."},
-  {"claim": "Zeit-Strom-Kennlinien von Schutzgeräten werden überlagert dargestellt, um Selektivität zu prüfen (Schutzkoordination).", "source_url": "https://etap.com/product/overcurrent-protection-selectivity", "source_name": "ETAP / softguide-Listing zu TCC-Software", "confidence": "medium", "note": "Zwei Quellen sinngemäß; allgemeines Konzept."},
-  {"claim": "Das (n-1)-Kriterium ist Grundlage der Netzausbauplanung im Übertragungsnetz; in der Mittelspannung ist die Anwendung wegen der Topologie aufwendig. Unterschiedliche Kriterien liefern unterschiedliche Ergebnisse.", "source_url": "https://repositum.tuwien.at/handle/20.500.12708/219623", "source_name": "TU Wien, Diplomarbeit 2025", "confidence": "medium", "note": "Österreichischer Kontext; im Video nur 'n-1-Prüfung als typische Planungsfrage' ohne Zahlen."},
-  {"claim": "Für Verteilnetzplanung ist eine belastbare Datenbasis (Netzdaten) nötig; Unsicherheiten in Prognosen und Betriebsplanung bleiben auch bei besseren Prognosen bestehen.", "source_url": "https://www.vde.com/resource/blob/2475700/cc11a0ca46a12d8ebdeb1f2011bf8345/vde-fnn-impuls-n-1-prinzip-data.pdf", "source_name": "VDE FNN Impuls (n-1-Prinzip), Mai 2026", "confidence": "low", "note": "Nur Suchzusammenfassung. Im Video nur als allgemeine Aussage 'Ergebnis ist nur so gut wie die Eingangsdaten' (Fachgrundsatz, kein Einzelbeleg)."},
-  {"claim": "Verteilnetz-Netzmodelle: Ein Vergleich mit Messungen (Validierung) ist üblich und nötig.", "source_url": "https://pandapower.readthedocs.io/en/docs/shortcircuit.html", "source_name": "pandapower Dokumentation / Validierung gegen kommerzielle Software", "confidence": "medium", "note": "pandapower-Dokumentation nennt Tests der Ergebnisse gegen kommerzielle Software. Im Video: 'Ergebnisse plausibilisieren'."}
+  {
+   "claim": "pandapower ist ein quelloffenes, Python-basiertes Werkzeug zur Modellierung, Analyse und Optimierung von elektrischen Energiesystemen.",
+   "source_url": "https://pypi.org/project/pandapower/",
+   "source_name": "PyPI pandapower",
+   "confidence": "high",
+   "note": "Direkt abgerufen. Versionsnummer (3.5.6, 7.10.2026) nicht im Video."
+  },
+  {
+   "claim": "pandapower steht unter einer BSD-Lizenz (BSD 3-Clause laut Badge).",
+   "source_url": "https://pypi.org/project/pandapower/",
+   "source_name": "PyPI pandapower",
+   "confidence": "high",
+   "note": "Im Video nur 'BSD-Lizenz, quelloffen'. Ein Aggregator zeigte 'other'; Lizenzdatei im Repository prüfen."
+  },
+  {
+   "claim": "pandapower baut auf der Datenbibliothek pandas auf; Netze werden als Tabellen (DataFrames) je Elementtyp gespeichert (z. B. bus, line, trafo, load).",
+   "source_url": "https://pandapower.readthedocs.io/en/v1.5.0/getting_started/introduction.html",
+   "source_name": "pandapower Dokumentation (Einführung)",
+   "confidence": "high",
+   "note": "Konzept in neueren Versionen unverändert; Dokumentationsversion abgleichen."
+  },
+  {
+   "claim": "Zu den dokumentierten Elementen gehören Bus, Line, Trafo, Load, Sgen (statischer Generator) und Ext_grid (externes Netz/Slack).",
+   "source_url": "https://pandapower.readthedocs.io/en/v3.5.0/_sources/elements.rst.txt",
+   "source_name": "pandapower Dokumentation (Elemente)",
+   "confidence": "high",
+   "note": "Über Suchzusammenfassung."
+  },
+  {
+   "claim": "Ein Netz wird mit create_empty_network begonnen, Elemente werden mit create-Funktionen ergänzt; der Lastfluss wird mit runpp berechnet, Ergebnisse stehen in res-Tabellen (z. B. res_bus).",
+   "source_url": "https://pandapower.readthedocs.io/en/v1.5.0/getting_started/introduction.html",
+   "source_name": "pandapower Dokumentation (Einführung)",
+   "confidence": "high",
+   "note": "Im Video nur als Ablauf: Netz aufbauen, rechnen, Ergebnisse lesen; keine Code-Details."
+  },
+  {
+   "claim": "Der Standard-Algorithmus des Lastflusses (runpp) in pandapower ist das Newton-Raphson-Verfahren.",
+   "source_url": "https://pandapower.readthedocs.io/en/latest/powerflow/ac.html",
+   "source_name": "pandapower Dokumentation (Balanced AC Power Flow)",
+   "confidence": "high",
+   "note": "Im Video nur 'iteratives Verfahren'."
+  },
+  {
+   "claim": "pandapower deckt Lastfluss, optimalen Lastfluss, Zustandsschätzung, topologische Graphsuche und Kurzschlussberechnung nach IEC 60909 ab.",
+   "source_url": "https://arxiv.org/abs/1709.06743v3",
+   "source_name": "Thurner et al., IEEE Trans. Power Systems 2018 (arXiv)",
+   "confidence": "high",
+   "note": "Wissenschaftliche Referenzveröffentlichung; Funktionsumfang kann sich seit 2018 geändert haben."
+  },
+  {
+   "claim": "pandapower wurde an der Universität Kassel und am Fraunhofer-Institut (IWES, heute IEE) in Kassel entwickelt; die Lastfluss-Lösung basierte ursprünglich auf PYPOWER.",
+   "source_url": "https://arxiv.org/abs/1709.06743v3",
+   "source_name": "Thurner et al. (arXiv)",
+   "confidence": "high",
+   "note": "Institutsname: heute Fraunhofer IEE."
+  },
+  {
+   "claim": "Die Kurzschlussberechnung in pandapower folgt IEC 60909 (Ersatzspannungsquelle an der Fehlerstelle bzw. Überlagerungsverfahren); unterstützt werden dreipoliger, zweipoliger und einpoliger Fehler (Erdkurzschluss); zweipoliger Fehler mit Erde ist nicht verfügbar.",
+   "source_url": "https://pandapower.readthedocs.io/en/latest/shortcircuit/currents.html",
+   "source_name": "pandapower Dokumentation (Short-Circuit Currents)",
+   "confidence": "high",
+   "note": "Über Suchzusammenfassung; Fehlerarten je Version prüfen."
+  },
+  {
+   "claim": "In der pandapower-Kurzschlussrechnung werden Lasten und Shunts gemäß Norm vernachlässigt; berücksichtigt werden u. a. externes Netz, Generatoren, Leitungen und Transformatoren.",
+   "source_url": "https://pandapower.readthedocs.io/en/latest/shortcircuit/currents.html",
+   "source_name": "pandapower Dokumentation (Short-Circuit Currents)",
+   "confidence": "medium",
+   "note": "Über Suchzusammenfassung; im Video nur 'viele Details wie Lasten spielen bei der Norm-Kurzschlussrechnung eine kleine Rolle' wird NICHT verwendet (zu detailliert)."
+  },
+  {
+   "claim": "pandapower bietet Konverter für MATPOWER, PYPOWER und PowerFactory; nicht alle PowerFactory-Einstellungen sind importierbar, und dort muss ein Lastfluss berechenbar sein.",
+   "source_url": "https://pandapower.readthedocs.io/en/latest/converter/powerfactory.html",
+   "source_name": "pandapower Dokumentation (Converter)",
+   "confidence": "medium",
+   "note": "Im Video nur: 'Es gibt Konverter; nicht alles lässt sich übertragen'."
+  },
+  {
+   "claim": "DIgSILENT GmbH ist ein privat geführtes, unabhängiges Software- und Beratungsunternehmen mit Sitz in Gomaringen bei Tübingen; PowerFactory ist das Hauptprodukt.",
+   "source_url": "https://www.digsilent.de/en/company.html",
+   "source_name": "DIgSILENT GmbH, Firmenseite",
+   "confidence": "high",
+   "note": "Nur als Beispiel genannt, keine Bewertung."
+  },
+  {
+   "claim": "Laut Herstellerseite deckt PowerFactory Lastfluss, Kurzschlussberechnung (u. a. nach IEC 60909 / VDE), Schutzkoordination (Überstrom-, Differential-, Distanzschutz) und Oberschwingungsanalysen ab.",
+   "source_url": "https://www.digsilent.de/en/industrial-systems.html",
+   "source_name": "DIgSILENT, Industrial Systems",
+   "confidence": "medium",
+   "note": "Herstellerangabe (Marketing); im Video nicht als Merkmalsliste, sondern nur 'solche Programme berechnen ähnliche Aufgaben'."
+  },
+  {
+   "claim": "Operation Technology, Inc. (ETAP) ist ein privates Unternehmen mit Sitz in Irvine, Kalifornien; ETAP bietet Software zur Analyse und zum Betrieb elektrischer Energiesysteme.",
+   "source_url": "https://etap.com/etap-celebrating-30-years",
+   "source_name": "ETAP, Pressemitteilung 30 Jahre",
+   "confidence": "medium",
+   "note": "Nur als Beispiel genannt. Marktführer-Aussage des Herstellers NICHT übernommen."
+  },
+  {
+   "claim": "Laut Herstellerseite bietet ETAP ein Modul zur Schutzkoordination auf Basis von Zeit-Strom-Kennlinien (Selektivitätsanalyse), das mit der Kurzschlussrechnung verbunden ist.",
+   "source_url": "https://etap.com/product/overcurrent-protection-selectivity",
+   "source_name": "ETAP, Protection & Coordination",
+   "confidence": "medium",
+   "note": "Herstellerangabe; keine Funktionsliste im Video."
+  },
+  {
+   "claim": "Lastflussberechnung bestimmt Knotenspannungen und Leistungsflüsse über die Betriebsmittel; Grundprinzip ist die Leistungsbilanz in jedem Knoten. Ergebnisse zeigen mögliche Grenzwertverletzungen und kritische Lastsituationen.",
+   "source_url": "https://www.tugraz.at/institute/iean/forschung/forschungsgebiete/uebertragung-und-verteilung-elektrischer-energie/netzberechnung-in-uebertragungsnetzen",
+   "source_name": "TU Graz, Institut für Elektrische Anlagen und Netze",
+   "confidence": "medium",
+   "note": "Aus Suchzusammenfassung mehrerer Hochschulquellen (u. a. Ostfalia, TU Graz)."
+  },
+  {
+   "claim": "EN 60909-0 (IEC 60909-0:2016) 'Kurzschlussströme in Drehstromnetzen – Teil 0: Berechnung der Ströme' gilt für Nieder- und Hochspannungsnetze mit 50 Hz oder 60 Hz; Ausgabe 2016-06 als Fassung in DKE-Listen.",
+   "source_url": "https://dinmedia.de/en/standard/iec-60909-0/250449341",
+   "source_name": "DIN Media / DKE",
+   "confidence": "medium",
+   "note": "Ein Entwurf DIN EN IEC 60909-0 (VDE 0102):2026-04 mit Einspruchsfrist bis 2026-05-06 wurde gefunden; Status der Endfassung nicht geprüft. Im Video nur 'IEC 60909, aktuelle Fassung prüfen'."
+  },
+  {
+   "claim": "Selektivität bedeutet, dass nur der fehlerbetroffene Netzteil abgetrennt wird und gesunde Teile unter Spannung bleiben; Arten: Strom-, Zeit-, logische, richtungsabhängige und differentielle Selektivität.",
+   "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:198803b4-66ca-4db9-8494-6fe876e06342/pti-protection-coordination-datasheet-de.pdf",
+   "source_name": "Siemens PTI Datenblatt / Netzschutz-Leitfaden (Suchzusammenfassung)",
+   "confidence": "medium",
+   "note": "Im Video nur Strom- und Zeitstaffelung, konsistent mit scripts/E/05-schutztechnik.json."
+  },
+  {
+   "claim": "Zeit-Strom-Kennlinien von Schutzgeräten werden überlagert dargestellt, um Selektivität zu prüfen (Schutzkoordination).",
+   "source_url": "https://etap.com/product/overcurrent-protection-selectivity",
+   "source_name": "ETAP / softguide-Listing zu TCC-Software",
+   "confidence": "medium",
+   "note": "Zwei Quellen sinngemäß; allgemeines Konzept."
+  },
+  {
+   "claim": "Das (n-1)-Kriterium ist Grundlage der Netzausbauplanung im Übertragungsnetz; in der Mittelspannung ist die Anwendung wegen der Topologie aufwendig. Unterschiedliche Kriterien liefern unterschiedliche Ergebnisse.",
+   "source_url": "https://repositum.tuwien.at/handle/20.500.12708/219623",
+   "source_name": "TU Wien, Diplomarbeit 2025",
+   "confidence": "medium",
+   "note": "Österreichischer Kontext; im Video nur 'n-1-Prüfung als typische Planungsfrage' ohne Zahlen."
+  },
+  {
+   "claim": "Für Verteilnetzplanung ist eine belastbare Datenbasis (Netzdaten) nötig; Unsicherheiten in Prognosen und Betriebsplanung bleiben auch bei besseren Prognosen bestehen.",
+   "source_url": "https://www.vde.com/resource/blob/2475700/cc11a0ca46a12d8ebdeb1f2011bf8345/vde-fnn-impuls-n-1-prinzip-data.pdf",
+   "source_name": "VDE FNN Impuls (n-1-Prinzip), Mai 2026",
+   "confidence": "low",
+   "note": "Nur Suchzusammenfassung. Im Video nur als allgemeine Aussage 'Ergebnis ist nur so gut wie die Eingangsdaten' (Fachgrundsatz, kein Einzelbeleg)."
+  },
+  {
+   "claim": "Verteilnetz-Netzmodelle: Ein Vergleich mit Messungen (Validierung) ist üblich und nötig.",
+   "source_url": "https://pandapower.readthedocs.io/en/docs/shortcircuit.html",
+   "source_name": "pandapower Dokumentation / Validierung gegen kommerzielle Software",
+   "confidence": "medium",
+   "note": "pandapower-Dokumentation nennt Tests der Ergebnisse gegen kommerzielle Software. Im Video: 'Ergebnisse plausibilisieren'."
+  }
  ],
  "dropped": [
   "Preise, Lizenzmodelle und Kosten von ETAP und PowerFactory (nicht verifiziert, schnell veränderlich)",
@@ -35,6 +167,13 @@
   "Aussagen über konkrete Anforderungen von VNB/ÜNB an Netzberechnungen (je Betreiber unterschiedlich, nicht verifiziert)",
   "Slack-Knoten-Definition ohne Primärquelle: nur als Lehrbuchbegriff 'Bezugsknoten' im Video",
   "Behauptungen zu Genauigkeit oder Fehlerquoten von Netzdaten in Deutschland (keine Quelle)",
-  "Kostenangaben von ki-syndikat.de (3.000-75.000 EUR) und Tutorial-Mirrors (unzuverlässig)"
+  "Kostenangaben von ki-syndikat.de (3.000-75.000 EUR) und Tutorial-Mirrors (unzuverlässig)",
+  "Beitrag von Wechselrichteranlagen zum Kurzschlussstrom nach IEC 60909 (kein Beleg, Modellabhängigkeit)",
+  "Aussage, Software liefere Einstellwerte als Vorschlag (nicht belegt; ETAP: Kennlinienüberlagerung und Selektivitätsanalyse)",
+  "Feature-Liste 'Beide: Lastfluss, Kurzschluss, Schutz' für ETAP/PowerFactory (Herstellermarketing)",
+  "'Bekannte Beispiele' (Verbreitungsaussage)",
+  "Kostenaussage 'Rechnen kostet wenig' (nicht belegt)",
+  "Nutzung von pandapower in Lehre und Forschung (nicht belegt) und Wertungen 'guter Einstieg', 'genügt', 'in jedem Programm gleich'",
+  "Netzanschluss als Begriff für das externe Netz (Reihenbedeutung: Anschluss des Kunden); stattdessen 'externes Netz' / Bezugsknoten"
  ]
 }

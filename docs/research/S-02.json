@@ -154,6 +154,13 @@
    "source_name": "BG ETEM; Hessische Bildungsverwaltung (E-F05)",
    "confidence": "medium",
    "note": "Aus E-F05/E-F04 übernommen; Normwortlaut nicht geprüft."
+  },
+  {
+   "claim": "Die vierte Ausgabe von IEC 61131-3 (Mai 2025) ersetzt die Ausgabe 2013; nach Sekundärquellen ist AWL darin nicht mehr enthalten, Werkzeuge dürfen sie aber weiter unterstützen.",
+   "source_url": "https://ecommerce.sist.si/catalog/standards/sist/3531260d-271b-49ce-9468-e73e22b02eab/sist-en-iec-61131-3-2025",
+   "source_name": "SIST-Katalog (EN IEC 61131-3:2025), übernommen aus E-C01",
+   "confidence": "medium",
+   "note": "Primärbeleg zum Wegfall von AWL fehlt; im Video 'laut Quellen'."
   }
  ],
  "dropped": [
@@ -166,6 +173,11 @@
   "Behauptung 'OpenPLC ist industrietauglich/zertifiziert' (nicht belegt)",
   "Abgrenzung IND.3.2 im ICS-Security-Kompendium vs. IT-Grundschutz (unklar)",
   "Vollständige Sprachliste je Hersteller (Blog-Tabellen widersprüchlich)",
-  "Aussagen, Programme ließen sich verlustfrei zwischen Herstellern portieren (widerlegt durch PLCopen-Hinweise)"
+  "Aussagen, Programme ließen sich verlustfrei zwischen Herstellern portieren (widerlegt durch PLCopen-Hinweise)",
+  "Aussage 'TIA Portal ist DIE Engineering-Umgebung von Siemens' (nur: eine Engineering-Umgebung)",
+  "Vorteils-Aussagen 'eng abgestimmt' und 'ein Werkzeug, viele Geräte' sowie 'eigene Steuerungen' für das TIA Portal (Wertung/unbelegt)",
+  "Aussage, OpenPLC sei 'zum Lernen geeignet' (nur: zum Üben gedacht, Einsatz prüfen) und Konformität 'nach IEC 61131-3' (nur laut Fachquellen 'auf Basis von')",
+  "Absolute Aussagen 'SPS hat keine Bildschirmoberfläche' und 'Konzepte in allen Werkzeugen ähnlich' (jetzt 'meist'/'vielen')",
+  "Verweise auf 'das erste Video' für Baugruppen, Kommentare und Übungen (S-01 behandelt EPLAN)"
  ]
 }
